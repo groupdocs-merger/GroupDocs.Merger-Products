@@ -69,9 +69,9 @@ steps:
     content_left: |
         [GroupDocs.Merger](https://products.groupdocs.com/merger/net) makes it easy for .NET developers to merge two or more Text files within their applications by implementing a few easy steps.
 
-        *   Create new instance of Merger class and pass source document path as a constructor parameter.
-        *   Call Join method of Merger class instance and pass second source document path.
-        *   Call Save method of Merger class instance to save the merged document.
+        *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
+        *   Call <mark>**Join**</mark> method of <mark>**Merger**</mark> class instance and pass second source document path.
+        *   Call <mark>**Save**</mark> method of <mark>**Merger**</mark> class instance to save the merged document.
         
     title_right: "System Requirements"
     content_right: |
@@ -86,7 +86,7 @@ steps:
         ```cs
         // Merge Text files using GroupDocs.Merger API
         // Instantiate Merger with input Text document
-        using (Merger merger = new Merger(input1.txt"))
+        using (Merger merger = new Merger("input1.txt"))
           {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.txt");
