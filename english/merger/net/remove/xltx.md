@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove XLTX file pages using GroupDocs.Merger API
         string filePath = "input.xltx";
-        string filePath = "output.xltx";
+        string filePathOut = "output.xltx";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove Web file pages using GroupDocs.Merger API
         string filePath = "input.html";
-        string filePath = "output.html";
+        string filePathOut = "output.html";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

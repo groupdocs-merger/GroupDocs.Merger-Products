@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove DOT file pages using GroupDocs.Merger API
         string filePath = "input.dot";
-        string filePath = "output.dot";
+        string filePathOut = "output.dot";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

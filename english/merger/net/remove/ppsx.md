@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove PPSX file pages using GroupDocs.Merger API
         string filePath = "input.ppsx";
-        string filePath = "output.ppsx";
+        string filePathOut = "output.ppsx";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

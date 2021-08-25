@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove MHTML file pages using GroupDocs.Merger API
         string filePath = "input.mhtml";
-        string filePath = "output.mhtml";
+        string filePathOut = "output.mhtml";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

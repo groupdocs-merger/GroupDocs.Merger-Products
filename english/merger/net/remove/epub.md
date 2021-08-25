@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove EPUB file pages using GroupDocs.Merger API
         string filePath = "input.epub";
-        string filePath = "output.epub";
+        string filePathOut = "output.epub";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

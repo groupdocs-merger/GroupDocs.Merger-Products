@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove TEX file pages using GroupDocs.Merger API
         string filePath = "input.tex";
-        string filePath = "output.tex";
+        string filePathOut = "output.tex";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove DOTM file pages using GroupDocs.Merger API
         string filePath = "input.dotm";
-        string filePath = "output.dotm";
+        string filePathOut = "output.dotm";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

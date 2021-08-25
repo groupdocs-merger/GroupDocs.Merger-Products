@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove Word file pages using GroupDocs.Merger API
         string filePath = "input.docx";
-        string filePath = "output.docx";
+        string filePathOut = "output.docx";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

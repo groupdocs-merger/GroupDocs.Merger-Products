@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove POTM file pages using GroupDocs.Merger API
         string filePath = "input.potm";
-        string filePath = "output.potm";
+        string filePathOut = "output.potm";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

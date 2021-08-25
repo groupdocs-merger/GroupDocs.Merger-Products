@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove XLT file pages using GroupDocs.Merger API
         string filePath = "input.xlt";
-        string filePath = "output.xlt";
+        string filePathOut = "output.xlt";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

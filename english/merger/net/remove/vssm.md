@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove VSSM file pages using GroupDocs.Merger API
         string filePath = "input.vssm";
-        string filePath = "output.vssm";
+        string filePathOut = "output.vssm";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

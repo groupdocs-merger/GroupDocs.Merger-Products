@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove ODP file pages using GroupDocs.Merger API
         string filePath = "input.odp";
-        string filePath = "output.odp";
+        string filePathOut = "output.odp";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove VSSX file pages using GroupDocs.Merger API
         string filePath = "input.vssx";
-        string filePath = "output.vssx";
+        string filePathOut = "output.vssx";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

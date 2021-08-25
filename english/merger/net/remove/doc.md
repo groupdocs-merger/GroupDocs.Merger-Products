@@ -85,9 +85,9 @@ steps:
         
     code: |
         ```cs
-        // RemoveDOC file pages using GroupDocs.Merger API
+        // Remove DOC file pages using GroupDocs.Merger API
         string filePath = "input.doc";
-        string filePath = "output.doc";
+        string filePathOut = "output.doc";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

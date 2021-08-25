@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove RTF file pages using GroupDocs.Merger API
         string filePath = "input.rtf";
-        string filePath = "output.rtf";
+        string filePathOut = "output.rtf";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

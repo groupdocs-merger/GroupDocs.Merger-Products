@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove PPTX file pages using GroupDocs.Merger API
         string filePath = "input.pptx";
-        string filePath = "output.pptx";
+        string filePathOut = "output.pptx";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

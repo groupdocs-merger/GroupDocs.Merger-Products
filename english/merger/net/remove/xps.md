@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove XPS file pages using GroupDocs.Merger API
         string filePath = "input.xps";
-        string filePath = "output.xps";
+        string filePathOut = "output.xps";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });

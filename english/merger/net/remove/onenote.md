@@ -87,7 +87,7 @@ steps:
         ```cs
         // Remove OneNote file pages using GroupDocs.Merger API
         string filePath = "input.one";
-        string filePath = "output.one";
+        string filePathOut = "output.one";
 
         // Initialise RemoveOptions class to specify page numbers to remove
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });
