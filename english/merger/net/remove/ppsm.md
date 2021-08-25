@@ -9,8 +9,8 @@ head_title: "Delete PPSM Pages in C# .NET – Remove Pages from PPSM File"
 head_description: "C# .NET users to remove or delete a single page or collection of pages from a PPSM file using documents merger and split API."
 
 ############################# Header ############################
-title: "Delete or Remove Pages from PPSM in .NET"
-description: "Delere or Remove a single page or collection of pages from a PPSM file using documents merger & split API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+title: "Delete or Remove Pages From PPSM in .NET"
+description: "Delete or Remove a single page or collection of pages from a PPSM file using documents merger & split API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
