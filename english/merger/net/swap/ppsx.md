@@ -132,212 +132,212 @@ more_formats:
     format: 
         # format loop
         - name: "Swap PDF File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/pdf/"
+          link: "https://products.groupdocs.com//merger/net/swap/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Swap Word File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/word/"
+          link: "https://products.groupdocs.com//merger/net/swap/word/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Swap Excel File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/excel/"
+          link: "https://products.groupdocs.com//merger/net/swap/excel/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Swap Worksheet File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/worksheet/"
+          link: "https://products.groupdocs.com//merger/net/swap/worksheet/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Swap DOC File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/doc/"
+          link: "https://products.groupdocs.com//merger/net/swap/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Swap DOCM File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/docm/"
+          link: "https://products.groupdocs.com//merger/net/swap/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Swap DOCX File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/docx/"
+          link: "https://products.groupdocs.com//merger/net/swap/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Swap DOT File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/dot/"
+          link: "https://products.groupdocs.com//merger/net/swap/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Swap DOTX File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/dotx/"
+          link: "https://products.groupdocs.com//merger/net/swap/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Swap DOTM File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/dotm/"
+          link: "https://products.groupdocs.com//merger/net/swap/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Swap RTF File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/rtf/"
+          link: "https://products.groupdocs.com//merger/net/swap/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Swap ODT File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/odt/"
+          link: "https://products.groupdocs.com//merger/net/swap/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Swap OTT File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/ott/"
+          link: "https://products.groupdocs.com//merger/net/swap/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Swap XLS File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/xls/"
+          link: "https://products.groupdocs.com//merger/net/swap/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Swap XLSX File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/xlsx/"
+          link: "https://products.groupdocs.com//merger/net/swap/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Swap XLAM File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/xlam/"
+          link: "https://products.groupdocs.com//merger/net/swap/xlam/"
           description: "Excel Open XML Macro-Enabled Add-in"
 
         # format loop
         - name: "Swap XLSM File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/xlsm/"
+          link: "https://products.groupdocs.com//merger/net/swap/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Swap XLSB File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/xlsb/"
+          link: "https://products.groupdocs.com//merger/net/swap/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Swap XLTX File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/xltx/"
+          link: "https://products.groupdocs.com//merger/net/swap/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Swap XLTM File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/xltm/"
+          link: "https://products.groupdocs.com//merger/net/swap/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Swap ODS File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/ods/"
+          link: "https://products.groupdocs.com//merger/net/swap/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Swap CSV File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/csv/"
+          link: "https://products.groupdocs.com//merger/net/swap/csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "Swap TSV File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/tsv/"
+          link: "https://products.groupdocs.com//merger/net/swap/tsv/"
           description: "Tab Separated Values File"
         
         # format loop
         - name: "Swap PPT File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/ppt/"
+          link: "https://products.groupdocs.com//merger/net/swap/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Swap PPTX File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/pptx/"
+          link: "https://products.groupdocs.com//merger/net/swap/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Swap PPS File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/pps/"
+          link: "https://products.groupdocs.com//merger/net/swap/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Swap PPSX File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/ppsx/"
+          link: "https://products.groupdocs.com//merger/net/swap/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Swap POTX File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/potx/"
+          link: "https://products.groupdocs.com//merger/net/swap/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Swap PPTM File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/pptm/"
+          link: "https://products.groupdocs.com//merger/net/swap/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Swap ODP File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/odp/"
+          link: "https://products.groupdocs.com//merger/net/swap/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Swap OTP File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/otp/"
+          link: "https://products.groupdocs.com//merger/net/swap/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Swap Text File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/txt/"
+          link: "https://products.groupdocs.com//merger/net/swap/txt/"
           description: "Plain Text File"
 
         # format loop
         - name: "Swap OneNote File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/one/"
+          link: "https://products.groupdocs.com//merger/net/swap/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Swap XPS File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/xps/"
+          link: "https://products.groupdocs.com//merger/net/swap/xps/"
           description: "XML Paper Specification File"
 
         # format loop
         - name: "Swap Web File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/web/"
+          link: "https://products.groupdocs.com//merger/net/swap/web/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Swap HTML File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/html/"
+          link: "https://products.groupdocs.com//merger/net/swap/html/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Swap MHT File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/mht/"
+          link: "https://products.groupdocs.com//merger/net/swap/mht/"
           description: "MHTML Web Archive"
 
         # format loop
         - name: "Swap MHTML File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/mhtml/"
+          link: "https://products.groupdocs.com//merger/net/swap/mhtml/"
           description: "MIME HTML"
 
         # format loop
         - name: "Swap TEX File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/tex/"
+          link: "https://products.groupdocs.com//merger/net/swap/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "Swap EPUB File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/epub/"
+          link: "https://products.groupdocs.com//merger/net/swap/epub/"
           description: "eBook File"
           
         # format loop
         - name: "Swap PPSM File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/ppsm/"
+          link: "https://products.groupdocs.com//merger/net/swap/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
         
         # format loop
         - name: "Swap POTM File Pages in .NET"
-          link: "https://products.groupdocs.com/swap/net/potm/"
+          link: "https://products.groupdocs.com//merger/net/swap/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
 ############################# Back to top ###############################

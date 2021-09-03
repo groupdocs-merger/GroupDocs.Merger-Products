@@ -132,22 +132,22 @@ more_formats:
     format: 
         # format loop
         - name: "Rotate PDF File Pages in .NET"
-          link: "https://products.groupdocs.com/rotate/net/pdf/"
+          link: "https://products.groupdocs.com/merger/net/rotate/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Rotate XPS File Pages in .NET"
-          link: "https://products.groupdocs.com/rotate/net/xps/"
+          link: "https://products.groupdocs.com/merger/net/rotate/xps/"
           description: "XML Paper Specification File"
 
         # format loop
         - name: "Rotate TEX File Pages in .NET"
-          link: "https://products.groupdocs.com/rotate/net/tex/"
+          link: "https://products.groupdocs.com/merger/net/rotate/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "Rotate EPUB File Pages in .NET"
-          link: "https://products.groupdocs.com/rotate/net/epub/"
+          link: "https://products.groupdocs.com/merger/net/rotate/epub/"
           description: "eBook File"          
 
 ############################# Back to top ###############################
