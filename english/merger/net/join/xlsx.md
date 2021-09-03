@@ -125,232 +125,232 @@ more_formats:
     format: 
         # format loop
         - name: "Join PDF Files"
-          link: "https://products.groupdocs.com/merger/net/pdf/"
+          link: "https://products.groupdocs.com/join/net/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Join Word Files"
-          link: "https://products.groupdocs.com/merger/net/word/"
+          link: "https://products.groupdocs.com/join/net/word/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Join Excel Files"
-          link: "https://products.groupdocs.com/merger/net/excel/"
+          link: "https://products.groupdocs.com/join/net/excel/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Join Worksheet Files"
-          link: "https://products.groupdocs.com/merger/net/worksheet/"
+          link: "https://products.groupdocs.com/join/net/worksheet/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Join Image Files"
-          link: "https://products.groupdocs.com/merger/net/image/"
+          link: "https://products.groupdocs.com/join/net/image/"
           description: "Image Files"
 
         # format loop
         - name: "Join DOC Files"
-          link: "https://products.groupdocs.com/merger/net/doc/"
+          link: "https://products.groupdocs.com/join/net/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Join DOCM Files"
-          link: "https://products.groupdocs.com/merger/net/docm/"
+          link: "https://products.groupdocs.com/join/net/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Join DOCX Files"
-          link: "https://products.groupdocs.com/merger/net/docx/"
+          link: "https://products.groupdocs.com/join/net/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Join DOT Files"
-          link: "https://products.groupdocs.com/merger/net/dot/"
+          link: "https://products.groupdocs.com/join/net/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Join DOTX Files"
-          link: "https://products.groupdocs.com/merger/net/dotx/"
+          link: "https://products.groupdocs.com/join/net/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Join DOTM Files"
-          link: "https://products.groupdocs.com/merger/net/dotm/"
+          link: "https://products.groupdocs.com/join/net/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Join RTF Files"
-          link: "https://products.groupdocs.com/merger/net/rtf/"
+          link: "https://products.groupdocs.com/join/net/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Join ODT Files"
-          link: "https://products.groupdocs.com/merger/net/odt/"
+          link: "https://products.groupdocs.com/join/net/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Join OTT Files"
-          link: "https://products.groupdocs.com/merger/net/ott/"
+          link: "https://products.groupdocs.com/join/net/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Join XLS Files"
-          link: "https://products.groupdocs.com/merger/net/xls/"
+          link: "https://products.groupdocs.com/join/net/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Join XLSX Files"
-          link: "https://products.groupdocs.com/merger/net/xlsx/"
+          link: "https://products.groupdocs.com/join/net/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Join XLAM Files"
-          link: "https://products.groupdocs.com/merger/net/xlam/"
+          link: "https://products.groupdocs.com/join/net/xlam/"
           description: "Excel Open XML Macro-Enabled Add-in"
 
         # format loop
         - name: "Join XLSM Files"
-          link: "https://products.groupdocs.com/merger/net/xlsm/"
+          link: "https://products.groupdocs.com/join/net/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Join XLSB Files"
-          link: "https://products.groupdocs.com/merger/net/xlsb/"
+          link: "https://products.groupdocs.com/join/net/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Join XLTX Files"
-          link: "https://products.groupdocs.com/merger/net/xltx/"
+          link: "https://products.groupdocs.com/join/net/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Join XLTM Files"
-          link: "https://products.groupdocs.com/merger/net/xltm/"
+          link: "https://products.groupdocs.com/join/net/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Join ODS Files"
-          link: "https://products.groupdocs.com/merger/net/ods/"
+          link: "https://products.groupdocs.com/join/net/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Join CSV Files"
-          link: "https://products.groupdocs.com/merger/net/csv/"
+          link: "https://products.groupdocs.com/join/net/csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "Join TSV Files"
-          link: "https://products.groupdocs.com/merger/net/tsv/"
+          link: "https://products.groupdocs.com/join/net/tsv/"
           description: "Tab Separated Values File"
         
         # format loop
         - name: "Join PPT Files"
-          link: "https://products.groupdocs.com/merger/net/ppt/"
+          link: "https://products.groupdocs.com/join/net/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Join PPTX Files"
-          link: "https://products.groupdocs.com/merger/net/pptx/"
+          link: "https://products.groupdocs.com/join/net/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Join PPS Files"
-          link: "https://products.groupdocs.com/merger/net/pps/"
+          link: "https://products.groupdocs.com/join/net/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Join PPSX Files"
-          link: "https://products.groupdocs.com/merger/net/ppsx/"
+          link: "https://products.groupdocs.com/join/net/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Join POTX Files"
-          link: "https://products.groupdocs.com/merger/net/potx/"
+          link: "https://products.groupdocs.com/join/net/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Join PPTM Files"
-          link: "https://products.groupdocs.com/merger/net/pptm/"
+          link: "https://products.groupdocs.com/join/net/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Join ODP Files"
-          link: "https://products.groupdocs.com/merger/net/odp/"
+          link: "https://products.groupdocs.com/join/net/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Join OTP Files"
-          link: "https://products.groupdocs.com/merger/net/otp/"
+          link: "https://products.groupdocs.com/join/net/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Join Text Files"
-          link: "https://products.groupdocs.com/merger/net/txt/"
+          link: "https://products.groupdocs.com/join/net/txt/"
           description: "Plain Text File"
 
         # format loop
         - name: "Join OneNote Files"
-          link: "https://products.groupdocs.com/merger/net/one/"
+          link: "https://products.groupdocs.com/join/net/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Join TIFF Files"
-          link: "https://products.groupdocs.com/merger/net/tiff/"
+          link: "https://products.groupdocs.com/join/net/tiff/"
           description: "Tagged Image File Format"
         
         # format loop
         - name: "Join PNG Files"
-          link: "https://products.groupdocs.com/merger/net/png/"
+          link: "https://products.groupdocs.com/join/net/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Join BMP Files"
-          link: "https://products.groupdocs.com/merger/net/bmp/"
+          link: "https://products.groupdocs.com/join/net/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Join XPS Files"
-          link: "https://products.groupdocs.com/merger/net/xps/"
+          link: "https://products.groupdocs.com/join/net/xps/"
           description: "XML Paper Specification File"
 
         # format loop
         - name: "Join Web Files"
-          link: "https://products.groupdocs.com/merger/net/web/"
+          link: "https://products.groupdocs.com/join/net/web/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Join HTML Files"
-          link: "https://products.groupdocs.com/merger/net/html/"
+          link: "https://products.groupdocs.com/join/net/html/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Join MHT Files"
-          link: "https://products.groupdocs.com/merger/net/mht/"
+          link: "https://products.groupdocs.com/join/net/mht/"
           description: "MHTML Web Archive"
 
         # format loop
         - name: "Join MHTML Files"
-          link: "https://products.groupdocs.com/merger/net/mhtml/"
+          link: "https://products.groupdocs.com/join/net/mhtml/"
           description: "MIME HTML"
 
         # format loop
         - name: "Join TEX Files"
-          link: "https://products.groupdocs.com/merger/net/tex/"
+          link: "https://products.groupdocs.com/join/net/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "Join EPUB Files"
-          link: "https://products.groupdocs.com/merger/net/epub/"
+          link: "https://products.groupdocs.com/join/net/epub/"
           description: "eBook File"
           
         # format loop
         - name: "Join PPSM Files"
-          link: "https://products.groupdocs.com/merger/net/ppsm/"
+          link: "https://products.groupdocs.com/join/net/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
         
         # format loop
         - name: "Join POTM Files"
-          link: "https://products.groupdocs.com/merger/net/potm/"
+          link: "https://products.groupdocs.com/join/net/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
 ############################# Back to top ###############################

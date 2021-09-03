@@ -132,212 +132,212 @@ more_formats:
     format: 
         # format loop
         - name: "Move PDF File Pages"
-          link: "https://products.groupdocs.com/merger/net/pdf/"
+          link: "https://products.groupdocs.com/move/net/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Move Word File Pages"
-          link: "https://products.groupdocs.com/merger/net/word/"
+          link: "https://products.groupdocs.com/move/net/word/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Move Excel File Pages"
-          link: "https://products.groupdocs.com/merger/net/excel/"
+          link: "https://products.groupdocs.com/move/net/excel/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Move Worksheet File Pages"
-          link: "https://products.groupdocs.com/merger/net/worksheet/"
+          link: "https://products.groupdocs.com/move/net/worksheet/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Move DOC File Pages"
-          link: "https://products.groupdocs.com/merger/net/doc/"
+          link: "https://products.groupdocs.com/move/net/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Move DOCM File Pages"
-          link: "https://products.groupdocs.com/merger/net/docm/"
+          link: "https://products.groupdocs.com/move/net/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Move DOCX File Pages"
-          link: "https://products.groupdocs.com/merger/net/docx/"
+          link: "https://products.groupdocs.com/move/net/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Move DOT File Pages"
-          link: "https://products.groupdocs.com/merger/net/dot/"
+          link: "https://products.groupdocs.com/move/net/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Move DOTX File Pages"
-          link: "https://products.groupdocs.com/merger/net/dotx/"
+          link: "https://products.groupdocs.com/move/net/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Move DOTM File Pages"
-          link: "https://products.groupdocs.com/merger/net/dotm/"
+          link: "https://products.groupdocs.com/move/net/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Move RTF File Pages"
-          link: "https://products.groupdocs.com/merger/net/rtf/"
+          link: "https://products.groupdocs.com/move/net/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Move ODT File Pages"
-          link: "https://products.groupdocs.com/merger/net/odt/"
+          link: "https://products.groupdocs.com/move/net/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Move OTT File Pages"
-          link: "https://products.groupdocs.com/merger/net/ott/"
+          link: "https://products.groupdocs.com/move/net/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Move XLS File Pages"
-          link: "https://products.groupdocs.com/merger/net/xls/"
+          link: "https://products.groupdocs.com/move/net/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Move XLSX File Pages"
-          link: "https://products.groupdocs.com/merger/net/xlsx/"
+          link: "https://products.groupdocs.com/move/net/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Move XLAM File Pages"
-          link: "https://products.groupdocs.com/merger/net/xlam/"
+          link: "https://products.groupdocs.com/move/net/xlam/"
           description: "Excel Open XML Macro-Enabled Add-in"
 
         # format loop
         - name: "Move XLSM File Pages"
-          link: "https://products.groupdocs.com/merger/net/xlsm/"
+          link: "https://products.groupdocs.com/move/net/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Move XLSB File Pages"
-          link: "https://products.groupdocs.com/merger/net/xlsb/"
+          link: "https://products.groupdocs.com/move/net/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Move XLTX File Pages"
-          link: "https://products.groupdocs.com/merger/net/xltx/"
+          link: "https://products.groupdocs.com/move/net/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Move XLTM File Pages"
-          link: "https://products.groupdocs.com/merger/net/xltm/"
+          link: "https://products.groupdocs.com/move/net/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Move ODS File Pages"
-          link: "https://products.groupdocs.com/merger/net/ods/"
+          link: "https://products.groupdocs.com/move/net/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Move CSV File Pages"
-          link: "https://products.groupdocs.com/merger/net/csv/"
+          link: "https://products.groupdocs.com/move/net/csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "Move TSV File Pages"
-          link: "https://products.groupdocs.com/merger/net/tsv/"
+          link: "https://products.groupdocs.com/move/net/tsv/"
           description: "Tab Separated Values File"
         
         # format loop
         - name: "Move PPT File Pages"
-          link: "https://products.groupdocs.com/merger/net/ppt/"
+          link: "https://products.groupdocs.com/move/net/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Move PPTX File Pages"
-          link: "https://products.groupdocs.com/merger/net/pptx/"
+          link: "https://products.groupdocs.com/move/net/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Move PPS File Pages"
-          link: "https://products.groupdocs.com/merger/net/pps/"
+          link: "https://products.groupdocs.com/move/net/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Move PPSX File Pages"
-          link: "https://products.groupdocs.com/merger/net/ppsx/"
+          link: "https://products.groupdocs.com/move/net/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Move POTX File Pages"
-          link: "https://products.groupdocs.com/merger/net/potx/"
+          link: "https://products.groupdocs.com/move/net/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Move PPTM File Pages"
-          link: "https://products.groupdocs.com/merger/net/pptm/"
+          link: "https://products.groupdocs.com/move/net/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Move ODP File Pages"
-          link: "https://products.groupdocs.com/merger/net/odp/"
+          link: "https://products.groupdocs.com/move/net/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Move OTP File Pages"
-          link: "https://products.groupdocs.com/merger/net/otp/"
+          link: "https://products.groupdocs.com/move/net/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Move Text File Pages"
-          link: "https://products.groupdocs.com/merger/net/txt/"
+          link: "https://products.groupdocs.com/move/net/txt/"
           description: "Plain Text File"
 
         # format loop
         - name: "Move OneNote File Pages"
-          link: "https://products.groupdocs.com/merger/net/one/"
+          link: "https://products.groupdocs.com/move/net/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Move XPS File Pages"
-          link: "https://products.groupdocs.com/merger/net/xps/"
+          link: "https://products.groupdocs.com/move/net/xps/"
           description: "XML Paper Specification File"
 
         # format loop
         - name: "Move Web File Pages"
-          link: "https://products.groupdocs.com/merger/net/web/"
+          link: "https://products.groupdocs.com/move/net/web/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Move HTML File Pages"
-          link: "https://products.groupdocs.com/merger/net/html/"
+          link: "https://products.groupdocs.com/move/net/html/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Move MHT File Pages"
-          link: "https://products.groupdocs.com/merger/net/mht/"
+          link: "https://products.groupdocs.com/move/net/mht/"
           description: "MHTML Web Archive"
 
         # format loop
         - name: "Move MHTML File Pages"
-          link: "https://products.groupdocs.com/merger/net/mhtml/"
+          link: "https://products.groupdocs.com/move/net/mhtml/"
           description: "MIME HTML"
 
         # format loop
         - name: "Move TEX File Pages"
-          link: "https://products.groupdocs.com/merger/net/tex/"
+          link: "https://products.groupdocs.com/move/net/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "Move EPUB File Pages"
-          link: "https://products.groupdocs.com/merger/net/epub/"
+          link: "https://products.groupdocs.com/move/net/epub/"
           description: "eBook File"
           
         # format loop
         - name: "Move PPSM File Pages"
-          link: "https://products.groupdocs.com/merger/net/ppsm/"
+          link: "https://products.groupdocs.com/move/net/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
         
         # format loop
         - name: "Move POTM File Pages"
-          link: "https://products.groupdocs.com/merger/net/potm/"
+          link: "https://products.groupdocs.com/move/net/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
 ############################# Back to top ###############################

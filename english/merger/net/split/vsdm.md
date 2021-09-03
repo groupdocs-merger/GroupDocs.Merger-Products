@@ -128,212 +128,212 @@ more_formats:
     format: 
         # format loop
         - name: "Split PDF File in .NET"
-          link: "https://products.groupdocs.com/merger/net/pdf/"
+          link: "https://products.groupdocs.com/split/net/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Split Word File in .NET"
-          link: "https://products.groupdocs.com/merger/net/word/"
+          link: "https://products.groupdocs.com/split/net/word/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Split Excel File in .NET"
-          link: "https://products.groupdocs.com/merger/net/excel/"
+          link: "https://products.groupdocs.com/split/net/excel/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Split Worksheet File in .NET"
-          link: "https://products.groupdocs.com/merger/net/worksheet/"
+          link: "https://products.groupdocs.com/split/net/worksheet/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Split DOC File in .NET"
-          link: "https://products.groupdocs.com/merger/net/doc/"
+          link: "https://products.groupdocs.com/split/net/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Split DOCM File in .NET"
-          link: "https://products.groupdocs.com/merger/net/docm/"
+          link: "https://products.groupdocs.com/split/net/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Split DOCX File in .NET"
-          link: "https://products.groupdocs.com/merger/net/docx/"
+          link: "https://products.groupdocs.com/split/net/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Split DOT File in .NET"
-          link: "https://products.groupdocs.com/merger/net/dot/"
+          link: "https://products.groupdocs.com/split/net/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Split DOTX File in .NET"
-          link: "https://products.groupdocs.com/merger/net/dotx/"
+          link: "https://products.groupdocs.com/split/net/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Split DOTM File in .NET"
-          link: "https://products.groupdocs.com/merger/net/dotm/"
+          link: "https://products.groupdocs.com/split/net/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Split RTF File in .NET"
-          link: "https://products.groupdocs.com/merger/net/rtf/"
+          link: "https://products.groupdocs.com/split/net/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Split ODT File in .NET"
-          link: "https://products.groupdocs.com/merger/net/odt/"
+          link: "https://products.groupdocs.com/split/net/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Split OTT File in .NET"
-          link: "https://products.groupdocs.com/merger/net/ott/"
+          link: "https://products.groupdocs.com/split/net/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Split XLS File in .NET"
-          link: "https://products.groupdocs.com/merger/net/xls/"
+          link: "https://products.groupdocs.com/split/net/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Split XLSX File in .NET"
-          link: "https://products.groupdocs.com/merger/net/xlsx/"
+          link: "https://products.groupdocs.com/split/net/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Split XLAM File in .NET"
-          link: "https://products.groupdocs.com/merger/net/xlam/"
+          link: "https://products.groupdocs.com/split/net/xlam/"
           description: "Excel Open XML Macro-Enabled Add-in"
 
         # format loop
         - name: "Split XLSM File in .NET"
-          link: "https://products.groupdocs.com/merger/net/xlsm/"
+          link: "https://products.groupdocs.com/split/net/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Split XLSB File in .NET"
-          link: "https://products.groupdocs.com/merger/net/xlsb/"
+          link: "https://products.groupdocs.com/split/net/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Split XLTX File in .NET"
-          link: "https://products.groupdocs.com/merger/net/xltx/"
+          link: "https://products.groupdocs.com/split/net/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Split XLTM File in .NET"
-          link: "https://products.groupdocs.com/merger/net/xltm/"
+          link: "https://products.groupdocs.com/split/net/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Split ODS File in .NET"
-          link: "https://products.groupdocs.com/merger/net/ods/"
+          link: "https://products.groupdocs.com/split/net/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Split CSV File in .NET"
-          link: "https://products.groupdocs.com/merger/net/csv/"
+          link: "https://products.groupdocs.com/split/net/csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "Split TSV File in .NET"
-          link: "https://products.groupdocs.com/merger/net/tsv/"
+          link: "https://products.groupdocs.com/split/net/tsv/"
           description: "Tab Separated Values File"
         
         # format loop
         - name: "Split PPT File in .NET"
-          link: "https://products.groupdocs.com/merger/net/ppt/"
+          link: "https://products.groupdocs.com/split/net/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Split PPTX File in .NET"
-          link: "https://products.groupdocs.com/merger/net/pptx/"
+          link: "https://products.groupdocs.com/split/net/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Split PPS File in .NET"
-          link: "https://products.groupdocs.com/merger/net/pps/"
+          link: "https://products.groupdocs.com/split/net/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Split PPSX File in .NET"
-          link: "https://products.groupdocs.com/merger/net/ppsx/"
+          link: "https://products.groupdocs.com/split/net/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Split POTX File in .NET"
-          link: "https://products.groupdocs.com/merger/net/potx/"
+          link: "https://products.groupdocs.com/split/net/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Split PPTM File in .NET"
-          link: "https://products.groupdocs.com/merger/net/pptm/"
+          link: "https://products.groupdocs.com/split/net/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Split ODP File in .NET"
-          link: "https://products.groupdocs.com/merger/net/odp/"
+          link: "https://products.groupdocs.com/split/net/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Split OTP File in .NET"
-          link: "https://products.groupdocs.com/merger/net/otp/"
+          link: "https://products.groupdocs.com/split/net/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Split Text File in .NET"
-          link: "https://products.groupdocs.com/merger/net/txt/"
+          link: "https://products.groupdocs.com/split/net/txt/"
           description: "Plain Text File"
 
         # format loop
         - name: "Split OneNote File in .NET"
-          link: "https://products.groupdocs.com/merger/net/one/"
+          link: "https://products.groupdocs.com/split/net/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Split XPS File in .NET"
-          link: "https://products.groupdocs.com/merger/net/xps/"
+          link: "https://products.groupdocs.com/split/net/xps/"
           description: "XML Paper Specification File"
 
         # format loop
         - name: "Split Web File in .NET"
-          link: "https://products.groupdocs.com/merger/net/web/"
+          link: "https://products.groupdocs.com/split/net/web/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Split HTML File in .NET"
-          link: "https://products.groupdocs.com/merger/net/html/"
+          link: "https://products.groupdocs.com/split/net/html/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Split MHT File in .NET"
-          link: "https://products.groupdocs.com/merger/net/mht/"
+          link: "https://products.groupdocs.com/split/net/mht/"
           description: "MHTML Web Archive"
 
         # format loop
         - name: "Split MHTML File in .NET"
-          link: "https://products.groupdocs.com/merger/net/mhtml/"
+          link: "https://products.groupdocs.com/split/net/mhtml/"
           description: "MIME HTML"
 
         # format loop
         - name: "Split TEX File in .NET"
-          link: "https://products.groupdocs.com/merger/net/tex/"
+          link: "https://products.groupdocs.com/split/net/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "Split EPUB File in .NET"
-          link: "https://products.groupdocs.com/merger/net/epub/"
+          link: "https://products.groupdocs.com/split/net/epub/"
           description: "eBook File"
           
         # format loop
         - name: "Split PPSM File in .NET"
-          link: "https://products.groupdocs.com/merger/net/ppsm/"
+          link: "https://products.groupdocs.com/split/net/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
         
         # format loop
         - name: "Split POTM File in .NET"
-          link: "https://products.groupdocs.com/merger/net/potm/"
+          link: "https://products.groupdocs.com/split/net/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
 ############################# Back to top ###############################
