@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one XLSB files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
+        Join more than one XLSB files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/xlsb) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

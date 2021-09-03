@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Exchange Document Pages"
     content: |
-        Swap pages within XLAM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
+        Swap pages within XLAM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/xlam) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

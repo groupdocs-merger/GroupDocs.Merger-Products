@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Exchange Document Pages"
     content: |
-        Swap pages within OTP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
+        Swap pages within OTP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/otp) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

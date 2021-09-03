@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Combine Documents"
     content: |
-        Combine more than one MHTML files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
+        Combine more than one MHTML files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/mhtml) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

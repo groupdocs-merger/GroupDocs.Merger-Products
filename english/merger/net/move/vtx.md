@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Reorder Document Pages"
     content: |
-        Move pages within VTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
+        Move pages within VTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/vtx) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

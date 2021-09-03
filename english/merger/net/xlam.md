@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Merge Documents"
     content: |
-        Merge more than one XLAM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
+        Merge more than one XLAM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/xlam) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

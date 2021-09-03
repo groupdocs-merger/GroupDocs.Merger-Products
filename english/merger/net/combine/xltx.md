@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Combine Documents"
     content: |
-        Combine more than one XLTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
+        Combine more than one XLTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/xltx) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

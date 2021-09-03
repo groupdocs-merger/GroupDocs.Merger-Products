@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Merge Documents"
     content: |
-        Merge more than one POTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
+        Merge more than one POTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/potx) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

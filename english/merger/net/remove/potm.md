@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Delete Document Pages"
     content: |
-        Remove pages within POTM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
+        Remove pages within POTM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/potm) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

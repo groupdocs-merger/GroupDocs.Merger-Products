@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Rotate Document Pages"
     content: |
-        Rotate pages within TEX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
+        Rotate pages within TEX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/tex) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
