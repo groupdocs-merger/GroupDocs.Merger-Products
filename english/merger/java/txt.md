@@ -6,8 +6,8 @@ path: "merger/java/txt/"
 otherformats: PDF BMP CSV DOC DOCM DOCX DOT DOTM DOTX EPUB Excel HTML Image MHT MHTML ODP ODS ODT OneNote OTP OTT PDF PNG POTM POTX PPS PPSM PPSX PPT PPTM PPTX PS RTF TEX TIF TIFF TSV VDX Visio VSDM VSDX VSSX VSSM VSTM VSTX VSX VTX Web Word Worksheet XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX XPS 
 
 ############################# Head ############################
-head_title: "Merge TXT Files into One via Java Merger API"
-head_description: "Merge multiple BMP files into a single file using Java documents merger API with all data, style and formatting as the source documents."
+head_title: "Merge TXT Files via Java & J2SE Documents Merger API"
+head_description: "Merge multiple TXT files into a single file using Java documents merger API with all data, style and formatting as the source documents."
 
 ############################# Header ############################
 title: "Merge TXT Files in Java Applications"
