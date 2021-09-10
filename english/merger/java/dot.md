@@ -3,7 +3,7 @@
 layout: "autogen"
 draft: false
 path: "merger/java/dot/"
-otherformats: PDF BMP CSV DOC DOCM DOCX DOTM DOTX EPUB Excel HTML Image MHT MHTML ODP ODS ODT OneNote OTP OTT PDF PNG POTM POTX PPS PPSM PPSX PPT PPTM PPTX PS RTF TEX TIF TIFF TSV TXT VDX Visio VSDM VSDX VSSX VSSM VSTM VSTX VSX VTX Web Word Worksheet XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX XPS 
+otherformats: PDF BMP CSV DOC DOCM DOCX DOTM DOTX EPUB Excel HTML Image MHT MHTML ODP ODS ODT OTP OTT PDF PNG POTM POTX PPS PPSM PPSX PPT PPTM PPTX PS RTF TEX TIF TIFF TSV TXT VDX Visio VSDM VSDX VSSX VSSM VSTM VSTX VSX VTX Web Word Worksheet XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX XPS 
 
 ############################# Head ############################
 head_title: "Merge DOT Files via Java & J2SE Documents Merger API"
@@ -39,7 +39,7 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        Before executing the code example below, please make sure that you have the following prerequisites installled on your system.
+        Before executing the code example below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: NetBeans, IntelliJ IDEA, Eclipse

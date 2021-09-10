@@ -23,7 +23,7 @@ apis:
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/merger/net"
+        - link: "/merger/net/"
           img_alt: "GroupDocs.Merger for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
           product: "GroupDocs.Merger for"
@@ -31,7 +31,7 @@ apis:
           content: "On Premise APIs that can help you implement quick split and merge feature for multiple documents in your .NET based applications."
 
         # api_product loop
-        - link: "/merger/java"
+        - link: "/merger/java/"
           img_alt: "GroupDocs.Merger for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
           product: "GroupDocs.Merger for"

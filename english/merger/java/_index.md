@@ -268,7 +268,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
           product: "GroupDocs.Merger"
           platform: ".NET"
-          link: "/merger/net"
+          link: "/merger/net/"
 
 ############################# Back to top ###############################
 back_to_top:

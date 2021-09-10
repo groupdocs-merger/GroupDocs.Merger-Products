@@ -39,7 +39,7 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        Before executing the code example below, please make sure that you have the following prerequisites installled on your system.
+        Before executing the code example below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: NetBeans, IntelliJ IDEA, Eclipse

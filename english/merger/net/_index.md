@@ -276,7 +276,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
           product: "GroupDocs.Merger"
           platform: "Java"
-          link: "/merger/java"
+          link: "/merger/java/"
 
 ############################# Back to top ###############################
 back_to_top:
