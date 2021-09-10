@@ -19,7 +19,7 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Merger On Premise APIs Include"
-      link: "/merger"
+      link: "/merger/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
