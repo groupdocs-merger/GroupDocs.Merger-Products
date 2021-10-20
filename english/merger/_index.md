@@ -10,7 +10,7 @@ head_description: "Merge & Split MS Office, OpenDocument, PDF images & other Fil
 
 ############################# Header ############################
 title: "Solution to Merge and Split Documents"
-description: "‎Easily merge multiple documents or split Microsoft Office, OpenOffice, PDF and other documents into pages.‎"
+description: "Easily merge multiple documents or split Microsoft Office, OpenOffice, PDF and other documents into pages."
 
 ############################# APIs ###############################
 apis:
