@@ -22,13 +22,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Copycat-Stage
+    - name: Copycat
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.REPO_TOKEN }}
         src_path: ./english/
         dst_path: /content/
         dst_owner: groupdocs
-        dst_repo_name: products-qa.groupdocs.com
+        dst_repo_name: products.groupdocs.com
         dst_branch: main
         src_branch: master
