@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-16T15:47:13
 draft: false
 
 ############################# Head ############################
-head_title: "Merge XLSB Files into One in C# (.NET Core) – XLSB Merger"
-head_description: "Merge multiple XLSB files into a single file using C# .NET documents merger API. Merge specific pages or page ranges from various documents to a single document."
+head_title: "Merge XLSB Files in C# – XLSB Merger"
+head_description: "Merge multiple XLSB files into a single file using C#/.NET merger API. Merge specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
-title: "Merge XLSB Files In C# (.NET Core)"
-description: "Merge multiple XLSB files into a single file using C# .NET documents merger API. Merge selected pages or page ranges from various source documents into a single resultant document."
+title: "Merge XLSB Files In C#"
+description: "Merge multiple XLSB files into a single file using C# merger API. Merge selected pages or page ranges from various source documents into a single resultant document."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Merge Documents"
     content: |
-        Merge more than one XLSB files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/xlsb) website.  
+        Merge more than one XLSB files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-image-o"
           title: "About XLSB File Format"
           content: |
-            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file. XLSB files can be read and written to faster which makes them useful for working with large files. XLSB is seldom used to store workbooks as XLSX (and previously XLS) are the most common user selected file formats for saving workbooks. It can be opened by Microsoft Office 2007 and above.
+            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file.
 
           link: "https://docs.fileformat.com/spreadsheet/xlsb/"
 

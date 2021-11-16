@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-16T15:47:12
 draft: false
 
 ############################# Head ############################
-head_title: "Merge ODS Files into One in C# (.NET Core) – ODS Merger"
-head_description: "Merge multiple ODS files into a single file using C# .NET documents merger API. Merge specific pages or page ranges from various documents to a single document."
+head_title: "Merge ODS Files in C# – ODS Merger"
+head_description: "Merge multiple ODS files into a single file using C#/.NET merger API. Merge specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
-title: "Merge ODS Files In C# (.NET Core)"
-description: "Merge multiple ODS files into a single file using C# .NET documents merger API. Merge selected pages or page ranges from various source documents into a single resultant document."
+title: "Merge ODS Files In C#"
+description: "Merge multiple ODS files into a single file using C# merger API. Merge selected pages or page ranges from various source documents into a single resultant document."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Merge Documents"
     content: |
-        Merge more than one ODS files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/ods) website.  
+        Merge more than one ODS files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-image-o"
           title: "About ODS File Format"
           content: |
-            Files with .ods extension stand for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. It is XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS. A number of applications on Windows as well as other operating systems can open ODS files for editing and manipulation including Microsoft Excel, NeoOffice and LibreOffice. ODS files can also be converted into other spreadsheet formats as well like XLS, XLSX and others by different applications.
+            Files with ODS extension stand for OpenDocument Spreadsheet Document format that is editable by the user. Data is stored inside the ODF file into rows and columns. It is an XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS.
 
           link: "https://docs.fileformat.com/spreadsheet/ods/"
 

@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-16T15:47:13
 draft: false
 
 ############################# Head ############################
-head_title: "Merge VSDX Files into One in C# (.NET Core) – VSDX Merger"
-head_description: "Merge multiple VSDX files into a single file using C# .NET documents merger API. Merge specific pages or page ranges from various documents to a single document."
+head_title: "Merge VSDX Files in C# – VSDX Merger"
+head_description: "Merge multiple VSDX files into a single file using C#/.NET merger API. Merge specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
-title: "Merge VSDX Files In C# (.NET Core)"
-description: "Merge multiple VSDX files into a single file using C# .NET documents merger API. Merge selected pages or page ranges from various source documents into a single resultant document."
+title: "Merge VSDX Files In C#"
+description: "Merge multiple VSDX files into a single file using C# merger API. Merge selected pages or page ranges from various source documents into a single resultant document."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Merge Documents"
     content: |
-        Merge more than one VSDX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/vsdx) website.  
+        Merge more than one VSDX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -112,7 +112,7 @@ about_formats:
         - icon: "far fa-file-image-o"
           title: "About VSDX File Format"
           content: |
-            Files with .vsdx extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Files with .VSDX extension represents Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server.
 
           link: "https://docs.fileformat.com/image/vsdx/"
 

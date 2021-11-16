@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-16T15:47:12
 draft: false
 
 ############################# Head ############################
-head_title: "Merge CSV Files into One in C# (.NET Core) – CSV Merger"
-head_description: "Merge multiple CSV files into a single file using C# .NET documents merger API. Merge specific pages or page ranges from various documents to a single document."
+head_title: "Merge CSV Files in C# – CSV Merger"
+head_description: "Merge multiple CSV files into a single file using C#/.NET merger API. Merge specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
-title: "Merge CSV Files In C# (.NET Core)"
-description: "Merge multiple CSV files into a single file using C# .NET documents merger API. Merge selected pages or page ranges from various source documents into a single resultant document."
+title: "Merge CSV Files In C#"
+description: "Merge multiple CSV files into a single file using C# merger API. Merge selected pages or page ranges from various source documents into a single resultant document."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Merge Documents"
     content: |
-        Merge more than one CSV files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/csv) website.  
+        Merge more than one CSV files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-image-o"
           title: "About CSV File Format"
           content: |
-            Files with .csv (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently. Almost all spreadsheet applications such as Microsoft Excel or OpenOffice Calc can import CSV without much effort. Data imported from such files is arranged in cells of a spreadsheet for representation to user.
+            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently.
 
           link: "https://docs.fileformat.com/spreadsheet/csv/"
 
