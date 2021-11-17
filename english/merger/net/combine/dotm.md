@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-17T13:33:29
 draft: false
 
 ############################# Head ############################
-head_title: "Combine DOTM Files into One in C# (.NET Core) – DOTM Merger"
+head_title: "Combine DOTM Files in C# | DOTM Merger"
 head_description: "Combine multiple DOTM files into a single file using C# .NET documents merger API. Combine specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
-title: "Combine DOTM Files In C# (.NET Core)"
+title: "Combine DOTM Files In C#"
 description: "Combine multiple DOTM files into a single file using C# .NET documents merger API. Combine selected pages or page ranges from various source documents into a single resultant document."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Combine Documents"
     content: |
-        Combine more than one DOTM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/dotm) website.  
+        Combine more than one DOTM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,7 +109,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-word-o"
+        - icon: "far fa-file-DOTM"
           title: "About DOTM File Format"
           content: |
             A file with DOTM extension represents template file created with Microsoft Word 2007 or higher. It is similar to the popular DOCX file format other than it retains the user defined settings for reuse in case of creating new documents. Such documents are more often used in offices where a standard template file is generated with settings like page information, margins, default layout and macros, and is used to create new documents from it when required. DOTM files, however, save macros, that are a series of commands in the form of recorded actions for automatic completion of a task. This helps save time in carrying out actions that are repeated in completion of a task.

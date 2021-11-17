@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-17T13:33:29
 draft: false
 
 ############################# Head ############################
-head_title: "Combine Text Files into One in C# (.NET Core) – Text Merger"
-head_description: "Combine multiple Text files into a single file using C# .NET documents merger API. Combine specific pages or page ranges from various documents to a single document."
+head_title: "Combine TXT Files in C# | TXT Merger"
+head_description: "Combine multiple TXT files into a single file using C# .NET documents merger API. Combine specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
-title: "Combine Text Files In C# (.NET Core)"
-description: "Combine multiple Text files into a single file using C# .NET documents merger API. Combine selected pages or page ranges from various source documents into a single resultant document."
+title: "Combine TXT Files In C#"
+description: "Combine multiple TXT files into a single file using C# .NET documents merger API. Combine selected pages or page ranges from various source documents into a single resultant document."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -65,9 +65,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "How to Combine Multiple Text Files"
+    title_left: "How to Combine Multiple TXT Files"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/net) makes it easy for .NET developers to combine two or more Text files within their applications by implementing a few easy steps.
+        [GroupDocs.Merger](https://products.groupdocs.com/merger/net) makes it easy for .NET developers to combine two or more TXT files within their applications by implementing a few easy steps.
 
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
         *   Call <mark>**Join**</mark> method of <mark>**Merger**</mark> class instance and pass second source document path.
@@ -84,8 +84,8 @@ steps:
         
     code: |
         ```cs
-        // Combine Text files using GroupDocs.Merger API
-        // Instantiate Merger with input Text document
+        // Combine TXT files using GroupDocs.Merger API
+        // Instantiate Merger with input TXT document
         using (Merger merger = new Merger("input1.txt"))
           {
             // Call Join method of Merger class instance and pass second source document path
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Combine Documents"
     content: |
-        Combine more than one Text files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/txt) website.  
+        Combine more than one TXT files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,12 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-text-o"
-          title: "About Text File Format"
+        - icon: "far fa-file-word"
+          title: "About TXT File Format"
           content: |
             A file with .TXT extension represents a text document that contains plain text in the form of lines. Paragraphs in a text document are recognized by carriage returns and are used for better arrangement of file contents. A standard text document can be opened in any text editor or word processing application on different operating systems. All the text contained in such a file is in human-readable format and represented by sequence of characters.
-
-            Text files can store large amount of data as there is no limitation on the size of contents. However, text editors opening such large files need to be smart for loading and displaying these. Almost all operating systems come with text editors that allow you to create and edit text files. For example, Windows OS comes with Notepad and Wordpad for this purpose. Similarly, MacOS comes with TextEdit for creating and editing Text Documents. There are, however, other free text editors available as well over the internet that provide you the capability to work with Text Documents like Notepad++ which is far more advanced in terms of functionality.
 
           link: "https://docs.fileformat.com/word-processing/txt/"
 

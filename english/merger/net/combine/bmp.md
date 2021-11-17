@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-17T13:33:29
 draft: false
 
 ############################# Head ############################
-head_title: "Combine BMP Files into One in C# (.NET Core) – BMP Merger"
+head_title: "Combine BMP Files in C# | BMP Merger"
 head_description: "Combine multiple BMP files into a single file using C# .NET documents merger API. Combine specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
-title: "Combine BMP Files In C# (.NET Core)"
+title: "Combine BMP Files In C#"
 description: "Combine multiple BMP files into a single file using C# .NET documents merger API. Combine selected pages or page ranges from various source documents into a single resultant document."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Combine Documents"
     content: |
-        Combine more than one BMP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/bmp) website.  
+        Combine more than one BMP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,7 +109,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-image"
           title: "About BMP File Format"
           content: |
             Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-17T13:33:30
 draft: false
 
 ############################# Head ############################
@@ -58,7 +58,7 @@ about:
     enable: true
     title: "About GroupDocs.Merger for Java API"
     content: |
-        GroupDocs.Merger for Java library offers a simple solution to safely merge, combine, join & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within Java & J2SE applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        [GroupDocs.Merger for Java](https://products.groupdocs.com/merger/java) library offers a simple solution to safely merge, combine, join & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within Java & J2SE applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
         
         GroupDocs.Merger APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10.
 
@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Combine Multiple OTP Files in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to Combine multiple OTP files by implementing a few easy steps.
+        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to combine multiple OTP files by implementing a few easy steps.
 
         *   Create an instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
         *   Call <mark>**Join**</mark> method of <mark>**Merger**</mark> class instance and pass second source document path.
@@ -83,25 +83,24 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Combine OTP files using GroupDocs.Merger API
+        ```java
+        // Combine OTP files using GroupDocs.Merger for Java API
         // Instantiate Merger with input OTP document
-        Merger merger = new Merger("input_1.otp"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.otp");
+        Merger merger = new Merger("input_1.otp");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.otp");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.otp");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.otp");        
+        ```        
 
 ############################# Demos ############################
 demos:
     enable: true
     title: "Live Demos - Online App to Combine Documents"
     content: |
-        Combine more than one OTP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/otp) website.  
+        Combine more than one OTP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About OTP File Format"
           content: |
-            Files with .otp extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .pot and .potx.
+            Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
 
           link: "https://docs.fileformat.com/presentation/otp/"
 
@@ -124,232 +123,232 @@ more_formats:
         Java documents merger API for file formats and images. Combine together some of the popular document formats as stated below.
     format: 
         # format loop
-        - name: "Combine PDF Files"
+        - name: "Combine PDF Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
-        - name: "Combine Word Files"
+        - name: "Combine Word Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/word/"
           description: "Microsoft Word Document"
 
         # format loop
-        - name: "Combine Excel Files"
+        - name: "Combine Excel Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/excel/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
-        - name: "Combine Worksheet Files"
+        - name: "Combine Worksheet Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/worksheet/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
-        - name: "Combine Image Files"
+        - name: "Combine Image Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/image/"
           description: "Image Files"
 
         # format loop
-        - name: "Combine DOC Files"
+        - name: "Combine DOC Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/doc/"
           description: "Microsoft Word Document"
 
         # format loop
-        - name: "Combine DOCM Files"
+        - name: "Combine DOCM Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "Combine DOCX Files"
+        - name: "Combine DOCX Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
-        - name: "Combine DOT Files"
+        - name: "Combine DOT Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "Combine DOTX Files"
+        - name: "Combine DOTX Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "Combine DOTM Files"
+        - name: "Combine DOTM Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "Combine RTF Files"
+        - name: "Combine RTF Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/rtf/"
           description: "Rich Text Document"
 
         # format loop
-        - name: "Combine ODT Files"
+        - name: "Combine ODT Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/odt/"
           description: "Open Document Text"
 
         # format loop
-        - name: "Combine OTT Files"
+        - name: "Combine OTT Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
-        - name: "Combine XLS Files"
+        - name: "Combine XLS Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
-        - name: "Combine XLSX Files"
+        - name: "Combine XLSX Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
-        - name: "Combine XLAM Files"
+        - name: "Combine XLAM Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/xlam/"
           description: "Excel Open XML Macro-Enabled Add-in"
 
         # format loop
-        - name: "Combine XLSM Files"
+        - name: "Combine XLSM Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
-        - name: "Combine XLSB Files"
+        - name: "Combine XLSB Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
-        - name: "Combine XLTX Files"
+        - name: "Combine XLTX Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
-        - name: "Combine XLTM Files"
+        - name: "Combine XLTM Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
-        - name: "Combine ODS Files"
+        - name: "Combine ODS Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "Combine CSV Files"
+        - name: "Combine CSV Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/csv/"
           description: "Comma Separated Values File"
 
         # format loop
-        - name: "Combine TSV Files"
+        - name: "Combine TSV Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/tsv/"
           description: "Tab Separated Values File"
         
         # format loop
-        - name: "Combine PPT Files"
+        - name: "Combine PPT Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
-        - name: "Combine PPTX Files"
+        - name: "Combine PPTX Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "Combine PPS Files"
+        - name: "Combine PPS Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
-        - name: "Combine PPSX Files"
+        - name: "Combine PPSX Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Combine POTX Files"
+        - name: "Combine POTX Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
-        - name: "Combine PPTM Files"
+        - name: "Combine PPTM Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "Combine ODP Files"
+        - name: "Combine ODP Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
-        - name: "Combine OTP Files"
+        - name: "Combine OTP Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
-        - name: "Combine Text Files"
+        - name: "Combine Text Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/txt/"
           description: "Plain Text File"
 
         # format loop
-        - name: "Combine OneNote Files"
+        - name: "Combine OneNote Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/one/"
           description: "Microsoft OneNote"
 
         # format loop
-        - name: "Combine TIFF Files"
+        - name: "Combine TIFF Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/tiff/"
           description: "Tagged Image File Format"
         
         # format loop
-        - name: "Combine PNG Files"
+        - name: "Combine PNG Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/png/"
           description: "Portable Network Graphic"
 
         # format loop
-        - name: "Combine BMP Files"
+        - name: "Combine BMP Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/bmp/"
           description: "Bitmap File Format"
 
         # format loop
-        - name: "Combine XPS Files"
+        - name: "Combine XPS Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/xps/"
           description: "XML Paper Specification File"
 
         # format loop
-        - name: "Combine Web Files"
+        - name: "Combine Web Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/web/"
           description: "Hypertext Markup Language File"
 
         # format loop
-        - name: "Combine HTML Files"
+        - name: "Combine HTML Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/html/"
           description: "Hypertext Markup Language File"
 
         # format loop
-        - name: "Combine MHT Files"
+        - name: "Combine MHT Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/mht/"
           description: "MHTML Web Archive"
 
         # format loop
-        - name: "Combine MHTML Files"
+        - name: "Combine MHTML Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/mhtml/"
           description: "MIME HTML"
 
         # format loop
-        - name: "Combine TEX Files"
+        - name: "Combine TEX Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/tex/"
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "Combine EPUB Files"
+        - name: "Combine EPUB Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/epub/"
           description: "eBook File"
           
         # format loop
-        - name: "Combine PPSM Files"
+        - name: "Combine PPSM Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
         
         # format loop
-        - name: "Combine POTM Files"
+        - name: "Combine POTM Files in Java"
           link: "https://products.groupdocs.com/merger/java/combine/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 

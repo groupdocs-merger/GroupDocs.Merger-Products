@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-17T13:33:30
 draft: false
 
 ############################# Head ############################
@@ -58,7 +58,7 @@ about:
     enable: true
     title: "About GroupDocs.Merger for Java API"
     content: |
-        GroupDocs.Merger for Java library offers a simple solution to safely merge, combine, join & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within Java & J2SE applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        [GroupDocs.Merger for Java](https://products.groupdocs.com/merger/java) library offers a simple solution to safely merge, combine, join & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within Java & J2SE applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
         
         GroupDocs.Merger APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10.
 
@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Combine Multiple BMP Files in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to Combine multiple BMP files by implementing a few easy steps.
+        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to combine multiple BMP files by implementing a few easy steps.
 
         *   Create an instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
         *   Call <mark>**Join**</mark> method of <mark>**Merger**</mark> class instance and pass second source document path.
@@ -83,25 +83,24 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Combine BMP files using GroupDocs.Merger API
+        ```java
+        // Combine BMP files using GroupDocs.Merger for Java API
         // Instantiate Merger with input BMP document
-        Merger merger = new Merger("input_1.bmp"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.bmp");
+        Merger merger = new Merger("input_1.bmp");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.bmp");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.bmp");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.bmp");        
+        ```        
 
 ############################# Demos ############################
 demos:
     enable: true
     title: "Live Demos - Online App to Combine Documents"
     content: |
-        Combine more than one BMP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/bmp) website.  
+        Combine more than one BMP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,7 +108,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-image"
           title: "About BMP File Format"
           content: |
             Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
