@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge XLTM files using GroupDocs.Merger API
+        // Merge XLTM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input XLTM document
-        Merger merger = new Merger("input_1.xltm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.xltm");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.xltm");
-          }
-        ```
+        Merger merger = new Merger("input_1.xltm");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.xltm");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.xltm");        
+        ```        
+
 
 demos:
     enable: true

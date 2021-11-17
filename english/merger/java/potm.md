@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge POTM files using GroupDocs.Merger API
+        // Merge POTM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input POTM document
-        Merger merger = new Merger("input_1.potm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.potm");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.potm");
-          }
-        ```
+        Merger merger = new Merger("input_1.potm");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.potm");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.potm");        
+        ```        
+
 
 demos:
     enable: true

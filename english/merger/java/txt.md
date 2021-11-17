@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge TXT files using GroupDocs.Merger API
+        // Merge TXT files using GroupDocs.Merger for Java API
         // Instantiate Merger with input TXT document
-        Merger merger = new Merger("input_1.txt"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.txt");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.txt");
-          }
-        ```
+        Merger merger = new Merger("input_1.txt");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.txt");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.txt");        
+        ```        
+
 
 demos:
     enable: true

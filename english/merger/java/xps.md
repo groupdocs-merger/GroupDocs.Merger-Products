@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge XPS files using GroupDocs.Merger API
+        // Merge XPS files using GroupDocs.Merger for Java API
         // Instantiate Merger with input XPS document
-        Merger merger = new Merger("input_1.xps"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.xps");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.xps");
-          }
-        ```
+        Merger merger = new Merger("input_1.xps");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.xps");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.xps");        
+        ```        
+
 
 demos:
     enable: true

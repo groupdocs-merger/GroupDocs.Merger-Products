@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge PPT files using GroupDocs.Merger API
+        // Merge PPT files using GroupDocs.Merger for Java API
         // Instantiate Merger with input PPT document
-        Merger merger = new Merger("input_1.ppt"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.ppt");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.ppt");
-          }
-        ```
+        Merger merger = new Merger("input_1.ppt");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.ppt");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.ppt");        
+        ```        
+
 
 demos:
     enable: true

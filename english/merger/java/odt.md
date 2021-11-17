@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge ODT files using GroupDocs.Merger API
+        // Merge ODT files using GroupDocs.Merger for Java API
         // Instantiate Merger with input ODT document
-        Merger merger = new Merger("input_1.odt"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.odt");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.odt");
-          }
-        ```
+        Merger merger = new Merger("input_1.odt");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.odt");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.odt");        
+        ```        
+
 
 demos:
     enable: true

@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge TIF files using GroupDocs.Merger API
+        // Merge TIF files using GroupDocs.Merger for Java API
         // Instantiate Merger with input TIF document
-        Merger merger = new Merger("input_1.tif"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.tif");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.tif");
-          }
-        ```
+        Merger merger = new Merger("input_1.tif");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.tif");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.tif");        
+        ```        
+
 
 demos:
     enable: true

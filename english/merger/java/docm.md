@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge DOCM files using GroupDocs.Merger API
+        // Merge DOCM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input DOCM document
-        Merger merger = new Merger("input_1.docm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.docm");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.docm");
-          }
-        ```
+        Merger merger = new Merger("input_1.docm");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.docm");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.docm");        
+        ```        
+
 
 demos:
     enable: true

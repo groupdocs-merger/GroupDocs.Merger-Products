@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge TSV files using GroupDocs.Merger API
+        // Merge TSV files using GroupDocs.Merger for Java API
         // Instantiate Merger with input TSV document
-        Merger merger = new Merger("input_1.tsv"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.tsv");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.tsv");
-          }
-        ```
+        Merger merger = new Merger("input_1.tsv");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.tsv");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.tsv");        
+        ```        
+
 
 demos:
     enable: true

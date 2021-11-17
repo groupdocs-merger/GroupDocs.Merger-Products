@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge EPUB files using GroupDocs.Merger API
+        // Merge EPUB files using GroupDocs.Merger for Java API
         // Instantiate Merger with input EPUB document
-        Merger merger = new Merger("input_1.epub"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.epub");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.epub");
-          }
-        ```
+        Merger merger = new Merger("input_1.epub");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.epub");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.epub");        
+        ```        
+
 
 demos:
     enable: true

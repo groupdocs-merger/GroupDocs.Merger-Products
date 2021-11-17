@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge VTX files using GroupDocs.Merger API
+        // Merge VTX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input VTX document
-        Merger merger = new Merger("input_1.vtx"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.vtx");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.vtx");
-          }
-        ```
+        Merger merger = new Merger("input_1.vtx");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.vtx");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.vtx");        
+        ```        
+
 
 demos:
     enable: true

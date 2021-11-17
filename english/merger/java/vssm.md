@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge VSSM files using GroupDocs.Merger API
+        // Merge VSSM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input VSSM document
-        Merger merger = new Merger("input_1.vssm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.vssm");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.vssm");
-          }
-        ```
+        Merger merger = new Merger("input_1.vssm");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.vssm");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.vssm");        
+        ```        
+
 
 demos:
     enable: true

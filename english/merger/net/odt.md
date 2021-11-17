@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-16T15:47:12
+date: 2021-11-17T11:18:22
 draft: false
 
 ############################# Head ############################
-head_title: "Merge ODT Files in C# – ODT Merger"
+head_title: "Merge ODT Files in C# | ODT Merger"
 head_description: "Merge multiple ODT files into a single file using C#/.NET merger API. Merge specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################

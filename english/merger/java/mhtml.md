@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge MHTML files using GroupDocs.Merger API
+        // Merge MHTML files using GroupDocs.Merger for Java API
         // Instantiate Merger with input MHTML document
-        Merger merger = new Merger("input_1.mhtml"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.mhtml");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.mhtml");
-          }
-        ```
+        Merger merger = new Merger("input_1.mhtml");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.mhtml");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.mhtml");        
+        ```        
+
 
 demos:
     enable: true

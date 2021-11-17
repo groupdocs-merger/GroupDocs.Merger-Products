@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge RTF files using GroupDocs.Merger API
+        // Merge RTF files using GroupDocs.Merger for Java API
         // Instantiate Merger with input RTF document
-        Merger merger = new Merger("input_1.rtf"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.rtf");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.rtf");
-          }
-        ```
+        Merger merger = new Merger("input_1.rtf");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.rtf");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.rtf");        
+        ```        
+
 
 demos:
     enable: true

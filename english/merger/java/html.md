@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge HTML files using GroupDocs.Merger API
+        // Merge HTML files using GroupDocs.Merger for Java API
         // Instantiate Merger with input HTML document
-        Merger merger = new Merger("input_1.html"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.html");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.html");
-          }
-        ```
+        Merger merger = new Merger("input_1.html");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.html");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.html");        
+        ```        
+
 
 demos:
     enable: true

@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge ODP files using GroupDocs.Merger API
+        // Merge ODP files using GroupDocs.Merger for Java API
         // Instantiate Merger with input ODP document
-        Merger merger = new Merger("input_1.odp"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.odp");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.odp");
-          }
-        ```
+        Merger merger = new Merger("input_1.odp");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.odp");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.odp");        
+        ```        
+
 
 demos:
     enable: true

@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge XLSM files using GroupDocs.Merger API
+        // Merge XLSM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input XLSM document
-        Merger merger = new Merger("input_1.xlsm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.xlsm");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.xlsm");
-          }
-        ```
+        Merger merger = new Merger("input_1.xlsm");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.xlsm");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.xlsm");        
+        ```        
+
 
 demos:
     enable: true

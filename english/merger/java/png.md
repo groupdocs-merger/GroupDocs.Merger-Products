@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge PNG files using GroupDocs.Merger API
+        // Merge PNG files using GroupDocs.Merger for Java API
         // Instantiate Merger with input PNG document
-        Merger merger = new Merger("input_1.png"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.png");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.png");
-          }
-        ```
+        Merger merger = new Merger("input_1.png");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.png");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.png");        
+        ```        
+
 
 demos:
     enable: true

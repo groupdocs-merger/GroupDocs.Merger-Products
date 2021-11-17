@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge OTP files using GroupDocs.Merger API
+        // Merge OTP files using GroupDocs.Merger for Java API
         // Instantiate Merger with input OTP document
-        Merger merger = new Merger("input_1.otp"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.otp");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.otp");
-          }
-        ```
+        Merger merger = new Merger("input_1.otp");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.otp");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.otp");        
+        ```        
+
 
 demos:
     enable: true

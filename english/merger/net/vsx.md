@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-16T15:47:13
+date: 2021-11-17T11:18:23
 draft: false
 
 ############################# Head ############################
-head_title: "Merge VSX Files in C# – VSX Merger"
+head_title: "Merge VSX Files in C# | VSX Merger"
 head_description: "Merge multiple VSX files into a single file using C#/.NET merger API. Merge specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################

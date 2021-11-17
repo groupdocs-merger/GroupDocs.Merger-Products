@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge POTX files using GroupDocs.Merger API
+        // Merge POTX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input POTX document
-        Merger merger = new Merger("input_1.potx"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.potx");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.potx");
-          }
-        ```
+        Merger merger = new Merger("input_1.potx");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.potx");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.potx");        
+        ```        
+
 
 demos:
     enable: true

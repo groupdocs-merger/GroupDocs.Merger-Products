@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge VSDX files using GroupDocs.Merger API
+        // Merge VSDX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input VSDX document
-        Merger merger = new Merger("input_1.vsdx"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.vsdx");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.vsdx");
-          }
-        ```
+        Merger merger = new Merger("input_1.vsdx");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.vsdx");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.vsdx");        
+        ```        
+
 
 demos:
     enable: true

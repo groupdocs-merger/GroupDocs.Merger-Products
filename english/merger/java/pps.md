@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge PPS files using GroupDocs.Merger API
+        // Merge PPS files using GroupDocs.Merger for Java API
         // Instantiate Merger with input PPS document
-        Merger merger = new Merger("input_1.pps"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.pps");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.pps");
-          }
-        ```
+        Merger merger = new Merger("input_1.pps");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.pps");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.pps");        
+        ```        
+
 
 demos:
     enable: true

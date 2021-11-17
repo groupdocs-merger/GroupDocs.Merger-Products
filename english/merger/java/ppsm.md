@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge PPSM files using GroupDocs.Merger API
+        // Merge PPSM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input PPSM document
-        Merger merger = new Merger("input_1.ppsm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.ppsm");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.ppsm");
-          }
-        ```
+        Merger merger = new Merger("input_1.ppsm");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.ppsm");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.ppsm");        
+        ```        
+
 
 demos:
     enable: true

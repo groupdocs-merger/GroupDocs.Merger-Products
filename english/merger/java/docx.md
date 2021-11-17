@@ -50,16 +50,15 @@ steps:
         ```java
         // Merge DOCX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input DOCX document
-        Merger merger = new Merger("input_1.docx"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.docx");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.docx");
-          }
-        ```
+        Merger merger = new Merger("input_1.docx");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.docx");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.docx");        
+        ```        
+
 
 demos:
     enable: true

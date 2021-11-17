@@ -48,18 +48,17 @@ steps:
         
     code: |
         ```java
-        // Merge OTT files using GroupDocs.Merger API
+        // Merge OTT files using GroupDocs.Merger for Java API
         // Instantiate Merger with input OTT document
-        Merger merger = new Merger("input_1.ott"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.ott");
-            
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.ott");
-          }
-        ```
+        Merger merger = new Merger("input_1.ott");
         
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.ott");
+            
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.ott");        
+        ```        
+
 
 demos:
     enable: true
