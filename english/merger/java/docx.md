@@ -48,7 +48,7 @@ steps:
         
     code: |
         ```java
-        // Merge DOCX files using GroupDocs.Merger API
+        // Merge DOCX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input DOCX document
         Merger merger = new Merger("input_1.docx"))
           {

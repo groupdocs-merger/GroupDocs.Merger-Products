@@ -5,7 +5,7 @@ date: 2021-11-16T15:47:12
 draft: false
 
 ############################# Head ############################
-head_title: "Merge DOCX Files in C# – DOCX Merger"
+head_title: "Merge DOCX Files in C# | DOCX Merger"
 head_description: "Merge multiple DOCX files into a single file using C#/.NET merger API. Merge specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
