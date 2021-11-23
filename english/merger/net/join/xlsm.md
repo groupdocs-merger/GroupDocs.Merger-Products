@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-22T10:29:12
+date: 2021-11-22T10:41:22
 draft: false
 
 ############################# Head ############################
@@ -119,7 +119,7 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Merging Other Document Formats"
+    title: "Joining Other Document Formats"
     content: |
         .NET documents merger API for file formats and images. Join some of the popular document formats together as stated below.
     format: 

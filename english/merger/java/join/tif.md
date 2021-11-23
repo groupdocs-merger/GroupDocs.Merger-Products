@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-22T10:25:56
+date: 2021-11-22T10:41:23
 draft: false
 
 ############################# Head ############################
@@ -118,7 +118,7 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Merging Other Document Formats"
+    title: "Joining Other Document Formats"
     content: |
         Java documents merger API for file formats and images. Join together some of the popular document formats as stated below.
     format: 
