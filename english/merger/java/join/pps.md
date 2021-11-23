@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join PPS files using GroupDocs.Merger API
+        ```java
+        // Join PPS files using GroupDocs.Merger for Java API
         // Instantiate Merger with input PPS document
-        Merger merger = new Merger("input_1.pps"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.pps");
+        Merger merger = new Merger("input_1.pps");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.pps");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.pps");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.pps");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About PPS File Format"
           content: |
-            PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+            PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode. 
 
           link: "https://docs.fileformat.com/presentation/pps/"
 

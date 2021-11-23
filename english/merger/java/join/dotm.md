@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join DOTM files using GroupDocs.Merger API
+        ```java
+        // Join DOTM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input DOTM document
-        Merger merger = new Merger("input_1.dotm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.dotm");
+        Merger merger = new Merger("input_1.dotm");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.dotm");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.dotm");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.dotm");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,7 +108,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-word-o"
+        - icon: "far fa-file-DOTM"
           title: "About DOTM File Format"
           content: |
             A file with DOTM extension represents template file created with Microsoft Word 2007 or higher. It is similar to the popular DOCX file format other than it retains the user defined settings for reuse in case of creating new documents. Such documents are more often used in offices where a standard template file is generated with settings like page information, margins, default layout and macros, and is used to create new documents from it when required. DOTM files, however, save macros, that are a series of commands in the form of recorded actions for automatic completion of a task. This helps save time in carrying out actions that are repeated in completion of a task.

@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join VSDM Files into One in C# (.NET Core) – VSDM Merger"
+head_title: "Join VSDM Files into One in C# (.NET Core) - VSDM Merger"
 head_description: "Join multiple VSDM files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join VSDM files using GroupDocs.Merger API
+        // Join VSDM files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input VSDM document
         using (Merger merger = new Merger("input1.vsdm"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.vsdm");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.vsdm");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one VSDM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/vsdm) website.  
+        Join more than one VSDM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-file-alt"
           title: "About VSDM File Format"
           content: |
-            Files with .vsdm extension are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX but also provide the capability to run macros when the file is opened. Macros are user defined actions/steps that are developed in Visual Basic for Applications (VBA) and can be used to perform repetitive tasks. VSDM file format was introduced with the launch of Microsoft Visio 2013.  Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Files with VSDM extension are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX but also provide the capability to run macros when the file is opened. Macros are user-defined actions/steps that are developed in Visual Basic for Applications (VBA) and can be used to perform repetitive tasks.
 
           link: "https://docs.fileformat.com/image/vsdm/"
 

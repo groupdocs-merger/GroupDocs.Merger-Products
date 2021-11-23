@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:56
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join VSDX files using GroupDocs.Merger API
+        ```java
+        // Join VSDX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input VSDX document
-        Merger merger = new Merger("input_1.vsdx"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.vsdx");
+        Merger merger = new Merger("input_1.vsdx");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.vsdx");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.vsdx");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.vsdx");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-file-alt"
           title: "About VSDX File Format"
           content: |
-            Files with .vsdx extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Files with .VSDX extension represents Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server.
 
           link: "https://docs.fileformat.com/image/vsdx/"
 

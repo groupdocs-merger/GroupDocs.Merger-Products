@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join TIFF Files into One in C# (.NET Core) – TIFF Merger"
+head_title: "Join TIFF Files into One in C# (.NET Core) - TIFF Merger"
 head_description: "Join multiple TIFF files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join TIFF files using GroupDocs.Merger API
+        // Join TIFF files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input TIFF document
         using (Merger merger = new Merger("input1.tiff"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.tiff");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.tiff");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one TIFF files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/tiff) website.  
+        Join more than one TIFF files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-image"
           title: "About TIFF File Format"
           content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
+            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
 
           link: "https://docs.fileformat.com/image/tiff/"
 

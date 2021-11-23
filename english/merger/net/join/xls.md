@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join XLS Files into One in C# (.NET Core) – XLS Merger"
+head_title: "Join XLS Files into One in C# (.NET Core) - XLS Merger"
 head_description: "Join multiple XLS files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join XLS files using GroupDocs.Merger API
+        // Join XLS files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input XLS document
         using (Merger merger = new Merger("input1.xls"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.xls");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.xls");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one XLS files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/xls) website.  
+        Join more than one XLS files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-excel"
           title: "About XLS File Format"
           content: |
-            Files with XLS extension represent Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. File saved by Excel is known as Workbook where each workbook can have one or more worksheets. Data is stored and displayed to users in table format in worksheet and can span numeric values, text data, formulas, external data connections, images, and charts. Applications like Microsoft Excel lets you export workbook data to several different formats including PDF, CSV, XLSX, TXT, HTML, XPS, and several others. The XLS file format was replaced with a more open and structured format, XLSX, with the release of Microsoft Excel 2007. The latest versions still provide support for creating and reading XLS files, though XLSX is the first choice of use now.
+            Files with XLS extension represent Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. File saved by Excel are known as Workbook where each workbook can have one or more worksheets. Data is stored and displayed to users in table format in worksheet and can span numeric values, text data, formulas, external data connections, images and charts.
 
           link: "https://docs.fileformat.com/spreadsheet/xls/"
 

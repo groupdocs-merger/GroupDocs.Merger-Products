@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join POTX Files into One in C# (.NET Core) – POTX Merger"
+head_title: "Join POTX Files into One in C# (.NET Core) - POTX Merger"
 head_description: "Join multiple POTX files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join POTX files using GroupDocs.Merger API
+        // Join POTX files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input POTX document
         using (Merger merger = new Merger("input1.potx"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.potx");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.potx");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one POTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/potx) website.  
+        Join more than one POTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,7 +109,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About POTX File Format"
           content: |
             Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.

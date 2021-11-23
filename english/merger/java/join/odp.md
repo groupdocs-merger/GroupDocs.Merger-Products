@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join ODP files using GroupDocs.Merger API
+        ```java
+        // Join ODP files using GroupDocs.Merger for Java API
         // Instantiate Merger with input ODP document
-        Merger merger = new Merger("input_1.odp"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.odp");
+        Merger merger = new Merger("input_1.odp");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.odp");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.odp");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.odp");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About ODP File Format"
           content: |
-            Files with .odp extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+            Files with ODP extension represents the presentation file format used by OpenOffice.org in the OASIS OpenDocument standard. A presentation file is a collection of slides where each slide can comprise text, images, formatting, animations, and other media. These slides are presented to an audience in the form of slideshows with custom presentation settings.
 
           link: "https://docs.fileformat.com/presentation/odp/"
 

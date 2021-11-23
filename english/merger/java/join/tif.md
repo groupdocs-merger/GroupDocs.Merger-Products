@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:56
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join TIF files using GroupDocs.Merger API
+        ```java
+        // Join TIF files using GroupDocs.Merger for Java API
         // Instantiate Merger with input TIF document
-        Merger merger = new Merger("input_1.tif"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.tif");
+        Merger merger = new Merger("input_1.tif");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.tif");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.tif");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.tif");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-image"
           title: "About TIF File Format"
           content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
+            TIF or TIFF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
 
           link: "https://docs.fileformat.com/image/tiff/"
 

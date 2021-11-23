@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join VDX Files into One in C# (.NET Core) – VDX Merger"
+head_title: "Join VDX Files into One in C# (.NET Core) - VDX Merger"
 head_description: "Join multiple VDX files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join VDX files using GroupDocs.Merger API
+        // Join VDX files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input VDX document
         using (Merger merger = new Merger("input1.vdx"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.vdx");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.vdx");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one VDX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/vdx) website.  
+        Join more than one VDX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-file-alt"
           title: "About VDX File Format"
           content: |
-            Any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements. Text can also be added to these visual elements Vision drawing XML file. These Visio drawing XML files are integrated with XML-based formatting standards and image data encoding specifications that allow its content to be rendered and stored by the Microsoft Visio software in the VDX file format. These Visio drawing XML files are appended with the .vdx extension.
+            Any drawing or chart created in Microsoft Visio, but saved in XML format has a VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements.
 
           link: "https://docs.fileformat.com/image/vdx/"
 

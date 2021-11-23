@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join ODP Files into One in C# (.NET Core) – ODP Merger"
+head_title: "Join ODP Files into One in C# (.NET Core) - ODP Merger"
 head_description: "Join multiple ODP files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join ODP files using GroupDocs.Merger API
+        // Join ODP files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input ODP document
         using (Merger merger = new Merger("input1.odp"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.odp");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.odp");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one ODP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/odp) website.  
+        Join more than one ODP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About ODP File Format"
           content: |
-            Files with .odp extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+            Files with ODP extension represents the presentation file format used by OpenOffice.org in the OASIS OpenDocument standard. A presentation file is a collection of slides where each slide can comprise text, images, formatting, animations, and other media. These slides are presented to an audience in the form of slideshows with custom presentation settings.
 
           link: "https://docs.fileformat.com/presentation/odp/"
 

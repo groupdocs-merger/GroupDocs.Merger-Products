@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join DOTX files using GroupDocs.Merger API
+        ```java
+        // Join DOTX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input DOTX document
-        Merger merger = new Merger("input_1.dotx"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.dotx");
+        Merger merger = new Merger("input_1.dotx");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.dotx");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.dotx");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.dotx");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-word-o"
+        - icon: "far fa-file-word"
           title: "About DOTX File Format"
           content: |
-            Files with DOTX extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent flies created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms. The DOTX file format was introduced with the release of Microsoft Office 2007 to replace the binary DOT file format, but is supported by higher versions as well. Microsoft Word by default opens every new document based on normal.dot file. If modified, all the new files created will result in same settings as from the template file. In Microsoft Word 2007, the DOT file format has been replaced with Office OpenXML based DOTX file format.
+            Files with DOTX extension are template files created by Microsoft Word to have pre-formatted settings for a generation of further DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from this template. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms.
 
           link: "https://docs.fileformat.com/word-processing/dotx/"
 

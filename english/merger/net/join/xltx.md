@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join XLTX Files into One in C# (.NET Core) – XLTX Merger"
+head_title: "Join XLTX Files into One in C# (.NET Core) - XLTX Merger"
 head_description: "Join multiple XLTX files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join XLTX files using GroupDocs.Merger API
+        // Join XLTX files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input XLTX document
         using (Merger merger = new Merger("input1.xltx"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.xltx");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.xltx");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one XLTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/xltx) website.  
+        Join more than one XLTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,12 +109,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-excel"
           title: "About XLTX File Format"
           content: |
-            Files with .xltx extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
+            Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
+          link: "https://docs.fileformat.com/spreadsheet/xltx"
 
 ############################# More Formats ############################
 more_formats:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:56
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join RTF files using GroupDocs.Merger API
+        ```java
+        // Join RTF files using GroupDocs.Merger for Java API
         // Instantiate Merger with input RTF document
-        Merger merger = new Merger("input_1.rtf"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.rtf");
+        Merger merger = new Merger("input_1.rtf");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.rtf");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.rtf");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.rtf");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-word-o"
+        - icon: "far fa-file-RTF"
           title: "About RTF File Format"
           content: |
-            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting. The file format specifications are available by Microsoft for public download and can be referred to from developer’s perspective.
+            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting.
 
           link: "https://docs.fileformat.com/word-processing/rtf/"
 

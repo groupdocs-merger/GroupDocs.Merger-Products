@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join POTX files using GroupDocs.Merger API
+        ```java
+        // Join POTX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input POTX document
-        Merger merger = new Merger("input_1.potx"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.potx");
+        Merger merger = new Merger("input_1.potx");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.potx");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.potx");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.potx");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,7 +108,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About POTX File Format"
           content: |
             Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.

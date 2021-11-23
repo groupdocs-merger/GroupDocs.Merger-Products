@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:56
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join XLT files using GroupDocs.Merger API
+        ```java
+        // Join XLT files using GroupDocs.Merger for Java API
         // Instantiate Merger with input XLT document
-        Merger merger = new Merger("input_1.xlt"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.xlt");
+        Merger merger = new Merger("input_1.xlt");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.xlt");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.xlt");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.xlt");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-excel"
           title: "About XLT File Format"
           content: |
-            Files with .xlt extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening this old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .xls files.
+            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening these old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
 
           link: "https://docs.fileformat.com/spreadsheet/xlt/"
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:56
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join VSDM files using GroupDocs.Merger API
+        ```java
+        // Join VSDM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input VSDM document
-        Merger merger = new Merger("input_1.vsdm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.vsdm");
+        Merger merger = new Merger("input_1.vsdm");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.vsdm");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.vsdm");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.vsdm");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-file-alt"
           title: "About VSDM File Format"
           content: |
-            Files with .vsdm extension are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX but also provide the capability to run macros when the file is opened. Macros are user defined actions/steps that are developed in Visual Basic for Applications (VBA) and can be used to perform repetitive tasks. VSDM file format was introduced with the launch of Microsoft Visio 2013.  Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Files with VSDM extension are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX but also provide the capability to run macros when the file is opened. Macros are user-defined actions/steps that are developed in Visual Basic for Applications (VBA) and can be used to perform repetitive tasks.
 
           link: "https://docs.fileformat.com/image/vsdm/"
 

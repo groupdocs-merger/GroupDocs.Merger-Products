@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:56
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join XLTX files using GroupDocs.Merger API
+        ```java
+        // Join XLTX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input XLTX document
-        Merger merger = new Merger("input_1.xltx"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.xltx");
+        Merger merger = new Merger("input_1.xltx");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.xltx");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.xltx");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.xltx");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,12 +108,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-excel"
           title: "About XLTX File Format"
           content: |
-            Files with .xltx extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
+            Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
+          link: "https://docs.fileformat.com/spreadsheet/xltx"
 
 ############################# More Formats ############################
 more_formats:

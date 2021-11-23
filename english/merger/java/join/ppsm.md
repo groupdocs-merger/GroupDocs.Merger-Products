@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join PPSM files using GroupDocs.Merger API
+        ```java
+        // Join PPSM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input PPSM document
-        Merger merger = new Merger("input_1.ppsm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.ppsm");
+        Merger merger = new Merger("input_1.ppsm");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.ppsm");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.ppsm");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.ppsm");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,7 +108,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About PPSM File Format"
           content: |
             Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.

@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join POTM Files into One in C# (.NET Core) – POTM Merger"
+head_title: "Join POTM Files into One in C# (.NET Core) - POTM Merger"
 head_description: "Join multiple POTM files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join POTM files using GroupDocs.Merger API
+        // Join POTM files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input POTM document
         using (Merger merger = new Merger("input1.potm"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.potm");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.potm");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one POTM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/potm) website.  
+        Join more than one POTM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,7 +109,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About POTM File Format"
           content: |
             Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.

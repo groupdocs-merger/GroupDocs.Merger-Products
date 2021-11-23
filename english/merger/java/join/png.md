@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join PNG files using GroupDocs.Merger API
+        ```java
+        // Join PNG files using GroupDocs.Merger for Java API
         // Instantiate Merger with input PNG document
-        Merger merger = new Merger("input_1.png"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.png");
+        Merger merger = new Merger("input_1.png");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.png");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.png");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.png");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,7 +108,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-image"
           title: "About PNG File Format"
           content: |
             PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format.

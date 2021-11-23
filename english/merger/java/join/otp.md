@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join OTP files using GroupDocs.Merger API
+        ```java
+        // Join OTP files using GroupDocs.Merger for Java API
         // Instantiate Merger with input OTP document
-        Merger merger = new Merger("input_1.otp"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.otp");
+        Merger merger = new Merger("input_1.otp");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.otp");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.otp");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.otp");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About OTP File Format"
           content: |
-            Files with .otp extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .pot and .potx.
+            Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
 
           link: "https://docs.fileformat.com/presentation/otp/"
 

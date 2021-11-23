@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join VSX Files into One in C# (.NET Core) – VSX Merger"
+head_title: "Join VSX Files into One in C# (.NET Core) - VSX Merger"
 head_description: "Join multiple VSX files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join VSX files using GroupDocs.Merger API
+        // Join VSX files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input VSX document
         using (Merger merger = new Merger("input1.vsx"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.vsx");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.vsx");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one VSX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/vsx) website.  
+        Join more than one VSX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-file-alt"
           title: "About VSX File Format"
           content: |
-            Files with .vsx extension refer to stencils that consist of drawings and shapes that are used for creating diagrams in Microsoft Visio. VSX files are saved in XML file format and was supported till Visio 2013. These are different than the primary VSDX file format that was introduced with Microsoft Visio 2013. VSX files can be opened in any text editor to view the contents. VSX files can be converted to several different file formats such as PDF and HTML.
+            Files with .VSX extension refer to stencils that consist of drawings and shapes that are used for creating diagrams in Microsoft Visio. VSX files are saved in XML file format and was supported till Visio 2013. These are different than the primary VSDX file format that was introduced with Microsoft Visio 2013. VSX files can be opened in any text editor to view the contents.
 
           link: "https://docs.fileformat.com/image/vsx/"
 

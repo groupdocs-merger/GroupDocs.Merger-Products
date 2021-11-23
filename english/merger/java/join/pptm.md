@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:56
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join PPTM files using GroupDocs.Merger API
+        ```java
+        // Join PPTM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input PPTM document
-        Merger merger = new Merger("input_1.pptm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.pptm");
+        Merger merger = new Merger("input_1.pptm");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.pptm");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.pptm");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.pptm");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,12 +108,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About PPTM File Format"
           content: |
-            Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can’t execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+            Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
 
-          link: "https://docs.fileformat.com/presentation/pptm/"
+          link: "https://docs.fileformat.com/presentation/pptm"
 
 ############################# More Formats ############################
 more_formats:

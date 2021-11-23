@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join OTP Files into One in C# (.NET Core) – OTP Merger"
+head_title: "Join OTP Files into One in C# (.NET Core) - OTP Merger"
 head_description: "Join multiple OTP files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join OTP files using GroupDocs.Merger API
+        // Join OTP files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input OTP document
         using (Merger merger = new Merger("input1.otp"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.otp");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.otp");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one OTP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/otp) website.  
+        Join more than one OTP files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About OTP File Format"
           content: |
-            Files with .otp extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .pot and .potx.
+            Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
 
           link: "https://docs.fileformat.com/presentation/otp/"
 

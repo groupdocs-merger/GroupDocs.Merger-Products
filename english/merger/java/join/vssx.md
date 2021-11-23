@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:56
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join VSSX files using GroupDocs.Merger API
+        ```java
+        // Join VSSX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input VSSX document
-        Merger merger = new Merger("input_1.vssx"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.vssx");
+        Merger merger = new Merger("input_1.vssx");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.vssx");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.vssx");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.vssx");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-file-alt"
           title: "About VSSX File Format"
           content: |
-            Files with .vssx extension are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information. Microsoft Visio also provides the capability to convert Visio files to different file formats such as PNG, BMP, PDF and others. It is available for both Windows and Mac OS.
+            Files with .VSSX extension are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information.
 
           link: "https://docs.fileformat.com/image/vssx/"
 

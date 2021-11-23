@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join PPSM Files into One in C# (.NET Core) – PPSM Merger"
+head_title: "Join PPSM Files into One in C# (.NET Core) - PPSM Merger"
 head_description: "Join multiple PPSM files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join PPSM files using GroupDocs.Merger API
+        // Join PPSM files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input PPSM document
         using (Merger merger = new Merger("input1.ppsm"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.ppsm");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.ppsm");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one PPSM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/ppsm) website.  
+        Join more than one PPSM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,7 +109,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About PPSM File Format"
           content: |
             Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.

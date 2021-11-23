@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join EPUB files using GroupDocs.Merger API
+        ```java
+        // Join EPUB files using GroupDocs.Merger for Java API
         // Instantiate Merger with input EPUB document
-        Merger merger = new Merger("input_1.epub"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.epub");
+        Merger merger = new Merger("input_1.epub");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.epub");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.epub");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.epub");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-book"
+        - icon: "far fa-file-EPUB"
           title: "About EPUB File Format"
           content: |
-            Files with .epub extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
+            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers.
 
           link: "https://docs.fileformat.com/ebook/epub/"
 

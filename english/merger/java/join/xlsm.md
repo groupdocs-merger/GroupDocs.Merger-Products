@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:56
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join XLSM files using GroupDocs.Merger API
+        ```java
+        // Join XLSM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input XLSM document
-        Merger merger = new Merger("input_1.xlsm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.xlsm");
+        Merger merger = new Merger("input_1.xlsm");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.xlsm");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.xlsm");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.xlsm");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-excel"
           title: "About XLSM File Format"
           content: |
-            XLAM is an Macro-Enabled Add-In file that is used to add new functions to spreadsheets. An Add-In is a supplemental program that runs additional code and provides additional functionality for spreadsheets. XLAM files are stored with the .xlam extension. XLAM files are XML-based files similar to XLSM and XLSX file formats and are saved with ZIP compression to reduce the overall file size.
+            Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
 
           link: "https://docs.fileformat.com/spreadsheet/xlsm/"
 

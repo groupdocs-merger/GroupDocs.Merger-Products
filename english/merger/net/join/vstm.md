@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join VSTM Files into One in C# (.NET Core) – VSTM Merger"
+head_title: "Join VSTM Files into One in C# (.NET Core) - VSTM Merger"
 head_description: "Join multiple VSTM files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join VSTM files using GroupDocs.Merger API
+        // Join VSTM files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input VSTM document
         using (Merger merger = new Merger("input1.vstm"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.vstm");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.vstm");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one VSTM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/vstm) website.  
+        Join more than one VSTM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-file-alt"
           title: "About VSTM File Format"
           content: |
-            Files with VSTM extension are template files created with Microsoft Visio that support macros. Unlike VSDX files, files created from VSTM templates can run macros that are developed in Visual Basic for Applications (VBA)  code. A template file can be created in order to provide basic settings of the document that can be utilized to generate further documents with these settings. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Files with VSTM extension are template files created with Microsoft Visio that support macros. Unlike VSDX files, files created from VSTM templates can run macros that are developed in Visual Basic for Applications (VBA) code. A template file can be created in order to provide basic settings of the document that can be utilized to generate further documents with these settings.
 
           link: "https://docs.fileformat.com/image/vstm/"
 

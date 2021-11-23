@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join POTM files using GroupDocs.Merger API
+        ```java
+        // Join POTM files using GroupDocs.Merger for Java API
         // Instantiate Merger with input POTM document
-        Merger merger = new Merger("input_1.potm"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.potm");
+        Merger merger = new Merger("input_1.potm");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.potm");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.potm");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.potm");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,7 +108,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: "About POTM File Format"
           content: |
             Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.

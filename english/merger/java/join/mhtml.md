@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join MHTML files using GroupDocs.Merger API
+        ```java
+        // Join MHTML files using GroupDocs.Merger for Java API
         // Instantiate Merger with input MHTML document
-        Merger merger = new Merger("input_1.mhtml"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.mhtml");
+        Merger merger = new Merger("input_1.mhtml");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.mhtml");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.mhtml");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.mhtml");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-html5"
+        - icon: "far fa-file-code"
           title: "About MHTML File Format"
           content: |
-            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word. Microsoft Windows uses MHTML file format for recording scenarios of problems observed during the usage of any application on Windows that raises issues. The MHTML file format encodes the page contents similar to specifications defined in message/rfc822 which is plain text email related specifications. The actual specifications of the format are as detailed by RFC 2557.
+            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word.
 
           link: "https://docs.fileformat.com/web/mhtml/"
 

@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:11
 draft: false
 
 ############################# Head ############################
-head_title: "Join EPUB Files into One in C# (.NET Core) – EPUB Merger"
+head_title: "Join EPUB Files into One in C# (.NET Core) - EPUB Merger"
 head_description: "Join multiple EPUB files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join EPUB files using GroupDocs.Merger API
+        // Join EPUB files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input EPUB document
         using (Merger merger = new Merger("input1.epub"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.epub");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.epub");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one EPUB files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/epub) website.  
+        Join more than one EPUB files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-book"
+        - icon: "far fa-file-EPUB"
           title: "About EPUB File Format"
           content: |
-            Files with .epub extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
+            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers.
 
           link: "https://docs.fileformat.com/ebook/epub/"
 

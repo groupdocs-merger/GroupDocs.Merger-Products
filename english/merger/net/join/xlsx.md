@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:12
 draft: false
 
 ############################# Head ############################
-head_title: "Join XLSX Files into One in C# (.NET Core) – XLSX Merger"
+head_title: "Join XLSX Files into One in C# (.NET Core) - XLSX Merger"
 head_description: "Join multiple XLSX files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join XLSX files using GroupDocs.Merger API
+        // Join XLSX files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input XLSX document
         using (Merger merger = new Merger("input1.xlsx"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.xlsx");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.xlsx");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one XLSX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/xlsx) website.  
+        Join more than one XLSX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,7 +109,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-excel"
           title: "About XLSX File Format"
           content: |
             XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.

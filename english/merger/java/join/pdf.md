@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:55
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join PDF files using GroupDocs.Merger API
+        ```java
+        // Join PDF files using GroupDocs.Merger for Java API
         // Instantiate Merger with input PDF document
-        Merger merger = new Merger("input_1.pdf"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.pdf");
+        Merger merger = new Merger("input_1.pdf");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.pdf");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.pdf");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.pdf");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,12 +108,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-pdf-o"
+        - icon: "far fa-file-alt"
           title: "About PDF File Format"
           content: |
-            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. The PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document. In most of the cases, existing documents are converted to PDF rather than creating a new PDF from scratch. But that doesn’t mean there are no software for creation or manipulation of PDF files.
+            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins.
 
-          link: "https://docs.fileformat.com/pdf/"
+          link: "https://docs.fileformat.com/view/pdf/"
 
 ############################# More Formats ############################
 more_formats:

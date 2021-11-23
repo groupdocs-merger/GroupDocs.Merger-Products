@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:29:11
 draft: false
 
 ############################# Head ############################
-head_title: "Join DOCM Files into One in C# (.NET Core) – DOCM Merger"
+head_title: "Join DOCM Files into One in C# (.NET Core) - DOCM Merger"
 head_description: "Join multiple DOCM files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
@@ -84,16 +84,16 @@ steps:
         
     code: |
         ```cs
-        // Join DOCM files using GroupDocs.Merger API
+        // Join DOCM files using GroupDocs.Merger for .NET API
         // Instantiate Merger with input DOCM document
         using (Merger merger = new Merger("input1.docm"))
-          {
+        {
             // Call Join method of Merger class instance and pass second source document path
             merger.Join("input2.docm");
             
             // Call Save method of Merger class instance to save merged document
             merger.Save("merged-file.docm");
-          }
+        }
         ```
 
 ############################# Demos ############################
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one DOCM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/docm) website.  
+        Join more than one DOCM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/total) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,10 +109,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-word-o"
+        - icon: "far fa-file-word"
           title: "About DOCM File Format"
           content: |
-            DOCM files are Microsoft Word 2007 or higher generated documents with the ability to run macros. It is similar to DOCX file format but the ability to run macros makes it different from DOCX. Like DOCX, DOCM files can be store text, images, tables, shapes, charts and other contents.The capability to run macros make it easy to save time by executing the series of commands in the form of recorded actions for automatic completion of a task. DOCM files can be opened and edited in Microsoft Word 2007 and above.
+            DOCM files are Microsoft Word 2007 or higher generated documents with the ability to run macros. It is similar to DOCX file format but the ability to run macros makes it different from DOCX. Like DOCX, DOCM files can be store text, images, tables, shapes, charts and other contents. The capability to run macros make it easy to save time by executing the series of commands in the form of recorded actions for automatic completion of a task. DOCM files can be opened and edited in Microsoft Word 2007 and above.
 
           link: "https://docs.fileformat.com/word-processing/docm/"
 

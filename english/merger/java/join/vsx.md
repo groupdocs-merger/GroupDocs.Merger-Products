@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2021-11-22T10:25:56
 draft: false
 
 ############################# Head ############################
@@ -83,18 +83,17 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Join VSX files using GroupDocs.Merger API
+        ```java
+        // Join VSX files using GroupDocs.Merger for Java API
         // Instantiate Merger with input VSX document
-        Merger merger = new Merger("input_1.vsx"))
-          {
-            // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input_2.vsx");
+        Merger merger = new Merger("input_1.vsx");
+        
+        // Call Join method of Merger class instance and pass second source document path
+        merger.join("input_2.vsx");
             
-            // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.vsx");
-          }
-        ```
+        // Call Save method of Merger class instance to save merged document
+        merger.save("merged-file.vsx");        
+        ```   
 
 ############################# Demos ############################
 demos:
@@ -109,10 +108,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-file-alt"
           title: "About VSX File Format"
           content: |
-            Files with .vsx extension refer to stencils that consist of drawings and shapes that are used for creating diagrams in Microsoft Visio. VSX files are saved in XML file format and was supported till Visio 2013. These are different than the primary VSDX file format that was introduced with Microsoft Visio 2013. VSX files can be opened in any text editor to view the contents. VSX files can be converted to several different file formats such as PDF and HTML.
+            Files with .VSX extension refer to stencils that consist of drawings and shapes that are used for creating diagrams in Microsoft Visio. VSX files are saved in XML file format and was supported till Visio 2013. These are different than the primary VSDX file format that was introduced with Microsoft Visio 2013. VSX files can be opened in any text editor to view the contents.
 
           link: "https://docs.fileformat.com/image/vsx/"
 
