@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Merger On Premise APIs Include"
+    - title: "GroupDocs.Merger High Code APIs Include"
       link: "/merger/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/merger/net/"
@@ -39,9 +39,9 @@ apis:
           content: "Native Java APIs to quickly merge multiple documents or split any document into pages within your Java based applications."
 
     # api loop
-    - title: "GroupDocs.Merger Cloud APIs Include"
+    - title: "GroupDocs.Merger Low Code APIs Include"
       link: "https://products.groupdocs.cloud/merger"
-      label: "View All Cloud APIs"
+      label: "View All Low Code APIs"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/merger/curl"
@@ -68,9 +68,9 @@ apis:
           content: "Combine multiple documents into one, split any document to multiple, reorder, replace or change page orientation in your Java applications."
 
     # api loop
-    - title: "GroupDocs.Merger Cross Platform Apps Include"
+    - title: "GroupDocs.Merger No Code Apps Include"
       link: "https://products.groupdocs.app/merger"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/merger/total"
