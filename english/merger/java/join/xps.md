@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-22T10:41:23
+date: 2022-03-02T16:42:12
 draft: false
 
 ############################# Head ############################
@@ -123,234 +123,261 @@ more_formats:
         Java documents merger API for file formats and images. Join together some of the popular document formats as stated below.
     format: 
         # format loop
-        - name: "Join PDF Files"
-          link: "https://products.groupdocs.com/merger/java/join/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Join Word Files"
-          link: "https://products.groupdocs.com/merger/java/join/word/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Join Excel Files"
-          link: "https://products.groupdocs.com/merger/java/join/excel/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Join Worksheet Files"
-          link: "https://products.groupdocs.com/merger/java/join/worksheet/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Join Image Files"
-          link: "https://products.groupdocs.com/merger/java/join/image/"
-          description: "Image Files"
-
-        # format loop
-        - name: "Join DOC Files"
-          link: "https://products.groupdocs.com/merger/java/join/doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Join DOCM Files"
-          link: "https://products.groupdocs.com/merger/java/join/docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "Join DOCX Files"
-          link: "https://products.groupdocs.com/merger/java/join/docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "Join DOT Files"
-          link: "https://products.groupdocs.com/merger/java/join/dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "Join DOTX Files"
-          link: "https://products.groupdocs.com/merger/java/join/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Join DOTM Files"
-          link: "https://products.groupdocs.com/merger/java/join/dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "Join RTF Files"
-          link: "https://products.groupdocs.com/merger/java/join/rtf/"
-          description: "Rich Text Document"
-
-        # format loop
-        - name: "Join ODT Files"
-          link: "https://products.groupdocs.com/merger/java/join/odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Join OTT Files"
-          link: "https://products.groupdocs.com/merger/java/join/ott/"
-          description: "OpenDocument Text Template"
-
-        # format loop
-        - name: "Join XLS Files"
-          link: "https://products.groupdocs.com/merger/java/join/xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "Join XLSX Files"
-          link: "https://products.groupdocs.com/merger/java/join/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Join XLAM Files"
-          link: "https://products.groupdocs.com/merger/java/join/xlam/"
-          description: "Excel Open XML Macro-Enabled Add-in"
-
-        # format loop
-        - name: "Join XLSM Files"
-          link: "https://products.groupdocs.com/merger/java/join/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Join XLSB Files"
-          link: "https://products.groupdocs.com/merger/java/join/xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Join XLTX Files"
-          link: "https://products.groupdocs.com/merger/java/join/xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Join XLTM Files"
-          link: "https://products.groupdocs.com/merger/java/join/xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
-        - name: "Join ODS Files"
-          link: "https://products.groupdocs.com/merger/java/join/ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Join CSV Files"
-          link: "https://products.groupdocs.com/merger/java/join/csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "Join TSV Files"
-          link: "https://products.groupdocs.com/merger/java/join/tsv/"
-          description: "Tab Separated Values File"
-        
-        # format loop
-        - name: "Join PPT Files"
-          link: "https://products.groupdocs.com/merger/java/join/ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Join PPTX Files"
-          link: "https://products.groupdocs.com/merger/java/join/pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Join PPS Files"
-          link: "https://products.groupdocs.com/merger/java/join/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
-
-        # format loop
-        - name: "Join PPSX Files"
-          link: "https://products.groupdocs.com/merger/java/join/ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "Join POTX Files"
-          link: "https://products.groupdocs.com/merger/java/join/potx/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "Join PPTM Files"
-          link: "https://products.groupdocs.com/merger/java/join/pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "Join ODP Files"
-          link: "https://products.groupdocs.com/merger/java/join/odp/"
-          description: "OpenDocument Presentation"
-
-        # format loop
-        - name: "Join OTP Files"
-          link: "https://products.groupdocs.com/merger/java/join/otp/"
-          description: "OpenDocument Presentation Template"
-
-        # format loop
-        - name: "Join Text Files"
-          link: "https://products.groupdocs.com/merger/java/join/txt/"
-          description: "Plain Text File"
-
-        # format loop
-        - name: "Join OneNote Files"
-          link: "https://products.groupdocs.com/merger/java/join/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Join TIFF Files"
-          link: "https://products.groupdocs.com/merger/java/join/tiff/"
-          description: "Tagged Image File Format"
-        
-        # format loop
-        - name: "Join PNG Files"
-          link: "https://products.groupdocs.com/merger/java/join/png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Join BMP Files"
+        - name: "Join BMP Files in Java"
           link: "https://products.groupdocs.com/merger/java/join/bmp/"
           description: "Bitmap File Format"
 
         # format loop
-        - name: "Join XPS Files"
-          link: "https://products.groupdocs.com/merger/java/join/xps/"
-          description: "XML Paper Specification File"
+        - name: "Join CSV Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/csv/"
+          description: "Comma Separated Values File"
 
         # format loop
-        - name: "Join Web Files"
-          link: "https://products.groupdocs.com/merger/java/join/web/"
-          description: "Hypertext Markup Language File"
+        - name: "Join DOC Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/doc/"
+          description: "Microsoft Word Document"
 
         # format loop
-        - name: "Join HTML Files"
+        - name: "Join DOCM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/docm/"
+          description: "Microsoft Word Macro-Enabled Document"
+
+        # format loop
+        - name: "Join DOCX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop
+        - name: "Join DOT Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/dot/"
+          description: "Microsoft Word Document Template"
+
+        # format loop
+        - name: "Join DOTM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
+
+        # format loop
+        - name: "Join DOTX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/dotx/"
+          description: "Word Open XML Document Template"
+
+        # format loop
+        - name: "Join EPUB Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "Join HTML Files in Java"
           link: "https://products.groupdocs.com/merger/java/join/html/"
-          description: "Hypertext Markup Language File"
+          description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "Join MHT Files"
+        - name: "Join MHT Files in Java"
           link: "https://products.groupdocs.com/merger/java/join/mht/"
-          description: "MHTML Web Archive"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Join MHTML Files"
+        - name: "Join MHTML Files in Java"
           link: "https://products.groupdocs.com/merger/java/join/mhtml/"
-          description: "MIME HTML"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Join TEX Files"
+        - name: "Join ODP Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "Join ODS Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "Join ODT Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "Join OTP Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "Join OTT Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "Join PDF Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "Join PNG Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "Join POTM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "Join POTX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "Join PPS Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "Join PPSM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "Join PPSX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "Join PPT Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "Join PPTM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "Join PPTX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "Join PS Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/ps/"
+          description: "PostScript (PS)"
+
+        # format loop
+        - name: "Join RTF Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "Join TEX Files in Java"
           link: "https://products.groupdocs.com/merger/java/join/tex/"
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "Join EPUB Files"
-          link: "https://products.groupdocs.com/merger/java/join/epub/"
-          description: "eBook File"
-          
+        - name: "Join TIF Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/tif/"
+          description: "Tagged Image File Format"
+
         # format loop
-        - name: "Join PPSM Files"
-          link: "https://products.groupdocs.com/merger/java/join/ppsm/"
-          description: "Microsoft PowerPoint Macro-Enabled Slide Show"
+        - name: "Join TIFF Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "Join TSV Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "Join TXT Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "Join VDX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/vdx/"
+          description: "Microsoft Visio XML Drawing File Format"
+
+        # format loop
+        - name: "Join VSDM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/vsdm/"
+          description: "Visio Macro-Enabled Drawing"
+
+        # format loop
+        - name: "Join VSDX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/vsdx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Join VSSM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/vssm/"
+          description: "Microsoft Visio Macro Enabled File Format"
+
+        # format loop
+        - name: "Join VSSX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/vssx/"
+          description: "Visio Stencil File Format"
+
+        # format loop
+        - name: "Join VSTM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/vstm/"
+          description: "Visio Macro-Enabled Drawing Template"
+
+        # format loop
+        - name: "Join VSTX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/vstx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Join VSX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/vsx/"
+          description: "Vector Scalar Extension"
+
+        # format loop
+        - name: "Join VTX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/vtx/"
+          description: "Microsoft Visio Drawing Template"
+
+        # format loop
+        - name: "Join XLAM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "Join XLS Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Join XLSB Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "Join XLSM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "Join XLSX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "Join XLT Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "Join XLTM Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "Join XLTX Files in Java"
+          link: "https://products.groupdocs.com/merger/java/join/xltx/"
+          description: "Microsoft Excel Open XML Template"
+
         
-        # format loop
-        - name: "Join POTM Files"
-          link: "https://products.groupdocs.com/merger/java/join/potm/"
-          description: "Microsoft PowerPoint Macro-Enabled Template"
 
 ############################# Back to top ###############################
 back_to_top:
