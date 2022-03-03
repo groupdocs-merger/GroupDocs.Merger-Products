@@ -15,7 +15,7 @@ head_description: "C# .NET document merging API to combine, split, swap or remov
 
 ############################# Header ############################
 title: ".NET API to Merge & Split Documents"
-description: "‎API to Combine, Split, Swap, Trim or Remove Documents, Slides and Diagrams in .NET Applications."
+description: "API to Combine, Split, Swap, Trim or Remove Documents, Slides and Diagrams in .NET Applications."
 button:
     enable: true
 
@@ -105,7 +105,7 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **OneNote:** ONE
@@ -127,7 +127,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Merger for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Merger for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -205,7 +205,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Programmatically check if a document is secured with password‎"
+        content: "Programmatically check if a document is secured with password"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -255,7 +255,7 @@ features:
       
       # more_feature_loop
       - title: "Apply Transformation to Rendered Output"
-        content: "You can perform various transformations to the rendered output document using GroupDocs.Merger ‎for .NET API. These transformation options give you control on the way you present the rendered ‎output for display. The available transformations are, page rotation option, page reorder option and ‎applying text watermark.‎"
+        content: "You can perform various transformations to the rendered output document using GroupDocs.Merger for .NET API. These transformation options give you control on the way you present the rendered output for display. The available transformations are, page rotation option, page reorder option and applying text watermark."
 
       # more_feature_loop
       - title: "Check Password of Unknown Document Format"

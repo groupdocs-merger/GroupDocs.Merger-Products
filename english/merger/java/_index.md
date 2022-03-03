@@ -15,7 +15,7 @@ head_description: "Documents merging API for Java. Merge, split, swap, reorder a
 
 ############################# Header ############################
 title: "Java API to Combine & Split Documents"
-description: "‎Develop high-performance apps that can combine, rip, shuffle, cut or delete pages, slides and diagrams on the go.‎"
+description: "Develop high-performance apps that can combine, rip, shuffle, cut or delete pages, slides and diagrams on the go."
 button:
     enable: true
 
@@ -103,7 +103,7 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **OneNote:** ONE
@@ -125,7 +125,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Merger for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
+          GroupDocs.Merger for Java supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -197,7 +197,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Programmatically check in Java if a document is secured with a password‎"
+        content: "Programmatically check in Java if a document is secured with a password"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -235,12 +235,12 @@ features:
 
       # more_feature_loop
       - title: "Check Password of Unknown Document Format"
-        content: "Even if the format of a particular document is unknown, GroupDocs.Merger for Java enables you to check & retrieve document password, if available.‎‎"
+        content: "Even if the format of a particular document is unknown, GroupDocs.Merger for Java enables you to check & retrieve document password, if available."
 
       # more_feature_loop
       - title: "Join Password-Protected Documents of Known Formats"
         content: |
-          GroupDocs.Merger for Java API allows you to get a list of documents of known and unknown formats. Following example shows, how you can do it for known file formats, using Java:‎
+          GroupDocs.Merger for Java API allows you to get a list of documents of known and unknown formats. Following example shows, how you can do it for known file formats, using Java:
 
           ```java
           String password = "SomePasswordString";
