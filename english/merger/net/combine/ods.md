@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-16T14:54:27
+date: 2022-03-02T16:20:27
 draft: false
 
 ############################# Head ############################
@@ -124,29 +124,14 @@ more_formats:
         .NET documents merger API for file formats and images. Combine together some of the popular document formats as stated below.
     format: 
         # format loop
-        - name: "Combine PDF Files"
-          link: "https://products.groupdocs.com/merger/net/combine/pdf/"
-          description: "Adobe Portable Document Format"
+        - name: "Combine BMP Files"
+          link: "https://products.groupdocs.com/merger/net/combine/bmp/"
+          description: "Bitmap File Format"
 
         # format loop
-        - name: "Combine Word Files"
-          link: "https://products.groupdocs.com/merger/net/combine/word/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Combine Excel Files"
-          link: "https://products.groupdocs.com/merger/net/combine/excel/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Combine Worksheet Files"
-          link: "https://products.groupdocs.com/merger/net/combine/worksheet/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Combine Image Files"
-          link: "https://products.groupdocs.com/merger/net/combine/image/"
-          description: "Image Files"
+        - name: "Combine CSV Files"
+          link: "https://products.groupdocs.com/merger/net/combine/csv/"
+          description: "Comma Separated Values File"
 
         # format loop
         - name: "Combine DOC Files"
@@ -169,19 +154,39 @@ more_formats:
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "Combine DOTX Files"
-          link: "https://products.groupdocs.com/merger/net/combine/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
         - name: "Combine DOTM Files"
           link: "https://products.groupdocs.com/merger/net/combine/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "Combine RTF Files"
-          link: "https://products.groupdocs.com/merger/net/combine/rtf/"
-          description: "Rich Text Document"
+        - name: "Combine DOTX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/dotx/"
+          description: "Word Open XML Document Template"
+
+        # format loop
+        - name: "Combine EPUB Files"
+          link: "https://products.groupdocs.com/merger/net/combine/epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "Combine HTML Files"
+          link: "https://products.groupdocs.com/merger/net/combine/html/"
+          description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "Combine MHT Files"
+          link: "https://products.groupdocs.com/merger/net/combine/mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "Combine MHTML Files"
+          link: "https://products.groupdocs.com/merger/net/combine/mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "Combine ODP Files"
+          link: "https://products.groupdocs.com/merger/net/combine/odp/"
+          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "Combine ODT Files"
@@ -189,74 +194,44 @@ more_formats:
           description: "Open Document Text"
 
         # format loop
+        - name: "Combine OTP Files"
+          link: "https://products.groupdocs.com/merger/net/combine/otp/"
+          description: "Origin Graph Template"
+
+        # format loop
         - name: "Combine OTT Files"
           link: "https://products.groupdocs.com/merger/net/combine/ott/"
-          description: "OpenDocument Text Template"
+          description: "Open Document Template"
 
         # format loop
-        - name: "Combine XLS Files"
-          link: "https://products.groupdocs.com/merger/net/combine/xls/"
-          description: "Microsoft Excel Binary File Format"
+        - name: "Combine PDF Files"
+          link: "https://products.groupdocs.com/merger/net/combine/pdf/"
+          description: "Portable Document"
 
         # format loop
-        - name: "Combine XLSX Files"
-          link: "https://products.groupdocs.com/merger/net/combine/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+        - name: "Combine PNG Files"
+          link: "https://products.groupdocs.com/merger/net/combine/png/"
+          description: "Portable Network Graphic"
 
         # format loop
-        - name: "Combine XLAM Files"
-          link: "https://products.groupdocs.com/merger/net/combine/xlam/"
-          description: "Excel Open XML Macro-Enabled Add-in"
+        - name: "Combine POTM Files"
+          link: "https://products.groupdocs.com/merger/net/combine/potm/"
+          description: "Microsoft PowerPoint Template"
 
         # format loop
-        - name: "Combine XLSM Files"
-          link: "https://products.groupdocs.com/merger/net/combine/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Combine XLSB Files"
-          link: "https://products.groupdocs.com/merger/net/combine/xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Combine XLTX Files"
-          link: "https://products.groupdocs.com/merger/net/combine/xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Combine XLTM Files"
-          link: "https://products.groupdocs.com/merger/net/combine/xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
-        - name: "Combine ODS Files"
-          link: "https://products.groupdocs.com/merger/net/combine/ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Combine CSV Files"
-          link: "https://products.groupdocs.com/merger/net/combine/csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "Combine TSV Files"
-          link: "https://products.groupdocs.com/merger/net/combine/tsv/"
-          description: "Tab Separated Values File"
-        
-        # format loop
-        - name: "Combine PPT Files"
-          link: "https://products.groupdocs.com/merger/net/combine/ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Combine PPTX Files"
-          link: "https://products.groupdocs.com/merger/net/combine/pptx/"
-          description: "PowerPoint Open XML Presentation"
+        - name: "Combine POTX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Combine PPS Files"
           link: "https://products.groupdocs.com/merger/net/combine/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "Combine PPSM Files"
+          link: "https://products.groupdocs.com/merger/net/combine/ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Combine PPSX Files"
@@ -264,9 +239,9 @@ more_formats:
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Combine POTX Files"
-          link: "https://products.groupdocs.com/merger/net/combine/potx/"
-          description: "Microsoft PowerPoint Template"
+        - name: "Combine PPT Files"
+          link: "https://products.groupdocs.com/merger/net/combine/ppt/"
+          description: "PowerPoint Presentation"
 
         # format loop
         - name: "Combine PPTM Files"
@@ -274,64 +249,19 @@ more_formats:
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "Combine ODP Files"
-          link: "https://products.groupdocs.com/merger/net/combine/odp/"
-          description: "OpenDocument Presentation"
+        - name: "Combine PPTX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/pptx/"
+          description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "Combine OTP Files"
-          link: "https://products.groupdocs.com/merger/net/combine/otp/"
-          description: "OpenDocument Presentation Template"
+        - name: "Combine PS Files"
+          link: "https://products.groupdocs.com/merger/net/combine/ps/"
+          description: "PostScript (PS)"
 
         # format loop
-        - name: "Combine Text Files"
-          link: "https://products.groupdocs.com/merger/net/combine/txt/"
-          description: "Plain Text File"
-
-        # format loop
-        - name: "Combine OneNote Files"
-          link: "https://products.groupdocs.com/merger/net/combine/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Combine TIFF Files"
-          link: "https://products.groupdocs.com/merger/net/combine/tiff/"
-          description: "Tagged Image File Format"
-        
-        # format loop
-        - name: "Combine PNG Files"
-          link: "https://products.groupdocs.com/merger/net/combine/png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Combine BMP Files"
-          link: "https://products.groupdocs.com/merger/net/combine/bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Combine XPS Files"
-          link: "https://products.groupdocs.com/merger/net/combine/xps/"
-          description: "XML Paper Specification File"
-
-        # format loop
-        - name: "Combine Web Files"
-          link: "https://products.groupdocs.com/merger/net/combine/web/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Combine HTML Files"
-          link: "https://products.groupdocs.com/merger/net/combine/html/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Combine MHT Files"
-          link: "https://products.groupdocs.com/merger/net/combine/mht/"
-          description: "MHTML Web Archive"
-
-        # format loop
-        - name: "Combine MHTML Files"
-          link: "https://products.groupdocs.com/merger/net/combine/mhtml/"
-          description: "MIME HTML"
+        - name: "Combine RTF Files"
+          link: "https://products.groupdocs.com/merger/net/combine/rtf/"
+          description: "Rich Text File Format"
 
         # format loop
         - name: "Combine TEX Files"
@@ -339,19 +269,116 @@ more_formats:
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "Combine EPUB Files"
-          link: "https://products.groupdocs.com/merger/net/combine/epub/"
-          description: "eBook File"
-          
+        - name: "Combine TIF Files"
+          link: "https://products.groupdocs.com/merger/net/combine/tif/"
+          description: "Tagged Image File Format"
+
         # format loop
-        - name: "Combine PPSM Files"
-          link: "https://products.groupdocs.com/merger/net/combine/ppsm/"
-          description: "Microsoft PowerPoint Macro-Enabled Slide Show"
-        
+        - name: "Combine TIFF Files"
+          link: "https://products.groupdocs.com/merger/net/combine/tiff/"
+          description: "Tagged Image File Format"
+
         # format loop
-        - name: "Combine POTM Files"
-          link: "https://products.groupdocs.com/merger/net/combine/potm/"
-          description: "Microsoft PowerPoint Macro-Enabled Template"
+        - name: "Combine TSV Files"
+          link: "https://products.groupdocs.com/merger/net/combine/tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "Combine TXT Files"
+          link: "https://products.groupdocs.com/merger/net/combine/txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "Combine VDX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/vdx/"
+          description: "Microsoft Visio XML Drawing File Format"
+
+        # format loop
+        - name: "Combine VSDM Files"
+          link: "https://products.groupdocs.com/merger/net/combine/vsdm/"
+          description: "Visio Macro-Enabled Drawing"
+
+        # format loop
+        - name: "Combine VSDX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/vsdx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Combine VSSM Files"
+          link: "https://products.groupdocs.com/merger/net/combine/vssm/"
+          description: "Microsoft Visio Macro Enabled File Format"
+
+        # format loop
+        - name: "Combine VSSX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/vssx/"
+          description: "Visio Stencil File Format"
+
+        # format loop
+        - name: "Combine VSTM Files"
+          link: "https://products.groupdocs.com/merger/net/combine/vstm/"
+          description: "Visio Macro-Enabled Drawing Template"
+
+        # format loop
+        - name: "Combine VSTX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/vstx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Combine VSX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/vsx/"
+          description: "Vector Scalar Extension"
+
+        # format loop
+        - name: "Combine VTX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/vtx/"
+          description: "Microsoft Visio Drawing Template"
+
+        # format loop
+        - name: "Combine XLAM Files"
+          link: "https://products.groupdocs.com/merger/net/combine/xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "Combine XLS Files"
+          link: "https://products.groupdocs.com/merger/net/combine/xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Combine XLSB Files"
+          link: "https://products.groupdocs.com/merger/net/combine/xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "Combine XLSM Files"
+          link: "https://products.groupdocs.com/merger/net/combine/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "Combine XLSX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "Combine XLT Files"
+          link: "https://products.groupdocs.com/merger/net/combine/xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "Combine XLTM Files"
+          link: "https://products.groupdocs.com/merger/net/combine/xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "Combine XLTX Files"
+          link: "https://products.groupdocs.com/merger/net/combine/xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "Combine XPS Files"
+          link: "https://products.groupdocs.com/merger/net/combine/xps/"
+          description: "Open XML Paper Specification"
+
+
 
 ############################# Back to top ###############################
 back_to_top:
