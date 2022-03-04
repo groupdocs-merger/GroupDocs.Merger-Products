@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-03T17:48:34
+date: 2022-03-03T17:48:35
 draft: false
 
 ############################# Head ############################
-head_title: "Extract DOT into Multiple Files in Java"
-head_description: "Java users to extract a single DOT file into several files based on page numbers, page intervals, even or odd pages using documents merger API."
+head_title: "Extract ONE into Multiple Files in Java"
+head_description: "Java users to extract a single ONE file into several files based on page numbers, page intervals, even or odd pages using documents merger API."
 
 ############################# Header ############################
-title: "Extract DOT Into Multiple Files in Java"
-description: "Extract a single DOT file into several resultant files based on page numbers, page intervals, even or odd pages using documents merger API for Java & J2SE applications."
+title: "Extract ONE Into Multiple Files in Java"
+description: "Extract a single ONE file into several resultant files based on page numbers, page intervals, even or odd pages using documents merger API for Java & J2SE applications."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -65,9 +65,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Extract DOT File By Pages in Java"
+    title_left: "Extract ONE File By Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to extract a single DOT file into multiple resultant files by implementing a few easy steps.
+        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to extract a single ONE file into multiple resultant files by implementing a few easy steps.
 
         *   Initialize <mark>**ExtractOptions**</mark> class with page numbers that should appear in the resultant document.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -85,28 +85,28 @@ steps:
         
     code: |
         ```cs
-        // Extract DOT file using GroupDocs.Merger API
-        String filePath = "input.dot";
-        String filePathOut = "output.dot";
+        // Extract ONE file using GroupDocs.Merger API
+        String filePath = "input.one";
+        String filePathOut = "output.one";
 
         // Initialize ExtractOptions class with page numbers
         ExtractOptions extractOptions = new ExtractOptions(new int[] { 1, 4 });
         
-        // Instantiate Merger with input DOT document
-        Merger merger = new Merger("input.dot");
+        // Instantiate Merger with input ONE document
+        Merger merger = new Merger("input.one");
         // Call extractPages method and pass extractOptions object to it
         merger.extractPages(extractOptions);
 
         // Call save method and specify the path to save the output document
-        merger.save("output.dot");
+        merger.save("output.one");
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos - Exract DOT Pages Online"
+    title: "Live Demos - Exract ONE Pages Online"
     content: |
-        Extract DOT file right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/dot) website.
+        Extract ONE file right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/one) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -114,12 +114,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-word"
-          title: "About DOT File Format"
+        - icon: "far fa-file-ONE"
+          title: "About ONE File Format"
           content: |
-            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms.
+            Files with .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips.
 
-          link: "https://docs.fileformat.com/word-processing/dot/"
+          link: "https://docs.fileformat.com/note-taking/one/"
 
 ############################# More Formats ############################
 more_formats:
@@ -147,6 +147,11 @@ more_formats:
         - name: "Extract DOCX Pages in Java"
           link: "https://products.groupdocs.com/merger/java/extract/docx/"
           description: "Microsoft Word Open XML Document"
+
+        # format loop
+        - name: "Extract DOT Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/dot/"
+          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Extract DOTM Pages in Java"
@@ -192,11 +197,6 @@ more_formats:
         - name: "Extract ODT Pages in Java"
           link: "https://products.groupdocs.com/merger/java/extract/odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "Extract ONE Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/one/"
-          description: "Microsoft OneNote File Format"
 
         # format loop
         - name: "Extract OTP Pages in Java"

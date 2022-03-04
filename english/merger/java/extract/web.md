@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2022-03-03T17:48:37
 draft: false
 
 ############################# Head ############################
-head_title: "Extract Web into Multiple Files in Java"
-head_description: "Java users to extract a single Web file into several files based on page numbers, page intervals, even or odd pages using documents merger API."
+head_title: "Extract WEB into Multiple Files in Java"
+head_description: "Java users to extract a single WEB file into several files based on page numbers, page intervals, even or odd pages using documents merger API."
 
 ############################# Header ############################
-title: "Extract Web Into Multiple Files in Java"
-description: "Extract a single Web file into several resultant files based on page numbers, page intervals, even or odd pages using documents merger API for Java & J2SE applications."
+title: "Extract WEB Into Multiple Files in Java"
+description: "Extract a single WEB file into several resultant files based on page numbers, page intervals, even or odd pages using documents merger API for Java & J2SE applications."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -58,16 +58,16 @@ about:
     enable: true
     title: "About GroupDocs.Merger for Java API"
     content: |
-        GroupDocs.Merger for Java library offers a simple solution to safely merge & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        [GroupDocs.Merger for Java](https://products.groupdocs.com/merger/java/) offers a simple solution to safely merge & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
         
         GroupDocs.Merger APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Extract Web File By Pages in Java"
+    title_left: "Extract WEB File By Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to extract a single Web file into multiple resultant files by implementing a few easy steps.
+        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to extract a single WEB file into multiple resultant files by implementing a few easy steps.
 
         *   Initialize <mark>**ExtractOptions**</mark> class with page numbers that should appear in the resultant document.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -85,29 +85,28 @@ steps:
         
     code: |
         ```cs
-        // Extract Web file using GroupDocs.Merger API
-        String filePath = "input.html";
-        String filePathOut = "output.html";
+        // Extract WEB file using GroupDocs.Merger API
+        String filePath = "input.web";
+        String filePathOut = "output.web";
 
         // Initialize ExtractOptions class with page numbers
         ExtractOptions extractOptions = new ExtractOptions(new int[] { 1, 4 });
-
-        // Instantiate Merger with input Web document
-        Merger merger = new Merger("input.html");
-
+        
+        // Instantiate Merger with input WEB document
+        Merger merger = new Merger("input.web");
         // Call extractPages method and pass extractOptions object to it
         merger.extractPages(extractOptions);
 
         // Call save method and specify the path to save the output document
-        merger.save("output.html");
+        merger.save("output.web");
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos - Online App to Extract Document Pages"
+    title: "Live Demos - Exract WEB Pages Online"
     content: |
-        Extract Web file right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/web) website.  
+        Extract WEB file right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/web) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -115,10 +114,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-html5"
-          title: "About Web File Format"
+        - icon: "far fa-file-WEB"
+          title: "About WEB File Format"
           content: |
-            It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI. Common web file extensions and their associate file formats include HTML (Hypertext Markup Language), ASP (Active Server Pages), and CSS (Cascading Style Sheets).
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
           link: "https://docs.fileformat.com/web/"
 
@@ -130,24 +129,9 @@ more_formats:
         Java documents merger & split API for file formats and images. Extract some of the popular file formats as stated below.
     format: 
         # format loop
-        - name: "Extract PDF Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Extract Word Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/word/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Extract Excel Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/excel/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Extract Worksheet Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/worksheet/"
-          description: "Microsoft Excel Worksheet"
+        - name: "Extract CSV Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/csv/"
+          description: "Comma Separated Values File"
 
         # format loop
         - name: "Extract DOC Pages in Java"
@@ -170,64 +154,39 @@ more_formats:
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "Extract DOTX Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
         - name: "Extract DOTM Pages in Java"
           link: "https://products.groupdocs.com/merger/java/extract/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "Extract RTF Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/rtf/"
-          description: "Rich Text Document"
+        - name: "Extract DOTX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/dotx/"
+          description: "Word Open XML Document Template"
 
         # format loop
-        - name: "Extract ODT Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/odt/"
-          description: "Open Document Text"
+        - name: "Extract EPUB Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/epub/"
+          description: "Digital E-Book File Format"
 
         # format loop
-        - name: "Extract OTT Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/ott/"
-          description: "OpenDocument Text Template"
+        - name: "Extract HTML Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/html/"
+          description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "Extract XLS Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/xls/"
-          description: "Microsoft Excel Binary File Format"
+        - name: "Extract MHT Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Extract XLSX Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+        - name: "Extract MHTML Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Extract XLAM Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/xlam/"
-          description: "Excel Open XML Macro-Enabled Add-in"
-
-        # format loop
-        - name: "Extract XLSM Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Extract XLSB Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Extract XLTX Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Extract XLTM Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/xltm/"
-          description: "Microsoft Excel macro-enabled template"
+        - name: "Extract ODP Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/odp/"
+          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "Extract ODS Pages in Java"
@@ -235,29 +194,49 @@ more_formats:
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "Extract CSV Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/csv/"
-          description: "Comma Separated Values File"
+        - name: "Extract ODT Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/odt/"
+          description: "Open Document Text"
 
         # format loop
-        - name: "Extract TSV Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/tsv/"
-          description: "Tab Separated Values File"
-        
-        # format loop
-        - name: "Extract PPT Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/ppt/"
-          description: "PowerPoint Presentation"
+        - name: "Extract ONE Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/one/"
+          description: "Microsoft OneNote File Format"
 
         # format loop
-        - name: "Extract PPTX Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/pptx/"
-          description: "PowerPoint Open XML Presentation"
+        - name: "Extract OTP Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "Extract OTT Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "Extract PDF Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "Extract POTM Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "Extract POTX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Extract PPS Pages in Java"
           link: "https://products.groupdocs.com/merger/java/extract/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "Extract PPSM Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Extract PPSX Pages in Java"
@@ -265,9 +244,9 @@ more_formats:
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Extract POTX Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/potx/"
-          description: "Microsoft PowerPoint Template"
+        - name: "Extract PPT Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/ppt/"
+          description: "PowerPoint Presentation"
 
         # format loop
         - name: "Extract PPTM Pages in Java"
@@ -275,49 +254,19 @@ more_formats:
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "Extract ODP Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/odp/"
-          description: "OpenDocument Presentation"
+        - name: "Extract PPTX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/pptx/"
+          description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "Extract OTP Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/otp/"
-          description: "OpenDocument Presentation Template"
+        - name: "Extract PS Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/ps/"
+          description: "PostScript (PS)"
 
         # format loop
-        - name: "Extract Text Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/txt/"
-          description: "Plain Text File"
-
-        # format loop
-        - name: "Extract OneNote Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Extract XPS Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/xps/"
-          description: "XML Paper Specification File"
-
-        # format loop
-        - name: "Extract Web Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/web/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Extract HTML Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/html/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Extract MHT Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/mht/"
-          description: "MHTML Web Archive"
-
-        # format loop
-        - name: "Extract MHTML Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/mhtml/"
-          description: "MIME HTML"
+        - name: "Extract RTF Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/rtf/"
+          description: "Rich Text File Format"
 
         # format loop
         - name: "Extract TEX Pages in Java"
@@ -325,19 +274,106 @@ more_formats:
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "Extract EPUB Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/epub/"
-          description: "eBook File"
-          
+        - name: "Extract TSV Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/tsv/"
+          description: "Tab Separated Values File"
+
         # format loop
-        - name: "Extract PPSM Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/ppsm/"
-          description: "Microsoft PowerPoint Macro-Enabled Slide Show"
-        
+        - name: "Extract TXT Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/txt/"
+          description: "Plain Text File Format"
+
         # format loop
-        - name: "Extract POTM Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/extract/potm/"
-          description: "Microsoft PowerPoint Macro-Enabled Template"
+        - name: "Extract VDX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/vdx/"
+          description: "Microsoft Visio XML Drawing File Format"
+
+        # format loop
+        - name: "Extract VSDM Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/vsdm/"
+          description: "Visio Macro-Enabled Drawing"
+
+        # format loop
+        - name: "Extract VSDX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/vsdx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Extract VSSM Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/vssm/"
+          description: "Microsoft Visio Macro Enabled File Format"
+
+        # format loop
+        - name: "Extract VSSX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/vssx/"
+          description: "Visio Stencil File Format"
+
+        # format loop
+        - name: "Extract VSTM Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/vstm/"
+          description: "Visio Macro-Enabled Drawing Template"
+
+        # format loop
+        - name: "Extract VSTX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/vstx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Extract VSX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/vsx/"
+          description: "Vector Scalar Extension"
+
+        # format loop
+        - name: "Extract VTX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/vtx/"
+          description: "Microsoft Visio Drawing Template"
+
+        # format loop
+        - name: "Extract XLAM Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "Extract XLS Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Extract XLSB Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "Extract XLSM Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "Extract XLSX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "Extract XLT Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "Extract XLTM Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "Extract XLTX Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "Extract XPS Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/extract/xps/"
+          description: "Open XML Paper Specification"
+
+
 
 ############################# Back to top ###############################
 back_to_top:

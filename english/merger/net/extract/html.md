@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2022-03-03T17:48:30
 draft: false
 
 ############################# Head ############################
@@ -91,7 +91,7 @@ steps:
 
         // Initialise ExtractOptions class with selected page numbers
         ExtractOptions extractOptions = new ExtractOptions(new int[] { 2, 5 }); // Resultant document will contain pages 2 and 5
-
+        
         // Instantiate Merger with input HTML document
         using (Merger merger = new Merger("input.html"))
           {
@@ -99,16 +99,16 @@ steps:
             merger.ExtractPages(extractOptions);
 
             // Call Save method to save the extracted document
-            merger.Save(output.html);
+            merger.Save("output.html");
           }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos - Online Document Pages Extraction App"
+    title: "Live Demos - Exract HTML Document Pages App"
     content: |
-        Extract HTML file pages right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/html) website.  
+        Extract HTML file pages right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/html) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -116,10 +116,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-html5"
+        - icon: "far fa-file-code"
           title: "About HTML File Format"
           content: |
-            HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well. Each HTML page is made up of HTML elements such as forms, text, images, animations, links, etc. These elements are represented by tags and several others where each tag has start and end. It can also embed applications written in scripting languages such as JavaScript and Style Sheets (CSS) for overall layout representation.
+            HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well.
 
           link: "https://docs.fileformat.com/web/html/"
 
@@ -131,24 +131,9 @@ more_formats:
         .NET documents merger & split API for file formats and images. Extract specified pages from some of the popular file formats as stated below.
     format: 
         # format loop
-        - name: "Extract PDF Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Extract Word Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/word/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Extract Excel Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/excel/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Extract Worksheet Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/worksheet/"
-          description: "Microsoft Excel Worksheet"
+        - name: "Extract CSV Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/csv/"
+          description: "Comma Separated Values File"
 
         # format loop
         - name: "Extract DOC Pages in .NET"
@@ -171,64 +156,34 @@ more_formats:
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "Extract DOTX Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
         - name: "Extract DOTM Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/extract/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "Extract RTF Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/rtf/"
-          description: "Rich Text Document"
+        - name: "Extract DOTX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/dotx/"
+          description: "Word Open XML Document Template"
 
         # format loop
-        - name: "Extract ODT Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/odt/"
-          description: "Open Document Text"
+        - name: "Extract EPUB Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/epub/"
+          description: "Digital E-Book File Format"
 
         # format loop
-        - name: "Extract OTT Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/ott/"
-          description: "OpenDocument Text Template"
+        - name: "Extract MHT Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Extract XLS Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/xls/"
-          description: "Microsoft Excel Binary File Format"
+        - name: "Extract MHTML Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Extract XLSX Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Extract XLAM Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/xlam/"
-          description: "Excel Open XML Macro-Enabled Add-in"
-
-        # format loop
-        - name: "Extract XLSM Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Extract XLSB Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Extract XLTX Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Extract XLTM Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/xltm/"
-          description: "Microsoft Excel macro-enabled template"
+        - name: "Extract ODP Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/odp/"
+          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "Extract ODS Pages in .NET"
@@ -236,29 +191,49 @@ more_formats:
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "Extract CSV Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/csv/"
-          description: "Comma Separated Values File"
+        - name: "Extract ODT Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/odt/"
+          description: "Open Document Text"
 
         # format loop
-        - name: "Extract TSV Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/tsv/"
-          description: "Tab Separated Values File"
-        
-        # format loop
-        - name: "Extract PPT Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/ppt/"
-          description: "PowerPoint Presentation"
+        - name: "Extract ONE Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/one/"
+          description: "Microsoft OneNote File Format"
 
         # format loop
-        - name: "Extract PPTX Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/pptx/"
-          description: "PowerPoint Open XML Presentation"
+        - name: "Extract OTP Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "Extract OTT Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "Extract PDF Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "Extract POTM Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "Extract POTX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Extract PPS Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/extract/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "Extract PPSM Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Extract PPSX Pages in .NET"
@@ -266,9 +241,9 @@ more_formats:
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Extract POTX Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/potx/"
-          description: "Microsoft PowerPoint Template"
+        - name: "Extract PPT Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/ppt/"
+          description: "PowerPoint Presentation"
 
         # format loop
         - name: "Extract PPTM Pages in .NET"
@@ -276,49 +251,19 @@ more_formats:
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "Extract ODP Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/odp/"
-          description: "OpenDocument Presentation"
+        - name: "Extract PPTX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/pptx/"
+          description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "Extract OTP Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/otp/"
-          description: "OpenDocument Presentation Template"
+        - name: "Extract PS Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/ps/"
+          description: "PostScript (PS)"
 
         # format loop
-        - name: "Extract Text Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/txt/"
-          description: "Plain Text File"
-
-        # format loop
-        - name: "Extract OneNote Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Extract XPS Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/xps/"
-          description: "XML Paper Specification File"
-
-        # format loop
-        - name: "Extract Web Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/web/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Extract HTML Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/html/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Extract MHT Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/mht/"
-          description: "MHTML Web Archive"
-
-        # format loop
-        - name: "Extract MHTML Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/mhtml/"
-          description: "MIME HTML"
+        - name: "Extract RTF Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/rtf/"
+          description: "Rich Text File Format"
 
         # format loop
         - name: "Extract TEX Pages in .NET"
@@ -326,19 +271,106 @@ more_formats:
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "Extract EPUB Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/epub/"
-          description: "eBook File"
-          
+        - name: "Extract TSV Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/tsv/"
+          description: "Tab Separated Values File"
+
         # format loop
-        - name: "Extract PPSM Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/ppsm/"
-          description: "Microsoft PowerPoint Macro-Enabled Slide Show"
-        
+        - name: "Extract TXT Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/txt/"
+          description: "Plain Text File Format"
+
         # format loop
-        - name: "Extract POTM Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/potm/"
-          description: "Microsoft PowerPoint Macro-Enabled Template"
+        - name: "Extract VDX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/vdx/"
+          description: "Microsoft Visio XML Drawing File Format"
+
+        # format loop
+        - name: "Extract VSDM Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/vsdm/"
+          description: "Visio Macro-Enabled Drawing"
+
+        # format loop
+        - name: "Extract VSDX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/vsdx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Extract VSSM Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/vssm/"
+          description: "Microsoft Visio Macro Enabled File Format"
+
+        # format loop
+        - name: "Extract VSSX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/vssx/"
+          description: "Visio Stencil File Format"
+
+        # format loop
+        - name: "Extract VSTM Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/vstm/"
+          description: "Visio Macro-Enabled Drawing Template"
+
+        # format loop
+        - name: "Extract VSTX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/vstx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Extract VSX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/vsx/"
+          description: "Vector Scalar Extension"
+
+        # format loop
+        - name: "Extract VTX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/vtx/"
+          description: "Microsoft Visio Drawing Template"
+
+        # format loop
+        - name: "Extract XLAM Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "Extract XLS Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Extract XLSB Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "Extract XLSM Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "Extract XLSX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "Extract XLT Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "Extract XLTM Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "Extract XLTX Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "Extract XPS Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/xps/"
+          description: "Open XML Paper Specification"
+
+
 
 ############################# Back to top ###############################
 back_to_top:

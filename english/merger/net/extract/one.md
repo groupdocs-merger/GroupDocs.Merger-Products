@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-03T17:48:32
+date: 2022-03-03T17:48:31
 draft: false
 
 ############################# Head ############################
-head_title: "Extract RTF Pages in C# ASP.NET & VB.NET"
-head_description: "Quickly extract pages from a RTF file in C# .NET. Save the new document containing the selected pages using the documents merger API."
+head_title: "Extract ONE Pages in C# ASP.NET & VB.NET"
+head_description: "Quickly extract pages from a ONE file in C# .NET. Save the new document containing the selected pages using the documents merger API."
 
 ############################# Header ############################
-title: "Extract RTF Pages In C# .NET Applications"
-description: "Quickly extract the selected pages from a RTF file and save it as a new document using documents merger API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+title: "Extract ONE Pages In C# .NET Applications"
+description: "Quickly extract the selected pages from a ONE file and save it as a new document using documents merger API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -65,9 +65,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Extract Pages from RTF File in C# .NET"
+    title_left: "Extract Pages from ONE File in C# .NET"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/net/) makes it easy for .NET developers to extract the desired pages from a RTF file and save it as a new file containing the selected pages by implementing a few easy steps.
+        [GroupDocs.Merger](https://products.groupdocs.com/merger/net/) makes it easy for .NET developers to extract the desired pages from a ONE file and save it as a new file containing the selected pages by implementing a few easy steps.
 
         *   Initialize <mark>**ExtractOptions**</mark> class with page numbers to be extracted into the new file.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -85,30 +85,30 @@ steps:
         
     code: |
         ```cs
-        // Extract RTF file pages using GroupDocs.Merger API
-        string filePath = "input.rtf";
-        string filePathOut = "output.rtf";
+        // Extract ONE file pages using GroupDocs.Merger API
+        string filePath = "input.one";
+        string filePathOut = "output.one";
 
         // Initialise ExtractOptions class with selected page numbers
         ExtractOptions extractOptions = new ExtractOptions(new int[] { 2, 5 }); // Resultant document will contain pages 2 and 5
         
-        // Instantiate Merger with input RTF document
-        using (Merger merger = new Merger("input.rtf"))
+        // Instantiate Merger with input ONE document
+        using (Merger merger = new Merger("input.one"))
           {
             // Call ExtractPages method and pass ExtractOptions object to it
             merger.ExtractPages(extractOptions);
 
             // Call Save method to save the extracted document
-            merger.Save("output.rtf");
+            merger.Save("output.one");
           }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos - Exract RTF Document Pages App"
+    title: "Live Demos - Exract ONE Document Pages App"
     content: |
-        Extract RTF file pages right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rtf) website.
+        Extract ONE file pages right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/one) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -116,12 +116,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-RTF"
-          title: "About RTF File Format"
+        - icon: "far fa-file-ONE"
+          title: "About ONE File Format"
           content: |
-            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting.
+            Files with .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips.
 
-          link: "https://docs.fileformat.com/word-processing/rtf/"
+          link: "https://docs.fileformat.com/note-taking/one/"
 
 ############################# More Formats ############################
 more_formats:
@@ -201,11 +201,6 @@ more_formats:
           description: "Open Document Text"
 
         # format loop
-        - name: "Extract ONE Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/extract/one/"
-          description: "Microsoft OneNote File Format"
-
-        # format loop
         - name: "Extract OTP Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/extract/otp/"
           description: "Origin Graph Template"
@@ -264,6 +259,11 @@ more_formats:
         - name: "Extract PS Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/extract/ps/"
           description: "PostScript (PS)"
+
+        # format loop
+        - name: "Extract RTF Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/extract/rtf/"
+          description: "Rich Text File Format"
 
         # format loop
         - name: "Extract TEX Pages in .NET"
