@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2022-03-04T18:48:01
 draft: false
 
 ############################# Head ############################
-head_title: "Move, Rearrange & Reorder Image Pages in C# .NET"
-head_description: "C# .NET users to move, rearrange and reorder pages within a Image document by reversing the pages order using document merger API."
+head_title: "Move, Rearrange & Reorder IMAGE Pages in C# .NET"
+head_description: "C# .NET users to move, rearrange and reorder pages within a IMAGE document by reversing the pages order using document merger API."
 
 ############################# Header ############################
-title: "Move & Reorder Image Pages in .NET"
-description: "Move and Rearrange the pages within a Image document to any position using documents merger API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+title: "Move & Reorder IMAGE Pages in .NET"
+description: "Move and Rearrange the pages within a IMAGE document to any position using documents merger API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -65,9 +65,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Move Image File Pages"
+    title_left: "Move IMAGE File Pages in .NET"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/net/) makes it easy for .NET developers to move and rearrange pages within a Image file by implementing a few easy steps.
+        [GroupDocs.Merger](https://products.groupdocs.com/merger/net/) makes it easy for .NET developers to move and rearrange pages within a PDF file by implementing a few easy steps.
 
         *   Initialise <mark>**MoveOptions**</mark> class to specify current and new page numbers.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -85,30 +85,30 @@ steps:
         
     code: |
         ```cs
-        // Move Image file pages using GroupDocs.Merger API
+        // Move IMAGE file pages using GroupDocs.Merger API
         int pageNumber = 6;
         int newPageNumber = 1;
 
         // Initialise MoveOptions class to specify current and new page numbers
         MoveOptions moveOptions = new MoveOptions(pageNumber, newPageNumber);
 
-        // Instantiate Merger with input Image document
-        using (Merger merger = new Merger("input.bmp")))
+        // Instantiate Merger with input IMAGE document
+        using (Merger merger = new Merger("input.image"))
           {
             // Call MovePage method and pass MoveOptions object to it
             merger.MovePage(moveOptions);
             
             // Call Save method and pass desired file path to save the output document
-            merger.Save("output.bmp");
+            merger.Save("output.image");
           }
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos - Online App to Reorder Document Pages"
+    title: "Live Demos - Move IMAGE Document Pages Online"
     content: |
-        Move pages within Image files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/image) website.  
+        Move pages within IMAGE files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/image) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -116,8 +116,8 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
-          title: "About Image File Format"
+        - icon: "far fa-file-IMAGE"
+          title: "About IMAGE File Format"
           content: |
             An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.
 
@@ -126,219 +126,236 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Moving Pages of Other Document Formats"
+    title: "Move Pages of Other Document Formats"
     content: |
         .NET documents merger & split API for file formats and images. Reorder pages of some of the popular file formats as stated below.
     format: 
         # format loop
-        - name: "Move PDF File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Move Word File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/word/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Move Excel File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/excel/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Move Worksheet File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/worksheet/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Move DOC File Pages"
+        - name: "Move DOC File Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/move/doc/"
           description: "Microsoft Word Document"
 
         # format loop
-        - name: "Move DOCM File Pages"
+        - name: "Move DOCM File Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/move/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "Move DOCX File Pages"
+        - name: "Move DOCX File Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/move/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
-        - name: "Move DOT File Pages"
+        - name: "Move DOT File Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/move/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "Move DOTX File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Move DOTM File Pages"
+        - name: "Move DOTM File Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/move/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "Move RTF File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/rtf/"
-          description: "Rich Text Document"
+        - name: "Move DOTX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/dotx/"
+          description: "Word Open XML Document Template"
 
         # format loop
-        - name: "Move ODT File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/odt/"
-          description: "Open Document Text"
+        - name: "Move EPUB File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/epub/"
+          description: "Digital E-Book File Format"
 
         # format loop
-        - name: "Move OTT File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/ott/"
-          description: "OpenDocument Text Template"
+        - name: "Move HTML File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/html/"
+          description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "Move XLS File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/xls/"
-          description: "Microsoft Excel Binary File Format"
+        - name: "Move MHT File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Move XLSX File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+        - name: "Move MHTML File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Move XLAM File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/xlam/"
-          description: "Excel Open XML Macro-Enabled Add-in"
+        - name: "Move ODP File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/odp/"
+          description: "OpenDocument Presentation File Format"
 
         # format loop
-        - name: "Move XLSM File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Move XLSB File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Move XLTX File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Move XLTM File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
-        - name: "Move ODS File Pages"
+        - name: "Move ODS File Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/move/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "Move CSV File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/csv/"
-          description: "Comma Separated Values File"
+        - name: "Move ODT File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/odt/"
+          description: "Open Document Text"
 
         # format loop
-        - name: "Move TSV File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/tsv/"
-          description: "Tab Separated Values File"
-        
-        # format loop
-        - name: "Move PPT File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/ppt/"
-          description: "PowerPoint Presentation"
+        - name: "Move OTP File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/otp/"
+          description: "Origin Graph Template"
 
         # format loop
-        - name: "Move PPTX File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/pptx/"
-          description: "PowerPoint Open XML Presentation"
+        - name: "Move OTT File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/ott/"
+          description: "Open Document Template"
 
         # format loop
-        - name: "Move PPS File Pages"
+        - name: "Move PDF File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "Move POTM File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "Move POTX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "Move PPS File Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/move/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
+          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "Move PPSX File Pages"
+        - name: "Move PPSM File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "Move PPSX File Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/move/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Move POTX File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/potx/"
-          description: "Microsoft PowerPoint Template"
+        - name: "Move PPT File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/ppt/"
+          description: "PowerPoint Presentation"
 
         # format loop
-        - name: "Move PPTM File Pages"
+        - name: "Move PPTM File Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/move/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "Move ODP File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/odp/"
-          description: "OpenDocument Presentation"
+        - name: "Move PPTX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/pptx/"
+          description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "Move OTP File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/otp/"
-          description: "OpenDocument Presentation Template"
+        - name: "Move PS File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/ps/"
+          description: "PostScript (PS)"
 
         # format loop
-        - name: "Move Text File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/txt/"
-          description: "Plain Text File"
+        - name: "Move RTF File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/rtf/"
+          description: "Rich Text File Format"
 
         # format loop
-        - name: "Move OneNote File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Move XPS File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/xps/"
-          description: "XML Paper Specification File"
-
-        # format loop
-        - name: "Move Web File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/web/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Move HTML File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/html/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Move MHT File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/mht/"
-          description: "MHTML Web Archive"
-
-        # format loop
-        - name: "Move MHTML File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/mhtml/"
-          description: "MIME HTML"
-
-        # format loop
-        - name: "Move TEX File Pages"
+        - name: "Move TEX File Pages in .NET"
           link: "https://products.groupdocs.com/merger/net/move/tex/"
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "Move EPUB File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/epub/"
-          description: "eBook File"
-          
+        - name: "Move VDX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/vdx/"
+          description: "Microsoft Visio XML Drawing File Format"
+
         # format loop
-        - name: "Move PPSM File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/ppsm/"
-          description: "Microsoft PowerPoint Macro-Enabled Slide Show"
-        
+        - name: "Move VSDM File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/vsdm/"
+          description: "Visio Macro-Enabled Drawing"
+
         # format loop
-        - name: "Move POTM File Pages"
-          link: "https://products.groupdocs.com/merger/net/move/potm/"
-          description: "Microsoft PowerPoint Macro-Enabled Template"
+        - name: "Move VSDX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/vsdx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Move VSSM File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/vssm/"
+          description: "Microsoft Visio Macro Enabled File Format"
+
+        # format loop
+        - name: "Move VSSX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/vssx/"
+          description: "Visio Stencil File Format"
+
+        # format loop
+        - name: "Move VSTM File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/vstm/"
+          description: "Visio Macro-Enabled Drawing Template"
+
+        # format loop
+        - name: "Move VSTX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/vstx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Move VSX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/vsx/"
+          description: "Vector Scalar Extension"
+
+        # format loop
+        - name: "Move VTX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/vtx/"
+          description: "Microsoft Visio Drawing Template"
+
+        # format loop
+        - name: "Move XLAM File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "Move XLS File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Move XLSB File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "Move XLSM File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "Move XLSX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "Move XLT File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "Move XLTM File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "Move XLTX File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "Move XPS File Pages in .NET"
+          link: "https://products.groupdocs.com/merger/net/move/xps/"
+          description: "Open XML Paper Specification"
+
+
 
 ############################# Back to top ###############################
 back_to_top:

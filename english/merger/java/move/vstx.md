@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2022-03-04T18:48:07
 draft: false
 
 ############################# Head ############################
@@ -58,7 +58,7 @@ about:
     enable: true
     title: "About GroupDocs.Merger for Java API"
     content: |
-        GroupDocs.Merger for Java library offers a simple solution to safely merge & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        [GroupDocs.Merger for Java](https://products.groupdocs.com/merger/java/) library offers a simple solution to safely merge & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
         
         GroupDocs.Merger APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10.
 
@@ -84,7 +84,7 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
+        ```java
         // Move VSTX file pages using GroupDocs.Merger API
         int pageNumber = 6;
         int newPageNumber = 1;
@@ -93,7 +93,7 @@ steps:
         MoveOptions moveOptions = new MoveOptions(pageNumber, newPageNumber);
 
         // Instantiate Merger with input VSTX document
-        Merger merger = new Merger("input.vstx")
+        Merger merger = new Merger("input.vstx");
 
         // Call movePage method and pass MoveOptions object to it
         merger.movePage(moveOptions);
@@ -105,9 +105,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos - Online App to Reorder Document Pages"
+    title: "Live Demos - Move VSTX Document Pages Online"
     content: |
-        Move pages within VSTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/vstx) website.  
+        Move pages within VSTX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/vstx) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -115,40 +115,20 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-file-alt"
           title: "About VSTX File Format"
           content: |
-            Files with .vstx extensions are drawing template files created with Microsoft Visio 2013 and above. These VSTX files provide starting point for creating Visio drawings, saved as .VSDX files, with default layout and settings. In general, Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others. Programs that open VSTX files include Microsoft Visio for Windows and Mac that let you open these files for viewing and editing. It also allows to convert Visio file formats to a number of other formats.
+            Files with VSTX extensions are drawing template files created with Microsoft Visio 2013 and above. These VSTX files provide a starting point for creating Visio drawings, saved as VSDX files, with default layout and settings. In general, Visio files are used to create drawings that contain visual objects, flow charts, UML diagrams, information flow, organizational charts, software diagrams, network layout, database models, objects mapping, and other similar information.
 
           link: "https://docs.fileformat.com/image/vstx/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Moving Pages of Other Document Formats"
+    title: "Move Pages of Other Document Formats"
     content: |
-        Java documents merger & split API for file formats and images. Reorder pages of some of the popular file formats as stated below.
+        Java documents merger & split API for file formats and images. Reorder pages from the popular file formats as stated below.
     format: 
-        # format loop
-        - name: "Move PDF File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Move Word File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/word/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Move Excel File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/excel/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Move Worksheet File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/worksheet/"
-          description: "Microsoft Excel Worksheet"
-
         # format loop
         - name: "Move DOC File Pages in Java"
           link: "https://products.groupdocs.com/merger/java/move/doc/"
@@ -170,64 +150,39 @@ more_formats:
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "Move DOTX File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
         - name: "Move DOTM File Pages in Java"
           link: "https://products.groupdocs.com/merger/java/move/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "Move RTF File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/rtf/"
-          description: "Rich Text Document"
+        - name: "Move DOTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/dotx/"
+          description: "Word Open XML Document Template"
 
         # format loop
-        - name: "Move ODT File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/odt/"
-          description: "Open Document Text"
+        - name: "Move EPUB File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/epub/"
+          description: "Digital E-Book File Format"
 
         # format loop
-        - name: "Move OTT File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/ott/"
-          description: "OpenDocument Text Template"
+        - name: "Move HTML File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/html/"
+          description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "Move XLS File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/xls/"
-          description: "Microsoft Excel Binary File Format"
+        - name: "Move MHT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Move XLSX File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+        - name: "Move MHTML File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Move XLAM File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/xlam/"
-          description: "Excel Open XML Macro-Enabled Add-in"
-
-        # format loop
-        - name: "Move XLSM File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Move XLSB File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Move XLTX File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Move XLTM File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/xltm/"
-          description: "Microsoft Excel macro-enabled template"
+        - name: "Move ODP File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/odp/"
+          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "Move ODS File Pages in Java"
@@ -235,29 +190,44 @@ more_formats:
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "Move CSV File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/csv/"
-          description: "Comma Separated Values File"
+        - name: "Move ODT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/odt/"
+          description: "Open Document Text"
 
         # format loop
-        - name: "Move TSV File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/tsv/"
-          description: "Tab Separated Values File"
-        
-        # format loop
-        - name: "Move PPT File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/ppt/"
-          description: "PowerPoint Presentation"
+        - name: "Move OTP File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/otp/"
+          description: "Origin Graph Template"
 
         # format loop
-        - name: "Move PPTX File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/pptx/"
-          description: "PowerPoint Open XML Presentation"
+        - name: "Move OTT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "Move PDF File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "Move POTM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "Move POTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Move PPS File Pages in Java"
           link: "https://products.groupdocs.com/merger/java/move/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "Move PPSM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Move PPSX File Pages in Java"
@@ -265,9 +235,9 @@ more_formats:
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Move POTX File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/potx/"
-          description: "Microsoft PowerPoint Template"
+        - name: "Move PPT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/ppt/"
+          description: "PowerPoint Presentation"
 
         # format loop
         - name: "Move PPTM File Pages in Java"
@@ -275,49 +245,19 @@ more_formats:
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "Move ODP File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/odp/"
-          description: "OpenDocument Presentation"
+        - name: "Move PPTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/pptx/"
+          description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "Move OTP File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/otp/"
-          description: "OpenDocument Presentation Template"
+        - name: "Move PS File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/ps/"
+          description: "PostScript (PS)"
 
         # format loop
-        - name: "Move Text File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/txt/"
-          description: "Plain Text File"
-
-        # format loop
-        - name: "Move OneNote File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Move XPS File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/xps/"
-          description: "XML Paper Specification File"
-
-        # format loop
-        - name: "Move Web File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/web/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Move HTML File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/html/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Move MHT File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/mht/"
-          description: "MHTML Web Archive"
-
-        # format loop
-        - name: "Move MHTML File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/mhtml/"
-          description: "MIME HTML"
+        - name: "Move RTF File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/rtf/"
+          description: "Rich Text File Format"
 
         # format loop
         - name: "Move TEX File Pages in Java"
@@ -325,19 +265,91 @@ more_formats:
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "Move EPUB File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/epub/"
-          description: "eBook File"
-          
+        - name: "Move VDX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/vdx/"
+          description: "Microsoft Visio XML Drawing File Format"
+
         # format loop
-        - name: "Move PPSM File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/ppsm/"
-          description: "Microsoft PowerPoint Macro-Enabled Slide Show"
-        
+        - name: "Move VSDM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/vsdm/"
+          description: "Visio Macro-Enabled Drawing"
+
         # format loop
-        - name: "Move POTM File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/move/potm/"
-          description: "Microsoft PowerPoint Macro-Enabled Template"
+        - name: "Move VSDX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/vsdx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Move VSSM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/vssm/"
+          description: "Microsoft Visio Macro Enabled File Format"
+
+        # format loop
+        - name: "Move VSSX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/vssx/"
+          description: "Visio Stencil File Format"
+
+        # format loop
+        - name: "Move VSTM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/vstm/"
+          description: "Visio Macro-Enabled Drawing Template"
+
+        # format loop
+        - name: "Move VSX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/vsx/"
+          description: "Vector Scalar Extension"
+
+        # format loop
+        - name: "Move VTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/vtx/"
+          description: "Microsoft Visio Drawing Template"
+
+        # format loop
+        - name: "Move XLAM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "Move XLS File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Move XLSB File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "Move XLSM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "Move XLSX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "Move XLT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "Move XLTM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "Move XLTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "Move XPS File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/move/xps/"
+          description: "Open XML Paper Specification"
+
+
 
 ############################# Back to top ###############################
 back_to_top:
