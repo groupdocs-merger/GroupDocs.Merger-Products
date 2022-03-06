@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-05T13:12:54
+date: 2022-03-05T16:42:21
 draft: false
 
 ############################# Head ############################
@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Split CSV File By Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to split a single PDF file into multiple resultant files by implementing a few easy steps.
+        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to split a single CSV file into multiple resultant files by implementing a few easy steps.
 
         *   Initialize <mark>**PageSplitOptions**</mark> class with output files path format.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.

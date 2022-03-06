@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+date: 2022-03-05T16:42:32
 draft: false
 
 ############################# Head ############################
-head_title: "Swap & Exchange Web Pages in Java"
-head_description: "Java users to swap & exchange positions of two pages within a Web file using the document merger & split API."
+head_title: "Swap & Exchange WEB Pages in Java"
+head_description: "Java users to swap & exchange positions of two pages within a WEB file using the document merger & split API."
 
 ############################# Header ############################
-title: "Swap & Exchange Web Pages in Java"
-description: "Swap & Exchange positions of two pages within a Web file using the documents merger API for Java & J2SE applications."
+title: "Swap & Exchange WEB Pages in Java"
+description: "Swap & Exchange positions of two pages within a WEB file using the file splitter API for Java & J2SE applications."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -65,9 +65,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Swap Web File Pages in Java"
+    title_left: "Swap WEB File Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to swap, exchange and organize pages within a Web file by implementing a few easy steps.
+        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to swap, exchange and organize pages within a WEB file by implementing a few easy steps.
 
         *   Initialise <mark>**SwapOptions**</mark> class to specify page numbers to exchange.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -84,30 +84,29 @@ steps:
         *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
         
     code: |
-        ```cs
-        // Swap Web file pages using GroupDocs.Merger API
+        ```java
+        // Swap WEB  file pages using GroupDocs.Merger API
         int pageNumber1 = 6;
         int pageNumber2 = 1;
 
         // Initialise SwapOptions class to specify page numbers to swap
         SwapOptions swapOptions = new SwapOptions(pageNumber2, pageNumber1);
 
-        // Instantiate Merger with input Web document
-        Merger merger = new Merger("input.html")
-
+        // Instantiate Merger with input WEB document
+        Merger merger = new Merger("input.web"))
         // Call swapPages method and pass SwapOptions object to it
         merger.swapPages(swapOptions);
             
-        // Call Save method and pass desired file path to save the output document
-        merger.save("output.html");
+        // Call save method and pass desired file path to save the output document
+        merger.save("output.web");
         ```
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos - Online App to Exchange Document Pages"
+    title: "Live Demos - Swap WEB File Pages Online"
     content: |
-        Exchange pages within Web files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/html) website.  
+        Exchange pages within WEB files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/web) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -115,39 +114,24 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-html5"
-          title: "About Web File Format"
+        - icon: "far fa-file-WEB"
+          title: "About WEB File Format"
           content: |
-            It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI. Common web file extensions and their associate file formats include HTML (Hypertext Markup Language), ASP (Active Server Pages), and CSS (Cascading Style Sheets).
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
           link: "https://docs.fileformat.com/web/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Swapping Pages of Other Document Formats"
+    title: "Swapping Pages of Other File Formats"
     content: |
         Java documents merger & split API for file formats and images. Swap pages of some of the popular file formats as stated below.
     format: 
         # format loop
-        - name: "Swap PDF File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Swap Word File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/word/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Swap Excel File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/excel/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Swap Worksheet File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/worksheet/"
-          description: "Microsoft Excel Worksheet"
+        - name: "Swap CSV File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/csv/"
+          description: "Comma Separated Values File"
 
         # format loop
         - name: "Swap DOC File Pages in Java"
@@ -170,64 +154,39 @@ more_formats:
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "Swap DOTX File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
         - name: "Swap DOTM File Pages in Java"
           link: "https://products.groupdocs.com/merger/java/swap/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "Swap RTF File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/rtf/"
-          description: "Rich Text Document"
+        - name: "Swap DOTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/dotx/"
+          description: "Word Open XML Document Template"
 
         # format loop
-        - name: "Swap ODT File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/odt/"
-          description: "Open Document Text"
+        - name: "Swap EPUB File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/epub/"
+          description: "Digital E-Book File Format"
 
         # format loop
-        - name: "Swap OTT File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/ott/"
-          description: "OpenDocument Text Template"
+        - name: "Swap HTML File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/html/"
+          description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "Swap XLS File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/xls/"
-          description: "Microsoft Excel Binary File Format"
+        - name: "Swap MHT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Swap XLSX File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+        - name: "Swap MHTML File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Swap XLAM File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/xlam/"
-          description: "Excel Open XML Macro-Enabled Add-in"
-
-        # format loop
-        - name: "Swap XLSM File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Swap XLSB File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Swap XLTX File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Swap XLTM File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/xltm/"
-          description: "Microsoft Excel macro-enabled template"
+        - name: "Swap ODP File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/odp/"
+          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "Swap ODS File Pages in Java"
@@ -235,29 +194,44 @@ more_formats:
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "Swap CSV File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/csv/"
-          description: "Comma Separated Values File"
+        - name: "Swap ODT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/odt/"
+          description: "Open Document Text"
 
         # format loop
-        - name: "Swap TSV File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/tsv/"
-          description: "Tab Separated Values File"
-        
-        # format loop
-        - name: "Swap PPT File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/ppt/"
-          description: "PowerPoint Presentation"
+        - name: "Swap OTP File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/otp/"
+          description: "Origin Graph Template"
 
         # format loop
-        - name: "Swap PPTX File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/pptx/"
-          description: "PowerPoint Open XML Presentation"
+        - name: "Swap OTT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "Swap PDF File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "Swap POTM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "Swap POTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Swap PPS File Pages in Java"
           link: "https://products.groupdocs.com/merger/java/swap/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "Swap PPSM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Swap PPSX File Pages in Java"
@@ -265,9 +239,9 @@ more_formats:
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Swap POTX File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/potx/"
-          description: "Microsoft PowerPoint Template"
+        - name: "Swap PPT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/ppt/"
+          description: "PowerPoint Presentation"
 
         # format loop
         - name: "Swap PPTM File Pages in Java"
@@ -275,49 +249,19 @@ more_formats:
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "Swap ODP File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/odp/"
-          description: "OpenDocument Presentation"
+        - name: "Swap PPTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/pptx/"
+          description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "Swap OTP File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/otp/"
-          description: "OpenDocument Presentation Template"
+        - name: "Swap PS File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/ps/"
+          description: "PostScript (PS)"
 
         # format loop
-        - name: "Swap Text File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/txt/"
-          description: "Plain Text File"
-
-        # format loop
-        - name: "Swap OneNote File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Swap XPS File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/xps/"
-          description: "XML Paper Specification File"
-
-        # format loop
-        - name: "Swap Web File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/web/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Swap HTML File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/html/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Swap MHT File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/mht/"
-          description: "MHTML Web Archive"
-
-        # format loop
-        - name: "Swap MHTML File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/mhtml/"
-          description: "MIME HTML"
+        - name: "Swap RTF File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/rtf/"
+          description: "Rich Text File Format"
 
         # format loop
         - name: "Swap TEX File Pages in Java"
@@ -325,19 +269,106 @@ more_formats:
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "Swap EPUB File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/epub/"
-          description: "eBook File"
-          
+        - name: "Swap TSV File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/tsv/"
+          description: "Tab Separated Values File"
+
         # format loop
-        - name: "Swap PPSM File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/ppsm/"
-          description: "Microsoft PowerPoint Macro-Enabled Slide Show"
-        
+        - name: "Swap TXT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/txt/"
+          description: "Plain Text File Format"
+
         # format loop
-        - name: "Swap POTM File Pages in Java"
-          link: "https://products.groupdocs.com/merger/java/swap/potm/"
-          description: "Microsoft PowerPoint Macro-Enabled Template"
+        - name: "Swap VDX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/vdx/"
+          description: "Microsoft Visio XML Drawing File Format"
+
+        # format loop
+        - name: "Swap VSDM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/vsdm/"
+          description: "Visio Macro-Enabled Drawing"
+
+        # format loop
+        - name: "Swap VSDX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/vsdx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Swap VSSM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/vssm/"
+          description: "Microsoft Visio Macro Enabled File Format"
+
+        # format loop
+        - name: "Swap VSSX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/vssx/"
+          description: "Visio Stencil File Format"
+
+        # format loop
+        - name: "Swap VSTM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/vstm/"
+          description: "Visio Macro-Enabled Drawing Template"
+
+        # format loop
+        - name: "Swap VSTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/vstx/"
+          description: "Microsoft Visio File Format"
+
+        # format loop
+        - name: "Swap VSX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/vsx/"
+          description: "Vector Scalar Extension"
+
+        # format loop
+        - name: "Swap VTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/vtx/"
+          description: "Microsoft Visio Drawing Template"
+
+        # format loop
+        - name: "Swap XLAM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "Swap XLS File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Swap XLSB File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "Swap XLSM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "Swap XLSX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "Swap XLT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "Swap XLTM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "Swap XLTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "Swap XPS File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/swap/xps/"
+          description: "Open XML Paper Specification"
+
+
 
 ############################# Back to top ###############################
 back_to_top:
