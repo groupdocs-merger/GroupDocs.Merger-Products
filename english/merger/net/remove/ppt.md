@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-04T18:47:56
+date: 2022-03-05T13:12:45
 draft: false
 
 ############################# Head ############################
@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Live Demos - Remove PPT Document Pages Online"
     content: |
-        Remove pages within PPT files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/ppt) website.
+        Remove pages within PPT files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/ppt) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-04T18:47:59
+date: 2022-03-05T13:12:48
 draft: false
 
 ############################# Head ############################
@@ -107,7 +107,7 @@ demos:
     enable: true
     title: "Live Demos - Remove ODT Document Pages Online"
     content: |
-        Remove pages within ODT files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/odt) website.
+        Remove pages within ODT files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/odt) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################

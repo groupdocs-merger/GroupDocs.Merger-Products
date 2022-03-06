@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-04T18:47:59
+date: 2022-03-05T13:12:48
 draft: false
 
 ############################# Head ############################
@@ -107,7 +107,7 @@ demos:
     enable: true
     title: "Live Demos - Remove PS Document Pages Online"
     content: |
-        Remove pages within PS files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/ps) website.
+        Remove pages within PS files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/ps) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################

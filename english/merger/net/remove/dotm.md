@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-04T18:47:54
+date: 2022-03-05T13:12:43
 draft: false
 
 ############################# Head ############################
@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Live Demos - Remove DOTM Document Pages Online"
     content: |
-        Remove pages within DOTM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/dotm) website.
+        Remove pages within DOTM files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/dotm) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################

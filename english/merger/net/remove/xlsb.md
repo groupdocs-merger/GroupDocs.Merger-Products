@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-04T18:47:57
+date: 2022-03-05T13:12:46
 draft: false
 
 ############################# Head ############################
@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Live Demos - Remove XLSB Document Pages Online"
     content: |
-        Remove pages within XLSB files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/xlsb) website.
+        Remove pages within XLSB files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/xlsb) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-04T18:47:57
+date: 2022-03-05T13:12:46
 draft: false
 
 ############################# Head ############################
@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Live Demos - Remove XLSX Document Pages Online"
     content: |
-        Remove pages within XLSX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/xlsx) website.
+        Remove pages within XLSX files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/xlsx) website.
         The live demo has the following benefits
         
 ############################# About Formats ############################
