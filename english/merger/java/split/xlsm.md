@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-05T16:42:24
+date: 2022-03-05T17:06:50
 draft: false
 
 ############################# Head ############################
@@ -94,7 +94,7 @@ steps:
         // Instantiate Merger with input XLSM document
         Merger merger = new Merger("input.xlsm"))
         // Call split method and pass SplitOptions object to save resultant documents
-    	merger.split(splitOptions);
+        merger.split(splitOptions);
             
         // Call save method and pass desired file path to save the output document
         merger.save("output.xlsm");
