@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Split PPTX File By Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to split a single PPTX file into multiple resultant files by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to split a single PPTX file into multiple resultant files by implementing a few easy steps.
 
         *   Initialize <mark>**PageSplitOptions**</mark> class with output files path format.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -92,7 +92,7 @@ steps:
         PageSplitOptions splitOptions = new PageSplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
         // Instantiate Merger with input PPTX document
-        Merger merger = new Merger("input.pptx"))
+        Merger merger = new Merger("input.pptx");
         // Call split method and pass SplitOptions object to save resultant documents
         merger.split(splitOptions);
             

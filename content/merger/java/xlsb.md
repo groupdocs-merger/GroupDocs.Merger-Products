@@ -31,7 +31,7 @@ steps:
     enable: true
     title_left: "Merge Two or More XLSB Files in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to merge multiple XLSB files by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to merge multiple XLSB files by implementing a few easy steps.
 
         *   Create an instance of **Merger** class and load XLSB file.
         *   Call **Join** method of **Merger** class instance and load another XLSB file.

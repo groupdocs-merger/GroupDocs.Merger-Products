@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Rearrange VSDX File Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to move and rearrange pages within a VSDX file by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to move and rearrange pages within a VSDX file by implementing a few easy steps.
 
         *   Initialise <mark>**MoveOptions**</mark> class to specify current and new page numbers.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -118,7 +118,7 @@ about_formats:
         - icon: "far fa-file-alt"
           title: "About VSDX File Format"
           content: |
-            Files with .VSDX extension represents Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server.
+            Files with .VSDX extension represents Microsoft Visio file format introduced from Microsoft Office 2013 onward. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server.
 
           link: "https://docs.fileformat.com/image/vsdx/"
 

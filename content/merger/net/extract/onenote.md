@@ -58,7 +58,7 @@ about:
     enable: true
     title: "About GroupDocs.Merger for .NET API"
     content: |
-        [GroupDocs.Merger for .NET](https://products.groupdocs.com/merger/net) offers a simple solution to safely merge, split, move, remove, extract, swap & rotate between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        [GroupDocs.Merger for .NET](/merger/net/) offers a simple solution to safely merge, split, move, remove, extract, swap & rotate between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
         
         GroupDocs.Merger APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
 
@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Extract Pages from ONENOTE File in C# .NET"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/net) makes it easy for .NET developers to extract the desired pages from a ONENOTE file and save it as a new file containing the selected pages by implementing a few easy steps
+        [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to extract the desired pages from a ONENOTE file and save it as a new file containing the selected pages by implementing a few easy steps
 
         *   Initialize <mark>**ExtractOptions**</mark> class with page numbers to be extracted into the new file.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -81,7 +81,7 @@ steps:
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Merger for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Merger)
+        *   Download the latest version of GroupDocs.Merger for .NET from [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)
         
     code: |
         ```cs
@@ -114,9 +114,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-ONENOTE"
-          title: "About ONENOTE File Format"
+        - icon: "far fa-file-text-o"
+          title: "About OneNote File Format"
           content: |
+            File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draft pad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
+
+          link: "https://docs.fileformat.com/note-taking/one/"|
             [SRC_FORMAT_DESCRIPTION]
 
           link: "[SRC_FORMAT_URI]"

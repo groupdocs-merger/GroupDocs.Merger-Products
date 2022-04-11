@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Swap VSDX File Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to swap, exchange and organize pages within a VSDX file by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to swap, exchange and organize pages within a VSDX file by implementing a few easy steps.
 
         *   Initialise <mark>**SwapOptions**</mark> class to specify page numbers to exchange.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -93,7 +93,7 @@ steps:
         SwapOptions swapOptions = new SwapOptions(pageNumber2, pageNumber1);
 
         // Instantiate Merger with input VSDX document
-        Merger merger = new Merger("input.vsdx"))
+        Merger merger = new Merger("input.vsdx");
         // Call swapPages method and pass SwapOptions object to it
         merger.swapPages(swapOptions);
             
@@ -117,7 +117,7 @@ about_formats:
         - icon: "far fa-file-alt"
           title: "About VSDX File Format"
           content: |
-            Files with .VSDX extension represents Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server.
+            Files with .VSDX extension represents Microsoft Visio file format introduced from Microsoft Office 2013 onward. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server.
 
           link: "https://docs.fileformat.com/image/vsdx/"
 

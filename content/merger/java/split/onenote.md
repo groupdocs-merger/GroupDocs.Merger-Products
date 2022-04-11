@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Split ONENOTE File By Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to split a single ONENOTE file into multiple resultant files by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to split a single ONENOTE file into multiple resultant files by implementing a few easy steps.
 
         *   Initialize <mark>**PageSplitOptions**</mark> class with output files path format.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -92,7 +92,7 @@ steps:
         PageSplitOptions splitOptions = new PageSplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
         // Instantiate Merger with input ONENOTE document
-        Merger merger = new Merger("input.onenote"))
+        Merger merger = new Merger("input.onenote");
         // Call split method and pass SplitOptions object to save resultant documents
         merger.split(splitOptions);
             
@@ -113,9 +113,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-ONENOTE"
-          title: "About ONENOTE File Format"
+        - icon: "far fa-file-text-o"
+          title: "About OneNote File Format"
           content: |
+            File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draft pad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
+
+          link: "https://docs.fileformat.com/note-taking/one/"|
             [SRC_FORMAT_DESCRIPTION]
 
           link: "[SRC_FORMAT_URI]"

@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Split VSDX File By Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to split a single VSDX file into multiple resultant files by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to split a single VSDX file into multiple resultant files by implementing a few easy steps.
 
         *   Initialize <mark>**PageSplitOptions**</mark> class with output files path format.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -92,7 +92,7 @@ steps:
         PageSplitOptions splitOptions = new PageSplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
         // Instantiate Merger with input VSDX document
-        Merger merger = new Merger("input.vsdx"))
+        Merger merger = new Merger("input.vsdx");
         // Call split method and pass SplitOptions object to save resultant documents
         merger.split(splitOptions);
             
@@ -116,7 +116,7 @@ about_formats:
         - icon: "far fa-file-alt"
           title: "About VSDX File Format"
           content: |
-            Files with .VSDX extension represents Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server.
+            Files with .VSDX extension represents Microsoft Visio file format introduced from Microsoft Office 2013 onward. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server.
 
           link: "https://docs.fileformat.com/image/vsdx/"
 

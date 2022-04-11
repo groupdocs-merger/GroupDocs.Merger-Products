@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Rearrange EPUB File Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to move and rearrange pages within a EPUB file by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to move and rearrange pages within a EPUB file by implementing a few easy steps.
 
         *   Initialise <mark>**MoveOptions**</mark> class to specify current and new page numbers.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.

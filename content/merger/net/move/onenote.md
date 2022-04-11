@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Move ONENOTE File Pages in .NET"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/net/) makes it easy for .NET developers to move and rearrange pages within a PDF file by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to move and rearrange pages within a PDF file by implementing a few easy steps.
 
         *   Initialise <mark>**MoveOptions**</mark> class to specify current and new page numbers.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -81,7 +81,7 @@ steps:
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Merger for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Merger)
+        *   Download the latest version of GroupDocs.Merger for .NET from [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)
         
     code: |
         ```cs
@@ -116,9 +116,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-ONENOTE"
-          title: "About ONENOTE File Format"
+        - icon: "far fa-file-text-o"
+          title: "About OneNote File Format"
           content: |
+            File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draft pad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
+
+          link: "https://docs.fileformat.com/note-taking/one/"|
             [SRC_FORMAT_DESCRIPTION]
 
           link: "[SRC_FORMAT_URI]"

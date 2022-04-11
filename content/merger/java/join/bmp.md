@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Join Multiple BMP Files in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to Join multiple BMP files by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to Join multiple BMP files by implementing a few easy steps.
 
         *   Create an instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
         *   Call <mark>**Join**</mark> method of <mark>**Merger**</mark> class instance and pass second source document path.
@@ -111,7 +111,7 @@ about_formats:
         - icon: "far fa-image"
           title: "About BMP File Format"
           content: |
-            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
+            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independence serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
 
           link: "https://docs.fileformat.com/image/bmp/"
 

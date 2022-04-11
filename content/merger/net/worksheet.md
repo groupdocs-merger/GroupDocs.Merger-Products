@@ -58,7 +58,7 @@ about:
     enable: true
     title: "About GroupDocs.Merger for .NET API"
     content: |
-        [GroupDocs.Merger for .NET](https://products.groupdocs.com/merger/net) offers a simple solution to safely merge & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        [GroupDocs.Merger for .NET](/merger/net/) offers a simple solution to safely merge & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
         
         GroupDocs.Merger APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
 
@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "How to Merge Multiple Worksheet Files"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/net) makes it easy for .NET developers to merge two or more Worksheet files within their applications by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to merge two or more Worksheet files within their applications by implementing a few easy steps.
 
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
         *   Call <mark>**Join**</mark> method of <mark>**Merger**</mark> class instance and pass second source document path.
@@ -80,7 +80,7 @@ steps:
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Merger for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Merger)
+        *   Download the latest version of GroupDocs.Merger for .NET from [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)
         
     code: |
         ```cs
@@ -125,232 +125,232 @@ more_formats:
     format: 
         # format loop
         - name: "Merge PDF Files"
-          link: "https://products.groupdocs.com/merger/net/pdf/"
+          link: "/merger/net/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Merge Word Files"
-          link: "https://products.groupdocs.com/merger/net/word/"
+          link: "/merger/net/word/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Merge Excel Files"
-          link: "https://products.groupdocs.com/merger/net/excel/"
+          link: "/merger/net/excel/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Merge Worksheet Files"
-          link: "https://products.groupdocs.com/merger/net/worksheet/"
+          link: "/merger/net/worksheet/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Merge Image Files"
-          link: "https://products.groupdocs.com/merger/net/image/"
+          link: "/merger/net/image/"
           description: "Image Files"
 
         # format loop
         - name: "Merge DOC Files"
-          link: "https://products.groupdocs.com/merger/net/doc/"
+          link: "/merger/net/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Merge DOCM Files"
-          link: "https://products.groupdocs.com/merger/net/docm/"
+          link: "/merger/net/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Merge DOCX Files"
-          link: "https://products.groupdocs.com/merger/net/docx/"
+          link: "/merger/net/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Merge DOT Files"
-          link: "https://products.groupdocs.com/merger/net/dot/"
+          link: "/merger/net/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Merge DOTX Files"
-          link: "https://products.groupdocs.com/merger/net/dotx/"
+          link: "/merger/net/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Merge DOTM Files"
-          link: "https://products.groupdocs.com/merger/net/dotm/"
+          link: "/merger/net/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Merge RTF Files"
-          link: "https://products.groupdocs.com/merger/net/rtf/"
+          link: "/merger/net/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Merge ODT Files"
-          link: "https://products.groupdocs.com/merger/net/odt/"
+          link: "/merger/net/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Merge OTT Files"
-          link: "https://products.groupdocs.com/merger/net/ott/"
+          link: "/merger/net/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Merge XLS Files"
-          link: "https://products.groupdocs.com/merger/net/xls/"
+          link: "/merger/net/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Merge XLSX Files"
-          link: "https://products.groupdocs.com/merger/net/xlsx/"
+          link: "/merger/net/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Merge XLAM Files"
-          link: "https://products.groupdocs.com/merger/net/xlam/"
+          link: "/merger/net/xlam/"
           description: "Excel Open XML Macro-Enabled Add-in"
 
         # format loop
         - name: "Merge XLSM Files"
-          link: "https://products.groupdocs.com/merger/net/xlsm/"
+          link: "/merger/net/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Merge XLSB Files"
-          link: "https://products.groupdocs.com/merger/net/xlsb/"
+          link: "/merger/net/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Merge XLTX Files"
-          link: "https://products.groupdocs.com/merger/net/xltx/"
+          link: "/merger/net/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Merge XLTM Files"
-          link: "https://products.groupdocs.com/merger/net/xltm/"
+          link: "/merger/net/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Merge ODS Files"
-          link: "https://products.groupdocs.com/merger/net/ods/"
+          link: "/merger/net/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Merge CSV Files"
-          link: "https://products.groupdocs.com/merger/net/csv/"
+          link: "/merger/net/csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "Merge TSV Files"
-          link: "https://products.groupdocs.com/merger/net/tsv/"
+          link: "/merger/net/tsv/"
           description: "Tab Separated Values File"
         
         # format loop
         - name: "Merge PPT Files"
-          link: "https://products.groupdocs.com/merger/net/ppt/"
+          link: "/merger/net/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Merge PPTX Files"
-          link: "https://products.groupdocs.com/merger/net/pptx/"
+          link: "/merger/net/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Merge PPS Files"
-          link: "https://products.groupdocs.com/merger/net/pps/"
+          link: "/merger/net/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Merge PPSX Files"
-          link: "https://products.groupdocs.com/merger/net/ppsx/"
+          link: "/merger/net/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Merge POTX Files"
-          link: "https://products.groupdocs.com/merger/net/potx/"
+          link: "/merger/net/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Merge PPTM Files"
-          link: "https://products.groupdocs.com/merger/net/pptm/"
+          link: "/merger/net/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Merge ODP Files"
-          link: "https://products.groupdocs.com/merger/net/odp/"
+          link: "/merger/net/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Merge OTP Files"
-          link: "https://products.groupdocs.com/merger/net/otp/"
+          link: "/merger/net/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Merge Text Files"
-          link: "https://products.groupdocs.com/merger/net/txt/"
+          link: "/merger/net/txt/"
           description: "Plain Text File"
 
         # format loop
         - name: "Merge OneNote Files"
-          link: "https://products.groupdocs.com/merger/net/one/"
+          link: "/merger/net/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Merge TIFF Files"
-          link: "https://products.groupdocs.com/merger/net/tiff/"
+          link: "/merger/net/tiff/"
           description: "Tagged Image File Format"
         
         # format loop
         - name: "Merge PNG Files"
-          link: "https://products.groupdocs.com/merger/net/png/"
+          link: "/merger/net/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Merge BMP Files"
-          link: "https://products.groupdocs.com/merger/net/bmp/"
+          link: "/merger/net/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Merge XPS Files"
-          link: "https://products.groupdocs.com/merger/net/xps/"
+          link: "/merger/net/xps/"
           description: "XML Paper Specification File"
 
         # format loop
         - name: "Merge Web Files"
-          link: "https://products.groupdocs.com/merger/net/web/"
+          link: "/merger/net/web/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Merge HTML Files"
-          link: "https://products.groupdocs.com/merger/net/html/"
+          link: "/merger/net/html/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Merge MHT Files"
-          link: "https://products.groupdocs.com/merger/net/mht/"
+          link: "/merger/net/mht/"
           description: "MHTML Web Archive"
 
         # format loop
         - name: "Merge MHTML Files"
-          link: "https://products.groupdocs.com/merger/net/mhtml/"
+          link: "/merger/net/mhtml/"
           description: "MIME HTML"
 
         # format loop
         - name: "Merge TEX Files"
-          link: "https://products.groupdocs.com/merger/net/tex/"
+          link: "/merger/net/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "Merge EPUB Files"
-          link: "https://products.groupdocs.com/merger/net/epub/"
+          link: "/merger/net/epub/"
           description: "eBook File"
           
         # format loop
         - name: "Merge PPSM Files"
-          link: "https://products.groupdocs.com/merger/net/ppsm/"
+          link: "/merger/net/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
         
         # format loop
         - name: "Merge POTM Files"
-          link: "https://products.groupdocs.com/merger/net/potm/"
+          link: "/merger/net/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
 ############################# Back to top ###############################

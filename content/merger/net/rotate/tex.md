@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Rotate TEX File Pages in .NET"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/net/) makes it easy for .NET developers to rotate some specific or all pages within a TEX file at 90, 180 or 270 rotation angle by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to rotate some specific or all pages within a TEX file at 90, 180 or 270 rotation angle by implementing a few easy steps.
 
         *   Initialise <mark>**RotateOptions**</mark> class with desired rotation angle and page numbers.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -81,7 +81,7 @@ steps:
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Merger for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Merger)
+        *   Download the latest version of GroupDocs.Merger for .NET from [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)
         
     code: |
         ```cs
@@ -132,22 +132,22 @@ more_formats:
     format: 
         # format loop
         - name: "Rotate PDF File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/rotate/pdf/"
+          link: "/merger/net/rotate/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Rotate XPS File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/rotate/xps/"
+          link: "/merger/net/rotate/xps/"
           description: "XML Paper Specification File"
 
         # format loop
         - name: "Rotate TEX File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/rotate/tex/"
+          link: "/merger/net/rotate/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "Rotate EPUB File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/rotate/epub/"
+          link: "/merger/net/rotate/epub/"
           description: "eBook File"
 
 ############################# Back to top ###############################

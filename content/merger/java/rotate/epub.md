@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Rotate EPUB File Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to rotate some specific or all pages within a EPUB file at 90, 180 or 270 rotation angle by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to rotate some specific or all pages within a EPUB file at 90, 180 or 270 rotation angle by implementing a few easy steps.
 
         *   Initialise <mark>**RotateOptions**</mark> class with desired rotation angle and page numbers.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.

@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Swap OTT File Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to swap, exchange and organize pages within a OTT file by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to swap, exchange and organize pages within a OTT file by implementing a few easy steps.
 
         *   Initialise <mark>**SwapOptions**</mark> class to specify page numbers to exchange.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -93,7 +93,7 @@ steps:
         SwapOptions swapOptions = new SwapOptions(pageNumber2, pageNumber1);
 
         // Instantiate Merger with input OTT document
-        Merger merger = new Merger("input.ott"))
+        Merger merger = new Merger("input.ott");
         // Call swapPages method and pass SwapOptions object to it
         merger.swapPages(swapOptions);
             

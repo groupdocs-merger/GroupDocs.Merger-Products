@@ -58,7 +58,7 @@ about:
     enable: true
     title: "About GroupDocs.Merger for .NET API"
     content: |
-        [GroupDocs.Merger for .NET](https://products.groupdocs.com/merger/net) offers a simple solution to safely Join & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        [GroupDocs.Merger for .NET](/merger/net/) offers a simple solution to safely Join & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
         
         GroupDocs.Merger APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
 
@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "How to Join Multiple Visio Files"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/net) makes it easy for .NET developers to join two or more Visio files within their applications by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to join two or more Visio files within their applications by implementing a few easy steps.
 
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
         *   Call <mark>**Join**</mark> method of <mark>**Merger**</mark> class instance and pass second source document path.
@@ -80,7 +80,7 @@ steps:
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Merger for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Merger)
+        *   Download the latest version of GroupDocs.Merger for .NET from [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)
         
     code: |
         ```cs
@@ -112,7 +112,7 @@ about_formats:
         - icon: "far fa-file-image-o"
           title: "About Visio File Format"
           content: |
-            Files with .vsdx extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Files with .vsdx extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onward. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
 
           link: "https://docs.fileformat.com/image/vsdx/"
 

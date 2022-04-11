@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Join Multiple Image Files in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to Join multiple Image files by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to Join multiple Image files by implementing a few easy steps.
 
         *   Create an instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
         *   Call <mark>**Join**</mark> method of <mark>**Merger**</mark> class instance and pass second source document path.

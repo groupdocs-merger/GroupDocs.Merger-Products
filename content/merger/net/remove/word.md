@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Remove Word File Pages in .NET"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/net/) makes it easy for .NET developers to delete a single or a number of pages within a Word file by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to delete a single or a number of pages within a Word file by implementing a few easy steps.
 
         *   Initialise <mark>**RemoveOptions**</mark> class to specify page numbers to remove.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -81,7 +81,7 @@ steps:
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Merger for .NET from [Nuget](https://www.nuget.org/packages/GroupDocs.Merger)
+        *   Download the latest version of GroupDocs.Merger for .NET from [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)
         
     code: |
         ```cs
@@ -132,212 +132,212 @@ more_formats:
     format: 
         # format loop
         - name: "Remove PDF File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/pdf/"
+          link: "/merger/net/remove/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Remove Word File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/word/"
+          link: "/merger/net/remove/word/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Remove Excel File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/excel/"
+          link: "/merger/net/remove/excel/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Remove Worksheet File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/worksheet/"
+          link: "/merger/net/remove/worksheet/"
           description: "Microsoft Excel Worksheet"
 
         # format loop
         - name: "Remove DOC File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/doc/"
+          link: "/merger/net/remove/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Remove DOCM File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/docm/"
+          link: "/merger/net/remove/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Remove DOCX File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/docx/"
+          link: "/merger/net/remove/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Remove DOT File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/dot/"
+          link: "/merger/net/remove/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Remove DOTX File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/dotx/"
+          link: "/merger/net/remove/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Remove DOTM File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/dotm/"
+          link: "/merger/net/remove/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Remove RTF File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/rtf/"
+          link: "/merger/net/remove/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Remove ODT File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/odt/"
+          link: "/merger/net/remove/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Remove OTT File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/ott/"
+          link: "/merger/net/remove/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Remove XLS File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/xls/"
+          link: "/merger/net/remove/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Remove XLSX File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/xlsx/"
+          link: "/merger/net/remove/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Remove XLAM File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/xlam/"
+          link: "/merger/net/remove/xlam/"
           description: "Excel Open XML Macro-Enabled Add-in"
 
         # format loop
         - name: "Remove XLSM File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/xlsm/"
+          link: "/merger/net/remove/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Remove XLSB File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/xlsb/"
+          link: "/merger/net/remove/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Remove XLTX File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/xltx/"
+          link: "/merger/net/remove/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Remove XLTM File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/xltm/"
+          link: "/merger/net/remove/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Remove ODS File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/ods/"
+          link: "/merger/net/remove/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Remove CSV File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/csv/"
+          link: "/merger/net/remove/csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "Remove TSV File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/tsv/"
+          link: "/merger/net/remove/tsv/"
           description: "Tab Separated Values File"
         
         # format loop
         - name: "Remove PPT File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/ppt/"
+          link: "/merger/net/remove/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Remove PPTX File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/pptx/"
+          link: "/merger/net/remove/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Remove PPS File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/pps/"
+          link: "/merger/net/remove/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Remove PPSX File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/ppsx/"
+          link: "/merger/net/remove/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Remove POTX File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/potx/"
+          link: "/merger/net/remove/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Remove PPTM File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/pptm/"
+          link: "/merger/net/remove/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Remove ODP File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/odp/"
+          link: "/merger/net/remove/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Remove OTP File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/otp/"
+          link: "/merger/net/remove/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Remove Text File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/txt/"
+          link: "/merger/net/remove/txt/"
           description: "Plain Text File"
 
         # format loop
         - name: "Remove OneNote File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/one/"
+          link: "/merger/net/remove/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Remove XPS File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/xps/"
+          link: "/merger/net/remove/xps/"
           description: "XML Paper Specification File"
 
         # format loop
         - name: "Remove Web File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/web/"
+          link: "/merger/net/remove/web/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Remove HTML File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/html/"
+          link: "/merger/net/remove/html/"
           description: "Hypertext Markup Language File"
 
         # format loop
         - name: "Remove MHT File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/mht/"
+          link: "/merger/net/remove/mht/"
           description: "MHTML Web Archive"
 
         # format loop
         - name: "Remove MHTML File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/mhtml/"
+          link: "/merger/net/remove/mhtml/"
           description: "MIME HTML"
 
         # format loop
         - name: "Remove TEX File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/tex/"
+          link: "/merger/net/remove/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "Remove EPUB File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/epub/"
+          link: "/merger/net/remove/epub/"
           description: "eBook File"
           
         # format loop
         - name: "Remove PPSM File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/ppsm/"
+          link: "/merger/net/remove/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
         
         # format loop
         - name: "Remove POTM File Pages in .NET"
-          link: "https://products.groupdocs.com/merger/net/remove/potm/"
+          link: "/merger/net/remove/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
 ############################# Back to top ###############################

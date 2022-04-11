@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Split PPT File By Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to split a single PPT file into multiple resultant files by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to split a single PPT file into multiple resultant files by implementing a few easy steps.
 
         *   Initialize <mark>**PageSplitOptions**</mark> class with output files path format.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -92,7 +92,7 @@ steps:
         PageSplitOptions splitOptions = new PageSplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
         // Instantiate Merger with input PPT document
-        Merger merger = new Merger("input.ppt"))
+        Merger merger = new Merger("input.ppt");
         // Call split method and pass SplitOptions object to save resultant documents
         merger.split(splitOptions);
             
@@ -116,7 +116,7 @@ about_formats:
         - icon: "far fa-file-powerpoint"
           title: "About PPT File Format"
           content: |
-            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format.
+            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onward that is based on Office OpenXML and is different from this binary file format.
 
           link: "https://docs.fileformat.com/presentation/ppt/"
 

@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Remove OneNote File Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to delete a single or a number of particular pages within a OneNote file by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to delete a single or a number of particular pages within a OneNote file by implementing a few easy steps.
 
         *   Initialise <mark>**RemoveOptions**</mark> class to specify page numbers to remove.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.

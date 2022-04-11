@@ -67,7 +67,7 @@ steps:
     enable: true
     title_left: "Extract VSDX File By Pages in Java"
     content_left: |
-        [GroupDocs.Merger](https://products.groupdocs.com/merger/java/) makes it easy for Java developers to extract a single VSDX file into multiple resultant files by implementing a few easy steps.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to extract a single VSDX file into multiple resultant files by implementing a few easy steps.
 
         *   Initialize <mark>**ExtractOptions**</mark> class with page numbers that should appear in the resultant document.
         *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
@@ -117,7 +117,7 @@ about_formats:
         - icon: "far fa-file-alt"
           title: "About VSDX File Format"
           content: |
-            Files with .VSDX extension represents Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server.
+            Files with .VSDX extension represents Microsoft Visio file format introduced from Microsoft Office 2013 onward. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server.
 
           link: "https://docs.fileformat.com/image/vsdx/"
 
