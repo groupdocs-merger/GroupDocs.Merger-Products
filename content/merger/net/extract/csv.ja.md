@@ -59,18 +59,18 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、CSVファイルから目的のページを簡単に抽出し、選択したページを含む新しいファイルとして保存できます。
 
-        *新しいファイルに抽出するページ番号を使用して<mark>**ExtractOptions **</mark>クラスを初期化します。
-        * <mark> ** Merger ** </ mark>クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * <mark> ** ExtractPages ** </ mark>メソッドを呼び出し、<mark> ** ExtractOptions **</mark>オブジェクトを渡します。
-        * <mark> ** Save ** </ mark>メソッドを呼び出して、抽出されたドキュメントを保存します。
+        * 新しいファイルに抽出するページ番号を使用して**ExtractOptions **します。
+        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
+        * ** ExtractPages **メソッドを呼び出し、** ExtractOptions **渡します。
+        * ** Save **メソッドを呼び出して、抽出されたドキュメントを保存します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Merger for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * 開発環境：Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)からGroupDocs.Mergerfor.NETの最新バージョンをダウンロードします
         
     code: |
@@ -97,7 +97,7 @@ demos:
     enable: true
     title: "ライブデモ-ExractCSVDocument Pages App"
     content: |
-        [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/csv)Webサイトにアクセスして、CSVファイルページを今すぐ抽出します。
+        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/splitter/csv)サイトにアクセスして、CSVファイルページを今すぐ抽出します。
         ライブデモには次の利点があります
         
 about_formats:

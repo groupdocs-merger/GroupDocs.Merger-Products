@@ -69,10 +69,10 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to extract a single XLS file into multiple resultant files by implementing a few easy steps.
 
-        *   Initialize <mark>**ExtractOptions**</mark> class with page numbers that should appear in the resultant document.
-        *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
-        *   Call <mark>**extractPages**</mark> method and pass <mark>**ExtractOptions**</mark> object to it.
-        *   Call <mark>**save**</mark> method and specify the file path to save  the resultant document.
+        *   Initialize **ExtractOptions**with page numbers that should appear in the resultant document.
+        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **extractPages** and pass **ExtractOptions** object
+        *   Call **save** and specify the file path to save  the resultant document.
         
     title_right: "System Requirements"
     content_right: |

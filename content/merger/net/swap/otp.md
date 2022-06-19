@@ -69,10 +69,10 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to swap, exchange and organize pages within a OTP file by implementing a few easy steps.
 
-        *   Initialise <mark>**SwapOptions**</mark> class to specify page numbers to exchange.
-        *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
-        *   Call <mark>**SwapPages**</mark> method and pass <mark>**SwapOptions**</mark> object to it.
-        *   Call <mark>**Save**</mark> method and pass desired file path to save resultant document.
+        *   Initialise **SwapOptions**to specify page numbers to exchange.
+        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **SwapPages** and pass **SwapOptions** object
+        *   Call **Save** and pass desired file path to save resultant document.
         
     title_right: "System Requirements"
     content_right: |

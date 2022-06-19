@@ -69,10 +69,10 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to rotate some specific or all pages within a EPUB file at 90, 180 or 270 rotation angle by implementing a few easy steps.
 
-        *   Initialise <mark>**RotateOptions**</mark> class with desired rotation angle and page numbers.
-        *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
-        *   Call <mark>**RotatePages**</mark> method and pass <mark>**RotateOptions**</mark> object to it.
-        *   Call <mark>**Save**</mark> method and pass desired file path to save resultant document.
+        *   Initialise **RotateOptions**with desired rotation angle and page numbers.
+        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **RotatePages** and pass **RotateOptions** object
+        *   Call **Save** and pass desired file path to save resultant document.
         
     title_right: "System Requirements"
     content_right: |

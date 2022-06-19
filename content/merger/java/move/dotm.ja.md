@@ -59,19 +59,19 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、DOTMファイル内のページを簡単に移動および再配置できます。
 
-        * <mark> ** MoveOptions ** </ mark>クラスを初期化して、現在のページ番号と新しいページ番号を指定します。
-        * <mark> ** Merger ** </ mark>クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * <mark> ** movePage ** </ mark>メソッドを呼び出し、<mark> ** MoveOptions **</mark>オブジェクトを渡します。
-        * <mark> ** Save ** </ mark>メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
+        * ** MoveOptions **クラスを初期化して、現在のページ番号と新しいページ番号を指定します。
+        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
+        * ** movePage **メソッドを呼び出し、** MoveOptions **渡します。
+        * ** Save **メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Merger for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：NetBeans、IntelliJ IDEA、Eclipse
-        *フレームワーク：Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.MergerforJavaをダウンロードします。
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * 開発環境：NetBeans、IntelliJ IDEA、Eclipse
+        * フレームワーク：Java 7（1.7）以降
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
         
     code: |
         ```java

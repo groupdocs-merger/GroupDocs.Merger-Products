@@ -59,10 +59,10 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、XLSファイル内のページを簡単に交換、交換、および整理できます。
 
-        * <mark> ** SwapOptions ** </ mark>クラスを初期化して、交換するページ番号を指定します。
-        * <mark> ** Merger ** </ mark>クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * <mark> ** swapPages ** </ mark>メソッドを呼び出し、<mark> ** SwapOptions **</mark>オブジェクトを渡します。
-        * <mark> ** save ** </ mark>メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
+        * ** SwapOptions **クラスを初期化して、交換するページ番号を指定します。
+        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
+        * ** swapPages **メソッドを呼び出し、** SwapOptions **渡します。
+        * ** save **メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
         
     title_right: "システム要求"
     content_right: |
@@ -71,7 +71,7 @@ steps:
         *オペレーティングシステム: Microsoft Windows、Linux、MacOS
         *開発環境: NetBeans、IntelliJ IDEA、Eclipse
         *フレームワーク: Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.MergerforJavaをダウンロードします。
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
         
     code: |
         ```java
@@ -95,7 +95,7 @@ demos:
     enable: true
     title: "ライブデモ-XLSファイルページをオンラインで交換"
     content: |
-        [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/xls)Webサイトにアクセスして、XLSファイル内のページを今すぐ交換してください。
+        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/splitter/swap-pages/xls)サイトにアクセスして、XLSファイル内のページを今すぐ交換してください。
         ライブデモには次の利点があります
         
 about_formats:

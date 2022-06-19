@@ -69,10 +69,10 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to delete a single or a number of particular pages within a Worksheet file by implementing a few easy steps.
 
-        *   Initialise <mark>**RemoveOptions**</mark> class to specify page numbers to remove.
-        *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
-        *   Call <mark>**removePages**</mark> method and pass <mark>**RemoveOptions**</mark> object to it.
-        *   Call <mark>**save**</mark> method and pass desired file path to save resultant document.
+        *   Initialise **RemoveOptions**to specify page numbers to remove.
+        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **removePages** and pass **RemoveOptions** object
+        *   Call **save** and pass desired file path to save resultant document.
         
     title_right: "System Requirements"
     content_right: |

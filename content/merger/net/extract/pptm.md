@@ -69,10 +69,10 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to extract the desired pages from a PPTM file and save it as a new file containing the selected pages by implementing a few easy steps.
 
-        *   Initialize <mark>**ExtractOptions**</mark> class with page numbers to be extracted into the new file.
-        *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
-        *   Call <mark>**ExtractPages**</mark> method and pass <mark>**ExtractOptions**</mark> object to it.
-        *   Call <mark>**Save**</mark> method to save the extracted document.
+        *   Initialize **ExtractOptions**with page numbers to be extracted into the new file.
+        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **ExtractPages** and pass **ExtractOptions** object
+        *   Call **Save** to save the extracted document.
         
     title_right: "System Requirements"
     content_right: |

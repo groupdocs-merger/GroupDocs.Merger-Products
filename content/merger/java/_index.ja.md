@@ -56,7 +56,7 @@ overview:
       
       tab_one:
         description: |
-          以下は、GroupDocs.MergerforJavaの概要です。
+          以下は、GroupDocs.Merger for Javaの概要です。
 
         left:
           enable: true
@@ -144,7 +144,7 @@ overview:
 
 features:
     enable: true
-    title: "GroupDocs.MergerforJavaの機能"
+    title: "GroupDocs.Merger for Javaの機能"
 
     feature:
       - icon: "fas fa-copy"

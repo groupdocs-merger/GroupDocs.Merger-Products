@@ -35,10 +35,10 @@ steps:
     content_right: |
         以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：NetBeans、IntelliJ IDEA、Eclipse
-        *フレームワーク：Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.MergerforJavaをダウンロードします。
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * 開発環境：NetBeans、IntelliJ IDEA、Eclipse
+        * フレームワーク：Java 7（1.7）以降
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
         
     code: |
         ```cs

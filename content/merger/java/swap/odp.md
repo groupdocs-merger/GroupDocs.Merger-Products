@@ -69,10 +69,10 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to swap, exchange and organize pages within a ODP file by implementing a few easy steps.
 
-        *   Initialise <mark>**SwapOptions**</mark> class to specify page numbers to exchange.
-        *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
-        *   Call <mark>**swapPages**</mark> method and pass <mark>**SwapOptions**</mark> object to it.
-        *   Call <mark>**save**</mark> method and pass desired file path to save resultant document.
+        *   Initialise **SwapOptions**to specify page numbers to exchange.
+        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **swapPages** and pass **SwapOptions** object
+        *   Call **save** and pass desired file path to save resultant document.
         
     title_right: "System Requirements"
     content_right: |

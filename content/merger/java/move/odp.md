@@ -69,10 +69,10 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to move and rearrange pages within a ODP file by implementing a few easy steps.
 
-        *   Initialise <mark>**MoveOptions**</mark> class to specify current and new page numbers.
-        *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
-        *   Call <mark>**movePage**</mark> method and pass <mark>**MoveOptions**</mark> object to it.
-        *   Call <mark>**Save**</mark> method and pass desired file path to save resultant document.
+        *   Initialise **MoveOptions**to specify current and new page numbers.
+        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **movePage** and pass **MoveOptions** object
+        *   Call **Save** and pass desired file path to save resultant document.
         
     title_right: "System Requirements"
     content_right: |

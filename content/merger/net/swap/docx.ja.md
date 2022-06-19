@@ -59,18 +59,18 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、DOCXファイル内のページを簡単に交換、交換、および整理できます。
 
-        * <mark> ** SwapOptions ** </ mark>クラスを初期化して、交換するページ番号を指定します。
-        * <mark> ** Merger ** </ mark>クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * <mark> ** SwapPages ** </ mark>メソッドを呼び出し、<mark> ** SwapOptions **</mark>オブジェクトを渡します。
-        * <mark> ** Save ** </ mark>メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
+        * ** SwapOptions **クラスを初期化して、交換するページ番号を指定します。
+        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
+        * ** SwapPages **メソッドを呼び出し、** SwapOptions **渡します。
+        * ** Save **メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Merger for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * 開発環境：Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)からGroupDocs.Mergerfor.NETの最新バージョンをダウンロードします
         
     code: |
@@ -97,7 +97,7 @@ demos:
     enable: true
     title: "ライブデモ-DOCXファイルページをオンラインで交換"
     content: |
-        [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/docx)Webサイトにアクセスして、DOCXファイル内のページを今すぐ交換してください。
+        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/splitter/swap-pages/docx)サイトにアクセスして、DOCXファイル内のページを今すぐ交換してください。
         ライブデモには次の利点があります
         
 about_formats:

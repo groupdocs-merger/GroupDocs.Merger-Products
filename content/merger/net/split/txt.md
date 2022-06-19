@@ -69,9 +69,9 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to split a single TXT file into multiple resultant files by implementing a few easy steps.
 
-        *   Initialize <mark>**SplitOptions**</mark> class with output files path format.
-        *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
-        *   Call <mark>**Split**</mark> method and pass <mark>**SplitOptions**</mark> object to save resultant documents.
+        *   Initialize **SplitOptions**with output files path format.
+        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **Split** and pass **SplitOptions** objecte resultant documents.
         
     title_right: "System Requirements"
     content_right: |

@@ -69,9 +69,9 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to combine multiple TIF files by implementing a few easy steps.
 
-        *   Create an instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
-        *   Call <mark>**Join**</mark> method of <mark>**Merger**</mark> class instance and pass second source document path.
-        *   Call <mark>**Save**</mark> method of <mark>**Merger**</mark> class instance to save the merged document.
+        *   Create an instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **Join** of **Merger** class e and pass second source document path.
+        *   Call **Save** of **Merger** class e to save the merged document.
         
     title_right: "System Requirements"
     content_right: |

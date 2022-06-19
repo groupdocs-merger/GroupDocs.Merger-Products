@@ -59,9 +59,9 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、複数のワークシートファイルを簡単に組み合わせることができます。
 
-        * <mark> ** Merger ** </ mark>クラスのインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * <mark> ** Merger **</mark>クラスインスタンスの<mark>**Join ** </ mark>メソッドを呼び出し、2番目のソースドキュメントパスを渡します。
-        * <mark> ** Merger **</mark>クラスインスタンスの<mark>**Save ** </ mark>メソッドを呼び出して、マージされたドキュメントを保存します。
+        * ** Merger **クラスのインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
+        * ** Merger **ンスの**Join **メソッドを呼び出し、2番目のソースドキュメントパスを渡します。
+        * ** Merger **ンスの**Save **メソッドを呼び出して、マージされたドキュメントを保存します。
         
     title_right: "システム要求"
     content_right: |
@@ -70,7 +70,7 @@ steps:
         *オペレーティングシステム: Microsoft Windows、Linux、MacOS
         *開発環境: NetBeans、IntelliJ IDEA、Eclipse
         *フレームワーク: Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.MergerforJavaをダウンロードします。
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
         
     code: |
         ```cs

@@ -69,10 +69,10 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to move and rearrange pages within a PDF file by implementing a few easy steps.
 
-        *   Initialise <mark>**MoveOptions**</mark> class to specify current and new page numbers.
-        *   Create new instance of <mark>**Merger**</mark> class and pass source document path as a constructor parameter.
-        *   Call <mark>**MovePage**</mark> method and pass <mark>**MoveOptions**</mark> object to it.
-        *   Call <mark>**Save**</mark> method and pass desired file path to save resultant document.
+        *   Initialise **MoveOptions**to specify current and new page numbers.
+        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **MovePage** and pass **MoveOptions** object
+        *   Call **Save** and pass desired file path to save resultant document.
         
     title_right: "System Requirements"
     content_right: |

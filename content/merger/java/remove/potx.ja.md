@@ -59,19 +59,19 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、POTXファイル内の単一または複数の特定のページを簡単に削除できます。
 
-        * <mark> ** RemoveOptions ** </ mark>クラスを初期化して、削除するページ番号を指定します。
-        * <mark> ** Merger ** </ mark>クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * <mark> ** removePages ** </ mark>メソッドを呼び出し、<mark> ** RemoveOptions **</mark>オブジェクトを渡します。
-        * <mark> ** save ** </ mark>メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
+        * ** RemoveOptions **クラスを初期化して、削除するページ番号を指定します。
+        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
+        * ** removePages **メソッドを呼び出し、** RemoveOptions **渡します。
+        * ** save **メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Merger for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：NetBeans、IntelliJ IDEA、Eclipse
-        *フレームワーク：Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.MergerforJavaをダウンロードします。
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * 開発環境：NetBeans、IntelliJ IDEA、Eclipse
+        * フレームワーク：Java 7（1.7）以降
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
         
     code: |
         ```java
@@ -96,7 +96,7 @@ demos:
     enable: true
     title: "ライブデモ-POTXドキュメントページをオンラインで削除"
     content: |
-        [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/potx)Webサイトにアクセスして、POTXファイル内のページを今すぐ削除してください。
+        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/splitter/remove-pages/potx)サイトにアクセスして、POTXファイル内のページを今すぐ削除してください。
         ライブデモには次の利点があります
         
 about_formats:
