@@ -1,0 +1,2 @@
+1. Clone this repository https://git.dev.dynabic.com/free-app-team/developers/hugo-markup-generator and build in the Release mode.
+2. Copy "Bin" folder here after the "Build" process was completed successfully.

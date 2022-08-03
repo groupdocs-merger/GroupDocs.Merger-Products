@@ -1,0 +1,6 @@
+{
+    "cross-merging": {
+        "h1": "Convierte {{FROM}} a {{TO}} a través de {{ProgLang}}",
+        "h2": "Exporte documentos {{FROM}} a {{TO}} usando la API {{ProductName}}."
+    }
+}

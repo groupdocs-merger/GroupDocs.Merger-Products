@@ -1,0 +1,17 @@
+{
+    "products": {
+        "title": "{{products.h1}} | GroupDocs Products",
+        "net": {
+            "name": ".NET",
+            "progLang": "C#",
+            "srcFileExt": ".cs",
+            "syntax": "csharp"
+        },
+        "java": {
+            "name": "Java",
+            "progLang": "Java",
+            "srcFileExt": ".java",
+            "syntax": "java"
+        }
+    }
+}

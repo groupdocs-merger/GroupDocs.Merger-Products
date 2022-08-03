@@ -1,0 +1,7 @@
+{
+    "cross-merging": {
+        "title": "{{cross-merging.h1}} | GroupDocs Products",
+        "h1": "Convert {{FROM}} to {{TO}} via {{ProgLang}}",
+        "h2": "Export {{FROM}} documents to {{TO}} using {{ProductName}} API."
+    }
+}

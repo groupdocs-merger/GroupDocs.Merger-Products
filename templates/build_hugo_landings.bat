@@ -1,0 +1,1 @@
+..\utils\HugoMarkupGenerator\Bin\net6.0\MarkupGenerator.Shell.exe -s merger -o ..\content\merger

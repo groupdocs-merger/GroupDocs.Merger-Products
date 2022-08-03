@@ -1,0 +1,5 @@
+dimensions: 
+- alias: lang
+  values: [en, de, es]
+
+dictionaries: ["{lang}.json"]
