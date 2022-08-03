@@ -1,0 +1,51 @@
+{
+  "head": {
+    "title": "Mover {{EXT}} páginas en {{ProgLang}}",
+    "description": "Mueva páginas dentro de un documento {{EXT}} en {{ProgLang}} a cualquier posición usando la API de fusión de documentos."
+  },
+  "header": {
+    "title": "Mover {{EXT}} páginas en {{ProgLang}}",
+    "description": "Mueva páginas dentro de un documento {{EXT}} a cualquier posición utilizando la API de fusión de documentos para aplicaciones {{ProductName}}.",
+    "button_label": "Descargue prueba gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referencia de la API",
+      "button_text_2": "Ejemplos de código",
+      "button_text_3": "demostraciones en vivo",
+      "button_text_4": "Precios"
+    }
+  },
+  "about": {
+    "title": "Acerca de la API de {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ofrece una solución simple para fusionar y dividir de forma segura entre una amplia gama de formatos de documentos, incluidos PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, imágenes y muchos otros dentro de las aplicaciones de {{ProductName}}. Al agregar solo unas pocas líneas del código, realice varias operaciones de documentos, como mover, eliminar, rotar, intercambiar, extraer o cambiar la orientación de las páginas dentro de los documentos. La API de combinación de documentos también admite la vista previa de páginas de documentos como una imagen para analizar la estructura, el formato y el contenido del documento en la página.",
+    "h2": "Las API de GroupDocs.Merger son compatibles con todos los principales sistemas operativos y versiones de Java, incluido {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Mover {{EXT}} páginas de archivo en {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) facilita a los desarrolladores de {{ProgLang}} mover páginas dentro de un archivo {{EXT}} mediante la implementación de unos sencillos pasos .",
+      "step_1": "Inicialice **MoveOptions** para especificar los números de página actuales y nuevos.",
+      "step_2": "Cree una nueva instancia de **Merger** y pase la ruta del documento de origen como parámetro del constructor.",
+      "step_3": "Llame a **movePage** y pase el objeto **MoveOptions**.",
+      "step_4": "Llame a **guardar** y especifique la ruta del archivo para guardar el documento resultante."
+    },
+    "title_right": "Requisitos del sistema",
+    "content_right": {
+      "description": "Las API de {{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
+      "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Entornos de desarrollo: {{DevEnv}}",
+      "step_3": "Marcos",
+      "step_4": "Descarga la última versión de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Demostraciones en vivo - Mover {{EXT}} páginas en línea",
+    "h1": "Mueva las páginas de archivos {{EXT}} ahora mismo visitando el sitio web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/{{ext}}).",
+    "h2": "La demostración en vivo tiene los siguientes beneficios."
+  },
+  "more_formats": {
+    "title": "Mover páginas de otros formatos de documentos",
+    "content": "{{ProductName}} fusión de documentos y API dividida para formatos de archivo e imágenes. Mueva algunos de los formatos de archivo populares como se indica a continuación."
+  }
+}

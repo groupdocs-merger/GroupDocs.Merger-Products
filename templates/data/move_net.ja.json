@@ -1,0 +1,51 @@
+{
+  "head": {
+    "title": "{{ProgLang}} で {{EXT}} ページ移動",
+    "description": "ドキュメント マージ API を使用して、{{ProgLang}} 内の {{EXT}} ドキュメント内のページを任意の位置に移動します。"
+  },
+  "header": {
+    "title": "{{ProgLang}} で {{EXT}} ページ移動",
+    "description": "{{ProductName}} アプリケーションのドキュメント マージ API を使用して、{{EXT}} ドキュメント内のページを任意の位置に移動します。",
+    "button_label": "無料トライアルをダウンロード"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API リファレンス",
+      "button_text_2": "コード例",
+      "button_text_3": "ライブデモ",
+      "button_text_4": "価格"
+    }
+  },
+  "about": {
+    "title": "{{ProductFullName}} API について",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) は、PDF、Microsoft Office (Word、Excel、PowerPoint 、OneNote)、OpenDocument、HTML、画像、および {{ProductName}} アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。",
+    "h2": "GroupDocs.Merger API は、{{Runtime}} を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。"
+  },
+  "steps": {
+    "title_left": "{{ProductName}} で {{EXT}} ファイル ページを移動",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) は、{{ProgLang}} 開発者が {{EXT}} ファイル内でページを簡単に移動できるようにするために、いくつかの簡単な手順を実装します。 .",
+      "step_1": "**MoveOptions** を初期化して、現在のページ番号と新しいページ番号を指定します。",
+      "step_2": "**Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。",
+      "step_3": "**MovePage** を呼び出し、**MoveOptions** オブジェクトを渡します。",
+      "step_4": "**Save** を呼び出し、ファイル パスを指定して結果のドキュメントを保存します。"
+    },
+    "title_right": "システム要求",
+    "content_right": {
+      "description": "{{ProductFullName}} API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "[{{RepoName}}]({{RepoUrl}}) から {{ProductFullName}} の最新バージョンをダウンロードします"
+    }
+  },
+  "demos": {
+    "title": "ライブデモ - {{EXT}} ページをオンラインに移動",
+    "h1": "[GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/{{ext}}) Web サイトにアクセスして、今すぐ {{EXT}} ファイル ページを移動します。",
+    "h2": "ライブデモには次の利点があります。"
+  },
+  "more_formats": {
+    "title": "他のドキュメント形式のページを移動する",
+    "content": "{{ProductName}} は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を移動します。"
+  }
+}

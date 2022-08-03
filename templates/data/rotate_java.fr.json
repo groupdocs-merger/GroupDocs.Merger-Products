@@ -1,0 +1,51 @@
+{
+  "head": {
+    "title": "Faire pivoter {{EXT}} Pages dans {{ProgLang}} - Faire pivoter à 90, 180, 270 Angle",
+    "description": "Faites pivoter des pages de document spécifiques ou toutes les pages d'un fichier {{EXT}} à un angle de rotation de 90, 180, 270 à l'aide de l'API de fusion de documents."
+  },
+  "header": {
+    "title": "Faire pivoter les pages de {{EXT}} dans {{ProgLang}}",
+    "description": "Faites pivoter des pages de document sélectives ou toutes les pages d'un fichier {{EXT}} à un angle de rotation de 90, 180 ou 270 à l'aide de l'API de fusion de documents pour les applications {{ProductName}}.",
+    "button_label": "Télécharger la version d'essai gratuite"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Référence API",
+      "button_text_2": "Exemples de codes",
+      "button_text_3": "Démos en direct",
+      "button_text_4": "Tarification"
+    }
+  },
+  "about": {
+    "title": "À propos de l'API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) offre une solution simple pour fusionner et diviser en toute sécurité un large éventail de formats de documents, y compris PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, images et bien d'autres dans les applications {{ProductName}}. En ajoutant seulement quelques lignes de code, effectuez plusieurs opérations sur le document telles que déplacer, supprimer, faire pivoter, échanger, extraire ou modifier l'orientation des pages dans les documents. L'API de fusion de documents prend également en charge la prévisualisation des pages de document sous forme d'image pour analyser la structure, la mise en forme et le contenu du document sur la page.",
+    "h2": "Les API GroupDocs.Merger sont bien prises en charge sur tous les principaux systèmes d'exploitation et versions Java, y compris {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Faire pivoter {{EXT}} pages de fichiers dans {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) permet aux développeurs de {{ProgLang}} de faire pivoter facilement certaines pages ou toutes les pages d'un fichier {{EXT}} à 90 , 180 ou 270 angle de rotation en mettant en œuvre quelques étapes faciles.",
+      "step_1": "Initialisez **RotateOptions** avec l'angle de rotation et les numéros de page souhaités.",
+      "step_2": "Créez une nouvelle instance de **Merger** et transmettez le chemin du document source en tant que paramètre du constructeur.",
+      "step_3": "Appelez **rotatePages** et passez l'objet **RotateOptions**.",
+      "step_4": "Appelez **save** et spécifiez le chemin du fichier pour enregistrer le document résultant."
+    },
+    "title_right": "Configuration requise",
+    "content_right": {
+      "description": "Les API {{ProductFullName}} sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Cadres",
+      "step_4": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Démos en direct - Faites pivoter {{EXT}} pages de fichiers en ligne",
+    "h1": "Faites pivoter les pages de fichiers {{EXT}} dès maintenant en visitant le site Web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/{{ext}}).",
+    "h2": "La démo en direct présente les avantages suivants."
+  },
+  "more_formats": {
+    "title": "Faire pivoter les pages d'autres formats de document",
+    "content": "{{ProductName}} documente l'API de fusion et de division pour les formats de fichiers et les images. Faites pivoter certains des formats de fichiers populaires comme indiqué ci-dessous."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "head": {
+    "title": "Joindre {{EXT}} fichiers via l'API de fusion de documents Java et J2SE",
+    "description": "Joignez plusieurs fichiers {{EXT}} en Java à l'aide de l'API de fusion de documents avec toutes les données, le style et la mise en forme en tant que documents source."
+  },
+  "header": {
+    "title": "Joindre {{EXT}} fichiers dans les applications Java",
+    "description": "Joignez plusieurs fichiers {{EXT}} en un seul fichier à l'aide de l'API de fusion de documents Java. Joignez des pages ou des plages de pages sélectionnées à partir de divers documents source en un seul document résultant avec toutes les données, le style et la mise en forme en tant que documents source.",
+    "button_label": "Télécharger la version d'essai gratuite"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Référence API",
+      "button_text_2": "Exemples de codes",
+      "button_text_3": "Démos en direct",
+      "button_text_4": "Tarification"
+    }
+  },
+  "about": {
+    "title": "À propos de l'API {{ProductFullName}}",
+    "h1": "La bibliothèque [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) offre une solution simple pour fusionner, combiner, joindre et diviser en toute sécurité un large éventail de formats de documents, y compris PDF, Microsoft Office ( Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images et bien d'autres dans les applications Java et J2SE. En ajoutant seulement quelques lignes de code, effectuez plusieurs opérations sur le document telles que déplacer, supprimer, faire pivoter, échanger, extraire ou modifier l'orientation des pages dans les documents. L'API de fusion de documents prend également en charge la prévisualisation des pages de document sous forme d'image pour analyser la structure, la mise en forme et le contenu du document sur la page.",
+    "h2": "Les API GroupDocs.Merger sont bien prises en charge sur tous les principaux systèmes d'exploitation et versions Java, y compris {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Joindre plusieurs fichiers {{EXT}} dans {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) permet aux développeurs Java de joindre facilement plusieurs fichiers {{EXT}} en mettant en œuvre quelques étapes simples.",
+      "step_1": "Créez une instance de **Merger** et transmettez le chemin du document source en tant que paramètre du constructeur.",
+      "step_2": "Appelez **Join** de la classe **Merger** et transmettez le deuxième chemin du document source.",
+      "step_3": "Appelez **Save** de la classe **Merger** pour enregistrer le document fusionné."
+    },
+    "title_right": "Configuration requise",
+    "content_right": {
+      "description": "Les API {{ProductFullName}} sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Cadres",
+      "step_4": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Démos en direct - Application en ligne pour joindre des documents",
+    "h1": "Rejoignez dès maintenant plusieurs fichiers {{EXT}} en visitant le site Web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "La démo en direct présente les avantages suivants."
+  },
+  "more_formats": {
+    "title": "Joindre d'autres formats de documents",
+    "content": "{{ProductName}} API de fusion de documents pour les formats de fichiers et les images. Rassemblez certains des formats de documents populaires comme indiqué ci-dessous."
+  }
+}

@@ -1,0 +1,7 @@
+inherits: languages.yml
+
+dimensions: 
+- alias: product
+  values: [net, java]
+
+dictionaries: [ "..\\data\\products.json" ]

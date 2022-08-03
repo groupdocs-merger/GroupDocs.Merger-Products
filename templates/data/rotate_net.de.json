@@ -1,0 +1,51 @@
+{
+  "head": {
+    "title": "Drehe {{EXT}} Seiten in {{ProgLang}} – Drehe um 90, 180, 270 Winkel",
+    "description": "Drehen Sie bestimmte oder alle Dokumentseiten einer {{EXT}}-Datei in einem Rotationswinkel von 90, 180, 270 mithilfe der Documents Merger API."
+  },
+  "header": {
+    "title": "Seiten von {{EXT}} in {{ProgLang}} drehen",
+    "description": "Drehen Sie ausgewählte oder alle Dokumentseiten einer {{EXT}}-Datei in einem Rotationswinkel von 90, 180 oder 270 mithilfe der Documents Merger API für {{ProductName}}-Anwendungen.",
+    "button_label": "Download kostenlose Testversion"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-Referenz",
+      "button_text_2": "Codebeispiele",
+      "button_text_3": "Live-Demos",
+      "button_text_4": "Preisgestaltung"
+    }
+  },
+  "about": {
+    "title": "Über die {{ProductFullName}}-API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) bietet eine einfache Lösung zum sicheren Zusammenführen und Teilen zwischen einer Vielzahl von Dokumentformaten, einschließlich PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, Bilder und viele andere in {{ProductName}}-Anwendungen. Durch Hinzufügen von nur wenigen Codezeilen können Sie mehrere Dokumentoperationen ausführen, z. B. Verschieben, Entfernen, Drehen, Austauschen, Extrahieren oder Ändern der Ausrichtung von Seiten innerhalb der Dokumente. Die API zum Zusammenführen von Dokumenten unterstützt auch die Vorschau von Dokumentseiten als Bild, um die Dokumentstruktur, die Formatierung und den Inhalt auf der Seite zu analysieren.",
+    "h2": "GroupDocs.Merger-APIs werden auf allen wichtigen Betriebssystemen und Plattformen einschließlich {{Runtime}} gut unterstützt."
+  },
+  "steps": {
+    "title_left": "Drehe {{EXT}} Dateiseiten in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) macht es Entwicklern von {{ProgLang}} leicht, einige bestimmte oder alle Seiten innerhalb einer {{EXT}}-Datei um 90 zu rotieren , 180 oder 270 Drehwinkel, indem Sie ein paar einfache Schritte ausführen.",
+      "step_1": "Initialisieren Sie **RotateOptions** mit dem gewünschten Rotationswinkel und den Seitenzahlen.",
+      "step_2": "Erstellen Sie eine neue Instanz von **Merger** und übergeben Sie den Pfad des Quelldokuments als Konstruktorparameter.",
+      "step_3": "Rufen Sie **RotatePages** auf und übergeben Sie das Objekt **RotateOptions**.",
+      "step_4": "Rufen Sie **Save** auf und geben Sie den Dateipfad an, um das resultierende Dokument zu speichern."
+    },
+    "title_right": "System Anforderungen",
+    "content_right": {
+      "description": "{{ProductFullName}}-APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Rahmen",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter"
+    }
+  },
+  "demos": {
+    "title": "Live-Demos - Drehen Sie {{EXT}} Dateiseiten online",
+    "h1": "Drehen Sie jetzt {{EXT}} Dateiseiten, indem Sie die Website [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/{{ext}}) besuchen.",
+    "h2": "Die Live-Demo hat die folgenden Vorteile."
+  },
+  "more_formats": {
+    "title": "Drehen Sie Seiten anderer Dokumentformate",
+    "content": "{{ProductName}} dokumentiert Merger & Split API für Dateiformate und Bilder. Drehen Sie einige der gängigen Dateiformate wie unten angegeben."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "head": {
+    "title": "{{EXT}}を{{ProgLang}}で複数のファイルに分割",
+    "description": "ドキュメント マージ API を使用して、ページ番号、ページ間隔、偶数ページまたは奇数ページに基づいて、1 つの {{EXT}} ファイルを複数のファイルに分割します。"
+  },
+  "header": {
+    "title": "{{ProgLang}} で {{EXT}} を複数のファイルに分割する",
+    "description": "Java および J2SE アプリケーション用のドキュメント マージ API を使用して、ページ番号、ページ間隔、偶数ページまたは奇数ページに基づいて、単一の {{EXT}} ファイルを複数の結果ファイルに分割します。",
+    "button_label": "無料トライアルをダウンロード"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API リファレンス",
+      "button_text_2": "コード例",
+      "button_text_3": "ライブデモ",
+      "button_text_4": "価格"
+    }
+  },
+  "about": {
+    "title": "{{ProductFullName}} API について",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ライブラリは、PDF、Microsoft Office (Word、Excel、 PowerPoint、OneNote)、OpenDocument、HTML、画像、および {{ProductName}} アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。",
+    "h2": "GroupDocs.Merger API は、すべての主要なオペレーティング システムと {{Runtime}} を含む Java バージョンで十分にサポートされています。"
+  },
+  "steps": {
+    "title_left": "{{ProductName}} で {{EXT}} ファイルをページごとに分割",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) を使用すると、{{ProgLang}} 開発者は、単一の {{EXT}} ファイルを複数の結果ファイルに簡単に分割できます。いくつかの簡単な手順。",
+      "step_1": "出力ファイルのパス形式で **SplitOptions** を初期化します。",
+      "step_2": "**Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。",
+      "step_3": "**split** を呼び出して **SplitOptions** オブジェクトを渡し、結果のドキュメントを保存します。"
+    },
+    "title_right": "システム要求",
+    "content_right": {
+      "description": "{{ProductFullName}} API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "[{{RepoName}}]({{RepoUrl}}) から {{ProductFullName}} の最新バージョンをダウンロードします"
+    }
+  },
+  "demos": {
+    "title": "ライブデモ - {{EXT}} ファイルをオンラインで分割",
+    "h1": "[GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}) Web サイトにアクセスして、今すぐ {{EXT}} ファイルを分割してください。",
+    "h2": "ライブデモには次の利点があります。"
+  },
+  "more_formats": {
+    "title": "他の形式の分割ファイル",
+    "content": "{{ProductName}} は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を分割します。"
+  }
+}

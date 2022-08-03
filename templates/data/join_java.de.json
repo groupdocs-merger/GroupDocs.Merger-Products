@@ -1,0 +1,50 @@
+{
+  "head": {
+    "title": "Verbinden Sie {{EXT}} Dateien über die Java & J2SE Documents Merger API",
+    "description": "Verbinden Sie mehrere {{EXT}}-Dateien in Java mithilfe der Dokumentenzusammenführungs-API mit allen Daten, Stilen und Formatierungen als Quelldokumente."
+  },
+  "header": {
+    "title": "Verbinden Sie {{EXT}}-Dateien in Java-Anwendungen",
+    "description": "Verbinden Sie mehrere {{EXT}}-Dateien mithilfe der Java Documents Merger API zu einer einzigen Datei. Verbinden Sie ausgewählte Seiten oder Seitenbereiche aus verschiedenen Quelldokumenten zu einem einzigen Ergebnisdokument mit allen Daten, Stilen und Formatierungen wie die Quelldokumente.",
+    "button_label": "Download kostenlose Testversion"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-Referenz",
+      "button_text_2": "Codebeispiele",
+      "button_text_3": "Live-Demos",
+      "button_text_4": "Preisgestaltung"
+    }
+  },
+  "about": {
+    "title": "Über die {{ProductFullName}}-API",
+    "h1": "Die Bibliothek [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) bietet eine einfache Lösung zum sicheren Zusammenführen, Kombinieren, Verbinden und Teilen zwischen einer Vielzahl von Dokumentformaten, einschließlich PDF, Microsoft Office ( Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, Bilder und viele andere in Java- und J2SE-Anwendungen. Durch Hinzufügen von nur wenigen Codezeilen können Sie mehrere Dokumentoperationen ausführen, z. B. Verschieben, Entfernen, Drehen, Austauschen, Extrahieren oder Ändern der Ausrichtung von Seiten innerhalb der Dokumente. Die API zum Zusammenführen von Dokumenten unterstützt auch die Vorschau von Dokumentseiten als Bild, um die Dokumentstruktur, die Formatierung und den Inhalt auf der Seite zu analysieren.",
+    "h2": "GroupDocs.Merger-APIs werden von allen gängigen Betriebssystemen und Java-Versionen einschließlich {{Runtime}} gut unterstützt."
+  },
+  "steps": {
+    "title_left": "Verbinden Sie mehrere {{EXT}}-Dateien in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) macht es Java-Entwicklern leicht, mehrere {{EXT}}-Dateien zu verbinden, indem sie einige einfache Schritte ausführen.",
+      "step_1": "Erstellen Sie eine Instanz von **Merger** und übergeben Sie den Pfad des Quelldokuments als Konstruktorparameter.",
+      "step_2": "Rufen Sie **Join** der **Merger**-Klasse auf und übergeben Sie den zweiten Quelldokumentpfad.",
+      "step_3": "Rufen Sie **Save** der Klasse **Merger** auf, um das zusammengeführte Dokument zu speichern."
+    },
+    "title_right": "System Anforderungen",
+    "content_right": {
+      "description": "{{ProductFullName}}-APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Rahmen",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter"
+    }
+  },
+  "demos": {
+    "title": "Live-Demos - Online-App zum Verbinden von Dokumenten",
+    "h1": "Treten Sie jetzt mehr als einer {{EXT}}-Datei bei, indem Sie die Website [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}) besuchen.",
+    "h2": "Die Live-Demo hat die folgenden Vorteile."
+  },
+  "more_formats": {
+    "title": "Verbinden anderer Dokumentformate",
+    "content": "{{ProductName}} dokumentiert Fusions-API für Dateiformate und Bilder. Verbinden Sie einige der gängigen Dokumentformate wie unten angegeben."
+  }
+}

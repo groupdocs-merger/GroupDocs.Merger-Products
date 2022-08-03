@@ -1,0 +1,50 @@
+{
+  "head": {
+    "title": "Divisez {{EXT}} en plusieurs fichiers dans {{ProgLang}}",
+    "description": "Divisez un seul fichier {{EXT}} en plusieurs fichiers en fonction des numéros de page, des intervalles de page, des pages paires ou impaires à l'aide de l'API de fusion de documents."
+  },
+  "header": {
+    "title": "Diviser {{EXT}} en plusieurs fichiers dans {{ProgLang}}",
+    "description": "Divisez un seul fichier {{EXT}} en plusieurs fichiers résultants en fonction des numéros de page, des intervalles de page, des pages paires ou impaires à l'aide de l'API de fusion de documents pour les applications .NET (C#, ASP.NET, VB.NET, .NET Core).",
+    "button_label": "Télécharger la version d'essai gratuite"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Référence API",
+      "button_text_2": "Exemples de codes",
+      "button_text_3": "Démos en direct",
+      "button_text_4": "Tarification"
+    }
+  },
+  "about": {
+    "title": "À propos de l'API {{ProductFullName}}",
+    "h1": "La bibliothèque [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) offre une solution simple pour fusionner et diviser en toute sécurité un large éventail de formats de documents, y compris PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images et bien d'autres dans les applications {{ProductName}}. En ajoutant seulement quelques lignes de code, effectuez plusieurs opérations sur le document telles que déplacer, supprimer, faire pivoter, échanger, extraire ou modifier l'orientation des pages dans les documents. L'API de fusion de documents prend également en charge la prévisualisation des pages de document sous forme d'image pour analyser la structure, la mise en forme et le contenu du document sur la page.",
+    "h2": "Les API GroupDocs.Merger sont bien prises en charge sur tous les principaux systèmes d'exploitation et plates-formes, y compris {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Fractionner {{EXT}} pages de fichiers dans {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) permet aux développeurs de {{ProgLang}} de diviser facilement un seul fichier {{EXT}} en plusieurs fichiers résultants en implémentant un quelques étapes faciles.",
+      "step_1": "Initialisez **SplitOptions** avec le format de chemin des fichiers de sortie.",
+      "step_2": "Créez une nouvelle instance de **Merger** et transmettez le chemin du document source en tant que paramètre du constructeur.",
+      "step_3": "Appelez **Split** et transmettez l'objet **SplitOptions** pour enregistrer les documents résultants."
+    },
+    "title_right": "Configuration requise",
+    "content_right": {
+      "description": "Les API {{ProductFullName}} sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Cadres",
+      "step_4": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Démos en direct - Divisez le fichier {{EXT}} en ligne",
+    "h1": "Divisez le fichier {{EXT}} dès maintenant en visitant le site Web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}).",
+    "h2": "La démo en direct présente les avantages suivants."
+  },
+  "more_formats": {
+    "title": "Diviser le fichier d'autres formats",
+    "content": "{{ProductName}} documente l'API de fusion et de division pour les formats de fichiers et les images. Divisez certains des formats de fichiers populaires comme indiqué ci-dessous."
+  }
+}

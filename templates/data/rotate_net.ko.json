@@ -1,0 +1,51 @@
+{
+  "head": {
+    "title": "{{ProgLang}}에서 {{EXT}} 페이지 회전 – 90, 180, 270 각도로 회전",
+    "description": "문서 병합 API를 사용하여 {{EXT}} 파일의 특정 또는 모든 문서 페이지를 90, 180, 270 회전 각도로 회전합니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}의 {{EXT}}에서 페이지 회전",
+    "description": "{{ProductName}} 애플리케이션용 문서 병합 API를 사용하여 {{EXT}} 파일의 선택적 또는 모든 문서 페이지를 90, 180 또는 270 회전 각도로 회전합니다.",
+    "button_label": "무료 평가판 다운로드"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API 참조",
+      "button_text_2": "코드 예",
+      "button_text_3": "라이브 데모",
+      "button_text_4": "가격"
+    }
+  },
+  "about": {
+    "title": "{{ProductFullName}} API 정보",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/)는 PDF, Microsoft Office(Word, Excel, PowerPoint)를 비롯한 다양한 문서 형식 간에 안전하게 병합 및 분할할 수 있는 간단한 솔루션을 제공합니다. , OneNote), OpenDocument, HTML, 이미지 및 {{ProductName}} 응용 프로그램 내의 많은 기타. 몇 줄의 코드만 추가하면 이동, 제거, 회전, 교환, 추출 또는 문서 내 페이지 방향 변경과 같은 여러 문서 작업을 수행할 수 있습니다. 문서 병합 API는 문서 구조, 서식 및 페이지 콘텐츠를 분석하기 위해 문서 페이지를 이미지로 미리보기도 지원합니다.",
+    "h2": "GroupDocs.Merger API는 {{Runtime}}을 포함한 모든 주요 운영 체제 및 플랫폼에서 잘 지원됩니다."
+  },
+  "steps": {
+    "title_left": "{{ProductName}}에서 {{EXT}} 파일 페이지 회전",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/)를 사용하면 {{ProgLang}} 개발자가 {{EXT}} 파일 내의 특정 또는 모든 페이지를 90도에서 쉽게 회전할 수 있습니다. , 몇 가지 간단한 단계를 구현하여 180도 또는 270도 회전 각도.",
+      "step_1": "원하는 회전 각도와 페이지 번호로 **RotateOptions**를 초기화합니다.",
+      "step_2": "**Merger**의 새 인스턴스를 만들고 소스 문서 경로를 생성자 매개변수로 전달합니다.",
+      "step_3": "**RotatePages**를 호출하고 **RotateOptions** 개체를 전달합니다.",
+      "step_4": "**저장**을 호출하고 결과 문서를 저장할 파일 경로를 지정합니다."
+    },
+    "title_right": "시스템 요구 사항",
+    "content_right": {
+      "description": "{{ProductFullName}} API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.",
+      "step_1": "운영 체제: Microsoft Windows, Linux, MacOS",
+      "step_2": "개발 환경: {{DevEnv}}",
+      "step_3": "프레임워크",
+      "step_4": "[{{RepoName}}]({{RepoUrl}})에서 최신 버전의 {{ProductFullName}} 다운로드"
+    }
+  },
+  "demos": {
+    "title": "라이브 데모 - 온라인에서 {{EXT}} 파일 페이지 회전",
+    "h1": "지금 바로 [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/{{ext}}) 웹사이트를 방문하여 {{EXT}} 파일 페이지를 회전하세요.",
+    "h2": "라이브 데모에는 다음과 같은 이점이 있습니다."
+  },
+  "more_formats": {
+    "title": "다른 문서 형식의 페이지 회전",
+    "content": "{{ProductName}}은(는) 파일 형식 및 이미지에 대한 병합 및 분할 API를 문서화합니다. 아래에 설명된 대로 인기 있는 파일 형식 중 일부를 회전합니다."
+  }
+}
