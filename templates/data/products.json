@@ -1,0 +1,30 @@
+{
+    "products": {        
+        "net": {
+            "name": ".NET",
+            "fullName": "GroupDocs.Merger for .NET",
+            "code": "net",
+            "progLang": "C#",
+            "srcFileExt": ".cs",
+            "syntax": "csharp",
+            "devEnv": "Visual Studio, Xamarin, MonoDevelop",
+            "runtime": ".NET Framework, .NET Standard, .NET Core, Mono",
+            "repoName": "NuGet",
+            "repoUrl": "https://www.nuget.org/packages/groupdocs.merger",
+            "url": "https://products.groupdocs.com/merger/net/"
+        },
+        "java": {
+            "name": "Java",
+            "fullName": "GroupDocs.Merger for Java",
+            "code": "java",
+            "progLang": "Java",
+            "srcFileExt": ".java",
+            "syntax": "java",
+            "devEnv": "NetBeans, IntelliJ IDEA, Eclipse",
+            "runtime": "J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10",
+            "repoName": "Maven",
+            "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger",
+            "url": "https://products.groupdocs.com/merger/java/"
+        }
+    }
+}

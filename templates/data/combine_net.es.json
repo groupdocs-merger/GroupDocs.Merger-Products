@@ -1,0 +1,50 @@
+{
+  "head": {
+    "title": "Combinar archivos {{EXT}} en {{ProgLang}} | {{EXT}} Fusión",
+    "description": "Combine múltiples archivos {{EXT}} en un solo archivo usando la API de fusión de documentos {{ProgLang}} {{ProductName}}. Combine páginas específicas o rangos de páginas de varios documentos en un solo documento."
+  },
+  "header": {
+    "title": "Combinar archivos {{EXT}} en {{ProgLang}}",
+    "description": "Combine múltiples archivos {{EXT}} en un solo archivo usando la API de fusión de documentos {{ProgLang}} {{ProductName}}. Combine páginas seleccionadas o rangos de páginas de varios documentos de origen en un solo documento resultante.",
+    "button_label": "Descargue prueba gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referencia de la API",
+      "button_text_2": "Ejemplos de código",
+      "button_text_3": "demostraciones en vivo",
+      "button_text_4": "Precios"
+    }
+  },
+  "about": {
+    "title": "Acerca de la API de {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ofrece una solución simple para fusionar y dividir de forma segura entre una amplia gama de formatos de documentos, incluidos PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, imágenes y muchos otros dentro de las aplicaciones .NET. Al agregar solo unas pocas líneas del código, realice varias operaciones de documentos, como mover, eliminar, rotar, intercambiar, extraer o cambiar la orientación de las páginas dentro de los documentos. La API de combinación de documentos también admite la vista previa de páginas de documentos como una imagen para analizar la estructura, el formato y el contenido del documento en la página.",
+    "h2": "Las API de GroupDocs.Merger son compatibles con todos los principales sistemas operativos y plataformas, incluido {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Cómo combinar varios archivos {{EXT}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) facilita a los desarrolladores de {{ProductName}} combinar dos o más archivos {{EXT}} dentro de sus aplicaciones mediante la implementación de un unos sencillos pasos.",
+      "step_1": "Cree una nueva instancia de **Merger** y pase la ruta del documento de origen como parámetro del constructor.",
+      "step_2": "Llame a **Join** de la clase **Merger** y pase la ruta del segundo documento de origen.",
+      "step_3": "Llame a **Guardar** de la clase **Merger** para guardar el documento fusionado."
+    },
+    "title_right": "Requisitos del sistema",
+    "content_right": {
+      "description": "Las API de {{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
+      "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Entornos de desarrollo: {{DevEnv}}",
+      "step_3": "Marcos",
+      "step_4": "Descarga la última versión de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Demostraciones en vivo: aplicación en línea para combinar documentos",
+    "h1": "Combine más de un archivo {{EXT}} ahora mismo visitando el sitio web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family).",
+    "h2": "La demostración en vivo tiene los siguientes beneficios."
+  },
+  "more_formats": {
+    "title": "Fusión de otros formatos de documentos",
+    "content": "{{ProductName}} API de fusión de documentos para formatos de archivo e imágenes. Combine algunos de los formatos de documentos populares como se indica a continuación."
+  }
+}

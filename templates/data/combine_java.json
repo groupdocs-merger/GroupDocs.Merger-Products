@@ -1,0 +1,50 @@
+{
+  "head": {
+    "title": "Combine {{EXT}} Files via Java & J2SE Documents Merger API",
+    "description": "Combine multiple {{EXT}} files in Java using documents merger API with all data, style and formatting as the source documents."
+  },
+  "header": {
+    "title": "Combine {{EXT}} Files in Java Applications",
+    "description": "Combine multiple {{EXT}} files into a single file using Java documents merger API. Combine selected pages or page ranges from various source documents into a single resultant document with all data, style and formatting as the source documents.",
+    "button_label": "Download Free Trial"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API Reference",
+      "button_text_2": "Code Examples",
+      "button_text_3": "Live Demos",
+      "button_text_4": "Pricing"
+    }
+  },
+  "about": {
+    "title": "About {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) library offers a simple solution to safely merge, combine, join & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within Java & J2SE applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.",
+    "h2": "GroupDocs.Merger APIs are well supported on all major operating systems and Java versions including {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Combine Multiple {{EXT}} Files in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) makes it easy for Java developers to combine multiple {{EXT}} files by implementing a few easy steps.",
+      "step_1": "Create an instance of **Merger** and pass source document path as a constructor parameter.",
+      "step_2": "Call **Join** of **Merger** class and pass the second source document path.",
+      "step_3": "Call **Save** of **Merger** class to save the merged document."
+    },
+    "title_right": "System Requirements",
+    "content_right": {
+      "description": "{{ProductFullName}} APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.",
+      "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development Environments: {{DevEnv}}",
+      "step_3": "Frameworks",
+      "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Live Demos - Online App to Combine Documents",
+    "h1": "Combine more than one {{EXT}} files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) website.",
+    "h2": "The live demo has the following benefits."
+  },
+  "more_formats": {
+    "title": "Merging Other Document Formats",
+    "content": "{{ProductName}} documents merger API for file formats and images. Combine together some of the popular document formats as stated below."
+  }
+}

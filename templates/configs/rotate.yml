@@ -1,0 +1,13 @@
+inherits: products.yml
+
+dimensions: 
+- alias: ext
+  values: ["pdf", "xps", "tex", "epub"]
+
+generationRules:
+  include:
+  - ext[pdf]
+
+dictionaries: [ "..\\data\\rotate_{product}.{lang}.json", "..\\data\\rotate_{product}.json", "..\\data\\rotate_otherformats.json" ]
+
+outputPath: "{product}\\rotate\\{ext}.{lang}.md"

@@ -1,0 +1,8 @@
+{
+  "otherformats": {
+    "pdf": "xps tex epub",
+    "xps": "pdf tex epub",
+    "tex": "pdf xps epub",
+    "epub": "pdf xps tex"
+  }
+}

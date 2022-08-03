@@ -1,0 +1,51 @@
+{
+  "head": {
+    "title": "{{ProgLang}} で {{EXT}} ページを抽出",
+    "description": "{{ProgLang}} の {{EXT}} ファイルからページをすばやく抽出します。ドキュメント マージ API を使用して、選択したページを含む新しいドキュメントを保存します。"
+  },
+  "header": {
+    "title": "{{ProgLang}} の {{EXT}} ページを抽出",
+    "description": "選択したページを {{EXT}} ファイルからすばやく抽出し、{{ProductName}} アプリケーションのドキュメント マージ API を使用して新しいドキュメントとして保存します。",
+    "button_label": "無料トライアルをダウンロード"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API リファレンス",
+      "button_text_2": "コード例",
+      "button_text_3": "ライブデモ",
+      "button_text_4": "価格"
+    }
+  },
+  "about": {
+    "title": "{{ProductFullName}} API について",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) は、PDF、Microsoft Office (Word、Excel、PowerPoint 、OneNote)、OpenDocument、HTML、画像、および {{ProductName}} アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。",
+    "h2": "GroupDocs.Merger API は、すべての主要なオペレーティング システムと {{Runtime}} を含む Java バージョンで十分にサポートされています。"
+  },
+  "steps": {
+    "title_left": "{{ProductName}} で {{EXT}} ファイルをページごとに抽出",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) により、{{ProgLang}} 開発者は {{EXT}} ファイルから目的のページを簡単に抽出して、次のように保存できます。いくつかの簡単な手順を実行して、選択したページを含む新しいファイルを作成します。",
+      "step_1": "結果のドキュメントに表示されるページ番号で **ExtractOptions** を初期化します。",
+      "step_2": "**Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。",
+      "step_3": "**extractPages** を呼び出し、**ExtractOptions** オブジェクトを渡して、結果のドキュメントを保存します。",
+      "step_4": "**save** を呼び出し、ファイル パスを指定して結果のドキュメントを保存します。"
+    },
+    "title_right": "システム要求",
+    "content_right": {
+      "description": "{{ProductFullName}} API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "[{{RepoName}}]({{RepoUrl}}) から {{ProductFullName}} の最新バージョンをダウンロードします"
+    }
+  },
+  "demos": {
+    "title": "ライブデモ - {{EXT}} ページをオンラインで抽出",
+    "h1": "[GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/{{ext}}) Web サイトにアクセスして、今すぐ {{EXT}} ファイル ページを抽出します。",
+    "h2": "ライブデモには次の利点があります。"
+  },
+  "more_formats": {
+    "title": "他のドキュメント形式からページを抽出",
+    "content": "{{ProductName}} は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を抽出します。"
+  }
+}
