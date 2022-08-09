@@ -1,8 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-08-09T10:42:22
+date: 2022-08-09T13:22:16
 draft: false
+otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png
 
 ############################# Head ############################
 head_title: "Combine ODT Files in C# | ODT Merger"
