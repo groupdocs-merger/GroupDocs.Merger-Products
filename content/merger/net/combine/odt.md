@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-08-09T13:22:16
+date: 2022-08-09T13:43:37
 draft: false
 otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png
 
@@ -114,7 +114,7 @@ more_formats:
     enable: true
     title: "Merging Other Document Formats"
     content: |
-        ".NET documents merger API for file formats and images. Combine together some of the popular document formats as stated below."
+        .NET documents merger API for file formats and images. Combine together some of the popular document formats as stated below.
 
 
 ############################# Back to top ###############################
