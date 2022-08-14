@@ -11,7 +11,7 @@ platform_tag: "net"
 head_title: "C# .NET Document Merger API | Gabungkan & Pisahkan PDF Word Excel EPUB"
 head_description: "C# .NET document merging API untuk menggabungkan, membagi, menukar, atau menghapus halaman dokumen dari PDF, Microsoft Word, Excel, presentasi, Visio, dan format gambar."
 
-title: "..NET API untuk Menggabungkan & Memisahkan Dokumen"
+title: ".NET API untuk Menggabungkan & Memisahkan Dokumen"
 description: "API untuk Menggabungkan, Memisahkan, Menukar, Memangkas, atau Menghapus Dokumen, Slide, dan Diagram di Aplikasi .NET."
 button:
     enable: true
