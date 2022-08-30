@@ -1,2 +1,4 @@
 deploy_key
 /.vs
+/templates/utils/HugoMarkupGenerator/Bin/net6.0
+/templates/utils/Translation/Bin/net6.0
