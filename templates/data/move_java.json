@@ -4,8 +4,8 @@
     "description": "Move pages within a {{EXT}} document in {{ProgLang}} to any position using the documents merger API."
   },
   "header": {
-    "title": "Move {{EXT}} Pages in {{ProgLang}}",
-    "description": "Move pages within a {{EXT}} document to any position using documents merger API for {{ProductName}} applications.",
+    "title": "Move {{EXT}} Pages For {{ProductCode}}",
+    "description": "Move {{EXT}} Pages in a browser.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -46,6 +46,9 @@
   },
   "more_formats": {
     "title": "Move Pages of Other Document Formats",
-    "content": "{{ProductName}} documents merger & split API for file formats and images. Move some of the popular file formats as stated below."
+    "content": "{{ProductName}} documents merger & split API for file formats and images. Move some of the popular file formats as stated below.",
+    "do": "Move",
+    "files": "Pages",
+    "in": "in"
   }
 }

@@ -4,8 +4,8 @@
     "description": "Combine multiple {{EXT}} files into a single file using {{ProgLang}} {{ProductName}} documents merger API. Combine specific pages or page ranges from various documents to a single document."
   },
   "header": {
-    "title": "Combine {{EXT}} Files In {{ProgLang}}",
-    "description": "Combine multiple {{EXT}} files into a single file using {{ProgLang}} {{ProductName}} documents merger API. Combine selected pages or page ranges from various source documents into a single resultant document.",
+    "title": "Combine {{EXT}} Files For {{ProductCode}}",
+    "description": "Combine {{EXT}} in a browser.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -45,6 +45,9 @@
   },
   "more_formats": {
     "title": "Merging Other Document Formats",
-    "content": "{{ProductName}} documents merger API for file formats and images. Combine together some of the popular document formats as stated below."
+    "content": "{{ProductName}} documents merger API for file formats and images. Combine together some of the popular document formats as stated below.",
+    "do": "Combine",
+    "files": "Files",
+    "in": "in"
   }
 }

@@ -4,8 +4,8 @@
     "description": "Rotate specific or all document pages of a {{EXT}} file at 90, 180, 270 rotation angle using documents merger API."
   },
   "header": {
-    "title": "Rotate Pages From {{EXT}} in {{ProgLang}}",
-    "description": "Rotate selective or all document pages of a {{EXT}} file to 90, 180 or 270 rotation angle using documents merger API for {{ProductName}} applications.",
+    "title": "Rotate {{EXT}} Pages For {{ProductCode}}",
+    "description": "Rotate {{EXT}} Pages in a browser.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -46,6 +46,9 @@
   },
   "more_formats": {
     "title": "Rotate Pages of Other Document Formats",
-    "content": "{{ProductName}} documents merger & split API for file formats and images. Rotate some of the popular file formats as stated below."
+    "content": "{{ProductName}} documents merger & split API for file formats and images. Rotate some of the popular file formats as stated below.",
+    "do": "Rotate",
+    "files": "Pages",
+    "in": "in"
   }
 }

@@ -4,8 +4,8 @@
     "description": "Split a single {{EXT}} file into several files based on page numbers, page intervals, even or odd pages using documents merger API."
   },
   "header": {
-    "title": "Split {{EXT}} Into Multiple Files in {{ProgLang}}",
-    "description": "Split a single {{EXT}} file into several resultant files based on page numbers, page intervals, even or odd pages using documents merger API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications.",
+    "title": "{{EXT}} Splitter For {{ProductCode}}",
+    "description": "Split {{EXT}} in a browser.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -45,6 +45,9 @@
   },
   "more_formats": {
     "title": "Split File of Other Formats",
-    "content": "{{ProductName}} documents merger & split API for file formats and images. Split some of the popular file formats as stated below."
+    "content": "{{ProductName}} documents merger & split API for file formats and images. Split some of the popular file formats as stated below.",
+    "do": "Split",
+    "files": "File",
+    "in": "in"
   }
 }

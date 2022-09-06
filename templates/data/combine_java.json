@@ -4,8 +4,8 @@
     "description": "Combine multiple {{EXT}} files in Java using documents merger API with all data, style and formatting as the source documents."
   },
   "header": {
-    "title": "Combine {{EXT}} Files in Java Applications",
-    "description": "Combine multiple {{EXT}} files into a single file using Java documents merger API. Combine selected pages or page ranges from various source documents into a single resultant document with all data, style and formatting as the source documents.",
+    "title": "Combine {{EXT}} Files For {{ProductCode}}",
+    "description": "Combine {{EXT}} in a browser.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -45,6 +45,9 @@
   },
   "more_formats": {
     "title": "Merging Other Document Formats",
-    "content": "{{ProductName}} documents merger API for file formats and images. Combine together some of the popular document formats as stated below."
+    "content": "{{ProductName}} documents merger API for file formats and images. Combine together some of the popular document formats as stated below.",
+    "do": "Combine",
+    "files": "Files",
+    "in": "in"
   }
 }

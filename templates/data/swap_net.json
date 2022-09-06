@@ -4,8 +4,8 @@
     "description": "Swap & Exchange positions of two pages within a {{EXT}} file in {{ProgLang}} using the documents merger API."
   },
   "header": {
-    "title": "Swap {{EXT}} Pages in {{ProgLang}}",
-    "description": "Swap & Exchange positions of two pages within a {{EXT}} file using documents merger API for {{ProductName}} applications.",
+    "title": "Swap {{EXT}} Pages For {{ProductCode}}",
+    "description": "Swap {{EXT}} Pages in a browser.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -46,6 +46,9 @@
   },
   "more_formats": {
     "title": "Swap Pages of Other File Formats",
-    "content": "{{ProductName}} documents merger & split API for file formats and images. Swap some of the popular file formats as stated below."
+    "content": "{{ProductName}} documents merger & split API for file formats and images. Swap some of the popular file formats as stated below.",
+    "do": "Swap",
+    "files": "Pages",
+    "in": "in"
   }
 }

@@ -4,8 +4,8 @@
     "description": "Remove or delete a single page or collection of pages from a {{EXT}} file in {{ProgLang}} by reversing the pages order using the documents merger API."
   },
   "header": {
-    "title": "Remove {{EXT}} Pages in {{ProgLang}}",
-    "description": "Remove or delete a single page or collection of specific pages from a {{EXT}} file using documents merger API for {{ProductName}} applications.",
+    "title": "Remove {{EXT}} Pages For {{ProductCode}}",
+    "description": "Remove {{EXT}} Pages in a browser.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -46,6 +46,9 @@
   },
   "more_formats": {
     "title": "Remove Pages From Other Document Formats",
-    "content": "{{ProductName}} documents merger & split API for file formats and images. Remove some of the popular file formats as stated below."
+    "content": "{{ProductName}} documents merger & split API for file formats and images. Remove some of the popular file formats as stated below.",
+    "do": "Remove",
+    "files": "Pages",
+    "in": "in"
   }
 }
