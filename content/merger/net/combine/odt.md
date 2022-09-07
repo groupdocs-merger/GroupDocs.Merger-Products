@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-08-09T13:43:37
+date: 2022-09-07T09:53:49
 draft: false
-otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png
+otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png err
 
 ############################# Head ############################
 head_title: "Combine ODT Files in C# | ODT Merger"
 head_description: "Combine multiple ODT files into a single file using C# .NET documents merger API. Combine specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
-title: "Combine ODT Files In C#"
-description: "Combine multiple ODT files into a single file using C# .NET documents merger API. Combine selected pages or page ranges from various source documents into a single resultant document."
+title: "Combine ODT Files For net"
+description: "Combine ODT in a browser."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -85,7 +85,7 @@ steps:
          
     code: |
         ```csharp    
-                // Combine ODT files using GroupDocs.Merger API
+        // Combine ODT files using GroupDocs.Merger API
         // Instantiate Merger with input ODT document
         using (Merger merger = new Merger("input1.odt"))
           {
@@ -115,7 +115,9 @@ more_formats:
     title: "Merging Other Document Formats"
     content: |
         .NET documents merger API for file formats and images. Combine together some of the popular document formats as stated below.
-
+    desc_do: "Combine"
+    desc_files: "Files"
+    desc_in: "in"
 
 ############################# Back to top ###############################
 back_to_top:
