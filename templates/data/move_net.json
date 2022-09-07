@@ -4,8 +4,8 @@
     "description": "Move pages within a {{EXT}} document in {{ProgLang}} to any position using the documents merger API."
   },
   "header": {
-    "title": "Move {{EXT}} Pages For {{ProductCode}}",
-    "description": "Move {{EXT}} Pages in a browser.",
+    "title": "Move {{EXT}} Pages In {{ProgLang}}",
+    "description": "Move {{EXT}} Pages with a few lines of {{ProductName}} code.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -49,6 +49,6 @@
     "content": "{{ProductName}} documents merger & split API for file formats and images. Move some of the popular file formats as stated below.",
     "do": "Move",
     "files": "Pages",
-    "in": "in"
+    "in": "In"
   }
 }

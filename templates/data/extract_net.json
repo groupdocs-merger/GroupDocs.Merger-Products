@@ -4,8 +4,8 @@
     "description": "Quickly extract pages from a {{EXT}} file in {{ProgLang}}. Save the new document containing the selected pages using the documents merger API."
   },
   "header": {
-    "title": "Extract {{EXT}} Pages For {{ProductCode}}",
-    "description": "Extract {{EXT}} Pages in a browser.",
+    "title": "Extract {{EXT}} Pages In {{ProgLang}}",
+    "description": "Extract {{EXT}} Pages with a few lines of {{ProductName}} code.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -49,6 +49,6 @@
     "content": "{{ProductName}} documents merger & split API for file formats and images. Extract some of the popular file formats as stated below.",
     "do": "Extract",
     "files": "Pages",
-    "in": "in"
+    "in": "In"
   }
 }

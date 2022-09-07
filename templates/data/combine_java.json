@@ -4,8 +4,8 @@
     "description": "Combine multiple {{EXT}} files in Java using documents merger API with all data, style and formatting as the source documents."
   },
   "header": {
-    "title": "Combine {{EXT}} Files For {{ProductCode}}",
-    "description": "Combine {{EXT}} in a browser.",
+    "title": "Combine {{EXT}} Files In {{ProgLang}}",
+    "description": "Combine {{EXT}} with a few lines of {{ProductName}} code.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -48,6 +48,6 @@
     "content": "{{ProductName}} documents merger API for file formats and images. Combine together some of the popular document formats as stated below.",
     "do": "Combine",
     "files": "Files",
-    "in": "in"
+    "in": "In"
   }
 }

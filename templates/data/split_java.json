@@ -4,8 +4,8 @@
     "description": "Split a single {{EXT}} file into several files based on page numbers, page intervals, even or odd pages using documents merger API."
   },
   "header": {
-    "title": "{{EXT}} Splitter For {{ProductCode}}",
-    "description": "Split {{EXT}} in a browser.",
+    "title": "{{EXT}} Splitter In {{ProgLang}}",
+    "description": "Split {{EXT}} with a few lines of {{ProductName}} code.",
     "button_label": "Download Free Trial"
   },
   "submenu": {
@@ -48,6 +48,6 @@
     "content": "{{ProductName}} documents merger & split API for file formats and images. Split some of the popular file formats as stated below.",
     "do": "Split",
     "files": "File",
-    "in": "in"
+    "in": "In"
   }
 }
