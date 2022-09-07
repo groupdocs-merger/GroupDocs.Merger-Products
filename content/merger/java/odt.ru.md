@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-07T10:46:26
+date: 2022-09-07T16:24:37
 draft: false
 otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png err
 
@@ -10,8 +10,8 @@ head_title: "Объединение ODT файлов через Java и J2SE Doc
 head_description: "Объединяйте несколько файлов ODT в Java, используя API слияния документов со всеми данными, стилем и форматированием в качестве исходных документов."
 
 ############################# Header ############################
-title: "ODT Слияние для java"
-description: "Объедините ODT в браузере."
+title: "ODT Слияние с Java"
+description: "Объедините ODT с несколькими строками кода Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -85,14 +85,14 @@ steps:
          
     code: |
         ```java    
-        // Merge ODT files using GroupDocs.Merger for Java API
-        // Instantiate Merger with input ODT document
+        // Объединить ODT файлов с помощью GroupDocs.Merge for Java API
+        // Создать экземпляр слияния с входным документом ODT
         Merger merger = new Merger("input_1.odt");
 
-        // Call Join method of Merger class instance and pass second source document path
+        // Вызовите метод соединения экземпляра класса Merger и передайте второй путь к исходному документу
         merger.join("input_2.odt");
     
-        // Call Save method of Merger class instance to save merged document
+        // Вызовите метод сохранения экземпляра класса Merger для сохранения объединенного документа
         merger.save("merged-file.odt"); 
         ```
 
@@ -114,9 +114,6 @@ more_formats:
     title: "Объединение других форматов документов"
     content: |
         API слияния документов Java для форматов файлов и изображений. Объедините вместе несколько популярных форматов документов, как указано ниже.
-    desc_do: "Объединить"
-    desc_files: "Файлы"
-    desc_in: "в"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-07T10:46:26
+date: 2022-09-07T16:24:37
 draft: false
 otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png err
 
@@ -10,8 +10,8 @@ head_title: "Merge ODT Files in C# | ODT Merger"
 head_description: "Merge multiple ODT files into a single file using C# .NET documents merger API. Merge specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
-title: "ODT Merger For net"
-description: "Merge ODT in a browser."
+title: "ODT Merger In C#"
+description: "Merge ODT with a few lines of .NET code."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -115,9 +115,6 @@ more_formats:
     title: "Merging Other Document Formats"
     content: |
         .NET documents merger API for file formats and images. Merge together some of the popular document formats as stated below.
-    desc_do: "Merge"
-    desc_files: "Files"
-    desc_in: "in"
 
 ############################# Back to top ###############################
 back_to_top:
