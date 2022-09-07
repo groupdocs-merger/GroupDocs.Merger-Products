@@ -46,9 +46,6 @@
   },
   "more_formats": {
     "title": "Swap Pages of Other File Formats",
-    "content": "{{ProductName}} documents merger & split API for file formats and images. Swap some of the popular file formats as stated below.",
-    "do": "Swap",
-    "files": "Pages",
-    "in": "In"
+    "content": "{{ProductName}} documents merger & split API for file formats and images. Swap some of the popular file formats as stated below."
   }
 }

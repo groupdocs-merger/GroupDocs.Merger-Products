@@ -1,12 +1,12 @@
-// Split <% get "EXT" %> file using GroupDocs.Merger for Java API
+// <% "{steps.code.load_comment}" %>
         String filePath = "input.<% get "ext" %>";
         String filePathOut = "output.<% get "ext" %>";
         
-        // Initialize SplitOptions class with output files path format
+        // <% "{steps.code.opt_comment}" %>
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Instantiate Merger with input <% get "EXT" %> document
+        // <% "{steps.code.ini_comment}" %>
         Merger merger = new Merger(filePath);
 
-        // Call split method and pass SplitOptions object to save resultant documents
+        // <% "{steps.code.run_comment}" %>
         merger.split(splitOptions);

@@ -46,9 +46,6 @@
   },
   "more_formats": {
     "title": "Rotate Pages of Other Document Formats",
-    "content": "{{ProductName}} documents merger & split API for file formats and images. Rotate some of the popular file formats as stated below.",
-    "do": "Rotate",
-    "files": "Pages",
-    "in": "In"
+    "content": "{{ProductName}} documents merger & split API for file formats and images. Rotate some of the popular file formats as stated below."
   }
 }

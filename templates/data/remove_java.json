@@ -46,9 +46,6 @@
   },
   "more_formats": {
     "title": "Remove Pages From Other Document Formats",
-    "content": "{{ProductName}} documents merger & split API for file formats and images. Remove some of the popular file formats as stated below.",
-    "do": "Remove",
-    "files": "Pages",
-    "in": "In"
+    "content": "{{ProductName}} documents merger & split API for file formats and images. Remove some of the popular file formats as stated below."
   }
 }

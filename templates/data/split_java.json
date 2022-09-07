@@ -36,6 +36,12 @@
       "step_2": "Development Environments: {{DevEnv}}",
       "step_3": "Frameworks",
       "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Split {{EXT}} file using GroupDocs.Merger for Java API",
+      "opt_comment": "Initialize SplitOptions class with output files path format",
+      "ini_comment": "Instantiate Merger with input {{EXT}} document",
+      "run_comment": "Call split method and pass SplitOptions object to save resultant documents"
     }
   },
   "demos": {
@@ -45,9 +51,6 @@
   },
   "more_formats": {
     "title": "Split File of Other Formats",
-    "content": "{{ProductName}} documents merger & split API for file formats and images. Split some of the popular file formats as stated below.",
-    "do": "Split",
-    "files": "File",
-    "in": "In"
+    "content": "{{ProductName}} documents merger & split API for file formats and images. Split some of the popular file formats as stated below."
   }
 }

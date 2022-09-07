@@ -1,13 +1,13 @@
-// Split <% get "EXT" %> file using GroupDocs.Merger API
+// <% "{steps.code.load_comment}" %>
         string filePath = "input.<% get "ext" %>";
         string filePathOut = "output.<% get "ext" %>";
 
-        // Initialize SplitOptions class with output files path format
+        // <% "{steps.code.opt_comment}" %>
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Instantiate Merger with input <% get "EXT" %> document
+        // <% "{steps.code.ini_comment}" %>
         using (Merger merger = new Merger(filePath))
           {
-            // Call Split method and pass SplitOptions object to save resultant documents
+            // <% "{steps.code.run_comment}" %>
             merger.Split(splitOptions);
           }

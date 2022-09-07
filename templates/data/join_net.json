@@ -45,9 +45,6 @@
   },
   "more_formats": {
     "title": "Joining Other Document Formats",
-    "content": "{{ProductName}} documents merger API for file formats and images. Join together some of the popular document formats as stated below.",
-    "do": "Join",
-    "files": "Files",
-    "in": "In"
+    "content": "{{ProductName}} documents merger API for file formats and images. Join together some of the popular document formats as stated below."
   }
 }

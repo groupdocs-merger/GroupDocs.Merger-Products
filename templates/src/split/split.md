@@ -119,9 +119,6 @@ more_formats:
     title: "<% "{more_formats.title}" %>"
     content: |
         <% "{more_formats.content}" %>
-    desc_do: "<% "{more_formats.do}" %>"
-    desc_files: "<% "{more_formats.files}" %>"
-    desc_in: "<% "{more_formats.in}" %>"
 
 ############################# Back to top ###############################
 back_to_top:
