@@ -1,10 +1,10 @@
-// Combine <% get "EXT" %> files using GroupDocs.Merger API
-        // Instantiate Merger with input <% get "EXT" %> document
+// <% "{steps.code.load_comment}" %>
+        // <% "{steps.code.ini_comment}" %>
         using (Merger merger = new Merger("input1.<% get "ext" %>"))
           {
-            // Call Join method of Merger class instance and pass second source document path
+            // <% "{steps.code.run_comment}" %>
             merger.Join("input2.<% get "ext" %>");
     
-            // Call Save method of Merger class instance to save merged document
+            // <% "{steps.code.save_comment}" %>
             merger.Save("merged-file.<% get "ext" %>");
           }

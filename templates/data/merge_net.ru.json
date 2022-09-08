@@ -37,6 +37,7 @@
       "step_3": "Фреймворки",
       "step_4": "Загрузите последнюю версию {{ProductFullName}} из [{{RepoName}}]({{RepoUrl}})"
     },
+    "title_code": "Как объединить файлы {{EXT}}, используя пример кода {{ProgLang}}",
     "code": {
       "load_comment": "Объединить {{EXT}} файлов с помощью API GroupDocs.Merger",
       "ini_comment": "Создать экземпляр слияния с входным документом {{EXT}}",

@@ -36,6 +36,12 @@
       "step_2": "Development Environments: {{DevEnv}}",
       "step_3": "Frameworks",
       "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Join {{EXT}} files using GroupDocs.Merger for Java API",
+      "ini_comment": "Instantiate Merger with input {{EXT}} document",
+      "run_comment": "Call join method of Merger class instance and pass second source document path",
+      "save_comment": "Call save method of Merger class instance to save merged document"
     }
   },
   "demos": {
