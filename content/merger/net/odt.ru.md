@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-07T16:24:37
+date: 2022-09-08T11:04:15
 draft: false
 otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png err
 
@@ -84,6 +84,9 @@ steps:
         * Загрузите последнюю версию GroupDocs.Merger for .NET из [NuGet](https://www.nuget.org/packages/groupdocs.merger)
          
     code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Как объединить файлы ODT, используя пример кода C#">}}
+
         ```csharp    
         // Объединить ODT файлов с помощью API GroupDocs.Merger
         // Создать экземпляр слияния с входным документом ODT
@@ -96,7 +99,7 @@ steps:
             merger.Save("merged-file.odt");
           }
         ```
-
+     {{< /merger/code-merger >}}
 ############################# Demos ############################
 demos:
     enable: true
