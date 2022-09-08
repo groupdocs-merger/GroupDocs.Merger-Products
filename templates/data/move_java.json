@@ -37,6 +37,14 @@
       "step_2": "Development Environments: {{DevEnv}}",
       "step_3": "Frameworks",
       "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "How to move {{EXT}} file pages using {{ProgLang}} example code",
+    "code": {
+      "load_comment": "Move {{EXT}} file pages using GroupDocs.Merger API",
+      "opt_comment": "Initialize MoveOptions class to specify current and new page numbers",
+      "ini_comment": "Instantiate Merger with input {{EXT}} document",
+      "run_comment": "Call movePage method and pass MoveOptions object to it",
+      "save_comment": "Call save method and pass desired file path to save the output document"
     }
   },
   "demos": {

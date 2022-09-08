@@ -98,9 +98,13 @@ steps:
         * <% "{steps.content_right.step_4}" %>
          
     code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="<% "{steps.title_code}" %>">}}
+
         ```<% dict "products.{product}.syntax" %>    
         <% include "_example_{product}.md" %>
         ```
+     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:

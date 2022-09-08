@@ -1,16 +1,16 @@
-// Move <% get "EXT" %> file pages using GroupDocs.Merger API
+// <% "{steps.code.load_comment}" %>
         int pageNumber = 6;
         int newPageNumber = 1;
 
-        // Initialize MoveOptions class to specify current and new page numbers
+        // <% "{steps.code.opt_comment}" %>
         MoveOptions moveOptions = new MoveOptions(pageNumber, newPageNumber);
 
-        // Instantiate Merger with input <% get "EXT" %> document
+        // <% "{steps.code.ini_comment}" %>
         using (Merger merger = new Merger("input.<% get "ext" %>"))
           {
-            // Call MovePage method and pass MoveOptions object to it
+            // <% "{steps.code.run_comment}" %>
             merger.MovePage(moveOptions);
     
-            // Call Save method and pass desired file path to save the output document
+            // <% "{steps.code.save_comment}" %>
             merger.Save("output.<% get "ext" %>");
           }

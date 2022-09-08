@@ -37,6 +37,14 @@
       "step_2": "Development Environments: {{DevEnv}}",
       "step_3": "Frameworks",
       "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "How to extract {{EXT}} file pages using {{ProgLang}} example code",
+    "code": {
+      "load_comment": "Extract {{EXT}} file pages using GroupDocs.Merger API",
+      "opt_comment": "Initialize ExtractOptions class with selected page numbers",
+      "ini_comment": "Instantiate Merger with input {{EXT}} document",
+      "run_comment": "Call ExtractPages method and pass ExtractOptions object to it",
+      "save_comment": "Call Save method to save the output document with extracted pages"
     }
   },
   "demos": {

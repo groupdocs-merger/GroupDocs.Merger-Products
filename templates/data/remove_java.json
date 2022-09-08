@@ -37,6 +37,14 @@
       "step_2": "Development Environments: {{DevEnv}}",
       "step_3": "Frameworks",
       "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "How to remove {{EXT}} file pages using {{ProgLang}} example code",
+    "code": {
+      "load_comment": "Remove {{EXT}} file pages using GroupDocs.Merger API",
+      "opt_comment": "Initialize RemoveOptions class with selected page numbers",
+      "ini_comment": "Instantiate Merger with input {{EXT}} document",
+      "run_comment": "Call removePages method and pass RemoveOptions object to it",
+      "save_comment": "Call save method and pass desired file path to save the output document"
     }
   },
   "demos": {

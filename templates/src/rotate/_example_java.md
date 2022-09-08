@@ -1,12 +1,12 @@
-// Rotate <% get "EXT" %> file pages using GroupDocs.Merger for Java API
-        // Initialize RotateOptions class to specify rotation angle and page numbers to rotate
+// <% "{steps.code.load_comment}" %>
+        // <% "{steps.code.opt_comment}" %>
         RotateOptions rotateOptions = new RotateOptions(RotateMode.Rotate180, new int[] { 2, 3 });
 
-        // Instantiate Merger with input <% get "EXT" %> document
+        // <% "{steps.code.ini_comment}" %>
         Merger merger = new Merger("input.<% get "ext" %>");
 
-        // Call rotatePages method and pass rotateOptions object to it
+        // <% "{steps.code.run_comment}" %>
         merger.rotatePages(rotateOptions);
     
-        // Call save method and pass desired file path to save the output document
+        // <% "{steps.code.save_comment}" %>
         merger.save("output.<% get "ext" %>");

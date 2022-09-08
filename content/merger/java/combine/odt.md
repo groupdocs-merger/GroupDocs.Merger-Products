@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-07T09:53:49
+date: 2022-09-08T17:46:34
 draft: false
 otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png err
 
@@ -10,8 +10,8 @@ head_title: "Combine ODT Files via Java & J2SE Documents Merger API"
 head_description: "Combine multiple ODT files in Java using documents merger API with all data, style and formatting as the source documents."
 
 ############################# Header ############################
-title: "Combine ODT Files For java"
-description: "Combine ODT in a browser."
+title: "Combine ODT Files In Java"
+description: "Combine ODT with a few lines of Java code."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -84,17 +84,21 @@ steps:
         * Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
          
     code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="How to combine ODT files using Java example code">}}
+
         ```java    
         // Combine ODT files using GroupDocs.Merger for Java API
         // Instantiate Merger with input ODT document
         Merger merger = new Merger("input_1.odt");
 
-        // Call Join method of Merger class instance and pass second source document path
+        // Call join method of Merger class instance and pass second source document path
         merger.join("input_2.odt");
     
-        // Call Save method of Merger class instance to save merged document
+        // Call save method of Merger class instance to save merged document
         merger.save("merged-file.odt"); 
         ```
+     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:
@@ -114,9 +118,6 @@ more_formats:
     title: "Merging Other Document Formats"
     content: |
         Java documents merger API for file formats and images. Combine together some of the popular document formats as stated below.
-    desc_do: "Combine"
-    desc_files: "Files"
-    desc_in: "in"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -37,6 +37,7 @@
       "step_3": "Frameworks",
       "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
     },
+    "title_code": "How to split {{EXT}} file using {{ProgLang}} example code",
     "code": {
       "load_comment": "Split {{EXT}} file using GroupDocs.Merger for Java API",
       "opt_comment": "Initialize SplitOptions class with output files path format",

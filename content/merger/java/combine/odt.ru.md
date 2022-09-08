@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-07T09:53:49
+date: 2022-09-08T17:46:34
 draft: false
 otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png err
 
@@ -10,8 +10,8 @@ head_title: "Объедините ODT файлов с помощью Java и J2S
 head_description: "Объедините несколько файлов ODT в Java, используя API слияния документов со всеми данными, стилем и форматированием в качестве исходных документов."
 
 ############################# Header ############################
-title: "Объединить ODT файлов для java"
-description: "Объедините ODT в браузере."
+title: "Объединить ODT файлов в Java"
+description: "Объедините ODT с несколькими строками кода Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -84,17 +84,21 @@ steps:
         * Загрузите последнюю версию GroupDocs.Merger for Java из [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
          
     code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Как объединить файлы ODT, используя пример кода Java">}}
+
         ```java    
-        // Combine ODT files using GroupDocs.Merger for Java API
-        // Instantiate Merger with input ODT document
+        // Объедините ODT файлов с помощью GroupDocs.Merge for Java API
+        // Создать экземпляр слияния с входным документом ODT
         Merger merger = new Merger("input_1.odt");
 
-        // Call Join method of Merger class instance and pass second source document path
+        // Вызовите метод соединения экземпляра класса Merger и передайте второй путь к исходному документу
         merger.join("input_2.odt");
     
-        // Call Save method of Merger class instance to save merged document
+        // Вызовите метод сохранения экземпляра класса Merger для сохранения объединенного документа
         merger.save("merged-file.odt"); 
         ```
+     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:
@@ -114,9 +118,6 @@ more_formats:
     title: "Объединение других форматов документов"
     content: |
         API слияния документов Java для форматов файлов и изображений. Объедините несколько популярных форматов документов, как указано ниже.
-    desc_do: "Объединить"
-    desc_files: "Файлы"
-    desc_in: "в"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -1,15 +1,15 @@
-// Swap <% get "EXT" %> file pages using GroupDocs.Merger for Java API
+// <% "{steps.code.load_comment}" %>
         int pageNumber1 = 6;
         int pageNumber2 = 1;
 
-        // Initialize SwapOptions class to specify page numbers to swap
+        // <% "{steps.code.opt_comment}" %>
         SwapOptions swapOptions = new SwapOptions(pageNumber2, pageNumber1);
 
-        // Instantiate Merger with input <% get "EXT" %> document
+        // <% "{steps.code.ini_comment}" %>
         Merger merger = new Merger("input.<% get "ext" %>");
 
-        // Call swapPages method and pass swapOptions object to it
+        // <% "{steps.code.run_comment}" %>
         merger.swapPages(swapOptions);
     
-        // Call save method and pass desired file path to save the output document
+        // <% "{steps.code.save_comment}" %>
         merger.save("output.<% get "ext" %>");

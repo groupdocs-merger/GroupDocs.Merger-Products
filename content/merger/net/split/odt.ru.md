@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-07T16:24:40
+date: 2022-09-08T17:46:44
 draft: false
 otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png err
 
@@ -84,6 +84,9 @@ steps:
         * Загрузите последнюю версию GroupDocs.Merger for .NET из [NuGet](https://www.nuget.org/packages/groupdocs.merger)
          
     code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Как разделить файлы ODT, используя пример кода C#">}}
+
         ```csharp    
         // Разделить файл ODT с помощью API GroupDocs.Merge
         string filePath = "input.odt";
@@ -99,6 +102,7 @@ steps:
             merger.Split(splitOptions);
           }
         ```
+     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:

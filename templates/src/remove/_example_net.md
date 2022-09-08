@@ -1,13 +1,13 @@
-// Remove <% get "EXT" %> file pages using GroupDocs.Merger API
-        // Initialize RemoveOptions class with selected page numbers
+// <% "{steps.code.load_comment}" %>
+        // <% "{steps.code.opt_comment}" %>
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 6 });
 
-        // Instantiate Merger with input <% get "EXT" %> document
+        // <% "{steps.code.ini_comment}" %>
         using (Merger merger = new Merger("input.<% get "ext" %>"))
           {
-            // Call RemovePages method and pass RemoveOptions object to it
+            // <% "{steps.code.run_comment}" %>
             merger.RemovePages(removeOptions);
     
-            // Call Save method to save the output document with removed pages
+            // <% "{steps.code.save_comment}" %>
             merger.Save("output.<% get "ext" %>");
           }

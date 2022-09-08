@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-07T09:58:07
+date: 2022-09-08T17:46:35
 draft: false
 otherformats: doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps
 
@@ -10,8 +10,8 @@ head_title: "Extract ODT Pages in C#"
 head_description: "Quickly extract pages from a ODT file in C#. Save the new document containing the selected pages using the documents merger API."
 
 ############################# Header ############################
-title: "Extract ODT Pages For net"
-description: "Extract ODT Pages in a browser."
+title: "Extract ODT Pages In C#"
+description: "Extract ODT Pages with a few lines of .NET code."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -85,6 +85,9 @@ steps:
         * Download the latest version of GroupDocs.Merger for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.merger)
          
     code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="How to extract ODT file pages using C# example code">}}
+
         ```csharp    
         // Extract ODT file pages using GroupDocs.Merger API
         // Initialize ExtractOptions class with selected page numbers
@@ -100,6 +103,7 @@ steps:
             merger.Save("output.odt");
           }
         ```
+     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:
@@ -119,9 +123,6 @@ more_formats:
     title: "Extract Pages From Other Document Formats"
     content: |
         .NET documents merger & split API for file formats and images. Extract some of the popular file formats as stated below.
-    desc_do: "Extract"
-    desc_files: "Pages"
-    desc_in: "in"
 
 ############################# Back to top ###############################
 back_to_top:

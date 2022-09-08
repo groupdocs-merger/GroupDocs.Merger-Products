@@ -37,6 +37,14 @@
       "step_2": "Development Environments: {{DevEnv}}",
       "step_3": "Frameworks",
       "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "How to swap {{EXT}} file pages using {{ProgLang}} example code",
+    "code": {
+      "load_comment": "Swap {{EXT}} file pages using GroupDocs.Merger API",
+      "opt_comment": "Initialize SwapOptions class to specify page numbers to swap",
+      "ini_comment": "Instantiate Merger with input {{EXT}} document",
+      "run_comment": "Call SwapPages method and pass SwapOptions object to it",
+      "save_comment": "Call Save method and pass desired file path to save the output document"
     }
   },
   "demos": {

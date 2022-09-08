@@ -37,6 +37,14 @@
       "step_2": "Development Environments: {{DevEnv}}",
       "step_3": "Frameworks",
       "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "How to rotate {{EXT}} file pages using {{ProgLang}} example code",
+    "code": {
+      "load_comment": "Rotate {{EXT}} file pages using GroupDocs.Merger API",
+      "opt_comment": "Initialize RotateOptions class to specify rotation angle and page numbers to rotate",
+      "ini_comment": "Instantiate Merger with input {{EXT}} document",
+      "run_comment": "Call rotatePages method and pass RotateOptions object to it",
+      "save_comment": "Call save method and pass desired file path to save the output document"
     }
   },
   "demos": {

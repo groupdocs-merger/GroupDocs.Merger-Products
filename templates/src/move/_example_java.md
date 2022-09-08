@@ -1,15 +1,15 @@
-// Move <% get "EXT" %> file pages using GroupDocs.Merger for Java API
+// <% "{steps.code.load_comment}" %>
         int pageNumber = 6;
         int newPageNumber = 1;
 
-        // Initialize MoveOptions class to specify current and new page numbers
+        // <% "{steps.code.opt_comment}" %>
         MoveOptions moveOptions = new MoveOptions(pageNumber, newPageNumber);
 
-        // Instantiate Merger with input <% get "EXT" %> document
+        // <% "{steps.code.ini_comment}" %>
         Merger merger = new Merger("input.<% get "ext" %>");
 
-        // Call movePage method and pass moveOptions object to it
+        // <% "{steps.code.run_comment}" %>
         merger.movePage(moveOptions);
     
-        // Call save and pass desired file path to save the output document
+        // <% "{steps.code.save_comment}" %>
         merger.save("output.<% get "ext" %>");

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-07T09:53:49
+date: 2022-09-08T17:46:34
 draft: false
 otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png err
 
@@ -10,8 +10,8 @@ head_title: "Объединить ODT файлов в C# | ODT Слияние"
 head_description: "Объедините несколько файлов ODT в один файл с помощью C# .NET API объединения документов. Объединяйте определенные страницы или диапазоны страниц из разных документов в один документ."
 
 ############################# Header ############################
-title: "Объединить ODT файлов для net"
-description: "Объедините ODT в браузере."
+title: "Объединить ODT файлов в C#"
+description: "Объедините ODT с несколькими строками кода .NET."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -84,18 +84,22 @@ steps:
         * Загрузите последнюю версию GroupDocs.Merger for .NET из [NuGet](https://www.nuget.org/packages/groupdocs.merger)
          
     code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Как объединить файлы ODT, используя пример кода C#">}}
+
         ```csharp    
-        // Combine ODT files using GroupDocs.Merger API
-        // Instantiate Merger with input ODT document
+        // Объедините ODT файлов с помощью API GroupDocs.Merger
+        // Создать экземпляр слияния с входным документом ODT
         using (Merger merger = new Merger("input1.odt"))
           {
-            // Call Join method of Merger class instance and pass second source document path
+            // Вызовите метод Join экземпляра класса Merger и передайте второй путь к исходному документу
             merger.Join("input2.odt");
     
-            // Call Save method of Merger class instance to save merged document
+            // Вызовите метод Save экземпляра класса Merger, чтобы сохранить объединенный документ
             merger.Save("merged-file.odt");
           }
         ```
+     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:
@@ -115,9 +119,6 @@ more_formats:
     title: "Объединение других форматов документов"
     content: |
         API слияния документов .NET для форматов файлов и изображений. Объедините несколько популярных форматов документов, как указано ниже.
-    desc_do: "Объединить"
-    desc_files: "Файлы"
-    desc_in: "в"
 
 ############################# Back to top ###############################
 back_to_top:

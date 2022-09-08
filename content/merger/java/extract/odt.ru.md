@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-07T09:58:08
+date: 2022-09-08T17:46:35
 draft: false
 otherformats: doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps
 
@@ -10,8 +10,8 @@ head_title: "Извлечь ODT страниц в Java"
 head_description: "Быстрое извлечение страниц из файла ODT в Java. Сохраните новый документ, содержащий выбранные страницы, с помощью API слияния документов."
 
 ############################# Header ############################
-title: "Извлечь ODT страниц для java"
-description: "Извлеките ODT страниц в браузере."
+title: "Извлечь ODT страниц в Java"
+description: "Извлеките ODT страниц с помощью нескольких строк кода Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -85,20 +85,24 @@ steps:
         * Загрузите последнюю версию GroupDocs.Merger for Java из [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
          
     code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Как извлечь ODT файловых страниц, используя пример кода Java">}}
+
         ```java    
-        // Extract ODT file pages using GroupDocs.Merger for Java API
-        // Initialize ExtractOptions class with selected page numbers
+        // Извлеките ODT файловых страниц с помощью API GroupDocs.Merge
+        // Инициализировать класс ExtractOptions с выбранными номерами страниц
         ExtractOptions extractOptions = new ExtractOptions(new int[] { 2, 5 });
 
-        // Instantiate Merger with input ODT document
+        // Создать экземпляр слияния с входным документом ODT
         Merger merger = new Merger("input.odt");
 
-        // Call extractPages method and pass extractOptions object to it
+        // Вызвать метод extractPages и передать ему объект ExtractOptions
         merger.extractPages(extractOptions);
     
-        // Call save method to save the output document with extracted pages
+        // Вызовите метод сохранения, чтобы сохранить выходной документ с извлеченными страницами.
         merger.save("output.odt");
         ```
+     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:
@@ -118,9 +122,6 @@ more_formats:
     title: "Извлечение страниц из других форматов документов"
     content: |
         Java API слияния и разделения документов для форматов файлов и изображений. Извлеките некоторые из популярных форматов файлов, как указано ниже.
-    desc_do: "Извлекать"
-    desc_files: "Страницы"
-    desc_in: "в"
 
 ############################# Back to top ###############################
 back_to_top:

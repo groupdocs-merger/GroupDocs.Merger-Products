@@ -37,6 +37,7 @@
       "step_3": "Frameworks",
       "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
     },
+    "title_code": "How to combine {{EXT}} files using {{ProgLang}} example code",
     "code": {
       "load_comment": "Combine {{EXT}} files using GroupDocs.Merger for Java API",
       "ini_comment": "Instantiate Merger with input {{EXT}} document",

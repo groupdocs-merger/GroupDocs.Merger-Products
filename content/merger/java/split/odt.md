@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-07T16:24:40
+date: 2022-09-08T17:46:44
 draft: false
 otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex tsv txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps bmp jpg jpeg png err
 
@@ -84,6 +84,9 @@ steps:
         * Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
          
     code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="How to split ODT file using Java example code">}}
+
         ```java    
         // Split ODT file using GroupDocs.Merger for Java API
         String filePath = "input.odt";
@@ -98,6 +101,7 @@ steps:
         // Call split method and pass SplitOptions object to save resultant documents
         merger.split(splitOptions);
         ```
+     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:

@@ -37,6 +37,7 @@
       "step_3": "Фреймворки",
       "step_4": "Загрузите последнюю версию {{ProductFullName}} из [{{RepoName}}]({{RepoUrl}})"
     },
+    "title_code": "Как разделить файл {{EXT}}, используя пример кода {{ProgLang}}",
     "code": {
       "load_comment": "Разделить {{EXT}} файл с помощью GroupDocs.Merge for Java API",
       "opt_comment": "Инициализировать класс SplitOptions с форматом пути к выходным файлам",

@@ -37,6 +37,7 @@
       "step_3": "Фреймворки",
       "step_4": "Загрузите последнюю версию {{ProductFullName}} из [{{RepoName}}]({{RepoUrl}})"
     },
+    "title_code": "Как разделить файлы {{EXT}}, используя пример кода {{ProgLang}}",
     "code": {
       "load_comment": "Разделить файл {{EXT}} с помощью API GroupDocs.Merge",
       "opt_comment": "Инициализировать класс SplitOptions с форматом пути к выходным файлам",

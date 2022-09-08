@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-07T09:58:07
+date: 2022-09-08T17:46:35
 draft: false
 otherformats: doc docm docx dot dotm dotx epub html mht mhtml odp ods one otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps
 
@@ -10,8 +10,8 @@ head_title: "Извлечь ODT страниц в C#"
 head_description: "Быстрое извлечение страниц из файла ODT в C#. Сохраните новый документ, содержащий выбранные страницы, с помощью API слияния документов."
 
 ############################# Header ############################
-title: "Извлечь ODT страниц для net"
-description: "Извлеките ODT страниц в браузере."
+title: "Извлечь ODT страниц в C#"
+description: "Извлеките ODT страниц с помощью нескольких строк кода .NET."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -85,21 +85,25 @@ steps:
         * Загрузите последнюю версию GroupDocs.Merger for .NET из [NuGet](https://www.nuget.org/packages/groupdocs.merger)
          
     code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Как извлечь ODT файловых страниц, используя пример кода C#">}}
+
         ```csharp    
-        // Extract ODT file pages using GroupDocs.Merger API
-        // Initialize ExtractOptions class with selected page numbers
+        // Извлеките ODT файловых страниц с помощью API GroupDocs.Merge
+        // Инициализировать класс ExtractOptions с выбранными номерами страниц
         ExtractOptions extractOptions = new ExtractOptions(new int[] { 2, 5 });
 
-        // Instantiate Merger with input ODT document
+        // Создать экземпляр слияния с входным документом ODT
         using (Merger merger = new Merger("input.odt"))
           {
-            // Call ExtractPages method and pass ExtractOptions object to it
+            // Вызвать метод ExtractPages и передать ему объект ExtractOptions
             merger.ExtractPages(extractOptions);
     
-            // Call Save method to save the output document with extracted pages
+            // Вызовите метод Save, чтобы сохранить выходной документ с извлеченными страницами.
             merger.Save("output.odt");
           }
         ```
+     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:
@@ -119,9 +123,6 @@ more_formats:
     title: "Извлечение страниц из других форматов документов"
     content: |
         .NET API слияния и разделения документов для форматов файлов и изображений. Извлеките некоторые из популярных форматов файлов, как указано ниже.
-    desc_do: "Извлекать"
-    desc_files: "Страницы"
-    desc_in: "в"
 
 ############################# Back to top ###############################
 back_to_top:

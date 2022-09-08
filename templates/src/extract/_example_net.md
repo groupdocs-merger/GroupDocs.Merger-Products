@@ -1,13 +1,13 @@
-// Extract <% get "EXT" %> file pages using GroupDocs.Merger API
-        // Initialize ExtractOptions class with selected page numbers
+// <% "{steps.code.load_comment}" %>
+        // <% "{steps.code.opt_comment}" %>
         ExtractOptions extractOptions = new ExtractOptions(new int[] { 2, 5 });
 
-        // Instantiate Merger with input <% get "EXT" %> document
+        // <% "{steps.code.ini_comment}" %>
         using (Merger merger = new Merger("input.<% get "ext" %>"))
           {
-            // Call ExtractPages method and pass ExtractOptions object to it
+            // <% "{steps.code.run_comment}" %>
             merger.ExtractPages(extractOptions);
     
-            // Call Save method to save the output document with extracted pages
+            // <% "{steps.code.save_comment}" %>
             merger.Save("output.<% get "ext" %>");
           }

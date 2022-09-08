@@ -1,12 +1,12 @@
-// Extract <% get "EXT" %> file pages using GroupDocs.Merger for Java API
-        // Initialize ExtractOptions class with selected page numbers
+// <% "{steps.code.load_comment}" %>
+        // <% "{steps.code.opt_comment}" %>
         ExtractOptions extractOptions = new ExtractOptions(new int[] { 2, 5 });
 
-        // Instantiate Merger with input <% get "EXT" %> document
+        // <% "{steps.code.ini_comment}" %>
         Merger merger = new Merger("input.<% get "ext" %>");
 
-        // Call extractPages method and pass extractOptions object to it
+        // <% "{steps.code.run_comment}" %>
         merger.extractPages(extractOptions);
     
-        // Call save method to save the output document with extracted pages
+        // <% "{steps.code.save_comment}" %>
         merger.save("output.<% get "ext" %>");
