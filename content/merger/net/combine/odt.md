@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-13T12:51:25
+date: 2022-09-13T13:05:00
 draft: false
 otherformats: otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx
 
@@ -61,7 +61,7 @@ about:
     content: |
         [GroupDocs.Merger for .NET](/merger/net/) provides a convenient solution to combine multiple PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many other documents into a single file within .NET applications. GroupDocs.Merger will save you a lot of effort, as you are allowed to combine ODT documents - there is no need to install any third-party software, desktop applications or plugins. Now it is unnecessary to waste your time and combine files manually! GroupDocs mission is to provide the best quality and simplify document-processing workflows.
         
-        GroupDocs.Merger APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono.
+        GroupDocs.Merger API is a right choice for corporate solutions which needs file combining features. These APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono.
 
 ############################# Steps ############################
 steps:
