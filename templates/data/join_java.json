@@ -18,7 +18,7 @@
   },
   "about": {
     "title": "About {{ProductFullName}} API",
-    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) provides a convenient solution to join multiple Microsoft Word, Excel, PowerPoint, PDF, Visio and other documents into a single file within {{ProductName}} applications. GroupDocs.Merger will save you a lot of effort, as you are allowed to join word documents - there is no need to install any third-party software, desktop applications or plugins. Now it is unnecessary to waste your time and join files manually! GroupDocs mission is to provide the best quality and simplify document-processing workflows.",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) provides a convenient solution to join multiple Microsoft Word, Excel, PowerPoint, PDF, Visio and other documents into a single file within {{ProductName}} applications. GroupDocs.Merger will save you a lot of effort, as you are allowed to join {{EXT}} documents - there is no need to install any third-party software, desktop applications or plugins. Now it is unnecessary to waste your time and join files manually! GroupDocs mission is to provide the best quality and simplify document-processing workflows.",
     "h2": "GroupDocs.Merger APIs are well supported on all major operating systems and Java versions including {{Runtime}}."
   },
   "steps": {

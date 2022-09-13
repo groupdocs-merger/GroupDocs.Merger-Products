@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-13T12:37:14
+date: 2022-09-13T12:46:10
 draft: false
 otherformats: otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx
 
@@ -59,7 +59,7 @@ about:
     enable: true
     title: "About GroupDocs.Merger for Java API"
     content: |
-        [GroupDocs.Merger for Java](/merger/java/) provides a convenient solution to combine multiple Microsoft Word, Excel, PowerPoint, PDF, Visio and other documents into a single file within Java applications. GroupDocs.Merger will save you a lot of effort, as you are allowed to combine word documents - there is no need to install any third-party software, desktop applications or plugins. Now it is unnecessary to waste your time and combine files manually! GroupDocs mission is to provide the best quality and simplify document-processing workflows.
+        [GroupDocs.Merger for Java](/merger/java/) provides a convenient solution to combine multiple Microsoft Word, Excel, PowerPoint, PDF, Visio and other documents into a single file within Java applications. GroupDocs.Merger will save you a lot of effort, as you are allowed to combine ODT documents - there is no need to install any third-party software, desktop applications or plugins. Now it is unnecessary to waste your time and combine files manually! GroupDocs mission is to provide the best quality and simplify document-processing workflows.
         
         GroupDocs.Merger APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10.
 
