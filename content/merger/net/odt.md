@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-13T11:37:54
+date: 2022-09-13T12:37:17
 draft: false
 otherformats: otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx
 
@@ -59,7 +59,7 @@ about:
     enable: true
     title: "About GroupDocs.Merger for .NET API"
     content: |
-        [GroupDocs.Merger for .NET](/merger/net/) offers a simple solution to safely join & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        [GroupDocs.Merger for .NET](/merger/net/) provides a convenient solution to merge multiple Microsoft Word, Excel, PowerPoint, PDF, Visio and other documents into a single file within .NET applications. GroupDocs.Merger will save you a lot of effort, as you are allowed to merge word documents - there is no need to install any third-party software, desktop applications or plugins. Now it is unnecessary to waste your time and merge files manually! GroupDocs mission is to provide the best quality and simplify document-processing workflows.
         
         GroupDocs.Merger APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono.
 
