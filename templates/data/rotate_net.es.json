@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Girar {{EXT}} páginas en {{ProgLang}}: girar en ángulo de 90, 180, 270",
+    "description": "Gire páginas de documentos específicas o todas de un archivo {{EXT}} en un ángulo de rotación de 90, 180, 270 usando la API de fusión de documentos."
+  },
+  "header": {
+    "title": "Rotar {{EXT}} páginas en {{ProgLang}}",
+    "description": "Gire {{EXT}} páginas con unas pocas líneas de código {{ProductName}}.",
+    "button_label": "Descargue prueba gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referencia de la API",
+      "button_text_2": "Ejemplos de código",
+      "button_text_3": "demostraciones en vivo",
+      "button_text_4": "Precios"
+    }
+  },
+  "about": {
+    "title": "Acerca de la API de {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ofrece una solución simple para fusionar y dividir de forma segura entre una amplia gama de formatos de documentos, incluidos PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, imágenes y muchos otros dentro de las aplicaciones de {{ProductName}}. Al agregar solo unas pocas líneas del código, realice varias operaciones de documentos, como mover, eliminar, rotar, intercambiar, extraer o cambiar la orientación de las páginas dentro de los documentos. La API de combinación de documentos también admite la vista previa de páginas de documentos como una imagen para analizar la estructura, el formato y el contenido del documento en la página.",
+    "h2": "GroupDocs.Merger API es una opción correcta para soluciones corporativas que necesitan funciones de rotación de páginas de archivos. Estas API son compatibles con todos los principales sistemas operativos y plataformas, incluido {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Rotar {{EXT}} páginas de archivo en {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) facilita a los desarrolladores de {{ProgLang}} rotar algunas páginas específicas o todas dentro de un archivo {{EXT}} en 90 , 180 o 270 ángulo de rotación mediante la implementación de unos sencillos pasos.",
+      "step_1": "Inicialice **RotateOptions** con el ángulo de rotación deseado y los números de página.",
+      "step_2": "Cree una nueva instancia de **Merger** y pase la ruta del documento de origen como parámetro del constructor.",
+      "step_3": "Llame a **RotatePages** y pase el objeto **RotateOptions**.",
+      "step_4": "Llame a **Guardar** y especifique la ruta del archivo para guardar el documento resultante."
+    },
+    "title_right": "Requisitos del sistema",
+    "content_right": {
+      "description": "Las API de {{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
+      "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Entornos de desarrollo: {{DevEnv}}",
+      "step_3": "Marcos",
+      "step_4": "Descarga la última versión de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cómo rotar las páginas del archivo {{EXT}} usando el código de ejemplo {{ProgLang}}",
+    "code": {
+      "load_comment": "Rotar {{EXT}} páginas de archivos usando GroupDocs.Merger API",
+      "opt_comment": "Inicialice la clase RotateOptions para especificar el ángulo de rotación y los números de página para rotar",
+      "ini_comment": "Crear una instancia de Fusión con el documento de entrada {{EXT}}",
+      "run_comment": "Llame al método RotatePages y pásele el objeto RotateOptions",
+      "save_comment": "Llame al método Guardar y pase la ruta de archivo deseada para guardar el documento de salida"
+    }
+  },
+  "demos": {
+    "title": "Demostraciones en vivo - Rotar {{EXT}} páginas de archivos en línea",
+    "h1": "Gire las páginas de archivos {{EXT}} ahora mismo visitando el sitio web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/{{ext}}).",
+    "h2": "La demostración en vivo tiene los siguientes beneficios."
+  },
+  "more_formats": {
+    "title": "Rotar páginas de otros formatos de documentos",
+    "content": "{{ProductName}} fusión de documentos y API dividida para formatos de archivo e imágenes. Gire algunos de los formatos de archivo populares como se indica a continuación."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Fusionner {{EXT}} fichiers via l'API de fusion de documents Java et J2SE",
+    "description": "Fusionnez plusieurs fichiers {{EXT}} en Java à l'aide de l'API de fusion de documents avec toutes les données, le style et la mise en forme en tant que documents source."
+  },
+  "header": {
+    "title": "{{EXT}} Fusionner dans {{ProgLang}}",
+    "description": "Fusionnez {{EXT}} avec quelques lignes de code {{ProductName}}.",
+    "button_label": "Télécharger la version d'essai gratuite"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Référence API",
+      "button_text_2": "Exemples de codes",
+      "button_text_3": "Démos en direct",
+      "button_text_4": "Tarification"
+    }
+  },
+  "about": {
+    "title": "À propos de l'API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) fournit une solution pratique pour fusionner plusieurs PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images et de nombreux autres documents dans un seul fichier au sein des applications {{ProductName}}. GroupDocs.Merger vous fera économiser beaucoup d'efforts, car vous êtes autorisé à fusionner des documents {{EXT}} - il n'est pas nécessaire d'installer de logiciels tiers, d'applications de bureau ou de plug-ins. Désormais, inutile de perdre votre temps et de fusionner les fichiers manuellement ! La mission de GroupDocs est de fournir la meilleure qualité et de simplifier les workflows de traitement de documents.",
+    "h2": "L'API GroupDocs.Merger est un bon choix pour les solutions d'entreprise qui ont besoin de fonctionnalités de fusion de fichiers. Ces API sont bien prises en charge sur tous les principaux systèmes d'exploitation et plates-formes, y compris {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Fusionner plusieurs fichiers {{EXT}} dans {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) permet aux développeurs Java de fusionner facilement plusieurs fichiers {{EXT}} en mettant en œuvre quelques étapes simples.",
+      "step_1": "Créez une instance de **Merger** et transmettez le chemin du document source en tant que paramètre du constructeur.",
+      "step_2": "Appelez **Join** de la classe **Merger** et transmettez le deuxième chemin du document source.",
+      "step_3": "Appelez **Save** de la classe **Merger** pour enregistrer le document fusionné."
+    },
+    "title_right": "Configuration requise",
+    "content_right": {
+      "description": "Les API {{ProductFullName}} sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Cadres",
+      "step_4": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Comment fusionner des fichiers {{EXT}} à l'aide de l'exemple de code {{ProgLang}}",
+    "code": {
+      "load_comment": "Fusionner les fichiers {{EXT}} à l'aide de GroupDocs.Merger pour l'API Java",
+      "ini_comment": "Instancier la fusion avec le document d'entrée {{EXT}}",
+      "run_comment": "Appelez la méthode de jointure de l'instance de classe Merger et passez le deuxième chemin du document source",
+      "save_comment": "Appelez la méthode d'enregistrement de l'instance de classe Merger pour enregistrer le document fusionné"
+    }
+  },
+  "demos": {
+    "title": "Démos en direct - Application en ligne pour fusionner des documents",
+    "h1": "Fusionnez plusieurs fichiers {{EXT}} dès maintenant en visitant le site Web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "La démo en direct présente les avantages suivants."
+  },
+  "more_formats": {
+    "title": "Fusion d'autres formats de documents",
+    "content": "{{ProductName}} API de fusion de documents pour les formats de fichiers et les images. Fusionnez certains des formats de documents populaires comme indiqué ci-dessous."
+  }
+}

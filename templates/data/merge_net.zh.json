@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "在 {{ProgLang}} 中合并 {{EXT}} 个文件 | {{EXT}} 合并",
+    "description": "使用 {{ProgLang}} {{ProductName}} 文档合并 API 将多个 {{EXT}} 文件合并到一个文件中。将特定页面或页面范围从各种文档合并到单个文档。"
+  },
+  "header": {
+    "title": "{{EXT}} 合并到 {{ProgLang}}",
+    "description": "将 {{EXT}} 与几行 {{ProductName}} 代码合并。",
+    "button_label": "下载免费试用版"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API 参考",
+      "button_text_2": "代码示例",
+      "button_text_3": "现场演示",
+      "button_text_4": "价钱"
+    }
+  },
+  "about": {
+    "title": "关于 {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) 为合并多个 PDF、Microsoft Office（Word、Excel、PowerPoint、OneNote）、OpenDocument、HTML、图像和在 {{ProductName}} 应用程序中将许多其他文档合并到一个文件中。 GroupDocs.Merger 将为您节省大量精力，因为您可以合并 {{EXT}} 文档 - 无需安装任何第三方软件、桌面应用程序或插件。现在不必浪费时间手动合并文件了！ GroupDocs 的使命是提供最佳质量并简化文档处理工作流程。",
+    "h2": "GroupDocs.Merger API 是需要文件合并功能的企业解决方案的正确选择。这些 API 在包括 {{Runtime}} 在内的所有主要操作系统和平台上都得到了很好的支持。"
+  },
+  "steps": {
+    "title_left": "如何合并多个 {{EXT}} 文件",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) 通过实现一个几个简单的步骤。",
+      "step_1": "创建 **Merger** 的新实例并将源文档路径作为构造函数参数传递。",
+      "step_2": "调用 **Merger** 类的 **Join** 并传递第二个源文档路径。",
+      "step_3": "调用 **Merger** 类的 **Save** 来保存合并的文档。"
+    },
+    "title_right": "系统要求",
+    "content_right": {
+      "description": "所有主要平台和操作系统都支持 {{ProductFullName}} API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "构架",
+      "step_4": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    },
+    "title_code": "如何使用 {{ProgLang}} 示例代码合并 {{EXT}} 文件",
+    "code": {
+      "load_comment": "使用 GroupDocs.Merger API 合并 {{EXT}} 文件",
+      "ini_comment": "使用输入 {{EXT}} 文档实例化合并",
+      "run_comment": "调用 Merger 类实例的 Join 方法并传递第二个源文档路径",
+      "save_comment": "调用 Merger 类实例的 Save 方法保存合并文档"
+    }
+  },
+  "demos": {
+    "title": "现场演示 - 用于合并文档的在线应用程序",
+    "h1": "访问 [GroupDocs.Merger 现场演示](https://products.groupdocs.app/merger/{{ext}}) 网站，立即合并多个 {{EXT}} 文件。",
+    "h2": "现场演示具有以下好处。"
+  },
+  "more_formats": {
+    "title": "合并其他文档格式",
+    "content": "{{ProductName}} 文件格式和图像的文档合并 API。将一些流行的文档格式合并在一起，如下所述。"
+  }
+}

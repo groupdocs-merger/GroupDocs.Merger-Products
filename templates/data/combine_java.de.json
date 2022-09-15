@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Kombinieren Sie {{EXT}}-Dateien über die Java & J2SE Documents Merger API",
+    "description": "Kombinieren Sie mehrere {{EXT}}-Dateien in Java mithilfe der Dokumentenzusammenführungs-API mit allen Daten, Stilen und Formatierungen als Quelldokumente."
+  },
+  "header": {
+    "title": "Kombinieren Sie {{EXT}}-Dateien in {{ProgLang}}",
+    "description": "Kombinieren Sie {{EXT}} mit ein paar Zeilen {{ProductName}}-Code.",
+    "button_label": "Download kostenlose Testversion"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-Referenz",
+      "button_text_2": "Codebeispiele",
+      "button_text_3": "Live-Demos",
+      "button_text_4": "Preisgestaltung"
+    }
+  },
+  "about": {
+    "title": "Über die {{ProductFullName}}-API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) bietet eine bequeme Lösung zum Kombinieren mehrerer PDF-, Microsoft Office- (Word, Excel, PowerPoint, OneNote), OpenDocument-, HTML-, Bilder- und viele andere Dokumente in einer einzigen Datei innerhalb von {{ProductName}}-Anwendungen. GroupDocs.Merger erspart Ihnen viel Aufwand, da Sie {{EXT}}-Dokumente kombinieren dürfen - es ist nicht erforderlich, Software, Desktop-Anwendungen oder Plugins von Drittanbietern zu installieren. Jetzt ist es unnötig, Ihre Zeit zu verschwenden und Dateien manuell zu kombinieren! Die Mission von GroupDocs ist es, die beste Qualität bereitzustellen und die Workflows zur Dokumentenverarbeitung zu vereinfachen.",
+    "h2": "GroupDocs.Merger API ist die richtige Wahl für Unternehmenslösungen, die Funktionen zum Kombinieren von Dateien benötigen. Diese APIs werden auf allen wichtigen Betriebssystemen und Plattformen einschließlich {{Runtime}} gut unterstützt."
+  },
+  "steps": {
+    "title_left": "Kombinieren Sie mehrere {{EXT}}-Dateien in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) macht es Java-Entwicklern leicht, mehrere {{EXT}}-Dateien zu kombinieren, indem sie einige einfache Schritte implementieren.",
+      "step_1": "Erstellen Sie eine Instanz von **Merger** und übergeben Sie den Pfad des Quelldokuments als Konstruktorparameter.",
+      "step_2": "Rufen Sie **Join** der **Merger**-Klasse auf und übergeben Sie den zweiten Quelldokumentpfad.",
+      "step_3": "Rufen Sie **Save** der Klasse **Merger** auf, um das zusammengeführte Dokument zu speichern."
+    },
+    "title_right": "System Anforderungen",
+    "content_right": {
+      "description": "{{ProductFullName}}-APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Rahmen",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter"
+    },
+    "title_code": "So kombinieren Sie {{EXT}}-Dateien mit {{ProgLang}}-Beispielcode",
+    "code": {
+      "load_comment": "Kombinieren Sie {{EXT}}-Dateien mit GroupDocs.Merger for Java API",
+      "ini_comment": "Merger mit Eingabedokument {{EXT}} instanziieren",
+      "run_comment": "Rufen Sie die Join-Methode der Merger-Klasseninstanz auf und übergeben Sie den zweiten Quelldokumentpfad",
+      "save_comment": "Rufen Sie die save-Methode der Merger-Klasseninstanz auf, um das zusammengeführte Dokument zu speichern"
+    }
+  },
+  "demos": {
+    "title": "Live-Demos - Online-App zum Kombinieren von Dokumenten",
+    "h1": "Kombinieren Sie jetzt mehr als eine {{EXT}}-Datei, indem Sie die Website [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) besuchen.",
+    "h2": "Die Live-Demo hat die folgenden Vorteile."
+  },
+  "more_formats": {
+    "title": "Zusammenführen anderer Dokumentformate",
+    "content": "{{ProductName}} dokumentiert Fusions-API für Dateiformate und Bilder. Kombinieren Sie einige der gängigen Dokumentformate wie unten angegeben."
+  }
+}

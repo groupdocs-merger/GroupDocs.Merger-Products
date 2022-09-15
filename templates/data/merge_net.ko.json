@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "{{ProgLang}}에서 {{EXT}} 파일 병합 | {{EXT}} 합병",
+    "description": "{{ProgLang}} {{ProductName}} 문서 병합 API를 사용하여 여러 {{EXT}} 파일을 단일 파일로 병합합니다. 다양한 문서의 특정 페이지 또는 페이지 범위를 단일 문서로 병합합니다."
+  },
+  "header": {
+    "title": "{{EXT}} {{ProgLang}} 합병",
+    "description": "몇 줄의 {{ProductName}} 코드와 {{EXT}}를 병합합니다.",
+    "button_label": "무료 평가판 다운로드"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API 참조",
+      "button_text_2": "코드 예",
+      "button_text_3": "라이브 데모",
+      "button_text_4": "가격"
+    }
+  },
+  "about": {
+    "title": "{{ProductFullName}} API 정보",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/)는 여러 PDF, Microsoft Office(Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, 이미지 및 {{ProductName}} 애플리케이션 내에서 다른 많은 문서를 단일 파일로 만듭니다. GroupDocs.Merger를 사용하면 {{EXT}} 문서를 병합할 수 있으므로 많은 노력을 절약할 수 있습니다. 타사 소프트웨어, 데스크톱 응용 프로그램 또는 플러그인을 설치할 필요가 없습니다. 이제 시간을 낭비하고 수동으로 파일을 병합할 필요가 없습니다! GroupDocs의 사명은 최고의 품질을 제공하고 문서 처리 워크플로를 단순화하는 것입니다.",
+    "h2": "GroupDocs.Merger API는 파일 병합 기능이 필요한 기업 솔루션에 적합한 선택입니다. 이러한 API는 {{Runtime}}을 포함한 모든 주요 운영 체제 및 플랫폼에서 잘 지원됩니다."
+  },
+  "steps": {
+    "title_left": "여러 {{EXT}} 파일을 병합하는 방법",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/)를 사용하면 {{ProductName}} 개발자가 몇 가지 쉬운 단계.",
+      "step_1": "**Merger**의 새 인스턴스를 만들고 소스 문서 경로를 생성자 매개변수로 전달합니다.",
+      "step_2": "**Merger** 클래스의 **Join**을 호출하고 두 번째 소스 문서 경로를 전달합니다.",
+      "step_3": "**Merger** 클래스의 **Save**를 호출하여 병합된 문서를 저장합니다."
+    },
+    "title_right": "시스템 요구 사항",
+    "content_right": {
+      "description": "{{ProductFullName}} API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.",
+      "step_1": "운영 체제: Microsoft Windows, Linux, MacOS",
+      "step_2": "개발 환경: {{DevEnv}}",
+      "step_3": "프레임워크",
+      "step_4": "[{{RepoName}}]({{RepoUrl}})에서 최신 버전의 {{ProductFullName}} 다운로드"
+    },
+    "title_code": "{{ProgLang}} 예제 코드를 사용하여 {{EXT}} 파일을 병합하는 방법",
+    "code": {
+      "load_comment": "GroupDocs.Merger API를 사용하여 {{EXT}} 파일 병합",
+      "ini_comment": "입력 {{EXT}} 문서로 병합을 인스턴스화",
+      "run_comment": "Merger 클래스 인스턴스의 Join 메서드를 호출하고 두 번째 소스 문서 경로를 전달합니다.",
+      "save_comment": "병합된 문서를 저장하기 위해 Merger 클래스 인스턴스의 Save 메소드 호출"
+    }
+  },
+  "demos": {
+    "title": "라이브 데모 - 문서 병합을 위한 온라인 앱",
+    "h1": "[GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}) 웹사이트를 방문하여 지금 두 개 이상의 {{EXT}} 파일을 병합하세요.",
+    "h2": "라이브 데모에는 다음과 같은 이점이 있습니다."
+  },
+  "more_formats": {
+    "title": "다른 문서 형식 병합",
+    "content": "{{ProductName}}은(는) 파일 형식 및 이미지에 대한 병합 API를 문서화합니다. 아래에 설명된 대로 몇 가지 인기 있는 문서 형식을 병합합니다."
+  }
+}

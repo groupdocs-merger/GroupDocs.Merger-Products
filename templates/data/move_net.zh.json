@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "在 {{ProgLang}} 中移动 {{EXT}} 页",
+    "description": "使用文档合并 API 将 {{ProgLang}} 中的 {{EXT}} 文档中的页面移动到任何位置。"
+  },
+  "header": {
+    "title": "在 {{ProgLang}} 中移动 {{EXT}} 页",
+    "description": "使用几行 {{ProductName}} 代码移动 {{EXT}} 页。",
+    "button_label": "下载免费试用版"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API 参考",
+      "button_text_2": "代码示例",
+      "button_text_3": "现场演示",
+      "button_text_4": "价钱"
+    }
+  },
+  "about": {
+    "title": "关于 {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) 提供了一种简单的解决方案，可以在包括 PDF、Microsoft Office（Word、Excel、PowerPoint）在内的各种文档格式之间安全地合并和拆分、OneNote)、OpenDocument、HTML、图像和 {{ProductName}} 应用程序中的许多其他内容。只需添加几行代码，即可执行多个文档操作，例如移动、删除、旋转、交换、提取或更改文档中页面的方向。文档合并 API 还支持将文档页面预览为图像，以分析页面上的文档结构、格式和内容。",
+    "h2": "GroupDocs.Merger API 是需要文件页面移动功能的企业解决方案的正确选择。这些 API 在包括 {{Runtime}} 在内的所有主要操作系统和平台上都得到了很好的支持。"
+  },
+  "steps": {
+    "title_left": "移动 {{ProductName}} 中的 {{EXT}} 个文件页",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) 让 {{ProgLang}} 开发人员通过执行几个简单的步骤即可轻松地在 {{EXT}} 文件中移动页面.",
+      "step_1": "初始化 **MoveOptions** 以指定当前和新的页码。",
+      "step_2": "创建 **Merger** 的新实例并将源文档路径作为构造函数参数传递。",
+      "step_3": "调用 **MovePage** 并传递 **MoveOptions** 对象。",
+      "step_4": "调用 **Save** 并指定文件路径以保存生成的文档。"
+    },
+    "title_right": "系统要求",
+    "content_right": {
+      "description": "所有主要平台和操作系统都支持 {{ProductFullName}} API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "构架",
+      "step_4": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    },
+    "title_code": "如何使用 {{ProgLang}} 示例代码移动 {{EXT}} 文件页面",
+    "code": {
+      "load_comment": "使用 GroupDocs.Merger API 移动 {{EXT}} 文件页面",
+      "opt_comment": "初始化 MoveOptions 类以指定当前页码和新页码",
+      "ini_comment": "使用输入 {{EXT}} 文档实例化合并",
+      "run_comment": "调用 MovePage 方法并将 MoveOptions 对象传递给它",
+      "save_comment": "调用 Save 方法并传递所需的文件路径以保存输出文档"
+    }
+  },
+  "demos": {
+    "title": "现场演示 - 在线移动 {{EXT}} 页面",
+    "h1": "访问 [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/{{ext}}) 网站，立即移动 {{EXT}} 文件页面。",
+    "h2": "现场演示具有以下好处。"
+  },
+  "more_formats": {
+    "title": "移动其他文档格式的页面",
+    "content": "{{ProductName}} 记录文件格式和图像的合并和拆分 API。移动一些流行的文件格式，如下所述。"
+  }
+}

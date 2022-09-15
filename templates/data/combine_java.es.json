@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Combine archivos {{EXT}} a través de la API de fusión de documentos Java y J2SE",
+    "description": "Combine múltiples archivos {{EXT}} en Java utilizando la API de fusión de documentos con todos los datos, estilos y formatos como documentos de origen."
+  },
+  "header": {
+    "title": "Combinar archivos {{EXT}} en {{ProgLang}}",
+    "description": "Combine {{EXT}} con algunas líneas de código {{ProductName}}.",
+    "button_label": "Descargue prueba gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referencia de la API",
+      "button_text_2": "Ejemplos de código",
+      "button_text_3": "demostraciones en vivo",
+      "button_text_4": "Precios"
+    }
+  },
+  "about": {
+    "title": "Acerca de la API de {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) brinda una solución conveniente para combinar múltiples PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, imágenes y muchos otros documentos en un solo archivo dentro de las aplicaciones de {{ProductName}}. GroupDocs.Merger le ahorrará mucho esfuerzo, ya que puede combinar documentos {{EXT}}; no es necesario instalar ningún software de terceros, aplicaciones de escritorio o complementos. ¡Ahora no es necesario perder el tiempo y combinar archivos manualmente! La misión de GroupDocs es proporcionar la mejor calidad y simplificar los flujos de trabajo de procesamiento de documentos.",
+    "h2": "GroupDocs.Merger API es una opción correcta para soluciones corporativas que necesitan funciones de combinación de archivos. Estas API son compatibles con todos los principales sistemas operativos y plataformas, incluido {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Combine varios archivos {{EXT}} en {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) facilita a los desarrolladores de Java combinar varios archivos {{EXT}} mediante la implementación de unos sencillos pasos.",
+      "step_1": "Cree una instancia de **Merger** y pase la ruta del documento de origen como parámetro del constructor.",
+      "step_2": "Llame a **Join** de la clase **Merger** y pase la ruta del segundo documento de origen.",
+      "step_3": "Llame a **Guardar** de la clase **Merger** para guardar el documento fusionado."
+    },
+    "title_right": "Requisitos del sistema",
+    "content_right": {
+      "description": "Las API de {{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
+      "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Entornos de desarrollo: {{DevEnv}}",
+      "step_3": "Marcos",
+      "step_4": "Descarga la última versión de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cómo combinar archivos {{EXT}} usando el código de ejemplo {{ProgLang}}",
+    "code": {
+      "load_comment": "Combine archivos {{EXT}} usando GroupDocs.Merger para la API de Java",
+      "ini_comment": "Crear una instancia de Fusión con el documento de entrada {{EXT}}",
+      "run_comment": "Llame al método de unión de la instancia de la clase Merger y pase la segunda ruta del documento de origen",
+      "save_comment": "Llame al método de guardado de la instancia de la clase Merger para guardar el documento combinado"
+    }
+  },
+  "demos": {
+    "title": "Demostraciones en vivo: aplicación en línea para combinar documentos",
+    "h1": "Combine más de un archivo {{EXT}} ahora mismo visitando el sitio web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family).",
+    "h2": "La demostración en vivo tiene los siguientes beneficios."
+  },
+  "more_formats": {
+    "title": "Fusión de otros formatos de documentos",
+    "content": "{{ProductName}} API de fusión de documentos para formatos de archivo e imágenes. Combine algunos de los formatos de documentos populares como se indica a continuación."
+  }
+}

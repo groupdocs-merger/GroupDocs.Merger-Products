@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "{{EXT}} Seiten in {{ProgLang}} entfernen",
+    "description": "Entfernen oder löschen Sie eine einzelne Seite oder eine Sammlung von Seiten aus einer {{EXT}}-Datei in {{ProgLang}}, indem Sie die Seitenreihenfolge mithilfe der Documents Merger API umkehren."
+  },
+  "header": {
+    "title": "Entfernen Sie {{EXT}} Seiten in {{ProgLang}}",
+    "description": "Entfernen Sie {{EXT}}-Seiten mit ein paar Zeilen {{ProductName}}-Code.",
+    "button_label": "Download kostenlose Testversion"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-Referenz",
+      "button_text_2": "Codebeispiele",
+      "button_text_3": "Live-Demos",
+      "button_text_4": "Preisgestaltung"
+    }
+  },
+  "about": {
+    "title": "Über die {{ProductFullName}}-API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) bietet eine einfache Lösung zum sicheren Zusammenführen und Teilen zwischen einer Vielzahl von Dokumentformaten, einschließlich PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, Bilder und viele andere in {{ProductName}}-Anwendungen. Durch Hinzufügen von nur wenigen Codezeilen können Sie mehrere Dokumentoperationen ausführen, z. B. Verschieben, Entfernen, Drehen, Austauschen, Extrahieren oder Ändern der Ausrichtung von Seiten innerhalb der Dokumente. Die API zum Zusammenführen von Dokumenten unterstützt auch die Vorschau von Dokumentseiten als Bild, um die Dokumentstruktur, die Formatierung und den Inhalt auf der Seite zu analysieren.",
+    "h2": "GroupDocs.Merger API ist die richtige Wahl für Unternehmenslösungen, die Funktionen zum Entfernen von Dateiseiten benötigen. Diese APIs werden auf allen wichtigen Betriebssystemen und Plattformen einschließlich {{Runtime}} gut unterstützt."
+  },
+  "steps": {
+    "title_left": "Entfernen Sie {{EXT}} Dateiseiten in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) erleichtert Entwicklern von {{ProgLang}} das Löschen einer einzelnen oder mehrerer bestimmter Seiten innerhalb eines {{EXT}} Datei, indem Sie ein paar einfache Schritte ausführen.",
+      "step_1": "Initialisieren Sie **RemoveOptions** mit den zu entfernenden Seitenzahlen.",
+      "step_2": "Erstellen Sie eine neue Instanz von **Merger** und übergeben Sie den Pfad des Quelldokuments als Konstruktorparameter.",
+      "step_3": "Rufen Sie **RemovePages** auf und übergeben Sie das Objekt **RemoveOptions**.",
+      "step_4": "Rufen Sie **Save** auf und geben Sie den Dateipfad an, um das resultierende Dokument zu speichern."
+    },
+    "title_right": "System Anforderungen",
+    "content_right": {
+      "description": "{{ProductFullName}}-APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Rahmen",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter"
+    },
+    "title_code": "So entfernen Sie {{EXT}}-Dateiseiten mit {{ProgLang}}-Beispielcode",
+    "code": {
+      "load_comment": "Entfernen Sie {{EXT}}-Dateiseiten mithilfe der GroupDocs.Merger-API",
+      "opt_comment": "Initialisiert die RemoveOptions-Klasse mit ausgewählten Seitenzahlen",
+      "ini_comment": "Merger mit Eingabedokument {{EXT}} instanziieren",
+      "run_comment": "Rufen Sie die RemovePages-Methode auf und übergeben Sie ihr das RemoveOptions-Objekt",
+      "save_comment": "Rufen Sie die Save-Methode auf und übergeben Sie den gewünschten Dateipfad, um das Ausgabedokument zu speichern"
+    }
+  },
+  "demos": {
+    "title": "Live-Demos - Entfernen Sie {{EXT}} Seiten online",
+    "h1": "Entfernen Sie jetzt {{EXT}} Dateiseiten, indem Sie die Website [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/{{ext}}) besuchen.",
+    "h2": "Die Live-Demo hat die folgenden Vorteile."
+  },
+  "more_formats": {
+    "title": "Seiten aus anderen Dokumentformaten entfernen",
+    "content": "{{ProductName}} dokumentiert Merger & Split API für Dateiformate und Bilder. Entfernen Sie einige der gängigen Dateiformate wie unten angegeben."
+  }
+}

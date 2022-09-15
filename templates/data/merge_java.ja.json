@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Java & J2SE Documents Merger API 経由で {{EXT}} ファイルをマージ",
+    "description": "ドキュメント マージ API を使用して Java で複数の {{EXT}} ファイルをマージし、すべてのデータ、スタイル、フォーマットをソース ドキュメントとして使用します。"
+  },
+  "header": {
+    "title": "{{EXT}} {{ProgLang}}での合併",
+    "description": "{{EXT}} を数行の {{ProductName}} コードとマージします。",
+    "button_label": "無料トライアルをダウンロード"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API リファレンス",
+      "button_text_2": "コード例",
+      "button_text_3": "ライブデモ",
+      "button_text_4": "価格"
+    }
+  },
+  "about": {
+    "title": "{{ProductFullName}} API について",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) は、複数の PDF、Microsoft Office (Word、Excel、PowerPoint、OneNote)、OpenDocument、HTML、画像、および他の多くのドキュメントを {{ProductName}} アプリケーション内の 1 つのファイルにまとめます。 GroupDocs.Merger を使用すると、{{EXT}} ドキュメントをマージできるため、多くの労力を節約できます。サードパーティのソフトウェア、デスクトップ アプリケーション、またはプラグインをインストールする必要はありません。時間を無駄にしてファイルを手動でマージする必要がなくなりました。 GroupDocs の使命は、最高の品質を提供し、ドキュメント処理ワークフローを簡素化することです。",
+    "h2": "GroupDocs.Merger API は、ファイル マージ機能を必要とする企業向けソリューションに最適です。これらの API は、{{Runtime}} を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。"
+  },
+  "steps": {
+    "title_left": "{{ProductName}} 内の複数の {{EXT}} ファイルを結合",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) を使用すると、Java 開発者はいくつかの簡単な手順を実装することで、複数の {{EXT}} ファイルを簡単にマージできます。",
+      "step_1": "**Merger** のインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。",
+      "step_2": "**Merger** クラスの **Join** を呼び出し、2 番目のソース ドキュメント パスを渡します。",
+      "step_3": "**Merger** クラスの **Save** を呼び出して、マージされたドキュメントを保存します。"
+    },
+    "title_right": "システム要求",
+    "content_right": {
+      "description": "{{ProductFullName}} API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "[{{RepoName}}]({{RepoUrl}}) から {{ProductFullName}} の最新バージョンをダウンロードします"
+    },
+    "title_code": "{{ProgLang}} サンプル コードを使用して {{EXT}} ファイルをマージする方法",
+    "code": {
+      "load_comment": "GroupDocs.Merger for Java API を使用して {{EXT}} ファイルをマージします",
+      "ini_comment": "入力 {{EXT}} ドキュメントで Merger をインスタンス化する",
+      "run_comment": "Merger クラス インスタンスの join メソッドを呼び出し、2 番目のソース ドキュメント パスを渡す",
+      "save_comment": "Merger クラス インスタンスの save メソッドを呼び出して、マージされたドキュメントを保存します。"
+    }
+  },
+  "demos": {
+    "title": "Live Demos - ドキュメントをマージするオンライン アプリ",
+    "h1": "[GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}) Web サイトにアクセスして、複数の {{EXT}} ファイルを今すぐマージします。",
+    "h2": "ライブデモには次の利点があります。"
+  },
+  "more_formats": {
+    "title": "他のドキュメント形式のマージ",
+    "content": "{{ProductName}} は、ファイル形式と画像の合併 API を文書化しています。以下に示すように、いくつかの一般的なドキュメント形式をマージします。"
+  }
+}

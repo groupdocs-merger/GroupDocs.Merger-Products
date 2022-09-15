@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Extrahiere {{EXT}} Seiten in {{ProgLang}}",
+    "description": "Extrahieren Sie schnell Seiten aus einer {{EXT}}-Datei in {{ProgLang}}. Speichern Sie das neue Dokument mit den ausgewählten Seiten mithilfe der Documents Merger API."
+  },
+  "header": {
+    "title": "Extrahiere {{EXT}} Seiten in {{ProgLang}}",
+    "description": "Extrahieren Sie {{EXT}}-Seiten mit ein paar Zeilen {{ProductName}}-Code.",
+    "button_label": "Download kostenlose Testversion"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-Referenz",
+      "button_text_2": "Codebeispiele",
+      "button_text_3": "Live-Demos",
+      "button_text_4": "Preisgestaltung"
+    }
+  },
+  "about": {
+    "title": "Über die {{ProductFullName}}-API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) bietet eine einfache Lösung zum sicheren Zusammenführen und Teilen zwischen einer Vielzahl von Dokumentformaten, einschließlich PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, Bilder und viele andere in {{ProductName}}-Anwendungen. Durch Hinzufügen von nur wenigen Codezeilen können Sie mehrere Dokumentoperationen ausführen, z. B. Verschieben, Entfernen, Drehen, Austauschen, Extrahieren oder Ändern der Ausrichtung von Seiten innerhalb der Dokumente. Die API zum Zusammenführen von Dokumenten unterstützt auch die Vorschau von Dokumentseiten als Bild, um die Dokumentstruktur, die Formatierung und den Inhalt auf der Seite zu analysieren.",
+    "h2": "GroupDocs.Merger API ist die richtige Wahl für Unternehmenslösungen, die Funktionen zum Extrahieren von Dateiseiten benötigen. Diese APIs werden auf allen wichtigen Betriebssystemen und Plattformen einschließlich {{Runtime}} gut unterstützt."
+  },
+  "steps": {
+    "title_left": "{{EXT}} Dateiseiten in {{ProductName}} extrahieren",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) macht es {{ProgLang}}-Entwicklern leicht, die gewünschten Seiten aus einer {{EXT}}-Datei zu extrahieren und als zu speichern eine neue Datei mit den ausgewählten Seiten, indem Sie einige einfache Schritte ausführen.",
+      "step_1": "Initialisieren Sie **ExtractOptions** mit Seitenzahlen, die im resultierenden Dokument erscheinen sollen.",
+      "step_2": "Erstellen Sie eine neue Instanz von **Merger** und übergeben Sie den Pfad des Quelldokuments als Konstruktorparameter.",
+      "step_3": "Rufen Sie **ExtractPages** auf und übergeben Sie das Objekt **ExtractOptions**.",
+      "step_4": "Rufen Sie **Save** auf und geben Sie den Dateipfad an, um das resultierende Dokument zu speichern."
+    },
+    "title_right": "System Anforderungen",
+    "content_right": {
+      "description": "{{ProductFullName}}-APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Rahmen",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter"
+    },
+    "title_code": "So extrahieren Sie {{EXT}}-Dateiseiten mit {{ProgLang}}-Beispielcode",
+    "code": {
+      "load_comment": "Extrahieren Sie {{EXT}}-Dateiseiten mit der GroupDocs.Merger-API",
+      "opt_comment": "Initialisiert die ExtractOptions-Klasse mit ausgewählten Seitenzahlen",
+      "ini_comment": "Merger mit Eingabedokument {{EXT}} instanziieren",
+      "run_comment": "Rufen Sie die ExtractPages-Methode auf und übergeben Sie ihr das ExtractOptions-Objekt",
+      "save_comment": "Rufen Sie die Save-Methode auf, um das Ausgabedokument mit extrahierten Seiten zu speichern"
+    }
+  },
+  "demos": {
+    "title": "Live-Demos - Extrahieren Sie {{EXT}} Seiten online",
+    "h1": "Extrahieren Sie jetzt {{EXT}} Dateiseiten, indem Sie die Website [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/{{ext}}) besuchen.",
+    "h2": "Die Live-Demo hat die folgenden Vorteile."
+  },
+  "more_formats": {
+    "title": "Extrahieren Sie Seiten aus anderen Dokumentformaten",
+    "content": "{{ProductName}} dokumentiert Merger & Split API für Dateiformate und Bilder. Extrahieren Sie einige der gängigen Dateiformate wie unten angegeben."
+  }
+}
