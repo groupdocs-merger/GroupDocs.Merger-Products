@@ -5,7 +5,7 @@
   },
   "header": {
     "title": "{{EXT}} Разделитель на {{ProgLang}}",
-    "description": "Разделите {{EXT}} на несколько строк кода {{ProductName}}.",
+    "description": "Разделите {{EXT}} страницы с помощью нескольких строк {{ProductName}} кода.",
     "button_label": "Скачать бесплатную пробную версию"
   },
   "submenu": {
