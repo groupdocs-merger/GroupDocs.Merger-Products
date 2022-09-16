@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-15T17:16:31
+date: 2022-09-16T12:38:39
 draft: false
 otherformats: otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx
 
 ############################# Head ############################
-head_title: "Объединить ODT файлов на C# | ODT Объединение"
+head_title: "Объединить ODT файлы на C# | ODT Объединение"
 head_description: "Объедините несколько файлов ODT в один файл с помощью C# .NET API объединения документов. Объединяйте определенные страницы или диапазоны страниц из разных документов в один документ."
 
 ############################# Header ############################
-title: "Объединить ODT файлов на C#"
+title: "Объединить ODT на C#"
 description: "Объедините ODT с помощью нескольких строк .NET кода."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

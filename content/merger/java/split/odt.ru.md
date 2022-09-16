@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-15T17:16:39
+date: 2022-09-16T12:38:48
 draft: false
 otherformats: otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx
 
@@ -11,7 +11,7 @@ head_description: "Разделите один файл ODT на несколь�
 
 ############################# Header ############################
 title: "ODT Разделитель на Java"
-description: "Разделите ODT на несколько строк кода Java."
+description: "Разделите ODT страницы с помощью нескольких строк Java кода."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

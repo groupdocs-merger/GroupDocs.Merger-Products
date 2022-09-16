@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-15T17:16:31
+date: 2022-09-16T12:38:39
 draft: false
 otherformats: otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx
 
@@ -10,7 +10,7 @@ head_title: "Объединение ODT файлов с помощью Java и J
 head_description: "Объедините несколько файлов ODT в Java, используя Merger API со всеми данными, стилем и форматированием в качестве исходных документов."
 
 ############################# Header ############################
-title: "Объединить ODT файлов на Java"
+title: "Объединить ODT на Java"
 description: "Объедините ODT с помощью нескольких строк Java кода."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
