@@ -2,11 +2,11 @@ inherits: products.yml
 
 dimensions: 
 - alias: ext
-  values: ["csv", "doc", "docm", "docx", "dot", "dotm", "dotx", "epub", "html", "mht", "mhtml", "odp", "ods", "odt", "one", "otp", "ott", "pdf", "pps", "ppsx", "ppt", "pptx", "rtf", "tex", "tsv", "txt", "vdx", "vsdm", "vsdx", "vssm", "vssx", "vstm", "vstx", "vsx", "vtx", "xlam", "xls", "xlsb", "xlsm", "xlsx", "xlt", "xltm", "xltx", "xps", "bmp", "jpg", "jpeg", "png"]
+  values: ["excel", "image", "onenote", "visio", "web", "word", "worksheet", "csv", "doc", "docm", "docx", "dot", "dotm", "dotx", "epub", "html", "mht", "mhtml", "odp", "ods", "odt", "one", "otp", "ott", "pdf", "pps", "ppsx", "ppt", "pptx", "rtf", "tex", "tsv", "txt", "vdx", "vsdm", "vsdx", "vssm", "vssx", "vstm", "vstx", "vsx", "vtx", "xlam", "xls", "xlsb", "xlsm", "xlsx", "xlt", "xltm", "xltx", "xps", "bmp", "jpg", "jpeg", "png"]
 
 generationRules:
   include:
-  - ext[odt]
+##  - ext[odt]
 
 dictionaries: [ "..\\data\\combine_{product}.{lang}.json", "..\\data\\combine_{product}.json", "..\\data\\join_otherformats.json" ]
 

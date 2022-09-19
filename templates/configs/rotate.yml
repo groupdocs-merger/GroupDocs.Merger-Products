@@ -6,7 +6,7 @@ dimensions:
 
 generationRules:
   include:
-  - ext[pdf]
+##  - ext[pdf]
 
 dictionaries: [ "..\\data\\rotate_{product}.{lang}.json", "..\\data\\rotate_{product}.json", "..\\data\\rotate_otherformats.json" ]
 

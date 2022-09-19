@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Putar {{EXT}} Halaman dalam {{ProgLang}} – Putar pada Sudut 90, 180, 270",
+    "description": "Putar halaman dokumen tertentu atau semua file {{EXT}} pada sudut rotasi 90, 180, 270 menggunakan API penggabungan dokumen."
+  },
+  "header": {
+    "title": "Putar {{EXT}} Halaman Di {{ProgLang}}",
+    "description": "Putar halaman {{EXT}} dengan beberapa baris kode {{ProductName}}.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referensi API",
+      "button_text_2": "Contoh Kode",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "Harga"
+    }
+  },
+  "about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) menawarkan solusi sederhana untuk menggabungkan & memisahkan berbagai format dokumen dengan aman termasuk PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, gambar, dan banyak lainnya dalam aplikasi {{ProductName}}. Dengan menambahkan hanya beberapa baris kode, lakukan beberapa operasi dokumen seperti memindahkan, menghapus, memutar, menukar, mengekstrak, atau mengubah orientasi halaman di dalam dokumen. API penggabungan dokumen juga mendukung pratinjau halaman dokumen sebagai gambar untuk menganalisis struktur dokumen, pemformatan, dan konten pada halaman.",
+    "h2": "GroupDocs.Merger API adalah pilihan tepat untuk solusi perusahaan yang membutuhkan fitur rotasi halaman file. API ini didukung dengan baik di semua sistem operasi dan platform utama termasuk {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Putar {{EXT}} Halaman File di {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) memudahkan pengembang {{ProgLang}} untuk merotasi beberapa halaman tertentu atau semua halaman dalam file {{EXT}} pada 90 , 180 atau 270 sudut rotasi dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Inisialisasi **RotateOptions** dengan sudut rotasi dan nomor halaman yang diinginkan.",
+      "step_2": "Buat instance baru **Merger** dan teruskan jalur dokumen sumber sebagai parameter konstruktor.",
+      "step_3": "Panggil **rotatePages** dan teruskan objek **RotateOptions**.",
+      "step_4": "Panggil **save** dan tentukan jalur file untuk menyimpan dokumen yang dihasilkan."
+    },
+    "title_right": "Persyaratan sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka kerja",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cara memutar halaman file {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "load_comment": "Putar halaman file {{EXT}} menggunakan GroupDocs.Merger API",
+      "opt_comment": "Inisialisasi kelas RotateOptions untuk menentukan sudut rotasi dan nomor halaman yang akan diputar",
+      "ini_comment": "Instansiasi Penggabungan dengan dokumen masukan {{EXT}}",
+      "run_comment": "Panggil metode rotatePages dan berikan objek RotateOptions ke sana",
+      "save_comment": "Panggil metode simpan dan berikan jalur file yang diinginkan untuk menyimpan dokumen keluaran"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung - Putar {{EXT}} Halaman File Online",
+    "h1": "Putar halaman file {{EXT}} sekarang juga dengan mengunjungi situs web [GroupDocs.Merger Live Demo](https://products.groupdocs.app/splitter/rotate-pages/{{ext}}).",
+    "h2": "Demo langsung memiliki manfaat sebagai berikut."
+  },
+  "more_formats": {
+    "title": "Putar Halaman dari Format Dokumen Lain",
+    "content": "{{ProductName}} mendokumentasikan penggabungan & API pemisahan untuk format file dan gambar. Putar beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

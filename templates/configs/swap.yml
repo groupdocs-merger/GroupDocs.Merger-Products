@@ -2,11 +2,11 @@ inherits: products.yml
 
 dimensions: 
 - alias: ext
-  values: ["doc", "docm", "docx", "dot", "dotm", "dotx", "epub", "html", "mht", "mhtml", "odp", "ods", "odt", "one", "otp", "ott", "pdf", "pps", "ppsx", "ppt", "pptx", "rtf", "tex", "vdx", "vsdm", "vsdx", "vssm", "vssx", "vstm", "vstx", "vsx", "vtx", "xlam", "xls", "xlsb", "xlsm", "xlsx", "xlt", "xltm", "xltx", "xps"]
+  values: ["excel", "image", "onenote", "visio", "web", "word", "worksheet", "doc", "docm", "docx", "dot", "dotm", "dotx", "epub", "html", "mht", "mhtml", "odp", "ods", "odt", "one", "otp", "ott", "pdf", "pps", "ppsx", "ppt", "pptx", "rtf", "tex", "vdx", "vsdm", "vsdx", "vssm", "vssx", "vstm", "vstx", "vsx", "vtx", "xlam", "xls", "xlsb", "xlsm", "xlsx", "xlt", "xltm", "xltx", "xps"]
 
 generationRules:
   include:
-  - ext[odt]
+##  - ext[odt]
 
 dictionaries: [ "..\\data\\swap_{product}.{lang}.json", "..\\data\\swap_{product}.json", "..\\data\\otherformats.json" ]
 

@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Pindahkan {{EXT}} Halaman di {{ProgLang}}",
+    "description": "Pindahkan halaman dalam dokumen {{EXT}} di {{ProgLang}} ke posisi mana pun menggunakan API penggabungan dokumen."
+  },
+  "header": {
+    "title": "Pindahkan {{EXT}} Halaman Di {{ProgLang}}",
+    "description": "Pindahkan Halaman {{EXT}} dengan beberapa baris kode {{ProductName}}.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referensi API",
+      "button_text_2": "Contoh Kode",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "Harga"
+    }
+  },
+  "about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) menawarkan solusi sederhana untuk menggabungkan & memisahkan berbagai format dokumen dengan aman termasuk PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, gambar, dan banyak lainnya dalam aplikasi {{ProductName}}. Dengan menambahkan hanya beberapa baris kode, lakukan beberapa operasi dokumen seperti memindahkan, menghapus, memutar, menukar, mengekstrak, atau mengubah orientasi halaman di dalam dokumen. API penggabungan dokumen juga mendukung pratinjau halaman dokumen sebagai gambar untuk menganalisis struktur dokumen, pemformatan, dan konten pada halaman.",
+    "h2": "GroupDocs.Merger API adalah pilihan tepat untuk solusi perusahaan yang membutuhkan fitur pemindahan halaman file. API ini didukung dengan baik di semua sistem operasi dan platform utama termasuk {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Pindahkan {{EXT}} Halaman File di {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) memudahkan pengembang {{ProgLang}} untuk memindahkan halaman dalam file {{EXT}} dengan menerapkan beberapa langkah mudah .",
+      "step_1": "Inisialisasi **MoveOptions** untuk menentukan nomor halaman saat ini dan baru.",
+      "step_2": "Buat instance baru **Merger** dan teruskan jalur dokumen sumber sebagai parameter konstruktor.",
+      "step_3": "Panggil **movePage** dan teruskan objek **MoveOptions**.",
+      "step_4": "Panggil **save** dan tentukan jalur file untuk menyimpan dokumen yang dihasilkan."
+    },
+    "title_right": "Persyaratan sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka kerja",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cara memindahkan halaman file {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "load_comment": "Pindahkan halaman file {{EXT}} menggunakan GroupDocs.Merger API",
+      "opt_comment": "Inisialisasi kelas MoveOptions untuk menentukan nomor halaman saat ini dan baru",
+      "ini_comment": "Instansiasi Penggabungan dengan dokumen masukan {{EXT}}",
+      "run_comment": "Panggil metode movePage dan berikan objek MoveOptions ke sana",
+      "save_comment": "Panggil metode simpan dan berikan jalur file yang diinginkan untuk menyimpan dokumen keluaran"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung - Pindahkan {{EXT}} Halaman Online",
+    "h1": "Pindahkan halaman file {{EXT}} sekarang juga dengan mengunjungi situs web [GroupDocs.Merger Live Demo](https://products.groupdocs.app/splitter/move-pages/{{ext}}).",
+    "h2": "Demo langsung memiliki manfaat sebagai berikut."
+  },
+  "more_formats": {
+    "title": "Pindahkan Halaman dari Format Dokumen Lain",
+    "content": "{{ProductName}} mendokumentasikan penggabungan & API pemisahan untuk format file dan gambar. Pindahkan beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Gabung {{EXT}} File di {{ProgLang}} | {{EXT}} Penggabungan",
+    "description": "Gabungkan beberapa file {{EXT}} ke dalam satu file menggunakan {{ProgLang}} {{ProductName}} API penggabungan dokumen. Gabung halaman atau rentang halaman tertentu dari berbagai dokumen ke satu dokumen."
+  },
+  "header": {
+    "title": "Gabung {{EXT}} File Di {{ProgLang}}",
+    "description": "Bergabunglah dengan {{EXT}} dengan beberapa baris kode {{ProductName}}.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referensi API",
+      "button_text_2": "Contoh Kode",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "Harga"
+    }
+  },
+  "about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) memberikan solusi mudah untuk menggabungkan beberapa PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, gambar dan banyak dokumen lain ke dalam satu file dalam aplikasi {{ProductName}}. GroupDocs.Merger akan menghemat banyak usaha Anda, karena Anda diizinkan untuk bergabung dengan dokumen {{EXT}} - tidak perlu menginstal perangkat lunak, aplikasi desktop, atau plugin pihak ketiga. Sekarang tidak perlu membuang waktu Anda dan menggabungkan file secara manual! Misi GroupDocs adalah memberikan kualitas terbaik dan menyederhanakan alur kerja pemrosesan dokumen.",
+    "h2": "GroupDocs.Merger API adalah pilihan tepat untuk solusi perusahaan yang membutuhkan fitur penggabungan file. API ini didukung dengan baik di semua sistem operasi dan platform utama termasuk {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Cara Menggabungkan Beberapa {{EXT}} File",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) memudahkan pengembang {{ProductName}} untuk menggabungkan dua atau lebih file {{EXT}} dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Buat instance baru **Merger** dan teruskan jalur dokumen sumber sebagai parameter konstruktor.",
+      "step_2": "Panggil **Join** dari kelas **Merger** dan teruskan jalur dokumen sumber kedua.",
+      "step_3": "Panggil **Save** dari kelas **Merger** untuk menyimpan dokumen yang digabungkan."
+    },
+    "title_right": "Persyaratan sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka kerja",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cara menggabungkan file {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "load_comment": "Bergabunglah dengan file {{EXT}} menggunakan GroupDocs.Merger API",
+      "ini_comment": "Instansiasi Penggabungan dengan dokumen masukan {{EXT}}",
+      "run_comment": "Panggil metode Gabung dari instance kelas Penggabungan dan lewati jalur dokumen sumber kedua",
+      "save_comment": "Panggil metode Simpan dari instance kelas Penggabungan untuk menyimpan dokumen yang digabungkan"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung - Aplikasi Online untuk Bergabung dengan Dokumen",
+    "h1": "Bergabunglah dengan lebih dari satu {{EXT}} file sekarang juga dengan mengunjungi situs web [GroupDocs.Merger Live Demo](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "Demo langsung memiliki manfaat sebagai berikut."
+  },
+  "more_formats": {
+    "title": "Bergabung dengan Format Dokumen Lain",
+    "content": "{{ProductName}} mendokumentasikan API penggabungan untuk format file dan gambar. Bergabunglah bersama beberapa format dokumen populer seperti yang dinyatakan di bawah ini."
+  }
+}

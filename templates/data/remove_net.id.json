@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Hapus {{EXT}} Halaman di {{ProgLang}}",
+    "description": "Hapus atau hapus satu halaman atau kumpulan halaman dari file {{EXT}} di {{ProgLang}} dengan membalik urutan halaman menggunakan API penggabungan dokumen."
+  },
+  "header": {
+    "title": "Hapus {{EXT}} Halaman Di {{ProgLang}}",
+    "description": "Hapus {{EXT}} Halaman dengan beberapa baris kode {{ProductName}}.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referensi API",
+      "button_text_2": "Contoh Kode",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "Harga"
+    }
+  },
+  "about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) menawarkan solusi sederhana untuk menggabungkan & memisahkan berbagai format dokumen dengan aman termasuk PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, gambar, dan banyak lainnya dalam aplikasi {{ProductName}}. Dengan menambahkan hanya beberapa baris kode, lakukan beberapa operasi dokumen seperti memindahkan, menghapus, memutar, menukar, mengekstrak, atau mengubah orientasi halaman di dalam dokumen. API penggabungan dokumen juga mendukung pratinjau halaman dokumen sebagai gambar untuk menganalisis struktur dokumen, pemformatan, dan konten pada halaman.",
+    "h2": "GroupDocs.Merger API adalah pilihan tepat untuk solusi perusahaan yang membutuhkan fitur penghapusan halaman file. API ini didukung dengan baik di semua sistem operasi dan platform utama termasuk {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Hapus {{EXT}} Halaman File di {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) memudahkan pengembang {{ProgLang}} untuk menghapus satu atau beberapa halaman tertentu dalam {{EXT}} file dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Inisialisasi **RemoveOptions** dengan nomor halaman yang akan dihapus.",
+      "step_2": "Buat instance baru **Merger** dan teruskan jalur dokumen sumber sebagai parameter konstruktor.",
+      "step_3": "Panggil **RemovePages** dan teruskan objek **RemoveOptions**.",
+      "step_4": "Panggil **Save** dan tentukan jalur file untuk menyimpan dokumen yang dihasilkan."
+    },
+    "title_right": "Persyaratan sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka kerja",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cara menghapus halaman file {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "load_comment": "Hapus halaman file {{EXT}} menggunakan GroupDocs.Merger API",
+      "opt_comment": "Inisialisasi kelas RemoveOptions dengan nomor halaman yang dipilih",
+      "ini_comment": "Instansiasi Penggabungan dengan dokumen masukan {{EXT}}",
+      "run_comment": "Panggil metode RemovePages dan berikan objek RemoveOptions ke sana",
+      "save_comment": "Panggil metode Simpan dan berikan jalur file yang diinginkan untuk menyimpan dokumen keluaran"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung - Hapus {{EXT}} Laman Daring",
+    "h1": "Hapus halaman file {{EXT}} sekarang juga dengan mengunjungi situs web [GroupDocs.Merger Live Demo](https://products.groupdocs.app/splitter/remove-pages/{{ext}}).",
+    "h2": "Demo langsung memiliki manfaat sebagai berikut."
+  },
+  "more_formats": {
+    "title": "Hapus Halaman Dari Format Dokumen Lain",
+    "content": "{{ProductName}} mendokumentasikan penggabungan & API pemisahan untuk format file dan gambar. Hapus beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}
