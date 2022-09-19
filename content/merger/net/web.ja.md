@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-19T14:13:21
+date: 2022-09-19T15:01:59
 draft: false
-otherformats: 
+otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods odt otp ott
 
 ############################# Head ############################
 head_title: "C# 内の WEB ファイルをマージ | WEB合併"

@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-19T14:13:18
+date: 2022-09-19T15:01:59
 draft: false
-otherformats: 
+otherformats: html mhtml odp ods odt otp ott pdf pps tex vssm xlsb xps bmp jpg png
 
 ############################# Head ############################
 head_title: "IMAGE-Dateien in C# zusammenführen | IMAGE Fusion"

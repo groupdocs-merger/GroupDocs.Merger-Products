@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-19T14:13:22
+date: 2022-09-19T15:02:00
 draft: false
-otherformats: 
+otherformats: docm dotm epub mht odp ods odt otp ott pdf pps vdx vsdm xlam xlsm xltm
 
 ############################# Head ############################
 head_title: "在 C# 中合并 ONENOTE 个文件 | ONENOTE 合并"

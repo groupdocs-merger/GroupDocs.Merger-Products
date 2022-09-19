@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:11:14
+date: 2022-09-19T15:01:57
 draft: false
-otherformats: 
+otherformats: dot mhtml odt ott ppt txt xlam xls xlsb xlsm xlsx xlt xltm xltx xps jpeg
 
 ############################# Head ############################
 head_title: "加入 C# 中的 WORKSHEET 个文件 | WORKSHEET 合并"

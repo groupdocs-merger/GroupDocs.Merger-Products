@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-19T14:13:22
+date: 2022-09-19T15:02:00
 draft: false
-otherformats: 
+otherformats: csv doc docx dot dotm dotx epub html one pdf ppt rtf vdx xls xps bmp
 
 ############################# Head ############################
 head_title: "Объединение WORD файлов через Java и J2SE Documents Merger API"

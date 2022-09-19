@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:11:12
+date: 2022-09-19T15:01:57
 draft: false
-otherformats: 
+otherformats: csv doc docx dot dotm dotx epub html one pdf ppt rtf vdx xls xps bmp
 
 ############################# Head ############################
 head_title: "C#에서 WORD 파일 가입 | WORD 합병"

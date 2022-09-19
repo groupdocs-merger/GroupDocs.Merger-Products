@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:17:46
+date: 2022-09-19T15:02:10
 draft: false
-otherformats: 
+otherformats: csv doc docx dot dotm dotx epub html one pdf ppt rtf vdx xls xps bmp
 
 ############################# Head ############################
 head_title: "Java에서 WORD을(를) 여러 파일로 분할"

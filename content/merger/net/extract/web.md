@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:10:55
+date: 2022-09-19T15:01:54
 draft: false
-otherformats: 
+otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods odt otp ott
 
 ############################# Head ############################
 head_title: "Extract WEB Pages in C#"

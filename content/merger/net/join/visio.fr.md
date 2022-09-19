@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:11:11
+date: 2022-09-19T15:01:57
 draft: false
-otherformats: 
+otherformats: pdf pps ppsx ppt pptx tex tsv vdx vsdm vsdx vssm vssx vstm vstx vsx vtx
 
 ############################# Head ############################
 head_title: "Joindre les fichiers VISIO dans C# | VISIO Fusion"

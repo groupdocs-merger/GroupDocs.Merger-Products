@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:18:23
+date: 2022-09-19T15:02:12
 draft: false
-otherformats: 
+otherformats: pdf pps ppsx ppt pptx tex tsv vdx vsdm vsdx vssm vssx vstm vstx vsx vtx
 
 ############################# Head ############################
 head_title: "Java에서 VISIO 페이지 교환 및 교환"

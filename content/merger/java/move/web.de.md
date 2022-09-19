@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:14:22
+date: 2022-09-19T15:02:03
 draft: false
-otherformats: 
+otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods odt otp ott
 
 ############################# Head ############################
 head_title: "Verschiebe WEB Seiten in Java"

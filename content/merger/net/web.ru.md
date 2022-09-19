@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-19T14:13:22
+date: 2022-09-19T15:02:00
 draft: false
-otherformats: 
+otherformats: csv doc docm docx dot dotm dotx epub html mht mhtml odp ods odt otp ott
 
 ############################# Head ############################
 head_title: "Объединить WEB файлы на C# | WEB Объединение"

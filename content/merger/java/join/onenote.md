@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:11:08
+date: 2022-09-19T15:01:57
 draft: false
-otherformats: 
+otherformats: docm dotm epub mht odp ods odt otp ott pdf pps vdx vsdm xlam xlsm xltm
 
 ############################# Head ############################
 head_title: "Join ONENOTE Files via Java & J2SE Documents Merger API"

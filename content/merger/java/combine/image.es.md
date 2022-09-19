@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:09:29
+date: 2022-09-19T15:01:51
 draft: false
-otherformats: 
+otherformats: html mhtml odp ods odt otp ott pdf pps tex vssm xlsb xps bmp jpg png
 
 ############################# Head ############################
 head_title: "Combine archivos IMAGE a través de la API de fusión de documentos Java y J2SE"

@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:14:22
+date: 2022-09-19T15:02:03
 draft: false
-otherformats: 
+otherformats: html mhtml odp ods odt otp ott pdf pps tex vssm xlsb xps bmp jpg png
 
 ############################# Head ############################
 head_title: "Move IMAGE Pages in Java"

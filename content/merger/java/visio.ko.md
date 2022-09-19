@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-19T14:13:22
+date: 2022-09-19T15:01:59
 draft: false
-otherformats: 
+otherformats: pdf pps ppsx ppt pptx tex tsv vdx vsdm vsdx vssm vssx vstm vstx vsx vtx
 
 ############################# Head ############################
 head_title: "Java 및 J2SE 문서 병합 API를 통해 VISIO 파일 병합"

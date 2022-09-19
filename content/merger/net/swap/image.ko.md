@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:18:23
+date: 2022-09-19T15:02:12
 draft: false
-otherformats: 
+otherformats: html mhtml odp ods odt otp ott pdf pps tex vssm xlsb xps bmp jpg png
 
 ############################# Head ############################
 head_title: "C#에서 IMAGE 페이지 교환 및 교환"

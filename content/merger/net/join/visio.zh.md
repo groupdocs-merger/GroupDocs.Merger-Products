@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:11:14
+date: 2022-09-19T15:01:57
 draft: false
-otherformats: 
+otherformats: pdf pps ppsx ppt pptx tex tsv vdx vsdm vsdx vssm vssx vstm vstx vsx vtx
 
 ############################# Head ############################
 head_title: "加入 C# 中的 VISIO 个文件 | VISIO 合并"

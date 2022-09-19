@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:10:56
+date: 2022-09-19T15:01:54
 draft: false
-otherformats: 
+otherformats: pdf pps ppsx ppt pptx tex tsv vdx vsdm vsdx vssm vssx vstm vstx vsx vtx
 
 ############################# Head ############################
 head_title: "Extrahiere VISIO Seiten in Java"

@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:14:45
+date: 2022-09-19T15:02:07
 draft: false
-otherformats: 
+otherformats: docm dotm epub mht odp ods odt otp ott pdf pps vdx vsdm xlam xlsm xltm
 
 ############################# Head ############################
 head_title: "删除 C# 中的 ONENOTE 个页面"

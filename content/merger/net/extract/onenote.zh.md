@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:10:59
+date: 2022-09-19T15:01:55
 draft: false
-otherformats: 
+otherformats: docm dotm epub mht odp ods odt otp ott pdf pps vdx vsdm xlam xlsm xltm
 
 ############################# Head ############################
 head_title: "在 C# 中提取 ONENOTE 个页面"

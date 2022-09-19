@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:09:32
+date: 2022-09-19T15:01:52
 draft: false
-otherformats: 
+otherformats: docm dotm epub mht odp ods odt otp ott pdf pps vdx vsdm xlam xlsm xltm
 
 ############################# Head ############################
 head_title: "通过 Java 和 J2SE 文档合并 API 合并 ONENOTE 文件"

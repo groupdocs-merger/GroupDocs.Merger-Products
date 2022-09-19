@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:18:23
+date: 2022-09-19T15:02:12
 draft: false
-otherformats: 
+otherformats: dot mhtml odt ott ppt txt xlam xls xlsb xlsm xlsx xlt xltm xltx xps jpeg
 
 ############################# Head ############################
 head_title: "Поменяйте местами EXCEL страницы на Java"

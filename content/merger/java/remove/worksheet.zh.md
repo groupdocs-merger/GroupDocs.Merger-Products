@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-09-19T14:14:45
+date: 2022-09-19T15:02:07
 draft: false
-otherformats: 
+otherformats: dot mhtml odt ott ppt txt xlam xls xlsb xlsm xlsx xlt xltm xltx xps jpeg
 
 ############################# Head ############################
 head_title: "删除 Java 中的 WORKSHEET 个页面"

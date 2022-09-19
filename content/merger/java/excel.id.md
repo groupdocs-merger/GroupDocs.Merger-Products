@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-09-19T14:13:23
+date: 2022-09-19T15:02:00
 draft: false
-otherformats: 
+otherformats: dot mhtml odt ott ppt txt xlam xls xlsb xlsm xlsx xlt xltm xltx xps jpeg
 
 ############################# Head ############################
 head_title: "Gabungkan EXCEL File melalui API Penggabungan Dokumen Java & J2SE"
