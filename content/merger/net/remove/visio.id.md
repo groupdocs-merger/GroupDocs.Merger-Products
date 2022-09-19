@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:14:45
 draft: false
+otherformats: 
 
-head_title: "Hapus Halaman VISIO di C# .NET – Hapus Halaman dari File VISIO"
-head_description: "Pengguna C# .NET untuk menghapus atau menghapus satu halaman atau kumpulan halaman dari file VISIO menggunakan dokumen merger dan split API."
+############################# Head ############################
+head_title: "Hapus VISIO Halaman di C#"
+head_description: "Hapus atau hapus satu halaman atau kumpulan halaman dari file VISIO di C# dengan membalik urutan halaman menggunakan API penggabungan dokumen."
 
-title: "Hapus atau Hapus Halaman Dari VISIO di .NET"
-description: "Hapus atau Hapus satu halaman atau kumpulan halaman dari file VISIO menggunakan dokumen merger & split API untuk aplikasi .NET (C#, ASP.NET, VB.NET, .NET Core)."
+############################# Header ############################
+title: "Hapus VISIO Halaman Di C#"
+description: "Hapus VISIO Halaman dengan beberapa baris kode .NET."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/merger/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,15 +33,19 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
               text: "Referensi API"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "Contoh Kode"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "Demo Langsung"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
               text: "Harga"
 
@@ -45,245 +54,77 @@ submenu:
         link_learn: "https://docs.groupdocs.com/merger/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Merger untuk .NET API"
+    title: "Tentang GroupDocs.Merger for .NET API"
     content: |
-        [GroupDocs.Merger untuk .NET](https://products.groupdocs.com/merger/net/) menawarkan solusi sederhana untuk menggabungkan, membagi, memindahkan, menghapus, mengekstrak, menukar & memutar antara berbagai format dokumen dengan aman termasuk PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML dan banyak lainnya dalam aplikasi .NET. Dengan menambahkan hanya beberapa baris kode, lakukan beberapa operasi dokumen seperti memindahkan, menghapus, memutar, menukar, mengekstrak, atau mengubah orientasi halaman di dalam dokumen. API penggabungan dokumen juga mendukung pratinjau halaman dokumen sebagai gambar untuk menganalisis struktur dokumen, pemformatan, dan konten pada halaman.
+        [GroupDocs.Merger for .NET](/id/merger/net/) menawarkan solusi sederhana untuk menggabungkan & memisahkan berbagai format dokumen dengan aman termasuk PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, gambar, dan banyak lainnya dalam aplikasi .NET. Dengan menambahkan hanya beberapa baris kode, lakukan beberapa operasi dokumen seperti memindahkan, menghapus, memutar, menukar, mengekstrak, atau mengubah orientasi halaman di dalam dokumen. API penggabungan dokumen juga mendukung pratinjau halaman dokumen sebagai gambar untuk menganalisis struktur dokumen, pemformatan, dan konten pada halaman.
         
-        GroupDocs.Merger API didukung dengan baik di semua sistem operasi dan platform utama termasuk .NET Framework, .NET Standard, .NET Core, Mono, dan Xamarin.
+        GroupDocs.Merger API adalah pilihan tepat untuk solusi perusahaan yang membutuhkan fitur penghapusan halaman file. API ini didukung dengan baik di semua sistem operasi dan platform utama termasuk .NET Framework, .NET Standard, .NET Core, Mono.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hapus Halaman File VISIO di .NET"
+    title_left: "Hapus VISIO Halaman File di .NET"
     content_left: |
-        [GroupDocs.Merger](/id/merger/net/) memudahkan pengembang .NET untuk menghapus satu atau beberapa halaman dalam file VISIO dengan menerapkan beberapa langkah mudah.
-
-        * Inisialisasi kelas <mark>**RemoveOptions**</mark> untuk menentukan nomor halaman yang akan dihapus.
-        * Buat instance baru kelas <mark>**Merger**</mark> dan teruskan jalur dokumen sumber sebagai parameter konstruktor.
-        * Panggil metode <mark>**RemovePages**</mark> dan teruskan objek <mark>**RemoveOptions**</mark> ke sana.
-        * Panggil metode <mark>**Save**</mark> dan berikan jalur file yang diinginkan untuk menyimpan dokumen yang dihasilkan.
+        [GroupDocs.Merger for .NET](/id/merger/net/) memudahkan pengembang C# untuk menghapus satu atau beberapa halaman tertentu dalam VISIO file dengan menerapkan beberapa langkah mudah.
         
+        * Inisialisasi **RemoveOptions** dengan nomor halaman yang akan dihapus.
+        * Buat instance baru **Merger** dan teruskan jalur dokumen sumber sebagai parameter konstruktor.
+        * Panggil **RemovePages** dan teruskan objek **RemoveOptions**.
+        * Panggil **Save** dan tentukan jalur file untuk menyimpan dokumen yang dihasilkan.
+
     title_right: "Persyaratan sistem"
     content_right: |
-        GroupDocs.Merger untuk .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        GroupDocs.Merger for .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
         * Sistem Operasi: Microsoft Windows, Linux, MacOS
         * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
-        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
-        * Unduh versi terbaru GroupDocs.Merger untuk .NET dari [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)
-        
+        * Kerangka kerja: .NET Framework, .NET Standard, .NET Core, Mono
+        * Unduh versi terbaru GroupDocs.Merger for .NET dari [NuGet](https://www.nuget.org/packages/groupdocs.merger)
+         
     code: |
-        ```cs
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Cara menghapus halaman file VISIO menggunakan kode contoh C#">}}
+
+        ```csharp    
         // Hapus halaman file VISIO menggunakan GroupDocs.Merger API
-        string filePath = "input.vdx";
-        string filePathOut = "output.vdx";
+        // Inisialisasi kelas RemoveOptions dengan nomor halaman yang dipilih
+        RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 6 });
 
-        // Inisialisasi kelas RemoveOptions untuk menentukan nomor halaman yang akan dihapus
-        RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });
-
-        // Instansiasi Penggabungan dengan dokumen input VISIO
-        using (Merger merger = new Merger("input.vdx"))
+        // Instansiasi Penggabungan dengan dokumen masukan VISIO
+        using (Merger merger = new Merger("input.visio"))
           {
             // Panggil metode RemovePages dan berikan objek RemoveOptions ke sana
             merger.RemovePages(removeOptions);
-            
+    
             // Panggil metode Simpan dan berikan jalur file yang diinginkan untuk menyimpan dokumen keluaran
-            merger.Save("output.vdx");
+            merger.Save("output.visio");
           }
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "Demo Langsung - Aplikasi Online untuk Menghapus Halaman Dokumen"
+    title: "Demo Langsung - Hapus VISIO Laman Daring"
     content: |
-        Hapus halaman dalam file VISIO sekarang juga dengan mengunjungi situs web [GroupDocs.Merger](https://products.groupdocs.app/merger/vdx).  
-        Demo langsung memiliki manfaat sebagai berikut
+       Hapus halaman file VISIO sekarang juga dengan mengunjungi situs web [GroupDocs.Merger Live Demo](https://products.groupdocs.app/splitter/remove-pages/visio).
+       Demo langsung memiliki manfaat sebagai berikut.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-image-o"
-          title: "Tentang Format Berkas VISIO"
-          content: |
-            Setiap gambar atau bagan yang dibuat di Microsoft VISIO, tetapi disimpan dalam format XML memiliki ekstensi .VDX. File XML gambar VISIO dibuat dalam perangkat lunak VISIO, yang dikembangkan oleh Microsoft. Microsoft VISIO memiliki kemampuan untuk menghasilkan dokumen visual yang dapat digunakan dalam presentasi dan dokumen. File XML gambar VISIO berisi objek visual dan detail metadata elemen visual. Teks juga dapat ditambahkan ke elemen visual ini. Visi menggambar file XML. File XML gambar VISIO ini terintegrasi dengan standar pemformatan berbasis XML dan spesifikasi penyandian data gambar yang memungkinkan kontennya dirender dan disimpan oleh perangkat lunak Microsoft VISIO dalam format file VDX. File XML gambar VISIO ini ditambahkan dengan ekstensi .vdx. Berikut ini adalah aplikasi yang dapat membuka file berformat VDX.
 
-          link: "https://docs.fileformat.com/image/vdx/"
-
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Menghapus Halaman dari Format Dokumen Lain"
+    title: "Hapus Halaman Dari Format Dokumen Lain"
     content: |
-        .NET dokumen merger & split API untuk format file dan gambar. Hapus halaman dari beberapa format file populer seperti yang dinyatakan di bawah ini.
-    format: 
-        - name: "Hapus Halaman File PDF di .NET"
-          link: "/merger/net/remove/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        .NET mendokumentasikan penggabungan & API pemisahan untuk format file dan gambar. Hapus beberapa format file populer seperti yang dinyatakan di bawah ini.
 
-        - name: "Hapus Halaman File Word di .NET"
-          link: "/merger/net/remove/word/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Hapus Halaman File Excel di .NET"
-          link: "/merger/net/remove/excel/"
-          description: "Lembar Kerja Microsoft Excel"
-
-        - name: "Hapus Halaman File Lembar Kerja di .NET"
-          link: "/merger/net/remove/worksheet/"
-          description: "Lembar Kerja Microsoft Excel"
-
-        - name: "Hapus Halaman File DOC di .NET"
-          link: "/merger/net/remove/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Hapus Halaman File DOCM di .NET"
-          link: "/merger/net/remove/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "Hapus Halaman File DOCX di .NET"
-          link: "/merger/net/remove/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
-
-        - name: "Hapus Halaman File DOT di .NET"
-          link: "/merger/net/remove/dot/"
-          description: "Templat Dokumen Microsoft Word"
-
-        - name: "Hapus Halaman File DOTX di .NET"
-          link: "/merger/net/remove/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Hapus Halaman File DOTM di .NET"
-          link: "/merger/net/remove/dotm/"
-          description: "Templat Microsoft Word Macro-Enabled"
-
-        - name: "Hapus Halaman File RTF di .NET"
-          link: "/merger/net/remove/rtf/"
-          description: "Dokumen Teks Kaya"
-
-        - name: "Hapus Halaman File ODT di .NET"
-          link: "/merger/net/remove/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "Hapus Halaman File OTT di .NET"
-          link: "/merger/net/remove/ott/"
-          description: "Templat Teks OpenDocument"
-
-        - name: "Hapus Halaman File XLS di .NET"
-          link: "/merger/net/remove/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Hapus Halaman File XLSX di .NET"
-          link: "/merger/net/remove/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "Hapus Halaman File XLAM di .NET"
-          link: "/merger/net/remove/xlam/"
-          description: "Add-in Excel Open XML Macro-Enabled"
-
-        - name: "Hapus Halaman File XLSM di .NET"
-          link: "/merger/net/remove/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Hapus Halaman File XLSB di .NET"
-          link: "/merger/net/remove/xlsb/"
-          description: "Lembar Kerja Biner Microsoft Excel"
-
-        - name: "Hapus Halaman File XLTX di .NET"
-          link: "/merger/net/remove/xltx/"
-          description: "Templat Microsoft Excel"
-
-        - name: "Hapus Halaman File XLTM di .NET"
-          link: "/merger/net/remove/xltm/"
-          description: "Templat berkemampuan makro Microsoft Excel"
-
-        - name: "Hapus Halaman File ODS di .NET"
-          link: "/merger/net/remove/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "Hapus Halaman File CSV di .NET"
-          link: "/merger/net/remove/csv/"
-          description: "File Nilai Dipisahkan Koma"
-
-        - name: "Hapus Halaman File TSV di .NET"
-          link: "/merger/net/remove/tsv/"
-          description: "File Nilai Terpisah Tab"
-        
-        - name: "Hapus Halaman File PPT di .NET"
-          link: "/merger/net/remove/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Hapus Halaman File PPTX di .NET"
-          link: "/merger/net/remove/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
-
-        - name: "Hapus Halaman File PPS di .NET"
-          link: "/merger/net/remove/pps/"
-          description: "Peragaan Slide Microsoft PowerPoint 97-2003"
-
-        - name: "Hapus Halaman File PPSX di .NET"
-          link: "/merger/net/remove/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
-
-        - name: "Hapus Halaman File POTX di .NET"
-          link: "/merger/net/remove/potx/"
-          description: "Templat Microsoft PowerPoint"
-
-        - name: "Hapus Halaman File PPTM di .NET"
-          link: "/merger/net/remove/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "Hapus Halaman File ODP di .NET"
-          link: "/merger/net/remove/odp/"
-          description: "Presentasi OpenDocument"
-
-        - name: "Hapus Halaman File OTP di .NET"
-          link: "/merger/net/remove/otp/"
-          description: "Template Presentasi OpenDocument"
-
-        - name: "Hapus Halaman File Teks di .NET"
-          link: "/merger/net/remove/txt/"
-          description: "File Teks Biasa"
-
-        - name: "Hapus Halaman File OneNote di .NET"
-          link: "/merger/net/remove/one/"
-          description: "Microsoft OneNote"
-
-        - name: "Hapus Halaman File XPS di .NET"
-          link: "/merger/net/remove/xps/"
-          description: "File Spesifikasi Kertas XML"
-
-        - name: "Hapus Halaman File Web di .NET"
-          link: "/merger/net/remove/web/"
-          description: "File Bahasa Markup Hypertext"
-
-        - name: "Hapus Halaman File HTML di .NET"
-          link: "/merger/net/remove/html/"
-          description: "File Bahasa Markup Hypertext"
-
-        - name: "Hapus Halaman File MHT di .NET"
-          link: "/merger/net/remove/mht/"
-          description: "Arsip Web MHTML"
-
-        - name: "Hapus Halaman File MHTML di .NET"
-          link: "/merger/net/remove/mhtml/"
-          description: "MIME HTML"
-
-        - name: "Hapus Halaman File TEX di .NET"
-          link: "/merger/net/remove/tex/"
-          description: "Dokumen Sumber LaTeX"
-
-        - name: "Hapus Halaman File EPUB di .NET"
-          link: "/merger/net/remove/epub/"
-          description: "File eBuku"
-          
-        - name: "Hapus Halaman File PPSM di .NET"
-          link: "/merger/net/remove/ppsm/"
-          description: "Peragaan Slide Berkemampuan Makro Microsoft PowerPoint"
-        
-        - name: "Hapus Halaman File POTM di .NET"
-          link: "/merger/net/remove/potm/"
-          description: "Templat Microsoft PowerPoint Macro-Enabled"
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

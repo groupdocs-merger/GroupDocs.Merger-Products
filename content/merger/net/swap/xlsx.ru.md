@@ -1,14 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-05T16:42:29
+layout: "auto-gen-merger"
+date: 2022-09-19T14:18:23
 draft: false
+otherformats: otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx
+
 ############################# Head ############################
-head_title: "Обмен XLSX-страницами в C# .NET"
-head_description: " Пользователи C# .NET могут менять местами две страницы в файле XLSX с помощью API разделения файлов."
+head_title: "Поменяйте местами XLSX страницы на C#"
+head_description: "Поменяйте местами и обменяйте позиции двух страниц в файле XLSX на C#, используя Merger API."
+
 ############################# Header ############################
-title: "Поменять местами страницы XLSX в .NET"
-description: "Меняйте местами две страницы в файле XLSX с помощью API-интерфейса файлового разделителя для приложений .NET (C#, ASP.NET, VB.NET, .NET Core)."
+title: "Поменять местами XLSX страницы на C#"
+description: "Поменять местами XLSX страницы с помощью нескольких строк .NET кода."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,283 +19,114 @@ button:
     icon: "fas fa-arrow-down"
     label: "Скачать бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/merger/net"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
         img_alt: "GroupDocs.Merger for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-merger-net.png"
         product: "GroupDocs.Merger"
         platform: ".NET"
+
     middle:
         button:
+
             # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
               text: "Справочник по API"
+
             # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "Примеры кода"
+
             # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "Живые демонстрации"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
               text: "Цены"
+
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/net"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Merge для .NET API"
+    title: "Кратко о GroupDocs.Merger for .NET"
     content: |
-        [GroupDocs.Merger](/ru/merger/net/) предлагает простое решение для безопасного слияния, разделения, перемещения, удаления, извлечения, обмена и чередования документов различных форматов. включая PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML и многие другие в приложениях .NET. Добавив всего несколько строк кода, можно выполнять несколько операций с документами, например перемещать, удалять, поворачивать, менять местами, извлекать или изменять ориентацию страниц в документах. API слияния документов также поддерживает предварительный просмотр страниц документа в виде изображения для анализа структуры документа, форматирования и содержимого на странице.
-        API-интерфейсы GroupDocs.Merger хорошо поддерживаются на всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono и Xamarin.
+        [GroupDocs.Merger for .NET](/ru/merger/net/) предоставляет удобное решение для объединения нескольких файлов PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, изображений и многие другие документы в один файл в .NET приложениях. GroupDocs.Merger сэкономит вам много усилий, так как вы можете объединять XLSX документы - нет необходимости устанавливать какое-либо стороннее программное обеспечение, настольные приложения или плагины. Теперь не нужно тратить время и объединять файлы вручную! Миссия GroupDocs — обеспечить наилучшее качество и упростить рабочие процессы обработки документов.
+        
+        GroupDocs.Merger API — правильный выбор для корпоративных решений, которым нужны функции обмена файловыми страницами. Эти интерфейсы хорошо поддерживаются во всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono.
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Поменять местами страницы файлов XLSX в .NET"
+    title_left: "Поменять местами страницы XLSX документов на .NET"
     content_left: |
-        [GroupDocs.Merger](/ru/merger/net/) позволяет разработчикам .NET легко обмениваться, обмениваться и упорядочивать страницы в файле XLSX, выполняя несколько простых шагов.
-        * Инициализируйте класс **SwapOptions** указать номера страниц для обмена.
-        * Создайте новый экземпляр класса **Merge**дайте путь к исходному документу в качестве параметра конструктора.
-        * Вызвать метод **SwapPages**дать ему объект **SwapOptions**.
-        * Вызовите метод **Save**ите нужный путь к файлу, чтобы сохранить результирующий документ.
+        [GroupDocs.Merger for .NET](/ru/merger/net/) позволяет разработчикам C# обмениваться страницами в файле XLSX, выполняя несколько простых шагов. .
+        
+        * Инициализируйте **SwapOptions**, чтобы указать номера страниц для обмена.
+        * Создайте новый экземпляр **Merger** и передайте ему путь к исходному документу в качестве параметра конструктора.
+        * Вызовите метод **SwapPages** и передайте объект **SwapOptions**.
+        * Вызовите метод **Save** и укажите путь к файлу для сохранения результирующего документа.
+
     title_right: "Системные Требования"
     content_right: |
-        API GroupDocs.Merge for .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        GroupDocs.Merger for .NET API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+
         * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
+        * Среда разработки: Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Merger для .NET с сайта [NuGet](https://www.nuget.org/packages/GroupDocs.Merger).
+        * Загрузите последнюю версию GroupDocs.Merger for .NET из [NuGet](https://www.nuget.org/packages/groupdocs.merger)
+         
     code: |
-        ```cs
-        // Поменять местами страницы файла XLSX с помощью API GroupDocs.Merger
-        int pageNumber1 = 3;
-        int pageNumber2 = 6;
-        // Инициализируем класс SwapOptions, чтобы указать номера страниц для обмена
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Как поменять местами страницы XLSX документов, используя пример кода C#">}}
+
+        ```csharp    
+        // Поменять местами страницы XLSX документов с помощью GroupDocs.Merger API
+        int pageNumber1 = 6;
+        int pageNumber2 = 1;
+
+        // Инициализируйте класс SwapOptions, чтобы указать номера страниц для обмена
         SwapOptions swapOptions = new SwapOptions(pageNumber2, pageNumber1);
-        // Создание экземпляра слияния с входным документом XLSX
+
+        // Создание экземпляра класса Merger с входным параметром XLSX документа
         using (Merger merger = new Merger("input.xlsx"))
           {
-            // Вызываем метод SwapPages и передаем ему объект SwapOptions
+            // Вызвать метод SwapPages и передать ему объект SwapOptions
             merger.SwapPages(swapOptions);
-            // Вызываем метод Save и передаем желаемый путь к файлу для сохранения выходного документа
+    
+            // Вызовите метод Save и передайте желаемый путь к файлу, чтобы сохранить результат.
             merger.Save("output.xlsx");
           }
         ```
+     {{< /merger/code-merger >}}
+
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации в реальном времени — замена страниц файлов XLSX онлайн"
+    title: "Живые демонстрации — замена страницы XLSX документов онлайн"
     content: |
-        Поменяйте местами страницы в файлах XLSX прямо сейчас, посетив веб-сайт [Живые демонстрации](https://products.groupdocs.app/splitter/swap-pages/xlsx). Живая демонстрация имеет следующие преимущества
+       Поменяйте местами страницы XLSX документов прямо сейчас, посетив веб-сайт [Живые демонстрации GroupDocs.Merger](https://products.groupdocs.app/splitter/swap-pages/xlsx).
+       Живые демонстрации имеют следующие преимущества.
+        
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: "О формате файла XLSX"
-          content: |
-            XLSX — это хорошо известный формат для документов Microsoft Excel, который был представлен Microsoft с выпуском Microsoft Office 2007. Основанный на структуре, организованной в соответствии с соглашениями об открытой упаковке, как указано в части 2 стандарта OOXML ECMA-376, новый формат ZIP-пакет, содержащий несколько XML-файлов. Базовую структуру и файлы можно изучить, просто разархивировав файл .xlsx.
-          link: "https://docs.fileformat.com/spreadsheet/xlsx/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
     title: "Замена страниц файлов других форматов"
     content: |
-        API слияния и разделения документов .NET для форматов файлов и изображений. Измените порядок страниц некоторых популярных форматов файлов, как указано ниже.
-    format: 
-        # format loop
-        - name: "Поменять местами страницы файлов CSV"
-          link: "/merger/net/swap/csv/"
-          description: "Файл значений, разделенных запятыми"
-        # format loop
-        - name: "Поменять местами страницы файлов DOC"
-          link: "/merger/net/swap/doc/"
-          description: "Документ Microsoft Word"
-        # format loop
-        - name: "Поменять местами страницы файлов DOCM"
-          link: "/merger/net/swap/docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-        # format loop
-        - name: "Поменять местами страницы файлов DOCX"
-          link: "/merger/net/swap/docx/"
-          description: "Документ Microsoft Word с открытым XML"
-        # format loop
-        - name: "Поменять местами страницы файлов DOT"
-          link: "/merger/net/swap/dot/"
-          description: "Шаблон документа Microsoft Word"
-        # format loop
-        - name: "Поменять местами страницы файлов DOTM"
-          link: "/merger/net/swap/dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-        # format loop
-        - name: "Поменять местами страницы файлов DOTX"
-          link: "/merger/net/swap/dotx/"
-          description: "Шаблон документа Word Open XML"
-        # format loop
-        - name: "Поменять местами страницы файлов EPUB"
-          link: "/merger/net/swap/epub/"
-          description: "Формат файла цифровой электронной книги"
-        # format loop
-        - name: "Поменять местами страницы файлов HTML"
-          link: "/merger/net/swap/html/"
-          description: "Язык гипертекстовой разметки"
-        # format loop
-        - name: "Поменять местами страницы файлов MHT"
-          link: "/merger/net/swap/mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-        # format loop
-        - name: "Поменять местами страницы файлов MHTML"
-          link: "/merger/net/swap/mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-        # format loop
-        - name: "Поменять местами страницы файлов ODP"
-          link: "/merger/net/swap/odp/"
-          description: "Формат файла презентации OpenDocument"
-        # format loop
-        - name: "Поменять местами страницы файлов ODS"
-          link: "/merger/net/swap/ods/"
-          description: "Открыть электронную таблицу документов"
-        # format loop
-        - name: "Поменять местами страницы файлов ODT"
-          link: "/merger/net/swap/odt/"
-          description: "Открыть текст документа"
-        # format loop
-        - name: "Поменять местами страницы файлов OTP"
-          link: "/merger/net/swap/otp/"
-          description: "Шаблон графика происхождения"
-        # format loop
-        - name: "Поменять местами страницы файлов OTT"
-          link: "/merger/net/swap/ott/"
-          description: "Открыть шаблон документа"
-        # format loop
-        - name: "Поменять местами страницы файлов PDF"
-          link: "/merger/net/swap/pdf/"
-          description: "Портативный документ"
-        # format loop
-        - name: "Поменять местами страницы файлов POTM"
-          link: "/merger/net/swap/potm/"
-          description: "Шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "Поменять местами страницы файлов POTX"
-          link: "/merger/net/swap/potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "Поменять местами страницы файлов PPS"
-          link: "/merger/net/swap/pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-        # format loop
-        - name: "Поменять местами страницы файлов PPSM"
-          link: "/merger/net/swap/ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-        # format loop
-        - name: "Поменять местами страницы файлов PPSX"
-          link: "/merger/net/swap/ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-        # format loop
-        - name: "Поменять местами страницы файлов PPT"
-          link: "/merger/net/swap/ppt/"
-          description: "Презентация PowerPoint"
-        # format loop
-        - name: "Поменять местами страницы файлов PPTM"
-          link: "/merger/net/swap/pptm/"
-          description: "Презентация Microsoft PowerPoint"
-        # format loop
-        - name: "Поменять местами страницы файлов PPTX"
-          link: "/merger/net/swap/pptx/"
-          description: "Презентация PowerPoint Open XML"
-        # format loop
-        - name: "Поменять местами страницы файлов PS"
-          link: "/merger/net/swap/ps/"
-          description: "Постскриптум (PS)"
-        # format loop
-        - name: "Поменять местами страницы файлов RTF"
-          link: "/merger/net/swap/rtf/"
-          description: "Расширенный текстовый формат файла"
-        # format loop
-        - name: "Поменять местами страницы файлов TEX"
-          link: "/merger/net/swap/tex/"
-          description: "Исходный документ LaTeX"
-        # format loop
-        - name: "Поменять местами страницы файлов TSV"
-          link: "/merger/net/swap/tsv/"
-          description: "Файл значений, разделенных табуляцией"
-        # format loop
-        - name: "Поменять местами страницы файлов TXT"
-          link: "/merger/net/swap/txt/"
-          description: "Формат обычного текстового файла"
-        # format loop
-        - name: "Поменять местами страницы файлов VDX"
-          link: "/merger/net/swap/vdx/"
-          description: "Формат файла чертежа Microsoft Visio XML"
-        # format loop
-        - name: "Поменять местами страницы файлов VSDM"
-          link: "/merger/net/swap/vsdm/"
-          description: "Рисование Visio с поддержкой макросов"
-        # format loop
-        - name: "Поменять местами страницы файлов VSDX"
-          link: "/merger/net/swap/vsdx/"
-          description: "Формат файла Microsoft Visio"
-        # format loop
-        - name: "Поменять местами страницы файлов VSSM"
-          link: "/merger/net/swap/vssm/"
-          description: "Формат файла с поддержкой макросов Microsoft Visio"
-        # format loop
-        - name: "Поменять местами страницы файлов VSSX"
-          link: "/merger/net/swap/vssx/"
-          description: "Формат файла трафарета Visio"
-        # format loop
-        - name: "Поменять местами страницы файлов VSTM"
-          link: "/merger/net/swap/vstm/"
-          description: "Шаблон чертежа Visio с поддержкой макросов"
-        # format loop
-        - name: "Поменять местами страницы файлов VSTX"
-          link: "/merger/net/swap/vstx/"
-          description: "Формат файла Microsoft Visio"
-        # format loop
-        - name: "Поменять местами страницы файлов VSX"
-          link: "/merger/net/swap/vsx/"
-          description: "Векторное скалярное расширение"
-        # format loop
-        - name: "Поменять местами страницы файлов VTX"
-          link: "/merger/net/swap/vtx/"
-          description: "Шаблон чертежа Microsoft Visio"
-        # format loop
-        - name: "Поменять местами страницы файлов XLAM"
-          link: "/merger/net/swap/xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-        # format loop
-        - name: "Поменять местами страницы файлов XLS"
-          link: "/merger/net/swap/xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-        # format loop
-        - name: "Поменять местами страницы файлов XLSB"
-          link: "/merger/net/swap/xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-        # format loop
-        - name: "Поменять местами страницы файлов XLSM"
-          link: "/merger/net/swap/xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-        # format loop
-        - name: "Поменять местами страницы файлов XLT"
-          link: "/merger/net/swap/xlt/"
-          description: "Шаблон Microsoft Excel"
-        # format loop
-        - name: "Поменять местами страницы файлов XLTM"
-          link: "/merger/net/swap/xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-        # format loop
-        - name: "Поменять местами страницы файлов XLTX"
-          link: "/merger/net/swap/xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-        # format loop
-        - name: "Поменять местами страницы файлов XPS"
-          link: "/merger/net/swap/xps/"
-          description: "Спецификация документа Open XML"
+        .NET API для документов и изображений. Поменяйте местами страницы документов, указанных ниже.
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

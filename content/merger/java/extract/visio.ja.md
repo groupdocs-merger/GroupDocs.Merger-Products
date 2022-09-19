@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:10:58
 draft: false
+otherformats: 
 
-head_title: "JavaでVisioを複数のファイルに抽出する"
-head_description: "Javaユーザーは、ドキュメントマージAPIを使用して、ページ番号、ページ間隔、偶数ページまたは奇数ページに基づいて単一のVisioファイルを複数のファイルに抽出します。"
+############################# Head ############################
+head_title: "Java で VISIO ページを抽出"
+head_description: "Java の VISIO ファイルからページをすばやく抽出します。ドキュメント マージ API を使用して、選択したページを含む新しいドキュメントを保存します。"
 
-title: "JavaでVisioを複数のファイルに抽出する"
-description: "JavaおよびJ2SEアプリケーション用のドキュメントマージAPIを使用して、ページ番号、ページ間隔、偶数ページまたは奇数ページに基づいて、単一のVisioファイルを複数の結果ファイルに抽出します。"
+############################# Header ############################
+title: "Java の VISIO ページを抽出"
+description: "数行の Java コードで VISIO ページを抽出します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,219 +33,97 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/java"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for Java APIについて"
+    title: "GroupDocs.Merger for Java API について"
     content: |
-        GroupDocs.Merger for Javaライブラリは、PDF、Microsoft Office（Word、Excel、PowerPoint、OneNote）、OpenDocument、HTML、画像など、.NETアプリケーション内のさまざまなドキュメント形式を安全にマージおよび分割するためのシンプルなソリューションを提供します。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for Java](/ja/merger/java/) は、PDF、Microsoft Office (Word、Excel、PowerPoint 、OneNote)、OpenDocument、HTML、画像、および Java アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。
         
-        GroupDocs.Merger APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル ページの抽出機能を必要とする企業向けソリューションに最適です。これらの API は、J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10 を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでページごとにVisioファイルを抽出する"
+    title_left: "Java で VISIO ファイル ページを抽出"
     content_left: |
-        [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、単一のVisioファイルを複数の結果ファイルに簡単に抽出できます。
-
-        *結果のドキュメントに表示されるページ番号で**ExtractOptions **します。
-        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** extractPages **メソッドを呼び出し、** ExtractOptions **渡します。
-        * ** save **メソッドを呼び出し、ファイルパスを指定して結果のドキュメントを保存します。
+        [GroupDocs.Merger for Java](/ja/merger/java/) により、Java 開発者は VISIO ファイルから目的のページを簡単に抽出して、次のように保存できます。いくつかの簡単な手順を実行して、選択したページを含む新しいファイルを作成します。
         
+        * 結果のドキュメントに表示されるページ番号で **ExtractOptions** を初期化します。
+        * **Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **extractPages** を呼び出し、**ExtractOptions** オブジェクトを渡します。
+        * **save** を呼び出し、ファイル パスを指定して結果のドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for Java API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、IntelliJ IDEA、Eclipse
-        * フレームワーク：Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, IntelliJ IDEA, Eclipse
+        * フレームワーク: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger) から GroupDocs.Merger for Java の最新バージョンをダウンロードします
+         
     code: |
-        ```cs
-        //GroupDocs.MergerAPIを使用してVisioファイルを抽出します
-        String filePath = "input.vdx";
-        String filePathOut = "output.vdx";
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Java サンプル コードを使用して VISIO ファイル ページを抽出する方法">}}
 
-        //ページ番号を使用してExtractOptionsクラスを初期化します
-        ExtractOptions extractOptions = new ExtractOptions(new int[] { 1, 4 });
+        ```java    
+        // GroupDocs.Merger API を使用して VISIO ファイル ページを抽出します
+        // 選択したページ番号で ExtractOptions クラスを初期化する
+        ExtractOptions extractOptions = new ExtractOptions(new int[] { 2, 5 });
 
-        //入力Visioドキュメントを使用してマージをインスタンス化します
-        Merger merger = new Merger("input.vdx");
+        // 入力 VISIO ドキュメントで Merger をインスタンス化する
+        Merger merger = new Merger("input.visio");
 
-        // extractPagesメソッドを呼び出し、extractOptionsオブジェクトを渡します
+        // extractPages メソッドを呼び出し、それに ExtractOptions オブジェクトを渡します
         merger.extractPages(extractOptions);
-
-        // saveメソッドを呼び出し、出力ドキュメントを保存するパスを指定します
-        merger.save("output.vdx");
+    
+        // save メソッドを呼び出して、抽出されたページを含む出力ドキュメントを保存します
+        merger.save("output.visio");
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-ドキュメントページを抽出するオンラインアプリ"
+    title: "ライブデモ - VISIO ページをオンラインで抽出"
     content: |
-        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/splitter/vdx)サイトにアクセスして、Visioファイルを今すぐ抽出します。  
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/visio) Web サイトにアクセスして、今すぐ VISIO ファイル ページを抽出します。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-image-o"
-          title: "Visioファイル形式について"
-          content: |
-            Microsoft Visioで作成され、XML形式で保存された図面またはグラフには、拡張子が.VDXが付いています。 Visio図面XMLファイルは、Microsoftが開発したVisioソフトウェアで作成されます。 Microsoft Visioには、プレゼンテーションやドキュメントで使用できるビジュアルドキュメントを生成する機能があります。 Visio図面XMLファイルには、ビジュアルオブジェクトとビジュアル要素のメタデータの詳細が含まれています。これらの視覚要素のビジョン描画XMLファイルにテキストを追加することもできます。これらのVisio描画XMLファイルは、XMLベースのフォーマット標準および画像データエンコーディング仕様と統合されており、そのコンテンツをMicrosoftVisioソフトウェアでVDXファイル形式でレンダリングおよび保存できます。これらのVisio図面XMLファイルには、.vdx拡張子が追加されます。以下は、VDXファイル形式を開くことができるアプリケーションです。
 
-          link: "https://docs.fileformat.com/image/vdx/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のドキュメント形式からのページの抽出"
+    enable: true
+    title: "他のドキュメント形式からページを抽出する"
     content: |
-        Javaドキュメントのマージとファイル形式と画像の分割API。以下に示すように、一般的なファイル形式のいくつかを抽出します。
-    format: 
-          link: "https://products.groupdocs.com/merger/java/extract/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Java は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を抽出します。
 
-          link: "https://products.groupdocs.com/merger/java/extract/word/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/extract/excel/"
-          description: "MicrosoftExcelワークシート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/worksheet/"
-          description: "MicrosoftExcelワークシート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/extract/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/extract/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/extract/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/rtf/"
-          description: "リッチテキストドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/extract/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "https://products.groupdocs.com/merger/java/extract/ott/"
-          description: "OpenDocumentテキストテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/extract/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/xlam/"
-          description: "ExcelOpenXMLマクロ対応のアドイン"
-
-          link: "https://products.groupdocs.com/merger/java/extract/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/xlsb/"
-          description: "MicrosoftExcelバイナリワークシート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/xltx/"
-          description: "MicrosoftExcelテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "https://products.groupdocs.com/merger/java/extract/csv/"
-          description: "カンマ区切り値ファイル"
-
-          link: "https://products.groupdocs.com/merger/java/extract/tsv/"
-          description: "タブ区切り値ファイル"
-        
-          link: "https://products.groupdocs.com/merger/java/extract/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/extract/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/extract/pps/"
-          description: "MicrosoftPowerPoint97-2003スライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/extract/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/extract/potx/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/extract/odp/"
-          description: "OpenDocumentプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/extract/otp/"
-          description: "OpenDocumentプレゼンテーションテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/extract/txt/"
-          description: "プレーンテキストファイル"
-
-          link: "https://products.groupdocs.com/merger/java/extract/one/"
-          description: "Microsoft OneNote"
-
-          link: "https://products.groupdocs.com/merger/java/extract/xps/"
-          description: "XMLPaperSpecificationファイル"
-
-          link: "https://products.groupdocs.com/merger/java/extract/web/"
-          description: "ハイパーテキストマークアップ言語ファイル"
-
-          link: "https://products.groupdocs.com/merger/java/extract/html/"
-          description: "ハイパーテキストマークアップ言語ファイル"
-
-          link: "https://products.groupdocs.com/merger/java/extract/mht/"
-          description: "MHTMLWebアーカイブ"
-
-          link: "https://products.groupdocs.com/merger/java/extract/mhtml/"
-          description: "MIME HTML"
-
-          link: "https://products.groupdocs.com/merger/java/extract/tex/"
-          description: "LaTeXソースドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/extract/epub/"
-          description: "eBookファイル"
-          
-          link: "https://products.groupdocs.com/merger/java/extract/ppsm/"
-          description: "MicrosoftPowerPointマクロ対応のスライドショー"
-        
-          link: "https://products.groupdocs.com/merger/java/extract/potm/"
-          description: "MicrosoftPowerPointマクロ対応テンプレート"
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

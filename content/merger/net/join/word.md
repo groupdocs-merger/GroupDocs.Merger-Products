@@ -1,16 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+layout: "auto-gen-merger"
+date: 2022-09-19T14:11:08
 draft: false
+otherformats: 
 
 ############################# Head ############################
-head_title: "Join Word Files into One in C# (.NET Core) – Word Merger"
-head_description: "Join multiple Word files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
+head_title: "Join WORD Files in C# | WORD Merger"
+head_description: "Join multiple WORD files into a single file using C# .NET documents merger API. Join specific pages or page ranges from various documents to a single document."
 
 ############################# Header ############################
-title: "Join Word Files In C# (.NET Core)"
-description: "Join multiple Word files into a single file using C# .NET documents merger API. Join selected pages or page ranges from various source documents into a single resultant document."
+title: "Join WORD Files In C#"
+description: "Join WORD with a few lines of .NET code."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -58,300 +59,66 @@ about:
     enable: true
     title: "About GroupDocs.Merger for .NET API"
     content: |
-        [GroupDocs.Merger for .NET](/merger/net/) offers a simple solution to safely Join & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        [GroupDocs.Merger for .NET](/merger/net/) provides a convenient solution to join multiple PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many other documents into a single file within .NET applications. GroupDocs.Merger will save you a lot of effort, as you are allowed to join WORD documents - there is no need to install any third-party software, desktop applications or plugins. Now it is unnecessary to waste your time and join files manually! GroupDocs mission is to provide the best quality and simplify document-processing workflows.
         
-        GroupDocs.Merger APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
+        GroupDocs.Merger API is a right choice for corporate solutions which needs file joining features. These APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "How to Join Multiple Word Files"
+    title_left: "How to Join Multiple WORD Files"
     content_left: |
-        [GroupDocs.Merger](/merger/net/) makes it easy for .NET developers to join two or more Word files within their applications by implementing a few easy steps.
-
-        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
-        *   Call **Join** of **Merger** class e and pass second source document path.
-        *   Call **Save** of **Merger** class e to save the merged document.
+        [GroupDocs.Merger for .NET](/merger/net/) makes it easy for .NET developers to join two or more WORD files within their applications by implementing a few easy steps.
         
+        * Create new instance of **Merger** and pass source document path as a constructor parameter.
+        * Call **Join** of **Merger** class and pass the second source document path.
+        * Call **Save** of **Merger** class to save the merged document.
+
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Merger for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environments: Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Merger for .NET from [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Download the latest version of GroupDocs.Merger for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.merger)
+         
     code: |
-        ```cs
-        // Join Word files using GroupDocs.Merger API
-        // Instantiate Merger with input Word document
-        using (Merger merger = new Merger("input1.docx"))
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="How to join WORD files using C# example code">}}
+
+        ```csharp    
+        // Join WORD files using GroupDocs.Merger API
+        // Instantiate Merger with input WORD document
+        using (Merger merger = new Merger("input1.word"))
           {
             // Call Join method of Merger class instance and pass second source document path
-            merger.Join("input2.docx");
-            
+            merger.Join("input2.word");
+    
             // Call Save method of Merger class instance to save merged document
-            merger.Save("merged-file.docx");
+            merger.Save("merged-file.word");
           }
         ```
+     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:
     enable: true
     title: "Live Demos - Online App to Join Documents"
     content: |
-        Join more than one Word files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/docx) website.  
-        The live demo has the following benefits
+       Join more than one WORD files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/word) website.
+       The live demo has the following benefits.
         
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-word-o"
-          title: "About Word File Format"
-          content: |
-            A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing. Common plain text file extensions and associated file formats include TXT, CSV, while file extensions for rich text documents include DOCX, DOC and RTF.
-
-          link: "https://docs.fileformat.com/word-processing/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Merging Other Document Formats"
+    title: "Joining Other Document Formats"
     content: |
-        .NET documents merger API for file formats and images. Join some of the popular document formats together as stated below.
-    format: 
-        # format loop
-        - name: "Join PDF Files"
-          link: "https://products.groupdocs.com/merger/net/join/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Join Word Files"
-          link: "https://products.groupdocs.com/merger/net/join/word/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Join Excel Files"
-          link: "https://products.groupdocs.com/merger/net/join/excel/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Join Worksheet Files"
-          link: "https://products.groupdocs.com/merger/net/join/worksheet/"
-          description: "Microsoft Excel Worksheet"
-
-        # format loop
-        - name: "Join Image Files"
-          link: "https://products.groupdocs.com/merger/net/join/image/"
-          description: "Image Files"
-
-        # format loop
-        - name: "Join DOC Files"
-          link: "https://products.groupdocs.com/merger/net/join/doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Join DOCM Files"
-          link: "https://products.groupdocs.com/merger/net/join/docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "Join DOCX Files"
-          link: "https://products.groupdocs.com/merger/net/join/docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "Join DOT Files"
-          link: "https://products.groupdocs.com/merger/net/join/dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "Join DOTX Files"
-          link: "https://products.groupdocs.com/merger/net/join/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Join DOTM Files"
-          link: "https://products.groupdocs.com/merger/net/join/dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "Join RTF Files"
-          link: "https://products.groupdocs.com/merger/net/join/rtf/"
-          description: "Rich Text Document"
-
-        # format loop
-        - name: "Join ODT Files"
-          link: "https://products.groupdocs.com/merger/net/join/odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Join OTT Files"
-          link: "https://products.groupdocs.com/merger/net/join/ott/"
-          description: "OpenDocument Text Template"
-
-        # format loop
-        - name: "Join XLS Files"
-          link: "https://products.groupdocs.com/merger/net/join/xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "Join XLSX Files"
-          link: "https://products.groupdocs.com/merger/net/join/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Join XLAM Files"
-          link: "https://products.groupdocs.com/merger/net/join/xlam/"
-          description: "Excel Open XML Macro-Enabled Add-in"
-
-        # format loop
-        - name: "Join XLSM Files"
-          link: "https://products.groupdocs.com/merger/net/join/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Join XLSB Files"
-          link: "https://products.groupdocs.com/merger/net/join/xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Join XLTX Files"
-          link: "https://products.groupdocs.com/merger/net/join/xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Join XLTM Files"
-          link: "https://products.groupdocs.com/merger/net/join/xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
-        - name: "Join ODS Files"
-          link: "https://products.groupdocs.com/merger/net/join/ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Join CSV Files"
-          link: "https://products.groupdocs.com/merger/net/join/csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "Join TSV Files"
-          link: "https://products.groupdocs.com/merger/net/join/tsv/"
-          description: "Tab Separated Values File"
-        
-        # format loop
-        - name: "Join PPT Files"
-          link: "https://products.groupdocs.com/merger/net/join/ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Join PPTX Files"
-          link: "https://products.groupdocs.com/merger/net/join/pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Join PPS Files"
-          link: "https://products.groupdocs.com/merger/net/join/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
-
-        # format loop
-        - name: "Join PPSX Files"
-          link: "https://products.groupdocs.com/merger/net/join/ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "Join POTX Files"
-          link: "https://products.groupdocs.com/merger/net/join/potx/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "Join PPTM Files"
-          link: "https://products.groupdocs.com/merger/net/join/pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "Join ODP Files"
-          link: "https://products.groupdocs.com/merger/net/join/odp/"
-          description: "OpenDocument Presentation"
-
-        # format loop
-        - name: "Join OTP Files"
-          link: "https://products.groupdocs.com/merger/net/join/otp/"
-          description: "OpenDocument Presentation Template"
-
-        # format loop
-        - name: "Join Text Files"
-          link: "https://products.groupdocs.com/merger/net/join/txt/"
-          description: "Plain Text File"
-
-        # format loop
-        - name: "Join OneNote Files"
-          link: "https://products.groupdocs.com/merger/net/join/one/"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Join TIFF Files"
-          link: "https://products.groupdocs.com/merger/net/join/tiff/"
-          description: "Tagged Image File Format"
-        
-        # format loop
-        - name: "Join PNG Files"
-          link: "https://products.groupdocs.com/merger/net/join/png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Join BMP Files"
-          link: "https://products.groupdocs.com/merger/net/join/bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Join XPS Files"
-          link: "https://products.groupdocs.com/merger/net/join/xps/"
-          description: "XML Paper Specification File"
-
-        # format loop
-        - name: "Join Web Files"
-          link: "https://products.groupdocs.com/merger/net/join/web/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Join HTML Files"
-          link: "https://products.groupdocs.com/merger/net/join/html/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "Join MHT Files"
-          link: "https://products.groupdocs.com/merger/net/join/mht/"
-          description: "MHTML Web Archive"
-
-        # format loop
-        - name: "Join MHTML Files"
-          link: "https://products.groupdocs.com/merger/net/join/mhtml/"
-          description: "MIME HTML"
-
-        # format loop
-        - name: "Join TEX Files"
-          link: "https://products.groupdocs.com/merger/net/join/tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "Join EPUB Files"
-          link: "https://products.groupdocs.com/merger/net/join/epub/"
-          description: "eBook File"
-          
-        # format loop
-        - name: "Join PPSM Files"
-          link: "https://products.groupdocs.com/merger/net/join/ppsm/"
-          description: "Microsoft PowerPoint Macro-Enabled Slide Show"
-        
-        # format loop
-        - name: "Join POTM Files"
-          link: "https://products.groupdocs.com/merger/net/join/potm/"
-          description: "Microsoft PowerPoint Macro-Enabled Template"
+        .NET documents merger API for file formats and images. Join together some of the popular document formats as stated below.
 
 ############################# Back to top ###############################
 back_to_top:

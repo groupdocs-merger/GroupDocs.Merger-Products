@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-03-04T18:48:02
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:14:24
 draft: false
+otherformats: ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb
 
-head_title: "C＃.NETでのPPSページの移動、並べ替え、並べ替え"
-head_description: "C＃.NETユーザーは、ドキュメントマージAPIを使用してページの順序を逆にすることにより、PPSドキュメント内のページを移動、再配置、および並べ替えます."
+############################# Head ############################
+head_title: "C# で PPS ページ移動"
+head_description: "ドキュメント マージ API を使用して、C# 内の PPS ドキュメント内のページを任意の位置に移動します。"
 
-title: ".NETでのPPSページの移動と並べ替え"
-description: ".NET（C＃、ASP.NET、VB.NET、.NET Core）アプリケーション用のドキュメントマージAPIを使用して、PPSドキュメント内のページを任意の位置に移動および再配置します."
+############################# Header ############################
+title: "C# 内の PPS ページを移動"
+description: "数行の .NET コードで PPS ページを移動します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,272 +33,101 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for .NET APIについて"
+    title: "GroupDocs.Merger for .NET API について"
     content: |
-        [GroupDocs.Merger for .NET](https://products.groupdocs.com/merger/net/）は、さまざまなドキュメント形式間で安全にマージ、分割、移動、削除、抽出、交換、およびローテーションするためのシンプルなソリューションを提供しますPDF、Microsoft Office（Word、Excel、PowerPoint、OneNote)、OpenDocument、HTML、および.NETアプリケーション内の他の多くのものを含みます。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) は、PDF、Microsoft Office (Word、Excel、PowerPoint 、OneNote)、OpenDocument、HTML、画像、および .NET アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。
         
-        GroupDocs.Merger APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル ページ移動機能を必要とする企業向けソリューションに最適です。これらの API は、.NET Framework, .NET Standard, .NET Core, Mono を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: ".NETでPPSファイルページを移動する"
+    title_left: ".NET で PPS ファイル ページを移動"
     content_left: |
-        [GroupDocs.Merger](/merger/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、PDFファイル内のページを簡単に移動および再配置できます。
-
-        * ** MoveOptions **クラスを初期化して、現在のページ番号と新しいページ番号を指定します。
-        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** MovePage **メソッドを呼び出し、** MoveOptions **渡します。
-        * ** Save **メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) は、C# 開発者が PPS ファイル内でページを簡単に移動できるようにするために、いくつかの簡単な手順を実装します。 .
         
+        * **MoveOptions** を初期化して、現在のページ番号と新しいページ番号を指定します。
+        * **Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **MovePage** を呼び出し、**MoveOptions** オブジェクトを渡します。
+        * **Save** を呼び出し、ファイル パスを指定して結果のドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for .NET API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)からGroupDocs.Mergerfor.NETの最新バージョンをダウンロードします
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework, .NET Standard, .NET Core, Mono
+        * [NuGet](https://www.nuget.org/packages/groupdocs.merger) から GroupDocs.Merger for .NET の最新バージョンをダウンロードします
+         
     code: |
-        ```cs
-        //GroupDocs.MergerAPIを使用してPPSファイルページを移動します
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="C# サンプル コードを使用して PPS ファイル ページを移動する方法">}}
+
+        ```csharp    
+        // GroupDocs.Merger API を使用して PPS ファイル ページを移動する
         int pageNumber = 6;
         int newPageNumber = 1;
 
-        // MoveOptionsクラスを初期化して、現在のページ番号と新しいページ番号を指定します
+        // MoveOptions クラスを初期化して、現在のページ番号と新しいページ番号を指定する
         MoveOptions moveOptions = new MoveOptions(pageNumber, newPageNumber);
 
-        //入力PPSドキュメントを使用して合併をインスタンス化します
+        // 入力 PPS ドキュメントで Merger をインスタンス化する
         using (Merger merger = new Merger("input.pps"))
           {
-            // MovePageメソッドを呼び出し、MoveOptionsオブジェクトを渡します
+            // MovePage メソッドを呼び出し、MoveOptions オブジェクトをそれに渡します
             merger.MovePage(moveOptions);
-            
-            // Saveメソッドを呼び出し、目的のファイルパスを渡して出力ドキュメントを保存します
+    
+            // Save メソッドを呼び出し、目的のファイル パスを渡して出力ドキュメントを保存します。
             merger.Save("output.pps");
           }
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-PPSドキュメントページをオンラインに移動"
+    title: "ライブデモ - PPS ページをオンラインに移動"
     content: |
-        [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/pps)Webサイトにアクセスして、PPSファイル内のページを今すぐ移動してください。
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/pps) Web サイトにアクセスして、今すぐ PPS ファイル ページを移動します。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-powerpoint"
-          title: "PPSファイル形式について"
-          content: |
-            PPS、PowerPointスライドショー、ファイルはスライドショーの目的でMicrosoftPowerPointを使用して作成されます。 PPSファイルの読み取りと作成は、MicrosoftPowerPoint97-2003でサポートされています。このファイル形式の最新バージョンは、OfficeOpenXML標準に基づくPPSXです。 PPSファイルは最新バージョンのMicrosoftPowerPointでも読み取ることができますが、新しく作成されたファイルはPPSXファイル形式でのみ保存できます。 PPSファイルを別のユーザーと共有して開くと、編集可能モードで開くPPTファイルとは異なり、Powerpointの表示として起動します。 
 
-          link: "https://docs.fileformat.com/presentation/pps/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のドキュメント形式のページを移動する"
     content: |
-        .NETは、ファイル形式と画像のマージと分割APIを文書化します。以下に示すように、いくつかの一般的なファイル形式のページを並べ替えます。
-    format: 
-        - name: ".NETでDOCファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/doc/"
-          description: "MicrosoftWordドキュメント"
+        .NET は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を移動します。
 
-        - name: ".NETでDOCMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-        - name: ".NETでDOCXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-        - name: ".NETでDOTファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-        - name: ".NETでDOTMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-        - name: ".NETでDOTXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-        - name: ".NETでEPUBファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-        - name: ".NETでHTMLファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/html/"
-          description: "ハイパーテキストマークアップ言語"
-
-        - name: ".NETでMHTファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/mht/"
-          description: "集約HTMLのMIMEカプセル化"
-
-        - name: ".NETでMHTMLファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
-
-        - name: ".NETでODPファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
-
-        - name: ".NETでODSファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-        - name: ".NETでODTファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/odt/"
-          description: "ドキュメントテキストを開く"
-
-        - name: ".NETでOTPファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/otp/"
-          description: "原点グラフテンプレート"
-
-        - name: ".NETでOTTファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/ott/"
-          description: "ドキュメントテンプレートを開く"
-
-        - name: ".NETでPDFファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/pdf/"
-          description: "ポータブルドキュメント"
-
-        - name: ".NETでPOTMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-        - name: ".NETでPOTXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-        - name: ".NETでPPSMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-        - name: ".NETでPPSXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-        - name: ".NETでPPTファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-        - name: ".NETでPPTMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-        - name: ".NETでPPTXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-        - name: ".NETでPSファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/ps/"
-          description: "PostScript（PS）"
-
-        - name: ".NETでRTFファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/rtf/"
-          description: "リッチテキストファイル形式"
-
-        - name: ".NETでTEXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/tex/"
-          description: "LaTeXソースドキュメント"
-
-        - name: ".NETでVDXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/vdx/"
-          description: "MicrosoftVisioXML図面ファイル形式"
-
-        - name: ".NETでVSDMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/vsdm/"
-          description: "Visioマクロ対応の描画"
-
-        - name: ".NETでVSDXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/vsdx/"
-          description: "MicrosoftVisioファイル形式"
-
-        - name: ".NETでVSSMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/vssm/"
-          description: "MicrosoftVisioマクロ対応ファイル形式"
-
-        - name: ".NETでVSSXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/vssx/"
-          description: "Visioステンシルファイル形式"
-
-        - name: ".NETでVSTMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/vstm/"
-          description: "Visioマクロ対応の図面テンプレート"
-
-        - name: ".NETでVSTXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/vstx/"
-          description: "MicrosoftVisioファイル形式"
-
-        - name: ".NETでVSXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/vsx/"
-          description: "ベクトルスカラー拡張"
-
-        - name: ".NETでVTXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/vtx/"
-          description: "MicrosoftVisio図面テンプレート"
-
-        - name: ".NETでXLAMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/xlam/"
-          description: "MicrosoftExcelマクロ対応アドイン"
-
-        - name: ".NETでXLSファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-        - name: ".NETでXLSBファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
-
-        - name: ".NETでXLSMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-        - name: ".NETでXLSXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-        - name: ".NETでXLTファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/xlt/"
-          description: "MicrosoftExcelテンプレート"
-
-        - name: ".NETでXLTMファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-        - name: ".NETでXLTXファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/xltx/"
-          description: "Microsoft ExcelOpenXMLテンプレート"
-
-        - name: ".NETでXPSファイルページを移動する"
-          link: "https://products.groupdocs.com/merger/net/move/xps/"
-          description: "XMLPaperSpecificationを開く"
-
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

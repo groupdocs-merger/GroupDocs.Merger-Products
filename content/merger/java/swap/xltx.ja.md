@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-03-05T16:42:33
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:18:23
 draft: false
+otherformats: pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam
 
-head_title: "JavaでのXLTXページの交換と交換"
-head_description: "Javaユーザーは、ドキュメントのマージと分割APIを使用して、XLTXファイル内の2つのページの位置を交換および交換します."
+############################# Head ############################
+head_title: "JavaのXLTXページを交換して交換する"
+head_description: "ドキュメント マージ API を使用して、Java の XLTX ファイル内の 2 つのページの位置を入れ替えます。"
 
-title: "JavaでのXLTXページの交換と交換"
-description: "JavaおよびJ2SEアプリケーション用のファイルスプリッターAPIを使用した、XLTXファイル内の2ページのスワップと交換の位置."
+############################# Header ############################
+title: "Java の XLTX ページを入れ替える"
+description: "XLTX ページを数行の Java コードで入れ替えます。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,282 +33,100 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/java"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for Java APIについて"
+    title: "GroupDocs.Merger for Java API について"
     content: |
-        GroupDocs.Merger for Javaライブラリは、PDF、Microsoft Office（Word、Excel、PowerPoint、OneNote）、OpenDocument、HTML、画像など、.NETアプリケーション内のさまざまなドキュメント形式を安全にマージおよび分割するためのシンプルなソリューションを提供します。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for Java](/ja/merger/java/) は、PDF、Microsoft Office (Word、Excel、PowerPoint 、OneNote)、OpenDocument、HTML、画像、および Java アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。
         
-        GroupDocs.Merger APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル ページのスワップ機能を必要とする企業向けソリューションに最適です。これらの API は、J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10 を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "XLTXファイルページをJavaで交換する"
+    title_left: "Java の XLTX ファイル ページを交換"
     content_left: |
-        [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、XLTXファイル内のページを簡単に交換、交換、および整理できます。
-
-        * ** SwapOptions **クラスを初期化して、交換するページ番号を指定します。
-        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** swapPages **メソッドを呼び出し、** SwapOptions **渡します。
-        * ** save **メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
+        [GroupDocs.Merger for Java](/ja/merger/java/) により、Java 開発者は、いくつかの簡単な手順を実装することで XLTX ファイル内のページを簡単に交換できます.
         
+        * **SwapOptions** を初期化して、交換するページ番号を指定します。
+        * **Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **swapPages** を呼び出し、**SwapOptions** オブジェクトを渡します。
+        * **save** を呼び出し、ファイル パスを指定して結果のドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for Java API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: NetBeans、IntelliJ IDEA、Eclipse
-        *フレームワーク: Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, IntelliJ IDEA, Eclipse
+        * フレームワーク: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger) から GroupDocs.Merger for Java の最新バージョンをダウンロードします
+         
     code: |
-        ```java
-        //GroupDocs.MergerAPIを使用してXLTXファイルページを交換します
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Java サンプル コードを使用して XLTX ファイル ページをスワップする方法">}}
+
+        ```java    
+        // GroupDocs.Merger API を使用して XLTX ファイル ページを交換します
         int pageNumber1 = 6;
         int pageNumber2 = 1;
 
-        // SwapOptionsクラスを初期化して、スワップするページ番号を指定します
+        // SwapOptions クラスを初期化して、スワップするページ番号を指定する
         SwapOptions swapOptions = new SwapOptions(pageNumber2, pageNumber1);
 
-        //入力XLTXドキュメントを使用して合併をインスタンス化します
+        // 入力 XLTX ドキュメントで Merger をインスタンス化する
         Merger merger = new Merger("input.xltx");
-        // swapPagesメソッドを呼び出し、SwapOptionsオブジェクトを渡します
+
+        // SwapPages メソッドを呼び出し、SwapOptions オブジェクトをそれに渡します
         merger.swapPages(swapOptions);
-            
-        // saveメソッドを呼び出し、目的のファイルパスを渡して出力ドキュメントを保存します
+    
+        // Save メソッドを呼び出し、目的のファイル パスを渡して出力ドキュメントを保存します。
         merger.save("output.xltx");
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-XLTXファイルページをオンラインで交換"
+    title: "ライブ デモ - XLTX ファイル ページをオンラインでスワップ"
     content: |
-        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/splitter/swap-pages/xltx)サイトにアクセスして、XLTXファイル内のページを今すぐ交換してください。
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/xltx) Web サイトにアクセスして、XLTX ファイル ページを今すぐスワップします。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-excel"
-          title: "XLTXファイル形式について"
-          content: |
-            XLTX拡張子の付いたファイルは、OfficeOpenXMLファイル形式の仕様に基づくMicrosoftExcelテンプレートファイルを表します。これは、XLTXファイルで指定されたものと同じ設定を示すXLSXファイルを生成するために使用できる標準テンプレートファイルを作成するために使用されます。
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のファイル形式のページを入れ替える"
     content: |
-        Javaドキュメントのマージとファイル形式と画像の分割API。以下に示すように、いくつかの一般的なファイル形式のページを交換します。
-    format: 
-        - name: "JavaでCSVファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/csv/"
-          description: "カンマ区切り値ファイル"
+        Java は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を交換します。
 
-        - name: "JavaでDOCファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/doc/"
-          description: "MicrosoftWordドキュメント"
-
-        - name: "JavaでDOCMファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-        - name: "JavaでDOCXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-        - name: "JavaでDOTファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-        - name: "JavaでDOTMファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-        - name: "JavaでDOTXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-        - name: "JavaでEPUBファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-        - name: "JavaでHTMLファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/html/"
-          description: "ハイパーテキストマークアップ言語"
-
-        - name: "JavaでMHTファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/mht/"
-          description: "集約HTMLのMIMEカプセル化"
-
-        - name: "JavaでMHTMLファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
-
-        - name: "JavaでODPファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
-
-        - name: "JavaでODSファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-        - name: "JavaでODTファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/odt/"
-          description: "ドキュメントテキストを開く"
-
-        - name: "JavaでOTPファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/otp/"
-          description: "原点グラフテンプレート"
-
-        - name: "JavaでOTTファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/ott/"
-          description: "ドキュメントテンプレートを開く"
-
-        - name: "JavaでPDFファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/pdf/"
-          description: "ポータブルドキュメント"
-
-        - name: "JavaでPOTMファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-        - name: "JavaでPOTXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-        - name: "JavaでPPSファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-        - name: "JavaでPPSMファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-        - name: "JavaでPPSXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-        - name: "JavaでPPTファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-        - name: "JavaでPPTMファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-        - name: "JavaでPPTXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-        - name: "PSファイルページをJavaで交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/ps/"
-          description: "PostScript（PS）"
-
-        - name: "JavaでRTFファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/rtf/"
-          description: "リッチテキストファイル形式"
-
-        - name: "JavaでTEXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/tex/"
-          description: "LaTeXソースドキュメント"
-
-        - name: "JavaでTSVファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/tsv/"
-          description: "タブ区切り値ファイル"
-
-        - name: "TXTファイルページをJavaで交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/txt/"
-          description: "プレーンテキストファイル形式"
-
-        - name: "JavaでVDXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/vdx/"
-          description: "MicrosoftVisioXML図面ファイル形式"
-
-        - name: "JavaでVSDMファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/vsdm/"
-          description: "Visioマクロ対応の描画"
-
-        - name: "JavaでVSDXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/vsdx/"
-          description: "MicrosoftVisioファイル形式"
-
-        - name: "JavaでVSSMファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/vssm/"
-          description: "MicrosoftVisioマクロ対応ファイル形式"
-
-        - name: "JavaでVSSXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/vssx/"
-          description: "Visioステンシルファイル形式"
-
-        - name: "JavaでVSTMファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/vstm/"
-          description: "Visioマクロ対応の図面テンプレート"
-
-        - name: "JavaでVSTXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/vstx/"
-          description: "MicrosoftVisioファイル形式"
-
-        - name: "JavaでVSXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/vsx/"
-          description: "ベクトルスカラー拡張"
-
-        - name: "JavaでVTXファイルページを交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/vtx/"
-          description: "MicrosoftVisio図面テンプレート"
-
-        - name: "XLAMファイルページをJavaで交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/xlam/"
-          description: "MicrosoftExcelマクロ対応アドイン"
-
-        - name: "XLSファイルページをJavaで交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-        - name: "XLSBファイルページをJavaで交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
-
-        - name: "XLSMファイルページをJavaで交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-        - name: "XLSXファイルページをJavaで交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-        - name: "XLTファイルページをJavaで交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/xlt/"
-          description: "MicrosoftExcelテンプレート"
-
-        - name: "XLTMファイルページをJavaで交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-        - name: "XPSファイルページをJavaで交換する"
-          link: "https://products.groupdocs.com/merger/java/swap/xps/"
-          description: "XMLPaperSpecificationを開く"
-
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

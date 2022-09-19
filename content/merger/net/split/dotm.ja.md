@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-03-05T17:06:41
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:17:45
 draft: false
+otherformats: dotx epub html mht mhtml odp ods odt one otp ott pdf pps ppsx ppt pptx
 
-head_title: "DOTMをC＃.NETで複数のファイルに分割する"
-head_description: "C＃.NETユーザーは、ドキュメントマージAPIを使用して、ページ番号、ページ間隔、偶数ページまたは奇数ページに基づいて単一のDOTMファイルを複数のファイルに分割します."
+############################# Head ############################
+head_title: "DOTMをC#で複数のファイルに分割"
+head_description: "ドキュメント マージ API を使用して、ページ番号、ページ間隔、偶数ページまたは奇数ページに基づいて、1 つの DOTM ファイルを複数のファイルに分割します。"
 
-title: "DOTMを.NETの複数のファイルに分割"
-description: ".NET（C＃、ASP.NET、VB.NET、.NET Core）アプリケーション用のドキュメントマージAPIを使用して、ページ番号、ページ間隔、偶数ページまたは奇数ページに基づいて、単一のDOTMファイルを複数の結果ファイルに分割します。"
+############################# Header ############################
+title: "DOTM C# のスプリッター"
+description: "DOTM を数行の .NET コードで分割します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,283 +33,97 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for .NET APIについて"
+    title: "GroupDocs.Merger for .NET API について"
     content: |
-        [GroupDocs.Merger for .NET](https://products.groupdocs.com/merger/net/）は、さまざまなドキュメント形式間で安全にマージ、分割、移動、削除、抽出、交換、およびローテーションするためのシンプルなソリューションを提供しますPDF、Microsoft Office（Word、Excel、PowerPoint、OneNote)、OpenDocument、HTML、および.NETアプリケーション内の他の多くのものを含みます。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) ライブラリは、PDF、Microsoft Office (Word、Excel、 PowerPoint、OneNote)、OpenDocument、HTML、画像、および .NET アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。
         
-        GroupDocs.Merger APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル分割機能を必要とする企業向けソリューションに最適です。これらの API は、.NET Framework, .NET Standard, .NET Core, Mono を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: ".NETでDOTMファイルページを分割する"
+    title_left: ".NET で DOTM ファイル ページを分割"
     content_left: |
-        [GroupDocs.Merger](/merger/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、単一のDOTMファイルを複数の結果ファイルに簡単に分割できます。
-
-        * ** SplitOptions **ァイルのパス形式で初期化します。
-        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** Split **メソッドを呼び出し、** SplitOptions **渡して結果のドキュメントを保存します。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) を使用すると、C# 開発者は、単一の DOTM ファイルを複数の結果ファイルに分割することが容易になります。いくつかの簡単な手順。
         
+        * 出力ファイルのパス形式で **SplitOptions** を初期化します。
+        * **Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **Split** を呼び出して **SplitOptions** オブジェクトを渡し、結果のドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for .NET API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)からGroupDocs.Mergerfor.NETの最新バージョンをダウンロードします
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework, .NET Standard, .NET Core, Mono
+        * [NuGet](https://www.nuget.org/packages/groupdocs.merger) から GroupDocs.Merger for .NET の最新バージョンをダウンロードします
+         
     code: |
-        ```cs
-        //GroupDocs.MergerAPIを使用してDOTMファイルを分割します
-        string filePath = "input.pdf";
-        string filePathOut = "output.pdf";
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="C# サンプル コードを使用して DOTM ファイルを分割する方法">}}
 
-        //出力ファイルのパス形式でSplitOptionsクラスを初期化します
+        ```csharp    
+        // GroupDocs.Merger API を使用して DOTM ファイルを分割します
+        string filePath = "input.dotm";
+        string filePathOut = "output.dotm";
+
+        // 出力ファイルのパス形式で SplitOptions クラスを初期化する
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        //入力DOTMドキュメントを使用して合併をインスタンス化します
-        using (Merger merger = new Merger("input.dotm"))
+        // 入力 DOTM ドキュメントで Merger をインスタンス化する
+        using (Merger merger = new Merger(filePath))
           {
-            // Splitメソッドを呼び出し、SplitOptionsオブジェクトを渡して、結果のドキュメントを保存します
+            // Split メソッドを呼び出し、SplitOptions オブジェクトを渡して、結果のドキュメントを保存します。
             merger.Split(splitOptions);
-            
-            // Saveメソッドを呼び出し、目的のファイルパスを渡して出力ドキュメントを保存します
-            merger.Save("output.dotm");
           }
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-DOTMファイルをオンラインで分割"
+    title: "ライブデモ - DOTM ファイルをオンラインで分割"
     content: |
-        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/splitter/dotm)サイトにアクセスして、DOTMファイルを今すぐ分割します。
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/dotm) Web サイトにアクセスして、今すぐ DOTM ファイルを分割してください。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-DOTM"
-          title: "DOTMファイル形式について"
-          content: |
-            DOTM拡張子の付いたファイルは、MicrosoftWord2007以降で作成されたテンプレートファイルを表します。これは、新しいドキュメントを作成する場合に再利用するためにユーザー定義の設定を保持することを除けば、一般的なDOCXファイル形式に似ています。このようなドキュメントは、ページ情報、余白、デフォルトレイアウト、マクロなどの設定で標準テンプレートファイルが生成され、必要に応じてそこから新しいドキュメントを作成するために使用されるオフィスでよく使用されます。ただし、DOTMファイルはマクロを保存します。マクロは、タスクを自動的に完了するための記録されたアクションの形式の一連のコマンドです。これにより、タスクの完了時に繰り返されるアクションを実行する時間を節約できます。
 
-          link: "https://docs.fileformat.com/word-processing/dotm/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他の形式の分割ファイル"
     content: |
-        .NETは、ファイル形式と画像のマージと分割APIを文書化します。以下に示すように、一般的なファイル形式のいくつかを分割します。
-    format: 
-        - name: ".NETでCSVファイルページを分割する"
-          link: "/merger/net/split/csv/"
-          description: "カンマ区切り値ファイル"
+        .NET は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を分割します。
 
-        - name: ".NETでDOCファイルページを分割する"
-          link: "/merger/net/split/doc/"
-          description: "MicrosoftWordドキュメント"
-
-        - name: ".NETでDOCMファイルページを分割する"
-          link: "/merger/net/split/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-        - name: ".NETでDOCXファイルページを分割する"
-          link: "/merger/net/split/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-        - name: ".NETでDOTファイルページを分割する"
-          link: "/merger/net/split/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-        - name: ".NETでDOTXファイルページを分割する"
-          link: "/merger/net/split/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-        - name: ".NETでEPUBファイルページを分割する"
-          link: "/merger/net/split/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-        - name: ".NETでHTMLファイルページを分割する"
-          link: "/merger/net/split/html/"
-          description: "ハイパーテキストマークアップ言語"
-
-        - name: ".NETでMHTファイルページを分割する"
-          link: "/merger/net/split/mht/"
-          description: "集約HTMLのMIMEカプセル化"
-
-        - name: ".NETでMHTMLファイルページを分割する"
-          link: "/merger/net/split/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
-
-        - name: ".NETでODPファイルページを分割する"
-          link: "/merger/net/split/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
-
-        - name: ".NETでODSファイルページを分割する"
-          link: "/merger/net/split/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-        - name: ".NETでODTファイルページを分割する"
-          link: "/merger/net/split/odt/"
-          description: "ドキュメントテキストを開く"
-
-        - name: ".NETでOTPファイルページを分割する"
-          link: "/merger/net/split/otp/"
-          description: "原点グラフテンプレート"
-
-        - name: ".NETでOTTファイルページを分割する"
-          link: "/merger/net/split/ott/"
-          description: "ドキュメントテンプレートを開く"
-
-        - name: ".NETでPDFファイルページを分割する"
-          link: "/merger/net/split/pdf/"
-          description: "ポータブルドキュメント"
-
-        - name: ".NETでPOTMファイルページを分割する"
-          link: "/merger/net/split/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-        - name: ".NETでPOTXファイルページを分割する"
-          link: "/merger/net/split/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-        - name: ".NETでPPSファイルページを分割する"
-          link: "/merger/net/split/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-        - name: ".NETでPPSMファイルページを分割する"
-          link: "/merger/net/split/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-        - name: ".NETでPPSXファイルページを分割する"
-          link: "/merger/net/split/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-        - name: ".NETでPPTファイルページを分割する"
-          link: "/merger/net/split/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-        - name: ".NETでPPTMファイルページを分割する"
-          link: "/merger/net/split/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-        - name: ".NETでPPTXファイルページを分割する"
-          link: "/merger/net/split/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-        - name: ".NETでPSファイルページを分割する"
-          link: "/merger/net/split/ps/"
-          description: "PostScript（PS）"
-
-        - name: ".NETでRTFファイルページを分割する"
-          link: "/merger/net/split/rtf/"
-          description: "リッチテキストファイル形式"
-
-        - name: ".NETでTEXファイルページを分割する"
-          link: "/merger/net/split/tex/"
-          description: "LaTeXソースドキュメント"
-
-        - name: ".NETでTSVファイルページを分割"
-          link: "/merger/net/split/tsv/"
-          description: "タブ区切り値ファイル"
-
-        - name: ".NETでTXTファイルページを分割する"
-          link: "/merger/net/split/txt/"
-          description: "プレーンテキストファイル形式"
-
-        - name: ".NETでVDXファイルページを分割する"
-          link: "/merger/net/split/vdx/"
-          description: "MicrosoftVisioXML図面ファイル形式"
-
-        - name: ".NETでVSDMファイルページを分割する"
-          link: "/merger/net/split/vsdm/"
-          description: "Visioマクロ対応の描画"
-
-        - name: ".NETでVSDXファイルページを分割する"
-          link: "/merger/net/split/vsdx/"
-          description: "MicrosoftVisioファイル形式"
-
-        - name: ".NETでVSSMファイルページを分割する"
-          link: "/merger/net/split/vssm/"
-          description: "MicrosoftVisioマクロ対応ファイル形式"
-
-        - name: ".NETでVSSXファイルページを分割する"
-          link: "/merger/net/split/vssx/"
-          description: "Visioステンシルファイル形式"
-
-        - name: ".NETでVSTMファイルページを分割する"
-          link: "/merger/net/split/vstm/"
-          description: "Visioマクロ対応の図面テンプレート"
-
-        - name: ".NETでVSTXファイルページを分割する"
-          link: "/merger/net/split/vstx/"
-          description: "MicrosoftVisioファイル形式"
-
-        - name: ".NETでVSXファイルページを分割する"
-          link: "/merger/net/split/vsx/"
-          description: "ベクトルスカラー拡張"
-
-        - name: ".NETでVTXファイルページを分割する"
-          link: "/merger/net/split/vtx/"
-          description: "MicrosoftVisio図面テンプレート"
-
-        - name: ".NETでXLAMファイルページを分割する"
-          link: "/merger/net/split/xlam/"
-          description: "MicrosoftExcelマクロ対応アドイン"
-
-        - name: ".NETでXLSファイルページを分割する"
-          link: "/merger/net/split/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-        - name: ".NETでXLSBファイルページを分割する"
-          link: "/merger/net/split/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
-
-        - name: ".NETでXLSMファイルページを分割する"
-          link: "/merger/net/split/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-        - name: ".NETでXLSXファイルページを分割する"
-          link: "/merger/net/split/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-        - name: ".NETでXLTファイルページを分割する"
-          link: "/merger/net/split/xlt/"
-          description: "MicrosoftExcelテンプレート"
-
-        - name: ".NETでXLTMファイルページを分割する"
-          link: "/merger/net/split/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-        - name: ".NETでXLTXファイルページを分割する"
-          link: "/merger/net/split/xltx/"
-          description: "Microsoft ExcelOpenXMLテンプレート"
-
-        - name: ".NETでXPSファイルページを分割する"
-          link: "/merger/net/split/xps/"
-          description: "XMLPaperSpecificationを開く"
-
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

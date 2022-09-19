@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-03-05T16:42:25
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:18:22
 draft: false
+otherformats: docm docx dot dotm dotx epub html mht mhtml odp ods odt one otp ott pdf
 
-head_title: "C＃.NETでのDOCページの交換と交換"
-head_description: " C＃.NETユーザーは、ファイル分割APIを使用してDOCファイル内の2ページの位置を交換および交換します."
+############################# Head ############################
+head_title: "C#のDOCページを交換して交換する"
+head_description: "ドキュメント マージ API を使用して、C# の DOC ファイル内の 2 つのページの位置を入れ替えます。"
 
-title: ".NETでDOCページを交換する"
-description: ".NET（C＃、ASP.NET、VB.NET、.NET Core）アプリケーション用のファイルスプリッターAPIを使用して、DOCファイル内の2つのページの位置を交換および交換します."
+############################# Header ############################
+title: "C# の DOC ページを入れ替える"
+description: "DOC ページを数行の .NET コードで入れ替えます。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,284 +33,101 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for .NET APIについて"
+    title: "GroupDocs.Merger for .NET API について"
     content: |
-        [GroupDocs.Merger for .NET](https://products.groupdocs.com/merger/net/）は、さまざまなドキュメント形式間で安全にマージ、分割、移動、削除、抽出、交換、およびローテーションするためのシンプルなソリューションを提供しますPDF、Microsoft Office（Word、Excel、PowerPoint、OneNote)、OpenDocument、HTML、および.NETアプリケーション内の他の多くのものを含みます。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) は、PDF、Microsoft Office (Word、Excel、PowerPoint 、OneNote)、OpenDocument、HTML、画像、および .NET アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。
         
-        GroupDocs.Merger APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル ページのスワップ機能を必要とする企業向けソリューションに最適です。これらの API は、.NET Framework, .NET Standard, .NET Core, Mono を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: ".NETでDOCファイルページを交換する"
+    title_left: ".NET の DOC ファイル ページを交換"
     content_left: |
-        [GroupDocs.Merger](/merger/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、DOCファイル内のページを簡単に交換、交換、および整理できます。
-
-        * ** SwapOptions **クラスを初期化して、交換するページ番号を指定します。
-        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** SwapPages **メソッドを呼び出し、** SwapOptions **渡します。
-        * ** Save **メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) により、C# 開発者は、いくつかの簡単な手順を実装することで DOC ファイル内のページを簡単に交換できます.
         
+        * **SwapOptions** を初期化して、交換するページ番号を指定します。
+        * **Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **SwapPages** を呼び出し、**SwapOptions** オブジェクトを渡します。
+        * **Save** を呼び出し、ファイル パスを指定して結果のドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for .NET API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)からGroupDocs.Mergerfor.NETの最新バージョンをダウンロードします
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework, .NET Standard, .NET Core, Mono
+        * [NuGet](https://www.nuget.org/packages/groupdocs.merger) から GroupDocs.Merger for .NET の最新バージョンをダウンロードします
+         
     code: |
-        ```cs
-        //GroupDocs.MergerAPIを使用してDOCファイルページを交換します
-        int pageNumber1 = 3;
-        int pageNumber2 = 6;
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="C# サンプル コードを使用して DOC ファイル ページをスワップする方法">}}
 
-        // SwapOptionsクラスを初期化して、スワップするページ番号を指定します
+        ```csharp    
+        // GroupDocs.Merger API を使用して DOC ファイル ページを交換します
+        int pageNumber1 = 6;
+        int pageNumber2 = 1;
+
+        // SwapOptions クラスを初期化して、スワップするページ番号を指定する
         SwapOptions swapOptions = new SwapOptions(pageNumber2, pageNumber1);
 
-        //入力DOCドキュメントを使用して合併をインスタンス化します
+        // 入力 DOC ドキュメントで Merger をインスタンス化する
         using (Merger merger = new Merger("input.doc"))
           {
-            // SwapPagesメソッドを呼び出し、SwapOptionsオブジェクトを渡します
+            // SwapPages メソッドを呼び出し、SwapOptions オブジェクトをそれに渡します
             merger.SwapPages(swapOptions);
-            
-            // Saveメソッドを呼び出し、目的のファイルパスを渡して出力ドキュメントを保存します
+    
+            // Save メソッドを呼び出し、目的のファイル パスを渡して出力ドキュメントを保存します。
             merger.Save("output.doc");
           }
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-DOCファイルページをオンラインで交換"
+    title: "ライブ デモ - DOC ファイル ページをオンラインでスワップ"
     content: |
-        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/splitter/swap-pages/doc)サイトにアクセスして、DOCファイル内のページを今すぐ交換してください。
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/doc) Web サイトにアクセスして、DOC ファイル ページを今すぐスワップします。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-word"
-          title: "DOCファイル形式について"
-          content: |
-            拡張子が.DOCのファイルは、MicrosoftWordによって生成されたドキュメントまたはその他のワードプロセッシングドキュメントをバイナリファイル形式で表します。この拡張機能は、当初、いくつかの異なるオペレーティングシステムでプレーンテキストのドキュメントに使用されていました。画像、プレーンテキスト、グラフ、チャート、埋め込みオブジェクト、リンク、ページ、ページの書式設定、印刷設定など、さまざまな種類のデータを含めることができます。
 
-          link: "https://docs.fileformat.com/word-processing/doc/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のファイル形式のページを入れ替える"
     content: |
-        .NETは、ファイル形式と画像のマージと分割APIを文書化します。以下に示すように、いくつかの一般的なファイル形式のページを再配置します。
-    format: 
-        - name: ".NETでCSVファイルページを交換する"
-          link: "/merger/net/swap/csv/"
-          description: "カンマ区切り値ファイル"
+        .NET は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を交換します。
 
-        - name: ".NETでDOCMファイルページを交換する"
-          link: "/merger/net/swap/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-        - name: ".NETでDOCXファイルページを交換する"
-          link: "/merger/net/swap/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-        - name: ".NETでDOTファイルページを交換する"
-          link: "/merger/net/swap/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-        - name: ".NETでDOTMファイルページを交換する"
-          link: "/merger/net/swap/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-        - name: ".NETでDOTXファイルページを交換する"
-          link: "/merger/net/swap/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-        - name: ".NETでEPUBファイルページを交換する"
-          link: "/merger/net/swap/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-        - name: ".NETでHTMLファイルページを交換する"
-          link: "/merger/net/swap/html/"
-          description: "ハイパーテキストマークアップ言語"
-
-        - name: ".NETでMHTファイルページを交換する"
-          link: "/merger/net/swap/mht/"
-          description: "集約HTMLのMIMEカプセル化"
-
-        - name: ".NETでMHTMLファイルページを交換する"
-          link: "/merger/net/swap/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
-
-        - name: ".NETでODPファイルページを交換する"
-          link: "/merger/net/swap/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
-
-        - name: ".NETでODSファイルページを交換する"
-          link: "/merger/net/swap/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-        - name: ".NETでODTファイルページを交換する"
-          link: "/merger/net/swap/odt/"
-          description: "ドキュメントテキストを開く"
-
-        - name: ".NETでOTPファイルページを交換する"
-          link: "/merger/net/swap/otp/"
-          description: "原点グラフテンプレート"
-
-        - name: ".NETでOTTファイルページを交換する"
-          link: "/merger/net/swap/ott/"
-          description: "ドキュメントテンプレートを開く"
-
-        - name: ".NETでPDFファイルページを交換する"
-          link: "/merger/net/swap/pdf/"
-          description: "ポータブルドキュメント"
-
-        - name: ".NETでPOTMファイルページを交換する"
-          link: "/merger/net/swap/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-        - name: ".NETでPOTXファイルページを交換する"
-          link: "/merger/net/swap/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-        - name: ".NETでPPSファイルページを交換する"
-          link: "/merger/net/swap/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-        - name: ".NETでPPSMファイルページを交換する"
-          link: "/merger/net/swap/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-        - name: ".NETでPPSXファイルページを交換する"
-          link: "/merger/net/swap/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-        - name: ".NETでPPTファイルページを交換する"
-          link: "/merger/net/swap/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-        - name: ".NETでPPTMファイルページを交換する"
-          link: "/merger/net/swap/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-        - name: ".NETでPPTXファイルページを交換する"
-          link: "/merger/net/swap/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-        - name: ".NETでPSファイルページを交換する"
-          link: "/merger/net/swap/ps/"
-          description: "PostScript（PS）"
-
-        - name: ".NETでRTFファイルページを交換する"
-          link: "/merger/net/swap/rtf/"
-          description: "リッチテキストファイル形式"
-
-        - name: ".NETでTEXファイルページを交換する"
-          link: "/merger/net/swap/tex/"
-          description: "LaTeXソースドキュメント"
-
-        - name: ".NETでTSVファイルページを交換する"
-          link: "/merger/net/swap/tsv/"
-          description: "タブ区切り値ファイル"
-
-        - name: ".NETでTXTファイルページを交換する"
-          link: "/merger/net/swap/txt/"
-          description: "プレーンテキストファイル形式"
-
-        - name: ".NETでVDXファイルページを交換する"
-          link: "/merger/net/swap/vdx/"
-          description: "MicrosoftVisioXML図面ファイル形式"
-
-        - name: ".NETでVSDMファイルページを交換する"
-          link: "/merger/net/swap/vsdm/"
-          description: "Visioマクロ対応の描画"
-
-        - name: ".NETでVSDXファイルページを交換する"
-          link: "/merger/net/swap/vsdx/"
-          description: "MicrosoftVisioファイル形式"
-
-        - name: ".NETでVSSMファイルページを交換する"
-          link: "/merger/net/swap/vssm/"
-          description: "MicrosoftVisioマクロ対応ファイル形式"
-
-        - name: ".NETでVSSXファイルページを交換する"
-          link: "/merger/net/swap/vssx/"
-          description: "Visioステンシルファイル形式"
-
-        - name: ".NETでVSTMファイルページを交換する"
-          link: "/merger/net/swap/vstm/"
-          description: "Visioマクロ対応の図面テンプレート"
-
-        - name: ".NETでVSTXファイルページを交換する"
-          link: "/merger/net/swap/vstx/"
-          description: "MicrosoftVisioファイル形式"
-
-        - name: ".NETでVSXファイルページを交換する"
-          link: "/merger/net/swap/vsx/"
-          description: "ベクトルスカラー拡張"
-
-        - name: ".NETでVTXファイルページを交換する"
-          link: "/merger/net/swap/vtx/"
-          description: "MicrosoftVisio図面テンプレート"
-
-        - name: ".NETでXLAMファイルページを交換する"
-          link: "/merger/net/swap/xlam/"
-          description: "MicrosoftExcelマクロ対応アドイン"
-
-        - name: ".NETでXLSファイルページを交換する"
-          link: "/merger/net/swap/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-        - name: ".NETでXLSBファイルページを交換する"
-          link: "/merger/net/swap/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
-
-        - name: ".NETでXLSMファイルページを交換する"
-          link: "/merger/net/swap/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-        - name: ".NETでXLSXファイルページを交換する"
-          link: "/merger/net/swap/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-        - name: ".NETでXLTファイルページを交換する"
-          link: "/merger/net/swap/xlt/"
-          description: "MicrosoftExcelテンプレート"
-
-        - name: ".NETでXLTMファイルページを交換する"
-          link: "/merger/net/swap/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-        - name: ".NETでXLTXファイルページを交換する"
-          link: "/merger/net/swap/xltx/"
-          description: "Microsoft ExcelOpenXMLテンプレート"
-
-        - name: ".NETでXPSファイルページを交換する"
-          link: "/merger/net/swap/xps/"
-          description: "XMLPaperSpecificationを開く"
-
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

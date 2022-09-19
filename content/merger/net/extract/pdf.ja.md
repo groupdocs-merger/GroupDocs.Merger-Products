@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-03-03T17:48:31
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:10:58
 draft: false
+otherformats: ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls
 
-head_title: "C＃ASP.NETおよびVB.NETでPDFページを抽出する"
-head_description: "C＃.NETのPDFファイルからページをすばやく抽出します。ドキュメントマージAPIを使用して、選択したページを含む新しいドキュメントを保存します."
+############################# Head ############################
+head_title: "C# で PDF ページを抽出"
+head_description: "C# の PDF ファイルからページをすばやく抽出します。ドキュメント マージ API を使用して、選択したページを含む新しいドキュメントを保存します。"
 
-title: "C＃.NETアプリケーションでPDFページを抽出する"
-description: "選択したページをPDFファイルからすばやく抽出し、.NET（C＃、ASP.NET、VB.NET、.NET Core）アプリケーション用のドキュメントマージAPIを使用して新しいドキュメントとして保存します."
+############################# Header ############################
+title: "C# の PDF ページを抽出"
+description: "数行の .NET コードで PDF ページを抽出します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,240 +33,98 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for .NET APIについて"
+    title: "GroupDocs.Merger for .NET API について"
     content: |
-        [GroupDocs.Merger for .NET](https://products.groupdocs.com/merger/net/）は、さまざまなドキュメント形式間で安全にマージ、分割、移動、削除、抽出、交換、およびローテーションするためのシンプルなソリューションを提供しますPDF、Microsoft Office（Word、Excel、PowerPoint、OneNote)、OpenDocument、HTML、および.NETアプリケーション内の他の多くのものを含みます。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) は、PDF、Microsoft Office (Word、Excel、PowerPoint 、OneNote)、OpenDocument、HTML、画像、および .NET アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。
         
-        GroupDocs.Merger APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル ページの抽出機能を必要とする企業向けソリューションに最適です。これらの API は、.NET Framework, .NET Standard, .NET Core, Mono を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "C＃.NETでPDFファイルからページを抽出する"
+    title_left: ".NET で PDF ファイル ページを抽出"
     content_left: |
-        [GroupDocs.Merger](/merger/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、PDFファイルから目的のページを簡単に抽出し、選択したページを含む新しいファイルとして保存できます。
-
-        * 新しいファイルに抽出するページ番号を使用して**ExtractOptions **します。
-        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** ExtractPages **メソッドを呼び出し、** ExtractOptions **渡します。
-        * ** Save **メソッドを呼び出して、抽出されたドキュメントを保存します。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) により、C# 開発者は PDF ファイルから目的のページを簡単に抽出して、次のように保存できます。いくつかの簡単な手順を実行して、選択したページを含む新しいファイルを作成します。
         
+        * 結果のドキュメントに表示されるページ番号で **ExtractOptions** を初期化します。
+        * **Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **ExtractPages** を呼び出し、**ExtractOptions** オブジェクトを渡します。
+        * **Save** を呼び出し、ファイル パスを指定して結果のドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for .NET API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)からGroupDocs.Mergerfor.NETの最新バージョンをダウンロードします
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework, .NET Standard, .NET Core, Mono
+        * [NuGet](https://www.nuget.org/packages/groupdocs.merger) から GroupDocs.Merger for .NET の最新バージョンをダウンロードします
+         
     code: |
-        ```cs
-        //GroupDocs.MergerAPIを使用してPDFファイルページを抽出します
-        string filePath = "input.pdf";
-        string filePathOut = "output.pdf";
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="C# サンプル コードを使用して PDF ファイル ページを抽出する方法">}}
 
-        //選択したページ番号でExtractOptionsクラスを初期化します
-        ExtractOptions extractOptions = new ExtractOptions(new int[] { 2, 5 }); // Resultant document will contain pages 2 and 5
-        
-        //入力PDFドキュメントで合併をインスタンス化します
+        ```csharp    
+        // GroupDocs.Merger API を使用して PDF ファイル ページを抽出します
+        // 選択したページ番号で ExtractOptions クラスを初期化する
+        ExtractOptions extractOptions = new ExtractOptions(new int[] { 2, 5 });
+
+        // 入力 PDF ドキュメントで Merger をインスタンス化する
         using (Merger merger = new Merger("input.pdf"))
           {
-            // ExtractPagesメソッドを呼び出し、ExtractOptionsオブジェクトを渡します
+            // ExtractPages メソッドを呼び出し、それに ExtractOptions オブジェクトを渡します
             merger.ExtractPages(extractOptions);
-
-            // Saveメソッドを呼び出して、抽出されたドキュメントを保存します
+    
+            // Save メソッドを呼び出して、抽出されたページを含む出力ドキュメントを保存します。
             merger.Save("output.pdf");
           }
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-ExractPDFDocument Pages App"
+    title: "ライブデモ - PDF ページをオンラインで抽出"
     content: |
-        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/splitter/pdf)サイトにアクセスして、今すぐPDFファイルページを抽出してください。
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/pdf) Web サイトにアクセスして、今すぐ PDF ファイル ページを抽出します。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-alt"
-          title: "PDFファイル形式について"
-          content: |
-            Portable Document Format（PDF）は、1990年代にAdobeによって作成されたドキュメントの一種です。このファイル形式の目的は、アプリケーションソフトウェア、ハードウェア、およびオペレーティングシステムに依存しない形式で、ドキュメントやその他の参照資料を表現するための標準を導入することでした。 PDFファイルは、拡張機能/プラグインを介して、Adobe Acrobat Reader / Writerでも、Chrome、Safari、Firefoxなどの最新のブラウザーでも開くことができます。
 
-          link: "https://docs.fileformat.com/view/pdf/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のドキュメント形式からページを抽出する"
     content: |
-        .NETは、ファイル形式と画像のマージと分割APIを文書化します。以下に示すように、一般的なファイル形式のいくつかから指定されたページを抽出します。
-    format: 
-          link: "https://products.groupdocs.com/merger/net/extract/csv/"
-          description: "カンマ区切り値ファイル"
+        .NET は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を抽出します。
 
-          link: "https://products.groupdocs.com/merger/net/extract/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "https://products.groupdocs.com/merger/net/extract/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "https://products.groupdocs.com/merger/net/extract/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "https://products.groupdocs.com/merger/net/extract/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/html/"
-          description: "ハイパーテキストマークアップ言語"
-
-          link: "https://products.groupdocs.com/merger/net/extract/mht/"
-          description: "集約HTMLのMIMEカプセル化"
-
-          link: "https://products.groupdocs.com/merger/net/extract/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
-
-          link: "https://products.groupdocs.com/merger/net/extract/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "https://products.groupdocs.com/merger/net/extract/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "https://products.groupdocs.com/merger/net/extract/one/"
-          description: "MicrosoftOneNoteファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/otp/"
-          description: "原点グラフテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/ott/"
-          description: "ドキュメントテンプレートを開く"
-
-          link: "https://products.groupdocs.com/merger/net/extract/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/merger/net/extract/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/merger/net/extract/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "https://products.groupdocs.com/merger/net/extract/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/net/extract/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/net/extract/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/net/extract/ps/"
-          description: "PostScript（PS）"
-
-          link: "https://products.groupdocs.com/merger/net/extract/rtf/"
-          description: "リッチテキストファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/tex/"
-          description: "LaTeXソースドキュメント"
-
-          link: "https://products.groupdocs.com/merger/net/extract/tsv/"
-          description: "タブ区切り値ファイル"
-
-          link: "https://products.groupdocs.com/merger/net/extract/txt/"
-          description: "プレーンテキストファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/vdx/"
-          description: "MicrosoftVisioXML図面ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/vsdm/"
-          description: "Visioマクロ対応の描画"
-
-          link: "https://products.groupdocs.com/merger/net/extract/vsdx/"
-          description: "MicrosoftVisioファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/vssm/"
-          description: "MicrosoftVisioマクロ対応ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/vssx/"
-          description: "Visioステンシルファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/vstm/"
-          description: "Visioマクロ対応の図面テンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/vstx/"
-          description: "MicrosoftVisioファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/vsx/"
-          description: "ベクトルスカラー拡張"
-
-          link: "https://products.groupdocs.com/merger/net/extract/vtx/"
-          description: "MicrosoftVisio図面テンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/xlam/"
-          description: "MicrosoftExcelマクロ対応アドイン"
-
-          link: "https://products.groupdocs.com/merger/net/extract/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/extract/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
-
-          link: "https://products.groupdocs.com/merger/net/extract/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/xlt/"
-          description: "MicrosoftExcelテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/xltx/"
-          description: "Microsoft ExcelOpenXMLテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/extract/xps/"
-          description: "XMLPaperSpecificationを開く"
-
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

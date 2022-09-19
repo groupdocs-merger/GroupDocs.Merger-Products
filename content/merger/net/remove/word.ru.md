@@ -1,14 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+layout: "auto-gen-merger"
+date: 2022-09-19T14:14:44
 draft: false
+otherformats: 
+
 ############################# Head ############################
-head_title: "Удалить страницы Word в C# .NET — удалить страницы из файла Word"
-head_description: "Пользователи C# .NET могут удалять или удалять одну страницу или набор страниц из файла Word с помощью API слияния и разделения документов."
+head_title: "Удалить WORD страницы на C#"
+head_description: "Удалите одну или набор страниц из файла WORD на C#, изменив порядок страниц с помощью Merger API."
+
 ############################# Header ############################
-title: "Удалить или удалить страницы из Word в .NET"
-description: "Удаление или удаление отдельной страницы или набора страниц из файла Word с помощью API слияния и разделения документов для приложений .NET (C#, ASP.NET, VB.NET, .NET Core)."
+title: "Удалить WORD страницы на C#"
+description: "Удалите WORD страницы с помощью нескольких строк .NET кода."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,263 +19,111 @@ button:
     icon: "fas fa-arrow-down"
     label: "Скачать бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/merger/net"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
         img_alt: "GroupDocs.Merger for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-merger-net.png"
         product: "GroupDocs.Merger"
         platform: ".NET"
+
     middle:
         button:
+
             # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
               text: "Справочник по API"
+
             # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "Примеры кода"
+
             # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "Живые демонстрации"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
               text: "Цены"
+
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/net"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Merge для .NET API"
+    title: "Кратко о GroupDocs.Merger for .NET"
     content: |
-        [GroupDocs.Merger](/ru/merger/net/) предлагает простое решение для безопасного слияния, разделения, перемещения, удаления, извлечения, обмена и чередования документов различных форматов. включая PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML и многие другие в приложениях .NET. Добавив всего несколько строк кода, можно выполнять несколько операций с документами, например перемещать, удалять, поворачивать, менять местами, извлекать или изменять ориентацию страниц в документах. API слияния документов также поддерживает предварительный просмотр страниц документа в виде изображения для анализа структуры документа, форматирования и содержимого на странице.
-        API-интерфейсы GroupDocs.Merger хорошо поддерживаются на всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono и Xamarin.
+        [GroupDocs.Merger for .NET](/ru/merger/net/) предоставляет удобное решение для объединения нескольких файлов PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, изображений и многие другие документы в один файл в .NET приложениях. GroupDocs.Merger сэкономит вам много усилий, так как вы можете объединять WORD документы - нет необходимости устанавливать какое-либо стороннее программное обеспечение, настольные приложения или плагины. Теперь не нужно тратить время и объединять файлы вручную! Миссия GroupDocs — обеспечить наилучшее качество и упростить рабочие процессы обработки документов.
+        
+        GroupDocs.Merger API — правильный выбор для корпоративных решений, которым нужны функции удаления файловых страниц. Эти интерфейсы хорошо поддерживаются во всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono.
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Удалить страницы файлов Word в .NET"
+    title_left: "Удалить страницы WORD документов на .NET"
     content_left: |
-        [GroupDocs.Merger](/ru/merger/net/) позволяет разработчикам .NET легко удалять одну или несколько страниц в файле Word, выполняя несколько простых шагов.
-        * Инициализируйте класс **RemoveOptions** указать номера страниц для удаления.
-        * Создайте новый экземпляр класса **Merge**дайте путь к исходному документу в качестве параметра конструктора.
-        * Вызвать метод **RemovePages**дать ему объект **RemoveOptions**.
-        * Вызовите метод **Save**ите нужный путь к файлу, чтобы сохранить результирующий документ.
+        [GroupDocs.Merger for .NET](/ru/merger/net/) упрощает для разработчиков C# удаление одной или нескольких определенных страниц для WORD документа, выполнив несколько простых шагов.
+        
+        * Инициализируйте **RemoveOptions** с номерами страниц, которые нужно удалить.
+        * Создайте новый экземпляр **Merger** и передайте ему путь к исходному документу в качестве параметра конструктора.
+        * Вызовите метод **RemovePages** и передайте объект **RemoveOptions**.
+        * Вызовите метод **Save** и укажите путь к файлу для сохранения результирующего документа.
+
     title_right: "Системные Требования"
     content_right: |
-        API GroupDocs.Merge for .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        GroupDocs.Merger for .NET API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+
         * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
+        * Среда разработки: Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Merger для .NET с сайта [NuGet](https://www.nuget.org/packages/GroupDocs.Merger).
+        * Загрузите последнюю версию GroupDocs.Merger for .NET из [NuGet](https://www.nuget.org/packages/groupdocs.merger)
+         
     code: |
-        ```cs
-        // Удалить страницы файла Word с помощью API GroupDocs.Merger
-        string filePath = "input.docx";
-        string filePathOut = "output.docx";
-        // Инициализируем класс RemoveOptions, чтобы указать номера страниц для удаления
-        RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });
-        // Создание экземпляра слияния с входным документом Word
-        using (Merger merger = new Merger("input.docx"))
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Как удалить страницы WORD документов, используя пример кода C#">}}
+
+        ```csharp    
+        // Удалите страницы WORD документов с помощью GroupDocs.Merger API
+        // Инициализировать класс RemoveOptions с выбранными номерами страниц
+        RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 6 });
+
+        // Создание экземпляра класса Merger с входным параметром WORD документа
+        using (Merger merger = new Merger("input.word"))
           {
-            // Вызываем метод RemovePages и передаем ему объект RemoveOptions
+            // Вызвать метод RemovePages и передать ему объект RemoveOptions
             merger.RemovePages(removeOptions);
-            // Вызываем метод Save и передаем желаемый путь к файлу для сохранения выходного документа
-            merger.Save("output.docx");
+    
+            // Вызовите метод Save и передайте желаемый путь к файлу, чтобы сохранить результат.
+            merger.Save("output.word");
           }
         ```
+     {{< /merger/code-merger >}}
+
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации — онлайн-приложение для удаления страниц документа"
+    title: "Живые демонстрации – удаление WORD страниц онлайн"
     content: |
-        Удалите страницы из файлов Word прямо сейчас, посетив веб-сайт [Живые наблюдения](https://products.groupdocs.app/merger/docx).
+       Удалите страницы WORD документов прямо сейчас, посетив веб-сайт [Живые демонстрации GroupDocs.Merger](https://products.groupdocs.app/splitter/remove-pages/word).
+       Живые демонстрации имеют следующие преимущества.
+        
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-word-o"
-          title: "О формате файла Word"
-          content: |
-            Файл обработки текста содержит информацию о пользователе в текстовом или расширенном текстовом формате. Формат обычного текстового файла содержит неформатированный текст, и к нему нельзя применить настройки шрифта, страницы и т. д. В отличие от этого, формат расширенного текстового файла позволяет параметры форматирования, такие как установка типа шрифта, стилей (полужирный, курсив, подчеркивание и т. д.), поля страницы, заголовки, маркеры и цифры, а также некоторые другие функции форматирования. Использование простых текстовых файлов значительно сократилось с течением времени, поскольку есть более мощные компьютеры и программы, предлагающие обработку форматированных текстовых файлов. Общие расширения текстовых файлов и связанные с ними форматы файлов включают TXT, CSV, а расширения файлов для документов с форматированным текстом включают DOCX, DOC и RTF.
-          link: "https://docs.fileformat.com/word-processing/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Удаление страниц документов других форматов"
+    title: "Удалить страницы для других форматов документов"
     content: |
-        API слияния и разделения документов .NET для форматов файлов и изображений. Удалите страницы некоторых популярных форматов файлов, как указано ниже.
-    format: 
-        # format loop
-        - name: "ReПереместить страницы файлов PDF в .NET"
-          link: "/merger/net/remove/pdf/"
-          description: "Adobe Portable Document Format"
-        # format loop
-        - name: "ReПереместить страницы файлов Word в .NET"
-          link: "/merger/net/remove/word/"
-          description: "Документ Microsoft Word"
-        # format loop
-        - name: "ReПереместить страницы файлов Excel в .NET"
-          link: "/merger/net/remove/excel/"
-          description: "Рабочий лист Microsoft Excel"
-        # format loop
-        - name: "ReПереместить страницы файлов Worksheet в .NET"
-          link: "/merger/net/remove/worksheet/"
-          description: "Рабочий лист Microsoft Excel"
-        # format loop
-        - name: "ReПереместить страницы файлов DOC в .NET"
-          link: "/merger/net/remove/doc/"
-          description: "Документ Microsoft Word"
-        # format loop
-        - name: "ReПереместить страницы файлов DOCM в .NET"
-          link: "/merger/net/remove/docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-        # format loop
-        - name: "ReПереместить страницы файлов DOCX в .NET"
-          link: "/merger/net/remove/docx/"
-          description: "Документ Microsoft Word с открытым XML"
-        # format loop
-        - name: "ReПереместить страницы файлов DOT в .NET"
-          link: "/merger/net/remove/dot/"
-          description: "Шаблон документа Microsoft Word"
-        # format loop
-        - name: "ReПереместить страницы файлов DOTX в .NET"
-          link: "/merger/net/remove/dotx/"
-          description: "Шаблон документа Word Open XML"
-        # format loop
-        - name: "ReПереместить страницы файлов DOTM в .NET"
-          link: "/merger/net/remove/dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-        # format loop
-        - name: "ReПереместить страницы файлов RTF в .NET"
-          link: "/merger/net/remove/rtf/"
-          description: "Форматированный текстовый документ"
-        # format loop
-        - name: "ReПереместить страницы файлов ODT в .NET"
-          link: "/merger/net/remove/odt/"
-          description: "Открыть текст документа"
-        # format loop
-        - name: "ReПереместить страницы файлов OTT в .NET"
-          link: "/merger/net/remove/ott/"
-          description: "Текстовый шаблон OpenDocument"
-        # format loop
-        - name: "ReПереместить страницы файлов XLS в .NET"
-          link: "/merger/net/remove/xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-        # format loop
-        - name: "ReПереместить страницы файлов XLSX в .NET"
-          link: "/merger/net/remove/xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-        # format loop
-        - name: "ReПереместить страницы файлов XLAM в .NET"
-          link: "/merger/net/remove/xlam/"
-          description: "Надстройка Excel Open XML с поддержкой макросов"
-        # format loop
-        - name: "ReПереместить страницы файлов XLSM в .NET"
-          link: "/merger/net/remove/xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-        # format loop
-        - name: "ReПереместить страницы файлов XLSB в .NET"
-          link: "/merger/net/remove/xlsb/"
-          description: "Двоичный лист Microsoft Excel"
-        # format loop
-        - name: "ReПереместить страницы файлов XLTX в .NET"
-          link: "/merger/net/remove/xltx/"
-          description: "Шаблон Microsoft Excel"
-        # format loop
-        - name: "ReПереместить страницы файлов XLTM в .NET"
-          link: "/merger/net/remove/xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-        # format loop
-        - name: "ReПереместить страницы файлов ODS в .NET"
-          link: "/merger/net/remove/ods/"
-          description: "Открыть электронную таблицу документов"
-        # format loop
-        - name: "ReПереместить страницы файлов CSV в .NET"
-          link: "/merger/net/remove/csv/"
-          description: "Файл значений, разделенных запятыми"
-        # format loop
-        - name: "ReПереместить страницы файлов TSV в .NET"
-          link: "/merger/net/remove/tsv/"
-          description: "Файл значений, разделенных табуляцией"
-        # format loop
-        - name: "ReПереместить страницы файлов PPT в .NET"
-          link: "/merger/net/remove/ppt/"
-          description: "Презентация PowerPoint"
-        # format loop
-        - name: "ReПереместить страницы файлов PPTX в .NET"
-          link: "/merger/net/remove/pptx/"
-          description: "Презентация PowerPoint Open XML"
-        # format loop
-        - name: "ReПереместить страницы файлов PPS в .NET"
-          link: "/merger/net/remove/pps/"
-          description: "Слайд-шоу Microsoft PowerPoint 97-2003"
-        # format loop
-        - name: "ReПереместить страницы файлов PPSX в .NET"
-          link: "/merger/net/remove/ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-        # format loop
-        - name: "ReПереместить страницы файлов POTX в .NET"
-          link: "/merger/net/remove/potx/"
-          description: "Шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "ReПереместить страницы файлов PPTM в .NET"
-          link: "/merger/net/remove/pptm/"
-          description: "Презентация Microsoft PowerPoint"
-        # format loop
-        - name: "ReПереместить страницы файлов ODP в .NET"
-          link: "/merger/net/remove/odp/"
-          description: "Презентация OpenDocument"
-        # format loop
-        - name: "ReПереместить страницы файлов OTP в .NET"
-          link: "/merger/net/remove/otp/"
-          description: "Шаблон презентации OpenDocument"
-        # format loop
-        - name: "ReПереместить страницы файлов Text в .NET"
-          link: "/merger/net/remove/txt/"
-          description: "Простой текстовый файл"
-        # format loop
-        - name: "ReПереместить страницы файлов OneNote в .NET"
-          link: "/merger/net/remove/one/"
-          description: "Майкрософт OneNote"
-        # format loop
-        - name: "ReПереместить страницы файлов XPS в .NET"
-          link: "/merger/net/remove/xps/"
-          description: "Файл спецификации XML Paper"
-        # format loop
-        - name: "ReПереместить страницы файлов Web в .NET"
-          link: "/merger/net/remove/web/"
-          description: "Файл языка гипертекстовой разметки"
-        # format loop
-        - name: "ReПереместить страницы файлов HTML в .NET"
-          link: "/merger/net/remove/html/"
-          description: "Файл языка гипертекстовой разметки"
-        # format loop
-        - name: "ReПереместить страницы файлов MHT в .NET"
-          link: "/merger/net/remove/mht/"
-          description: "Веб-архив MHTML"
-        # format loop
-        - name: "ReПереместить страницы файлов MHTML в .NET"
-          link: "/merger/net/remove/mhtml/"
-          description: "MIME HTML"
-        # format loop
-        - name: "ReПереместить страницы файлов TEX в .NET"
-          link: "/merger/net/remove/tex/"
-          description: "Исходный документ LaTeX"
-        # format loop
-        - name: "ReПереместить страницы файлов EPUB в .NET"
-          link: "/merger/net/remove/epub/"
-          description: "файл электронной книги"
-        # format loop
-        - name: "ReПереместить страницы файлов PPSM в .NET"
-          link: "/merger/net/remove/ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint с поддержкой макросов"
-        # format loop
-        - name: "ReПереместить страницы файлов POTM в .NET"
-          link: "/merger/net/remove/potm/"
-          description: "Шаблон Microsoft PowerPoint с поддержкой макросов"
+        .NET API для документов и изображений. Удалите некоторые страницы документов, указанных ниже.
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:11:14
 draft: false
+otherformats: 
 
-head_title: "Gabung File IMAGE menjadi Satu di C# (.NET Core) – Penggabungan IMAGE"
-head_description: "Gabungkan beberapa file IMAGE ke dalam satu file menggunakan API penggabungan dokumen C# .NET. Bergabunglah dengan halaman atau rentang halaman tertentu dari berbagai dokumen ke satu dokumen."
+############################# Head ############################
+head_title: "Gabung IMAGE File di C# | IMAGE Penggabungan"
+head_description: "Gabungkan beberapa file IMAGE ke dalam satu file menggunakan C# .NET API penggabungan dokumen. Gabung halaman atau rentang halaman tertentu dari berbagai dokumen ke satu dokumen."
 
-title: "Gabung File IMAGE Di C# (.NET Core)"
-description: "Gabungkan beberapa file IMAGE ke dalam satu file menggunakan API penggabungan dokumen C# .NET. Gabungkan halaman atau rentang halaman yang dipilih dari berbagai dokumen sumber ke dalam satu dokumen yang dihasilkan."
+############################# Header ############################
+title: "Gabung IMAGE File Di C#"
+description: "Bergabunglah dengan IMAGE dengan beberapa baris kode .NET."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/merger/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,15 +33,19 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
               text: "Referensi API"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "Contoh Kode"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "Demo Langsung"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
               text: "Harga"
 
@@ -45,254 +54,73 @@ submenu:
         link_learn: "https://docs.groupdocs.com/merger/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Merger untuk .NET API"
+    title: "Tentang GroupDocs.Merger for .NET API"
     content: |
-        [GroupDocs.Merger untuk .NET](/id/merger/net/) menawarkan solusi sederhana untuk Bergabung & berpisah dengan aman di antara berbagai format dokumen termasuk PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, gambar dan banyak lainnya dalam aplikasi .NET. Dengan menambahkan hanya beberapa baris kode, lakukan beberapa operasi dokumen seperti memindahkan, menghapus, memutar, menukar, mengekstrak, atau mengubah orientasi halaman di dalam dokumen. API penggabungan dokumen juga mendukung pratinjau halaman dokumen sebagai IMAGE untuk menganalisis struktur dokumen, pemformatan, dan konten pada halaman.
+        [GroupDocs.Merger for .NET](/id/merger/net/) memberikan solusi mudah untuk menggabungkan beberapa PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, gambar dan banyak dokumen lain ke dalam satu file dalam aplikasi .NET. GroupDocs.Merger akan menghemat banyak usaha Anda, karena Anda diizinkan untuk bergabung dengan dokumen IMAGE - tidak perlu menginstal perangkat lunak, aplikasi desktop, atau plugin pihak ketiga. Sekarang tidak perlu membuang waktu Anda dan menggabungkan file secara manual! Misi GroupDocs adalah memberikan kualitas terbaik dan menyederhanakan alur kerja pemrosesan dokumen.
         
-        GroupDocs.Merger API didukung dengan baik di semua sistem operasi dan platform utama termasuk .NET Framework, .NET Standard, .NET Core, Mono, dan Xamarin.
+        GroupDocs.Merger API adalah pilihan tepat untuk solusi perusahaan yang membutuhkan fitur penggabungan file. API ini didukung dengan baik di semua sistem operasi dan platform utama termasuk .NET Framework, .NET Standard, .NET Core, Mono.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Cara Bergabung dengan Beberapa File IMAGE"
+    title_left: "Cara Menggabungkan Beberapa IMAGE File"
     content_left: |
-        [GroupDocs.Merger](/id/merger/net/) memudahkan pengembang .NET untuk menggabungkan dua atau lebih file IMAGE dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-
-        * Buat instance baru kelas <mark>**Merger**</mark> dan teruskan jalur dokumen sumber sebagai parameter konstruktor.
-        * Panggil metode <mark>**Gabung**</mark> dari instance kelas <mark>**Merger**</mark> dan teruskan jalur dokumen sumber kedua.
-        * Panggil metode <mark>**Save**</mark> dari instance kelas <mark>**Merger**</mark> untuk menyimpan dokumen yang digabungkan.
+        [GroupDocs.Merger for .NET](/id/merger/net/) memudahkan pengembang .NET untuk menggabungkan dua atau lebih file IMAGE dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
         
+        * Buat instance baru **Merger** dan teruskan jalur dokumen sumber sebagai parameter konstruktor.
+        * Panggil **Join** dari kelas **Merger** dan teruskan jalur dokumen sumber kedua.
+        * Panggil **Save** dari kelas **Merger** untuk menyimpan dokumen yang digabungkan.
+
     title_right: "Persyaratan sistem"
     content_right: |
-        GroupDocs.Merger untuk .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        GroupDocs.Merger for .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
         * Sistem Operasi: Microsoft Windows, Linux, MacOS
         * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
-        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
-        * Unduh versi terbaru GroupDocs.Merger untuk .NET dari [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)
-        
+        * Kerangka kerja: .NET Framework, .NET Standard, .NET Core, Mono
+        * Unduh versi terbaru GroupDocs.Merger for .NET dari [NuGet](https://www.nuget.org/packages/groupdocs.merger)
+         
     code: |
-        ```cs
-        // Gabung file IMAGE menggunakan GroupDocs.Merger API
-        // Instansiasi Penggabungan dengan dokumen input IMAGE
-        using (Merger merger = new Merger("input1.bmp"))
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Cara menggabungkan file IMAGE menggunakan kode contoh C#">}}
+
+        ```csharp    
+        // Bergabunglah dengan file IMAGE menggunakan GroupDocs.Merger API
+        // Instansiasi Penggabungan dengan dokumen masukan IMAGE
+        using (Merger merger = new Merger("input1.image"))
           {
             // Panggil metode Gabung dari instance kelas Penggabungan dan lewati jalur dokumen sumber kedua
-            merger.Join("input2.bmp");
-            
+            merger.Join("input2.image");
+    
             // Panggil metode Simpan dari instance kelas Penggabungan untuk menyimpan dokumen yang digabungkan
-            merger.Save("merged-file.bmp");
+            merger.Save("merged-file.image");
           }
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
     title: "Demo Langsung - Aplikasi Online untuk Bergabung dengan Dokumen"
     content: |
-        Bergabunglah dengan lebih dari satu file IMAGE sekarang juga dengan mengunjungi situs web [GroupDocs.Merger](https://products.groupdocs.app/merger/IMAGE).  
-        Demo langsung memiliki manfaat sebagai berikut
+       Bergabunglah dengan lebih dari satu IMAGE file sekarang juga dengan mengunjungi situs web [GroupDocs.Merger Live Demo](https://products.groupdocs.app/merger/image).
+       Demo langsung memiliki manfaat sebagai berikut.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-image-o"
-          title: "Tentang Format Berkas IMAGE"
-          content: |
-            Format file IMAGE adalah metode standar untuk mengatur dan menyimpan gambar di perangkat seperti komputer, tablet, dan ponsel cerdas. Gambar digital menyimpan data IMAGE dalam kisi piksel 2 dimensi di mana setiap piksel merupakan representasi warna dalam hal jumlah bit. Jenis file IMAGE diklasifikasikan ke dalam format IMAGE vektor dan format IMAGE raster. Gambar 3D adalah jenis lain dari format file IMAGE vektor yang digunakan untuk mengelola gambar 3D.
 
-          link: "https://docs.fileformat.com/image/"
-
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Menggabungkan Format Dokumen Lain"
+    title: "Bergabung dengan Format Dokumen Lain"
     content: |
-        .NET dokumen penggabungan API untuk format file dan gambar. Bergabunglah dengan beberapa format dokumen populer bersama-sama seperti yang dinyatakan di bawah ini.
-    format: 
-        - name: "Bergabunglah dengan File PDF"
-          link: "https://products.groupdocs.com/merger/net/join/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        .NET mendokumentasikan API penggabungan untuk format file dan gambar. Bergabunglah bersama beberapa format dokumen populer seperti yang dinyatakan di bawah ini.
 
-        - name: "Bergabunglah dengan File Word"
-          link: "https://products.groupdocs.com/merger/net/join/word/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Bergabunglah dengan File Excel"
-          link: "https://products.groupdocs.com/merger/net/join/excel/"
-          description: "Lembar Kerja Microsoft Excel"
-
-        - name: "Bergabunglah dengan File Lembar Kerja"
-          link: "https://products.groupdocs.com/merger/net/join/worksheet/"
-          description: "Lembar Kerja Microsoft Excel"
-
-        - name: "Bergabunglah dengan IMAGE File"
-          link: "https://products.groupdocs.com/merger/net/join/image/"
-          description: "IMAGE File"
-
-        - name: "Bergabunglah dengan File DOC"
-          link: "https://products.groupdocs.com/merger/net/join/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Bergabunglah dengan File DOCM"
-          link: "https://products.groupdocs.com/merger/net/join/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "Bergabunglah dengan File DOCX"
-          link: "https://products.groupdocs.com/merger/net/join/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
-
-        - name: "Bergabunglah dengan File DOT"
-          link: "https://products.groupdocs.com/merger/net/join/dot/"
-          description: "Templat Dokumen Microsoft Word"
-
-        - name: "Bergabunglah dengan File DOTX"
-          link: "https://products.groupdocs.com/merger/net/join/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Bergabunglah dengan File DOTM"
-          link: "https://products.groupdocs.com/merger/net/join/dotm/"
-          description: "Templat Microsoft Word Macro-Enabled"
-
-        - name: "Bergabunglah dengan File RTF"
-          link: "https://products.groupdocs.com/merger/net/join/rtf/"
-          description: "Dokumen Teks Kaya"
-
-        - name: "Bergabunglah dengan File ODT"
-          link: "https://products.groupdocs.com/merger/net/join/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "Bergabunglah dengan File OTT"
-          link: "https://products.groupdocs.com/merger/net/join/ott/"
-          description: "Templat Teks OpenDocument"
-
-        - name: "Bergabunglah dengan File XLS"
-          link: "https://products.groupdocs.com/merger/net/join/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Bergabunglah dengan File XLSX"
-          link: "https://products.groupdocs.com/merger/net/join/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "Bergabunglah dengan File XLAM"
-          link: "https://products.groupdocs.com/merger/net/join/xlam/"
-          description: "Add-in Excel Open XML Macro-Enabled"
-
-        - name: "Bergabunglah dengan File XLSM"
-          link: "https://products.groupdocs.com/merger/net/join/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Bergabunglah dengan File XLSB"
-          link: "https://products.groupdocs.com/merger/net/join/xlsb/"
-          description: "Lembar Kerja Biner Microsoft Excel"
-
-        - name: "Bergabunglah dengan File XLTX"
-          link: "https://products.groupdocs.com/merger/net/join/xltx/"
-          description: "Templat Microsoft Excel"
-
-        - name: "Bergabunglah dengan File XLTM"
-          link: "https://products.groupdocs.com/merger/net/join/xltm/"
-          description: "Templat berkemampuan makro Microsoft Excel"
-
-        - name: "Bergabunglah dengan File ODS"
-          link: "https://products.groupdocs.com/merger/net/join/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "Bergabunglah dengan File CSV"
-          link: "https://products.groupdocs.com/merger/net/join/csv/"
-          description: "File Nilai Dipisahkan Koma"
-
-        - name: "Bergabunglah dengan File TSV"
-          link: "https://products.groupdocs.com/merger/net/join/tsv/"
-          description: "File Nilai Terpisah Tab"
-        
-        - name: "Bergabunglah dengan File PPT"
-          link: "https://products.groupdocs.com/merger/net/join/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Bergabunglah dengan File PPTX"
-          link: "https://products.groupdocs.com/merger/net/join/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
-
-        - name: "Bergabunglah dengan File PPS"
-          link: "https://products.groupdocs.com/merger/net/join/pps/"
-          description: "Peragaan Slide Microsoft PowerPoint 97-2003"
-
-        - name: "Bergabunglah dengan File PPSX"
-          link: "https://products.groupdocs.com/merger/net/join/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
-
-        - name: "Bergabunglah dengan File POTX"
-          link: "https://products.groupdocs.com/merger/net/join/potx/"
-          description: "Templat Microsoft PowerPoint"
-
-        - name: "Bergabunglah dengan File PPTM"
-          link: "https://products.groupdocs.com/merger/net/join/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "Bergabunglah dengan File ODP"
-          link: "https://products.groupdocs.com/merger/net/join/odp/"
-          description: "Presentasi OpenDocument"
-
-        - name: "Bergabunglah dengan File OTP"
-          link: "https://products.groupdocs.com/merger/net/join/otp/"
-          description: "Template Presentasi OpenDocument"
-
-        - name: "Bergabunglah dengan File Teks"
-          link: "https://products.groupdocs.com/merger/net/join/txt/"
-          description: "File Teks Biasa"
-
-        - name: "Bergabunglah dengan File OneNote"
-          link: "https://products.groupdocs.com/merger/net/join/one/"
-          description: "Microsoft OneNote"
-
-        - name: "Bergabunglah dengan File TIFF"
-          link: "https://products.groupdocs.com/merger/net/join/tiff/"
-          description: "Ditandai Format File IMAGE"
-        
-        - name: "Bergabunglah dengan File PNG"
-          link: "https://products.groupdocs.com/merger/net/join/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: "Bergabunglah dengan File BMP"
-          link: "https://products.groupdocs.com/merger/net/join/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Bergabunglah dengan File XPS"
-          link: "https://products.groupdocs.com/merger/net/join/xps/"
-          description: "File Spesifikasi Kertas XML"
-
-        - name: "Gabung File Web"
-          link: "https://products.groupdocs.com/merger/net/join/web/"
-          description: "File Bahasa Markup Hypertext"
-
-        - name: "Bergabunglah dengan File HTML"
-          link: "https://products.groupdocs.com/merger/net/join/html/"
-          description: "File Bahasa Markup Hypertext"
-
-        - name: "Bergabunglah dengan File MHT"
-          link: "https://products.groupdocs.com/merger/net/join/mht/"
-          description: "Arsip Web MHTML"
-
-        - name: "Bergabunglah dengan File MHTML"
-          link: "https://products.groupdocs.com/merger/net/join/mhtml/"
-          description: "MIME HTML"
-
-        - name: "Bergabunglah dengan File TEX"
-          link: "https://products.groupdocs.com/merger/net/join/tex/"
-          description: "Dokumen Sumber LaTeX"
-
-        - name: "Bergabunglah dengan File EPUB"
-          link: "https://products.groupdocs.com/merger/net/join/epub/"
-          description: "File eBuku"
-          
-        - name: "Bergabunglah dengan File PPSM"
-          link: "https://products.groupdocs.com/merger/net/join/ppsm/"
-          description: "Peragaan Slide Berkemampuan Makro Microsoft PowerPoint"
-        
-        - name: "Bergabunglah dengan File POTM"
-          link: "https://products.groupdocs.com/merger/net/join/potm/"
-          description: "Templat Microsoft PowerPoint Macro-Enabled"
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

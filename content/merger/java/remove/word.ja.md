@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:14:43
 draft: false
+otherformats: 
 
-head_title: "JavaでWordファイルから特定のページを削除する"
-head_description: "ドキュメントマージAPIを使用してページの順序を逆にすることにより、JavaのWordファイルから単一のページまたはページのコレクションを削除または削除します."
+############################# Head ############################
+head_title: "Java の WORD ページを削除"
+head_description: "ドキュメント マージ API を使用してページの順序を逆にすることにより、Java の WORD ファイルから単一のページまたはページのコレクションを削除または削除します。"
 
-title: "JavaでWordからページを削除または削除する"
-description: "JavaおよびJ2SEアプリケーション用のドキュメントマージAPIを使用して、Wordファイルから単一のページまたは特定のページのコレクションを削除または削除します。"
+############################# Header ############################
+title: "Java の WORD ページを削除"
+description: "数行の Java コードを含む WORD ページを削除します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,257 +33,97 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/java"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for Java APIについて"
+    title: "GroupDocs.Merger for Java API について"
     content: |
-        GroupDocs.Merger for Javaライブラリは、PDF、Microsoft Office（Word、Excel、PowerPoint、OneNote）、OpenDocument、HTML、画像など、.NETアプリケーション内のさまざまなドキュメント形式を安全にマージおよび分割するためのシンプルなソリューションを提供します。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for Java](/ja/merger/java/) は、PDF、Microsoft Office (Word、Excel、PowerPoint 、OneNote)、OpenDocument、HTML、画像、および Java アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。
         
-        GroupDocs.Merger APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル ページの削除機能を必要とする企業向けソリューションに最適です。これらの API は、J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10 を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでWordファイルページを削除する"
+    title_left: "Java の WORD ファイル ページを削除"
     content_left: |
-        [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、Wordファイル内の1つまたは複数の特定のページを簡単に削除できます。
-
-        * ** RemoveOptions **クラスを初期化して、削除するページ番号を指定します。
-        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** removePages **メソッドを呼び出し、** RemoveOptions **渡します。
-        * ** save **メソッドを呼び出し、目的のファイルパスを渡して、結果のドキュメントを保存します。
+        [GroupDocs.Merger for Java](/ja/merger/java/) により、Java 開発者は WORD 内の単一または多数の特定のページを簡単に削除できますいくつかの簡単な手順を実装することにより、ファイルを作成します。
         
+        * 削除するページ番号で **RemoveOptions** を初期化します。
+        * **Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **removePages** を呼び出し、**RemoveOptions** オブジェクトを渡します。
+        * **save** を呼び出し、ファイル パスを指定して結果のドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for Java API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、IntelliJ IDEA、Eclipse
-        * フレームワーク：Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, IntelliJ IDEA, Eclipse
+        * フレームワーク: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger) から GroupDocs.Merger for Java の最新バージョンをダウンロードします
+         
     code: |
-        ```cs
-        //GroupDocs.MergerAPIを使用してWordファイルページを削除します
-        String filePath = "input.docx";
-        String filePathOut = "output.docx";
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Java サンプル コードを使用して WORD ファイル ページを削除する方法">}}
 
-        // RemoveOptionsクラスを初期化して、削除するページ番号を指定します
-        RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });
+        ```java    
+        // GroupDocs.Merger API を使用して WORD ファイル ページを削除します
+        // 選択したページ番号で RemoveOptions クラスを初期化する
+        RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 6 });
 
-        //入力Wordドキュメントとのマージをインスタンス化します
-        Merger merger = new Merger("input.docx");
+        // 入力 WORD ドキュメントで Merger をインスタンス化する
+        Merger merger = new Merger("input.word");
 
-        // removePagesメソッドを呼び出し、RemoveOptionsオブジェクトを渡します
+        // removePages メソッドを呼び出し、RemoveOptions オブジェクトをそれに渡します
         merger.removePages(removeOptions);
-            
-        // Saveメソッドを呼び出し、目的のファイルパスを渡して出力ドキュメントを保存します
-        merger.save("output.docx");
+    
+        // save メソッドを呼び出し、目的のファイル パスを渡して出力ドキュメントを保存します。
+        merger.save("output.word");
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-ドキュメントページを削除するオンラインアプリ"
+    title: "ライブデモ - WORD ページをオンラインで削除"
     content: |
-        [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/docx)Webサイトにアクセスして、Wordファイル内のページを今すぐ削除してください。  
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/word) Web サイトにアクセスして、今すぐ WORD ファイル ページを削除してください。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-word-o"
-          title: "Wordファイル形式について"
-          content: |
-            ワードプロセッシングファイルには、プレーンテキストまたはリッチテキスト形式のユーザー情報が含まれています。プレーンテキストファイル形式にはフォーマットされていないテキストが含まれており、フォントやページの設定などは適用できません。対照的に、リッチテキストファイル形式では、フォントタイプ、スタイル（太字、斜体、下線など）、ページ余白、見出し、箇条書き、数字、およびその他のいくつかの書式設定機能の設定などの書式設定オプションを使用できます。リッチテキストファイルの処理を提供するために利用できるより強力なコンピュータとプログラムがあるため、プレーンテキストファイルの使用は時間の経過とともに大幅に減少しました。一般的なプレーンテキストファイル拡張子と関連するファイル形式にはTXT、CSVが含まれ、リッチテキストドキュメントのファイル拡張子にはDOCX、DOC、RTFが含まれます。
 
-          link: "https://docs.fileformat.com/word-processing/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のドキュメント形式のページを削除する"
+    enable: true
+    title: "他のドキュメント形式からページを削除"
     content: |
-        Javaドキュメントのマージとファイル形式と画像の分割API。以下に示すように、一般的なファイル形式からページを削除します。
-    format: 
-        - name: "JavaでPDFファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Java は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を削除します。
 
-        - name: "JavaでWordファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/word/"
-          description: "MicrosoftWordドキュメント"
-
-        - name: "JavaでExcelファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/excel/"
-          description: "MicrosoftExcelワークシート"
-
-        - name: "Javaでワークシートファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/worksheet/"
-          description: "MicrosoftExcelワークシート"
-
-        - name: "JavaでDOCファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/doc/"
-          description: "MicrosoftWordドキュメント"
-
-        - name: "JavaでDOCMファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-        - name: "JavaでDOCXファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-        - name: "JavaでDOTファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-        - name: "JavaでDOTXファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-        - name: "JavaでDOTMファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-        - name: "JavaでRTFファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/rtf/"
-          description: "リッチテキストドキュメント"
-
-        - name: "JavaでODTファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/odt/"
-          description: "ドキュメントテキストを開く"
-
-        - name: "JavaでOTTファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/ott/"
-          description: "OpenDocumentテキストテンプレート"
-
-        - name: "JavaでXLSファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-        - name: "JavaでXLSXファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-        - name: "JavaでXLAMファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/xlam/"
-          description: "ExcelOpenXMLマクロ対応のアドイン"
-
-        - name: "JavaでXLSMファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-        - name: "JavaでXLSBファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/xlsb/"
-          description: "MicrosoftExcelバイナリワークシート"
-
-        - name: "JavaでXLTXファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/xltx/"
-          description: "MicrosoftExcelテンプレート"
-
-        - name: "JavaでXLTMファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-        - name: "JavaでODSファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "https://products.groupdocs.com/merger/java/remove/csv/"
-          description: "カンマ区切り値ファイル"
-
-          link: "https://products.groupdocs.com/merger/java/remove/tsv/"
-          description: "タブ区切り値ファイル"
-        
-        - name: "JavaでPPTファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-        - name: "JavaでPPTXファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-        - name: "JavaでPPSファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/pps/"
-          description: "MicrosoftPowerPoint97-2003スライドショー"
-
-        - name: "JavaでPPSXファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-        - name: "JavaでPOTXファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/potx/"
-          description: "MicrosoftPowerPointテンプレート"
-
-        - name: "JavaでPPTMファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-        - name: "JavaでODPファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/odp/"
-          description: "OpenDocumentプレゼンテーション"
-
-        - name: "JavaでOTPファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/otp/"
-          description: "OpenDocumentプレゼンテーションテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/remove/txt/"
-          description: "プレーンテキストファイル"
-
-        - name: "JavaでOneNoteファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/one/"
-          description: "Microsoft OneNote"
-
-        - name: "JavaでXPSファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/xps/"
-          description: "XMLPaperSpecificationファイル"
-
-          link: "https://products.groupdocs.com/merger/java/remove/web/"
-          description: "ハイパーテキストマークアップ言語ファイル"
-
-        - name: "JavaでHTMLファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/html/"
-          description: "ハイパーテキストマークアップ言語ファイル"
-
-        - name: "JavaでMHTファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/mht/"
-          description: "MHTMLWebアーカイブ"
-
-        - name: "JavaでMHTMLファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/mhtml/"
-          description: "MIME HTML"
-
-        - name: "JavaでTEXファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/tex/"
-          description: "LaTeXソースドキュメント"
-
-        - name: "JavaでEPUBファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/epub/"
-          description: "eBookファイル"
-          
-        - name: "JavaでPPSMファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/ppsm/"
-          description: "MicrosoftPowerPointマクロ対応のスライドショー"
-        
-        - name: "JavaでPOTMファイルページを削除する"
-          link: "https://products.groupdocs.com/merger/java/remove/potm/"
-          description: "MicrosoftPowerPointマクロ対応テンプレート"
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

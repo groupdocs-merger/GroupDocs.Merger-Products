@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-03-02T16:42:09
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:11:12
 draft: false
+otherformats: otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx
 
-head_title: "JavaおよびJ2SEDocumentsMergerAPIを介してODTファイルに参加する"
-head_description: "すべてのデータ、スタイル、フォーマットをソースドキュメントとして持つドキュメントマージAPIを使用して、Javaで複数のODTファイルを結合します."
+############################# Head ############################
+head_title: "Java & J2SE Documents Merger API 経由で ODT ファイルを結合"
+head_description: "ドキュメント マージ API を使用して Java で複数の ODT ファイルを結合し、すべてのデータ、スタイル、フォーマットをソース ドキュメントとして使用します。"
 
-title: "JavaおよびJ2SEアプリケーションでODTファイルに参加する"
-description: "Java Documents Merger APIを使用して、複数のODTファイルを1つのファイルに結合します。選択したページまたはページ範囲をさまざまなソースドキュメントから単一の結果ドキュメントに結合し、すべてのデータ、スタイル、およびフォーマットをソースドキュメントとして使用します."
+############################# Header ############################
+title: "Java の ODT ファイルに参加"
+description: "数行の Java コードで ODT を結合します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,241 +33,93 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/java"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for Java APIについて"
+    title: "GroupDocs.Merger for Java API について"
     content: |
-        GroupDocs.Merger for Javaライブラリは、PDF、Microsoft Office（Word、Excel、PowerPoint、OneNote）、OpenDocument、HTML、画像など、さまざまなドキュメント形式を安全にマージ、結合、結合、分割するためのシンプルなソリューションを提供します。 JavaおよびJ2SEアプリケーション。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for Java](/ja/merger/java/) は、複数の PDF、Microsoft Office (Word、Excel、PowerPoint、OneNote)、OpenDocument、HTML、画像、および他の多くのドキュメントを Java アプリケーション内の 1 つのファイルにまとめます。 GroupDocs.Merger を使用すると、ODT ドキュメントに参加できるため、多くの労力を節約できます。サードパーティのソフトウェア、デスクトップ アプリケーション、またはプラグインをインストールする必要はありません。時間を無駄にしてファイルを手動で結合する必要がなくなりました。 GroupDocs の使命は、最高の品質を提供し、ドキュメント処理ワークフローを簡素化することです。
         
-        GroupDocs.Merger APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル結合機能を必要とする企業向けソリューションに最適です。これらの API は、J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10 を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Javaで複数のODTファイルを結合する"
+    title_left: "Java 内の複数の ODT ファイルを結合"
     content_left: |
-        [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、複数のODTファイルに簡単に参加できます。
-
-        * ** Merger **クラスのインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** Merger **ンスの**Join **メソッドを呼び出し、2番目のソースドキュメントパスを渡します。
-        * ** Merger **ンスの**Save **メソッドを呼び出して、マージされたドキュメントを保存します。
+        [GroupDocs.Merger for Java](/ja/merger/java/) を使用すると、いくつかの簡単な手順を実装することで、Java 開発者が複数の ODT ファイルを簡単に結合できます。
         
+        * **Merger** のインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **Merger** クラスの **Join** を呼び出し、2 番目のソース ドキュメント パスを渡します。
+        * **Merger** クラスの **Save** を呼び出して、マージされたドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for Java API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、IntelliJ IDEA、Eclipse
-        * フレームワーク：Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, IntelliJ IDEA, Eclipse
+        * フレームワーク: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger) から GroupDocs.Merger for Java の最新バージョンをダウンロードします
+         
     code: |
-        ```java
-        // GroupDocs.Merger for Java APIを使用してODTファイルを結合します
-        //入力ODTドキュメントを使用してマージをインスタンス化します
-        Merger merger = new Merger("input_1.odt");
-        
-        // MergerクラスインスタンスのJoinメソッドを呼び出し、2番目のソースドキュメントパスを渡します
-        merger.join("input_2.odt");
-            
-        // MergerクラスインスタンスのSaveメソッドを呼び出して、マージされたドキュメントを保存します
-        merger.save("merged-file.odt");        
-        ```   
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Java サンプル コードを使用して ODT ファイルを結合する方法">}}
 
+        ```java    
+        // GroupDocs.Merger for Java API を使用して ODT ファイルを結合します
+        // 入力 ODT ドキュメントで Merger をインスタンス化する
+        Merger merger = new Merger("input_1.odt");
+
+        // Merger クラス インスタンスの join メソッドを呼び出し、2 番目のソース ドキュメント パスを渡す
+        merger.join("input_2.odt");
+    
+        // Merger クラス インスタンスの save メソッドを呼び出して、マージされたドキュメントを保存します。
+        merger.save("merged-file.odt"); 
+        ```
+     {{< /merger/code-merger >}}
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-ドキュメントに参加するオンラインアプリ"
+    title: "ライブ デモ - ドキュメントに参加するためのオンライン アプリ"
     content: |
-        [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/odt)Webサイトにアクセスして、今すぐ複数のODTファイルに参加してください。  
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/odt) Web サイトにアクセスして、複数の ODT ファイルに今すぐ参加してください。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-ODT"
-          title: "ODTファイル形式について"
-          content: |
-            ODTファイルは、OpenDocumentテキストファイル形式に基づくワードプロセッシングアプリケーションで作成されたドキュメントの一種です。これらは、無料のOpenOffice Writerなどのワードプロセッサアプリケーションで作成され、テキスト、画像、オブジェクト、スタイルなどのコンテンツを保持できます。 ODTファイルは、ライターワードプロセッサに対するものであり、DOCXはMicrosoftWordに対するものです。 GoogleドキュメントやGoogleドライブに含まれているGoogleのWebベースのワードプロセッサを含むいくつかのアプリケーションは、編集のためにODTファイルを開くことができます。
 
-          link: "https://docs.fileformat.com/word-processing/odt/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のドキュメント形式への参加"
+    enable: true
+    title: "他のドキュメント形式の結合"
     content: |
-        ファイル形式と画像用のJavaドキュメントマージAPI。以下に示すように、人気のあるドキュメント形式のいくつかを結合します。
-    format: 
-          link: "https://products.groupdocs.com/merger/java/join/bmp/"
-          description: "ビットマップファイル形式"
+        Java は、ファイル形式と画像の合併 API を文書化しています。以下に示すように、いくつかの一般的なドキュメント形式を結合します。
 
-          link: "https://products.groupdocs.com/merger/java/join/csv/"
-          description: "カンマ区切り値ファイル"
-
-          link: "https://products.groupdocs.com/merger/java/join/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/join/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/join/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/join/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/html/"
-          description: "ハイパーテキストマークアップ言語"
-
-          link: "https://products.groupdocs.com/merger/java/join/mht/"
-          description: "集約HTMLのMIMEカプセル化"
-
-          link: "https://products.groupdocs.com/merger/java/join/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
-
-          link: "https://products.groupdocs.com/merger/java/join/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "https://products.groupdocs.com/merger/java/join/otp/"
-          description: "原点グラフテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/ott/"
-          description: "ドキュメントテンプレートを開く"
-
-          link: "https://products.groupdocs.com/merger/java/join/pdf/"
-          description: "ポータブルドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/join/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "https://products.groupdocs.com/merger/java/join/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/join/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/join/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/join/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/join/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/join/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/join/ps/"
-          description: "PostScript（PS）"
-
-          link: "https://products.groupdocs.com/merger/java/join/rtf/"
-          description: "リッチテキストファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/tex/"
-          description: "LaTeXソースドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/join/tif/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/tsv/"
-          description: "タブ区切り値ファイル"
-
-          link: "https://products.groupdocs.com/merger/java/join/txt/"
-          description: "プレーンテキストファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/vdx/"
-          description: "MicrosoftVisioXML図面ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/vsdm/"
-          description: "Visioマクロ対応の描画"
-
-          link: "https://products.groupdocs.com/merger/java/join/vsdx/"
-          description: "MicrosoftVisioファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/vssm/"
-          description: "MicrosoftVisioマクロ対応ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/vssx/"
-          description: "Visioステンシルファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/vstm/"
-          description: "Visioマクロ対応の図面テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/vstx/"
-          description: "MicrosoftVisioファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/vsx/"
-          description: "ベクトルスカラー拡張"
-
-          link: "https://products.groupdocs.com/merger/java/join/vtx/"
-          description: "MicrosoftVisio図面テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/xlam/"
-          description: "MicrosoftExcelマクロ対応アドイン"
-
-          link: "https://products.groupdocs.com/merger/java/join/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/join/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
-
-          link: "https://products.groupdocs.com/merger/java/join/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/java/join/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/java/join/xlt/"
-          description: "MicrosoftExcelテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/xltx/"
-          description: "Microsoft ExcelOpenXMLテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/join/xps/"
-          description: "XMLPaperSpecificationを開く"
-
-        
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

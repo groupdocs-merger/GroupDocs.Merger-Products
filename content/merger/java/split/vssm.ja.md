@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-03-05T17:06:49
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:17:46
 draft: false
+otherformats: dotm dotx epub html mht mhtml odp ods odt one otp ott pdf pps ppsx ppt
 
+############################# Head ############################
 head_title: "VSSMをJavaで複数のファイルに分割"
-head_description: "Javaユーザーは、ドキュメントマージAPIを使用して、ページ番号、ページ間隔、偶数ページまたは奇数ページに基づいて単一のVSSMファイルを複数のファイルに分割します。"
+head_description: "ドキュメント マージ API を使用して、ページ番号、ページ間隔、偶数ページまたは奇数ページに基づいて、1 つの VSSM ファイルを複数のファイルに分割します。"
 
-title: "VSSMをJavaで複数のファイルに分割"
-description: "JavaおよびJ2SEアプリケーション用のドキュメントマージAPIを使用して、ページ番号、ページ間隔、偶数ページまたは奇数ページに基づいて、単一のVSSMファイルを複数の結果ファイルに分割します。"
+############################# Header ############################
+title: "VSSM Java のスプリッター"
+description: "VSSM を数行の Java コードで分割します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,234 +33,96 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/java"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for Java APIについて"
+    title: "GroupDocs.Merger for Java API について"
     content: |
-        GroupDocs.Merger for Javaライブラリは、PDF、Microsoft Office（Word、Excel、PowerPoint、OneNote）、OpenDocument、HTML、画像など、.NETアプリケーション内のさまざまなドキュメント形式を安全にマージおよび分割するためのシンプルなソリューションを提供します。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for Java](/ja/merger/java/) ライブラリは、PDF、Microsoft Office (Word、Excel、 PowerPoint、OneNote)、OpenDocument、HTML、画像、および Java アプリケーション内のその他多数。コードを数行追加するだけで、ドキュメント内のページの移動、削除、回転、交換、抽出、向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメント マージ API は、ドキュメント ページの画像としてのプレビューもサポートしており、ページ上のドキュメント構造、フォーマット、およびコンテンツを分析します。
         
-        GroupDocs.Merger APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル分割機能を必要とする企業向けソリューションに最適です。これらの API は、J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10 を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでVSSMファイルをページごとに分割"
+    title_left: "Java で VSSM ファイルをページごとに分割"
     content_left: |
-        [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、単一のVSSMファイルを複数の結果ファイルに簡単に分割できます。
-
-        * ** PageSplitOptions **ァイルのパス形式で初期化します。
-        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** split **メソッドを呼び出し、** PageSplitOptions **渡して結果のドキュメントを保存します。
+        [GroupDocs.Merger for Java](/ja/merger/java/) を使用すると、Java 開発者は、単一の VSSM ファイルを複数の結果ファイルに分割することが容易になります。いくつかの簡単な手順。
         
+        * 出力ファイルのパス形式で **SplitOptions** を初期化します。
+        * **Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **split** を呼び出して **SplitOptions** オブジェクトを渡し、結果のドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for Java API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、IntelliJ IDEA、Eclipse
-        * フレームワーク：Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, IntelliJ IDEA, Eclipse
+        * フレームワーク: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger) から GroupDocs.Merger for Java の最新バージョンをダウンロードします
+         
     code: |
-        ```java
-        //GroupDocs.MergerAPIを使用してVSSMファイルを分割します
-        String filePath = "input.pdf";
-        String filePathOut = "output.pdf";
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Java サンプル コードを使用して VSSM ファイルを分割する方法">}}
 
-        //出力ファイルのパス形式でPageSplitOptionsクラスを初期化します
-        PageSplitOptions splitOptions = new PageSplitOptions(filePathOut, new int[] { 3, 6, 8 });
+        ```java    
+        // GroupDocs.Merger for Java API を使用して VSSM ファイルを分割します
+        String filePath = "input.vssm";
+        String filePathOut = "output.vssm";
+        
+        // 出力ファイルのパス形式で SplitOptions クラスを初期化する
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        //入力VSSMドキュメントを使用してマージをインスタンス化します
-        Merger merger = new Merger("input.vssm");
-        // splitメソッドを呼び出し、SplitOptionsオブジェクトを渡して結果のドキュメントを保存します
+        // 入力 VSSM ドキュメントで Merger をインスタンス化する
+        Merger merger = new Merger(filePath);
+
+        // split メソッドを呼び出し、SplitOptions オブジェクトを渡して、結果のドキュメントを保存します
         merger.split(splitOptions);
-            
-        // saveメソッドを呼び出し、目的のファイルパスを渡して出力ドキュメントを保存します
-        merger.save("output.vssm");
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-VSSMファイルをオンラインで分割"
+    title: "ライブデモ - VSSM ファイルをオンラインで分割"
     content: |
-        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/splitter/vssm)サイトにアクセスして、VSSMファイルを今すぐ分割します。
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/vssm) Web サイトにアクセスして、今すぐ VSSM ファイルを分割してください。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-alt"
-          title: "VSSMファイル形式について"
-          content: |
-            拡張子が.VSSMのファイルは、マクロのサポートをサポートするMicrosoftVisioStencilファイルです。 VSSMファイルを開くと、マクロを実行して、ダイアグラム内の図形の目的の書式設定と配置を実現できます。一般に、Microsoft Visioは、さまざまな形でユーザー定義情報を含み、表現できるファイルを作成できる描画ソフトウェアです。
 
-          link: "https://docs.fileformat.com/image/vssm/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他の形式の分割ファイル"
     content: |
-        Javaドキュメントのマージとファイル形式と画像の分割API。以下に示すように、一般的なファイル形式のいくつかを分割します。
-    format: 
-          link: "https://products.groupdocs.com/merger/java/split/csv/"
-          description: "カンマ区切り値ファイル"
+        Java は、ファイル形式と画像の合併と分割の API を文書化しています。以下に示すように、一般的なファイル形式の一部を分割します。
 
-          link: "https://products.groupdocs.com/merger/java/split/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/split/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/split/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/split/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/split/html/"
-          description: "ハイパーテキストマークアップ言語"
-
-          link: "https://products.groupdocs.com/merger/java/split/mht/"
-          description: "集約HTMLのMIMEカプセル化"
-
-          link: "https://products.groupdocs.com/merger/java/split/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
-
-          link: "https://products.groupdocs.com/merger/java/split/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/split/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "https://products.groupdocs.com/merger/java/split/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "https://products.groupdocs.com/merger/java/split/otp/"
-          description: "原点グラフテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/ott/"
-          description: "ドキュメントテンプレートを開く"
-
-          link: "https://products.groupdocs.com/merger/java/split/pdf/"
-          description: "ポータブルドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/split/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/split/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/split/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/split/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/split/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/split/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/split/ps/"
-          description: "PostScript（PS）"
-
-          link: "https://products.groupdocs.com/merger/java/split/rtf/"
-          description: "リッチテキストファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/split/tex/"
-          description: "LaTeXソースドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/split/tsv/"
-          description: "タブ区切り値ファイル"
-
-          link: "https://products.groupdocs.com/merger/java/split/txt/"
-          description: "プレーンテキストファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/split/vdx/"
-          description: "MicrosoftVisioXML図面ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/split/vsdm/"
-          description: "Visioマクロ対応の描画"
-
-          link: "https://products.groupdocs.com/merger/java/split/vsdx/"
-          description: "MicrosoftVisioファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/split/vssx/"
-          description: "Visioステンシルファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/split/vstm/"
-          description: "Visioマクロ対応の図面テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/vstx/"
-          description: "MicrosoftVisioファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/split/vsx/"
-          description: "ベクトルスカラー拡張"
-
-          link: "https://products.groupdocs.com/merger/java/split/vtx/"
-          description: "MicrosoftVisio図面テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/xlam/"
-          description: "MicrosoftExcelマクロ対応アドイン"
-
-          link: "https://products.groupdocs.com/merger/java/split/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/split/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
-
-          link: "https://products.groupdocs.com/merger/java/split/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/java/split/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/java/split/xlt/"
-          description: "MicrosoftExcelテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/xltx/"
-          description: "Microsoft ExcelOpenXMLテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/split/xps/"
-          description: "XMLPaperSpecificationを開く"
-
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

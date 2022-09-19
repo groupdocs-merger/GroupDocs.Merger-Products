@@ -1,14 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+layout: "auto-gen-merger"
+date: 2022-09-19T14:15:00
 draft: false
+otherformats: pdf xps epub
+
 ############################# Head ############################
-head_title: "Поворот страниц TEX в Java — поворот на 90, 180, 270 градусов"
-head_description: "Пользователи Java могут поворачивать определенные или все страницы документа файла TEX на угол поворота 90, 180, 270, используя API слияния и разделения документов."
+head_title: "Повернуть TEX страницы на Java — поворот на угол 90, 180, 270"
+head_description: "Поворачивайте определенные или все страницы документа TEX файла на угол поворота 90, 180, 270, используя Merger API."
+
 ############################# Header ############################
-title: "Поворот страниц из файла TEX в Java"
-description: "Поворачивайте выбранные или все страницы документа файла TEX на угол поворота 90, 180 или 270, используя API слияния и разделения документов для приложений Java и J2SE."
+title: "Повернуть TEX страницы на Java"
+description: "Поверните TEX страниц с помощью нескольких строк Java кода."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,109 +19,110 @@ button:
     icon: "fas fa-arrow-down"
     label: "Скачать бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/merger/java"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
         img_alt: "GroupDocs.Merger for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-merger-java.png"
         product: "GroupDocs.Merger"
         platform: "Java"
+
     middle:
         button:
+
             # button loop
             - link: "https://apireference.groupdocs.com/merger/java"
               text: "Справочник по API"
+
             # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "Примеры кода"
+
             # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "Живые демонстрации"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/java"
               text: "Цены"
+
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/java"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Merge для Java API"
+    title: "Кратко о GroupDocs.Merger for Java"
     content: |
-        Библиотека GroupDocs.Merger для Java предлагает простое решение для безопасного объединения и разделения документов различных форматов, включая PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, изображения и многие другие в приложениях .NET. Добавив всего несколько строк кода, можно выполнять несколько операций с документами, например перемещать, удалять, поворачивать, менять местами, извлекать или изменять ориентацию страниц в документах. API слияния документов также поддерживает предварительный просмотр страниц документа в виде изображения для анализа структуры документа, форматирования и содержимого на странице.
-        API-интерфейсы GroupDocs.Merge хорошо поддерживаются во всех основных операционных системах и версиях Java, включая J2SE 7.0 (1.7), J2SE 8.0 (1.8) и Java 10.
+        [GroupDocs.Merger for Java](/ru/merger/java/) предоставляет удобное решение для объединения нескольких файлов PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, изображений и многие другие документы в один файл в Java приложениях. GroupDocs.Merger сэкономит вам много усилий, так как вы можете объединять TEX документы - нет необходимости устанавливать какое-либо стороннее программное обеспечение, настольные приложения или плагины. Теперь не нужно тратить время и объединять файлы вручную! Миссия GroupDocs — обеспечить наилучшее качество и упростить рабочие процессы обработки документов.
+        
+        GroupDocs.Merger API — правильный выбор для корпоративных решений, которым нужны функции ротации страниц файлов. Эти интерфейсы хорошо поддерживаются во всех основных операционных системах и платформах, включая J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10.
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Поворот страниц файла TEX в Java"
+    title_left: "Повернуть страницы TEX документов на Java"
     content_left: |
-        [GroupDocs.Merger](/ru/merger/java/) позволяет разработчикам Java легко поворачивать некоторые определенные или все страницы в файле TEX на угол поворота 90, 180 или 270, выполняя несколько простых шагов.
-        * Инициализируйте класс **RotateOptions**емым углом поворота и номерами страниц.
-        * Создайте новый экземпляр класса **Merge**дайте путь к исходному документу в качестве параметра конструктора.
-        * Вызвать метод **rotatePages**дать ему объект **RotateOptions**.
-        * Вызовите метод **save**ите нужный путь к файлу, чтобы сохранить результирующий документ.
+        [GroupDocs.Merger for Java](/ru/merger/java/) позволяет разработчикам Java легко поворачивать некоторые определенные или все страницы в файле TEX на 90 , угол поворота 180 или 270, выполнив несколько простых шагов.
+        
+        * Инициализируйте **RotateOptions**, указав желаемый угол поворота и номера страниц.
+        * Создайте новый экземпляр **Merger** и передайте ему путь к исходному документу в качестве параметра конструктора.
+        * Вызовите метод **rotatePages** и передайте объект **RotateOptions**.
+        * Вызовите метод **save** и укажите путь к файлу для сохранения результирующего документа.
+
     title_right: "Системные Требования"
     content_right: |
-        API GroupDocs.Merge for Java поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        GroupDocs.Merger for Java API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+
         * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: NetBeans, IntelliJ IDEA, Eclipse
-        * Фреймворки: Java 7 (1.7) и выше
-        * Загрузите последнюю версию GroupDocs.Merger для Java с [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
+        * Среда разработки: NetBeans, IntelliJ IDEA, Eclipse
+        * Фреймворки: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
+        * Загрузите последнюю версию GroupDocs.Merger for Java из [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
+         
     code: |
-        ```cs
-        // Поворот страниц файла TEX с помощью API GroupDocs.Merger
-        String filePath = "input.tex";
-        String filePathOut = "output.tex";
-        // Инициализируем класс RotateOptions для указания угла поворота и номеров страниц
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Как повернуть страницы TEX документов, используя пример кода Java">}}
+
+        ```java    
+        // Повернуть страницы TEX документов с помощью GroupDocs.Merger API
+        // Инициализируйте класс RotateOptions, чтобы указать угол поворота и номера страниц для поворота.
         RotateOptions rotateOptions = new RotateOptions(RotateMode.Rotate180, new int[] { 2, 3 });
-        // Создание экземпляра слияния с входным TEX-документом
-        Merger merger = new Merger("input.tex")
-        // Вызываем метод rotatePages и передаем ему объект RotateOptions
+
+        // Создание экземпляра класса Merger с входным параметром TEX документа
+        Merger merger = new Merger("input.tex");
+
+        // Вызвать метод rotatePages и передать ему объект RotateOptions
         merger.rotatePages(rotateOptions);
-        // Вызываем метод сохранения и передаем желаемый путь к файлу для сохранения выходного документа
+    
+        // Вызовите метод save и передайте желаемый путь к файлу, чтобы сохранить результат
         merger.save("output.tex");
         ```
+     {{< /merger/code-merger >}}
+
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации — онлайн-приложение для поворота страниц документа"
+    title: "Живые демонстрации — поверните страницы TEX документов онлайн"
     content: |
-        Поверните страницы в файлах TEX прямо сейчас, посетив веб-сайт [Живые наблюдения](https://products.groupdocs.app/merger/TEX). Живая демонстрация имеет следующие преимущества
+       Поверните страницы TEX документов прямо сейчас, посетив веб-сайт [Живые демонстрации GroupDocs.Merger](https://products.groupdocs.app/splitter/rotate-pages/tex).
+       Живые демонстрации имеют следующие преимущества.
+        
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-code-o"
-          title: "О формате файла TEX"
-          content: |
-            TeX — это язык, который включает в себя программирование, а также функции разметки, используемые для верстки документов. Дональд Кнут из Стэнфордского университета является создателем этой находчивой системы набора текста. Во всем мире TeX — лучший выбор авторов и издателей для создания высококачественной технической документации. TeX отлично справляется с форматированием сложных математических выражений. В сочетании с высококачественным фотонаборным устройством TeX конкурирует с результатами, полученными с помощью лучших традиционных систем набора текста. Поэтому считается самой классной цифровой типографской системой. Входные файлы TeX основаны на коде ASCII, что позволяет совместно использовать рукописи писателям, менеджерам издательств и критикам. Широкий спектр вычислительных сред, почти каждая современная платформа и множество старых платформ поддерживают TeX. Более того, TeX является бесплатным программным обеспечением, доступным широкому кругу потребителей. Многие установки UNIX используют как UNIX troff, так и TeX в качестве системы форматирования для разных целей. Другие задачи по набору текста выполняются с помощью LaTeX, ConTeXt и других пакетов макросов.
-          link: "https://docs.fileformat.com/page-description-language/tex/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Вращение страниц других форматов документов"
+    title: "Повернуть страницы других форматов документов"
     content: |
-        API слияния и разделения документов Java для форматов файлов и изображений. Поверните страницы некоторых популярных форматов файлов, как указано ниже.
-    format: 
-        # format loop
-        - name: "Поворот страниц файла PDF в Java"
-          link: "/merger/java/rotate/pdf/"
-          description: "Adobe Portable Document Format"
-        # format loop
-        - name: "Поворот страниц файла XPS в Java"
-          link: "/merger/java/rotate/xps/"
-          description: "Файл спецификации XML Paper"
-        # format loop
-        - name: "Поворот страниц файла TEX в Java"
-          link: "/merger/java/rotate/tex/"
-          description: "Исходный документ LaTeX"
-        # format loop
-        - name: "Поворот страниц файла EPUB в Java"
-          link: "/merger/java/rotate/epub/"
-          description: "файл электронной книги"
+        Java API для документов и изображений. Поверните некоторые страницы документов, указанных ниже.
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

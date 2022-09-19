@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:09:29
 draft: false
+otherformats: 
 
-head_title: "WebファイルをC＃（.NET Core）で1つに結合–Web合併"
-head_description: "C＃.NETドキュメントマージAPIを使用して、複数のWebファイルを1つのファイルに結合します。特定のページまたはページ範囲をさまざまなドキュメントから単一のドキュメントに結合します."
+############################# Head ############################
+head_title: "C# で WEB ファイルを結合 | WEB合併"
+head_description: "C# .NET ドキュメント マージ API を使用して、複数の WEB ファイルを 1 つのファイルに結合します。さまざまなドキュメントの特定のページまたはページ範囲を 1 つのドキュメントに結合します。"
 
-title: "C＃でWebファイルを結合する（.NET Core）"
-description: "C＃.NETドキュメントマージAPIを使用して、複数のWebファイルを1つのファイルに結合します。選択したページまたはページ範囲をさまざまなソースドキュメントから1つの結果ドキュメントに結合します."
+############################# Header ############################
+title: "C# 内の WEB ファイルを結合します"
+description: "WEB を数行の .NET コードと組み合わせます。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,225 +33,94 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "価格設定"
+              text: "料金"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for .NET APIについて"
+    title: "GroupDocs.Merger for .NET API について"
     content: |
-        [GroupDocs.Merger for .NET](/merger/net/)は、PDF、Microsoft Office（Word、Excel、PowerPoint、OneNote）、OpenDocument、HTML、 .NETアプリケーション内の画像およびその他の多く。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) は、複数の PDF、Microsoft Office (Word、Excel、PowerPoint、OneNote)、OpenDocument、HTML、画像、および他の多くのドキュメントを .NET アプリケーション内の 1 つのファイルにまとめます。 GroupDocs.Merger を使用すると、WEB ドキュメントを結合できるため、多くの労力を節約できます。サードパーティのソフトウェア、デスクトップ アプリケーション、またはプラグインをインストールする必要はありません。時間を無駄にして手動でファイルを結合する必要はもうありません。 GroupDocs の使命は、最高の品質を提供し、ドキュメント処理ワークフローを簡素化することです。
         
-        GroupDocs.Merger APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル結合機能を必要とする企業向けソリューションに最適です。これらの API は、.NET Framework, .NET Standard, .NET Core, Mono を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "複数のWebファイルを組み合わせる方法"
+    title_left: "複数の WEB ファイルを結合する方法"
     content_left: |
-        [GroupDocs.Merger](/merger/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内で2つ以上のWebファイルを簡単に組み合わせることができます。
-
-        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** Merger **ンスの**Join **メソッドを呼び出し、2番目のソースドキュメントパスを渡します。
-        * ** Merger **ンスの**Save **メソッドを呼び出して、マージされたドキュメントを保存します。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) を使用すると、.NET の開発者は、アプリケーション内で 2 つ以上の WEB ファイルを簡単に組み合わせることができます。いくつかの簡単な手順。
         
+        * **Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **Merger** クラスの **Join** を呼び出し、2 番目のソース ドキュメント パスを渡します。
+        * **Merger** クラスの **Save** を呼び出して、マージされたドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for .NET API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)からGroupDocs.Mergerfor.NETの最新バージョンをダウンロードします
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework, .NET Standard, .NET Core, Mono
+        * [NuGet](https://www.nuget.org/packages/groupdocs.merger) から GroupDocs.Merger for .NET の最新バージョンをダウンロードします
+         
     code: |
-        ```cs
-        //GroupDocs.MergerAPIを使用してWebファイルを結合します
-        //入力Webドキュメントとのマージをインスタンス化します
-        using (Merger merger = new Merger("input1.html"))
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="C# サンプル コードを使用して WEB ファイルを結合する方法">}}
+
+        ```csharp    
+        // GroupDocs.Merger API を使用して WEB ファイルを結合します
+        // 入力 WEB ドキュメントで Merger をインスタンス化する
+        using (Merger merger = new Merger("input1.web"))
           {
-            // MergerクラスインスタンスのJoinメソッドを呼び出し、2番目のソースドキュメントパスを渡します
-            merger.Join("input2.html");
-            
-            // MergerクラスインスタンスのSaveメソッドを呼び出して、マージされたドキュメントを保存します
-            merger.Save("merged-file.html");
+            // Merger クラス インスタンスの Join メソッドを呼び出し、2 番目のソース ドキュメント パスを渡します
+            merger.Join("input2.web");
+    
+            // Merger クラス インスタンスの Save メソッドを呼び出して、マージされたドキュメントを保存します。
+            merger.Save("merged-file.web");
           }
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-ドキュメントを組み合わせるオンラインアプリ"
+    title: "ライブ デモ - ドキュメントを結合するためのオンライン アプリ"
     content: |
-        [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/html)Webサイトにアクセスして、現在複数のWebファイルを結合してください。  
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) Web サイトにアクセスして、複数の WEB ファイルを今すぐ結合してください。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-html5"
-          title: "Webファイル形式について"
-          content: |
-            HTML（ハイパーテキストマークアップ言語）は、ブラウザで表示するために作成されたWebページの拡張機能です。 Webの言語として知られるHTMLは、Webページの一部として表示される新しい情報要件の要件とともに進化してきました。最新のバリアントはHTML5として知られており、言語を操作するための多くの柔軟性を提供します。 HTMLページは、ホストされているサーバーから受信するか、ローカルシステムからロードすることもできます。各HTMLページは、フォーム、テキスト、画像、アニメーション、リンクなどのHTML要素で構成されています。これらの要素は、タグと、各タグに開始と終了がある他のいくつかの要素で表されます。また、JavaScriptやスタイルシート（CSS）などのスクリプト言語で記述されたアプリケーションを埋め込んで、全体的なレイアウトを表現することもできます。
 
-          link: "https://docs.fileformat.com/web/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のドキュメント形式のマージ"
     content: |
-        .NETは、ファイル形式と画像のマージAPIを文書化します。以下に示すように、一般的なドキュメント形式のいくつかを組み合わせます。
-    format: 
-          link: "https://products.groupdocs.com/merger/net/combine/pdf/"
-          description: "AdobePortableドキュメント形式"
+        .NET は、ファイル形式と画像の合併 API を文書化しています。以下に示すように、いくつかの一般的なドキュメント形式を組み合わせます。
 
-          link: "https://products.groupdocs.com/merger/net/combine/word/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "https://products.groupdocs.com/merger/net/combine/excel/"
-          description: "MicrosoftExcelワークシート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/worksheet/"
-          description: "MicrosoftExcelワークシート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/image/"
-          description: "画像ファイル"
-
-          link: "https://products.groupdocs.com/merger/net/combine/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "https://products.groupdocs.com/merger/net/combine/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "https://products.groupdocs.com/merger/net/combine/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "https://products.groupdocs.com/merger/net/combine/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/rtf/"
-          description: "リッチテキストドキュメント"
-
-          link: "https://products.groupdocs.com/merger/net/combine/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "https://products.groupdocs.com/merger/net/combine/ott/"
-          description: "OpenDocumentテキストテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/combine/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/xlam/"
-          description: "ExcelOpenXMLマクロ対応のアドイン"
-
-          link: "https://products.groupdocs.com/merger/net/combine/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/xlsb/"
-          description: "MicrosoftExcelバイナリワークシート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/xltx/"
-          description: "MicrosoftExcelテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "https://products.groupdocs.com/merger/net/combine/csv/"
-          description: "カンマ区切り値ファイル"
-
-          link: "https://products.groupdocs.com/merger/net/combine/tsv/"
-          description: "タブ区切り値ファイル"
-        
-          link: "https://products.groupdocs.com/merger/net/combine/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/net/combine/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/net/combine/pps/"
-          description: "MicrosoftPowerPoint97-2003スライドショー"
-
-          link: "https://products.groupdocs.com/merger/net/combine/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "https://products.groupdocs.com/merger/net/combine/potx/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/net/combine/odp/"
-          description: "OpenDocumentプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/net/combine/otp/"
-          description: "OpenDocumentプレゼンテーションテンプレート"
-
-          link: "https://products.groupdocs.com/merger/net/combine/txt/"
-          description: "プレーンテキストファイル"
-
-          link: "https://products.groupdocs.com/merger/net/combine/one/"
-          description: "Microsoft OneNote"
-
-          link: "https://products.groupdocs.com/merger/net/combine/tiff/"
-          description: "タグ付き画像ファイル形式"
-        
-          link: "https://products.groupdocs.com/merger/net/combine/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "https://products.groupdocs.com/merger/net/combine/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "https://products.groupdocs.com/merger/net/combine/xps/"
-          description: "XMLPaperSpecificationファイル"
-
-          link: "https://products.groupdocs.com/merger/net/combine/web/"
-          description: "ハイパーテキストマークアップ言語ファイル"
-
-          link: "https://products.groupdocs.com/merger/net/combine/html/"
-          description: "ハイパーテキストマークアップ言語ファイル"
-
-          link: "https://products.groupdocs.com/merger/net/combine/mht/"
-          description: "MHTMLWebアーカイブ"
-
-          link: "https://products.groupdocs.com/merger/net/combine/mhtml/"
-          description: "MIME HTML"
-
-          link: "https://products.groupdocs.com/merger/net/combine/tex/"
-          description: "LaTeXソースドキュメント"
-
-          link: "https://products.groupdocs.com/merger/net/combine/epub/"
-          description: "eBookファイル"
-          
-          link: "https://products.groupdocs.com/merger/net/combine/ppsm/"
-          description: "MicrosoftPowerPointマクロ対応のスライドショー"
-        
-          link: "https://products.groupdocs.com/merger/net/combine/potm/"
-          description: "MicrosoftPowerPointマクロ対応テンプレート"
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

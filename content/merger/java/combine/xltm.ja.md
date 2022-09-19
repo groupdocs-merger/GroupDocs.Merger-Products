@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-03-02T16:20:34
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-09-19T14:09:30
 draft: false
+otherformats: pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx
 
-head_title: "JavaとJ2SEDocumentsMergerAPIを介してXLTMファイルを結合する"
-head_description: "ドキュメントマージAPIを使用して、Javaで複数のXLTMファイルを結合し、すべてのデータ、スタイル、およびフォーマットをソースドキュメントとして使用します."
+############################# Head ############################
+head_title: "Java & J2SE Documents Merger API を介して XLTM ファイルを結合"
+head_description: "ドキュメント マージ API を使用して Java で複数の XLTM ファイルを結合し、ソース ドキュメントとしてすべてのデータ、スタイル、書式設定を行います。"
 
-title: "JavaアプリケーションでXLTMファイルを組み合わせる"
-description: "JavaドキュメントマージAPIを使用して、複数のXLTMファイルを1つのファイルに結合します。選択したページまたはさまざまなソースドキュメントのページ範囲を、すべてのデータ、スタイル、およびフォーマットをソースドキュメントとして持つ単一の結果ドキュメントに結合します."
+############################# Header ############################
+title: "Java 内の XLTM ファイルを結合します"
+description: "XLTM を数行の Java コードと組み合わせます。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,241 +33,93 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/java"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "価格設定"
+              text: "料金"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for Java APIについて"
+    title: "GroupDocs.Merger for Java API について"
     content: |
-        [GroupDocs.Merger for Java](/merger/java/)ライブラリは、PDF、Microsoft Office（Word、Excel、PowerPoint、OneNote）、 OpenDocument、HTML、画像、およびJavaおよびJ2SEアプリケーション内の他の多く。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for Java](/ja/merger/java/) は、複数の PDF、Microsoft Office (Word、Excel、PowerPoint、OneNote)、OpenDocument、HTML、画像、および他の多くのドキュメントを Java アプリケーション内の 1 つのファイルにまとめます。 GroupDocs.Merger を使用すると、XLTM ドキュメントを結合できるため、多くの労力を節約できます。サードパーティのソフトウェア、デスクトップ アプリケーション、またはプラグインをインストールする必要はありません。時間を無駄にして手動でファイルを結合する必要はもうありません。 GroupDocs の使命は、最高の品質を提供し、ドキュメント処理ワークフローを簡素化することです。
         
-        GroupDocs.Merger APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル結合機能を必要とする企業向けソリューションに最適です。これらの API は、J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10 を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Javaで複数のXLTMファイルを組み合わせる"
+    title_left: "Java 内の複数の XLTM ファイルを結合"
     content_left: |
-        [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、複数のXLTMファイルを簡単に組み合わせることができます。
-
-        * ** Merger **クラスのインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** Merger **ンスの**Join **メソッドを呼び出し、2番目のソースドキュメントパスを渡します。
-        * ** Merger **ンスの**Save **メソッドを呼び出して、マージされたドキュメントを保存します。
+        [GroupDocs.Merger for Java](/ja/merger/java/) を使用すると、Java 開発者はいくつかの簡単な手順を実装することで、複数の XLTM ファイルを簡単に組み合わせることができます。
         
+        * **Merger** のインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **Merger** クラスの **Join** を呼び出し、2 番目のソース ドキュメント パスを渡します。
+        * **Merger** クラスの **Save** を呼び出して、マージされたドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for Java API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: NetBeans、IntelliJ IDEA、Eclipse
-        *フレームワーク: Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)から最新バージョンのGroupDocs.Merger for Javaをダウンロードします。
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, IntelliJ IDEA, Eclipse
+        * フレームワーク: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger) から GroupDocs.Merger for Java の最新バージョンをダウンロードします
+         
     code: |
-        ```java
-        // GroupDocs.Merger for Java APIを使用してXLTMファイルを結合します
-        //入力XLTMドキュメントを使用して合併をインスタンス化します
-        Merger merger = new Merger("input_1.xltm");
-        
-        // MergerクラスインスタンスのJoinメソッドを呼び出し、2番目のソースドキュメントパスを渡します
-        merger.join("input_2.xltm");
-            
-        // MergerクラスインスタンスのSaveメソッドを呼び出して、マージされたドキュメントを保存します
-        merger.save("merged-file.xltm");        
-        ```        
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Java サンプル コードを使用して XLTM ファイルを結合する方法">}}
 
+        ```java    
+        // GroupDocs.Merger for Java API を使用して XLTM ファイルを結合します
+        // 入力 XLTM ドキュメントで Merger をインスタンス化する
+        Merger merger = new Merger("input_1.xltm");
+
+        // Merger クラス インスタンスの join メソッドを呼び出し、2 番目のソース ドキュメント パスを渡す
+        merger.join("input_2.xltm");
+    
+        // Merger クラス インスタンスの save メソッドを呼び出して、マージされたドキュメントを保存します。
+        merger.save("merged-file.xltm"); 
+        ```
+     {{< /merger/code-merger >}}
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-ドキュメントを組み合わせるオンラインアプリ"
+    title: "ライブ デモ - ドキュメントを結合するためのオンライン アプリ"
     content: |
-        [GroupDocs.Mergerライブデモ](https://products.groupdocs.app/merger/family)サイトにアクセスして、現在複数のXLTMファイルを結合してください。  
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) Web サイトにアクセスして、複数の XLTM ファイルを今すぐ結合してください。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-excel"
-          title: "XLTMファイル形式について"
-          content: |
-            XLTMファイル拡張子は、MicrosoftExcelによってマクロ対応のテンプレートファイルとして生成されるファイルを表します。 XLTMファイルは構造がXLTXに似ていますが、後者はマクロを使用したテンプレートファイルの作成をサポートしていません。このようなテンプレートファイルは、同様のXLSXファイルの作成を容易にするために、マクロとともにレイアウト、フォーマット、およびその他の設定を生成および設定するために使用されます。
 
-          link: "https://docs.fileformat.com/spreadsheet/xltm"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のドキュメント形式のマージ"
     content: |
-        ファイル形式と画像用のJavaドキュメントマージAPI。以下に示すように、一般的なドキュメント形式のいくつかを組み合わせます。
-    format: 
-          link: "https://products.groupdocs.com/merger/java/combine/bmp/"
-          description: "ビットマップファイル形式"
+        Java は、ファイル形式と画像の合併 API を文書化しています。以下に示すように、いくつかの一般的なドキュメント形式を組み合わせます。
 
-          link: "https://products.groupdocs.com/merger/java/combine/csv/"
-          description: "カンマ区切り値ファイル"
-
-          link: "https://products.groupdocs.com/merger/java/combine/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/combine/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/combine/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/combine/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/html/"
-          description: "ハイパーテキストマークアップ言語"
-
-          link: "https://products.groupdocs.com/merger/java/combine/mht/"
-          description: "集約HTMLのMIMEカプセル化"
-
-          link: "https://products.groupdocs.com/merger/java/combine/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
-
-          link: "https://products.groupdocs.com/merger/java/combine/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "https://products.groupdocs.com/merger/java/combine/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "https://products.groupdocs.com/merger/java/combine/otp/"
-          description: "原点グラフテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/ott/"
-          description: "ドキュメントテンプレートを開く"
-
-          link: "https://products.groupdocs.com/merger/java/combine/pdf/"
-          description: "ポータブルドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/combine/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "https://products.groupdocs.com/merger/java/combine/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/combine/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/combine/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "https://products.groupdocs.com/merger/java/combine/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/combine/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/combine/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "https://products.groupdocs.com/merger/java/combine/ps/"
-          description: "PostScript（PS）"
-
-          link: "https://products.groupdocs.com/merger/java/combine/rtf/"
-          description: "リッチテキストファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/tex/"
-          description: "LaTeXソースドキュメント"
-
-          link: "https://products.groupdocs.com/merger/java/combine/tif/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/tsv/"
-          description: "タブ区切り値ファイル"
-
-          link: "https://products.groupdocs.com/merger/java/combine/txt/"
-          description: "プレーンテキストファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/vdx/"
-          description: "MicrosoftVisioXML図面ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/vsdm/"
-          description: "Visioマクロ対応の描画"
-
-          link: "https://products.groupdocs.com/merger/java/combine/vsdx/"
-          description: "MicrosoftVisioファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/vssm/"
-          description: "MicrosoftVisioマクロ対応ファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/vssx/"
-          description: "Visioステンシルファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/vstm/"
-          description: "Visioマクロ対応の図面テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/vstx/"
-          description: "MicrosoftVisioファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/vsx/"
-          description: "ベクトルスカラー拡張"
-
-          link: "https://products.groupdocs.com/merger/java/combine/vtx/"
-          description: "MicrosoftVisio図面テンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/xlam/"
-          description: "MicrosoftExcelマクロ対応アドイン"
-
-          link: "https://products.groupdocs.com/merger/java/combine/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "https://products.groupdocs.com/merger/java/combine/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
-
-          link: "https://products.groupdocs.com/merger/java/combine/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/xlt/"
-          description: "MicrosoftExcelテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/xltx/"
-          description: "Microsoft ExcelOpenXMLテンプレート"
-
-          link: "https://products.groupdocs.com/merger/java/combine/xps/"
-          description: "XMLPaperSpecificationを開く"
-
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

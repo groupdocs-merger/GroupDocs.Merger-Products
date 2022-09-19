@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2021-05-13T13:40:24+03:00
+############################# Static ############################
+layout: "auto-gen-merge"
+date: 2022-09-19T14:13:21
 draft: false
+otherformats: 
 
-head_title: "WebファイルをC＃（.NET Core）で1つにマージ–Webマージャー"
-head_description: "C＃.NETドキュメントマージAPIを使用して、複数のWebファイルを1つのファイルにマージします。特定のページまたはページ範囲をさまざまなドキュメントから単一のドキュメントにマージします."
+############################# Head ############################
+head_title: "C# 内の WEB ファイルをマージ | WEB合併"
+head_description: "C# .NET ドキュメント マージ API を使用して、複数の WEB ファイルを 1 つのファイルにマージします。さまざまなドキュメントの特定のページまたはページ範囲を 1 つのドキュメントにマージします。"
 
-title: "C＃（.NET Core）でWebファイルをマージする"
-description: "C＃.NETドキュメントマージAPIを使用して、複数のWebファイルを1つのファイルにマージします。選択したページまたはページ範囲をさまざまなソースドキュメントから単一の結果ドキュメントにマージします."
+############################# Header ############################
+title: "WEB C#での合併"
+description: "WEB を数行の .NET コードとマージします。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/merger/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,225 +33,94 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
-              text: "APIリファレンス"
+              text: "API リファレンス"
 
+            # button loop
             - link: "https://github.com/groupdocs-merger"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger/family"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger for .NET APIについて"
+    title: "GroupDocs.Merger for .NET API について"
     content: |
-        [GroupDocs.Merger for .NET](/merger/net/)は、PDF、Microsoft Office（Word、Excel、PowerPoint、OneNote）、OpenDocument、HTML、 .NETアプリケーション内の画像およびその他の多く。コードを数行追加するだけで、移動、削除、回転、スワップ、抽出、ドキュメント内のページの向きの変更など、いくつかのドキュメント操作を実行できます。ドキュメントマージAPIは、ドキュメントページを画像としてプレビューして、ページのドキュメント構造、フォーマット、コンテンツを分析することもサポートしています。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) は、複数の PDF、Microsoft Office (Word、Excel、PowerPoint、OneNote)、OpenDocument、HTML、画像、および他の多くのドキュメントを .NET アプリケーション内の 1 つのファイルにまとめます。 GroupDocs.Merger を使用すると、WEB ドキュメントをマージできるため、多くの労力を節約できます。サードパーティのソフトウェア、デスクトップ アプリケーション、またはプラグインをインストールする必要はありません。時間を無駄にしてファイルを手動でマージする必要がなくなりました。 GroupDocs の使命は、最高の品質を提供し、ドキュメント処理ワークフローを簡素化することです。
         
-        GroupDocs.Merger APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
+        GroupDocs.Merger API は、ファイル マージ機能を必要とする企業向けソリューションに最適です。これらの API は、.NET Framework, .NET Standard, .NET Core, Mono を含むすべての主要なオペレーティング システムとプラットフォームで十分にサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "複数のWebファイルをマージする方法"
+    title_left: "複数の WEB ファイルをマージする方法"
     content_left: |
-        [GroupDocs.Merger](/merger/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内で2つ以上のWebファイルを簡単にマージできます。
-
-        * ** Merger **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        * ** Merger **ンスの**Join **メソッドを呼び出し、2番目のソースドキュメントパスを渡します。
-        * ** Merger **ンスの**Save **メソッドを呼び出して、マージされたドキュメントを保存します。
+        [GroupDocs.Merger for .NET](/ja/merger/net/) を使用すると、.NET の開発者は、アプリケーション内で 2 つ以上の WEB ファイルを簡単にマージできます。いくつかの簡単な手順。
         
+        * **Merger** の新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * **Merger** クラスの **Join** を呼び出し、2 番目のソース ドキュメント パスを渡します。
+        * **Merger** クラスの **Save** を呼び出して、マージされたドキュメントを保存します。
+
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Merger for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Merger for .NET API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)からGroupDocs.Mergerfor.NETの最新バージョンをダウンロードします
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework, .NET Standard, .NET Core, Mono
+        * [NuGet](https://www.nuget.org/packages/groupdocs.merger) から GroupDocs.Merger for .NET の最新バージョンをダウンロードします
+         
     code: |
-        ```cs
-        //GroupDocs.MergerAPIを使用してWebファイルをマージします
-        //入力Webドキュメントとのマージをインスタンス化します
-        using (Merger merger = new Merger("input1.html"))
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="C# サンプル コードを使用して WEB ファイルをマージする方法">}}
+
+        ```csharp    
+        // GroupDocs.Merger API を使用して WEB ファイルをマージします
+        // 入力 WEB ドキュメントで Merger をインスタンス化する
+        using (Merger merger = new Merger("input1.web"))
           {
-            // MergerクラスインスタンスのJoinメソッドを呼び出し、2番目のソースドキュメントパスを渡します
-            merger.Join("input2.html");
-            
-            // MergerクラスインスタンスのSaveメソッドを呼び出して、マージされたドキュメントを保存します
-            merger.Save("merged-file.html");
+            // Merger クラス インスタンスの Join メソッドを呼び出し、2 番目のソース ドキュメント パスを渡します
+            merger.Join("input2.web");
+    
+            // Merger クラス インスタンスの Save メソッドを呼び出して、マージされたドキュメントを保存します。
+            merger.Save("merged-file.web");
           }
         ```
+     {{< /merger/code-merger >}}
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "ライブデモ-ドキュメントをマージするオンラインアプリ"
+    title: "Live Demos - ドキュメントをマージするオンライン アプリ"
     content: |
-        [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/html)Webサイトにアクセスして、現在複数のWebファイルをマージします。  
-        ライブデモには次の利点があります
+       [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/web) Web サイトにアクセスして、複数の WEB ファイルを今すぐマージします。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-html5"
-          title: "Webファイル形式について"
-          content: |
-            HTML（ハイパーテキストマークアップ言語）は、ブラウザで表示するために作成されたWebページの拡張機能です。 Webの言語として知られるHTMLは、Webページの一部として表示される新しい情報要件の要件とともに進化してきました。最新のバリアントはHTML5として知られており、言語を操作するための多くの柔軟性を提供します。 HTMLページは、ホストされているサーバーから受信するか、ローカルシステムからロードすることもできます。各HTMLページは、フォーム、テキスト、画像、アニメーション、リンクなどのHTML要素で構成されています。これらの要素は、タグと、各タグに開始と終了がある他のいくつかの要素で表されます。また、JavaScriptやスタイルシート（CSS）などのスクリプト言語で記述されたアプリケーションを埋め込んで、全体的なレイアウトを表現することもできます。
 
-          link: "https://docs.fileformat.com/web/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のドキュメント形式のマージ"
     content: |
-        .NETは、ファイル形式と画像のマージAPIを文書化します。以下に説明するように、いくつかの一般的なファイル形式をマージします。
-    format: 
-          link: "/merger/net/pdf/"
-          description: "AdobePortableドキュメント形式"
+        .NET は、ファイル形式と画像の合併 API を文書化しています。以下に示すように、いくつかの一般的なドキュメント形式をマージします。
 
-          link: "/merger/net/word/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/merger/net/excel/"
-          description: "MicrosoftExcelワークシート"
-
-          link: "/merger/net/worksheet/"
-          description: "MicrosoftExcelワークシート"
-
-          link: "/merger/net/image/"
-          description: "画像ファイル"
-
-          link: "/merger/net/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/merger/net/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/merger/net/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/merger/net/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/merger/net/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/merger/net/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-          link: "/merger/net/rtf/"
-          description: "リッチテキストドキュメント"
-
-          link: "/merger/net/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/merger/net/ott/"
-          description: "OpenDocumentテキストテンプレート"
-
-          link: "/merger/net/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/merger/net/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/merger/net/xlam/"
-          description: "ExcelOpenXMLマクロ対応のアドイン"
-
-          link: "/merger/net/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/merger/net/xlsb/"
-          description: "MicrosoftExcelバイナリワークシート"
-
-          link: "/merger/net/xltx/"
-          description: "MicrosoftExcelテンプレート"
-
-          link: "/merger/net/xltm/"
-          description: "MicrosoftExcelマクロ対応テンプレート"
-
-          link: "/merger/net/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/merger/net/csv/"
-          description: "カンマ区切り値ファイル"
-
-          link: "/merger/net/tsv/"
-          description: "タブ区切り値ファイル"
-        
-          link: "/merger/net/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/merger/net/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/merger/net/pps/"
-          description: "MicrosoftPowerPoint97-2003スライドショー"
-
-          link: "/merger/net/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/merger/net/potx/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/merger/net/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/merger/net/odp/"
-          description: "OpenDocumentプレゼンテーション"
-
-          link: "/merger/net/otp/"
-          description: "OpenDocumentプレゼンテーションテンプレート"
-
-          link: "/merger/net/txt/"
-          description: "プレーンテキストファイル"
-
-          link: "/merger/net/one/"
-          description: "Microsoft OneNote"
-
-          link: "/merger/net/tiff/"
-          description: "タグ付き画像ファイル形式"
-        
-          link: "/merger/net/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/merger/net/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/merger/net/xps/"
-          description: "XMLPaperSpecificationファイル"
-
-          link: "/merger/net/web/"
-          description: "ハイパーテキストマークアップ言語ファイル"
-
-          link: "/merger/net/html/"
-          description: "ハイパーテキストマークアップ言語ファイル"
-
-          link: "/merger/net/mht/"
-          description: "MHTMLWebアーカイブ"
-
-          link: "/merger/net/mhtml/"
-          description: "MIME HTML"
-
-          link: "/merger/net/tex/"
-          description: "LaTeXソースドキュメント"
-
-          link: "/merger/net/epub/"
-          description: "eBookファイル"
-          
-          link: "/merger/net/ppsm/"
-          description: "MicrosoftPowerPointマクロ対応のスライドショー"
-        
-          link: "/merger/net/potm/"
-          description: "MicrosoftPowerPointマクロ対応テンプレート"
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---
