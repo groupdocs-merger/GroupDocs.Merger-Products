@@ -41,10 +41,10 @@
     "xltm": "pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx",
     "xltx": "pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam",
     "xps": "ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls",
-    "word": "csv doc docx dot dotm dotx epub html one pdf ppt rtf vdx xls xps bmp",
+    "word": "csv doc docx dot dotm dotx epub html one pdf ppt rtf vdx xls xps vsdx",
     "onenote": "docm dotm epub mht odp ods odt otp ott pdf pps vdx vsdm xlam xlsm xltm",
-    "excel": "dot mhtml odt ott ppt txt xlam xls xlsb xlsm xlsx xlt xltm xltx xps jpeg",
-    "worksheet": "dot mhtml odt ott ppt txt xlam xls xlsb xlsm xlsx xlt xltm xltx xps jpeg",
+    "excel": "dot mhtml odt ott ppt txt xlam xls xlsb xlsm xlsx xlt xltm xltx xps rtf",
+    "worksheet": "dot mhtml odt ott ppt txt xlam xls xlsb xlsm xlsx xlt xltm xltx xps rtf",
     "image": "html mhtml odp ods odt otp ott pdf pps tex vssm xlsb xps bmp jpg png",
     "visio": "pdf pps ppsx ppt pptx tex tsv vdx vsdm vsdx vssm vssx vstm vstx vsx vtx",
     "web": "csv doc docm docx dot dotm dotx epub html mht mhtml odp ods odt otp ott"
