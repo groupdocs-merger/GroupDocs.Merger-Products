@@ -1,17 +1,16 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-merger"
-date: 2022-09-19T15:02:06
+layout: "auto-gen"
+date: 2021-05-13T13:40:24+03:00
 draft: false
-otherformats: dot mhtml odt ott ppt txt xlam xls xlsb xlsm xlsx xlt xltm xltx xps jpeg
 
 ############################# Head ############################
-head_title: "Remove EXCEL Pages in Java"
-head_description: "Remove or delete a single page or collection of pages from a EXCEL file in Java by reversing the pages order using the documents merger API."
+head_title: "Delete Specific Pages from Excel File in Java"
+head_description: "Remove or delete a single page or collection of pages from a Excel file in Java by reversing the pages order using document merger API."
 
 ############################# Header ############################
-title: "Remove EXCEL Pages In Java"
-description: "Remove EXCEL Pages with a few lines of Java code."
+title: "Delete or Remove Pages From Excel in Java"
+description: "Delete or Remove a single page or collection of specific pages from a Excel file using documents merger API for Java & J2SE applications."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -59,69 +58,286 @@ about:
     enable: true
     title: "About GroupDocs.Merger for Java API"
     content: |
-        [GroupDocs.Merger for Java](/merger/java/) offers a simple solution to safely merge & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within Java applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        GroupDocs.Merger for Java library offers a simple solution to safely merge & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
         
-        GroupDocs.Merger API is a right choice for corporate solutions which needs file page removing features. These APIs are well supported on all major operating systems and platforms including J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10.
+        GroupDocs.Merger APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Remove EXCEL File Pages in Java"
+    title_left: "Remove Excel File Pages in Java"
     content_left: |
-        [GroupDocs.Merger for Java](/merger/java/) makes it easy for Java developers to delete a single or a number of particular pages within a EXCEL file by implementing a few easy steps.
-        
-        * Initialize **RemoveOptions** with page numbers to remove.
-        * Create new instance of **Merger** and pass source document path as a constructor parameter.
-        * Call **removePages** and pass **RemoveOptions** object.
-        * Call **save** and specify the file path to save the resultant document.
+        [GroupDocs.Merger](/merger/java/) makes it easy for Java developers to delete a single or a number of particular pages within a Excel file by implementing a few easy steps.
 
+        *   Initialise **RemoveOptions**to specify page numbers to remove.
+        *   Create new instance of **Merger**and pass source document path as a constructor parameter.
+        *   Call **removePages** and pass **RemoveOptions** object
+        *   Call **save** and pass desired file path to save resultant document.
+        
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Merger for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Frameworks: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
-        * Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
-         
+        *   Operating Systems: Microsoft Windows, Linux, MacOS
+        *   Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        *   Frameworks: Java 7 (1.7) and above
+        *   Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
+        
     code: |
-     {{% merger/additional-styles %}}
-     {{< merger/code-merger title="How to remove EXCEL file pages using Java example code">}}
+        ```cs
+        // Remove Excel file pages using GroupDocs.Merger API
+        String filePath = "input.xlsx";
+        String filePathOut = "output.xlsx";
 
-        ```java    
-        // Remove EXCEL file pages using GroupDocs.Merger API
-        // Initialize RemoveOptions class with selected page numbers
-        RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 6 });
+        // Initialise RemoveOptions class to specify page numbers to remove
+        RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });
 
-        // Instantiate Merger with input EXCEL document
-        Merger merger = new Merger("input.excel");
+        // Instantiate Merger with input Excel document
+        Merger merger = new Merger("input.xlsx");
 
         // Call removePages method and pass RemoveOptions object to it
         merger.removePages(removeOptions);
-    
-        // Call save method and pass desired file path to save the output document
-        merger.save("output.excel");
+            
+        // Call Save method and pass desired file path to save the output document
+        merger.save("output.xlsx");
         ```
-     {{< /merger/code-merger >}}
 
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos - Remove EXCEL Pages Online"
+    title: "Live Demos - Online App to Delete Document Pages"
     content: |
-       Remove EXCEL file pages right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/excel) website.
-       The live demo has the following benefits.
+        Remove pages within Excel files right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/excel) website.  
+        The live demo has the following benefits
         
 ############################# About Formats ############################
 about_formats:
     enable: true
+    format:
+        # format loop
+        - icon: "far fa-file-excel-o"
+          title: "About Excel File Format"
+          content: |
+            A spreadsheet file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).
+
+          link: "https://docs.fileformat.com/spreadsheet/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Remove Pages From Other Document Formats"
+    title: "Removing Pages of Other Document Formats"
     content: |
-        Java documents merger & split API for file formats and images. Remove some of the popular file formats as stated below.
+        Java documents merger & split API for file formats and images. Delete pages from the popular file formats as stated below.
+    format: 
+        # format loop
+        - name: "Remove PDF File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/pdf/"
+          description: "Adobe Portable Document Format"
+
+        # format loop
+        - name: "Remove Word File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/word/"
+          description: "Microsoft Word Document"
+
+        # format loop
+        - name: "Remove Excel File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/excel/"
+          description: "Microsoft Excel Worksheet"
+
+        # format loop
+        - name: "Remove Worksheet File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/worksheet/"
+          description: "Microsoft Excel Worksheet"
+
+        # format loop
+        - name: "Remove DOC File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/doc/"
+          description: "Microsoft Word Document"
+
+        # format loop
+        - name: "Remove DOCM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/docm/"
+          description: "Microsoft Word Macro-Enabled Document"
+
+        # format loop
+        - name: "Remove DOCX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop
+        - name: "Remove DOT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/dot/"
+          description: "Microsoft Word Document Template"
+
+        # format loop
+        - name: "Remove DOTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/dotx/"
+          description: "Word Open XML Document Template"
+
+        # format loop
+        - name: "Remove DOTM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
+
+        # format loop
+        - name: "Remove RTF File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/rtf/"
+          description: "Rich Text Document"
+
+        # format loop
+        - name: "Remove ODT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "Remove OTT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/ott/"
+          description: "OpenDocument Text Template"
+
+        # format loop
+        - name: "Remove XLS File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Remove XLSX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "Remove XLAM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/xlam/"
+          description: "Excel Open XML Macro-Enabled Add-in"
+
+        # format loop
+        - name: "Remove XLSM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "Remove XLSB File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/xlsb/"
+          description: "Microsoft Excel Binary Worksheet"
+
+        # format loop
+        - name: "Remove XLTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/xltx/"
+          description: "Microsoft Excel template"
+
+        # format loop
+        - name: "Remove XLTM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/xltm/"
+          description: "Microsoft Excel macro-enabled template"
+
+        # format loop
+        - name: "Remove ODS File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "Remove CSV File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/csv/"
+          description: "Comma Separated Values File"
+
+        # format loop
+        - name: "Remove TSV File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/tsv/"
+          description: "Tab Separated Values File"
+        
+        # format loop
+        - name: "Remove PPT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "Remove PPTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "Remove PPS File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/pps/"
+          description: "Microsoft PowerPoint 97-2003 Slide Show"
+
+        # format loop
+        - name: "Remove PPSX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "Remove POTX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/potx/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "Remove PPTM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "Remove ODP File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/odp/"
+          description: "OpenDocument Presentation"
+
+        # format loop
+        - name: "Remove OTP File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/otp/"
+          description: "OpenDocument Presentation Template"
+
+        # format loop
+        - name: "Remove Text File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/txt/"
+          description: "Plain Text File"
+
+        # format loop
+        - name: "Remove OneNote File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/one/"
+          description: "Microsoft OneNote"
+
+        # format loop
+        - name: "Remove XPS File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/xps/"
+          description: "XML Paper Specification File"
+
+        # format loop
+        - name: "Remove Web File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/web/"
+          description: "Hypertext Markup Language File"
+
+        # format loop
+        - name: "Remove HTML File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop
+        - name: "Remove MHT File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/mht/"
+          description: "MHTML Web Archive"
+
+        # format loop
+        - name: "Remove MHTML File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/mhtml/"
+          description: "MIME HTML"
+
+        # format loop
+        - name: "Remove TEX File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "Remove EPUB File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/epub/"
+          description: "eBook File"
+          
+        # format loop
+        - name: "Remove PPSM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/ppsm/"
+          description: "Microsoft PowerPoint Macro-Enabled Slide Show"
+        
+        # format loop
+        - name: "Remove POTM File Pages in Java"
+          link: "https://products.groupdocs.com/merger/java/remove/potm/"
+          description: "Microsoft PowerPoint Macro-Enabled Template"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -5,6 +5,8 @@ dimensions:
   values: ["excel", "image", "onenote", "visio", "web", "word", "worksheet", "csv", "doc", "docm", "docx", "dot", "dotm", "dotx", "epub", "html", "mht", "mhtml", "odp", "ods", "odt", "one", "otp", "ott", "pdf", "pps", "ppsx", "ppt", "pptx", "rtf", "tex", "tsv", "txt", "vdx", "vsdm", "vsdx", "vssm", "vssx", "vstm", "vstx", "vsx", "vtx", "xlam", "xls", "xlsb", "xlsm", "xlsx", "xlt", "xltm", "xltx", "xps", "bmp", "jpg", "jpeg", "png"]
 
 generationRules:
+  exclude:
+    - ext[excel, image, onenote, visio, web, word, worksheet]
   include:
 ##  - ext[odt]
 
