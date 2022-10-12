@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "文档合并拆分解决方案 |本地 API 和免费应用程序",
+    "description": "使用 On Premise 解决方案合并和拆分 MS Office、OpenDocument、PDF 图像和其他文件格式或使用在线文档合并和拆分器应用程序."
+  },
+  "header": {
+    "title": "合并和拆分文档的解决方案",
+    "description": "轻松合并多个文档或将 微软办公软件、OpenOffice、PDF 和其他文档拆分为页面."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Merger 高代码 API 包括",
+      "label": "查看所有高代码 API",
+      "net": {
+        "content": "On Premise API 可帮助您在基于 .NET 的应用程序中为多个文档实现快速拆分和合并功能."
+      },
+      "java": {
+        "content": "本机 Java API 可快速合并多个文档或将任何文档拆分为基于 Java 的应用程序中的页面."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Merger 低代码 API 包括",
+      "label": "查看所有低代码 API",
+      "curl": {
+        "content": "用于 RESTful 文档合并的简单 cURL 命令 Cloud API 用于在各种受支持的流行文档格式中合并和拆分文档."
+      },
+      "net": {
+        "content": "适用于 Microsoft .NET 的 Cloud SDK，可帮助程序员在其基于 .NET 的应用程序中实现多个文档的快速合并和拆分功能."
+      },
+      "java": {
+        "content": "将多个文档合二为一，将任何文档拆分为多个，在 Java 应用程序中重新排序、替换或更改页面方向."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger 无代码应用程序包括",
+      "label": "查看所有无代码应用程序",
+      "total": {
+        "content": "试试我们的免费在线应用程序来连接 30 多种类型的文件，而无需离开您最喜欢的网络浏览器."
+      },
+      "docx": {
+        "content": "连接多个 DOCX 文件以生成单个文档."
+      },
+      "pdf": {
+        "content": "合并多个 PDF 文件以直接从 Web 浏览器生成单个文档."
+      }
+    }
+  } 
+}

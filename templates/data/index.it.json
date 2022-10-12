@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Soluzione per unire e dividere documenti | API in loco e app gratuita",
+    "description": "Unisci e dividi MS Office, OpenDocument, immagini PDF e altri formati di file utilizzando la soluzione On Premise o utilizza l'app Online Document Merger & Splitter."
+  },
+  "header": {
+    "title": "Soluzione per unire e dividere documenti",
+    "description": "Unisci facilmente più documenti o dividi Microsoft Office, OpenOffice, PDF e altri documenti in pagine."
+  },
+  "apis": {
+    "highcode": {
+      "title": "Le API di GroupDocs.Merger High Code includono",
+      "label": "Visualizza tutte le API High Code",
+      "net": {
+        "content": "API in loco che possono aiutarti a implementare funzionalità di divisione e unione rapida per più documenti nelle tue applicazioni basate su .NET."
+      },
+      "java": {
+        "content": "API Java native per unire rapidamente più documenti o dividere qualsiasi documento in pagine all'interno delle tue applicazioni basate su Java."
+      }
+    },
+    "lowcode": {
+      "title": "Le API a basso codice GroupDocs.Merger includono",
+      "label": "Visualizza tutte le API a basso codice",
+      "curl": {
+        "content": "Semplici comandi cURL per la fusione di documenti RESTful API Cloud per unire e dividere documenti nell'ampia gamma di formati di documenti più diffusi supportati."
+      },
+      "net": {
+        "content": "Cloud SDK per Microsoft .NET che aiuta i programmatori a implementare funzionalità di unione e divisione rapida per più documenti nelle loro applicazioni basate su .NET."
+      },
+      "java": {
+        "content": "Combina più documenti in uno, dividi qualsiasi documento in più, riordina, sostituisci o cambia l'orientamento della pagina nelle tue applicazioni Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Nessuna app di codice include",
+      "label": "Visualizza tutte le app senza codice",
+      "total": {
+        "content": "Prova la nostra app online gratuita per concatenare più di 30 tipi di file senza uscire dal tuo browser web preferito."
+      },
+      "docx": {
+        "content": "Concatena più file DOCX per generare un unico documento."
+      },
+      "pdf": {
+        "content": "Unisci più file PDF per generare un unico documento direttamente dal browser web."
+      }
+    }
+  }
+}

@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-10-12T09:26:23
+date: 2022-10-12T12:12:10
 draft: false
 
 ############################# Head ############################
-head_title: "Document Merge and Split Solution | On Premise APIs & Free App"
-head_description: "Merge & Split MS Office, OpenDocument, PDF images & other File Formats using On Premise Solution or use the Online Document Merger & Splitter App."
+head_title: "Soluzione per unire e dividere documenti | API in loco e app gratuita"
+head_description: "Unisci e dividi MS Office, OpenDocument, immagini PDF e altri formati di file utilizzando la soluzione On Premise o utilizza l'app Online Document Merger & Splitter."
 
 ############################# Header ############################
-title: "Solution to Merge and Split Documents"
-description: "Easily merge multiple documents or split Microsoft Office, OpenOffice, PDF and other documents into pages."
+title: "Soluzione per unire e dividere documenti"
+description: "Unisci facilmente più documenti o dividi Microsoft Office, OpenOffice, PDF e altri documenti in pagine."
 
 ############################# APIs ###############################
 apis:
@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Merger High Code APIs Include"
+    - title: "Le API di GroupDocs.Merger High Code includono"
       link: "/merger/"
-      label: "View All High Code APIs"
+      label: "Visualizza tutte le API High Code"
       api_product:
         # api_product loop
         - link: "/merger/net/"
@@ -28,7 +28,7 @@ apis:
           image: "/border/groupdocs-merger-net.svg"
           product: "GroupDocs.Merger for"
           platform: ".NET"
-          content: "On Premise APIs that can help you implement quick split and merge feature for multiple documents in your .NET based applications."
+          content: "API in loco che possono aiutarti a implementare funzionalità di divisione e unione rapida per più documenti nelle tue applicazioni basate su .NET."
 
         # api_product loop
         - link: "/merger/java/"
@@ -36,12 +36,12 @@ apis:
           image: "/border/groupdocs-merger-java.svg"
           product: "GroupDocs.Merger for"
           platform: "Java"
-          content: "Native Java APIs to quickly merge multiple documents or split any document into pages within your Java based applications."
+          content: "API Java native per unire rapidamente più documenti o dividere qualsiasi documento in pagine all'interno delle tue applicazioni basate su Java."
 
     # api loop
-    - title: "GroupDocs.Merger Low Code APIs Include"
+    - title: "Le API a basso codice GroupDocs.Merger includono"
       link: "https://products.groupdocs.cloud/merger"
-      label: "View All Low Code APIs"
+      label: "Visualizza tutte le API a basso codice"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/merger/curl"
@@ -49,7 +49,7 @@ apis:
           image: "/sdk/groupdocs_merger-for-curl.svg"
           product: "GroupDocs.Merger"
           platform: "Cloud for cURL"
-          content: "Simple cURL commands for RESTful document merger Cloud API to merge and split documents across the wide range of supported popular document formats."
+          content: "Semplici comandi cURL per la fusione di documenti RESTful API Cloud per unire e dividere documenti nell'ampia gamma di formati di documenti più diffusi supportati."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/merger/net"
@@ -57,7 +57,7 @@ apis:
           image: "/sdk/groupdocs_merger-for-net.svg"
           product: "GroupDocs.Merger"
           platform: "Cloud SDK for .NET"
-          content: "Cloud SDK for Microsoft .NET that help programmers to implement quick merge and split feature for multiple documents with in their .NET based applications."
+          content: "Cloud SDK per Microsoft .NET che aiuta i programmatori a implementare funzionalità di unione e divisione rapida per più documenti nelle loro applicazioni basate su .NET."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/merger/java"
@@ -65,12 +65,12 @@ apis:
           image: "/sdk/groupdocs_merger-for-java.svg"
           product: "GroupDocs.Merger"
           platform: "Cloud SDK for Java"
-          content: "Combine multiple documents into one, split any document to multiple, reorder, replace or change page orientation in your Java applications."
+          content: "Combina più documenti in uno, dividi qualsiasi documento in più, riordina, sostituisci o cambia l'orientamento della pagina nelle tue applicazioni Java."
 
     # api loop
-    - title: "GroupDocs.Merger No Code Apps Include"
+    - title: "GroupDocs.Merger Nessuna app di codice include"
       link: "https://products.groupdocs.app/merger"
-      label: "View All No Code Apps"
+      label: "Visualizza tutte le app senza codice"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/merger/total"
@@ -78,7 +78,7 @@ apis:
           image: "/app/groupdocs_merger-app.svg"
           product: "GroupDocs.Merger"
           platform: "Total"
-          content: "Try our free online app to concatenate more than 30 types of files without leaving your favorite web browser."
+          content: "Prova la nostra app online gratuita per concatenare più di 30 tipi di file senza uscire dal tuo browser web preferito."
 
         # api_product loop
         - link: "https://products.groupdocs.app/merger/docx"
@@ -86,7 +86,7 @@ apis:
           image: "/app/groupdocs_words-app.svg"
           product: "GroupDocs.Merger"
           platform: "DOCX"
-          content: "Concatenate multiple DOCX files to generate a single document."
+          content: "Concatena più file DOCX per generare un unico documento."
 
         # api_product loop
         - link: "https://products.groupdocs.app/merger/pdf"
@@ -94,7 +94,7 @@ apis:
           image: "/app/groupdocs_pdf-app.svg"
           product: "GroupDocs.Merger"
           platform: "PDF"
-          content: "Merge multiple PDF files to generate a single document directly from the web browser."
+          content: "Unisci più file PDF per generare un unico documento direttamente dal browser web."
 
 ############################# Back to top ###############################
 back_to_top:

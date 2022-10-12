@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-12T12:20:33
 draft: false
 
 ############################# Head ############################
@@ -86,7 +86,7 @@ apis:
           image: "/app/groupdocs_words-app.svg"
           product: "GroupDocs.Merger"
           platform: "DOCX"
-          content: "Concatenar múltiples archivos EPUB para generar un solo documento."
+          content: "Concatenar múltiples archivos DOCX para generar un solo documento."
 
         # api_product loop
         - link: "https://products.groupdocs.app/merger/pdf"

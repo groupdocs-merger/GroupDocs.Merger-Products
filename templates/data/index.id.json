@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Solusi Penggabungan dan Pemisahan Dokumen | API Di Tempat & Aplikasi Gratis",
+    "description": "Gabungkan & Pisahkan MS Office, OpenDocument, gambar PDF & Format File lainnya menggunakan Solusi Di Tempat atau gunakan Aplikasi Penggabungan & Pemisah Dokumen Online."
+  },
+  "header": {
+    "title": "Solusi untuk Menggabungkan dan Memisahkan Dokumen",
+    "description": "Menggabungkan beberapa dokumen dengan mudah atau membagi Microsoft Office, OpenOffice, PDF, dan dokumen lainnya menjadi beberapa halaman."
+  },
+  "apis": {
+    "highcode": {
+      "title": "API Kode Tinggi GroupDocs.Merger Termasuk",
+      "label": "Lihat Semua API Kode Tinggi",
+      "net": {
+        "content": "On Premise API yang dapat membantu Anda mengimplementasikan fitur quick split and merge untuk beberapa dokumen di aplikasi berbasis .NET Anda."
+      },
+      "java": {
+        "content": "API Java asli untuk menggabungkan beberapa dokumen dengan cepat atau membagi dokumen apa pun menjadi halaman dalam aplikasi berbasis Java Anda."
+      }
+    },
+    "lowcode": {
+      "title": "API Kode Rendah GroupDocs.Merger Termasuk",
+      "label": "Lihat Semua API Kode Rendah",
+      "curl": {
+        "content": "Perintah cURL sederhana untuk penggabungan dokumen RESTful Cloud API untuk menggabungkan dan membagi dokumen di berbagai format dokumen populer yang didukung."
+      },
+      "net": {
+        "content": "Cloud SDK untuk Microsoft .NET yang membantu pemrogram untuk menerapkan fitur penggabungan dan pemisahan cepat untuk banyak dokumen dengan aplikasi berbasis .NET mereka."
+      },
+      "java": {
+        "content": "Gabungkan beberapa dokumen menjadi satu, bagi dokumen apa pun menjadi beberapa, susun ulang, ganti, atau ubah orientasi halaman di aplikasi Java Anda."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Tidak Ada Aplikasi Kode Termasuk",
+      "label": "Lihat Semua Aplikasi Tanpa Kode",
+      "total": {
+        "content": "Coba aplikasi online gratis kami untuk menggabungkan lebih dari 30 jenis file tanpa meninggalkan browser web favorit Anda."
+      },
+      "docx": {
+        "content": "Gabungkan beberapa file DOCX untuk menghasilkan satu dokumen."
+      },
+      "pdf": {
+        "content": "Gabungkan beberapa file PDF untuk menghasilkan satu dokumen langsung dari browser web."
+      }
+    }
+  } 
+}

@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Solution de fusion et de fractionnement de documents | API sur site et application gratuite",
+    "description": "Fusionnez et divisez MS Office, OpenDocument, des images PDF et d'autres formats de fichiers à l'aide de la solution sur site ou utilisez l'application de fusion et de séparation de documents en ligne."
+  },
+  "header": {
+    "title": "Solution pour fusionner et diviser des documents",
+    "description": "Fusionnez facilement plusieurs documents ou divisez Microsoft Office, OpenOffice, PDF et d'autres documents en pages."
+  },
+  "apis": {
+    "highcode": {
+      "title": "Les API GroupDocs.Merger High Code incluent",
+      "label": "Afficher toutes les API High Code",
+      "net": {
+        "content": "Des API sur site qui peuvent vous aider à implémenter une fonction de fractionnement et de fusion rapide pour plusieurs documents dans vos applications basées sur .NET."
+      },
+      "java": {
+        "content": "API Java natives pour fusionner rapidement plusieurs documents ou diviser n'importe quel document en pages dans vos applications basées sur Java."
+      }
+    },
+    "lowcode": {
+      "title": "Les API GroupDocs.Merger Low Code incluent",
+      "label": "Afficher toutes les API Low Code",
+      "curl": {
+        "content": "Commandes cURL simples pour la fusion de documents RESTful Cloud API pour fusionner et diviser des documents dans la large gamme de formats de documents populaires pris en charge."
+      },
+      "net": {
+        "content": "Cloud SDK pour Microsoft .NET qui aide les programmeurs à implémenter une fonction de fusion et de fractionnement rapide pour plusieurs documents dans leurs applications basées sur .NET."
+      },
+      "java": {
+        "content": "Combinez plusieurs documents en un seul, divisez n'importe quel document en plusieurs, réorganisez, remplacez ou modifiez l'orientation des pages dans vos applications Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Les applications sans code incluent",
+      "label": "Voir toutes les applications sans code",
+      "total": {
+        "content": "Essayez notre application en ligne gratuite pour concaténer plus de 30 types de fichiers sans quitter votre navigateur Web préféré."
+      },
+      "docx": {
+        "content": "Concaténer plusieurs fichiers DOCX pour générer un seul document."
+      },
+      "pdf": {
+        "content": "Fusionnez plusieurs fichiers PDF pour générer un seul document directement à partir du navigateur Web."
+      }
+    }
+  } 
+}

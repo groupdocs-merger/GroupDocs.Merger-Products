@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Solución de fusión y división de documentos | API locales y aplicación gratuita",
+    "description": "Combine y divida MS Office, OpenDocument, imágenes PDF y otros formatos de archivo usando la solución local o use la aplicación Online Document Merger & Splitter."
+  },
+  "header": {
+    "title": "Solución para Fusionar y Dividir Documentos",
+    "description": "Combine fácilmente varios documentos o divida oficina de Microsoft, OpenOffice, PDF y otros documentos en páginas."
+  },
+  "apis": {
+    "highcode": {
+      "title": "Las API de código alto de GroupDocs.Merger incluyen",
+      "label": "Ver todas las API de High Code",
+      "net": {
+        "content": "API locales que pueden ayudarlo a implementar funciones de división y combinación rápidas para varios documentos en sus aplicaciones basadas en .NET."
+      },
+      "java": {
+        "content": "API nativas de Java para fusionar rápidamente varios documentos o dividir cualquier documento en páginas dentro de sus aplicaciones basadas en Java."
+      }
+    },
+    "lowcode": {
+      "title": "Las API de código bajo de GroupDocs.Merger incluyen",
+      "label": "Ver todas las API de código bajo",
+      "curl": {
+        "content": "Comandos cURL simples para la fusión de documentos RESTful Cloud API para fusionar y dividir documentos en la amplia gama de formatos de documentos populares admitidos."
+      },
+      "net": {
+        "content": "Cloud SDK para Microsoft .NET que ayuda a los programadores a implementar funciones de fusión y división rápidas para múltiples documentos en sus aplicaciones basadas en .NET."
+      },
+      "java": {
+        "content": "Combine varios documentos en uno, divida cualquier documento en varios, reordene, reemplace o cambie la orientación de la página en sus aplicaciones Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Las aplicaciones sin código incluyen",
+      "label": "Ver todas las aplicaciones sin código",
+      "total": {
+        "content": "Pruebe nuestra aplicación en línea gratuita para concatenar más de 30 tipos de archivos sin salir de su navegador web favorito."
+      },
+      "docx": {
+        "content": "Concatenar múltiples archivos DOCX para generar un solo documento."
+      },
+      "pdf": {
+        "content": "Combine varios archivos PDF para generar un solo documento directamente desde el navegador web."
+      }
+    }
+  } 
+}

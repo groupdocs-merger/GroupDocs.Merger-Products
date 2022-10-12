@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Document Merge and Split Solution | On Premise APIs & Free App",
+    "description": "Merge & Split MS Office, OpenDocument, PDF images & other File Formats using On Premise Solution or use the Online Document Merger & Splitter App."
+  },
+  "header": {
+    "title": "Solution to Merge and Split Documents",
+    "description": "Easily merge multiple documents or split Microsoft Office, OpenOffice, PDF and other documents into pages."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Merger High Code APIs Include",
+      "label": "View All High Code APIs",
+      "net": {
+        "content": "On Premise APIs that can help you implement quick split and merge feature for multiple documents in your .NET based applications."
+      },
+      "java": {
+        "content": "Native Java APIs to quickly merge multiple documents or split any document into pages within your Java based applications."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Merger Low Code APIs Include",
+      "label": "View All Low Code APIs",
+      "curl": {
+        "content": "Simple cURL commands for RESTful document merger Cloud API to merge and split documents across the wide range of supported popular document formats."
+      },
+      "net": {
+        "content": "Cloud SDK for Microsoft .NET that help programmers to implement quick merge and split feature for multiple documents with in their .NET based applications."
+      },
+      "java": {
+        "content": "Combine multiple documents into one, split any document to multiple, reorder, replace or change page orientation in your Java applications."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger No Code Apps Include",
+      "label": "View All No Code Apps",
+      "total": {
+        "content": "Try our free online app to concatenate more than 30 types of files without leaving your favorite web browser."
+      },
+      "docx": {
+        "content": "Concatenate multiple DOCX files to generate a single document."
+      },
+      "pdf": {
+        "content": "Merge multiple PDF files to generate a single document directly from the web browser."
+      }
+    }
+  } 
+}
