@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Estrai {{EXT}} pagine in {{ProgLang}}",
+    "description": "Estrai rapidamente le pagine da un file {{EXT}} in {{ProgLang}}. Salva il nuovo documento contenente le pagine selezionate utilizzando l'API di fusione documenti."
+  },
+  "header": {
+    "title": "Estrai {{EXT}} pagine in {{ProgLang}}",
+    "description": "Estrai {{EXT}} pagine con poche righe di codice {{ProductName}}.",
+    "button_label": "Scarica la prova gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Riferimento API",
+      "button_text_2": "Esempi di codice",
+      "button_text_3": "Dimostrazioni dal vivo",
+      "button_text_4": "Prezzo"
+    }
+  },
+  "about": {
+    "title": "Informazioni sull'API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) offre una soluzione semplice per unire e dividere in modo sicuro tra un'ampia gamma di formati di documenti tra cui PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, immagini e molti altri all'interno delle applicazioni {{ProductName}}. Aggiungendo solo poche righe di codice, esegui diverse operazioni sui documenti come spostare, rimuovere, ruotare, scambiare, estrarre o modificare l'orientamento delle pagine all'interno dei documenti. L'API per la fusione dei documenti supporta anche l'anteprima delle pagine del documento come immagine per analizzare la struttura del documento, la formattazione e il contenuto della pagina.",
+    "h2": "L'API GroupDocs.Merger è la scelta giusta per le soluzioni aziendali che richiedono funzionalità di estrazione di pagine di file. Queste API sono ben supportate su tutti i principali sistemi operativi e piattaforme, incluso {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Estrai {{EXT}} pagine di file in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) consente agli sviluppatori di {{ProgLang}} di estrarre facilmente le pagine desiderate da un file {{EXT}} e salvarlo come un nuovo file contenente le pagine selezionate implementando alcuni semplici passaggi.",
+      "step_1": "Inizializza **ExtractOptions** con i numeri di pagina che dovrebbero apparire nel documento risultante.",
+      "step_2": "Crea una nuova istanza di **Merger** e passa il percorso del documento di origine come parametro del costruttore.",
+      "step_3": "Chiama **extractPages** e passa l'oggetto **ExtractOptions**.",
+      "step_4": "Chiama **save** e specifica il percorso del file per salvare il documento risultante."
+    },
+    "title_right": "Requisiti di sistema",
+    "content_right": {
+      "description": "Le API {{ProductFullName}} sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Quadri",
+      "step_4": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Come estrarre le pagine di file {{EXT}} utilizzando il codice di esempio {{ProgLang}}",
+    "code": {
+      "load_comment": "Estrai {{EXT}} pagine di file utilizzando l'API GroupDocs.Merger",
+      "opt_comment": "Inizializza la classe ExtractOptions con i numeri di pagina selezionati",
+      "ini_comment": "Istanzia la fusione con il documento di input {{EXT}}",
+      "run_comment": "Chiama il metodo extractPages e passagli l'oggetto ExtractOptions",
+      "save_comment": "Chiama il metodo di salvataggio per salvare il documento di output con le pagine estratte"
+    }
+  },
+  "demos": {
+    "title": "Demo dal vivo - Estrai {{EXT}} pagine online",
+    "h1": "Estrai subito {{EXT}} pagine di file visitando il sito Web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/{{ext}}).",
+    "h2": "La demo dal vivo ha i seguenti vantaggi."
+  },
+  "more_formats": {
+    "title": "Estrai pagine da altri formati di documenti",
+    "content": "{{ProductName}} documenta l'API di fusione e divisione per formati di file e immagini. Estrai alcuni dei formati di file più diffusi come indicato di seguito."
+  }
+}

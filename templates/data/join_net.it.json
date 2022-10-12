@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Unisciti a {{EXT}} file in {{ProgLang}} | {{EXT}} Fusione",
+    "description": "Unisci più file {{EXT}} in un unico file utilizzando l'API di fusione documenti {{ProgLang}} {{ProductName}}. Unisci pagine o intervalli di pagine specifici da vari documenti in un unico documento."
+  },
+  "header": {
+    "title": "Unisciti a {{EXT}} file in {{ProgLang}}",
+    "description": "Unisciti a {{EXT}} con poche righe di codice {{ProductName}}.",
+    "button_label": "Scarica la prova gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Riferimento API",
+      "button_text_2": "Esempi di codice",
+      "button_text_3": "Dimostrazioni dal vivo",
+      "button_text_4": "Prezzo"
+    }
+  },
+  "about": {
+    "title": "Informazioni sull'API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) fornisce una comoda soluzione per unire più PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, immagini e molti altri documenti in un unico file all'interno delle applicazioni {{ProductName}}. GroupDocs.Merger ti farà risparmiare un sacco di fatica, poiché ti è consentito unirti a {{EXT}} documenti: non è necessario installare alcun software, applicazioni desktop o plug-in di terze parti. Ora non è più necessario perdere tempo e unire i file manualmente! La missione di GroupDocs è fornire la migliore qualità e semplificare i flussi di lavoro di elaborazione dei documenti.",
+    "h2": "L'API GroupDocs.Merger è la scelta giusta per le soluzioni aziendali che richiedono funzionalità di unione di file. Queste API sono ben supportate su tutti i principali sistemi operativi e piattaforme, incluso {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Come unire più file {{EXT}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) consente agli sviluppatori di {{ProductName}} di unire due o più file {{EXT}} all'interno delle loro applicazioni implementando un pochi semplici passaggi.",
+      "step_1": "Crea una nuova istanza di **Merger** e passa il percorso del documento di origine come parametro del costruttore.",
+      "step_2": "Chiama **Unisciti** della classe **Merger** e passa il secondo percorso del documento di origine.",
+      "step_3": "Chiama la classe **Salva** della **Unione** per salvare il documento unito."
+    },
+    "title_right": "Requisiti di sistema",
+    "content_right": {
+      "description": "Le API {{ProductFullName}} sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Quadri",
+      "step_4": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Come unire file {{EXT}} utilizzando il codice di esempio {{ProgLang}}",
+    "code": {
+      "load_comment": "Unisciti ai file {{EXT}} utilizzando l'API GroupDocs.Merger",
+      "ini_comment": "Istanzia la fusione con il documento di input {{EXT}}",
+      "run_comment": "Chiama il metodo Join dell'istanza della classe Merger e passa il secondo percorso del documento di origine",
+      "save_comment": "Chiama il metodo Save dell'istanza della classe Merger per salvare il documento unito"
+    }
+  },
+  "demos": {
+    "title": "Demo dal vivo - App online per unire documenti",
+    "h1": "Unisci più di un file {{EXT}} in questo momento visitando il sito Web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "La demo dal vivo ha i seguenti vantaggi."
+  },
+  "more_formats": {
+    "title": "Unione di altri formati di documenti",
+    "content": "{{ProductName}} documenta l'API di fusione per formati di file e immagini. Unisci insieme alcuni dei formati di documenti più diffusi come indicato di seguito."
+  }
+}

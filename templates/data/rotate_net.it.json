@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Ruota {{EXT}} pagine in {{ProgLang}} – Ruota ad angolo di 90, 180, 270",
+    "description": "Ruota pagine di documenti specifiche o complete di un file {{EXT}} con un angolo di rotazione di 90, 180, 270 utilizzando l'API di fusione documenti."
+  },
+  "header": {
+    "title": "Ruota {{EXT}} pagine in {{ProgLang}}",
+    "description": "Ruota {{EXT}} pagine con poche righe di codice {{ProductName}}.",
+    "button_label": "Scarica la prova gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Riferimento API",
+      "button_text_2": "Esempi di codice",
+      "button_text_3": "Dimostrazioni dal vivo",
+      "button_text_4": "Prezzo"
+    }
+  },
+  "about": {
+    "title": "Informazioni sull'API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) offre una soluzione semplice per unire e dividere in modo sicuro tra un'ampia gamma di formati di documenti tra cui PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, immagini e molti altri all'interno delle applicazioni {{ProductName}}. Aggiungendo solo poche righe di codice, esegui diverse operazioni sui documenti come spostare, rimuovere, ruotare, scambiare, estrarre o modificare l'orientamento delle pagine all'interno dei documenti. L'API per la fusione dei documenti supporta anche l'anteprima delle pagine del documento come immagine per analizzare la struttura del documento, la formattazione e il contenuto della pagina.",
+    "h2": "L'API GroupDocs.Merger è la scelta giusta per le soluzioni aziendali che richiedono funzionalità di rotazione delle pagine dei file. Queste API sono ben supportate su tutti i principali sistemi operativi e piattaforme, incluso {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Ruota {{EXT}} pagine di file in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) consente agli sviluppatori di {{ProgLang}} di ruotare facilmente alcune pagine specifiche o tutte all'interno di un file {{EXT}} a 90 , angolo di rotazione 180 o 270 implementando pochi semplici passaggi.",
+      "step_1": "Inizializza **RotateOptions** con l'angolo di rotazione e i numeri di pagina desiderati.",
+      "step_2": "Crea una nuova istanza di **Merger** e passa il percorso del documento di origine come parametro del costruttore.",
+      "step_3": "Chiama **RotatePages** e passa l'oggetto **RotateOptions**.",
+      "step_4": "Chiama **Salva** e specifica il percorso del file per salvare il documento risultante."
+    },
+    "title_right": "Requisiti di sistema",
+    "content_right": {
+      "description": "Le API {{ProductFullName}} sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Quadri",
+      "step_4": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Come ruotare le pagine dei file {{EXT}} utilizzando il codice di esempio {{ProgLang}}",
+    "code": {
+      "load_comment": "Ruota le pagine dei file {{EXT}} utilizzando l'API GroupDocs.Merger",
+      "opt_comment": "Inizializza la classe RotateOptions per specificare l'angolo di rotazione e i numeri di pagina da ruotare",
+      "ini_comment": "Istanzia la fusione con il documento di input {{EXT}}",
+      "run_comment": "Chiama il metodo RotatePages e passagli l'oggetto RotateOptions",
+      "save_comment": "Chiama il metodo Save e passa il percorso del file desiderato per salvare il documento di output"
+    }
+  },
+  "demos": {
+    "title": "Demo dal vivo - Ruota {{EXT}} le pagine dei file online",
+    "h1": "Ruota subito {{EXT}} pagine di file visitando il sito Web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/{{ext}}).",
+    "h2": "La demo dal vivo ha i seguenti vantaggi."
+  },
+  "more_formats": {
+    "title": "Ruota le pagine di altri formati di documenti",
+    "content": "{{ProductName}} documenta l'API di fusione e divisione per formati di file e immagini. Ruota alcuni dei formati di file più diffusi come indicato di seguito."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Junte-se a {{EXT}} Arquivos via Java & J2SE Documents Merger API",
+    "description": "Junte vários arquivos {{EXT}} em Java usando a API de fusão de documentos com todos os dados, estilo e formatação como documentos de origem."
+  },
+  "header": {
+    "title": "Junte-se a {{EXT}} arquivos em {{ProgLang}}",
+    "description": "Junte-se a {{EXT}} com algumas linhas de código {{ProductName}}.",
+    "button_label": "Baixar Teste Gratuito"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referência da API",
+      "button_text_2": "Exemplos de código",
+      "button_text_3": "Demonstrações ao vivo",
+      "button_text_4": "Preços"
+    }
+  },
+  "about": {
+    "title": "Sobre a API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) fornece uma solução conveniente para juntar vários PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, imagens e muitos outros documentos em um único arquivo dentro dos aplicativos {{ProductName}}. O GroupDocs.Merger economizará muito esforço, pois você tem permissão para juntar {{EXT}} documentos - não há necessidade de instalar nenhum software de terceiros, aplicativos de desktop ou plug-ins. Agora é desnecessário perder seu tempo e juntar arquivos manualmente! A missão do GroupDocs é fornecer a melhor qualidade e simplificar os fluxos de trabalho de processamento de documentos.",
+    "h2": "A API GroupDocs.Merger é a escolha certa para soluções corporativas que precisam de recursos de junção de arquivos. Essas APIs são bem suportadas em todos os principais sistemas operacionais e plataformas, incluindo {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Junte vários arquivos {{EXT}} em {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) facilita para os desenvolvedores Java juntarem vários arquivos {{EXT}} implementando algumas etapas fáceis.",
+      "step_1": "Crie uma instância de **Merger** e passe o caminho do documento de origem como um parâmetro de construtor.",
+      "step_2": "Chame **Join** da classe **Merger** e passe o segundo caminho do documento de origem.",
+      "step_3": "Chame **Save** da classe **Merger** para salvar o documento mesclado."
+    },
+    "title_right": "Requisitos de sistema",
+    "content_right": {
+      "description": "As APIs do {{ProductFullName}} são compatíveis com todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.",
+      "step_1": "Sistemas operacionais: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambientes de desenvolvimento: {{DevEnv}}",
+      "step_3": "Estruturas",
+      "step_4": "Faça o download da versão mais recente do {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Como juntar arquivos {{EXT}} usando o código de exemplo {{ProgLang}}",
+    "code": {
+      "load_comment": "Junte-se a arquivos {{EXT}} usando GroupDocs.Merger for Java API",
+      "ini_comment": "Instanciar Fusão com documento de entrada {{EXT}}",
+      "run_comment": "Chame o método join da instância da classe Merger e passe o segundo caminho do documento de origem",
+      "save_comment": "Chame o método save da instância da classe Merger para salvar o documento mesclado"
+    }
+  },
+  "demos": {
+    "title": "Demonstrações ao vivo - aplicativo online para juntar documentos",
+    "h1": "Junte-se a mais de um arquivo {{EXT}} agora mesmo visitando o site [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "A demonstração ao vivo tem os seguintes benefícios."
+  },
+  "more_formats": {
+    "title": "Juntando outros formatos de documento",
+    "content": "{{ProductName}} documenta a API de fusão para formatos de arquivo e imagens. Junte alguns dos formatos de documentos populares conforme indicado abaixo."
+  }
+}

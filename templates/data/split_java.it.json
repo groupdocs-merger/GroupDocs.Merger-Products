@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Dividi {{EXT}} in più file in {{ProgLang}}",
+    "description": "Dividi un singolo file {{EXT}} in più file in base a numeri di pagina, intervalli di pagina, pagine pari o dispari utilizzando l'API di fusione documenti."
+  },
+  "header": {
+    "title": "{{EXT}} Separatore in {{ProgLang}}",
+    "description": "Dividi {{EXT}} con poche righe di codice {{ProductName}}.",
+    "button_label": "Scarica la prova gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Riferimento API",
+      "button_text_2": "Esempi di codice",
+      "button_text_3": "Dimostrazioni dal vivo",
+      "button_text_4": "Prezzo"
+    }
+  },
+  "about": {
+    "title": "Informazioni sull'API {{ProductFullName}}",
+    "h1": "La libreria [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) offre una soluzione semplice per unire e dividere in modo sicuro tra un'ampia gamma di formati di documenti, inclusi PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, immagini e molti altri all'interno delle applicazioni {{ProductName}}. Aggiungendo solo poche righe di codice, esegui diverse operazioni sui documenti come spostare, rimuovere, ruotare, scambiare, estrarre o modificare l'orientamento delle pagine all'interno dei documenti. L'API per la fusione dei documenti supporta anche l'anteprima delle pagine del documento come immagine per analizzare la struttura del documento, la formattazione e il contenuto della pagina.",
+    "h2": "L'API GroupDocs.Merger è la scelta giusta per le soluzioni aziendali che richiedono funzionalità di suddivisione dei file. Queste API sono ben supportate su tutti i principali sistemi operativi e piattaforme, incluso {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Dividi file {{EXT}} per pagine in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) consente agli sviluppatori di {{ProgLang}} di dividere facilmente un singolo file {{EXT}} in più file risultanti implementando un pochi semplici passaggi.",
+      "step_1": "Inizializza **SplitOptions** con il formato del percorso dei file di output.",
+      "step_2": "Crea una nuova istanza di **Merger** e passa il percorso del documento di origine come parametro del costruttore.",
+      "step_3": "Chiama **split** e passa l'oggetto **SplitOptions** per salvare i documenti risultanti."
+    },
+    "title_right": "Requisiti di sistema",
+    "content_right": {
+      "description": "Le API {{ProductFullName}} sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Quadri",
+      "step_4": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Come dividere il file {{EXT}} utilizzando il codice di esempio {{ProgLang}}",
+    "code": {
+      "load_comment": "Dividi il file {{EXT}} utilizzando GroupDocs.Merger per l'API Java",
+      "opt_comment": "Inizializza la classe SplitOptions con il formato del percorso dei file di output",
+      "ini_comment": "Istanzia la fusione con il documento di input {{EXT}}",
+      "run_comment": "Chiama il metodo split e passa l'oggetto SplitOptions per salvare i documenti risultanti"
+    }
+  },
+  "demos": {
+    "title": "Demo dal vivo - Dividi file {{EXT}} online",
+    "h1": "Dividi subito il file {{EXT}} visitando il sito Web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}).",
+    "h2": "La demo dal vivo ha i seguenti vantaggi."
+  },
+  "more_formats": {
+    "title": "Dividi file di altri formati",
+    "content": "{{ProductName}} documenta l'API di fusione e divisione per formati di file e immagini. Dividi alcuni dei formati di file più diffusi come indicato di seguito."
+  }
+}
