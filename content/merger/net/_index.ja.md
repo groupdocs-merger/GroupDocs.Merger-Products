@@ -1,6 +1,7 @@
 ---
+############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -8,14 +9,17 @@ product_tag: "merger"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Head ############################
 head_title: "C＃.NETドキュメントマージAPI | PDF WordExcelEPUBの結合と分割"
 head_description: "PDF、Microsoft Word、Excel、プレゼンテーション、Visio、および画像形式からドキュメントページを結合、分割、交換、または削除するためのC＃.NETドキュメントマージAPI."
 
+############################# Header ############################
 title: ".ドキュメントをマージおよび分割するためのNETAPI"
 description: ".NETアプリケーションでドキュメント、スライド、図を結合、分割、交換、トリミング、または削除するためのAPI."
 button:
     enable: true
 
+############################# SubMenu ############################
 submenu:
     enable: true
     
@@ -27,18 +31,23 @@ submenu:
 
     middle:
         button:
+            # button loop
             - link: "#overview"
               text: "概要"
 
+            # button loop
             - link: "#features"
               text: "特徴"
 
+            # button loop
             - link: "#support"
               text: "サポート"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
               text: "価格設定"
 
@@ -47,6 +56,7 @@ submenu:
         link_learn: "https://docs.groupdocs.com/merger/net/"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# Overview ############################
 overview:
     enable: true
     content: |
@@ -56,6 +66,7 @@ overview:
     tabs:
       enable: true
       
+      ## TAB ONE ##
       tab_one:
         description: |
           以下は、GroupDocs.Mergerfor.NETの概要です。
@@ -65,24 +76,25 @@ overview:
           icon: "fab fa-html5"
           title: "ドキュメント操作"
           content: |
-            *ページの順序を変更する
-            *ページの削除または削除
-            *ドキュメントの分割または分割
-            *任意の2ページを入れ替えるかシャッフルします
-            *単一または複数のページをトリミングする
-            *複数のドキュメントに参加する
+            * ページの順序を変更する
+            * ページの削除または削除
+            * ドキュメントの分割または分割
+            * 任意の2ページを入れ替えるかシャッフルします
+            * 単一または複数のページをトリミングする
+            * 複数のドキュメントに参加する
         
         right:
           enable: true
           icon: "fab fa-html5"
           title: "セキュリティ運用"
           content: |
-            *ドキュメントのセキュリティを設定する
-            *ドキュメントのセキュリティステータスを確認する
-            *ドキュメントのパスワードを設定する
-            *ドキュメントのパスワードを更新する
-            *ドキュメントのパスワードを削除する
+            * ドキュメントのセキュリティを設定する
+            * ドキュメントのセキュリティステータスを確認する
+            * ドキュメントのパスワードを設定する
+            * ドキュメントのパスワードを更新する
+            * ドキュメントのパスワードを削除する
       
+      ## TAB TWO ##
       tab_two:
         description: |
           GroupDocs.Merger for .NETは、次の[ドキュメントファイル形式]（https://docs.groupdocs.com/merger/net/supported-document-formats/）のマージをサポートしています。
@@ -90,16 +102,18 @@ overview:
         left:
           enable: true
           table:
-            - title: "マイクロソフトオフィス"
+            # table loop
+            - title: "Microsoft Office"
               content: |
-                * **ワード：** DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT
-                * ** Excel：** XLS、XLSX、XLSM、XLSB、XLTM、XLT、XLTM、XLTX、XLAM、SXC、SpreadsheetML
-                * ** PowerPoint：** PPT、PPTX、PPS、PPSX、PPSM、POT、POTM、POTX、PPTM
-                * ** OneNote：** ONE
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+                * **OneNote:** ONE
 
         right:
           enable: true
           table:
+            # table loop
             - title: "OpenDocumentおよびその他の形式"
               content: |
                 * ** OpenDocument形式**：ODT、OTT、ODP、OTP、ODS
@@ -110,6 +124,7 @@ overview:
                 * ** LaTex **：TEX
                 * **電子ブック**：EPUB
 
+      ## TAB THREE ##
       tab_three:
         description: |
           GroupDocs.Merger for .NETは、次のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています。
@@ -117,30 +132,34 @@ overview:
         left:
           enable: true
           table:
+            # table loop
             - icon: "fab fa-windows"
               title: "オペレーティングシステム"
               content: |
-                *Windowsデスクトップ
-                * WindowsServer
+                * Windowsデスクトップ
+                * Windows Server
                 * Windows Azure
                 * Linux
 
+            # table loop
             - icon: "fas fa-code"
               title: "サポートされているフレームワーク"
               content: |
-                * .NETFramework2.0以降
-                * MonoFramework1.2以降
+                * .NET Framework 2.0以降
+                * Mono Framework 1.2以降
                 * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
           enable: true
           table:
+            # table loop
             - icon: "fas fa-box"
               title: "パッケージマネージャー"
               content: |
                 * NuGet
 
+            # table loop
             - icon: "fas fa-tools"
               title: "開発環境"
               content: |
@@ -150,90 +169,116 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Mergerfor.NETの機能"
+    title: "GroupDocs.Merger for .NETの機能"
 
     feature:
+      # feature loop
       - icon: "fas fa-copy"
         content: "複数のページ、スライド、図を1つのドキュメントに結合してマージします"
-
+       
+      # feature loop
       - icon: "fas fa-eye"
         content: "大きなドキュメントを複数の小さなファイルに分割して分割する"
 
+      # feature loop
       - icon: "fas fa-bolt"
         content: "ページ、スライド、または図を再配置、シャッフル、および再編成します"
       
+      # feature loop
       - icon: "fas fa-file-powerpoint"
         content: "ドキュメント内で2つのページ、スライド、または図を交換して交換します"
 
+      # feature loop
       - icon: "fas fa-code"
         content: "特定のページ、スライド、または図を削除してドキュメントをトリミングします"
 
+      # feature loop
       - icon: "fas fa-cloud"
         content: "ページ、スライド、または図の単一またはコレクションを削除します"
 
+      # feature loop
       - icon: "fas fa-remove-format"
         content: "多数のドキュメントをまとめてつなぎ合わせる"
 
+      # feature loop
       - icon: "fas fa-comment-slash"
         content: "ドキュメントがパスワードで保護されているかどうかをプログラムで確認します"
 
+      # feature loop
       - icon: "fas fa-location-arrow"
         content: "既知および未知のドキュメント形式のパスワードを設定、リセット、および削除します"
 
+      # feature loop
       - icon: "fas fa-border-all"
         content: "サポートされているファイル形式のリストを取得–テキストの分割と結合（ERR）ログファイル形式"
 
+      # feature loop
       - icon: "fas fa-wrench"
         content: "ページを回転し、既知および未知の形式のページの向きを変更します"
 
+      # feature loop
       - icon: "fas fa-columns"
         content: "異なる形式の複数のファイルをDOC、DOCX、XPSに結合します"
 
+      # feature loop
       - icon: "fas fa-file-word"
         content: "大きなテキストファイルを行番号で分割する"
 
+      # feature loop
       - icon: "fas fa-envelope"
         content: "ドキュメントページとダイアグラムファミリ形式の画像表現を取得します"
 
+      # feature loop
       - icon: "fas fa-print"
         content: "空の黒の画像スペースの背景色で画像を結合する"
 
+      # feature loop
       - icon: "fas fa-file-archive"
         content: "さまざまな種類のドキュメント（DOC、XLS、PPTなど）を1つのPDFファイルにマージします"
 
+      # feature loop
       - icon: "fas fa-lock"
         content: "OLEオブジェクトをMicrosoftWord、Excel、プレゼンテーション、OpenDocumentファイルタイプに簡単にインポート"
 
+      # feature loop
       - icon: "fas fa-file-code"
         content: "OLEオブジェクトを介してダイアグラムページに他のドキュメントを追加する"
 
     more_feature:
+      # more_feature_loop
       - title: "ドキュメントから目的のページを削除する"
         content: |
           GroupDocs.Merger for .NET APIは、ドキュメントから不要なページを削除するのに役立ちます。
       
+      # more_feature_loop
       - title: "レンダリングされた出力に変換を適用する"
-        content: "GroupDocs.Merger for .NET APIを使用して、レンダリングされた出力ドキュメントに対してさまざまな変換を実行できます。これらの変換オプションを使用すると、レンダリングされた出力を表示する方法を制御できます。使用可能な変換は、ページ回転オプション、ページ並べ替えオプション、およびテキスト透かしの適用です。."
+        content: "GroupDocs.Merger for .NET APIを使用して、レンダリングされた出力ドキュメントに対してさまざまな変換を実行できます。これらの変換オプションを使用すると、レンダリングされた出力を表示する方法を制御できます。使用可能な変換は、ページ回転オプション、ページ並べ替えオプション、およびテキスト透かしの適用です。"
 
+      # more_feature_loop
       - title: "不明なドキュメント形式のパスワードを確認してください"
-        content: "GroupDocs.Merger for .NET APIを使用すると、形式が不明なドキュメントのパスワードを確認できます。."
+        content: "GroupDocs.Merger for .NET APIを使用すると、形式が不明なドキュメントのパスワードを確認できます。"
 
+############################# Support ############################
 support:
     enable: true
 
+############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Mergerは、他の一般的な開発環境向けのドキュメント表示APIを提供します"
+    title: "GroupDocs.Mergerは、他の一般的な開発環境向けのドキュメント表示APIを提供しま"
 
     solution:
+        # solution loop
         - img_alt: "GroupDocs.Merger for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
           product: "GroupDocs.Merger"
           platform: "Java"
           link: "/merger/java/"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

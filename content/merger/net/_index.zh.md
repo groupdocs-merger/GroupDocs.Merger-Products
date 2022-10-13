@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Merger for .NET"
-        image: "/border/groupdocs-merger-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
         product: "GroupDocs.Merger"
         platform: ".NET"
 
@@ -56,11 +56,11 @@ submenu:
         link_learn: "https://docs.groupdocs.com/merger/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# 概述 ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Merger for .NET，帮助您以 C#、ASP.NET 和其他 .NET 技术快速开发一流的业务应用程序。只需几行代码，您的 .NET 应用程序就可以组合、拆分、重新排列、交换、修剪和删除单个页面或文档页面、幻灯片、图像或图表的集合。通过设置或删除已知和未知文件格式的密码保护，对安全文件执行这些操作。
+      GroupDocs.Merger for .NET，帮助您以 C#、ASP.NET 和其他 .NET 技术快速开发一流的业务应用程序。只需几行代码，您的 .NET 应用程序就可以组合、拆分、重新排列、交换、修剪和删除单个页面或文档页面、幻灯片、图像或图表的集合。通过设置或删除已知和未知文件格式的密码保护，对安全文件执行这些操作。  
 
       通过使用 GroupDocs.Merger for .NET，您可以执行合并；对单个文档以及一批文档进行拆分等相关操作。以编程方式拼接所有流行格式的文件，例如 Microsoft Word、Excel、PowerPoint、Visio、OpenDocument、PDF、XPS、TXT、CSV、电子书和图像文件格式。
     tabs:
@@ -146,8 +146,8 @@ overview:
               title: "支持的框架"
               content: |
                 * .NET Framework 2.0 或更高版本
-                * Mono 框架 1.2 或更高版本
-                * .NET 标准 2.0
+                * Mono Framework 1.2 或更高版本
+                * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
@@ -169,7 +169,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
-############################# 特征 ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Merger for .NET 功能"
@@ -178,7 +178,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: "将多个页面、幻灯片和图表合并并合并到一个文档中"
-
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "将大文件拆分成多个小文件"
@@ -273,7 +273,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Merger for Java"
-          image: "/border/groupdocs-merger-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
           product: "GroupDocs.Merger"
           platform: "Java"
           link: "/merger/java/"

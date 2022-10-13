@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Merger for Java"
-        image: "/border/groupdocs-merger-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
         product: "GroupDocs.Merger"
         platform: "Java"
 
@@ -56,19 +56,21 @@ submenu:
         link_learn: "https://docs.groupdocs.com/merger/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# 概述 ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Merger for Java 使您能够使用 Java 快速开发顶级业务应用程序。只需少量编码，您的 Java 应用程序就可以合并、翻录、随机播放、剪切和删除单个页面或一批页面、幻灯片和图表。通过应用或删除密码保护，还可以对已知和未知格式的安全文件执行合并操作。
+      GroupDocs.Merger for Java 使您能够使用 Java 快速开发顶级业务应用程序。只需少量编码，您的 Java 应用程序就可以合并、翻录、随机播放、剪切和删除单个页面或一批页面、幻灯片和图表。通过应用或删除密码保护，还可以对已知和未知格式的安全文件执行合并操作。  
+
+      
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           以下是 Java 版 GroupDocs.Merger 的概述：
-
+      
         left:
           enable: true
           icon: "fab fa-html5"
@@ -95,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger for .NET 支持合并以下 [文档文件格式](https://docs.groupdocs.com/merger/net/supported-document-formats/)：
+          GroupDocs.Merger for Java 支持合并以下 [文档文件格式](https://docs.groupdocs.com/merger/java/supported-document-formats/)：
 
         left:
           enable: true
@@ -134,8 +136,8 @@ overview:
             - icon: "fab fa-windows"
               title: "操作系统"
               content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
+                * Windows Desktop
+                * Windows Server
                 * Linux
                 * MacOS
 
@@ -143,25 +145,31 @@ overview:
             - icon: "fas fa-code"
               title: "支持的框架"
               content: |
-                * Java 7 (1.7) 及更高版本
+                * Java 7 (1.7)
+                * Java 8 (1.8)
+                * Java 10
+                * Java 11 and above
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "fas fa-cogs"
+            - icon: "fas fa-box"
+              title: "包管理器"
+              content: |
+                * Maven
+
+            # table loop
+            - icon: "fas fa-tools"
               title: "开发环境"
               content: |
                 * NetBeans
                 * IntelliJ IDEA
                 * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "构建自动化工具"
-              content: |
-                * Maven
+                
+                
 
-############################# 特征 ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Merger for Java 功能"
@@ -170,7 +178,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: "将各种页面、幻灯片和图表合并到一个文件中"
-
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "将大型文档翻录并拆分为多个较小的文件"
@@ -227,31 +235,31 @@ features:
       - icon: "fas fa-print"
         content: "通过 OLE 对象将文档添加到图表"
 
+      # feature loop
+      - icon: "fas fa-file-archive"
+        content: "将不同类型的文档（DOC、XLS、PPT 等）合并到一个 PDF 文件中"
+
+      # feature loop
+      - icon: "fas fa-lock"
+        content: "轻松将 OLE 对象导入 Microsoft Word、Excel、演示文稿和 OpenDocument 文件类型"
+
+      # feature loop
+      - icon: "fas fa-file-code"
+        content: "通过 OLE 对象将其他文档添加到图表页面"
+
     more_feature:
       # more_feature_loop
       - title: "从文档中删除所需页面"
         content: |
           GroupDocs.Merger for Java API 允许您从文档中选择和删除不需要的页面。
-
+      
       # more_feature_loop
       - title: "检查未知文档格式的密码"
         content: "即使特定文档的格式未知，Java 的 GroupDocs.Merger 也可以让您检查和检索文档密码（如果可用）."
 
       # more_feature_loop
       - title: "加入已知格式的受密码保护的文档"
-        content: |
-          GroupDocs.Merger for Java API 允许您获取已知和未知格式的文档列表。以下示例显示了如何使用 Java 对已知文件格式执行此操作：
-
-          ```java
-          String password = "SomePasswordString";
-          InputStream documentExample1 = new FileInputStream("sourceFile.docx");
-          InputStream documentExample2 = new FileInputStream("sourceFile2.docx");
-          List documentStreams = new ArrayList();
-          JoinItem item1 = new JoinItem(documentExample1, FileFormat.Pdf, password);
-          documentStreams.add(item1);
-          JoinItem item2 = new JoinItem(documentExample2, FileFormat.Pdf, password);
-          documentStreams.add(item2);
-          ```
+        content: "GroupDocs.Merger for Java API 允许您获取已知和未知格式的文档列表。"
 
 ############################# Support ############################
 support:
@@ -265,7 +273,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Merger for .NET"
-          image: "/border/groupdocs-merger-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
           product: "GroupDocs.Merger"
           platform: ".NET"
           link: "/merger/net/"

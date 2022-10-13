@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Merger for .NET"
-        image: "/border/groupdocs-merger-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
         product: "GroupDocs.Merger"
         platform: ".NET"
 
@@ -56,11 +56,11 @@ submenu:
         link_learn: "https://docs.groupdocs.com/merger/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Visión de conjunto ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Merger para .NET lo ayuda a desarrollar rápidamente aplicaciones comerciales de primera clase en C#, ASP.NET y otras tecnologías .NET. Solo unas pocas líneas de código permitirán que sus aplicaciones .NET combinen, dividan, reorganicen, intercambien, recorten y eliminen una sola página o una colección de páginas de documentos, diapositivas, imágenes o diagramas. Realice estas operaciones en archivos seguros configurando o eliminando la protección con contraseña de formatos de archivo conocidos y desconocidos.
+      GroupDocs.Merger para .NET lo ayuda a desarrollar rápidamente aplicaciones comerciales de primera clase en C#, ASP.NET y otras tecnologías .NET. Solo unas pocas líneas de código permitirán que sus aplicaciones .NET combinen, dividan, reorganicen, intercambien, recorten y eliminen una sola página o una colección de páginas de documentos, diapositivas, imágenes o diagramas. Realice estas operaciones en archivos seguros configurando o eliminando la protección con contraseña de formatos de archivo conocidos y desconocidos.  
 
       Al utilizar GroupDocs.Merger para .NET, puede realizar fusiones; división y otras operaciones relacionadas en documentos individuales, así como en un lote de documentos. Une archivos mediante programación de todos los formatos populares, como Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook y formatos de archivo de imagen.
     tabs:
@@ -147,7 +147,7 @@ overview:
               content: |
                 * .NET Framework 2.0 o superior
                 * Mono Framework 1.2 o superior
-                * .NET estándar 2.0
+                * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
@@ -169,7 +169,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
-############################# Características ############################
+############################# Features ############################
 features:
     enable: true
     title: "Características de GroupDocs.Merger para .NET"
@@ -178,7 +178,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: "Combine y combine varias páginas, diapositivas y diagramas en un solo documento"
-
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "Divida y divida documentos grandes en varios archivos más pequeños"
@@ -273,7 +273,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Merger for Java"
-          image: "/border/groupdocs-merger-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
           product: "GroupDocs.Merger"
           platform: "Java"
           link: "/merger/java/"

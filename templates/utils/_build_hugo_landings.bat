@@ -1,5 +1,7 @@
 call build_index_landings.bat
 
+call build_index_platform_landings.bat
+
 call build_combine_landings.bat
 
 call build_extract_landings.bat

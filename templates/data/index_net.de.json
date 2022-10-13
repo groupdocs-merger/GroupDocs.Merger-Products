@@ -1,0 +1,206 @@
+{
+  "head": {
+    "title": "C# .NET API zum Zusammenführen von Dokumenten | Kombinieren und teilen Sie PDF Word Excel EPUB",
+    "description": "C# .NET API zum Zusammenführen von Dokumenten zum Kombinieren, Teilen, Austauschen oder Entfernen von Dokumentseiten aus PDF-, Microsoft Word-, Excel-, Präsentations-, Visio- und Bildformaten."
+  },
+  "header": {
+    "title": ".NET-API zum Zusammenführen und Teilen von Dokumenten",
+    "description": "API zum Kombinieren, Teilen, Austauschen, Trimmen oder Entfernen von Dokumenten, Folien und Diagrammen in .NET-Anwendungen."
+  },
+  "submenu":{
+    "middle": {
+      "overview": "Überblick", 
+      "features": "Merkmale",          
+      "support": "Support",
+      "livedemo": "Live Demo",
+      "pricing": "Preisgestaltung"   
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger für .NET unterstützt Sie bei der schnellen Entwicklung erstklassiger Geschäftsanwendungen in C#, ASP.NET und anderen .NET-Technologien. Mit nur wenigen Codezeilen können Ihre .NET-Anwendungen einzelne Seiten oder eine Sammlung von Dokumentseiten, Folien, Bildern oder Diagrammen kombinieren, teilen, neu anordnen, austauschen, kürzen und entfernen. Führen Sie diese Vorgänge an sicheren Dateien durch, indem Sie den Kennwortschutz für bekannte und unbekannte Dateiformate festlegen oder entfernen.",
+      "paragraph_2": "Durch die Verwendung von GroupDocs.Merger für .NET können Sie Zusammenführungen durchführen; Splitten und andere verwandte Operationen an einzelnen Dokumenten sowie an einem Stapel von Dokumenten. Programmgesteuertes Zusammenfügen von Dateien in allen gängigen Formaten wie Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook und Bilddateiformaten."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Nachfolgend finden Sie eine Übersicht über GroupDocs.Merger für .NET:",
+      "left": {
+        "title": "Dokumentoperationen",
+        "content": {
+          "line_1": "Seitenreihenfolge ändern",
+          "line_2": "Seiten entfernen oder löschen",
+          "line_3": "Dokument aufteilen oder unterbrechen",
+          "line_4": "Tauschen oder mischen Sie zwei beliebige Seite",
+          "line_5": "Trimmen Sie einzelne oder mehrere Seiten",
+          "line_6": "Verbinden Sie mehrere Dokumente"
+        }
+      },
+      "right": {
+        "title": "Sicherheitsoperationen",
+        "content": {
+          "line_1": "Dokumentsicherheit einrichten",
+          "line_2": "Überprüfen Sie den Sicherheitsstatus des Dokuments",
+          "line_3": "Dokumentenkennwort festlege",
+          "line_4": "Dokumentkennwort aktualisieren",
+          "line_5": "Dokumentkennwort entfernen"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger für .NET unterstützt das Zusammenführen der folgenden [Dokumentdateiformate](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument & Andere Formate",
+        "content": {
+          "line_1": "**OpenDocument-Formate**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Festes Layout**: PDF, XPS",
+          "line_3": "**Bilder**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Text**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**Ebook**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for .NET unterstützt das Folgen Betriebssysteme, Frameworks & Paket-Managers:",
+      "left": {
+        "title": "Betriebssysteme",
+        "content": {
+          "line_1": "Windows Desktop",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Unterstützte Frameworks",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 oder höher",
+          "line_2": "Mono Framework 1.2 oder höher",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Paket-Manager",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Entwicklungsumgebungen",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger für .NET-Funktionen", 
+    "feature_1": {
+        "icon": "fas fa-copy",
+        "content": "Kombinieren und führen Sie mehrere Seiten, Folien und Diagramme in einem einzigen Dokument zusammen"
+    },
+    "feature_2": {
+        "icon": "fas fa-eye",
+        "content": "Große Dokumente aufteilen und in mehrere kleinere Dateien aufteilen"
+    },
+    "feature_3": {
+      "icon": "fas fa-bolt",
+      "content": "Ordnen, mischen und reorganisieren Sie Seiten, Folien oder Diagramme"
+    },
+    "feature_4": {
+      "icon": "fas fa-file-powerpoint",
+      "content": "Tauschen und tauschen Sie innerhalb eines Dokuments zwei Seiten, Folien oder Diagramme untereinander aus"
+    },
+    "feature_5": {
+      "icon": "fas fa-code",
+      "content": "Kürzen Sie das Dokument, indem Sie bestimmte Seiten, Folien oder Diagramme entfernen"
+    },
+    "feature_6": {
+      "icon": "fas fa-cloud",
+      "content": "Entfernen Sie einzelne oder eine Sammlung von Seiten, Folien oder Diagrammen"
+    },
+    "feature_7": {
+      "icon": "fas fa-remove-format",
+      "content": "Heften Sie eine große Anzahl von Dokumenten in Stapeln zusammen"
+    },
+    "feature_8": {
+      "icon": "fas fa-comment-slash",
+      "content": "Prüfen Sie programmgesteuert, ob ein Dokument mit einem Passwort gesichert ist"
+    },
+    "feature_9": {
+      "icon": "fas fa-location-arrow",
+      "content": "Passwort für bekannte und unbekannte Dokumentformate festlegen, zurücksetzen und entfernen"
+    },
+    "feature_10": {
+      "icon": "fas fa-border-all",
+      "content": "Abrufen der Liste der unterstützten Dateiformate – Split and Join Text (ERR) Protokolldateiformat"
+    },
+    "feature_11": {
+      "icon": "fas fa-wrench",
+      "content": "Drehen Sie Seiten und ändern Sie die Seitenausrichtung bekannter und unbekannter Formate"
+    },
+    "feature_12": {
+      "icon": "fas fa-columns",
+      "content": "Kombinieren Sie mehrere Dateien unterschiedlicher Formate zu DOC, DOCX und XPS"
+    },
+    "feature_13": {
+      "icon": "fas fa-file-word",
+      "content": "Aufteilen großer Textdateien nach Zeilennummern"
+    },
+    "feature_14": {
+      "icon": "fas fa-envelope",
+      "content": "Erhalten Sie Bilddarstellungen von Dokumentseiten und Diagrammfamilienformaten"
+    },
+    "feature_15": {
+      "icon": "fas fa-print",
+      "content": "Verbinden Sie Bilder mit Hintergrundfarbe für einen leeren schwarzen Bildraum"
+    },
+    "feature_16": {
+      "icon": "fas fa-file-archive",
+      "content": "Führen Sie verschiedene Arten von Dokumenten (DOC, XLS, PPT usw.) in einer einzigen PDF-Datei zusammen"
+    },
+    "feature_17": {
+      "icon": "fas fa-lock",
+      "content": "Importieren Sie mühelos OLE-Objekte in Microsoft Word-, Excel-, Präsentations- und OpenDocument-Dateitypen"
+    },
+    "feature_18": {
+      "icon": "fas fa-file-code",
+      "content": "Andere Dokumente über OLE-Objekte zur Diagrammseite hinzufügen"
+    }
+  },
+  "more_feature":{
+    "feature_1":{
+      "title": "Gewünschte Seiten aus Dokumenten entfernen",
+      "content": "GroupDocs.Merger for .NET API hilft Ihnen, unerwünschte Seiten aus Ihrem Dokument zu löschen."
+    },
+    "feature_2":{
+      "title": "Transformation auf die gerenderte Ausgabe anwenden",
+      "content": "Mit GroupDocs.Merger for .NET API können Sie verschiedene Transformationen am gerenderten Ausgabedokument durchführen. Diese Transformationsoptionen geben Ihnen die Kontrolle darüber, wie Sie die gerenderte Ausgabe für die Anzeige präsentieren. Die verfügbaren Transformationen sind die Seitenrotationsoption, die Seitenneuordnungsoption und das Anwenden von Textwasserzeichen."
+    },
+    "feature_3":{
+      "title": "Überprüfen Sie das Kennwort des unbekannten Dokumentformats",
+      "content": "GroupDocs.Merger for .NET API ermöglicht es Ihnen, das Passwort eines Dokuments zu überprüfen, dessen Format unbekannt ist."
+    }
+  },
+  "solutions":  { 
+    "title": "GroupDocs.Merger bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

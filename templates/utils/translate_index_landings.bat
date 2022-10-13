@@ -1,7 +1,3 @@
-
-:: Translation\Bin\net6.0\Res.Translator.exe -r ..\data\index.en.json -d en --overwrite
-:: ren "..\data\index.en.en.json" "index.en.json"
-
 :: Translation\Bin\net6.0\Res.Translator.exe -r ..\data\index.en.json -d de --overwrite
 :: ren "..\data\index.en.de.json" "index.de.json"
 

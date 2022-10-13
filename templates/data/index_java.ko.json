@@ -1,0 +1,206 @@
+{
+  "head": {
+    "title": "자바 문서 병합 API | Word Excel PDF XPS EPUB 병합 및 제거",
+    "description": "Java용 문서 병합 API. PDF, Microsoft Word, Excel, 프레젠테이션, Visio, XPS 및 EPUB 형식의 페이지 병합, 분할, 교환, 재정렬 및 삭제."
+  },
+  "header": {
+    "title": "문서 결합 및 분할을 위한 Java API",
+    "description": "이동 중에 페이지, 슬라이드 및 다이어그램을 결합, 리핑, 셔플, 잘라내기 또는 삭제할 수 있는 고성능 앱 개발."
+  },
+  "submenu":{
+    "middle": {
+      "overview": "개요",                       
+      "features": "특징",             
+      "support": "지원하다",           
+      "livedemo": "라이브 데모",           
+      "pricing": "가격"             
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "Java용 GroupDocs.Merger를 사용하면 Java로 최상위 비즈니스 응용 프로그램을 빠르게 개발할 수 있습니다. 약간의 코딩으로 Java 애플리케이션은 단일 페이지 또는 페이지, 슬라이드 및 다이어그램의 배치를 병합, 추출, 셔플, 잘라내기 및 삭제할 수 있습니다. 암호 보호를 적용하거나 제거하여 알려진 형식과 알 수 없는 형식의 보안 파일에 대해 병합 작업을 수행할 수도 있습니다.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "다음은 Java용 GroupDocs.Merger의 개요입니다.",
+      "left": {
+        "title": "문서 작업",
+        "content": {
+          "line_1": "페이지 순서 변경",
+          "line_2": "페이지 제거 또는 삭제",
+          "line_3": "문서 분할 또는 나누기",
+          "line_4": "두 페이지를 바꾸거나 섞습니다.",
+          "line_5": "단일 또는 여러 페이지 자르기",
+          "line_6": "여러 문서 결합"
+        }
+      },
+      "right": {
+        "title": "보안 운영",
+        "content": {
+          "line_1": "문서 보안 설정",
+          "line_2": "문서 보안 상태 확인",
+          "line_3": "문서 비밀번호 설정",
+          "line_4": "문서 비밀번호 업데이트",
+          "line_5": "문서 비밀번호 제거"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "Java용 GroupDocs.Merger는 다음 [문서 파일 형식](https://docs.groupdocs.com/merger/java/supported-document-formats/) 병합을 지원합니다.",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument 및 기타 형식",
+        "content": {
+          "line_1": "**OpenDocument 형식**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**고정 레이아웃**: PDF, XPS",
+          "line_3": "**이미지**: BMP, PNG, TIFF",
+          "line_4": "**웹**: HTML, MHT, MHTML",
+          "line_5": "**텍스트**: TXT, CSV, TSV",
+          "line_6": "**라텍스**: TEX",
+          "line_7": "**전자책**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "Java용 GroupDocs.Merger는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
+      "left": {
+        "title": "운영체제",
+        "content": {
+          "line_1": "Microsoft Windows Desktop",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "Linux",
+          "line_4": "MacOS"
+        },
+        "title_2": "지원되는 프레임워크",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 and above"
+        }
+      },
+      "right": {
+        "title": "패키지 관리자",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "개발 환경",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEA",
+          "line_3": "* Eclipse",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "Java 기능을 위한 GroupDocs.Merger",
+    "feature_1": {
+        "icon": "fas fa-copy",
+        "content": "다양한 페이지, 슬라이드 및 다이어그램을 단일 파일로 병합"
+    },
+    "feature_2": {
+        "icon": "fas fa-eye",
+        "content": "대용량 문서를 여러 개의 작은 파일로 추출 및 분할"
+    },
+    "feature_3": {
+      "icon": "fas fa-bolt",
+      "content": "페이지, 슬라이드 또는 다이어그램 셔플 및 재구성"
+    },
+    "feature_4": {
+      "icon": "fas fa-file-powerpoint",
+      "content": "문서 내에서 서로 간에 두 페이지, 슬라이드 또는 다이어그램 교환 및 교환"
+    },
+    "feature_5": {
+      "icon": "fas fa-code",
+      "content": "특정 페이지, 슬라이드 또는 다이어그램을 제거하여 문서 자르기 및 다듬기"
+    },
+    "feature_6": {
+      "icon": "fas fa-cloud",
+      "content": "페이지, 슬라이드 또는 다이어그램의 단일 또는 컬렉션 삭제"
+    },
+    "feature_7": {
+      "icon": "fas fa-remove-format",
+      "content": "많은 수의 문서를 일괄적으로 연결 및 병합"
+    },
+    "feature_8": {
+      "icon": "fas fa-comment-slash",
+      "content": "문서가 암호로 보호되어 있으면 프로그래밍 방식으로 Java에서 확인"
+    },
+    "feature_9": {
+      "icon": "fas fa-location-arrow",
+      "content": "알려지거나 알려지지 않은 문서 형식의 암호 설정, 재설정 및 삭제"
+    },
+    "feature_10": {
+      "icon": "fas fa-border-all",
+      "content": "하나의 텍스트 파일을 줄 번호로 여러 개로 분할"
+    },
+    "feature_11": {
+      "icon": "fas fa-wrench",
+      "content": "문서 페이지의 이미지 표현 가져오기"
+    },
+    "feature_12": {
+      "icon": "fas fa-columns",
+      "content": "형식이 다른 여러 문서를 하나의 PDF 파일로 병합"
+    },
+    "feature_13": {
+      "icon": "fas fa-file-word",
+      "content": "PDF, Word, Excel, PowerPoint 및 문서 형식 열기에 OLE 개체 삽입"
+    },
+    "feature_14": {
+      "icon": "fas fa-envelope",
+      "content": "PDF 문서에 프로그래밍 방식으로 파일 첨부"
+    },
+    "feature_15": {
+      "icon": "fas fa-print",
+      "content": "OLE 개체를 통해 다이어그램에 문서 추가"
+    },
+    "feature_16": {
+      "icon": "fas fa-file-archive",
+      "content": "다양한 유형의 문서(DOC, XLS, PPT 등)를 단일 PDF 파일로 병합"
+    },
+    "feature_17": {
+      "icon": "fas fa-lock",
+      "content": "OLE 개체를 Microsoft Word, Excel, Presentation 및 OpenDocument 파일 형식으로 쉽게 가져오기"
+    },
+    "feature_18": {
+      "icon": "fas fa-file-code",
+      "content": "OLE 개체를 통해 다이어그램 페이지에 다른 문서 추가"
+    }
+  },
+  "more_feature":{
+    "feature_1":{
+      "title": "문서에서 원하는 페이지 제거",
+      "content": "Java API용 GroupDocs.Merger를 사용하면 문서에서 원하지 않는 페이지를 선택하고 삭제할 수 있습니다."
+    },
+    "feature_2":{
+      "title": "알 수 없는 문서 형식의 암호 확인",
+      "content": "특정 문서의 형식을 알 수 없는 경우에도 GroupDocs.Merger for Java를 사용하면 문서 암호를 확인 및 검색할 수 있습니다."
+    },
+    "feature_3":{
+      "title": "알려진 형식의 암호로 보호된 문서 결",
+      "content": "Java API용 GroupDocs.Merger를 사용하면 알려진 형식과 알려지지 않은 형식의 문서 목록을 가져올 수 있습니다."
+    }
+  },
+  "solutions":  { 
+    "title": "GroupDocs.Merger는 다른 인기 있는 개발 환경을 위한 문서 보기 API를 제공합니다.",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}

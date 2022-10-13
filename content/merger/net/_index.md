@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -178,7 +178,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: "Combine & merge multiple pages, slides & diagrams into a single document"
-
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "Split and break large documents into multiple smaller files"
@@ -268,7 +268,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Merger offers document viewing APIs for other popular development environments"
+    title: "GroupDocs.Merger offers document merging APIs for other popular development environments"
 
     solution:
         # solution loop

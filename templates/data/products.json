@@ -11,7 +11,8 @@
             "runtime": ".NET Framework, .NET Standard, .NET Core, Mono",
             "repoName": "NuGet",
             "repoUrl": "https://www.nuget.org/packages/groupdocs.merger",
-            "url": "https://products.groupdocs.com/merger/net/"
+            "url": "https://products.groupdocs.com/merger/net/",
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
         },
         "java": {
             "name": "Java",
@@ -24,7 +25,8 @@
             "runtime": "J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10",
             "repoName": "Maven",
             "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger",
-            "url": "https://products.groupdocs.com/merger/java/"
+            "url": "https://products.groupdocs.com/merger/java/",
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
         }
     }
 }

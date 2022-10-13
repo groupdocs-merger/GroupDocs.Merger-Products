@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Merger for Java"
-        image: "/border/groupdocs-merger-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
         product: "GroupDocs.Merger"
         platform: "Java"
 
@@ -56,19 +56,21 @@ submenu:
         link_learn: "https://docs.groupdocs.com/merger/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Aperçu ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Merger pour Java vous permet de développer rapidement des applications métier haut de gamme en Java. Avec peu de codage, vos applications Java peuvent fusionner, extraire, mélanger, couper et supprimer une seule page ou un lot de pages, de diapositives et de diagrammes. Les opérations de fusion peuvent également être effectuées sur des fichiers sécurisés de format connu et inconnu en appliquant ou en supprimant la protection par mot de passe.
+      GroupDocs.Merger pour Java vous permet de développer rapidement des applications métier haut de gamme en Java. Avec peu de codage, vos applications Java peuvent fusionner, extraire, mélanger, couper et supprimer une seule page ou un lot de pages, de diapositives et de diagrammes. Les opérations de fusion peuvent également être effectuées sur des fichiers sécurisés de format connu et inconnu en appliquant ou en supprimant la protection par mot de passe.  
+
+      
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Voici un aperçu de GroupDocs.Merger pour Java :
-
+      
         left:
           enable: true
           icon: "fab fa-html5"
@@ -95,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger pour .NET prend en charge la fusion des [formats de fichier de document] suivants (https://docs.groupdocs.com/merger/net/supported-document-formats/) :
+          GroupDocs.Merger pour Java prend en charge la fusion des [formats de fichier de document] suivants (https://docs.groupdocs.com/merger/java/supported-document-formats/):
 
         left:
           enable: true
@@ -120,7 +122,7 @@ overview:
                 * **Web** : HTML, MHT, MHTML
                 * **Texte** : TXT, CSV, TSV
                 * **LaTex** : TEX
-                * **Ebook** : EPUB
+                * **Ebook** : EPUB
 
       ## TAB THREE ##
       tab_three:
@@ -134,8 +136,8 @@ overview:
             - icon: "fab fa-windows"
               title: "Systèmes d'exploitation"
               content: |
-                * Bureau Microsoft Windows
-                * Serveur Microsoft Windows
+                * Bureau Windows
+                * Serveur Windows
                 * Linux
                 * Mac OS
 
@@ -143,25 +145,31 @@ overview:
             - icon: "fas fa-code"
               title: "Cadres pris en charge"
               content: |
-                * Java 7 (1.7) et supérieur
+                * Java 7 (1.7)
+                * Java 8 (1.8)
+                * Java 10
+                * Java 11 and above
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "fas fa-cogs"
-              title: "Environnements de développement"
-              content: |
-                * NetBeans
-                * IDÉE IntelliJ
-                * Éclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Outil d'automatisation de construction"
+            - icon: "fas fa-box"
+              title: "Outil d'automatisation de constructioe"
               content: |
                 * Maven
 
-############################# Caractéristiques ############################
+            # table loop
+            - icon: "fas fa-tools"
+              title: "Environnements de développement"
+              content: |
+                * NetBeans
+                * IntelliJ IDEA
+                * Eclipse
+                
+                
+
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Merger pour les fonctionnalités Java"
@@ -170,7 +178,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: "Fusionnez diverses pages, diapositives et diagrammes dans un seul fichier"
-
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "Extrayez et divisez des documents volumineux en plusieurs fichiers plus petits"
@@ -227,31 +235,31 @@ features:
       - icon: "fas fa-print"
         content: "Ajouter un document au diagramme via des objets OLE"
 
-    more_feature :
+      # feature loop
+      - icon: "fas fa-file-archive"
+        content: "Fusionnez différents types de documents (DOC, XLS, PPT, etc.) en un seul fichier PDF"
+
+      # feature loop
+      - icon: "fas fa-lock"
+        content: "Importez facilement des objets OLE dans les types de fichiers Microsoft Word, Excel, Presentation et OpenDocument"
+
+      # feature loop
+      - icon: "fas fa-file-code"
+        content: "Ajouter d'autres documents à la page de diagramme via des objets OLE"
+
+    more_feature:
       # more_feature_loop
       - title: "Supprimer les pages souhaitées des documents"
         content: |
           L'API GroupDocs.Merger pour Java vous permet de sélectionner et de supprimer les pages indésirables de votre document.
-
+      
       # more_feature_loop
       - title: "Vérifier le mot de passe du format de document inconnu"
         content: "Même si le format d'un document particulier est inconnu, GroupDocs.Merger pour Java vous permet de vérifier et de récupérer le mot de passe du document, s'il est disponible."
 
       # more_feature_loop
       - title: "Joindre des documents protégés par mot de passe de formats connus"
-        content: |
-          GroupDocs.Merger pour Java API vous permet d'obtenir une liste de documents de formats connus et inconnus. L'exemple suivant montre comment vous pouvez le faire pour les formats de fichiers connus, en utilisant Java :
-
-          ```java
-          String password = "SomePasswordString";
-          InputStream documentExample1 = new FileInputStream("sourceFile.docx");
-          InputStream documentExample2 = new FileInputStream("sourceFile2.docx");
-          List documentStreams = new ArrayList();
-          JoinItem item1 = new JoinItem(documentExample1, FileFormat.Pdf, password);
-          documentStreams.add(item1);
-          JoinItem item2 = new JoinItem(documentExample2, FileFormat.Pdf, password);
-          documentStreams.add(item2);
-          ```
+        content: "GroupDocs.Merger pour Java API vous permet d'obtenir une liste de documents de formats connus et inconnus."
 
 ############################# Support ############################
 support:
@@ -264,11 +272,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Merger for .NET"
-          image: "/border/groupdocs-merger-net.svg"
+        - img_alt: "GroupDocs.Merger for Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
           product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
+          platform: "Java"
+          link: "/merger/java/"
 
 ############################# Back to top ###############################
 back_to_top:

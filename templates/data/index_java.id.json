@@ -1,0 +1,206 @@
+{
+  "head": {
+    "title": "API Penggabungan Dokumen Java | gabungkan & hapus Word Excel PDF XPS EPUB",
+    "description": "Penggabungan dokumen API untuk Java. Menggabungkan, membagi, menukar, menyusun ulang, dan menghapus halaman format PDF, Microsoft Word, Excel, presentasi, Visio, XPS & EPUB."
+  },
+  "header": {
+    "title": "Java API untuk Menggabungkan & Membagi Dokumen",
+    "description": "Kembangkan aplikasi berkinerja tinggi yang dapat menggabungkan, merobek, mengacak, memotong atau menghapus halaman, slide, dan diagram saat bepergian."
+  },
+  "submenu":{
+    "middle": {
+      "overview": "Ringkasan",                       
+      "features": "Fitur",              
+      "support": "Mendukung",             
+      "livedemo": "Demo Langsung",              
+      "pricing": "Harga"              
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger untuk Java membuat Anda dapat dengan cepat mengembangkan aplikasi bisnis top-line di Java. Dengan sedikit pengkodean, aplikasi Java Anda dapat menggabungkan, merobek, mengacak, memotong, dan menghapus satu halaman atau kumpulan halaman, slide, dan diagram. Penggabungan operasi juga dapat dilakukan pada file aman dari format yang dikenal dan tidak dikenal dengan menerapkan atau menghapus proteksi password.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Berikut ini adalah ikhtisar GroupDocs.Merger untuk Java:",
+      "left": {
+        "title": "Operasi Dokumen",
+        "content": {
+          "line_1": "Ubah Urutan Halaman",
+          "line_2": "Hapus atau Hapus Halaman",
+          "line_3": "Pisahkan atau Pecahkan dokumen",
+          "line_4": "Tukar atau acak dua halaman mana pun",
+          "line_5": "Pangkas satu atau beberapa halaman",
+          "line_6": "Bergabunglah dengan banyak dokumen"
+        }
+      },
+      "right": {
+        "title": "Operasi Keamanan",
+        "content": {
+          "line_1": "Siapkan keamanan dokumen",
+          "line_2": "Periksa status keamanan dokumen",
+          "line_3": "Atur kata sandi dokumen",
+          "line_4": "Perbarui kata sandi dokumen",
+          "line_5": "Hapus kata sandi dokumen"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger untuk Java mendukung penggabungan [format file dokumen](https://docs.groupdocs.com/merger/java/supported-document-formats/ berikut):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument & Format Lainnya",
+        "content": {
+          "line_1": "**Format OpenDocument**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Tata Letak Tetap**: PDF, XPSS",
+          "line_3": "**Gambar**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Teks**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**Ebook**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger untuk Java mendukung Sistem Operasi, Kerangka & Manajer Paket berikut:",
+      "left": {
+        "title": "Sistem operasi",
+        "content": {
+          "line_1": "Desktop Windows",
+          "line_2": "Windows Server",
+          "line_3": "Linux",
+          "line_4": "MacOS"
+        },
+        "title_2": "Kerangka yang Didukung",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 and above"
+        }
+      },
+      "right": {
+        "title": "Bangun Alat Otomatisasi",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Lingkungan Pengembangan",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEA",
+          "line_3": "* Eclipse",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger untuk Java Fitur",
+    "feature_1": {
+        "icon": "fas fa-copy",
+        "content": "Gabungkan berbagai halaman, slide & diagram menjadi satu file"
+    },
+    "feature_2": {
+        "icon": "fas fa-eye",
+        "content": "Rip & pisahkan dokumen besar menjadi beberapa file yang lebih kecil"
+    },
+    "feature_3": {
+      "icon": "fas fa-bolt",
+      "content": "Acak & atur ulang halaman, slide, atau diagram"
+    },
+    "feature_4": {
+      "icon": "fas fa-file-powerpoint",
+      "content": "Tukar & tukar dua halaman, slide, atau diagram di antara satu sama lain dalam dokumen"
+    },
+    "feature_5": {
+      "icon": "fas fa-code",
+      "content": "Potong & potong dokumen dengan menghapus halaman, slide, atau diagram tertentu"
+    },
+    "feature_6": {
+      "icon": "fas fa-cloud",
+      "content": "Hapus satu atau kumpulan halaman, slide, atau diagram"
+    },
+    "feature_7": {
+      "icon": "fas fa-remove-format",
+      "content": "Jahit & gabungkan sejumlah besar dokumen dalam kumpulan"
+    },
+    "feature_8": {
+      "icon": "fas fa-comment-slash",
+      "content": "Secara terprogram memeriksa di Java apakah dokumen diamankan dengan kata sandi"
+    },
+    "feature_9": {
+      "icon": "fas fa-location-arrow",
+      "content": "Setel, setel ulang, dan hapus kata sandi format dokumen yang dikenal dan tidak dikenal"
+    },
+    "feature_10": {
+      "icon": "fas fa-border-all",
+      "content": "Pisahkan Satu File Teks menjadi Beberapa dengan Nomor Baris"
+    },
+    "feature_11": {
+      "icon": "fas fa-wrench",
+      "content": "Dapatkan Representasi Gambar Halaman Dokumen"
+    },
+    "feature_12": {
+      "icon": "fas fa-columns",
+      "content": "Gabungkan Banyak Dokumen dengan Format Berbeda ke Satu File PDF"
+    },
+    "feature_13": {
+      "icon": "fas fa-file-word",
+      "content": "Masukkan Objek OLE ke dalam PDF, Word, Excel, PowerPoint & Buka Format Dokumen"
+    },
+    "feature_14": {
+      "icon": "fas fa-envelope",
+      "content": "Lampirkan File secara Terprogram ke Dokumen PDF"
+    },
+    "feature_15": {
+      "icon": "fas fa-print",
+      "content": "Tambahkan Dokumen ke Diagram melalui Objek OLE"
+    },
+    "feature_16": {
+      "icon": "fas fa-file-archive",
+      "content": "Gabungkan Berbagai Jenis Dokumen (DOC, XLS, PPT, dll) ke dalam Satu File PDF"
+    },
+    "feature_17": {
+      "icon": "fas fa-lock",
+      "content": "Mudah Mengimpor Objek OLE ke Microsoft Word, Excel, Presentasi, dan Jenis File OpenDocument"
+    },
+    "feature_18": {
+      "icon": "fas fa-file-code",
+      "content": "Tambahkan Dokumen Lain ke Halaman Diagram melalui Objek OLE"
+    }
+  },
+  "more_feature":{
+    "feature_1":{
+      "title": "Hapus Halaman yang Diinginkan dari Dokumen",
+      "content": "GroupDocs.Merger for Java API memungkinkan Anda memilih dan menghapus halaman yang tidak diinginkan dari dokumen Anda."
+    },
+    "feature_2":{
+      "title": "Periksa Kata Sandi Format Dokumen Tidak Dikenal",
+      "content": "Bahkan jika format dokumen tertentu tidak diketahui, GroupDocs.Merger untuk Java memungkinkan Anda untuk memeriksa & mengambil kata sandi dokumen, jika tersedia."
+    },
+    "feature_3":{
+      "title": "Bergabunglah dengan Dokumen yang Dilindungi Kata Sandi dari Format yang Dikenal",
+      "content": "GroupDocs.Merger untuk Java API memungkinkan Anda mendapatkan daftar dokumen dengan format yang dikenal dan tidak dikenal."
+    }
+  },
+  "solutions":  { 
+    "title": "GroupDocs.Merger menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

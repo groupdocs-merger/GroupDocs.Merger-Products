@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Merger for .NET"
-        image: "/border/groupdocs-merger-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
         product: "GroupDocs.Merger"
         platform: ".NET"
 
@@ -56,11 +56,11 @@ submenu:
         link_learn: "https://docs.groupdocs.com/merger/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Überblick ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Merger für .NET unterstützt Sie bei der schnellen Entwicklung erstklassiger Geschäftsanwendungen in C#, ASP.NET und anderen .NET-Technologien. Mit nur wenigen Codezeilen können Ihre .NET-Anwendungen einzelne Seiten oder eine Sammlung von Dokumentseiten, Folien, Bildern oder Diagrammen kombinieren, teilen, neu anordnen, austauschen, kürzen und entfernen. Führen Sie diese Vorgänge an sicheren Dateien durch, indem Sie den Kennwortschutz für bekannte und unbekannte Dateiformate festlegen oder entfernen.
+      GroupDocs.Merger für .NET unterstützt Sie bei der schnellen Entwicklung erstklassiger Geschäftsanwendungen in C#, ASP.NET und anderen .NET-Technologien. Mit nur wenigen Codezeilen können Ihre .NET-Anwendungen einzelne Seiten oder eine Sammlung von Dokumentseiten, Folien, Bildern oder Diagrammen kombinieren, teilen, neu anordnen, austauschen, kürzen und entfernen. Führen Sie diese Vorgänge an sicheren Dateien durch, indem Sie den Kennwortschutz für bekannte und unbekannte Dateiformate festlegen oder entfernen.  
 
       Durch die Verwendung von GroupDocs.Merger für .NET können Sie Zusammenführungen durchführen; Splitten und andere verwandte Operationen an einzelnen Dokumenten sowie an einem Stapel von Dokumenten. Programmgesteuertes Zusammenfügen von Dateien in allen gängigen Formaten wie Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook und Bilddateiformaten.
     tabs:
@@ -79,7 +79,7 @@ overview:
             * Seitenreihenfolge ändern
             * Seiten entfernen oder löschen
             * Dokument aufteilen oder unterbrechen
-            * Tauschen oder mischen Sie zwei beliebige Seiten
+            * Tauschen oder mischen Sie zwei beliebige Seite
             * Trimmen Sie einzelne oder mehrere Seiten
             * Verbinden Sie mehrere Dokumente
         
@@ -90,7 +90,7 @@ overview:
           content: |
             * Dokumentsicherheit einrichten
             * Überprüfen Sie den Sicherheitsstatus des Dokuments
-            * Dokumentenkennwort festlegen
+            * Dokumentenkennwort festlege
             * Dokumentkennwort aktualisieren
             * Dokumentkennwort entfernen
       
@@ -147,7 +147,7 @@ overview:
               content: |
                 * .NET Framework 2.0 oder höher
                 * Mono Framework 1.2 oder höher
-                * .NET-Standard 2.0
+                * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
@@ -169,7 +169,7 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
-############################# Merkmale ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Merger für .NET-Funktionen"
@@ -178,7 +178,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: "Kombinieren und führen Sie mehrere Seiten, Folien und Diagramme in einem einzigen Dokument zusammen"
-
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "Große Dokumente aufteilen und in mehrere kleinere Dateien aufteilen"
@@ -273,7 +273,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Merger for Java"
-          image: "/border/groupdocs-merger-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
           product: "GroupDocs.Merger"
           platform: "Java"
           link: "/merger/java/"

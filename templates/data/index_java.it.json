@@ -1,0 +1,206 @@
+{
+  "head": {
+    "title": "API di unione di documenti Java | unisci e rimuovi Word Excel PDF XPS EPUB",
+    "description": "API di fusione dei documenti per Java. Unisci, dividi, scambia, riordina ed elimina pagine di formati PDF, Microsoft Word, Excel, presentazioni, Visio, XPS ed EPUB."
+  },
+  "header": {
+    "title": "API Java per combinare e dividere documenti",
+    "description": "Sviluppa app ad alte prestazioni in grado di combinare, estrarre, mescolare, tagliare o eliminare pagine, diapositive e diagrammi in movimento."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Panoramica",
+      "features": "Caratteristiche",
+      "support": "Supporto",
+      "livedemo": "Dimostrazione dal vivo",
+      "pricing": "Prezzo"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger per Java ti consente di sviluppare rapidamente applicazioni aziendali di prima qualità in Java. Con poca codifica, le tue applicazioni Java possono unire, estrarre, mescolare, tagliare ed eliminare singole pagine o gruppi di pagine, diapositive e diagrammi. Le operazioni di unione possono essere eseguite anche su file protetti di formato noto e sconosciuto applicando o rimuovendo la protezione tramite password.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Di seguito è riportata una panoramica di GroupDocs.Merger per Java:",
+      "left": {
+        "title": "Operazioni sui documenti",
+        "content": {
+          "line_1": "Modifica l'ordine delle pagine",
+          "line_2": "Rimuovere o eliminare le pagine",
+          "line_3": "Dividi o interrompi il documento",
+          "line_4": "Scambia o mescola due pagine qualsiasi",
+          "line_5": "Taglia pagine singole o multiple",
+          "line_6": "Unisci più documenti"
+        }
+      },
+      "right": {
+        "title": "Operazioni di sicurezza",
+        "content": {
+          "line_1": "Imposta la sicurezza dei documenti",
+          "line_2": "Verifica lo stato di sicurezza del documento",
+          "line_3": "Imposta la password del documento",
+          "line_4": "Aggiorna la password del documento",
+          "line_5": "Rimuovere la password del documento"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger per Java supporta l'unione dei seguenti [formati di file di documenti](https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** UNO"
+        }
+      },
+      "right": {
+        "title": "OpenDocument e altri formati",
+        "content": {
+          "line_1": "**Formati OpenDocument**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Layout fisso**: PDF, XPS",
+          "line_3": "**Immagini**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Testo**: TXT, CSV, TSV",
+          "line_6": "**Latex**: TEX",
+          "line_7": "**Ebook**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger per Java supporta i seguenti sistemi operativi, framework e gestori di pacchetti:",
+      "left": {
+        "title": "Sistemi operativi",
+        "content": {
+          "line_1": "Desktop di Microsoft Windows",
+          "line_2": "Server Microsoft Windows",
+          "line_3": "Linux",
+          "line_4": "MacOS"
+        },
+        "title_2": "Framework supportati",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 e versioni successive"
+        }
+      },
+      "right": {
+        "title": "Strumento di automazione della costruzione",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Ambienti di sviluppo",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEA",
+          "line_3": "* Eclipse",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger per le funzionalità Java",
+    "feature_1": {
+      "icon": "fas fa-copia",
+      "content": "Unisci varie pagine, diapositive e diagrammi in un unico file"
+    },
+    "feature_2": {
+      "icon": "fas fa-eye",
+      "content": "Copia e dividi documenti enormi in più file più piccoli"
+    },
+    "feature_3": {
+      "icon": "fai un fa-bolt",
+      "content": "Mescola e riorganizza pagine, diapositive o diagrammi"
+    },
+    "feature_4": {
+      "icon": "fas fa-file-powerpoint",
+      "content": "Scambia e scambia due pagine, diapositive o diagrammi tra loro all'interno di un documento"
+    },
+    "feature_5": {
+      "icon": "codice fas",
+      "content": "Taglia e ritaglia il documento rimuovendo pagine, diapositive o diagrammi specifici"
+    },
+    "feature_6": {
+      "icon": "fas fa-nuvola",
+      "content": "Elimina singole o raccolte di pagine, diapositive o diagrammi"
+    },
+    "feature_7": {
+      "icon": "fas fa-remove-format",
+      "content": "Unisci e unisci un gran numero di documenti in batch"
+    },
+    "feature_8": {
+      "icon": "fas fa-commento-barra",
+      "content": "Verifica a livello di codice in Java se un documento è protetto con una password"
+    },
+    "feature_9": {
+      "icon": "fas fa-posizione-freccia",
+      "content": "Imposta, reimposta e rimuovi password di formati di documenti noti e sconosciuti"
+    },
+    "feature_10": {
+      "icon": "fas fa-border-all",
+      "content": "Dividi un file di testo in più per numeri di riga"
+    },
+    "feature_11": {
+      "icon": "fas fa-chiave",
+      "content": "Ottieni la rappresentazione dell'immagine delle pagine del documento"
+    },
+    "feature_12": {
+      "icon": "fas fa-colonne",
+      "content": "Unisci più documenti di diversi formati in un unico file PDF"
+    },
+    "feature_13": {
+      "icon": "fas fa-file-word",
+      "content": "Inserisci oggetti OLE in PDF, Word, Excel, PowerPoint e formati di documenti aperti"
+    },
+    "feature_14": {
+      "icon": "fas fa-busta",
+      "content": "Allega file a un documento PDF in modo programmatico"
+    },
+    "feature_15": {
+      "icon": "fas fa-stampa",
+      "content": "Aggiungi documento al diagramma tramite oggetti OLE"
+    },
+    "feature_16": {
+      "icon": "fas fa-archivio-file",
+      "content": "Unisci diversi tipi di documenti (DOC, XLS, PPT ecc.) in un unico file PDF"
+    },
+    "feature_17": {
+      "icon": "tu fai il blocco",
+      "content": "Importa facilmente oggetti OLE in tipi di file Microsoft Word, Excel, Presentazione e OpenDocument"
+    },
+    "feature_18": {
+      "icon": "fas fa-file-codice",
+      "content": "Aggiungi altri documenti alla pagina del diagramma tramite oggetti OLE"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Rimuovi le pagine desiderate dai documenti",
+      "content": "GroupDocs.Merger per l'API Java ti consente di selezionare ed eliminare le pagine indesiderate dal tuo documento."
+    },
+    "feature_2": {
+      "title": "Controlla la password del formato del documento sconosciuto",
+      "content": "Anche se il formato di un particolare documento è sconosciuto, GroupDocs.Merger per Java consente di controllare e recuperare la password del documento, se disponibile."
+    },
+    "feature_3": {
+      "title": "Unisciti a documenti protetti da password di formati noti",
+      "content": "GroupDocs.Merger per l'API Java ti consente di ottenere un elenco di documenti di formati noti e sconosciuti."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger offre API di unione di documenti per altri ambienti di sviluppo popolari",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}

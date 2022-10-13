@@ -1,0 +1,206 @@
+{
+  "head": {
+    "title": "API de fusion de documents Java | fusionner et supprimer Word Excel PDF XPS EPUB",
+    "description": "API de fusion de documents pour Java. Fusionner, diviser, échanger, réorganiser et supprimer des pages de formats PDF, Microsoft Word, Excel, présentations, Visio, XPS et EPUB."
+  },
+  "header": {
+    "title": "API Java pour combiner et diviser des documents",
+    "description": "Développez des applications hautes performances capables de combiner, extraire, mélanger, couper ou supprimer des pages, des diapositives et des diagrammes lors de vos déplacements."
+  },
+  "submenu":{
+    "middle": {
+      "overview": "Aperçu",                    
+      "features": "Caractéristiques",       
+      "support": "Support",
+      "livedemo": "Live Demo",
+      "pricing": "Pricing"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger pour Java vous permet de développer rapidement des applications métier haut de gamme en Java. Avec peu de codage, vos applications Java peuvent fusionner, extraire, mélanger, couper et supprimer une seule page ou un lot de pages, de diapositives et de diagrammes. Les opérations de fusion peuvent également être effectuées sur des fichiers sécurisés de format connu et inconnu en appliquant ou en supprimant la protection par mot de passe.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Voici un aperçu de GroupDocs.Merger pour Java :",
+      "left": {
+        "title": "Opérations sur les documents",
+        "content": {
+          "line_1": "Modifier l'ordre des pages",
+          "line_2": "Supprimer ou supprimer des pages",
+          "line_3": "Diviser ou rompre le document",
+          "line_4": "Échangez ou mélangez deux pages",
+          "line_5": "Rogner une ou plusieurs pages",
+          "line_6": "Joindre plusieurs documents"
+        }
+      },
+      "right": {
+        "title": "Opérations de sécurité",
+        "content": {
+          "line_1": "Configurer la sécurité des documents",
+          "line_2": "Vérifier l'état de sécurité des documents",
+          "line_3": "Définir le mot de passe du document",
+          "line_4": "Mettre à jour le mot de passe du document",
+          "line_5": "Supprimer le mot de passe du document"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger pour Java prend en charge la fusion des [formats de fichier de document] suivants (https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument & Autres formats",
+        "content": {
+          "line_1": "**Formats OpenDocument** : ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Mise en page fixe** : PDF, XPS",
+          "line_3": "**Images** : BMP, PNG, TIFF",
+          "line_4": "**Web** : HTML, MHT, MHTML",
+          "line_5": "**Texte** : TXT, CSV, TSV",
+          "line_6": "**LaTex** : TEX",
+          "line_7": "**Ebook** : EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for Java prend en charge la suite Systèmes d'exploitation, Frameworks & Directeur chargé d'emballages:",
+      "left": {
+        "title": "Systèmes d'exploitation",
+        "content": {
+          "line_1": "Bureau Windows",
+          "line_2": "Serveur Windows",
+          "line_3": "Linux",
+          "line_4": "Mac OS"
+        },
+        "title_2": "Cadres pris en charge",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 and above"
+        }
+      },
+      "right": {
+        "title": "Outil d'automatisation de constructioe",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Environnements de développement",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEA",
+          "line_3": "* Eclipse",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger pour les fonctionnalités Java",
+    "feature_1": {
+        "icon": "fas fa-copy",
+        "content": "Fusionnez diverses pages, diapositives et diagrammes dans un seul fichier"
+    },
+    "feature_2": {
+        "icon": "fas fa-eye",
+        "content": "Extrayez et divisez des documents volumineux en plusieurs fichiers plus petits"
+    },
+    "feature_3": {
+      "icon": "fas fa-bolt",
+      "content": "Mélangez et réorganisez les pages, les diapositives ou les diagrammes"
+    },
+    "feature_4": {
+      "icon": "fas fa-file-powerpoint",
+      "content": "Échangez et échangez deux pages, diapositives ou diagrammes entre eux dans un document"
+    },
+    "feature_5": {
+      "icon": "fas fa-code",
+      "content": "Couper et rogner le document en supprimant des pages, des diapositives ou des diagrammes spécifiques"
+    },
+    "feature_6": {
+      "icon": "fas fa-cloud",
+      "content": "Supprimer une seule ou une collection de pages, de diapositives ou de diagrammes"
+    },
+    "feature_7": {
+      "icon": "fas fa-remove-format",
+      "content": "Assemblez et fusionnez un grand nombre de documents par lots"
+    },
+    "feature_8": {
+      "icon": "fas fa-comment-slash",
+      "content": "Vérifier par programmation en Java si un document est sécurisé avec un mot de passe"       
+    },
+    "feature_9": {
+      "icon": "fas fa-location-arrow",
+      "content": "Définir, réinitialiser et supprimer le mot de passe des formats de documents connus et inconnus"
+    },
+    "feature_10": {
+      "icon": "fas fa-border-all",
+      "content": "Diviser un fichier texte en plusieurs par numéros de ligne"
+    },
+    "feature_11": {
+      "icon": "fas fa-wrench",      
+      "content": "Obtenir la représentation d'image des pages de document"
+    },
+    "feature_12": {
+      "icon": "fas fa-columns",      
+      "content": "Fusionner plusieurs documents de différents formats en un seul fichier PDF"
+    },
+    "feature_13": {
+      "icon": "fas fa-file-word",      
+      "content": "Insérer des objets OLE dans les formats PDF, Word, Excel, PowerPoint et Open Document"
+    },
+    "feature_14": {
+      "icon": "fas fa-envelope",
+      "content": "Joindre des fichiers par programmation à un document PDF"
+    },
+    "feature_15": {
+      "icon": "fas fa-print",       
+      "content": "Ajouter un document au diagramme via des objets OLE"
+    },
+    "feature_16": {
+      "icon": "fas fa-file-archive",
+      "content": "Fusionnez différents types de documents (DOC, XLS, PPT, etc.) en un seul fichier PDF"
+    },
+    "feature_17": {
+      "icon": "fas fa-lock",
+      "content": "Importez facilement des objets OLE dans les types de fichiers Microsoft Word, Excel, Presentation et OpenDocument"
+    },
+    "feature_18": {
+      "icon": "fas fa-file-code",
+      "content": "Ajouter d'autres documents à la page de diagramme via des objets OLE"
+    }
+  },
+  "more_feature":{
+    "feature_1":{
+      "title": "Supprimer les pages souhaitées des documents",
+      "content": "L'API GroupDocs.Merger pour Java vous permet de sélectionner et de supprimer les pages indésirables de votre document."
+    },
+    "feature_2":{
+      "title": "Vérifier le mot de passe du format de document inconnu",
+      "content": "Même si le format d'un document particulier est inconnu, GroupDocs.Merger pour Java vous permet de vérifier et de récupérer le mot de passe du document, s'il est disponible."
+    },
+    "feature_3":{
+      "title": "Joindre des documents protégés par mot de passe de formats connus",
+      "content": "GroupDocs.Merger pour Java API vous permet d'obtenir une liste de documents de formats connus et inconnus."
+    }
+  },
+  "solutions":  { 
+    "title": "GroupDocs.Merger propose des API de visualisation de documents pour d'autres environnements de développement populaires",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

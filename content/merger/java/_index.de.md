@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Merger for Java"
-        image: "/border/groupdocs-merger-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
         product: "GroupDocs.Merger"
         platform: "Java"
 
@@ -56,19 +56,21 @@ submenu:
         link_learn: "https://docs.groupdocs.com/merger/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Überblick ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      Mit GroupDocs.Merger für Java können Sie schnell erstklassige Geschäftsanwendungen in Java entwickeln. Mit wenig Programmieraufwand können Ihre Java-Anwendungen einzelne Seiten oder Stapel von Seiten, Folien und Diagrammen zusammenführen, rippen, mischen, ausschneiden und löschen. Zusammenführungsvorgänge können auch an sicheren Dateien mit bekanntem und unbekanntem Format durchgeführt werden, indem der Kennwortschutz angewendet oder entfernt wird.
+      Mit GroupDocs.Merger für Java können Sie schnell erstklassige Geschäftsanwendungen in Java entwickeln. Mit wenig Programmieraufwand können Ihre Java-Anwendungen einzelne Seiten oder Stapel von Seiten, Folien und Diagrammen zusammenführen, rippen, mischen, ausschneiden und löschen. Zusammenführungsvorgänge können auch an sicheren Dateien mit bekanntem und unbekanntem Format durchgeführt werden, indem der Kennwortschutz angewendet oder entfernt wird.  
+
+      
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Nachfolgend finden Sie eine Übersicht über GroupDocs.Merger für Java:
-
+      
         left:
           enable: true
           icon: "fab fa-html5"
@@ -143,25 +145,31 @@ overview:
             - icon: "fas fa-code"
               title: "Unterstützte Frameworks"
               content: |
-                * Java 7 (1.7) und höher
+                * Java 7 (1.7)
+                * Java 8 (1.8)
+                * Java 10
+                * Java 11 und höher
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "fas fa-cogs"
+            - icon: "fas fa-box"
+              title: "Build-Automatisierungstoo"
+              content: |
+                * Maven
+
+            # table loop
+            - icon: "fas fa-tools"
               title: "Entwicklungsumgebungen"
               content: |
                 * NetBeans
                 * IntelliJ IDEA
                 * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build-Automatisierungstool"
-              content: |
-                * Maven
+                
+                
 
-############################# Merkmale ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Merger für Java-Funktionen"
@@ -170,7 +178,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: "Führen Sie verschiedene Seiten, Folien und Diagramme in einer einzigen Datei zusammen"
-
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "Große Dokumente rippen und in mehrere kleinere Dateien aufteilen"
@@ -227,31 +235,31 @@ features:
       - icon: "fas fa-print"
         content: "Dokument über OLE-Objekte zum Diagramm hinzufügen"
 
+      # feature loop
+      - icon: "fas fa-file-archive"
+        content: "Führen Sie verschiedene Arten von Dokumenten (DOC, XLS, PPT usw.) in einer einzigen PDF-Datei zusammen"
+
+      # feature loop
+      - icon: "fas fa-lock"
+        content: "Importieren Sie mühelos OLE-Objekte in Microsoft Word-, Excel-, Präsentations- und OpenDocument-Dateitypen"
+
+      # feature loop
+      - icon: "fas fa-file-code"
+        content: "Andere Dokumente über OLE-Objekte zur Diagrammseite hinzufügen"
+
     more_feature:
       # more_feature_loop
       - title: "Gewünschte Seiten aus Dokumenten entfernen"
         content: |
           Mit GroupDocs.Merger for Java API können Sie unerwünschte Seiten aus Ihrem Dokument auswählen und löschen.
-
+      
       # more_feature_loop
       - title: "Überprüfen Sie das Kennwort des unbekannten Dokumentformats"
         content: "Selbst wenn das Format eines bestimmten Dokuments unbekannt ist, ermöglicht Ihnen GroupDocs.Merger für Java, das Dokumentkennwort zu überprüfen und abzurufen, falls verfügbar."
 
       # more_feature_loop
       - title: "Verbinden Sie passwortgeschützte Dokumente bekannter Formate"
-        content: |
-          Mit GroupDocs.Merger for Java API können Sie eine Liste von Dokumenten bekannter und unbekannter Formate abrufen. Das folgende Beispiel zeigt, wie Sie dies für bekannte Dateiformate mit Java tun können:
-
-          ```java
-          String password = "SomePasswordString";
-          InputStream documentExample1 = new FileInputStream("sourceFile.docx");
-          InputStream documentExample2 = new FileInputStream("sourceFile2.docx");
-          List documentStreams = new ArrayList();
-          JoinItem item1 = new JoinItem(documentExample1, FileFormat.Pdf, password);
-          documentStreams.add(item1);
-          JoinItem item2 = new JoinItem(documentExample2, FileFormat.Pdf, password);
-          documentStreams.add(item2);
-          ```
+        content: "Mit GroupDocs.Merger for Java API können Sie eine Liste von Dokumenten bekannter und unbekannter Formate abrufen. Das folgende Beispiel zeigt, wie Sie dies für bekannte Dateiformate mit Java tun können:"
 
 ############################# Support ############################
 support:
@@ -265,7 +273,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Merger for .NET"
-          image: "/border/groupdocs-merger-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
           product: "GroupDocs.Merger"
           platform: ".NET"
           link: "/merger/net/"

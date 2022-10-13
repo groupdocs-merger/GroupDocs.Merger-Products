@@ -1,0 +1,206 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Combine & Split PDF Word Excel EPUB",
+    "description": "C# .NET document merging API to combine, split, swap or remove document pages from PDF, Microsoft Word, Excel, presentations, Visio and image formats."
+  },
+  "header": {
+    "title": ".NET API to Merge & Split Documents",
+    "description": "API to Combine, Split, Swap, Trim or Remove Documents, Slides and Diagrams in .NET Applications."
+  },
+  "submenu":{
+    "middle": {
+      "overview": "Overview",           
+      "features": "Features",
+      "support": "Support",
+      "livedemo": "Live Demo",
+      "pricing": "Pricing"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger for .NET, assists you to rapidly develop top-class business applications in C#, ASP.NET and other .NET technologies. Just a few lines of code will enable your .NET applications to combine, split, rearrange, swap, trim and remove single page or a collection of document pages, slides, images or diagrams. Perform these operations on secure files by setting or removing password protection of known and unknown file formats.",
+      "paragraph_2": "By using GroupDocs.Merger for .NET, you can perform merging; splitting and other related operations on single documents as well as a batch of documents. Programmatically stitch files of all popular formats, such as Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook and image file formats."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Following is an overview of GroupDocs.Merger for .NET:",
+      "left": {
+        "title": "Document Operations",
+        "content": {
+          "line_1": "Change Page Order",
+          "line_2": "Remove or Delete Pages",
+          "line_3": "Split or Break document",
+          "line_4": "Swap or shuffle any two pages",
+          "line_5": "Trim single or multiple pages",
+          "line_6": "Join multiple documents"
+        }
+      },
+      "right": {
+        "title": "Security Operations",
+        "content": {
+          "line_1": "Setup document security",
+          "line_2": "Check document security status",
+          "line_3": "Set document password",
+          "line_4": "Update document password",
+          "line_5": "Remove document password"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger for .NET supports merging the following [document file formats](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument & Other Formats",
+        "content": {
+          "line_1": "**OpenDocument Formats**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Fixed Layout**: PDF, XPS",
+          "line_3": "**Images**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Text**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**Ebook**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for .NET supports following Operating Systems, Frameworks & Package Managers:",
+      "left": {
+        "title": "Operating Systems",
+        "content": {
+          "line_1": "Windows Desktop",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Supported Frameworks",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 or higher",
+          "line_2": "Mono Framework 1.2 or higher",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Package Manager",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Development Environments",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger for .NET Features",
+    "feature_1": {
+        "icon": "fas fa-copy",
+        "content": "Combine & merge multiple pages, slides & diagrams into a single document"
+    },
+    "feature_2": {
+        "icon": "fas fa-eye",
+        "content": "Split and break large documents into multiple smaller files"
+    },
+    "feature_3": {
+      "icon": "fas fa-bolt",
+      "content": "Rearrange, shuffle and reorganize pages, slides or diagrams"
+    },
+    "feature_4": {
+      "icon": "fas fa-file-powerpoint",
+      "content": "Swap and exchange two pages, slides or diagrams with each other within a document"
+    },
+    "feature_5": {
+      "icon": "fas fa-code",
+      "content": "Trim document by removing specific pages, slides or diagrams"
+    },
+    "feature_6": {
+      "icon": "fas fa-cloud",
+      "content": "Remove single or collection of pages, slides or diagrams"
+    },
+    "feature_7": {
+      "icon": "fas fa-remove-format",
+      "content": "Stitch together large number of documents in batches"
+    },
+    "feature_8": {
+      "icon": "fas fa-comment-slash",
+      "content": "Programmatically check if a document is secured with password"
+    },
+    "feature_9": {
+      "icon": "fas fa-location-arrow",
+      "content": "Set, reset and remove password of known and unknown document formats"
+    },
+    "feature_10": {
+      "icon": "fas fa-border-all",
+      "content": "Fetch list of supported file formats – Split and Join Text (ERR) Log File Format"
+    },
+    "feature_11": {
+      "icon": "fas fa-wrench",
+      "content": "Rotate pages and change page orientation of known & unknown formats"
+    },
+    "feature_12": {
+      "icon": "fas fa-columns",
+      "content": "Combine multiple files of different formats to DOC, DOCX & XPS"
+    },
+    "feature_13": {
+      "icon": "fas fa-file-word",
+      "content": "Splitting large text files by line numbers"
+    },
+    "feature_14": {
+      "icon": "fas fa-envelope",
+      "content": "Obtain image representations of document pages and diagram family formats"
+    },
+    "feature_15": {
+      "icon": "fas fa-print",
+      "content": "Join Images with Background Color for Empty Black Image Space"
+    },
+    "feature_16": {
+      "icon": "fas fa-file-archive",
+      "content": "Merge Different Types of Documents (DOC, XLS, PPT etc) into A Single PDF File"
+    },
+    "feature_17": {
+      "icon": "fas fa-lock",
+      "content": "Easily Import OLE Objects into Microsoft Word, Excel, Presentation and OpenDocument File Types"
+    },
+    "feature_18": {
+      "icon": "fas fa-file-code",
+      "content": "Add Other Documents to Diagram Page via OLE Objects"
+    }
+  },
+  "more_feature":{
+    "feature_1":{
+      "title": "Remove Desired Pages from Documents",
+      "content": "GroupDocs.Merger for .NET API helps you delete unwanted pages from your document."
+    },
+    "feature_2":{
+      "title": "Apply Transformation to Rendered Output",
+      "content": "You can perform various transformations to the rendered output document using GroupDocs.Merger for .NET API. These transformation options give you control on the way you present the rendered output for display. The available transformations are, page rotation option, page reorder option and applying text watermark."
+    },
+    "feature_3":{
+      "title": "Check Password of Unknown Document Format",
+      "content": "GroupDocs.Merger for .NET API enables you to check password of a document whose format is not known."
+    }
+  },
+  "solutions":  { 
+    "title": "GroupDocs.Merger offers document merging APIs for other popular development environments",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

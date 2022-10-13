@@ -1,0 +1,5 @@
+inherits: products.yml
+
+dictionaries: [ "..\\data\\index_{product}.{lang}.json" ]
+
+outputPath: "{product}\\_index.{lang}.md"

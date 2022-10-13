@@ -1,0 +1,206 @@
+{
+  "head": {
+    "title": "C＃.NETドキュメントマージAPI | PDF WordExcelEPUBの結合と分割",
+    "description": "PDF、Microsoft Word、Excel、プレゼンテーション、Visio、および画像形式からドキュメントページを結合、分割、交換、または削除するためのC＃.NETドキュメントマージAPI."
+  },
+  "header": {
+    "title": ".ドキュメントをマージおよび分割するためのNETAPI",
+    "description": ".NETアプリケーションでドキュメント、スライド、図を結合、分割、交換、トリミング、または削除するためのAPI."
+  },
+  "submenu":{
+    "middle": {
+      "overview": "概要",                      
+      "features": "特徴",              
+      "support": "サポート",              
+      "livedemo": "ライブデモ",             
+      "pricing": "価格設定"           
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger for .NETは、C＃、ASP.NET、およびその他の.NETテクノロジでトップクラスのビジネスアプリケーションを迅速に開発するのに役立ちます。ほんの数行のコードで、.NETアプリケーションを結合、分割、再配置、交換、トリミング、および単一ページまたはドキュメントページ、スライド、画像、図のコレクションのコレクションを削除できます。既知および未知のファイル形式のパスワード保護を設定または削除して、安全なファイルに対してこれらの操作を実行します。",
+      "paragraph_2": "GroupDocs.Merger for .NETを使用すると、マージを実行できます。単一のドキュメントおよびドキュメントのバッチに対する分割およびその他の関連操作。 Microsoft Word、Excel、PowerPoint、Visio、OpenDocument、PDF、XPS、TXT、CSV、eBook、画像ファイル形式など、一般的なすべての形式のファイルをプログラムでステッチします。"
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "以下は、GroupDocs.Mergerfor.NETの概要です。",
+      "left": {
+        "title": "ドキュメント操作",
+        "content": {
+          "line_1": "ページの順序を変更する",
+          "line_2": "ページの削除または削除",
+          "line_3": "ドキュメントの分割または分割",
+          "line_4": "任意の2ページを入れ替えるかシャッフルします",
+          "line_5": "単一または複数のページをトリミングする",
+          "line_6": "複数のドキュメントに参加する"
+        }
+      },
+      "right": {
+        "title": "セキュリティ運用",
+        "content": {
+          "line_1": "ドキュメントのセキュリティを設定する",
+          "line_2": "ドキュメントのセキュリティステータスを確認する",
+          "line_3": "ドキュメントのパスワードを設定する",
+          "line_4": "ドキュメントのパスワードを更新する",
+          "line_5": "ドキュメントのパスワードを削除する"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger for .NETは、次の[ドキュメントファイル形式]（https://docs.groupdocs.com/merger/net/supported-document-formats/）のマージをサポートしています。",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocumentおよびその他の形式",
+        "content": {
+          "line_1": "** OpenDocument形式**：ODT、OTT、ODP、OTP、ODS",
+          "line_2": "**固定レイアウト**：PDF、XPS",
+          "line_3": "**画像**：BMP、PNG、TIFF",
+          "line_4": "** Web **：HTML、MHT、MHTML",
+          "line_5": "**テキスト**：TXT、CSV、TSV",
+          "line_6": "** LaTex **：TEX",
+          "line_7": "**電子ブック**：EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for .NETは、次のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています。",
+      "left": {
+        "title": "オペレーティングシステム",
+        "content": {
+          "line_1": "Windowsデスクトップ",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "サポートされているフレームワーク",
+        "content_2": {
+          "line_1": ".NET Framework 2.0以降",
+          "line_2": "Mono Framework 1.2以降",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "パッケージマネージャー",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "開発環境",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger for .NETの機能",
+    "feature_1": {
+        "icon": "fas fa-copy",
+        "content": "複数のページ、スライド、図を1つのドキュメントに結合してマージします"
+    },
+    "feature_2": {
+        "icon": "fas fa-eye",
+        "content": "大きなドキュメントを複数の小さなファイルに分割して分割する"
+    },
+    "feature_3": {
+      "icon": "fas fa-bolt",
+      "content": "ページ、スライド、または図を再配置、シャッフル、および再編成します"
+    },
+    "feature_4": {
+      "icon": "fas fa-file-powerpoint",
+      "content": "ドキュメント内で2つのページ、スライド、または図を交換して交換します"
+    },
+    "feature_5": {
+      "icon": "fas fa-code",
+      "content": "特定のページ、スライド、または図を削除してドキュメントをトリミングします"
+    },
+    "feature_6": {
+      "icon": "fas fa-cloud",
+      "content": "ページ、スライド、または図の単一またはコレクションを削除します"
+    },
+    "feature_7": {
+      "icon": "fas fa-remove-format",
+      "content": "多数のドキュメントをまとめてつなぎ合わせる"
+    },
+    "feature_8": {
+      "icon": "fas fa-comment-slash",
+      "content": "ドキュメントがパスワードで保護されているかどうかをプログラムで確認します"
+    },
+    "feature_9": {
+      "icon": "fas fa-location-arrow",
+      "content": "既知および未知のドキュメント形式のパスワードを設定、リセット、および削除します"
+    },
+    "feature_10": {
+      "icon": "fas fa-border-all",
+      "content": "サポートされているファイル形式のリストを取得–テキストの分割と結合（ERR）ログファイル形式"
+    },
+    "feature_11": {
+      "icon": "fas fa-wrench",
+      "content": "ページを回転し、既知および未知の形式のページの向きを変更します"
+    },
+    "feature_12": {
+      "icon": "fas fa-columns",
+      "content": "異なる形式の複数のファイルをDOC、DOCX、XPSに結合します"
+    },
+    "feature_13": {
+      "icon": "fas fa-file-word",
+      "content": "大きなテキストファイルを行番号で分割する"
+    },
+    "feature_14": {
+      "icon": "fas fa-envelope",
+      "content": "ドキュメントページとダイアグラムファミリ形式の画像表現を取得します"
+    },
+    "feature_15": {
+      "icon": "fas fa-print",
+      "content": "空の黒の画像スペースの背景色で画像を結合する"
+    },
+    "feature_16": {
+      "icon": "fas fa-file-archive",
+      "content": "さまざまな種類のドキュメント（DOC、XLS、PPTなど）を1つのPDFファイルにマージします"
+    },
+    "feature_17": {
+      "icon": "fas fa-lock",
+      "content": "OLEオブジェクトをMicrosoftWord、Excel、プレゼンテーション、OpenDocumentファイルタイプに簡単にインポート"
+    },
+    "feature_18": {
+      "icon": "fas fa-file-code",
+      "content": "OLEオブジェクトを介してダイアグラムページに他のドキュメントを追加する"
+    }
+  },
+  "more_feature":{
+    "feature_1":{
+      "title": "ドキュメントから目的のページを削除する",
+      "content": "GroupDocs.Merger for .NET APIは、ドキュメントから不要なページを削除するのに役立ちます。"
+    },
+    "feature_2":{
+      "title": "レンダリングされた出力に変換を適用する",
+      "content": "GroupDocs.Merger for .NET APIを使用して、レンダリングされた出力ドキュメントに対してさまざまな変換を実行できます。これらの変換オプションを使用すると、レンダリングされた出力を表示する方法を制御できます。使用可能な変換は、ページ回転オプション、ページ並べ替えオプション、およびテキスト透かしの適用です。"
+    },
+    "feature_3":{
+      "title": "不明なドキュメント形式のパスワードを確認してください",
+      "content": "GroupDocs.Merger for .NET APIを使用すると、形式が不明なドキュメントのパスワードを確認できます。"
+    }
+  },
+  "solutions":  { 
+    "title": "GroupDocs.Mergerは、他の一般的な開発環境向けのドキュメント表示APIを提供しま",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

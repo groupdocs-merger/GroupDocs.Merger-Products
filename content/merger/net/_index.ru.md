@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Merger for .NET"
-        image: "/border/groupdocs-merger-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
         product: "GroupDocs.Merger"
         platform: ".NET"
 
@@ -41,26 +41,26 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Поддержка"
 
             # button loop
             - link: "https://products.groupdocs.app/merger"
-              text: "Live Demo"
+              text: "Демо"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Pricing"
+              text: "Цены"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Обзор ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Merger для .NET помогает быстро разрабатывать первоклассные бизнес-приложения на C#, ASP.NET и других технологиях .NET. Всего несколько строк кода позволят вашим приложениям .NET объединять, разделять, переупорядочивать, менять местами, обрезать и удалять отдельные страницы или наборы страниц документа, слайдов, изображений или диаграмм. Выполняйте эти операции с защищенными файлами, устанавливая или снимая защиту паролем известных и неизвестных форматов файлов.
+      GroupDocs.Merger для .NET помогает быстро разрабатывать первоклассные бизнес-приложения на C#, ASP.NET и других технологиях .NET. Всего несколько строк кода позволят вашим приложениям .NET объединять, разделять, переупорядочивать, менять местами, обрезать и удалять отдельные страницы или наборы страниц документа, слайдов, изображений или диаграмм. Выполняйте эти операции с защищенными файлами, устанавливая или снимая защиту паролем известных и неизвестных форматов файлов.  
 
       Используя GroupDocs.Merger для .NET, вы можете выполнять слияние; разделение и другие связанные операции с отдельными документами, а также пакет документов. Программно сшивайте файлы всех популярных форматов, таких как Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, электронные книги и форматы файлов изображений.
     tabs:
@@ -121,13 +121,13 @@ overview:
                 * **Изображения**: BMP, PNG, TIFF
                 * **Интернет**: HTML, MHT, MHTML
                 * **Текст**: TXT, CSV, TSV
-                * **Латекс**: ТЕКС
+                * **Латекс**: TEX
                 * **Электронная книга**: EPUB
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Merger for .NET поддерживает следующие Операционные системы & Менеджер пакетовs:
+          GroupDocs.Merger for .NET поддерживает следующие Операционные системы & Менеджер пакетов:
         
         left:
           enable: true
@@ -139,15 +139,15 @@ overview:
                 * Рабочий стол Windows
                 * Windows-сервер
                 * Windows Azure
-                * линукс
+                * Линукс
 
             # table loop
             - icon: "fas fa-code"
               title: "Поддерживаемые платформы"
               content: |
                 * .NET Framework 2.0 или выше
-                * Монофреймворк 1.2 или выше
-                * .NET Стандарт 2.0
+                * Mono Framework 1.2 или выше
+                * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
@@ -167,9 +167,9 @@ overview:
                 * Xamarin.Android
                 * Xamarin.IOS
                 * Xamarin.Mac
-                * МоноДевелопмент
+                * MonoDevelop
 
-############################# Функции ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Merge для функций .NET"
@@ -178,10 +178,10 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: "Объединяйте и объединяйте несколько страниц, слайдов и диаграмм в один документ"
-
+       
       # feature loop
       - icon: "fas fa-eye"
-        content: "Разделяйте и разбивайте большие документы на несколько файлов меньшего размера."
+        content: "Разделяйте и разбивайте большие документы на несколько файлов меньшего размера"
 
       # feature loop
       - icon: "fas fa-bolt"
@@ -189,7 +189,7 @@ features:
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Меняйте местами и обменивайтесь двумя страницами, слайдами или диаграммами друг с другом в документе."
+        content: "Меняйте местами и обменивайтесь двумя страницами, слайдами или диаграммами друг с другом в документе"
 
       # feature loop
       - icon: "fas fa-code"
@@ -247,15 +247,15 @@ features:
       - icon: "fas fa-file-code"
         content: "Добавить другие документы на страницу диаграммы с помощью объектов OLE"
 
-    больше_функций:
+    more_feature:
       # more_feature_loop
-      - title: "Удалить нужные страницы из документов"
+      - title: "Удалить страницы из документов"
         content: |
           GroupDocs.Merge for .NET API поможет вам удалить ненужные страницы из вашего документа.
       
       # more_feature_loop
       - title: "Применить преобразование к визуализируемому выводу"
-        content: "Вы можете выполнять различные преобразования визуализированного выходного документа с помощью GroupDocs.Merger для .NET API. Эти параметры преобразования дают вам контроль над тем, как вы представляете визуализированный вывод для отображения. Доступные преобразования: опция поворота страницы, опция изменения порядка страниц и применение текстового водяного знака.."
+        content: "Вы можете выполнять различные преобразования визуализированного выходного документа с помощью GroupDocs.Merger для .NET API. Эти параметры преобразования дают вам контроль над тем, как вы представляете визуализированный вывод для отображения. Доступные преобразования: опция поворота страницы, опция изменения порядка страниц и применение текстового водяного знака."
 
       # more_feature_loop
       - title: "Проверьте пароль неизвестного формата документа"
@@ -268,12 +268,12 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Merge предлагает API для просмотра документов для других популярных сред разработки."
+    title: "GroupDocs.Merge предлагает API для просмотра документов для других популярных сред разработки"
 
     solution:
         # solution loop
         - img_alt: "GroupDocs.Merger for Java"
-          image: "/border/groupdocs-merger-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
           product: "GroupDocs.Merger"
           platform: "Java"
           link: "/merger/java/"

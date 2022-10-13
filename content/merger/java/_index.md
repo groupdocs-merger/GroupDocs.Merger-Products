@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -60,15 +60,17 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Merger for Java makes you able to quickly develop top-line business applications in Java. With little coding your Java applications can merge, rip, shuffle, cut and delete single page or batch of pages, slides and diagrams. Merging operations can also be performed on secure files of known and unknown format by applying or removing password protection.
+      GroupDocs.Merger for Java makes you able to quickly develop top-line business applications in Java. With little coding your Java applications can merge, rip, shuffle, cut and delete single page or batch of pages, slides and diagrams. Merging operations can also be performed on secure files of known and unknown format by applying or removing password protection.  
+
+      
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Following is an overview of GroupDocs.Merger for Java:
-
+      
         left:
           enable: true
           icon: "fab fa-html5"
@@ -95,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger for .NET supports merging the following [document file formats](https://docs.groupdocs.com/merger/net/supported-document-formats/):
+          GroupDocs.Merger for Java supports merging the following [document file formats](https://docs.groupdocs.com/merger/java/supported-document-formats/):
 
         left:
           enable: true
@@ -143,23 +145,29 @@ overview:
             - icon: "fas fa-code"
               title: "Supported Frameworks"
               content: |
-                * Java 7 (1.7) and above
+                * Java 7 (1.7)
+                * Java 8 (1.8)
+                * Java 10
+                * Java 11 and above
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "fas fa-cogs"
+            - icon: "fas fa-box"
+              title: "Build Automation Tool"
+              content: |
+                * Maven
+
+            # table loop
+            - icon: "fas fa-tools"
               title: "Development Environments"
               content: |
                 * NetBeans
                 * IntelliJ IDEA
                 * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build Automation Tool"
-              content: |
-                * Maven
+                
+                
 
 ############################# Features ############################
 features:
@@ -170,7 +178,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: "Merge various pages, slides & diagrams into a single file"
-
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "Rip & split huge documents into multiple smaller files"
@@ -201,7 +209,7 @@ features:
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "Set, reset and delete password of known & unknown document formats"
+        content: "Set, reset and remove password of known and unknown document formats"
 
       # feature loop
       - icon: "fas fa-border-all"
@@ -227,31 +235,31 @@ features:
       - icon: "fas fa-print"
         content: "Add Document to Diagram via OLE Objects"
 
+      # feature loop
+      - icon: "fas fa-file-archive"
+        content: "Merge Different Types of Documents (DOC, XLS, PPT etc) into A Single PDF File"
+
+      # feature loop
+      - icon: "fas fa-lock"
+        content: "Easily Import OLE Objects into Microsoft Word, Excel, Presentation and OpenDocument File Types"
+
+      # feature loop
+      - icon: "fas fa-file-code"
+        content: "Add Other Documents to Diagram Page via OLE Objects"
+
     more_feature:
       # more_feature_loop
       - title: "Remove Desired Pages from Documents"
         content: |
           GroupDocs.Merger for Java API lets you select and delete unwanted pages from your document.
-
+      
       # more_feature_loop
       - title: "Check Password of Unknown Document Format"
         content: "Even if the format of a particular document is unknown, GroupDocs.Merger for Java enables you to check & retrieve document password, if available."
 
       # more_feature_loop
       - title: "Join Password-Protected Documents of Known Formats"
-        content: |
-          GroupDocs.Merger for Java API allows you to get a list of documents of known and unknown formats. Following example shows, how you can do it for known file formats, using Java:
-
-          ```java
-          String password = "SomePasswordString";
-          InputStream documentExample1 = new FileInputStream("sourceFile.docx");
-          InputStream documentExample2 = new FileInputStream("sourceFile2.docx");
-          List documentStreams = new ArrayList();
-          JoinItem item1 = new JoinItem(documentExample1, FileFormat.Pdf, password);
-          documentStreams.add(item1);
-          JoinItem item2 = new JoinItem(documentExample2, FileFormat.Pdf, password);
-          documentStreams.add(item2);
-          ```
+        content: "GroupDocs.Merger for Java API allows you to get a list of documents of known and unknown formats."
 
 ############################# Support ############################
 support:
@@ -260,7 +268,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Merger offers document viewing APIs for other popular development environments"
+    title: "GroupDocs.Merger offers document merging APIs for other popular development environments"
 
     solution:
         # solution loop

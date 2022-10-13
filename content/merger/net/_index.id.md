@@ -1,6 +1,7 @@
 ---
+############################# Static ############################
 layout: "product"
-date: 2022-07-07T12:44:18+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -8,14 +9,17 @@ product_tag: "merger"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Head ############################
 head_title: "C# .NET Document Merger API | Gabungkan & Pisahkan PDF Word Excel EPUB"
 head_description: "C# .NET document merging API untuk menggabungkan, membagi, menukar, atau menghapus halaman dokumen dari PDF, Microsoft Word, Excel, presentasi, Visio, dan format gambar."
 
+############################# Header ############################
 title: ".NET API untuk Menggabungkan & Memisahkan Dokumen"
 description: "API untuk Menggabungkan, Memisahkan, Menukar, Memangkas, atau Menghapus Dokumen, Slide, dan Diagram di Aplikasi .NET."
 button:
     enable: true
 
+############################# SubMenu ############################
 submenu:
     enable: true
     
@@ -27,18 +31,23 @@ submenu:
 
     middle:
         button:
+            # button loop
             - link: "#overview"
               text: "Ringkasan"
 
+            # button loop
             - link: "#features"
               text: "Fitur"
 
+            # button loop
             - link: "#support"
               text: "Mendukung"
 
+            # button loop
             - link: "https://products.groupdocs.app/merger"
               text: "Demo Langsung"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
               text: "Harga"
 
@@ -47,6 +56,7 @@ submenu:
         link_learn: "https://docs.groupdocs.com/merger/net/"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# Overview ############################
 overview:
     enable: true
     content: |
@@ -56,6 +66,7 @@ overview:
     tabs:
       enable: true
       
+      ## TAB ONE ##
       tab_one:
         description: |
           Berikut ini adalah ikhtisar GroupDocs.Merger untuk .NET:
@@ -83,6 +94,7 @@ overview:
             * Perbarui kata sandi dokumen
             * Hapus kata sandi dokumen
       
+      ## TAB TWO ##
       tab_two:
         description: |
           GroupDocs.Merger untuk .NET mendukung penggabungan [format file dokumen](https://docs.groupdocs.com/merger/net/supported-document-formats/ berikut):
@@ -90,26 +102,29 @@ overview:
         left:
           enable: true
           table:
+            # table loop
             - title: "Microsoft Office"
               content: |
-                * **Kata:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** SATU
+                * **OneNote:** ONE
 
         right:
           enable: true
           table:
+            # table loop
             - title: "OpenDocument & Format Lainnya"
               content: |
                 * **Format OpenDocument**: ODT, OTT, ODP, OTP, ODS
-                * **Tata Letak Tetap**: PDF, XPS
+                * **Tata Letak Tetap**: PDF, XPSS
                 * **Gambar**: BMP, PNG, TIFF
                 * **Web**: HTML, MHT, MHTML
                 * **Teks**: TXT, CSV, TSV
                 * **LaTex**: TEX
                 * **Ebook**: EPUB
 
+      ## TAB THREE ##
       tab_three:
         description: |
           GroupDocs.Merger untuk .NET mendukung Sistem Operasi, Kerangka & Manajer Paket berikut:
@@ -117,6 +132,7 @@ overview:
         left:
           enable: true
           table:
+            # table loop
             - icon: "fab fa-windows"
               title: "Sistem operasi"
               content: |
@@ -125,22 +141,25 @@ overview:
                 * Windows Azure
                 * Linux
 
+            # table loop
             - icon: "fas fa-code"
               title: "Kerangka yang Didukung"
               content: |
                 * .NET Framework 2.0 atau lebih tinggi
-                * Kerangka Mono 1.2 atau lebih tinggi
-                * .NET Standar 2.0
+                * Mono Framework 1.2 atau lebih tinggi
+                * .NET Standard 2.0
                 * .NET Core 2.0
 
         right:
           enable: true
           table:
+            # table loop
             - icon: "fas fa-box"
               title: "Manajer Paket"
               content: |
                 * NuGet
 
+            # table loop
             - icon: "fas fa-tools"
               title: "Lingkungan Pengembangan"
               content: |
@@ -150,90 +169,116 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Merger untuk .NET Fitur"
 
     feature:
+      # feature loop
       - icon: "fas fa-copy"
         content: "Gabungkan & gabungkan beberapa halaman, slide & diagram menjadi satu dokumen"
-
+       
+      # feature loop
       - icon: "fas fa-eye"
         content: "Pisahkan dan pisahkan dokumen besar menjadi beberapa file yang lebih kecil"
 
+      # feature loop
       - icon: "fas fa-bolt"
         content: "Atur ulang, acak, dan atur ulang halaman, slide, atau diagram"
       
+      # feature loop
       - icon: "fas fa-file-powerpoint"
         content: "Tukar dan tukar dua halaman, slide, atau diagram satu sama lain dalam dokumen"
 
+      # feature loop
       - icon: "fas fa-code"
         content: "Pangkas dokumen dengan menghapus halaman, slide, atau diagram tertentu"
 
+      # feature loop
       - icon: "fas fa-cloud"
         content: "Hapus satu atau kumpulan halaman, slide, atau diagram"
 
+      # feature loop
       - icon: "fas fa-remove-format"
         content: "Jahit bersama sejumlah besar dokumen dalam batch"
 
+      # feature loop
       - icon: "fas fa-comment-slash"
         content: "Secara terprogram memeriksa apakah dokumen diamankan dengan kata sandi"
 
+      # feature loop
       - icon: "fas fa-location-arrow"
         content: "Setel, setel ulang, dan hapus kata sandi format dokumen yang dikenal dan tidak dikenal"
 
+      # feature loop
       - icon: "fas fa-border-all"
         content: "Ambil daftar format file yang didukung – Format File Log Split and Join Text (ERR)"
 
+      # feature loop
       - icon: "fas fa-wrench"
         content: "Putar halaman dan ubah orientasi halaman dari format yang dikenal & tidak dikenal"
 
+      # feature loop
       - icon: "fas fa-columns"
         content: "Gabungkan beberapa file dengan format berbeda ke DOC, DOCX & XPS"
 
+      # feature loop
       - icon: "fas fa-file-word"
         content: "Memisahkan file teks besar dengan nomor baris"
 
+      # feature loop
       - icon: "fas fa-envelope"
         content: "Dapatkan representasi gambar dari halaman dokumen dan format keluarga diagram"
 
+      # feature loop
       - icon: "fas fa-print"
         content: "Gabung Gambar dengan Warna Latar Belakang untuk Ruang Gambar Hitam Kosong"
 
+      # feature loop
       - icon: "fas fa-file-archive"
         content: "Gabungkan Berbagai Jenis Dokumen (DOC, XLS, PPT, dll) ke dalam Satu File PDF"
 
+      # feature loop
       - icon: "fas fa-lock"
         content: "Mudah Mengimpor Objek OLE ke Microsoft Word, Excel, Presentasi, dan Jenis File OpenDocument"
 
+      # feature loop
       - icon: "fas fa-file-code"
         content: "Tambahkan Dokumen Lain ke Halaman Diagram melalui Objek OLE"
 
     more_feature:
+      # more_feature_loop
       - title: "Hapus Halaman yang Diinginkan dari Dokumen"
         content: |
           GroupDocs.Merger untuk .NET API membantu Anda menghapus halaman yang tidak diinginkan dari dokumen Anda.
       
+      # more_feature_loop
       - title: "Terapkan Transformasi ke Output yang Dirender"
         content: "Anda dapat melakukan berbagai transformasi ke dokumen keluaran yang dirender menggunakan GroupDocs.Merger untuk .NET API. Opsi transformasi ini memberi Anda kendali atas cara Anda menyajikan output yang dirender untuk ditampilkan. Transformasi yang tersedia adalah, opsi rotasi halaman, opsi pengurutan ulang halaman, dan penerapan watermark teks."
 
+      # more_feature_loop
       - title: "Periksa Kata Sandi Format Dokumen Tidak Dikenal"
         content: "GroupDocs.Merger untuk .NET API memungkinkan Anda untuk memeriksa kata sandi dokumen yang formatnya tidak diketahui."
 
+############################# Support ############################
 support:
     enable: true
 
+############################# Solutions ############################
 solutions:
     enable: true
     title: "GroupDocs.Merger menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
 
     solution:
+        # solution loop
         - img_alt: "GroupDocs.Merger for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
           product: "GroupDocs.Merger"
           platform: "Java"
           link: "/merger/java/"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

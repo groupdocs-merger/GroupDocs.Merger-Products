@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-13T17:30:02
 draft: false
 
 product: "Merger"
@@ -11,11 +11,11 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "API объединения документов Java | объединить и удалить Word Excel PDF XPS EPUB"
-head_description: "Документы, объединяющие API для Java. Объединяйте, разделяйте, меняйте местами, переупорядочивайте и удаляйте страницы форматов PDF, Microsoft Word, Excel, презентаций, Visio, XPS и EPUB.."
+head_description: "Документы, объединяющие API для Java. Объединяйте, разделяйте, меняйте местами, переупорядочивайте и удаляйте страницы форматов PDF, Microsoft Word, Excel, презентаций, Visio, XPS и EPUB."
 
 ############################# Header ############################
 title: "Java API для объединения и разделения документов"
-description: "Разрабатывайте высокопроизводительные приложения, которые могут комбинировать, копировать, перемешивать, вырезать или удалять страницы, слайды и диаграммы на ходу.."
+description: "Разрабатывайте высокопроизводительные приложения, которые могут комбинировать, копировать, перемешивать, вырезать или удалять страницы, слайды и диаграммы на ходу."
 button:
     enable: true
 
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Merger for Java"
-        image: "/border/groupdocs-merger-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
         product: "GroupDocs.Merger"
         platform: "Java"
 
@@ -41,34 +41,36 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Поддержка"
 
             # button loop
             - link: "https://products.groupdocs.app/merger"
-              text: "Live Demo"
+              text: "Демо"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "Pricing"
+              text: "Цены"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
         link_learn: "https://docs.groupdocs.com/merger/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Обзор ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Merge for Java позволяет быстро разрабатывать бизнес-приложения высшего класса на Java. С небольшим кодированием ваши Java-приложения могут объединять, копировать, перемешивать, вырезать и удалять отдельные страницы или группы страниц, слайдов и диаграмм. Операции слияния также можно выполнять с защищенными файлами известного и неизвестного формата, применяя или удаляя защиту паролем.
+      GroupDocs.Merge for Java позволяет быстро разрабатывать бизнес-приложения высшего класса на Java. С небольшим кодированием ваши Java-приложения могут объединять, копировать, перемешивать, вырезать и удалять отдельные страницы или группы страниц, слайдов и диаграмм. Операции слияния также можно выполнять с защищенными файлами известного и неизвестного формата, применяя или удаляя защиту паролем.  
+
+      
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Ниже приводится обзор GroupDocs.Merge для Java:
-
+      
         left:
           enable: true
           icon: "fab fa-html5"
@@ -95,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger для .NET поддерживает объединение следующих [форматов файлов документов](https://docs.groupdocs.com/merger/net/supported-document-formats/):
+          GroupDocs.Merger для Java поддерживает объединение следующих [форматов файлов документов](https://docs.groupdocs.com/merger/java/supported-document-formats/):
 
         left:
           enable: true
@@ -119,13 +121,13 @@ overview:
                 * **Изображения**: BMP, PNG, TIFF
                 * **Интернет**: HTML, MHT, MHTML
                 * **Текст**: TXT, CSV, TSV
-                * **Латекс**: ТЕКС
+                * **Латекс**: TEX
                 * **Электронная книга**: EPUB
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Merger for Java поддерживает следующие Операционные системы & Менеджер пакетовs:
+          GroupDocs.Merger for Java поддерживает следующие Операционные системы & Менеджер пакетов:
         
         left:
           enable: true
@@ -134,34 +136,40 @@ overview:
             - icon: "fab fa-windows"
               title: "Операционные системы"
               content: |
-                * Рабочий стол Microsoft Windows
-                * Сервер Microsoft Windows
-                * линукс
+                * Рабочий стол Windows
+                * Windows-сервер
+                * Линукс
                 * MacOS
 
             # table loop
             - icon: "fas fa-code"
               title: "Поддерживаемые платформы"
               content: |
-                * Java 7 (1.7) и выше
+                * Java 7 (1.7)
+                * Java 8 (1.8)
+                * Java 10
+                * Java 11 и выше
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "fas fa-cogs"
+            - icon: "fas fa-box"
+              title: "Менеджер пакетов"
+              content: |
+                * Maven
+
+            # table loop
+            - icon: "fas fa-tools"
               title: "Среды разработки"
               content: |
                 * NetBeans
-                * IntelliJ ИДЕЯ
-                * Затмение
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Инструмент автоматизации сборки"
-              content: |
-                * Мавен
+                * IntelliJ IDEA
+                * Eclipse
+                
+                
 
-############################# Функции ############################
+############################# Features ############################
 features:
     enable: true
     title: "Функции GroupDocs.Merge для Java"
@@ -169,8 +177,8 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Объединение различных страниц, слайдов и диаграмм в один файл"
-
+        content: "Объединяйте и объединяйте несколько страниц, слайдов и диаграмм в один документ"
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "Копируйте и разделяйте огромные документы на несколько файлов меньшего размера"
@@ -197,61 +205,61 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Программно проверить в Java, защищен ли документ паролем"
+        content: "Программно проверить, защищен ли документ паролем"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "Установка, сброс и удаление паролей известных и неизвестных форматов документов"
+        content: "Установка, сброс и удаление пароля известных и неизвестных форматов документов"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "Разделить один текстовый файл на несколько по номерам строк"
+        content: "Получить список поддерживаемых форматов файлов — Формат файла журнала разделения и объединения текста (ERR)"
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "Получить графическое представление страниц документа"
+        content: "Поворот страниц и изменение ориентации страниц известных и неизвестных форматов"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "Объединение нескольких документов разных форматов в один файл PDF"
+        content: "Объединение нескольких файлов разных форматов в DOC, DOCX и XPS"
 
       # feature loop
       - icon: "fas fa-file-word"
-        content: "Вставка объектов OLE в форматы PDF, Word, Excel, PowerPoint и Open Document."
+        content: "Разделение больших текстовых файлов по номерам строк"
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "Программное присоединение файлов к документу PDF"
+        content: "Получение графических представлений страниц документа и форматов семейства диаграмм"
 
       # feature loop
       - icon: "fas fa-print"
-        content: "Добавить документ в диаграмму через объекты OLE"
+        content: "Объединение изображений с цветом фона для пустого пространства черного изображения"
 
-    больше_функций:
+      # feature loop
+      - icon: "fas fa-file-archive"
+        content: "Объединение различных типов документов (DOC, XLS, PPT и т. д.) в один файл PDF"
+
+      # feature loop
+      - icon: "fas fa-lock"
+        content: "Простой импорт OLE-объектов в форматы файлов Microsoft Word, Excel, Presentation и OpenDocument."
+
+      # feature loop
+      - icon: "fas fa-file-code"
+        content: "Добавить другие документы на страницу диаграммы с помощью объектов OLE"
+
+    more_feature:
       # more_feature_loop
-      - title: "Удалить нужные страницы из документов"
+      - title: "Удалить страницы из документов"
         content: |
           API GroupDocs.Merge for Java позволяет выбирать и удалять ненужные страницы из документа.
-
+      
       # more_feature_loop
       - title: "Проверьте пароль неизвестного формата документа"
-        content: "Даже если формат конкретного документа неизвестен, GroupDocs.Merge for Java позволяет проверить и восстановить пароль документа, если он доступен.."
+        content: "Даже если формат конкретного документа неизвестен, GroupDocs.Merge for Java позволяет проверить и восстановить пароль документа, если он доступен."
 
       # more_feature_loop
       - title: "Присоединяйтесь к защищенным паролем документам известных форматов"
-        content: |
-          GroupDocs.Merge for Java API позволяет получить список документов известных и неизвестных форматов. В следующем примере показано, как вы можете сделать это для известных форматов файлов, используя Java:
-
-          ```java
-          String password = "SomePasswordString";
-          InputStream documentExample1 = new FileInputStream("sourceFile.docx");
-          InputStream documentExample2 = new FileInputStream("sourceFile2.docx");
-          List documentStreams = new ArrayList();
-          JoinItem item1 = new JoinItem(documentExample1, FileFormat.Pdf, password);
-          documentStreams.add(item1);
-          JoinItem item2 = new JoinItem(documentExample2, FileFormat.Pdf, password);
-          documentStreams.add(item2);
-          ```
+        content: "GroupDocs.Merge for Java API позволяет получить список документов известных и неизвестных форматов."
 
 ############################# Support ############################
 support:
@@ -265,7 +273,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Merger for .NET"
-          image: "/border/groupdocs-merger-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
           product: "GroupDocs.Merger"
           platform: ".NET"
           link: "/merger/net/"
