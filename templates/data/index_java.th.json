@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "API การรวมเอกสาร Java | ผสานและลบ Word Excel PDF XPS EPUB",
+    "description": "เอกสารที่รวม API สำหรับ Java ผสาน แยก สลับ เรียงลำดับและลบหน้าของ PDF, Microsoft Word, Excel, งานนำเสนอ, รูปแบบ Visio, XPS และ EPUB"
+  },
+  "header": {
+    "title": "Java API เพื่อรวมและแยกเอกสาร",
+    "description": "พัฒนาแอพประสิทธิภาพสูงที่สามารถรวม ริป สับเปลี่ยน ตัดหรือลบหน้า สไลด์ และไดอะแกรมได้ทุกที่ทุกเวลา"
+  },
+  "submenu": {
+    "middle": {
+      "overview": "ภาพรวม",
+      "features": "คุณสมบัติ",
+      "support": "สนับสนุน",
+      "livedemo": "สาธิตสด",
+      "pricing": "ราคา"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger สำหรับ Java ทำให้คุณสามารถพัฒนาแอปพลิเคชันทางธุรกิจระดับแนวหน้าใน Java ได้อย่างรวดเร็ว ด้วยการเข้ารหัสเพียงเล็กน้อย แอปพลิเคชัน Java ของคุณสามารถผสาน ริป สับเปลี่ยน ตัด และลบหน้าเดียวหรือเป็นกลุ่มของหน้า สไลด์ และไดอะแกรม การดำเนินการผสานสามารถทำได้ในไฟล์ที่ปลอดภัยของรูปแบบที่รู้จักและไม่รู้จักโดยใช้หรือลบการป้องกันด้วยรหัสผ่าน",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "ต่อไปนี้เป็นภาพรวมของ GroupDocs.Merger สำหรับ Java:",
+      "left": {
+        "title": "งานเอกสาร",
+        "content": {
+          "line_1": "เปลี่ยนลำดับหน้า",
+          "line_2": "ลบหรือลบเพจ",
+          "line_3": "แยกหรือทำลายเอกสาร",
+          "line_4": "สลับหรือสับเปลี่ยนสองหน้าใดก็ได้",
+          "line_5": "ตัดหน้าเดียวหรือหลายหน้า",
+          "line_6": "เข้าร่วมหลายเอกสาร"
+        }
+      },
+      "right": {
+        "title": "ปฏิบัติการรักษาความปลอดภัย",
+        "content": {
+          "line_1": "ตั้งค่าความปลอดภัยของเอกสาร",
+          "line_2": "ตรวจสอบสถานะความปลอดภัยของเอกสาร",
+          "line_3": "ตั้งรหัสผ่านเอกสาร",
+          "line_4": "อัปเดตรหัสผ่านเอกสาร",
+          "line_5": "ลบรหัสผ่านเอกสาร"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger สำหรับ Java รองรับการรวม [รูปแบบไฟล์เอกสาร] ต่อไปนี้ (https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**คำ:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument และรูปแบบอื่นๆ",
+        "content": {
+          "line_1": "**รูปแบบ OpenDocument**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**เค้าโครงคงที่**: PDF, XPS",
+          "line_3": "**รูปภาพ**: BMP, PNG, TIFF",
+          "line_4": "**เว็บ**: HTML, MHT, MHTML",
+          "line_5": "**ข้อความ**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**อีบุ๊ก**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger สำหรับ Java รองรับระบบปฏิบัติการ, Frameworks & Package Managers ต่อไปนี้:",
+      "left": {
+        "title": "ระบบปฏิบัติการ",
+        "content": {
+          "line_1": "Microsoft Windows Desktop",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "ลินุกซ์",
+          "line_4": "MacOS"
+        },
+        "title_2": "กรอบงานที่รองรับ",
+        "content_2": {
+          "line_1": "จาวา 7 (1.7)",
+          "line_2": "จาวา 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 ขึ้นไป"
+        }
+      },
+      "right": {
+        "title": "สร้างเครื่องมืออัตโนมัติ",
+        "content": {
+          "line_1": "* มาเวน"
+        },
+        "title_2": "สภาพแวดล้อมการพัฒนา",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* Intellij ไอเดีย",
+          "line_3": "* สุริยุปราคา",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger สำหรับคุณสมบัติ Java",
+    "feature_1": {
+      "content": "รวมหน้า สไลด์ และไดอะแกรมต่างๆ ไว้ในไฟล์เดียว"
+    },
+    "feature_2": {
+      "content": "ริปและแยกเอกสารขนาดใหญ่ออกเป็นไฟล์ขนาดเล็กหลายไฟล์"
+    },
+    "feature_3": {
+      "content": "สับเปลี่ยนและจัดระเบียบหน้า สไลด์ หรือไดอะแกรมใหม่"
+    },
+    "feature_4": {
+      "content": "แลกเปลี่ยนและสลับสองหน้า สไลด์ หรือไดอะแกรมระหว่างกันภายในเอกสาร"
+    },
+    "feature_5": {
+      "content": "ตัดและตัดแต่งเอกสารโดยลบหน้า สไลด์ หรือไดอะแกรมที่ต้องการออก"
+    },
+    "feature_6": {
+      "content": "ลบหน้า สไลด์ หรือไดอะแกรมเดี่ยวหรือคอลเลกชั่น"
+    },
+    "feature_7": {
+      "content": "เย็บและรวมเอกสารจำนวนมากเป็นชุดๆ"
+    },
+    "feature_8": {
+      "content": "ตรวจสอบโดยทางโปรแกรมใน Java ว่าเอกสารได้รับการรักษาความปลอดภัยด้วยรหัสผ่านหรือไม่"
+    },
+    "feature_9": {
+      "content": "ตั้งค่า รีเซ็ต และลบรหัสผ่านของรูปแบบเอกสารที่รู้จักและไม่รู้จัก"
+    },
+    "feature_10": {
+      "content": "แยกไฟล์ข้อความหนึ่งเป็นไฟล์หลายรายการตามหมายเลขบรรทัด"
+    },
+    "feature_11": {
+      "content": "รับภาพแทนหน้าเอกสาร"
+    },
+    "feature_12": {
+      "content": "รวมเอกสารหลายรูปแบบเป็นไฟล์ PDF ไฟล์เดียว"
+    },
+    "feature_13": {
+      "content": "แทรก OLE Objects ลงใน PDF, Word, Excel, PowerPoint และรูปแบบเอกสารที่เปิดอยู่"
+    },
+    "feature_14": {
+      "content": "แนบไฟล์โดยทางโปรแกรมกับเอกสาร PDF"
+    },
+    "feature_15": {
+      "content": "เพิ่มเอกสารลงในไดอะแกรมผ่าน OLE Objects"
+    },
+    "feature_16": {
+      "content": "รวมเอกสารประเภทต่างๆ (DOC, XLS, PPT เป็นต้น) เป็นไฟล์ PDF ไฟล์เดียว"
+    },
+    "feature_17": {
+      "content": "นำเข้า OLE Objects ลงใน Microsoft Word, Excel, Presentation และ OpenDocument File Types ได้อย่างง่ายดาย"
+    },
+    "feature_18": {
+      "content": "เพิ่มเอกสารอื่น ๆ ในหน้าไดอะแกรมผ่าน OLE Objects"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "ลบหน้าที่ต้องการออกจากเอกสาร",
+      "content": "GroupDocs.Merger สำหรับ Java API ให้คุณเลือกและลบหน้าที่ไม่ต้องการออกจากเอกสารของคุณ"
+    },
+    "feature_2": {
+      "title": "ตรวจสอบรหัสผ่านของรูปแบบเอกสารที่ไม่รู้จัก",
+      "content": "แม้ว่าจะไม่ทราบรูปแบบของเอกสารเฉพาะ แต่ GroupDocs.Merger สำหรับ Java ช่วยให้คุณสามารถตรวจสอบและเรียกรหัสผ่านของเอกสารได้ หากมี"
+    },
+    "feature_3": {
+      "title": "เข้าร่วมเอกสารที่มีการป้องกันด้วยรหัสผ่านของรูปแบบที่รู้จัก",
+      "content": "GroupDocs.Merger สำหรับ Java API ช่วยให้คุณรับรายการเอกสารรูปแบบที่รู้จักและไม่รู้จัก"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger นำเสนอ API การรวมเอกสารสำหรับสภาพแวดล้อมการพัฒนายอดนิยมอื่นๆ",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}
