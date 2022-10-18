@@ -108,75 +108,57 @@
   "features": {
     "title": "GroupDocs.Merger for .NET 功能",
     "feature_1": {
-        "icon": "fas fa-copy",
         "content": "将多个页面、幻灯片和图表合并并合并到一个文档中"
     },
     "feature_2": {
-        "icon": "fas fa-eye",
         "content": "将大文件拆分成多个小文件"
     },
     "feature_3": {
-      "icon": "fas fa-bolt",
       "content": "重新排列、随机播放和重新组织页面、幻灯片或图表"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "在文档中相互交换和交换两个页面、幻灯片或图表"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "通过删除特定页面、幻灯片或图表来修剪文档"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "删除单个或一组页面、幻灯片或图表"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "批量拼接大量文档"
     },
     "feature_8": {
-      "icon": "fas fa-comment-slash",
       "content": "以编程方式检查文档是否使用密码保护"
     },
     "feature_9": {
-      "icon": "fas fa-location-arrow",
       "content": "设置、重置和删除已知和未知文档格式的密码"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "获取支持的文件格式列表 - 拆分和连接文本 (ERR) 日志文件格式"
     },
     "feature_11": {
-      "icon": "fas fa-wrench",
       "content": "旋转页面并更改已知和未知格式的页面方向"
     },
     "feature_12": {
-      "icon": "fas fa-columns",
       "content": "将多个不同格式的文件合并为 DOC、DOCX 和 XPS"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "按行号拆分大文本文件"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "获取文档页面和图表族格式的图像表示"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "为空白的黑色图像空间加入具有背景颜色的图像"
     },
     "feature_16": {
-      "icon": "fas fa-file-archive",
       "content": "将不同类型的文档（DOC、XLS、PPT 等）合并到一个 PDF 文件中"
     },
     "feature_17": {
-      "icon": "fas fa-lock",
       "content": "轻松将 OLE 对象导入 Microsoft Word、Excel、演示文稿和 OpenDocument 文件类型"
     },
     "feature_18": {
-      "icon": "fas fa-file-code",
       "content": "通过 OLE 对象将其他文档添加到图表页面"
     }
   },

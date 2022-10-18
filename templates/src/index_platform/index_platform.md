@@ -183,75 +183,75 @@ features:
 
     feature:
       # feature loop
-      - icon: "<% "{features.feature_1.icon}" %>"
+      - icon: "fas fa-copy"
         content: "<% "{features.feature_1.content}" %>"
        
       # feature loop
-      - icon: "<% "{features.feature_2.icon}" %>"
+      - icon: "fas fa-eye"
         content: "<% "{features.feature_2.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_3.icon}" %>"
+      - icon: "fas fa-bolt"
         content: "<% "{features.feature_3.content}" %>"
       
       # feature loop
-      - icon: "<% "{features.feature_4.icon}" %>"
+      - icon: "fas fa-file-powerpoint"
         content: "<% "{features.feature_4.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_5.icon}" %>"
+      - icon: "fas fa-code"
         content: "<% "{features.feature_5.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_6.icon}" %>"
+      - icon: "fas fa-cloud"
         content: "<% "{features.feature_6.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_7.icon}" %>"
+      - icon: "fas fa-remove-format"
         content: "<% "{features.feature_7.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_8.icon}" %>"
+      - icon: "fas fa-comment-slash"
         content: "<% "{features.feature_8.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_9.icon}" %>"
+      - icon: "fas fa-location-arrow"
         content: "<% "{features.feature_9.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_10.icon}" %>"
+      - icon: "fas fa-border-all"
         content: "<% "{features.feature_10.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_11.icon}" %>"
+      - icon: "fas fa-wrench"
         content: "<% "{features.feature_11.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_12.icon}" %>"
+      - icon: "fas fa-columns"
         content: "<% "{features.feature_12.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_13.icon}" %>"
+      - icon: "fas fa-file-word"
         content: "<% "{features.feature_13.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_14.icon}" %>"
+      - icon: "fas fa-envelope"
         content: "<% "{features.feature_14.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_15.icon}" %>"
+      - icon: "fas fa-print"
         content: "<% "{features.feature_15.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_16.icon}" %>"
+      - icon: "fas fa-file-archive"
         content: "<% "{features.feature_16.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_17.icon}" %>"
+      - icon: "fas fa-lock"
         content: "<% "{features.feature_17.content}" %>"
 
       # feature loop
-      - icon: "<% "{features.feature_18.icon}" %>"
+      - icon: "fas fa-file-code"
         content: "<% "{features.feature_18.content}" %>"
 
     more_feature:

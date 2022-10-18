@@ -111,44 +111,34 @@
         "icon": "fas fa-copy",
         "content": "Combine & merge multiple pages, slides & diagrams into a single document"
     },
-    "feature_2": {
-        "icon": "fas fa-eye",
+    "feature_2": {        
         "content": "Split and break large documents into multiple smaller files"
     },
     "feature_3": {
-      "icon": "fas fa-bolt",
       "content": "Rearrange, shuffle and reorganize pages, slides or diagrams"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "Swap and exchange two pages, slides or diagrams with each other within a document"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "Trim document by removing specific pages, slides or diagrams"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "Remove single or collection of pages, slides or diagrams"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "Stitch together large number of documents in batches"
     },
     "feature_8": {
-      "icon": "fas fa-comment-slash",
       "content": "Programmatically check if a document is secured with password"
     },
     "feature_9": {
-      "icon": "fas fa-location-arrow",
       "content": "Set, reset and remove password of known and unknown document formats"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "Fetch list of supported file formats – Split and Join Text (ERR) Log File Format"
     },
     "feature_11": {
-      "icon": "fas fa-wrench",
       "content": "Rotate pages and change page orientation of known & unknown formats"
     },
     "feature_12": {
@@ -156,27 +146,21 @@
       "content": "Combine multiple files of different formats to DOC, DOCX & XPS"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "Splitting large text files by line numbers"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "Obtain image representations of document pages and diagram family formats"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "Join Images with Background Color for Empty Black Image Space"
     },
     "feature_16": {
-      "icon": "fas fa-file-archive",
       "content": "Merge Different Types of Documents (DOC, XLS, PPT etc) into A Single PDF File"
     },
     "feature_17": {
-      "icon": "fas fa-lock",
       "content": "Easily Import OLE Objects into Microsoft Word, Excel, Presentation and OpenDocument File Types"
     },
     "feature_18": {
-      "icon": "fas fa-file-code",
       "content": "Add Other Documents to Diagram Page via OLE Objects"
     }
   },

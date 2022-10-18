@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-10-13T17:30:02
+date: 2022-10-18T07:59:21
 draft: false
 
 product: "Merger"
@@ -176,7 +176,7 @@ features:
 
     feature:
       # feature loop
-      - icon: "fas fa-copia"
+      - icon: "fas fa-copy"
         content: "Combina e unisci più pagine, diapositive e diagrammi in un unico documento"
        
       # feature loop
@@ -184,7 +184,7 @@ features:
         content: "Dividi e suddividi documenti di grandi dimensioni in più file più piccoli"
 
       # feature loop
-      - icon: "fai un fa-bolt"
+      - icon: "fas fa-bolt"
         content: "Riordina, mescola e riorganizza pagine, diapositive o diagrammi"
       
       # feature loop
@@ -192,11 +192,11 @@ features:
         content: "Scambia e scambia due pagine, diapositive o diagrammi all'interno di un documento"
 
       # feature loop
-      - icon: "codice fas"
+      - icon: "fas fa-code"
         content: "Taglia il documento rimuovendo pagine, diapositive o diagrammi specifici"
 
       # feature loop
-      - icon: "fas fa-nuvola"
+      - icon: "fas fa-cloud"
         content: "Rimuovi singole o raccolte di pagine, diapositive o diagrammi"
 
       # feature loop
@@ -204,11 +204,11 @@ features:
         content: "Unisci un gran numero di documenti in batch"
 
       # feature loop
-      - icon: "fas fa-commento-barra"
+      - icon: "fas fa-comment-slash"
         content: "Verifica a livello di codice se un documento è protetto con password"
 
       # feature loop
-      - icon: "fas fa-posizione-freccia"
+      - icon: "fas fa-location-arrow"
         content: "Imposta, reimposta e rimuovi password di formati di documenti noti e sconosciuti"
 
       # feature loop
@@ -216,11 +216,11 @@ features:
         content: "Recupera l'elenco dei formati di file supportati – Formato file registro ERR (Dividi e unisci testo)."
 
       # feature loop
-      - icon: "fas fa-chiave"
+      - icon: "fas fa-wrench"
         content: "Ruota le pagine e cambia l'orientamento della pagina di formati noti e sconosciuti"
 
       # feature loop
-      - icon: "fas fa-colonne"
+      - icon: "fas fa-columns"
         content: "Combina più file di diversi formati in DOC, DOCX e XPS"
 
       # feature loop
@@ -228,23 +228,23 @@ features:
         content: "Suddivisione di file di testo di grandi dimensioni in base ai numeri di riga"
 
       # feature loop
-      - icon: "fas fa-busta"
+      - icon: "fas fa-envelope"
         content: "Ottieni rappresentazioni di immagini di pagine di documenti e formati di famiglie di diagrammi"
 
       # feature loop
-      - icon: "fas fa-stampa"
+      - icon: "fas fa-print"
         content: "Unisci immagini con colore di sfondo per spazio immagine nero vuoto"
 
       # feature loop
-      - icon: "fas fa-archivio-file"
+      - icon: "fas fa-file-archive"
         content: "Unisci diversi tipi di documenti (DOC, XLS, PPT ecc.) in un unico file PDF"
 
       # feature loop
-      - icon: "tu fai il blocco"
+      - icon: "fas fa-lock"
         content: "Importa facilmente oggetti OLE in tipi di file Microsoft Word, Excel, Presentazione e OpenDocument"
 
       # feature loop
-      - icon: "fas fa-file-codice"
+      - icon: "fas fa-file-code"
         content: "Aggiungi altri documenti alla pagina del diagramma tramite oggetti OLE"
 
     more_feature:

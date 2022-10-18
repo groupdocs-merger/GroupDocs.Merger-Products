@@ -108,75 +108,57 @@
   "features": {
     "title": "GroupDocs.Merger for Java Features",
     "feature_1": {
-        "icon": "fas fa-copy",
         "content": "Merge various pages, slides & diagrams into a single file"
     },
     "feature_2": {
-        "icon": "fas fa-eye",
         "content": "Rip & split huge documents into multiple smaller files"
     },
     "feature_3": {
-      "icon": "fas fa-bolt",
       "content": "Shuffle & reorganize pages, slides or diagrams"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "Exchange & swap two pages, slides or diagrams among each other within a document"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "Cut & trim document by removing specific pages, slides or diagrams"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "Delete single or collection of pages, slides or diagrams"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "Stitch & merge together a large number of documents in batches"
     },
     "feature_8": {
-      "icon": "fas fa-comment-slash",
       "content": "Programmatically check in Java if a document is secured with a password"
     },
     "feature_9": {
-      "icon": "fas fa-location-arrow",
       "content": "Set, reset and remove password of known and unknown document formats"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "Split One Text File to Multiple by Line Numbers"
     },
     "feature_11": {
-      "icon": "fas fa-wrench",
       "content": "Get Image Representation of Document Pages"
     },
     "feature_12": {
-      "icon": "fas fa-columns",
       "content": "Merge Multiple Documents of Different Formats to a Single PDF File"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "Insert OLE Objects into PDF, Word, Excel, PowerPoint & Open Document Formats"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "Programmatically Attach Files to A PDF Document"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "Add Document to Diagram via OLE Objects"
     },
     "feature_16": {
-      "icon": "fas fa-file-archive",
       "content": "Merge Different Types of Documents (DOC, XLS, PPT etc) into A Single PDF File"
     },
     "feature_17": {
-      "icon": "fas fa-lock",
       "content": "Easily Import OLE Objects into Microsoft Word, Excel, Presentation and OpenDocument File Types"
     },
     "feature_18": {
-      "icon": "fas fa-file-code",
       "content": "Add Other Documents to Diagram Page via OLE Objects"
     }
   },

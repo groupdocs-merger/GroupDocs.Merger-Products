@@ -108,75 +108,57 @@
   "features": {
     "title": "Recursos do GroupDocs.Merger para Java",
     "feature_1": {
-      "icon": "cópia fas fa",
       "content": "Mesclar várias páginas, slides e diagramas em um único arquivo"
     },
     "feature_2": {
-      "icon": "fas fa-olho",
       "content": "Rasgue e divida documentos enormes em vários arquivos menores"
     },
     "feature_3": {
-      "icon": "você faz fa-bolt",
       "content": "Embaralhar e reorganizar páginas, slides ou diagramas"
     },
     "feature_4": {
-      "icon": "fas-arquivo-powerpoint",
       "content": "Troque e troque duas páginas, slides ou diagramas entre si dentro de um documento"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "Cortar e aparar documentos removendo páginas, slides ou diagramas específicos"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "Excluir uma única ou coleção de páginas, slides ou diagramas"
     },
     "feature_7": {
-      "icon": "fas fa-remove-formato",
       "content": "Costure e mescle um grande número de documentos em lotes"
     },
     "feature_8": {
-      "icon": "fas fa-comentário-barra",
       "content": "Verifique programaticamente em Java se um documento está protegido com uma senha"
     },
     "feature_9": {
-      "icon": "fas fa-localização-seta",
       "content": "Defina, redefina e remova a senha de formatos de documentos conhecidos e desconhecidos"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "Dividir um arquivo de texto em vários por números de linha"
     },
     "feature_11": {
-      "icon": "chave fas fa",
       "content": "Obter representação de imagens de páginas de documentos"
     },
     "feature_12": {
-      "icon": "fas fa-colunas",
       "content": "Mesclar vários documentos de diferentes formatos em um único arquivo PDF"
     },
     "feature_13": {
-      "icon": "palavra-arquivo fas fa",
       "content": "Insira objetos OLE em PDF, Word, Excel, PowerPoint e formatos de documento aberto"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "Anexar arquivos programaticamente a um documento PDF"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "Adicionar documento ao diagrama por meio de objetos OLE"
     },
     "feature_16": {
-      "icon": "fas fa-arquivo-arquivo",
       "content": "Mesclar diferentes tipos de documentos (DOC, XLS, PPT etc) em um único arquivo PDF"
     },
     "feature_17": {
-      "icon": "você faz fa-lock",
       "content": "Importe facilmente objetos OLE para tipos de arquivo do Microsoft Word, Excel, Presentation e OpenDocument"
     },
     "feature_18": {
-      "icon": "código do arquivo fas fa",
       "content": "Adicionar outros documentos à página de diagrama por meio de objetos OLE"
     }
   },

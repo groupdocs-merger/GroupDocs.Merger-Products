@@ -108,75 +108,57 @@
   "features": {
     "title": "GroupDocs.Merger per le funzionalità Java",
     "feature_1": {
-      "icon": "fas fa-copia",
       "content": "Unisci varie pagine, diapositive e diagrammi in un unico file"
     },
     "feature_2": {
-      "icon": "fas fa-eye",
       "content": "Copia e dividi documenti enormi in più file più piccoli"
     },
     "feature_3": {
-      "icon": "fai un fa-bolt",
       "content": "Mescola e riorganizza pagine, diapositive o diagrammi"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "Scambia e scambia due pagine, diapositive o diagrammi tra loro all'interno di un documento"
     },
     "feature_5": {
-      "icon": "codice fas",
       "content": "Taglia e ritaglia il documento rimuovendo pagine, diapositive o diagrammi specifici"
     },
     "feature_6": {
-      "icon": "fas fa-nuvola",
       "content": "Elimina singole o raccolte di pagine, diapositive o diagrammi"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "Unisci e unisci un gran numero di documenti in batch"
     },
     "feature_8": {
-      "icon": "fas fa-commento-barra",
       "content": "Verifica a livello di codice in Java se un documento è protetto con una password"
     },
     "feature_9": {
-      "icon": "fas fa-posizione-freccia",
       "content": "Imposta, reimposta e rimuovi password di formati di documenti noti e sconosciuti"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "Dividi un file di testo in più per numeri di riga"
     },
     "feature_11": {
-      "icon": "fas fa-chiave",
       "content": "Ottieni la rappresentazione dell'immagine delle pagine del documento"
     },
     "feature_12": {
-      "icon": "fas fa-colonne",
       "content": "Unisci più documenti di diversi formati in un unico file PDF"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "Inserisci oggetti OLE in PDF, Word, Excel, PowerPoint e formati di documenti aperti"
     },
     "feature_14": {
-      "icon": "fas fa-busta",
       "content": "Allega file a un documento PDF in modo programmatico"
     },
     "feature_15": {
-      "icon": "fas fa-stampa",
       "content": "Aggiungi documento al diagramma tramite oggetti OLE"
     },
     "feature_16": {
-      "icon": "fas fa-archivio-file",
       "content": "Unisci diversi tipi di documenti (DOC, XLS, PPT ecc.) in un unico file PDF"
     },
     "feature_17": {
-      "icon": "tu fai il blocco",
       "content": "Importa facilmente oggetti OLE in tipi di file Microsoft Word, Excel, Presentazione e OpenDocument"
     },
     "feature_18": {
-      "icon": "fas fa-file-codice",
       "content": "Aggiungi altri documenti alla pagina del diagramma tramite oggetti OLE"
     }
   },

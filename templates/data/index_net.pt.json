@@ -108,75 +108,57 @@
   "features": {
     "title": "Recursos do GroupDocs.Merger para .NET",
     "feature_1": {
-      "icon": "cópia fas fa",
       "content": "Combine e mescle várias páginas, slides e diagramas em um único documento"
     },
     "feature_2": {
-      "icon": "fas fa-olho",
       "content": "Divida e divida documentos grandes em vários arquivos menores"
     },
     "feature_3": {
-      "icon": "você faz fa-bolt",
       "content": "Reorganizar, embaralhar e reorganizar páginas, slides ou diagramas"
     },
     "feature_4": {
-      "icon": "fas-arquivo-powerpoint",
       "content": "Troque e troque duas páginas, slides ou diagramas entre si dentro de um documento"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "Apare o documento removendo páginas, slides ou diagramas específicos"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "Remova uma única ou coleção de páginas, slides ou diagramas"
     },
     "feature_7": {
-      "icon": "fas fa-remove-formato",
       "content": "Costure um grande número de documentos em lotes"
     },
     "feature_8": {
-      "icon": "fas fa-comentário-barra",
       "content": "Verificar programaticamente se um documento está protegido por senha"
     },
     "feature_9": {
-      "icon": "fas fa-localização-seta",
       "content": "Defina, redefina e remova a senha de formatos de documentos conhecidos e desconhecidos"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "Buscar lista de formatos de arquivo suportados – Formato de arquivo de log de texto dividido e unido (ERR)"
     },
     "feature_11": {
-      "icon": "chave fas fa",
       "content": "Gire as páginas e altere a orientação da página de formatos conhecidos e desconhecidos"
     },
     "feature_12": {
-      "icon": "fas fa-colunas",
       "content": "Combine vários arquivos de diferentes formatos para DOC, DOCX e XPS"
     },
     "feature_13": {
-      "icon": "palavra-arquivo fas fa",
       "content": "Dividindo arquivos de texto grandes por números de linha"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "Obtenha representações de imagens de páginas de documentos e formatos de família de diagramas"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "Junte imagens com cor de fundo para espaço de imagem preto vazio"
     },
     "feature_16": {
-      "icon": "fas fa-arquivo-arquivo",
       "content": "Mesclar diferentes tipos de documentos (DOC, XLS, PPT etc) em um único arquivo PDF"
     },
     "feature_17": {
-      "icon": "você faz fa-lock",
       "content": "Importe facilmente objetos OLE para tipos de arquivo do Microsoft Word, Excel, Presentation e OpenDocument"
     },
     "feature_18": {
-      "icon": "código do arquivo fas fa",
       "content": "Adicionar outros documentos à página de diagrama por meio de objetos OLE"
     }
   },

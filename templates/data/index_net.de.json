@@ -108,75 +108,57 @@
   "features": {
     "title": "GroupDocs.Merger für .NET-Funktionen", 
     "feature_1": {
-        "icon": "fas fa-copy",
         "content": "Kombinieren und führen Sie mehrere Seiten, Folien und Diagramme in einem einzigen Dokument zusammen"
     },
     "feature_2": {
-        "icon": "fas fa-eye",
         "content": "Große Dokumente aufteilen und in mehrere kleinere Dateien aufteilen"
     },
     "feature_3": {
-      "icon": "fas fa-bolt",
       "content": "Ordnen, mischen und reorganisieren Sie Seiten, Folien oder Diagramme"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "Tauschen und tauschen Sie innerhalb eines Dokuments zwei Seiten, Folien oder Diagramme untereinander aus"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "Kürzen Sie das Dokument, indem Sie bestimmte Seiten, Folien oder Diagramme entfernen"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "Entfernen Sie einzelne oder eine Sammlung von Seiten, Folien oder Diagrammen"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "Heften Sie eine große Anzahl von Dokumenten in Stapeln zusammen"
     },
     "feature_8": {
-      "icon": "fas fa-comment-slash",
       "content": "Prüfen Sie programmgesteuert, ob ein Dokument mit einem Passwort gesichert ist"
     },
     "feature_9": {
-      "icon": "fas fa-location-arrow",
       "content": "Passwort für bekannte und unbekannte Dokumentformate festlegen, zurücksetzen und entfernen"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "Abrufen der Liste der unterstützten Dateiformate – Split and Join Text (ERR) Protokolldateiformat"
     },
     "feature_11": {
-      "icon": "fas fa-wrench",
       "content": "Drehen Sie Seiten und ändern Sie die Seitenausrichtung bekannter und unbekannter Formate"
     },
     "feature_12": {
-      "icon": "fas fa-columns",
       "content": "Kombinieren Sie mehrere Dateien unterschiedlicher Formate zu DOC, DOCX und XPS"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "Aufteilen großer Textdateien nach Zeilennummern"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "Erhalten Sie Bilddarstellungen von Dokumentseiten und Diagrammfamilienformaten"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "Verbinden Sie Bilder mit Hintergrundfarbe für einen leeren schwarzen Bildraum"
     },
     "feature_16": {
-      "icon": "fas fa-file-archive",
       "content": "Führen Sie verschiedene Arten von Dokumenten (DOC, XLS, PPT usw.) in einer einzigen PDF-Datei zusammen"
     },
     "feature_17": {
-      "icon": "fas fa-lock",
       "content": "Importieren Sie mühelos OLE-Objekte in Microsoft Word-, Excel-, Präsentations- und OpenDocument-Dateitypen"
     },
     "feature_18": {
-      "icon": "fas fa-file-code",
       "content": "Andere Dokumente über OLE-Objekte zur Diagrammseite hinzufügen"
     }
   },

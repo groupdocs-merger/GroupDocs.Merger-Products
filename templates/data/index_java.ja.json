@@ -108,75 +108,57 @@
   "features": {
     "title": "GroupDocs.Merger for Javaの機能",
     "feature_1": {
-        "icon": "fas fa-copy",
         "content": "さまざまなページ、スライド、図を1つのファイルにマージします"
     },
     "feature_2": {
-        "icon": "fas fa-eye",
         "content": "巨大なドキュメントを複数の小さなファイルにリッピングして分割する"
     },
     "feature_3": {
-      "icon": "fas fa-bolt",
       "content": "ページ、スライド、または図をシャッフルして再編成します"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "ドキュメント内で2つのページ、スライド、または図を相互に交換および交換します"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "特定のページ、スライド、または図を削除して、ドキュメントを切り取りおよびトリミングします"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "ページ、スライド、または図の単一またはコレクションを削除します"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "多数のドキュメントをまとめてつなぎ合わせて結合する"
     },
     "feature_8": {
-      "icon": "fas fa-comment-slash",
       "content": "ドキュメントがパスワードで保護されているかどうかをJavaでプログラムで確認します"
     },
     "feature_9": {
-      "icon": "fas fa-location-arrow",
       "content": "既知および未知のドキュメント形式のパスワードを設定、リセット、および削除します"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "1つのテキストファイルを行番号で複数に分割"
     },
     "feature_11": {
-      "icon": "fas fa-wrench",
       "content": "ドキュメントページの画像表現を取得する"
     },
     "feature_12": {
-      "icon": "fas fa-columns",
       "content": "異なる形式の複数のドキュメントを単一のPDFファイルにマージする"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "OLEオブジェクトをPDF、Word、Excel、PowerPoint、OpenDocument形式に挿入します"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "プログラムでPDFドキュメントにファイルを添付する"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "OLEオブジェクトを介してダイアグラムにドキュメントを追加する"
     },
     "feature_16": {
-      "icon": "fas fa-file-archive",
       "content": "さまざまな種類のドキュメント（DOC、XLS、PPTなど）を1つのPDFファイルにマージします"
     },
     "feature_17": {
-      "icon": "fas fa-lock",
       "content": "OLEオブジェクトをMicrosoftWord、Excel、プレゼンテーション、OpenDocumentファイルタイプに簡単にインポート"
     },
     "feature_18": {
-      "icon": "fas fa-file-code",
       "content": "OLEオブジェクトを介してダイアグラムページに他のドキュメントを追加する"
     }
   },

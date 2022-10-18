@@ -108,75 +108,57 @@
   "features": {
     "title": "GroupDocs.Merger untuk .NET Fitur",
     "feature_1": {
-        "icon": "fas fa-copy",
         "content": "Gabungkan & gabungkan beberapa halaman, slide & diagram menjadi satu dokumen"
     },
     "feature_2": {
-        "icon": "fas fa-eye",
         "content": "Pisahkan dan pisahkan dokumen besar menjadi beberapa file yang lebih kecil"
     },
     "feature_3": {
-      "icon": "fas fa-bolt",
       "content": "Atur ulang, acak, dan atur ulang halaman, slide, atau diagram"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "Tukar dan tukar dua halaman, slide, atau diagram satu sama lain dalam dokumen"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "Pangkas dokumen dengan menghapus halaman, slide, atau diagram tertentu"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "Hapus satu atau kumpulan halaman, slide, atau diagram"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "Jahit bersama sejumlah besar dokumen dalam batch"
     },
     "feature_8": {
-      "icon": "fas fa-comment-slash",
       "content": "Secara terprogram memeriksa apakah dokumen diamankan dengan kata sandi"
     },
     "feature_9": {
-      "icon": "fas fa-location-arrow",
       "content": "Setel, setel ulang, dan hapus kata sandi format dokumen yang dikenal dan tidak dikenal"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "Ambil daftar format file yang didukung – Format File Log Split and Join Text (ERR)"
     },
     "feature_11": {
-      "icon": "fas fa-wrench",
       "content": "Putar halaman dan ubah orientasi halaman dari format yang dikenal & tidak dikenal"
     },
     "feature_12": {
-      "icon": "fas fa-columns",
       "content": "Gabungkan beberapa file dengan format berbeda ke DOC, DOCX & XPS"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "Memisahkan file teks besar dengan nomor baris"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "Dapatkan representasi gambar dari halaman dokumen dan format keluarga diagram"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "Gabung Gambar dengan Warna Latar Belakang untuk Ruang Gambar Hitam Kosong"
     },
     "feature_16": {
-      "icon": "fas fa-file-archive",
       "content": "Gabungkan Berbagai Jenis Dokumen (DOC, XLS, PPT, dll) ke dalam Satu File PDF"
     },
     "feature_17": {
-      "icon": "fas fa-lock",
       "content": "Mudah Mengimpor Objek OLE ke Microsoft Word, Excel, Presentasi, dan Jenis File OpenDocument"
     },
     "feature_18": {
-      "icon": "fas fa-file-code",
       "content": "Tambahkan Dokumen Lain ke Halaman Diagram melalui Objek OLE"
     }
   },

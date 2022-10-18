@@ -108,75 +108,57 @@
   "features": {
     "title": "Funciones de GroupDocs.Merger para Java",
     "feature_1": {
-        "icon": "fas fa-copy",
         "content": "Combine varias páginas, diapositivas y diagramas en un solo archivo"
     },
     "feature_2": {
-        "icon": "fas fa-eye",
         "content": "Copie y divida documentos enormes en múltiples archivos más pequeños"
     },
     "feature_3": {
-      "icon": "fas fa-bolt",
       "content": "Mezclar y reorganizar páginas, diapositivas o diagramas"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "Intercambie e intercambie dos páginas, diapositivas o diagramas entre sí dentro de un documento"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "Corte y recorte el documento eliminando páginas, diapositivas o diagramas específicos"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "Eliminar una sola página o colección de páginas, diapositivas o diagramas"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "Une y fusiona una gran cantidad de documentos en lotes"
     },
     "feature_8": {
-      "icon": "fas fa-comment-slash",
       "content": "Verifique programáticamente en Java si un documento está protegido con una contraseña"
     },
     "feature_9": {
-      "icon": "fas fa-location-arrow",
       "content": "Establecer, restablecer y eliminar la contraseña de formatos de documentos conocidos y desconocidos"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "Dividir un archivo de texto en varios por números de línea"
     },
     "feature_11": {
-      "icon": "fas fa-wrench",
       "content": "Obtener representación de imágenes de páginas de documentos"
     },
     "feature_12": {
-      "icon": "fas fa-columns",
       "content": "Combine varios documentos de diferentes formatos en un solo archivo PDF"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "Inserte objetos OLE en PDF, Word, Excel, PowerPoint y formatos de documentos abiertos"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "Adjuntar archivos mediante programación a un documento PDF"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "Agregar documento al diagrama a través de objetos OLE"
     },
     "feature_16": {
-      "icon": "fas fa-file-archive",
       "content": "Combine diferentes tipos de documentos (DOC, XLS, PPT, etc.) en un solo archivo PDF"
     },
     "feature_17": {
-      "icon": "fas fa-lock",
       "content": "Importe fácilmente objetos OLE en tipos de archivos de Microsoft Word, Excel, Presentation y OpenDocument"
     },
     "feature_18": {
-      "icon": "fas fa-file-code",
       "content": "Agregar otros documentos a la página del diagrama a través de objetos OLE"
     }
   },

@@ -108,75 +108,57 @@
   "features": {
     "title": ".NET 기능을 위한 GroupDocs.Merger",
     "feature_1": {
-        "icon": "fas fa-copy",
         "content": "여러 페이지, 슬라이드 및 다이어그램을 단일 문서로 결합 및 병합"
     },
     "feature_2": {
-        "icon": "fas fa-eye",
         "content": "큰 문서를 여러 개의 작은 파일로 분할 및 나누기"
     },
     "feature_3": {
-      "icon": "fas fa-bolt",
       "content": "페이지, 슬라이드 또는 다이어그램 재정렬, 셔플 및 재구성"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "문서 내에서 두 페이지, 슬라이드 또는 다이어그램을 서로 교환 및 교환"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "특정 페이지, 슬라이드 또는 다이어그램을 제거하여 문서 다듬기"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "페이지, 슬라이드 또는 다이어그램의 단일 또는 모음 제거"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "많은 수의 문서를 일괄 처리"
     },
     "feature_8": {
-      "icon": "fas fa-comment-slash",
       "content": "문서가 암호로 보호되어 있는지 프로그래밍 방식으로 확인"
     },
     "feature_9": {
-      "icon": "fas fa-location-arrow",
       "content": "알려진 문서 형식과 알려지지 않은 문서 형식의 암호 설정, 재설정 및 제거"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "지원되는 파일 형식 목록 가져오기 – 텍스트 분할 및 결합(ERR) 로그 파일 형식"
     },
     "feature_11": {
-      "icon": "fas fa-wrench",
       "content": "알려진 형식과 알 수 없는 형식의 페이지 회전 및 페이지 방향 변경"
     },
     "feature_12": {
-      "icon": "fas fa-columns",
       "content": "다양한 형식의 여러 파일을 DOC, DOCX 및 XPS로 결합"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "큰 텍스트 파일을 줄 번호로 분할하기"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "문서 페이지 및 다이어그램 패밀리 형식의 이미지 표현 얻기"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "빈 검은색 이미지 공간을 위해 배경색으로 이미지 결합я"
     },
     "feature_16": {
-      "icon": "fas fa-file-archive",
       "content": "다양한 유형의 문서(DOC, XLS, PPT 등)를 단일 PDF 파일로 병합"
     },
     "feature_17": {
-      "icon": "fas fa-lock",
       "content": "OLE 개체를 Microsoft Word, Excel, Presentation 및 OpenDocument 파일 형식으로 쉽게 가져오기"
     },
     "feature_18": {
-      "icon": "fas fa-file-code",
       "content": "OLE 개체를 통해 다이어그램 페이지에 다른 문서 추가"
     }
   },

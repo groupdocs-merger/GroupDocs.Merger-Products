@@ -108,75 +108,57 @@
   "features": {
     "title": "GroupDocs.Merger per le funzionalità .NET",
     "feature_1": {
-      "icon": "fas fa-copia",
       "content": "Combina e unisci più pagine, diapositive e diagrammi in un unico documento"
     },
     "feature_2": {
-      "icon": "fas fa-eye",
       "content": "Dividi e suddividi documenti di grandi dimensioni in più file più piccoli"
     },
     "feature_3": {
-      "icon": "fai un fa-bolt",
       "content": "Riordina, mescola e riorganizza pagine, diapositive o diagrammi"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "Scambia e scambia due pagine, diapositive o diagrammi all'interno di un documento"
     },
     "feature_5": {
-      "icon": "codice fas",
       "content": "Taglia il documento rimuovendo pagine, diapositive o diagrammi specifici"
     },
     "feature_6": {
-      "icon": "fas fa-nuvola",
       "content": "Rimuovi singole o raccolte di pagine, diapositive o diagrammi"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "Unisci un gran numero di documenti in batch"
     },
     "feature_8": {
-      "icon": "fas fa-commento-barra",
       "content": "Verifica a livello di codice se un documento è protetto con password"
     },
     "feature_9": {
-      "icon": "fas fa-posizione-freccia",
       "content": "Imposta, reimposta e rimuovi password di formati di documenti noti e sconosciuti"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "Recupera l'elenco dei formati di file supportati – Formato file registro ERR (Dividi e unisci testo)."
     },
     "feature_11": {
-      "icon": "fas fa-chiave",
       "content": "Ruota le pagine e cambia l'orientamento della pagina di formati noti e sconosciuti"
     },
     "feature_12": {
-      "icon": "fas fa-colonne",
       "content": "Combina più file di diversi formati in DOC, DOCX e XPS"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "Suddivisione di file di testo di grandi dimensioni in base ai numeri di riga"
     },
     "feature_14": {
-      "icon": "fas fa-busta",
       "content": "Ottieni rappresentazioni di immagini di pagine di documenti e formati di famiglie di diagrammi"
     },
     "feature_15": {
-      "icon": "fas fa-stampa",
       "content": "Unisci immagini con colore di sfondo per spazio immagine nero vuoto"
     },
     "feature_16": {
-      "icon": "fas fa-archivio-file",
       "content": "Unisci diversi tipi di documenti (DOC, XLS, PPT ecc.) in un unico file PDF"
     },
     "feature_17": {
-      "icon": "tu fai il blocco",
       "content": "Importa facilmente oggetti OLE in tipi di file Microsoft Word, Excel, Presentazione e OpenDocument"
     },
     "feature_18": {
-      "icon": "fas fa-file-codice",
       "content": "Aggiungi altri documenti alla pagina del diagramma tramite oggetti OLE"
     }
   },

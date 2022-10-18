@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-10-18T06:34:22
+date: 2022-10-18T07:59:21
 draft: false
 
 product: "Merger"
@@ -176,19 +176,19 @@ features:
 
     feature:
       # feature loop
-      - icon: "cópia fas fa"
+      - icon: "fas fa-copy"
         content: "Mesclar várias páginas, slides e diagramas em um único arquivo"
        
       # feature loop
-      - icon: "fas fa-olho"
+      - icon: "fas fa-eye"
         content: "Rasgue e divida documentos enormes em vários arquivos menores"
 
       # feature loop
-      - icon: "você faz fa-bolt"
+      - icon: "fas fa-bolt"
         content: "Embaralhar e reorganizar páginas, slides ou diagramas"
       
       # feature loop
-      - icon: "fas-arquivo-powerpoint"
+      - icon: "fas fa-file-powerpoint"
         content: "Troque e troque duas páginas, slides ou diagramas entre si dentro de um documento"
 
       # feature loop
@@ -200,15 +200,15 @@ features:
         content: "Excluir uma única ou coleção de páginas, slides ou diagramas"
 
       # feature loop
-      - icon: "fas fa-remove-formato"
+      - icon: "fas fa-remove-format"
         content: "Costure e mescle um grande número de documentos em lotes"
 
       # feature loop
-      - icon: "fas fa-comentário-barra"
+      - icon: "fas fa-comment-slash"
         content: "Verifique programaticamente em Java se um documento está protegido com uma senha"
 
       # feature loop
-      - icon: "fas fa-localização-seta"
+      - icon: "fas fa-location-arrow"
         content: "Defina, redefina e remova a senha de formatos de documentos conhecidos e desconhecidos"
 
       # feature loop
@@ -216,15 +216,15 @@ features:
         content: "Dividir um arquivo de texto em vários por números de linha"
 
       # feature loop
-      - icon: "chave fas fa"
+      - icon: "fas fa-wrench"
         content: "Obter representação de imagens de páginas de documentos"
 
       # feature loop
-      - icon: "fas fa-colunas"
+      - icon: "fas fa-columns"
         content: "Mesclar vários documentos de diferentes formatos em um único arquivo PDF"
 
       # feature loop
-      - icon: "palavra-arquivo fas fa"
+      - icon: "fas fa-file-word"
         content: "Insira objetos OLE em PDF, Word, Excel, PowerPoint e formatos de documento aberto"
 
       # feature loop
@@ -236,15 +236,15 @@ features:
         content: "Adicionar documento ao diagrama por meio de objetos OLE"
 
       # feature loop
-      - icon: "fas fa-arquivo-arquivo"
+      - icon: "fas fa-file-archive"
         content: "Mesclar diferentes tipos de documentos (DOC, XLS, PPT etc) em um único arquivo PDF"
 
       # feature loop
-      - icon: "você faz fa-lock"
+      - icon: "fas fa-lock"
         content: "Importe facilmente objetos OLE para tipos de arquivo do Microsoft Word, Excel, Presentation e OpenDocument"
 
       # feature loop
-      - icon: "código do arquivo fas fa"
+      - icon: "fas fa-file-code"
         content: "Adicionar outros documentos à página de diagrama por meio de objetos OLE"
 
     more_feature:

@@ -108,75 +108,57 @@
   "features": {
     "title": "Java 기능을 위한 GroupDocs.Merger",
     "feature_1": {
-        "icon": "fas fa-copy",
         "content": "다양한 페이지, 슬라이드 및 다이어그램을 단일 파일로 병합"
     },
     "feature_2": {
-        "icon": "fas fa-eye",
         "content": "대용량 문서를 여러 개의 작은 파일로 추출 및 분할"
     },
     "feature_3": {
-      "icon": "fas fa-bolt",
       "content": "페이지, 슬라이드 또는 다이어그램 셔플 및 재구성"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "문서 내에서 서로 간에 두 페이지, 슬라이드 또는 다이어그램 교환 및 교환"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "특정 페이지, 슬라이드 또는 다이어그램을 제거하여 문서 자르기 및 다듬기"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "페이지, 슬라이드 또는 다이어그램의 단일 또는 컬렉션 삭제"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "많은 수의 문서를 일괄적으로 연결 및 병합"
     },
     "feature_8": {
-      "icon": "fas fa-comment-slash",
       "content": "문서가 암호로 보호되어 있으면 프로그래밍 방식으로 Java에서 확인"
     },
     "feature_9": {
-      "icon": "fas fa-location-arrow",
       "content": "알려지거나 알려지지 않은 문서 형식의 암호 설정, 재설정 및 삭제"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "하나의 텍스트 파일을 줄 번호로 여러 개로 분할"
     },
     "feature_11": {
-      "icon": "fas fa-wrench",
       "content": "문서 페이지의 이미지 표현 가져오기"
     },
     "feature_12": {
-      "icon": "fas fa-columns",
       "content": "형식이 다른 여러 문서를 하나의 PDF 파일로 병합"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "PDF, Word, Excel, PowerPoint 및 문서 형식 열기에 OLE 개체 삽입"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "PDF 문서에 프로그래밍 방식으로 파일 첨부"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "OLE 개체를 통해 다이어그램에 문서 추가"
     },
     "feature_16": {
-      "icon": "fas fa-file-archive",
       "content": "다양한 유형의 문서(DOC, XLS, PPT 등)를 단일 PDF 파일로 병합"
     },
     "feature_17": {
-      "icon": "fas fa-lock",
       "content": "OLE 개체를 Microsoft Word, Excel, Presentation 및 OpenDocument 파일 형식으로 쉽게 가져오기"
     },
     "feature_18": {
-      "icon": "fas fa-file-code",
       "content": "OLE 개체를 통해 다이어그램 페이지에 다른 문서 추가"
     }
   },

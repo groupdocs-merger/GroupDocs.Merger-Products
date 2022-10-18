@@ -108,75 +108,57 @@
   "features": {
     "title": "GroupDocs.Merger dla funkcji Java",
     "feature_1": {
-      "icon": "fas fa-copy",
       "content": "Scal różne strony, slajdy i diagramy w jeden plik"
     },
     "feature_2": {
-      "icon": "fas fa-eye",
       "content": "Zgrywaj i dziel duże dokumenty na wiele mniejszych plików"
     },
     "feature_3": {
-      "icon": "robisz fa-bolt",
       "content": "Mieszaj i reorganizuj strony, slajdy lub diagramy"
     },
     "feature_4": {
-      "icon": "fas fa-plik-Powerpoint",
       "content": "Wymieniaj i zamieniaj dwie strony, slajdy lub diagramy między sobą w dokumencie"
     },
     "feature_5": {
-      "icon": "fas fa-kod",
       "content": "Wytnij i przytnij dokument, usuwając określone strony, slajdy lub diagramy"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "Usuń pojedynczą lub kolekcję stron, slajdów lub diagramów"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "Łącz i łącz dużą liczbę dokumentów w partiach"
     },
     "feature_8": {
-      "icon": "fas fa-komentarz-ukośnik",
       "content": "Sprawdź programowo w Javie, czy dokument jest zabezpieczony hasłem"
     },
     "feature_9": {
-      "icon": "fas fa-lokalizacja-strzałka",
       "content": "Ustaw, zresetuj i usuń hasło w znanych i nieznanych formatach dokumentów"
     },
     "feature_10": {
-      "icon": "fas fa-border-wszystko",
       "content": "Podziel jeden plik tekstowy na wiele według numerów wierszy"
     },
     "feature_11": {
-      "icon": "fas fa-klucz",
       "content": "Uzyskaj reprezentację graficzną stron dokumentu"
     },
     "feature_12": {
-      "icon": "fas fa-kolumny",
       "content": "Scal wiele dokumentów w różnych formatach w jeden plik PDF"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "Wstaw obiekty OLE do formatów PDF, Word, Excel, PowerPoint i otwartych dokumentów"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "Programmatycznie dołącz pliki do dokumentu PDF"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "Dodaj dokument do diagramu za pomocą obiektów OLE"
     },
     "feature_16": {
-      "icon": "fas fa-file-archiwum",
       "content": "Połącz różne typy dokumentów (DOC, XLS, PPT itp.) w jeden plik PDF"
     },
     "feature_17": {
-      "icon": "robisz fa-lock",
       "content": "Łatwo importuj obiekty OLE do programów Microsoft Word, Excel, prezentacji i typów plików OpenDocument"
     },
     "feature_18": {
-      "icon": "fas fa-plik-kod",
       "content": "Dodaj inne dokumenty do strony diagramu za pomocą obiektów OLE"
     }
   },

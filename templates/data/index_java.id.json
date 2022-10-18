@@ -108,27 +108,21 @@
   "features": {
     "title": "GroupDocs.Merger untuk Java Fitur",
     "feature_1": {
-        "icon": "fas fa-copy",
         "content": "Gabungkan berbagai halaman, slide & diagram menjadi satu file"
     },
     "feature_2": {
-        "icon": "fas fa-eye",
         "content": "Rip & pisahkan dokumen besar menjadi beberapa file yang lebih kecil"
     },
     "feature_3": {
-      "icon": "fas fa-bolt",
       "content": "Acak & atur ulang halaman, slide, atau diagram"
     },
     "feature_4": {
-      "icon": "fas fa-file-powerpoint",
       "content": "Tukar & tukar dua halaman, slide, atau diagram di antara satu sama lain dalam dokumen"
     },
     "feature_5": {
-      "icon": "fas fa-code",
       "content": "Potong & potong dokumen dengan menghapus halaman, slide, atau diagram tertentu"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "Hapus satu atau kumpulan halaman, slide, atau diagram"
     },
     "feature_7": {
@@ -136,47 +130,36 @@
       "content": "Jahit & gabungkan sejumlah besar dokumen dalam kumpulan"
     },
     "feature_8": {
-      "icon": "fas fa-comment-slash",
       "content": "Secara terprogram memeriksa di Java apakah dokumen diamankan dengan kata sandi"
     },
     "feature_9": {
-      "icon": "fas fa-location-arrow",
       "content": "Setel, setel ulang, dan hapus kata sandi format dokumen yang dikenal dan tidak dikenal"
     },
     "feature_10": {
-      "icon": "fas fa-border-all",
       "content": "Pisahkan Satu File Teks menjadi Beberapa dengan Nomor Baris"
     },
     "feature_11": {
-      "icon": "fas fa-wrench",
       "content": "Dapatkan Representasi Gambar Halaman Dokumen"
     },
     "feature_12": {
-      "icon": "fas fa-columns",
       "content": "Gabungkan Banyak Dokumen dengan Format Berbeda ke Satu File PDF"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "Masukkan Objek OLE ke dalam PDF, Word, Excel, PowerPoint & Buka Format Dokumen"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "Lampirkan File secara Terprogram ke Dokumen PDF"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "Tambahkan Dokumen ke Diagram melalui Objek OLE"
     },
     "feature_16": {
-      "icon": "fas fa-file-archive",
       "content": "Gabungkan Berbagai Jenis Dokumen (DOC, XLS, PPT, dll) ke dalam Satu File PDF"
     },
     "feature_17": {
-      "icon": "fas fa-lock",
       "content": "Mudah Mengimpor Objek OLE ke Microsoft Word, Excel, Presentasi, dan Jenis File OpenDocument"
     },
     "feature_18": {
-      "icon": "fas fa-file-code",
       "content": "Tambahkan Dokumen Lain ke Halaman Diagram melalui Objek OLE"
     }
   },

@@ -108,47 +108,36 @@
   "features": {
     "title": "GroupDocs.Merger dla funkcji .NET",
     "feature_1": {
-      "icon": "fas fa-copy",
       "content": "Łącz i łącz wiele stron, slajdów i diagramów w jeden dokument"
     },
     "feature_2": {
-      "icon": "fas fa-eye",
       "content": "Dziel i dziel duże dokumenty na wiele mniejszych plików"
     },
     "feature_3": {
-      "icon": "robisz fa-bolt",
       "content": "Zmieniaj kolejność, mieszaj i reorganizuj strony, slajdy lub diagramy"
     },
     "feature_4": {
-      "icon": "fas fa-plik-Powerpoint",
       "content": "Zamień i wymieniaj między sobą dwie strony, slajdy lub diagramy w dokumencie"
     },
     "feature_5": {
-      "icon": "fas fa-kod",
       "content": "Przytnij dokument, usuwając określone strony, slajdy lub diagramy"
     },
     "feature_6": {
-      "icon": "fas fa-cloud",
       "content": "Usuń pojedyncze lub zbiór stron, slajdów lub diagramów"
     },
     "feature_7": {
-      "icon": "fas fa-remove-format",
       "content": "Łącz dużą liczbę dokumentów w partiach"
     },
     "feature_8": {
-      "icon": "fas fa-komentarz-ukośnik",
       "content": "Sprawdź programowo, czy dokument jest zabezpieczony hasłem"
     },
     "feature_9": {
-      "icon": "fas fa-lokalizacja-strzałka",
       "content": "Ustaw, zresetuj i usuń hasło w znanych i nieznanych formatach dokumentów"
     },
     "feature_10": {
-      "icon": "fas fa-border-wszystko",
       "content": "Pobierz listę obsługiwanych formatów plików – Split and Join Text (ERR) Log File Format"
     },
     "feature_11": {
-      "icon": "fas fa-klucz",
       "content": "Obracaj strony i zmieniaj orientację strony w znanych i nieznanych formatach"
     },
     "feature_12": {
@@ -156,27 +145,21 @@
       "content": "Połącz wiele plików w różnych formatach do DOC, DOCX i XPS"
     },
     "feature_13": {
-      "icon": "fas fa-file-word",
       "content": "Dzielenie dużych plików tekstowych według numerów wierszy"
     },
     "feature_14": {
-      "icon": "fas fa-envelope",
       "content": "Uzyskaj reprezentacje obrazów stron dokumentów i formatów rodziny diagramów"
     },
     "feature_15": {
-      "icon": "fas fa-print",
       "content": "Połącz obrazy z kolorem tła dla pustej czarnej przestrzeni obrazu"
     },
     "feature_16": {
-      "icon": "fas fa-file-archiwum",
       "content": "Połącz różne typy dokumentów (DOC, XLS, PPT itp.) w jeden plik PDF"
     },
     "feature_17": {
-      "icon": "robisz fa-lock",
       "content": "Łatwo importuj obiekty OLE do programów Microsoft Word, Excel, prezentacji i typów plików OpenDocument"
     },
     "feature_18": {
-      "icon": "fas fa-plik-kod",
       "content": "Dodaj inne dokumenty do strony diagramu za pomocą obiektów OLE"
     }
   },
