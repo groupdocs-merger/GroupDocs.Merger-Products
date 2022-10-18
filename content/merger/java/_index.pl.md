@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-10-18T06:34:22
+date: 2022-10-18T08:45:24
 draft: false
 
 product: "Merger"
@@ -184,15 +184,15 @@ features:
         content: "Zgrywaj i dziel duże dokumenty na wiele mniejszych plików"
 
       # feature loop
-      - icon: "robisz fa-bolt"
+      - icon: "fas fa-bolt"
         content: "Mieszaj i reorganizuj strony, slajdy lub diagramy"
       
       # feature loop
-      - icon: "fas fa-plik-Powerpoint"
+      - icon: "fas fa-file-powerpoint"
         content: "Wymieniaj i zamieniaj dwie strony, slajdy lub diagramy między sobą w dokumencie"
 
       # feature loop
-      - icon: "fas fa-kod"
+      - icon: "fas fa-code"
         content: "Wytnij i przytnij dokument, usuwając określone strony, slajdy lub diagramy"
 
       # feature loop
@@ -204,23 +204,23 @@ features:
         content: "Łącz i łącz dużą liczbę dokumentów w partiach"
 
       # feature loop
-      - icon: "fas fa-komentarz-ukośnik"
+      - icon: "fas fa-comment-slash"
         content: "Sprawdź programowo w Javie, czy dokument jest zabezpieczony hasłem"
 
       # feature loop
-      - icon: "fas fa-lokalizacja-strzałka"
+      - icon: "fas fa-location-arrow"
         content: "Ustaw, zresetuj i usuń hasło w znanych i nieznanych formatach dokumentów"
 
       # feature loop
-      - icon: "fas fa-border-wszystko"
+      - icon: "fas fa-border-all"
         content: "Podziel jeden plik tekstowy na wiele według numerów wierszy"
 
       # feature loop
-      - icon: "fas fa-klucz"
+      - icon: "fas fa-wrench"
         content: "Uzyskaj reprezentację graficzną stron dokumentu"
 
       # feature loop
-      - icon: "fas fa-kolumny"
+      - icon: "fas fa-columns"
         content: "Scal wiele dokumentów w różnych formatach w jeden plik PDF"
 
       # feature loop
@@ -236,15 +236,15 @@ features:
         content: "Dodaj dokument do diagramu za pomocą obiektów OLE"
 
       # feature loop
-      - icon: "fas fa-file-archiwum"
+      - icon: "fas fa-file-archive"
         content: "Połącz różne typy dokumentów (DOC, XLS, PPT itp.) w jeden plik PDF"
 
       # feature loop
-      - icon: "robisz fa-lock"
+      - icon: "fas fa-lock"
         content: "Łatwo importuj obiekty OLE do programów Microsoft Word, Excel, prezentacji i typów plików OpenDocument"
 
       # feature loop
-      - icon: "fas fa-plik-kod"
+      - icon: "fas fa-file-code"
         content: "Dodaj inne dokumenty do strony diagramu za pomocą obiektów OLE"
 
     more_feature:
