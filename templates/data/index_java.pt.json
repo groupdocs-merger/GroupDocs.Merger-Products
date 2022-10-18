@@ -18,7 +18,8 @@
   },
   "overview": {
     "content": {
-      "paragraph_1": "O GroupDocs.Merger for Java permite que você desenvolva rapidamente aplicativos de negócios de primeira linha em Java. Com pouca codificação, seus aplicativos Java podem mesclar, ripar, embaralhar, cortar e excluir uma única página ou lote de páginas, slides e diagramas. As operações de mesclagem também podem ser executadas em arquivos seguros de formato conhecido e desconhecido, aplicando ou removendo a proteção por senha."
+      "paragraph_1": "O GroupDocs.Merger for Java permite que você desenvolva rapidamente aplicativos de negócios de primeira linha em Java. Com pouca codificação, seus aplicativos Java podem mesclar, ripar, embaralhar, cortar e excluir uma única página ou lote de páginas, slides e diagramas. As operações de mesclagem também podem ser executadas em arquivos seguros de formato conhecido e desconhecido, aplicando ou removendo a proteção por senha.",
+      "paragraph_2": ""
     }
   },
   "tabs": {
@@ -97,7 +98,9 @@
         "content_2": {
           "line_1": "*NetBeans",
           "line_2": "* IntelliJ IDEA",
-          "line_3": "* Eclipse"
+          "line_3": "* Eclipse",
+          "line_4": "",
+          "line_5": ""
         }
       }
     }

@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Połącz {{EXT}} pliki w {{ProgLang}} | {{EXT}} Połączenie",
+    "description": "Połącz wiele plików {{EXT}} w jeden plik za pomocą interfejsu API łączenia dokumentów {{ProgLang}} {{ProductName}}. Połącz określone strony lub zakresy stron z różnych dokumentów w jeden dokument."
+  },
+  "header": {
+    "title": "Połącz {{EXT}} pliki w {{ProgLang}}",
+    "description": "Połącz {{EXT}} z kilkoma wierszami kodu {{ProductName}}.",
+    "button_label": "Pobierz darmową wersję próbną"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Dokumentacja API",
+      "button_text_2": "Przykłady kodu",
+      "button_text_3": "Prezentacje na żywo",
+      "button_text_4": "cennik"
+    }
+  },
+  "about": {
+    "title": "Informacje o interfejsie API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) zapewnia wygodne rozwiązanie do łączenia wielu plików PDF, pakietu Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, obrazów i wiele innych dokumentów w jednym pliku w aplikacjach {{ProductName}}. GroupDocs.Merger zaoszczędzi Ci wiele wysiłku, ponieważ możesz łączyć dokumenty {{EXT}} - nie ma potrzeby instalowania żadnego oprogramowania innych firm, aplikacji komputerowych ani wtyczek. Teraz nie musisz tracić czasu i ręcznie łączyć pliki! Misją GroupDocs jest zapewnienie najwyższej jakości i uproszczenie przepływów pracy przy przetwarzaniu dokumentów.",
+    "h2": "GroupDocs.Merger API to właściwy wybór dla rozwiązań korporacyjnych, które potrzebują funkcji łączenia plików. Te interfejsy API są dobrze obsługiwane we wszystkich głównych systemach operacyjnych i platformach, w tym {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Jak połączyć wiele plików {{EXT}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ułatwia programistom {{ProductName}} łączenie dwóch lub więcej plików {{EXT}} w swoich aplikacjach poprzez zaimplementowanie kilka prostych kroków.",
+      "step_1": "Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
+      "step_2": "Wywołaj **Join** klasy **Merger** i przekaż drugą ścieżkę dokumentu źródłowego.",
+      "step_3": "Wywołaj **Save** klasy **Scalanie**, aby zapisać scalony dokument."
+    },
+    "title_right": "wymagania systemowe",
+    "content_right": {
+      "description": "Interfejsy API {{ProductFullName}} są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że masz zainstalowane w systemie następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Ramy",
+      "step_4": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Jak połączyć pliki {{EXT}} przy użyciu przykładowego kodu {{ProgLang}}",
+    "code": {
+      "load_comment": "Połącz pliki {{EXT}} za pomocą GroupDocs.Merger API",
+      "ini_comment": "Utwórz wystąpienie połączenia z wejściowym dokumentem {{EXT}}",
+      "run_comment": "Wywołaj metodę Join instancji klasy Merger i przekaż drugą ścieżkę dokumentu źródłowego",
+      "save_comment": "Wywołaj metodę Save instancji klasy Merger, aby zapisać scalony dokument"
+    }
+  },
+  "demos": {
+    "title": "Prezentacje na żywo — aplikacja online do łączenia dokumentów",
+    "h1": "Połącz teraz więcej niż jeden plik {{EXT}}, odwiedzając witrynę [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family).",
+    "h2": "Demo na żywo ma następujące zalety."
+  },
+  "more_formats": {
+    "title": "Scalanie innych formatów dokumentów",
+    "content": "{{ProductName}} interfejs API łączenia dokumentów dla formatów plików i obrazów. Połącz ze sobą niektóre popularne formaty dokumentów, jak podano poniżej."
+  }
+}

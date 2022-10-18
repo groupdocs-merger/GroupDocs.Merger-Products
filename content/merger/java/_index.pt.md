@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-10-13T17:30:02
+date: 2022-10-18T06:34:22
 draft: false
 
 product: "Merger"
@@ -62,7 +62,7 @@ overview:
     content: |
       O GroupDocs.Merger for Java permite que você desenvolva rapidamente aplicativos de negócios de primeira linha em Java. Com pouca codificação, seus aplicativos Java podem mesclar, ripar, embaralhar, cortar e excluir uma única página ou lote de páginas, slides e diagramas. As operações de mesclagem também podem ser executadas em arquivos seguros de formato conhecido e desconhecido, aplicando ou removendo a proteção por senha.  
 
-      {overview.content.paragraph_2}
+      
     tabs:
       enable: true
       
@@ -166,8 +166,8 @@ overview:
                 *NetBeans
                 * IntelliJ IDEA
                 * Eclipse
-                {tabs.tab_three.right.content_2.line_4}
-                {tabs.tab_three.right.content_2.line_5}
+                
+                
 
 ############################# Features ############################
 features:
