@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "C# .NET Belge Birleştirme API'si | Birleştir ve Böl PDF Word Excel EPUB",
+    "description": "PDF, Microsoft Word, Excel, sunumlar, Visio ve görüntü formatlarından belge sayfalarını birleştirmek, bölmek, takas etmek veya kaldırmak için C# .NET belge birleştirme API'si."
+  },
+  "header": {
+    "title": "Belgeleri Birleştirmek ve Bölmek için .NET API",
+    "description": ".NET Uygulamalarında Belgeleri, Slaytları ve Diyagramları Birleştirmek, Bölmek, Değiştirmek, Kırpmak veya Kaldırmak için API."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "genel bakış",
+      "features": "Özellikler",
+      "support": "Destek",
+      "livedemo": "Canlı Demo",
+      "pricing": "fiyatlandırma"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": ".NET için GroupDocs.Merger, C#, ASP.NET ve diğer .NET teknolojilerinde birinci sınıf iş uygulamalarını hızla geliştirmenize yardımcı olur. Yalnızca birkaç satır kod, .NET uygulamalarınızın tek bir sayfayı veya belge sayfaları, slaytlar, resimler veya diyagramlar koleksiyonunu birleştirmesine, ayırmasına, yeniden düzenlemesine, takas etmesine, kırpmasına ve kaldırmasına olanak tanır. Bilinen ve bilinmeyen dosya biçimlerinin parola korumasını ayarlayarak veya kaldırarak bu işlemleri güvenli dosyalar üzerinde gerçekleştirin.",
+      "paragraph_2": ".NET için GroupDocs.Merger kullanarak birleştirme yapabilirsiniz; Tek bir belgenin yanı sıra bir belge yığını üzerinde bölme ve diğer ilgili işlemler. Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook ve görüntü dosyası formatları gibi tüm popüler formatlardaki dosyaları programlı olarak birleştirin."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Aşağıda GroupDocs.Merger for .NET'e genel bir bakış yer almaktadır:",
+      "left": {
+        "title": "Belge İşlemleri",
+        "content": {
+          "line_1": "Sayfa Sırasını Değiştir",
+          "line_2": "Sayfaları Kaldır veya Sil",
+          "line_3": "Belgeyi Böl veya Kır",
+          "line_4": "Herhangi iki sayfayı değiştirin veya karıştırın",
+          "line_5": "Tek veya birden çok sayfayı kırpın",
+          "line_6": "Birden çok belgeye katılın"
+        }
+      },
+      "right": {
+        "title": "Güvenlik Operasyonları",
+        "content": {
+          "line_1": "Belge güvenliğini ayarla",
+          "line_2": "Belge güvenlik durumunu kontrol edin",
+          "line_3": "Belge parolasını ayarla",
+          "line_4": "Belge şifresini güncelle",
+          "line_5": "Belge şifresini kaldır"
+        }
+      }
+    },
+    "tab_two": {
+      "description": ".NET için GroupDocs.Merger, aşağıdaki [belge dosyası biçimlerinin](https://docs.groupdocs.com/merger/net/supported-document-formats/) birleştirilmesini destekler:",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Kelime:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, Elektronik TabloML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** BİR"
+        }
+      },
+      "right": {
+        "title": "OpenDocument ve Diğer Formatlar",
+        "content": {
+          "line_1": "**OpenDocument Formatları**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Sabit Düzen**: PDF, XPS",
+          "line_3": "**Görüntüler**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Metin**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-kitap**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": ".NET için GroupDocs.Merger, aşağıdaki İşletim Sistemlerini, Çerçeveleri ve Paket Yöneticilerini destekler:",
+      "left": {
+        "title": "İşletim sistemleri",
+        "content": {
+          "line_1": "Windows Masaüstü",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Desteklenen Çerçeveler",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 veya üstü",
+          "line_2": "Mono Çerçeve 1.2 veya üstü",
+          "line_3": ".NET Standart 2.0",
+          "line_4": ".NET Çekirdek 2.0"
+        }
+      },
+      "right": {
+        "title": "Paketleme yöneticisi",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Geliştirme Ortamları",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* Monogeliştirme"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": ".NET Özellikleri için GroupDocs.Merger",
+    "feature_1": {
+      "content": "Birden çok sayfayı, slaytı ve diyagramı tek bir belgede birleştirin ve birleştirin"
+    },
+    "feature_2": {
+      "content": "Büyük belgeleri birden çok küçük dosyaya bölün ve bölün"
+    },
+    "feature_3": {
+      "content": "Sayfaları, slaytları veya diyagramları yeniden düzenleyin, karıştırın ve yeniden düzenleyin"
+    },
+    "feature_4": {
+      "content": "Bir belge içinde iki sayfayı, slaytı veya diyagramı değiştirin ve değiştirin"
+    },
+    "feature_5": {
+      "content": "Belirli sayfaları, slaytları veya diyagramları kaldırarak belgeyi kırpın"
+    },
+    "feature_6": {
+      "content": "Sayfaları, slaytları veya diyagramları tek veya koleksiyon halinde kaldırın"
+    },
+    "feature_7": {
+      "content": "Çok sayıda belgeyi toplu olarak birleştirin"
+    },
+    "feature_8": {
+      "content": "Bir belgenin parola ile güvenli olup olmadığını programlı olarak kontrol edin"
+    },
+    "feature_9": {
+      "content": "Bilinen ve bilinmeyen belge biçimlerinin parolasını ayarlayın, sıfırlayın ve kaldırın"
+    },
+    "feature_10": {
+      "content": "Desteklenen dosya biçimlerinin listesini getir – Metni Böl ve Birleştir (ERR) Günlük Dosyası Biçimi"
+    },
+    "feature_11": {
+      "content": "Sayfaları döndürün ve bilinen ve bilinmeyen biçimlerin sayfa yönünü değiştirin"
+    },
+    "feature_12": {
+      "content": "Farklı biçimlerdeki birden çok dosyayı DOC, DOCX ve XPS ile birleştirin"
+    },
+    "feature_13": {
+      "content": "Büyük metin dosyalarını satır numaralarına göre bölme"
+    },
+    "feature_14": {
+      "content": "Belge sayfalarının ve diyagram ailesi biçimlerinin görüntü temsillerini elde edin"
+    },
+    "feature_15": {
+      "content": "Boş Siyah Görüntü Alanı için Arka Plan Rengiyle Görüntüleri Birleştirin"
+    },
+    "feature_16": {
+      "content": "Farklı Belge Türlerini (DOC, XLS, PPT vb.) Tek Bir PDF Dosyasında Birleştirin"
+    },
+    "feature_17": {
+      "content": "OLE Nesnelerini Microsoft Word, Excel, Sunum ve OpenDocument Dosya Türlerine Kolayca Aktarın"
+    },
+    "feature_18": {
+      "content": "OLE Nesneleri aracılığıyla Diyagram Sayfasına Diğer Belgeleri Ekleme"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Belgelerden İstenen Sayfaları Kaldır",
+      "content": "GroupDocs.Merger for .NET API, istenmeyen sayfaları belgenizden silmenize yardımcı olur."
+    },
+    "feature_2": {
+      "title": "İşlenen Çıktıya Dönüşüm Uygula",
+      "content": "GroupDocs.Merger for .NET API'sini kullanarak işlenen çıktı belgesine çeşitli dönüştürmeler yapabilirsiniz. Bu dönüştürme seçenekleri, görüntü için işlenmiş çıktıyı sunma şekliniz üzerinde kontrol sağlar. Kullanılabilir dönüşümler, sayfa döndürme seçeneği, sayfa yeniden sıralama seçeneği ve metin filigranı uygulamadır."
+    },
+    "feature_3": {
+      "title": "Bilinmeyen Belge Biçiminin Parolasını Kontrol Edin",
+      "content": "GroupDocs.Merger for .NET API, formatı bilinmeyen bir belgenin şifresini kontrol etmenizi sağlar."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger, diğer popüler geliştirme ortamları için belge birleştirme API'leri sunar",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "Java Belgesi Birleştirme API'si | Word Excel PDF XPS EPUB birleştirme ve kaldırma",
+    "description": "Java için API'yi birleştiren belgeler. PDF, Microsoft Word, Excel, sunumlar, Visio, XPS ve EPUB biçimlerinin sayfalarını birleştirin, bölün, değiştirin, yeniden sıralayın ve silin."
+  },
+  "header": {
+    "title": "Belgeleri Birleştirmek ve Bölmek için Java API",
+    "description": "Hareket halindeyken sayfaları, slaytları ve diyagramları birleştirebilen, kopyalayabilen, karıştırabilen, kesebilen veya silebilen yüksek performanslı uygulamalar geliştirin."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "genel bakış",
+      "features": "Özellikler",
+      "support": "Destek",
+      "livedemo": "Canlı Demo",
+      "pricing": "fiyatlandırma"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "Java için GroupDocs.Merger, Java'da hızlı bir şekilde birinci sınıf iş uygulamaları geliştirmenizi sağlar. Java uygulamalarınız çok az kodlama ile tek bir sayfa veya toplu sayfa, slayt ve diyagramları birleştirebilir, kopyalayabilir, karıştırabilir, kesebilir ve silebilir. Şifre koruması uygulanarak veya kaldırılarak, bilinen ve bilinmeyen formattaki güvenli dosyalar üzerinde de birleştirme işlemleri gerçekleştirilebilir.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Java için GroupDocs.Merger'a genel bir bakış aşağıdadır:",
+      "left": {
+        "title": "Belge İşlemleri",
+        "content": {
+          "line_1": "Sayfa Sırasını Değiştir",
+          "line_2": "Sayfaları Kaldır veya Sil",
+          "line_3": "Belgeyi Böl veya Kır",
+          "line_4": "Herhangi iki sayfayı değiştirin veya karıştırın",
+          "line_5": "Tek veya birden çok sayfayı kırpın",
+          "line_6": "Birden çok belgeye katılın"
+        }
+      },
+      "right": {
+        "title": "Güvenlik Operasyonları",
+        "content": {
+          "line_1": "Belge güvenliğini ayarla",
+          "line_2": "Belge güvenlik durumunu kontrol edin",
+          "line_3": "Belge parolasını ayarla",
+          "line_4": "Belge şifresini güncelle",
+          "line_5": "Belge şifresini kaldır"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "Java için GroupDocs.Merger, aşağıdaki [belge dosyası biçimlerinin](https://docs.groupdocs.com/merger/java/supported-document-formats/) birleştirilmesini destekler:",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Kelime:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, Elektronik TabloML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** BİR"
+        }
+      },
+      "right": {
+        "title": "OpenDocument ve Diğer Formatlar",
+        "content": {
+          "line_1": "**OpenDocument Formatları**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Sabit Düzen**: PDF, XPS",
+          "line_3": "**Görüntüler**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Metin**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-kitap**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "Java için GroupDocs.Merger, aşağıdaki İşletim Sistemlerini, Çerçeveleri ve Paket Yöneticilerini destekler:",
+      "left": {
+        "title": "İşletim sistemleri",
+        "content": {
+          "line_1": "Microsoft Windows Masaüstü",
+          "line_2": "Microsoft Windows Sunucusu",
+          "line_3": "Linux",
+          "line_4": "Mac os işletim sistemi"
+        },
+        "title_2": "Desteklenen Çerçeveler",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 ve üzeri"
+        }
+      },
+      "right": {
+        "title": "Otomasyon Aracı Oluştur",
+        "content": {
+          "line_1": "* Uzman"
+        },
+        "title_2": "Geliştirme Ortamları",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ FİKİR",
+          "line_3": "* Tutulma",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "Java Özellikleri için GroupDocs.Merger",
+    "feature_1": {
+      "content": "Çeşitli sayfaları, slaytları ve diyagramları tek bir dosyada birleştirin"
+    },
+    "feature_2": {
+      "content": "Büyük belgeleri kopyalayın ve birden çok küçük dosyaya bölün"
+    },
+    "feature_3": {
+      "content": "Sayfaları, slaytları veya diyagramları karıştırın ve yeniden düzenleyin"
+    },
+    "feature_4": {
+      "content": "Bir belge içinde iki sayfa, slayt veya diyagramı değiştirin ve değiştirin"
+    },
+    "feature_5": {
+      "content": "Belirli sayfaları, slaytları veya diyagramları kaldırarak belgeyi kesin ve kesin"
+    },
+    "feature_6": {
+      "content": "Sayfaları, slaytları veya diyagramları tek veya koleksiyon halinde silme"
+    },
+    "feature_7": {
+      "content": "Çok sayıda belgeyi toplu olarak birleştirin ve birleştirin"
+    },
+    "feature_8": {
+      "content": "Bir belgenin bir parola ile güvence altına alınıp alınmadığını programlı olarak Java'da kontrol edin"
+    },
+    "feature_9": {
+      "content": "Bilinen ve bilinmeyen belge biçimlerinin parolasını ayarlayın, sıfırlayın ve kaldırın"
+    },
+    "feature_10": {
+      "content": "Bir Metin Dosyasını Satır Numaralarına Göre Birden Çok Dosyaya Böl"
+    },
+    "feature_11": {
+      "content": "Belge Sayfalarının Görsel Temsilini Alın"
+    },
+    "feature_12": {
+      "content": "Farklı Biçimlerdeki Birden Çok Belgeyi Tek Bir PDF Dosyasında Birleştirin"
+    },
+    "feature_13": {
+      "content": "OLE Nesnelerini PDF, Word, Excel, PowerPoint ve Açık Belge Formatlarına Ekleme"
+    },
+    "feature_14": {
+      "content": "Dosyaları Bir PDF Belgesine Programlı Olarak Ekleme"
+    },
+    "feature_15": {
+      "content": "OLE Nesneleri aracılığıyla Diyagrama Belge Ekleme"
+    },
+    "feature_16": {
+      "content": "Farklı Belge Türlerini (DOC, XLS, PPT vb.) Tek Bir PDF Dosyasında Birleştirin"
+    },
+    "feature_17": {
+      "content": "OLE Nesnelerini Microsoft Word, Excel, Sunum ve OpenDocument Dosya Türlerine Kolayca Aktarın"
+    },
+    "feature_18": {
+      "content": "OLE Nesneleri aracılığıyla Diyagram Sayfasına Diğer Belgeleri Ekleme"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Belgelerden İstenen Sayfaları Kaldır",
+      "content": "Java API için GroupDocs.Merger, belgenizdeki istenmeyen sayfaları seçmenizi ve silmenizi sağlar."
+    },
+    "feature_2": {
+      "title": "Bilinmeyen Belge Biçiminin Parolasını Kontrol Edin",
+      "content": "Belirli bir belgenin biçimi bilinmese bile GroupDocs.Merger for Java, varsa belge parolasını kontrol etmenizi ve almanızı sağlar."
+    },
+    "feature_3": {
+      "title": "Bilinen Biçimlerdeki Parola Korumalı Belgelere Katılın",
+      "content": "Java API için GroupDocs.Merger, bilinen ve bilinmeyen biçimlerdeki belgelerin bir listesini almanızı sağlar."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger, diğer popüler geliştirme ortamları için belge birleştirme API'leri sunar",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}

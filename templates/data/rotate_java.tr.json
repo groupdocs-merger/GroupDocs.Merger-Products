@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "{{EXT}} Sayfaları {{ProgLang}} İçinde Döndür – 90, 180, 270 Açıda Döndür",
+    "description": "Belge birleştirme API'sini kullanarak bir {{EXT}} dosyasının belirli veya tüm belge sayfalarını 90, 180, 270 döndürme açısında döndürün."
+  },
+  "header": {
+    "title": "{{EXT}} Sayfayı {{ProgLang}} İçinde Döndür",
+    "description": "{{EXT}} Sayfalarını birkaç satır {{ProductName}} koduyla döndürün.",
+    "button_label": "Ücretsiz deneme sürümünü indirin"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API Referansı",
+      "button_text_2": "Kod Örnekleri",
+      "button_text_3": "Canlı Demolar",
+      "button_text_4": "fiyatlandırma"
+    }
+  },
+  "about": {
+    "title": "{{ProductFullName}} API'si hakkında",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/), PDF, Microsoft Office (Word, Excel, PowerPoint) dahil olmak üzere çok çeşitli belge formatlarını güvenli bir şekilde birleştirme ve ayırma için basit bir çözüm sunar , OneNote), OpenDocument, HTML, resimler ve diğer birçok {{ProductName}} uygulamasında. Kodun yalnızca birkaç satırını ekleyerek, belgelerdeki sayfaların yönünü taşıma, kaldırma, döndürme, değiştirme, çıkarma veya değiştirme gibi çeşitli belge işlemlerini gerçekleştirin. Belgeleri birleştirme API'si, sayfadaki belge yapısını, biçimlendirmeyi ve içeriği analiz etmek için belge sayfalarının görüntü olarak önizlemesini de destekler.",
+    "h2": "GroupDocs.Merger API, dosya sayfası döndürme özelliklerine ihtiyaç duyan kurumsal çözümler için doğru bir seçimdir. Bu API'ler, {{Runtime}} dahil olmak üzere tüm büyük işletim sistemlerinde ve platformlarda iyi bir şekilde desteklenir."
+  },
+  "steps": {
+    "title_left": "{{ProductName}} içinde {{EXT}} Dosya Sayfalarını Döndür",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/), {{ProgLang}} geliştiricilerinin bir {{EXT}} dosyasındaki belirli veya tüm sayfaları 90'da döndürmesini kolaylaştırır , Birkaç kolay adım uygulayarak 180 veya 270 dönüş açısı.",
+      "step_1": "**RotateOptions**'ı istenen dönüş açısı ve sayfa numaralarıyla başlatın.",
+      "step_2": "Yeni **Birleşme** örneği oluşturun ve kaynak belge yolunu yapıcı parametresi olarak iletin.",
+      "step_3": "**rotatePages**'i arayın ve **RotateOptions** nesnesini iletin.",
+      "step_4": "**kaydet**'i arayın ve sonuçtaki belgeyi kaydetmek için dosya yolunu belirtin."
+    },
+    "title_right": "sistem gereksinimleri",
+    "content_right": {
+      "description": "{{ProductFullName}} API'leri, tüm büyük platformlarda ve işletim sistemlerinde desteklenir. Aşağıdaki kodu çalıştırmadan önce lütfen aşağıdaki ön koşulların sisteminizde kurulu olduğundan emin olun.",
+      "step_1": "İşletim Sistemleri: Microsoft Windows, Linux, MacOS",
+      "step_2": "Geliştirme Ortamları: {{DevEnv}}",
+      "step_3": "çerçeveler",
+      "step_4": "{{ProductFullName}} ürününün en son sürümünü [{{RepoName}}}]({{RepoUrl}}) adresinden indirin"
+    },
+    "title_code": "{{ProgLang}} örnek kodunu kullanarak {{EXT}} dosya sayfaları nasıl döndürülür",
+    "code": {
+      "load_comment": "GroupDocs.Merger API'sini kullanarak {{EXT}} dosya sayfalarını döndürün",
+      "opt_comment": "Döndürme açısını ve döndürülecek sayfa numaralarını belirtmek için RotateOptions sınıfını başlatın",
+      "ini_comment": "Giriş {{EXT}} belgesiyle Birleşmeyi Örneklendir",
+      "run_comment": "RotatePages yöntemini çağırın ve buna RotateOptions nesnesini iletin",
+      "save_comment": "Çıktı belgesini kaydetmek için kaydetme yöntemini çağırın ve istenen dosya yolunu iletin"
+    }
+  },
+  "demos": {
+    "title": "Canlı Demolar - {{EXT}} Dosya Sayfalarını Çevrimiçi Döndür",
+    "h1": "[GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/{{ext}}) web sitesini ziyaret ederek {{EXT}} dosya sayfalarını hemen şimdi değiştirin.",
+    "h2": "Canlı demo aşağıdaki avantajlara sahiptir."
+  },
+  "more_formats": {
+    "title": "Diğer Belge Biçimlerinin Sayfalarını Döndür",
+    "content": "{{ProductName}}, dosya biçimleri ve resimler için birleştirme ve bölme API'sini belgeler. Popüler dosya biçimlerinden bazılarını aşağıda belirtildiği gibi döndürün."
+  }
+}
