@@ -112,7 +112,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Di chuyển VSX Trang trực tuyến"
     content: |
-       Di chuyển các trang tệp VSX ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/ vsx) trang web.
+       Di chuyển các trang tệp VSX ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/vsx) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

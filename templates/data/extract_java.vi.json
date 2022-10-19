@@ -49,7 +49,7 @@
   },
   "demos": {
     "title": "Bản trình diễn trực tiếp - Trích xuất các trang {{EXT}} Trực tuyến",
-    "h1": "Giải nén các trang tệp {{EXT}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/ {{ext}}) trang web.",
+    "h1": "Giải nén các trang tệp {{EXT}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/{{ext}}) trang web.",
     "h2": "Bản demo trực tiếp có những lợi ích sau."
   },
   "more_formats": {

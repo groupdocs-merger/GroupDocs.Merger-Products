@@ -110,7 +110,7 @@ demos:
     enable: true
     title: "Bản trình diễn trực tiếp - Trích xuất các trang XLS Trực tuyến"
     content: |
-       Giải nén các trang tệp XLS ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/ xls) trang web.
+       Giải nén các trang tệp XLS ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/xls) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

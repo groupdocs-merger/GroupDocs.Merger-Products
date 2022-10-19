@@ -112,7 +112,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Di chuyển MHTML Trang trực tuyến"
     content: |
-       Di chuyển các trang tệp MHTML ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/ mhtml) trang web.
+       Di chuyển các trang tệp MHTML ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/mhtml) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

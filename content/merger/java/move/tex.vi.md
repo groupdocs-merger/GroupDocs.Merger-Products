@@ -112,7 +112,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Di chuyển TEX Trang trực tuyến"
     content: |
-       Di chuyển các trang tệp TEX ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/ tex) trang web.
+       Di chuyển các trang tệp TEX ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/tex) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################
