@@ -272,11 +272,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Merger dla .NET"
+        - img_alt: "GroupDocs.Merger for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
           product: "GroupDocs.Merger"
-          platform: ".INTERNET"
-          link: "/fuzja/sieć/"
+          platform: ".NET"
+          link: "/merger/net/"
 
 ############################# Back to top ###############################
 back_to_top:

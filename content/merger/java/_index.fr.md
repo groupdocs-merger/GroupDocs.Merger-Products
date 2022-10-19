@@ -272,11 +272,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Merger for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
+        - img_alt: "GroupDocs.Merger for .NET"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
           product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
+          platform: ".NET"
+          link: "/merger/net/"
 
 ############################# Back to top ###############################
 back_to_top:

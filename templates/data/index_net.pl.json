@@ -179,11 +179,11 @@
   },
   "solutions": {
     "title": "GroupDocs.Merger oferuje interfejsy API scalania dokumentów dla innych popularnych środowisk programistycznych",
-    "solution": {
-      "img_alt": "GroupDocs.Merger dla Javy",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for Java",
       "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
-      "platform": "Jawa",
-      "link": "/fuzja/java/"
+      "platform": "Java",
+      "link": "/merger/java/"
     }
   }
 }

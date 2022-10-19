@@ -179,10 +179,10 @@
   "solutions":  { 
     "title": "GroupDocs.Merger propose des API de visualisation de documents pour d'autres environnements de développement populaires",
     "solution":{
-      "img_alt": "GroupDocs.Merger for Java",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
-      "platform": "Java",
-      "link": "/merger/java/"
+      "img_alt": "GroupDocs.Merger for .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
     }
   }
 }

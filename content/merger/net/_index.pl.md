@@ -272,11 +272,11 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Merger dla Javy"
+        - img_alt: "GroupDocs.Merger for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
           product: "GroupDocs.Merger"
-          platform: "Jawa"
-          link: "/fuzja/java/"
+          platform: "Java"
+          link: "/merger/java/"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -178,11 +178,11 @@
   },
   "solutions": {
     "title": "GroupDocs.Merger oferuje interfejsy API scalania dokumentów dla innych popularnych środowisk programistycznych",
-    "solution": {
-      "img_alt": "GroupDocs.Merger dla .NET",
+    "solution":{
+      "img_alt": "GroupDocs.Merger for .NET",
       "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
-      "platform": ".INTERNET",
-      "link": "/fuzja/sieć/"
+      "platform": ".NET",
+      "link": "/merger/net/"
     }
   }
 }
