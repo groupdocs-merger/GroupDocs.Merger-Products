@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/vi/merge/net/) giúp các nhà phát triển C# dễ dàng chia một tệp XLSM thành nhiều tệp kết quả bằng cách triển khai vài bước đơn giản.
         
-        * Khởi tạo ** SplitOptions ** với định dạng đường dẫn tệp đầu ra.
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** Split ** và chuyển đối tượng ** SplitOptions ** để lưu tài liệu kết quả.
+        * Khởi tạo **SplitOptions** với định dạng đường dẫn tệp đầu ra.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **Split** và chuyển đối tượng **SplitOptions** để lưu tài liệu kết quả.
 
     title_right: "yêu cầu hệ thống"
     content_right: |
@@ -109,7 +109,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Tách tệp XLSM Trực tuyến"
     content: |
-       Tách tệp XLSM ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/ xlsm) trang web.
+       Tách tệp XLSM ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/xlsm) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

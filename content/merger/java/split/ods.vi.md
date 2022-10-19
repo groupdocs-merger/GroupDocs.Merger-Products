@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/vi/merge/java/) giúp các nhà phát triển Java dễ dàng chia một tệp ODS thành nhiều tệp kết quả bằng cách triển khai vài bước đơn giản.
         
-        * Khởi tạo ** SplitOptions ** với định dạng đường dẫn tệp đầu ra.
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** split ** và chuyển đối tượng ** SplitOptions ** để lưu tài liệu kết quả.
+        * Khởi tạo **SplitOptions** với định dạng đường dẫn tệp đầu ra.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **Split** và chuyển đối tượng **SplitOptions** để lưu tài liệu kết quả.
 
     title_right: "yêu cầu hệ thống"
     content_right: |
@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Tách tệp ODS Trực tuyến"
     content: |
-       Tách tệp ODS ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/ ods) trang web.
+       Tách tệp ODS ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/ods) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

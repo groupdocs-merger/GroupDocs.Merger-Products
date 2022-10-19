@@ -18,16 +18,16 @@
   },
   "about": {
     "title": "Giới thiệu về API {{ProductFullName}}",
-    "h1": "[{{ProductFullName}}] ({{Sl slash_lang}} / merge / {{ProductCode}} /) cung cấp một giải pháp thuận tiện để kết hợp nhiều tệp PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều tài liệu khác thành một tệp duy nhất trong các ứng dụng {{ProductName}}. GroupDocs.Merger sẽ giúp bạn tiết kiệm rất nhiều công sức vì bạn được phép tham gia các tài liệu {{EXT}} - không cần cài đặt bất kỳ phần mềm, ứng dụng máy tính để bàn hoặc plugin nào của bên thứ ba. Bây giờ không cần thiết phải lãng phí thời gian của bạn và nối các tệp theo cách thủ công! Sứ mệnh của GroupDocs là cung cấp chất lượng tốt nhất và đơn giản hóa quy trình xử lý tài liệu.",
+    "h1": "[{{ProductFullName}}]({{Sl slash_lang}}/merge/{{ProductCode}}/) cung cấp một giải pháp thuận tiện để kết hợp nhiều tệp PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều tài liệu khác thành một tệp duy nhất trong các ứng dụng {{ProductName}}. GroupDocs.Merger sẽ giúp bạn tiết kiệm rất nhiều công sức vì bạn được phép tham gia các tài liệu {{EXT}} - không cần cài đặt bất kỳ phần mềm, ứng dụng máy tính để bàn hoặc plugin nào của bên thứ ba. Bây giờ không cần thiết phải lãng phí thời gian của bạn và nối các tệp theo cách thủ công! Sứ mệnh của GroupDocs là cung cấp chất lượng tốt nhất và đơn giản hóa quy trình xử lý tài liệu.",
     "h2": "API GroupDocs.Merger là một lựa chọn đúng đắn cho các giải pháp công ty cần các tính năng nối tệp. Các API này được hỗ trợ tốt trên tất cả các hệ điều hành và nền tảng chính bao gồm {{Runtime}}."
   },
   "steps": {
     "title_left": "Cách kết hợp nhiều tệp {{EXT}}",
     "content_left": {
-      "description": "[{{ProductFullName}}] ({{slash_lang}} / merge / {{ProductCode}} /) giúp các nhà phát triển {{ProductName}} dễ dàng kết hợp hai hoặc nhiều {{EXT}} tệp trong ứng dụng của họ bằng cách triển khai vài bước đơn giản.",
-      "step_1": "Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.",
-      "step_2": "Gọi ** Tham gia ** của lớp ** Merger ** và chuyển đường dẫn tài liệu nguồn thứ hai.",
-      "step_3": "Gọi ** Save ** của lớp ** Merger ** để lưu tài liệu đã hợp nhất."
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merge/{{ProductCode}}/) giúp các nhà phát triển {{ProductName}} dễ dàng kết hợp hai hoặc nhiều {{EXT}} tệp trong ứng dụng của họ bằng cách triển khai vài bước đơn giản.",
+      "step_1": "Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.",
+      "step_2": "Gọi **Tham gia** của lớp **Merger** và chuyển đường dẫn tài liệu nguồn thứ hai.",
+      "step_3": "Gọi **Save** của lớp **Merger** để lưu tài liệu đã hợp nhất."
     },
     "title_right": "yêu cầu hệ thống",
     "content_right": {
@@ -35,7 +35,7 @@
       "step_1": "Hệ điều hành: Microsoft Windows, Linux, MacOS",
       "step_2": "Môi trường phát triển: {{DevEnv}}",
       "step_3": "Các khuôn khổ",
-      "step_4": "Tải xuống phiên bản mới nhất của {{ProductFullName}} từ [{{RepoName}}] ({{RepoUrl}})"
+      "step_4": "Tải xuống phiên bản mới nhất của {{ProductFullName}} từ [{{RepoName}}]({{RepoUrl}})"
     },
     "title_code": "Cách nối các tệp {{EXT}} bằng mã mẫu {{ProgLang}}",
     "code": {
@@ -47,7 +47,7 @@
   },
   "demos": {
     "title": "Bản trình diễn trực tiếp - Ứng dụng trực tuyến để tham gia tài liệu",
-    "h1": "Tham gia nhiều tệp {{EXT}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos] (https://products.groupdocs.app/merger/ {{ext}}) trang web.",
+    "h1": "Tham gia nhiều tệp {{EXT}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}) trang web.",
     "h2": "Bản demo trực tiếp có những lợi ích sau."
   },
   "more_formats": {

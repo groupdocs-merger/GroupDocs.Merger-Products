@@ -70,10 +70,10 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java]({{sl slash_lang}}/merge/java/) giúp các nhà phát triển Java dễ dàng hoán đổi các trang trong một tệp ODP bằng cách thực hiện một vài bước đơn giản .
         
-        * Khởi tạo ** SwapOptions ** để chỉ định số trang để trao đổi.
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** swapPages ** và chuyển đối tượng ** SwapOptions **.
-        * Gọi ** save ** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
+        * Khởi tạo **SwapOptions** để chỉ định số trang để trao đổi.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **SwapPages** và chuyển đối tượng **SwapOptions**.
+        * Gọi **Save** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
 
     title_right: "yêu cầu hệ thống"
     content_right: |
@@ -112,7 +112,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Trao đổi ODP Trang Tệp Trực tuyến"
     content: |
-       Hoán đổi các trang tệp ODP ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/ odp) trang web.
+       Hoán đổi các trang tệp ODP ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/odp) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

@@ -70,10 +70,10 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/vi/merge/java/) giúp các nhà phát triển Java dễ dàng di chuyển các trang trong tệp VTX bằng cách thực hiện một vài bước đơn giản .
         
-        * Khởi tạo ** MoveOptions ** để chỉ định số trang hiện tại và trang mới.
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** movePage ** và chuyển đối tượng ** MoveOptions **.
-        * Gọi ** save ** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
+        * Khởi tạo **MoveOptions** để chỉ định số trang hiện tại và trang mới.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **MovePage** và chuyển đối tượng **MoveOptions**.
+        * Gọi **Save** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
 
     title_right: "yêu cầu hệ thống"
     content_right: |

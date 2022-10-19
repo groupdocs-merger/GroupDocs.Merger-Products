@@ -18,17 +18,17 @@
   },
   "about": {
     "title": "Giới thiệu về API {{ProductFullName}}",
-    "h1": "[{{ProductFullName}}] ({{slash_lang}} / merge / {{ProductCode}} /) cung cấp một giải pháp đơn giản để hợp nhất và tách một cách an toàn giữa nhiều định dạng tài liệu bao gồm PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, hình ảnh và nhiều thứ khác trong các ứng dụng {{ProductName}}. Chỉ cần thêm một vài dòng mã, hãy thực hiện một số thao tác trên tài liệu như di chuyển, xóa, xoay, hoán đổi, trích xuất hoặc thay đổi hướng của các trang trong tài liệu. API hợp nhất tài liệu cũng hỗ trợ xem trước các trang tài liệu dưới dạng hình ảnh để phân tích cấu trúc tài liệu, định dạng và nội dung trên trang.",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merge/{{ProductCode}}/) cung cấp một giải pháp đơn giản để hợp nhất và tách một cách an toàn giữa nhiều định dạng tài liệu bao gồm PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, hình ảnh và nhiều thứ khác trong các ứng dụng {{ProductName}}. Chỉ cần thêm một vài dòng mã, hãy thực hiện một số thao tác trên tài liệu như di chuyển, xóa, xoay, hoán đổi, trích xuất hoặc thay đổi hướng của các trang trong tài liệu. API hợp nhất tài liệu cũng hỗ trợ xem trước các trang tài liệu dưới dạng hình ảnh để phân tích cấu trúc tài liệu, định dạng và nội dung trên trang.",
     "h2": "API GroupDocs.Merger là một lựa chọn đúng đắn cho các giải pháp công ty cần các tính năng trích xuất trang tệp. Các API này được hỗ trợ tốt trên tất cả các hệ điều hành và nền tảng chính bao gồm {{Runtime}}."
   },
   "steps": {
     "title_left": "Giải nén các Trang Tệp {{EXT}} trong {{ProductName}}",
     "content_left": {
-      "description": "[{{ProductFullName}}] ({{slash_lang}} / merge / {{ProductCode}} /) giúp các nhà phát triển {{ProgLang}} dễ dàng trích xuất các trang mong muốn từ tệp {{EXT}} và lưu nó dưới dạng một tệp mới chứa các trang đã chọn bằng cách thực hiện một vài bước đơn giản.",
-      "step_1": "Khởi tạo ** ExtractOptions ** với số trang sẽ xuất hiện trong tài liệu kết quả.",
-      "step_2": "Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.",
-      "step_3": "Gọi ** ExtractPages ** và chuyển đối tượng ** ExtractOptions **.",
-      "step_4": "Gọi ** Lưu ** và chỉ định đường dẫn tệp để lưu tài liệu kết quả."
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merge/{{ProductCode}}/) giúp các nhà phát triển {{ProgLang}} dễ dàng trích xuất các trang mong muốn từ tệp {{EXT}} và lưu nó dưới dạng một tệp mới chứa các trang đã chọn bằng cách thực hiện một vài bước đơn giản.",
+      "step_1": "Khởi tạo **ExtractOptions** với số trang sẽ xuất hiện trong tài liệu kết quả.",
+      "step_2": "Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.",
+      "step_3": "Gọi **ExtractPages** và chuyển đối tượng **ExtractOptions**.",
+      "step_4": "Gọi **Save** và chỉ định đường dẫn tệp để lưu tài liệu kết quả."
     },
     "title_right": "yêu cầu hệ thống",
     "content_right": {
@@ -36,7 +36,7 @@
       "step_1": "Hệ điều hành: Microsoft Windows, Linux, MacOS",
       "step_2": "Môi trường phát triển: {{DevEnv}}",
       "step_3": "Các khuôn khổ",
-      "step_4": "Tải xuống phiên bản mới nhất của {{ProductFullName}} từ [{{RepoName}}] ({{RepoUrl}})"
+      "step_4": "Tải xuống phiên bản mới nhất của {{ProductFullName}} từ [{{RepoName}}]({{RepoUrl}})"
     },
     "title_code": "Cách giải nén các trang tệp {{EXT}} bằng mã mẫu {{ProgLang}}",
     "code": {
@@ -49,7 +49,7 @@
   },
   "demos": {
     "title": "Bản trình diễn trực tiếp - Trích xuất các trang {{EXT}} Trực tuyến",
-    "h1": "Giải nén các trang tệp {{EXT}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos] (https://products.groupdocs.app/splitter/extract-pages/ {{ext}}) trang web.",
+    "h1": "Giải nén các trang tệp {{EXT}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/ {{ext}}) trang web.",
     "h2": "Bản demo trực tiếp có những lợi ích sau."
   },
   "more_formats": {

@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/vi/merge/net/) giúp các nhà phát triển .NET dễ dàng hợp nhất hai hoặc nhiều HTML tệp trong ứng dụng của họ bằng cách triển khai vài bước đơn giản.
         
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** Tham gia ** của lớp ** Merger ** và chuyển đường dẫn tài liệu nguồn thứ hai.
-        * Gọi ** Save ** của lớp ** Merger ** để lưu tài liệu đã hợp nhất.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **Tham gia** của lớp **Merger** và chuyển đường dẫn tài liệu nguồn thứ hai.
+        * Gọi **Save** của lớp **Merger** để lưu tài liệu đã hợp nhất.
 
     title_right: "yêu cầu hệ thống"
     content_right: |
@@ -106,7 +106,7 @@ demos:
     enable: true
     title: "Bản trình diễn trực tiếp - Ứng dụng trực tuyến để hợp nhất tài liệu"
     content: |
-       Hợp nhất nhiều hơn một HTML tệp ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/ html) trang web.
+       Hợp nhất nhiều hơn một HTML tệp ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/html) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

@@ -70,10 +70,10 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/vi/merge/net/) giúp các nhà phát triển C# dễ dàng xóa một hoặc một số trang cụ thể trong XLSM bằng cách thực hiện một vài bước đơn giản.
         
-        * Khởi tạo ** RemoveOptions ** với số trang để xóa.
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** RemovePages ** và chuyển đối tượng ** RemoveOptions **.
-        * Gọi ** Lưu ** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
+        * Khởi tạo **RemoveOptions** với số trang để xóa.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **RemovePages** và chuyển đối tượng **RemoveOptions**.
+        * Gọi **Save** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
 
     title_right: "yêu cầu hệ thống"
     content_right: |
@@ -110,7 +110,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Xóa XLSM Trang Trực tuyến"
     content: |
-       Xóa các trang tệp XLSM ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/ xlsm) trang web.
+       Xóa các trang tệp XLSM ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/xlsm) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

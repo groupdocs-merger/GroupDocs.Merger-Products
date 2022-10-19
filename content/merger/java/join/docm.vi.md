@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/vi/merge/java/) giúp các nhà phát triển Java dễ dàng kết hợp nhiều tệp DOCM bằng cách triển khai một vài bước đơn giản.
         
-        * Tạo một thể hiện của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** Tham gia ** của lớp ** Merger ** và chuyển đường dẫn tài liệu nguồn thứ hai.
-        * Gọi ** Save ** của lớp ** Merger ** để lưu tài liệu đã hợp nhất.
+        * Tạo một thể hiện của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **Tham gia** của lớp **Merger** và chuyển đường dẫn tài liệu nguồn thứ hai.
+        * Gọi **Save** của lớp **Merger** để lưu tài liệu đã hợp nhất.
 
     title_right: "yêu cầu hệ thống"
     content_right: |
@@ -105,7 +105,7 @@ demos:
     enable: true
     title: "Bản trình diễn trực tiếp - Ứng dụng trực tuyến để tham gia tài liệu"
     content: |
-       Tham gia nhiều tệp DOCM ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/ docm) trang web.
+       Tham gia nhiều tệp DOCM ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/docm) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

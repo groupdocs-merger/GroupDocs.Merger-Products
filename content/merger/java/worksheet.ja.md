@@ -27,7 +27,7 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、複数のWORKSHEETファイルを簡単にマージできます。
 
-        * ** Merger **クラスのインスタンスを作成し、WORKSHEETファイルをロードします。
+        * **Merger**クラスのインスタンスを作成し、WORKSHEETファイルをロードします。
         * **Merger**クラスインスタンスの**Join**メソッドを呼び出し、別のWORKSHEETファイルをロードします。
         * **Merger**クラスインスタンスの**Save**メソッドを呼び出して、マージされたドキュメントを保存します。
         

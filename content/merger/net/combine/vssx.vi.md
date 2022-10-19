@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/vi/merge/net/) giúp các nhà phát triển .NET dễ dàng kết hợp hai hoặc nhiều VSSX tệp trong ứng dụng của họ bằng cách triển khai vài bước đơn giản.
         
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** Tham gia ** của lớp ** Merger ** và chuyển đường dẫn tài liệu nguồn thứ hai.
-        * Gọi ** Save ** của lớp ** Merger ** để lưu tài liệu đã hợp nhất.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **Tham gia** của lớp **Merger** và chuyển đường dẫn tài liệu nguồn thứ hai.
+        * Gọi **Save** của lớp **Merger** để lưu tài liệu đã hợp nhất.
 
     title_right: "yêu cầu hệ thống"
     content_right: |

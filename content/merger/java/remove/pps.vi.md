@@ -70,10 +70,10 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/vi/merge/java/) giúp các nhà phát triển Java dễ dàng xóa một hoặc một số trang cụ thể trong PPS bằng cách thực hiện một vài bước đơn giản.
         
-        * Khởi tạo ** RemoveOptions ** với số trang để xóa.
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** removePages ** và chuyển đối tượng ** RemoveOptions **.
-        * Gọi ** save ** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
+        * Khởi tạo **RemoveOptions** với số trang để xóa.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **RemovePages** và chuyển đối tượng **RemoveOptions**.
+        * Gọi **Save** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
 
     title_right: "yêu cầu hệ thống"
     content_right: |
@@ -109,7 +109,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Xóa PPS Trang Trực tuyến"
     content: |
-       Xóa các trang tệp PPS ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/ pps) trang web.
+       Xóa các trang tệp PPS ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/pps) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

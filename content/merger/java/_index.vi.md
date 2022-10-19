@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger cho Java hỗ trợ hợp nhất [các định dạng tệp tài liệu] sau (https://docs.groupdocs.com/merger/java/supported-document-formats/):
+          GroupDocs.Merger cho Java hỗ trợ hợp nhất [các định dạng tệp tài liệu](https://docs.groupdocs.com/merger/java/supported-document-formats/):
 
         left:
           enable: true

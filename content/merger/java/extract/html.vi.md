@@ -70,10 +70,10 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/vi/merge/java/) giúp các nhà phát triển Java dễ dàng trích xuất các trang mong muốn từ tệp HTML và lưu nó dưới dạng một tệp mới chứa các trang đã chọn bằng cách thực hiện một vài bước đơn giản.
         
-        * Khởi tạo ** ExtractOptions ** với số trang sẽ xuất hiện trong tài liệu kết quả.
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** extractPages ** và truyền đối tượng ** ExtractOptions **.
-        * Gọi ** save ** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
+        * Khởi tạo **ExtractOptions** với số trang sẽ xuất hiện trong tài liệu kết quả.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **ExtractPages** và truyền đối tượng **ExtractOptions**.
+        * Gọi **Save** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
 
     title_right: "yêu cầu hệ thống"
     content_right: |

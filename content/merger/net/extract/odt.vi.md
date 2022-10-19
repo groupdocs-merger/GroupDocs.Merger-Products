@@ -70,10 +70,10 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/vi/merge/net/) giúp các nhà phát triển C# dễ dàng trích xuất các trang mong muốn từ tệp ODT và lưu nó dưới dạng một tệp mới chứa các trang đã chọn bằng cách thực hiện một vài bước đơn giản.
         
-        * Khởi tạo ** ExtractOptions ** với số trang sẽ xuất hiện trong tài liệu kết quả.
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** ExtractPages ** và chuyển đối tượng ** ExtractOptions **.
-        * Gọi ** Lưu ** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
+        * Khởi tạo **ExtractOptions** với số trang sẽ xuất hiện trong tài liệu kết quả.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **ExtractPages** và chuyển đối tượng **ExtractOptions**.
+        * Gọi **Save** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
 
     title_right: "yêu cầu hệ thống"
     content_right: |

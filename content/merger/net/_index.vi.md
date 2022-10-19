@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger cho .NET hỗ trợ hợp nhất [các định dạng tệp tài liệu] sau (https://docs.groupdocs.com/merger/net/supported-document-formats/):
+          GroupDocs.Merger cho .NET hỗ trợ hợp nhất [các định dạng tệp tài liệu](https://docs.groupdocs.com/merger/net/supported-document-formats/):
 
         left:
           enable: true

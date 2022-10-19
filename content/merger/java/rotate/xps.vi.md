@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for Java](/vi/merge/java/) giúp các nhà phát triển Java dễ dàng xoay một số trang cụ thể hoặc tất cả các trang trong tệp XPS ở 90 , Góc quay 180 hoặc 270 bằng cách thực hiện một vài bước đơn giản.
         
         * Khởi tạo ** RotateOptions ** với góc xoay và số trang mong muốn.
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
         * Gọi ** xoayPages ** và chuyển đối tượng ** RotateOptions **.
-        * Gọi ** save ** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
+        * Gọi **Save** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
 
     title_right: "yêu cầu hệ thống"
     content_right: |

@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/vi/merge/java/) giúp các nhà phát triển Java dễ dàng kết hợp nhiều tệp ODS bằng cách triển khai một vài bước đơn giản.
         
-        * Tạo một thể hiện của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** Tham gia ** của lớp ** Merger ** và chuyển đường dẫn tài liệu nguồn thứ hai.
-        * Gọi ** Save ** của lớp ** Merger ** để lưu tài liệu đã hợp nhất.
+        * Tạo một thể hiện của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **Tham gia** của lớp **Merger** và chuyển đường dẫn tài liệu nguồn thứ hai.
+        * Gọi **Save** của lớp **Merger** để lưu tài liệu đã hợp nhất.
 
     title_right: "yêu cầu hệ thống"
     content_right: |

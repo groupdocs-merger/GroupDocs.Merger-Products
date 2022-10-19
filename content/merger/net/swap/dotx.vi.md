@@ -70,10 +70,10 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET]({{sl slash_lang}}/merge/net/) giúp các nhà phát triển C# dễ dàng hoán đổi các trang trong một tệp DOTX bằng cách thực hiện một vài bước đơn giản .
         
-        * Khởi tạo ** SwapOptions ** để chỉ định số trang để trao đổi.
-        * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
-        * Gọi ** SwapPages ** và chuyển đối tượng ** SwapOptions **.
-        * Gọi ** Lưu ** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
+        * Khởi tạo **SwapOptions** để chỉ định số trang để trao đổi.
+        * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
+        * Gọi **SwapPages** và chuyển đối tượng **SwapOptions**.
+        * Gọi **Save** và chỉ định đường dẫn tệp để lưu tài liệu kết quả.
 
     title_right: "yêu cầu hệ thống"
     content_right: |
@@ -113,7 +113,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Trao đổi DOTX Trang Tệp Trực tuyến"
     content: |
-       Hoán đổi các trang tệp DOTX ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/ dotx) trang web.
+       Hoán đổi các trang tệp DOTX ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/dotx) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

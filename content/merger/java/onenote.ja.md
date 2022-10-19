@@ -27,7 +27,7 @@ steps:
     content_left: |
         [GroupDocs.Merger](/merger/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、複数のONENOTEファイルを簡単にマージできます。
 
-        * ** Merger **クラスのインスタンスを作成し、ONENOTEファイルをロードします。
+        * **Merger**クラスのインスタンスを作成し、ONENOTEファイルをロードします。
         * **Merger**クラスインスタンスの**Join**メソッドを呼び出し、別のONENOTEファイルをロードします。
         * **Merger**クラスインスタンスの**Save**メソッドを呼び出して、マージされたドキュメントを保存します。
         
