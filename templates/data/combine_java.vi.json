@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Kết hợp các tệp {{EXT}} thông qua API hợp nhất tài liệu Java & J2SE",
+    "description": "Kết hợp nhiều tệp {{EXT}} trong Java bằng cách sử dụng API hợp nhất tài liệu với tất cả dữ liệu, kiểu và định dạng làm tài liệu nguồn."
+  },
+  "header": {
+    "title": "Kết hợp {{EXT}} Tệp trong {{ProgLang}}",
+    "description": "Kết hợp {{EXT}} với một vài dòng mã {{ProductName}}.",
+    "button_label": "Tải xuống bản dùng thử miễn phí"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Tham chiếu API",
+      "button_text_2": "Ví dụ về mã",
+      "button_text_3": "Bản trình diễn trực tiếp",
+      "button_text_4": "Định giá"
+    }
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}] ({{slash_lang}} / merge / {{ProductCode}} /) cung cấp một giải pháp thuận tiện để kết hợp nhiều tệp PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều tài liệu khác thành một tệp duy nhất trong các ứng dụng {{ProductName}}. GroupDocs.Merger sẽ giúp bạn tiết kiệm rất nhiều công sức, vì bạn được phép kết hợp các tài liệu {{EXT}} - không cần cài đặt bất kỳ phần mềm, ứng dụng máy tính để bàn hoặc plugin nào của bên thứ ba. Bây giờ không cần thiết phải lãng phí thời gian của bạn và kết hợp các tệp theo cách thủ công! Sứ mệnh của GroupDocs là cung cấp chất lượng tốt nhất và đơn giản hóa quy trình xử lý tài liệu.",
+    "h2": "API GroupDocs.Merger là một lựa chọn đúng đắn cho các giải pháp công ty cần các tính năng kết hợp tệp. Các API này được hỗ trợ tốt trên tất cả các hệ điều hành và nền tảng chính bao gồm {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Kết hợp Nhiều {{EXT}} Tệp trong {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}] ({{slash_lang}} / merge / {{ProductCode}} /) giúp các nhà phát triển Java dễ dàng kết hợp nhiều tệp {{EXT}} bằng cách triển khai một vài bước đơn giản.",
+      "step_1": "Tạo một thể hiện của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.",
+      "step_2": "Gọi ** Tham gia ** của lớp ** Merger ** và chuyển đường dẫn tài liệu nguồn thứ hai.",
+      "step_3": "Gọi ** Save ** của lớp ** Merger ** để lưu tài liệu đã hợp nhất."
+    },
+    "title_right": "yêu cầu hệ thống",
+    "content_right": {
+      "description": "API {{ProductFullName}} được hỗ trợ trên tất cả các nền tảng và hệ điều hành chính. Trước khi thực hiện mã bên dưới, hãy đảm bảo rằng bạn đã cài đặt các điều kiện tiên quyết sau trên hệ thống của mình.",
+      "step_1": "Hệ điều hành: Microsoft Windows, Linux, MacOS",
+      "step_2": "Môi trường phát triển: {{DevEnv}}",
+      "step_3": "Các khuôn khổ",
+      "step_4": "Tải xuống phiên bản mới nhất của {{ProductFullName}} từ [{{RepoName}}] ({{RepoUrl}})"
+    },
+    "title_code": "Cách kết hợp các tệp {{EXT}} bằng mã mẫu {{ProgLang}}",
+    "code": {
+      "load_comment": "Kết hợp các tệp {{EXT}} bằng GroupDocs.Merger cho Java API",
+      "ini_comment": "Khởi tạo hợp nhất với tài liệu đầu vào {{EXT}}",
+      "run_comment": "Gọi phương thức nối của cá thể lớp Merger và chuyển đường dẫn tài liệu nguồn thứ hai",
+      "save_comment": "Gọi phương thức lưu của cá thể lớp Merger để lưu tài liệu đã hợp nhất"
+    }
+  },
+  "demos": {
+    "title": "Bản trình diễn trực tiếp - Ứng dụng trực tuyến để kết hợp tài liệu",
+    "h1": "Kết hợp nhiều {{EXT}} tệp ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos] (https://products.groupdocs.app/merger/family).",
+    "h2": "Bản demo trực tiếp có những lợi ích sau."
+  },
+  "more_formats": {
+    "title": "Hợp nhất các định dạng tài liệu khác",
+    "content": "API hợp nhất tài liệu {{ProductName}} cho các định dạng tệp và hình ảnh. Kết hợp với nhau một số định dạng tài liệu phổ biến như được nêu dưới đây."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Di chuyển {{EXT}} Trang trong {{ProgLang}}",
+    "description": "Di chuyển các trang trong tài liệu {{EXT}} trong {{ProgLang}} đến bất kỳ vị trí nào bằng cách sử dụng API hợp nhất tài liệu."
+  },
+  "header": {
+    "title": "Di chuyển {{EXT}} Trang trong {{ProgLang}}",
+    "description": "Di chuyển các Trang {{EXT}} với một vài dòng mã {{ProductName}}.",
+    "button_label": "Tải xuống bản dùng thử miễn phí"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Tham chiếu API",
+      "button_text_2": "Ví dụ về mã",
+      "button_text_3": "Bản trình diễn trực tiếp",
+      "button_text_4": "Định giá"
+    }
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}] ({{slash_lang}} / merge / {{ProductCode}} /) cung cấp một giải pháp đơn giản để hợp nhất và tách một cách an toàn giữa nhiều định dạng tài liệu bao gồm PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, hình ảnh và nhiều thứ khác trong các ứng dụng {{ProductName}}. Chỉ cần thêm một vài dòng mã, hãy thực hiện một số thao tác trên tài liệu như di chuyển, xóa, xoay, hoán đổi, trích xuất hoặc thay đổi hướng của các trang trong tài liệu. API hợp nhất tài liệu cũng hỗ trợ xem trước các trang tài liệu dưới dạng hình ảnh để phân tích cấu trúc tài liệu, định dạng và nội dung trên trang.",
+    "h2": "API GroupDocs.Merger là một lựa chọn đúng đắn cho các giải pháp công ty cần các tính năng di chuyển trang tệp. Các API này được hỗ trợ tốt trên tất cả các hệ điều hành và nền tảng chính bao gồm {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Di chuyển {{EXT}} Trang Tệp trong {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}] ({{slash_lang}} / merge / {{ProductCode}} /) giúp các nhà phát triển {{ProgLang}} dễ dàng di chuyển các trang trong tệp {{EXT}} bằng cách thực hiện một vài bước đơn giản .",
+      "step_1": "Khởi tạo ** MoveOptions ** để chỉ định số trang hiện tại và trang mới.",
+      "step_2": "Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.",
+      "step_3": "Gọi ** MovePage ** và chuyển đối tượng ** MoveOptions **.",
+      "step_4": "Gọi ** Lưu ** và chỉ định đường dẫn tệp để lưu tài liệu kết quả."
+    },
+    "title_right": "yêu cầu hệ thống",
+    "content_right": {
+      "description": "API {{ProductFullName}} được hỗ trợ trên tất cả các nền tảng và hệ điều hành chính. Trước khi thực hiện mã bên dưới, hãy đảm bảo rằng bạn đã cài đặt các điều kiện tiên quyết sau trên hệ thống của mình.",
+      "step_1": "Hệ điều hành: Microsoft Windows, Linux, MacOS",
+      "step_2": "Môi trường phát triển: {{DevEnv}}",
+      "step_3": "Các khuôn khổ",
+      "step_4": "Tải xuống phiên bản mới nhất của {{ProductFullName}} từ [{{RepoName}}] ({{RepoUrl}})"
+    },
+    "title_code": "Cách di chuyển các trang tệp {{EXT}} bằng mã mẫu {{ProgLang}}",
+    "code": {
+      "load_comment": "Di chuyển các trang tệp {{EXT}} bằng API GroupDocs.Merger",
+      "opt_comment": "Khởi tạo lớp MoveOptions để chỉ định số trang hiện tại và trang mới",
+      "ini_comment": "Khởi tạo hợp nhất với tài liệu đầu vào {{EXT}}",
+      "run_comment": "Gọi phương thức MovePage và chuyển đối tượng MoveOptions cho nó",
+      "save_comment": "Gọi phương thức Lưu và chuyển đường dẫn tệp mong muốn để lưu tài liệu đầu ra"
+    }
+  },
+  "demos": {
+    "title": "Bản trình diễn Trực tiếp - Di chuyển {{EXT}} Trang trực tuyến",
+    "h1": "Di chuyển các trang tệp {{EXT}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos] (https://products.groupdocs.app/splitter/move-pages/ {{ext}}) trang web.",
+    "h2": "Bản demo trực tiếp có những lợi ích sau."
+  },
+  "more_formats": {
+    "title": "Di chuyển các trang của các định dạng tài liệu khác",
+    "content": "{{ProductName}} tài liệu API tách và sáp nhập cho các định dạng tệp và hình ảnh. Di chuyển một số định dạng tệp phổ biến như được nêu bên dưới."
+  }
+}

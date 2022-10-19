@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Giải pháp Hợp nhất và Tách tài liệu | Trên API Premise & Ứng dụng Miễn phí",
+    "description": "Hợp nhất & Tách MS Office, OpenDocument, hình ảnh PDF & các Định dạng Tệp khác bằng Giải pháp Chính xác hoặc sử dụng Ứng dụng Ghép & Tách Tài liệu Trực tuyến."
+  },
+  "header": {
+    "title": "Giải pháp hợp nhất và tách tài liệu",
+    "description": "Dễ dàng hợp nhất nhiều tài liệu hoặc chia Microsoft Office, OpenOffice, PDF và các tài liệu khác thành các trang."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Merger High Code APIs Bao gồm",
+      "label": "Xem tất cả các API mã cao",
+      "net": {
+        "content": "Trên các API Premise có thể giúp bạn triển khai tính năng tách và hợp nhất nhanh chóng cho nhiều tài liệu trong các ứng dụng dựa trên .NET của bạn."
+      },
+      "java": {
+        "content": "Các API Java gốc để nhanh chóng hợp nhất nhiều tài liệu hoặc chia bất kỳ tài liệu nào thành các trang trong các ứng dụng dựa trên Java của bạn."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Merger Code Low Code APIs Bao gồm",
+      "label": "Xem tất cả các API mã thấp",
+      "curl": {
+        "content": "Các lệnh cURL đơn giản cho API đám mây hợp nhất tài liệu RESTful để hợp nhất và chia nhỏ tài liệu trên nhiều định dạng tài liệu phổ biến được hỗ trợ."
+      },
+      "net": {
+        "content": "Cloud SDK cho Microsoft .NET giúp lập trình viên triển khai tính năng hợp nhất và chia nhanh cho nhiều tài liệu trong các ứng dụng dựa trên .NET của họ."
+      },
+      "java": {
+        "content": "Kết hợp nhiều tài liệu thành một, chia bất kỳ tài liệu nào thành nhiều, sắp xếp lại, thay thế hoặc thay đổi hướng trang trong các ứng dụng Java của bạn."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Không bao gồm ứng dụng mã",
+      "label": "Xem tất cả ứng dụng không có mã",
+      "total": {
+        "content": "Hãy thử ứng dụng trực tuyến miễn phí của chúng tôi để ghép hơn 30 loại tệp mà không cần rời khỏi trình duyệt web yêu thích của bạn."
+      },
+      "docx": {
+        "content": "Ghép nhiều tệp DOCX để tạo một tài liệu duy nhất."
+      },
+      "pdf": {
+        "content": "Hợp nhất nhiều tệp PDF để tạo một tài liệu duy nhất trực tiếp từ trình duyệt web."
+      }
+    }
+  }
+}
