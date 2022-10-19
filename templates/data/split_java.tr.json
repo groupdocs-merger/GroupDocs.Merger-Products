@@ -35,7 +35,7 @@
       "step_1": "İşletim Sistemleri: Microsoft Windows, Linux, MacOS",
       "step_2": "Geliştirme Ortamları: {{DevEnv}}",
       "step_3": "çerçeveler",
-      "step_4": "{{ProductFullName}} ürününün en son sürümünü [{{RepoName}}}]({{RepoUrl}}) adresinden indirin"
+      "step_4": "{{ProductFullName}} ürününün en son sürümünü [{{RepoName}}]({{RepoUrl}}) adresinden indirin"
     },
     "title_code": "{{ProgLang}} örnek kodunu kullanarak {{EXT}} dosyası nasıl bölünür",
     "code": {

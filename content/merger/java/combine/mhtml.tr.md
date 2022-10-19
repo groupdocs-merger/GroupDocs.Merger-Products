@@ -81,7 +81,7 @@ steps:
         * İşletim Sistemleri: Microsoft Windows, Linux, MacOS
         * Geliştirme Ortamları: NetBeans, IntelliJ IDEA, Eclipse
         * çerçeveler: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
-        * GroupDocs.Merger for Java ürününün en son sürümünü [Maven}](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger) adresinden indirin
+        * GroupDocs.Merger for Java ürününün en son sürümünü [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger) adresinden indirin
          
     code: |
      {{% merger/additional-styles %}}

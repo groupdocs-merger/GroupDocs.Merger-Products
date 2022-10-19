@@ -81,7 +81,7 @@ steps:
         * İşletim Sistemleri: Microsoft Windows, Linux, MacOS
         * Geliştirme Ortamları: Visual Studio, Xamarin, MonoDevelop
         * çerçeveler: .NET Framework, .NET Standard, .NET Core, Mono
-        * GroupDocs.Merger for .NET ürününün en son sürümünü [NuGet}](https://www.nuget.org/packages/groupdocs.merger) adresinden indirin
+        * GroupDocs.Merger for .NET ürününün en son sürümünü [NuGet](https://www.nuget.org/packages/groupdocs.merger) adresinden indirin
          
     code: |
      {{% merger/additional-styles %}}
