@@ -59,7 +59,7 @@ about:
     enable: true
     title: "Giới thiệu về API GroupDocs.Merger for Java"
     content: |
-        [GroupDocs.Merger for Java] ({{Sl slash_lang}}/merge/java/) cung cấp một giải pháp thuận tiện để kết hợp nhiều tệp PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều tài liệu khác thành một tệp duy nhất trong các ứng dụng Java. GroupDocs.Merger sẽ giúp bạn tiết kiệm rất nhiều công sức vì bạn được phép tham gia các tài liệu PNG - không cần cài đặt bất kỳ phần mềm, ứng dụng máy tính để bàn hoặc plugin nào của bên thứ ba. Bây giờ không cần thiết phải lãng phí thời gian của bạn và nối các tệp theo cách thủ công! Sứ mệnh của GroupDocs là cung cấp chất lượng tốt nhất và đơn giản hóa quy trình xử lý tài liệu.
+        [GroupDocs.Merger for Java]({{Sl slash_lang}}/merge/java/) cung cấp một giải pháp thuận tiện để kết hợp nhiều tệp PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều tài liệu khác thành một tệp duy nhất trong các ứng dụng Java. GroupDocs.Merger sẽ giúp bạn tiết kiệm rất nhiều công sức vì bạn được phép tham gia các tài liệu PNG - không cần cài đặt bất kỳ phần mềm, ứng dụng máy tính để bàn hoặc plugin nào của bên thứ ba. Bây giờ không cần thiết phải lãng phí thời gian của bạn và nối các tệp theo cách thủ công! Sứ mệnh của GroupDocs là cung cấp chất lượng tốt nhất và đơn giản hóa quy trình xử lý tài liệu.
         
         API GroupDocs.Merger là một lựa chọn đúng đắn cho các giải pháp công ty cần các tính năng nối tệp. Các API này được hỗ trợ tốt trên tất cả các hệ điều hành và nền tảng chính bao gồm J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10.
 
@@ -68,7 +68,7 @@ steps:
     enable: true
     title_left: "Nối Nhiều PNG Tệp trong Java"
     content_left: |
-        [GroupDocs.Merger for Java] (/vi/merge/java/) giúp các nhà phát triển Java dễ dàng kết hợp nhiều tệp PNG bằng cách triển khai một vài bước đơn giản.
+        [GroupDocs.Merger for Java](/vi/merge/java/) giúp các nhà phát triển Java dễ dàng kết hợp nhiều tệp PNG bằng cách triển khai một vài bước đơn giản.
         
         * Tạo một thể hiện của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
         * Gọi ** Tham gia ** của lớp ** Merger ** và chuyển đường dẫn tài liệu nguồn thứ hai.
@@ -81,7 +81,7 @@ steps:
         * Hệ điều hành: Microsoft Windows, Linux, MacOS
         * Môi trường phát triển: NetBeans, IntelliJ IDEA, Eclipse
         * Các khuôn khổ: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
-        * Tải xuống phiên bản mới nhất của GroupDocs.Merger for Java từ [Maven] (https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
+        * Tải xuống phiên bản mới nhất của GroupDocs.Merger for Java từ [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
          
     code: |
      {{% merger/additional-styles %}}
@@ -105,7 +105,7 @@ demos:
     enable: true
     title: "Bản trình diễn trực tiếp - Ứng dụng trực tuyến để tham gia tài liệu"
     content: |
-       Tham gia nhiều tệp PNG ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos] (https://products.groupdocs.app/merger/ png) trang web.
+       Tham gia nhiều tệp PNG ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/ png) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

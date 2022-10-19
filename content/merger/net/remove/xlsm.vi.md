@@ -59,7 +59,7 @@ about:
     enable: true
     title: "Giới thiệu về API GroupDocs.Merger for .NET"
     content: |
-        [GroupDocs.Merger for .NET] (/vi/merge/net/) cung cấp một giải pháp đơn giản để hợp nhất và tách một cách an toàn giữa nhiều định dạng tài liệu bao gồm PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, hình ảnh và nhiều thứ khác trong các ứng dụng .NET. Chỉ cần thêm một vài dòng mã, hãy thực hiện một số thao tác trên tài liệu như di chuyển, xóa, xoay, hoán đổi, trích xuất hoặc thay đổi hướng của các trang trong tài liệu. API hợp nhất tài liệu cũng hỗ trợ xem trước các trang tài liệu dưới dạng hình ảnh để phân tích cấu trúc tài liệu, định dạng và nội dung trên trang.
+        [GroupDocs.Merger for .NET](/vi/merge/net/) cung cấp một giải pháp đơn giản để hợp nhất và tách một cách an toàn giữa nhiều định dạng tài liệu bao gồm PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, hình ảnh và nhiều thứ khác trong các ứng dụng .NET. Chỉ cần thêm một vài dòng mã, hãy thực hiện một số thao tác trên tài liệu như di chuyển, xóa, xoay, hoán đổi, trích xuất hoặc thay đổi hướng của các trang trong tài liệu. API hợp nhất tài liệu cũng hỗ trợ xem trước các trang tài liệu dưới dạng hình ảnh để phân tích cấu trúc tài liệu, định dạng và nội dung trên trang.
         
         API GroupDocs.Merger là một lựa chọn đúng đắn cho các giải pháp công ty cần các tính năng xóa trang tệp. Các API này được hỗ trợ tốt trên tất cả các hệ điều hành và nền tảng chính bao gồm .NET Framework, .NET Standard, .NET Core, Mono.
 
@@ -68,7 +68,7 @@ steps:
     enable: true
     title_left: "Xóa XLSM Trang Tệp trong .NET"
     content_left: |
-        [GroupDocs.Merger for .NET] (/vi/merge/net/) giúp các nhà phát triển C# dễ dàng xóa một hoặc một số trang cụ thể trong XLSM bằng cách thực hiện một vài bước đơn giản.
+        [GroupDocs.Merger for .NET](/vi/merge/net/) giúp các nhà phát triển C# dễ dàng xóa một hoặc một số trang cụ thể trong XLSM bằng cách thực hiện một vài bước đơn giản.
         
         * Khởi tạo ** RemoveOptions ** với số trang để xóa.
         * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
@@ -82,7 +82,7 @@ steps:
         * Hệ điều hành: Microsoft Windows, Linux, MacOS
         * Môi trường phát triển: Visual Studio, Xamarin, MonoDevelop
         * Các khuôn khổ: .NET Framework, .NET Standard, .NET Core, Mono
-        * Tải xuống phiên bản mới nhất của GroupDocs.Merger for .NET từ [NuGet] (https://www.nuget.org/packages/groupdocs.merger)
+        * Tải xuống phiên bản mới nhất của GroupDocs.Merger for .NET từ [NuGet](https://www.nuget.org/packages/groupdocs.merger)
          
     code: |
      {{% merger/additional-styles %}}
@@ -110,7 +110,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Xóa XLSM Trang Trực tuyến"
     content: |
-       Xóa các trang tệp XLSM ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos] (https://products.groupdocs.app/splitter/remove-pages/ xlsm) trang web.
+       Xóa các trang tệp XLSM ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/ xlsm) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

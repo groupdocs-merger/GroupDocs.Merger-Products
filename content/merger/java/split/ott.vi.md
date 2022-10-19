@@ -59,7 +59,7 @@ about:
     enable: true
     title: "Giới thiệu về API GroupDocs.Merger for Java"
     content: |
-        Thư viện [GroupDocs.Merger for Java] (/vi/merge/java/) cung cấp một giải pháp đơn giản để hợp nhất và tách một cách an toàn giữa nhiều định dạng tài liệu bao gồm PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều ứng dụng khác trong ứng dụng Java. Chỉ cần thêm một vài dòng mã, hãy thực hiện một số thao tác trên tài liệu như di chuyển, xóa, xoay, hoán đổi, trích xuất hoặc thay đổi hướng của các trang trong tài liệu. API hợp nhất tài liệu cũng hỗ trợ xem trước các trang tài liệu dưới dạng hình ảnh để phân tích cấu trúc tài liệu, định dạng và nội dung trên trang.
+        Thư viện [GroupDocs.Merger for Java](/vi/merge/java/) cung cấp một giải pháp đơn giản để hợp nhất và tách một cách an toàn giữa nhiều định dạng tài liệu bao gồm PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều ứng dụng khác trong ứng dụng Java. Chỉ cần thêm một vài dòng mã, hãy thực hiện một số thao tác trên tài liệu như di chuyển, xóa, xoay, hoán đổi, trích xuất hoặc thay đổi hướng của các trang trong tài liệu. API hợp nhất tài liệu cũng hỗ trợ xem trước các trang tài liệu dưới dạng hình ảnh để phân tích cấu trúc tài liệu, định dạng và nội dung trên trang.
         
         API GroupDocs.Merger là một lựa chọn đúng đắn cho các giải pháp công ty cần tính năng chia nhỏ tệp. Các API này được hỗ trợ tốt trên tất cả các hệ điều hành và nền tảng chính bao gồm J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10.
 
@@ -68,7 +68,7 @@ steps:
     enable: true
     title_left: "Tách tệp OTT theo các trang trong Java"
     content_left: |
-        [GroupDocs.Merger for Java] (/vi/merge/java/) giúp các nhà phát triển Java dễ dàng chia một tệp OTT thành nhiều tệp kết quả bằng cách triển khai vài bước đơn giản.
+        [GroupDocs.Merger for Java](/vi/merge/java/) giúp các nhà phát triển Java dễ dàng chia một tệp OTT thành nhiều tệp kết quả bằng cách triển khai vài bước đơn giản.
         
         * Khởi tạo ** SplitOptions ** với định dạng đường dẫn tệp đầu ra.
         * Tạo phiên bản mới của ** Merger ** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
@@ -81,7 +81,7 @@ steps:
         * Hệ điều hành: Microsoft Windows, Linux, MacOS
         * Môi trường phát triển: NetBeans, IntelliJ IDEA, Eclipse
         * Các khuôn khổ: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
-        * Tải xuống phiên bản mới nhất của GroupDocs.Merger for Java từ [Maven] (https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
+        * Tải xuống phiên bản mới nhất của GroupDocs.Merger for Java từ [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
          
     code: |
      {{% merger/additional-styles %}}
@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Tách tệp OTT Trực tuyến"
     content: |
-       Tách tệp OTT ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos] (https://products.groupdocs.app/splitter/ ott) trang web.
+       Tách tệp OTT ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/ ott) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

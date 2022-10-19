@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger para .NET admite la fusión de los siguientes [formatos de archivo de documento] (https://docs.groupdocs.com/merger/net/supported-document-formats/):
+          GroupDocs.Merger para .NET admite la fusión de los siguientes [formatos de archivo de documento](https://docs.groupdocs.com/merger/net/supported-document-formats/):
 
         left:
           enable: true
