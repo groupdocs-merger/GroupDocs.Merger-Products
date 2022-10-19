@@ -24,7 +24,7 @@
   "steps": {
     "title_left": "Hoán đổi {{EXT}} Trang Tệp trong {{ProductName}}",
     "content_left": {
-      "description": "[{{ProductFullName}}]({{sl slash_lang}}/merge/{{ProductCode}}/) giúp các nhà phát triển {{ProgLang}} dễ dàng hoán đổi các trang trong một tệp {{EXT}} bằng cách thực hiện một vài bước đơn giản .",
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merge/{{ProductCode}}/) giúp các nhà phát triển {{ProgLang}} dễ dàng hoán đổi các trang trong một tệp {{EXT}} bằng cách thực hiện một vài bước đơn giản .",
       "step_1": "Khởi tạo **SwapOptions** để chỉ định số trang để trao đổi.",
       "step_2": "Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.",
       "step_3": "Gọi **SwapPages** và chuyển đối tượng **SwapOptions**.",

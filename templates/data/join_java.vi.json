@@ -18,7 +18,7 @@
   },
   "about": {
     "title": "Giới thiệu về API {{ProductFullName}}",
-    "h1": "[{{ProductFullName}}]({{Sl slash_lang}}/merge/{{ProductCode}}/) cung cấp một giải pháp thuận tiện để kết hợp nhiều tệp PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều tài liệu khác thành một tệp duy nhất trong các ứng dụng {{ProductName}}. GroupDocs.Merger sẽ giúp bạn tiết kiệm rất nhiều công sức vì bạn được phép tham gia các tài liệu {{EXT}} - không cần cài đặt bất kỳ phần mềm, ứng dụng máy tính để bàn hoặc plugin nào của bên thứ ba. Bây giờ không cần thiết phải lãng phí thời gian của bạn và nối các tệp theo cách thủ công! Sứ mệnh của GroupDocs là cung cấp chất lượng tốt nhất và đơn giản hóa quy trình xử lý tài liệu.",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merge/{{ProductCode}}/) cung cấp một giải pháp thuận tiện để kết hợp nhiều tệp PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều tài liệu khác thành một tệp duy nhất trong các ứng dụng {{ProductName}}. GroupDocs.Merger sẽ giúp bạn tiết kiệm rất nhiều công sức vì bạn được phép tham gia các tài liệu {{EXT}} - không cần cài đặt bất kỳ phần mềm, ứng dụng máy tính để bàn hoặc plugin nào của bên thứ ba. Bây giờ không cần thiết phải lãng phí thời gian của bạn và nối các tệp theo cách thủ công! Sứ mệnh của GroupDocs là cung cấp chất lượng tốt nhất và đơn giản hóa quy trình xử lý tài liệu.",
     "h2": "API GroupDocs.Merger là một lựa chọn đúng đắn cho các giải pháp công ty cần các tính năng nối tệp. Các API này được hỗ trợ tốt trên tất cả các hệ điều hành và nền tảng chính bao gồm {{Runtime}}."
   },
   "steps": {

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-19T08:28:34
+date: 2022-10-19T13:56:01
 draft: false
 otherformats: docm docx dot dotm dotx epub html mht mhtml odp ods odt one otp ott pdf
 
@@ -59,7 +59,7 @@ about:
     enable: true
     title: "Giới thiệu về API GroupDocs.Merger for .NET"
     content: |
-        [GroupDocs.Merger for .NET]({{Sl slash_lang}}/merge/net/) cung cấp một giải pháp thuận tiện để kết hợp nhiều tệp PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều tài liệu khác thành một tệp duy nhất trong các ứng dụng .NET. GroupDocs.Merger sẽ giúp bạn tiết kiệm rất nhiều công sức vì bạn được phép tham gia các tài liệu DOC - không cần cài đặt bất kỳ phần mềm, ứng dụng máy tính để bàn hoặc plugin nào của bên thứ ba. Bây giờ không cần thiết phải lãng phí thời gian của bạn và nối các tệp theo cách thủ công! Sứ mệnh của GroupDocs là cung cấp chất lượng tốt nhất và đơn giản hóa quy trình xử lý tài liệu.
+        [GroupDocs.Merger for .NET](/vi/merge/net/) cung cấp một giải pháp thuận tiện để kết hợp nhiều tệp PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, hình ảnh và nhiều tài liệu khác thành một tệp duy nhất trong các ứng dụng .NET. GroupDocs.Merger sẽ giúp bạn tiết kiệm rất nhiều công sức vì bạn được phép tham gia các tài liệu DOC - không cần cài đặt bất kỳ phần mềm, ứng dụng máy tính để bàn hoặc plugin nào của bên thứ ba. Bây giờ không cần thiết phải lãng phí thời gian của bạn và nối các tệp theo cách thủ công! Sứ mệnh của GroupDocs là cung cấp chất lượng tốt nhất và đơn giản hóa quy trình xử lý tài liệu.
         
         API GroupDocs.Merger là một lựa chọn đúng đắn cho các giải pháp công ty cần các tính năng nối tệp. Các API này được hỗ trợ tốt trên tất cả các hệ điều hành và nền tảng chính bao gồm .NET Framework, .NET Standard, .NET Core, Mono.
 

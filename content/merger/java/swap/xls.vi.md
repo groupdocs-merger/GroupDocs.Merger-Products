@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-19T08:28:36
+date: 2022-10-19T13:56:03
 draft: false
 otherformats: ods odt one otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm
 
@@ -68,7 +68,7 @@ steps:
     enable: true
     title_left: "Hoán đổi XLS Trang Tệp trong Java"
     content_left: |
-        [GroupDocs.Merger for Java]({{sl slash_lang}}/merge/java/) giúp các nhà phát triển Java dễ dàng hoán đổi các trang trong một tệp XLS bằng cách thực hiện một vài bước đơn giản .
+        [GroupDocs.Merger for Java](/vi/merge/java/) giúp các nhà phát triển Java dễ dàng hoán đổi các trang trong một tệp XLS bằng cách thực hiện một vài bước đơn giản .
         
         * Khởi tạo **SwapOptions** để chỉ định số trang để trao đổi.
         * Tạo phiên bản mới của **Merger** và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.
