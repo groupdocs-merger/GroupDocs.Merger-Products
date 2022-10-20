@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/pl/merger/java/) ułatwia programistom Java łączenie wielu plików VDX, wykonując kilka prostych kroków.
         
-        * Utwórz instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **Join** klasy **Merger** i przekaż drugą ścieżkę dokumentu źródłowego.
-        * Wywołaj **Save** klasy **Scalanie**, aby zapisać scalony dokument.
+        * Wywołaj **Save** klasy **Merger**, aby zapisać scalony dokument.
 
     title_right: "wymagania systemowe"
     content_right: |

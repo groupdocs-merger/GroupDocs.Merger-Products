@@ -72,7 +72,7 @@ steps:
         
         * Crea una nuova istanza di **Merger** e passa il percorso del documento di origine come parametro del costruttore.
         * Chiama **Unisciti** della classe **Merger** e passa il secondo percorso del documento di origine.
-        * Chiama la classe **Salva** della **Unione** per salvare il documento unito.
+        * Chiama la classe **Save** della **Unione** per salvare il documento unito.
 
     title_right: "Requisiti di sistema"
     content_right: |

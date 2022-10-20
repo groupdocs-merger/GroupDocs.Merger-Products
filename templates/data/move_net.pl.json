@@ -26,9 +26,9 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ułatwia programistom {{ProgLang}} przenoszenie stron w pliku {{EXT}}, wykonując kilka prostych kroków .",
       "step_1": "Zainicjuj **MoveOptions**, aby określić aktualne i nowe numery stron.",
-      "step_2": "Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
+      "step_2": "Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
       "step_3": "Wywołaj **MovePage** i przekaż obiekt **MoveOptions**.",
-      "step_4": "Wywołaj **Zapisz** i określ ścieżkę do pliku, aby zapisać wynikowy dokument."
+      "step_4": "Wywołaj **Save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument."
     },
     "title_right": "wymagania systemowe",
     "content_right": {

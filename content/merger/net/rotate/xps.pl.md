@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for .NET](/pl/merger/net/) ułatwia programistom C# rotację niektórych lub wszystkich stron w pliku XPS o 90 , kąt obrotu 180 lub 270, wykonując kilka prostych kroków.
         
         * Zainicjuj **RotateOptions** z żądanym kątem obrotu i numerami stron.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **RotatePages** i przekaż obiekt **RotateOptions**.
-        * Wywołaj **Zapisz** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
+        * Wywołaj **Save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
 
     title_right: "wymagania systemowe"
     content_right: |

@@ -71,7 +71,7 @@ steps:
         [GroupDocs.Merger for Java](/pl/merger/java/) ułatwia programistom Java wyodrębnienie żądanych stron z pliku VSDM i zapisanie go jako nowy plik zawierający wybrane strony, wykonując kilka prostych kroków.
         
         * Zainicjuj **ExtractOptions** numerami stron, które powinny pojawić się w wynikowym dokumencie.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **extractPages** i przekaż obiekt **ExtractOptions**.
         * Wywołaj **save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
 

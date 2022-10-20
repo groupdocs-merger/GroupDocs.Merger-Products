@@ -71,7 +71,7 @@ steps:
         [GroupDocs.Merger for .NET](/pl/merger/net/) ułatwia programistom C# podział pojedynczego pliku DOTX na wiele plików wynikowych poprzez zaimplementowanie kilka prostych kroków.
         
         * Zainicjuj **SplitOptions** formatem ścieżki plików wyjściowych.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **Split** i przekaż obiekt **SplitOptions**, aby zapisać wynikowe dokumenty.
 
     title_right: "wymagania systemowe"

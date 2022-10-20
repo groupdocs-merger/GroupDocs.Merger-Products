@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for .NET](/pl/merger/net/) ułatwia programistom C# wyodrębnienie żądanych stron z pliku EPUB i zapisanie go jako nowy plik zawierający wybrane strony, wykonując kilka prostych kroków.
         
         * Zainicjuj **ExtractOptions** numerami stron, które powinny pojawić się w wynikowym dokumencie.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **ExtractPages** i przekaż obiekt **ExtractOptions**.
-        * Wywołaj **Zapisz** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
+        * Wywołaj **Save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
 
     title_right: "wymagania systemowe"
     content_right: |

@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger สำหรับ .NET รองรับการรวม [รูปแบบไฟล์เอกสาร] ต่อไปนี้ (https://docs.groupdocs.com/merger/net/supported-document-formats/):
+          GroupDocs.Merger สำหรับ .NET รองรับการรวม [รูปแบบไฟล์เอกสาร](https://docs.groupdocs.com/merger/net/supported-document-formats/):
 
         left:
           enable: true

@@ -26,9 +26,9 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ułatwia programistom {{ProgLang}} rotację niektórych lub wszystkich stron w pliku {{EXT}} o 90 , kąt obrotu 180 lub 270, wykonując kilka prostych kroków.",
       "step_1": "Zainicjuj **RotateOptions** z żądanym kątem obrotu i numerami stron.",
-      "step_2": "Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
+      "step_2": "Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
       "step_3": "Wywołaj **RotatePages** i przekaż obiekt **RotateOptions**.",
-      "step_4": "Wywołaj **Zapisz** i określ ścieżkę do pliku, aby zapisać wynikowy dokument."
+      "step_4": "Wywołaj **Save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument."
     },
     "title_right": "wymagania systemowe",
     "content_right": {

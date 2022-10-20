@@ -73,7 +73,7 @@ steps:
         * Inizializza **MoveOptions** per specificare i numeri di pagina correnti e nuovi.
         * Crea una nuova istanza di **Merger** e passa il percorso del documento di origine come parametro del costruttore.
         * Chiama **MovePage** e passa l'oggetto **MoveOptions**.
-        * Chiama **Salva** e specifica il percorso del file per salvare il documento risultante.
+        * Chiama **Save** e specifica il percorso del file per salvare il documento risultante.
 
     title_right: "Requisiti di sistema"
     content_right: |

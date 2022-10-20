@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/pl/merger/net/) ułatwia programistom .NET dołączenie do dwóch lub więcej plików VSDX w ich aplikacjach poprzez zaimplementowanie kilka prostych kroków.
         
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **Join** klasy **Merger** i przekaż drugą ścieżkę dokumentu źródłowego.
-        * Wywołaj **Save** klasy **Scalanie**, aby zapisać scalony dokument.
+        * Wywołaj **Save** klasy **Merger**, aby zapisać scalony dokument.
 
     title_right: "wymagania systemowe"
     content_right: |

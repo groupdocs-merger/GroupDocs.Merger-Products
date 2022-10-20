@@ -71,7 +71,7 @@ steps:
         [GroupDocs.Merger for Java](/pl/merger/java/) ułatwia programistom Java przenoszenie stron w pliku XLSB, wykonując kilka prostych kroków .
         
         * Zainicjuj **MoveOptions**, aby określić aktualne i nowe numery stron.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **movePage** i przekaż obiekt **MoveOptions**.
         * Wywołaj **save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
 

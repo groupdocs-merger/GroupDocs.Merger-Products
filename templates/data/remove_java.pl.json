@@ -26,7 +26,7 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ułatwia programistom {{ProgLang}} usunięcie jednej lub kilku określonych stron w {{EXT}} plik, wykonując kilka prostych kroków.",
       "step_1": "Zainicjuj **RemoveOptions** numerami stron do usunięcia.",
-      "step_2": "Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
+      "step_2": "Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
       "step_3": "Wywołaj **removePages** i przekaż obiekt **RemoveOptions**.",
       "step_4": "Wywołaj **save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument."
     },

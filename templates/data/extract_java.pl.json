@@ -26,7 +26,7 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ułatwia programistom {{ProgLang}} wyodrębnienie żądanych stron z pliku {{EXT}} i zapisanie go jako nowy plik zawierający wybrane strony, wykonując kilka prostych kroków.",
       "step_1": "Zainicjuj **ExtractOptions** numerami stron, które powinny pojawić się w wynikowym dokumencie.",
-      "step_2": "Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
+      "step_2": "Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
       "step_3": "Wywołaj **extractPages** i przekaż obiekt **ExtractOptions**.",
       "step_4": "Wywołaj **save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument."
     },

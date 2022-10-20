@@ -27,7 +27,7 @@
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) consente agli sviluppatori di {{ProductName}} di unire due o più file {{EXT}} all'interno delle loro applicazioni implementando un pochi semplici passaggi.",
       "step_1": "Crea una nuova istanza di **Merger** e passa il percorso del documento di origine come parametro del costruttore.",
       "step_2": "Chiama **Unisciti** della classe **Merger** e passa il secondo percorso del documento di origine.",
-      "step_3": "Chiama la classe **Salva** della **Unione** per salvare il documento unito."
+      "step_3": "Chiama la classe **Save** della **Unione** per salvare il documento unito."
     },
     "title_right": "Requisiti di sistema",
     "content_right": {

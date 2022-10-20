@@ -73,7 +73,7 @@ steps:
         * Inizializza **SwapOptions** per specificare i numeri di pagina da scambiare.
         * Crea una nuova istanza di **Merger** e passa il percorso del documento di origine come parametro del costruttore.
         * Chiama **SwapPages** e passa l'oggetto **SwapOptions**.
-        * Chiama **Salva** e specifica il percorso del file per salvare il documento risultante.
+        * Chiama **Save** e specifica il percorso del file per salvare il documento risultante.
 
     title_right: "Requisiti di sistema"
     content_right: |

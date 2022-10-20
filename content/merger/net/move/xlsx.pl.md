@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for .NET](/pl/merger/net/) ułatwia programistom C# przenoszenie stron w pliku XLSX, wykonując kilka prostych kroków .
         
         * Zainicjuj **MoveOptions**, aby określić aktualne i nowe numery stron.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **MovePage** i przekaż obiekt **MoveOptions**.
-        * Wywołaj **Zapisz** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
+        * Wywołaj **Save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
 
     title_right: "wymagania systemowe"
     content_right: |

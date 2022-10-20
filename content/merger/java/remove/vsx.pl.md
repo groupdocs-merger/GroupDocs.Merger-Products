@@ -71,7 +71,7 @@ steps:
         [GroupDocs.Merger for Java](/pl/merger/java/) ułatwia programistom Java usunięcie jednej lub kilku określonych stron w VSX plik, wykonując kilka prostych kroków.
         
         * Zainicjuj **RemoveOptions** numerami stron do usunięcia.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **removePages** i przekaż obiekt **RemoveOptions**.
         * Wywołaj **save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
 

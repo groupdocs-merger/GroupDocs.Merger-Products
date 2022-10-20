@@ -28,7 +28,7 @@
       "step_1": "Inizializza **RotateOptions** con l'angolo di rotazione e i numeri di pagina desiderati.",
       "step_2": "Crea una nuova istanza di **Merger** e passa il percorso del documento di origine come parametro del costruttore.",
       "step_3": "Chiama **RotatePages** e passa l'oggetto **RotateOptions**.",
-      "step_4": "Chiama **Salva** e specifica il percorso del file per salvare il documento risultante."
+      "step_4": "Chiama **Save** e specifica il percorso del file per salvare il documento risultante."
     },
     "title_right": "Requisiti di sistema",
     "content_right": {

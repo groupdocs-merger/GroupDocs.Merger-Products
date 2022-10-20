@@ -71,7 +71,7 @@ steps:
         [GroupDocs.Merger for Java](/pl/merger/java/) ułatwia programistom Java podział pojedynczego pliku DOCX na wiele plików wynikowych poprzez zaimplementowanie kilka prostych kroków.
         
         * Zainicjuj **SplitOptions** formatem ścieżki plików wyjściowych.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **split** i przekaż obiekt **SplitOptions**, aby zapisać wynikowe dokumenty.
 
     title_right: "wymagania systemowe"

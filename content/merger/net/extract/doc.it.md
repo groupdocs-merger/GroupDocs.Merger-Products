@@ -73,7 +73,7 @@ steps:
         * Inizializza **ExtractOptions** con i numeri di pagina che dovrebbero apparire nel documento risultante.
         * Crea una nuova istanza di **Merger** e passa il percorso del documento di origine come parametro del costruttore.
         * Chiama **ExtractPages** e passa l'oggetto **ExtractOptions**.
-        * Chiama **Salva** e specifica il percorso del file per salvare il documento risultante.
+        * Chiama **Save** e specifica il percorso del file per salvare il documento risultante.
 
     title_right: "Requisiti di sistema"
     content_right: |

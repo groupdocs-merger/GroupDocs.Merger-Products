@@ -26,9 +26,9 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ułatwia programistom {{ProgLang}} wymianę stron w pliku {{EXT}}, wykonując kilka prostych kroków .",
       "step_1": "Zainicjuj **SwapOptions**, aby określić numery stron do wymiany.",
-      "step_2": "Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
+      "step_2": "Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
       "step_3": "Wywołaj **SwapPages** i przekaż obiekt **SwapOptions**.",
-      "step_4": "Wywołaj **Zapisz** i określ ścieżkę do pliku, aby zapisać wynikowy dokument."
+      "step_4": "Wywołaj **Save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument."
     },
     "title_right": "wymagania systemowe",
     "content_right": {

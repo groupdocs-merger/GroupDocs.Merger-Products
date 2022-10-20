@@ -71,7 +71,7 @@ steps:
         [GroupDocs.Merger for Java](/pl/merger/java/) ułatwia programistom Java rotację niektórych lub wszystkich stron w pliku XPS o 90 , kąt obrotu 180 lub 270, wykonując kilka prostych kroków.
         
         * Zainicjuj **RotateOptions** z żądanym kątem obrotu i numerami stron.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **rotatePages** i przekaż obiekt **RotateOptions**.
         * Wywołaj **save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
 

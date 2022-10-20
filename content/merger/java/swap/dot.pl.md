@@ -71,7 +71,7 @@ steps:
         [GroupDocs.Merger for Java](/pl/merger/java/) ułatwia programistom Java wymianę stron w pliku DOT, wykonując kilka prostych kroków .
         
         * Zainicjuj **SwapOptions**, aby określić numery stron do wymiany.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **swapPages** i przekaż obiekt **SwapOptions**.
         * Wywołaj **save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
 

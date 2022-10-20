@@ -26,7 +26,7 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ułatwia programistom {{ProgLang}} podział pojedynczego pliku {{EXT}} na wiele plików wynikowych poprzez zaimplementowanie kilka prostych kroków.",
       "step_1": "Zainicjuj **SplitOptions** formatem ścieżki plików wyjściowych.",
-      "step_2": "Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
+      "step_2": "Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
       "step_3": "Wywołaj **Split** i przekaż obiekt **SplitOptions**, aby zapisać wynikowe dokumenty."
     },
     "title_right": "wymagania systemowe",

@@ -25,9 +25,9 @@
     "title_left": "Jak dołączyć do wielu plików {{EXT}}",
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ułatwia programistom {{ProductName}} dołączenie do dwóch lub więcej plików {{EXT}} w ich aplikacjach poprzez zaimplementowanie kilka prostych kroków.",
-      "step_1": "Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
+      "step_1": "Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
       "step_2": "Wywołaj **Join** klasy **Merger** i przekaż drugą ścieżkę dokumentu źródłowego.",
-      "step_3": "Wywołaj **Save** klasy **Scalanie**, aby zapisać scalony dokument."
+      "step_3": "Wywołaj **Save** klasy **Merger**, aby zapisać scalony dokument."
     },
     "title_right": "wymagania systemowe",
     "content_right": {

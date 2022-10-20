@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for .NET](/pl/merger/net/) ułatwia programistom C# wymianę stron w pliku XPS, wykonując kilka prostych kroków .
         
         * Zainicjuj **SwapOptions**, aby określić numery stron do wymiany.
-        * Utwórz nową instancję **Scalanie** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
+        * Utwórz nową instancję **Merger** i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.
         * Wywołaj **SwapPages** i przekaż obiekt **SwapOptions**.
-        * Wywołaj **Zapisz** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
+        * Wywołaj **Save** i określ ścieżkę do pliku, aby zapisać wynikowy dokument.
 
     title_right: "wymagania systemowe"
     content_right: |
