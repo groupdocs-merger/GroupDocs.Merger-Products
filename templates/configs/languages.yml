@@ -1,4 +1,5 @@
 dimensions: 
 - alias: lang
+  values: [vi] 
 ##  values: [en, ru] ## UNCOMMENT FOR TESTING
-  values: [en, de, es, fr, ja, ko, ru, zh, id, pt, it]
+##  values: [en, de, es, fr, ja, ko, ru, zh, id, pl, pt, th, it]

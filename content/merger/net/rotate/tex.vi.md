@@ -110,7 +110,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Xoay vòng TEX Trang Tệp Trực tuyến"
     content: |
-       Xoay vòng các trang tệp TEX ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/ tex) trang web.
+       Xoay vòng các trang tệp TEX ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/tex) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################

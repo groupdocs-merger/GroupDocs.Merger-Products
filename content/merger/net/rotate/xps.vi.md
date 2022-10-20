@@ -110,7 +110,7 @@ demos:
     enable: true
     title: "Bản trình diễn Trực tiếp - Xoay vòng XPS Trang Tệp Trực tuyến"
     content: |
-       Xoay vòng các trang tệp XPS ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/ xps) trang web.
+       Xoay vòng các trang tệp XPS ngay bây giờ bằng cách truy cập trang web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/xps) trang web.
        Bản demo trực tiếp có những lợi ích sau.
         
 ############################# About Formats ############################
