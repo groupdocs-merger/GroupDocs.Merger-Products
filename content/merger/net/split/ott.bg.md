@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-20T11:23:57
+date: 2022-10-20T12:03:23
 draft: false
 otherformats: pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam
 
 ############################# Head ############################
-head_title: "Split OTT into Multiple Files in C#"
-head_description: "Split a single OTT file into several files based on page numbers, page intervals, even or odd pages using documents merger API."
+head_title: "Разделете OTT на няколко файла в C#"
+head_description: "Разделете един файл OTT на няколко файла въз основа на номера на страници, интервали между страници, четни или нечетни страници, като използвате API за сливане на документи."
 
 ############################# Header ############################
-title: "OTT Splitter In C#"
-description: "Split OTT with a few lines of .NET code."
+title: "OTT Сплитер в C#"
+description: "Разделете OTT с няколко реда код на .NET."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Изтеглете безплатна пробна версия"
     link: "https://downloads.groupdocs.com/merger/net"
 
 ############################# SubMenu ############################
@@ -35,19 +35,19 @@ submenu:
 
             # button loop
             - link: "https://apireference.groupdocs.com/merger/net"
-              text: "API Reference"
+              text: "Справка за API"
 
             # button loop
             - link: "https://github.com/groupdocs-merger"
-              text: "Code Examples"
+              text: "Примери за кодове"
 
             # button loop
             - link: "https://products.groupdocs.app/merger/family"
-              text: "Live Demos"
+              text: "Демонстрации на живо"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Pricing"
+              text: "Ценообразуване"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
@@ -57,48 +57,48 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Merger for .NET API"
+    title: "Относно API на GroupDocs.Merger for .NET"
     content: |
-        [GroupDocs.Merger for .NET](/bg/merger/net/) library offers a simple solution to safely merge & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within .NET applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        Библиотеката [GroupDocs.Merger for .NET](/bg/merger/net/) предлага просто решение за безопасно обединяване и разделяне между широк набор от формати на документи, включително PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, изображения и много други в приложенията на .NET. Като добавите само няколко реда от кода, изпълнете няколко операции с документи, като преместване, премахване, завъртане, размяна, извличане или промяна на ориентацията на страниците в документите. API за обединяване на документи също поддържа визуализация на страниците на документи като изображение за анализиране на структурата на документа, форматирането и съдържанието на страницата.
         
-        GroupDocs.Merger API is a right choice for corporate solutions which needs file splitting features. These APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono.
+        GroupDocs.Merger API е правилният избор за корпоративни решения, които се нуждаят от функции за разделяне на файлове. Тези API се поддържат добре от всички основни операционни системи и платформи, включително .NET Framework, .NET Standard, .NET Core, Mono.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Split OTT File Pages in .NET"
+    title_left: "Разделете OTT файлови страници в .NET"
     content_left: |
-        [GroupDocs.Merger for .NET](/bg/merger/net/) makes it easy for C# developers to split a single OTT file into multiple resultant files by implementing a few easy steps.
+        [GroupDocs.Merger for .NET](/bg/merger/net/) улеснява разработчиците на C# да разделят един файл OTT на множество получени файлове чрез прилагане на няколко лесни стъпки.
         
-        * Initialize **SplitOptions** with output files path format.
-        * Create new instance of **Merger** and pass source document path as a constructor parameter.
-        * Call **Split** and pass **SplitOptions** object to save resultant documents.
+        * Инициализирайте **SplitOptions** с формат на пътя на изходните файлове.
+        * Създайте нов екземпляр на **Merger** и подайте пътя на изходния документ като параметър на конструктора.
+        * Извикайте **Split** и подайте обект **SplitOptions**, за да запазите получените документи.
 
-    title_right: "System Requirements"
+    title_right: "Системни изисквания"
     content_right: |
-        GroupDocs.Merger for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        API на GroupDocs.Merger for .NET се поддържат на всички основни платформи и операционни системи. Преди да изпълните кода по-долу, моля, уверете се, че имате следните предпоставки, инсталирани на вашата система.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Merger for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.merger)
+        * Операционни системи: Microsoft Windows, Linux, MacOS
+        * Среди за разработка: Visual Studio, Xamarin, MonoDevelop
+        * Рамки: .NET Framework, .NET Standard, .NET Core, Mono
+        * Изтеглете най-новата версия на GroupDocs.Merger for .NET от [NuGet](https://www.nuget.org/packages/groupdocs.merger)
          
     code: |
      {{% merger/additional-styles %}}
-     {{< merger/code-merger title="How to split OTT files using C# example code">}}
+     {{< merger/code-merger title="Как да разделяте OTT файлове с помощта на C# примерен код">}}
 
         ```csharp    
-        // Split OTT file using GroupDocs.Merger API
+        // Разделете файла OTT с помощта на API на GroupDocs.Merger
         string filePath = "input.ott";
         string filePathOut = "output.ott";
 
-        // Initialize SplitOptions class with output files path format
+        // Инициализирайте класа SplitOptions с формат на пътя на изходните файлове
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Instantiate Merger with input OTT document
+        // Инстанциране на сливане с вход OTT документ
         using (Merger merger = new Merger(filePath))
           {
-            // Call Split method and pass SplitOptions object to save resultant documents
+            // Извикайте метода Split и предайте обект SplitOptions, за да запазите получените документи
             merger.Split(splitOptions);
           }
         ```
@@ -107,10 +107,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos - Split OTT File Online"
+    title: "Демонстрации на живо - Разделете OTT файл онлайн"
     content: |
-       Split OTT file right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/ott) website.
-       The live demo has the following benefits.
+       Разделете файла OTT веднага, като посетите уебсайта [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/ott).
+       Демото на живо има следните предимства.
         
 ############################# About Formats ############################
 about_formats:
@@ -119,9 +119,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Split File of Other Formats"
+    title: "Разделен файл на други формати"
     content: |
-        .NET documents merger & split API for file formats and images. Split some of the popular file formats as stated below.
+        .NET документи API за сливане и разделяне за файлови формати и изображения. Разделете някои от популярните файлови формати, както е посочено по-долу.
 
 ############################# Back to top ###############################
 back_to_top:

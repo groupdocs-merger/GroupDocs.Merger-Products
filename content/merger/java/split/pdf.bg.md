@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-20T11:23:57
+date: 2022-10-20T12:03:23
 draft: false
 otherformats: ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls
 
 ############################# Head ############################
-head_title: "Split PDF into Multiple Files in Java"
-head_description: "Split a single PDF file into several files based on page numbers, page intervals, even or odd pages using documents merger API."
+head_title: "Разделете PDF на няколко файла в Java"
+head_description: "Разделете един файл PDF на няколко файла въз основа на номера на страници, интервали между страници, четни или нечетни страници, като използвате API за сливане на документи."
 
 ############################# Header ############################
-title: "PDF Splitter In Java"
-description: "Split PDF with a few lines of Java code."
+title: "PDF Сплитер в Java"
+description: "Разделете PDF с няколко реда код на Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Изтеглете безплатна пробна версия"
     link: "https://downloads.groupdocs.com/merger/java"
 
 ############################# SubMenu ############################
@@ -35,19 +35,19 @@ submenu:
 
             # button loop
             - link: "https://apireference.groupdocs.com/merger/java"
-              text: "API Reference"
+              text: "Справка за API"
 
             # button loop
             - link: "https://github.com/groupdocs-merger"
-              text: "Code Examples"
+              text: "Примери за кодове"
 
             # button loop
             - link: "https://products.groupdocs.app/merger/family"
-              text: "Live Demos"
+              text: "Демонстрации на живо"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "Pricing"
+              text: "Ценообразуване"
 
     right:
         link_download: "https://downloads.groupdocs.com/merger"
@@ -57,48 +57,48 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Merger for Java API"
+    title: "Относно API на GroupDocs.Merger for Java"
     content: |
-        [GroupDocs.Merger for Java](/bg/merger/java/) library offers a simple solution to safely merge & split between a wide range of document formats including PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, images and many others within Java applications. By adding just a few lines of the code, perform several document operations such as move, remove, rotate, swap, extract or change the orientation of pages within the documents. The documents merging API also supports previewing document pages as an image to analyse the document structure, formatting and content on the page.
+        Библиотеката [GroupDocs.Merger for Java](/bg/merger/java/) предлага просто решение за безопасно обединяване и разделяне между широк набор от формати на документи, включително PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, изображения и много други в приложенията на Java. Като добавите само няколко реда от кода, изпълнете няколко операции с документи, като преместване, премахване, завъртане, размяна, извличане или промяна на ориентацията на страниците в документите. API за обединяване на документи също поддържа визуализация на страниците на документи като изображение за анализиране на структурата на документа, форматирането и съдържанието на страницата.
         
-        GroupDocs.Merger API is a right choice for corporate solutions which needs file splitting features. These APIs are well supported on all major operating systems and platforms including J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10.
+        GroupDocs.Merger API е правилният избор за корпоративни решения, които се нуждаят от функции за разделяне на файлове. Тези API се поддържат добре от всички основни операционни системи и платформи, включително J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Split PDF File By Pages in Java"
+    title_left: "Разделете PDF файл по страници в Java"
     content_left: |
-        [GroupDocs.Merger for Java](/bg/merger/java/) makes it easy for Java developers to split a single PDF file into multiple resultant files by implementing a few easy steps.
+        [GroupDocs.Merger for Java](/bg/merger/java/) улеснява разработчиците на Java да разделят един файл PDF на множество получени файлове чрез прилагане на няколко лесни стъпки.
         
-        * Initialize **SplitOptions** with output files path format.
-        * Create new instance of **Merger** and pass source document path as a constructor parameter.
-        * Call **split** and pass **SplitOptions** object to save resultant documents.
+        * Инициализирайте **SplitOptions** с формат на пътя на изходните файлове.
+        * Създайте нов екземпляр на **Merger** и подайте пътя на изходния документ като параметър на конструктора.
+        * Извикайте **split** и подайте обект **SplitOptions**, за да запазите получените документи.
 
-    title_right: "System Requirements"
+    title_right: "Системни изисквания"
     content_right: |
-        GroupDocs.Merger for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        API на GroupDocs.Merger for Java се поддържат на всички основни платформи и операционни системи. Преди да изпълните кода по-долу, моля, уверете се, че имате следните предпоставки, инсталирани на вашата система.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Frameworks: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
-        * Download the latest version of GroupDocs.Merger for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
+        * Операционни системи: Microsoft Windows, Linux, MacOS
+        * Среди за разработка: NetBeans, IntelliJ IDEA, Eclipse
+        * Рамки: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
+        * Изтеглете най-новата версия на GroupDocs.Merger for Java от [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
          
     code: |
      {{% merger/additional-styles %}}
-     {{< merger/code-merger title="How to split PDF file using Java example code">}}
+     {{< merger/code-merger title="Как да разделя файл PDF с примерен код на Java">}}
 
         ```java    
-        // Split PDF file using GroupDocs.Merger for Java API
+        // Разделете PDF файл с помощта на GroupDocs.Merger за Java API
         String filePath = "input.pdf";
         String filePathOut = "output.pdf";
         
-        // Initialize SplitOptions class with output files path format
+        // Инициализирайте класа SplitOptions с формат на пътя на изходните файлове
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Instantiate Merger with input PDF document
+        // Инстанциране на сливане с вход PDF документ
         Merger merger = new Merger(filePath);
 
-        // Call split method and pass SplitOptions object to save resultant documents
+        // Извикайте метода на разделяне и предайте обекта SplitOptions, за да запазите получените документи
         merger.split(splitOptions);
         ```
      {{< /merger/code-merger >}}
@@ -106,10 +106,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos - Split PDF File Online"
+    title: "Демонстрации на живо - Разделете PDF файл онлайн"
     content: |
-       Split PDF file right now by visiting [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/pdf) website.
-       The live demo has the following benefits.
+       Разделете файла PDF веднага, като посетите уебсайта [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/pdf).
+       Демото на живо има следните предимства.
         
 ############################# About Formats ############################
 about_formats:
@@ -118,9 +118,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Split File of Other Formats"
+    title: "Разделен файл на други формати"
     content: |
-        Java documents merger & split API for file formats and images. Split some of the popular file formats as stated below.
+        Java документи API за сливане и разделяне за файлови формати и изображения. Разделете някои от популярните файлови формати, както е посочено по-долу.
 
 ############################# Back to top ###############################
 back_to_top:

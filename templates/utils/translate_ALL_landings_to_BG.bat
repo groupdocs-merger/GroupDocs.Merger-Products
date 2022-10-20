@@ -31,8 +31,8 @@ Translation\Bin\net6.0\Res.Translator.exe -r ..\data\remove_java.json -d bg --ov
 Translation\Bin\net6.0\Res.Translator.exe -r ..\data\rotate_net.json -d bg --overwrite
 Translation\Bin\net6.0\Res.Translator.exe -r ..\data\rotate_java.json -d bg --overwrite
 
-Translation\Bin\net6.0\Res.Translator.exe -r ..\data\sbgit_net.json -d bg --overwrite
-Translation\Bin\net6.0\Res.Translator.exe -r ..\data\sbgit_java.json -d bg --overwrite
+Translation\Bin\net6.0\Res.Translator.exe -r ..\data\split_net.json -d bg --overwrite
+Translation\Bin\net6.0\Res.Translator.exe -r ..\data\split_java.json -d bg --overwrite
 
 Translation\Bin\net6.0\Res.Translator.exe -r ..\data\swap_net.json -d bg --overwrite
 Translation\Bin\net6.0\Res.Translator.exe -r ..\data\swap_java.json -d bg --overwrite
