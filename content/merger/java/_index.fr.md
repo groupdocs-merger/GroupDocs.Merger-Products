@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger pour Java prend en charge la fusion des [formats de fichier de document] suivants (https://docs.groupdocs.com/merger/java/supported-document-formats/):
+          GroupDocs.Merger pour Java prend en charge la fusion des [formats de fichier de document](https://docs.groupdocs.com/merger/java/supported-document-formats/):
 
         left:
           enable: true
