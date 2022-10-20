@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "Java Document Merging API | دمج وإزالة Word Excel PDF XPS EPUB",
+    "description": "المستندات التي تدمج API لـ Java. دمج وتقسيم وتبديل وإعادة ترتيب وحذف صفحات تنسيقات PDF و Microsoft Word و Excel والعروض التقديمية و Visio و XPS و EPUB."
+  },
+  "header": {
+    "title": "Java API لدمج وتقسيم المستندات",
+    "description": "قم بتطوير تطبيقات عالية الأداء يمكنها الجمع بين الصفحات والشرائح والرسوم البيانية أو نسخها أو خلطها عشوائيًا أو قصها أو حذفها أثناء التنقل."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "ملخص",
+      "features": "سمات",
+      "support": "الدعم",
+      "livedemo": "عرض حي",
+      "pricing": "التسعير"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger for Java يجعلك قادرًا على تطوير تطبيقات الأعمال عالية المستوى بسرعة في Java. مع القليل من الترميز ، يمكن لتطبيقات Java الخاصة بك دمج ، ونسخ ، وخلط ، وقص وحذف صفحة واحدة أو مجموعة من الصفحات ، والشرائح والمخططات. يمكن أيضًا إجراء عمليات الدمج على ملفات آمنة ذات تنسيق معروف وغير معروف عن طريق تطبيق الحماية بكلمة مرور أو إزالتها.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "فيما يلي نظرة عامة على GroupDocs.Merger لجافا:",
+      "left": {
+        "title": "عمليات المستند",
+        "content": {
+          "line_1": "تغيير ترتيب الصفحة",
+          "line_2": "إزالة أو حذف الصفحات",
+          "line_3": "انقسام أو كسر الوثيقة",
+          "line_4": "تبديل أو تبديل أي صفحتين",
+          "line_5": "تقليم صفحات مفردة أو متعددة",
+          "line_6": "انضم إلى مستندات متعددة"
+        }
+      },
+      "right": {
+        "title": "عمليات الأمن",
+        "content": {
+          "line_1": "قم بإعداد أمان المستند",
+          "line_2": "تحقق من حالة أمان المستند",
+          "line_3": "تعيين كلمة مرور الوثيقة",
+          "line_4": "تحديث كلمة مرور المستند",
+          "line_5": "قم بإزالة كلمة مرور المستند"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "يدعم GroupDocs.Merger for Java [تنسيقات ملفات المستندات](https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "مايكروسوفت أوفيس",
+        "content": {
+          "line_1": "** كلمة: ** DOC، DOCX، DOCM، DOT، DOTX، DOTM، RTF، TXT",
+          "line_2": "** Excel: ** XLS و XLSX و XLSM و XLSB و XLTM و XLT و XLTM و XLTX و XLAM و SXC و SpreadsheetML",
+          "line_3": "** PowerPoint: ** PPT، PPTX، PPS، PPSX، PPSM، POT، POTM، POTX، PPTM",
+          "line_4": "** OneNote: ** واحد"
+        }
+      },
+      "right": {
+        "title": "OpenDocument وتنسيقات أخرى",
+        "content": {
+          "line_1": "** تنسيقات OpenDocument **: ODT و OTT و ODP و OTP و ODS",
+          "line_2": "** تخطيط ثابت **: PDF ، XPS",
+          "line_3": "** الصور **: BMP، PNG، TIFF",
+          "line_4": "** الويب **: HTML، MHT، MHTML",
+          "line_5": "** نص **: TXT ، CSV ، TSV",
+          "line_6": "** لاتكس **: تكس",
+          "line_7": "** كتاب إلكتروني **: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for Java يدعم أنظمة التشغيل والأطر ومديري الحزم التالية:",
+      "left": {
+        "title": "أنظمة التشغيل",
+        "content": {
+          "line_1": "سطح مكتب Microsoft Windows",
+          "line_2": "خادم مايكروسوفت ويندوز",
+          "line_3": "لينكس",
+          "line_4": "ماك"
+        },
+        "title_2": "الأطر المدعومة",
+        "content_2": {
+          "line_1": "جافا 7 (1.7)",
+          "line_2": "جافا 8 (1.8)",
+          "line_3": "جافا 10",
+          "line_4": "جافا 11 وما فوق"
+        }
+      },
+      "right": {
+        "title": "أداة البناء الآلي",
+        "content": {
+          "line_1": "* مخضرم"
+        },
+        "title_2": "بيئات التنمية",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEA",
+          "line_3": "* كسوف",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger لميزات جافا",
+    "feature_1": {
+      "content": "دمج مختلف الصفحات والشرائح والمخططات في ملف واحد"
+    },
+    "feature_2": {
+      "content": "نسخ المستندات الضخمة وتقسيمها إلى ملفات متعددة أصغر حجمًا"
+    },
+    "feature_3": {
+      "content": "تبديل وإعادة تنظيم الصفحات أو الشرائح أو الرسوم التخطيطية"
+    },
+    "feature_4": {
+      "content": "تبادل وتبديل صفحتين أو شريحتين أو رسوم بيانية بين بعضها البعض داخل المستند"
+    },
+    "feature_5": {
+      "content": "قص المستند وقصه عن طريق إزالة صفحات أو شرائح أو رسوم بيانية معينة"
+    },
+    "feature_6": {
+      "content": "حذف مفرد أو مجموعة من الصفحات أو الشرائح أو الرسوم التخطيطية"
+    },
+    "feature_7": {
+      "content": "قم بتجميع عدد كبير من المستندات ودمجها معًا على دفعات"
+    },
+    "feature_8": {
+      "content": "تحقق في Java برمجيًا إذا كان المستند مؤمنًا بكلمة مرور"
+    },
+    "feature_9": {
+      "content": "تعيين وإعادة تعيين وإزالة كلمة مرور تنسيقات المستندات المعروفة وغير المعروفة"
+    },
+    "feature_10": {
+      "content": "تقسيم ملف نصي واحد إلى مضاعف بأرقام الأسطر"
+    },
+    "feature_11": {
+      "content": "احصل على تمثيل صور لصفحات المستند"
+    },
+    "feature_12": {
+      "content": "دمج مستندات متعددة من تنسيقات مختلفة في ملف PDF واحد"
+    },
+    "feature_13": {
+      "content": "أدخل كائنات OLE في PDF و Word و Excel و PowerPoint و Open Document Formats"
+    },
+    "feature_14": {
+      "content": "إرفاق الملفات برمجيًا إلى مستند PDF"
+    },
+    "feature_15": {
+      "content": "أضف مستندًا إلى الرسم التخطيطي عبر كائنات OLE"
+    },
+    "feature_16": {
+      "content": "دمج أنواع مختلفة من المستندات (DOC ، XLS ، PPT ، إلخ) في ملف PDF واحد"
+    },
+    "feature_17": {
+      "content": "يمكنك استيراد كائنات OLE بسهولة إلى أنواع ملفات Microsoft Word و Excel و Presentation و OpenDocument"
+    },
+    "feature_18": {
+      "content": "أضف مستندات أخرى إلى صفحة الرسم التخطيطي عبر كائنات OLE"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "قم بإزالة \"الصفحات المطلوبة\" من المستندات",
+      "content": "يتيح لك GroupDocs.Merger for Java API تحديد وحذف الصفحات غير المرغوب فيها من المستند."
+    },
+    "feature_2": {
+      "title": "تحقق من كلمة مرور تنسيق المستند غير المعروف",
+      "content": "حتى إذا كان تنسيق مستند معين غير معروف ، يتيح لك GroupDocs.Merger for Java التحقق من كلمة مرور المستند واستردادها ، إذا كانت متوفرة."
+    },
+    "feature_3": {
+      "title": "انضم إلى المستندات المحمية بكلمة مرور للتنسيقات المعروفة",
+      "content": "تسمح لك GroupDocs.Merger for Java API بالحصول على قائمة بالوثائق ذات التنسيقات المعروفة وغير المعروفة."
+    }
+  },
+  "solutions": {
+    "title": "تقدم GroupDocs.Merger واجهات برمجة تطبيقات لدمج المستندات لبيئات التطوير الشائعة الأخرى",
+    "solution": {
+      "img_alt": "GroupDocs.Merger for .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}
