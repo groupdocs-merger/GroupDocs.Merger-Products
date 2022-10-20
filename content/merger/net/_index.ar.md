@@ -249,7 +249,7 @@ features:
 
     more_feature:
       # more_feature_loop
-      - title: "قم بإزالة "الصفحات المطلوبة" من المستندات"
+      - title: "قم بإزالة الصفحات المطلوبة من المستندات"
         content: |
           يساعدك GroupDocs.Merger for .NET API على حذف الصفحات غير المرغوب فيها من المستند.
       
