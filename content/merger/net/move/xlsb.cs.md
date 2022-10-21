@@ -73,7 +73,7 @@ steps:
         * Inicializací **MoveOptions** zadejte aktuální a nová čísla stránek.
         * Vytvořte novou instanci **Merger** a předejte cestu ke zdrojovému dokumentu jako parametr konstruktoru.
         * Zavolejte **MovePage** a předejte objekt **MoveOptions**.
-        * Zavolejte **Uložit** a zadejte cestu k souboru pro uložení výsledného dokumentu.
+        * Zavolejte **Save** a zadejte cestu k souboru pro uložení výsledného dokumentu.
 
     title_right: "Požadavky na systém"
     content_right: |

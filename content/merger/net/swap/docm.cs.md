@@ -73,7 +73,7 @@ steps:
         * Inicializací **SwapOptions** zadejte čísla stránek k výměně.
         * Vytvořte novou instanci **Merger** a předejte cestu ke zdrojovému dokumentu jako parametr konstruktoru.
         * Zavolejte **SwapPages** a předejte objekt **SwapOptions**.
-        * Zavolejte **Uložit** a zadejte cestu k souboru pro uložení výsledného dokumentu.
+        * Zavolejte **Save** a zadejte cestu k souboru pro uložení výsledného dokumentu.
 
     title_right: "Požadavky na systém"
     content_right: |

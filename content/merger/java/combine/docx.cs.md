@@ -72,7 +72,7 @@ steps:
         
         * Vytvořte instanci **Merger** a předejte cestu ke zdrojovému dokumentu jako parametr konstruktoru.
         * Zavolejte **Join** třídy **Merger** a předejte druhou cestu ke zdrojovému dokumentu.
-        * Chcete-li sloučený dokument uložit, zavolejte **Uložit** třídy **Merger**.
+        * Chcete-li sloučený dokument uložit, zavolejte **Save** třídy **Merger**.
 
     title_right: "Požadavky na systém"
     content_right: |

@@ -73,7 +73,7 @@ steps:
         * Inicializujte **RemoveOptions** s čísly stránek, které chcete odstranit.
         * Vytvořte novou instanci **Merger** a předejte cestu ke zdrojovému dokumentu jako parametr konstruktoru.
         * Zavolejte **RemovePages** a předejte objekt **RemoveOptions**.
-        * Zavolejte **Uložit** a zadejte cestu k souboru pro uložení výsledného dokumentu.
+        * Zavolejte **Save** a zadejte cestu k souboru pro uložení výsledného dokumentu.
 
     title_right: "Požadavky na systém"
     content_right: |

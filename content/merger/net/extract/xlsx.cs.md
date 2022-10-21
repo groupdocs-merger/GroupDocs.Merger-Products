@@ -73,7 +73,7 @@ steps:
         * Inicializujte **ExtractOptions** čísly stránek, které by se měly objevit ve výsledném dokumentu.
         * Vytvořte novou instanci **Merger** a předejte cestu ke zdrojovému dokumentu jako parametr konstruktoru.
         * Zavolejte **ExtractPages** a předejte objekt **ExtractOptions**.
-        * Zavolejte **Uložit** a zadejte cestu k souboru pro uložení výsledného dokumentu.
+        * Zavolejte **Save** a zadejte cestu k souboru pro uložení výsledného dokumentu.
 
     title_right: "Požadavky na systém"
     content_right: |
