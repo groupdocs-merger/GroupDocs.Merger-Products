@@ -108,7 +108,6 @@
   "features": {
     "title": "GroupDocs.Merger for .NET Features",
     "feature_1": {
-        "icon": "fas fa-copy",
         "content": "Combine & merge multiple pages, slides & diagrams into a single document"
     },
     "feature_2": {        
@@ -142,7 +141,6 @@
       "content": "Rotate pages and change page orientation of known & unknown formats"
     },
     "feature_12": {
-      "icon": "fas fa-columns",
       "content": "Combine multiple files of different formats to DOC, DOCX & XPS"
     },
     "feature_13": {
