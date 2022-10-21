@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Řešení sloučení a rozdělení dokumentů | On Premise API a bezplatná aplikace",
+    "description": "Sloučení a rozdělení MS Office, OpenDocument, obrázky PDF a další formáty souborů pomocí řešení On Premise nebo použijte aplikaci Online Document Merger & Splitter."
+  },
+  "header": {
+    "title": "Řešení pro sloučení a rozdělení dokumentů",
+    "description": "Snadno slučujte více dokumentů nebo rozdělte dokumenty Microsoft Office, OpenOffice, PDF a další na stránky."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Merger High Code API zahrnuje",
+      "label": "Zobrazit všechna rozhraní High Code API",
+      "net": {
+        "content": "On Premise API, která vám mohou pomoci implementovat funkci rychlého rozdělení a sloučení pro více dokumentů ve vašich aplikacích založených na .NET."
+      },
+      "java": {
+        "content": "Nativní rozhraní Java API pro rychlé sloučení více dokumentů nebo rozdělení jakéhokoli dokumentu na stránky ve vašich aplikacích založených na Javě."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Merger Low Code API zahrnuje",
+      "label": "Zobrazit všechna rozhraní API s nízkým kódem",
+      "curl": {
+        "content": "Jednoduché příkazy cURL pro RESTful document merger Cloud API pro sloučení a rozdělení dokumentů v široké škále podporovaných populárních formátů dokumentů."
+      },
+      "net": {
+        "content": "Cloud SDK pro Microsoft .NET, která pomáhá programátorům implementovat funkci rychlého sloučení a rozdělení pro více dokumentů v jejich aplikacích založených na .NET."
+      },
+      "java": {
+        "content": "Kombinujte více dokumentů do jednoho, rozdělte libovolný dokument na více, změňte pořadí, nahraďte nebo změňte orientaci stránky ve svých aplikacích Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Aplikace neobsahuje žádný kód",
+      "label": "Zobrazit všechny aplikace bez kódu",
+      "total": {
+        "content": "Vyzkoušejte naši bezplatnou online aplikaci pro zřetězení více než 30 typů souborů, aniž byste opustili svůj oblíbený webový prohlížeč."
+      },
+      "docx": {
+        "content": "Spojte více souborů DOCX a vygenerujte jeden dokument."
+      },
+      "pdf": {
+        "content": "Sloučením více souborů PDF můžete vygenerovat jeden dokument přímo z webového prohlížeče."
+      }
+    }
+  }
+}

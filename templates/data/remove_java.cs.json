@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Odebrat {{EXT}} stránky v {{ProgLang}}",
+    "description": "Odeberte nebo smažte jednu stránku nebo kolekci stránek ze souboru {{EXT}} v {{ProgLang}} obrácením pořadí stránek pomocí rozhraní API pro slučování dokumentů."
+  },
+  "header": {
+    "title": "Odebrat {{EXT}} stránky v {{ProgLang}}",
+    "description": "Odstraňte {{EXT}} stránky pomocí několika řádků kódu {{ProductName}}.",
+    "button_label": "Stáhněte si zkušební verzi zdarma"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Reference API",
+      "button_text_2": "Příklady kódu",
+      "button_text_3": "Živá ukázka",
+      "button_text_4": "Ceny"
+    }
+  },
+  "about": {
+    "title": "O {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) nabízí jednoduché řešení pro bezpečné sloučení a rozdělení mezi širokou škálou formátů dokumentů včetně PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, obrázky a mnoho dalších v aplikacích {{ProductName}}. Přidáním několika řádků kódu proveďte několik operací s dokumentem, jako je přesun, odstranění, otočení, výměna, extrahování nebo změna orientace stránek v dokumentech. Rozhraní API pro slučování dokumentů také podporuje náhled stránek dokumentu jako obrázku pro analýzu struktury dokumentu, formátování a obsahu na stránce.",
+    "h2": "GroupDocs.Merger API je správnou volbou pro podniková řešení, která vyžadují funkce pro odstraňování souborů ze stránek. Tato rozhraní API jsou dobře podporována na všech hlavních operačních systémech a platformách včetně {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Odebrat {{EXT}} stránky souboru v {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) usnadňuje vývojářům {{ProgLang}} smazat jednu nebo několik konkrétních stránek v rámci {{EXT}} soubor provedením několika snadných kroků.",
+      "step_1": "Inicializujte **RemoveOptions** s čísly stránek, které chcete odstranit.",
+      "step_2": "Vytvořte novou instanci **Merger** a předejte cestu ke zdrojovému dokumentu jako parametr konstruktoru.",
+      "step_3": "Zavolejte **removePages** a předejte objekt **RemoveOptions**.",
+      "step_4": "Zavolejte **save** a zadejte cestu k souboru pro uložení výsledného dokumentu."
+    },
+    "title_right": "Požadavky na systém",
+    "content_right": {
+      "description": "Rozhraní API {{ProductFullName}} jsou podporována na všech hlavních platformách a operačních systémech. Před spuštěním níže uvedeného kódu se prosím ujistěte, že máte na svém systému nainstalovány následující předpoklady.",
+      "step_1": "Operační systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojová prostředí: {{DevEnv}}",
+      "step_3": "Rámce",
+      "step_4": "Stáhněte si nejnovější verzi {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Jak odstranit stránky souboru {{EXT}} pomocí ukázkového kódu {{ProgLang}}",
+    "code": {
+      "load_comment": "Odstraňte stránky souboru {{EXT}} pomocí GroupDocs.Merger API",
+      "opt_comment": "Inicializujte třídu RemoveOptions s vybranými čísly stránek",
+      "ini_comment": "Okamžité sloučení se vstupním dokumentem {{EXT}}",
+      "run_comment": "Zavolejte metodu removePages a předejte jí objekt RemoveOptions",
+      "save_comment": "Zavolejte metodu uložení a předejte požadovanou cestu k souboru pro uložení výstupního dokumentu"
+    }
+  },
+  "demos": {
+    "title": "Živá ukázka – Odeberte {{EXT}} stránek online",
+    "h1": "Odstraňte stránky souborů {{EXT}} hned teď na webu [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/{{ext}}).",
+    "h2": "Živé demo má následující výhody."
+  },
+  "more_formats": {
+    "title": "Odebrat stránky z jiných formátů dokumentů",
+    "content": "API pro slučování a rozdělení dokumentů {{ProductName}} pro formáty souborů a obrázky. Odeberte některé z oblíbených formátů souborů, jak je uvedeno níže."
+  }
+}
