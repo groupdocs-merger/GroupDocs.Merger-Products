@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T14:52:48
+date: 2022-10-24T15:12:51
 draft: false
 otherformats: vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps
 
@@ -73,7 +73,7 @@ steps:
         * **ExtractOptions** በውጤቱ ሰነድ ውስጥ መታየት ያለባቸውን የገጽ ቁጥሮች ያስጀምሩ።
         * አዲስ የ **Merger** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
         * **የማውጣት ገጾችን ይደውሉ እና **ExtractOptions** ነገርን ይለፉ።
-        * ወደ **Save*** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
+        * ወደ **Save** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
 
     title_right: "የስርዓት መስፈርቶች"
     content_right: |

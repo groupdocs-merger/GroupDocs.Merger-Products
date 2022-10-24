@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T14:52:50
+date: 2022-10-24T15:12:53
 draft: false
 otherformats: docx dot dotm dotx epub html mht mhtml odp ods odt one otp ott pdf pps
 
@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/am/merger/net/) ለC# ገንቢዎች በVSDM ውስጥ አንድ ነጠላ ወይም የተወሰኑ ገጾችን መሰረዝ ቀላል ያደርገዋል። ጥቂት ቀላል ደረጃዎችን በመተግበር ፋይል ያድርጉ።
         
-        * ለማስወገድ **አማራጮችን አስወግድ** ከገጽ ቁጥሮች ጋር አስጀምር።
+        * ለማስወገድ **RemoveOptions** ከገጽ ቁጥሮች ጋር አስጀምር።
         * አዲስ የ **Merger** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
-        * ወደ **ገጾችን አስወግድ** ይደውሉ እና **አማራጮችን አስወግድ** ነገር ይለፉ።
+        * ወደ **RemovePages** ይደውሉ እና **RemoveOptions** ነገር ይለፉ።
         * ወደ **Save** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
 
     title_right: "የስርዓት መስፈርቶች"

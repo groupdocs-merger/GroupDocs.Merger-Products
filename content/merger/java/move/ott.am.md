@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T14:52:49
+date: 2022-10-24T15:12:52
 draft: false
 otherformats: pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam
 
@@ -73,7 +73,7 @@ steps:
         * የአሁኑን እና አዲስ የገጽ ቁጥሮችን ለመለየት **MoveOptions** ያስጀምሩ።
         * አዲስ የ **Merger** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
         * **የእንቅስቃሴ ገጽ** ይደውሉ እና **MoveOptions** ነገርን ይለፉ።
-        * ወደ **Save*** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
+        * ወደ **Save** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
 
     title_right: "የስርዓት መስፈርቶች"
     content_right: |
