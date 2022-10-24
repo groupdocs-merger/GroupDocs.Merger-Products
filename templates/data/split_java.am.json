@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "{{EXT}}ን በ{{ProgLang}} ውስጥ ወደ ብዙ ፋይሎች ተከፋፍል",
+    "description": "የሰነዶች ውህደት ኤፒአይን በመጠቀም አንድ ነጠላ {{EXT}} ፋይል በገጽ ቁጥሮች፣ የገጽ ክፍተቶች፣ አልፎ ተርፎም ወይም ያልተለመዱ ገጾችን ወደ ብዙ ፋይሎች ይከፋፍሉ።"
+  },
+  "header": {
+    "title": "{{EXT}} Splitter በ{{ProgLang}} ውስጥ",
+    "description": "{{EXT}}ን በጥቂት የ{{ProductName}} ኮድ መስመሮች ተከፍል።",
+    "button_label": "ነጻ ሙከራ ያውርዱ"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "የኤፒአይ ማጣቀሻ",
+      "button_text_2": "የኮድ ምሳሌዎች",
+      "button_text_3": "የቀጥታ ማሳያዎች",
+      "button_text_4": "የዋጋ አሰጣጥ"
+    }
+  },
+  "about": {
+    "title": "ስለ {{ProductFullName}} ኤፒአይ",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/)) ቤተ-መጽሐፍት ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ (Word፣ Excel፣) ጨምሮ በተለያዩ የሰነድ ቅርጸቶች መካከል ደህንነቱ በተጠበቀ ሁኔታ ለመዋሃድ እና ለመከፋፈል ቀላል መፍትሄ ይሰጣል። PowerPoint፣ OneNote)፣ OpenDocument፣ HTML፣ ምስሎች እና ሌሎች በ{{ProductName}} መተግበሪያዎች ውስጥ። የኮዱ ጥቂት መስመሮችን በማከል፣ እንደ ማንቀሳቀስ፣ ማስወገድ፣ ማሽከርከር፣ መለዋወጥ፣ ማውጣት ወይም በሰነዶቹ ውስጥ ያሉትን የገጾች አቅጣጫ መቀየር የመሳሰሉ በርካታ የሰነድ ስራዎችን ያከናውኑ። የሰነዶች ውህደት ኤፒአይ እንዲሁ የሰነድ ገጾችን በገጽ ላይ ያለውን የሰነድ አወቃቀሩን፣ ቅርጸቱን እና ይዘቱን ለመተንተን እንደ ምስል ቅድመ እይታን ይደግፋል።",
+    "h2": "GroupDocs.Merger API የፋይል ክፍፍል ባህሪያትን ለሚፈልጉ የድርጅት መፍትሄዎች ትክክለኛ ምርጫ ነው። እነዚህ ኤፒአይዎች በሁሉም ዋና ስርዓተ ክወናዎች እና መድረኮች {{Runtime}}ን ጨምሮ በደንብ ይደገፋሉ።"
+  },
+  "steps": {
+    "title_left": "{{EXT}} ፋይል በገጽ በ{{ProductName}} ክፈል",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ለ{{ProgLang}} ገንቢዎች አንድን ነጠላ {{EXT}} ፋይል በመተግበር ወደ ብዙ የውጤት ፋይሎች መከፋፈል ቀላል ያደርገዋል። ጥቂት ቀላል ደረጃዎች.",
+      "step_1": "**SplitOptions** በውጽአት ፋይሎች ዱካ ቅርጸት አስጀምር።",
+      "step_2": "አዲስ የ ** ውህደት *** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።",
+      "step_3": "የውጤት ሰነዶችን ለማስቀመጥ ወደ ** ተከፈለ *** ይደውሉ እና **SplitOptions** ይለፉ።"
+    },
+    "title_right": "የስርዓት መስፈርቶች",
+    "content_right": {
+      "description": "{{ProductFullName}} ኤፒአይዎች በሁሉም ዋና መድረኮች እና ስርዓተ ክወናዎች ላይ ይደገፋሉ። ከዚህ በታች ያለውን ኮድ ከመተግበሩ በፊት፣ እባክዎ በስርዓትዎ ላይ የሚከተሉት ቅድመ ሁኔታዎች እንዳሉዎት ያረጋግጡ።",
+      "step_1": "ስርዓተ ክወናዎች-ማይክሮሶፍት ዊንዶውስ ፣ ሊኑክስ ፣ ማክኦኤስ",
+      "step_2": "የልማት አካባቢ፡ {{DevEnv}}",
+      "step_3": "ማዕቀፎች",
+      "step_4": "የቅርብ ጊዜውን የ{{ProductFullName}} ስሪት ከ[{{RepoName}}]({{RepoUrl}}) ያውርዱ"
+    },
+    "title_code": "{{EXT}} ፋይልን {{ProgLang}} ምሳሌ ኮድን በመጠቀም እንዴት እንደሚከፋፈል",
+    "code": {
+      "load_comment": "GroupDocs.Mergerን ለጃቫ ኤፒአይ በመጠቀም {{EXT}} ፋይል ክፈሉ።",
+      "opt_comment": "የSplitOptions ክፍልን በውጤት ፋይሎች ዱካ ቅርጸት አስጀምር",
+      "ini_comment": "የፈጣን ውህደት ከግቤት {{EXT}} ሰነድ ጋር",
+      "run_comment": "የውጤት ሰነዶችን ለማስቀመጥ የመከፋፈል ዘዴን ይደውሉ እና የSplitOptions ነገርን ይለፉ"
+    }
+  },
+  "demos": {
+    "title": "የቀጥታ ማሳያዎች - የተከፈለ {{EXT}} ፋይል በመስመር ላይ",
+    "h1": "የ[GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}) ድር ጣቢያን በመጎብኘት የ{{EXT}} ፋይል አሁኑኑ ይከፋፍሉ።",
+    "h2": "የቀጥታ ማሳያው የሚከተሉት ጥቅሞች አሉት።"
+  },
+  "more_formats": {
+    "title": "የሌሎች ቅርጸቶች ፋይል ተከፈለ",
+    "content": "የ{{ProductName}} ሰነዶች ውህደት እና ኤፒአይ ለፋይል ቅርጸቶች እና ምስሎች። ከታች እንደተገለጸው አንዳንድ ታዋቂ የፋይል ቅርጸቶችን ከፋፍል።"
+  }
+}
