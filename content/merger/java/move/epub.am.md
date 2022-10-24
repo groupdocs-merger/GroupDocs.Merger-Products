@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T12:23:18
+date: 2022-10-24T14:52:49
 draft: false
 otherformats: html mht mhtml odp ods odt one otp ott pdf pps ppsx ppt pptx rtf tex
 
@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for Java](/am/merger/java) ለJava ገንቢዎች ጥቂት ቀላል ደረጃዎችን በመተግበር ገጾችን በEPUB ፋይል ውስጥ ማንቀሳቀስ ቀላል ያደርገዋል። .
         
         * የአሁኑን እና አዲስ የገጽ ቁጥሮችን ለመለየት **MoveOptions** ያስጀምሩ።
-        * አዲስ የ ** ውህደት *** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
+        * አዲስ የ **Merger** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
         * **የእንቅስቃሴ ገጽ** ይደውሉ እና **MoveOptions** ነገርን ይለፉ።
-        * ወደ ** አስቀምጥ *** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
+        * ወደ **Save*** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
 
     title_right: "የስርዓት መስፈርቶች"
     content_right: |

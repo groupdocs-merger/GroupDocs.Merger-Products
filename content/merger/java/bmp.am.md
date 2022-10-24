@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merge"
-date: 2022-10-24T12:23:17
+date: 2022-10-24T14:52:49
 draft: false
 otherformats: vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps jpg jpeg
 
@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/am/merger/java) ጥቂት ቀላል ደረጃዎችን በመተግበር ለጃቫ ገንቢዎች ብዙ BMP ፋይሎችን ማዋሃድ ቀላል ያደርገዋል።
         
-        * የ ** ውህደት *** ምሳሌ ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ያስተላልፉ።
-        * ወደ ** ውህደት *** ክፍል ይደውሉ እና የሁለተኛውን የምንጭ ሰነድ መንገድ ይለፉ።
-        * የተዋሃደውን ሰነድ ለማስቀመጥ ወደ **ውህደት** ክፍል ይደውሉ።
+        * የ **Merger** ምሳሌ ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ያስተላልፉ።
+        * ወደ **Merger** ክፍል ይደውሉ እና የሁለተኛውን የምንጭ ሰነድ መንገድ ይለፉ።
+        * የተዋሃደውን ሰነድ ለማስቀመጥ ወደ **Merger** ክፍል ይደውሉ።
 
     title_right: "የስርዓት መስፈርቶች"
     content_right: |

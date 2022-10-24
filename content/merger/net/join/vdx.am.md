@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T12:23:17
+date: 2022-10-24T14:52:49
 draft: false
 otherformats: docm docx dot dotm dotx epub html mht mhtml odp ods odt one otp ott pdf
 
@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/am/merger/net/) ለ.NET ገንቢዎች ሁለት ወይም ከዚያ በላይ VDX ፋይሎችን በመተግበር ወደ መተግበሪያዎቻቸው መቀላቀል ቀላል ያደርገዋል። ጥቂት ቀላል ደረጃዎች.
         
-        * አዲስ የ ** ውህደት *** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
-        * ወደ ** ውህደት *** ክፍል ይደውሉ እና የሁለተኛውን የምንጭ ሰነድ መንገድ ይለፉ።
-        * የተዋሃደውን ሰነድ ለማስቀመጥ ወደ **ውህደት** ክፍል ይደውሉ።
+        * አዲስ የ **Merger** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
+        * ወደ **Merger** ክፍል ይደውሉ እና የሁለተኛውን የምንጭ ሰነድ መንገድ ይለፉ።
+        * የተዋሃደውን ሰነድ ለማስቀመጥ ወደ **Merger** ክፍል ይደውሉ።
 
     title_right: "የስርዓት መስፈርቶች"
     content_right: |

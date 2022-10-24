@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T12:23:17
+date: 2022-10-24T14:52:48
 draft: false
 otherformats: vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx
 
@@ -70,10 +70,10 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/am/merger/net/) ለC# ገንቢዎች የሚፈለጉትን ገፆች ከRTF ፋይል ማውጣት እና እንደ ማስቀመጥ ቀላል ያደርገዋል። ጥቂት ቀላል ደረጃዎችን በመተግበር የተመረጡ ገጾችን የያዘ አዲስ ፋይል.
         
-        * ** ExtractOptions ** በውጤቱ ሰነድ ውስጥ መታየት ያለባቸውን የገጽ ቁጥሮች ያስጀምሩ።
-        * አዲስ የ ** ውህደት *** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
-        * ወደ ** ExtractPages *** ይደውሉ እና ** ExtractOptions ** ነገርን ይለፉ።
-        * ወደ ** አስቀምጥ ** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
+        * **ExtractOptions** በውጤቱ ሰነድ ውስጥ መታየት ያለባቸውን የገጽ ቁጥሮች ያስጀምሩ።
+        * አዲስ የ **Merger** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
+        * ወደ **ExtractPages** ይደውሉ እና **ExtractOptions** ነገርን ይለፉ።
+        * ወደ **Save** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
 
     title_right: "የስርዓት መስፈርቶች"
     content_right: |

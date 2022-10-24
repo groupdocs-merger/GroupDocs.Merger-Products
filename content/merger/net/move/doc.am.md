@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T12:23:18
+date: 2022-10-24T14:52:49
 draft: false
 otherformats: docm docx dot dotm dotx epub html mht mhtml odp ods odt one otp ott pdf
 
@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for .NET](/am/merger/net) ለC# ገንቢዎች ጥቂት ቀላል ደረጃዎችን በመተግበር ገጾችን በDOC ፋይል ውስጥ ማንቀሳቀስ ቀላል ያደርገዋል። .
         
         * የአሁኑን እና አዲስ የገጽ ቁጥሮችን ለመለየት **MoveOptions** ያስጀምሩ።
-        * አዲስ የ ** ውህደት *** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
-        * **MovePage* ይደውሉ እና **MoveOptions** ነገርን ይለፉ።
-        * ወደ ** አስቀምጥ ** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
+        * አዲስ የ **Merger** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
+        * **MovePage**ይደውሉ እና **MoveOptions** ነገርን ይለፉ።
+        * ወደ **Save** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
 
     title_right: "የስርዓት መስፈርቶች"
     content_right: |

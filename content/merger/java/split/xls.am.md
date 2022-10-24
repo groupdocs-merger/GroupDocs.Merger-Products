@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T12:23:19
+date: 2022-10-24T14:52:50
 draft: false
 otherformats: ods odt one otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm
 
@@ -71,7 +71,7 @@ steps:
         [GroupDocs.Merger for Java](/am/merger/java/) ለJava ገንቢዎች አንድን ነጠላ XLS ፋይል በመተግበር ወደ ብዙ የውጤት ፋይሎች መከፋፈል ቀላል ያደርገዋል። ጥቂት ቀላል ደረጃዎች.
         
         * **SplitOptions** በውጽአት ፋይሎች ዱካ ቅርጸት አስጀምር።
-        * አዲስ የ ** ውህደት *** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
+        * አዲስ የ **Merger** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
         * የውጤት ሰነዶችን ለማስቀመጥ ወደ ** ተከፈለ *** ይደውሉ እና **SplitOptions** ይለፉ።
 
     title_right: "የስርዓት መስፈርቶች"

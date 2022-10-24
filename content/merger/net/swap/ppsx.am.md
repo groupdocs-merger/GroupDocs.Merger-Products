@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T12:23:19
+date: 2022-10-24T14:52:50
 draft: false
 otherformats: pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm
 
@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for .NET](/am/merger/net/) ለC# ገንቢዎች ጥቂት ቀላል ደረጃዎችን በመተግበር በPPSX ፋይል ውስጥ ገጾችን ለመለዋወጥ ቀላል ያደርገዋል። .
         
         * ለመለዋወጥ የገጽ ቁጥሮችን ለመለየት **SwapOptions** ያስጀምሩ።
-        * አዲስ የ ** ውህደት *** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
+        * አዲስ የ **Merger** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።
         * **Swappages* ይደውሉ እና **SwapOptions** ነገርን ይለፉ።
-        * ወደ ** አስቀምጥ ** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
+        * ወደ **Save** ይደውሉ እና የውጤቱን ሰነድ ለማስቀመጥ የፋይል ዱካውን ይጥቀሱ።
 
     title_right: "የስርዓት መስፈርቶች"
     content_right: |

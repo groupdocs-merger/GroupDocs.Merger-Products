@@ -26,7 +26,7 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ለ{{ProgLang}} ገንቢዎች አንድን ነጠላ {{EXT}} ፋይል በመተግበር ወደ ብዙ የውጤት ፋይሎች መከፋፈል ቀላል ያደርገዋል። ጥቂት ቀላል ደረጃዎች.",
       "step_1": "**SplitOptions** በውጽአት ፋይሎች ዱካ ቅርጸት አስጀምር።",
-      "step_2": "አዲስ የ ** ውህደት *** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።",
+      "step_2": "አዲስ የ **Merger** ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።",
       "step_3": "የውጤት ሰነዶችን ለማስቀመጥ **Split** ይደውሉ እና **SplitOptions** ይለፉ።"
     },
     "title_right": "የስርዓት መስፈርቶች",

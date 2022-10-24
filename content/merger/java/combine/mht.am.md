@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T12:23:16
+date: 2022-10-24T14:52:48
 draft: false
 otherformats: mhtml odp ods odt one otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm
 
@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/am/merger/java/) ለጃቫ ገንቢዎች ጥቂት ቀላል ደረጃዎችን በመተግበር ብዙ MHT ፋይሎችን ማጣመር ቀላል ያደርገዋል።
         
-        * የ ** ውህደት *** ምሳሌ ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ያስተላልፉ።
-        * ወደ ** ውህደት *** ክፍል ይደውሉ እና የሁለተኛውን የምንጭ ሰነድ መንገድ ይለፉ።
-        * የተዋሃደውን ሰነድ ለማስቀመጥ ወደ **ውህደት** ክፍል ይደውሉ።
+        * የ **Merger** ምሳሌ ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ያስተላልፉ።
+        * ወደ **Merger** ክፍል ይደውሉ እና የሁለተኛውን የምንጭ ሰነድ መንገድ ይለፉ።
+        * የተዋሃደውን ሰነድ ለማስቀመጥ ወደ **Merger** ክፍል ይደውሉ።
 
     title_right: "የስርዓት መስፈርቶች"
     content_right: |
