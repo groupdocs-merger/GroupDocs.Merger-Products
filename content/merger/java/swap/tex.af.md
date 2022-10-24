@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T07:40:13
+date: 2022-10-24T11:58:29
 draft: false
 otherformats: vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps
 
@@ -73,7 +73,7 @@ steps:
         * Inisialiseer **SwapOptions** om bladsynommers te spesifiseer om uit te ruil.
         * Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.
         * Bel **swapPages** en slaag **SwapOptions** objek.
-        * Roep **stoor** en spesifiseer die lêerpad om die resulterende dokument te stoor.
+        * Roep **Save** en spesifiseer die lêerpad om die resulterende dokument te stoor.
 
     title_right: "Stelselvereistes"
     content_right: |

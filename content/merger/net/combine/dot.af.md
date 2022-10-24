@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T07:40:10
+date: 2022-10-24T11:58:26
 draft: false
 otherformats: dotm dotx epub html mht mhtml odp ods odt one otp ott pdf pps ppsx ppt
 
@@ -71,8 +71,8 @@ steps:
         [GroupDocs.Merger for .NET](/af/merger/net/) maak dit maklik vir .NET-ontwikkelaars om twee of meer DOT-lêers binne hul toepassings te kombineer deur 'n paar maklike stappe.
         
         * Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.
-        * Bel **Sluit aan** van **Samsmelting**-klas en slaag die tweede brondokumentpad.
-        * Bel **Stoor** van **Samsmelting** klas om die saamgevoegde dokument te stoor.
+        * Bel **Join** van **Merger**-klas en slaag die tweede brondokumentpad.
+        * Bel **Save** van **Merger** klas om die saamgevoegde dokument te stoor.
 
     title_right: "Stelselvereistes"
     content_right: |

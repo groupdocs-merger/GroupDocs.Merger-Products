@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T07:40:12
+date: 2022-10-24T11:58:28
 draft: false
 otherformats: tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt
 
@@ -73,7 +73,7 @@ steps:
         * Inisialiseer **MoveOptions** om huidige en nuwe bladsynommers te spesifiseer.
         * Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.
         * Bel **movePage** en slaag **MoveOptions** objek.
-        * Roep **stoor** en spesifiseer die lêerpad om die resulterende dokument te stoor.
+        * Roep **Save** en spesifiseer die lêerpad om die resulterende dokument te stoor.
 
     title_right: "Stelselvereistes"
     content_right: |

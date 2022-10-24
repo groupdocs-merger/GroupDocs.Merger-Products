@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T07:40:12
+date: 2022-10-24T11:58:28
 draft: false
 otherformats: mhtml odp ods odt one otp ott pdf pps ppsx ppt pptx rtf tex vdx vsdm
 
@@ -70,10 +70,10 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/af/merger/java/) maak dit maklik vir Java-ontwikkelaars om 'n enkele of 'n aantal spesifieke bladsye binne 'n MHT uit te vee lêer deur 'n paar maklike stappe te implementeer.
         
-        * Inisialiseer **Verwyderopsies** met bladsynommers om te verwyder.
+        * Inisialiseer **RemoveOptions** met bladsynommers om te verwyder.
         * Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.
         * Bel **removePages** en slaag **RemoveOptions**-objek deur.
-        * Roep **stoor** en spesifiseer die lêerpad om die resulterende dokument te stoor.
+        * Roep **Save** en spesifiseer die lêerpad om die resulterende dokument te stoor.
 
     title_right: "Stelselvereistes"
     content_right: |

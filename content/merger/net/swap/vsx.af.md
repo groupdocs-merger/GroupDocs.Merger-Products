@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T07:40:13
+date: 2022-10-24T11:58:29
 draft: false
 otherformats: mht mhtml odp ods odt one otp ott pdf pps ppsx ppt pptx rtf tex vdx
 
@@ -73,7 +73,7 @@ steps:
         * Inisialiseer **SwapOptions** om bladsynommers te spesifiseer om uit te ruil.
         * Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.
         * Bel **SwapPages** en slaag **SwapOptions** objek.
-        * Bel **Stoor** en spesifiseer die lêerpad om die resulterende dokument te stoor.
+        * Bel **Save** en spesifiseer die lêerpad om die resulterende dokument te stoor.
 
     title_right: "Stelselvereistes"
     content_right: |

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T07:40:11
+date: 2022-10-24T11:58:27
 draft: false
 otherformats: epub html mht mhtml odp ods odt one otp ott pdf pps ppsx ppt pptx rtf
 
@@ -73,7 +73,7 @@ steps:
         * Inisialiseer **ExtractOptions** met bladsynommers wat in die resulterende dokument moet verskyn.
         * Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.
         * Bel **extractPages** en slaag **ExtractOptions** objek.
-        * Roep **stoor** en spesifiseer die lêerpad om die resulterende dokument te stoor.
+        * Roep **Save** en spesifiseer die lêerpad om die resulterende dokument te stoor.
 
     title_right: "Stelselvereistes"
     content_right: |

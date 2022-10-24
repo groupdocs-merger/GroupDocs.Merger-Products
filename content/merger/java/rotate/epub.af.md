@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T07:40:12
+date: 2022-10-24T11:58:28
 draft: false
 otherformats: pdf xps tex
 
@@ -73,7 +73,7 @@ steps:
         * Inisialiseer **RotateOptions** met verlangde rotasiehoek en bladsynommers.
         * Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.
         * Bel **rotatePages** en slaag **RotateOptions** objek.
-        * Roep **stoor** en spesifiseer die lêerpad om die resulterende dokument te stoor.
+        * Roep **Save** en spesifiseer die lêerpad om die resulterende dokument te stoor.
 
     title_right: "Stelselvereistes"
     content_right: |

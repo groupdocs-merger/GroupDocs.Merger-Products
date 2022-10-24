@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T07:40:12
+date: 2022-10-24T11:58:28
 draft: false
 otherformats: ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xlam xls xlsb
 
@@ -70,10 +70,10 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/af/merger/net/) maak dit maklik vir C#-ontwikkelaars om 'n enkele of 'n aantal spesifieke bladsye binne 'n PPS uit te vee lêer deur 'n paar maklike stappe te implementeer.
         
-        * Inisialiseer **Verwyderopsies** met bladsynommers om te verwyder.
+        * Inisialiseer **RemoveOptions** met bladsynommers om te verwyder.
         * Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.
         * Bel **RemovePages** en slaag **RemoveOptions** objek.
-        * Bel **Stoor** en spesifiseer die lêerpad om die resulterende dokument te stoor.
+        * Bel **Save** en spesifiseer die lêerpad om die resulterende dokument te stoor.
 
     title_right: "Stelselvereistes"
     content_right: |

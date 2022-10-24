@@ -28,7 +28,7 @@
       "step_1": "Inisialiseer **SwapOptions** om bladsynommers te spesifiseer om uit te ruil.",
       "step_2": "Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.",
       "step_3": "Bel **swapPages** en slaag **SwapOptions** objek.",
-      "step_4": "Roep **stoor** en spesifiseer die lêerpad om die resulterende dokument te stoor."
+      "step_4": "Roep **Save** en spesifiseer die lêerpad om die resulterende dokument te stoor."
     },
     "title_right": "Stelselvereistes",
     "content_right": {

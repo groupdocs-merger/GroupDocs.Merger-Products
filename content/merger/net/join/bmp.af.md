@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-merger"
-date: 2022-10-24T07:40:11
+date: 2022-10-24T11:58:27
 draft: false
 otherformats: vssx vstm vstx vsx vtx xlam xls xlsb xlsm xlsx xlt xltm xltx xps jpg jpeg
 
@@ -71,8 +71,8 @@ steps:
         [GroupDocs.Merger for .NET](/af/merger/net/) maak dit maklik vir .NET-ontwikkelaars om twee of meer BMP-lêers binne hul toepassings aan te sluit deur 'n paar maklike stappe.
         
         * Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.
-        * Bel **Sluit aan** van **Samsmelting**-klas en slaag die tweede brondokumentpad.
-        * Bel **Stoor** van **Samsmelting** klas om die saamgevoegde dokument te stoor.
+        * Bel **Join** van **Merger**-klas en slaag die tweede brondokumentpad.
+        * Bel **Save** van **Merger** klas om die saamgevoegde dokument te stoor.
 
     title_right: "Stelselvereistes"
     content_right: |
