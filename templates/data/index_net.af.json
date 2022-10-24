@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Kombineer en verdeel PDF Word Excel EPUB",
+    "description": "C# .NET dokumentsamesmeltings-API om dokumentbladsye van PDF, Microsoft Word, Excel, aanbiedings, Visio en beeldformate te kombineer, verdeel, omruil of te verwyder."
+  },
+  "header": {
+    "title": ".NET API om dokumente saam te voeg en te verdeel",
+    "description": "API om dokumente, skyfies en diagramme in .NET-toepassings te kombineer, te verdeel, om te ruil, te knip of te verwyder."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Oorsig",
+      "features": "Kenmerke",
+      "support": "Ondersteuning",
+      "livedemo": "Regstreekse Demo",
+      "pricing": "Pryse"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger for .NET, help jou om vinnig topklas besigheidstoepassings in C#, ASP.NET en ander .NET-tegnologie te ontwikkel. Slegs 'n paar reëls kode sal jou .NET-toepassings in staat stel om 'n enkele bladsy of 'n versameling dokumentbladsye, skyfies, beelde of diagramme te kombineer, verdeel, herrangskik, ruil, knip en verwyder. Voer hierdie bewerkings uit op veilige lêers deur wagwoordbeskerming van bekende en onbekende lêerformate in te stel of te verwyder.",
+      "paragraph_2": "Deur GroupDocs.Merger vir .NET te gebruik, kan jy samesmelting uitvoer; splitsing en ander verwante bewerkings op enkele dokumente sowel as 'n bondel dokumente. Stik lêers van alle gewilde formate, soos Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBoek en beeldlêerformate programmeerbaar."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Hier volg 'n oorsig van GroupDocs.Merger vir .NET:",
+      "left": {
+        "title": "Dokumentoperasies",
+        "content": {
+          "line_1": "Verander bladsyvolgorde",
+          "line_2": "Verwyder of vee bladsye uit",
+          "line_3": "Verdeel of breek dokument",
+          "line_4": "Ruil of skommel enige twee bladsye",
+          "line_5": "Knip enkele of veelvuldige bladsye",
+          "line_6": "Sluit aan by verskeie dokumente"
+        }
+      },
+      "right": {
+        "title": "Sekuriteitsbedrywighede",
+        "content": {
+          "line_1": "Stel dokument sekuriteit op",
+          "line_2": "Gaan dokumentsekuriteitstatus na",
+          "line_3": "Stel dokument wagwoord",
+          "line_4": "Dateer dokumentwagwoord op",
+          "line_5": "Verwyder dokumentwagwoord"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger for .NET ondersteun die samevoeging van die volgende [dokumentlêerformate](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Woord:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** EEN"
+        }
+      },
+      "right": {
+        "title": "OpenDocument en ander formate",
+        "content": {
+          "line_1": "**OpenDocument Formate**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Vaste uitleg**: PDF, XPS",
+          "line_3": "**Beeld**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Teks**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-boek**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for .NET ondersteun die volgende bedryfstelsels, raamwerke en pakketbestuurders:",
+      "left": {
+        "title": "Bedryfstelsels",
+        "content": {
+          "line_1": "Windows Desktop",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Ondersteunde raamwerke",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 of hoër",
+          "line_2": "Mono Framework 1.2 of hoër",
+          "line_3": ".NET Standaard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Pakketbestuurder",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Ontwikkelingsomgewings",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* Mono-ontwikkel"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger vir .NET-kenmerke",
+    "feature_1": {
+      "content": "Kombineer en voeg verskeie bladsye, skyfies en diagramme saam in 'n enkele dokument"
+    },
+    "feature_2": {
+      "content": "Verdeel en breek groot dokumente in verskeie kleiner lêers"
+    },
+    "feature_3": {
+      "content": "Herrangskik, skuifel en herorganiseer bladsye, skyfies of diagramme"
+    },
+    "feature_4": {
+      "content": "Ruil en ruil twee bladsye, skyfies of diagramme met mekaar binne 'n dokument"
+    },
+    "feature_5": {
+      "content": "Sny dokument deur spesifieke bladsye, skyfies of diagramme te verwyder"
+    },
+    "feature_6": {
+      "content": "Verwyder enkele of versameling bladsye, skyfies of diagramme"
+    },
+    "feature_7": {
+      "content": "Stik groot aantal dokumente in bondels saam"
+    },
+    "feature_8": {
+      "content": "Kontroleer programmaties of 'n dokument met 'n wagwoord beveilig is"
+    },
+    "feature_9": {
+      "content": "Stel, stel terug en verwyder wagwoord van bekende en onbekende dokumentformate"
+    },
+    "feature_10": {
+      "content": "Haal lys van ondersteunde lêerformate – Verdeel en voeg teks (ERR) Loglêerformaat"
+    },
+    "feature_11": {
+      "content": "Draai bladsye en verander bladsyoriëntasie van bekende en onbekende formate"
+    },
+    "feature_12": {
+      "content": "Kombineer verskeie lêers van verskillende formate na DOC, DOCX en XPS"
+    },
+    "feature_13": {
+      "content": "Verdeel groot tekslêers volgens reëlnommers"
+    },
+    "feature_14": {
+      "content": "Verkry beeldvoorstellings van dokumentbladsye en diagramfamilieformate"
+    },
+    "feature_15": {
+      "content": "Sluit aan by beelde met agtergrondkleur vir leë swart beeldspasie"
+    },
+    "feature_16": {
+      "content": "Voeg verskillende tipes dokumente (DOC, XLS, PPT, ens.) saam in 'n enkele PDF-lêer"
+    },
+    "feature_17": {
+      "content": "Voer OLE-voorwerpe maklik in Microsoft Word, Excel, Presentation en OpenDocument-lêertipes in"
+    },
+    "feature_18": {
+      "content": "Voeg ander dokumente by diagrambladsy via OLE-voorwerpe"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Verwyder gewenste bladsye uit dokumente",
+      "content": "GroupDocs.Merger for .NET API help jou om ongewenste bladsye uit jou dokument te verwyder."
+    },
+    "feature_2": {
+      "title": "Pas transformasie toe op gelewerde uitset",
+      "content": "Jy kan verskeie transformasies aan die gelewerde uitvoerdokument uitvoer deur GroupDocs.Merger vir .NET API te gebruik. Hierdie transformasie-opsies gee jou beheer oor die manier waarop jy die gelewerde uitset vir vertoon aanbied. Die beskikbare transformasies is, bladsy rotasie opsie, bladsy herrangskik opsie en die toepassing van teks watermerk."
+    },
+    "feature_3": {
+      "title": "Gaan wagwoord van onbekende dokumentformaat na",
+      "content": "GroupDocs.Merger for .NET API stel jou in staat om die wagwoord van 'n dokument waarvan die formaat nie bekend is nie, na te gaan."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger bied dokumentsamesmeltings-API's vir ander gewilde ontwikkelingsomgewings",
+    "solution": {
+      "img_alt": "GroupDocs.Merger vir Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

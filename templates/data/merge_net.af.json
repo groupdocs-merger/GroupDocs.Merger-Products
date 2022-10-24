@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Voeg {{EXT}} lêers saam in {{ProgLang}} | {{EXT}} samesmelting",
+    "description": "Voeg veelvuldige {{EXT}} lêers saam in 'n enkele lêer deur gebruik te maak van {{ProgLang}} {{ProductName}} dokumentsamesmeltings-API. Voeg spesifieke bladsye of bladsyreekse saam van verskeie dokumente tot 'n enkele dokument."
+  },
+  "header": {
+    "title": "{{EXT}} samesmelting in {{ProgLang}}",
+    "description": "Voeg {{EXT}} saam met 'n paar reëls van {{ProductName}}-kode.",
+    "button_label": "Laai gratis proeflopie af"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-verwysing",
+      "button_text_2": "Kode voorbeelde",
+      "button_text_3": "Regstreekse demonstrasies",
+      "button_text_4": "Pryse"
+    }
+  },
+  "about": {
+    "title": "Oor {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) bied 'n gerieflike oplossing om verskeie PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, beelde en baie ander dokumente in 'n enkele lêer binne {{ProductName}} toepassings. GroupDocs.Merger sal jou baie moeite spaar, aangesien jy toegelaat word om {{EXT}} dokumente saam te voeg - dit is nie nodig om enige derdeparty sagteware, rekenaartoepassings of inproppe te installeer nie. Nou is dit onnodig om jou tyd te mors en lêers met die hand saam te voeg! GroupDocs se missie is om die beste gehalte te verskaf en dokumentverwerkingswerkvloeie te vereenvoudig.",
+    "h2": "GroupDocs.Merger API is 'n regte keuse vir korporatiewe oplossings wat lêersamevoegingsfunksies benodig. Hierdie API's word goed ondersteun op alle groot bedryfstelsels en platforms insluitend {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Hoe om veelvuldige {{EXT}}-lêers saam te voeg",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) maak dit maklik vir {{ProductName}}-ontwikkelaars om twee of meer {{EXT}}-lêers binne hul toepassings saam te voeg deur 'n paar maklike stappe.",
+      "step_1": "Skep nuwe instansie van **Merger** en gee brondokumentpad as 'n konstruktorparameter deur.",
+      "step_2": "Bel **Sluit aan** van **Samsmelting**-klas en slaag die tweede brondokumentpad.",
+      "step_3": "Bel **Stoor** van **Samsmelting** klas om die saamgevoegde dokument te stoor."
+    },
+    "title_right": "Stelselvereistes",
+    "content_right": {
+      "description": "{{ProductFullName}} API's word op alle groot platforms en bedryfstelsels ondersteun. Voordat u die kode hieronder uitvoer, maak asseblief seker dat u die volgende voorvereistes op u stelsel geïnstalleer het.",
+      "step_1": "Bedryfstelsels: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelingsomgewings: {{DevEnv}}",
+      "step_3": "Raamwerke",
+      "step_4": "Laai die nuutste weergawe van {{ProductFullName}} af vanaf [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hoe om {{EXT}} lêers saam te voeg deur {{ProgLang}} voorbeeldkode te gebruik",
+    "code": {
+      "load_comment": "Voeg {{EXT}} lêers saam met GroupDocs.Merger API",
+      "ini_comment": "Instansieer samesmelting met invoer {{EXT}} dokument",
+      "run_comment": "Bel Sluit aan metode van samesmelting klas instansie en slaag tweede bron dokument pad",
+      "save_comment": "Roep Stoormetode van samesmeltingsklasinstansie om saamgevoegde dokument te stoor"
+    }
+  },
+  "demos": {
+    "title": "Live Demo's - Aanlyn-toepassing om dokumente saam te voeg",
+    "h1": "Voeg nou meer as een {{EXT}}-lêers saam deur [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}) webwerf te besoek.",
+    "h2": "Die lewendige demo het die volgende voordele."
+  },
+  "more_formats": {
+    "title": "Voeg ander dokumentformate saam",
+    "content": "{{ProductName}} dokumentsamesmeltings-API vir lêerformate en prente. Voeg sommige van die gewilde dokumentformate saam soos hieronder genoem."
+  }
+}

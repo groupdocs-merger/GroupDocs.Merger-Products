@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Dokumentsamevoeging en -verdeeloplossing | On Premise API's en gratis toepassing",
+    "description": "Voeg saam en verdeel MS Office, OpenDocument, PDF-beelde en ander lêerformate met On Premise Solution of gebruik die Online Document Merger & Splitter-toepassing."
+  },
+  "header": {
+    "title": "Oplossing om dokumente saam te voeg en te verdeel",
+    "description": "Voeg maklik verskeie dokumente saam of verdeel Microsoft Office, OpenOffice, PDF en ander dokumente in bladsye."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Merger High Code API's sluit in",
+      "label": "Bekyk alle hoë kode API's",
+      "net": {
+        "content": "On Premise API's wat jou kan help om vinnige split- en samesmeltingsfunksie vir verskeie dokumente in jou .NET-gebaseerde toepassings te implementeer."
+      },
+      "java": {
+        "content": "Inheemse Java API's om verskeie dokumente vinnig saam te voeg of enige dokument in bladsye binne jou Java-gebaseerde toepassings te verdeel."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Merger Lae Kode API's sluit in",
+      "label": "Bekyk alle lae kode API's",
+      "curl": {
+        "content": "Eenvoudige cURL-opdragte vir RESTful dokument samesmelting Wolk API om dokumente saam te voeg en te verdeel oor die wye reeks ondersteunde gewilde dokumentformate."
+      },
+      "net": {
+        "content": "Wolk-SDK vir Microsoft .NET wat programmeerders help om vinnige samesmeltings- en verdeelfunksie vir veelvuldige dokumente in hul .NET-gebaseerde toepassings te implementeer."
+      },
+      "java": {
+        "content": "Kombineer veelvuldige dokumente in een, verdeel enige dokument na veelvuldig, herrangskik, vervang of verander bladsyoriëntasie in jou Java-toepassings."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Geen kode-toepassings sluit in nie",
+      "label": "Bekyk Alle No Code Apps",
+      "total": {
+        "content": "Probeer ons gratis aanlyn-toepassing om meer as 30 soorte lêers aaneen te koppel sonder om jou gunsteling webblaaier te verlaat."
+      },
+      "docx": {
+        "content": "Koppel verskeie DOCX-lêers saam om 'n enkele dokument te genereer."
+      },
+      "pdf": {
+        "content": "Voeg verskeie PDF-lêers saam om 'n enkele dokument direk vanaf die webblaaier te genereer."
+      }
+    }
+  }
+}
