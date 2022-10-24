@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "API de fusió de documents de Java | combinar i eliminar Word Excel PDF XPS EPUB",
+    "description": "API de fusió de documents per a Java. Combina, divideix, intercanvia, reordena i elimina pàgines de formats PDF, Microsoft Word, Excel, presentacions, Visio, XPS i EPUB."
+  },
+  "header": {
+    "title": "API de Java per combinar i dividir documents",
+    "description": "Desenvolupeu aplicacions d'alt rendiment que puguin combinar, extreure, remenar, retallar o suprimir pàgines, diapositives i diagrames sobre la marxa."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Visió general",
+      "features": "Característiques",
+      "support": "Suport",
+      "livedemo": "Demostració en directe",
+      "pricing": "Preus"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger per a Java us permet desenvolupar ràpidament aplicacions empresarials de primera línia en Java. Amb poca codificació, les vostres aplicacions Java poden combinar, extraure, barrejar, retallar i eliminar una sola pàgina o un lot de pàgines, diapositives i diagrames. Les operacions de fusió també es poden realitzar en fitxers segurs de format conegut i desconegut aplicant o eliminant la protecció amb contrasenya.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "A continuació es mostra una visió general de GroupDocs.Merger per a Java:",
+      "left": {
+        "title": "Operacions documentals",
+        "content": {
+          "line_1": "Canvia l'ordre de les pàgines",
+          "line_2": "Elimina o elimina pàgines",
+          "line_3": "Dividir o trencar el document",
+          "line_4": "Canvieu o remeneu dues pàgines qualsevol",
+          "line_5": "Retalla una o diverses pàgines",
+          "line_6": "Uniu diversos documents"
+        }
+      },
+      "right": {
+        "title": "Operacions de seguretat",
+        "content": {
+          "line_1": "Configurar la seguretat dels documents",
+          "line_2": "Comproveu l'estat de seguretat dels documents",
+          "line_3": "Estableix la contrasenya del document",
+          "line_4": "Actualitzar la contrasenya del document",
+          "line_5": "Elimina la contrasenya del document"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger per a Java admet la fusió dels següents [formats de fitxer de document](https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Paraula:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument i altres formats",
+        "content": {
+          "line_1": "**Formats OpenDocument**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Disposició fixa**: PDF, XPS",
+          "line_3": "**Imatges**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Text**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**Llibre electrònic**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger per a Java admet els següents sistemes operatius, marcs i gestors de paquets:",
+      "left": {
+        "title": "Sistemes operatius",
+        "content": {
+          "line_1": "Escriptori de Microsoft Windows",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "Linux",
+          "line_4": "MacOS"
+        },
+        "title_2": "Marcs suportats",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1,8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 i superior"
+        }
+      },
+      "right": {
+        "title": "Eina d'automatització de creació",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Entorns de desenvolupament",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IDEA IntelliJ",
+          "line_3": "* Eclipsi",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "Funcions de GroupDocs.Merger per a Java",
+    "feature_1": {
+      "content": "Combina diverses pàgines, diapositives i diagrames en un sol fitxer"
+    },
+    "feature_2": {
+      "content": "Extraieu i dividiu documents grans en diversos fitxers més petits"
+    },
+    "feature_3": {
+      "content": "Barreja i reorganitza pàgines, diapositives o diagrames"
+    },
+    "feature_4": {
+      "content": "Intercanvia i intercanvia dues pàgines, diapositives o diagrames entre si dins d'un document"
+    },
+    "feature_5": {
+      "content": "Retalla i retalla el document eliminant pàgines, diapositives o diagrames específics"
+    },
+    "feature_6": {
+      "content": "Suprimeix pàgines, diapositives o diagrames individuals o col·leccions"
+    },
+    "feature_7": {
+      "content": "Unir i combinar un gran nombre de documents per lots"
+    },
+    "feature_8": {
+      "content": "Comproveu programadament a Java si un document està protegit amb una contrasenya"
+    },
+    "feature_9": {
+      "content": "Establir, restablir i eliminar la contrasenya de formats de document coneguts i desconeguts"
+    },
+    "feature_10": {
+      "content": "Dividiu un fitxer de text en múltiples per números de línia"
+    },
+    "feature_11": {
+      "content": "Obteniu la representació d'imatge de les pàgines del document"
+    },
+    "feature_12": {
+      "content": "Combina diversos documents de diferents formats en un sol fitxer PDF"
+    },
+    "feature_13": {
+      "content": "Inseriu objectes OLE als formats PDF, Word, Excel, PowerPoint i Open Document"
+    },
+    "feature_14": {
+      "content": "Adjunteu fitxers amb programació a un document PDF"
+    },
+    "feature_15": {
+      "content": "Afegiu un document al diagrama mitjançant objectes OLE"
+    },
+    "feature_16": {
+      "content": "Combina diferents tipus de documents (DOC, XLS, PPT, etc.) en un sol fitxer PDF"
+    },
+    "feature_17": {
+      "content": "Importeu fàcilment objectes OLE als tipus de fitxers de Microsoft Word, Excel, Presentation i OpenDocument"
+    },
+    "feature_18": {
+      "content": "Afegiu altres documents a la pàgina del diagrama mitjançant objectes OLE"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Elimina les pàgines desitjades dels documents",
+      "content": "L'API de GroupDocs.Merger per a Java us permet seleccionar i suprimir pàgines no desitjades del vostre document."
+    },
+    "feature_2": {
+      "title": "Comproveu la contrasenya del format de document desconegut",
+      "content": "Fins i tot si es desconeix el format d'un document concret, GroupDocs.Merger per a Java us permet comprovar i recuperar la contrasenya del document, si està disponible."
+    },
+    "feature_3": {
+      "title": "Uniu-vos a documents protegits amb contrasenya de formats coneguts",
+      "content": "L'API de GroupDocs.Merger per a Java us permet obtenir una llista de documents de formats coneguts i desconeguts."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger ofereix API de fusió de documents per a altres entorns de desenvolupament populars",
+    "solution": {
+      "img_alt": "GroupDocs.Merger per a .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}

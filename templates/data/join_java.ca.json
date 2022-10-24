@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Uniu-vos a fitxers {{EXT}} mitjançant l'API de fusió de documents Java i J2SE",
+    "description": "Uniu diversos fitxers {{EXT}} a Java mitjançant l'API de fusió de documents amb totes les dades, estil i format com a documents font."
+  },
+  "header": {
+    "title": "Uniu-vos a {{EXT}} fitxers a {{ProgLang}}",
+    "description": "Uniu-vos a {{EXT}} amb unes quantes línies de codi {{ProductName}}.",
+    "button_label": "Baixeu la prova gratuïta"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referència de l'API",
+      "button_text_2": "Exemples de codi",
+      "button_text_3": "Demostracions en directe",
+      "button_text_4": "Preus"
+    }
+  },
+  "about": {
+    "title": "Sobre l'API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ofereix una solució convenient per unir múltiples PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, imatges i molts altres documents en un sol fitxer dins de les aplicacions {{ProductName}}. GroupDocs.Merger us estalviarà molt d'esforç, ja que podeu unir-vos a documents {{EXT}}; no cal que instal·leu cap programari, aplicacions d'escriptori o connectors de tercers. Ara no és necessari perdre el temps i unir fitxers manualment! La missió de GroupDocs és oferir la millor qualitat i simplificar els fluxos de treball de processament de documents.",
+    "h2": "L'API GroupDocs.Merger és una opció correcta per a solucions corporatives que necessiten funcions d'unió de fitxers. Aquestes API tenen una bona compatibilitat amb tots els sistemes operatius i plataformes principals, inclòs {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Uniu diversos fitxers {{EXT}} a {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) facilita que els desenvolupadors de Java uneixin diversos fitxers {{EXT}} implementant uns quants passos senzills.",
+      "step_1": "Creeu una instància de **Merger** i passeu la ruta del document font com a paràmetre de constructor.",
+      "step_2": "Truqueu a **Join** de la classe **Merger** i passeu la ruta del segon document d'origen.",
+      "step_3": "Truqueu a **Save** de la classe **Merger** per desar el document combinat."
+    },
+    "title_right": "Requisits del sistema",
+    "content_right": {
+      "description": "Les API de {{ProductFullName}} són compatibles amb totes les plataformes i sistemes operatius principals. Abans d'executar el codi següent, assegureu-vos que teniu els següents requisits previs instal·lats al vostre sistema.",
+      "step_1": "Sistemes operatius: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entorns de desenvolupament: {{DevEnv}}",
+      "step_3": "Marcs",
+      "step_4": "Baixeu la darrera versió de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Com unir fitxers {{EXT}} mitjançant el codi d'exemple {{ProgLang}}",
+    "code": {
+      "load_comment": "Uniu fitxers {{EXT}} mitjançant l'API de GroupDocs.Merger per a Java",
+      "ini_comment": "Instanciï Merger amb el document d'entrada {{EXT}}",
+      "run_comment": "Truqueu al mètode d'unió de la instància de classe Merger i passeu la segona ruta del document font",
+      "save_comment": "Truqueu al mètode de desar de la instància de classe Merger per desar el document combinat"
+    }
+  },
+  "demos": {
+    "title": "Demos en directe: aplicació en línia per unir documents",
+    "h1": "Uniu-vos a més d'un fitxer {{EXT}} ara mateix visitant el lloc web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "La demostració en directe té els següents avantatges."
+  },
+  "more_formats": {
+    "title": "Unir altres formats de document",
+    "content": "L'API de fusió de documents de {{ProductName}} per a formats de fitxer i imatges. Uniu alguns dels formats de document populars, tal com s'indica a continuació."
+  }
+}

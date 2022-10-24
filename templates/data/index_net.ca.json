@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Combina i divideix PDF Word Excel EPUB",
+    "description": "API de fusió de documents C# .NET per combinar, dividir, intercanviar o eliminar pàgines de documents de PDF, Microsoft Word, Excel, presentacions, Visio i formats d'imatge."
+  },
+  "header": {
+    "title": ".NET API per combinar i dividir documents",
+    "description": "API per combinar, dividir, intercanviar, retallar o eliminar documents, diapositives i diagrames en aplicacions .NET."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Visió general",
+      "features": "Característiques",
+      "support": "Suport",
+      "livedemo": "Demostració en directe",
+      "pricing": "Preus"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger per a .NET, us ajuda a desenvolupar ràpidament aplicacions empresarials de primer nivell en C#, ASP.NET i altres tecnologies .NET. Només unes poques línies de codi permetran que les vostres aplicacions .NET combinen, dividiran, reorganitzin, intercanviin, retallar i eliminar una sola pàgina o una col·lecció de pàgines de documents, diapositives, imatges o diagrames. Realitzeu aquestes operacions en fitxers segurs configurant o eliminant la protecció amb contrasenya dels formats de fitxer coneguts i desconeguts.",
+      "paragraph_2": "Mitjançant l'ús de GroupDocs.Merger per a .NET, podeu realitzar la fusió; divisió i altres operacions relacionades en documents únics, així com en un lot de documents. Uniu fitxers amb programació de tots els formats populars, com ara Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook i formats de fitxers d'imatge."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "A continuació es mostra una visió general de GroupDocs.Merger per a .NET:",
+      "left": {
+        "title": "Operacions documentals",
+        "content": {
+          "line_1": "Canvia l'ordre de les pàgines",
+          "line_2": "Elimina o elimina pàgines",
+          "line_3": "Dividir o trencar el document",
+          "line_4": "Canvieu o remeneu dues pàgines qualsevol",
+          "line_5": "Retalla una o diverses pàgines",
+          "line_6": "Uniu diversos documents"
+        }
+      },
+      "right": {
+        "title": "Operacions de seguretat",
+        "content": {
+          "line_1": "Configurar la seguretat dels documents",
+          "line_2": "Comproveu l'estat de seguretat dels documents",
+          "line_3": "Estableix la contrasenya del document",
+          "line_4": "Actualitzar la contrasenya del document",
+          "line_5": "Elimina la contrasenya del document"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger per a .NET admet la fusió dels següents [formats de fitxer de document](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Paraula:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument i altres formats",
+        "content": {
+          "line_1": "**Formats OpenDocument**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Disposició fixa**: PDF, XPS",
+          "line_3": "**Imatges**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Text**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**Llibre electrònic**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger per a .NET admet els següents sistemes operatius, marcs i gestors de paquets:",
+      "left": {
+        "title": "Sistemes operatius",
+        "content": {
+          "line_1": "Escriptori de Windows",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Marcs suportats",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 o superior",
+          "line_2": "Mono Framework 1.2 o superior",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Gestor de paquets",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Entorns de desenvolupament",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* Monodesenvolupament"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "Funcions de GroupDocs.Merger per a .NET",
+    "feature_1": {
+      "content": "Combina i combina diverses pàgines, diapositives i diagrames en un sol document"
+    },
+    "feature_2": {
+      "content": "Dividiu i dividiu documents grans en diversos fitxers més petits"
+    },
+    "feature_3": {
+      "content": "Reorganitza, barreja i reorganitza pàgines, diapositives o diagrames"
+    },
+    "feature_4": {
+      "content": "Canvia i intercanvia dues pàgines, diapositives o diagrames entre si dins d'un document"
+    },
+    "feature_5": {
+      "content": "Retalla el document eliminant pàgines, diapositives o diagrames específics"
+    },
+    "feature_6": {
+      "content": "Elimineu pàgines, diapositives o diagrames individuals o col·leccions"
+    },
+    "feature_7": {
+      "content": "Uneix un gran nombre de documents per lots"
+    },
+    "feature_8": {
+      "content": "Comproveu mitjançant programació si un document està protegit amb contrasenya"
+    },
+    "feature_9": {
+      "content": "Establir, restablir i eliminar la contrasenya de formats de document coneguts i desconeguts"
+    },
+    "feature_10": {
+      "content": "Obteniu la llista de formats de fitxer admesos: Format de fitxer de registre de text dividit i uniu (ERR)."
+    },
+    "feature_11": {
+      "content": "Gira les pàgines i canvia l'orientació de la pàgina dels formats coneguts i desconeguts"
+    },
+    "feature_12": {
+      "content": "Combina diversos fitxers de diferents formats a DOC, DOCX i XPS"
+    },
+    "feature_13": {
+      "content": "Divisió de fitxers de text grans per números de línia"
+    },
+    "feature_14": {
+      "content": "Obtenir representacions d'imatges de pàgines de documents i formats de família de diagrames"
+    },
+    "feature_15": {
+      "content": "Uniu imatges amb color de fons per a l'espai d'imatge negre buit"
+    },
+    "feature_16": {
+      "content": "Combina diferents tipus de documents (DOC, XLS, PPT, etc.) en un sol fitxer PDF"
+    },
+    "feature_17": {
+      "content": "Importeu fàcilment objectes OLE als tipus de fitxers de Microsoft Word, Excel, Presentation i OpenDocument"
+    },
+    "feature_18": {
+      "content": "Afegiu altres documents a la pàgina del diagrama mitjançant objectes OLE"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Elimina les pàgines desitjades dels documents",
+      "content": "L'API GroupDocs.Merger per a .NET us ajuda a suprimir pàgines no desitjades del vostre document."
+    },
+    "feature_2": {
+      "title": "Apliqueu la transformació a la sortida renderitzada",
+      "content": "Podeu realitzar diverses transformacions al document de sortida representat mitjançant l'API de GroupDocs.Merger per a .NET. Aquestes opcions de transformació us permeten controlar la manera com presenteu la sortida renderitzada per a la visualització. Les transformacions disponibles són l'opció de rotació de la pàgina, l'opció de reordenació de la pàgina i l'aplicació de filigrana de text."
+    },
+    "feature_3": {
+      "title": "Comproveu la contrasenya del format de document desconegut",
+      "content": "L'API GroupDocs.Merger per a .NET us permet comprovar la contrasenya d'un document del qual no es coneix el format."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger ofereix API de fusió de documents per a altres entorns de desenvolupament populars",
+    "solution": {
+      "img_alt": "GroupDocs.Merger per a Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Gira {{EXT}} pàgines en {{ProgLang}}: gira a 90, 180, 270 angles",
+    "description": "Gireu pàgines específiques o totes del document d'un fitxer {{EXT}} amb un angle de rotació de 90, 180, 270 mitjançant l'API de fusió de documents."
+  },
+  "header": {
+    "title": "Gira {{EXT}} pàgines a {{ProgLang}}",
+    "description": "Gira {{EXT}} pàgines amb unes quantes línies de codi {{ProductName}}.",
+    "button_label": "Baixeu la prova gratuïta"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referència de l'API",
+      "button_text_2": "Exemples de codi",
+      "button_text_3": "Demostracions en directe",
+      "button_text_4": "Preus"
+    }
+  },
+  "about": {
+    "title": "Sobre l'API {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ofereix una solució senzilla per combinar i dividir de manera segura entre una àmplia gamma de formats de documents, com ara PDF, Microsoft Office (Word, Excel, PowerPoint). , OneNote), OpenDocument, HTML, imatges i molts altres dins de les aplicacions {{ProductName}}. Afegint només unes poques línies del codi, realitzeu diverses operacions de documents com ara moure, eliminar, girar, intercanviar, extreure o canviar l'orientació de les pàgines dins dels documents. L'API de fusió de documents també admet la previsualització de les pàgines del document com a imatge per analitzar l'estructura del document, el format i el contingut de la pàgina.",
+    "h2": "L'API GroupDocs.Merger és una opció correcta per a solucions corporatives que necessiten funcions de rotació de pàgines de fitxers. Aquestes API tenen una bona compatibilitat amb tots els sistemes operatius i plataformes principals, inclòs {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Gira {{EXT}} pàgines de fitxers a {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) facilita que els desenvolupadors de {{ProgLang}} giren algunes pàgines específiques o totes dins d'un fitxer {{EXT}} a 90 , 180 o 270 angle de gir implementant uns quants passos senzills.",
+      "step_1": "Inicialitzeu **RotateOptions** amb l'angle de rotació i els números de pàgina desitjats.",
+      "step_2": "Creeu una nova instància de **Merger** i passeu la ruta del document font com a paràmetre de constructor.",
+      "step_3": "Truqueu a **rotatePages** i passeu l'objecte **RotateOptions**.",
+      "step_4": "Truqueu a **Save** i especifiqueu la ruta del fitxer per desar el document resultant."
+    },
+    "title_right": "Requisits del sistema",
+    "content_right": {
+      "description": "Les API de {{ProductFullName}} són compatibles amb totes les plataformes i sistemes operatius principals. Abans d'executar el codi següent, assegureu-vos que teniu els següents requisits previs instal·lats al vostre sistema.",
+      "step_1": "Sistemes operatius: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entorns de desenvolupament: {{DevEnv}}",
+      "step_3": "Marcs",
+      "step_4": "Baixeu la darrera versió de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Com girar les pàgines de fitxers {{EXT}} utilitzant el codi d'exemple {{ProgLang}}",
+    "code": {
+      "load_comment": "Gireu {{EXT}} pàgines de fitxers mitjançant l'API de GroupDocs.Merger",
+      "opt_comment": "Inicialitzeu la classe RotateOptions per especificar l'angle de rotació i els números de pàgina per girar",
+      "ini_comment": "Instanciï Merger amb el document d'entrada {{EXT}}",
+      "run_comment": "Truqueu al mètode rotatePages i passeu-li l'objecte RotateOptions",
+      "save_comment": "Truqueu al mètode de desar i passeu el camí del fitxer desitjat per desar el document de sortida"
+    }
+  },
+  "demos": {
+    "title": "Demostracions en directe: gireu {{EXT}} pàgines de fitxers en línia",
+    "h1": "Gireu les pàgines del fitxer {{EXT}} ara mateix visitant el lloc web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/{{ext}}).",
+    "h2": "La demostració en directe té els següents avantatges."
+  },
+  "more_formats": {
+    "title": "Gira les pàgines d'altres formats de document",
+    "content": "{{ProductName}} documenta l'API de fusió i divisió per a formats de fitxer i imatges. Gireu alguns dels formats de fitxer populars tal com s'indica a continuació."
+  }
+}
