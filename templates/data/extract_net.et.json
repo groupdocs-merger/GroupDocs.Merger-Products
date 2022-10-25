@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Ekstraheerige {{EXT}} lehte {{ProgLang}}",
+    "description": "Eksportige kiiresti lehed {{EXT}} failist rakenduses {{ProgLang}}. Salvestage uus dokument, mis sisaldab valitud lehti, kasutades dokumentide liitmise API-d."
+  },
+  "header": {
+    "title": "Ekstraktige {{EXT}} lehte rakenduses {{ProgLang}}",
+    "description": "Ekstraheerige {{EXT}} lehed mõne rea {{ProductName}} koodiga.",
+    "button_label": "Laadige alla tasuta prooviversioon"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API viide",
+      "button_text_2": "Koodi näited",
+      "button_text_3": "Reaalajas demod",
+      "button_text_4": "Hinnakujundus"
+    }
+  },
+  "about": {
+    "title": "Teave toote {{ProductFullName}} API kohta",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) pakub lihtsat lahendust mitmesuguste dokumendivormingute, sealhulgas PDF, Microsoft Office (Word, Excel, PowerPoint) turvaliseks liitmiseks ja jagamiseks , OneNote), OpenDocument, HTML, pildid ja paljud teised rakenduses {{ProductName}}. Lisades vaid mõne koodirea, saate teha mitmeid dokumenditoiminguid, nagu teisaldamine, eemaldamine, pööramine, vahetamine, eraldamine või lehtede orientatsiooni muutmine dokumentides. Dokumentide ühendamise API toetab ka dokumendi lehtede eelvaate kuvamist pildina, et analüüsida dokumendi struktuuri, vormingut ja lehe sisu.",
+    "h2": "GroupDocs.Merger API on õige valik ettevõtete lahenduste jaoks, mis vajavad faililehtede ekstraktimise funktsioone. Neid API-sid toetavad hästi kõik suuremad operatsioonisüsteemid ja platvormid, sealhulgas {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Ekstraktige {{EXT}} faililehte tootest {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) muudab {{ProgLang}} arendajatel lihtsaks soovitud lehtede eraldamise failist {{EXT}} ja selle salvestamise mõne lihtsa toiminguga uue faili, mis sisaldab valitud lehti.",
+      "step_1": "Initsialiseerige **ExtractOptions** leheküljenumbritega, mis peaksid ilmuma valmivas dokumendis.",
+      "step_2": "Looge **Merger** uus eksemplar ja edastage lähtedokumendi tee konstruktori parameetrina.",
+      "step_3": "Kutsuge välja **ExtractPages** ja edastage objekt **ExtractOptions**.",
+      "step_4": "Helistage käsule **Save** ja määrake tulemuseks oleva dokumendi salvestamise failitee."
+    },
+    "title_right": "Nõuded süsteemile",
+    "content_right": {
+      "description": "{{ProductFullName}} API-sid toetavad kõik suuremad platvormid ja operatsioonisüsteemid. Enne alloleva koodi käivitamist veenduge, et teie süsteemi on installitud järgmised eeltingimused.",
+      "step_1": "Operatsioonisüsteemid: Microsoft Windows, Linux, MacOS",
+      "step_2": "Arenduskeskkonnad: {{DevEnv}}",
+      "step_3": "Raamistikud",
+      "step_4": "Laadige alla toote {{ProductFullName}} uusim versioon saidilt [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kuidas ekstraheerida faili {{EXT}} lehekülgi, kasutades {{ProgLang}} näidiskoodi",
+    "code": {
+      "load_comment": "Ekstraheerige faili {{EXT}} lehed GroupDocs.Merger API abil",
+      "opt_comment": "Initsialiseerige ExtractOptions klass valitud leheküljenumbritega",
+      "ini_comment": "Ühinemise käivitamine sisenddokumendiga {{EXT}}",
+      "run_comment": "Kutsuge meetod ExtractPages ja edastage sellele objekt ExtractOptions",
+      "save_comment": "Väljavõetud lehtedega väljunddokumendi salvestamiseks helistage meetodile Salvesta"
+    }
+  },
+  "demos": {
+    "title": "Reaalajas demod – ekstraktige veebis {{EXT}} lehekülge",
+    "h1": "Ekstraktige kohe {{EXT}} faililehte, külastades veebisaiti [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/{{ext}}).",
+    "h2": "Reaalajas demol on järgmised eelised."
+  },
+  "more_formats": {
+    "title": "Ekstraktige lehti muudest dokumendivormingutest",
+    "content": "{{ProductName}} dokumenteerib failivormingute ja piltide ühendamise ja jagamise API. Ekstraktige mõned populaarsed failivormingud, nagu allpool kirjeldatud."
+  }
+}

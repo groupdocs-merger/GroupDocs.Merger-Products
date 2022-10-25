@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Jagage {{EXT}} mitmeks failiks rakenduses {{ProgLang}}",
+    "description": "Dokumentide liitmise API abil jagage üks fail {{EXT}} mitmeks failiks leheküljenumbrite, lehtede intervallide, paaris- või paaritute lehtede põhjal."
+  },
+  "header": {
+    "title": "{{EXT}} Splitter in {{ProgLang}}",
+    "description": "Tükeldage {{EXT}} mõne reaga {{ProductName}} koodiga.",
+    "button_label": "Laadige alla tasuta prooviversioon"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API viide",
+      "button_text_2": "Koodi näited",
+      "button_text_3": "Reaalajas demod",
+      "button_text_4": "Hinnakujundus"
+    }
+  },
+  "about": {
+    "title": "Teave toote {{ProductFullName}} API kohta",
+    "h1": "Teek [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) pakub lihtsat lahendust turvaliseks liitmiseks ja jagamiseks mitmesuguste dokumendivormingute vahel, sealhulgas PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, pildid ja paljud teised rakenduses {{ProductName}}. Lisades vaid mõne koodirea, saate teha mitmeid dokumenditoiminguid, nagu teisaldamine, eemaldamine, pööramine, vahetamine, eraldamine või lehtede orientatsiooni muutmine dokumentides. Dokumentide ühendamise API toetab ka dokumendi lehtede eelvaate kuvamist pildina, et analüüsida dokumendi struktuuri, vormingut ja lehe sisu.",
+    "h2": "GroupDocs.Merger API on õige valik ettevõtete lahendustele, mis vajavad failide tükeldamise funktsioone. Neid API-sid toetavad hästi kõik suuremad operatsioonisüsteemid ja platvormid, sealhulgas {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Jagage {{EXT}} fail lehtede kaupa tootes {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) muudab {{ProgLang}} arendajatel lihtsaks jagada üks {{EXT}}-fail mitmeks tulemuseks olevaks failiks, rakendades paar lihtsat sammu.",
+      "step_1": "Initsialiseerige **SplitOptions** väljundfailide teevorminguga.",
+      "step_2": "Looge **Merger** uus eksemplar ja edastage lähtedokumendi tee konstruktori parameetrina.",
+      "step_3": "Helistage käsule **split** ja edastage saadud dokumentide salvestamiseks objekt **SplitOptions**."
+    },
+    "title_right": "Nõuded süsteemile",
+    "content_right": {
+      "description": "{{ProductFullName}} API-sid toetavad kõik suuremad platvormid ja operatsioonisüsteemid. Enne alloleva koodi käivitamist veenduge, et teie süsteemi on installitud järgmised eeltingimused.",
+      "step_1": "Operatsioonisüsteemid: Microsoft Windows, Linux, MacOS",
+      "step_2": "Arenduskeskkonnad: {{DevEnv}}",
+      "step_3": "Raamistikud",
+      "step_4": "Laadige alla toote {{ProductFullName}} uusim versioon saidilt [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kuidas jagada faili {{EXT}}, kasutades {{ProgLang}} näidet",
+    "code": {
+      "load_comment": "Jagage fail {{EXT}}, kasutades GroupDocs.Merger for Java API-t",
+      "opt_comment": "Initsialiseerige SplitOptions klass väljundfailide teevorminguga",
+      "ini_comment": "Ühinemise käivitamine sisenddokumendiga {{EXT}}",
+      "run_comment": "Helistage split-meetodile ja edastage saadud dokumentide salvestamiseks objekt SplitOptions"
+    }
+  },
+  "demos": {
+    "title": "Reaalajas demod – {{EXT}} faili jagamine võrgus",
+    "h1": "Tükeldage fail {{EXT}} kohe, külastades veebisaiti [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}).",
+    "h2": "Reaalajas demol on järgmised eelised."
+  },
+  "more_formats": {
+    "title": "Tükeldage fail muudest vormingutest",
+    "content": "{{ProductName}} dokumenteerib failivormingute ja piltide ühendamise ja jagamise API. Tükeldage mõned populaarsed failivormingud, nagu allpool kirjeldatud."
+  }
+}

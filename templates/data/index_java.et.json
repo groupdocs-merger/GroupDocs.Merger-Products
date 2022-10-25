@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "Java Document Merging API | ühendage ja eemaldage Word Excel PDF XPS EPUB",
+    "description": "Java jaoks mõeldud dokumentide ühendamise API. Ühendage, tükeldage, vahetage, korraldage ümber ja kustutage PDF-, Microsoft Wordi, Exceli, esitluste, Visio, XPS- ja EPUB-vormingu lehti."
+  },
+  "header": {
+    "title": "Java API dokumentide kombineerimiseks ja jagamiseks",
+    "description": "Töötage välja suure jõudlusega rakendusi, millega saab liikvel olles lehti, slaide ja diagramme kombineerida, rippida, segada, lõigata või kustutada."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Ülevaade",
+      "features": "Funktsioonid",
+      "support": "Toetus",
+      "livedemo": "Live demo",
+      "pricing": "Hinnakujundus"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger for Java võimaldab teil kiiresti Javas tipptasemel ärirakendusi arendada. Vähese kodeerimisega saavad teie Java-rakendused liita, rippida, segada, lõigata ja kustutada üksikuid lehti või lehtede, slaidide ja diagrammide partii. Ühinemistoiminguid saab teha ka teadaoleva ja tundmatu vorminguga turvaliste failidega, rakendades või eemaldades paroolikaitse.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Järgmine on Java jaoks mõeldud GroupDocs.Merger ülevaade:",
+      "left": {
+        "title": "Dokumenditoimingud",
+        "content": {
+          "line_1": "Muuda lehtede järjekorda",
+          "line_2": "Lehtede eemaldamine või kustutamine",
+          "line_3": "Tükelda või purusta dokument",
+          "line_4": "Vahetage või segage mis tahes kahte lehte",
+          "line_5": "Kärpige ühte või mitut lehte",
+          "line_6": "Ühendage mitu dokumenti"
+        }
+      },
+      "right": {
+        "title": "Turvatoimingud",
+        "content": {
+          "line_1": "Seadistage dokumendi turvalisus",
+          "line_2": "Kontrollige dokumendi turvaolekut",
+          "line_3": "Määra dokumendi parool",
+          "line_4": "Uuenda dokumendi parooli",
+          "line_5": "Eemalda dokumendi parool"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger for Java toetab järgmiste [dokumendifailivormingute] (https://docs.groupdocs.com/merger/java/supported-document-formats/) liitmist:",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Sõna:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ÜKS"
+        }
+      },
+      "right": {
+        "title": "OpenDocument ja muud vormingud",
+        "content": {
+          "line_1": "**OpenDocumenti vormingud**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Fikseeritud paigutus**: PDF, XPS",
+          "line_3": "**Pildid**: BMP, PNG, TIFF",
+          "line_4": "**Veeb**: HTML, MHT, MHTML",
+          "line_5": "**Tekst**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-raamat**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for Java toetab järgmisi operatsioonisüsteeme, raamistikke ja paketihaldureid:",
+      "left": {
+        "title": "Operatsioonisüsteemid",
+        "content": {
+          "line_1": "Microsoft Windowsi töölaud",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "Linux",
+          "line_4": "MacOS"
+        },
+        "title_2": "Toetatud raamistikud",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 ja uuemad"
+        }
+      },
+      "right": {
+        "title": "Automaatika tööriista koostamine",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Arenduskeskkonnad",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEE",
+          "line_3": "* Varjutus",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger Java funktsioonide jaoks",
+    "feature_1": {
+      "content": "Ühendage erinevad lehed, slaidid ja diagrammid üheks failiks"
+    },
+    "feature_2": {
+      "content": "Rippige ja jagage tohutuid dokumente mitmeks väiksemaks failiks"
+    },
+    "feature_3": {
+      "content": "Lehtede, slaidide või diagrammide segamine ja ümberkorraldamine"
+    },
+    "feature_4": {
+      "content": "Vahetage ja vahetage dokumendis kahte lehte, slaide või diagramme"
+    },
+    "feature_5": {
+      "content": "Lõika ja kärpige dokumenti, eemaldades kindlad lehed, slaidid või diagrammid"
+    },
+    "feature_6": {
+      "content": "Kustutage üksik või lehekülgede kogum, slaidid või diagrammid"
+    },
+    "feature_7": {
+      "content": "Õmble ja liita kokku suur hulk dokumente partiidena"
+    },
+    "feature_8": {
+      "content": "Programmiliselt kontrollige Java-s, kas dokument on parooliga kaitstud"
+    },
+    "feature_9": {
+      "content": "Määrake, lähtestage ja eemaldage teadaolevate ja tundmatute dokumendivormingute parool"
+    },
+    "feature_10": {
+      "content": "Jagage üks tekstifail mitmeks reanumbritega"
+    },
+    "feature_11": {
+      "content": "Hankige dokumendilehtede kujutis"
+    },
+    "feature_12": {
+      "content": "Ühendage mitu erinevas vormingus dokumenti üheks PDF-failiks"
+    },
+    "feature_13": {
+      "content": "Sisestage OLE-objektid PDF-i, Wordi, Exceli, PowerPointi ja avatud dokumendivormingutesse"
+    },
+    "feature_14": {
+      "content": "Failide programmiline manustamine PDF-dokumendile"
+    },
+    "feature_15": {
+      "content": "Dokumendi lisamine diagrammile OLE-objektide kaudu"
+    },
+    "feature_16": {
+      "content": "Ühendage erinevat tüüpi dokumendid (DOC, XLS, PPT jne) üheks PDF-failiks"
+    },
+    "feature_17": {
+      "content": "Importige OLE-objekte hõlpsalt Microsoft Wordi, Exceli, esitluse ja OpenDocumenti failitüüpidesse"
+    },
+    "feature_18": {
+      "content": "Lisage OLE-objektide kaudu diagrammilehele muid dokumente"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Eemaldage dokumentidest soovitud lehed",
+      "content": "GroupDocs.Merger for Java API võimaldab teil valida ja kustutada oma dokumendist soovimatud lehed."
+    },
+    "feature_2": {
+      "title": "Kontrollige tundmatu dokumendivormingu parooli",
+      "content": "Isegi kui konkreetse dokumendi vorming on teadmata, võimaldab GroupDocs.Merger for Java teil kontrollida ja hankida dokumendi parooli, kui see on saadaval."
+    },
+    "feature_3": {
+      "title": "Liituge tuntud vormingus parooliga kaitstud dokumentidega",
+      "content": "GroupDocs.Merger for Java API võimaldab teil hankida teadaolevate ja tundmatute vormingute dokumentide loendi."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger pakub dokumentide liitmise API-sid teistele populaarsetele arenduskeskkondadele",
+    "solution": {
+      "img_alt": "GroupDocs.Merger .NET jaoks",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}

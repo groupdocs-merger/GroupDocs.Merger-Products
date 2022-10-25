@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Teisalda {{EXT}} lehte teenuses {{ProgLang}}",
+    "description": "Teisaldage dokumendi {{EXT}} lehed rakenduses {{ProgLang}} mis tahes asukohta, kasutades dokumentide ühendamise API-t."
+  },
+  "header": {
+    "title": "Teisalda {{EXT}} lehte rakenduses {{ProgLang}}",
+    "description": "Teisaldage {{EXT}} lehti mõne toote {{ProductName}} koodireaga.",
+    "button_label": "Laadige alla tasuta prooviversioon"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API viide",
+      "button_text_2": "Koodi näited",
+      "button_text_3": "Reaalajas demod",
+      "button_text_4": "Hinnakujundus"
+    }
+  },
+  "about": {
+    "title": "Teave toote {{ProductFullName}} API kohta",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) pakub lihtsat lahendust mitmesuguste dokumendivormingute, sealhulgas PDF, Microsoft Office (Word, Excel, PowerPoint) turvaliseks liitmiseks ja jagamiseks , OneNote), OpenDocument, HTML, pildid ja paljud teised rakenduses {{ProductName}}. Lisades vaid mõne koodirea, saate teha mitmeid dokumenditoiminguid, nagu teisaldamine, eemaldamine, pööramine, vahetamine, eraldamine või lehtede orientatsiooni muutmine dokumentides. Dokumentide ühendamise API toetab ka dokumendi lehtede eelvaate kuvamist pildina, et analüüsida dokumendi struktuuri, vormingut ja lehe sisu.",
+    "h2": "GroupDocs.Merger API on õige valik ettevõtete lahenduste jaoks, mis vajavad faililehtede teisaldamise funktsioone. Neid API-sid toetavad hästi kõik suuremad operatsioonisüsteemid ja platvormid, sealhulgas {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Teisalda {{EXT}} faililehte tootes {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) muudab {{ProgLang}} arendajatel lihtsaks lehtede teisaldamise failis {{EXT}}, rakendades mõnda lihtsat sammu .",
+      "step_1": "Initsialiseerige **MoveOptions**, et määrata praegused ja uued leheküljenumbrid.",
+      "step_2": "Looge **Merger** uus eksemplar ja edastage lähtedokumendi tee konstruktori parameetrina.",
+      "step_3": "Helistage lehele **movePage** ja edastage objekt **MoveOptions**.",
+      "step_4": "Helistage käsule **save** ja määrake tulemuseks oleva dokumendi salvestamise failitee."
+    },
+    "title_right": "Nõuded süsteemile",
+    "content_right": {
+      "description": "{{ProductFullName}} API-sid toetavad kõik suuremad platvormid ja operatsioonisüsteemid. Enne alloleva koodi käivitamist veenduge, et teie süsteemi on installitud järgmised eeltingimused.",
+      "step_1": "Operatsioonisüsteemid: Microsoft Windows, Linux, MacOS",
+      "step_2": "Arenduskeskkonnad: {{DevEnv}}",
+      "step_3": "Raamistikud",
+      "step_4": "Laadige alla toote {{ProductFullName}} uusim versioon saidilt [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kuidas teisaldada {{EXT}} faililehte, kasutades {{ProgLang}} näitekoodi",
+    "code": {
+      "load_comment": "Teisaldage {{EXT}} faililehte GroupDocs.Merger API abil",
+      "opt_comment": "Initsialiseerige klass MoveOptions, et määrata praegused ja uued leheküljenumbrid",
+      "ini_comment": "Ühinemise käivitamine sisenddokumendiga {{EXT}}",
+      "run_comment": "Kutsuge meetod movePage ja edastage sellele objekt MoveOptions",
+      "save_comment": "Helistage salvestamismeetodile ja edastage soovitud failitee väljunddokumendi salvestamiseks"
+    }
+  },
+  "demos": {
+    "title": "Reaalajas demod – teisaldage {{EXT}} lehte võrgus",
+    "h1": "Teisaldage kohe {{EXT}} faililehte, külastades veebisaiti [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/{{ext}}).",
+    "h2": "Reaalajas demol on järgmised eelised."
+  },
+  "more_formats": {
+    "title": "Teiste dokumendivormingute lehtede teisaldamine",
+    "content": "{{ProductName}} dokumenteerib failivormingute ja piltide ühendamise ja jagamise API. Teisaldage mõned populaarsed failivormingud, nagu allpool kirjeldatud."
+  }
+}
