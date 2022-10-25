@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger for Java toetab järgmiste [dokumendifailivormingute] (https://docs.groupdocs.com/merger/java/supported-document-formats/) liitmist:
+          GroupDocs.Merger for Java toetab järgmiste [dokumendifailivormingutehttps://docs.groupdocs.com/merger/java/supported-document-formats/) liitmist:
 
         left:
           enable: true

@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger for .NET toetab järgmiste [dokumendifailivormingute] (https://docs.groupdocs.com/merger/net/supported-document-formats/) liitmist:
+          GroupDocs.Merger for .NET toetab järgmiste [dokumendifailivormingutehttps://docs.groupdocs.com/merger/net/supported-document-formats/) liitmist:
 
         left:
           enable: true
