@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Dokumentfletning og -opdelingsløsning | On Premise API'er og gratis app",
+    "description": "Merge & Split MS Office, OpenDocument, PDF-billeder og andre filformater ved hjælp af On Premise Solution eller brug Online Document Merger & Splitter-appen."
+  },
+  "header": {
+    "title": "Løsning til at flette og opdele dokumenter",
+    "description": "Flet nemt flere dokumenter eller opdel Microsoft Office, OpenOffice, PDF og andre dokumenter i sider."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Merger High Code API'er inkluderer",
+      "label": "Se alle High Code API'er",
+      "net": {
+        "content": "On Premise API'er, der kan hjælpe dig med at implementere en hurtig split- og fletfunktion for flere dokumenter i dine .NET-baserede applikationer."
+      },
+      "java": {
+        "content": "Native Java API'er til hurtigt at flette flere dokumenter eller opdele ethvert dokument i sider i dine Java-baserede applikationer."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Merger Low Code API'er inkluderer",
+      "label": "Se alle Low Code API'er",
+      "curl": {
+        "content": "Simple cURL-kommandoer til RESTful dokumentsammensmeltning Cloud API til at flette og opdele dokumenter på tværs af en bred vifte af understøttede populære dokumentformater."
+      },
+      "net": {
+        "content": "Cloud SDK til Microsoft .NET, der hjælper programmører med at implementere hurtig flette- og splitfunktion for flere dokumenter med i deres .NET-baserede applikationer."
+      },
+      "java": {
+        "content": "Kombiner flere dokumenter til ét, opdel ethvert dokument til flere, omarranger, erstat eller skift sideretning i dine Java-applikationer."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Ingen kodeapps inkluderet",
+      "label": "Se alle No Code Apps",
+      "total": {
+        "content": "Prøv vores gratis online app til at sammenkæde mere end 30 typer filer uden at forlade din yndlingswebbrowser."
+      },
+      "docx": {
+        "content": "Sammensæt flere DOCX-filer for at generere et enkelt dokument."
+      },
+      "pdf": {
+        "content": "Flet flere PDF-filer for at generere et enkelt dokument direkte fra webbrowseren."
+      }
+    }
+  }
+}
