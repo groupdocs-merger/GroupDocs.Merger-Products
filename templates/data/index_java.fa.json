@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "Java Document Merging API | ادغام و حذف Word Excel PDF XPS EPUB",
+    "description": "اسناد ادغام API برای جاوا. صفحات فرمت های PDF، Microsoft Word، Excel، ارائه ها، Visio، XPS و EPUB را ادغام، تقسیم، مبادله، مرتب سازی مجدد و حذف کنید."
+  },
+  "header": {
+    "title": "Java API برای ترکیب و تقسیم اسناد",
+    "description": "برنامه هایی با کارایی بالا ایجاد کنید که می توانند صفحات، اسلایدها و نمودارها را در حال حرکت ترکیب، ریپ، مخلوط کردن، قطع یا حذف کنند."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "بررسی اجمالی",
+      "features": "امکانات",
+      "support": "پشتیبانی",
+      "livedemo": "نسخه نمایشی زنده",
+      "pricing": "قیمت گذاری"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger برای جاوا به شما امکان می دهد تا به سرعت برنامه های تجاری برتر را در جاوا توسعه دهید. با کمی کدنویسی، برنامه های جاوا شما می توانند ادغام، ریپ، مخلوط کردن، قطع و حذف صفحه یا دسته ای از صفحات، اسلایدها و نمودارها شوند. عملیات ادغام را می توان بر روی فایل های امن با فرمت شناخته شده و ناشناخته با اعمال یا حذف حفاظت رمز عبور انجام داد.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "در زیر یک نمای کلی از GroupDocs.Merger برای جاوا آورده شده است:",
+      "left": {
+        "title": "عملیات سند",
+        "content": {
+          "line_1": "تغییر ترتیب صفحه",
+          "line_2": "حذف یا حذف صفحات",
+          "line_3": "تقسیم یا شکستن سند",
+          "line_4": "هر دو صفحه را جابه‌جا یا به هم بزنید",
+          "line_5": "یک یا چند صفحه را کوتاه کنید",
+          "line_6": "به چندین سند بپیوندید"
+        }
+      },
+      "right": {
+        "title": "عملیات امنیتی",
+        "content": {
+          "line_1": "راه اندازی امنیت سند",
+          "line_2": "وضعیت امنیت سند را بررسی کنید",
+          "line_3": "رمز عبور سند را تنظیم کنید",
+          "line_4": "رمز عبور سند را به روز کنید",
+          "line_5": "رمز عبور سند را حذف کنید"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger برای جاوا از ادغام [قالب‌های فایل سند] زیر پشتیبانی می‌کند (https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "مایکروسافت آفیس",
+        "content": {
+          "line_1": "**Word:** DOC، DOCX، DOCM، DOT، DOTX، DOTM، RTF، TXT",
+          "line_2": "**اکسل:** XLS، XLSX، XLSM، XLSB، XLTM، XLT، XLTM، XLTX، XLAM، SXC، صفحه گستردهML",
+          "line_3": "**پاورپوینت:** PPT، PPTX، PPS، PPSX، PPSM، POT، POTM، POTX، PPTM",
+          "line_4": "** OneNote: ** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument و سایر فرمت ها",
+        "content": {
+          "line_1": "** فرمت های سند باز **: ODT، OTT، ODP، OTP، ODS",
+          "line_2": "** چیدمان ثابت **: PDF، XPS",
+          "line_3": "**تصاویر**: BMP، PNG، TIFF",
+          "line_4": "**وب**: HTML، MHT، MHTML",
+          "line_5": "**متن**: TXT، CSV، TSV",
+          "line_6": "**لاتکس**: TEX",
+          "line_7": "**کتاب الکترونیک**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger برای جاوا از سیستم عامل ها، چارچوب ها و مدیران بسته زیر پشتیبانی می کند:",
+      "left": {
+        "title": "سیستم های عامل",
+        "content": {
+          "line_1": "مایکروسافت ویندوز دسکتاپ",
+          "line_2": "سرور مایکروسافت ویندوز",
+          "line_3": "لینوکس",
+          "line_4": "سیستم عامل مک"
+        },
+        "title_2": "چارچوب های پشتیبانی شده",
+        "content_2": {
+          "line_1": "جاوا 7 (1.7)",
+          "line_2": "جاوا 8 (1.8)",
+          "line_3": "جاوا 10",
+          "line_4": "جاوا 11 و بالاتر"
+        }
+      },
+      "right": {
+        "title": "ابزار اتوماسیون ساخت",
+        "content": {
+          "line_1": "* ماون"
+        },
+        "title_2": "محیط های توسعه",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEA",
+          "line_3": "* گرفتگی",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger برای ویژگی های جاوا",
+    "feature_1": {
+      "content": "صفحات، اسلایدها و نمودارهای مختلف را در یک فایل ادغام کنید"
+    },
+    "feature_2": {
+      "content": "اسناد بزرگ را به چندین فایل کوچکتر Rip و تقسیم کنید"
+    },
+    "feature_3": {
+      "content": "به هم ریختن و سازماندهی مجدد صفحات، اسلایدها یا نمودارها"
+    },
+    "feature_4": {
+      "content": "دو صفحه، اسلاید یا نمودار را در یک سند بین یکدیگر مبادله و مبادله کنید"
+    },
+    "feature_5": {
+      "content": "با حذف صفحات، اسلایدها یا نمودارهای خاص، سند را برش داده و برش دهید"
+    },
+    "feature_6": {
+      "content": "حذف تک یا مجموعه ای از صفحات، اسلایدها یا نمودارها"
+    },
+    "feature_7": {
+      "content": "تعداد زیادی از اسناد را به صورت دسته‌ای بخیه و ادغام کنید"
+    },
+    "feature_8": {
+      "content": "به صورت برنامه‌ای در جاوا بررسی کنید که آیا سند با رمز عبور ایمن شده است یا خیر"
+    },
+    "feature_9": {
+      "content": "تنظیم، بازنشانی و حذف رمز عبور فرمت های سند شناخته شده و ناشناخته"
+    },
+    "feature_10": {
+      "content": "یک فایل متنی را به چند عدد در خط تقسیم کنید"
+    },
+    "feature_11": {
+      "content": "دریافت نمایش تصویری از صفحات سند"
+    },
+    "feature_12": {
+      "content": "چندین سند با فرمت های مختلف را در یک فایل PDF ادغام کنید"
+    },
+    "feature_13": {
+      "content": "اشیاء OLE را در قالب‌های PDF، Word، Excel، PowerPoint و Open Document قرار دهید"
+    },
+    "feature_14": {
+      "content": "فایل‌ها را به صورت برنامه‌نویسی به یک سند PDF پیوست کنید"
+    },
+    "feature_15": {
+      "content": "اضافه کردن سند به نمودار از طریق اشیاء OLE"
+    },
+    "feature_16": {
+      "content": "ادغام انواع مختلف اسناد (DOC، XLS، PPT و غیره) در یک فایل PDF واحد"
+    },
+    "feature_17": {
+      "content": "به راحتی اشیاء OLE را به انواع فایل Microsoft Word، Excel، Presentation و OpenDocument وارد کنید"
+    },
+    "feature_18": {
+      "content": "اسناد دیگر را از طریق اشیاء OLE به صفحه نمودار اضافه کنید"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "حذف صفحات دلخواه از اسناد",
+      "content": "GroupDocs.Merger for Java API به شما امکان می دهد صفحات ناخواسته را از سند خود انتخاب و حذف کنید."
+    },
+    "feature_2": {
+      "title": "رمز عبور فرمت سند ناشناخته را بررسی کنید",
+      "content": "حتی اگر قالب یک سند خاص ناشناخته باشد، GroupDocs.Merger برای جاوا به شما امکان می دهد رمز عبور سند را در صورت وجود بررسی و بازیابی کنید."
+    },
+    "feature_3": {
+      "title": "به اسناد با فرمت های شناخته شده محافظت شده با رمز عبور بپیوندید",
+      "content": "GroupDocs.Merger for Java API به شما امکان می دهد لیستی از اسناد با فرمت های شناخته شده و ناشناخته را دریافت کنید."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger API های ادغام اسناد را برای سایر محیط های توسعه محبوب ارائه می دهد",
+    "solution": {
+      "img_alt": "GroupDocs.Merger برای NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}
