@@ -1,0 +1,133 @@
+---
+############################# Static ############################
+layout: "auto-gen-merger"
+date: 2022-10-26T09:12:21
+draft: false
+otherformats: ott pdf pps ppsx ppt pptx rtf tex vdx vsdm vsdx vssm vssx vstm vstx vsx
+
+############################# Head ############################
+head_title: "Zamijeni i razmijeni XLT stranice u C#"
+head_description: "Zamijenite i razmijenite pozicije dviju stranica unutar XLT datoteke u C# pomoću API-ja za spajanje dokumenata."
+
+############################# Header ############################
+title: "Zamijeni XLT stranice u C#"
+description: "Zamijenite XLT stranice s nekoliko redaka .NET koda."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+    icon: "fas fa-arrow-down"
+    label: "Preuzmite besplatnu probnu verziju"
+    link: "https://downloads.groupdocs.com/merger/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Merger for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-merger-net.png"
+        product: "GroupDocs.Merger"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            # button loop
+            - link: "https://apireference.groupdocs.com/merger/net"
+              text: "API Referenca"
+
+            # button loop
+            - link: "https://github.com/groupdocs-merger"
+              text: "Primjeri koda"
+
+            # button loop
+            - link: "https://products.groupdocs.app/merger/family"
+              text: "Demo snimke uživo"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/merger/net"
+              text: "Cijene"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/merger"
+        link_learn: "https://docs.groupdocs.com/merger/net"
+        link_buy: "https://purchase.groupdocs.com"
+
+############################# About ############################
+about:
+    enable: true
+    title: "O GroupDocs.Merger for .NET API-ju"
+    content: |
+        [GroupDocs.Merger for .NET](/hr/merger/net/) nudi jednostavno rješenje za sigurno spajanje i dijeljenje između širokog raspona formata dokumenata uključujući PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, slike i mnoge druge unutar .NET aplikacija. Dodavanjem samo nekoliko redaka koda izvedite nekoliko operacija dokumenta kao što su premještanje, uklanjanje, rotacija, zamjena, izdvajanje ili promjena orijentacije stranica unutar dokumenata. API za spajanje dokumenata također podržava pregled stranica dokumenta kao slike za analizu strukture dokumenta, oblikovanja i sadržaja na stranici.
+        
+        GroupDocs.Merger API pravi je izbor za korporativna rješenja koja trebaju značajke izmjene stranica datoteka. Ovi API-ji dobro su podržani na svim glavnim operativnim sustavima i platformama uključujući .NET Framework, .NET Standard, .NET Core, Mono.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Zamijeni XLT stranice datoteke u .NET"
+    content_left: |
+        [GroupDocs.Merger for .NET](/hr/merger/net/) olakšava C# programerima zamjenu stranica unutar XLT datoteke implementacijom nekoliko jednostavnih koraka .
+        
+        * Inicijalizirajte **SwapOptions** da odredite brojeve stranica za razmjenu.
+        * Stvorite novu instancu **Merger** i proslijedite putanju izvornog dokumenta kao parametar konstruktora.
+        * Pozovite **SwapPages** i proslijedite objekt **SwapOptions**.
+        * Pozovite **Save** i odredite put datoteke za spremanje rezultirajućeg dokumenta.
+
+    title_right: "Zahtjevi sustava"
+    content_right: |
+        GroupDocs.Merger for .NET API-ji podržani su na svim glavnim platformama i operativnim sustavima. Prije izvršavanja koda u nastavku, provjerite imate li sljedeće preduvjete instalirane na vašem sustavu.
+
+        * Operativni sustavi: Microsoft Windows, Linux, MacOS
+        * Razvojna okruženja: Visual Studio, Xamarin, MonoDevelop
+        * Okviri: .NET Framework, .NET Standard, .NET Core, Mono
+        * Preuzmite najnoviju verziju GroupDocs.Merger for .NET s [NuGet](https://www.nuget.org/packages/groupdocs.merger)
+         
+    code: |
+     {{% merger/additional-styles %}}
+     {{< merger/code-merger title="Kako zamijeniti XLT stranice datoteke koristeći C# primjer koda">}}
+
+        ```csharp    
+        // Zamijenite XLT stranice datoteke koristeći GroupDocs.Merger API
+        int pageNumber1 = 6;
+        int pageNumber2 = 1;
+
+        // Inicijalizirajte klasu SwapOptions da navedete brojeve stranica za zamjenu
+        SwapOptions swapOptions = new SwapOptions(pageNumber2, pageNumber1);
+
+        // Instancirajte spajanje s ulaznim XLT dokumentom
+        using (Merger merger = new Merger("input.xlt"))
+          {
+            // Pozovite metodu SwapPages i proslijedite joj objekt SwapOptions
+            merger.SwapPages(swapOptions);
+    
+            // Pozovite metodu Spremi i proslijedite željenu stazu datoteke za spremanje izlaznog dokumenta
+            merger.Save("output.xlt");
+          }
+        ```
+     {{< /merger/code-merger >}}
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Demonstracije uživo - Zamijenite XLT stranice datoteka na mreži"
+    content: |
+       Odmah zamijenite XLT stranice datoteke tako da posjetite [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/xlt) web mjesto.
+       Demo uživo ima sljedeće prednosti.
+        
+############################# About Formats ############################
+about_formats:
+    enable: true
+
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Zamijenite stranice drugih formata datoteka"
+    content: |
+        .NET dokumentira API za spajanje i dijeljenje za formate datoteka i slike. Zamijenite neke od popularnih formata datoteka kako je navedeno u nastavku.
+
+############################# Back to top ###############################
+back_to_top:
+    enable: true
+---

@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Premjesti {{EXT}} stranice u {{ProgLang}}",
+    "description": "Premjestite stranice unutar {{EXT}} dokumenta u {{ProgLang}} na bilo koje mjesto pomoću API-ja za spajanje dokumenata."
+  },
+  "header": {
+    "title": "Premjesti {{EXT}} stranice u {{ProgLang}}",
+    "description": "Premjesti {{EXT}} stranice s nekoliko redaka {{ProductName}} koda.",
+    "button_label": "Preuzmite besplatnu probnu verziju"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API Referenca",
+      "button_text_2": "Primjeri koda",
+      "button_text_3": "Demo snimke uživo",
+      "button_text_4": "Cijene"
+    }
+  },
+  "about": {
+    "title": "O {{ProductFullName}} API-ju",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) nudi jednostavno rješenje za sigurno spajanje i dijeljenje između širokog raspona formata dokumenata uključujući PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, slike i mnoge druge unutar {{ProductName}} aplikacija. Dodavanjem samo nekoliko redaka koda izvedite nekoliko operacija dokumenta kao što su premještanje, uklanjanje, rotacija, zamjena, izdvajanje ili promjena orijentacije stranica unutar dokumenata. API za spajanje dokumenata također podržava pregled stranica dokumenta kao slike za analizu strukture dokumenta, oblikovanja i sadržaja na stranici.",
+    "h2": "GroupDocs.Merger API pravi je izbor za korporativna rješenja koja trebaju značajke premještanja stranica datoteka. Ovi API-ji dobro su podržani na svim glavnim operativnim sustavima i platformama uključujući {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Premjesti {{EXT}} stranice datoteke u {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) olakšava {{ProgLang}} programerima premještanje stranica unutar {{EXT}} datoteke implementacijom nekoliko jednostavnih koraka .",
+      "step_1": "Inicijalizirajte **MoveOptions** da odredite trenutni i novi broj stranica.",
+      "step_2": "Stvorite novu instancu **Merger** i proslijedite putanju izvornog dokumenta kao parametar konstruktora.",
+      "step_3": "Pozovite **movePage** i proslijedite objekt **MoveOptions**.",
+      "step_4": "Pozovite **Save** i odredite put datoteke za spremanje rezultirajućeg dokumenta."
+    },
+    "title_right": "Zahtjevi sustava",
+    "content_right": {
+      "description": "{{ProductFullName}} API-ji podržani su na svim glavnim platformama i operativnim sustavima. Prije izvršavanja koda u nastavku, provjerite imate li sljedeće preduvjete instalirane na vašem sustavu.",
+      "step_1": "Operativni sustavi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Razvojna okruženja: {{DevEnv}}",
+      "step_3": "Okviri",
+      "step_4": "Preuzmite najnoviju verziju {{ProductFullName}} s [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kako premjestiti {{EXT}} stranice datoteke koristeći {{ProgLang}} primjer koda",
+    "code": {
+      "load_comment": "Premjesti {{EXT}} stranice datoteke pomoću API-ja GroupDocs.Merger",
+      "opt_comment": "Inicijalizirajte klasu MoveOptions da odredite trenutni i novi broj stranica",
+      "ini_comment": "Instancirajte spajanje s ulaznim {{EXT}} dokumentom",
+      "run_comment": "Pozovite metodu movePage i proslijedite joj objekt MoveOptions",
+      "save_comment": "Pozovite metodu spremanja i proslijedite željenu stazu datoteke za spremanje izlaznog dokumenta"
+    }
+  },
+  "demos": {
+    "title": "Demonstracije uživo - premjesti {{EXT}} stranice na mrežu",
+    "h1": "Premjestite {{EXT}} stranice datoteke upravo sada posjetom [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/{{ext}}) web stranice.",
+    "h2": "Demo uživo ima sljedeće prednosti."
+  },
+  "more_formats": {
+    "title": "Premjestite stranice drugih formata dokumenata",
+    "content": "{{ProductName}} dokumentira API za spajanje i dijeljenje za formate datoteka i slike. Premjestite neke od popularnih formata datoteka kako je navedeno u nastavku."
+  }
+}
