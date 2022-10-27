@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Noņemt {{EXT}} lapas programmā {{ProgLang}}",
+    "description": "Noņemiet vai izdzēsiet vienu lapu vai lapu kolekciju no {{EXT}} faila programmā {{ProgLang}}, apgriežot lapu secību, izmantojot dokumentu apvienošanas API."
+  },
+  "header": {
+    "title": "Noņemt {{EXT}} lapas programmā {{ProgLang}}",
+    "description": "Noņemiet {{EXT}} lapas ar dažām {{ProductName}} koda rindām.",
+    "button_label": "Lejupielādēt bezmaksas izmēģinājuma versiju"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API atsauce",
+      "button_text_2": "Kodu piemēri",
+      "button_text_3": "Tiešraides demonstrācijas",
+      "button_text_4": "Cenu noteikšana"
+    }
+  },
+  "about": {
+    "title": "Par {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) piedāvā vienkāršu risinājumu, lai droši apvienotu un sadalītu dažādus dokumentu formātus, tostarp PDF, Microsoft Office (Word, Excel, PowerPoint). , OneNote), OpenDocument, HTML, attēli un daudzas citas {{ProductName}} lietojumprogrammās. Pievienojot tikai dažas koda rindiņas, veiciet vairākas dokumenta darbības, piemēram, pārvietojiet, noņemiet, pagrieziet, apmainiet, izvelciet vai mainiet lappušu orientāciju dokumentos. Dokumentu apvienošanas API atbalsta arī dokumentu lapu priekšskatīšanu kā attēlu, lai analizētu dokumenta struktūru, formatējumu un lapas saturu.",
+    "h2": "GroupDocs.Merger API ir pareizā izvēle korporatīvajiem risinājumiem, kuriem nepieciešamas failu lapu noņemšanas funkcijas. Šīs API tiek labi atbalstītas visās lielākajās operētājsistēmās un platformās, tostarp {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Noņemt {{EXT}} faila lapas no {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ļauj {{ProgLang}} izstrādātājiem viegli izdzēst vienu vai vairākas noteiktas lapas {{EXT}} ietvaros. failu, veicot dažas vienkāršas darbības.",
+      "step_1": "Inicializējiet **RemoveOptions** ar noņemamo lapu numuriem.",
+      "step_2": "Izveidojiet jaunu **Merger** gadījumu un norādiet avota dokumenta ceļu kā konstruktora parametru.",
+      "step_3": "Izsauciet **RemovePages** un nododiet objektam **RemoveOptions**.",
+      "step_4": "Izsauciet **Save** un norādiet faila ceļu, lai saglabātu iegūto dokumentu."
+    },
+    "title_right": "Sistēmas prasības",
+    "content_right": {
+      "description": "{{ProductFullName}} API tiek atbalstītas visās lielākajās platformās un operētājsistēmās. Pirms tālāk norādītā koda izpildes, lūdzu, pārliecinieties, vai jūsu sistēmā ir instalēti šādi priekšnosacījumi.",
+      "step_1": "Operētājsistēmas: Microsoft Windows, Linux, MacOS",
+      "step_2": "Izstrādes vides: {{DevEnv}}",
+      "step_3": "Ietvari",
+      "step_4": "Lejupielādējiet jaunāko {{ProductFullName}} versiju no [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kā noņemt {{EXT}} faila lapas, izmantojot {{ProgLang}} piemēra kodu",
+    "code": {
+      "load_comment": "Noņemiet {{EXT}} faila lapas, izmantojot GroupDocs.Merger API",
+      "opt_comment": "Inicializējiet RemoveOptions klasi ar atlasītajiem lappušu numuriem",
+      "ini_comment": "Izveidot saplūšanu, ievadot {{EXT}} dokumentu",
+      "run_comment": "Izsauciet RemovePages metodi un nosūtiet tai RemoveOptions objektu",
+      "save_comment": "Izsauciet Saglabāšanas metodi un nododiet vajadzīgo faila ceļu, lai saglabātu izvaddokumentu"
+    }
+  },
+  "demos": {
+    "title": "Tiešraides demonstrācijas — noņemiet {{EXT}} lapas tiešsaistē",
+    "h1": "Noņemiet {{EXT}} faila lapas tūlīt, apmeklējot vietni [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/{{ext}}).",
+    "h2": "Tiešraides demonstrācijai ir šādas priekšrocības."
+  },
+  "more_formats": {
+    "title": "Noņemiet lapas no citiem dokumentu formātiem",
+    "content": "{{ProductName}} dokumentē apvienošanas un sadalīšanas API failu formātiem un attēliem. Noņemiet dažus populāros failu formātus, kā norādīts tālāk."
+  }
+}

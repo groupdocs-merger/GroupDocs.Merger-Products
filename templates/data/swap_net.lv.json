@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Apmainīt un apmainīt {{EXT}} lapas programmā {{ProgLang}}",
+    "description": "Apmainiet un apmainiet divu lapu pozīcijas {{EXT}} failā {{ProgLang}}, izmantojot dokumentu apvienošanas API."
+  },
+  "header": {
+    "title": "Apmainīt {{EXT}} lapas programmā {{ProgLang}}",
+    "description": "Apmainiet {{EXT}} lapas ar dažām {{ProductName}} koda rindām.",
+    "button_label": "Lejupielādēt bezmaksas izmēģinājuma versiju"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API atsauce",
+      "button_text_2": "Kodu piemēri",
+      "button_text_3": "Tiešraides demonstrācijas",
+      "button_text_4": "Cenu noteikšana"
+    }
+  },
+  "about": {
+    "title": "Par {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) piedāvā vienkāršu risinājumu, lai droši apvienotu un sadalītu dažādus dokumentu formātus, tostarp PDF, Microsoft Office (Word, Excel, PowerPoint). , OneNote), OpenDocument, HTML, attēli un daudzas citas {{ProductName}} lietojumprogrammās. Pievienojot tikai dažas koda rindiņas, veiciet vairākas dokumenta darbības, piemēram, pārvietojiet, noņemiet, pagrieziet, apmainiet, izvelciet vai mainiet lappušu orientāciju dokumentos. Dokumentu apvienošanas API atbalsta arī dokumentu lapu priekšskatīšanu kā attēlu, lai analizētu dokumenta struktūru, formatējumu un lapas saturu.",
+    "h2": "GroupDocs.Merger API ir pareizā izvēle korporatīvajiem risinājumiem, kuriem nepieciešamas failu lapu apmaiņas funkcijas. Šīs API tiek labi atbalstītas visās lielākajās operētājsistēmās un platformās, tostarp {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Apmainīt {{EXT}} faila lapas pakalpojumā {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ļauj {{ProgLang}} izstrādātājiem ērti apmainīties ar lapām {{EXT}} failā, veicot dažas vienkāršas darbības. .",
+      "step_1": "Inicializējiet **SwapOptions**, lai norādītu apmaināmo lapu numurus.",
+      "step_2": "Izveidojiet jaunu **Merger** gadījumu un norādiet avota dokumenta ceļu kā konstruktora parametru.",
+      "step_3": "Izsauciet **SwapPages** un nododiet objektu **SwapOptions**.",
+      "step_4": "Izsauciet **Save** un norādiet faila ceļu, lai saglabātu iegūto dokumentu."
+    },
+    "title_right": "Sistēmas prasības",
+    "content_right": {
+      "description": "{{ProductFullName}} API tiek atbalstītas visās lielākajās platformās un operētājsistēmās. Pirms tālāk norādītā koda izpildes, lūdzu, pārliecinieties, vai jūsu sistēmā ir instalēti šādi priekšnosacījumi.",
+      "step_1": "Operētājsistēmas: Microsoft Windows, Linux, MacOS",
+      "step_2": "Izstrādes vides: {{DevEnv}}",
+      "step_3": "Ietvari",
+      "step_4": "Lejupielādējiet jaunāko {{ProductFullName}} versiju no [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kā apmainīt {{EXT}} faila lapas, izmantojot {{ProgLang}} piemēra kodu",
+    "code": {
+      "load_comment": "Apmainiet {{EXT}} faila lapas, izmantojot GroupDocs.Merger API",
+      "opt_comment": "Inicializējiet SwapOptions klasi, lai norādītu apmaināmo lappušu numurus",
+      "ini_comment": "Izveidot saplūšanu, ievadot {{EXT}} dokumentu",
+      "run_comment": "Izsauciet SwapPages metodi un nododiet tai SwapOptions objektu",
+      "save_comment": "Izsauciet Saglabāšanas metodi un nododiet vajadzīgo faila ceļu, lai saglabātu izvaddokumentu"
+    }
+  },
+  "demos": {
+    "title": "Tiešraides demonstrācijas — apmainīt {{EXT}} failu lapas tiešsaistē",
+    "h1": "Apmainiet {{EXT}} faila lapas tūlīt, apmeklējot vietni [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/{{ext}}).",
+    "h2": "Tiešraides demonstrācijai ir šādas priekšrocības."
+  },
+  "more_formats": {
+    "title": "Apmainīt lapas ar citiem failu formātiem",
+    "content": "{{ProductName}} dokumentē apvienošanas un sadalīšanas API failu formātiem un attēliem. Apmainiet dažus populāros failu formātus, kā norādīts tālāk."
+  }
+}

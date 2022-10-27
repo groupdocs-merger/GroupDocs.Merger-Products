@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Apvienojiet {{EXT}} failus, izmantojot Java & J2SE Documents Merger API",
+    "description": "Apvienojiet vairākus {{EXT}} failus Java, izmantojot dokumentu apvienošanas API ar visiem datiem, stilu un formatējumu kā avota dokumentus."
+  },
+  "header": {
+    "title": "Apvienot {{EXT}} failus programmā {{ProgLang}}",
+    "description": "Apvienojiet {{EXT}} ar dažām {{ProductName}} koda rindām.",
+    "button_label": "Lejupielādēt bezmaksas izmēģinājuma versiju"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API atsauce",
+      "button_text_2": "Kodu piemēri",
+      "button_text_3": "Tiešraides demonstrācijas",
+      "button_text_4": "Cenu noteikšana"
+    }
+  },
+  "about": {
+    "title": "Par {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) nodrošina ērtu risinājumu, lai apvienotu vairākus PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, attēlus un daudzus citus dokumentus vienā failā {{ProductName}} lietojumprogrammās. GroupDocs.Merger ietaupīs jums daudz pūļu, jo jums ir atļauts apvienot {{EXT}} dokumentus - nav jāinstalē trešās puses programmatūra, darbvirsmas lietojumprogrammas vai spraudņi. Tagad nav nepieciešams tērēt laiku un manuāli apvienot failus! GroupDocs misija ir nodrošināt vislabāko kvalitāti un vienkāršot dokumentu apstrādes darbplūsmas.",
+    "h2": "GroupDocs.Merger API ir pareizā izvēle korporatīvajiem risinājumiem, kuriem nepieciešamas failu apvienošanas funkcijas. Šīs API tiek labi atbalstītas visās lielākajās operētājsistēmās un platformās, tostarp {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Apvienot vairākus {{EXT}} failus {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ļauj Java izstrādātājiem viegli apvienot vairākus {{EXT}} failus, veicot dažas vienkāršas darbības.",
+      "step_1": "Izveidojiet **Merger** gadījumu un norādiet avota dokumenta ceļu kā konstruktora parametru.",
+      "step_2": "Izsauciet **Merger** klases **Join** un nododiet otro avota dokumenta ceļu.",
+      "step_3": "Lai saglabātu apvienoto dokumentu, zvaniet **Save** no **Merger** klases."
+    },
+    "title_right": "Sistēmas prasības",
+    "content_right": {
+      "description": "{{ProductFullName}} API tiek atbalstītas visās lielākajās platformās un operētājsistēmās. Pirms tālāk norādītā koda izpildes, lūdzu, pārliecinieties, vai jūsu sistēmā ir instalēti šādi priekšnosacījumi.",
+      "step_1": "Operētājsistēmas: Microsoft Windows, Linux, MacOS",
+      "step_2": "Izstrādes vides: {{DevEnv}}",
+      "step_3": "Ietvari",
+      "step_4": "Lejupielādējiet jaunāko {{ProductFullName}} versiju no [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kā apvienot {{EXT}} failus, izmantojot {{ProgLang}} piemēra kodu",
+    "code": {
+      "load_comment": "Apvienojiet {{EXT}} failus, izmantojot GroupDocs.Merger for Java API",
+      "ini_comment": "Izveidot saplūšanu, ievadot {{EXT}} dokumentu",
+      "run_comment": "Izsauciet sapludināšanas klases instances pievienošanās metodi un nododiet otrā avota dokumenta ceļu",
+      "save_comment": "Izsauciet sapludināšanas klases instances saglabāšanas metodi, lai saglabātu sapludināto dokumentu"
+    }
+  },
+  "demos": {
+    "title": "Tiešsaistes demonstrācijas — tiešsaistes lietotne dokumentu apvienošanai",
+    "h1": "Apvienojiet vairāk nekā vienu {{EXT}} failu tūlīt, apmeklējot vietni [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family).",
+    "h2": "Tiešraides demonstrācijai ir šādas priekšrocības."
+  },
+  "more_formats": {
+    "title": "Citu dokumentu formātu sapludināšana",
+    "content": "{{ProductName}} dokumentu apvienošanas API failu formātiem un attēliem. Apvienojiet dažus no populārākajiem dokumentu formātiem, kā norādīts tālāk."
+  }
+}

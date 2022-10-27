@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Sadaliet {{EXT}} vairākos failos programmā {{ProgLang}}",
+    "description": "Sadaliet vienu {{EXT}} failu vairākos failos, pamatojoties uz lappušu numuriem, lappušu intervāliem, pāra vai nepāra lapām, izmantojot dokumentu apvienošanas API."
+  },
+  "header": {
+    "title": "{{EXT}} sadalītājs programmā {{ProgLang}}",
+    "description": "Sadaliet {{EXT}} ar dažām {{ProductName}} koda rindām.",
+    "button_label": "Lejupielādēt bezmaksas izmēģinājuma versiju"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API atsauce",
+      "button_text_2": "Kodu piemēri",
+      "button_text_3": "Tiešraides demonstrācijas",
+      "button_text_4": "Cenu noteikšana"
+    }
+  },
+  "about": {
+    "title": "Par {{ProductFullName}} API",
+    "h1": "Bibliotēka [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) piedāvā vienkāršu risinājumu, lai droši apvienotu un sadalītu dažādus dokumentu formātus, tostarp PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, attēlus un daudzas citas {{ProductName}} lietojumprogrammās. Pievienojot tikai dažas koda rindiņas, veiciet vairākas dokumenta darbības, piemēram, pārvietojiet, noņemiet, pagrieziet, apmainiet, izvelciet vai mainiet lappušu orientāciju dokumentos. Dokumentu apvienošanas API atbalsta arī dokumentu lapu priekšskatīšanu kā attēlu, lai analizētu dokumenta struktūru, formatējumu un lapas saturu.",
+    "h2": "GroupDocs.Merger API ir pareizā izvēle korporatīvajiem risinājumiem, kuriem nepieciešamas failu sadalīšanas funkcijas. Šīs API tiek labi atbalstītas visās lielākajās operētājsistēmās un platformās, tostarp {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Sadaliet {{EXT}} faila lapas pakalpojumā {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ļauj {{ProgLang}} izstrādātājiem viegli sadalīt vienu {{EXT}} failu vairākos iegūtajos failos, ieviešot daži vienkārši soļi.",
+      "step_1": "Inicializējiet **SplitOptions** ar izvades failu ceļa formātu.",
+      "step_2": "Izveidojiet jaunu **Merger** gadījumu un norādiet avota dokumenta ceļu kā konstruktora parametru.",
+      "step_3": "Izsauciet **Split** un nododiet **SplitOptions** objektu, lai saglabātu iegūtos dokumentus."
+    },
+    "title_right": "Sistēmas prasības",
+    "content_right": {
+      "description": "{{ProductFullName}} API tiek atbalstītas visās lielākajās platformās un operētājsistēmās. Pirms tālāk norādītā koda izpildes, lūdzu, pārliecinieties, vai jūsu sistēmā ir instalēti šādi priekšnosacījumi.",
+      "step_1": "Operētājsistēmas: Microsoft Windows, Linux, MacOS",
+      "step_2": "Izstrādes vides: {{DevEnv}}",
+      "step_3": "Ietvari",
+      "step_4": "Lejupielādējiet jaunāko {{ProductFullName}} versiju no [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kā sadalīt {{EXT}} failus, izmantojot {{ProgLang}} piemēra kodu",
+    "code": {
+      "load_comment": "Sadaliet {{EXT}} failu, izmantojot GroupDocs.Merger API",
+      "opt_comment": "Inicializējiet SplitOptions klasi ar izvades failu ceļa formātu",
+      "ini_comment": "Izveidot saplūšanu, ievadot {{EXT}} dokumentu",
+      "run_comment": "Izsauciet Split metodi un nododiet SplitOptions objektu, lai saglabātu iegūtos dokumentus"
+    }
+  },
+  "demos": {
+    "title": "Tiešraides demonstrācijas — sadalīt {{EXT}} failu tiešsaistē",
+    "h1": "Sadaliet {{EXT}} failu tūlīt, apmeklējot vietni [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}).",
+    "h2": "Tiešraides demonstrācijai ir šādas priekšrocības."
+  },
+  "more_formats": {
+    "title": "Sadalīt citu formātu failu",
+    "content": "{{ProductName}} dokumentē apvienošanas un sadalīšanas API failu formātiem un attēliem. Sadaliet dažus populāros failu formātus, kā norādīts tālāk."
+  }
+}
