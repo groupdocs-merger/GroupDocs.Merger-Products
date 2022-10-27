@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java үшін GroupDocs.Merger келесі [құжат файл пішімдерін] біріктіруді қолдайды (https://docs.groupdocs.com/merger/java/supported-document-formats/):
+          Java үшін GroupDocs.Merger келесі [құжат файл пішімдерін](https://docs.groupdocs.com/merger/java/supported-document-formats/):
 
         left:
           enable: true

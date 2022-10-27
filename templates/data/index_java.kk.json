@@ -48,7 +48,7 @@
       }
     },
     "tab_two": {
-      "description": "Java үшін GroupDocs.Merger келесі [құжат файл пішімдерін] біріктіруді қолдайды (https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "description": "Java үшін GroupDocs.Merger келесі [құжат файл пішімдерін](https://docs.groupdocs.com/merger/java/supported-document-formats/):",
       "left": {
         "title": "Microsoft Office",
         "content": {
