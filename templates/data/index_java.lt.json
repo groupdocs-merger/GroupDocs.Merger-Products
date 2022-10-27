@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "Java dokumentų sujungimo API | sujungti ir pašalinti Word Excel PDF XPS EPUB",
+    "description": "Dokumentų sujungimo API, skirta Java. Sujunkite, padalinkite, sukeiskite, pertvarkykite ir ištrinkite PDF, Microsoft Word, Excel, pristatymų, Visio, XPS ir EPUB formatų puslapius."
+  },
+  "header": {
+    "title": "Java API, skirta sujungti ir padalinti dokumentus",
+    "description": "Kurkite didelio našumo programas, kurios gali sujungti, kopijuoti, maišyti, iškirpti arba ištrinti puslapius, skaidres ir diagramas kelyje."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Apžvalga",
+      "features": "funkcijos",
+      "support": "Palaikymas",
+      "livedemo": "Tiesioginė demonstracija",
+      "pricing": "Kainodara"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger for Java leidžia greitai kurti aukščiausios klasės verslo programas Java. Su nedideliu kodavimu jūsų Java programos gali sujungti, kopijuoti, maišyti, iškirpti ir ištrinti vieną puslapį arba puslapių paketą, skaidres ir diagramas. Sujungimo operacijas taip pat galima atlikti su saugiais žinomo ir nežinomo formato failais, taikant arba pašalinant apsaugą slaptažodžiu.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Toliau pateikiama Java skirtos GroupDocs.Merger apžvalga:",
+      "left": {
+        "title": "Dokumentų operacijos",
+        "content": {
+          "line_1": "Keisti puslapių tvarką",
+          "line_2": "Pašalinti arba ištrinti puslapius",
+          "line_3": "Padalyti arba sulaužyti dokumentą",
+          "line_4": "Sukeiskite arba sumaišykite du puslapius",
+          "line_5": "Apkarpykite vieną ar kelis puslapius",
+          "line_6": "Sujunkite kelis dokumentus"
+        }
+      },
+      "right": {
+        "title": "Apsaugos operacijos",
+        "content": {
+          "line_1": "Nustatykite dokumentų saugumą",
+          "line_2": "Patikrinkite dokumento saugos būseną",
+          "line_3": "Nustatykite dokumento slaptažodį",
+          "line_4": "Atnaujinkite dokumento slaptažodį",
+          "line_5": "Pašalinti dokumento slaptažodį"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger for Java palaiko šių [dokumentų failų formatų](https://docs.groupdocs.com/merger/java/supported-document-formats/) sujungimą:",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Žodis:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** VIENA"
+        }
+      },
+      "right": {
+        "title": "OpenDocument ir kiti formatai",
+        "content": {
+          "line_1": "**OpenDocument formatai**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Fiksuotas išdėstymas**: PDF, XPS",
+          "line_3": "**Vaizdai**: BMP, PNG, TIFF",
+          "line_4": "**Žiniatinklis**: HTML, MHT, MHTML",
+          "line_5": "**Tekstas**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**El. knyga**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for Java palaiko šias operacines sistemas, karkasus ir paketų tvarkykles:",
+      "left": {
+        "title": "Operacinės sistemos",
+        "content": {
+          "line_1": "Microsoft Windows darbalaukis",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "Linux",
+          "line_4": "MacOS"
+        },
+        "title_2": "Palaikomi karkasai",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 ir naujesnės versijos"
+        }
+      },
+      "right": {
+        "title": "Sukurkite automatizavimo įrankį",
+        "content": {
+          "line_1": "*Maven"
+        },
+        "title_2": "Plėtros aplinkos",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDĖJA",
+          "line_3": "* Užtemimas",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger, skirta Java funkcijoms",
+    "feature_1": {
+      "content": "Sujunkite įvairius puslapius, skaidres ir diagramas į vieną failą"
+    },
+    "feature_2": {
+      "content": "Nukopijuokite ir padalinkite didžiulius dokumentus į kelis mažesnius failus"
+    },
+    "feature_3": {
+      "content": "Maišykite ir pertvarkykite puslapius, skaidres ar diagramas"
+    },
+    "feature_4": {
+      "content": "Keiskite ir sukeiskite du puslapius, skaidres ar diagramas viena su kita dokumente"
+    },
+    "feature_5": {
+      "content": "Iškirpkite ir apkarpykite dokumentą pašalindami konkrečius puslapius, skaidres ar diagramas"
+    },
+    "feature_6": {
+      "content": "Ištrinkite vieną arba puslapių rinkinį, skaidres ar diagramas"
+    },
+    "feature_7": {
+      "content": "Sujunkite ir sujunkite daugybę dokumentų paketais"
+    },
+    "feature_8": {
+      "content": "Programiškai patikrinkite Java, ar dokumentas apsaugotas slaptažodžiu"
+    },
+    "feature_9": {
+      "content": "Nustatykite, iš naujo nustatykite ir pašalinkite žinomų ir nežinomų dokumentų formatų slaptažodį"
+    },
+    "feature_10": {
+      "content": "Padalinkite vieną tekstinį failą į kelis pagal eilučių numerius"
+    },
+    "feature_11": {
+      "content": "Gaukite dokumento puslapių vaizdą"
+    },
+    "feature_12": {
+      "content": "Sujunkite kelis skirtingų formatų dokumentus į vieną PDF failą"
+    },
+    "feature_13": {
+      "content": "Įterpkite OLE objektus į PDF, Word, Excel, PowerPoint ir Open Document formatus"
+    },
+    "feature_14": {
+      "content": "Programiškai pridėkite failus prie PDF dokumento"
+    },
+    "feature_15": {
+      "content": "Pridėkite dokumentą prie diagramos per OLE objektus"
+    },
+    "feature_16": {
+      "content": "Sujunkite skirtingų tipų dokumentus (DOC, XLS, PPT ir tt) į vieną PDF failą"
+    },
+    "feature_17": {
+      "content": "Lengvai importuokite OLE objektus į Microsoft Word, Excel, Presentation ir OpenDocument failų tipus"
+    },
+    "feature_18": {
+      "content": "Pridėkite kitus dokumentus prie diagramos puslapio naudodami OLE objektus"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Pašalinkite norimus puslapius iš dokumentų",
+      "content": "GroupDocs.Merger for Java API leidžia pasirinkti ir ištrinti nepageidaujamus puslapius iš jūsų dokumento."
+    },
+    "feature_2": {
+      "title": "Patikrinkite nežinomo dokumento formato slaptažodį",
+      "content": "Net jei konkretaus dokumento formatas nežinomas, GroupDocs.Merger for Java leidžia patikrinti ir gauti dokumento slaptažodį, jei toks yra."
+    },
+    "feature_3": {
+      "title": "Prisijunkite prie slaptažodžiu apsaugotų žinomų formatų dokumentų",
+      "content": "GroupDocs.Merger for Java API leidžia gauti žinomų ir nežinomų formatų dokumentų sąrašą."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger siūlo dokumentų sujungimo API kitoms populiarioms kūrimo aplinkoms",
+    "solution": {
+      "img_alt": "GroupDocs.Merger, skirtas .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}

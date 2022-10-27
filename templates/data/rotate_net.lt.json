@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Pasukti {{EXT}} puslapius {{ProgLang}} – pasukti 90, 180, 270 kampu",
+    "description": "Pasukite konkrečius arba visus {{EXT}} failo dokumento puslapius 90, 180, 270 kampu, naudodami dokumentų sujungimo API."
+  },
+  "header": {
+    "title": "Pasukti {{EXT}} puslapius {{ProgLang}}",
+    "description": "Pasukite {{EXT}} puslapius su keliomis {{ProductName}} kodo eilutėmis.",
+    "button_label": "Atsisiųskite nemokamą bandomąją versiją"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API nuoroda",
+      "button_text_2": "Kodo pavyzdžiai",
+      "button_text_3": "Tiesioginės demonstracinės versijos",
+      "button_text_4": "Kainodara"
+    }
+  },
+  "about": {
+    "title": "Apie {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) siūlo paprastą sprendimą saugiai sujungti ir padalyti iš įvairių dokumentų formatų, įskaitant PDF, Microsoft Office (Word, Excel, PowerPoint). , OneNote), OpenDocument, HTML, vaizdus ir daugelį kitų {{ProductName}} programose. Pridėję vos kelias kodo eilutes, atlikite kelias dokumento operacijas, pvz., perkelkite, pašalinkite, pasukite, sukeiskite, išskleiskite arba pakeiskite dokumento puslapių orientaciją. Dokumentų sujungimo API taip pat palaiko dokumentų puslapių peržiūrą kaip vaizdą, kad būtų galima analizuoti dokumento struktūrą, formatavimą ir puslapio turinį.",
+    "h2": "GroupDocs.Merger API yra tinkamas pasirinkimas įmonių sprendimams, kuriems reikia failų puslapių pasukimo funkcijų. Šios API yra gerai palaikomos visose pagrindinėse operacinėse sistemose ir platformose, įskaitant {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Pasukti {{EXT}} failo puslapius {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) leidžia {{ProgLang}} kūrėjams lengvai pasukti kai kuriuos konkrečius arba visus puslapius {{EXT}} faile esant 90 , 180 arba 270 sukimosi kampu, atlikdami kelis paprastus veiksmus.",
+      "step_1": "Inicijuokite **RotateOptions** su norimu pasukimo kampu ir puslapių numeriais.",
+      "step_2": "Sukurkite naują **Merger** egzempliorių ir nurodykite šaltinio dokumento kelią kaip konstruktoriaus parametrą.",
+      "step_3": "Paskambinkite **RotatePages** ir perduokite objektą **RotateOptions**.",
+      "step_4": "Paskambinkite **Save** ir nurodykite failo kelią, kad išsaugotumėte gautą dokumentą."
+    },
+    "title_right": "Sistemos reikalavimai",
+    "content_right": {
+      "description": "{{ProductFullName}} API palaikomos visose pagrindinėse platformose ir operacinėse sistemose. Prieš vykdydami toliau pateiktą kodą, įsitikinkite, kad jūsų sistemoje yra įdiegtos šios būtinos sąlygos.",
+      "step_1": "Operacinės sistemos: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kūrimo aplinkos: {{DevEnv}}",
+      "step_3": "Karkasai",
+      "step_4": "Atsisiųskite naujausią {{ProductFullName}} versiją iš [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kaip pasukti {{EXT}} failo puslapius naudojant {{ProgLang}} pavyzdinį kodą",
+    "code": {
+      "load_comment": "Sukite {{EXT}} failo puslapius naudodami GroupDocs.Merger API",
+      "opt_comment": "Inicijuokite RotateOptions klasę, kad nurodytumėte sukimo kampą ir puslapių numerius, kuriuos norite pasukti",
+      "ini_comment": "Momentinis susijungimas su įvesties {{EXT}} dokumentu",
+      "run_comment": "Iškvieskite RotatePages metodą ir perduokite jam objektą RotateOptions",
+      "save_comment": "Iškvieskite išsaugojimo metodą ir nurodykite norimą failo kelią, kad išsaugotumėte išvesties dokumentą"
+    }
+  },
+  "demos": {
+    "title": "Tiesioginės demonstracinės versijos – pasukite {{EXT}} failo puslapius prisijungę",
+    "h1": "Dabar pasukite {{EXT}} failo puslapius apsilankę [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/rotate-pages/{{ext}}) svetainėje.",
+    "h2": "Tiesioginė demonstracinė versija turi šiuos privalumus."
+  },
+  "more_formats": {
+    "title": "Pasukti kitų dokumentų formatų puslapius",
+    "content": "{{ProductName}} dokumentuoja failų formatų ir vaizdų sujungimo ir padalijimo API. Pasukite kai kuriuos populiarius failų formatus, kaip nurodyta toliau."
+  }
+}
