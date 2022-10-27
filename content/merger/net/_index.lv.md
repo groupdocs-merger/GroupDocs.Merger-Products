@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger for .NET atbalsta šādu [dokumentu failu formātu] sapludināšanu (https://docs.groupdocs.com/merger/net/supported-document-formats/):
+          GroupDocs.Merger for .NET atbalsta šādu [dokumentu failu formātu](https://docs.groupdocs.com/merger/net/supported-document-formats/):
 
         left:
           enable: true
