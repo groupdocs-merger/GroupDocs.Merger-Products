@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Verplaats {{EXT}} pagina's in {{ProgLang}}",
+    "description": "Verplaats pagina's binnen een {{EXT}} document in {{ProgLang}} naar elke positie met behulp van de API voor het samenvoegen van documenten."
+  },
+  "header": {
+    "title": "Verplaats {{EXT}} pagina's in {{ProgLang}}",
+    "description": "Verplaats {{EXT}} pagina's met een paar regels {{ProductName}} code.",
+    "button_label": "Download gratis proefversie"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-referentie",
+      "button_text_2": "Codevoorbeelden",
+      "button_text_3": "Live demo's",
+      "button_text_4": "Prijzen"
+    }
+  },
+  "about": {
+    "title": "Over {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) biedt een eenvoudige oplossing om veilig samen te voegen en te splitsen tussen een breed scala aan documentformaten, waaronder PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, afbeeldingen en vele andere binnen {{ProductName}} applicaties. Door slechts een paar regels code toe te voegen, kunt u verschillende documentbewerkingen uitvoeren, zoals verplaatsen, verwijderen, roteren, verwisselen, extraheren of de oriëntatie van pagina's in de documenten wijzigen. De API voor het samenvoegen van documenten ondersteunt ook het bekijken van een voorbeeld van documentpagina's als afbeelding om de documentstructuur, opmaak en inhoud op de pagina te analyseren.",
+    "h2": "GroupDocs.Merger API is de juiste keuze voor bedrijfsoplossingen die functies voor het verplaatsen van bestandspagina's nodig hebben. Deze API's worden goed ondersteund op alle belangrijke besturingssystemen en platforms, waaronder {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Verplaats {{EXT}} bestandspagina's in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) maakt het gemakkelijk voor {{ProgLang}} ontwikkelaars om pagina's binnen een {{EXT}} bestand te verplaatsen door een paar eenvoudige stappen te implementeren .",
+      "step_1": "Initialiseer **MoveOptions** om huidige en nieuwe paginanummers op te geven.",
+      "step_2": "Maak een nieuw exemplaar van **Merger** en geef het brondocumentpad door als een constructorparameter.",
+      "step_3": "Roep **movePage** aan en geef het object **MoveOptions** door.",
+      "step_4": "Roep **save** aan en geef het bestandspad op om het resulterende document op te slaan."
+    },
+    "title_right": "systeem vereisten",
+    "content_right": {
+      "description": "{{ProductFullName}} API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelomgevingen: {{DevEnv}}",
+      "step_3": "Kaders",
+      "step_4": "Download de nieuwste versie van {{ProductFullName}} van [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hoe {{EXT}} bestandspagina's te verplaatsen met behulp van {{ProgLang}} voorbeeldcode",
+    "code": {
+      "load_comment": "Verplaats {{EXT}} bestandspagina's met de GroupDocs.Merger API",
+      "opt_comment": "Initialiseer de MoveOptions-klasse om huidige en nieuwe paginanummers op te geven",
+      "ini_comment": "Instantie van fusie met invoer {{EXT}} document",
+      "run_comment": "Roep de movePage-methode aan en geef het MoveOptions-object eraan door",
+      "save_comment": "Roep de opslagmethode aan en geef het gewenste bestandspad door om het uitvoerdocument op te slaan"
+    }
+  },
+  "demos": {
+    "title": "Live demo's - Verplaats {{EXT}} pagina's online",
+    "h1": "Verplaats {{EXT}} bestandspagina's nu meteen door naar de website [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/{{ext}}) te gaan.",
+    "h2": "De live demo heeft de volgende voordelen."
+  },
+  "more_formats": {
+    "title": "Pagina's van andere documentindelingen verplaatsen",
+    "content": "{{ProductName}} documenteert API voor fusie en splitsing voor bestandsindelingen en afbeeldingen. Verplaats enkele van de populaire bestandsindelingen zoals hieronder vermeld."
+  }
+}

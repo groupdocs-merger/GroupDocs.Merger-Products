@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "C# .NET API voor het samenvoegen van documenten | Combineren en splitsen van PDF Word Excel EPUB",
+    "description": "C# .NET API voor het samenvoegen van documenten om documentpagina's te combineren, splitsen, verwisselen of verwijderen uit PDF, Microsoft Word, Excel, presentaties, Visio en afbeeldingsformaten."
+  },
+  "header": {
+    "title": ".NET API om documenten samen te voegen en te splitsen",
+    "description": "API om documenten, dia's en diagrammen in .NET-toepassingen te combineren, splitsen, verwisselen, inkorten of verwijderen."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Overzicht",
+      "features": "Functies",
+      "support": "Steun",
+      "livedemo": "Live demonstratie",
+      "pricing": "Prijzen"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger voor .NET, helpt u bij het snel ontwikkelen van bedrijfsapplicaties van topklasse in C#, ASP.NET en andere .NET-technologieën. Met slechts een paar regels code kunnen uw .NET-applicaties een enkele pagina of een verzameling documentpagina's, dia's, afbeeldingen of diagrammen combineren, splitsen, herschikken, verwisselen, bijsnijden en verwijderen. Voer deze bewerkingen uit op beveiligde bestanden door wachtwoordbeveiliging voor bekende en onbekende bestandsindelingen in te stellen of te verwijderen.",
+      "paragraph_2": "Door GroupDocs.Merger voor .NET te gebruiken, kunt u mergen uitvoeren; splitsen en andere gerelateerde bewerkingen op afzonderlijke documenten en een batch documenten. Programmatisch bestanden van alle populaire formaten samenvoegen, zoals Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook en afbeeldingsbestandsformaten."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Hieronder volgt een overzicht van GroupDocs.Merger voor .NET:",
+      "left": {
+        "title": "Documentbewerkingen",
+        "content": {
+          "line_1": "Paginavolgorde wijzigen",
+          "line_2": "Pagina's verwijderen of verwijderen",
+          "line_3": "Document splitsen of breken",
+          "line_4": "Twee pagina's omwisselen of in willekeurige volgorde afspelen",
+          "line_5": "Enkele of meerdere pagina's bijsnijden",
+          "line_6": "Meerdere documenten samenvoegen"
+        }
+      },
+      "right": {
+        "title": "Beveiligingsoperaties",
+        "content": {
+          "line_1": "Documentbeveiliging instellen",
+          "line_2": "Controleer de documentbeveiligingsstatus",
+          "line_3": "Documentwachtwoord instellen",
+          "line_4": "Documentwachtwoord bijwerken",
+          "line_5": "Documentwachtwoord verwijderen"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger voor .NET ondersteunt het samenvoegen van de volgende [documentbestandsindelingen](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Woord:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument en andere indelingen",
+        "content": {
+          "line_1": "**OpenDocument-indelingen**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Vaste lay-out**: PDF, XPS",
+          "line_3": "**Afbeeldingen**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Tekst**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-boek**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger voor .NET ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders:",
+      "left": {
+        "title": "Besturingssystemen",
+        "content": {
+          "line_1": "Windows-bureaublad",
+          "line_2": "Windows-server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Ondersteunde kaders",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 of hoger",
+          "line_2": "Mono Framework 1.2 of hoger",
+          "line_3": ".NET-standaard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Pakket manager",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Ontwikkelomgevingen",
+        "content_2": {
+          "line_1": "*Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger voor .NET-functies",
+    "feature_1": {
+      "content": "Combineer en voeg meerdere pagina's, dia's en diagrammen samen in één document"
+    },
+    "feature_2": {
+      "content": "Grote documenten splitsen en opsplitsen in meerdere kleinere bestanden"
+    },
+    "feature_3": {
+      "content": "Pagina's, dia's of diagrammen herschikken, in willekeurige volgorde plaatsen en opnieuw ordenen"
+    },
+    "feature_4": {
+      "content": "Verwissel en wissel twee pagina's, dia's of diagrammen met elkaar uit binnen een document"
+    },
+    "feature_5": {
+      "content": "Document bijsnijden door specifieke pagina's, dia's of diagrammen te verwijderen"
+    },
+    "feature_6": {
+      "content": "Verwijder enkele of verzameling pagina's, dia's of diagrammen"
+    },
+    "feature_7": {
+      "content": "Een groot aantal documenten in batches samenvoegen"
+    },
+    "feature_8": {
+      "content": "Programmatisch controleren of een document is beveiligd met een wachtwoord"
+    },
+    "feature_9": {
+      "content": "Wachtwoord van bekende en onbekende documentformaten instellen, resetten en verwijderen"
+    },
+    "feature_10": {
+      "content": "Lijst met ondersteunde bestandsindelingen ophalen – Split and Join Text (ERR) Logbestandsindeling"
+    },
+    "feature_11": {
+      "content": "Draai pagina's en verander de pagina-oriëntatie van bekende en onbekende formaten"
+    },
+    "feature_12": {
+      "content": "Combineer meerdere bestanden van verschillende formaten naar DOC, DOCX & XPS"
+    },
+    "feature_13": {
+      "content": "Grote tekstbestanden splitsen op regelnummers"
+    },
+    "feature_14": {
+      "content": "Verkrijg afbeeldingsrepresentaties van documentpagina's en diagramfamilie-indelingen"
+    },
+    "feature_15": {
+      "content": "Voeg afbeeldingen samen met achtergrondkleur voor lege zwarte afbeeldingsruimte"
+    },
+    "feature_16": {
+      "content": "Voeg verschillende soorten documenten (DOC, XLS, PPT enz.) samen in één enkel PDF-bestand"
+    },
+    "feature_17": {
+      "content": "Importeer eenvoudig OLE-objecten in Microsoft Word-, Excel-, presentatie- en OpenDocument-bestandstypen"
+    },
+    "feature_18": {
+      "content": "Voeg andere documenten toe aan de diagrampagina via OLE-objecten"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Gewenste pagina's uit documenten verwijderen",
+      "content": "GroupDocs.Merger voor .NET API helpt u ongewenste pagina's uit uw document te verwijderen."
+    },
+    "feature_2": {
+      "title": "Transformatie toepassen op weergegeven uitvoer",
+      "content": "Met GroupDocs.Merger voor .NET API kunt u verschillende transformaties op het weergegeven uitvoerdocument uitvoeren. Deze transformatie-opties geven u controle over de manier waarop u de gerenderde uitvoer voor weergave presenteert. De beschikbare transformaties zijn de optie voor paginarotatie, de optie voor het opnieuw ordenen van pagina's en het toepassen van een tekstwatermerk."
+    },
+    "feature_3": {
+      "title": "Controleer wachtwoord van onbekend documentformaat",
+      "content": "Met GroupDocs.Merger voor .NET API kunt u het wachtwoord controleren van een document waarvan het formaat niet bekend is."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger biedt API's voor het samenvoegen van documenten voor andere populaire ontwikkelomgevingen",
+    "solution": {
+      "img_alt": "GroupDocs.Merger voor Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

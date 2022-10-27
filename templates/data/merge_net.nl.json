@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Voeg {{EXT}} bestanden samen in {{ProgLang}} | {{EXT}} Fusie",
+    "description": "Voeg meerdere {{EXT}} bestanden samen tot één bestand met behulp van de {{ProgLang}} {{ProductName}} document merge API. Voeg specifieke pagina's of paginabereiken van verschillende documenten samen tot één document."
+  },
+  "header": {
+    "title": "{{EXT}} Fusie in {{ProgLang}}",
+    "description": "Voeg {{EXT}} samen met een paar regels {{ProductName}} code.",
+    "button_label": "Download gratis proefversie"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-referentie",
+      "button_text_2": "Codevoorbeelden",
+      "button_text_3": "Live demo's",
+      "button_text_4": "Prijzen"
+    }
+  },
+  "about": {
+    "title": "Over {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) biedt een handige oplossing om meerdere PDF's, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, afbeeldingen en vele andere documenten in één bestand in {{ProductName}}-applicaties. GroupDocs.Merger zal u veel moeite besparen, aangezien u {{EXT}} documenten mag samenvoegen - het is niet nodig om software van derden, desktopapplicaties of plug-ins te installeren. Nu is het niet meer nodig om uw tijd te verspillen en bestanden handmatig samen te voegen! De missie van GroupDoc is het leveren van de beste kwaliteit en het vereenvoudigen van documentverwerkingsworkflows.",
+    "h2": "GroupDocs.Merger API is de juiste keuze voor bedrijfsoplossingen die functies voor het samenvoegen van bestanden nodig hebben. Deze API's worden goed ondersteund op alle belangrijke besturingssystemen en platforms, waaronder {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Meerdere {{EXT}} bestanden samenvoegen",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) maakt het voor {{ProductName}}-ontwikkelaars gemakkelijk om twee of meer {{EXT}}-bestanden samen te voegen in hun applicaties door een paar eenvoudige stappen.",
+      "step_1": "Maak een nieuw exemplaar van **Merger** en geef het brondocumentpad door als een constructorparameter.",
+      "step_2": "Roep **Join** van de **Merger**-klasse aan en geef het tweede brondocumentpad door.",
+      "step_3": "Roep **Save** van de klasse **Merger** aan om het samengevoegde document op te slaan."
+    },
+    "title_right": "systeem vereisten",
+    "content_right": {
+      "description": "{{ProductFullName}} API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelomgevingen: {{DevEnv}}",
+      "step_3": "Kaders",
+      "step_4": "Download de nieuwste versie van {{ProductFullName}} van [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hoe {{EXT}} bestanden samen te voegen met behulp van {{ProgLang}} voorbeeldcode",
+    "code": {
+      "load_comment": "Voeg {{EXT}} bestanden samen met de GroupDocs.Merger API",
+      "ini_comment": "Instantie van fusie met invoer {{EXT}} document",
+      "run_comment": "Roep de Join-methode van de instantie van de Merger-klasse aan en geef het tweede brondocumentpad door",
+      "save_comment": "Roep de Save-methode van de instantie van de Merger-klasse aan om het samengevoegde document op te slaan"
+    }
+  },
+  "demos": {
+    "title": "Live demo's - Online app om documenten samen te voegen",
+    "h1": "Voeg nu meer dan één {{EXT}} bestanden samen door naar de website [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}) te gaan.",
+    "h2": "De live demo heeft de volgende voordelen."
+  },
+  "more_formats": {
+    "title": "Andere documentformaten samenvoegen",
+    "content": "{{ProductName}} documenteert de fusie-API voor bestandsindelingen en afbeeldingen. Voeg enkele van de populaire documentformaten samen zoals hieronder vermeld."
+  }
+}

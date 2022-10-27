@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Combineer {{EXT}} Bestanden in {{ProgLang}} | {{EXT}} Fusie",
+    "description": "Combineer meerdere {{EXT}} bestanden in een enkel bestand met behulp van de {{ProgLang}} {{ProductName}} document merge API. Combineer specifieke pagina's of paginabereiken van verschillende documenten tot één document."
+  },
+  "header": {
+    "title": "Combineer {{EXT}} bestanden in {{ProgLang}}",
+    "description": "Combineer {{EXT}} met een paar regels {{ProductName}} code.",
+    "button_label": "Download gratis proefversie"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-referentie",
+      "button_text_2": "Codevoorbeelden",
+      "button_text_3": "Live demo's",
+      "button_text_4": "Prijzen"
+    }
+  },
+  "about": {
+    "title": "Over {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) biedt een handige oplossing om meerdere PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, afbeeldingen en vele andere documenten in één bestand in {{ProductName}}-applicaties. GroupDocs.Merger zal u veel moeite besparen, aangezien u {{EXT}} documenten mag combineren - het is niet nodig om software van derden, desktopapplicaties of plug-ins te installeren. Nu is het niet meer nodig om uw tijd te verspillen en bestanden handmatig te combineren! De missie van GroupDoc is het leveren van de beste kwaliteit en het vereenvoudigen van documentverwerkingsworkflows.",
+    "h2": "GroupDocs.Merger API is de juiste keuze voor bedrijfsoplossingen die functies voor het combineren van bestanden nodig hebben. Deze API's worden goed ondersteund op alle belangrijke besturingssystemen en platforms, waaronder {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Meerdere {{EXT}} bestanden combineren",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) maakt het voor {{ProductName}}-ontwikkelaars gemakkelijk om twee of meer {{EXT}}-bestanden in hun applicaties te combineren door een paar eenvoudige stappen.",
+      "step_1": "Maak een nieuw exemplaar van **Merger** en geef het brondocumentpad door als een constructorparameter.",
+      "step_2": "Roep **Join** van de **Merger**-klasse aan en geef het tweede brondocumentpad door.",
+      "step_3": "Roep **Save** van de klasse **Merger** aan om het samengevoegde document op te slaan."
+    },
+    "title_right": "systeem vereisten",
+    "content_right": {
+      "description": "{{ProductFullName}} API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelomgevingen: {{DevEnv}}",
+      "step_3": "Kaders",
+      "step_4": "Download de nieuwste versie van {{ProductFullName}} van [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hoe {{EXT}} bestanden te combineren met behulp van {{ProgLang}} voorbeeldcode",
+    "code": {
+      "load_comment": "Combineer {{EXT}} bestanden met behulp van GroupDocs.Merger API",
+      "ini_comment": "Instantie van fusie met invoer {{EXT}} document",
+      "run_comment": "Roep de Join-methode van de instantie van de Merger-klasse aan en geef het tweede brondocumentpad door",
+      "save_comment": "Roep de Save-methode van de instantie van de Merger-klasse aan om het samengevoegde document op te slaan"
+    }
+  },
+  "demos": {
+    "title": "Live demo's - Online app om documenten te combineren",
+    "h1": "Combineer nu meer dan één {{EXT}} bestanden door naar de website [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/family) te gaan.",
+    "h2": "De live demo heeft de volgende voordelen."
+  },
+  "more_formats": {
+    "title": "Andere documentformaten samenvoegen",
+    "content": "{{ProductName}} documenteert de fusie-API voor bestandsindelingen en afbeeldingen. Combineer enkele van de populaire documentformaten zoals hieronder vermeld."
+  }
+}

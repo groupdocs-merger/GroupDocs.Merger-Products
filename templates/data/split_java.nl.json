@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Splits {{EXT}} in meerdere bestanden in {{ProgLang}}",
+    "description": "Splits een enkel {{EXT}} bestand in meerdere bestanden op basis van paginanummers, pagina-intervallen, even of oneven pagina's met behulp van de API voor het samenvoegen van documenten."
+  },
+  "header": {
+    "title": "{{EXT}} Splitter in {{ProgLang}}",
+    "description": "Splits {{EXT}} met een paar regels {{ProductName}} code.",
+    "button_label": "Download gratis proefversie"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-referentie",
+      "button_text_2": "Codevoorbeelden",
+      "button_text_3": "Live demo's",
+      "button_text_4": "Prijzen"
+    }
+  },
+  "about": {
+    "title": "Over {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) bibliotheek biedt een eenvoudige oplossing om veilig samen te voegen en te splitsen tussen een breed scala aan documentformaten, waaronder PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, afbeeldingen en vele andere binnen {{ProductName}} applicaties. Door slechts een paar regels code toe te voegen, kunt u verschillende documentbewerkingen uitvoeren, zoals verplaatsen, verwijderen, roteren, verwisselen, extraheren of de oriëntatie van pagina's in de documenten wijzigen. De API voor het samenvoegen van documenten ondersteunt ook het bekijken van een voorbeeld van documentpagina's als afbeelding om de documentstructuur, opmaak en inhoud op de pagina te analyseren.",
+    "h2": "GroupDocs.Merger API is de juiste keuze voor bedrijfsoplossingen die functies voor het splitsen van bestanden nodig hebben. Deze API's worden goed ondersteund op alle belangrijke besturingssystemen en platforms, waaronder {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Splits {{EXT}} bestand op pagina's in {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) maakt het voor {{ProgLang}} ontwikkelaars gemakkelijk om een ​​enkel {{EXT}} bestand in meerdere resulterende bestanden te splitsen door een paar eenvoudige stappen.",
+      "step_1": "Initialiseer **SplitOptions** met het padformaat van de uitvoerbestanden.",
+      "step_2": "Maak een nieuw exemplaar van **Merger** en geef het brondocumentpad door als een constructorparameter.",
+      "step_3": "Roep **split** en geef het object **SplitOptions** door om de resulterende documenten op te slaan."
+    },
+    "title_right": "systeem vereisten",
+    "content_right": {
+      "description": "{{ProductFullName}} API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelomgevingen: {{DevEnv}}",
+      "step_3": "Kaders",
+      "step_4": "Download de nieuwste versie van {{ProductFullName}} van [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hoe een {{EXT}} bestand te splitsen met behulp van {{ProgLang}} voorbeeldcode",
+    "code": {
+      "load_comment": "Splits {{EXT}} bestand met behulp van GroupDocs.Merger voor Java API",
+      "opt_comment": "Initialiseer SplitOptions-klasse met padindeling voor uitvoerbestanden",
+      "ini_comment": "Instantie van fusie met invoer {{EXT}} document",
+      "run_comment": "Roep de split-methode aan en geef het SplitOptions-object door om de resulterende documenten op te slaan"
+    }
+  },
+  "demos": {
+    "title": "Live demo's - {{EXT}} bestand online splitsen",
+    "h1": "Splits {{EXT}} bestand nu direct door naar de website [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}) te gaan.",
+    "h2": "De live demo heeft de volgende voordelen."
+  },
+  "more_formats": {
+    "title": "Bestand met andere indelingen splitsen",
+    "content": "{{ProductName}} documenteert API voor fusie en splitsing voor bestandsindelingen en afbeeldingen. Splits enkele van de populaire bestandsindelingen zoals hieronder vermeld."
+  }
+}

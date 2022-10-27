@@ -1,0 +1,186 @@
+{
+  "head": {
+    "title": "API voor het samenvoegen van Java-documenten | samenvoegen en verwijderen van Word Excel PDF XPS EPUB",
+    "description": "Documenten samenvoegen API voor Java. Pagina's van PDF-, Microsoft Word-, Excel-, presentaties-, Visio-, XPS- en EPUB-indelingen samenvoegen, splitsen, verwisselen, opnieuw ordenen en verwijderen."
+  },
+  "header": {
+    "title": "Java API om documenten te combineren en te splitsen",
+    "description": "Ontwikkel krachtige apps die pagina's, dia's en diagrammen onderweg kunnen combineren, rippen, shufflen, knippen of verwijderen."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Overzicht",
+      "features": "Functies",
+      "support": "Steun",
+      "livedemo": "Live demonstratie",
+      "pricing": "Prijzen"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger voor Java stelt u in staat om snel hoogwaardige bedrijfsapplicaties in Java te ontwikkelen. Met weinig codering kunnen uw Java-toepassingen samenvoegen, rippen, shuffle, knippen en verwijderen van een enkele pagina of een batch pagina's, dia's en diagrammen. Samenvoegbewerkingen kunnen ook worden uitgevoerd op beveiligde bestanden van bekende en onbekende indeling door wachtwoordbeveiliging toe te passen of te verwijderen.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Hieronder volgt een overzicht van GroupDocs.Merger voor Java:",
+      "left": {
+        "title": "Documentbewerkingen",
+        "content": {
+          "line_1": "Paginavolgorde wijzigen",
+          "line_2": "Pagina's verwijderen of verwijderen",
+          "line_3": "Document splitsen of breken",
+          "line_4": "Twee pagina's omwisselen of in willekeurige volgorde afspelen",
+          "line_5": "Enkele of meerdere pagina's bijsnijden",
+          "line_6": "Meerdere documenten samenvoegen"
+        }
+      },
+      "right": {
+        "title": "Beveiligingsoperaties",
+        "content": {
+          "line_1": "Documentbeveiliging instellen",
+          "line_2": "Controleer de documentbeveiligingsstatus",
+          "line_3": "Documentwachtwoord instellen",
+          "line_4": "Documentwachtwoord bijwerken",
+          "line_5": "Documentwachtwoord verwijderen"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger voor Java ondersteunt het samenvoegen van de volgende [documentbestandsindelingen](https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Woord:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument en andere indelingen",
+        "content": {
+          "line_1": "**OpenDocument-indelingen**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Vaste lay-out**: PDF, XPS",
+          "line_3": "**Afbeeldingen**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Tekst**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-boek**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger voor Java ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders:",
+      "left": {
+        "title": "Besturingssystemen",
+        "content": {
+          "line_1": "Microsoft Windows-bureaublad",
+          "line_2": "Microsoft Windows-server",
+          "line_3": "Linux",
+          "line_4": "MacOS"
+        },
+        "title_2": "Ondersteunde kaders",
+        "content_2": {
+          "line_1": "Java7 (1.7)",
+          "line_2": "Java8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 en hoger"
+        }
+      },
+      "right": {
+        "title": "Automatiseringstool bouwen",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Ontwikkelomgevingen",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEE",
+          "line_3": "* Verduistering"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger voor Java-functies",
+    "feature_1": {
+      "content": "Voeg verschillende pagina's, dia's en diagrammen samen tot één bestand"
+    },
+    "feature_2": {
+      "content": "Grote documenten rippen en splitsen in meerdere kleinere bestanden"
+    },
+    "feature_3": {
+      "content": "Shuffle en reorganiseer pagina's, dia's of diagrammen"
+    },
+    "feature_4": {
+      "content": "Wissel en verwissel twee pagina's, dia's of diagrammen met elkaar binnen een document"
+    },
+    "feature_5": {
+      "content": "Document knippen en bijsnijden door specifieke pagina's, dia's of diagrammen te verwijderen"
+    },
+    "feature_6": {
+      "content": "Verwijder enkele of verzameling pagina's, dia's of diagrammen"
+    },
+    "feature_7": {
+      "content": "Een groot aantal documenten in batches samenvoegen en samenvoegen"
+    },
+    "feature_8": {
+      "content": "Programmatisch in Java controleren of een document is beveiligd met een wachtwoord"
+    },
+    "feature_9": {
+      "content": "Wachtwoord van bekende en onbekende documentformaten instellen, resetten en verwijderen"
+    },
+    "feature_10": {
+      "content": "Splits één tekstbestand naar meerdere op regelnummers"
+    },
+    "feature_11": {
+      "content": "Afbeeldingsweergave van documentpagina's ophalen"
+    },
+    "feature_12": {
+      "content": "Meerdere documenten van verschillende formaten samenvoegen tot één enkel PDF-bestand"
+    },
+    "feature_13": {
+      "content": "OLE-objecten invoegen in PDF-, Word-, Excel-, PowerPoint- en Open Document-indelingen"
+    },
+    "feature_14": {
+      "content": "Programmatisch bestanden toevoegen aan een PDF-document"
+    },
+    "feature_15": {
+      "content": "Document aan diagram toevoegen via OLE-objecten"
+    },
+    "feature_16": {
+      "content": "Voeg verschillende soorten documenten (DOC, XLS, PPT enz.) samen in één enkel PDF-bestand"
+    },
+    "feature_17": {
+      "content": "Importeer eenvoudig OLE-objecten in Microsoft Word-, Excel-, presentatie- en OpenDocument-bestandstypen"
+    },
+    "feature_18": {
+      "content": "Voeg andere documenten toe aan de diagrampagina via OLE-objecten"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Gewenste pagina's uit documenten verwijderen",
+      "content": "Met GroupDocs.Merger voor Java API kunt u ongewenste pagina's uit uw document selecteren en verwijderen."
+    },
+    "feature_2": {
+      "title": "Controleer wachtwoord van onbekend documentformaat",
+      "content": "Zelfs als het formaat van een bepaald document onbekend is, stelt GroupDocs.Merger voor Java u in staat om het documentwachtwoord te controleren en op te halen, indien beschikbaar."
+    },
+    "feature_3": {
+      "title": "Word lid van met een wachtwoord beveiligde documenten van bekende indelingen",
+      "content": "Met GroupDocs.Merger voor Java API kunt u een lijst met documenten van bekende en onbekende formaten krijgen."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger biedt API's voor het samenvoegen van documenten voor andere populaire ontwikkelomgevingen",
+    "solution": {
+      "img_alt": "GroupDocs.Merger voor .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}
