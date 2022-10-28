@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Extrahujte {{EXT}} stránok v {{ProgLang}}",
+    "description": "Rýchlo extrahujte stránky zo súboru {{EXT}} v {{ProgLang}}. Uložte nový dokument obsahujúci vybraté strany pomocou rozhrania API na zlúčenie dokumentov."
+  },
+  "header": {
+    "title": "Extrahujte {{EXT}} stránok v {{ProgLang}}",
+    "description": "Extrahujte {{EXT}} stránok pomocou niekoľkých riadkov kódu {{ProductName}}.",
+    "button_label": "Stiahnite si bezplatnú skúšobnú verziu"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referencia API",
+      "button_text_2": "Príklady kódov",
+      "button_text_3": "Živé ukážky",
+      "button_text_4": "Stanovenie cien"
+    }
+  },
+  "about": {
+    "title": "O {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ponúka jednoduché riešenie na bezpečné zlúčenie a rozdelenie medzi širokou škálou formátov dokumentov vrátane PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, obrázky a mnoho ďalších v aplikáciách {{ProductName}}. Pridaním iba niekoľkých riadkov kódu vykonajte niekoľko operácií s dokumentom, ako je presunutie, odstránenie, otočenie, výmena, extrahovanie alebo zmena orientácie strán v dokumentoch. Rozhranie API na zlučovanie dokumentov tiež podporuje zobrazenie náhľadu stránok dokumentu ako obrázka na analýzu štruktúry dokumentu, formátovania a obsahu na stránke.",
+    "h2": "GroupDocs.Merger API je správnou voľbou pre podnikové riešenia, ktoré potrebujú funkcie na extrahovanie stránok súborov. Tieto rozhrania API sú dobre podporované na všetkých hlavných operačných systémoch a platformách vrátane {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Extrahujte {{EXT}} strán súboru v {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) uľahčuje vývojárom {{ProgLang}} extrahovať požadované stránky zo súboru {{EXT}} a uložiť ho ako nový súbor obsahujúci vybrané stránky vykonaním niekoľkých jednoduchých krokov.",
+      "step_1": "Inicializujte **ExtractOptions** s číslami strán, ktoré by sa mali objaviť vo výslednom dokumente.",
+      "step_2": "Vytvorte novú inštanciu **Merger** a zadajte cestu zdrojového dokumentu ako parameter konštruktora.",
+      "step_3": "Zavolajte na **extractPages** a odovzdajte objekt **ExtractOptions**.",
+      "step_4": "Zavolajte **Save** a zadajte cestu k súboru na uloženie výsledného dokumentu."
+    },
+    "title_right": "Požiadavky na systém",
+    "content_right": {
+      "description": "Rozhrania API {{ProductFullName}} sú podporované na všetkých hlavných platformách a operačných systémoch. Pred spustením nižšie uvedeného kódu sa uistite, že máte vo svojom systéme nainštalované nasledujúce predpoklady.",
+      "step_1": "Operačné systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojové prostredia: {{DevEnv}}",
+      "step_3": "Rámce",
+      "step_4": "Stiahnite si najnovšiu verziu {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Ako extrahovať stránky súboru {{EXT}} pomocou vzorového kódu {{ProgLang}}",
+    "code": {
+      "load_comment": "Extrahujte {{EXT}} strán súboru pomocou GroupDocs.Merger API",
+      "opt_comment": "Inicializujte triedu ExtractOptions s vybratými číslami strán",
+      "ini_comment": "Okamžité zlúčenie so vstupným dokumentom {{EXT}}",
+      "run_comment": "Zavolajte metódu extractPages a odovzdajte jej objekt ExtractOptions",
+      "save_comment": "Zavolajte metódu uloženia na uloženie výstupného dokumentu s extrahovanými stranami"
+    }
+  },
+  "demos": {
+    "title": "Živé ukážky – extrahujte {{EXT}} stránok online",
+    "h1": "Rozbaľte stránky súboru {{EXT}} hneď teraz na webovej lokalite [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/{{ext}}).",
+    "h2": "Živá ukážka má nasledujúce výhody."
+  },
+  "more_formats": {
+    "title": "Extrahujte strany z iných formátov dokumentov",
+    "content": "API na zlúčenie a rozdelenie dokumentov {{ProductName}} pre formáty súborov a obrázky. Extrahujte niektoré z populárnych formátov súborov, ako je uvedené nižšie."
+  }
+}

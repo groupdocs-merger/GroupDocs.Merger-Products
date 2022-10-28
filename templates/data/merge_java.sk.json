@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Zlúčiť súbory {{EXT}} cez rozhranie Java & J2SE Documents Merger API",
+    "description": "Zlúčte viacero {{EXT}} súborov v jazyku Java pomocou rozhrania API na zlučovanie dokumentov so všetkými údajmi, štýlom a formátovaním ako zdrojovými dokumentmi."
+  },
+  "header": {
+    "title": "{{EXT}} Zlúčenie v {{ProgLang}}",
+    "description": "Zlúčte {{EXT}} s niekoľkými riadkami kódu {{ProductName}}.",
+    "button_label": "Stiahnite si bezplatnú skúšobnú verziu"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referencia API",
+      "button_text_2": "Príklady kódov",
+      "button_text_3": "Živé ukážky",
+      "button_text_4": "Stanovenie cien"
+    }
+  },
+  "about": {
+    "title": "O {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) poskytuje pohodlné riešenie na zlúčenie viacerých súborov PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, obrázkov a mnoho ďalších dokumentov do jedného súboru v aplikáciách {{ProductName}}. GroupDocs.Merger vám ušetrí veľa námahy, pretože máte povolené zlučovať {{EXT}} dokumenty – nie je potrebné inštalovať žiadny softvér tretích strán, desktopové aplikácie alebo pluginy. Teraz je zbytočné strácať čas a spájať súbory ručne! Poslaním GroupDocs je poskytovať najlepšiu kvalitu a zjednodušiť pracovné postupy spracovania dokumentov.",
+    "h2": "GroupDocs.Merger API je správnou voľbou pre podnikové riešenia, ktoré vyžadujú funkcie zlučovania súborov. Tieto rozhrania API sú dobre podporované na všetkých hlavných operačných systémoch a platformách vrátane {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Zlúčiť viacero {{EXT}} súborov v {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) uľahčuje vývojárom Java zlúčiť viacero súborov {{EXT}} vykonaním niekoľkých jednoduchých krokov.",
+      "step_1": "Vytvorte inštanciu **Merger** a odovzdajte cestu zdrojového dokumentu ako parameter konštruktora.",
+      "step_2": "Zavolajte **Join** triedy **Merger** a odovzdajte druhú cestu k zdrojovému dokumentu.",
+      "step_3": "Ak chcete uložiť zlúčený dokument, zavolajte na triedu **Save** triedy **Merger**."
+    },
+    "title_right": "Požiadavky na systém",
+    "content_right": {
+      "description": "Rozhrania API {{ProductFullName}} sú podporované na všetkých hlavných platformách a operačných systémoch. Pred spustením nižšie uvedeného kódu sa uistite, že máte vo svojom systéme nainštalované nasledujúce predpoklady.",
+      "step_1": "Operačné systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojové prostredia: {{DevEnv}}",
+      "step_3": "Rámce",
+      "step_4": "Stiahnite si najnovšiu verziu {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Ako zlúčiť súbory {{EXT}} pomocou vzorového kódu {{ProgLang}}",
+    "code": {
+      "load_comment": "Zlúčiť {{EXT}} súbory pomocou GroupDocs.Merger for Java API",
+      "ini_comment": "Okamžité zlúčenie so vstupným dokumentom {{EXT}}",
+      "run_comment": "Zavolajte metódu spojenia inštancie triedy zlúčenia a odovzdajte druhú cestu zdrojového dokumentu",
+      "save_comment": "Zavolajte metódu uloženia inštancie triedy Merger na uloženie zlúčeného dokumentu"
+    }
+  },
+  "demos": {
+    "title": "Živé ukážky – online aplikácia na zlúčenie dokumentov",
+    "h1": "Zlúčte hneď teraz viac ako jeden súbor {{EXT}} na webovej lokalite [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "Živá ukážka má nasledujúce výhody."
+  },
+  "more_formats": {
+    "title": "Zlúčenie iných formátov dokumentov",
+    "content": "API na zlúčenie dokumentov {{ProductName}} pre formáty súborov a obrázky. Zlúčte niektoré z populárnych formátov dokumentov, ako je uvedené nižšie."
+  }
+}

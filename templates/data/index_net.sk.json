@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Kombinovať a rozdeliť PDF Word Excel EPUB",
+    "description": "Rozhranie API na zlučovanie dokumentov C# .NET na kombinovanie, rozdelenie, výmenu alebo odstránenie stránok dokumentov z formátov PDF, Microsoft Word, Excel, prezentácií, Visia a obrázkov."
+  },
+  "header": {
+    "title": ".NET API na zlúčenie a rozdelenie dokumentov",
+    "description": "API na kombinovanie, rozdelenie, výmenu, orezanie alebo odstránenie dokumentov, snímok a diagramov v aplikáciách .NET."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Prehľad",
+      "features": "Vlastnosti",
+      "support": "podpora",
+      "livedemo": "Živá ukážka",
+      "pricing": "Stanovenie cien"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger for .NET vám pomáha rýchlo vyvíjať špičkové podnikové aplikácie v C#, ASP.NET a ďalších technológiách .NET. Len pár riadkov kódu umožní vašim .NET aplikáciám kombinovať, rozdeľovať, preskupovať, vymieňať, orezávať a odstraňovať jednu stranu alebo zbierku stránok dokumentov, slajdov, obrázkov alebo diagramov. Vykonajte tieto operácie na zabezpečených súboroch nastavením alebo odstránením ochrany heslom pre známe a neznáme formáty súborov.",
+      "paragraph_2": "Pomocou GroupDocs.Merger pre .NET môžete vykonať zlúčenie; rozdelenie a ďalšie súvisiace operácie na jednotlivých dokumentoch, ako aj na dávke dokumentov. Programovo spájajte súbory všetkých populárnych formátov, ako sú Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eKniha a formáty obrázkových súborov."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Nasleduje prehľad GroupDocs.Merger pre .NET:",
+      "left": {
+        "title": "Operácie dokumentov",
+        "content": {
+          "line_1": "Zmeniť poradie strán",
+          "line_2": "Odstrániť alebo Odstrániť strany",
+          "line_3": "Rozdeliť alebo zlomiť dokument",
+          "line_4": "Vymeňte alebo zamiešajte ľubovoľné dve strany",
+          "line_5": "Orezajte jednu alebo viac strán",
+          "line_6": "Spojiť viacero dokumentov"
+        }
+      },
+      "right": {
+        "title": "Bezpečnostné operácie",
+        "content": {
+          "line_1": "Nastavte zabezpečenie dokumentov",
+          "line_2": "Skontrolujte stav zabezpečenia dokumentu",
+          "line_3": "Nastavte heslo dokumentu",
+          "line_4": "Aktualizujte heslo dokumentu",
+          "line_5": "Odstráňte heslo dokumentu"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger for .NET podporuje zlúčenie nasledujúcich [formátov súborov dokumentov](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Slovo:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** JEDEN"
+        }
+      },
+      "right": {
+        "title": "OpenDocument a ďalšie formáty",
+        "content": {
+          "line_1": "**Formáty OpenDocument**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Pevné rozloženie**: PDF, XPS",
+          "line_3": "**Obrázky**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Text**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-kniha**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for .NET podporuje nasledujúce operačné systémy, rámce a správcov balíkov:",
+      "left": {
+        "title": "Operačné systémy",
+        "content": {
+          "line_1": "Pracovná plocha systému Windows",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Podporované rámce",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 alebo vyšší",
+          "line_2": "Mono Framework 1.2 alebo vyšší",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Správca balíkov",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Vývojové prostredia",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger for .NET Features",
+    "feature_1": {
+      "content": "Skombinujte a zlúčte viacero strán, snímok a diagramov do jedného dokumentu"
+    },
+    "feature_2": {
+      "content": "Rozdeľte a rozdeľte veľké dokumenty na viacero menších súborov"
+    },
+    "feature_3": {
+      "content": "Preusporiadajte, premiešajte a reorganizujte strany, snímky alebo diagramy"
+    },
+    "feature_4": {
+      "content": "Vymieňajte a vymieňajte si dve strany, snímky alebo diagramy medzi sebou v rámci dokumentu"
+    },
+    "feature_5": {
+      "content": "Orezajte dokument odstránením konkrétnych strán, snímok alebo diagramov"
+    },
+    "feature_6": {
+      "content": "Odstráňte jednu alebo zbierku strán, snímok alebo diagramov"
+    },
+    "feature_7": {
+      "content": "Spojte veľké množstvo dokumentov v dávkach"
+    },
+    "feature_8": {
+      "content": "Programovo skontrolujte, či je dokument zabezpečený heslom"
+    },
+    "feature_9": {
+      "content": "Nastavte, resetujte a odstráňte heslo známych a neznámych formátov dokumentov"
+    },
+    "feature_10": {
+      "content": "Získajte zoznam podporovaných formátov súborov – Formát súboru denníka rozdeleného a spájaného textu (ERR)."
+    },
+    "feature_11": {
+      "content": "Otáčajte strany a zmeňte orientáciu strán známych a neznámych formátov"
+    },
+    "feature_12": {
+      "content": "Skombinujte viacero súborov rôznych formátov do DOC, DOCX a XPS"
+    },
+    "feature_13": {
+      "content": "Rozdelenie veľkých textových súborov podľa čísel riadkov"
+    },
+    "feature_14": {
+      "content": "Získajte obrazové reprezentácie stránok dokumentu a formátov rodiny diagramov"
+    },
+    "feature_15": {
+      "content": "Spojte obrázky s farbou pozadia a vyprázdnite čierny priestor na obrázku"
+    },
+    "feature_16": {
+      "content": "Zlúčte rôzne typy dokumentov (DOC, XLS, PPT atď.) do jedného súboru PDF"
+    },
+    "feature_17": {
+      "content": "Jednoducho importujte objekty OLE do typov súborov Microsoft Word, Excel, Presentation a OpenDocument"
+    },
+    "feature_18": {
+      "content": "Pridajte ďalšie dokumenty na stránku diagramu prostredníctvom objektov OLE"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Odstráňte požadované stránky z dokumentov",
+      "content": "GroupDocs.Merger for .NET API vám pomôže odstrániť nechcené stránky z vášho dokumentu."
+    },
+    "feature_2": {
+      "title": "Použiť transformáciu na vykreslený výstup",
+      "content": "Pomocou GroupDocs.Merger for .NET API môžete vykonať rôzne transformácie vykresleného výstupného dokumentu. Tieto možnosti transformácie vám poskytujú kontrolu nad spôsobom, akým prezentujete vykreslený výstup na zobrazenie. Dostupné transformácie sú možnosť otáčania strany, možnosť zmeny poradia strany a aplikovanie textového vodoznaku."
+    },
+    "feature_3": {
+      "title": "Skontrolujte heslo neznámeho formátu dokumentu",
+      "content": "GroupDocs.Merger for .NET API vám umožňuje skontrolovať heslo dokumentu, ktorého formát nie je známy."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger ponúka rozhrania API na zlučovanie dokumentov pre ďalšie populárne vývojové prostredia",
+    "solution": {
+      "img_alt": "GroupDocs.Merger pre Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

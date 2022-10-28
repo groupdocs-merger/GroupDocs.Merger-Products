@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Rozdeliť {{EXT}} do viacerých súborov v {{ProgLang}}",
+    "description": "Rozdeľte jeden súbor {{EXT}} do niekoľkých súborov na základe čísel strán, intervalov strán, párnych alebo nepárnych strán pomocou rozhrania API na zlúčenie dokumentov."
+  },
+  "header": {
+    "title": "{{EXT}} Splitter v {{ProgLang}}",
+    "description": "Rozdeľte {{EXT}} niekoľkými riadkami kódu {{ProductName}}.",
+    "button_label": "Stiahnite si bezplatnú skúšobnú verziu"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referencia API",
+      "button_text_2": "Príklady kódov",
+      "button_text_3": "Živé ukážky",
+      "button_text_4": "Stanovenie cien"
+    }
+  },
+  "about": {
+    "title": "O {{ProductFullName}} API",
+    "h1": "Knižnica [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ponúka jednoduché riešenie na bezpečné zlúčenie a rozdelenie medzi širokou škálou formátov dokumentov vrátane PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, obrázky a mnoho ďalších v aplikáciách {{ProductName}}. Pridaním iba niekoľkých riadkov kódu vykonajte niekoľko operácií s dokumentom, ako je presunutie, odstránenie, otočenie, výmena, extrahovanie alebo zmena orientácie strán v dokumentoch. Rozhranie API na zlučovanie dokumentov tiež podporuje zobrazenie náhľadu stránok dokumentu ako obrázka na analýzu štruktúry dokumentu, formátovania a obsahu na stránke.",
+    "h2": "GroupDocs.Merger API je správnou voľbou pre podnikové riešenia, ktoré vyžadujú funkcie na delenie súborov. Tieto rozhrania API sú dobre podporované na všetkých hlavných operačných systémoch a platformách vrátane {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Rozdeliť {{EXT}} súbor podľa stránok v {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) uľahčuje vývojárom {{ProgLang}} rozdeliť jeden súbor {{EXT}} na viacero výsledných súborov implementáciou niekoľko jednoduchých krokov.",
+      "step_1": "Inicializujte **SplitOptions** s formátom cesty k výstupným súborom.",
+      "step_2": "Vytvorte novú inštanciu **Merger** a zadajte cestu zdrojového dokumentu ako parameter konštruktora.",
+      "step_3": "Zavolajte **split** a odovzdajte objekt **SplitOptions** na uloženie výsledných dokumentov."
+    },
+    "title_right": "Požiadavky na systém",
+    "content_right": {
+      "description": "Rozhrania API {{ProductFullName}} sú podporované na všetkých hlavných platformách a operačných systémoch. Pred spustením nižšie uvedeného kódu sa uistite, že máte vo svojom systéme nainštalované nasledujúce predpoklady.",
+      "step_1": "Operačné systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojové prostredia: {{DevEnv}}",
+      "step_3": "Rámce",
+      "step_4": "Stiahnite si najnovšiu verziu {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Ako rozdeliť {{EXT}} súbor pomocou {{ProgLang}} vzorového kódu",
+    "code": {
+      "load_comment": "Rozdeľte súbor {{EXT}} pomocou rozhrania GroupDocs.Merger for Java API",
+      "opt_comment": "Inicializujte triedu SplitOptions s formátom cesty k výstupným súborom",
+      "ini_comment": "Okamžité zlúčenie so vstupným dokumentom {{EXT}}",
+      "run_comment": "Zavolajte metódu rozdelenia a odovzdajte objekt SplitOptions na uloženie výsledných dokumentov"
+    }
+  },
+  "demos": {
+    "title": "Živé ukážky – rozdelenie súboru {{EXT}} online",
+    "h1": "Rozdeľte súbor {{EXT}} hneď teraz na webovej lokalite [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}).",
+    "h2": "Živá ukážka má nasledujúce výhody."
+  },
+  "more_formats": {
+    "title": "Rozdeliť súbor iných formátov",
+    "content": "API na zlúčenie a rozdelenie dokumentov {{ProductName}} pre formáty súborov a obrázky. Rozdeľte niektoré z populárnych formátov súborov, ako je uvedené nižšie."
+  }
+}
