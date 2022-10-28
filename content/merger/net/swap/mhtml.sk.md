@@ -73,7 +73,7 @@ steps:
         * Inicializujte **SwapOptions** a zadajte čísla strán na výmenu.
         * Vytvorte novú inštanciu **Merger** a zadajte cestu zdrojového dokumentu ako parameter konštruktora.
         * Zavolajte na **SwapPages** a odovzdajte objekt **SwapOptions**.
-        * Zavolajte na **Uložiť** a zadajte cestu k súboru na uloženie výsledného dokumentu.
+        * Zavolajte na **Save** a zadajte cestu k súboru na uloženie výsledného dokumentu.
 
     title_right: "Požiadavky na systém"
     content_right: |
