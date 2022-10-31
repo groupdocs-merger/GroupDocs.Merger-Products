@@ -36,7 +36,7 @@
       "step_1": "ოპერაციული სისტემები: Microsoft Windows, Linux, MacOS",
       "step_2": "განვითარების გარემო: {{DevEnv}}",
       "step_3": "ჩარჩოები",
-      "step_4": "ჩამოტვირთეთ {{ProductFullName}}-ის უახლესი ვერსია [{{RepoName}}]-დან ({{RepoUrl}})"
+      "step_4": "ჩამოტვირთეთ {{ProductFullName}}-ის უახლესი ვერსია [{{RepoName}}]({{RepoUrl}})"
     },
     "title_code": "როგორ შევცვალოთ {{EXT}} ფაილის გვერდები {{ProgLang}}-ის მაგალითის კოდის გამოყენებით",
     "code": {
