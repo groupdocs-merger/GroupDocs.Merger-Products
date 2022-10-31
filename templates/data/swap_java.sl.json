@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Zamenjaj in izmenjaj {{EXT}} strani v {{ProgLang}}",
+    "description": "Zamenjaj in izmenjaj položaje dveh strani znotraj datoteke {{EXT}} v {{ProgLang}} z uporabo API-ja za združevanje dokumentov."
+  },
+  "header": {
+    "title": "Zamenjaj {{EXT}} strani v {{ProgLang}}",
+    "description": "Zamenjajte strani {{EXT}} z nekaj vrsticami kode {{ProductName}}.",
+    "button_label": "Prenesite brezplačno preskusno različico"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API Reference",
+      "button_text_2": "Primeri kod",
+      "button_text_3": "Predstavitve v živo",
+      "button_text_4": "Cenitev"
+    }
+  },
+  "about": {
+    "title": "O API-ju {{ProductFullName}}",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ponuja preprosto rešitev za varno združevanje in razdelitev med široko paleto formatov dokumentov, vključno s PDF, Microsoft Office (Word, Excel, PowerPoint) , OneNote), OpenDocument, HTML, slike in številne druge v aplikacijah {{ProductName}}. Če dodate le nekaj vrstic kode, izvedite več operacij dokumenta, kot so premikanje, odstranjevanje, vrtenje, zamenjava, ekstrahiranje ali spreminjanje orientacije strani v dokumentih. API za združevanje dokumentov podpira tudi predogled strani dokumenta kot slike za analizo strukture dokumenta, oblikovanja in vsebine na strani.",
+    "h2": "GroupDocs.Merger API je prava izbira za korporativne rešitve, ki potrebujejo funkcije zamenjave strani datotek. Ti API-ji so dobro podprti na vseh glavnih operacijskih sistemih in platformah, vključno z {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Zamenjaj strani datoteke {{EXT}} v {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) razvijalcem {{ProgLang}} olajša zamenjavo strani v datoteki {{EXT}} z implementacijo nekaj preprostih korakov .",
+      "step_1": "Inicializirajte **SwapOptions**, da določite številke strani za izmenjavo.",
+      "step_2": "Ustvarite nov primerek **Merger** in podajte pot izvornega dokumenta kot parameter konstruktorja.",
+      "step_3": "Pokličite **swapPages** in posredujte predmet **SwapOptions**.",
+      "step_4": "Pokličite **save** in določite pot do datoteke za shranjevanje nastalega dokumenta."
+    },
+    "title_right": "Sistemske zahteve",
+    "content_right": {
+      "description": "API-ji {{ProductFullName}} so podprti na vseh glavnih platformah in operacijskih sistemih. Preden izvedete spodnjo kodo, se prepričajte, da imate v sistemu nameščene naslednje predpogoje.",
+      "step_1": "Operacijski sistemi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Razvojna okolja: {{DevEnv}}",
+      "step_3": "Ogrodja",
+      "step_4": "Prenesite najnovejšo različico {{ProductFullName}} iz [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kako zamenjati strani datoteke {{EXT}} s primerom kode {{ProgLang}}",
+    "code": {
+      "load_comment": "Zamenjajte strani datoteke {{EXT}} z API-jem GroupDocs.Merger",
+      "opt_comment": "Inicializirajte razred SwapOptions, da določite številke strani za zamenjavo",
+      "ini_comment": "Ustvari združitev z vhodnim dokumentom {{EXT}}",
+      "run_comment": "Pokličite metodo SwapPages in ji posredujte objekt SwapOptions",
+      "save_comment": "Pokličite metodo Shrani in posredujte želeno pot do datoteke, da shranite izhodni dokument"
+    }
+  },
+  "demos": {
+    "title": "Predstavitve v živo - zamenjajte {{EXT}} strani datotek na spletu",
+    "h1": "Takoj zamenjajte strani datoteke {{EXT}} tako, da obiščete spletno mesto [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/{{ext}}).",
+    "h2": "Predstavitev v živo ima naslednje prednosti."
+  },
+  "more_formats": {
+    "title": "Zamenjaj strani drugih formatov datotek",
+    "content": "{{ProductName}} dokumentira API za združevanje in razdelitev za oblike datotek in slike. Zamenjajte nekaj priljubljenih formatov datotek, kot je navedeno spodaj."
+  }
+}

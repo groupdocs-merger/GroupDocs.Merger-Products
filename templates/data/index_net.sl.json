@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Združi in razdeli PDF Word Excel EPUB",
+    "description": "API za združevanje dokumentov C# .NET za združevanje, razdelitev, zamenjavo ali odstranjevanje strani dokumentov iz formatov PDF, Microsoft Word, Excel, predstavitev, Visio in slik."
+  },
+  "header": {
+    "title": ".NET API za spajanje in razdelitev dokumentov",
+    "description": "API za združevanje, razdelitev, zamenjavo, obrezovanje ali odstranjevanje dokumentov, diapozitivov in diagramov v aplikacijah .NET."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Pregled",
+      "features": "Lastnosti",
+      "support": "Podpora",
+      "livedemo": "Demo v živo",
+      "pricing": "Cenitev"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger za .NET vam pomaga pri hitrem razvoju vrhunskih poslovnih aplikacij v C#, ASP.NET in drugih tehnologijah .NET. Le nekaj vrstic kode bo vašim aplikacijam .NET omogočilo združevanje, razdelitev, preurejanje, zamenjavo, obrezovanje in odstranjevanje ene strani ali zbirke strani dokumenta, diapozitivov, slik ali diagramov. Izvedite te operacije na varnih datotekah tako, da nastavite ali odstranite zaščito z geslom znanih in neznanih formatov datotek.",
+      "paragraph_2": "Z uporabo GroupDocs.Merger za .NET lahko izvedete spajanje; delitev in druge sorodne operacije na posameznih dokumentih, pa tudi na paketu dokumentov. Programsko sestavite datoteke vseh priljubljenih formatov, kot so Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, e-knjige in formati slikovnih datotek."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Sledi pregled GroupDocs.Merger za .NET:",
+      "left": {
+        "title": "Dokumentne operacije",
+        "content": {
+          "line_1": "Spremenite vrstni red strani",
+          "line_2": "Odstrani ali izbriši strani",
+          "line_3": "Razdeli ali prelomi dokument",
+          "line_4": "Zamenjajte ali premešajte poljubni dve strani",
+          "line_5": "Obrežite eno ali več strani",
+          "line_6": "Združi več dokumentov"
+        }
+      },
+      "right": {
+        "title": "Varnostne operacije",
+        "content": {
+          "line_1": "Nastavite varnost dokumenta",
+          "line_2": "Preverite varnostni status dokumenta",
+          "line_3": "Nastavite geslo za dokument",
+          "line_4": "Posodobite geslo za dokument",
+          "line_5": "Odstrani geslo za dokument"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger za .NET podpira združevanje naslednjih [oblik datotek dokumentov](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument in drugi formati",
+        "content": {
+          "line_1": "**Formati OpenDocument**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Fiksna postavitev**: PDF, XPS",
+          "line_3": "**Slike**: BMP, PNG, TIFF",
+          "line_4": "**Splet**: HTML, MHT, MHTML",
+          "line_5": "**Besedilo**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-knjiga**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger za .NET podpira naslednje operacijske sisteme, ogrodja in upravitelje paketov:",
+      "left": {
+        "title": "Operacijski sistemi",
+        "content": {
+          "line_1": "Namizje Windows",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Podprta ogrodja",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 ali novejši",
+          "line_2": "Mono Framework 1.2 ali novejši",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Upravitelj paketov",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Razvojna okolja",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "Funkcije GroupDocs.Merger za .NET",
+    "feature_1": {
+      "content": "Združite in združite več strani, diapozitivov in diagramov v en sam dokument"
+    },
+    "feature_2": {
+      "content": "Velike dokumente razdelite in razdelite na več manjših datotek"
+    },
+    "feature_3": {
+      "content": "Preuredite, premešajte in reorganizirajte strani, diapozitive ali diagrame"
+    },
+    "feature_4": {
+      "content": "Zamenjajte in zamenjajte dve strani, diapozitiva ali diagrama med seboj znotraj dokumenta"
+    },
+    "feature_5": {
+      "content": "Obrežite dokument tako, da odstranite določene strani, diapozitive ali diagrame"
+    },
+    "feature_6": {
+      "content": "Odstranite eno ali zbirko strani, diapozitivov ali diagramov"
+    },
+    "feature_7": {
+      "content": "Povežite veliko število dokumentov v serijah"
+    },
+    "feature_8": {
+      "content": "Programsko preverite, ali je dokument zavarovan z geslom"
+    },
+    "feature_9": {
+      "content": "Nastavite, ponastavite in odstranite geslo znanih in neznanih formatov dokumentov"
+    },
+    "feature_10": {
+      "content": "Pridobi seznam podprtih formatov datotek – Format dnevnika razdeli in združi besedilo (ERR)."
+    },
+    "feature_11": {
+      "content": "Zavrtite strani in spremenite orientacijo strani znanih in neznanih formatov"
+    },
+    "feature_12": {
+      "content": "Združite več datotek različnih formatov v DOC, DOCX in XPS"
+    },
+    "feature_13": {
+      "content": "Razdelitev velikih besedilnih datotek po številkah vrstic"
+    },
+    "feature_14": {
+      "content": "Pridobite slikovne predstavitve strani dokumentov in oblike družine diagramov"
+    },
+    "feature_15": {
+      "content": "Združite slike z barvo ozadja za prazen črni slikovni prostor"
+    },
+    "feature_16": {
+      "content": "Združite različne vrste dokumentov (DOC, XLS, PPT itd.) v eno datoteko PDF"
+    },
+    "feature_17": {
+      "content": "Preprosto uvozite predmete OLE v vrste datotek Microsoft Word, Excel, predstavitve in OpenDocument"
+    },
+    "feature_18": {
+      "content": "Dodajte druge dokumente na stran z diagramom prek predmetov OLE"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Odstranite želene strani iz dokumentov",
+      "content": "GroupDocs.Merger for .NET API vam pomaga izbrisati neželene strani iz vašega dokumenta."
+    },
+    "feature_2": {
+      "title": "Uporabi transformacijo za upodobljeni izhod",
+      "content": "Z API-jem GroupDocs.Merger za .NET lahko izvajate različne transformacije upodobljenega izhodnega dokumenta. Te možnosti preoblikovanja vam omogočajo nadzor nad načinom, kako predstavite upodobljeni rezultat za prikaz. Razpoložljive transformacije so možnost vrtenja strani, možnost preurejanja strani in uporaba besedilnega vodnega žiga."
+    },
+    "feature_3": {
+      "title": "Preverite geslo neznanega formata dokumenta",
+      "content": "GroupDocs.Merger for .NET API vam omogoča preverjanje gesla dokumenta, katerega format ni znan."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger ponuja API-je za spajanje dokumentov za druga priljubljena razvojna okolja",
+    "solution": {
+      "img_alt": "GroupDocs.Merger za Javo",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

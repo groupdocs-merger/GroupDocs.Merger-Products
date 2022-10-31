@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Rešitev za spajanje in razdelitev dokumentov | Lokalni API-ji in brezplačna aplikacija",
+    "description": "Združite in razdelite MS Office, OpenDocument, slike PDF in druge formate datotek z uporabo rešitve On Premise ali uporabite spletno aplikacijo za spajanje in razdeljevanje dokumentov."
+  },
+  "header": {
+    "title": "Rešitev za spajanje in razdelitev dokumentov",
+    "description": "Preprosto združite več dokumentov ali razdelite Microsoft Office, OpenOffice, PDF in druge dokumente na strani."
+  },
+  "apis": {
+    "highcode": {
+      "title": "API-ji GroupDocs.Merger z visoko kodo vključujejo",
+      "label": "Oglejte si vse API-je High Code",
+      "net": {
+        "content": "On Premise API-ji, ki vam lahko pomagajo implementirati funkcijo hitre delitve in spajanja za več dokumentov v vaših aplikacijah, ki temeljijo na .NET."
+      },
+      "java": {
+        "content": "Izvorni API-ji Java za hitro združevanje več dokumentov ali razdelitev katerega koli dokumenta na strani znotraj vaših aplikacij, ki temeljijo na Javi."
+      }
+    },
+    "lowcode": {
+      "title": "API-ji GroupDocs.Merger Low Code vključujejo",
+      "label": "Oglejte si vse API-je z nizko kodo",
+      "curl": {
+        "content": "Preprosti ukazi cURL za RESTful API za združevanje dokumentov v oblaku za združevanje in razdelitev dokumentov v širokem naboru podprtih priljubljenih formatov dokumentov."
+      },
+      "net": {
+        "content": "Cloud SDK za Microsoft .NET, ki programerjem pomaga implementirati funkcijo hitrega združevanja in razdelitve za več dokumentov v njihovih aplikacijah, ki temeljijo na .NET."
+      },
+      "java": {
+        "content": "Združite več dokumentov v enega, razdelite kateri koli dokument na več, preuredite, zamenjajte ali spremenite orientacijo strani v svojih aplikacijah Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger No Code Apps Include",
+      "label": "Oglejte si vse aplikacije brez kode",
+      "total": {
+        "content": "Preizkusite našo brezplačno spletno aplikacijo za povezovanje več kot 30 vrst datotek, ne da bi zapustili svoj najljubši spletni brskalnik."
+      },
+      "docx": {
+        "content": "Združite več datotek DOCX, da ustvarite en sam dokument."
+      },
+      "pdf": {
+        "content": "Združite več datotek PDF in ustvarite en sam dokument neposredno iz spletnega brskalnika."
+      }
+    }
+  }
+}

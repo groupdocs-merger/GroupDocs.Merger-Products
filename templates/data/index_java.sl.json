@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "API za spajanje dokumentov Java | združi in odstrani Word Excel PDF XPS EPUB",
+    "description": "API za združevanje dokumentov za Javo. Združite, razdelite, zamenjajte, preuredite in izbrišite strani formatov PDF, Microsoft Word, Excel, predstavitev, Visio, XPS in EPUB."
+  },
+  "header": {
+    "title": "Java API za združevanje in razdelitev dokumentov",
+    "description": "Razvijte visoko zmogljive aplikacije, ki lahko združujejo, kopirajo, mešajo, režejo ali brišejo strani, diapozitive in diagrame na poti."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Pregled",
+      "features": "Lastnosti",
+      "support": "Podpora",
+      "livedemo": "Demo v živo",
+      "pricing": "Cenitev"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger za Javo vam omogoča hiter razvoj vrhunskih poslovnih aplikacij v Javi. Z malo kodiranja lahko vaše aplikacije Java združujejo, kopirajo, mešajo, izrezujejo in brišejo eno stran ali skupino strani, diapozitivov in diagramov. Operacije združevanja je mogoče izvesti tudi na varnih datotekah znane in neznane oblike z uporabo ali odstranitvijo zaščite z geslom.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Sledi pregled GroupDocs.Merger za Javo:",
+      "left": {
+        "title": "Dokumentne operacije",
+        "content": {
+          "line_1": "Spremenite vrstni red strani",
+          "line_2": "Odstrani ali izbriši strani",
+          "line_3": "Razdeli ali prelomi dokument",
+          "line_4": "Zamenjajte ali premešajte poljubni dve strani",
+          "line_5": "Obrežite eno ali več strani",
+          "line_6": "Združi več dokumentov"
+        }
+      },
+      "right": {
+        "title": "Varnostne operacije",
+        "content": {
+          "line_1": "Nastavite varnost dokumenta",
+          "line_2": "Preverite varnostni status dokumenta",
+          "line_3": "Nastavite geslo za dokument",
+          "line_4": "Posodobite geslo za dokument",
+          "line_5": "Odstrani geslo za dokument"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger za Javo podpira združevanje naslednjih [oblik datotek dokumentov](https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** ONE"
+        }
+      },
+      "right": {
+        "title": "OpenDocument in drugi formati",
+        "content": {
+          "line_1": "**Formati OpenDocument**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Fiksna postavitev**: PDF, XPS",
+          "line_3": "**Slike**: BMP, PNG, TIFF",
+          "line_4": "**Splet**: HTML, MHT, MHTML",
+          "line_5": "**Besedilo**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-knjiga**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger za Javo podpira naslednje operacijske sisteme, ogrodja in upravitelje paketov:",
+      "left": {
+        "title": "Operacijski sistemi",
+        "content": {
+          "line_1": "Namizje Microsoft Windows",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "Linux",
+          "line_4": "MacOS"
+        },
+        "title_2": "Podprta ogrodja",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 in novejši"
+        }
+      },
+      "right": {
+        "title": "Orodje za avtomatizacijo gradnje",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Razvojna okolja",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEJA",
+          "line_3": "* Mrk",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger za funkcije Java",
+    "feature_1": {
+      "content": "Združite različne strani, diapozitive in diagrame v eno datoteko"
+    },
+    "feature_2": {
+      "content": "Kopirajte in razdelite velike dokumente v več manjših datotek"
+    },
+    "feature_3": {
+      "content": "Premešajte in reorganizirajte strani, diapozitive ali diagrame"
+    },
+    "feature_4": {
+      "content": "Izmenjajte in zamenjajte dve strani, diapozitiva ali diagrama med seboj znotraj dokumenta"
+    },
+    "feature_5": {
+      "content": "Izrežite in obrežite dokument tako, da odstranite določene strani, diapozitive ali diagrame"
+    },
+    "feature_6": {
+      "content": "Izbrišite posamezno ali zbirko strani, diapozitivov ali diagramov"
+    },
+    "feature_7": {
+      "content": "Povežite in združite veliko število dokumentov v paketih"
+    },
+    "feature_8": {
+      "content": "Programsko preverite v Javi, ali je dokument zaščiten z geslom"
+    },
+    "feature_9": {
+      "content": "Nastavite, ponastavite in odstranite geslo znanih in neznanih formatov dokumentov"
+    },
+    "feature_10": {
+      "content": "Razdeli eno besedilno datoteko na več po številkah vrstic"
+    },
+    "feature_11": {
+      "content": "Pridobite slikovno predstavitev strani dokumenta"
+    },
+    "feature_12": {
+      "content": "Združite več dokumentov različnih formatov v eno datoteko PDF"
+    },
+    "feature_13": {
+      "content": "Vstavite predmete OLE v formate PDF, Word, Excel, PowerPoint in Open Document"
+    },
+    "feature_14": {
+      "content": "Programsko priložite datoteke dokumentu PDF"
+    },
+    "feature_15": {
+      "content": "Dodajte dokument v diagram prek predmetov OLE"
+    },
+    "feature_16": {
+      "content": "Združite različne vrste dokumentov (DOC, XLS, PPT itd.) v eno datoteko PDF"
+    },
+    "feature_17": {
+      "content": "Preprosto uvozite predmete OLE v vrste datotek Microsoft Word, Excel, predstavitve in OpenDocument"
+    },
+    "feature_18": {
+      "content": "Dodajte druge dokumente na stran z diagramom prek predmetov OLE"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Odstranite želene strani iz dokumentov",
+      "content": "GroupDocs.Merger for Java API vam omogoča izbiro in brisanje neželenih strani iz vašega dokumenta."
+    },
+    "feature_2": {
+      "title": "Preverite geslo neznanega formata dokumenta",
+      "content": "Tudi če format določenega dokumenta ni znan, vam GroupDocs.Merger za Javo omogoča preverjanje in pridobitev gesla dokumenta, če je na voljo."
+    },
+    "feature_3": {
+      "title": "Pridružite se z geslom zaščitenim dokumentom znanih formatov",
+      "content": "GroupDocs.Merger for Java API vam omogoča, da dobite seznam dokumentov znanih in neznanih formatov."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger ponuja API-je za spajanje dokumentov za druga priljubljena razvojna okolja",
+    "solution": {
+      "img_alt": "GroupDocs.Merger za .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}
