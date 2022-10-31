@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger for .NET მხარს უჭერს შემდეგი [დოკუმენტის ფაილის ფორმატების] გაერთიანებას (https://docs.groupdocs.com/merger/net/supported-document-formats/):
+          GroupDocs.Merger for .NET მხარს უჭერს შემდეგი [დოკუმენტის ფაილის ფორმატების](https://docs.groupdocs.com/merger/net/supported-document-formats/):
 
         left:
           enable: true

@@ -48,7 +48,7 @@
       }
     },
     "tab_two": {
-      "description": "GroupDocs.Merger for .NET მხარს უჭერს შემდეგი [დოკუმენტის ფაილის ფორმატების] გაერთიანებას (https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "description": "GroupDocs.Merger for .NET მხარს უჭერს შემდეგი [დოკუმენტის ფაილის ფორმატების](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
       "left": {
         "title": "Microsoft Office",
         "content": {

@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger for Java მხარს უჭერს შემდეგი [დოკუმენტის ფაილის ფორმატების] გაერთიანებას (https://docs.groupdocs.com/merger/java/supported-document-formats/):
+          GroupDocs.Merger for Java მხარს უჭერს შემდეგი [დოკუმენტის ფაილის ფორმატების](https://docs.groupdocs.com/merger/java/supported-document-formats/):
 
         left:
           enable: true
