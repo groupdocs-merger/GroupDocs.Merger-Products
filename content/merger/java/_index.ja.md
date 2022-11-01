@@ -97,7 +97,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Merger for Javaは、次の[ドキュメントファイル形式](https://docs.groupdocs.com/merger/java/supported-document-formats/）のマージをサポートしています。
+          GroupDocs.Merger for Javaは、次の [ドキュメントファイル形式](https://docs.groupdocs.com/merger/java/supported-document-formats/）のマージをサポートしています。
 
         left:
           enable: true
