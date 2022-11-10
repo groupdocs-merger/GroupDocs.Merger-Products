@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Távolítsa el az {{EXT}} oldalt a {{ProgLang}} programból",
+    "description": "Távolítson el vagy töröljön egyetlen oldalt vagy oldalgyűjteményt egy {{EXT}} fájlból a {{ProgLang}} alkalmazásban az oldalak sorrendjének megfordításával a dokumentumok egyesítése API használatával."
+  },
+  "header": {
+    "title": "{{EXT}} oldal eltávolítása a {{ProgLang}} nyelven",
+    "description": "Távolítsa el a néhány soros {{ProductName}} kódot tartalmazó {{EXT}} oldalt.",
+    "button_label": "Ingyenes próbaverzió letöltése"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-referencia",
+      "button_text_2": "Kódpéldák",
+      "button_text_3": "Élő demók",
+      "button_text_4": "Árazás"
+    }
+  },
+  "about": {
+    "title": "A {{ProductFullName}} API-ról",
+    "h1": "A [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) egyszerű megoldást kínál számos dokumentumformátum biztonságos egyesítésére és felosztására, beleértve a PDF, Microsoft Office (Word, Excel, PowerPoint) , OneNote), OpenDocument, HTML, képek és sok más a {{ProductName}} alkalmazásokon belül. A kód néhány sorának hozzáadásával számos dokumentumműveletet hajthat végre, például mozgathatja, eltávolíthatja, elforgathatja, cserélheti, kivonhatja vagy módosíthatja az oldalak tájolását a dokumentumokon belül. A dokumentumok egyesítési API támogatja a dokumentumoldalak előnézetének képként történő megtekintését is a dokumentum szerkezetének, formázásának és tartalmának elemzéséhez.",
+    "h2": "A GroupDocs.Merger API megfelelő választás olyan vállalati megoldásokhoz, amelyekhez fájloldal-eltávolító funkciókra van szükség. Ezek az API-k jól támogatottak minden nagyobb operációs rendszeren és platformon, beleértve a {{Runtime}}-t is."
+  },
+  "steps": {
+    "title_left": "Távolítsa el a(z) {{EXT}} fájloldalakat a(z) {{ProductName}} termékből",
+    "content_left": {
+      "description": "A [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) megkönnyíti a {{ProgLang}} fejlesztői számára, hogy egyetlen vagy több oldalt töröljenek egy {{EXT}}-on belül néhány egyszerű lépés végrehajtásával.",
+      "step_1": "Inicializálja a **RemoveOptions** elemet az eltávolítandó oldalszámokkal.",
+      "step_2": "Hozzon létre új példányt az **Merger**-ból, és adja meg a forrásdokumentum elérési útját konstruktor paraméterként.",
+      "step_3": "Hívja a **removePages** parancsot, és adja át a **RemoveOptions** objektumot.",
+      "step_4": "Hívja a **save** parancsot, és adja meg a fájl elérési útját az eredményül kapott dokumentum mentéséhez."
+    },
+    "title_right": "rendszerkövetelmények",
+    "content_right": {
+      "description": "A {{ProductFullName}} API-k minden nagyobb platformon és operációs rendszeren támogatottak. Mielőtt végrehajtaná az alábbi kódot, győződjön meg arról, hogy a következő előfeltételek telepítve vannak a rendszeren.",
+      "step_1": "Operációs rendszerek: Microsoft Windows, Linux, MacOS",
+      "step_2": "Fejlesztési környezetek: {{DevEnv}}",
+      "step_3": "Keretrendszerek",
+      "step_4": "Töltse le a(z) {{ProductFullName}} legújabb verzióját innen: [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hogyan távolítsunk el {{EXT}} fájloldalakat a {{ProgLang}} példakóddal",
+    "code": {
+      "load_comment": "Távolítsa el az {{EXT}} fájloldalakat a GroupDocs.Merger API segítségével",
+      "opt_comment": "Inicializálja a RemoveOptions osztályt a kiválasztott oldalszámokkal",
+      "ini_comment": "Példányos egyesülés a bemeneti {{EXT}} dokumentummal",
+      "run_comment": "Hívja meg a removePages metódust, és adja át neki a RemoveOptions objektumot",
+      "save_comment": "Hívja meg a mentési metódust, és adja meg a kívánt fájl elérési utat a kimeneti dokumentum mentéséhez"
+    }
+  },
+  "demos": {
+    "title": "Élő bemutatók – Távolítsa el az {{EXT}} oldalakat online",
+    "h1": "Távolítsa el az {{EXT}} fájloldalakat azonnal a [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/remove-pages/{{ext}}) webhely meglátogatásával.",
+    "h2": "Az élő demónak a következő előnyei vannak."
+  },
+  "more_formats": {
+    "title": "Távolítsa el az oldalakat más dokumentumformátumokból",
+    "content": "A {{ProductName}} dokumentálja az összevonási és felosztási API-t fájlformátumokhoz és képekhez. Távolítson el néhány népszerű fájlformátumot az alábbiak szerint."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Cserélj és cserélj {{EXT}} oldalt a {{ProgLang}} nyelven",
+    "description": "Cserélje ki és cserélje ki két oldal pozícióját egy {{EXT}} fájlon belül a {{ProgLang}}-ban a dokumentumok egyesítése API segítségével."
+  },
+  "header": {
+    "title": "{{EXT}} oldal cseréje a {{ProgLang}} nyelven",
+    "description": "Cserélje ki az {{EXT}} oldalt néhány soros {{ProductName}} kóddal.",
+    "button_label": "Ingyenes próbaverzió letöltése"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-referencia",
+      "button_text_2": "Kódpéldák",
+      "button_text_3": "Élő demók",
+      "button_text_4": "Árazás"
+    }
+  },
+  "about": {
+    "title": "A {{ProductFullName}} API-ról",
+    "h1": "A [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) egyszerű megoldást kínál számos dokumentumformátum biztonságos egyesítésére és felosztására, beleértve a PDF, Microsoft Office (Word, Excel, PowerPoint) , OneNote), OpenDocument, HTML, képek és sok más a {{ProductName}} alkalmazásokon belül. A kód néhány sorának hozzáadásával számos dokumentumműveletet hajthat végre, például mozgathatja, eltávolíthatja, elforgathatja, cserélheti, kivonhatja vagy módosíthatja az oldalak tájolását a dokumentumokon belül. A dokumentumok egyesítési API támogatja a dokumentumoldalak előnézetének képként történő megtekintését is a dokumentum szerkezetének, formázásának és tartalmának elemzéséhez.",
+    "h2": "A GroupDocs.Merger API megfelelő választás azokhoz a vállalati megoldásokhoz, amelyekhez fájloldal-csere funkciókra van szükség. Ezek az API-k jól támogatottak minden nagyobb operációs rendszeren és platformon, beleértve a {{Runtime}}-t is."
+  },
+  "steps": {
+    "title_left": "{{EXT}} fájloldal cseréje a {{ProductName}} termékben",
+    "content_left": {
+      "description": "A [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) néhány egyszerű lépés végrehajtásával megkönnyíti a {{ProgLang}} fejlesztői számára, hogy oldalt cseréljenek egy {{EXT}} fájlon belül .",
+      "step_1": "A cserélni kívánt oldalszámok megadásához inicializálja a **SwapOptions** elemet.",
+      "step_2": "Hozzon létre új példányt az **Merger**-ból, és adja meg a forrásdokumentum elérési útját konstruktor paraméterként.",
+      "step_3": "Hívja a **swapPages**-t, és adja át a **SwapOptions** objektumot.",
+      "step_4": "Hívja a **save** parancsot, és adja meg a fájl elérési útját az eredményül kapott dokumentum mentéséhez."
+    },
+    "title_right": "rendszerkövetelmények",
+    "content_right": {
+      "description": "A {{ProductFullName}} API-k minden nagyobb platformon és operációs rendszeren támogatottak. Mielőtt végrehajtaná az alábbi kódot, győződjön meg arról, hogy a következő előfeltételek telepítve vannak a rendszeren.",
+      "step_1": "Operációs rendszerek: Microsoft Windows, Linux, MacOS",
+      "step_2": "Fejlesztési környezetek: {{DevEnv}}",
+      "step_3": "Keretrendszerek",
+      "step_4": "Töltse le a(z) {{ProductFullName}} legújabb verzióját innen: [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hogyan cseréljünk {{EXT}} fájloldalakat a {{ProgLang}} példakóddal",
+    "code": {
+      "load_comment": "Cserélje ki az {{EXT}} fájloldalakat a GroupDocs.Merger API használatával",
+      "opt_comment": "A cserélni kívánt oldalszámok megadásához inicializálja a SwapOptions osztályt",
+      "ini_comment": "Példányos egyesülés a bemeneti {{EXT}} dokumentummal",
+      "run_comment": "Hívja meg a SwapPages metódust, és adja át neki a SwapOptions objektumot",
+      "save_comment": "Hívja a Mentés metódust, és adja meg a kívánt fájl elérési utat a kimeneti dokumentum mentéséhez"
+    }
+  },
+  "demos": {
+    "title": "Élő bemutatók – {{EXT}} fájloldalak online cseréje",
+    "h1": "Az [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/{{ext}}) webhely meglátogatásával azonnal cseréljen {{EXT}} fájloldalt.",
+    "h2": "Az élő demónak a következő előnyei vannak."
+  },
+  "more_formats": {
+    "title": "Más fájlformátumok oldalainak cseréje",
+    "content": "A {{ProductName}} dokumentálja az összevonási és felosztási API-t fájlformátumokhoz és képekhez. Cserélje ki néhány népszerű fájlformátumot az alábbiak szerint."
+  }
+}

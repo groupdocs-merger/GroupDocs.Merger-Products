@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "Java Document Merging API | Word Excel PDF XPS EPUB egyesítése és eltávolítása",
+    "description": "Dokumentumok egyesítő API Java számára. PDF, Microsoft Word, Excel, prezentációk, Visio, XPS és EPUB formátumú oldalak egyesítése, felosztása, cseréje, átrendezése és törlése."
+  },
+  "header": {
+    "title": "Java API dokumentumok kombinálásához és felosztásához",
+    "description": "Fejlesszen ki nagy teljesítményű alkalmazásokat, amelyek útközben kombinálhatnak, bemásolhatnak, keverhetnek, kivághatnak vagy törölhetnek oldalakat, diákat és diagramokat."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Áttekintés",
+      "features": "Jellemzők",
+      "support": "Támogatás",
+      "livedemo": "Élő Demo",
+      "pricing": "Árazás"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "A GroupDocs.Merger for Java segítségével gyorsan fejleszthet csúcskategóriás üzleti alkalmazásokat Java nyelven. Kevés kódolással a Java-alkalmazások egyesíthetnek, bemásolhatnak, keverhetnek, kivághatnak és törölhetnek egyetlen oldalt vagy oldalakat, diákat és diagramokat. Az összevonási műveletek ismert és ismeretlen formátumú biztonságos fájlokon is végrehajthatók jelszavas védelem alkalmazásával vagy eltávolításával.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Az alábbiakban a GroupDocs.Merger for Java áttekintése látható:",
+      "left": {
+        "title": "Dokumentumműveletek",
+        "content": {
+          "line_1": "Oldalsorrend módosítása",
+          "line_2": "Oldalak eltávolítása vagy törlése",
+          "line_3": "Dokumentum felosztása vagy törése",
+          "line_4": "Cserélje fel vagy keverje össze bármelyik két oldalt",
+          "line_5": "Vágjon egy vagy több oldalt",
+          "line_6": "Csatlakoztasson több dokumentumot"
+        }
+      },
+      "right": {
+        "title": "Biztonsági műveletek",
+        "content": {
+          "line_1": "Dokumentumbiztonság beállítása",
+          "line_2": "Ellenőrizze a dokumentum biztonsági állapotát",
+          "line_3": "Állítsa be a dokumentum jelszavát",
+          "line_4": "A dokumentum jelszavának frissítése",
+          "line_5": "Távolítsa el a dokumentum jelszavát"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "A GroupDocs.Merger for Java a következő [dokumentumfájl-formátumok](https://docs.groupdocs.com/merger/java/supported-document-formats/) egyesítését támogatja:",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Szó:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** EGY"
+        }
+      },
+      "right": {
+        "title": "OpenDocument és egyéb formátumok",
+        "content": {
+          "line_1": "**OpenDocument formátumok**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Rögzített elrendezés**: PDF, XPS",
+          "line_3": "**Képek**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Szöveg**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-könyv**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "A GroupDocs.Merger for Java a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja:",
+      "left": {
+        "title": "Operációs rendszer",
+        "content": {
+          "line_1": "Microsoft Windows asztal",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "Linux",
+          "line_4": "Mac operációs rendszer"
+        },
+        "title_2": "Támogatott keretrendszerek",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 és újabb"
+        }
+      },
+      "right": {
+        "title": "Build Automation Tool",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Fejlesztési környezetek",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ ÖTLET",
+          "line_3": "* Napfogyatkozás",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger for Java Features",
+    "feature_1": {
+      "content": "Különféle oldalak, diák és diagramok egyesítése egyetlen fájlba"
+    },
+    "feature_2": {
+      "content": "Hatalmas dokumentumok másolása és felosztása több kisebb fájlra"
+    },
+    "feature_3": {
+      "content": "Oldalak, diák vagy diagramok keverése és átrendezése"
+    },
+    "feature_4": {
+      "content": "Cseréljen és cseréljen két oldalt, diákat vagy diagramot egymással egy dokumentumon belül"
+    },
+    "feature_5": {
+      "content": "Vágja ki és vágja le a dokumentumot meghatározott oldalak, diák vagy diagramok eltávolításával"
+    },
+    "feature_6": {
+      "content": "Egyetlen vagy oldalcsoport, diák vagy diagram törlése"
+    },
+    "feature_7": {
+      "content": "Összefűzhet és egyesíthet nagy számú dokumentumot kötegekben"
+    },
+    "feature_8": {
+      "content": "Programozottan ellenőrizze a Java-ban, hogy egy dokumentum jelszóval védett-e"
+    },
+    "feature_9": {
+      "content": "Állítsa be, állítsa vissza és távolítsa el az ismert és ismeretlen dokumentumformátumok jelszavát"
+    },
+    "feature_10": {
+      "content": "Egy szövegfájl felosztása sorszámmal többszörösre"
+    },
+    "feature_11": {
+      "content": "A dokumentumoldalak képi megjelenítése"
+    },
+    "feature_12": {
+      "content": "Egyesítsen több különböző formátumú dokumentumot egyetlen PDF-fájlba"
+    },
+    "feature_13": {
+      "content": "OLE objektumok beszúrása PDF, Word, Excel, PowerPoint és Open Document formátumokba"
+    },
+    "feature_14": {
+      "content": "Fájlok programozott csatolása PDF-dokumentumhoz"
+    },
+    "feature_15": {
+      "content": "Dokumentum hozzáadása a diagramhoz az OLE objektumok segítségével"
+    },
+    "feature_16": {
+      "content": "Különböző típusú dokumentumok (DOC, XLS, PPT stb.) egyesítése egyetlen PDF-fájlba"
+    },
+    "feature_17": {
+      "content": "Egyszerűen importálhat OLE objektumokat Microsoft Word, Excel, prezentáció és OpenDocument fájltípusokba"
+    },
+    "feature_18": {
+      "content": "Más dokumentumok hozzáadása a diagramoldalhoz az OLE objektumok segítségével"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Távolítsa el a kívánt oldalakat a dokumentumokból",
+      "content": "A GroupDocs.Merger for Java API segítségével kiválaszthatja és törölheti a nem kívánt oldalakat a dokumentumból."
+    },
+    "feature_2": {
+      "title": "Ellenőrizze az ismeretlen dokumentumformátum jelszavát",
+      "content": "Még ha egy adott dokumentum formátuma ismeretlen is, a GroupDocs.Merger for Java lehetővé teszi a dokumentum jelszavának ellenőrzését és lekérését, ha elérhető."
+    },
+    "feature_3": {
+      "title": "Csatlakozzon az ismert formátumú, jelszóval védett dokumentumokhoz",
+      "content": "A GroupDocs.Merger for Java API lehetővé teszi, hogy ismert és ismeretlen formátumú dokumentumok listáját kapja meg."
+    }
+  },
+  "solutions": {
+    "title": "A GroupDocs.Merger dokumentum-egyesítési API-kat kínál más népszerű fejlesztői környezetekhez",
+    "solution": {
+      "img_alt": "GroupDocs.Merger for .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}

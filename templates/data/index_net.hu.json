@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | PDF Word Excel EPUB egyesítése és felosztása",
+    "description": "C# .NET dokumentum-egyesítő API dokumentumoldalak kombinálásához, felosztásához, cseréjéhez vagy eltávolításához PDF, Microsoft Word, Excel, prezentációk, Visio és képformátumokból."
+  },
+  "header": {
+    "title": ".NET API dokumentumok egyesítéséhez és felosztásához",
+    "description": "API dokumentumok, diák és diagramok kombinálásához, felosztásához, cseréjéhez, vágásához vagy eltávolításához .NET alkalmazásokban."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Áttekintés",
+      "features": "Jellemzők",
+      "support": "Támogatás",
+      "livedemo": "Élő Demo",
+      "pricing": "Árazás"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "A GroupDocs.Merger for .NET segít a csúcskategóriás üzleti alkalmazások gyors fejlesztésében C#, ASP.NET és más .NET technológiákban. Csak néhány sornyi kód lehetővé teszi a .NET-alkalmazások kombinálását, felosztását, átrendezését, cseréjét, levágását és eltávolítását egyetlen oldalról vagy dokumentumoldalak, diák, képek vagy diagramok gyűjteményéről. Ezeket a műveleteket biztonságos fájlokon hajtsa végre az ismert és ismeretlen fájlformátumok jelszavas védelmének beállításával vagy eltávolításával.",
+      "paragraph_2": "A GroupDocs.Merger for .NET használatával egyesítést hajthat végre; felosztás és egyéb kapcsolódó műveletek egyes dokumentumokon, valamint egy köteg dokumentumon. Programozottan összefűzheti az összes népszerű formátumú fájlokat, például Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, e-könyv- és képfájlformátumokat."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Az alábbiakban a GroupDocs.Merger for .NET áttekintése látható:",
+      "left": {
+        "title": "Dokumentumműveletek",
+        "content": {
+          "line_1": "Oldalsorrend módosítása",
+          "line_2": "Oldalak eltávolítása vagy törlése",
+          "line_3": "Dokumentum felosztása vagy törése",
+          "line_4": "Cserélje fel vagy keverje össze bármelyik két oldalt",
+          "line_5": "Vágjon egy vagy több oldalt",
+          "line_6": "Csatlakoztasson több dokumentumot"
+        }
+      },
+      "right": {
+        "title": "Biztonsági műveletek",
+        "content": {
+          "line_1": "Dokumentumbiztonság beállítása",
+          "line_2": "Ellenőrizze a dokumentum biztonsági állapotát",
+          "line_3": "Állítsa be a dokumentum jelszavát",
+          "line_4": "A dokumentum jelszavának frissítése",
+          "line_5": "Távolítsa el a dokumentum jelszavát"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "A GroupDocs.Merger for .NET támogatja a következő [dokumentumfájl-formátumok](https://docs.groupdocs.com/merger/net/supported-document-formats/) egyesítését:",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Szó:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** EGY"
+        }
+      },
+      "right": {
+        "title": "OpenDocument és egyéb formátumok",
+        "content": {
+          "line_1": "**OpenDocument formátumok**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Rögzített elrendezés**: PDF, XPS",
+          "line_3": "**Képek**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Szöveg**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-könyv**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "A GroupDocs.Merger for .NET a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja:",
+      "left": {
+        "title": "Operációs rendszer",
+        "content": {
+          "line_1": "Windows asztal",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Támogatott keretrendszerek",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 vagy újabb",
+          "line_2": "Mono Framework 1.2 vagy újabb",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Csomagkezelő",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Fejlesztési környezetek",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger for .NET Features",
+    "feature_1": {
+      "content": "Több oldal, diák és diagram egyesítése és egyesítése egyetlen dokumentumban"
+    },
+    "feature_2": {
+      "content": "A nagy dokumentumok felosztása és felosztása több kisebb fájlra"
+    },
+    "feature_3": {
+      "content": "Oldalak, diák vagy diagramok átrendezése, keverése és átrendezése"
+    },
+    "feature_4": {
+      "content": "Cseréljen és cseréljen két oldalt, diát vagy diagramot egymással egy dokumentumon belül"
+    },
+    "feature_5": {
+      "content": "Vágja le a dokumentumot meghatározott oldalak, diák vagy diagramok eltávolításával"
+    },
+    "feature_6": {
+      "content": "Távolítsa el az oldalak, diák vagy diagramok egyetlen vagy gyűjteményét"
+    },
+    "feature_7": {
+      "content": "Nagyszámú dokumentum kötegelt összefűzése"
+    },
+    "feature_8": {
+      "content": "Programozottan ellenőrizze, hogy egy dokumentum jelszóval védett-e"
+    },
+    "feature_9": {
+      "content": "Állítsa be, állítsa vissza és távolítsa el az ismert és ismeretlen dokumentumformátumok jelszavát"
+    },
+    "feature_10": {
+      "content": "A támogatott fájlformátumok listájának lekérése – Szöveg felosztása és összekapcsolása (ERR) naplófájl formátum"
+    },
+    "feature_11": {
+      "content": "Forgassa el az oldalakat, és módosítsa az ismert és ismeretlen formátumok tájolását"
+    },
+    "feature_12": {
+      "content": "Több különböző formátumú fájl kombinálása DOC, DOCX és XPS formátumban"
+    },
+    "feature_13": {
+      "content": "Nagy szövegfájlok felosztása sorszámok szerint"
+    },
+    "feature_14": {
+      "content": "Szerezze be a dokumentumoldalak képi megjelenítését és a diagramcsalád formátumait"
+    },
+    "feature_15": {
+      "content": "Csatlakoztassa a képeket háttérszínnel az üres fekete képterületért"
+    },
+    "feature_16": {
+      "content": "Különböző típusú dokumentumok (DOC, XLS, PPT stb.) egyesítése egyetlen PDF-fájlba"
+    },
+    "feature_17": {
+      "content": "Egyszerűen importálhat OLE objektumokat Microsoft Word, Excel, prezentáció és OpenDocument fájltípusokba"
+    },
+    "feature_18": {
+      "content": "Más dokumentumok hozzáadása a diagramoldalhoz az OLE objektumok segítségével"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Távolítsa el a kívánt oldalakat a dokumentumokból",
+      "content": "A GroupDocs.Merger for .NET API segít törölni a nem kívánt oldalakat a dokumentumból."
+    },
+    "feature_2": {
+      "title": "Alkalmazza az átalakítást a renderelt kimenetre",
+      "content": "Különféle átalakításokat hajthat végre a megjelenített kimeneti dokumentumon a GroupDocs.Merger for .NET API használatával. Ezekkel az átalakítási beállításokkal szabályozhatja a renderelt kimenet megjelenítési módját. A rendelkezésre álló átalakítások a következők: oldalforgatás, oldal-újrarendezési lehetőség és szöveges vízjel alkalmazása."
+    },
+    "feature_3": {
+      "title": "Ellenőrizze az ismeretlen dokumentumformátum jelszavát",
+      "content": "A GroupDocs.Merger for .NET API lehetővé teszi az ismeretlen formátumú dokumentumok jelszavának ellenőrzését."
+    }
+  },
+  "solutions": {
+    "title": "A GroupDocs.Merger dokumentum-egyesítési API-kat kínál más népszerű fejlesztői környezetekhez",
+    "solution": {
+      "img_alt": "GroupDocs.Merger for Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}
