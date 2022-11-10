@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Asiakirjojen yhdistämis- ja jakamisratkaisu | Premise-sovellusliittymät ja ilmainen sovellus",
+    "description": "Yhdistä ja jaa MS Office, OpenDocument, PDF-kuvat ja muut tiedostomuodot On Premise Solution -sovelluksella tai käytä Online Document Merger & Splitter -sovellusta."
+  },
+  "header": {
+    "title": "Ratkaisu asiakirjojen yhdistämiseen ja jakamiseen",
+    "description": "Yhdistä helposti useita asiakirjoja tai jaa Microsoft Office, OpenOffice, PDF ja muut asiakirjat sivuiksi."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Merger High Code API:t sisältävät",
+      "label": "Näytä kaikki High Code API:t",
+      "net": {
+        "content": "On Premise-sovellusliittymät, joiden avulla voit ottaa käyttöön nopean jakamis- ja yhdistämisominaisuuden useille asiakirjoille .NET-pohjaisissa sovelluksissasi."
+      },
+      "java": {
+        "content": "Alkuperäiset Java-sovellusliittymät yhdistävät nopeasti useita asiakirjoja tai jakavat minkä tahansa asiakirjan sivuiksi Java-pohjaisissa sovelluksissasi."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Merger Low Code API:t sisältävät",
+      "label": "Näytä kaikki Low Code API:t",
+      "curl": {
+        "content": "Yksinkertaiset cURL-komennot RESTful-dokumenttien yhdistämiseen Cloud API yhdistää ja jakaa asiakirjoja useisiin tuettuihin suosittuihin asiakirjamuotoihin."
+      },
+      "net": {
+        "content": "Cloud SDK Microsoft .NETille, joka auttaa ohjelmoijia toteuttamaan nopean yhdistämis- ja jakamisominaisuuden useille asiakirjoille .NET-pohjaisissa sovelluksissaan."
+      },
+      "java": {
+        "content": "Yhdistä useita asiakirjoja yhdeksi, jaa mikä tahansa asiakirja useiksi, järjestä uudelleen, vaihda tai muuta sivun suuntaa Java-sovelluksissasi."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Ei koodisovelluksia",
+      "label": "Näytä kaikki koodittomat sovellukset",
+      "total": {
+        "content": "Kokeile ilmaista verkkosovellustamme ketjuttaaksesi yli 30 tiedostotyyppiä poistumatta suosikkiselaimestasi."
+      },
+      "docx": {
+        "content": "Yhdistä useita DOCX-tiedostoja yhden asiakirjan luomiseksi."
+      },
+      "pdf": {
+        "content": "Yhdistä useita PDF-tiedostoja luodaksesi yhden asiakirjan suoraan verkkoselaimesta."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Yhdistä {{EXT}} tiedostot {{ProgLang}} | {{EXT}} Sulautuminen",
+    "description": "Yhdistä useita {{EXT}}-tiedostoja yhdeksi tiedostoksi käyttämällä {{ProgLang}} {{ProductName}} -asiakirjojen yhdistämissovellusliittymää. Yhdistä tietyt sivut tai sivualueet useista asiakirjoista yhdeksi asiakirjaksi."
+  },
+  "header": {
+    "title": "{{EXT}} Sulautuminen {{ProgLang}}",
+    "description": "Yhdistä {{EXT}} muutamalla rivillä {{ProductName}}-koodia.",
+    "button_label": "Lataa ilmainen kokeiluversio"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-viite",
+      "button_text_2": "Esimerkkejä koodista",
+      "button_text_3": "Live-demoja",
+      "button_text_4": "Hinnoittelu"
+    }
+  },
+  "about": {
+    "title": "Tietoja {{ProductFullName}} API:sta",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) tarjoaa kätevän ratkaisun useiden PDF-tiedostojen, Microsoft Officen (Word, Excel, PowerPoint, OneNote), OpenDocumentin, HTML:n, kuvien ja monet muut asiakirjat yhdeksi tiedostoksi {{ProductName}} sovelluksissa. GroupDocs.Merger säästää paljon vaivaa, sillä voit yhdistää {{EXT}} asiakirjoja - sinun ei tarvitse asentaa kolmannen osapuolen ohjelmistoja, työpöytäsovelluksia tai laajennuksia. Nyt on tarpeetonta tuhlata aikaasi ja yhdistää tiedostoja manuaalisesti! GroupDocsin tehtävänä on tarjota parasta laatua ja yksinkertaistaa asiakirjankäsittelyn työnkulkuja.",
+    "h2": "GroupDocs.Merger API on oikea valinta yritysratkaisuille, jotka tarvitsevat tiedostojen yhdistämisominaisuuksia. Näitä sovellusliittymiä tuetaan hyvin kaikissa tärkeimmissä käyttöjärjestelmissä ja alustoissa, mukaan lukien {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Kuinka yhdistää useita {{EXT}}-tiedostoja",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) tekee tuotteen {{ProductName}} kehittäjien helpoksi yhdistää kaksi tai useampia {{EXT}} tiedostoa sovelluksissaan ottamalla käyttöön muutama helppo askel.",
+      "step_1": "Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.",
+      "step_2": "Soita **Yhdistys**-luokan **Liity** ja välitä toinen lähdeasiakirjan polku.",
+      "step_3": "Soita **Tallenna** **Yhdistäminen**-luokasta tallentaaksesi yhdistetyn asiakirjan."
+    },
+    "title_right": "Laitteistovaatimukset",
+    "content_right": {
+      "description": "{{ProductFullName}} API-liittymiä tuetaan kaikilla tärkeimmillä alustoilla ja käyttöjärjestelmillä. Ennen kuin suoritat alla olevan koodin, varmista, että sinulla on seuraavat edellytykset asennettuna järjestelmääsi.",
+      "step_1": "Käyttöjärjestelmät: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kehitysympäristöt: {{DevEnv}}",
+      "step_3": "Kehykset",
+      "step_4": "Lataa tuotteen {{ProductFullName}} uusin versio osoitteesta [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Kuinka yhdistää {{EXT}} tiedostoja käyttämällä {{ProgLang}} esimerkkikoodia",
+    "code": {
+      "load_comment": "Yhdistä {{EXT}} tiedostot GroupDocs.Merger API:lla",
+      "ini_comment": "Toteuta yhdistäminen syötteellä {{EXT}}",
+      "run_comment": "Kutsu Merger-luokan ilmentymän liitosmenetelmä ja välitä toinen lähdeasiakirjan polku",
+      "save_comment": "Soita Merger-luokan ilmentymän tallennusmenetelmää tallentaaksesi yhdistetyn asiakirjan"
+    }
+  },
+  "demos": {
+    "title": "Live-demot - Online-sovellus asiakirjojen yhdistämiseen",
+    "h1": "Yhdistä useampi kuin yksi {{EXT}}-tiedosto juuri nyt käymällä [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}) -sivustolla.",
+    "h2": "Live-demolla on seuraavat edut."
+  },
+  "more_formats": {
+    "title": "Muiden asiakirjamuotojen yhdistäminen",
+    "content": "{{ProductName}} dokumentoi tiedostomuotojen ja kuvien yhdistämissovellusliittymää. Yhdistä joitain suosittuja asiakirjamuotoja alla kuvatulla tavalla."
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "Java Document Merging API | yhdistä ja poista Word Excel PDF XPS EPUB",
+    "description": "Asiakirjojen yhdistämisen sovellusliittymä Javalle. Yhdistä, jaa, vaihda, järjestä ja poista PDF-, Microsoft Word-, Excel-, esityksiä, Visio-, XPS- ja EPUB-muotoisia sivuja."
+  },
+  "header": {
+    "title": "Java-sovellusliittymä asiakirjojen yhdistämiseen ja jakamiseen",
+    "description": "Kehitä tehokkaita sovelluksia, jotka voivat yhdistää, kopioida, sekoittaa, leikata tai poistaa sivuja, dioja ja kaavioita liikkeellä ollessasi."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Yleiskatsaus",
+      "features": "ominaisuudet",
+      "support": "Tuki",
+      "livedemo": "Live-demo",
+      "pricing": "Hinnoittelu"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger for Java auttaa sinua kehittämään nopeasti huippuluokan yrityssovelluksia Javassa. Pienellä koodauksella Java-sovelluksesi voivat yhdistää, kopioida, sekoittaa, leikata ja poistaa yhden sivun tai erän sivuja, dioja ja kaavioita. Yhdistäminen voidaan suorittaa myös suojatuille tunnetuille ja tuntemattomille tiedostoille ottamalla käyttöön tai poistamalla salasanasuojaus.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Seuraavassa on yleiskatsaus GroupDocs.Merger for Java -sovelluksesta:",
+      "left": {
+        "title": "Asiakirjatoiminnot",
+        "content": {
+          "line_1": "Muuta sivujärjestystä",
+          "line_2": "Poista tai poista sivuja",
+          "line_3": "Jaa tai riko asiakirja",
+          "line_4": "Vaihda tai sekoita mitä tahansa kahta sivua",
+          "line_5": "Leikkaa yksi tai useampi sivu",
+          "line_6": "Yhdistä useita asiakirjoja"
+        }
+      },
+      "right": {
+        "title": "Turvatoimet",
+        "content": {
+          "line_1": "Aseta asiakirjan suojaus",
+          "line_2": "Tarkista asiakirjan suojaustila",
+          "line_3": "Aseta asiakirjan salasana",
+          "line_4": "Päivitä asiakirjan salasana",
+          "line_5": "Poista asiakirjan salasana"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger for Java tukee seuraavien [asiakirjatiedostomuotojen](https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Sana:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** YKSI"
+        }
+      },
+      "right": {
+        "title": "OpenDocument ja muut muodot",
+        "content": {
+          "line_1": "**OpenDocument-muodot**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Kiinteä asettelu**: PDF, XPS",
+          "line_3": "**Kuvat**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Teksti**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-kirja**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for Java tukee seuraavia käyttöjärjestelmiä, kehyksiä ja paketinhallintaohjelmia:",
+      "left": {
+        "title": "Käyttöjärjestelmät",
+        "content": {
+          "line_1": "Microsoft Windows -työpöytä",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "Linux",
+          "line_4": "Mac käyttöjärjestelmä"
+        },
+        "title_2": "Tuetut puitteet",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 ja uudemmat"
+        }
+      },
+      "right": {
+        "title": "Rakenna automaatiotyökalu",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Kehitysympäristöt",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEA",
+          "line_3": "* Pimennys",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger Java-ominaisuuksia varten",
+    "feature_1": {
+      "content": "Yhdistä useita sivuja, dioja ja kaavioita yhdeksi tiedostoksi"
+    },
+    "feature_2": {
+      "content": "Kopioi ja jaa suuria asiakirjoja useiksi pienemmiksi tiedostoiksi"
+    },
+    "feature_3": {
+      "content": "Sekoita ja järjestä sivuja, dioja tai kaavioita uudelleen"
+    },
+    "feature_4": {
+      "content": "Vaihda ja vaihda kaksi sivua, dioja tai kaavioita keskenään asiakirjassa"
+    },
+    "feature_5": {
+      "content": "Leikkaa ja leikkaa asiakirjaa poistamalla tiettyjä sivuja, dioja tai kaavioita"
+    },
+    "feature_6": {
+      "content": "Poista yksittäinen tai kokoelma sivuja, dioja tai kaavioita"
+    },
+    "feature_7": {
+      "content": "Yhdistä ja yhdistä suuri määrä asiakirjoja erissä"
+    },
+    "feature_8": {
+      "content": "Tarkista Javassa ohjelmallisesti, onko asiakirja suojattu salasanalla"
+    },
+    "feature_9": {
+      "content": "Aseta, nollaa ja poista tunnettujen ja tuntemattomien asiakirjamuotojen salasana"
+    },
+    "feature_10": {
+      "content": "Jaa yksi tekstitiedosto useiksi rivinumeroilla"
+    },
+    "feature_11": {
+      "content": "Hanki asiakirjasivujen kuvaesitys"
+    },
+    "feature_12": {
+      "content": "Yhdistä useita eri muotoisia asiakirjoja yhdeksi PDF-tiedostoksi"
+    },
+    "feature_13": {
+      "content": "Lisää OLE-objekteja PDF-, Word-, Excel-, PowerPointi- ja Open Document -muotoihin"
+    },
+    "feature_14": {
+      "content": "Liitä ohjelmallisesti tiedostoja PDF-dokumenttiin"
+    },
+    "feature_15": {
+      "content": "Lisää asiakirja kaavioon OLE-objektien kautta"
+    },
+    "feature_16": {
+      "content": "Yhdistä erityyppiset asiakirjat (DOC, XLS, PPT jne.) yhdeksi PDF-tiedostoksi"
+    },
+    "feature_17": {
+      "content": "Tuo OLE-objekteja helposti Microsoft Word-, Excel-, esitys- ja OpenDocument-tiedostotyyppeihin"
+    },
+    "feature_18": {
+      "content": "Lisää muita asiakirjoja kaaviosivulle OLE-objektien kautta"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Poista halutut sivut asiakirjoista",
+      "content": "GroupDocs.Merger for Java API antaa sinun valita ja poistaa ei-toivottuja sivuja asiakirjasta."
+    },
+    "feature_2": {
+      "title": "Tarkista Tuntemattoman asiakirjamuodon salasana",
+      "content": "Vaikka tietyn asiakirjan muotoa ei tunneta, GroupDocs.Merger for Java antaa sinun tarkistaa ja hakea asiakirjan salasanan, jos se on saatavilla."
+    },
+    "feature_3": {
+      "title": "Liity tunnettujen muotojen salasanasuojattuihin asiakirjoihin",
+      "content": "GroupDocs.Merger for Java API antaa sinun saada luettelon tunnetuista ja tuntemattomista tiedostomuodoista."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger tarjoaa asiakirjojen yhdistämisen sovellusliittymiä muihin suosittuihin kehitysympäristöihin",
+    "solution": {
+      "img_alt": "GroupDocs.Merger for .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}

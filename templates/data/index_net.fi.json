@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Yhdistä ja jaa PDF Word Excel EPUB",
+    "description": "C# .NET-dokumenttien yhdistämissovellusliittymä yhdistää, jakaa, vaihtaa tai poistaa asiakirjasivuja PDF-, Microsoft Word-, Excel-, esityksistä, Visiosta ja kuvamuodoista."
+  },
+  "header": {
+    "title": ".NET API yhdistää ja jakaa asiakirjoja",
+    "description": "API yhdistää, jakaa, vaihtaa, leikata tai poistaa asiakirjoja, dioja ja kaavioita .NET-sovelluksissa."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Yleiskatsaus",
+      "features": "ominaisuudet",
+      "support": "Tuki",
+      "livedemo": "Live-demo",
+      "pricing": "Hinnoittelu"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger for .NET, auttaa sinua kehittämään nopeasti huippuluokan yrityssovelluksia C#-, ASP.NET- ja muissa .NET-tekniikoissa. Vain muutama koodirivi mahdollistaa .NET-sovellusten yhdistämisen, jakamisen, järjestämisen, vaihtamisen, leikkaamisen ja poistamisen yhden sivun tai asiakirjan sivujen, diojen, kuvien tai kaavioiden kokoelman. Suorita nämä toiminnot suojatuille tiedostoille asettamalla tai poistamalla tunnettujen ja tuntemattomien tiedostomuotojen salasanasuojaus.",
+      "paragraph_2": "Käyttämällä GroupDocs.Merger for .NET -palvelua voit suorittaa yhdistämisen; jakaminen ja muut asiaan liittyvät toiminnot yksittäisille asiakirjoille sekä asiakirjoille. Ompele ohjelmallisesti kaikkien suosittujen tiedostomuotojen tiedostoja, kuten Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook ja kuvatiedostomuodot."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Seuraavassa on katsaus GroupDocs.Merger for .NET:iin:",
+      "left": {
+        "title": "Asiakirjatoiminnot",
+        "content": {
+          "line_1": "Muuta sivujärjestystä",
+          "line_2": "Poista tai poista sivuja",
+          "line_3": "Jaa tai riko asiakirja",
+          "line_4": "Vaihda tai sekoita mitä tahansa kahta sivua",
+          "line_5": "Leikkaa yksi tai useampi sivu",
+          "line_6": "Yhdistä useita asiakirjoja"
+        }
+      },
+      "right": {
+        "title": "Turvatoimet",
+        "content": {
+          "line_1": "Aseta asiakirjan suojaus",
+          "line_2": "Tarkista asiakirjan suojaustila",
+          "line_3": "Aseta asiakirjan salasana",
+          "line_4": "Päivitä asiakirjan salasana",
+          "line_5": "Poista asiakirjan salasana"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger for .NET tukee seuraavien [asiakirjatiedostomuotojen](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Sana:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** YKSI"
+        }
+      },
+      "right": {
+        "title": "OpenDocument ja muut muodot",
+        "content": {
+          "line_1": "**OpenDocument-muodot**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Kiinteä asettelu**: PDF, XPS",
+          "line_3": "**Kuvat**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Teksti**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-kirja**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for .NET tukee seuraavia käyttöjärjestelmiä, kehyksiä ja paketinhallintaohjelmia:",
+      "left": {
+        "title": "Käyttöjärjestelmät",
+        "content": {
+          "line_1": "Windowsin työpöytä",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Tuetut puitteet",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 tai uudempi",
+          "line_2": "Mono Framework 1.2 tai uudempi",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Paketinhallinta",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Kehitysympäristöt",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger .NET-ominaisuuksille",
+    "feature_1": {
+      "content": "Yhdistä ja yhdistä useita sivuja, dioja ja kaavioita yhdeksi asiakirjaksi"
+    },
+    "feature_2": {
+      "content": "Jaa ja hajota suuret asiakirjat useiksi pienemmiksi tiedostoiksi"
+    },
+    "feature_3": {
+      "content": "Järjestä uudelleen, sekoita ja järjestä sivuja, dioja tai kaavioita uudelleen"
+    },
+    "feature_4": {
+      "content": "Vaihda ja vaihda kaksi sivua, diaa tai kaaviota keskenään asiakirjassa"
+    },
+    "feature_5": {
+      "content": "Leikkaa asiakirjaa poistamalla tiettyjä sivuja, dioja tai kaavioita"
+    },
+    "feature_6": {
+      "content": "Poista yksittäinen tai kokoelma sivuja, dioja tai kaavioita"
+    },
+    "feature_7": {
+      "content": "Ompele yhteen suuri määrä asiakirjoja erissä"
+    },
+    "feature_8": {
+      "content": "Tarkista ohjelmallisesti, onko asiakirja suojattu salasanalla"
+    },
+    "feature_9": {
+      "content": "Aseta, nollaa ja poista tunnettujen ja tuntemattomien asiakirjamuotojen salasana"
+    },
+    "feature_10": {
+      "content": "Hae luettelo tuetuista tiedostomuodoista – Split and Join Text (ERR) -lokitiedostomuoto"
+    },
+    "feature_11": {
+      "content": "Kierrä sivuja ja muuta sivun suuntaa tunnetuissa ja tuntemattomissa muodoissa"
+    },
+    "feature_12": {
+      "content": "Yhdistä useita eri muotoisia tiedostoja DOC-, DOCX- ja XPS-muotoihin"
+    },
+    "feature_13": {
+      "content": "Suurten tekstitiedostojen jakaminen rivinumeroilla"
+    },
+    "feature_14": {
+      "content": "Hanki kuvaesitykset asiakirjan sivuista ja kaavioperhemuodoista"
+    },
+    "feature_15": {
+      "content": "Yhdistä kuvat taustaväreillä tyhjää mustaa kuvatilaa varten"
+    },
+    "feature_16": {
+      "content": "Yhdistä erityyppiset asiakirjat (DOC, XLS, PPT jne.) yhdeksi PDF-tiedostoksi"
+    },
+    "feature_17": {
+      "content": "Tuo OLE-objekteja helposti Microsoft Word-, Excel-, esitys- ja OpenDocument-tiedostotyyppeihin"
+    },
+    "feature_18": {
+      "content": "Lisää muita asiakirjoja kaaviosivulle OLE-objektien kautta"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Poista halutut sivut asiakirjoista",
+      "content": "GroupDocs.Merger for .NET API auttaa sinua poistamaan ei-toivotut sivut asiakirjasta."
+    },
+    "feature_2": {
+      "title": "Käytä muunnosa renderoidussa lähdössä",
+      "content": "Voit tehdä erilaisia ​​muunnoksia renderoidulle tulosteasiakirjalle käyttämällä GroupDocs.Merger for .NET API -sovellusliittymää. Nämä muunnosvaihtoehdot antavat sinun hallita tapaa, jolla esität renderoidun tulosteen näyttöä varten. Käytettävissä olevat muunnokset ovat sivun kiertovaihtoehto, sivujen uudelleenjärjestelyvaihtoehto ja tekstin vesileiman käyttö."
+    },
+    "feature_3": {
+      "title": "Tarkista Tuntemattoman asiakirjamuodon salasana",
+      "content": "GroupDocs.Merger for .NET API:n avulla voit tarkistaa sellaisen asiakirjan salasanan, jonka muotoa ei tunneta."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger tarjoaa asiakirjojen yhdistämisen sovellusliittymiä muihin suosittuihin kehitysympäristöihin",
+    "solution": {
+      "img_alt": "GroupDocs.Merger Javalle",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}
