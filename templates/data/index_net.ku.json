@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | PDF Word Excel EPUB hev bikin û parçe bikin",
+    "description": "Belgeya C# .NET API-ê dike yek da ku rûpelên belgeyê ji PDF, Microsoft Word, Excel, pêşkêşî, Visio û formatên wêneyê bi hev veqetîne, veqetîne, biguhezîne an jê rake."
+  },
+  "header": {
+    "title": ".NET API ji bo Belgeyên Yekbûn & Parçekirin",
+    "description": "API ku di Serîlêdanên .NET-ê de Belge, Slide û Diagraman Bicive, Biguherîne, Bişkîne an Rake."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Têgihiştinî",
+      "features": "Features",
+      "support": "Alîkarî",
+      "livedemo": "Demo Bijî",
+      "pricing": "Pricing"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger ji bo .NET, ji we re dibe alîkar ku hûn bilez sepanên karsaziya çîna top di C#, ASP.NET û teknolojiyên .NET yên din de pêşve bibin. Tenê çend rêzên kodê dê sepanên we .NET bihêlin ku yek rûpel an berhevokek rûpelên belgeyê, slayd, wêne an diagraman li hev bikin, perçe bikin, ji nû ve rêz bikin, biguhezînin, qut bikin û jê bikin. Van operasyonan li ser pelên ewledar bi danîna an rakirina parastina şîfreya formatên pelê yên naskirî û nenas pêk bînin.",
+      "paragraph_2": "Bi karanîna GroupDocs.Merger ji bo .NET, hûn dikarin hevgirtinê bikin; dabeşkirin û operasyonên din ên têkildar li ser belgeyên yekane û her weha komek belgeyan. Bi bernameyî pelên hemî formatên populer, wek Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook û formatên pelê wêneyê bidirûtin."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Li jêr nêrînek li ser GroupDocs.Merger ji bo .NET heye:",
+      "left": {
+        "title": "Operasyonên Belge",
+        "content": {
+          "line_1": "Order Rûpelê biguherînin",
+          "line_2": "Rûpelan Rakin an Jê Bikin",
+          "line_3": "Belge parçe bike an bişkîne",
+          "line_4": "Her du rûpelan biguhezînin an jî bihejînin",
+          "line_5": "Rûpelên yek an pirjimar bişkînin",
+          "line_6": "Tevlî gelek belgeyan bibin"
+        }
+      },
+      "right": {
+        "title": "Operasyonên Ewlekariyê",
+        "content": {
+          "line_1": "Ewlekariya belgeyê saz bikin",
+          "line_2": "Rewşa ewlehiya belgeyê kontrol bikin",
+          "line_3": "Şîfreya belgeyê saz bikin",
+          "line_4": "Şîfreya belgeyê nûve bikin",
+          "line_5": "Şîfreya belgeyê jêbirin"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger ji bo .NET piştgirî dide hevgirtina [formatên pelgeyê yên](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "** Peyv: ** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "** OneNote: ** YEK"
+        }
+      },
+      "right": {
+        "title": "OpenDocument & Formên din",
+        "content": {
+          "line_1": "** Formatên Belgeya Vekirî **: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Rêvekirina Rastkirî **: PDF, XPS",
+          "line_3": "**Wêne**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Text **: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "** Ebook **: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger ji bo .NET pergalên xebitandinê, çarçove û rêveberên pakêtê yên jêrîn piştgirî dike:",
+      "left": {
+        "title": "Pergalên Xebatê",
+        "content": {
+          "line_1": "Sermaseya Windows",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Çarçoveyên Piştgirî",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 an mezintir",
+          "line_2": "Mono Framework 1.2 an mezintir",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Rêveberê pakêtê",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Jîngehên Pêşveçûn",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarîn.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger ji bo Taybetmendiyên .NET",
+    "feature_1": {
+      "content": "Gelek rûpel, slayd & diagram di yek belgeyek de bi hev re bikin û bikin yek"
+    },
+    "feature_2": {
+      "content": "Belgeyên mezin li gelek pelên piçûktir parçe bikin û bişkînin"
+    },
+    "feature_3": {
+      "content": "Rûpel, slayd an diagraman ji nû ve rêz bikin, tevlihev bikin û ji nû ve organîze bikin"
+    },
+    "feature_4": {
+      "content": "Di nav belgeyekê de du rûpel, slayd an diagraman bi hev re biguherînin û biguherînin"
+    },
+    "feature_5": {
+      "content": "Belgeyê bi rakirina rûpel, slayd an diagramên taybetî veqetînin"
+    },
+    "feature_6": {
+      "content": "Yek an berhevoka rûpelan, slayd an diagraman rakin"
+    },
+    "feature_7": {
+      "content": "Hejmarek mezin a belgeyan li hev kom bikin"
+    },
+    "feature_8": {
+      "content": "Bi bernameyê kontrol bikin ka belgeyek bi şîfreyê ewle ye"
+    },
+    "feature_9": {
+      "content": "Şîfreya formatên belgeyên naskirî û nenas saz bike, vegerîne û jê rake"
+    },
+    "feature_10": {
+      "content": "Lîsteya pelên pelan ên piştgirî bistînin - Forma Pelê Têketinê (ERR) Parçe bikin û Tevlî Bikin"
+    },
+    "feature_11": {
+      "content": "Rûpelan bizivirînin û arasteya rûpelê ya formên naskirî û nenas biguhezînin"
+    },
+    "feature_12": {
+      "content": "Gelek pelên bi formên cihêreng bi DOC, DOCX & XPS re hev bikin"
+    },
+    "feature_13": {
+      "content": "Parçekirina pelên nivîsê yên mezin bi hejmarên rêzê"
+    },
+    "feature_14": {
+      "content": "Nûneratiyên wêneyê yên rûpelên belgeyê û formên malbata diagramê bistînin"
+    },
+    "feature_15": {
+      "content": "Ji bo Cihê Wêneya Reş a Vala Bi Wêneyên Bi Rengê Paşê re bibin yek"
+    },
+    "feature_16": {
+      "content": "Cûreyên Cûda yên Belgeyan (DOC, XLS, PPT hwd) di Pelekek PDF-ê de Yek bikin"
+    },
+    "feature_17": {
+      "content": "Tiştên OLE bi hêsanî têxin nav cureyên pelê Microsoft Word, Excel, Pêşkêşkirin û OpenDocument"
+    },
+    "feature_18": {
+      "content": "Bi navgîniya Tiştên OLE Belgeyên Din li Rûpelê Diagramê zêde bikin"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Rûpelên Daxwaz ji Belgeyan Rakin",
+      "content": "GroupDocs.Merger ji bo .NET API ji we re dibe alîkar ku hûn rûpelên nexwestî ji belgeya xwe jêbirin."
+    },
+    "feature_2": {
+      "title": "Veguheztinê li Hilbera Rendered Bidin",
+      "content": "Hûn dikarin bi karanîna GroupDocs.Merger ji bo .NET API veguhertinên cihêreng li belgeya derketinê ya çêkirî bikin. Van vebijarkên veguheztinê li ser awayê ku hûn hilberîna çêkirî ji bo pêşandanê pêşkêş dikin kontrolê didin we. Veguherînên berdest ev in, vebijarka zivirîna rûpelê, vebijarka ji nû ve rêzkirina rûpelê û sepandina avê nîşana nivîsê."
+    },
+    "feature_3": {
+      "title": "Şîfreya Forma Belgeya Nenas kontrol bikin",
+      "content": "GroupDocs.Merger ji bo .NET API dihêle hûn şîfreya belgeyek ku formata wê nayê zanîn kontrol bikin."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger ji bo hawîrdorên din ên pêşkeftinê yên populer API-yên yekkirina belgeyan pêşkêşî dike",
+    "solution": {
+      "img_alt": "GroupDocs.Merger ji bo Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Di {{ProgLang}} de {{EXT}} li Pir Pelan veqetînin",
+    "description": "Pelê yek {{EXT}} li ser bingeha jimareyên rûpelan, navberên rûpelan, rûpelên zewac an jî cewherî bi karanîna API-ya yekkirina belgeyan li çend pelan dabeş bikin."
+  },
+  "header": {
+    "title": "{{EXT}} Splitter Li {{ProgLang}}",
+    "description": "{{EXT}} bi çend rêzikên koda {{ProductName}} parçe bikin.",
+    "button_label": "Daxistina Doza Belaş"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Çavkanî API",
+      "button_text_2": "Nimûneyên Kodê",
+      "button_text_3": "Demos Bijî",
+      "button_text_4": "Pricing"
+    }
+  },
+  "about": {
+    "title": "Derbarê {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) pirtûkxane çareseriyek hêsan pêşkêşî dike ku bi ewlehî di navbera cûrbecûr formên belgeyan de wekî PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, wêne û gelekên din di nav sepanên {{ProductName}} de. Bi lê zêdekirina tenê çend rêzikên kodê, çend operasyonên belgeyê yên wekî veguheztin, rakirin, zivirandin, guheztin, derxistin an guheztina arastekirina rûpelan di nav belgeyan de pêk bînin. Belgeyên ku API-ya yekbûyî di heman demê de pêşdîtina rûpelên belgeyê wekî wêneyek jî piştgirî dike da ku struktur, formatkirin û naverokê li ser rûpelê analîz bike.",
+    "h2": "GroupDocs.Merger API ji bo çareseriyên pargîdanî bijarek rast e ku hewceyê taybetmendiyên dabeşkirina pelan e. Van API-an li ser hemî pergalên xebitandinê û platformên sereke, tevî {{Runtime}}, baş têne piştgirî kirin."
+  },
+  "steps": {
+    "title_left": "Di {{ProductName}} de Rûpelên Pelê {{EXT}} parçe bikin",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ji pêşdebiranên {{ProgLang}} re hêsan dike ku pelek yek {{EXT}} li çend pelên encam de bi cîh bikin. çend gavên hêsan.",
+      "step_1": "**SplitOptions** bi formata rêça pelên derketinê dest pê bikin.",
+      "step_2": "Mînaka nû ya **Merger** biafirînin û rêça belgeya çavkaniyê wekî pîvanek çêker derbas bikin.",
+      "step_3": "Gazî **Split** bikin û hêmanên **SplitOptions** derbas bikin da ku belgeyên encam hilînin."
+    },
+    "title_right": "Pêdiviyên Sîstemê",
+    "content_right": {
+      "description": "{{ProductFullName}} API li ser hemî platform û pergalên xebitandinê yên sereke têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, ji kerema xwe pê ewle bibin ku we şertên jêrîn li ser pergala we hatine saz kirin.",
+      "step_1": "Pergalên Xebatê: Microsoft Windows, Linux, MacOS",
+      "step_2": "Jîngehên Pêşketinê: {{DevEnv}}",
+      "step_3": "Çarçoveyên",
+      "step_4": "Guhertoya herî dawî ya {{ProductFullName}} ji [{{RepoName}}]({{RepoUrl}}) dakêşîne"
+    },
+    "title_code": "Meriv çawa pelên {{EXT}} bi karanîna koda nimûneya {{ProgLang}} dabeş dike",
+    "code": {
+      "load_comment": "Pelê {{EXT}} bi karanîna GroupDocs.Merger API-ê veqetînin",
+      "opt_comment": "Dersa SplitOptions bi formata riya pelên derketinê dest pê bikin",
+      "ini_comment": "Bi belgeya têketina {{EXT}} Yekbûnek yekser",
+      "run_comment": "Gazî rêbaza Split bikin û tişta SplitOptions derbas bikin da ku belgeyên encam hilînin"
+    }
+  },
+  "demos": {
+    "title": "Demoyên Zindî - Pelê Serhêl ji hev veqetînin {{EXT}}",
+    "h1": "Bi serdana malpera [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}) niha pelê {{EXT}} veqetînin.",
+    "h2": "Demoya zindî xwedî feydeyên jêrîn e."
+  },
+  "more_formats": {
+    "title": "Parçekirina Pelê Formên Din",
+    "content": "{{ProductName}} belgeyên API-ê ji bo formatên pelan û wêneyan yek dibin û vediqetînin. Wekî ku li jêr hatî destnîşan kirin, hin formatên pelê yên populer parçe bikin."
+  }
+}

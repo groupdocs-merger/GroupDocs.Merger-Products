@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Çareseriya Yekbûn û Parçekirina Belgeyê | Li ser API-yên Premise & Serlêdana Belaş",
+    "description": "MS Office, OpenDocument, wêneyên PDF û Formên Pelê yên din bi karanîna On Premise Solution bikar bînin an jî Serlêdana Belgeya Serhêl Merger & Splitter bikar bînin."
+  },
+  "header": {
+    "title": "Çareseriya Yekbûn û Parçekirina Belgeyên",
+    "description": "Gelek belgeyan bi hêsanî tevlihev bikin an Microsoft Office, OpenOffice, PDF û belgeyên din di rûpelan de parçe bikin."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Merger High Code APIs Include",
+      "label": "Hemî API-yên Koda Bilind bibînin",
+      "net": {
+        "content": "Li ser API-yên Premise-yê ku dikarin ji we re bibin alîkar ku hûn taybetmendiya bi lez û bez perçebûn û hevgirtinê ji bo gelek belgeyan di serîlêdanên xwe yên bingehîn .NET de bicîh bikin."
+      },
+      "java": {
+        "content": "API-yên Java-ya xwecihî ku zû zû gelek belgeyan bi hev re bikin yek an jî her belgeyek di nav serîlêdanên xweya Java-yê de li rûpelan dabeş bikin."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Merger Low Code APIs Include",
+      "label": "Hemî API-yên Code Low-ê bibînin",
+      "curl": {
+        "content": "Fermanên cURL-ê yên hêsan ên ji bo yekkirina belgeya RESTful Cloud API-ê ku belgeyan li nav cûrbecûr cûrbecûr formatên belgeyên populer ên piştgirî didin hev û dabeş dike."
+      },
+      "net": {
+        "content": "Cloud SDK ji bo Microsoft .NET ku ji bernamenûsan re dibe alîkar ku ji bo gelek belgeyan taybetmendiya bilez a yekbûn û dabeşkirinê di serîlêdanên xwe yên .NET-ê de bicîh bikin."
+      },
+      "java": {
+        "content": "Gelek belgeyan li hev bikin yek, her belgeyek li ser piran parçe bikin, ji nû ve rêz bikin, biguhezînin an rêgeziya rûpelê di serîlêdanên Java-ya xwe de biguhezînin."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger No Code Apps Include",
+      "label": "Hemî Serlêdanên No Kodê bibînin",
+      "total": {
+        "content": "Serlêdana meya serhêl a belaş biceribîne ku bêyî ku ji geroka xweya webê ya bijare derkeve, zêdetirî 30 celeb pelan bi hev ve girêbide."
+      },
+      "docx": {
+        "content": "Gelek pelên DOCX-ê bi hev re bikin ku belgeyek yekane çêbikin."
+      },
+      "pdf": {
+        "content": "Gelek pelên PDF-ê bihev bikin da ku yek belgeyek rasterast ji geroka webê biafirînin."
+      }
+    }
+  }
+}

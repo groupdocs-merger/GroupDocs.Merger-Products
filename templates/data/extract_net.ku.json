@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Di {{ProgLang}} de {{EXT}} Rûpelan derxe",
+    "description": "Bi lez rûpelan ji pelek {{EXT}} di {{ProgLang}} de derxînin. Belgeya nû ya ku rûpelên hilbijartî vedihewîne bi karanîna API-ya yekbûna belgeyan hilînin."
+  },
+  "header": {
+    "title": "Rûpelên {{EXT}} Di {{ProgLang}} de derxe",
+    "description": "Rûpelên {{EXT}} bi çend rêzikên koda {{ProductName}} derxe.",
+    "button_label": "Daxistina Doza Belaş"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Çavkanî API",
+      "button_text_2": "Nimûneyên Kodê",
+      "button_text_3": "Demos Bijî",
+      "button_text_4": "Pricing"
+    }
+  },
+  "about": {
+    "title": "Derbarê {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) çareseriyek hêsan pêşkêşî dike ku bi ewlehî di navbera cûrbecûr formên belgeyan de wekî PDF, Microsoft Office (Word, Excel, PowerPoint veqete) , OneNote), OpenDocument, HTML, wêne û gelekên din di nav sepanên {{ProductName}} de. Bi lê zêdekirina tenê çend rêzikên kodê, çend operasyonên belgeyê yên wekî veguheztin, rakirin, zivirandin, guheztin, derxistin an guheztina arastekirina rûpelan di nav belgeyan de pêk bînin. Belgeyên ku API-ya yekbûyî di heman demê de pêşdîtina rûpelên belgeyê wekî wêneyek jî piştgirî dike da ku struktur, formatkirin û naverokê li ser rûpelê analîz bike.",
+    "h2": "GroupDocs.Merger API ji bo çareseriyên pargîdanî bijarek rast e ku hewceyê taybetmendiyên derxistina pelê pelê ye. Van API-an li ser hemî pergalên xebitandinê û platformên sereke, tevî {{Runtime}}, baş têne piştgirî kirin."
+  },
+  "steps": {
+    "title_left": "Di {{ProductName}} de {{EXT}} Rûpelên Pelê derxe",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ji pêşdebirên {{ProgLang}} re hêsan dike ku rûpelên xwestinê ji pelek {{EXT}} derxînin û wekî hilînin. pelek nû ku rûpelên hilbijartî vedihewîne bi pêkanîna çend gavên hêsan.",
+      "step_1": "**ExtractOptions** bi hejmarên rûpelê ku divê di belgeya encam de xuya bibin dest pê bikin.",
+      "step_2": "Mînaka nû ya **Merger** biafirînin û rêça belgeya çavkaniyê wekî pîvanek çêker derbas bikin.",
+      "step_3": "Gazî **ExtractPages** bikin û hêmana **ExtractOptions** derbas bikin.",
+      "step_4": "Gazî **Save** bikin û riya pelê diyar bikin da ku belgeya encam tomar bike."
+    },
+    "title_right": "Pêdiviyên Sîstemê",
+    "content_right": {
+      "description": "{{ProductFullName}} API li ser hemî platform û pergalên xebitandinê yên sereke têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, ji kerema xwe pê ewle bibin ku we şertên jêrîn li ser pergala we hatine saz kirin.",
+      "step_1": "Pergalên Xebatê: Microsoft Windows, Linux, MacOS",
+      "step_2": "Jîngehên Pêşketinê: {{DevEnv}}",
+      "step_3": "Çarçoveyên",
+      "step_4": "Guhertoya herî dawî ya {{ProductFullName}} ji [{{RepoName}}]({{RepoUrl}}) dakêşîne"
+    },
+    "title_code": "Meriv çawa bi koda nimûneya {{ProgLang}} pelên {{EXT}} derxe",
+    "code": {
+      "load_comment": "Rûpelên pelê yên {{EXT}} bi kar tînin GroupDocs.Merger API derxînin",
+      "opt_comment": "Dersa ExtractOptions bi hejmarên rûpelên hilbijartî bidin destpêkirin",
+      "ini_comment": "Bi belgeya têketina {{EXT}} Yekbûnek yekser",
+      "run_comment": "Gazî rêbaza ExtractPages bikin û pêvekê ExtractOptions jê re derbas bikin",
+      "save_comment": "Banga Rêbaza Save bikin da ku belgeya derketinê bi rûpelên hatî derxistin hilîne"
+    }
+  },
+  "demos": {
+    "title": "Demokên Zindî - Rûpelên Serhêl ên {{EXT}} derxînin",
+    "h1": "Bi serdana malpera [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/{{ext}}) niha rûpelên pelê yên {{EXT}} derxînin.",
+    "h2": "Demoya zindî xwedî feydeyên jêrîn e."
+  },
+  "more_formats": {
+    "title": "Rûpelên Ji Formên Belgeya Din derxînin",
+    "content": "{{ProductName}} belgeyên API-ê ji bo formatên pelan û wêneyan yek dibin û vediqetînin. Wekî ku li jêr hatî destnîşan kirin hin formatên pelê yên populer derxînin."
+  }
+}

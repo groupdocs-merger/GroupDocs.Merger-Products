@@ -1,5 +1,5 @@
 dimensions: 
 - alias: lang
-  values: [is] 
+  values: [ku] 
 ##  values: [en, ru] ## UNCOMMENT FOR TESTING
 ##  values: [en, af, am, ar, bg, ca, cs, da, de, el, es, et, fa, fi, fr, ga, hi, hr, hu, hy, id, is, it, ja, ka, kk, ko, ku, lt, lv, ms, nl, pl, pt, ro, ru, sk, sl, sv, th, tr, uk, ur, vi, zh]

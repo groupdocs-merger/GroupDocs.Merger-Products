@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Tevlî pelên {{EXT}} bibin bi navgîniya Java & J2SE Documents Merger API",
+    "description": "Tevlî gelek pelên {{EXT}} li Java-yê bibin bi karanîna API-ya yekkirina belgeyan bi hemî dane, şêwaz û şeklê wekî belgeyên çavkanî."
+  },
+  "header": {
+    "title": "Tevlî pelên {{EXT}} Di {{ProgLang}} de bibin",
+    "description": "Bi çend rêzikên koda {{ProductName}} beşdarî {{EXT}} bibin.",
+    "button_label": "Daxistina Doza Belaş"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Çavkanî API",
+      "button_text_2": "Nimûneyên Kodê",
+      "button_text_3": "Demos Bijî",
+      "button_text_4": "Pricing"
+    }
+  },
+  "about": {
+    "title": "Derbarê {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) çareseriyek hêsan peyda dike ji bo tevlêbûna gelek PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, wêne û gelek belgeyên din di pelek yekane de di nav sepanên {{ProductName}} de. GroupDocs.Merger dê ji we re gelek hewldan xilas bike, ji ber ku hûn destûr in ku hûn beşdarî belgeyên {{EXT}} bibin - ne hewce ye ku nermalava sêyemîn, serîlêdanên sermaseyê an pêvekan saz bikin. Naha ne hewce ye ku hûn wextê xwe winda bikin û bi destan tevlê pelan bibin! Mîsyona GroupDocs ev e ku kalîteya çêtirîn peyda bike û karûbarên pêvajoyên belgeyê hêsan bike.",
+    "h2": "GroupDocs.Merger API ji bo çareseriyên pargîdanî bijarek rast e ku hewceyê taybetmendiyên tevlîbûna pelan e. Van API-an li ser hemî pergalên xebitandinê û platformên sereke, tevî {{Runtime}}, baş têne piştgirî kirin."
+  },
+  "steps": {
+    "title_left": "Tevlî Gelek {{EXT}} Pelên di {{ProductName}} de bibin",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) ji pêşdebirên Java re hêsan dike ku bi pêkanîna çend gavên hêsan tevlî gelek pelên {{EXT}} bibin.",
+      "step_1": "Nimûneyek **Merger** biafirînin û riya belgeya çavkaniyê wekî pîvanek çêker derbas bikin.",
+      "step_2": "Gazî **Join** ji pola **Merger** bikin û riya belgeya çavkaniyê ya duyemîn derbas bikin.",
+      "step_3": "Ji pola **Save** ya **Merger** re telefon bikin da ku belgeya yekbûyî hilînin."
+    },
+    "title_right": "Pêdiviyên Sîstemê",
+    "content_right": {
+      "description": "{{ProductFullName}} API li ser hemî platform û pergalên xebitandinê yên sereke têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, ji kerema xwe pê ewle bibin ku we şertên jêrîn li ser pergala we hatine saz kirin.",
+      "step_1": "Pergalên Xebatê: Microsoft Windows, Linux, MacOS",
+      "step_2": "Jîngehên Pêşketinê: {{DevEnv}}",
+      "step_3": "Çarçoveyên",
+      "step_4": "Guhertoya herî dawî ya {{ProductFullName}} ji [{{RepoName}}]({{RepoUrl}}) dakêşîne"
+    },
+    "title_code": "Meriv çawa bi koda nimûneya {{ProgLang}} beşdarî pelên {{EXT}} dibe",
+    "code": {
+      "load_comment": "Tevlî pelên {{EXT}} bibin bi karanîna GroupDocs.Merger ji bo Java API",
+      "ini_comment": "Bi belgeya têketina {{EXT}} Yekbûnek yekser",
+      "run_comment": "Rêbaza tevlêbûnê ya mînaka pola Mergerê bang bikin û riya belgeya çavkaniya duyemîn derbas bikin",
+      "save_comment": "Rêbaza hilanînê ya mînaka pola Mergerê bang bikin da ku belgeya yekbûyî hilînin"
+    }
+  },
+  "demos": {
+    "title": "Demosên Zindî - Serlêdana Serhêl ji bo Tevlêbûna Belgeyan",
+    "h1": "Bi seredana malpera [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}) aniha beşdarî zêdetirî yek pelên {{EXT}} bibin.",
+    "h2": "Demoya zindî xwedî feydeyên jêrîn e."
+  },
+  "more_formats": {
+    "title": "Tevlî Formên Belgeya Din",
+    "content": "{{ProductName}} ji bo formatên pelan û wêneyan API-ya yekbûnê belge dike. Wekî ku li jêr hatî destnîşan kirin, hin formên belgeyên populer bi hev re bibin."
+  }
+}
