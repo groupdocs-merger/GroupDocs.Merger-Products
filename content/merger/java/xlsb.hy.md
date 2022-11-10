@@ -61,7 +61,7 @@ about:
     content: |
         [GroupDocs.Merger for Java](/hy/merger/java/) տրամադրում է հարմար լուծում բազմաթիվ PDF-ների, Microsoft Office-ի (Word, Excel, PowerPoint, OneNote), OpenDocument-ի, HTML-ի, պատկերների և շատ այլ փաստաթղթեր մեկ ֆայլի մեջ Java հավելվածներում: GroupDocs.Merger-ը ձեզ շատ ջանք կխնայի, քանի որ ձեզ թույլատրվում է միավորել XLSB փաստաթղթերը. կարիք չկա տեղադրել որևէ երրորդ կողմի ծրագրակազմ, աշխատասեղանի հավելվածներ կամ պլագիններ: Այժմ ավելորդ է վատնել ձեր ժամանակը և միաձուլել ֆայլերը ձեռքով: GroupDocs-ի առաքելությունն է ապահովել լավագույն որակը և պարզեցնել փաստաթղթերի մշակման աշխատանքային հոսքերը:
         
-        GroupDocs.Merger API-ն ճիշտ ընտրություն է կորպորատիվ լուծումների համար, որոնք պահանջում են ֆայլերի միաձուլման հնարավորություններ: Այս API-ները լավ աջակցվում են բոլոր հիմնական օպերացիոն համակարգերում և հարթակներում, ներառյալ {{ Runtime}}:
+        GroupDocs.Merger API-ն ճիշտ ընտրություն է կորպորատիվ լուծումների համար, որոնք պահանջում են ֆայլերի միաձուլման հնարավորություններ: Այս API-ները լավ աջակցվում են բոլոր հիմնական օպերացիոն համակարգերում և հարթակներում, ներառյալ {{Runtime}}:
 
 ############################# Steps ############################
 steps:
@@ -81,7 +81,7 @@ steps:
         * Օպերացիոն համակարգեր՝ Microsoft Windows, Linux, MacOS
         * Զարգացման միջավայրեր՝ NetBeans, IntelliJ IDEA, Eclipse
         * Շրջանակներ: J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10
-        * Ներբեռնեք GroupDocs.Merger for Java-ի վերջին տարբերակը [Maven]-ից (https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
+        * Ներբեռնեք GroupDocs.Merger for Java-ի վերջին տարբերակը [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
          
     code: |
      {{% merger/additional-styles %}}

@@ -61,7 +61,7 @@ about:
     content: |
         [GroupDocs.Merger for .NET](/hy/merger/net/) ապահովում է հարմար լուծում մի քանի PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, պատկերներ և շատ այլ փաստաթղթեր մեկ ֆայլի մեջ .NET հավելվածներում: GroupDocs.Merger-ը կխնայի ձեզ շատ ջանք, քանի որ ձեզ թույլատրվում է համատեղել ODT փաստաթղթերը. կարիք չկա տեղադրել որևէ երրորդ կողմի ծրագրակազմ, աշխատասեղանի հավելվածներ կամ պլագիններ: Այժմ ավելորդ է ձեր ժամանակը վատնել և ֆայլերը ձեռքով համատեղել: GroupDocs-ի առաքելությունն է ապահովել լավագույն որակը և պարզեցնել փաստաթղթերի մշակման աշխատանքային հոսքերը:
         
-        GroupDocs.Merger API-ն ճիշտ ընտրություն է կորպորատիվ լուծումների համար, որոնք պահանջում են ֆայլերի համադրման հնարավորություններ: Այս API-ները լավ աջակցվում են բոլոր հիմնական օպերացիոն համակարգերում և հարթակներում, ներառյալ {{ Runtime}}:
+        GroupDocs.Merger API-ն ճիշտ ընտրություն է կորպորատիվ լուծումների համար, որոնք պահանջում են ֆայլերի համադրման հնարավորություններ: Այս API-ները լավ աջակցվում են բոլոր հիմնական օպերացիոն համակարգերում և հարթակներում, ներառյալ {{Runtime}}:
 
 ############################# Steps ############################
 steps:
@@ -81,7 +81,7 @@ steps:
         * Օպերացիոն համակարգեր՝ Microsoft Windows, Linux, MacOS
         * Զարգացման միջավայրեր՝ Visual Studio, Xamarin, MonoDevelop
         * Շրջանակներ: .NET Framework, .NET Standard, .NET Core, Mono
-        * Ներբեռնեք GroupDocs.Merger for .NET-ի վերջին տարբերակը [NuGet]-ից (https://www.nuget.org/packages/groupdocs.merger)
+        * Ներբեռնեք GroupDocs.Merger for .NET-ի վերջին տարբերակը [NuGet](https://www.nuget.org/packages/groupdocs.merger)
          
     code: |
      {{% merger/additional-styles %}}
