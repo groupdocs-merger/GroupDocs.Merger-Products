@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Glac páirt i {{EXT}} Comhaid i {{ProgLang}} | {{EXT}} Cumasc",
+    "description": "Ceangail an iliomad comhad {{EXT}} isteach i gcomhad amháin trí úsáid a bhaint as {{ProgLang}} {{ProductName}} doiciméad cumaisc API. Cláraigh leathanaigh ar leith nó raonta leathanaigh ó dhoiciméid éagsúla go doiciméad amháin."
+  },
+  "header": {
+    "title": "Glac páirt i {{EXT}} Comhaid in {{ProgLang}}",
+    "description": "Ceangail {{EXT}} le cúpla líne de chód {{ProductName}}.",
+    "button_label": "Íoslódáil Triail Saor in Aisce"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Tagairt API",
+      "button_text_2": "Samplaí de Chóid",
+      "button_text_3": "Taispeántas beo",
+      "button_text_4": "Praghsáil"
+    }
+  },
+  "about": {
+    "title": "Maidir le {{ProductFullName}} API",
+    "h1": "Soláthraíonn [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) réiteach áisiúil chun comhaid PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, íomhánna agus go leor doiciméad eile isteach i gcomhad amháin laistigh d'fheidhmchláir {{ProductName}}. Sábhálfaidh GroupDocs.Merger go leor iarrachta duit, mar tá cead agat páirt a ghlacadh i ndoiciméid {{EXT}} - ní gá aon bhogearraí tríú páirtí, feidhmchláir deisce nó forlíontáin a shuiteáil. Anois ní gá do chuid ama a chur amú agus comhaid a chomhcheangal de láimh! Is é misean GroupDocs an cháilíocht is fearr a sholáthar agus sreafaí oibre próiseála doiciméad a shimpliú.",
+    "h2": "Is rogha cheart é GroupDocs.Merger API maidir le réitigh chorparáideacha a bhfuil gnéithe de chomhcheangal ag teastáil uathu. Tugtar tacaíocht mhaith do na APIanna seo ar gach mórchóras agus ardán oibriúcháin lena n-áirítear {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Conas Comhad Iolrach {{EXT}} a Chuimsiú",
+    "content_left": {
+      "description": "Déanann [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) é éasca d'fhorbróirí {{ProductName}} páirt a ghlacadh i dhá chomhad {{EXT}} nó níos mó laistigh dá bhfeidhmchlár trí a roinnt céimeanna éasca.",
+      "step_1": "Cruthaigh sampla nua **Merger** agus pas a fháil ar chonair an doiciméid foinse mar pharaiméadar cruthaitheoir.",
+      "step_2": "Glaoigh ar **Join** den rang **Merger** agus pasáil conair an dara doiciméad foinse.",
+      "step_3": "Glaoigh ar **Save** de rang **Merger** chun an doiciméad cumaiscthe a shábháil."
+    },
+    "title_right": "Riachtanais Chórais",
+    "content_right": {
+      "description": "{{ProductFullName}} Tacaítear le API ar gach mór-ardán agus córas oibriúcháin. Sula ndéanann tú an cód thíos, déan cinnte go bhfuil na réamhriachtanais seo a leanas suiteáilte ar do chóras.",
+      "step_1": "Córais Oibriúcháin: Microsoft Windows, Linux, MacOS",
+      "step_2": "Timpeallachtaí Forbartha: {{DevEnv}}",
+      "step_3": "Creataí",
+      "step_4": "Íoslódáil an leagan is déanaí de {{ProductFullName}} ó [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Conas páirt a ghlacadh i gcomhaid {{EXT}} trí úsáid a bhaint as {{ProgLang}} cód samplach",
+    "code": {
+      "load_comment": "Glac páirt i gcomhaid {{EXT}} trí úsáid a bhaint as GroupDocs.Merger API",
+      "ini_comment": "Cuir Cumasc leis an doiciméad ionchuir {{EXT}}",
+      "run_comment": "Glaoigh ar mhodh an rang Cumaisc agus pas a fháil ar chonair an dara doiciméad foinse",
+      "save_comment": "Glaoigh ar an modh Sábháil mar shampla rang Cumaisc chun doiciméad cumaisc a shábháil"
+    }
+  },
+  "demos": {
+    "title": "Taispeántais Beo - Aip Ar Líne chun Doiciméid a Chomhcheangal",
+    "h1": "Glac páirt i níos mó ná comhad {{EXT}} amháin faoi láthair trí chuairt a thabhairt ar [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "Tá na buntáistí seo a leanas ag an taispeántas beo."
+  },
+  "more_formats": {
+    "title": "Ceangal le Formáidí Doiciméad Eile",
+    "content": "API cumasc doiciméad {{ProductName}} le haghaidh formáidí comhaid agus íomhánna. Cuir le chéile cuid de na formáidí doiciméad coitianta mar a luaitear thíos."
+  }
+}

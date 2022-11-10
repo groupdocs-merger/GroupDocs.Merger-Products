@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Scoilt {{EXT}} ina Ilchomhaid i {{ProgLang}}",
+    "description": "Scoilt comhad {{EXT}} amháin i roinnt comhad bunaithe ar líon na leathanach, eatraimh leathanaigh, leathanaigh chothroma nó corr-leathanaigh ag baint úsáide as API cumaisc doiciméad."
+  },
+  "header": {
+    "title": "{{EXT}} Scoilteoir i {{ProgLang}}",
+    "description": "Scoilt {{EXT}} le cúpla líne de chód {{ProductName}}.",
+    "button_label": "Íoslódáil Triail Saor in Aisce"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Tagairt API",
+      "button_text_2": "Samplaí de Chóid",
+      "button_text_3": "Taispeántas beo",
+      "button_text_4": "Praghsáil"
+    }
+  },
+  "about": {
+    "title": "Maidir le {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) leabharlann a thairgeann réiteach simplí chun raon leathan formáidí doiciméad a chumasc agus a roinnt go sábháilte lena n-áirítear PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, íomhánna agus go leor eile laistigh d’fheidhmchláir {{ProductName}}. Trí ach cúpla líne den chód a chur leis, déan roinnt oibríochtaí doiciméad ar nós bogadh, bain, rothlú, babhtáil, eastóscadh nó athraigh treoshuíomh na leathanach laistigh de na doiciméid. Tacaíonn an API a chumasc doiciméid freisin le leathanaigh doiciméad a réamhamharc mar íomhá chun struchtúr, formáidiú agus ábhar an doiciméid a anailísiú.",
+    "h2": "Is rogha cheart é GroupDocs.Merger API do réitigh chorparáideacha a dteastaíonn gnéithe scoilteadh comhad uathu. Tugtar tacaíocht mhaith do na APIanna seo ar gach mórchóras agus ardán oibriúcháin lena n-áirítear {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Scoilt {{EXT}} Comhad De réir Leathanaigh i {{ProductName}}",
+    "content_left": {
+      "description": "Déanann [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) é éasca d'fhorbróirí {{ProgLang}} comhad amháin {{EXT}} a roinnt ina chomhaid iarmhartacha éagsúla trí chomhad iarmhartach a chur i bhfeidhm roinnt céimeanna éasca.",
+      "step_1": "Tosaigh **SplitOptions** le formáid conair na gcomhad aschuir.",
+      "step_2": "Cruthaigh sampla nua **Merger** agus pas a fháil ar chonair an doiciméid foinse mar pharaiméadar cruthaitheoir.",
+      "step_3": "Glaoigh ar **split** agus pasáil **SplitOptions** object chun na doiciméid dá bharr a shábháil."
+    },
+    "title_right": "Riachtanais Chórais",
+    "content_right": {
+      "description": "{{ProductFullName}} Tacaítear le API ar gach mór-ardán agus córas oibriúcháin. Sula ndéanann tú an cód thíos, déan cinnte go bhfuil na réamhriachtanais seo a leanas suiteáilte ar do chóras.",
+      "step_1": "Córais Oibriúcháin: Microsoft Windows, Linux, MacOS",
+      "step_2": "Timpeallachtaí Forbartha: {{DevEnv}}",
+      "step_3": "Creataí",
+      "step_4": "Íoslódáil an leagan is déanaí de {{ProductFullName}} ó [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Conas comhad {{EXT}} a scoilt trí úsáid a bhaint as {{ProgLang}} cód samplach",
+    "code": {
+      "load_comment": "Scoilt {{EXT}} comhad ag baint úsáide as GroupDocs.Merger do Java API",
+      "opt_comment": "Tús a chur le rang SplitOptions le formáid cosáin comhaid aschuir",
+      "ini_comment": "Cuir Cumasc leis an doiciméad ionchuir {{EXT}}",
+      "run_comment": "Cuir glaoch ar an modh scoilte agus pas a fháil ó SplitOptions oibiachtúil chun na doiciméid iarmhartacha a shábháil"
+    }
+  },
+  "demos": {
+    "title": "Taispeántais Bheo - Scoilt {{EXT}} Comhad Ar Líne",
+    "h1": "Scoilt {{EXT}} comhad faoi láthair trí chuairt a thabhairt ar [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}).",
+    "h2": "Tá na buntáistí seo a leanas ag an taispeántas beo."
+  },
+  "more_formats": {
+    "title": "Comhad Scoilte i bhFormáidí Eile",
+    "content": "{{ProductName}} API cumasc & scoilte doiciméad le haghaidh formáidí comhaid agus íomhánna. Roinn roinnt de na formáidí comhaid coitianta mar a luaitear thíos."
+  }
+}

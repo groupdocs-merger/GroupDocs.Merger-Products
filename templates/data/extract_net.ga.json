@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Bain {{EXT}} Leathanaigh as {{ProgLang}}",
+    "description": "Bain go tapa leathanaigh as comhad {{EXT}} in {{ProgLang}}. Sábháil an doiciméad nua ina bhfuil na leathanaigh roghnaithe ag baint úsáide as an API cumaisc doiciméid."
+  },
+  "header": {
+    "title": "Bain {{EXT}} Leathanaigh I {{ProgLang}}",
+    "description": "Sliocht {{EXT}} Leathanaigh le cúpla líne de chód {{ProductName}}.",
+    "button_label": "Íoslódáil Triail Saor in Aisce"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Tagairt API",
+      "button_text_2": "Samplaí de Chóid",
+      "button_text_3": "Taispeántas beo",
+      "button_text_4": "Praghsáil"
+    }
+  },
+  "about": {
+    "title": "Maidir le {{ProductFullName}} API",
+    "h1": "Tairgeann [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) réiteach simplí chun raon leathan formáidí doiciméad a chumasc agus a roinnt go sábháilte lena n-áirítear PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, íomhánna agus go leor eile laistigh d’fheidhmchláir {{ProductName}}. Trí ach cúpla líne den chód a chur leis, déan roinnt oibríochtaí doiciméad ar nós bogadh, bain, rothlú, babhtáil, eastóscadh nó athraigh treoshuíomh na leathanach laistigh de na doiciméid. Tacaíonn an API a chumasc doiciméid freisin le leathanaigh doiciméad a réamhamharc mar íomhá chun struchtúr, formáidiú agus ábhar an doiciméid a anailísiú.",
+    "h2": "Is rogha cheart é GroupDocs.Merger API le haghaidh réitigh chorparáideacha a dteastaíonn gnéithe asbhainte leathanaigh comhad uathu. Tugtar tacaíocht mhaith do na APIanna seo ar gach mórchóras agus ardán oibriúcháin lena n-áirítear {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Bain {{EXT}} Leathanaigh Chomhad as {{ProductName}}",
+    "content_left": {
+      "description": "Déanann [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) é éasca d'fhorbróirí {{ProgLang}} na leathanaigh atá ag teastáil a bhaint as comhad {{EXT}} agus é a shábháil mar comhad nua ina bhfuil na leathanaigh roghnaithe trí roinnt céimeanna éasca a chur i bhfeidhm.",
+      "step_1": "Cuir tús le **ExtractOptions** le huimhreacha na leathanach ba chóir a bheith sa doiciméad dá bharr.",
+      "step_2": "Cruthaigh sampla nua **Merger** agus pas a fháil ar chonair an doiciméid foinse mar pharaiméadar cruthaitheoir.",
+      "step_3": "Glaoigh ar **ExtractPages** agus pas **ExtractOptions** réad.",
+      "step_4": "Glaoigh ar **Save** agus sonraigh conair an chomhaid chun an doiciméad iarmhartach a shábháil."
+    },
+    "title_right": "Riachtanais Chórais",
+    "content_right": {
+      "description": "{{ProductFullName}} Tacaítear le API ar gach mór-ardán agus córas oibriúcháin. Sula ndéanann tú an cód thíos, déan cinnte go bhfuil na réamhriachtanais seo a leanas suiteáilte ar do chóras.",
+      "step_1": "Córais Oibriúcháin: Microsoft Windows, Linux, MacOS",
+      "step_2": "Timpeallachtaí Forbartha: {{DevEnv}}",
+      "step_3": "Creataí",
+      "step_4": "Íoslódáil an leagan is déanaí de {{ProductFullName}} ó [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Conas leathanaigh comhaid {{EXT}} a bhaint as trí úsáid a bhaint as cód samplach {{ProgLang}}",
+    "code": {
+      "load_comment": "Bain leathanaigh comhad {{EXT}} ag úsáid GroupDocs.Merger API",
+      "opt_comment": "Tosaigh rang ExtractOptions le huimhreacha roghnaithe na leathanach",
+      "ini_comment": "Cuir Cumasc leis an doiciméad ionchuir {{EXT}}",
+      "run_comment": "Glaoigh ar an modh ExtractPages agus pas ExtractOptions agóid dó",
+      "save_comment": "Call Sábháil modh a shábháil ar an doiciméad aschuir le leathanaigh bhaintear"
+    }
+  },
+  "demos": {
+    "title": "Taispeántais Bheo - Sliocht {{EXT}} Leathanaigh Ar Líne",
+    "h1": "Bain {{EXT}} leathanaigh comhaid faoi láthair trí chuairt a thabhairt ar [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/extract-pages/{{ext}}) láithreán gréasáin.",
+    "h2": "Tá na buntáistí seo a leanas ag an taispeántas beo."
+  },
+  "more_formats": {
+    "title": "Sliocht Leathanaigh As Formáidí Doiciméad Eile",
+    "content": "{{ProductName}} API cumasc & scoilte doiciméad le haghaidh formáidí comhaid agus íomhánna. Sliocht roinnt de na formáidí comhaid coitianta mar a luaitear thíos."
+  }
+}
