@@ -35,7 +35,7 @@
       "step_1": "Օպերացիոն համակարգեր՝ Microsoft Windows, Linux, MacOS",
       "step_2": "Զարգացման միջավայրեր՝ {{DevEnv}}",
       "step_3": "Շրջանակներ",
-      "step_4": "Ներբեռնեք {{ProductFullName}}-ի վերջին տարբերակը [{{RepoName}}]-ից ({{RepoUrl}})"
+      "step_4": "Ներբեռնեք {{ProductFullName}}-ի վերջին տարբերակը [{{RepoName}}]({{RepoUrl}})"
     },
     "title_code": "Ինչպես միաձուլել {{EXT}} ֆայլեր՝ օգտագործելով {{ProgLang}} օրինակ կոդը",
     "code": {
