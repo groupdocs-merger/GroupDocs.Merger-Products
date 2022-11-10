@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "API Penggabungan Dokumen Java | gabung & alih keluar Word Excel PDF XPS EPUB",
+    "description": "Dokumen menggabungkan API untuk Java. Gabung, pisahkan, tukar, susun semula dan padam halaman PDF, Microsoft Word, Excel, pembentangan, format Visio, XPS & EPUB."
+  },
+  "header": {
+    "title": "API Java untuk Menggabungkan & Memisahkan Dokumen",
+    "description": "Bangunkan apl berprestasi tinggi yang boleh menggabungkan, merobek, mengocok, memotong atau memadam halaman, slaid dan gambar rajah semasa dalam perjalanan."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Gambaran keseluruhan",
+      "features": "ciri-ciri",
+      "support": "Sokongan",
+      "livedemo": "Demo Langsung",
+      "pricing": "penentuan harga"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger untuk Java membolehkan anda membangunkan aplikasi perniagaan barisan teratas dengan cepat di Java. Dengan pengekodan yang sedikit, aplikasi Java anda boleh menggabungkan, merobek, mengocok, memotong dan memadam satu halaman atau kumpulan halaman, slaid dan gambar rajah. Operasi penggabungan juga boleh dilakukan pada fail selamat dengan format yang diketahui dan tidak diketahui dengan menggunakan atau mengalih keluar perlindungan kata laluan.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Berikut ialah gambaran keseluruhan GroupDocs.Merger untuk Java:",
+      "left": {
+        "title": "Operasi Dokumen",
+        "content": {
+          "line_1": "Tukar Susunan Halaman",
+          "line_2": "Alih Keluar atau Padam Halaman",
+          "line_3": "Dokumen Split atau Break",
+          "line_4": "Tukar atau kocok mana-mana dua muka surat",
+          "line_5": "Potong halaman tunggal atau berbilang",
+          "line_6": "Sertai berbilang dokumen"
+        }
+      },
+      "right": {
+        "title": "Operasi Keselamatan",
+        "content": {
+          "line_1": "Sediakan keselamatan dokumen",
+          "line_2": "Semak status keselamatan dokumen",
+          "line_3": "Tetapkan kata laluan dokumen",
+          "line_4": "Kemas kini kata laluan dokumen",
+          "line_5": "Alih keluar kata laluan dokumen"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger untuk Java menyokong penggabungan [format fail dokumen](https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Perkataan:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**Satu Nota:** SATU"
+        }
+      },
+      "right": {
+        "title": "OpenDocument & Format Lain",
+        "content": {
+          "line_1": "**Format OpenDocument**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Reka Letak Tetap**: PDF, XPS",
+          "line_3": "**Imej**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Teks**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**Ebook**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger untuk Java menyokong Sistem Operasi, Rangka Kerja & Pengurus Pakej berikut:",
+      "left": {
+        "title": "Sistem operasi",
+        "content": {
+          "line_1": "Desktop Microsoft Windows",
+          "line_2": "Pelayan Microsoft Windows",
+          "line_3": "Linux",
+          "line_4": "MacOS"
+        },
+        "title_2": "Rangka Kerja yang Disokong",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Jawa 10",
+          "line_4": "Java 11 dan ke atas"
+        }
+      },
+      "right": {
+        "title": "Bina Alat Automasi",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Persekitaran Pembangunan",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IDEA IntelliJ",
+          "line_3": "* Gerhana",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger untuk Ciri Java",
+    "feature_1": {
+      "content": "Gabungkan pelbagai halaman, slaid & gambar rajah ke dalam satu fail"
+    },
+    "feature_2": {
+      "content": "Koyak & bahagikan dokumen besar kepada berbilang fail yang lebih kecil"
+    },
+    "feature_3": {
+      "content": "Kocok & susun semula halaman, slaid atau gambar rajah"
+    },
+    "feature_4": {
+      "content": "Tukar & tukar dua muka surat, slaid atau gambar rajah antara satu sama lain dalam dokumen"
+    },
+    "feature_5": {
+      "content": "Potong & pangkas dokumen dengan mengalih keluar halaman, slaid atau gambar rajah tertentu"
+    },
+    "feature_6": {
+      "content": "Padamkan satu atau koleksi halaman, slaid atau gambar rajah"
+    },
+    "feature_7": {
+      "content": "Jahit & gabungkan sejumlah besar dokumen dalam kelompok"
+    },
+    "feature_8": {
+      "content": "Semak secara pemrograman dalam Java jika dokumen dilindungi dengan kata laluan"
+    },
+    "feature_9": {
+      "content": "Tetapkan, tetapkan semula dan alih keluar kata laluan bagi format dokumen yang diketahui dan tidak diketahui"
+    },
+    "feature_10": {
+      "content": "Pisahkan Satu Fail Teks kepada Berbilang dengan Nombor Baris"
+    },
+    "feature_11": {
+      "content": "Dapatkan Perwakilan Imej Halaman Dokumen"
+    },
+    "feature_12": {
+      "content": "Gabungkan Berbilang Dokumen Berbeza Format kepada Satu Fail PDF"
+    },
+    "feature_13": {
+      "content": "Sisipkan Objek OLE ke dalam PDF, Word, Excel, PowerPoint & Format Dokumen Terbuka"
+    },
+    "feature_14": {
+      "content": "Lampirkan Fail secara Program pada Dokumen PDF"
+    },
+    "feature_15": {
+      "content": "Tambah Dokumen pada Rajah melalui Objek OLE"
+    },
+    "feature_16": {
+      "content": "Gabungkan Pelbagai Jenis Dokumen (DOC, XLS, PPT dll) ke dalam Satu Fail PDF"
+    },
+    "feature_17": {
+      "content": "Import Objek OLE dengan mudah ke dalam Jenis Fail Microsoft Word, Excel, Persembahan dan OpenDocument"
+    },
+    "feature_18": {
+      "content": "Tambahkan Dokumen Lain pada Halaman Gambar rajah melalui Objek OLE"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Alih Keluar Halaman Yang Diingini daripada Dokumen",
+      "content": "GroupDocs.Merger for Java API membolehkan anda memilih dan memadam halaman yang tidak diingini daripada dokumen anda."
+    },
+    "feature_2": {
+      "title": "Semak Kata Laluan Format Dokumen Tidak Diketahui",
+      "content": "Walaupun format dokumen tertentu tidak diketahui, GroupDocs.Merger untuk Java membolehkan anda menyemak & mendapatkan kata laluan dokumen, jika tersedia."
+    },
+    "feature_3": {
+      "title": "Sertai Dokumen Dilindungi Kata Laluan dengan Format Diketahui",
+      "content": "GroupDocs.Merger for Java API membolehkan anda mendapatkan senarai dokumen format yang diketahui dan tidak diketahui."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger menawarkan API penggabungan dokumen untuk persekitaran pembangunan popular yang lain",
+    "solution": {
+      "img_alt": "GroupDocs.Merger untuk .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/net/"
+    }
+  }
+}

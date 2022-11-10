@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "API Penggabungan Dokumen C# .NET | Gabungkan & Pisahkan PDF Word Excel EPUB",
+    "description": "API penggabungan dokumen C# .NET untuk menggabungkan, memisahkan, menukar atau mengalih keluar halaman dokumen daripada PDF, Microsoft Word, Excel, pembentangan, Visio dan format imej."
+  },
+  "header": {
+    "title": ".NET API untuk Menggabung & Memisahkan Dokumen",
+    "description": "API untuk Menggabungkan, Memisahkan, Menukar, Memangkas atau Mengalih Keluar Dokumen, Slaid dan Gambar rajah dalam Aplikasi .NET."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Gambaran keseluruhan",
+      "features": "ciri-ciri",
+      "support": "Sokongan",
+      "livedemo": "Demo Langsung",
+      "pricing": "penentuan harga"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger untuk .NET, membantu anda membangunkan aplikasi perniagaan kelas atas dengan pantas dalam C#, ASP.NET dan teknologi .NET yang lain. Hanya beberapa baris kod akan membolehkan aplikasi .NET anda untuk menggabungkan, memisahkan, menyusun semula, menukar, memangkas dan mengalih keluar satu halaman atau koleksi halaman dokumen, slaid, imej atau gambar rajah. Lakukan operasi ini pada fail selamat dengan menetapkan atau mengalih keluar perlindungan kata laluan bagi format fail yang diketahui dan tidak diketahui.",
+      "paragraph_2": "Dengan menggunakan GroupDocs.Merger untuk .NET, anda boleh melakukan penggabungan; pemisahan dan operasi lain yang berkaitan pada dokumen tunggal serta kumpulan dokumen. Jahit fail dari semua format popular, seperti Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook dan format fail imej."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Berikut ialah gambaran keseluruhan GroupDocs.Merger untuk .NET:",
+      "left": {
+        "title": "Operasi Dokumen",
+        "content": {
+          "line_1": "Tukar Susunan Halaman",
+          "line_2": "Alih Keluar atau Padam Halaman",
+          "line_3": "Dokumen Split atau Break",
+          "line_4": "Tukar atau kocok mana-mana dua muka surat",
+          "line_5": "Potong halaman tunggal atau berbilang",
+          "line_6": "Sertai berbilang dokumen"
+        }
+      },
+      "right": {
+        "title": "Operasi Keselamatan",
+        "content": {
+          "line_1": "Sediakan keselamatan dokumen",
+          "line_2": "Semak status keselamatan dokumen",
+          "line_3": "Tetapkan kata laluan dokumen",
+          "line_4": "Kemas kini kata laluan dokumen",
+          "line_5": "Alih keluar kata laluan dokumen"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger untuk .NET menyokong penggabungan [format fail dokumen](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Perkataan:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**Satu Nota:** SATU"
+        }
+      },
+      "right": {
+        "title": "OpenDocument & Format Lain",
+        "content": {
+          "line_1": "**Format OpenDocument**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Reka Letak Tetap**: PDF, XPS",
+          "line_3": "**Imej**: BMP, PNG, TIFF",
+          "line_4": "**Web**: HTML, MHT, MHTML",
+          "line_5": "**Teks**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**Ebook**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger untuk .NET menyokong Sistem Operasi, Rangka Kerja & Pengurus Pakej berikut:",
+      "left": {
+        "title": "Sistem operasi",
+        "content": {
+          "line_1": "Windows Desktop",
+          "line_2": "Pelayan Windows",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Rangka Kerja yang Disokong",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 atau lebih tinggi",
+          "line_2": "Rangka Kerja Mono 1.2 atau lebih tinggi",
+          "line_3": ".Piawai BERSIH 2.0",
+          "line_4": "Teras BERSIH 2.0"
+        }
+      },
+      "right": {
+        "title": "Pengurus Pakej",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Persekitaran Pembangunan",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger untuk Ciri .NET",
+    "feature_1": {
+      "content": "Gabungkan & gabungkan berbilang halaman, slaid & gambar rajah ke dalam satu dokumen"
+    },
+    "feature_2": {
+      "content": "Pisahkan dan pecahkan dokumen besar kepada berbilang fail yang lebih kecil"
+    },
+    "feature_3": {
+      "content": "Susun semula, kocok dan susun semula halaman, slaid atau rajah"
+    },
+    "feature_4": {
+      "content": "Tukar dan tukar dua muka surat, slaid atau gambar rajah antara satu sama lain dalam dokumen"
+    },
+    "feature_5": {
+      "content": "Potong dokumen dengan mengalih keluar halaman, slaid atau gambar rajah tertentu"
+    },
+    "feature_6": {
+      "content": "Alih keluar satu atau koleksi halaman, slaid atau gambar rajah"
+    },
+    "feature_7": {
+      "content": "Mencantumkan sejumlah besar dokumen dalam kelompok"
+    },
+    "feature_8": {
+      "content": "Semak secara atur cara sama ada dokumen dilindungi dengan kata laluan"
+    },
+    "feature_9": {
+      "content": "Tetapkan, tetapkan semula dan alih keluar kata laluan bagi format dokumen yang diketahui dan tidak diketahui"
+    },
+    "feature_10": {
+      "content": "Ambil senarai format fail yang disokong – Format Fail Log Pisah dan Sertai Teks (ERR)."
+    },
+    "feature_11": {
+      "content": "Putar halaman dan tukar orientasi halaman format yang diketahui & tidak diketahui"
+    },
+    "feature_12": {
+      "content": "Gabungkan berbilang fail dengan format berbeza kepada DOC, DOCX & XPS"
+    },
+    "feature_13": {
+      "content": "Membahagikan fail teks besar mengikut nombor baris"
+    },
+    "feature_14": {
+      "content": "Dapatkan perwakilan imej halaman dokumen dan format keluarga rajah"
+    },
+    "feature_15": {
+      "content": "Sertai Imej dengan Warna Latar Belakang untuk Ruang Imej Hitam Kosong"
+    },
+    "feature_16": {
+      "content": "Gabungkan Pelbagai Jenis Dokumen (DOC, XLS, PPT dll) ke dalam Satu Fail PDF"
+    },
+    "feature_17": {
+      "content": "Import Objek OLE dengan mudah ke dalam Jenis Fail Microsoft Word, Excel, Persembahan dan OpenDocument"
+    },
+    "feature_18": {
+      "content": "Tambahkan Dokumen Lain pada Halaman Gambar rajah melalui Objek OLE"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Alih Keluar Halaman Yang Diingini daripada Dokumen",
+      "content": "GroupDocs.Merger untuk API .NET membantu anda memadam halaman yang tidak diingini daripada dokumen anda."
+    },
+    "feature_2": {
+      "title": "Gunakan Transformasi pada Output Diberikan",
+      "content": "Anda boleh melakukan pelbagai transformasi kepada dokumen output yang diberikan menggunakan GroupDocs.Merger untuk .NET API. Pilihan transformasi ini memberi anda kawalan tentang cara anda mempersembahkan output yang diberikan untuk paparan. Transformasi yang tersedia ialah, pilihan putaran halaman, pilihan susunan semula halaman dan penggunaan tera air teks."
+    },
+    "feature_3": {
+      "title": "Semak Kata Laluan Format Dokumen Tidak Diketahui",
+      "content": "GroupDocs.Merger untuk API .NET membolehkan anda menyemak kata laluan dokumen yang formatnya tidak diketahui."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger menawarkan API penggabungan dokumen untuk persekitaran pembangunan popular yang lain",
+    "solution": {
+      "img_alt": "GroupDocs.Merger untuk Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Gabungkan {{EXT}} Fail melalui API Penggabungan Dokumen Java & J2SE",
+    "description": "Gabungkan berbilang fail {{EXT}} dalam Java menggunakan API penggabungan dokumen dengan semua data, gaya dan pemformatan sebagai dokumen sumber."
+  },
+  "header": {
+    "title": "{{EXT}} Penggabungan Dalam {{ProgLang}}",
+    "description": "Gabungkan {{EXT}} dengan beberapa baris kod {{ProductName}}.",
+    "button_label": "Muat turun Percubaan Percuma"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Rujukan API",
+      "button_text_2": "Contoh Kod",
+      "button_text_3": "Demo Langsung",
+      "button_text_4": "penentuan harga"
+    }
+  },
+  "about": {
+    "title": "Mengenai API {{ProductFullName}}.",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) menyediakan penyelesaian yang mudah untuk menggabungkan berbilang PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, imej dan banyak dokumen lain ke dalam satu fail dalam aplikasi {{ProductName}}. GroupDocs.Merger akan menjimatkan banyak usaha anda, kerana anda dibenarkan untuk menggabungkan {{EXT}} dokumen - tidak perlu memasang sebarang perisian pihak ketiga, aplikasi desktop atau pemalam. Kini tidak perlu membuang masa anda dan menggabungkan fail secara manual! Misi GroupDocs adalah untuk menyediakan kualiti terbaik dan memudahkan aliran kerja pemprosesan dokumen.",
+    "h2": "API GroupDocs.Merger ialah pilihan yang tepat untuk penyelesaian korporat yang memerlukan ciri penggabungan fail. API ini disokong dengan baik pada semua sistem pengendalian dan platform utama termasuk {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Gabungkan Berbilang {{EXT}} Fail dalam {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) memudahkan pembangun Java untuk menggabungkan berbilang fail {{EXT}} dengan melaksanakan beberapa langkah mudah.",
+      "step_1": "Buat contoh **Merger** dan lulus laluan dokumen sumber sebagai parameter pembina.",
+      "step_2": "Panggil **Join** kelas **Merger** dan lulus laluan dokumen sumber kedua.",
+      "step_3": "Panggil **Save** kelas **Merger** untuk menyimpan dokumen yang digabungkan."
+    },
+    "title_right": "Keperluan Sistem",
+    "content_right": {
+      "description": "API {{ProductFullName}} disokong pada semua platform dan sistem pengendalian utama. Sebelum melaksanakan kod di bawah, sila pastikan anda mempunyai prasyarat berikut dipasang pada sistem anda.",
+      "step_1": "Sistem Pengendalian: Microsoft Windows, Linux, MacOS",
+      "step_2": "Persekitaran Pembangunan: {{DevEnv}}",
+      "step_3": "Rangka kerja",
+      "step_4": "Muat turun versi terkini {{ProductFullName}} daripada [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Bagaimana untuk menggabungkan {{EXT}} fail menggunakan kod contoh {{ProgLang}}.",
+    "code": {
+      "load_comment": "Gabungkan {{EXT}} fail menggunakan GroupDocs.Merger untuk Java API",
+      "ini_comment": "Segerakan Penggabungan dengan input dokumen {{EXT}}.",
+      "run_comment": "Panggil kaedah gabungan contoh kelas Penggabungan dan lulus laluan dokumen sumber kedua",
+      "save_comment": "Panggil kaedah simpan contoh kelas Penggabungan untuk menyimpan dokumen yang digabungkan"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung - Apl Dalam Talian untuk Menggabungkan Dokumen",
+    "h1": "Gabungkan lebih daripada satu {{EXT}} fail sekarang dengan melawati tapak web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "Demo langsung mempunyai faedah berikut."
+  },
+  "more_formats": {
+    "title": "Menggabungkan Format Dokumen Lain",
+    "content": "{{ProductName}} dokumen penggabungan API untuk format fail dan imej. Gabungkan beberapa format dokumen popular seperti yang dinyatakan di bawah."
+  }
+}
