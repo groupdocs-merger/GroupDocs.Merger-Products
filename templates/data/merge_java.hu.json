@@ -25,7 +25,7 @@
     "title_left": "Több {{EXT}} fájl egyesítése a következőben: {{ProductName}}",
     "content_left": {
       "description": "A [{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) néhány egyszerű lépés végrehajtásával megkönnyíti a Java fejlesztők számára több {{EXT}} fájl egyesítését.",
-      "step_1": "Hozzon létre egy példányt az **Ferger**-ból, és adja meg a forrásdokumentum elérési útját konstruktor paraméterként.",
+      "step_1": "Hozzon létre egy példányt az **Merger**-ból, és adja meg a forrásdokumentum elérési útját konstruktor paraméterként.",
       "step_2": "Hívja a **Merger** osztály **Join**-ját, és adja át a második forrásdokumentum elérési utat.",
       "step_3": "Az egyesített dokumentum mentéséhez hívja a **Save** elemet az **Merger** osztályból."
     },

@@ -70,7 +70,7 @@ steps:
     content_left: |
         A [GroupDocs.Merger for Java](/hu/merger/java/) néhány egyszerű lépés végrehajtásával megkönnyíti a Java fejlesztők számára több VSDX fájl egyesítését.
         
-        * Hozzon létre egy példányt az **Ferger**-ból, és adja meg a forrásdokumentum elérési útját konstruktor paraméterként.
+        * Hozzon létre egy példányt az **Merger**-ból, és adja meg a forrásdokumentum elérési útját konstruktor paraméterként.
         * Hívja a **Merger** osztály **Join**-ját, és adja át a második forrásdokumentum elérési utat.
         * Az egyesített dokumentum mentéséhez hívja a **Save** elemet az **Merger** osztályból.
 
