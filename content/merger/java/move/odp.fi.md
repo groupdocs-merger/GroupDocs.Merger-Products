@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for Java](/fi/merger/java/) tekee Java-kehittäjien helpoksi siirtää sivuja ODP-tiedostossa muutaman helpon vaiheen avulla .
         
         * Alusta **MoveOptions** määrittääksesi nykyiset ja uudet sivunumerot.
-        * Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.
         * Kutsu **movePage** ja välitä **MoveOptions**-objekti.
-        * Soita **tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
+        * Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
 
     title_right: "Laitteistovaatimukset"
     content_right: |

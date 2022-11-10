@@ -25,9 +25,9 @@
     "title_left": "Kuinka yhdistää useita {{EXT}}-tiedostoja",
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) tekee {{ProductName}}-kehittäjien helpoksi yhdistää kaksi tai useampia {{EXT}}-tiedostoa sovelluksissaan ottamalla käyttöön muutama helppo askel.",
-      "step_1": "Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.",
-      "step_2": "Soita **Yhdistys**-luokan **Liity** ja välitä toinen lähdeasiakirjan polku.",
-      "step_3": "Soita **Tallenna** **Yhdistäminen**-luokasta tallentaaksesi yhdistetyn asiakirjan."
+      "step_1": "Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.",
+      "step_2": "Soita **Merger**-luokan **Join** ja välitä toinen lähdeasiakirjan polku.",
+      "step_3": "Soita **Save** **Merger**-luokasta tallentaaksesi yhdistetyn asiakirjan."
     },
     "title_right": "Laitteistovaatimukset",
     "content_right": {

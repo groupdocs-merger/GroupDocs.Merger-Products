@@ -26,9 +26,9 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) tekee {{ProgLang}}-kehittäjien helpoksi purkaa halutut sivut {{EXT}}-tiedostosta ja tallentaa sen nimellä uuden tiedoston, joka sisältää valitut sivut muutaman helpon vaiheen avulla.",
       "step_1": "Alusta **ExtractOptions** sivunumeroilla, joiden pitäisi näkyä tuloksena olevassa asiakirjassa.",
-      "step_2": "Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.",
+      "step_2": "Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.",
       "step_3": "Kutsu **extractPages** ja välitä **ExtractOptions**-objekti.",
-      "step_4": "Soita **tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi."
+      "step_4": "Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi."
     },
     "title_right": "Laitteistovaatimukset",
     "content_right": {

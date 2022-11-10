@@ -26,9 +26,9 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) tekee {{ProgLang}}-kehittäjien helpoksi poistaa yhden tai useita tiettyjä sivuja {{EXT}} tiedosto toteuttamalla muutama helppo vaihe.",
       "step_1": "Alusta **RemoveOptions** poistettavilla sivunumeroilla.",
-      "step_2": "Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.",
+      "step_2": "Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.",
       "step_3": "Soita **removePages** ja välitä **RemoveOptions**-objekti.",
-      "step_4": "Soita **tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi."
+      "step_4": "Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi."
     },
     "title_right": "Laitteistovaatimukset",
     "content_right": {

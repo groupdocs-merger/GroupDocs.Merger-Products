@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for Java](/fi/merger/java/) tekee Java-kehittäjien helpoksi kiertää tiettyjä tai kaikkia sivuja TEX-tiedostossa 90:ssä , 180 tai 270 kiertokulma muutaman helpon vaiheen avulla.
         
         * Alusta **RotateOptions** halutulla kiertokulmalla ja sivunumeroilla.
-        * Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.
         * Kutsu **rotatePages** ja välitä **RotateOptions**-objekti.
-        * Soita **tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
+        * Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
 
     title_right: "Laitteistovaatimukset"
     content_right: |

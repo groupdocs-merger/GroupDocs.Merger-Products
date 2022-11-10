@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for .NET](/fi/merger/net/) tekee .NET-kehittäjien helpoksi yhdistää kaksi tai useampia TXT-tiedostoa sovelluksissaan ottamalla käyttöön muutama helppo askel.
         
-        * Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.
-        * Soita **Yhdistys**-luokan **Liity** ja välitä toinen lähdeasiakirjan polku.
-        * Soita **Tallenna** **Yhdistäminen**-luokasta tallentaaksesi yhdistetyn asiakirjan.
+        * Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Soita **Merger**-luokan **Join** ja välitä toinen lähdeasiakirjan polku.
+        * Soita **Save** **Merger**-luokasta tallentaaksesi yhdistetyn asiakirjan.
 
     title_right: "Laitteistovaatimukset"
     content_right: |

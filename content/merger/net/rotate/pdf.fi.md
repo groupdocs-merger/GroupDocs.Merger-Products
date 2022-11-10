@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for .NET](/fi/merger/net/) tekee C#-kehittäjien helpoksi kiertää tiettyjä tai kaikkia sivuja PDF-tiedostossa 90:ssä , 180 tai 270 kiertokulma muutaman helpon vaiheen avulla.
         
         * Alusta **RotateOptions** halutulla kiertokulmalla ja sivunumeroilla.
-        * Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.
         * Kutsu **RotatePages** ja välitä **RotateOptions**-objekti.
-        * Soita **Tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
+        * Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
 
     title_right: "Laitteistovaatimukset"
     content_right: |

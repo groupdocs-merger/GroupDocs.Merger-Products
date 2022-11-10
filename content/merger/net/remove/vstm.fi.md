@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for .NET](/fi/merger/net/) tekee C#-kehittäjien helpoksi poistaa yhden tai useita tiettyjä sivuja VSTM tiedosto toteuttamalla muutama helppo vaihe.
         
         * Alusta **RemoveOptions** poistettavilla sivunumeroilla.
-        * Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.
         * Soita **RemovePages** ja välitä **RemoveOptions**-objekti.
-        * Soita **Tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
+        * Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
 
     title_right: "Laitteistovaatimukset"
     content_right: |

@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for Java](/fi/merger/java/) tekee Java-kehittäjien helpoksi purkaa halutut sivut ODP-tiedostosta ja tallentaa sen nimellä uuden tiedoston, joka sisältää valitut sivut muutaman helpon vaiheen avulla.
         
         * Alusta **ExtractOptions** sivunumeroilla, joiden pitäisi näkyä tuloksena olevassa asiakirjassa.
-        * Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.
         * Kutsu **extractPages** ja välitä **ExtractOptions**-objekti.
-        * Soita **tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
+        * Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
 
     title_right: "Laitteistovaatimukset"
     content_right: |

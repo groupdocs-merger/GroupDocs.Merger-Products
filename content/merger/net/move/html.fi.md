@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for .NET](/fi/merger/net/) tekee C#-kehittäjien helpoksi siirtää sivuja HTML-tiedostossa muutaman helpon vaiheen avulla .
         
         * Alusta **MoveOptions** määrittääksesi nykyiset ja uudet sivunumerot.
-        * Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.
         * Kutsu **MovePage** ja välitä **MoveOptions**-objekti.
-        * Soita **Tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
+        * Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
 
     title_right: "Laitteistovaatimukset"
     content_right: |

@@ -26,9 +26,9 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) tekee {{ProgLang}}-kehittäjien helpoksi siirtää sivuja {{EXT}}-tiedostossa muutaman helpon vaiheen avulla .",
       "step_1": "Alusta **MoveOptions** määrittääksesi nykyiset ja uudet sivunumerot.",
-      "step_2": "Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.",
+      "step_2": "Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.",
       "step_3": "Kutsu **MovePage** ja välitä **MoveOptions**-objekti.",
-      "step_4": "Soita **Tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi."
+      "step_4": "Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi."
     },
     "title_right": "Laitteistovaatimukset",
     "content_right": {

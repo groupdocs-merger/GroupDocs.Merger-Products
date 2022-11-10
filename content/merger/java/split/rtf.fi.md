@@ -71,7 +71,7 @@ steps:
         [GroupDocs.Merger for Java](/fi/merger/java/) tekee Java-kehittäjien helpoksi jakaa yhden RTF-tiedoston useiksi tuloksena oleviksi tiedostoiksi toteuttamalla muutama helppo askel.
         
         * Alusta **SplitOptions** tulostiedostojen polkumuodolla.
-        * Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.
         * Soita **split** ja välitä **SplitOptions**-objekti tallentaaksesi tuloksena olevat asiakirjat.
 
     title_right: "Laitteistovaatimukset"

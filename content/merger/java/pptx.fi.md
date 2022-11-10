@@ -70,9 +70,9 @@ steps:
     content_left: |
         [GroupDocs.Merger for Java](/fi/merger/java/) tekee Java-kehittäjien helpoksi yhdistää useita PPTX-tiedostoja muutaman helpon vaiheen avulla.
         
-        * Luo **Yhdistäminen** esiintymä ja anna lähdedokumentin polku rakentajaparametriksi.
-        * Soita **Yhdistys**-luokan **Liity** ja välitä toinen lähdeasiakirjan polku.
-        * Soita **Tallenna** **Yhdistäminen**-luokasta tallentaaksesi yhdistetyn asiakirjan.
+        * Luo **Merger** esiintymä ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Soita **Merger**-luokan **Join** ja välitä toinen lähdeasiakirjan polku.
+        * Soita **Save** **Merger**-luokasta tallentaaksesi yhdistetyn asiakirjan.
 
     title_right: "Laitteistovaatimukset"
     content_right: |

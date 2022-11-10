@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for .NET](/fi/merger/net/) tekee C#-kehittäjien helpoksi vaihtaa sivuja TEX-tiedoston sisällä muutaman helpon vaiheen avulla .
         
         * Alusta **SwapOptions** määrittääksesi vaihdettavat sivunumerot.
-        * Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.
         * Soita **SwapPages** ja välitä **SwapOptions**-objekti.
-        * Soita **Tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
+        * Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
 
     title_right: "Laitteistovaatimukset"
     content_right: |

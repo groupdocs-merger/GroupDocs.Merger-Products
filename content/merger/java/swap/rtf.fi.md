@@ -71,9 +71,9 @@ steps:
         [GroupDocs.Merger for Java](/fi/merger/java/) tekee Java-kehittäjien helpoksi vaihtaa sivuja RTF-tiedoston sisällä muutaman helpon vaiheen avulla .
         
         * Alusta **SwapOptions** määrittääksesi vaihdettavat sivunumerot.
-        * Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.
+        * Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.
         * Soita **swapPages** ja välitä **SwapOptions**-objekti.
-        * Soita **tallenna** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
+        * Soita **Save** ja määritä tiedostopolku tuloksena olevan asiakirjan tallentamiseksi.
 
     title_right: "Laitteistovaatimukset"
     content_right: |

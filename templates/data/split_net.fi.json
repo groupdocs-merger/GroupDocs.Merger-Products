@@ -26,7 +26,7 @@
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) tekee {{ProgLang}}-kehittäjien helpoksi jakaa yhden {{EXT}}-tiedoston useiksi tuloksena oleviksi tiedostoiksi toteuttamalla muutama helppo askel.",
       "step_1": "Alusta **SplitOptions** tulostiedostojen polkumuodolla.",
-      "step_2": "Luo uusi esiintymä **Yhdistys** ja anna lähdedokumentin polku rakentajaparametriksi.",
+      "step_2": "Luo uusi esiintymä **Merger** ja anna lähdedokumentin polku rakentajaparametriksi.",
       "step_3": "Soita **Split** ja välitä **SplitOptions**-objekti tallentaaksesi tuloksena olevat asiakirjat."
     },
     "title_right": "Laitteistovaatimukset",

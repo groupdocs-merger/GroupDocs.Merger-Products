@@ -25,9 +25,9 @@
     "title_left": "Liitä useita {{EXT}} tiedostoja tuotteessa {{ProductName}}",
     "content_left": {
       "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) helpottaa Java-kehittäjien liittämistä useisiin {{EXT}} tiedostoihin muutaman helpon vaiheen avulla.",
-      "step_1": "Luo **Yhdistäminen** esiintymä ja anna lähdedokumentin polku rakentajaparametriksi.",
-      "step_2": "Soita **Yhdistys**-luokan **Liity** ja välitä toinen lähdeasiakirjan polku.",
-      "step_3": "Soita **Tallenna** **Yhdistäminen**-luokasta tallentaaksesi yhdistetyn asiakirjan."
+      "step_1": "Luo **Merger** esiintymä ja anna lähdedokumentin polku rakentajaparametriksi.",
+      "step_2": "Soita **Merger**-luokan **Join** ja välitä toinen lähdeasiakirjan polku.",
+      "step_3": "Soita **Save** **Merger**-luokasta tallentaaksesi yhdistetyn asiakirjan."
     },
     "title_right": "Laitteistovaatimukset",
     "content_right": {
