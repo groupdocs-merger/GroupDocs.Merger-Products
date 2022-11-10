@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Skiptu {{EXT}} í margar skrár í {{ProgLang}}",
+    "description": "Skiptu einni {{EXT}} skrá í nokkrar skrár byggðar á blaðsíðunúmerum, blaðsíðubilum, sléttum eða oddasíðum með því að nota forritaskil skjalasamruna."
+  },
+  "header": {
+    "title": "{{EXT}} Skerandi í {{ProgLang}}",
+    "description": "Skiptu {{EXT}} með nokkrum línum af {{ProductName}} kóða.",
+    "button_label": "Sækja ókeypis prufuáskrift"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API tilvísun",
+      "button_text_2": "Dæmi um kóða",
+      "button_text_3": "Sýningar í beinni",
+      "button_text_4": "Verðlag"
+    }
+  },
+  "about": {
+    "title": "Um {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) bókasafn býður upp á einfalda lausn til að sameinast á öruggan hátt og skipta á milli margs konar skjalasniða, þar á meðal PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, myndir og mörg önnur innan {{ProductName}} forrita. Með því að bæta við örfáum línum af kóðanum skaltu framkvæma nokkrar skjalaaðgerðir eins og færa, fjarlægja, snúa, skipta um, draga út eða breyta stefnu síðna innan skjalanna. Skjalasamruna API styður einnig forskoðun skjalasíður sem mynd til að greina skjalabyggingu, snið og innihald á síðunni.",
+    "h2": "GroupDocs.Merger API er rétt val fyrir fyrirtækjalausnir sem þarfnast skráaskiptaeiginleika. Þessi API eru vel studd á öllum helstu stýrikerfum og kerfum þar á meðal {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Skiptu {{EXT}} skrá eftir síðum í {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) auðveldar {{ProgLang}} forriturum að skipta einni {{EXT}} skrá í margar skrár sem myndast með því að útfæra nokkur auðveld skref.",
+      "step_1": "Frumstilla **SplitOptions** með sniði úttaksskráa.",
+      "step_2": "Búðu til nýtt tilvik af **Merger** og sendu frumskjalsslóð sem byggingarbreytu.",
+      "step_3": "Hringdu í **split** og sendu **SplitOptions** hlutinn til að vista skjöl sem myndast."
+    },
+    "title_right": "kerfis kröfur",
+    "content_right": {
+      "description": "{{ProductFullName}} API eru studd á öllum helstu kerfum og stýrikerfum. Áður en þú keyrir kóðann hér að neðan skaltu ganga úr skugga um að þú hafir eftirfarandi forsendur uppsettar á kerfinu þínu.",
+      "step_1": "Stýrikerfi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Þróunarumhverfi: {{DevEnv}}",
+      "step_3": "Rammar",
+      "step_4": "Sæktu nýjustu útgáfuna af {{ProductFullName}} frá [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hvernig á að skipta {{EXT}} skrá með {{ProgLang}} dæmi kóða",
+    "code": {
+      "load_comment": "Skiptu {{EXT}} skrá með GroupDocs.Merger fyrir Java API",
+      "opt_comment": "Frumstilla SplitOptions flokkinn með sniði úttaksskráa",
+      "ini_comment": "Staðfestu samruna með inntaksskjali {{EXT}}",
+      "run_comment": "Hringdu í skiptingaraðferðina og sendu SplitOptions hlutinn til að vista skjöl sem myndast"
+    }
+  },
+  "demos": {
+    "title": "Sýningar í beinni - Skiptu {{EXT}} skrá á netinu",
+    "h1": "Skiptu {{EXT}} skrá núna með því að fara á [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}) vefsíðu.",
+    "h2": "Lifandi kynningin hefur eftirfarandi kosti."
+  },
+  "more_formats": {
+    "title": "Skipta skrá af öðrum sniðum",
+    "content": "{{ProductName}} skjöl sameining og skipt API fyrir skráarsnið og myndir. Skiptu nokkrum af vinsælustu skráarsniðunum eins og fram kemur hér að neðan."
+  }
+}

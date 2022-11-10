@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Sameina og skipta PDF Word Excel EPUB",
+    "description": "C# .NET skjalsamruna API til að sameina, skipta, skipta um eða fjarlægja skjalasíður úr PDF, Microsoft Word, Excel, kynningum, Visio og myndsniðum."
+  },
+  "header": {
+    "title": ".NET API til að sameina og skipta skjölum",
+    "description": "API til að sameina, skipta, skipta, klippa eða fjarlægja skjöl, skyggnur og skýringarmyndir í .NET forritum."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Yfirlit",
+      "features": "Eiginleikar",
+      "support": "Stuðningur",
+      "livedemo": "Sýning í beinni",
+      "pricing": "Verðlag"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger fyrir .NET, hjálpar þér að þróa hraðvirkt fyrsta flokks viðskiptaforrit í C#, ASP.NET og annarri .NET tækni. Aðeins nokkrar línur af kóða gera .NET forritunum þínum kleift að sameina, skipta, endurraða, skipta, klippa og fjarlægja eina síðu eða safn af skjalasíðum, skyggnum, myndum eða skýringarmyndum. Framkvæmdu þessar aðgerðir á öruggum skrám með því að stilla eða fjarlægja lykilorðsvörn á þekktum og óþekktum skráarsniðum.",
+      "paragraph_2": "Með því að nota GroupDocs.Merger fyrir .NET geturðu framkvæmt sameiningu; skipting og aðrar tengdar aðgerðir á stökum skjölum auk skjalalotu. Sauma forritunarlega saman skrár af öllum vinsælum sniðum, svo sem Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, rafbók og myndskráarsnið."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Eftirfarandi er yfirlit yfir GroupDocs.Merger fyrir .NET:",
+      "left": {
+        "title": "Skjalaaðgerðir",
+        "content": {
+          "line_1": "Breyta síðuröð",
+          "line_2": "Fjarlægja eða eyða síðum",
+          "line_3": "Kljúfa eða brjóta skjal",
+          "line_4": "Skiptu um eða stokkaðu hvaða tvær síður sem er",
+          "line_5": "Klipptu stakar eða margar síður",
+          "line_6": "Tengdu mörg skjöl"
+        }
+      },
+      "right": {
+        "title": "Öryggisaðgerðir",
+        "content": {
+          "line_1": "Settu upp skjalaöryggi",
+          "line_2": "Athugaðu öryggisstöðu skjalsins",
+          "line_3": "Stilltu lykilorð skjalsins",
+          "line_4": "Uppfærðu lykilorð skjalsins",
+          "line_5": "Fjarlægðu lykilorð skjalsins"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger fyrir .NET styður sameiningu eftirfarandi [skjalaskráasniða](https://docs.groupdocs.com/merger/net/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Orð:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** EIN"
+        }
+      },
+      "right": {
+        "title": "OpenDocument og önnur snið",
+        "content": {
+          "line_1": "**OpenDocument snið**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Fast útlit**: PDF, XPS",
+          "line_3": "**Myndir**: BMP, PNG, TIFF",
+          "line_4": "**Vef**: HTML, MHT, MHTML",
+          "line_5": "**Texti**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**Rafbók**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for .NET styður eftirfarandi stýrikerfi, ramma og pakkastjóra:",
+      "left": {
+        "title": "Stýrikerfi",
+        "content": {
+          "line_1": "Windows skjáborð",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Stutt rammar",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 eða nýrri",
+          "line_2": "Mono Framework 1.2 eða hærra",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0"
+        }
+      },
+      "right": {
+        "title": "Pakkastjóri",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Þróunarumhverfi",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger fyrir .NET eiginleikar",
+    "feature_1": {
+      "content": "Sameina og sameina margar síður, skyggnur og skýringarmyndir í eitt skjal"
+    },
+    "feature_2": {
+      "content": "Skiptu og skiptu stórum skjölum í margar smærri skrár"
+    },
+    "feature_3": {
+      "content": "Endurraða, stokka og endurskipuleggja síður, skyggnur eða skýringarmyndir"
+    },
+    "feature_4": {
+      "content": "Skiptu um og skiptu á tveimur síðum, skyggnum eða skýringarmyndum hvort við annað innan skjalsins"
+    },
+    "feature_5": {
+      "content": "Klipptu skjal með því að fjarlægja tilteknar síður, skyggnur eða skýringarmyndir"
+    },
+    "feature_6": {
+      "content": "Fjarlægðu staka eða safn af síðum, skyggnum eða skýringarmyndum"
+    },
+    "feature_7": {
+      "content": "Saumaðu saman mikinn fjölda skjala í lotum"
+    },
+    "feature_8": {
+      "content": "Athugaðu forritunarlega hvort skjal er tryggt með lykilorði"
+    },
+    "feature_9": {
+      "content": "Stilltu, endurstilltu og fjarlægðu lykilorð þekktra og óþekktra skjalasniða"
+    },
+    "feature_10": {
+      "content": "Sækja lista yfir studd skráarsnið - Skipta og sameina texta (ERR) skráarsnið"
+    },
+    "feature_11": {
+      "content": "Snúðu síðum og breyttu síðustefnu á þekktum og óþekktum sniðum"
+    },
+    "feature_12": {
+      "content": "Sameina margar skrár af mismunandi sniðum í DOC, DOCX og XPS"
+    },
+    "feature_13": {
+      "content": "Skiptir stórum textaskrám eftir línunúmerum"
+    },
+    "feature_14": {
+      "content": "Fáðu myndbirtingar af skjalasíðum og skýringarmyndafjölskyldusniðum"
+    },
+    "feature_15": {
+      "content": "Tengdu myndir með bakgrunnslit fyrir tómt svart myndrými"
+    },
+    "feature_16": {
+      "content": "Sameina mismunandi tegundir skjala (DOC, XLS, PPT osfrv.) í eina PDF skrá"
+    },
+    "feature_17": {
+      "content": "Flyttu inn OLE hluti auðveldlega inn í Microsoft Word, Excel, Presentation og OpenDocument skráargerðir"
+    },
+    "feature_18": {
+      "content": "Bættu öðrum skjölum við skýringarmyndasíðu með OLE hlutum"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Fjarlægðu æskilegar síður úr skjölum",
+      "content": "GroupDocs.Merger fyrir .NET API hjálpar þér að eyða óæskilegum síðum úr skjalinu þínu."
+    },
+    "feature_2": {
+      "title": "Notaðu umbreytingu á skilað úttak",
+      "content": "Þú getur framkvæmt ýmsar umbreytingar á útgefnu úttaksskjali með því að nota GroupDocs.Merger fyrir .NET API. Þessir umbreytingarvalkostir veita þér stjórn á því hvernig þú sýnir framleidda úttakið til sýnis. Tiltækar umbreytingar eru, síðu snúningsvalkostur, síðu endurröðunarvalkostur og notkun textavatnsmerkis."
+    },
+    "feature_3": {
+      "title": "Athugaðu lykilorð á óþekkt skjalasnið",
+      "content": "GroupDocs.Merger fyrir .NET API gerir þér kleift að athuga lykilorð skjals sem er ekki þekkt á sniði."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger býður upp á API fyrir samruna skjala fyrir önnur vinsæl þróunarumhverfi",
+    "solution": {
+      "img_alt": "GroupDocs.Merger fyrir Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+      "platform": "Java",
+      "link": "/merger/java/"
+    }
+  }
+}
