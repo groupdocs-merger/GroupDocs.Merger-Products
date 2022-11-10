@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Soluție de îmbinare și împărțire a documentelor | API-uri on-premise și aplicație gratuită",
+    "description": "Îmbinați și împărțiți MS Office, OpenDocument, imagini PDF și alte formate de fișiere folosind soluția On Premise sau utilizați aplicația online de fuziune și divizare a documentelor."
+  },
+  "header": {
+    "title": "Soluție de îmbinare și împărțire a documentelor",
+    "description": "Îmbinați cu ușurință mai multe documente sau împărțiți Microsoft Office, OpenOffice, PDF și alte documente în pagini."
+  },
+  "apis": {
+    "highcode": {
+      "title": "API-urile GroupDocs.Merger High Code includ",
+      "label": "Vedeți toate API-urile High Code",
+      "net": {
+        "content": "API-uri On Premise care vă pot ajuta să implementați funcția de împărțire și îmbinare rapidă pentru mai multe documente în aplicațiile dvs. bazate pe .NET."
+      },
+      "java": {
+        "content": "API-uri native Java pentru a îmbina rapid mai multe documente sau a împărți orice document în pagini din aplicațiile dvs. bazate pe Java."
+      }
+    },
+    "lowcode": {
+      "title": "API-urile GroupDocs.Merger Low Code includ",
+      "label": "Vedeți toate API-urile Low Code",
+      "curl": {
+        "content": "Comenzi simple cURL pentru RESTful document merger Cloud API pentru a îmbina și împărți documente într-o gamă largă de formate de documente populare acceptate."
+      },
+      "net": {
+        "content": "Cloud SDK pentru Microsoft .NET care ajută programatorii să implementeze funcția de îmbinare și împărțire rapidă pentru mai multe documente în aplicațiile lor bazate pe .NET."
+      },
+      "java": {
+        "content": "Combinați mai multe documente într-unul singur, împărțiți orice document în mai multe, reordonați, înlocuiți sau schimbați orientarea paginii în aplicațiile dvs. Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Aplicațiile fără cod includ",
+      "label": "Vizualizați toate aplicațiile fără cod",
+      "total": {
+        "content": "Încercați aplicația noastră online gratuită pentru a concatena mai mult de 30 de tipuri de fișiere fără a părăsi browserul web preferat."
+      },
+      "docx": {
+        "content": "Concatenați mai multe fișiere DOCX pentru a genera un singur document."
+      },
+      "pdf": {
+        "content": "Îmbinați mai multe fișiere PDF pentru a genera un singur document direct din browserul web."
+      }
+    }
+  }
+}

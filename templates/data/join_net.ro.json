@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Alăturați-vă fișierelor {{EXT}} în {{ProgLang}} | {{EXT}} Fuziune",
+    "description": "Uniți mai multe fișiere {{EXT}} într-un singur fișier folosind API-ul de fuziune a documentelor {{ProgLang}} {{ProductName}}. Uniți anumite pagini sau intervale de pagini de la diverse documente la un singur document."
+  },
+  "header": {
+    "title": "Alăturați-vă fișierelor {{EXT}} în {{ProgLang}}",
+    "description": "Alăturați-vă {{EXT}} cu câteva rânduri de cod {{ProductName}}.",
+    "button_label": "Descarcare varianta scurta de prezentare gratuita"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "Referință API",
+      "button_text_2": "Exemple de coduri",
+      "button_text_3": "Demo live",
+      "button_text_4": "Prețuri"
+    }
+  },
+  "about": {
+    "title": "Despre {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) oferă o soluție convenabilă pentru a asocia mai multe PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, imagini și multe alte documente într-un singur fișier în cadrul aplicațiilor {{ProductName}}. GroupDocs.Merger vă va economisi mult efort, deoarece vi se permite să vă alăturați documentelor {{EXT}} - nu este nevoie să instalați niciun software terță parte, aplicații desktop sau pluginuri. Acum nu este necesar să vă pierdeți timpul și să vă conectați manual fișierele! Misiunea GroupDocs este de a oferi cea mai bună calitate și de a simplifica fluxurile de lucru de procesare a documentelor.",
+    "h2": "GroupDocs.Merger API este o alegere potrivită pentru soluțiile corporative care necesită funcții de îmbinare a fișierelor. Aceste API-uri sunt bine acceptate pe toate sistemele și platformele de operare majore, inclusiv {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Cum să vă alăturați mai multor fișiere {{EXT}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) facilitează pentru dezvoltatorii {{ProductName}} să alăture două sau mai multe fișiere {{EXT}} în aplicațiile lor prin implementarea unui câțiva pași simpli.",
+      "step_1": "Creați o nouă instanță a **Merger** și treceți calea documentului sursă ca parametru de constructor.",
+      "step_2": "Apelați **Join** din clasa **Merger** și transmiteți a doua cale pentru documentul sursă.",
+      "step_3": "Apelați **Save** din clasa **Merger** pentru a salva documentul îmbinat."
+    },
+    "title_right": "Cerințe de sistem",
+    "content_right": {
+      "description": "API-urile {{ProductFullName}} sunt acceptate pe toate platformele și sistemele de operare majore. Înainte de a executa codul de mai jos, vă rugăm să vă asigurați că aveți următoarele cerințe preliminare instalate pe sistemul dumneavoastră.",
+      "step_1": "Sisteme de operare: Microsoft Windows, Linux, MacOS",
+      "step_2": "Medii de dezvoltare: {{DevEnv}}",
+      "step_3": "Cadre",
+      "step_4": "Descărcați cea mai recentă versiune a {{ProductFullName}} de la [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cum să vă alăturați fișierelor {{EXT}} utilizând codul exemplu {{ProgLang}}",
+    "code": {
+      "load_comment": "Alăturați-vă fișierelor {{EXT}} utilizând API-ul GroupDocs.Merger",
+      "ini_comment": "Instanțiați fuziunea cu documentul introdus {{EXT}}",
+      "run_comment": "Apelați metoda Join a instanței clasei Merger și treceți a doua cale de document sursă",
+      "save_comment": "Apelați metoda Salvare a instanței clasei Merger pentru a salva documentul îmbinat"
+    }
+  },
+  "demos": {
+    "title": "Demo live - Aplicație online pentru alăturarea documentelor",
+    "h1": "Alăturați-vă mai mult de un fișier {{EXT}} chiar acum, vizitând site-ul web [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "Demo-ul live are următoarele beneficii."
+  },
+  "more_formats": {
+    "title": "Asocierea altor formate de documente",
+    "content": "{{ProductName}} documentează API-ul de fuziune pentru formate de fișiere și imagini. Împreună unele dintre formatele de documente populare, așa cum este menționat mai jos."
+  }
+}
