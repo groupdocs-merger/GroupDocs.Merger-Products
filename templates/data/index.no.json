@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Løsning for sammenslåing og delt dokument | On Premise APIer og gratis app",
+    "description": "Slå sammen og del MS Office, OpenDocument, PDF-bilder og andre filformater ved å bruke On Premise Solution eller bruk Online Document Merger & Splitter-appen."
+  },
+  "header": {
+    "title": "Løsning for å slå sammen og dele dokumenter",
+    "description": "Slå enkelt sammen flere dokumenter eller del Microsoft Office, OpenOffice, PDF og andre dokumenter i sider."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Merger High Code APIer inkluderer",
+      "label": "Se alle High Code APIer",
+      "net": {
+        "content": "On Premise APIer som kan hjelpe deg med å implementere rask splitt- og sammenslåingsfunksjon for flere dokumenter i dine .NET-baserte applikasjoner."
+      },
+      "java": {
+        "content": "Innfødte Java API-er for raskt å slå sammen flere dokumenter eller dele ethvert dokument i sider i dine Java-baserte applikasjoner."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Merger Low Code APIer inkluderer",
+      "label": "Se alle lavkode-APIer",
+      "curl": {
+        "content": "Enkle cURL-kommandoer for RESTful dokumentsammenslåing Cloud API for å slå sammen og dele dokumenter på tvers av det store utvalget av støttede populære dokumentformater."
+      },
+      "net": {
+        "content": "Cloud SDK for Microsoft .NET som hjelper programmerere med å implementere rask sammenslåings- og splittfunksjon for flere dokumenter med i sine .NET-baserte applikasjoner."
+      },
+      "java": {
+        "content": "Kombiner flere dokumenter til ett, del ethvert dokument til flere, omorganiser, erstatt eller endre sideretning i Java-applikasjonene dine."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Merger Ingen kodeapper inkluderer",
+      "label": "Se alle No Code-apper",
+      "total": {
+        "content": "Prøv vår gratis online-app for å sette sammen mer enn 30 typer filer uten å forlate favorittnettleseren din."
+      },
+      "docx": {
+        "content": "Slå sammen flere DOCX-filer for å generere ett enkelt dokument."
+      },
+      "pdf": {
+        "content": "Slå sammen flere PDF-filer for å generere ett enkelt dokument direkte fra nettleseren."
+      }
+    }
+  }
+}

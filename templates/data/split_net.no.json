@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Del {{EXT}} i flere filer i {{ProgLang}}",
+    "description": "Del en enkelt {{EXT}}-fil i flere filer basert på sidetall, sideintervaller, partalls- eller oddetallssider ved hjelp av dokumentsammenslåings-API."
+  },
+  "header": {
+    "title": "{{EXT}} splitter i {{ProgLang}}",
+    "description": "Del {{EXT}} med noen få linjer med {{ProductName}}-kode.",
+    "button_label": "Last ned gratis prøveversjon"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-referanse",
+      "button_text_2": "Kodeeksempler",
+      "button_text_3": "Live-demoer",
+      "button_text_4": "Prissetting"
+    }
+  },
+  "about": {
+    "title": "Om {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/)-biblioteket tilbyr en enkel løsning for trygt å slå sammen og dele mellom et bredt spekter av dokumentformater, inkludert PDF, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, bilder og mange andre i {{ProductName}}-applikasjoner. Ved å legge til bare noen få linjer med koden, utfør flere dokumentoperasjoner som flytte, fjerne, rotere, bytte ut, trekke ut eller endre retningen på sidene i dokumentene. Dokumentsammenslåings-APIet støtter også forhåndsvisning av dokumentsider som et bilde for å analysere dokumentstrukturen, formateringen og innholdet på siden.",
+    "h2": "GroupDocs.Merger API er et riktig valg for bedriftsløsninger som trenger fildelingsfunksjoner. Disse APIene støttes godt på alle større operativsystemer og plattformer, inkludert {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Del {{EXT}} filsider i {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) gjør det enkelt for {{ProgLang}}-utviklere å dele en enkelt {{EXT}}-fil i flere resulterende filer ved å implementere en noen enkle trinn.",
+      "step_1": "Initialiser **SplitOptions** med baneformat for utdatafiler.",
+      "step_2": "Opprett en ny forekomst av **Merger** og send kildedokumentstien som en konstruktørparameter.",
+      "step_3": "Ring **Split** og send **SplitOptions**-objektet for å lagre resulterende dokumenter."
+    },
+    "title_right": "Systemkrav",
+    "content_right": {
+      "description": "{{ProductFullName}} APIer støttes på alle større plattformer og operativsystemer. Før du utfører koden nedenfor, sørg for at du har følgende forutsetninger installert på systemet ditt.",
+      "step_1": "Operativsystemer: Microsoft Windows, Linux, MacOS",
+      "step_2": "Utviklingsmiljøer: {{DevEnv}}",
+      "step_3": "Rammer",
+      "step_4": "Last ned den nyeste versjonen av {{ProductFullName}} fra [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hvordan dele opp {{EXT}} filer ved å bruke {{ProgLang}} eksempelkode",
+    "code": {
+      "load_comment": "Del {{EXT}}-filen ved hjelp av GroupDocs.Merger API",
+      "opt_comment": "Initialiser SplitOptions-klassen med baneformat for utdatafiler",
+      "ini_comment": "Instantier sammenslåing med inndatadokumentet {{EXT}}",
+      "run_comment": "Ring Split-metoden og send SplitOptions-objektet for å lagre resulterende dokumenter"
+    }
+  },
+  "demos": {
+    "title": "Live-demoer - Del {{EXT}}-fil på nett",
+    "h1": "Del opp {{EXT}}-filen akkurat nå ved å gå til nettstedet [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/{{ext}}).",
+    "h2": "Live-demoen har følgende fordeler."
+  },
+  "more_formats": {
+    "title": "Delt fil av andre formater",
+    "content": "{{ProductName}} dokumenterer fusjon og splitt API for filformater og bilder. Del noen av de populære filformatene som angitt nedenfor."
+  }
+}

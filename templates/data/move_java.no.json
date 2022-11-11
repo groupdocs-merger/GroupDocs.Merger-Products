@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Flytt {{EXT}} sider i {{ProgLang}}",
+    "description": "Flytt sider i et {{EXT}}-dokument i {{ProgLang}} til en hvilken som helst posisjon ved å bruke Documents Merger API."
+  },
+  "header": {
+    "title": "Flytt {{EXT}} sider i {{ProgLang}}",
+    "description": "Flytt {{EXT}} sider med noen få linjer med {{ProductName}}-kode.",
+    "button_label": "Last ned gratis prøveversjon"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-referanse",
+      "button_text_2": "Kodeeksempler",
+      "button_text_3": "Live-demoer",
+      "button_text_4": "Prissetting"
+    }
+  },
+  "about": {
+    "title": "Om {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) tilbyr en enkel løsning for trygt å slå sammen og dele mellom et bredt spekter av dokumentformater, inkludert PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, bilder og mange andre i {{ProductName}}-applikasjoner. Ved å legge til bare noen få linjer med koden, utfør flere dokumentoperasjoner som flytte, fjerne, rotere, bytte ut, trekke ut eller endre retningen på sidene i dokumentene. Dokumentsammenslåings-APIet støtter også forhåndsvisning av dokumentsider som et bilde for å analysere dokumentstrukturen, formateringen og innholdet på siden.",
+    "h2": "GroupDocs.Merger API er et riktig valg for bedriftsløsninger som trenger funksjoner for flytting av filside. Disse APIene støttes godt på alle større operativsystemer og plattformer, inkludert {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Flytt {{EXT}} filsider i {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) gjør det enkelt for {{ProgLang}}-utviklere å flytte sider i en {{EXT}}-fil ved å implementere noen få enkle trinn .",
+      "step_1": "Initialiser **MoveOptions** for å spesifisere gjeldende og nye sidetall.",
+      "step_2": "Opprett en ny forekomst av **Merger** og send kildedokumentstien som en konstruktørparameter.",
+      "step_3": "Ring **movePage** og send **MoveOptions**-objektet.",
+      "step_4": "Ring **Save** og spesifiser filbanen for å lagre det resulterende dokumentet."
+    },
+    "title_right": "Systemkrav",
+    "content_right": {
+      "description": "{{ProductFullName}} APIer støttes på alle større plattformer og operativsystemer. Før du utfører koden nedenfor, sørg for at du har følgende forutsetninger installert på systemet ditt.",
+      "step_1": "Operativsystemer: Microsoft Windows, Linux, MacOS",
+      "step_2": "Utviklingsmiljøer: {{DevEnv}}",
+      "step_3": "Rammer",
+      "step_4": "Last ned den nyeste versjonen av {{ProductFullName}} fra [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hvordan flytte {{EXT}} filsider ved hjelp av {{ProgLang}} eksempelkode",
+    "code": {
+      "load_comment": "Flytt {{EXT}} filsider ved hjelp av GroupDocs.Merger API",
+      "opt_comment": "Initialiser MoveOptions-klassen for å spesifisere gjeldende og nye sidetall",
+      "ini_comment": "Instantier sammenslåing med inndatadokumentet {{EXT}}",
+      "run_comment": "Ring movePage-metoden og send MoveOptions-objektet til det",
+      "save_comment": "Ring lagringsmetoden og send ønsket filbane for å lagre utdatadokumentet"
+    }
+  },
+  "demos": {
+    "title": "Live-demoer – Flytt {{EXT}} sider på nettet",
+    "h1": "Flytt {{EXT}} filsider akkurat nå ved å gå til [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/move-pages/{{ext}}) nettstedet.",
+    "h2": "Live-demoen har følgende fordeler."
+  },
+  "more_formats": {
+    "title": "Flytt sider med andre dokumentformater",
+    "content": "{{ProductName}} dokumenterer fusjon og splitt API for filformater og bilder. Flytt noen av de populære filformatene som angitt nedenfor."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "head": {
+    "title": "Slå sammen {{EXT}}-filer i {{ProgLang}} | {{EXT}} Fusjon",
+    "description": "Slå sammen flere {{EXT}}-filer til én enkelt fil ved å bruke {{ProgLang}} {{ProductName}}-dokumentsammenslåings-API. Slå sammen bestemte sider eller sideområder fra ulike dokumenter til ett enkelt dokument."
+  },
+  "header": {
+    "title": "{{EXT}} sammenslåing i {{ProgLang}}",
+    "description": "Slå sammen {{EXT}} med noen få linjer med {{ProductName}}-kode.",
+    "button_label": "Last ned gratis prøveversjon"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-referanse",
+      "button_text_2": "Kodeeksempler",
+      "button_text_3": "Live-demoer",
+      "button_text_4": "Prissetting"
+    }
+  },
+  "about": {
+    "title": "Om {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) gir en praktisk løsning for å slå sammen flere PDF-filer, Microsoft Office (Word, Excel, PowerPoint, OneNote), OpenDocument, HTML, bilder og mange andre dokumenter i én enkelt fil i {{ProductName}}-applikasjoner. GroupDocs.Merger vil spare deg for mye krefter, siden du har lov til å slå sammen {{EXT}} dokumenter - det er ikke nødvendig å installere tredjepartsprogramvare, skrivebordsapplikasjoner eller plugins. Nå er det unødvendig å kaste bort tiden din og slå sammen filer manuelt! GroupDocs oppgave er å gi den beste kvaliteten og forenkle dokumentbehandlingsarbeidsflyten.",
+    "h2": "GroupDocs.Merger API er et riktig valg for bedriftsløsninger som trenger filsammenslåingsfunksjoner. Disse APIene støttes godt på alle større operativsystemer og plattformer, inkludert {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Slik slår du sammen flere {{EXT}}-filer",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) gjør det enkelt for {{ProductName}}-utviklere å slå sammen to eller flere {{EXT}}-filer i applikasjonene sine ved å implementere en noen enkle trinn.",
+      "step_1": "Opprett en ny forekomst av **Merger** og send kildedokumentstien som en konstruktørparameter.",
+      "step_2": "Ring **Join** i klassen **Merger** og bestå den andre kildedokumentstien.",
+      "step_3": "Ring **Save** av **Merger**-klassen for å lagre det sammenslåtte dokumentet."
+    },
+    "title_right": "Systemkrav",
+    "content_right": {
+      "description": "{{ProductFullName}} APIer støttes på alle større plattformer og operativsystemer. Før du utfører koden nedenfor, sørg for at du har følgende forutsetninger installert på systemet ditt.",
+      "step_1": "Operativsystemer: Microsoft Windows, Linux, MacOS",
+      "step_2": "Utviklingsmiljøer: {{DevEnv}}",
+      "step_3": "Rammer",
+      "step_4": "Last ned den nyeste versjonen av {{ProductFullName}} fra [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hvordan slå sammen {{EXT}} filer ved å bruke {{ProgLang}} eksempelkode",
+    "code": {
+      "load_comment": "Slå sammen {{EXT}} filer ved hjelp av GroupDocs.Merger API",
+      "ini_comment": "Instantier sammenslåing med inndatadokumentet {{EXT}}",
+      "run_comment": "Anrop Join-metoden for Merger-klasseforekomsten og pass den andre kildedokumentstien",
+      "save_comment": "Anrop Lagre metode for sammenslåingsklasseforekomst for å lagre sammenslått dokument"
+    }
+  },
+  "demos": {
+    "title": "Live Demoer - Online app for å slå sammen dokumenter",
+    "h1": "Slå sammen mer enn én {{EXT}}-fil akkurat nå ved å gå til nettstedet [GroupDocs.Merger Live Demos](https://products.groupdocs.app/merger/{{ext}}).",
+    "h2": "Live-demoen har følgende fordeler."
+  },
+  "more_formats": {
+    "title": "Slå sammen andre dokumentformater",
+    "content": "{{ProductName}} dokumenterer fusjons-API for filformater og bilder. Slå sammen noen av de populære dokumentformatene som angitt nedenfor."
+  }
+}

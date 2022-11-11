@@ -1,0 +1,188 @@
+{
+  "head": {
+    "title": "Java Document Merging API | slå sammen og fjern Word Excel PDF XPS EPUB",
+    "description": "Dokumenter som slår sammen API for Java. Slå sammen, del, bytt, omorganiser og slett sider med PDF, Microsoft Word, Excel, presentasjoner, Visio, XPS og EPUB-formater."
+  },
+  "header": {
+    "title": "Java API for å kombinere og dele dokumenter",
+    "description": "Utvikle apper med høy ytelse som kan kombinere, rippe, blande, klippe ut eller slette sider, lysbilder og diagrammer mens du er på farten."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Oversikt",
+      "features": "Funksjoner",
+      "support": "Brukerstøtte",
+      "livedemo": "Live Demo",
+      "pricing": "Prissetting"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Merger for Java gjør deg i stand til raskt å utvikle topplinjeforretningsapplikasjoner i Java. Med lite koding kan Java-applikasjonene slå sammen, rippe, blande, klippe ut og slette en enkelt side eller gruppe med sider, lysbilder og diagrammer. Sammenslåingsoperasjoner kan også utføres på sikre filer av kjent og ukjent format ved å bruke eller fjerne passordbeskyttelse.",
+      "paragraph_2": ""
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Følgende er en oversikt over GroupDocs.Merger for Java:",
+      "left": {
+        "title": "Dokumentoperasjoner",
+        "content": {
+          "line_1": "Endre siderekkefølge",
+          "line_2": "Fjern eller slett sider",
+          "line_3": "Del eller bryte dokumentet",
+          "line_4": "Bytt eller bland to sider",
+          "line_5": "Trim én eller flere sider",
+          "line_6": "Slå sammen flere dokumenter"
+        }
+      },
+      "right": {
+        "title": "Sikkerhetsoperasjoner",
+        "content": {
+          "line_1": "Sett opp dokumentsikkerhet",
+          "line_2": "Sjekk dokumentets sikkerhetsstatus",
+          "line_3": "Angi dokumentpassord",
+          "line_4": "Oppdater dokumentpassordet",
+          "line_5": "Fjern dokumentpassordet"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Merger for Java støtter sammenslåing av følgende [dokumentfilformater](https://docs.groupdocs.com/merger/java/supported-document-formats/):",
+      "left": {
+        "title": "Microsoft Office",
+        "content": {
+          "line_1": "**Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT",
+          "line_2": "**Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML",
+          "line_3": "**PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM",
+          "line_4": "**OneNote:** EN"
+        }
+      },
+      "right": {
+        "title": "OpenDocument og andre formater",
+        "content": {
+          "line_1": "**OpenDocument-formater**: ODT, OTT, ODP, OTP, ODS",
+          "line_2": "**Fast layout**: PDF, XPS",
+          "line_3": "**Bilder**: BMP, PNG, TIFF",
+          "line_4": "**Nett**: HTML, MHT, MHTML",
+          "line_5": "**Tekst**: TXT, CSV, TSV",
+          "line_6": "**LaTex**: TEX",
+          "line_7": "**E-bok**: EPUB"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Merger for Java støtter følgende operativsystemer, rammer og pakkeadministratorer:",
+      "left": {
+        "title": "Operativsystemer",
+        "content": {
+          "line_1": "Microsoft Windows skrivebord",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "Linux",
+          "line_4": "Mac os"
+        },
+        "title_2": "Støttede rammer",
+        "content_2": {
+          "line_1": "Java 7 (1.7)",
+          "line_2": "Java 8 (1.8)",
+          "line_3": "Java 10",
+          "line_4": "Java 11 og nyere"
+        }
+      },
+      "right": {
+        "title": "Bygg automatiseringsverktøy",
+        "content": {
+          "line_1": "* Maven"
+        },
+        "title_2": "Utviklingsmiljøer",
+        "content_2": {
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEA",
+          "line_3": "* Formørkelse",
+          "line_4": "",
+          "line_5": ""
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Merger for Java-funksjoner",
+    "feature_1": {
+      "content": "Slå sammen ulike sider, lysbilder og diagrammer til én enkelt fil"
+    },
+    "feature_2": {
+      "content": "Ripp og del enorme dokumenter i flere mindre filer"
+    },
+    "feature_3": {
+      "content": "Bland og omorganiser sider, lysbilder eller diagrammer"
+    },
+    "feature_4": {
+      "content": "Bytt og bytt to sider, lysbilder eller diagrammer mellom hverandre i et dokument"
+    },
+    "feature_5": {
+      "content": "Klipp og trim dokumentet ved å fjerne bestemte sider, lysbilder eller diagrammer"
+    },
+    "feature_6": {
+      "content": "Slett enkeltsider eller samling av sider, lysbilder eller diagrammer"
+    },
+    "feature_7": {
+      "content": "Sy og slå sammen et stort antall dokumenter i grupper"
+    },
+    "feature_8": {
+      "content": "Sjekk programmert i Java om et dokument er sikret med et passord"
+    },
+    "feature_9": {
+      "content": "Sett, tilbakestill og fjern passord for kjente og ukjente dokumentformater"
+    },
+    "feature_10": {
+      "content": "Del en tekstfil til flere etter linjetall"
+    },
+    "feature_11": {
+      "content": "Få bilderepresentasjon av dokumentsider"
+    },
+    "feature_12": {
+      "content": "Slå sammen flere dokumenter i forskjellige formater til en enkelt PDF-fil"
+    },
+    "feature_13": {
+      "content": "Sett inn OLE-objekter i PDF, Word, Excel, PowerPoint og åpne dokumentformater"
+    },
+    "feature_14": {
+      "content": "Programmatisk legge ved filer til et PDF-dokument"
+    },
+    "feature_15": {
+      "content": "Legg dokument til diagram via OLE-objekter"
+    },
+    "feature_16": {
+      "content": "Slå sammen ulike typer dokumenter (DOC, XLS, PPT osv.) til en enkelt PDF-fil"
+    },
+    "feature_17": {
+      "content": "Importer enkelt OLE-objekter til filtypene Microsoft Word, Excel, Presentation og OpenDocument"
+    },
+    "feature_18": {
+      "content": "Legg til andre dokumenter på diagramsiden via OLE-objekter"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Fjern ønskede sider fra dokumenter",
+      "content": "GroupDocs.Merger for Java API lar deg velge og slette uønskede sider fra dokumentet."
+    },
+    "feature_2": {
+      "title": "Sjekk passord for ukjent dokumentformat",
+      "content": "Selv om formatet til et bestemt dokument er ukjent, lar GroupDocs.Merger for Java deg sjekke og hente dokumentpassord, hvis tilgjengelig."
+    },
+    "feature_3": {
+      "title": "Bli med passordbeskyttede dokumenter av kjente formater",
+      "content": "GroupDocs.Merger for Java API lar deg få en liste over dokumenter med kjente og ukjente formater."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Merger tilbyr API-er for dokumentsammenslåing for andre populære utviklingsmiljøer",
+    "solution": {
+      "img_alt": "GroupDocs.Merger for .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+      "platform": ".NET",
+      "link": "/merger/nett/"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "head": {
+    "title": "Bytt og bytt ut {{EXT}} sider i {{ProgLang}}",
+    "description": "Bytt og bytt ut posisjoner på to sider i en {{EXT}}-fil i {{ProgLang}} ved hjelp av dokumentsammenslåings-APIet."
+  },
+  "header": {
+    "title": "Bytt {{EXT}} sider i {{ProgLang}}",
+    "description": "Bytt {{EXT}}-sider med noen få linjer med {{ProductName}}-kode.",
+    "button_label": "Last ned gratis prøveversjon"
+  },
+  "submenu": {
+    "content_middle": {
+      "button_text_1": "API-referanse",
+      "button_text_2": "Kodeeksempler",
+      "button_text_3": "Live-demoer",
+      "button_text_4": "Prissetting"
+    }
+  },
+  "about": {
+    "title": "Om {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) tilbyr en enkel løsning for trygt å slå sammen og dele mellom et bredt spekter av dokumentformater, inkludert PDF, Microsoft Office (Word, Excel, PowerPoint , OneNote), OpenDocument, HTML, bilder og mange andre i {{ProductName}}-applikasjoner. Ved å legge til bare noen få linjer med koden, utfør flere dokumentoperasjoner som flytte, fjerne, rotere, bytte ut, trekke ut eller endre retningen på sidene i dokumentene. Dokumentsammenslåings-APIet støtter også forhåndsvisning av dokumentsider som et bilde for å analysere dokumentstrukturen, formateringen og innholdet på siden.",
+    "h2": "GroupDocs.Merger API er et riktig valg for bedriftsløsninger som trenger filsidebyttefunksjoner. Disse APIene støttes godt på alle større operativsystemer og plattformer, inkludert {{Runtime}}."
+  },
+  "steps": {
+    "title_left": "Bytt {{EXT}} filsider i {{ProductName}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/merger/{{ProductCode}}/) gjør det enkelt for {{ProgLang}}-utviklere å bytte sider i en {{EXT}}-fil ved å implementere noen få enkle trinn .",
+      "step_1": "Initialiser **SwapOptions** for å spesifisere sidetall som skal byttes.",
+      "step_2": "Opprett en ny forekomst av **Merger** og send kildedokumentstien som en konstruktørparameter.",
+      "step_3": "Ring **swapPages** og send **SwapOptions**-objektet.",
+      "step_4": "Ring **Save** og spesifiser filbanen for å lagre det resulterende dokumentet."
+    },
+    "title_right": "Systemkrav",
+    "content_right": {
+      "description": "{{ProductFullName}} APIer støttes på alle større plattformer og operativsystemer. Før du utfører koden nedenfor, sørg for at du har følgende forutsetninger installert på systemet ditt.",
+      "step_1": "Operativsystemer: Microsoft Windows, Linux, MacOS",
+      "step_2": "Utviklingsmiljøer: {{DevEnv}}",
+      "step_3": "Rammer",
+      "step_4": "Last ned den nyeste versjonen av {{ProductFullName}} fra [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Hvordan bytte {{EXT}} filsider ved å bruke {{ProgLang}} eksempelkode",
+    "code": {
+      "load_comment": "Bytt {{EXT}} filsider ved hjelp av GroupDocs.Merger API",
+      "opt_comment": "Initialiser SwapOptions-klassen for å spesifisere sidetall som skal byttes",
+      "ini_comment": "Instantier sammenslåing med inndatadokumentet {{EXT}}",
+      "run_comment": "Ring SwapPages-metoden og send SwapOptions-objektet til det",
+      "save_comment": "Ring Lagre-metoden og send ønsket filbane for å lagre utdatadokumentet"
+    }
+  },
+  "demos": {
+    "title": "Live-demoer - Bytt ut {{EXT}} filsider på nettet",
+    "h1": "Bytt ut {{EXT}}-filsider akkurat nå ved å gå til nettstedet [GroupDocs.Merger Live Demos](https://products.groupdocs.app/splitter/swap-pages/{{ext}}).",
+    "h2": "Live-demoen har følgende fordeler."
+  },
+  "more_formats": {
+    "title": "Bytt sider med andre filformater",
+    "content": "{{ProductName}} dokumenterer fusjon og splitt API for filformater og bilder. Bytt noen av de populære filformatene som angitt nedenfor."
+  }
+}
