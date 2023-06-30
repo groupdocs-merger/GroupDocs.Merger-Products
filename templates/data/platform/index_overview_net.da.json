@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger på et øjeblik",
+    "description": "API til at kombinere, opdele, bytte, trimme eller fjerne dokumenter, dias og diagrammer i .NET-applikationer",
+    "feature_1": {
+      "title": "Flet ubesværet flere dokumenter i C#",
+      "description": "Flet dokumenter: Kombiner problemfrit flere PDF- og Office-filer til et enkelt dokument med understøttelse af en lang række formater. GroupDocs.Merger til .NET gør dokumentsammenfletning hurtig og problemfri."
+    },
+    "feature_2": {
+      "title": "Forenkle dokumenthåndteringen ved at opdele store filer",
+      "description": "Opdel store PDF- eller Office-filer i mindre, mere håndterbare dele med lethed. GroupDocs.Merger for .NET giver dig mulighed for at opdele dokumenter baseret på specifikke sider, intervaller eller endda udtrække individuelle sider uden besvær."
+    },
+    "feature_3": {
+      "title": "Manipuler sider og tilpas dokumentstruktur - omarranger, skift eller fjern",
+      "description": "Tag kontrol over dine dokumenter ved at omarrangere sider, fjerne uønskede sider eller tilføje nye. GroupDocs.Merger for .NET giver dig mulighed for at manipulere dokumentstrukturen, så du kan tilpasse og skræddersy dine filer efter dine specifikke behov."
+    }
+  }
+}

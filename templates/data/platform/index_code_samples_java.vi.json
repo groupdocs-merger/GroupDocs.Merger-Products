@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "mẫu mã",
+    "description": "Một số trường hợp sử dụng GroupDocs.Merger điển hình cho các hoạt động Java",
+    "sample_1": {
+      "title": "Hợp nhất các tệp DOCX thành một tài liệu duy nhất",
+      "content_1": "Với tính năng [Hợp nhất tài liệu Word](https://docs.groupdocs.com/merger/java/merge/word/), bạn có thể kết hợp toàn bộ tệp DOCX thành một tài liệu duy nhất bằng cách tải tệp nguồn, thêm nhiều tệp DOCX để nối và lưu tài liệu đã hợp nhất.",
+      "content_2": "Dưới đây là đoạn mã Java thể hiện quá trình hợp nhất:",
+      "code_title": "Cách hợp nhất các tệp DOCX trong Java",
+      "comment_1": "Tải tệp DOCX nguồn",
+      "comment_2": "Thêm một tệp DOCX khác để hợp nhất",
+      "comment_3": "Hợp nhất các tệp DOCX và lưu kết quả"
+    },
+    "sample_2": {
+      "title": "Tách tài liệu PDF thành nhiều tệp",
+      "content_1": "Chia tài liệu thành nhiều tệp bằng tính năng [Split Document](https://docs.groupdocs.com/merger/java/split-document/) để đơn giản hóa quy trình quản lý và trích xuất các phần hoặc trang cụ thể từ các tài liệu lớn.",
+      "content_2": "Nó cho phép bạn chia tài liệu thành các phần nhỏ hơn dựa trên các tiêu chí khác nhau - theo phạm vi trang, theo trang bắt đầu/kết thúc, theo số trang lẻ/chẵn, v.v.",
+      "code_title": "Chia tài liệu thành nhiều tài liệu một trang",
+      "comment_1": "Tách tệp PDF bằng API GroupDocs.Merger cho Java",
+      "comment_2": "Khởi tạo lớp SplitOptions với định dạng đường dẫn tệp đầu ra",
+      "comment_3": "Khởi tạo Sáp nhập với tài liệu PDF đầu vào",
+      "comment_4": "Gọi phương thức tách và chuyển đối tượng SplitOptions để lưu tài liệu kết quả"
+    }
+  }
+}

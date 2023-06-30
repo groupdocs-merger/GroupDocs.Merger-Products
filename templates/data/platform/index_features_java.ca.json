@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Funcions de GroupDocs.Merger",
+    "description": "Combina, divideix i manipula documents PDF i Office sense problemes",
+    "feature_1": {
+      "title": "Combina fitxers",
+      "content": "Combina dos o més documents en un sol document, unint pàgines específiques o intervals de pàgines de diversos documents font."
+    },
+    "feature_2": {
+      "title": "Dividir el document",
+      "content": "Utilitzeu l'operació dividida per dividir un document font en diversos documents resultants, permetent una organització i una gestió eficients dels fitxers."
+    },
+    "feature_3": {
+      "title": "Mou pàgines",
+      "content": "Reposicioneu una pàgina dins d'un document amb suavitat aprofitant la funció MovePage."
+    },
+    "feature_4": {
+      "title": "Elimina pàgines",
+      "content": "Elimineu de manera efectiva pàgines individuals o una col·lecció de números de pàgina específics del document font amb la funció Elimina pàgines."
+    },
+    "feature_5": {
+      "title": "Gira les pàgines",
+      "content": "Aprofiteu l'operació Gira pàgines per girar fàcilment les pàgines d'un document especificant l'angle de rotació com a 90, 180 o 270 graus."
+    },
+    "feature_6": {
+      "title": "Intercanvi de pàgines",
+      "content": "Reorganitzeu l'ordre de les pàgines intercanviant les posicions de dues pàgines dins del document font, produint un nou document."
+    },
+    "feature_7": {
+      "title": "Extreu pàgines",
+      "content": "Genereu un document nou que contingui només les pàgines seleccionades extraient pàgines o intervals de pàgines concrets del document font."
+    },
+    "feature_8": {
+      "title": "Canvia l'orientació",
+      "content": "Modifiqueu l'orientació de la pàgina (vertical o horitzontal) per a pàgines específiques o totes les pàgines del document aprofitant l'operació ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Pàgines de vista prèvia",
+      "content": "Obtenir una comprensió més clara del contingut i l'estructura del document generant representacions d'imatge de les seves pàgines. Feu visualitzacions prèvies de totes les pàgines o només de pàgines específiques."
+    }
+  }
+}

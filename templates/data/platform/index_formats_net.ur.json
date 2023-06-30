@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "تائید شدہ فائل فارمیٹس",
+    "description": ".NET کے لیے GroupDocs.Merger درج ذیل [دستاویزی فائل فارمیٹس](https://docs.groupdocs.com/merger/net/supported-document-formats/) کے ساتھ کارروائیوں کی حمایت کرتا ہے۔",
+    "groups": {
+      "title_1": "مائیکروسافٹ آفس فارمیٹس",
+      "title_2": "دستاویزات اور تصاویر",
+      "title_3": "دیگر فارمیٹس",
+      "format_documents": "دستاویزات",
+      "format_images": "امیجز",
+      "format_web": "ویب",
+      "format_archives": "آرکائیوز"
+    }
+  }
+}

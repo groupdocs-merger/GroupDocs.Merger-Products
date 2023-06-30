@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "代码示例",
+    "description": "Java 操作的典型 GroupDocs.Merger 的一些用例",
+    "sample_1": {
+      "title": "将 DOCX 文件合并为单个文档",
+      "content_1": "使用[合并Word文档](https://docs.groupdocs.com/merger/java/merge/word/)功能，您可以通过加载源文件、添加更多DOCX文件来将整个DOCX文件合并到一个文档中，并保存合并的文档。",
+      "content_2": "下面是演示合并过程的 Java 代码片段：",
+      "code_title": "如何在Java中合并DOCX文件",
+      "comment_1": "加载源 DOCX 文件",
+      "comment_2": "添加另一个 DOCX 文件进行合并",
+      "comment_3": "合并 DOCX 文件并保存结果"
+    },
+    "sample_2": {
+      "title": "将 PDF 文档拆分为多个文件",
+      "content_1": "使用[分割文档](https://docs.groupdocs.com/merger/java/split-document/)功能将文档分割为多个文件，以简化管理和从大型文档中提取特定部分或页面的过程。",
+      "content_2": "它允许您根据各种标准将文档分成更小的部分 - 按页面范围、按起始页/结束页、按奇数/偶数页码等。",
+      "code_title": "将文档拆分为多个一页文档",
+      "comment_1": "使用 Java API 的 GroupDocs.Merger 拆分 PDF 文件",
+      "comment_2": "使用输出文件路径格式初始化 SplitOptions 类",
+      "comment_3": "使用输入 PDF 文档实例化合并",
+      "comment_4": "调用 split 方法并传递 SplitOptions 对象来保存结果文档"
+    }
+  }
+}

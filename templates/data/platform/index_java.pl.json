@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Interfejs API scalania dokumentów Java | scalaj i usuwaj Word Excel PDF XPS EPUB",
+    "description": "Dokumenty scalające API dla Javy. Łącz, dziel, zamieniaj, zmieniaj kolejność i usuwaj strony w formatach PDF, Microsoft Word, Excel, prezentacji, Visio, XPS i EPUB."
+  },
+  "header": {
+    "title_1": "Połącz dokumenty",
+    "title_2": "poprzez API Javy",
+    "description": "Elastyczny interfejs API łączenia do łatwego łączenia, dzielenia lub modyfikowania dokumentów PDF i dokumentów pakietu Office",
+    "words": {
+      "for": "Do"
+    }
+  },
+  "actions": {
+    "main": "Bezpłatne pobieranie Mavena",
+    "alt": "Koncesjonowanie",
+    "title": "Gotowy żeby zacząć?",
+    "description": "Wypróbuj funkcje GroupDocs.Merger za darmo lub poproś o licencję"
+  },
+  "release": {
+    "title": "Wydano wersję {0}",
+    "notes": "Zobacz co nowego",
+    "downloads": "Pliki do pobrania"
+  }
+}

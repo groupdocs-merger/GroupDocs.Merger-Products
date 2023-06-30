@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "GroupDocs produkte resensies",
+    "description": "Moenie net ons woord daarvoor vat nie. Kyk wat ander ontwikkelaars oor ons API's sê",
+    "review_1": {
+      "content": "Uitstekende diens en uitstekende produkte. Hulle was uiters behulpsaam en reageer tydens die GroupDocs.Viewer vir .NET implementeringsproses, kan hulle nie sterk genoeg aanbeveel nie.",
+      "author": "Martin Lasarga",
+      "company": "Produkbestuurder by Axentria ECM deur G.S.I."
+    },
+    "review_2": {
+      "content": "Nadat GroupDocs.Viewer vir .NET in die projek geïmplementeer en gebruik is, lyk dit of dit baie goed werk. Ek het met baie dokumente getoets en tot dusver so goed. Alles wat ek daarna gegooi het, word mooi weergegee en lyk net so goed soos in 'n PDF-kyker of MS Word.",
+      "author": "Mats Oustad",
+      "company": "Senior konsultant/vennoot by Novanet AS"
+    }
+  }
+}

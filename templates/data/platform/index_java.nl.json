@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API voor het samenvoegen van Java-documenten | voeg samen en verwijder Word Excel PDF XPS EPUB",
+    "description": "Documenten die API voor Java samenvoegen. Pagina's van PDF-, Microsoft Word-, Excel-, presentatie-, Visio-, XPS- en EPUB-indelingen samenvoegen, splitsen, omwisselen, opnieuw ordenen en verwijderen."
+  },
+  "header": {
+    "title_1": "Documenten samenvoegen",
+    "title_2": "via Java-API",
+    "description": "Flexibele Merger API om eenvoudig PDF- en Office-documenten te combineren, splitsen of wijzigen",
+    "words": {
+      "for": "voor"
+    }
+  },
+  "actions": {
+    "main": "Maven gratis downloaden",
+    "alt": "Licentieverlening",
+    "title": "klaar om te beginnen?",
+    "description": "Probeer de functies van GroupDocs.Merger gratis of vraag een licentie aan"
+  },
+  "release": {
+    "title": "Versie {0} uitgebracht",
+    "notes": "Zie wat nieuw is",
+    "downloads": "Downloaden"
+  }
+}

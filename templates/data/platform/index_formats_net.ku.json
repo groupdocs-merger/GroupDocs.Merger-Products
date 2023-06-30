@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Formatên pelê piştgirî kirin",
+    "description": "GroupDocs.Merger ji bo .NET operasyonên bi [formatên pelên pelgeyê](https://docs.groupdocs.com/merger/net/supported-document-formats/) yên jêrîn piştgirî dike.",
+    "groups": {
+      "title_1": "Formatên Microsoft Office",
+      "title_2": "Belge û wêne",
+      "title_3": "Formên din",
+      "format_documents": "Documents",
+      "format_images": "Wêne",
+      "format_web": "Tevn",
+      "format_archives": "Kitik"
+    }
+  }
+}

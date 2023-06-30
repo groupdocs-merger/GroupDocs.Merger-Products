@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API hợp nhất tài liệu Java | hợp nhất và xóa Word Excel PDF XPS EPUB",
+    "description": "API hợp nhất tài liệu cho Java. Hợp nhất, tách, hoán đổi, sắp xếp lại và xóa các trang có định dạng PDF, Microsoft Word, Excel, bản trình bày, Visio, XPS & EPUB."
+  },
+  "header": {
+    "title_1": "Hợp nhất tài liệu",
+    "title_2": "thông qua API Java",
+    "description": "API hợp nhất linh hoạt để dễ dàng kết hợp, chia nhỏ hoặc sửa đổi Tài liệu PDF và Office",
+    "words": {
+      "for": "vì"
+    }
+  },
+  "actions": {
+    "main": "Tải xuống Maven miễn phí",
+    "alt": "cấp phép",
+    "title": "Sẵn sàng để bắt đầu?",
+    "description": "Dùng thử miễn phí các tính năng của GroupDocs.Merger hoặc yêu cầu giấy phép"
+  },
+  "release": {
+    "title": "Phiên bản {0} đã phát hành",
+    "notes": "Xem có gì mới",
+    "downloads": "Tải xuống"
+  }
+}

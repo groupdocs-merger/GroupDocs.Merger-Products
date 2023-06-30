@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Apvienošanās īsumā",
+    "description": "API, lai Java lietojumprogrammās apvienotu, sadalītu, apmainītu, apgrieztu vai noņemtu dokumentus, slaidus un diagrammas",
+    "feature_1": {
+      "title": "Bez piepūles apvienojiet vairākus dokumentus Java",
+      "description": "Viegli apvienojiet PDF un Office failus vienā dokumentā Java, izmantojot GroupDocs.Merger bibliotēkas iespējas. Gūstiet labumu no tā plašā formātu atbalsta, kas ļauj nemanāmi apvienot dažādus failu tipus, tādējādi nodrošinot ērtu un racionalizētu sapludināšanas procesu."
+    },
+    "feature_2": {
+      "title": "Racionalizējiet dokumentu pārvaldību, viegli sadalot lielapjoma failus",
+      "description": "Sadaliet lielus PDF vai Office failus mazākās, viegli apstrādājamās sadaļās. Jūs varat viegli un ērti sadalīt dokumentus, pamatojoties uz noteiktām lapām, diapazoniem vai pat izvilkt atsevišķas lapas. Racionalizējiet savu dokumentu pārvaldību, izmantojot nevainojamās GroupDocs.Merger bibliotēkas iespējas, un padariet savus failus sakārtotākus un pārvaldāmākus."
+    },
+    "feature_3": {
+      "title": "Pielāgojiet savu dokumentu struktūru un pilnībā kontrolējiet savus failus",
+      "description": "Ērti manipulējiet ar lapām, pārkārtojot, apmainot vai noņemot tās. Organizējiet un pielāgojiet savus dokumentus atbilstoši savām īpašajām prasībām, izmantojot elastību, lai izveidotu personalizētu failu struktūru."
+    }
+  }
+}

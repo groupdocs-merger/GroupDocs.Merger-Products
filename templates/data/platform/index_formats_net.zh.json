@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "支持的文件格式",
+    "description": ".NET 的 GroupDocs.Merger 支持使用以下[文档文件格式](https://docs.groupdocs.com/merger/net/supported-document-formats/) 的操作。",
+    "groups": {
+      "title_1": "微软办公格式",
+      "title_2": "文件和图片",
+      "title_3": "其他格式",
+      "format_documents": "文件",
+      "format_images": "图片",
+      "format_web": "网络",
+      "format_archives": "档案"
+    }
+  }
+}

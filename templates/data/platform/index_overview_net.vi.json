@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "Tổng quan về GroupDocs.Sáp nhập",
+    "description": "API để kết hợp, tách, hoán đổi, cắt hoặc xóa tài liệu, trang trình bày và sơ đồ trong các ứng dụng .NET",
+    "feature_1": {
+      "title": "Dễ dàng hợp nhất nhiều tài liệu trong C#",
+      "description": "Hợp nhất tài liệu: Kết hợp liền mạch nhiều tệp PDF và Office thành một tài liệu duy nhất, với sự hỗ trợ cho nhiều định dạng. GroupDocs.Merger dành cho .NET giúp hợp nhất tài liệu nhanh chóng và không gặp rắc rối."
+    },
+    "feature_2": {
+      "title": "Đơn giản hóa việc quản lý tài liệu bằng cách chia nhỏ các tệp lớn",
+      "description": "Chia nhỏ các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn một cách dễ dàng. GroupDocs.Merger dành cho .NET cho phép bạn phân chia tài liệu dựa trên các trang, phạm vi cụ thể hoặc thậm chí trích xuất các trang riêng lẻ một cách dễ dàng."
+    },
+    "feature_3": {
+      "title": "Thao tác với các trang và tùy chỉnh cấu trúc tài liệu - sắp xếp lại, hoán đổi hoặc xóa",
+      "description": "Kiểm soát tài liệu của bạn bằng cách sắp xếp lại các trang, xóa các trang không mong muốn hoặc thêm các trang mới. GroupDocs.Merger dành cho .NET trao quyền cho bạn thao tác cấu trúc tài liệu, cho phép bạn tùy chỉnh và điều chỉnh các tệp theo nhu cầu cụ thể của mình."
+    }
+  }
+}

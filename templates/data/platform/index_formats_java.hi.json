@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "समर्थित फ़ाइल स्वरूप",
+    "description": "जावा के लिए GroupDocs.Merger निम्नलिखित [दस्तावेज़ फ़ाइल स्वरूपों](https://docs.groupdocs.com/merger/java/supported-document-formats/) के साथ संचालन का समर्थन करता है।",
+    "groups": {
+      "title_1": "माइक्रोसॉफ्ट ऑफिस प्रारूप",
+      "title_2": "दस्तावेज़ एवं छवियाँ",
+      "title_3": "अन्य प्रारूप",
+      "format_documents": "दस्तावेज़",
+      "format_images": "इमेजिस",
+      "format_web": "वेब",
+      "format_archives": "अभिलेखागार"
+    }
+  }
+}

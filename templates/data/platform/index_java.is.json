@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Java Document Sameining API | sameina og fjarlægja Word Excel PDF XPS EPUB",
+    "description": "Skjöl sameina API fyrir Java. Sameina, skipta, skipta um, endurraða og eyða síðum af PDF, Microsoft Word, Excel, kynningum, Visio, XPS og EPUB sniðum."
+  },
+  "header": {
+    "title_1": "Sameina skjöl",
+    "title_2": "í gegnum Java API",
+    "description": "Sveigjanlegt samruna API til að sameina, skipta eða breyta PDF og Office skjölum auðveldlega",
+    "words": {
+      "for": "fyrir"
+    }
+  },
+  "actions": {
+    "main": "Maven niðurhal ókeypis",
+    "alt": "Leyfisveitingar",
+    "title": "Tilbúinn til að byrja?",
+    "description": "Prófaðu GroupDocs.Merger eiginleika ókeypis eða biddu um leyfi"
+  },
+  "release": {
+    "title": "Útgáfa {0} gefin út",
+    "notes": "Sjáðu hvað er nýtt",
+    "downloads": "Niðurhal"
+  }
+}

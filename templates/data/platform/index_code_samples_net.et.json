@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Koodi näidised",
+    "description": "Mõned tüüpilised GroupDocs.Mergeri juhtumid kasutavad .NET-i toimingute jaoks",
+    "sample_1": {
+      "title": "Ühendage konkreetsed DOCX-faili lehed üheks dokumendiks",
+      "content_1": "Funktsioon [Selective Page Merge](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) võimaldab teil igast failist eraldada ja liita ainult soovitud sisu.",
+      "content_2": "Siin on näide selle kohta, kuidas C# abil lehtede valikulist liitmist saavutada:",
+      "code_title": "Kuidas ühendada DOCX-faile C#-s",
+      "comment_1": "Laadige DOCX-i lähtefail",
+      "comment_2": "Lisage ühendamiseks veel üks DOCX-fail",
+      "comment_3": "Ühendage DOCX-failid ja salvestage tulemus"
+    },
+    "sample_2": {
+      "title": "Jagage PDF-dokument mitmeks failiks",
+      "content_1": "Jagage dokument tõhusalt mitmeks failiks funktsiooniga [Dokumendi jagamine](https://docs.groupdocs.com/merger/net/split-document/), mis lihtsustab suurtest dokumentidest konkreetsete jaotiste või lehtede haldamist ja eraldamist.",
+      "content_2": "See võimaldab jagada dokumente väiksemateks osadeks erinevate kriteeriumide alusel – lehekülgede vahemiku, algus-/lõpulehekülgede, paaritu/paaritud leheküljenumbrite jne järgi.",
+      "code_title": "Kuidas jagada dokument mitmeks mitmeleheküljeliseks dokumendiks",
+      "comment_1": "PDF-faili jagamine, kasutades GroupDocs.Merger API",
+      "comment_2": "Initsialiseerige SplitOptions klass väljundfailide teevorminguga",
+      "comment_3": "Ühenda koheselt sisestatud PDF-dokumendiga",
+      "comment_4": "Helistage split-meetodile ja edastage saadud dokumentide salvestamiseks objekt SplitOptions"
+    }
+  }
+}

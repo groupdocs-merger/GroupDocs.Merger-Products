@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Funkce GroupDocs.Merger",
+    "description": "Bezproblémově slučujte, rozdělujte a manipulujte s PDF a dokumenty Office",
+    "feature_1": {
+      "title": "Kombinujte soubory",
+      "content": "Sloučení dvou nebo více dokumentů do jednoho dokumentu, spojení konkrétních stránek nebo rozsahů stránek z více zdrojových dokumentů."
+    },
+    "feature_2": {
+      "title": "Rozdělit dokument",
+      "content": "Využijte operaci rozdělení k rozdělení zdrojového dokumentu na více výsledných dokumentů, což umožňuje efektivní organizaci a správu souborů."
+    },
+    "feature_3": {
+      "title": "Přesunout stránky",
+      "content": "Hladce přemístěte stránku v dokumentu pomocí funkce MovePage."
+    },
+    "feature_4": {
+      "title": "Odstraňte stránky",
+      "content": "Efektivně odeberte jednotlivé stránky nebo kolekci konkrétních čísel stránek ze zdrojového dokumentu pomocí funkce RemovePages."
+    },
+    "feature_5": {
+      "title": "Otočte stránky",
+      "content": "Využijte operaci RotatePages ke snadnému otáčení stránek v dokumentu zadáním úhlu otočení jako 90, 180 nebo 270 stupňů."
+    },
+    "feature_6": {
+      "title": "Vyměňte stránky",
+      "content": "Uspořádejte pořadí stránek výměnou pozic dvou stránek ve zdrojovém dokumentu, čímž vznikne nový dokument."
+    },
+    "feature_7": {
+      "title": "Extrahovat stránky",
+      "content": "Vygenerujte nový dokument obsahující pouze vybrané stránky extrahováním konkrétních stránek nebo rozsahů stránek ze zdrojového dokumentu."
+    },
+    "feature_8": {
+      "title": "Změňte orientaci",
+      "content": "Upravte orientaci stránky (na výšku nebo na šířku) pro konkrétní stránky nebo všechny stránky dokumentu pomocí operace ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Náhled stránek",
+      "content": "Získejte jasnější představu o obsahu a struktuře dokumentu vygenerováním obrazových reprezentací jeho stránek. Vytvářejte náhledy všech nebo jen konkrétních stránek."
+    }
+  }
+}

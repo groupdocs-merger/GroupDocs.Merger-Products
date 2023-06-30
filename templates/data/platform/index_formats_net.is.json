@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Stutt skráarsnið",
+    "description": "GroupDocs.Merger for .NET styður aðgerðir með eftirfarandi [skjalaskráarsniðum](https://docs.groupdocs.com/merger/net/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office snið",
+      "title_2": "Skjöl og myndir",
+      "title_3": "Önnur snið",
+      "format_documents": "Skjöl",
+      "format_images": "Myndir",
+      "format_web": "vefur",
+      "format_archives": "Skjalasafn"
+    }
+  }
+}

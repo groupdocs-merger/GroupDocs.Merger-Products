@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-25T12:08:54
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,234 @@ head_title: "C# .NET Document Merging API | ترکیب و تقسیم PDF Word Ex
 head_description: "C# .NET ادغام API اسناد برای ترکیب، تقسیم، تعویض یا حذف صفحات سند از PDF، Microsoft Word، Excel، ارائه ها، Visio و فرمت های تصویر."
 
 ############################# Header ############################
-title: "NET API برای ادغام و تقسیم اسناد"
-description: "API برای ترکیب، تقسیم، تعویض، برش یا حذف اسناد، اسلایدها و نمودارها در برنامه های NET."
-button:
-    enable: true
+title: "اسناد را ادغام کنید<br>از طریق NET API"
+description: "API ادغام قدرتمند برای دستکاری PDF، Microsoft Office، HTML و فایل های تصویری."
+words:
+  for: "برای"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "دانلود رایگان NuGet"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "صدور مجوز"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "برای شروع آماده اید؟"
+  description: "ویژگی های GroupDocs.Merger را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "بررسی اجمالی"
+release:
+  title: "نسخه {0} منتشر شد"
+  notes: "ببینید چه چیز جدیدی است"
+  downloads: "دانلودها"
 
-            # button loop
-            - link: "#features"
-              text: "امکانات"
+code:
+  title: "ادغام فایل های PDF در سی شارپ"
+  more: "نمونه های بیشتر"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // فایل PDF منبع را بارگیری کنید
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // یک فایل PDF دیگر برای ادغام اضافه کنید
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "پشتیبانی"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "نسخه نمایشی زنده"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "قیمت گذاری"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // فایل های PDF را ادغام کنید و نتیجه را ذخیره کنید
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger برای دات نت، به شما کمک می کند تا به سرعت برنامه های تجاری درجه یک را در سی شارپ، ASP.NET و سایر فناوری های دات نت توسعه دهید. تنها چند خط کد به برنامه‌های دات‌نت شما امکان می‌دهد تا ترکیب، تقسیم، مرتب‌سازی مجدد، تعویض، برش و حذف یک صفحه یا مجموعه‌ای از صفحات سند، اسلایدها، تصاویر یا نمودارها را انجام دهند. این عملیات را بر روی فایل های امن با تنظیم یا حذف حفاظت از رمز عبور فرمت های فایل شناخته شده و ناشناخته انجام دهید.  
+  enable: true
+  title: "GroupDocs.Merger در یک نگاه"
+  description: "API برای ترکیب، تقسیم، تعویض، برش یا حذف اسناد، اسلایدها و نمودارها در برنامه‌های NET"
+  features:
+    # feature loop
+    - title: "ادغام بی دردسر چندین سند در سی شارپ"
+      content: "ادغام اسناد: چندین فایل PDF و Office را با پشتیبانی از طیف گسترده ای از فرمت ها به صورت یکپارچه در یک سند واحد ترکیب کنید. GroupDocs.Merger برای دات نت ادغام اسناد را سریع و بدون دردسر می کند."
 
-      با استفاده از GroupDocs.Merger برای دات نت، می توانید ادغام را انجام دهید. تقسیم و سایر عملیات مربوط به اسناد واحد و همچنین دسته ای از اسناد. به‌صورت برنامه‌ریزی فایل‌های همه فرمت‌های محبوب مانند Microsoft Word، Excel، PowerPoint، Visio، OpenDocument، PDF، XPS، TXT، CSV، کتاب الکترونیکی و فرمت‌های فایل تصویری را به هم متصل کنید.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          در زیر یک نمای کلی از GroupDocs.Merger برای دات نت ارائه شده است:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "عملیات سند"
-          content: |
-            * تغییر ترتیب صفحه
-            * حذف یا حذف صفحات
-            * تقسیم یا شکستن سند
-            * هر دو صفحه را جابه‌جا یا به هم بزنید
-            * یک یا چند صفحه را کوتاه کنید
-            * به چندین سند بپیوندید
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "عملیات امنیتی"
-          content: |
-            * راه اندازی امنیت سند
-            * وضعیت امنیت سند را بررسی کنید
-            * رمز عبور سند را تنظیم کنید
-            * رمز عبور سند را به روز کنید
-            * رمز عبور سند را حذف کنید
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger for .NET از ادغام [قالب‌های فایل سند] زیر پشتیبانی می‌کند (https://docs.groupdocs.com/merger/net/supported-document-formats/):
+    # feature loop
+    - title: "مدیریت اسناد را با تقسیم فایل های بزرگ ساده کنید"
+      content: "فایل های PDF یا Office بزرگ را به آسانی به بخش های کوچکتر و قابل مدیریت تر تقسیم کنید. GroupDocs.Merger for .NET شما را قادر می سازد اسناد را بر اساس صفحات خاص، محدوده یا حتی صفحات جداگانه استخراج کنید."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "مایکروسافت آفیس"
-              content: |
-                * **Word:** DOC، DOCX، DOCM، DOT، DOTX، DOTM، RTF، TXT
-                * **اکسل:** XLS، XLSX، XLSM، XLSB، XLTM، XLT، XLTM، XLTX، XLAM، SXC، صفحه گستردهML
-                * **پاورپوینت:** PPT، PPTX، PPS، PPSX، PPSM، POT، POTM، POTX، PPTM
-                * ** OneNote: ** ONE
+    # feature loop
+    - title: "صفحات را دستکاری کنید و ساختار سند را سفارشی کنید - مرتب سازی مجدد، تعویض یا حذف"
+      content: "با مرتب کردن مجدد صفحات، حذف صفحات ناخواسته یا افزودن صفحات جدید، کنترل اسناد خود را در دست بگیرید. GroupDocs.Merger for .NET به شما این امکان را می دهد که ساختار سند را دستکاری کنید و به شما امکان می دهد فایل های خود را مطابق با نیازهای خاص خود سفارشی و تنظیم کنید."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument و سایر فرمت ها"
-              content: |
-                * ** فرمت های سند باز **: ODT، OTT، ODP، OTP، ODS
-                * ** چیدمان ثابت **: PDF، XPS
-                * **تصاویر**: BMP، PNG، TIFF
-                * **وب**: HTML، MHT، MHTML
-                * **متن**: TXT، CSV، TSV
-                * **لاتکس**: TEX
-                * **کتاب الکترونیک**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "استقلال سکو"
+  description: "GroupDocs.Merger برای دات نت از سیستم عامل ها، فریم ورک ها و مدیران بسته های زیر پشتیبانی می کند"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger for .NET از سیستم عامل ها، فریم ورک ها و مدیران بسته زیر پشتیبانی می کند:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "سیستم های عامل"
-              content: |
-                * دسکتاپ ویندوز
-                * ویندوز سرور
-                * Windows Azure
-                * لینوکس
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "چارچوب های پشتیبانی شده"
-              content: |
-                * NET Framework 2.0 یا بالاتر
-                * Mono Framework 1.2 یا بالاتر
-                * دات نت استاندارد 2.0
-                * NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "مدیر بسته"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "محیط های توسعه"
-              content: |
-                * مایکروسافت ویژوال استودیو
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "فرمت های فایل پشتیبانی شده"
+  description: |
+    GroupDocs.Merger for .NET [قالب‌های فایل سند](https://docs.groupdocs.com/merger/java/supported-document-formats/) برای جاوا از عملیات با
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### فرمت های مایکروسافت آفیس
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### اسناد و تصاویر
+        * **اسناد:** PDF, XPS, TEX
+        * **تصاویر:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### فرمت های دیگر
+        * **وب:**  HTML, MHTML, MHT
+        * **آرشیوها:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger برای ویژگی های NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "چندین صفحه، اسلاید و نمودار را در یک سند ترکیب و ادغام کنید"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "اسناد بزرگ را به چندین فایل کوچکتر تقسیم و تقسیم کنید"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "صفحات، اسلایدها یا نمودارها را دوباره مرتب کنید، به هم بزنید و سازماندهی مجدد کنید"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "دو صفحه، اسلاید یا نمودار را با یکدیگر در یک سند تعویض و مبادله کنید"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "با حذف صفحات، اسلایدها یا نمودارهای خاص، سند را برش دهید"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "حذف تک یا مجموعه ای از صفحات، اسلایدها یا نمودارها"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "تعداد زیادی از اسناد را به صورت دسته ای به هم بچسبانید"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "به صورت برنامه‌ریزی بررسی کنید که آیا سند با رمز عبور ایمن شده است یا خیر"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "تنظیم، بازنشانی و حذف رمز عبور فرمت های سند شناخته شده و ناشناخته"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "واکشی فهرست فرمت‌های فایل پشتیبانی‌شده - قالب فایل ورود به متن تقسیم و پیوستن (ERR)"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "صفحات را بچرخانید و جهت صفحه فرمت های شناخته شده و ناشناخته را تغییر دهید"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "چندین فایل با فرمت های مختلف را با DOC، DOCX و XPS ترکیب کنید"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "تقسیم فایل های متنی بزرگ بر اساس شماره خط"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "نمایش تصاویر صفحات سند و فرمت های خانواده نمودار را به دست آورید"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "به تصاویر با رنگ پس زمینه برای فضای خالی تصویر سیاه بپیوندید"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "ادغام انواع مختلف اسناد (DOC، XLS، PPT و غیره) در یک فایل PDF واحد"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "به راحتی اشیاء OLE را به انواع فایل Microsoft Word، Excel، Presentation و OpenDocument وارد کنید"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "اسناد دیگر را از طریق اشیاء OLE به صفحه نمودار اضافه کنید"
-
-    more_feature:
-      # more_feature_loop
-      - title: "حذف صفحات دلخواه از اسناد"
-        content: |
-          GroupDocs.Merger for .NET API به شما کمک می کند صفحات ناخواسته را از سند خود حذف کنید.
-      
-      # more_feature_loop
-      - title: "Transformation را در خروجی رندر شده اعمال کنید"
-        content: "می‌توانید با استفاده از GroupDocs.Merger برای NET API، تبدیل‌های مختلفی را در سند خروجی ارائه‌شده انجام دهید. این گزینه های تبدیل به شما امکان کنترل نحوه ارائه خروجی رندر شده برای نمایش را می دهد. تبدیل های موجود عبارتند از، گزینه چرخش صفحه، گزینه ترتیب مجدد صفحه و اعمال واترمارک متن."
-
-      # more_feature_loop
-      - title: "رمز عبور فرمت سند ناشناخته را بررسی کنید"
-        content: "GroupDocs.Merger for .NET API شما را قادر می سازد رمز عبور سندی را که قالب آن مشخص نیست بررسی کنید."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger API های ادغام اسناد را برای سایر محیط های توسعه محبوب ارائه می دهد"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger برای جاوا"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "ویژگی های GroupDocs.Merger"
+  description: "اسناد PDF و Office را به طور یکپارچه ادغام، تقسیم و دستکاری کنید"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "ادغام فایل ها"
+      content: "ترکیب دو یا چند سند در یک سند واحد، ادغام صفحات خاص یا محدوده صفحات از چندین سند منبع."
+
+    # feature loop
+    - icon: "split"
+      title: "تقسیم اسناد"
+      content: "با استفاده از عملیات تقسیم یک سند منبع را به چندین سند حاصل تقسیم کنید."
+
+    # feature loop
+    - icon: "move"
+      title: "صفحات را جابجا کنید"
+      content: "با استفاده از ویژگی MovePage، صفحات را در یک سند تغییر دهید."
+
+    # feature loop
+    - icon: "remove"
+      title: "حذف صفحات"
+      content: "صفحات جداگانه یا مجموعه ای از شماره صفحه های خاص را از سند منبع حذف کنید."
+
+    # feature loop
+    - icon: "rotate"
+      title: "چرخاندن صفحات"
+      content: "با تنظیم زاویه چرخش 90، 180 یا 270 درجه با استفاده از عملیات RotatePages، صفحات درون یک سند را بچرخانید."
+
+    # feature loop
+    - icon: "swap"
+      title: "تعویض صفحات"
+      content: "موقعیت های دو صفحه را در سند مبدا مبادله کنید و یک سند جدید با موقعیت های صفحه عوض شده ایجاد کنید."
+
+    # feature loop
+    - icon: "extract"
+      title: "استخراج صفحات"
+      content: "صفحات خاص یا محدوده های صفحه را از یک سند منبع استخراج کنید و یک سند جدید که فقط حاوی صفحات انتخاب شده باشد ایجاد کنید."
+
+    # feature loop
+    - icon: "orientation"
+      title: "تغییر جهت"
+      content: "جهت صفحه (عمودی یا افقی) را برای صفحات خاص یا تمام صفحات سند با استفاده از عملیات ChangeOrientation تنظیم کنید."
+
+    # feature loop
+    - icon: "preview"
+      title: "پیش نمایش صفحات"
+      content: "برای درک بهتر محتوا و ساختار، تصاویری از صفحات سند ایجاد کنید. پیش نمایش همه یا فقط صفحات خاص را انجام دهید."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "نمونه کد"
+  description: "برخی از موارد معمولی GroupDocs.Merger برای عملیات NET استفاده می کنند"
+  items:
+    # code sample loop
+    - title: "صفحات فایل DOCX خاص را در یک سند ادغام کنید"
+      content: |
+        ویژگی [Selective Page Merge](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) به شما امکان می دهد فقط محتوای مورد نظر را از هر فایل استخراج و ادغام کنید. در اینجا مثالی از نحوه دستیابی به ادغام انتخابی صفحات با استفاده از C# آورده شده است:
+        {{< landing/code title="نحوه ادغام فایل های DOCX در سی شارپ">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // فایل منبع DOCX را بارگیری کنید
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // یک فایل DOCX دیگر برای ادغام اضافه کنید
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // فایل های DOCX را ادغام کنید و نتیجه را ذخیره کنید
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "سند PDF را به چندین فایل تقسیم کنید"
+      content: |
+        با ویژگی [Split Document](https://docs.groupdocs.com/merger/net/split-document/) یک سند را به چندین فایل تقسیم کنید که فرآیند مدیریت و استخراج بخش‌ها یا صفحات خاص از اسناد بزرگ را ساده می‌کند. این به شما امکان می دهد اسناد را بر اساس معیارهای مختلف به بخش های کوچکتر تقسیم کنید - بر اساس محدوده صفحه، صفحات شروع / پایان، بر اساس شماره صفحات فرد / زوج و غیره.
+        {{< landing/code title="نحوه تقسیم سند به چندین سند چند صفحه ای">}}
+        ```csharp {style=abap}   
+        // فایل PDF را با استفاده از GroupDocs.Merger API تقسیم کنید
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // کلاس SplitOptions را با فرمت مسیر فایل های خروجی راه اندازی کنید
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // ادغام فوری با سند PDF ورودی
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // فراخوانی روش تقسیم و ارسال شی SplitOptions برای ذخیره اسناد حاصل
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "بررسی محصولات GroupDocs"
+# description: "فقط حرف ما را قبول نکنید. ببینید سایر توسعه دهندگان در مورد API های ما چه می گویند"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "خدمات عالی و محصولات عالی. آنها در طول فرآیند اجرای GroupDocs.Viewer برای دات نت بسیار مفید و پاسخگو بودند، نمی توان آنها را به اندازه کافی توصیه کرد."
+#     author: "مارتین لاسارگا"
+#     company: "مدیر محصول در Axentria ECM توسط G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "پس از پیاده سازی و استفاده از GroupDocs.Viewer برای دات نت در پروژه، به نظر می رسد که بسیار خوب کار می کند. من با مدارک زیادی تست کردم و تا الان خیلی خوبه. همه چیزهایی که به آن پرتاب کرده‌ام به خوبی رندر می‌شوند و به همان خوبی که در یک نمایشگر PDF یا MS Word به نظر می‌رسند."
+#     author: "ماتس اوستاد"
+#     company: "مشاور ارشد/شریک در Novanet AS"
 ---

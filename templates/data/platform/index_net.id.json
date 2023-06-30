@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C# .NET Penggabungan Dokumen API | Gabungkan & Pisahkan PDF Word Excel EPUB",
+    "description": "API penggabungan dokumen C# .NET untuk menggabungkan, memisahkan, menukar, atau menghapus halaman dokumen dari format PDF, Microsoft Word, Excel, presentasi, Visio, dan gambar."
+  },
+  "header": {
+    "title_1": "Menggabungkan dokumen",
+    "title_2": "melalui .NET API",
+    "description": "API penggabungan yang kuat untuk memanipulasi file PDF, Microsoft Office, HTML, dan gambar.",
+    "words": {
+      "for": "untuk"
+    }
+  },
+  "actions": {
+    "main": "Unduh NuGet Gratis",
+    "alt": "Lisensi",
+    "title": "Siap untuk memulai?",
+    "description": "Coba fitur GroupDocs.Merger secara gratis atau minta lisensi"
+  },
+  "release": {
+    "title": "Versi {0} dirilis",
+    "notes": "Lihat apa yang baru",
+    "downloads": "Download"
+  }
+}

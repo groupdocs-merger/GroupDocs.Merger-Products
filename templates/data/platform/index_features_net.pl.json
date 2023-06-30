@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Funkcje GroupDocs.Merger",
+    "description": "Bezproblemowo scalaj, dziel i manipuluj plikami PDF i dokumentami pakietu Office",
+    "feature_1": {
+      "title": "Połącz pliki",
+      "content": "Połącz dwa lub więcej dokumentów w jeden dokument, łącząc określone strony lub zakresy stron z wielu dokumentów źródłowych."
+    },
+    "feature_2": {
+      "title": "Podziel dokumenty",
+      "content": "Podziel dokument źródłowy na wiele wynikowych dokumentów za pomocą operacji podziału."
+    },
+    "feature_3": {
+      "title": "Przenieś strony",
+      "content": "Zmień położenie stron w dokumencie za pomocą funkcji MovePage."
+    },
+    "feature_4": {
+      "title": "Usuń strony",
+      "content": "Usuń pojedyncze strony lub zbiór określonych numerów stron z dokumentu źródłowego."
+    },
+    "feature_5": {
+      "title": "Obracaj strony",
+      "content": "Obracaj strony w dokumencie, ustawiając kąt obrotu na 90, 180 lub 270 stopni za pomocą operacji RotatePages."
+    },
+    "feature_6": {
+      "title": "Zamień strony",
+      "content": "Zamień pozycje dwóch stron w dokumencie źródłowym, tworząc nowy dokument z zamienionymi pozycjami stron."
+    },
+    "feature_7": {
+      "title": "Wyodrębnij strony",
+      "content": "Wyodrębnij określone strony lub zakresy stron z dokumentu źródłowego, generując nowy dokument zawierający tylko wybrane strony."
+    },
+    "feature_8": {
+      "title": "Zmień orientację",
+      "content": "Ustaw orientację strony (pionową lub poziomą) dla określonych lub wszystkich stron dokumentu za pomocą operacji ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Podgląd stron",
+      "content": "Generuj graficzne reprezentacje stron dokumentów, aby lepiej zrozumieć treść i strukturę. Twórz podglądy wszystkich lub tylko wybranych stron."
+    }
+  }
+}

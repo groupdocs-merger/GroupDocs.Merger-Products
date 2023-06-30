@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-11-10T09:07:24
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,235 @@ head_title: "Java Document Chumasc API | chumasc & bain Word Excel PDF XPS EPUB"
 head_description: "Doiciméid a chumasc API le haghaidh Java. Cumaisc, scoilt, babhtáil, athordaigh agus scrios leathanaigh PDF, Microsoft Word, Excel, láithreoireachtaí, formáidí Visio, XPS & EPUB."
 
 ############################# Header ############################
-title: "Java API chun Doiciméid a Chomhcheangail & a Scoilt"
-description: "Forbair aipeanna ardfheidhmíochta ar féidir leo leathanaigh, sleamhnáin agus léaráidí a chur le chéile, a sracadh, a shuffles, a ghearradh nó a scriosadh."
-button:
-    enable: true
+title: "Cumaisc doiciméid<br>trí Java API"
+description: "API Cumaisc Solúbtha chun Doiciméid PDF agus Oifige a chomhcheangal, a scoilt nó a mhodhnú go héasca"
+words:
+  for: "le haghaidh"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Maven saor in aisce, íoslódáil"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "Ceadúnú"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "Réidh le tosú?"
+  description: "Bain triail as gnéithe GroupDocs.Merger saor in aisce nó iarr ceadúnas"
+
+release:
+  title: "Leagan {0} eisithe"
+  notes: "Féach cad atá nua"
+  downloads: "Íoslódálacha"
+
+code:
+  title: "Chumasadh comhaid pdf i java"
+  more: "Tuilleadh samplaí"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // Íoslódáil an comhad PDF foinse
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // Cuir comhad PDF eile leis chun cumasc
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Forbhreathnú"
-
-            # button loop
-            - link: "#features"
-              text: "Gnéithe"
-
-            # button loop
-            - link: "#support"
-              text: "Tacaíocht"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Taispeántas beo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "Praghsáil"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // Cumaisc comhaid PDF agus sábháil an toradh
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Déanann GroupDocs.Merger do Java tú in ann feidhmchláir ghnó barr-líne a fhorbairt go tapa i Java. Le beagán códaithe is féidir le d'fheidhmchláir Java a chumasc, a sracadh, a shuffle, a ghearradh agus a scriosadh aon leathanach amháin nó baisc de leathanaigh, sleamhnáin agus léaráidí. Is féidir oibríochtaí cumaisc a dhéanamh freisin ar chomhaid shlána d'fhormáid aitheanta agus anaithnid trí chosaint pasfhocail a chur i bhfeidhm nó a bhaint.  
+  enable: true
+  title: "Sracfhéachaint ar GroupDocs.Merger"
+  description: "API chun doiciméid, sleamhnáin agus léaráidí i bhfeidhmchláir Java a chur le chéile, a scoilt, a mhalartú, a bhearradh nó a bhaint"
+  features:
+    # feature loop
+    - title: "Cumasc doiciméid iolracha i Java gan stró"
+      content: "Cumasc comhaid PDF agus Oifige go héasca i ndoiciméad amháin i Java, ag baint úsáide as cumais na leabharlainne GroupDocs.Merger. Leas a bhaint as a thacaíocht formáid fhairsing, a ligeann duit a chur le chéile gan uaim cineálacha comhaid éagsúla, a eascraíonn i próiseas cumasc áisiúil agus sruthlínithe."
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Seo a leanas forbhreathnú ar GroupDocs.Merger do Java:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Oibríochtaí Doiciméad"
-          content: |
-            * Ordú Leathanach a Athrú
-            * Bain nó Scrios Leathanaigh
-            * Doiciméad Scoilte nó Briseadh
-            * Babhtáil nó Suaith dhá leathanach ar bith
-            * Baile Átha Troim leathanaigh singil nó iolracha
-            * Cláraigh le doiciméid iolracha
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Oibríochtaí Slándála"
-          content: |
-            * Socrú slándála doiciméad
-            * Seiceáil stádas slándála doiciméad
-            * Socraigh pasfhocal doiciméid
-            * Nuashonraigh pasfhocal doiciméad
-            * Bain pasfhocal doiciméad
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Tacaíonn GroupDocs.Merger le haghaidh Java leis na [formáidí comhaid doiciméad](https://docs.groupdocs.com/merger/java/supported-document-formats/):
+    # feature loop
+    - title: "Bainistíocht doiciméad a shruthlíniú trí chomhaid toirtiúla a roinnt go héasca"
+      content: "Roinn comhaid mhóra PDF nó Oifige i gcodanna níos lú, a láimhseáiltear go héasca. Is féidir leat doiciméid a roinnt bunaithe ar leathanaigh ar leith, raonta, nó fiú leathanaigh aonair a bhaint as gan stró agus áisiúil. Déan do bhainistiú doiciméad a chuíchóiriú trí úsáid a bhaint as cumais gan uaim na leabharlainne GroupDocs.Merger agus déan do chuid comhad níos eagraithe agus níos soláimhsithe."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft office"
-              content: |
-                * **Focal:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, Scarbhileog
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Nóta amháin:** A hAON
+    # feature loop
+    - title: "Saincheap do struchtúr doiciméad agus smacht iomlán agat ar do chuid comhad"
+      content: "Déan na leathanaigh a ionramháil go héasca trí iad a athordú, a mhalartú nó a bhaint. Déan do dhoiciméid a eagrú agus a chur in oiriúint de réir do riachtanais shonracha agus an tsolúbthacht agat chun struchtúr comhaid phearsantaithe a chruthú."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument & Formáidí Eile"
-              content: |
-                * **Formáidí OpenDocument**: ODT, OTT, ODP, OTP, ODS
-                * ** Leagan Amach Seasta**: PDF, XPS
-                * **Íomhánna**: BMP, PNG, TIFF
-                * **Gréasán**: HTML, MHT, MHTML
-                * **Téacs**: TXT, CSV, TSV
-                * **LaTeX**: TEX
-                * **Ebook**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Neamhspleáchas ardán"
+  description: "Tacaíonn GroupDocs.Merger le haghaidh Java leis na córais oibriúcháin, creataí agus bainisteoirí pacáiste seo a leanas"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          Tacaíonn GroupDocs.Merger le haghaidh Java le Córais Oibriúcháin, Creataí & Bainisteoirí Pacáiste:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Córais oibriúcháin"
-              content: |
-                * Microsoft Windows Deasc
-                * Microsoft windows server
-                * Linux
-                * MacOS
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "Creataí Tacaithe"
-              content: |
-                * Java 7 (1. 7)
-                * Java 8 (1.8)
-                * Java 10
-                * Java 11 agus os a chionn
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Tógáil Uirlis Uathoibrithe"
-              content: |
-                * Maigheann
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Timpeallachtaí Forbartha"
-              content: |
-                * NetBeans
-                * IDEA IntelliJ
-                * Eclipse
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Formáidí comhaid tacaithe"
+  description: |
+    Tacaíonn GroupDocs.Merger le haghaidh Java le hoibríochtaí leis na [formáidí comhaid doiciméad](https://docs.groupdocs.com/merger/java/supported-document-formats/) seo a leanas.
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Formáidí microsoft office
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Doiciméid & íomhánna
+        * **Doiciméid:** PDF, XPS, TEX
+        * **Íomhánna:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Formáidí eile
+        * **Gréasán:**  HTML, MHTML, MHT
+        * **Cartlanna:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger le haghaidh Gnéithe Java"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Cumaisc leathanaigh, sleamhnáin & léaráidí éagsúla i gcomhad amháin"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Srac & scoilt doiciméid ollmhóra i gcomhaid iolracha níos lú"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Suaitheadh ​​& atheagrú leathanaigh, sleamhnáin nó léaráidí"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Malartú & babhtáil dhá leathanach, sleamhnán nó léaráid i measc a chéile laistigh de dhoiciméad"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Déan doiciméad a ghearradh agus a bhearradh trí leathanaigh, sleamhnáin nó léaráidí ar leith a bhaint"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Scrios leathanaigh, sleamhnáin nó léaráidí singil nó cnuasach"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Stitch & cumasc le chéile líon mór doiciméad i mbaisceanna"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Seiceáil go ríomhchláraithe i Java an bhfuil doiciméad daingnithe le pasfhocal"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Socraigh, athshocraigh agus bain pasfhocal as formáidí doiciméad aitheanta agus anaithnid"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Scoilt Comhad Téacs amháin go hIolrú ar Uimhreacha Líne"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Faigh Léiriú Íomhá ar Leathanaigh Doiciméad"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Cumaisc Il Doiciméid de Formáidí Éagsúla le Comhad PDF Aonair"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Cuir OLE Objects isteach i bhFormáidí PDF, Word, Excel, PowerPoint & Open Document"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Ceangail Comhaid de Dhoiciméad PDF go Clár"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Cuir Doiciméad leis an Léaráid trí OLE Objects"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Cumaisc Cineálacha Éagsúla Doiciméad (DOC, XLS, PPT srl) in Aon Chomhad PDF"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Iompórtáil go héasca Réada OLE isteach i Microsoft Word, Excel, Cur i Láthair agus Cineálacha Comhaid OpenDocument"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Cuir Doiciméid Eile leis an Leathanach Léaráide trí OLE Objects"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Bain Leathanaigh Inmhianaithe ó Dhoiciméid"
-        content: |
-          Ligeann GroupDocs.Merger le haghaidh Java API duit leathanaigh nach dteastaíonn uait a roghnú agus a scriosadh ó do dhoiciméad.
-      
-      # more_feature_loop
-      - title: "Seiceáil Pasfhocal i bhFormáid Doiciméid Anaithnid"
-        content: "Fiú mura bhfuil formáid doiciméid ar leith anaithnid, cuireann GroupDocs.Merger do Java ar do chumas pasfhocal doiciméid a sheiceáil agus a aisghabháil, má tá sé ar fáil."
-
-      # more_feature_loop
-      - title: "Cláraigh le Doiciméid atá faoi Chosaint le Pasfhocal de Formáidí Aitheanta"
-        content: "Ligeann GroupDocs.Merger le haghaidh Java API duit liosta doiciméad a fháil de bhformáidí aitheanta agus anaithnid."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "Tairgeann GroupDocs.Merger API cumasc doiciméad do thimpeallachtaí forbartha eile a bhfuil tóir orthu"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger le haghaidh .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Gnéithe GroupDocs.Merger"
+  description: "Doiciméid PDF agus Oifige a chumasc, a scoilt, agus a ionramháil gan uaim"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Comhcheangail comhaid"
+      content: "Cumaisc dhá dhoiciméad nó níos mó isteach i ndoiciméad amháin, ag nascadh leathanaigh ar leith nó raonta leathanaigh ó dhoiciméid iolracha."
+
+    # feature loop
+    - icon: "split"
+      title: "Doiciméad scoilte"
+      content: "Úsáid a bhaint as an oibríocht scoilte chun bundoiciméad a roinnt ina ildhoiciméid iarmhartacha, ag cur ar chumas eagrú agus bainistiú éifeachtach comhad."
+
+    # feature loop
+    - icon: "move"
+      title: "Bog leathanaigh"
+      content: "Déan leathanach a athshuíomh go réidh laistigh de dhoiciméad tríd an ngné MovePage a ghiaráil."
+
+    # feature loop
+    - icon: "remove"
+      title: "Bain leathanaigh"
+      content: "Bain go héifeachtach leathanaigh aonair nó bailiúchán d’uimhreacha leathanaigh ar leith den bhundoiciméad leis an ngné RemovePages."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Rothlaigh na leathanaigh"
+      content: "Bain leas as an oibríocht RotatePages chun leathanaigh a rothlú go héasca laistigh de dhoiciméad tríd an uillinn rothlaithe a shonrú mar 90, 180, nó 270 céim"
+
+    # feature loop
+    - icon: "swap"
+      title: "Malartaigh leathanaigh"
+      content: "Déan ord na leathanach a atheagrú trí shuíomhanna dhá leathanach laistigh den bhundoiciméad a mhalartú, agus doiciméad nua a tháirgeadh."
+
+    # feature loop
+    - icon: "extract"
+      title: "Sliocht leathanaigh"
+      content: "Gin doiciméad nua nach bhfuil ann ach na leathanaigh roghnaithe trí leathanaigh nó raonta leathanach ar leith a bhaint as an doiciméad foinseach."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Athrú treoshuíomh"
+      content: "Athraigh an treoshuíomh leathanaigh (portráid nó tírdhreach) do leathanaigh ar leith nó do gach leathanach den doiciméad tríd an oibríocht ChangeOrientation a ghiaráil."
+
+    # feature loop
+    - icon: "preview"
+      title: "Leathanaigh réamhamhairc"
+      content: "Faigh tuiscint níos soiléire ar ábhar agus ar struchtúr an doiciméid trí léiriú íomhánna dá leathanaigh a ghiniúint. Déan réamhamhairc de na leathanaigh ar fad nó díreach ar leith."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Cóid samplaí"
+  description: "Úsáideann roinnt cásanna de ghnáth GroupDocs.Merger le haghaidh oibríochtaí Java"
+  items:
+    # code sample loop
+    - title: "Cumaisc comhaid DOCX isteach i ndoiciméad amháin"
+      content: |
+        Leis an ngné [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) is féidir leat comhaid DOCX iomlána a chomhcheangal i ndoiciméad amháin tríd an mbunchomhad a lódáil, agus tuilleadh comhad DOCX a chur leis le bheith páirteach , agus an doiciméad cumaisc a shábháil. Seo thíos blúire de chód Java a thaispeánann an próiseas cumaisc:
+        {{< landing/code title="Conas comhaid DOCX a chumasc i Java">}}
+        ```java {style=abap}   
+        // Íoslódáil an comhad foinse DOCX
+        Merger merger = new Merger("sample1.docx");
+        // Cuir comhad DOCX eile leis chun cumasc
+        merger.join("sample2.docx");
+        // Cumaisc comhaid DOCX agus sábháil an toradh
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Scoilt doiciméad PDF i comhaid iolracha"
+      content: |
+        Roinn doiciméad ina chomhaid iolracha leis an ngné [Doiciméad Scoilte](https://docs.groupdocs.com/merger/java/split-document/) chun an próiseas a bhaineann le rannóga nó leathanaigh ar leith a bhainistiú agus a bhaint as doiciméid mhóra a shimpliú. Ligeann sé duit doiciméid a roinnt ina gcodanna níos lú bunaithe ar chritéir éagsúla - de réir raon na leathanach, de réir leathanaigh tosaigh/deireadh, de réir uimhreacha corr/cothromacha etc.
+        {{< landing/code title="Roinn an doiciméad ina roinnt doiciméad aon-leathanach">}}
+        ```java {style=abap}   
+        // Scoilt comhad PDF ag baint úsáide as GroupDocs.Merger do Java API
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // Tús a chur le rang SplitOptions le formáid cosáin comhaid aschuir
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // Cumasc toirt le hionchur doiciméad PDF
+        Merger merger = new Merger(filePath);
+
+        // Cuir glaoch ar an modh scoilte agus pas a fháil ó SplitOptions oibiachtúil chun na doiciméid iarmhartacha a shábháil
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Léirmheasanna ar tháirgí GroupDocs"
+# description: "Ná glac ár bhfocal faoi. Féach cad a deir forbróirí eile faoinár APIs"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Seirbhís den scoth agus táirgí den scoth. Bhí siad thar a bheith cabhrach agus freagrúil le linn phróiseas forfheidhmithe GroupDocs.Viewer do .NET, ní féidir iad a mholadh sách ard."
+#     author: "Máirtín Lasarga"
+#     company: "Bainisteoir Táirge ag Axentria ECM le G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Tar éis GroupDocs.Viewer do .NET a chur i bhfeidhm agus a úsáid sa tionscadal tá an chuma air go bhfuil sé ag obair go han-mhaith. Tá mé tástáil le go leor de na doiciméid agus go dtí seo chomh maith. Cuireann gach rud a chaith mé air le fáil go deas agus tá cuma chomh maith air agus a bheadh ​​​​i breathnóir PDF nó MS Word."
+#     author: "Mata Oustad"
+#     company: "Comhairleoir/Comhpháirtí Sinsearach ag Novanet AS"
 ---

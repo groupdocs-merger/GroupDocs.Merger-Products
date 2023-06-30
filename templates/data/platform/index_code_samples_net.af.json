@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Kode monsters",
+    "description": "Sommige gebruik gevalle van tipiese GroupDocs.Merger vir .NET-bedrywighede",
+    "sample_1": {
+      "title": "Voeg spesifieke DOCX-lêerbladsye saam in 'n enkele dokument",
+      "content_1": "Die [Selektiewe bladsysamevoeging](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/)-kenmerk laat jou toe om slegs die verlangde inhoud uit elke lêer te onttrek en saam te voeg.",
+      "content_2": "Hier is 'n voorbeeld van hoe om selektiewe bladsysamevoeging met C# te bewerkstellig:",
+      "code_title": "Hoe om DOCX-lêers in C# saam te voeg",
+      "comment_1": "Laai die bron DOCX-lêer",
+      "comment_2": "Voeg nog 'n DOCX-lêer by om saam te smelt",
+      "comment_3": "Voeg DOCX-lêers saam en stoor die resultaat"
+    },
+    "sample_2": {
+      "title": "Verdeel PDF-dokument in verskeie lêers",
+      "content_1": "Verdeel 'n dokument doeltreffend in veelvuldige lêers met die [Split Document](https://docs.groupdocs.com/merger/net/split-document/)-kenmerk wat die proses van bestuur en onttrekking van spesifieke afdelings of bladsye uit groot dokumente vergemaklik.",
+      "content_2": "Dit laat jou toe om dokumente in kleiner dele te verdeel op grond van verskeie kriteria - volgens bladsyreeks, volgens begin-/eindbladsye, volgens onewe/ewe bladsynommers, ens.",
+      "code_title": "Hoe om die dokument in verskeie multi-bladsy dokumente te verdeel",
+      "comment_1": "Verdeel PDF-lêer met GroupDocs.Merger vir Java API",
+      "comment_2": "Inisialiseer SplitOptions-klas met uitsetlêerspadformaat",
+      "comment_3": "Instansieer samesmelting met insette PDF-dokument",
+      "comment_4": "Roep split metode en slaag SplitOptions voorwerp om gevolglike dokumente te stoor"
+    }
+  }
+}

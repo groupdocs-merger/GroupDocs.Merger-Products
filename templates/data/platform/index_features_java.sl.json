@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Funkcije GroupDocs.Merger",
+    "description": "Brezhibno spajajte, delite in upravljajte dokumente PDF in Office",
+    "feature_1": {
+      "title": "Združi datoteke",
+      "content": "Združite dva ali več dokumentov v en sam dokument, združite določene strani ali obsege strani iz več izvornih dokumentov."
+    },
+    "feature_2": {
+      "title": "Razdeli dokument",
+      "content": "Uporabite operacijo razdelitve za razdelitev izvornega dokumenta na več nastalih dokumentov, kar omogoča učinkovito organizacijo in upravljanje datotek."
+    },
+    "feature_3": {
+      "title": "Premikanje strani",
+      "content": "Gladko prestavite stran v dokumentu z uporabo funkcije MovePage."
+    },
+    "feature_4": {
+      "title": "Odstrani strani",
+      "content": "Učinkovito odstranite posamezne strani ali zbirko določenih številk strani iz izvornega dokumenta s funkcijo RemovePages."
+    },
+    "feature_5": {
+      "title": "Zasukaj strani",
+      "content": "Izkoristite operacijo RotatePages za preprosto obračanje strani v dokumentu tako, da določite kot vrtenja kot 90, 180 ali 270 stopinj"
+    },
+    "feature_6": {
+      "title": "Zamenjaj strani",
+      "content": "Preuredite vrstni red strani tako, da zamenjate položaje dveh strani v izvornem dokumentu in ustvarite nov dokument."
+    },
+    "feature_7": {
+      "title": "Izvleček strani",
+      "content": "Ustvarite nov dokument, ki vsebuje samo izbrane strani, tako da ekstrahirate določene strani ali obsege strani iz izvornega dokumenta."
+    },
+    "feature_8": {
+      "title": "Spremeni orientacijo",
+      "content": "Spremenite usmerjenost strani (pokončno ali ležeče) za določene strani ali vse strani dokumenta z uporabo operacije ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Predogled strani",
+      "content": "Pridobite jasnejše razumevanje vsebine in strukture dokumenta z ustvarjanjem slikovnih predstavitev njegovih strani. Naredite predogled vseh ali samo določenih strani."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Nimûneyên kodê",
+    "description": "Hinek rewşên tîpîk GroupDocs.Merger ji bo operasyonên .NET bikar tînin",
+    "sample_1": {
+      "title": "Rûpelên pelên DOCX-ê yên taybetî di yek belgeyek yek de bihev bikin",
+      "content_1": "Taybetmendiya [Yevhevkirina Rûpelê Hilbijartî](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) dihêle hûn ji her pelê tenê naveroka xwestinê derxin û bikin yek.",
+      "content_2": "Li vir mînakek heye ku meriv çawa bi karanîna C# bi yekbûna rûpelê bijartî bi dest dixe:",
+      "code_title": "Meriv çawa pelên DOCX di C# de yek dike",
+      "comment_1": "Pelê çavkaniyê DOCX barkirin",
+      "comment_2": "Pelek DOCX-ê din lê zêde bikin ku bibin yek",
+      "comment_3": "Pelên DOCX tevlihev bikin û encamê hilînin"
+    },
+    "sample_2": {
+      "title": "Belgeya PDF-ê li gelek pelan dabeş bikin",
+      "content_1": "Bi taybetmendiya [Split Document](https://docs.groupdocs.com/merger/net/split-document/) ku pêvajoya birêvebirin û derxistina beş an rûpelên taybetî ji belgeyên mezin hêsan dike, belgeyek bi bandor li gelek pelan veqetînin.",
+      "content_2": "Ew dihêle hûn belgeyan li ser bingeha pîvanên cihêreng li beşên piçûk dabeş bikin - li gorî rêza rûpelê, li gorî rûpelên destpêk / dawiya, li gorî hejmarên rûpelên xerîb / zewac, hwd.",
+      "code_title": "Meriv çawa belgeyê li çend belgeyên pir-rûpelî dabeş dike",
+      "comment_1": "Pelê PDF-ê bi karanîna GroupDocs.Merger ji bo C# API-ê veqetînin",
+      "comment_2": "Dersa SplitOptions bi formata riya pelên derketinê dest pê bikin",
+      "comment_3": "Bi pelgeya PDF-ê ya têketinê re Yekbûnek tavilê dest pê bikin",
+      "comment_4": "Gazî rêbaza dabeşkirinê bikin û tişta SplitOptions derbas bikin da ku belgeyên encam hilînin"
+    }
+  }
+}

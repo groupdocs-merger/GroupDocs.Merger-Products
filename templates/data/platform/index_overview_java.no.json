@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger på et øyeblikk",
+    "description": "API for å kombinere, dele, bytte, trimme eller fjerne dokumenter, lysbilder og diagrammer i Java-applikasjoner",
+    "feature_1": {
+      "title": "Slå enkelt sammen flere dokumenter i Java",
+      "description": "Slå enkelt sammen PDF- og Office-filer til ett enkelt dokument i Java, og dra nytte av mulighetene til GroupDocs.Merger-biblioteket. Dra nytte av den omfattende formatstøtten, slik at du sømløst kan kombinere ulike filtyper, noe som resulterer i en praktisk og strømlinjeformet sammenslåingsprosess."
+    },
+    "feature_2": {
+      "title": "Strømlinjeform dokumenthåndteringen ved å enkelt dele store filer",
+      "description": "Del opp store PDF- eller Office-filer i mindre, letthåndterlige deler. Du kan dele dokumenter basert på spesifikke sider, områder, eller til og med trekke ut individuelle sider med letthet og bekvemmelighet. Strømlinjeform dokumentadministrasjonen din ved å bruke de sømløse egenskapene til GroupDocs.Merger-biblioteket og gjør filene dine mer organiserte og håndterbare."
+    },
+    "feature_3": {
+      "title": "Tilpass dokumentstrukturen og ha full kontroll over filene dine",
+      "description": "Du kan enkelt manipulere sider ved å omorganisere, bytte eller fjerne dem. Organiser og skreddersy dokumentene dine i henhold til dine spesifikke krav med fleksibiliteten til å lage en personlig filstruktur."
+    }
+  }
+}

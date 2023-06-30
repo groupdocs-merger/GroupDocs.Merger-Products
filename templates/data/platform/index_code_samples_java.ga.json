@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Cóid samplaí",
+    "description": "Úsáideann roinnt cásanna de ghnáth GroupDocs.Merger le haghaidh oibríochtaí Java",
+    "sample_1": {
+      "title": "Cumaisc comhaid DOCX isteach i ndoiciméad amháin",
+      "content_1": "Leis an ngné [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) is féidir leat comhaid DOCX iomlána a chomhcheangal i ndoiciméad amháin tríd an mbunchomhad a lódáil, agus tuilleadh comhad DOCX a chur leis le bheith páirteach , agus an doiciméad cumaisc a shábháil.",
+      "content_2": "Seo thíos blúire de chód Java a thaispeánann an próiseas cumaisc:",
+      "code_title": "Conas comhaid DOCX a chumasc i Java",
+      "comment_1": "Íoslódáil an comhad foinse DOCX",
+      "comment_2": "Cuir comhad DOCX eile leis chun cumasc",
+      "comment_3": "Cumaisc comhaid DOCX agus sábháil an toradh"
+    },
+    "sample_2": {
+      "title": "Scoilt doiciméad PDF i comhaid iolracha",
+      "content_1": "Roinn doiciméad ina chomhaid iolracha leis an ngné [Doiciméad Scoilte](https://docs.groupdocs.com/merger/java/split-document/) chun an próiseas a bhaineann le rannóga nó leathanaigh ar leith a bhainistiú agus a bhaint as doiciméid mhóra a shimpliú.",
+      "content_2": "Ligeann sé duit doiciméid a roinnt ina gcodanna níos lú bunaithe ar chritéir éagsúla - de réir raon na leathanach, de réir leathanaigh tosaigh/deireadh, de réir uimhreacha corr/cothromacha etc.",
+      "code_title": "Roinn an doiciméad ina roinnt doiciméad aon-leathanach",
+      "comment_1": "Scoilt comhad PDF ag baint úsáide as GroupDocs.Merger do Java API",
+      "comment_2": "Tús a chur le rang SplitOptions le formáid cosáin comhaid aschuir",
+      "comment_3": "Cumasc toirt le hionchur doiciméad PDF",
+      "comment_4": "Cuir glaoch ar an modh scoilte agus pas a fháil ó SplitOptions oibiachtúil chun na doiciméid iarmhartacha a shábháil"
+    }
+  }
+}

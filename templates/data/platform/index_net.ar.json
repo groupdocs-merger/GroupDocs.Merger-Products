@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C # .NET لدمج المستندات API | دمج وتقسيم PDF Word Excel EPUB",
+    "description": "C # .NET دمج مستند API لدمج صفحات المستند أو تقسيمها أو تبديلها أو إزالتها من PDF و Microsoft Word و Excel والعروض التقديمية وتنسيقات Visio والصور."
+  },
+  "header": {
+    "title_1": "دمج المستندات",
+    "title_2": "عبر .NET API",
+    "description": "واجهة برمجة تطبيقات دمج قوية للتعامل مع ملفات PDF و Microsoft Office و HTML وملفات الصور.",
+    "words": {
+      "for": "ل"
+    }
+  },
+  "actions": {
+    "main": "NuGet تنزيل مجاني",
+    "alt": "الترخيص",
+    "title": "على استعداد للبدء؟",
+    "description": "جرّب ميزات GroupDocs.Merger مجانًا أو اطلب ترخيصًا"
+  },
+  "release": {
+    "title": "تم إصدار الإصدار {0}",
+    "notes": "ترى ما هو الجديد",
+    "downloads": "التحميلات"
+  }
+}

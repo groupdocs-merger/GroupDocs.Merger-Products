@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Kode monsters",
+    "description": "Sommige gebruik gevalle van tipiese GroupDocs.Merger vir Java-bedrywighede",
+    "sample_1": {
+      "title": "Voeg DOCX-lêers saam in 'n enkele dokument",
+      "content_1": "Met die [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/)-kenmerk kan jy hele DOCX-lêers in 'n enkele dokument kombineer deur die bronlêer te laai en meer DOCX-lêers by te voeg om aan te sluit , en stoor die saamgevoegde dokument.",
+      "content_2": "Hieronder is 'n Java-kodebrokkie wat die samesmeltingsproses demonstreer:",
+      "code_title": "Hoe om DOCX-lêers in Java saam te voeg",
+      "comment_1": "Laai die bron DOCX-lêer",
+      "comment_2": "Voeg nog 'n DOCX-lêer by om saam te smelt",
+      "comment_3": "Voeg DOCX-lêers saam en stoor die resultaat"
+    },
+    "sample_2": {
+      "title": "Verdeel PDF-dokument in verskeie lêers",
+      "content_1": "Verdeel 'n dokument in veelvuldige lêers met die [Verdeel dokument](https://docs.groupdocs.com/merger/java/split-document/)-kenmerk om die proses van bestuur en onttrekking van spesifieke afdelings of bladsye uit groot dokumente te vereenvoudig.",
+      "content_2": "Dit laat jou toe om dokumente in kleiner dele te verdeel op grond van verskeie kriteria - volgens bladsyreeks, volgens begin-/eindbladsye, volgens onewe/ewe bladsynommers, ens.",
+      "code_title": "Verdeel die dokument in verskeie een-bladsy dokumente",
+      "comment_1": "Verdeel PDF-lêer met GroupDocs.Merger vir Java API",
+      "comment_2": "Inisialiseer SplitOptions-klas met uitsetlêerspadformaat",
+      "comment_3": "Instansieer samesmelting met insette PDF-dokument",
+      "comment_4": "Roep split metode en slaag SplitOptions voorwerp om gevolglike dokumente te stoor"
+    }
+  }
+}

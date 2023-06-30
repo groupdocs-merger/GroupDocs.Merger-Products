@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-11-10T19:46:15
+layout: "landing"
+date: 2023-06-29T12:38:09
 draft: false
 
 product: "Merger"
@@ -11,274 +11,238 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java Document Merging API | îmbinați și eliminați Word Excel PDF XPS EPUB"
-head_description: "API-ul de fuziune a documentelor pentru Java. Îmbinați, împărțiți, schimbați, reordonați și ștergeți pagini din formate PDF, Microsoft Word, Excel, prezentări, Visio, XPS și EPUB."
+head_description: "API-ul pentru fuziunea documentelor pentru Java. Îmbinați, împărțiți, schimbați, reordonați și ștergeți pagini din formate PDF, Microsoft Word, Excel, prezentări, Visio, XPS și EPUB."
 
 ############################# Header ############################
-title: "API Java pentru a combina și împărți documente"
-description: "Dezvoltați aplicații de înaltă performanță care pot combina, extrage, amestecați, tăiați sau șterge pagini, diapozitive și diagrame din mers."
-button:
-    enable: true
+title: "Îmbinați documentele<br>prin API-ul Java"
+description: "Flexible Merger API pentru a combina, împărți sau modifica cu ușurință documentele PDF și Office"
+words:
+  for: "pentru"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Descărcare gratuită Maven"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "Licențiere"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "Sunteți gata să începeți?"
+  description: "Încercați gratuit funcțiile GroupDocs.Merger sau solicitați o licență"
+
+release:
+  title: "Versiunea {0} a fost lansată"
+  notes: "Vezi ce este nou"
+  downloads: "Descărcări"
+
+code:
+  title: "Îmbinați fișierele PDF în Java"
+  more: "Mai multe exemple"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // Încărcați fișierul PDF sursă
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // Adăugați un alt fișier PDF pentru a îmbina
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Prezentare generală"
-
-            # button loop
-            - link: "#features"
-              text: "Caracteristici"
-
-            # button loop
-            - link: "#support"
-              text: "A sustine"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Demo live"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "Prețuri"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // Îmbinați fișierele PDF și salvați rezultatul
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger pentru Java vă permite să dezvoltați rapid aplicații de afaceri de top în Java. Cu puțină codificare, aplicațiile dvs. Java pot îmbina, extrage, amestecați, tăiați și șterge o singură pagină sau un lot de pagini, diapozitive și diagrame. Operațiunile de îmbinare pot fi efectuate și pe fișiere securizate de format cunoscut și necunoscut prin aplicarea sau eliminarea protecției cu parolă.  
+  enable: true
+  title: "GroupDocs.Merger dintr-o privire"
+  description: "API pentru a combina, împărți, schimba, tăia sau elimina documente, diapozitive și diagrame în aplicațiile Java"
+  features:
+    # feature loop
+    - title: "Îmbinați fără efort mai multe documente în Java"
+      content: "Îmbinați cu ușurință fișierele PDF și Office într-un singur document în Java, valorificând capacitățile bibliotecii GroupDocs.Merger. Beneficiați de suportul extins pentru format, permițându-vă să combinați fără probleme diferite tipuri de fișiere, rezultând un proces de îmbinare convenabil și simplificat."
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Mai jos este o prezentare generală a GroupDocs.Merger pentru Java:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Operațiuni cu documente"
-          content: |
-            * Schimbați ordinea paginilor
-            * Eliminați sau ștergeți pagini
-            * Împărțiți sau întrerupeți documentul
-            * Schimbați sau amestecați oricare două pagini
-            * Decupați pagini simple sau multiple
-            * Alăturați mai multe documente
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Operațiuni de securitate"
-          content: |
-            * Configurați securitatea documentelor
-            * Verificați starea securității documentului
-            * Setați parola documentului
-            * Actualizați parola documentului
-            * Eliminați parola documentului
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger pentru Java acceptă îmbinarea următoarelor [formate de fișiere de document](https://docs.groupdocs.com/merger/java/supported-document-formats/):
+    # feature loop
+    - title: "Eficientizați gestionarea documentelor prin împărțirea cu ușurință a fișierelor voluminoase"
+      content: "Împărțiți fișierele PDF sau Office mari în secțiuni mai mici, ușor de manipulat. Puteți împărți documentele pe anumite pagini, intervale sau chiar puteți extrage pagini individuale cu ușurință și comoditate. Eficientizați gestionarea documentelor utilizând capabilitățile fără întreruperi ale bibliotecii GroupDocs.Merger și faceți fișierele mai organizate și mai ușor de gestionat."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Cuvânt:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Personalizați-vă structura documentului și aveți control deplin asupra fișierelor dvs"
+      content: "Manipulați cu ușurință paginile reordonând, schimbându-le sau eliminându-le. Organizați și adaptați documentele în funcție de cerințele dumneavoastră specifice, cu flexibilitatea de a crea o structură de fișiere personalizată."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument și alte formate"
-              content: |
-                * **Formate OpenDocument**: ODT, OTT, ODP, OTP, ODS
-                * **Aspect fix**: PDF, XPS
-                * **Imagini**: BMP, PNG, TIFF
-                * **Web**: HTML, MHT, MHTML
-                * **Text**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **Ebook**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independenta platformei"
+  description: "GroupDocs.Merger pentru Java acceptă următoarele sisteme de operare, cadre și manageri de pachete"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger pentru Java acceptă următoarele sisteme de operare, cadre și manageri de pachete:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Sisteme de operare"
-              content: |
-                * Desktop Microsoft Windows
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "Cadre acceptate"
-              content: |
-                * Java 7 (1.7)
-                * Java 8 (1.8)
-                * Java 10
-                * Java 11 și versiuni ulterioare
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Build Automation Tool"
-              content: |
-                * Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Medii de dezvoltare"
-              content: |
-                * NetBeans
-                * IDEA IntelliJ
-                * Eclipsă
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Formate de fișiere acceptate"
+  description: |
+    GroupDocs.Merger pentru Java acceptă operațiuni cu următoarele [formate de fișiere de document](https://docs.groupdocs.com/merger/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### formatele Microsoft Office
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Documente și imagini
+        * **Documente:** PDF, XPS, TEX
+        * **Imagini:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Alte formate
+        * **Web:**  HTML, MHTML, MHT
+        * **Arhive:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "Funcții GroupDocs.Merger pentru Java"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Îmbinați diferite pagini, diapozitive și diagrame într-un singur fișier"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Extrageți și împărțiți documente uriașe în mai multe fișiere mai mici"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Amestecați și reorganizați paginile, diapozitivele sau diagramele"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Schimbați și schimbați două pagini, diapozitive sau diagrame între ele în cadrul unui document"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Tăiați și tăiați documentul prin eliminarea anumitor pagini, diapozitive sau diagrame"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Ștergeți o singură pagină sau o colecție de pagini, diapozitive sau diagrame"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Îmbinați și îmbinați un număr mare de documente în loturi"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Verificați programatic în Java dacă un document este securizat cu o parolă"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Setați, resetați și eliminați parola formatelor de document cunoscute și necunoscute"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Împărțiți un fișier text în mai multe numere de linie"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Obțineți reprezentarea imaginii paginilor documentului"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Îmbinați mai multe documente de diferite formate într-un singur fișier PDF"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Inserați obiecte OLE în format PDF, Word, Excel, PowerPoint și Open Document"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Atașați fișierele la un document PDF în mod programatic"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Adăugați document la diagramă prin obiecte OLE"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Îmbinați diferite tipuri de documente (DOC, XLS, PPT etc.) într-un singur fișier PDF"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Importați cu ușurință obiecte OLE în tipuri de fișiere Microsoft Word, Excel, Prezentare și OpenDocument"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Adăugați alte documente la pagina diagramă prin obiecte OLE"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Eliminați paginile dorite din documente"
-        content: |
-          GroupDocs.Merger for Java API vă permite să selectați și să ștergeți pagini nedorite din document.
-      
-      # more_feature_loop
-      - title: "Verificați parola formatului de document necunoscut"
-        content: "Chiar dacă formatul unui anumit document este necunoscut, GroupDocs.Merger pentru Java vă permite să verificați și să preluați parola documentului, dacă este disponibilă."
-
-      # more_feature_loop
-      - title: "Alăturați-vă documentelor protejate prin parolă de formate cunoscute"
-        content: "GroupDocs.Merger pentru Java API vă permite să obțineți o listă de documente în formate cunoscute și necunoscute."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger oferă API-uri de îmbinare a documentelor pentru alte medii de dezvoltare populare"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger pentru .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Funcții GroupDocs.Merger"
+  description: "Îmbinați, împărțiți și manipulați fără probleme PDF și documente Office"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Combinați fișierele"
+      content: "Îmbinați două sau mai multe documente într-un singur document, unind anumite pagini sau intervale de pagini din mai multe documente sursă."
+
+    # feature loop
+    - icon: "split"
+      title: "Divizarea documentului"
+      content: "Utilizați operația de împărțire pentru a împărți un document sursă în mai multe documente rezultate, permițând organizarea și gestionarea eficientă a fișierelor."
+
+    # feature loop
+    - icon: "move"
+      title: "Mutați paginile"
+      content: "Repoziționați ușor o pagină într-un document utilizând caracteristica MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "Eliminați paginile"
+      content: "Eliminați efectiv pagini individuale sau o colecție de numere de pagini specifice din documentul sursă cu funcția RemovePages."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Rotiți paginile"
+      content: "Profitați de operația RotatePages pentru a roti cu ușurință paginile dintr-un document, specificând unghiul de rotație ca 90, 180 sau 270 de grade"
+
+    # feature loop
+    - icon: "swap"
+      title: "Schimbați paginile"
+      content: "Rearanjați ordinea paginilor schimbând pozițiile a două pagini în documentul sursă, producând un nou document."
+
+    # feature loop
+    - icon: "extract"
+      title: "Extrage pagini"
+      content: "Generați un document nou care conține numai paginile selectate prin extragerea anumitor pagini sau intervale de pagini din documentul sursă."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Schimbați orientarea"
+      content: "Modificați orientarea paginii (portret sau peisaj) pentru anumite pagini sau pentru toate paginile documentului utilizând operația ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Previzualizează paginile"
+      content: "Obțineți o înțelegere mai clară a conținutului și structurii documentului prin generarea de reprezentări de imagini ale paginilor acestuia. Faceți previzualizări ale tuturor paginilor sau doar ale anumitor pagini."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Exemple de cod"
+  description: "Unele cazuri de utilizare ale operațiunilor tipice GroupDocs.Merger pentru Java"
+  items:
+    # code sample loop
+    - title: "Îmbinați fișierele DOCX într-un singur document"
+      content: |
+        Cu funcția [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/), puteți combina fișiere DOCX întregi într-un singur document, încărcând fișierul sursă, adăugând mai multe fișiere DOCX pentru a vă alătura și salvarea documentului îmbinat. Mai jos este un fragment de cod Java care demonstrează procesul de îmbinare:
+        {{< landing/code title="Cum să îmbinați fișierele DOCX în Java">}}
+        ```java {style=abap}   
+        // Încărcați fișierul DOCX sursă
+        Merger merger = new Merger("sample1.docx");
+        // Adăugați un alt fișier DOCX pentru a îmbina
+        merger.join("sample2.docx");
+        // Îmbinați fișierele DOCX și salvați rezultatul
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Împărțiți documentul PDF în mai multe fișiere"
+      content: |
+        Împărțiți un document în mai multe fișiere cu funcția [Split Document](https://docs.groupdocs.com/merger/java/split-document/) pentru a simplifica procesul de gestionare și extragere a anumitor secțiuni sau pagini din documente mari. Vă permite să împărțiți documentele în părți mai mici pe baza diferitelor criterii - după intervalul de pagini, după paginile de început/sfârșit, după numerele de pagini impare/pare etc.
+        {{< landing/code title="Împărțiți documentul în mai multe documente de o pagină">}}
+        ```java {style=abap}   
+        // Împărțiți fișierul PDF utilizând API-ul GroupDocs.Merger pentru Java
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // Inițializați clasa SplitOptions cu formatul căii fișierelor de ieșire
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // Instanțiați fuziunea cu documentul PDF de intrare
+        Merger merger = new Merger(filePath);
+
+        // Apelați metoda split și treceți obiectul SplitOptions pentru a salva documentele rezultate
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Recenzii ale produselor GroupDocs"
+# description: "Nu ne credeți pe cuvânt. Vedeți ce spun alți dezvoltatori despre API-urile noastre"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Servicii excelente și produse excelente. Au fost extrem de utile și receptivi în timpul procesului de implementare GroupDocs.Viewer pentru .NET, nu le pot recomanda suficient."
+#     author: "Martin Lasarga"
+#     company: "Product Manager la Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "După implementarea și utilizarea GroupDocs.Viewer pentru .NET în proiect, se pare că funcționează foarte bine. Am testat cu multe documente și până acum e bine. Tot ceea ce am aruncat la el se redă frumos și arată la fel de bine ca într-un vizualizator PDF sau MS Word."
+#     author: "Mats Oustad"
+#     company: "Consultant Senior/Partener la Novanet AS"
 ---

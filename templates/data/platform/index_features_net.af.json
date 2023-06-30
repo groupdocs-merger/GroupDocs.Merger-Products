@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger kenmerke",
+    "description": "Voeg naatloos saam, verdeel en manipuleer PDF- en Office-dokumente",
+    "feature_1": {
+      "title": "Voeg lêers saam",
+      "content": "Kombineer twee of meer dokumente in 'n enkele dokument, en voeg spesifieke bladsye of bladsyreekse van veelvuldige brondokumente saam."
+    },
+    "feature_2": {
+      "title": "Verdeel dokumente",
+      "content": "Verdeel 'n brondokument in veelvuldige resulterende dokumente deur die split-bewerking te gebruik."
+    },
+    "feature_3": {
+      "title": "Skuif bladsye",
+      "content": "Herposisioneer bladsye binne 'n dokument deur die MovePage-funksie te gebruik."
+    },
+    "feature_4": {
+      "title": "Verwyder bladsye",
+      "content": "Verwyder individuele bladsye of 'n versameling spesifieke bladsynommers uit die brondokument."
+    },
+    "feature_5": {
+      "title": "Draai bladsye",
+      "content": "Draai bladsye binne 'n dokument deur die rotasiehoek op 90, 180 of 270 grade te stel deur die RotatePages-bewerking te gebruik."
+    },
+    "feature_6": {
+      "title": "Ruil bladsye om",
+      "content": "Ruil die posisies van twee bladsye binne die brondokument uit en skep 'n nuwe dokument met omgeruilde bladsyposisies."
+    },
+    "feature_7": {
+      "title": "Onttrek bladsye",
+      "content": "Onttrek spesifieke bladsye of bladsyreekse uit 'n brondokument en genereer 'n nuwe dokument wat slegs die geselekteerde bladsye bevat."
+    },
+    "feature_8": {
+      "title": "Verander oriëntasie",
+      "content": "Stel die bladsyoriëntasie (portret of landskap) vir spesifieke of alle bladsye van die dokument deur die ChangeOrientation-bewerking te gebruik."
+    },
+    "feature_9": {
+      "title": "Voorskou bladsye",
+      "content": "Genereer beeldvoorstellings van dokumentbladsye om die inhoud en struktuur beter te verstaan. Maak voorskoue van alle of net spesifieke bladsye."
+    }
+  }
+}

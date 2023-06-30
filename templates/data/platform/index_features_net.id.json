@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Fitur GroupDocs.Merger",
+    "description": "Menggabungkan, memisahkan, dan memanipulasi PDF dan Dokumen Office dengan mulus",
+    "feature_1": {
+      "title": "Gabungkan file",
+      "content": "Menggabungkan dua atau lebih dokumen ke dalam satu dokumen, menggabungkan halaman atau rentang halaman tertentu dari beberapa dokumen sumber."
+    },
+    "feature_2": {
+      "title": "Pisahkan dokumen",
+      "content": "Membagi dokumen sumber menjadi beberapa dokumen yang dihasilkan menggunakan operasi pemisahan."
+    },
+    "feature_3": {
+      "title": "Pindah halaman",
+      "content": "Ubah posisi halaman dalam dokumen menggunakan fitur MovePage."
+    },
+    "feature_4": {
+      "title": "Hapus halaman",
+      "content": "Hapus halaman individual atau kumpulan nomor halaman tertentu dari dokumen sumber."
+    },
+    "feature_5": {
+      "title": "Putar halaman",
+      "content": "Putar halaman dalam dokumen dengan mengatur sudut rotasi ke 90, 180, atau 270 derajat menggunakan operasi RotatePages."
+    },
+    "feature_6": {
+      "title": "Tukar halaman",
+      "content": "Tukarkan posisi dua halaman dalam dokumen sumber, buat dokumen baru dengan posisi halaman yang ditukar."
+    },
+    "feature_7": {
+      "title": "Ekstrak halaman",
+      "content": "Ekstrak halaman atau rentang halaman tertentu dari dokumen sumber, menghasilkan dokumen baru yang hanya berisi halaman yang dipilih."
+    },
+    "feature_8": {
+      "title": "Ubah orientasi",
+      "content": "Atur orientasi halaman (potret atau lanskap) untuk halaman tertentu atau semua halaman dokumen menggunakan operasi ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Pratinjau halaman",
+      "content": "Hasilkan representasi gambar dari halaman dokumen untuk memahami konten dan struktur dengan lebih baik. Buat pratinjau dari semua atau hanya halaman tertentu."
+    }
+  }
+}

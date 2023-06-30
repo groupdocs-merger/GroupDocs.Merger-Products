@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "فرمت های فایل پشتیبانی شده",
+    "description": "GroupDocs.Merger for .NET [قالب‌های فایل سند](https://docs.groupdocs.com/merger/java/supported-document-formats/) برای جاوا از عملیات با",
+    "groups": {
+      "title_1": "فرمت های مایکروسافت آفیس",
+      "title_2": "اسناد و تصاویر",
+      "title_3": "فرمت های دیگر",
+      "format_documents": "اسناد",
+      "format_images": "تصاویر",
+      "format_web": "وب",
+      "format_archives": "آرشیوها"
+    }
+  }
+}

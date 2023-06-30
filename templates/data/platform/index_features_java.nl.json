@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger-functies",
+    "description": "Naadloos PDF- en Office-documenten samenvoegen, splitsen en manipuleren",
+    "feature_1": {
+      "title": "Combineer bestanden",
+      "content": "Voeg twee of meer documenten samen tot één document, waarbij u specifieke pagina's of paginabereiken uit meerdere brondocumenten samenvoegt."
+    },
+    "feature_2": {
+      "title": "Gesplitst document",
+      "content": "Gebruik de splitsingsbewerking om een ​​brondocument op te splitsen in meerdere resulterende documenten, waardoor een efficiënte organisatie en beheer van bestanden mogelijk wordt."
+    },
+    "feature_3": {
+      "title": "Verplaats pagina's",
+      "content": "Verplaats een pagina soepel in een document door gebruik te maken van de MovePage-functie."
+    },
+    "feature_4": {
+      "title": "Pagina's verwijderen",
+      "content": "Verwijder effectief afzonderlijke pagina's of een verzameling specifieke paginanummers uit het brondocument met de functie RemovePages."
+    },
+    "feature_5": {
+      "title": "Draai pagina's",
+      "content": "Profiteer van de RotatePages-bewerking om eenvoudig pagina's in een document te roteren door de rotatiehoek op te geven als 90, 180 of 270 graden"
+    },
+    "feature_6": {
+      "title": "Verwissel pagina's",
+      "content": "Herschik de paginavolgorde door de posities van twee pagina's binnen het brondocument uit te wisselen, waardoor een nieuw document ontstaat."
+    },
+    "feature_7": {
+      "title": "Pak pagina's uit",
+      "content": "Genereer een nieuw document dat alleen de geselecteerde pagina's bevat door specifieke pagina's of paginabereiken uit het brondocument te extraheren."
+    },
+    "feature_8": {
+      "title": "Oriëntatie wijzigen",
+      "content": "Wijzig de paginaoriëntatie (staand of liggend) voor specifieke pagina's of alle pagina's van het document door gebruik te maken van de bewerking ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Voorbeeldpagina's",
+      "content": "Krijg een beter begrip van de inhoud en structuur van het document door afbeeldingsrepresentaties van de pagina's te genereren. Maak voorbeelden van alle of alleen specifieke pagina's."
+    }
+  }
+}

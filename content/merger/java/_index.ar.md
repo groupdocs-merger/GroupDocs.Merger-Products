@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-20T07:22:40
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,235 @@ head_title: "Java Document Merging API | دمج وإزالة Word Excel PDF XPS 
 head_description: "المستندات التي تدمج API لـ Java. دمج وتقسيم وتبديل وإعادة ترتيب وحذف صفحات تنسيقات PDF و Microsoft Word و Excel والعروض التقديمية و Visio و XPS و EPUB."
 
 ############################# Header ############################
-title: "Java API لدمج وتقسيم المستندات"
-description: "قم بتطوير تطبيقات عالية الأداء يمكنها الجمع بين الصفحات والشرائح والرسوم البيانية أو نسخها أو خلطها عشوائيًا أو قصها أو حذفها أثناء التنقل."
-button:
-    enable: true
+title: "دمج المستندات<br>عبر Java API"
+description: "واجهة برمجة تطبيقات دمج مرنة لدمج أو تقسيم أو تعديل مستندات PDF و Office بسهولة"
+words:
+  for: "ل"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "تحميل مجاني Maven"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "الترخيص"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "على استعداد للبدء؟"
+  description: "جرّب ميزات GroupDocs.Merger مجانًا أو اطلب ترخيصًا"
+
+release:
+  title: "تم إصدار الإصدار {0}"
+  notes: "ترى ما هو الجديد"
+  downloads: "التحميلات"
+
+code:
+  title: "دمج ملفات PDF في جافا"
+  more: "مزيد من الأمثلة"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // قم بتحميل ملف PDF المصدر
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // أضف ملف PDF آخر لدمجه
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "ملخص"
-
-            # button loop
-            - link: "#features"
-              text: "سمات"
-
-            # button loop
-            - link: "#support"
-              text: "الدعم"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "عرض حي"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "التسعير"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // دمج ملفات PDF وحفظ النتيجة
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger for Java يجعلك قادرًا على تطوير تطبيقات الأعمال عالية المستوى بسرعة في Java. مع القليل من الترميز ، يمكن لتطبيقات Java الخاصة بك دمج ، ونسخ ، وخلط ، وقص وحذف صفحة واحدة أو مجموعة من الصفحات ، والشرائح والمخططات. يمكن أيضًا إجراء عمليات الدمج على ملفات آمنة ذات تنسيق معروف وغير معروف عن طريق تطبيق الحماية بكلمة مرور أو إزالتها.  
+  enable: true
+  title: "GroupDocs.Merger في لمحة"
+  description: "API لدمج وتقسيم وتبديل وتقليم أو إزالة المستندات والشرائح والرسوم البيانية في تطبيقات Java"
+  features:
+    # feature loop
+    - title: "دمج مستندات متعددة بسهولة في Java"
+      content: "يمكنك بسهولة دمج ملفات PDF و Office في مستند واحد في Java ، والاستفادة من إمكانيات مكتبة GroupDocs.Merger. استفد من دعم التنسيق الشامل ، مما يسمح لك بدمج أنواع الملفات المختلفة بسلاسة ، مما يؤدي إلى عملية دمج مريحة ومبسطة."
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          فيما يلي نظرة عامة على GroupDocs.Merger لجافا:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "عمليات المستند"
-          content: |
-            * تغيير ترتيب الصفحة
-            * إزالة أو حذف الصفحات
-            * انقسام أو كسر الوثيقة
-            * تبديل أو تبديل أي صفحتين
-            * تقليم صفحات مفردة أو متعددة
-            * انضم إلى مستندات متعددة
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "عمليات الأمن"
-          content: |
-            * قم بإعداد أمان المستند
-            * تحقق من حالة أمان المستند
-            * تعيين كلمة مرور الوثيقة
-            * تحديث كلمة مرور المستند
-            * قم بإزالة كلمة مرور المستند
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          يدعم GroupDocs.Merger for Java [تنسيقات ملفات المستندات](https://docs.groupdocs.com/merger/java/supported-document-formats/):
+    # feature loop
+    - title: "قم بتبسيط إدارة المستندات عن طريق تقسيم الملفات الضخمة بسهولة"
+      content: "قسّم ملفات PDF أو Office الكبيرة إلى أقسام أصغر يسهل التعامل معها. يمكنك تقسيم المستندات بناءً على صفحات أو نطاقات محددة أو حتى استخراج صفحات فردية بسهولة ويسر. قم بتبسيط إدارة المستندات الخاصة بك من خلال الاستفادة من الإمكانات السلسة لمكتبة GroupDocs.Merger وجعل ملفاتك أكثر تنظيماً وقابلية للإدارة."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "مايكروسوفت أوفيس"
-              content: |
-                * ** كلمة: ** DOC، DOCX، DOCM، DOT، DOTX، DOTM، RTF، TXT
-                * ** Excel: ** XLS و XLSX و XLSM و XLSB و XLTM و XLT و XLTM و XLTX و XLAM و SXC و SpreadsheetML
-                * ** PowerPoint: ** PPT، PPTX، PPS، PPSX، PPSM، POT، POTM، POTX، PPTM
-                * ** OneNote: ** واحد
+    # feature loop
+    - title: "قم بتخصيص هيكل المستند الخاص بك وتمتع بالتحكم الكامل في ملفاتك"
+      content: "يمكنك معالجة الصفحات بسهولة عن طريق إعادة ترتيبها أو تبديلها أو إزالتها. قم بتنظيم وتخصيص مستنداتك وفقًا لمتطلباتك الخاصة مع المرونة في إنشاء بنية ملف مخصصة."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument وتنسيقات أخرى"
-              content: |
-                * ** تنسيقات OpenDocument **: ODT و OTT و ODP و OTP و ODS
-                * ** تخطيط ثابت **: PDF ، XPS
-                * ** الصور **: BMP، PNG، TIFF
-                * ** الويب **: HTML، MHT، MHTML
-                * ** نص **: TXT ، CSV ، TSV
-                * ** لاتكس **: تكس
-                * ** كتاب إلكتروني **: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "استقلالية المنصة"
+  description: "GroupDocs.Merger for Java يدعم أنظمة التشغيل والأطر ومديري الحزم التالية"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger for Java يدعم أنظمة التشغيل والأطر ومديري الحزم التالية:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "أنظمة التشغيل"
-              content: |
-                * سطح مكتب Microsoft Windows
-                * خادم مايكروسوفت ويندوز
-                * لينكس
-                * ماك
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "الأطر المدعومة"
-              content: |
-                * جافا 7 (1.7)
-                * جافا 8 (1.8)
-                * جافا 10
-                * جافا 11 وما فوق
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "أداة البناء الآلي"
-              content: |
-                * مخضرم
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "بيئات التنمية"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * كسوف
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "تنسيقات الملفات المدعومة"
+  description: |
+    يدعم GroupDocs.Merger for Java  [تنسيقات ملفات المستندات](https://docs.groupdocs.com/merger/java/supported-document-formats/) العمليات باستخدام  التالية
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### تنسيقات Microsoft Office
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### المستندات والصور
+        * **وثائق:** PDF, XPS, TEX
+        * **الصور:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### تنسيقات أخرى
+        * **الويب:**  HTML, MHTML, MHT
+        * **أرشيف:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger لميزات جافا"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "دمج مختلف الصفحات والشرائح والمخططات في ملف واحد"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "نسخ المستندات الضخمة وتقسيمها إلى ملفات متعددة أصغر حجمًا"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "تبديل وإعادة تنظيم الصفحات أو الشرائح أو الرسوم التخطيطية"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "تبادل وتبديل صفحتين أو شريحتين أو رسوم بيانية بين بعضها البعض داخل المستند"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "قص المستند وقصه عن طريق إزالة صفحات أو شرائح أو رسوم بيانية معينة"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "حذف مفرد أو مجموعة من الصفحات أو الشرائح أو الرسوم التخطيطية"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "قم بتجميع عدد كبير من المستندات ودمجها معًا على دفعات"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "تحقق في Java برمجيًا إذا كان المستند مؤمنًا بكلمة مرور"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "تعيين وإعادة تعيين وإزالة كلمة مرور تنسيقات المستندات المعروفة وغير المعروفة"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "تقسيم ملف نصي واحد إلى مضاعف بأرقام الأسطر"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "احصل على تمثيل صور لصفحات المستند"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "دمج مستندات متعددة من تنسيقات مختلفة في ملف PDF واحد"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "أدخل كائنات OLE في PDF و Word و Excel و PowerPoint و Open Document Formats"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "إرفاق الملفات برمجيًا إلى مستند PDF"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "أضف مستندًا إلى الرسم التخطيطي عبر كائنات OLE"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "دمج أنواع مختلفة من المستندات (DOC ، XLS ، PPT ، إلخ) في ملف PDF واحد"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "يمكنك استيراد كائنات OLE بسهولة إلى أنواع ملفات Microsoft Word و Excel و Presentation و OpenDocument"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "أضف مستندات أخرى إلى صفحة الرسم التخطيطي عبر كائنات OLE"
-
-    more_feature:
-      # more_feature_loop
-      - title: "قم بإزالة الصفحات المطلوبة من المستندات" 
-        content: |
-          يتيح لك GroupDocs.Merger for Java API تحديد وحذف الصفحات غير المرغوب فيها من المستند.
-      
-      # more_feature_loop
-      - title: "تحقق من كلمة مرور تنسيق المستند غير المعروف"
-        content: "حتى إذا كان تنسيق مستند معين غير معروف ، يتيح لك GroupDocs.Merger for Java التحقق من كلمة مرور المستند واستردادها ، إذا كانت متوفرة."
-
-      # more_feature_loop
-      - title: "انضم إلى المستندات المحمية بكلمة مرور للتنسيقات المعروفة"
-        content: "تسمح لك GroupDocs.Merger for Java API بالحصول على قائمة بالوثائق ذات التنسيقات المعروفة وغير المعروفة."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "تقدم GroupDocs.Merger واجهات برمجة تطبيقات لدمج المستندات لبيئات التطوير الشائعة الأخرى"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger ميزات"
+  description: "دمج مستندات PDF و Office وتقسيمها ومعالجتها بسلاسة"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "ادمج الملفات"
+      content: "دمج وثيقتين أو أكثر في مستند واحد ، والربط بين صفحات معينة أو نطاقات صفحات من مستندات مصدر متعددة."
+
+    # feature loop
+    - icon: "split"
+      title: "مستند منقسم"
+      content: "استخدم عملية التقسيم لتقسيم المستند المصدر إلى عدة مستندات ناتجة ، مما يتيح تنظيم وإدارة الملفات بكفاءة."
+
+    # feature loop
+    - icon: "move"
+      title: "نقل الصفحات"
+      content: "قم بتغيير موضع الصفحة بسلاسة داخل المستند عن طريق الاستفادة من ميزة MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "إزالة الصفحات"
+      content: "قم بإزالة الصفحات الفردية أو مجموعة من أرقام الصفحات المحددة بشكل فعال من المستند المصدر باستخدام ميزة RemovePages."
+
+    # feature loop
+    - icon: "rotate"
+      title: "تدوير الصفحات"
+      content: "استفد من عملية RotatePages لتدوير الصفحات بسهولة داخل مستند عن طريق تحديد زاوية الدوران بـ 90 أو 180 أو 270 درجة"
+
+    # feature loop
+    - icon: "swap"
+      title: "صفحات المبادلة"
+      content: "أعد ترتيب الصفحة من خلال تبادل مواضع صفحتين داخل المستند المصدر ، وإنتاج مستند جديد."
+
+    # feature loop
+    - icon: "extract"
+      title: "استخراج الصفحات"
+      content: "قم بإنشاء مستند جديد يحتوي على الصفحات المحددة فقط عن طريق استخراج صفحات أو نطاقات صفحات معينة من المستند المصدر."
+
+    # feature loop
+    - icon: "orientation"
+      title: "تغيير الاتجاه"
+      content: "قم بتعديل اتجاه الصفحة (عمودي أو أفقي) لصفحات معينة أو كل صفحات المستند عن طريق الاستفادة من عملية ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "معاينة الصفحات"
+      content: "احصل على فهم أوضح لمحتوى وهيكل المستند عن طريق إنشاء تمثيلات صور لصفحاته. قم بعمل معاينات لجميع أو صفحات محددة فقط."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "عينات التعليمات البرمجية"
+  description: "تستخدم بعض الحالات النموذجية GroupDocs.Merger لعمليات Java"
+  items:
+    # code sample loop
+    - title: "دمج ملفات DOCX في مستند واحد"
+      content: |
+        باستخدام ميزة [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) ، يمكنك دمج ملفات DOCX بأكملها في مستند واحد عن طريق تحميل الملف المصدر وإضافة المزيد من ملفات DOCX للانضمام ، وحفظ المستند المدمج. يوجد أدناه مقتطف رمز Java يوضح عملية الدمج:
+        {{< landing/code title="كيفية دمج ملفات DOCX في جافا">}}
+        ```java {style=abap}   
+        // قم بتحميل ملف DOCX المصدر
+        Merger merger = new Merger("sample1.docx");
+        // أضف ملف DOCX آخر لدمجه
+        merger.join("sample2.docx");
+        // دمج ملفات DOCX وحفظ النتيجة
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "قم بتقسيم مستند PDF إلى ملفات متعددة"
+      content: |
+        قسّم مستندًا إلى ملفات متعددة باستخدام ميزة [Split Document](https://docs.groupdocs.com/merger/java/split-document/) لتبسيط عملية إدارة واستخراج أقسام أو صفحات معينة من المستندات الكبيرة. يسمح لك بتقسيم المستندات إلى أجزاء أصغر بناءً على معايير مختلفة - حسب نطاق الصفحات وصفحات البداية / النهاية وأرقام الصفحات الفردية / الزوجية وما إلى ذلك.
+        {{< landing/code title="قسّم المستند إلى عدة مستندات من صفحة واحدة">}}
+        ```java {style=abap}   
+        // انقسام ملف PDF باستخدام GroupDocs.Merger لواجهة برمجة تطبيقات جافا
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // تهيئة فئة SplitOptions بتنسيق مسار ملفات الإخراج
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // إنشاء دمج مع مستند PDF
+        Merger merger = new Merger(filePath);
+
+        // استدعاء طريقة تقسيم وتمرير كائن SplitOptions لحفظ المستندات الناتجة
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "استعراض منتجات GroupDocs"
+# description: "لا تأخذ كلمتنا فقط. انظر ماذا يقول المطورون الآخرون عن واجهات برمجة التطبيقات الخاصة بنا"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "خدمة ممتازة ومنتجات ممتازة. لقد كانت مفيدة للغاية وسريعة الاستجابة أثناء عملية تنفيذ GroupDocs.Viewer لـ .NET ، لا يمكنها التوصية بها بدرجة كافية."
+#     author: "مارتن لاسارجا"
+#     company: "مدير المنتج في Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "بعد تنفيذ GroupDocs.Viewer for .NET واستخدامه في المشروع ، يبدو أنه يعمل بشكل جيد للغاية. لقد اختبرت الكثير من المستندات وجيدًا حتى الآن. كل شيء ألقيت عليه يتم عرضه بشكل رائع ويبدو جيدًا كما لو كان في عارض PDF أو MS Word."
+#     author: "Mats Oustad"
+#     company: "مستشار / شريك في Novanet AS"
 ---

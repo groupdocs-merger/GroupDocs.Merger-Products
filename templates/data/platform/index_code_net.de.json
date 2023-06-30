@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "PDF-Dateien in C# zusammenführen",
+    "more": "Mehr Beispiele",
+    "notes": "Schau was neu ist",
+    "comment_1": "Laden Sie die Quell-PDF-Datei",
+    "comment_2": "Fügen Sie eine weitere PDF-Datei zum Zusammenführen hinzu",
+    "comment_3": "PDF-Dateien zusammenführen und Ergebnis speichern"
+  }
+}

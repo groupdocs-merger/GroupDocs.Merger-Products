@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger bi awirek",
+    "description": "API ku di sepanên .NET de belge, slayd û diagraman bi hev veqetîne, parçe bike, biguherîne, bibire an jê rake",
+    "feature_1": {
+      "title": "Di C# de gelek belgeyên bêhêvî li hev bikin",
+      "description": "Belgeyên bihevrekirin: Bi piştgirîya ji bo cûrbecûr formatan, gelek pelên PDF û Office-ê di yek belgeyek yekgirtî de tevlihev bikin. GroupDocs.Merger ji bo .NET yekbûna belgeyan bilez û bê kêşe dike."
+    },
+    "feature_2": {
+      "title": "Bi dabeşkirina pelên mezin re rêveberiya belgeyê hêsan bikin",
+      "description": "Pelên PDF an Office-ê yên mezin bi hêsanî li beşên piçûktir, birêkûpêktir veqetînin. GroupDocs.Merger ji bo .NET dihêle hûn belgeyan li ser bingeha rûpelên taybetî, rêzikan veqetînin, an jî rûpelên takekesî bêyî hewldan derxînin."
+    },
+    "feature_3": {
+      "title": "Rûpelan manîpule bikin û avahiya belgeyê xweş bikin - ji nû ve rêz bikin, biguhezînin, an jê bikin",
+      "description": "Bi vesazkirina rûpelan, rakirina rûpelên nedilxwaz, an lê zêdekirina yên nû ve belgeyên xwe kontrol bikin. GroupDocs.Merger ji bo .NET hêz dide te ku hûn strukturên belgeyê manîpule bikin, bihêle hûn pelên xwe li gorî hewcedariyên xwe yên taybetî xweş bikin û çêkin."
+    }
+  }
+}

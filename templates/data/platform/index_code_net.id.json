@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Menggabungkan file PDF dalam C#",
+    "more": "Lebih banyak contoh",
+    "notes": "Lihat apa yang baru",
+    "comment_1": "Muat file PDF sumber",
+    "comment_2": "Tambahkan file PDF lain untuk digabungkan",
+    "comment_3": "Gabungkan file PDF dan simpan hasilnya"
+  }
+}

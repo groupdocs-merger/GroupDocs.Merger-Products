@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "PDF dosyalarını C# dilinde birleştirme",
+    "more": "Daha fazla örnek",
+    "notes": "Yenilikleri görün",
+    "comment_1": "Kaynak PDF dosyasını yükleyin",
+    "comment_2": "Birleştirmek için başka bir PDF dosyası ekleyin",
+    "comment_3": "PDF dosyalarını birleştirin ve sonucu kaydedin"
+  }
+}

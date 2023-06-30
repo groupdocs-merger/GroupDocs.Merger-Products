@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Java Document Merging API | flet og fjern Word Excel PDF XPS EPUB",
+    "description": "Dokumenter, der fusionerer API til Java. Flet, opdel, swap, omarranger og slet sider i PDF, Microsoft Word, Excel, præsentationer, Visio, XPS og EPUB-formater."
+  },
+  "header": {
+    "title_1": "Flet dokumenter",
+    "title_2": "via Java API",
+    "description": "Fleksibel Merger API til nemt at kombinere, opdele eller ændre PDF- og Office-dokumenter",
+    "words": {
+      "for": "til"
+    }
+  },
+  "actions": {
+    "main": "Gratis download af Maven",
+    "alt": "Licensering",
+    "title": "Klar til at komme i gang?",
+    "description": "Prøv GroupDocs.Merger-funktioner gratis, eller anmod om en licens"
+  },
+  "release": {
+    "title": "Version {0} frigivet",
+    "notes": "Se, hvad der er nyt",
+    "downloads": "Downloads"
+  }
+}

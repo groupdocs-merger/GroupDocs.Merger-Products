@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger funkcijos",
+    "description": "Sklandžiai sujunkite, skaidykite ir tvarkykite PDF ir „Office“ dokumentus",
+    "feature_1": {
+      "title": "Sujunkite failus",
+      "content": "Sujunkite du ar daugiau dokumentų į vieną dokumentą, sujungdami konkrečius puslapius arba puslapių diapazonus iš kelių šaltinio dokumentų."
+    },
+    "feature_2": {
+      "title": "Suskaidytas dokumentas",
+      "content": "Naudokite padalijimo operaciją, kad padalytumėte pirminį dokumentą į kelis gautus dokumentus, kad galėtumėte efektyviai organizuoti ir valdyti failus."
+    },
+    "feature_3": {
+      "title": "Perkelti puslapius",
+      "content": "Sklandžiai pakeiskite puslapio vietą dokumente naudodami funkciją MovePage."
+    },
+    "feature_4": {
+      "title": "Pašalinti puslapius",
+      "content": "Efektyviai pašalinkite atskirus puslapius arba konkrečių puslapių numerių rinkinį iš šaltinio dokumento naudodami funkciją RemovePages."
+    },
+    "feature_5": {
+      "title": "Pasukti puslapius",
+      "content": "Pasinaudokite funkcija RotatePages, kad lengvai pasuktumėte puslapius dokumente, nurodydami pasukimo kampą 90, 180 arba 270 laipsnių."
+    },
+    "feature_6": {
+      "title": "Sukeisti puslapius",
+      "content": "Pertvarkykite puslapių tvarką, pakeisdami dviejų puslapių pozicijas pirminio dokumento viduje, sukurdami naują dokumentą."
+    },
+    "feature_7": {
+      "title": "Ištraukite puslapius",
+      "content": "Sugeneruokite naują dokumentą, kuriame būtų tik pasirinkti puslapiai, iš pirminio dokumento ištraukdami konkrečius puslapius arba puslapių diapazonus."
+    },
+    "feature_8": {
+      "title": "Keisti orientaciją",
+      "content": "Pakeiskite puslapio orientaciją (stačią arba gulsčią) tam tikriems puslapiams arba visiems dokumento puslapiams, naudodami operaciją ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Puslapių peržiūra",
+      "content": "Įgykite aiškesnį supratimą apie dokumento turinį ir struktūrą generuodami jo puslapių vaizdinius vaizdus. Atlikite visų arba tik konkrečių puslapių peržiūras."
+    }
+  }
+}

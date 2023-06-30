@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API de mesclagem de documentos Java | mesclar e remover Word Excel PDF XPS EPUB",
+    "description": "Documentos mesclando API para Java. Mescle, divida, troque, reordene e exclua páginas de formatos PDF, Microsoft Word, Excel, apresentações, Visio, XPS e EPUB."
+  },
+  "header": {
+    "title_1": "Mesclar documentos",
+    "title_2": "via API Java",
+    "description": "API de fusão flexível para combinar, dividir ou modificar facilmente PDF e documentos do Office",
+    "words": {
+      "for": "para"
+    }
+  },
+  "actions": {
+    "main": "Download grátis do Maven",
+    "alt": "Licenciamento",
+    "title": "Pronto para começar?",
+    "description": "Experimente os recursos do GroupDocs.Merger gratuitamente ou solicite uma licença"
+  },
+  "release": {
+    "title": "Versão {0} lançada",
+    "notes": "Veja o que é novo",
+    "downloads": "Transferências"
+  }
+}

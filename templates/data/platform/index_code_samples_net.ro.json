@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Exemple de cod",
+    "description": "Unele cazuri de utilizare ale GroupDocs.Merger tipice pentru operațiuni .NET",
+    "sample_1": {
+      "title": "Îmbinați anumite pagini de fișiere DOCX într-un singur document",
+      "content_1": "Funcția [Imbinare selectivă a paginilor](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) vă permite să extrageți și să îmbinați numai conținutul dorit din fiecare fișier.",
+      "content_2": "Iată un exemplu despre cum să realizați îmbinarea selectivă a paginilor folosind C#:",
+      "code_title": "Cum să îmbinați fișierele DOCX în C#",
+      "comment_1": "Încărcați fișierul DOCX sursă",
+      "comment_2": "Adăugați un alt fișier DOCX pentru a îmbina",
+      "comment_3": "Îmbinați fișierele DOCX și salvați rezultatul"
+    },
+    "sample_2": {
+      "title": "Împărțiți documentul PDF în mai multe fișiere",
+      "content_1": "Împărțiți eficient un document în mai multe fișiere cu funcția [Split Document](https://docs.groupdocs.com/merger/net/split-document/), care simplifică procesul de gestionare și extragere a anumitor secțiuni sau pagini din documente mari.",
+      "content_2": "Vă permite să împărțiți documentele în părți mai mici pe baza diferitelor criterii - după intervalul de pagini, după paginile de început/sfârșit, după numerele de pagini impare/pare etc.",
+      "code_title": "Cum să împărțiți documentul în mai multe documente cu mai multe pagini",
+      "comment_1": "Împărțiți fișierul PDF utilizând API-ul GroupDocs.Merger",
+      "comment_2": "Inițializați clasa SplitOptions cu formatul căii fișierelor de ieșire",
+      "comment_3": "Instanțiați fuziunea cu documentul PDF de intrare",
+      "comment_4": "Apelați metoda split și treceți obiectul SplitOptions pentru a salva documentele rezultate"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "GroupDocs 제품 리뷰",
+    "description": "우리의 말을 그대로 받아들이지 마십시오. API에 대한 다른 개발자의 의견 보기",
+    "review_1": {
+      "content": "우수한 서비스와 우수한 제품. 그들은 GroupDocs.Viewer for .NET 구현 프로세스 동안 매우 유용하고 반응이 좋았으며 충분히 추천할 수 없었습니다.",
+      "author": "마틴 라사르가",
+      "company": "G.S.I.의 Axentria ECM 제품 관리자"
+    },
+    "review_2": {
+      "content": "프로젝트에서 GroupDocs.Viewer for .NET을 구현하고 사용한 후 매우 잘 작동하는 것 같습니다. 나는 많은 문서로 테스트했으며 지금까지 너무 좋습니다. 내가 던진 모든 것이 멋지게 렌더링되고 PDF 뷰어나 MS Word에서와 마찬가지로 보기 좋습니다.",
+      "author": "마츠 오스타드",
+      "company": "Novanet AS 선임 컨설턴트/파트너"
+    }
+  }
+}

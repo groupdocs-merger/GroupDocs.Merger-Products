@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger 概览",
+    "description": "用于在 Java 应用程序中组合、拆分、交换、修剪或删除文档、幻灯片和图表的 API",
+    "feature_1": {
+      "title": "在 Java 中轻松合并多个文档",
+      "description": "利用 GroupDocs.Merger 库的功能，轻松地将 PDF 和 Office 文件合并到 Java 中的单个文档中。受益于其广泛的格式支持，允许您无缝组合各种文件类型，从而实现方便且简化的合并过程。"
+    },
+    "feature_2": {
+      "title": "通过轻松分割大文件来简化文档管理",
+      "description": "将大型 PDF 或 Office 文件拆分为更小的、易于处理的部分。您可以根据特定页面、范围划分文档，甚至轻松方便地提取单个页面。利用 GroupDocs.Merger 库的无缝功能简化您的文档管理，并使您的文件更有条理、更易于管理。"
+    },
+    "feature_3": {
+      "title": "自定义您的文档结构并完全控制您的文件",
+      "description": "通过重新排序、交换或删除页面轻松操作页面。根据您的具体要求组织和定制您的文档，并灵活地创建个性化文件结构。"
+    }
+  }
+}

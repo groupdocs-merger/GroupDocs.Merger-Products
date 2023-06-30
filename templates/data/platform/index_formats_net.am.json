@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "የሚደገፉ የፋይል ቅርጸቶች",
+    "description": "GroupDocs.Merger ለ .NET ስራዎችን በሚከተሉት [የሰነድ ፋይል ቅርጸቶች](https://docs.groupdocs.com/merger/net/supported-document-formats/) ይደግፋል።",
+    "groups": {
+      "title_1": "የማይክሮሶፍት ኦፊስ ቅርጸቶች",
+      "title_2": "ሰነዶች እና ምስሎች",
+      "title_3": "ሌሎች ቅርጸቶች",
+      "format_documents": "ሰነዶች",
+      "format_images": "ምስሎች",
+      "format_web": "ድር",
+      "format_archives": "ማህደሮች"
+    }
+  }
+}

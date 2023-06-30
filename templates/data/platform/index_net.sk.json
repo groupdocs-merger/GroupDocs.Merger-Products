@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Kombinovať a rozdeliť PDF Word Excel EPUB",
+    "description": "Rozhranie API na zlučovanie dokumentov C# .NET na kombinovanie, rozdelenie, výmenu alebo odstránenie stránok dokumentov z formátov PDF, Microsoft Word, Excel, prezentácií, Visia a obrázkov."
+  },
+  "header": {
+    "title_1": "Zlúčiť dokumenty",
+    "title_2": "cez .NET API",
+    "description": "Výkonné zlučovacie API na manipuláciu s PDF, Microsoft Office, HTML a obrazovými súbormi.",
+    "words": {
+      "for": "pre"
+    }
+  },
+  "actions": {
+    "main": "Bezplatné stiahnutie NuGet",
+    "alt": "Licencovanie",
+    "title": "Ste pripravení začať?",
+    "description": "Vyskúšajte funkcie GroupDocs.Merger zadarmo alebo požiadajte o licenciu"
+  },
+  "release": {
+    "title": "Vydaná verzia {0}",
+    "notes": "Pozrite sa, čo je nové",
+    "downloads": "K stiahnutiu"
+  }
+}

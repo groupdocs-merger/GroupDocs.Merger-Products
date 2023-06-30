@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Ondersteunde bestandsindelingen",
+    "description": "GroupDocs.Merger voor .NET ondersteunt bewerkingen met de volgende [documentbestandsindelingen](https://docs.groupdocs.com/merger/net/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office-indelingen",
+      "title_2": "Documenten & afbeeldingen",
+      "title_3": "Andere formaten",
+      "format_documents": "Documenten",
+      "format_images": "Afbeeldingen",
+      "format_web": "Web",
+      "format_archives": "archieven"
+    }
+  }
+}

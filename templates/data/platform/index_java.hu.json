@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Java Document Merging API | Word Excel PDF XPS EPUB egyesítése és eltávolítása",
+    "description": "Dokumentumok egyesítő API Java számára. PDF, Microsoft Word, Excel, prezentációk, Visio, XPS és EPUB formátumú oldalak egyesítése, felosztása, cseréje, átrendezése és törlése."
+  },
+  "header": {
+    "title_1": "Dokumentumok egyesítése",
+    "title_2": "Java API-n keresztül",
+    "description": "Flexible Merger API a PDF és Office dokumentumok egyszerű kombinálásához, felosztásához vagy módosításához",
+    "words": {
+      "for": "számára"
+    }
+  },
+  "actions": {
+    "main": "Ingyenes Maven letöltés",
+    "alt": "Engedélyezés",
+    "title": "Készen áll az indulásra?",
+    "description": "Próbálja ki a GroupDocs.Merger szolgáltatásait ingyenesen, vagy kérjen licencet"
+  },
+  "release": {
+    "title": "A(z) {0} verzió megjelent",
+    "notes": "Tekintse meg az újdonságokat",
+    "downloads": "Letöltések"
+  }
+}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-27T10:22:19
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,235 @@ head_title: "Java dokumentų sujungimo API | sujungti ir pašalinti Word Excel P
 head_description: "Dokumentų sujungimo API, skirta Java. Sujunkite, padalinkite, sukeiskite, pertvarkykite ir ištrinkite PDF, Microsoft Word, Excel, pristatymų, Visio, XPS ir EPUB formatų puslapius."
 
 ############################# Header ############################
-title: "Java API, skirta sujungti ir padalinti dokumentus"
-description: "Kurkite didelio našumo programas, kurios gali sujungti, kopijuoti, maišyti, iškirpti arba ištrinti puslapius, skaidres ir diagramas kelyje."
-button:
-    enable: true
+title: "Sujungti dokumentus<br>per Java API"
+description: "Lanksti susijungimo API, skirta lengvai sujungti, skaidyti arba modifikuoti PDF ir „Office“ dokumentus"
+words:
+  for: "dėl"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Nemokamas Maven atsisiuntimas"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "Licencijavimas"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "Pasiruošę pradėti?"
+  description: "Išbandykite GroupDocs.Merger funkcijas nemokamai arba paprašykite licencijos"
+
+release:
+  title: "Išleista {0} versija"
+  notes: "Pažiūrėkite, kas naujo"
+  downloads: "Atsisiuntimai"
+
+code:
+  title: "Sujungti PDF failus Java"
+  more: "Daugiau pavyzdžių"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // Įkelkite šaltinio PDF failą
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // Norėdami sujungti, pridėkite kitą PDF failą
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Apžvalga"
-
-            # button loop
-            - link: "#features"
-              text: "funkcijos"
-
-            # button loop
-            - link: "#support"
-              text: "Palaikymas"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Tiesioginė demonstracija"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "Kainodara"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // Sujunkite PDF failus ir išsaugokite rezultatą
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger for Java leidžia greitai kurti aukščiausios klasės verslo programas Java. Su nedideliu kodavimu jūsų Java programos gali sujungti, kopijuoti, maišyti, iškirpti ir ištrinti vieną puslapį arba puslapių paketą, skaidres ir diagramas. Sujungimo operacijas taip pat galima atlikti su saugiais žinomo ir nežinomo formato failais, taikant arba pašalinant apsaugą slaptažodžiu.  
+  enable: true
+  title: "GroupDocs.Sujungimas iš pirmo žvilgsnio"
+  description: "API, skirta derinti, skaidyti, sukeisti, apkarpyti arba pašalinti dokumentus, skaidres ir diagramas Java programose"
+  features:
+    # feature loop
+    - title: "Lengvai sujunkite kelis dokumentus „Java“."
+      content: "Lengvai sujunkite PDF ir „Office“ failus į vieną „Java“ dokumentą, išnaudodami GroupDocs.Merger bibliotekos galimybes. Pasinaudokite plačiu formatų palaikymu, leidžiančiu sklandžiai derinti įvairius failų tipus, todėl sujungimo procesas yra patogus ir supaprastintas."
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Toliau pateikiama Java skirtos GroupDocs.Merger apžvalga:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Dokumentų operacijos"
-          content: |
-            * Keisti puslapių tvarką
-            * Pašalinti arba ištrinti puslapius
-            * Padalyti arba sulaužyti dokumentą
-            * Sukeiskite arba sumaišykite du puslapius
-            * Apkarpykite vieną ar kelis puslapius
-            * Sujunkite kelis dokumentus
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Apsaugos operacijos"
-          content: |
-            * Nustatykite dokumentų saugumą
-            * Patikrinkite dokumento saugos būseną
-            * Nustatykite dokumento slaptažodį
-            * Atnaujinkite dokumento slaptažodį
-            * Pašalinti dokumento slaptažodį
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger for Java palaiko šių [dokumentų failų formatų](https://docs.groupdocs.com/merger/java/supported-document-formats/) sujungimą:
+    # feature loop
+    - title: "Supaprastinkite dokumentų valdymą, nesunkiai padalinkite didelius failus"
+      content: "Padalinkite didelius PDF arba Office failus į mažesnius, lengvai tvarkomus skyrius. Galite lengvai ir patogiai suskirstyti dokumentus pagal konkrečius puslapius, diapazonus ar net išskirti atskirus puslapius. Supaprastinkite savo dokumentų valdymą naudodamiesi vientisomis GroupDocs.Merger bibliotekos galimybėmis ir padarykite savo failus labiau tvarkomus ir valdomus."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Žodis:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** VIENA
+    # feature loop
+    - title: "Tinkinkite savo dokumentų struktūrą ir visiškai valdykite failus"
+      content: "Lengvai manipuliuokite puslapiais pertvarkydami, keisdami arba pašalindami juos. Tvarkykite ir pritaikykite dokumentus pagal savo konkrečius reikalavimus, lanksčiai sukurdami asmeninę failų struktūrą."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument ir kiti formatai"
-              content: |
-                * **OpenDocument formatai**: ODT, OTT, ODP, OTP, ODS
-                * **Fiksuotas išdėstymas**: PDF, XPS
-                * **Vaizdai**: BMP, PNG, TIFF
-                * **Žiniatinklis**: HTML, MHT, MHTML
-                * **Tekstas**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **El. knyga**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platformos nepriklausomybė"
+  description: "GroupDocs.Merger for Java palaiko šias operacines sistemas, sistemas ir paketų tvarkykles"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger for Java palaiko šias operacines sistemas, karkasus ir paketų tvarkykles:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operacinės sistemos"
-              content: |
-                * Microsoft Windows darbalaukis
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "Palaikomi karkasai"
-              content: |
-                * Java 7 (1.7)
-                * Java 8 (1.8)
-                * Java 10
-                * Java 11 ir naujesnės versijos
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Sukurkite automatizavimo įrankį"
-              content: |
-                *Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Plėtros aplinkos"
-              content: |
-                * NetBeans
-                * IntelliJ IDĖJA
-                * Užtemimas
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Palaikomi failų formatai"
+  description: |
+    GroupDocs.Merger for Java palaiko operacijas su šiais [dokumento failų formatais](https://docs.groupdocs.com/merger/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formatai
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Dokumentai ir vaizdai
+        * **Dokumentai:** PDF, XPS, TEX
+        * **Vaizdai:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Kiti formatai
+        * **Žiniatinklis:**  HTML, MHTML, MHT
+        * **Archyvai:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger, skirta Java funkcijoms"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Sujunkite įvairius puslapius, skaidres ir diagramas į vieną failą"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Nukopijuokite ir padalinkite didžiulius dokumentus į kelis mažesnius failus"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Maišykite ir pertvarkykite puslapius, skaidres ar diagramas"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Keiskite ir sukeiskite du puslapius, skaidres ar diagramas viena su kita dokumente"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Iškirpkite ir apkarpykite dokumentą pašalindami konkrečius puslapius, skaidres ar diagramas"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Ištrinkite vieną arba puslapių rinkinį, skaidres ar diagramas"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Sujunkite ir sujunkite daugybę dokumentų paketais"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Programiškai patikrinkite Java, ar dokumentas apsaugotas slaptažodžiu"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Nustatykite, iš naujo nustatykite ir pašalinkite žinomų ir nežinomų dokumentų formatų slaptažodį"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Padalinkite vieną tekstinį failą į kelis pagal eilučių numerius"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Gaukite dokumento puslapių vaizdą"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Sujunkite kelis skirtingų formatų dokumentus į vieną PDF failą"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Įterpkite OLE objektus į PDF, Word, Excel, PowerPoint ir Open Document formatus"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Programiškai pridėkite failus prie PDF dokumento"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Pridėkite dokumentą prie diagramos per OLE objektus"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Sujunkite skirtingų tipų dokumentus (DOC, XLS, PPT ir tt) į vieną PDF failą"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Lengvai importuokite OLE objektus į Microsoft Word, Excel, Presentation ir OpenDocument failų tipus"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Pridėkite kitus dokumentus prie diagramos puslapio naudodami OLE objektus"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Pašalinkite norimus puslapius iš dokumentų"
-        content: |
-          GroupDocs.Merger for Java API leidžia pasirinkti ir ištrinti nepageidaujamus puslapius iš jūsų dokumento.
-      
-      # more_feature_loop
-      - title: "Patikrinkite nežinomo dokumento formato slaptažodį"
-        content: "Net jei konkretaus dokumento formatas nežinomas, GroupDocs.Merger for Java leidžia patikrinti ir gauti dokumento slaptažodį, jei toks yra."
-
-      # more_feature_loop
-      - title: "Prisijunkite prie slaptažodžiu apsaugotų žinomų formatų dokumentų"
-        content: "GroupDocs.Merger for Java API leidžia gauti žinomų ir nežinomų formatų dokumentų sąrašą."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger siūlo dokumentų sujungimo API kitoms populiarioms kūrimo aplinkoms"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger, skirtas .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger funkcijos"
+  description: "Sklandžiai sujunkite, skaidykite ir tvarkykite PDF ir „Office“ dokumentus"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Sujunkite failus"
+      content: "Sujunkite du ar daugiau dokumentų į vieną dokumentą, sujungdami konkrečius puslapius arba puslapių diapazonus iš kelių šaltinio dokumentų."
+
+    # feature loop
+    - icon: "split"
+      title: "Suskaidytas dokumentas"
+      content: "Naudokite padalijimo operaciją, kad padalytumėte pirminį dokumentą į kelis gautus dokumentus, kad galėtumėte efektyviai organizuoti ir valdyti failus."
+
+    # feature loop
+    - icon: "move"
+      title: "Perkelti puslapius"
+      content: "Sklandžiai pakeiskite puslapio vietą dokumente naudodami funkciją MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "Pašalinti puslapius"
+      content: "Efektyviai pašalinkite atskirus puslapius arba konkrečių puslapių numerių rinkinį iš šaltinio dokumento naudodami funkciją RemovePages."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Pasukti puslapius"
+      content: "Pasinaudokite funkcija RotatePages, kad lengvai pasuktumėte puslapius dokumente, nurodydami pasukimo kampą 90, 180 arba 270 laipsnių."
+
+    # feature loop
+    - icon: "swap"
+      title: "Sukeisti puslapius"
+      content: "Pertvarkykite puslapių tvarką, pakeisdami dviejų puslapių pozicijas pirminio dokumento viduje, sukurdami naują dokumentą."
+
+    # feature loop
+    - icon: "extract"
+      title: "Ištraukite puslapius"
+      content: "Sugeneruokite naują dokumentą, kuriame būtų tik pasirinkti puslapiai, iš pirminio dokumento ištraukdami konkrečius puslapius arba puslapių diapazonus."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Keisti orientaciją"
+      content: "Pakeiskite puslapio orientaciją (stačią arba gulsčią) tam tikriems puslapiams arba visiems dokumento puslapiams, naudodami operaciją ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Puslapių peržiūra"
+      content: "Įgykite aiškesnį supratimą apie dokumento turinį ir struktūrą generuodami jo puslapių vaizdinius vaizdus. Atlikite visų arba tik konkrečių puslapių peržiūras."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Kodo pavyzdžiai"
+  description: "Kai kurie naudoja tipiškų GroupDocs.Merger Java operacijų atvejus"
+  items:
+    # code sample loop
+    - title: "Sujunkite DOCX failus į vieną dokumentą"
+      content: |
+        Naudodami funkciją [Sujungti Word dokumentus](https://docs.groupdocs.com/merger/java/merge/word/) galite sujungti visus DOCX failus į vieną dokumentą įkeldami šaltinio failą ir pridėdami daugiau DOCX failų, kuriuos norite sujungti ir išsaugoti sujungtą dokumentą. Žemiau yra „Java“ kodo fragmentas, parodantis sujungimo procesą:
+        {{< landing/code title="Kaip sujungti DOCX failus Java">}}
+        ```java {style=abap}   
+        // Įkelkite šaltinio DOCX failą
+        Merger merger = new Merger("sample1.docx");
+        // Norėdami sujungti, pridėkite kitą DOCX failą
+        merger.join("sample2.docx");
+        // Sujunkite DOCX failus ir išsaugokite rezultatą
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Padalinkite PDF dokumentą į kelis failus"
+      content: |
+        Padalinkite dokumentą į kelis failus naudodami funkciją [Padalyti dokumentą](https://docs.groupdocs.com/merger/java/split-document/), kad supaprastintumėte konkrečių skyrių arba puslapių iš didelių dokumentų tvarkymo ir ištraukimo procesą. Tai leidžia padalyti dokumentus į mažesnes dalis pagal įvairius kriterijus – pagal puslapių diapazoną, pagal pradžios/pabaigos puslapius, pagal nelyginius/lyginius puslapių numerius ir kt.
+        {{< landing/code title="Padalinkite dokumentą į kelis vieno puslapio dokumentus">}}
+        ```java {style=abap}   
+        // Padalinkite PDF failą naudodami GroupDocs.Merger, skirtą Java API
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // Inicijuoti SplitOptions klasę su išvesties failų kelio formatu
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // Momentinis susijungimas su įvesties PDF dokumentu
+        Merger merger = new Merger(filePath);
+
+        // Iškvieskite padalijimo metodą ir perduokite SplitOptions objektą, kad išsaugotumėte gautus dokumentus
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs produktų apžvalgos"
+# description: "Netikėkite mūsų žodžio. Sužinokite, ką kiti kūrėjai sako apie mūsų API"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Puikus aptarnavimas ir puikūs produktai. Jie buvo labai naudingi ir reagavo per GroupDocs.Viewer .NET diegimo procesą, todėl negaliu jų rekomenduoti."
+#     author: "Martinas Lasarga"
+#     company: "„Axentria ECM“ produktų vadovas G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Projekte įdiegus ir panaudojus GroupDocs.Viewer for .NET, atrodo, kad jis veikia labai gerai. Išbandžiau su daugybe dokumentų ir kol kas viskas gerai. Viskas, ką sukūriau, gražiai atvaizduojama ir atrodo taip pat gerai, kaip ir PDF peržiūros programoje arba MS Word."
+#     author: "Matsas Oustadas"
+#     company: "„Novanet AS“ vyresnysis konsultantas/partneris"
 ---

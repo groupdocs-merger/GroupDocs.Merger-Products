@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Esempi di codice",
+    "description": "Alcuni casi d'uso di operazioni tipiche di GroupDocs.Merger per Java",
+    "sample_1": {
+      "title": "Unisci i file DOCX in un unico documento",
+      "content_1": "Con la funzione [Unisci documenti Word](https://docs.groupdocs.com/merger/java/merge/word/) puoi unire interi file DOCX in un unico documento caricando il file sorgente, aggiungendo altri file DOCX da unire e salvare il documento unito.",
+      "content_2": "Di seguito è riportato un frammento di codice Java che dimostra il processo di unione:",
+      "code_title": "Come unire i file DOCX in Java",
+      "comment_1": "Carica il file DOCX di origine",
+      "comment_2": "Aggiungi un altro file DOCX da unire",
+      "comment_3": "Unisci i file DOCX e salva il risultato"
+    },
+    "sample_2": {
+      "title": "Dividi il documento PDF in più file",
+      "content_1": "Dividi un documento in più file con la funzione [Dividi documento](https://docs.groupdocs.com/merger/java/split-document/) per semplificare il processo di gestione ed estrazione di sezioni o pagine specifiche da documenti di grandi dimensioni.",
+      "content_2": "Ti consente di dividere i documenti in parti più piccole in base a vari criteri: per intervallo di pagine, per pagine iniziali/finali, per numeri di pagina pari/dispari ecc.",
+      "code_title": "Dividi il documento in più documenti di una pagina",
+      "comment_1": "Dividi il file PDF utilizzando GroupDocs.Merger per l'API Java",
+      "comment_2": "Inizializza la classe SplitOptions con il formato del percorso dei file di output",
+      "comment_3": "Crea un'istanza di fusione con il documento PDF di input",
+      "comment_4": "Chiama il metodo split e passa l'oggetto SplitOptions per salvare i documenti risultanti"
+    }
+  }
+}

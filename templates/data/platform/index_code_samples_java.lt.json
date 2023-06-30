@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Kodo pavyzdžiai",
+    "description": "Kai kurie naudoja tipiškų GroupDocs.Merger Java operacijų atvejus",
+    "sample_1": {
+      "title": "Sujunkite DOCX failus į vieną dokumentą",
+      "content_1": "Naudodami funkciją [Sujungti Word dokumentus](https://docs.groupdocs.com/merger/java/merge/word/) galite sujungti visus DOCX failus į vieną dokumentą įkeldami šaltinio failą ir pridėdami daugiau DOCX failų, kuriuos norite sujungti ir išsaugoti sujungtą dokumentą.",
+      "content_2": "Žemiau yra „Java“ kodo fragmentas, parodantis sujungimo procesą:",
+      "code_title": "Kaip sujungti DOCX failus Java",
+      "comment_1": "Įkelkite šaltinio DOCX failą",
+      "comment_2": "Norėdami sujungti, pridėkite kitą DOCX failą",
+      "comment_3": "Sujunkite DOCX failus ir išsaugokite rezultatą"
+    },
+    "sample_2": {
+      "title": "Padalinkite PDF dokumentą į kelis failus",
+      "content_1": "Padalinkite dokumentą į kelis failus naudodami funkciją [Padalyti dokumentą](https://docs.groupdocs.com/merger/java/split-document/), kad supaprastintumėte konkrečių skyrių arba puslapių iš didelių dokumentų tvarkymo ir ištraukimo procesą.",
+      "content_2": "Tai leidžia padalyti dokumentus į mažesnes dalis pagal įvairius kriterijus – pagal puslapių diapazoną, pagal pradžios/pabaigos puslapius, pagal nelyginius/lyginius puslapių numerius ir kt.",
+      "code_title": "Padalinkite dokumentą į kelis vieno puslapio dokumentus",
+      "comment_1": "Padalinkite PDF failą naudodami GroupDocs.Merger, skirtą Java API",
+      "comment_2": "Inicijuoti SplitOptions klasę su išvesties failų kelio formatu",
+      "comment_3": "Momentinis susijungimas su įvesties PDF dokumentu",
+      "comment_4": "Iškvieskite padalijimo metodą ir perduokite SplitOptions objektą, kad išsaugotumėte gautus dokumentus"
+    }
+  }
+}

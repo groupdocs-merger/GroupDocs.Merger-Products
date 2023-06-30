@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-26T08:15:50
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -10,275 +10,239 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "जावा दस्तावेज़ मर्जिंग एपीआई | Word Excel PDF XPS EPUB को मर्ज करें और निकालें"
-head_description: "जावा के लिए एपीआई मर्ज करने वाले दस्तावेज़। PDF, Microsoft Word, Excel, प्रस्तुतियों, Visio, XPS और EPUB स्वरूपों के पृष्ठों को मर्ज करें, विभाजित करें, स्वैप करें, पुन: व्यवस्थित करें और हटाएं।"
+head_title: "जावा दस्तावेज़ मर्जिंग एपीआई | वर्ड एक्सेल पीडीएफ एक्सपीएस ईपीयूबी को मर्ज करें और हटाएं"
+head_description: "जावा के लिए दस्तावेज़ विलय एपीआई। पीडीएफ, माइक्रोसॉफ्ट वर्ड, एक्सेल, प्रस्तुतियों, विसियो, एक्सपीएस और ईपीयूबी प्रारूपों के पृष्ठों को मर्ज, विभाजित, स्वैप, पुन: व्यवस्थित करें और हटाएं।"
 
 ############################# Header ############################
-title: "दस्तावेज़ों को संयोजित और विभाजित करने के लिए जावा एपीआई"
-description: "उच्च-प्रदर्शन वाले ऐप्स विकसित करें जो चलते-फिरते पृष्ठों, स्लाइडों और आरेखों को संयोजित, रिप, फेरबदल, कट या हटा सकते हैं।"
-button:
-    enable: true
+title: "दस्तावेज़ मर्ज करें<br>जावा एपीआई के माध्यम से"
+description: "पीडीएफ और ऑफिस दस्तावेज़ों को आसानी से संयोजित, विभाजित या संशोधित करने के लिए लचीला विलय एपीआई"
+words:
+  for: "के लिए"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "निःशुल्क मेवेन डाउनलोड"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "लाइसेंसिंग"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "आरंभ करने के लिए तैयार हैं?"
+  description: "GroupDocs.Merger सुविधाओं को मुफ़्त में आज़माएँ या लाइसेंस का अनुरोध करें"
+
+release:
+  title: "संस्करण {0} जारी किया गया"
+  notes: "देखें, क्या नया है"
+  downloads: "डाउनलोड"
+
+code:
+  title: "जावा में पीडीएफ फाइलों को मर्ज करें"
+  more: "और ज्यादा उदाहरण"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // स्रोत पीडीएफ फाइल लोड करें
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // मर्ज करने के लिए एक और पीडीएफ फाइल जोड़ें
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "अवलोकन"
-
-            # button loop
-            - link: "#features"
-              text: "विशेषताएँ"
-
-            # button loop
-            - link: "#support"
-              text: "सहायता"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "लाइव डेमो"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "मूल्य निर्धारण"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // पीडीएफ फाइलों को मर्ज करें और परिणाम सहेजें
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      जावा के लिए GroupDocs.Merger आपको जावा में शीर्ष-पंक्ति व्यावसायिक अनुप्रयोगों को त्वरित रूप से विकसित करने में सक्षम बनाता है। थोड़ा कोडिंग के साथ आपके जावा एप्लिकेशन एक पेज या पेज, स्लाइड और डायग्राम के बैच को मर्ज, रिप, शफल, कट और डिलीट कर सकते हैं। पासवर्ड सुरक्षा को लागू करने या हटाने के द्वारा ज्ञात और अज्ञात प्रारूप की सुरक्षित फाइलों पर विलय संचालन भी किया जा सकता है।  
+  enable: true
+  title: "GroupDocs.Merger एक नज़र में"
+  description: "जावा अनुप्रयोगों में दस्तावेज़ों, स्लाइडों और आरेखों को संयोजित करने, विभाजित करने, स्वैप करने, ट्रिम करने या हटाने के लिए एपीआई"
+  features:
+    # feature loop
+    - title: "जावा में अनेक दस्तावेज़ों को सहजता से मर्ज करें"
+      content: "GroupDocs.Merger लाइब्रेरी की क्षमताओं का लाभ उठाते हुए, आसानी से पीडीएफ और ऑफिस फ़ाइलों को जावा में एक ही दस्तावेज़ में मर्ज करें। इसके व्यापक प्रारूप समर्थन से लाभ उठाएं, जो आपको विभिन्न फ़ाइल प्रकारों को निर्बाध रूप से संयोजित करने की अनुमति देता है, जिसके परिणामस्वरूप एक सुविधाजनक और सुव्यवस्थित विलय प्रक्रिया होती है।"
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          जावा के लिए GroupDocs.Merger का अवलोकन निम्नलिखित है:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "दस्तावेज़ संचालन"
-          content: |
-            * पृष्ठ क्रम बदलें
-            * पेज हटाएं या हटाएं
-            * दस्तावेज़ को विभाजित या तोड़ें
-            * किन्हीं दो पृष्ठों की अदला-बदली या फेरबदल करें
-            * एकल या एकाधिक पृष्ठों को ट्रिम करें
-            * कई दस्तावेज़ों में शामिल हों
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "सुरक्षा संचालन"
-          content: |
-            * सेटअप दस्तावेज़ सुरक्षा
-            * दस्तावेज़ सुरक्षा स्थिति की जाँच करें
-            * दस्तावेज़ पासवर्ड सेट करें
-            * दस्तावेज़ पासवर्ड अपडेट करें
-            * दस्तावेज़ पासवर्ड निकालें
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          जावा के लिए GroupDocs.Merger निम्नलिखित [दस्तावेज़ फ़ाइल स्वरूपोंhttps://docs.groupdocs.com/merger/java/supported-document-formats/) को मर्ज करने का समर्थन करता है:
+    # feature loop
+    - title: "भारी फ़ाइलों को आसानी से विभाजित करके दस्तावेज़ प्रबंधन को सुव्यवस्थित करें"
+      content: "बड़ी पीडीएफ या ऑफिस फाइलों को छोटे, आसानी से संभाले जाने वाले अनुभागों में विभाजित करें। आप दस्तावेज़ों को विशिष्ट पृष्ठों, श्रेणियों के आधार पर विभाजित कर सकते हैं, या आसानी और सुविधा के साथ अलग-अलग पृष्ठ भी निकाल सकते हैं। GroupDocs.Merger लाइब्रेरी की निर्बाध क्षमताओं का उपयोग करके अपने दस्तावेज़ प्रबंधन को सुव्यवस्थित करें और अपनी फ़ाइलों को अधिक व्यवस्थित और प्रबंधनीय बनाएं।"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "माइक्रोसॉफ्ट ऑफिस"
-              content: |
-                * **शब्द:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **एक्सेल:** एक्सएलएस, एक्सएलएसएक्स, एक्सएलएसएम, एक्सएलएसबी, एक्सएलटीएम, एक्सएलटी, एक्सएलटीएम, एक्सएलटीएक्स, एक्सएलएएम, एसएक्ससी, स्प्रेडशीटएमएल
-                * **पावरपॉइंट:** पीपीटी, पीपीटीएक्स, पीपीएस, पीपीएसएक्स, पीपीएसएम, पीओटी, पीओटीएम, पीओटीएक्स, पीपीटीएम
-                * **एक नोट:** एक
+    # feature loop
+    - title: "अपने दस्तावेज़ संरचना को अनुकूलित करें और अपनी फ़ाइलों पर पूर्ण नियंत्रण रखें"
+      content: "पृष्ठों को पुन: व्यवस्थित करके, स्वैप करके या हटाकर आसानी से उनमें हेरफेर करें। वैयक्तिकृत फ़ाइल संरचना बनाने के लचीलेपन के साथ अपने दस्तावेज़ों को अपनी विशिष्ट आवश्यकताओं के अनुसार व्यवस्थित और तैयार करें।"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument और अन्य प्रारूप"
-              content: |
-                * **ओपन डॉक्यूमेंट फॉर्मेट**: ओडीटी, ओटीटी, ओडीपी, ओटीपी, ओडीएस
-                * **फिक्स्ड लेआउट**: पीडीएफ, एक्सपीएस
-                * **छवियां**: बीएमपी, पीएनजी, झगड़ा
-                * **वेब**: एचटीएमएल, एमएचटी, एमएचटीएमएल
-                * **पाठ**: TXT, CSV, TSV
-                * **लाटेक्स**: टेक्स
-                * **ईबुक**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "मंच की स्वतंत्रता"
+  description: "जावा के लिए GroupDocs.Merger निम्नलिखित ऑपरेटिंग सिस्टम, फ्रेमवर्क और पैकेज प्रबंधकों का समर्थन करता है"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          जावा के लिए GroupDocs.Merger निम्नलिखित ऑपरेटिंग सिस्टम, फ्रेमवर्क और पैकेज मैनेजर का समर्थन करता है:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "ऑपरेटिंग सिस्टम"
-              content: |
-                * माइक्रोसॉफ्ट विंडोज डेस्कटॉप
-                * माइक्रोसॉफ्ट विंडोज सर्वर
-                * लिनक्स
-                * मैक ओएस
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "समर्थित चौखटे"
-              content: |
-                * जावा 7 (1.7)
-                * जावा 8 (1.8)
-                * जावा 10
-                * जावा 11 और इसके बाद के संस्करण
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "स्वचालन उपकरण बनाएँ"
-              content: |
-                * मावेना
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "विकास का माहौल"
-              content: |
-                * नेटबीन्स
-                * इंटेलीज आइडिया
-                * ग्रहण
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "समर्थित फ़ाइल स्वरूप"
+  description: |
+    जावा के लिए GroupDocs.Merger निम्नलिखित [दस्तावेज़ फ़ाइल स्वरूपों](https://docs.groupdocs.com/merger/java/supported-document-formats/) के साथ संचालन का समर्थन करता है।
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### माइक्रोसॉफ्ट ऑफिस प्रारूप
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### दस्तावेज़ एवं छवियाँ
+        * **दस्तावेज़:** PDF, XPS, TEX
+        * **इमेजिस:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### अन्य प्रारूप
+        * **वेब:**  HTML, MHTML, MHT
+        * **अभिलेखागार:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "जावा सुविधाओं के लिए GroupDocs.Merger"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "विभिन्न पेज, स्लाइड और डायग्राम को एक ही फाइल में मर्ज करें"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "विशाल दस्तावेज़ों को कई छोटी फ़ाइलों में रिप और विभाजित करें"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "पृष्ठों, स्लाइडों या आरेखों को शफ़ल और पुनर्व्यवस्थित करें"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "एक दस्तावेज़ के भीतर दो पेज, स्लाइड या डायग्राम को एक दूसरे के बीच एक्सचेंज और स्वैप करें"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "विशिष्ट पृष्ठों, स्लाइडों या आरेखों को हटाकर दस्तावेज़ को काटें और ट्रिम करें"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "एकल या पृष्ठों, स्लाइड या आरेखों का संग्रह हटाएं"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "बैचों में बड़ी संख्या में दस्तावेज़ों को एक साथ सिलाई और मर्ज करें"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "जावा में प्रोग्रामेटिक रूप से जांचें कि क्या कोई दस्तावेज़ पासवर्ड से सुरक्षित है"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "ज्ञात और अज्ञात दस्तावेज़ स्वरूपों का पासवर्ड सेट, रीसेट और निकालें"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "लाइन नंबर द्वारा एक टेक्स्ट फ़ाइल को एकाधिक में विभाजित करें"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "दस्तावेज़ पृष्ठों का छवि प्रतिनिधित्व प्राप्त करें"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "एक ही पीडीएफ फाइल में विभिन्न प्रारूपों के कई दस्तावेज़ों को मर्ज करें"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "पीडीएफ, वर्ड, एक्सेल, पॉवरपॉइंट और ओपन डॉक्यूमेंट फॉर्मेट में ओएलई ऑब्जेक्ट डालें"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "PDF दस्तावेज़ में प्रोग्रामेटिक रूप से फ़ाइलें संलग्न करें"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "OLE ऑब्जेक्ट्स के माध्यम से आरेख में दस्तावेज़ जोड़ें"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "विभिन्न प्रकार के दस्तावेज़ों (DOC, XLS, PPT आदि) को एक एकल PDF फ़ाइल में मर्ज करें"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Microsoft Word, Excel, प्रस्तुति और OpenDocument फ़ाइल प्रकारों में आसानी से OLE ऑब्जेक्ट आयात करें"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "OLE ऑब्जेक्ट्स के माध्यम से आरेख पृष्ठ में अन्य दस्तावेज़ जोड़ें"
-
-    more_feature:
-      # more_feature_loop
-      - title: "दस्तावेज़ों से वांछित पृष्ठ निकालें"
-        content: |
-          GroupDocs.Merger for Java API आपको अपने दस्तावेज़ से अवांछित पृष्ठों को चुनने और हटाने की सुविधा देता है।
-      
-      # more_feature_loop
-      - title: "अज्ञात दस्तावेज़ प्रारूप का पासवर्ड जांचें"
-        content: "भले ही किसी विशेष दस्तावेज़ का प्रारूप अज्ञात हो, जावा के लिए GroupDocs.Merger आपको दस्तावेज़ पासवर्ड की जाँच करने और यदि उपलब्ध हो तो पुनः प्राप्त करने में सक्षम बनाता है।"
-
-      # more_feature_loop
-      - title: "ज्ञात प्रारूपों के पासवर्ड-संरक्षित दस्तावेज़ों में शामिल हों"
-        content: "जावा एपीआई के लिए GroupDocs.Merger आपको ज्ञात और अज्ञात प्रारूपों के दस्तावेजों की एक सूची प्राप्त करने की अनुमति देता है।"
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger अन्य लोकप्रिय विकास परिवेशों के लिए दस्तावेज़ विलय API प्रदान करता है"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs. .NET . के लिए विलय"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger सुविधाएँ"
+  description: "पीडीएफ और ऑफिस दस्तावेज़ों को निर्बाध रूप से मर्ज करें, विभाजित करें और हेरफेर करें"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "फ़ाइलें संयोजित करें"
+      content: "एकाधिक स्रोत दस्तावेज़ों से विशिष्ट पृष्ठों या पृष्ठ श्रेणियों को जोड़कर, दो या दो से अधिक दस्तावेज़ों को एक ही दस्तावेज़ में मर्ज करें।"
+
+    # feature loop
+    - icon: "split"
+      title: "दस्तावेज़ विभाजित करें"
+      content: "किसी स्रोत दस्तावेज़ को कई परिणामी दस्तावेज़ों में विभाजित करने के लिए स्प्लिट ऑपरेशन का उपयोग करें, जिससे फ़ाइलों का कुशल संगठन और प्रबंधन सक्षम हो सके।"
+
+    # feature loop
+    - icon: "move"
+      title: "पन्ने हिलाएँ"
+      content: "मूवपेज सुविधा का लाभ उठाकर किसी दस्तावेज़ के भीतर एक पृष्ठ को आसानी से पुनः व्यवस्थित करें।"
+
+    # feature loop
+    - icon: "remove"
+      title: "पन्ने हटाएँ"
+      content: "रिमूवपेज सुविधा के साथ स्रोत दस्तावेज़ से अलग-अलग पेजों या विशिष्ट पेज नंबरों के संग्रह को प्रभावी ढंग से हटा दें।"
+
+    # feature loop
+    - icon: "rotate"
+      title: "पन्ने घुमाएँ"
+      content: "रोटेशन कोण को 90, 180 या 270 डिग्री के रूप में निर्दिष्ट करके दस्तावेज़ के भीतर पृष्ठों को आसानी से घुमाने के लिए रोटेटपेज ऑपरेशन का लाभ उठाएं।"
+
+    # feature loop
+    - icon: "swap"
+      title: "पन्ने स्वैप करें"
+      content: "स्रोत दस्तावेज़ के भीतर दो पृष्ठों की स्थिति का आदान-प्रदान करके, एक नया दस्तावेज़ तैयार करके पृष्ठ क्रम को पुनर्व्यवस्थित करें।"
+
+    # feature loop
+    - icon: "extract"
+      title: "पन्ने निकालें"
+      content: "स्रोत दस्तावेज़ से विशिष्ट पृष्ठ या पृष्ठ श्रेणी निकालकर केवल चयनित पृष्ठों वाला एक नया दस्तावेज़ तैयार करें।"
+
+    # feature loop
+    - icon: "orientation"
+      title: "ओरिएंटेशन बदलें"
+      content: "ChangeOrientation ऑपरेशन का लाभ उठाकर विशिष्ट पृष्ठों या दस्तावेज़ के सभी पृष्ठों के लिए पृष्ठ अभिविन्यास (चित्र या परिदृश्य) को संशोधित करें।"
+
+    # feature loop
+    - icon: "preview"
+      title: "पृष्ठों का पूर्वावलोकन करें"
+      content: "दस्तावेज़ के पृष्ठों की छवि प्रस्तुतियाँ उत्पन्न करके दस्तावेज़ की सामग्री और संरचना की स्पष्ट समझ प्राप्त करें। सभी या केवल विशिष्ट पृष्ठों का पूर्वावलोकन करें।"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "कोड नमूने"
+  description: "कुछ लोग जावा संचालन के लिए विशिष्ट GroupDocs.Merger के मामलों का उपयोग करते हैं"
+  items:
+    # code sample loop
+    - title: "DOCX फ़ाइलों को एक दस्तावेज़ में मर्ज करें"
+      content: |
+        [वर्ड दस्तावेज़ मर्ज करें](https://docs.groupdocs.com/merger/java/merge/word/) सुविधा के साथ आप स्रोत फ़ाइल को लोड करके संपूर्ण DOCX फ़ाइलों को एक ही दस्तावेज़ में जोड़ सकते हैं, जुड़ने के लिए और अधिक DOCX फ़ाइलें जोड़ सकते हैं , और मर्ज किए गए दस्तावेज़ को सहेजना। मर्ज प्रक्रिया को दर्शाने वाला जावा कोड स्निपेट नीचे दिया गया है:
+        {{< landing/code title="जावा में DOCX फ़ाइलों को कैसे मर्ज करें">}}
+        ```java {style=abap}   
+        // स्रोत DOCX फ़ाइल लोड करें
+        Merger merger = new Merger("sample1.docx");
+        // मर्ज करने के लिए एक और DOCX फ़ाइल जोड़ें
+        merger.join("sample2.docx");
+        // DOCX फ़ाइलों को मर्ज करें और परिणाम सहेजें
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "पीडीएफ दस्तावेज़ को कई फाइलों में विभाजित करें"
+      content: |
+        बड़े दस्तावेज़ों से विशिष्ट अनुभागों या पृष्ठों को प्रबंधित करने और निकालने की प्रक्रिया को सरल बनाने के लिए [स्प्लिट दस्तावेज़](https://docs.groupdocs.com/merger/java/split-document/) सुविधा के साथ एक दस्तावेज़ को कई फ़ाइलों में विभाजित करें। यह आपको दस्तावेज़ों को विभिन्न मानदंडों के आधार पर छोटे भागों में विभाजित करने की अनुमति देता है - पृष्ठ सीमा के अनुसार, प्रारंभ/अंत पृष्ठ के अनुसार, विषम/सम पृष्ठ संख्या के अनुसार आदि।
+        {{< landing/code title="दस्तावेज़ को कई एक-पृष्ठ दस्तावेज़ों में विभाजित करें">}}
+        ```java {style=abap}   
+        // जावा एपीआई के लिए GroupDocs.Merger का उपयोग करके पीडीएफ फाइल को विभाजित करें
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // आउटपुट फ़ाइल पथ प्रारूप के साथ स्प्लिटऑप्शन क्लास प्रारंभ करें
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // इनपुट पीडीएफ दस्तावेज़ के साथ त्वरित विलय
+        Merger merger = new Merger(filePath);
+
+        // परिणामी दस्तावेज़ों को सहेजने के लिए स्प्लिट विधि को कॉल करें और स्प्लिटऑप्शंस ऑब्जेक्ट पास करें
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs उत्पादों की समीक्षा"
+# description: "बस इसके लिए हमारी बात न मानें। देखें कि अन्य डेवलपर हमारे एपीआई के बारे में क्या कहते हैं"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "उत्कृष्ट सेवा और उत्कृष्ट उत्पाद। .NET कार्यान्वयन प्रक्रिया के लिए GroupDocs.Viewer के दौरान वे बेहद मददगार और प्रतिक्रियाशील थे, हम उनकी पर्याप्त अनुशंसा नहीं कर सकते।"
+#     author: "मार्टिन लसारगा"
+#     company: "जी.एस.आई. द्वारा एक्सेंट्रिया ईसीएम में उत्पाद प्रबंधक।"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "प्रोजेक्ट में .NET के लिए GroupDocs.Viewer को लागू करने और उपयोग करने के बाद यह बहुत अच्छी तरह से काम कर रहा है। मैंने बहुत सारे दस्तावेज़ों के साथ परीक्षण किया है और अब तक बहुत अच्छा है। मैंने इसमें जो कुछ भी डाला है वह अच्छी तरह से प्रस्तुत होता है और उतना ही अच्छा दिखता है जितना पीडीएफ व्यूअर या एमएस वर्ड में होता है।"
+#     author: "मैट्स ओस्ताद"
+#     company: "नोवानेट एएस में वरिष्ठ सलाहकार/साझेदार"
 ---

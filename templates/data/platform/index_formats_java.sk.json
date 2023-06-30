@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Podporované formáty súborov",
+    "description": "GroupDocs.Merger for Java podporuje operácie s nasledujúcimi [formátmi súborov dokumentov](https://docs.groupdocs.com/merger/java/supported-document-formats/).",
+    "groups": {
+      "title_1": "Formáty Microsoft Office",
+      "title_2": "Dokumenty a obrázky",
+      "title_3": "Iné formáty",
+      "format_documents": "Dokumenty",
+      "format_images": "snímky",
+      "format_web": "Web",
+      "format_archives": "Archívy"
+    }
+  }
+}

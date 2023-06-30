@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Kodeprøver",
+    "description": "Noen bruker tilfeller av typiske GroupDocs.Merger for Java-operasjoner",
+    "sample_1": {
+      "title": "Slå sammen DOCX-filer til ett enkelt dokument",
+      "content_1": "Med funksjonen [Slå sammen Word-dokumenter](https://docs.groupdocs.com/merger/java/merge/word/) kan du kombinere hele DOCX-filer til ett enkelt dokument ved å laste inn kildefilen, legge til flere DOCX-filer for å bli med , og lagre det sammenslåtte dokumentet.",
+      "content_2": "Nedenfor er en Java-kodebit som demonstrerer sammenslåingsprosessen:",
+      "code_title": "Hvordan slå sammen DOCX-filer i Java",
+      "comment_1": "Last inn kilde DOCX-filen",
+      "comment_2": "Legg til en annen DOCX-fil for å slå sammen",
+      "comment_3": "Slå sammen DOCX-filer og lagre resultatet"
+    },
+    "sample_2": {
+      "title": "Del PDF-dokument i flere filer",
+      "content_1": "Del et dokument i flere filer med funksjonen [Split Document](https://docs.groupdocs.com/merger/java/split-document/) for å forenkle prosessen med å administrere og trekke ut bestemte deler eller sider fra store dokumenter.",
+      "content_2": "Den lar deg dele opp dokumenter i mindre deler basert på ulike kriterier - etter sideområde, etter start-/sluttsider, etter oddetall/partall osv.",
+      "code_title": "Del dokumentet til flere énsides dokumenter",
+      "comment_1": "Del PDF-fil ved hjelp av GroupDocs.Merger for Java API",
+      "comment_2": "Initialiser SplitOptions-klassen med utdatafilbaneformat",
+      "comment_3": "Instantér sammenslåing med PDF-dokument",
+      "comment_4": "Ring split-metoden og send SplitOptions-objektet for å lagre resulterende dokumenter"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Uzorci kodova",
+    "description": "Neki slučajevi upotrebe tipičnih GroupDocs.Merger za .NET operacije",
+    "sample_1": {
+      "title": "Spojite određene stranice DOCX datoteke u jedan dokument",
+      "content_1": "Značajka [Selektivno spajanje stranica](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) omogućuje izdvajanje i spajanje samo željenog sadržaja iz svake datoteke.",
+      "content_2": "Evo primjera kako postići selektivno spajanje stranica pomoću C#:",
+      "code_title": "Kako spojiti DOCX datoteke u C#",
+      "comment_1": "Učitajte izvornu DOCX datoteku",
+      "comment_2": "Dodajte još jednu DOCX datoteku za spajanje",
+      "comment_3": "Spoji DOCX datoteke i spremi rezultat"
+    },
+    "sample_2": {
+      "title": "Podijelite PDF dokument u više datoteka",
+      "content_1": "Učinkovito podijelite dokument u više datoteka pomoću značajke [Razdijeli dokument](https://docs.groupdocs.com/merger/net/split-document/) koja pojednostavljuje proces upravljanja i izdvajanja određenih odjeljaka ili stranica iz velikih dokumenata.",
+      "content_2": "Omogućuje vam dijeljenje dokumenata na manje dijelove na temelju različitih kriterija - prema rasponu stranica, prema početnim/završnim stranicama, prema brojevima neparnih/parnih stranica itd.",
+      "code_title": "Kako podijeliti dokument na nekoliko dokumenata s više stranica",
+      "comment_1": "Podijeli PDF datoteku pomoću GroupDocs.Merger API",
+      "comment_2": "Inicijalizirajte klasu SplitOptions s formatom staze izlaznih datoteka",
+      "comment_3": "Instancirajte spajanje s ulaznim PDF dokumentom",
+      "comment_4": "Pozovite metodu dijeljenja i proslijedite objekt SplitOptions za spremanje rezultirajućih dokumenata"
+    }
+  }
+}

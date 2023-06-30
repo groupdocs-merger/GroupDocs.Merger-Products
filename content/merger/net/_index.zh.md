@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-13T17:30:02
+layout: "landing"
+date: 2023-06-29T12:38:09
 draft: false
 
 product: "Merger"
@@ -11,274 +11,237 @@ platform_tag: "net"
 
 ############################# Head ############################
 head_title: "C# .NET 文档合并 API |合并和拆分 PDF Word Excel EPUB"
-head_description: "C# .NET 文档合并 API，用于从 PDF、Microsoft Word、Excel、演示文稿、Visio 和图像格式合并、拆分、交换或删除文档页面."
+head_description: "C# .NET 文档合并 API 用于合并、拆分、交换或删除 PDF、Microsoft Word、Excel、演示文稿、Visio 和图像格式的文档页面。"
 
 ############################# Header ############################
-title: ".NET API 来合并和拆分文档"
-description: "用于在 .NET 应用程序中合并、拆分、交换、修剪或删除文档、幻灯片和图表的 API."
-button:
-    enable: true
+title: "合并文档<br>通过.NET API"
+description: "强大的合并 API 来操作 PDF、Microsoft Office、HTML 和图像文件。"
+words:
+  for: "为了"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "免费 NuGet 下载"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "许可"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "准备好开始了吗？"
+  description: "免费试用 GroupDocs.Merger 功能或申请许可证"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "概述"
+release:
+  title: "已发布版本 {0}"
+  notes: "查看最新消息"
+  downloads: "下载"
 
-            # button loop
-            - link: "#features"
-              text: "特征"
+code:
+  title: "在 C# 中合并 PDF 文件"
+  more: "更多示例"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // 加载源 PDF 文件
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // 添加另一个 PDF 文件进行合并
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "价钱"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // 合并 PDF 文件并保存结果
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger for .NET，帮助您以 C#、ASP.NET 和其他 .NET 技术快速开发一流的业务应用程序。只需几行代码，您的 .NET 应用程序就可以组合、拆分、重新排列、交换、修剪和删除单个页面或文档页面、幻灯片、图像或图表的集合。通过设置或删除已知和未知文件格式的密码保护，对安全文件执行这些操作。  
+  enable: true
+  title: "GroupDocs.Merger 概览"
+  description: "用于组合、拆分、交换、修剪或删除 .NET 应用程序中的文档、幻灯片和图表的 API"
+  features:
+    # feature loop
+    - title: "在 C# 中毫不费力地合并多个文档"
+      content: "合并文档：将多个 PDF 和 Office 文件无缝合并为一个文档，支持多种格式。 .NET 的 GroupDocs.Merger 使文档合并变得快速而轻松。"
 
-      通过使用 GroupDocs.Merger for .NET，您可以执行合并；对单个文档以及一批文档进行拆分等相关操作。以编程方式拼接所有流行格式的文件，例如 Microsoft Word、Excel、PowerPoint、Visio、OpenDocument、PDF、XPS、TXT、CSV、电子书和图像文件格式。
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          以下是 .NET 的 GroupDocs.Merger 的概述：
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "文档操作"
-          content: |
-            * 更改页面顺序
-            * 移除或删除页面
-            * 拆分或中断文档
-            * 交换或随机播放任意两页
-            * 修剪单页或多页
-            * 加入多个文档
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "安全运营"
-          content: |
-            * 设置文档安全性
-            * 检查文件安全状态
-            * 设置文档密码
-            * 更新文档密码
-            * 删除文档密码
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger for .NET 支持合并以下 [文档文件格式](https://docs.groupdocs.com/merger/net/supported-document-formats/)：
+    # feature loop
+    - title: "通过拆分大文件简化文档管理"
+      content: "轻松将大型 PDF 或 Office 文件拆分为更小、更易于管理的部分。 GroupDocs.Merger for .NET 使您能够根据特定页面、范围拆分文档，甚至毫不费力地提取单个页面。"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "微软办公软件"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** ONE
+    # feature loop
+    - title: "操作页面和自定义文档结构 - 重新排序、交换或删除"
+      content: "通过重新排列页面、删除不需要的页面或添加新页面来控制您的文档。 GroupDocs.Merger for .NET 使您能够操纵文档结构，允许您根据您的特定需求自定义和定制您的文件。"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument & 其他格式"
-              content: |
-                * **OpenDocument 格式**：ODT、OTT、ODP、OTP、ODS
-                * **固定布局**：PDF、XPS
-                * **图像**：BMP、PNG、TIFF
-                * **网络**：HTML、MHT、MHTML
-                * **文本**：TXT、CSV、TSV
-                * **乳胶**：TEX
-                * **电子书**：EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "平台独立性"
+  description: "GroupDocs.Merger for .NET 支持以下操作系统、框架和包管理器"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger for .NET 支持以下作品，Frameworks & 包管理器:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "操作系统"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "支持的框架"
-              content: |
-                * .NET Framework 2.0 或更高版本
-                * Mono Framework 1.2 或更高版本
-                * .NET Standard 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "包管理器"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "开发环境"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "支持的文件格式"
+  description: |
+    .NET 的 GroupDocs.Merger 支持使用以下[文档文件格式](https://docs.groupdocs.com/merger/net/supported-document-formats/) 的操作。
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### 微软办公格式
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### 文件和图片
+        * **文件:** PDF, XPS, TEX
+        * **图片:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### 其他格式
+        * **网络:**  HTML, MHTML, MHT
+        * **档案:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger for .NET 功能"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "将多个页面、幻灯片和图表合并并合并到一个文档中"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "将大文件拆分成多个小文件"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "重新排列、随机播放和重新组织页面、幻灯片或图表"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "在文档中相互交换和交换两个页面、幻灯片或图表"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "通过删除特定页面、幻灯片或图表来修剪文档"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "删除单个或一组页面、幻灯片或图表"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "批量拼接大量文档"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "以编程方式检查文档是否使用密码保护"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "设置、重置和删除已知和未知文档格式的密码"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "获取支持的文件格式列表 - 拆分和连接文本 (ERR) 日志文件格式"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "旋转页面并更改已知和未知格式的页面方向"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "将多个不同格式的文件合并为 DOC、DOCX 和 XPS"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "按行号拆分大文本文件"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "获取文档页面和图表族格式的图像表示"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "为空白的黑色图像空间加入具有背景颜色的图像"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "将不同类型的文档（DOC、XLS、PPT 等）合并到一个 PDF 文件中"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "轻松将 OLE 对象导入 Microsoft Word、Excel、演示文稿和 OpenDocument 文件类型"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "通过 OLE 对象将其他文档添加到图表页面"
-
-    more_feature:
-      # more_feature_loop
-      - title: "从文档中删除所需页面"
-        content: |
-          GroupDocs.Merger for .NET API 可帮助您从文档中删除不需要的页面。
-      
-      # more_feature_loop
-      - title: "将转换应用于渲染输出"
-        content: "您可以使用 GroupDocs.Merger for .NET API 对呈现的输出文档执行各种转换。这些转换选项使您可以控制呈现渲染输出以供显示的方式。可用的转换是页面旋转选项、页面重新排序选项和应用文本水印."
-
-      # more_feature_loop
-      - title: "检查未知文档格式的密码"
-        content: "GroupDocs.Merger for .NET API 使您能够检查格式未知的文档的密码."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger 为其他流行的开发环境提供文档查看 API"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger 功能"
+  description: "无缝合并、拆分和操作 PDF 和 Office 文档"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "合并文件"
+      content: "将两个或多个文档合并为一个文档，合并来自多个源文档的特定页面或页面范围。"
+
+    # feature loop
+    - icon: "split"
+      title: "拆分文件"
+      content: "使用拆分操作将源文档分成多个结果文档。"
+
+    # feature loop
+    - icon: "move"
+      title: "移动页面"
+      content: "使用 MovePage 功能在文档中重新定位页面。"
+
+    # feature loop
+    - icon: "remove"
+      title: "删除页面"
+      content: "从源文档中删除单个页面或特定页码的集合。"
+
+    # feature loop
+    - icon: "rotate"
+      title: "旋转页面"
+      content: "通过使用 RotatePages 操作将旋转角度设置为 90、180 或 270 度来旋转文档中的页面。"
+
+    # feature loop
+    - icon: "swap"
+      title: "交换页面"
+      content: "交换源文档中两页的位置，创建具有交换页面位置的新文档。"
+
+    # feature loop
+    - icon: "extract"
+      title: "提取页面"
+      content: "从源文档中提取特定页面或页面范围，生成仅包含所选页面的新文档。"
+
+    # feature loop
+    - icon: "orientation"
+      title: "改变方向"
+      content: "使用 ChangeOrientation 操作为文档的特定或所有页面设置页面方向（纵向或横向）。"
+
+    # feature loop
+    - icon: "preview"
+      title: "预览页面"
+      content: "生成文档页面的图像表示以更好地理解内容和结构。预览所有页面或仅预览特定页面。"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "代码示例"
+  description: ".NET 操作的典型 GroupDocs.Merger 的一些用例"
+  items:
+    # code sample loop
+    - title: "将特定的 DOCX 文件页面合并到一个文档中"
+      content: |
+        [选择性页面合并](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) 功能允许您从每个文件中仅提取和合并所需的内容。 以下是如何使用 C# 实现选择性页面合并的示例：
+        {{< landing/code title="如何在 C# 中合并 DOCX 文件">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // 加载源 DOCX 文件
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // 添加另一个 DOCX 文件进行合并
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // 合并 DOCX 文件并保存结果
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "将 PDF 文档拆分为多个文件"
+      content: |
+        使用[拆分文档](https://docs.groupdocs.com/merger/net/split-document/) 功能将文档高效地拆分为多个文件，该功能简化了从大型文档中管理和提取特定部分或页面的过程。 它允许您根据各种标准将文档分成较小的部分 - 按页面范围、开始/结束页面、奇数/偶数页码等。
+        {{< landing/code title="如何将文档拆分为多个多页文档">}}
+        ```csharp {style=abap}   
+        // 使用 C# API 的 GroupDocs.Merger 拆分 PDF 文件
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // 使用输出文件路径格式初始化 SplitOptions 类
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // 使用输入 PDF 文档实例化合并
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // 调用 split 方法并传递 SplitOptions 对象来保存结果文档
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs 产品评论"
+# description: "不要只相信我们的话。查看其他开发人员对我们的 API 的评价"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "优良的服务和优良的产品。在 GroupDocs.Viewer for .NET 实施过程中，他们提供了极大的帮助和响应，怎么推荐都不为过。"
+#     author: "马丁拉萨尔加"
+#     company: "G.S.I. Axentria ECM 产品经理"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "在项目中为 .NET 实施和使用 GroupDocs.Viewer 后，它看起来运行良好。我已经测试了很多文件，到目前为止一切顺利。我投入其中的一切都呈现得很好，看起来和在 PDF 查看器或 MS Word 中一样好。"
+#     author: "马茨·乌斯塔德"
+#     company: "Novanet AS 高级顾问/合伙人"
 ---

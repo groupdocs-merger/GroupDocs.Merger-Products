@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger 概览",
+    "description": "用于组合、拆分、交换、修剪或删除 .NET 应用程序中的文档、幻灯片和图表的 API",
+    "feature_1": {
+      "title": "在 C# 中毫不费力地合并多个文档",
+      "description": "合并文档：将多个 PDF 和 Office 文件无缝合并为一个文档，支持多种格式。 .NET 的 GroupDocs.Merger 使文档合并变得快速而轻松。"
+    },
+    "feature_2": {
+      "title": "通过拆分大文件简化文档管理",
+      "description": "轻松将大型 PDF 或 Office 文件拆分为更小、更易于管理的部分。 GroupDocs.Merger for .NET 使您能够根据特定页面、范围拆分文档，甚至毫不费力地提取单个页面。"
+    },
+    "feature_3": {
+      "title": "操作页面和自定义文档结构 - 重新排序、交换或删除",
+      "description": "通过重新排列页面、删除不需要的页面或添加新页面来控制您的文档。 GroupDocs.Merger for .NET 使您能够操纵文档结构，允许您根据您的特定需求自定义和定制您的文件。"
+    }
+  }
+}

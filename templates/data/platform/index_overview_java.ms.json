@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Penggabungan sepintas lalu",
+    "description": "API untuk menggabungkan, memisahkan, menukar, memangkas atau mengalih keluar dokumen, slaid dan gambar rajah dalam aplikasi Java",
+    "feature_1": {
+      "title": "Menggabungkan berbilang dokumen dalam Java dengan mudah",
+      "description": "Cantumkan fail PDF dan Office dengan mudah ke dalam satu dokumen dalam Java, memanfaatkan keupayaan pustaka GroupDocs.Merger. Manfaat daripada sokongan formatnya yang meluas, membolehkan anda menggabungkan pelbagai jenis fail dengan lancar, menghasilkan proses penggabungan yang mudah dan diperkemas."
+    },
+    "feature_2": {
+      "title": "Perkemas pengurusan dokumen dengan membahagikan fail besar dengan mudah",
+      "description": "Pisahkan fail PDF atau Office yang besar kepada bahagian yang lebih kecil dan mudah dikendalikan. Anda boleh membahagikan dokumen berdasarkan halaman tertentu, julat atau mengekstrak halaman individu dengan mudah dan mudah. Perkemas pengurusan dokumen anda dengan menggunakan keupayaan lancar pustaka GroupDocs.Merger dan jadikan fail anda lebih teratur dan terurus."
+    },
+    "feature_3": {
+      "title": "Sesuaikan struktur dokumen anda dan mempunyai kawalan penuh ke atas fail anda",
+      "description": "Memanipulasi halaman dengan mudah dengan menyusun semula, menukar atau mengalih keluarnya. Susun dan sesuaikan dokumen anda mengikut keperluan khusus anda dengan fleksibiliti untuk mencipta struktur fail yang diperibadikan."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Amostras de código",
+    "description": "Alguns casos de uso típicos de GroupDocs.Merger para operações .NET",
+    "sample_1": {
+      "title": "Mescle páginas específicas de arquivos DOCX em um único documento",
+      "content_1": "O recurso [Mesclar página seletiva](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) permite extrair e mesclar apenas o conteúdo desejado de cada arquivo.",
+      "content_2": "Aqui está um exemplo de como obter a mesclagem seletiva de páginas usando C#:",
+      "code_title": "Como mesclar arquivos DOCX em C #",
+      "comment_1": "Carregue o arquivo DOCX de origem",
+      "comment_2": "Adicione outro arquivo DOCX para mesclar",
+      "comment_3": "Mesclar arquivos DOCX e salvar o resultado"
+    },
+    "sample_2": {
+      "title": "Dividir documento PDF em vários arquivos",
+      "content_1": "Divida um documento com eficiência em vários arquivos com o recurso [Dividir documento](https://docs.groupdocs.com/merger/net/split-document/), que simplifica o processo de gerenciamento e extração de seções ou páginas específicas de documentos grandes.",
+      "content_2": "Ele permite que você divida documentos em partes menores com base em vários critérios - por intervalo de páginas, páginas iniciais/finais, números de páginas pares/ímpares, etc.",
+      "code_title": "Como dividir o documento em vários documentos de várias páginas",
+      "comment_1": "Dividir arquivo PDF usando GroupDocs.Merger API",
+      "comment_2": "Inicialize a classe SplitOptions com o formato do caminho dos arquivos de saída",
+      "comment_3": "Instanciar fusão com documento PDF de entrada",
+      "comment_4": "Chame o método split e passe o objeto SplitOptions para salvar os documentos resultantes"
+    }
+  }
+}

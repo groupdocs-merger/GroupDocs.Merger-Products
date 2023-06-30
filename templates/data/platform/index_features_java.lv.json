@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger funkcijas",
+    "description": "Nemanāmi sapludiniet, sadaliet un manipulējiet ar PDF un Office dokumentiem",
+    "feature_1": {
+      "title": "Apvienojiet failus",
+      "content": "Apvienojiet divus vai vairākus dokumentus vienā dokumentā, apvienojot noteiktas lapas vai lapu diapazonus no vairākiem avota dokumentiem."
+    },
+    "feature_2": {
+      "title": "Sadalīt dokumentu",
+      "content": "Izmantojiet sadalīšanas darbību, lai sadalītu avota dokumentu vairākos iegūtajos dokumentos, nodrošinot efektīvu failu organizēšanu un pārvaldību."
+    },
+    "feature_3": {
+      "title": "Pārvietot lapas",
+      "content": "Vienmērīgi mainiet lappusi dokumentā, izmantojot funkciju MovePage."
+    },
+    "feature_4": {
+      "title": "Noņemiet lapas",
+      "content": "Efektīvi noņemiet atsevišķas lapas vai noteiktu lappušu numuru kolekciju no avota dokumenta, izmantojot funkciju RemovePages."
+    },
+    "feature_5": {
+      "title": "Pagriezt lapas",
+      "content": "Izmantojiet RotatePages darbības priekšrocības, lai viegli pagrieztu lappuses dokumentā, norādot pagriešanas leņķi kā 90, 180 vai 270 grādi"
+    },
+    "feature_6": {
+      "title": "Apmainīt lapas",
+      "content": "Pārkārtojiet lappušu secību, apmainoties ar divu lappušu vietām avota dokumentā, izveidojot jaunu dokumentu."
+    },
+    "feature_7": {
+      "title": "Izvilkt lapas",
+      "content": "Ģenerējiet jaunu dokumentu, kurā ir tikai atlasītās lapas, izvelkot noteiktas lapas vai lappušu diapazonus no avota dokumenta."
+    },
+    "feature_8": {
+      "title": "Mainiet orientāciju",
+      "content": "Mainiet lappuses orientāciju (portretu vai ainavu) noteiktām lapām vai visām dokumenta lapām, izmantojot ChangeOrientation darbību."
+    },
+    "feature_9": {
+      "title": "Priekšskatīt lapas",
+      "content": "Iegūstiet skaidrāku izpratni par dokumenta saturu un struktūru, ģenerējot tā lappušu attēlus. Veiciet visu vai tikai noteiktu lapu priekšskatījumus."
+    }
+  }
+}

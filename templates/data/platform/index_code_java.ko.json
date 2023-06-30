@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Java에서 PDF 파일 병합",
+    "more": "더 많은 예",
+    "notes": "새로운 기능 보기",
+    "comment_1": "원본 PDF 파일 로드",
+    "comment_2": "병합할 다른 PDF 파일 추가",
+    "comment_3": "PDF 파일 병합 및 결과 저장"
+  }
+}

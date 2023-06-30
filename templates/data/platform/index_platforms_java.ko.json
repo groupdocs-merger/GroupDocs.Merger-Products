@@ -1,0 +1,6 @@
+{
+  "platforms": {
+    "title": "플랫폼 독립성",
+    "description": "Java용 GroupDocs.Merger는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다."
+  }
+}

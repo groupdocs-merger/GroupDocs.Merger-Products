@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger egy pillanat alatt",
+    "description": "API dokumentumok, diák és diagramok kombinálásához, felosztásához, cseréjéhez, vágásához vagy eltávolításához .NET alkalmazásokban",
+    "feature_1": {
+      "title": "Könnyedén egyesítsen több dokumentumot C#-ban",
+      "description": "Dokumentumok egyesítése: Zökkenőmentesen egyesítsen több PDF- és Office-fájlt egyetlen dokumentumban, sokféle formátum támogatásával. A GroupDocs.Merger for .NET gyors és problémamentes dokumentumegyesítést tesz lehetővé."
+    },
+    "feature_2": {
+      "title": "Egyszerűsítse a dokumentumkezelést a nagy fájlok felosztásával",
+      "description": "A nagy PDF- vagy Office-fájlokat könnyedén feloszthatja kisebb, jobban kezelhető részekre. A GroupDocs.Merger for .NET lehetővé teszi a dokumentumok meghatározott oldalak, tartományok alapján történő felosztását, vagy akár az egyes oldalak egyszerű kibontását."
+    },
+    "feature_3": {
+      "title": "Manipuláljon oldalakat és szabja testre a dokumentum szerkezetét – rendezze át, cserélje ki vagy távolítsa el",
+      "description": "Átrendezze a dokumentumokat az oldalak átrendezésével, a nem kívánt oldalak eltávolításával vagy újak hozzáadásával. A GroupDocs.Merger for .NET lehetővé teszi a dokumentumok szerkezetének kezelését, lehetővé téve a fájlok testreszabását és testreszabását az Ön egyedi igényei szerint."
+    }
+  }
+}

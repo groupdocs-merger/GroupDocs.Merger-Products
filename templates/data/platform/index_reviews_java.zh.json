@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "GroupDocs 产品评论",
+    "description": "不要只相信我们的话。查看其他开发人员对我们的 API 的评价",
+    "review_1": {
+      "content": "优良的服务和优良的产品。在 GroupDocs.Viewer for .NET 实施过程中，他们提供了极大的帮助和响应，怎么推荐都不为过。",
+      "author": "马丁拉萨尔加",
+      "company": "G.S.I. Axentria ECM 产品经理"
+    },
+    "review_2": {
+      "content": "在项目中为 .NET 实施和使用 GroupDocs.Viewer 后，它看起来运行良好。我已经测试了很多文件，到目前为止一切顺利。我投入其中的一切都呈现得很好，看起来和在 PDF 查看器或 MS Word 中一样好。",
+      "author": "马茨·乌斯塔德",
+      "company": "Novanet AS 高级顾问/合伙人"
+    }
+  }
+}

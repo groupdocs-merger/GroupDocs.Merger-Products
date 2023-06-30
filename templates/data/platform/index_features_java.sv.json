@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger funktioner",
+    "description": "Sammanfoga, dela och manipulera PDF- och Office-dokument sömlöst",
+    "feature_1": {
+      "title": "Kombinera filer",
+      "content": "Slå samman två eller flera dokument till ett enda dokument, sammanfoga specifika sidor eller sidintervall från flera källdokument."
+    },
+    "feature_2": {
+      "title": "Dela dokument",
+      "content": "Använd den delade operationen för att dela upp ett källdokument i flera resulterande dokument, vilket möjliggör effektiv organisation och hantering av filer."
+    },
+    "feature_3": {
+      "title": "Flytta sidor",
+      "content": "Flytta en sida smidigt i ett dokument genom att använda MovePage-funktionen."
+    },
+    "feature_4": {
+      "title": "Ta bort sidor",
+      "content": "Ta effektivt bort enskilda sidor eller en samling specifika sidnummer från källdokumentet med funktionen RemovePages."
+    },
+    "feature_5": {
+      "title": "Rotera sidor",
+      "content": "Dra fördel av funktionen RotatePages för att enkelt rotera sidor i ett dokument genom att ange rotationsvinkeln som 90, 180 eller 270 grader"
+    },
+    "feature_6": {
+      "title": "Byt sida",
+      "content": "Ordna om sidordningen genom att byta ut positionerna för två sidor i källdokumentet och skapa ett nytt dokument."
+    },
+    "feature_7": {
+      "title": "Extrahera sidor",
+      "content": "Skapa ett nytt dokument som endast innehåller de markerade sidorna genom att extrahera specifika sidor eller sidintervall från källdokumentet."
+    },
+    "feature_8": {
+      "title": "Ändra orientering",
+      "content": "Ändra sidorienteringen (stående eller liggande) för specifika sidor eller alla sidor i dokumentet genom att använda funktionen ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Förhandsgranska sidor",
+      "content": "Få en tydligare förståelse av dokumentets innehåll och struktur genom att skapa bildrepresentationer av dess sidor. Gör förhandsvisningar av alla eller bara specifika sidor."
+    }
+  }
+}

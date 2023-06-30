@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Yhdistäminen yhdellä silmäyksellä",
+    "description": "API yhdistää, jakaa, vaihtaa, leikata tai poistaa asiakirjoja, dioja ja kaavioita .NET-sovelluksissa",
+    "feature_1": {
+      "title": "Yhdistä useita asiakirjoja vaivattomasti C#:ssa",
+      "description": "Yhdistä asiakirjat: Yhdistä saumattomasti useita PDF- ja Office-tiedostoja yhdeksi asiakirjaksi, joka tukee monia muotoja. GroupDocs.Merger for .NET tekee asiakirjojen yhdistämisestä nopeaa ja vaivatonta."
+    },
+    "feature_2": {
+      "title": "Yksinkertaista asiakirjojen hallintaa jakamalla suuret tiedostot",
+      "description": "Jaa suuret PDF- tai Office-tiedostot helposti pienempiin, paremmin hallittaviin osiin. GroupDocs.Merger for .NET mahdollistaa asiakirjojen jakamisen tiettyjen sivujen, alueiden tai jopa yksittäisten sivujen vaivattomasti."
+    },
+    "feature_3": {
+      "title": "Käsittele sivuja ja mukauta asiakirjan rakennetta – järjestä uudelleen, vaihda tai poista",
+      "description": "Hallitse asiakirjojasi järjestämällä sivuja uudelleen, poistamalla tarpeettomia sivuja tai lisäämällä uusia. GroupDocs.Merger for .NET antaa sinulle mahdollisuuden muokata asiakirjan rakennetta, jolloin voit mukauttaa ja räätälöidä tiedostoja omien tarpeidesi mukaan."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger funkciók",
+    "description": "Zökkenőmentesen egyesítheti, feloszthatja és kezelheti a PDF és Office dokumentumokat",
+    "feature_1": {
+      "title": "Fájlok egyesítése",
+      "content": "Egyesítsen két vagy több dokumentumot egyetlen dokumentummá, egyesítsen bizonyos oldalakat vagy oldaltartományokat több forrásdokumentumból."
+    },
+    "feature_2": {
+      "title": "Felosztott dokumentum",
+      "content": "Használja a felosztási műveletet egy forrásdokumentum több eredő dokumentumra történő felosztására, ami lehetővé teszi a fájlok hatékony szervezését és kezelését."
+    },
+    "feature_3": {
+      "title": "Oldalak mozgatása",
+      "content": "A MovePage funkció segítségével simán áthelyezheti az oldalt a dokumentumon belül."
+    },
+    "feature_4": {
+      "title": "Távolítsa el az oldalakat",
+      "content": "Hatékonyan távolítsa el az egyes oldalakat vagy bizonyos oldalszámok gyűjteményét a forrásdokumentumból a RemovePages funkcióval."
+    },
+    "feature_5": {
+      "title": "Oldalak elforgatása",
+      "content": "Használja ki a RotatePages művelet előnyeit az oldalak egyszerű elforgatásához a dokumentumon belül az elforgatási szög 90, 180 vagy 270 fokos megadásával"
+    },
+    "feature_6": {
+      "title": "Cserélj oldalt",
+      "content": "Átrendezheti az oldalak sorrendjét úgy, hogy felcseréli két oldal pozícióját a forrásdokumentumban, új dokumentumot hozva létre."
+    },
+    "feature_7": {
+      "title": "Oldalak kibontása",
+      "content": "Hozzon létre egy új dokumentumot, amely csak a kiválasztott oldalakat tartalmazza úgy, hogy meghatározott oldalakat vagy oldaltartományokat von ki a forrásdokumentumból."
+    },
+    "feature_8": {
+      "title": "Tájolás megváltoztatása",
+      "content": "Módosítsa az oldaltájolást (álló vagy fekvő) bizonyos oldalakhoz vagy a dokumentum összes oldalához a ChangeOrientation művelet segítségével."
+    },
+    "feature_9": {
+      "title": "Oldalak előnézete",
+      "content": "Tisztábban megértheti a dokumentum tartalmát és szerkezetét azáltal, hogy képi megjelenítést hoz létre az oldalairól. Készítsen előnézetet az összes vagy csak bizonyos oldalról."
+    }
+  }
+}

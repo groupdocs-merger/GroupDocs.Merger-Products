@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Java Document Merging API | ادغام و حذف Word Excel PDF XPS EPUB",
+    "description": "اسناد ادغام API برای جاوا. صفحات فرمت های PDF، Microsoft Word، Excel، ارائه ها، Visio، XPS و EPUB را ادغام، تقسیم، مبادله، مرتب سازی مجدد و حذف کنید."
+  },
+  "header": {
+    "title_1": "اسناد را ادغام کنید",
+    "title_2": "از طریق Java API",
+    "description": "Flexible Merger API برای ترکیب، تقسیم، یا اصلاح اسناد PDF و Office به راحتی",
+    "words": {
+      "for": "برای"
+    }
+  },
+  "actions": {
+    "main": "دانلود رایگان Maven",
+    "alt": "صدور مجوز",
+    "title": "برای شروع آماده اید؟",
+    "description": "ویژگی های GroupDocs.Merger را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
+  },
+  "release": {
+    "title": "نسخه {0} منتشر شد",
+    "notes": "ببینید چه چیز جدیدی است",
+    "downloads": "دانلودها"
+  }
+}

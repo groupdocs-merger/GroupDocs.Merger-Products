@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API per l'unione di documenti Java | unisci e rimuovi Word Excel PDF XPS EPUB",
+    "description": "Documenti che uniscono API per Java. Unisci, dividi, scambia, riordina ed elimina pagine di formati PDF, Microsoft Word, Excel, presentazioni, Visio, XPS e EPUB."
+  },
+  "header": {
+    "title_1": "Unire documenti",
+    "title_2": "via Java API",
+    "description": "API Merger flessibile per combinare, dividere o modificare facilmente documenti PDF e Office",
+    "words": {
+      "for": "per"
+    }
+  },
+  "actions": {
+    "main": "Download gratuito di Maven",
+    "alt": "Licenza",
+    "title": "Pronto per iniziare?",
+    "description": "Prova le funzionalità di GroupDocs.Merger gratuitamente o richiedi una licenza"
+  },
+  "release": {
+    "title": "Versione {0} rilasciata",
+    "notes": "Scopri le novità",
+    "downloads": "Download"
+  }
+}

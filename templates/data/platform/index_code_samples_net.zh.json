@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "代码示例",
+    "description": ".NET 操作的典型 GroupDocs.Merger 的一些用例",
+    "sample_1": {
+      "title": "将特定的 DOCX 文件页面合并到一个文档中",
+      "content_1": "[选择性页面合并](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) 功能允许您从每个文件中仅提取和合并所需的内容。",
+      "content_2": "以下是如何使用 C# 实现选择性页面合并的示例：",
+      "code_title": "如何在 C# 中合并 DOCX 文件",
+      "comment_1": "加载源 DOCX 文件",
+      "comment_2": "添加另一个 DOCX 文件进行合并",
+      "comment_3": "合并 DOCX 文件并保存结果"
+    },
+    "sample_2": {
+      "title": "将 PDF 文档拆分为多个文件",
+      "content_1": "使用[拆分文档](https://docs.groupdocs.com/merger/net/split-document/) 功能将文档高效地拆分为多个文件，该功能简化了从大型文档中管理和提取特定部分或页面的过程。",
+      "content_2": "它允许您根据各种标准将文档分成较小的部分 - 按页面范围、开始/结束页面、奇数/偶数页码等。",
+      "code_title": "如何将文档拆分为多个多页文档",
+      "comment_1": "使用 C# API 的 GroupDocs.Merger 拆分 PDF 文件",
+      "comment_2": "使用输出文件路径格式初始化 SplitOptions 类",
+      "comment_3": "使用输入 PDF 文档实例化合并",
+      "comment_4": "调用 split 方法并传递 SplitOptions 对象来保存结果文档"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Formats de fichiers pris en charge",
+    "description": "GroupDocs.Merger pour Java prend en charge les opérations avec les [formats de fichier de document](https://docs.groupdocs.com/merger/java/supported-document-formats/) suivants.",
+    "groups": {
+      "title_1": "Formats Microsoft Office",
+      "title_2": "Documents et images",
+      "title_3": "Autres formats",
+      "format_documents": "Documents",
+      "format_images": "Images",
+      "format_web": "la toile",
+      "format_archives": "Les archives"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-11-10T10:07:21
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,235 @@ head_title: "Java Document Merging API | Word Excel PDF XPS EPUB egyesítése é
 head_description: "Dokumentumok egyesítő API Java számára. PDF, Microsoft Word, Excel, prezentációk, Visio, XPS és EPUB formátumú oldalak egyesítése, felosztása, cseréje, átrendezése és törlése."
 
 ############################# Header ############################
-title: "Java API dokumentumok kombinálásához és felosztásához"
-description: "Fejlesszen ki nagy teljesítményű alkalmazásokat, amelyek útközben kombinálhatnak, bemásolhatnak, keverhetnek, kivághatnak vagy törölhetnek oldalakat, diákat és diagramokat."
-button:
-    enable: true
+title: "Dokumentumok egyesítése<br>Java API-n keresztül"
+description: "Flexible Merger API a PDF és Office dokumentumok egyszerű kombinálásához, felosztásához vagy módosításához"
+words:
+  for: "számára"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Ingyenes Maven letöltés"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "Engedélyezés"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "Készen áll az indulásra?"
+  description: "Próbálja ki a GroupDocs.Merger szolgáltatásait ingyenesen, vagy kérjen licencet"
+
+release:
+  title: "A(z) {0} verzió megjelent"
+  notes: "Tekintse meg az újdonságokat"
+  downloads: "Letöltések"
+
+code:
+  title: "PDF fájlok egyesítése Java nyelven"
+  more: "További példák"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // Töltse be a forrás PDF-fájlt
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // Adjon hozzá egy másik PDF-fájlt az egyesítéshez
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Áttekintés"
-
-            # button loop
-            - link: "#features"
-              text: "Jellemzők"
-
-            # button loop
-            - link: "#support"
-              text: "Támogatás"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Élő Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "Árazás"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // Egyesítse a PDF fájlokat és mentse az eredményt
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      A GroupDocs.Merger for Java segítségével gyorsan fejleszthet csúcskategóriás üzleti alkalmazásokat Java nyelven. Kevés kódolással a Java-alkalmazások egyesíthetnek, bemásolhatnak, keverhetnek, kivághatnak és törölhetnek egyetlen oldalt vagy oldalakat, diákat és diagramokat. Az összevonási műveletek ismert és ismeretlen formátumú biztonságos fájlokon is végrehajthatók jelszavas védelem alkalmazásával vagy eltávolításával.  
+  enable: true
+  title: "GroupDocs.Merger egy pillanat alatt"
+  description: "API dokumentumok, diák és diagramok kombinálásához, felosztásához, cseréjéhez, vágásához vagy eltávolításához Java alkalmazásokban"
+  features:
+    # feature loop
+    - title: "Könnyedén egyesíthet több dokumentumot Java nyelven"
+      content: "Egyszerűen egyesítse a PDF- és az Office-fájlokat egyetlen dokumentummá Java nyelven, kihasználva a GroupDocs.Merger könyvtár képességeit. Használja ki a kiterjedt formátumtámogatás előnyeit, amely lehetővé teszi a különböző fájltípusok zökkenőmentes kombinálását, ami kényelmes és egyszerűsített egyesítési folyamatot eredményez."
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Az alábbiakban a GroupDocs.Merger for Java áttekintése látható:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Dokumentumműveletek"
-          content: |
-            * Oldalsorrend módosítása
-            * Oldalak eltávolítása vagy törlése
-            * Dokumentum felosztása vagy törése
-            * Cserélje fel vagy keverje össze bármelyik két oldalt
-            * Vágjon egy vagy több oldalt
-            * Csatlakoztasson több dokumentumot
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Biztonsági műveletek"
-          content: |
-            * Dokumentumbiztonság beállítása
-            * Ellenőrizze a dokumentum biztonsági állapotát
-            * Állítsa be a dokumentum jelszavát
-            * A dokumentum jelszavának frissítése
-            * Távolítsa el a dokumentum jelszavát
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          A GroupDocs.Merger for Java a következő [dokumentumfájl-formátumok](https://docs.groupdocs.com/merger/java/supported-document-formats/) egyesítését támogatja:
+    # feature loop
+    - title: "Egyszerűsítse a dokumentumkezelést a terjedelmes fájlok egyszerű felosztásával"
+      content: "Ossza fel a nagy PDF- vagy Office-fájlokat kisebb, könnyen kezelhető részekre. A dokumentumokat konkrét oldalak, tartományok alapján oszthatja fel, vagy akár egyedi oldalakat is kivonhat könnyedén és kényelmesen. Egyszerűsítse dokumentumkezelését a GroupDocs.Merger könyvtár zökkenőmentes képességeinek kihasználásával, és tegye fájljait szervezettebbé és kezelhetőbbé."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Szó:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** EGY
+    # feature loop
+    - title: "Testreszabhatja dokumentumszerkezetét, és teljes mértékben irányíthatja fájljait"
+      content: "Könnyen kezelheti az oldalakat átrendezéssel, cserével vagy eltávolításukkal. Rendszerezze és szabja személyre szabott dokumentumait egyedi igényei szerint, rugalmasan személyre szabott fájlstruktúrát hozzon létre."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument és egyéb formátumok"
-              content: |
-                * **OpenDocument formátumok**: ODT, OTT, ODP, OTP, ODS
-                * **Rögzített elrendezés**: PDF, XPS
-                * **Képek**: BMP, PNG, TIFF
-                * **Web**: HTML, MHT, MHTML
-                * **Szöveg**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **E-könyv**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platformfüggetlenség"
+  description: "A GroupDocs.Merger for Java a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          A GroupDocs.Merger for Java a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operációs rendszer"
-              content: |
-                * Microsoft Windows asztal
-                * Microsoft Windows Server
-                * Linux
-                * Mac operációs rendszer
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "Támogatott keretrendszerek"
-              content: |
-                * Java 7 (1.7)
-                * Java 8 (1.8)
-                * Java 10
-                * Java 11 és újabb
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Build Automation Tool"
-              content: |
-                * Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Fejlesztési környezetek"
-              content: |
-                * NetBeans
-                * IntelliJ ÖTLET
-                * Napfogyatkozás
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Támogatott fájlformátumok"
+  description: |
+    A GroupDocs.Merger for Java a következő [dokumentumfájl-formátumokkal](https://docs.groupdocs.com/merger/java/supported-document-formats/) végzett műveleteket támogatja.
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formátumok
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Dokumentumok és képek
+        * **Dokumentumok:** PDF, XPS, TEX
+        * **Képek:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Egyéb formátumok
+        * **Web:**  HTML, MHTML, MHT
+        * **Levéltár:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger for Java Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Különféle oldalak, diák és diagramok egyesítése egyetlen fájlba"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Hatalmas dokumentumok másolása és felosztása több kisebb fájlra"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Oldalak, diák vagy diagramok keverése és átrendezése"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Cseréljen és cseréljen két oldalt, diákat vagy diagramot egymással egy dokumentumon belül"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Vágja ki és vágja le a dokumentumot meghatározott oldalak, diák vagy diagramok eltávolításával"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Egyetlen vagy oldalcsoport, diák vagy diagram törlése"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Összefűzhet és egyesíthet nagy számú dokumentumot kötegekben"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Programozottan ellenőrizze a Java-ban, hogy egy dokumentum jelszóval védett-e"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Állítsa be, állítsa vissza és távolítsa el az ismert és ismeretlen dokumentumformátumok jelszavát"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Egy szövegfájl felosztása sorszámmal többszörösre"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "A dokumentumoldalak képi megjelenítése"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Egyesítsen több különböző formátumú dokumentumot egyetlen PDF-fájlba"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "OLE objektumok beszúrása PDF, Word, Excel, PowerPoint és Open Document formátumokba"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Fájlok programozott csatolása PDF-dokumentumhoz"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Dokumentum hozzáadása a diagramhoz az OLE objektumok segítségével"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Különböző típusú dokumentumok (DOC, XLS, PPT stb.) egyesítése egyetlen PDF-fájlba"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Egyszerűen importálhat OLE objektumokat Microsoft Word, Excel, prezentáció és OpenDocument fájltípusokba"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Más dokumentumok hozzáadása a diagramoldalhoz az OLE objektumok segítségével"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Távolítsa el a kívánt oldalakat a dokumentumokból"
-        content: |
-          A GroupDocs.Merger for Java API segítségével kiválaszthatja és törölheti a nem kívánt oldalakat a dokumentumból.
-      
-      # more_feature_loop
-      - title: "Ellenőrizze az ismeretlen dokumentumformátum jelszavát"
-        content: "Még ha egy adott dokumentum formátuma ismeretlen is, a GroupDocs.Merger for Java lehetővé teszi a dokumentum jelszavának ellenőrzését és lekérését, ha elérhető."
-
-      # more_feature_loop
-      - title: "Csatlakozzon az ismert formátumú, jelszóval védett dokumentumokhoz"
-        content: "A GroupDocs.Merger for Java API lehetővé teszi, hogy ismert és ismeretlen formátumú dokumentumok listáját kapja meg."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "A GroupDocs.Merger dokumentum-egyesítési API-kat kínál más népszerű fejlesztői környezetekhez"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger funkciók"
+  description: "Zökkenőmentesen egyesítheti, feloszthatja és kezelheti a PDF és Office dokumentumokat"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Fájlok egyesítése"
+      content: "Egyesítsen két vagy több dokumentumot egyetlen dokumentummá, egyesítsen bizonyos oldalakat vagy oldaltartományokat több forrásdokumentumból."
+
+    # feature loop
+    - icon: "split"
+      title: "Felosztott dokumentum"
+      content: "Használja a felosztási műveletet egy forrásdokumentum több eredő dokumentumra történő felosztására, ami lehetővé teszi a fájlok hatékony szervezését és kezelését."
+
+    # feature loop
+    - icon: "move"
+      title: "Oldalak mozgatása"
+      content: "A MovePage funkció segítségével simán áthelyezheti az oldalt a dokumentumon belül."
+
+    # feature loop
+    - icon: "remove"
+      title: "Távolítsa el az oldalakat"
+      content: "Hatékonyan távolítsa el az egyes oldalakat vagy bizonyos oldalszámok gyűjteményét a forrásdokumentumból a RemovePages funkcióval."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Oldalak elforgatása"
+      content: "Használja ki a RotatePages művelet előnyeit az oldalak egyszerű elforgatásához a dokumentumon belül az elforgatási szög 90, 180 vagy 270 fokos megadásával"
+
+    # feature loop
+    - icon: "swap"
+      title: "Cserélj oldalt"
+      content: "Átrendezheti az oldalak sorrendjét úgy, hogy felcseréli két oldal pozícióját a forrásdokumentumban, új dokumentumot hozva létre."
+
+    # feature loop
+    - icon: "extract"
+      title: "Oldalak kibontása"
+      content: "Hozzon létre egy új dokumentumot, amely csak a kiválasztott oldalakat tartalmazza úgy, hogy meghatározott oldalakat vagy oldaltartományokat von ki a forrásdokumentumból."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Tájolás megváltoztatása"
+      content: "Módosítsa az oldaltájolást (álló vagy fekvő) bizonyos oldalakhoz vagy a dokumentum összes oldalához a ChangeOrientation művelet segítségével."
+
+    # feature loop
+    - icon: "preview"
+      title: "Oldalak előnézete"
+      content: "Tisztábban megértheti a dokumentum tartalmát és szerkezetét azáltal, hogy képi megjelenítést hoz létre az oldalairól. Készítsen előnézetet az összes vagy csak bizonyos oldalról."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Kódminták"
+  description: "Egyes esetekben a tipikus GroupDocs.Merger Java műveleteket használják"
+  items:
+    # code sample loop
+    - title: "Egyesítse a DOCX fájlokat egyetlen dokumentumba"
+      content: |
+        A [Word-dokumentumok egyesítése](https://docs.groupdocs.com/merger/java/merge/word/) funkcióval teljes DOCX-fájlokat egyesíthet egyetlen dokumentumban a forrásfájl betöltésével, és további DOCX-fájlok hozzáadásával az összekapcsoláshoz. , és az egyesített dokumentum mentése. Az alábbiakban látható egy Java kódrészlet, amely bemutatja az egyesítési folyamatot:
+        {{< landing/code title="Hogyan lehet DOCX fájlokat egyesíteni Java-ban">}}
+        ```java {style=abap}   
+        // Töltse be a forrás DOCX fájlt
+        Merger merger = new Merger("sample1.docx");
+        // Adjon hozzá egy másik DOCX-fájlt az egyesítéshez
+        merger.join("sample2.docx");
+        // Egyesítse a DOCX fájlokat és mentse az eredményt
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "PDF dokumentum felosztása több fájlra"
+      content: |
+        Osszon fel egy dokumentumot több fájlra a [Dokumentum felosztása](https://docs.groupdocs.com/merger/java/split-document/) funkcióval, hogy leegyszerűsítse a nagy dokumentumok egyes szakaszainak vagy oldalainak kezelését és kibontását. Lehetővé teszi a dokumentumok kisebb részekre bontását különböző kritériumok alapján - oldaltartomány, kezdő/végoldalak, páratlan/páros oldalszámok stb. szerint.
+        {{< landing/code title="Ossza fel a dokumentumot több egyoldalas dokumentumra">}}
+        ```java {style=abap}   
+        // PDF-fájl felosztása a GroupDocs.Merger for Java API segítségével
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // Inicializálja a SplitOptions osztályt a kimeneti fájlok elérési út formátumával
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // Példányos egyesülés a bemeneti PDF dokumentummal
+        Merger merger = new Merger(filePath);
+
+        // Hívja meg a felosztási metódust, és adja át a SplitOptions objektumot az eredményül kapott dokumentumok mentéséhez
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs termékértékelések"
+# description: "Ne csak a szavunkat fogadja. Tekintse meg, mit mondanak más fejlesztők az API-inkról"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Kiváló kiszolgálás és kiváló termékek. Rendkívül segítőkészek és készségesek voltak a GroupDocs.Viewer for .NET megvalósítási folyamata során, nem tudom őket eléggé ajánlani."
+#     author: "Martin Lasarga"
+#     company: "Az Axentria ECM termékmenedzsere, G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "A GroupDocs.Viewer for .NET projektben történő megvalósítása és használata után úgy tűnik, hogy nagyon jól működik. Rengeteg dokumentummal teszteltem és eddig jó. Minden, amit rádobtam, szépen megjelenik, és ugyanolyan jól néz ki, mint egy PDF-nézegetőben vagy MS Word-ben."
+#     author: "Mats Oustad"
+#     company: "A Novanet AS vezető tanácsadója/partnere"
 ---

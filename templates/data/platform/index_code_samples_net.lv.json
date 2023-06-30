@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Koda paraugi",
+    "description": "Daži tipiski GroupDocs.Merger izmantošanas gadījumi .NET operācijām",
+    "sample_1": {
+      "title": "Apvienojiet noteiktas DOCX faila lapas vienā dokumentā",
+      "content_1": "Funkcija [Selektīva lapu sapludināšana](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) ļauj no katra faila izvilkt un sapludināt tikai vajadzīgo saturu.",
+      "content_2": "Šeit ir piemērs, kā panākt selektīvu lapu sapludināšanu, izmantojot C#:",
+      "code_title": "Kā sapludināt DOCX failus C#",
+      "comment_1": "Ielādējiet avota DOCX failu",
+      "comment_2": "Pievienojiet vēl vienu DOCX failu, lai sapludinātu",
+      "comment_3": "Apvienojiet DOCX failus un saglabājiet rezultātu"
+    },
+    "sample_2": {
+      "title": "Sadaliet PDF dokumentu vairākos failos",
+      "content_1": "Efektīvi sadaliet dokumentu vairākos failos, izmantojot funkciju [Sadalīt dokumentu](https://docs.groupdocs.com/merger/net/split-document/), kas vienkāršo noteiktu sadaļu vai lapu pārvaldību un izvilkšanu no lieliem dokumentiem.",
+      "content_2": "Tas ļauj sadalīt dokumentus mazākās daļās, pamatojoties uz dažādiem kritērijiem – pēc lappušu diapazona, pēc sākuma/beigu lapām, pēc nepāra/pāra lappušu numuriem utt.",
+      "code_title": "Kā sadalīt dokumentu vairākos vairāku lappušu dokumentos",
+      "comment_1": "Sadaliet PDF failu, izmantojot GroupDocs.Merger API",
+      "comment_2": "Inicializējiet SplitOptions klasi ar izvades failu ceļa formātu",
+      "comment_3": "Momentāra apvienošana ar ievades PDF dokumentu",
+      "comment_4": "Izsauciet sadalīšanas metodi un nododiet SplitOptions objektu, lai saglabātu iegūtos dokumentus"
+    }
+  }
+}

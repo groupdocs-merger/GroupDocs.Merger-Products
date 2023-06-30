@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger kenmerke",
+    "description": "Voeg naatloos saam, verdeel en manipuleer PDF- en Office-dokumente",
+    "feature_1": {
+      "title": "Kombineer lêers",
+      "content": "Voeg twee of meer dokumente saam in 'n enkele dokument, en verbind spesifieke bladsye of bladsyreekse van verskeie brondokumente."
+    },
+    "feature_2": {
+      "title": "Verdeel dokument",
+      "content": "Gebruik die gesplete bewerking om 'n brondokument in veelvuldige resulterende dokumente te verdeel, wat doeltreffende organisasie en bestuur van lêers moontlik maak."
+    },
+    "feature_3": {
+      "title": "Skuif bladsye",
+      "content": "Herposisioneer 'n bladsy glad binne 'n dokument deur die MovePage-funksie te gebruik."
+    },
+    "feature_4": {
+      "title": "Verwyder bladsye",
+      "content": "Verwyder effektief individuele bladsye of 'n versameling spesifieke bladsynommers uit die brondokument met die Verwyder Bladsye-funksie."
+    },
+    "feature_5": {
+      "title": "Draai bladsye",
+      "content": "Maak gebruik van die RotatePages-bewerking om bladsye binne 'n dokument maklik te draai deur die rotasiehoek as 90, 180 of 270 grade te spesifiseer"
+    },
+    "feature_6": {
+      "title": "Ruil bladsye om",
+      "content": "Herrangskik die bladsyvolgorde deur die posisies van twee bladsye binne die brondokument uit te ruil en 'n nuwe dokument te produseer."
+    },
+    "feature_7": {
+      "title": "Onttrek bladsye",
+      "content": "Genereer 'n nuwe dokument wat slegs die geselekteerde bladsye bevat deur spesifieke bladsye of bladsyreekse uit die brondokument te onttrek."
+    },
+    "feature_8": {
+      "title": "Verander oriëntasie",
+      "content": "Verander die bladsyoriëntasie (portret of landskap) vir spesifieke bladsye of alle bladsye van die dokument deur die ChangeOrientation-bewerking te gebruik."
+    },
+    "feature_9": {
+      "title": "Voorskou bladsye",
+      "content": "Kry 'n duideliker begrip van die inhoud en struktuur van die dokument deur beeldvoorstellings van sy bladsye te genereer. Maak voorskoue van alle of net spesifieke bladsye."
+    }
+  }
+}

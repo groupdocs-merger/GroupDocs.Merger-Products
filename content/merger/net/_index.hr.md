@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-26T09:12:18
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,234 @@ head_title: "C# .NET Document Merging API | Kombinirajte i podijelite PDF Word E
 head_description: "C# .NET API za spajanje dokumenata za kombiniranje, dijeljenje, razmjenu ili uklanjanje stranica dokumenata iz PDF-a, Microsoft Worda, Excela, prezentacija, Visio i slikovnih formata."
 
 ############################# Header ############################
-title: ".NET API za spajanje i dijeljenje dokumenata"
-description: "API za kombiniranje, dijeljenje, razmjenu, rezanje ili uklanjanje dokumenata, slajdova i dijagrama u .NET aplikacijama."
-button:
-    enable: true
+title: "Spajanje dokumenata<br>putem .NET API-ja"
+description: "Moćni API za spajanje za rad s PDF-ovima, Microsoft Officeom, HTML-om i slikovnim datotekama."
+words:
+  for: "za"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "Besplatno preuzimanje NuGeta"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "Licenciranje"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "Jeste li spremni za početak?"
+  description: "Isprobajte značajke GroupDocs.Merger besplatno ili zatražite licencu"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Pregled"
+release:
+  title: "Objavljena verzija {0}"
+  notes: "Pogledajte što je novo"
+  downloads: "Preuzimanja"
 
-            # button loop
-            - link: "#features"
-              text: "Značajke"
+code:
+  title: "Spajanje PDF datoteka u C#"
+  more: "Više primjera"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // Učitajte izvornu PDF datoteku
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // Dodajte još jednu PDF datoteku za spajanje
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "podrška"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Demo uživo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Cijene"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // Spoji PDF datoteke i spremi rezultat
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger za .NET, pomaže vam da brzo razvijete vrhunske poslovne aplikacije u C#, ASP.NET i drugim .NET tehnologijama. Samo nekoliko redaka koda omogućit će vašim .NET aplikacijama kombiniranje, dijeljenje, preuređivanje, zamjenu, rezanje i uklanjanje jedne stranice ili zbirke stranica dokumenta, slajdova, slika ili dijagrama. Izvedite ove operacije na sigurnim datotekama postavljanjem ili uklanjanjem zaštite lozinkom poznatih i nepoznatih formata datoteka.  
+  enable: true
+  title: "GroupDocs.Spajanje na prvi pogled"
+  description: "API za kombiniranje, dijeljenje, zamjenu, rezanje ili uklanjanje dokumenata, slajdova i dijagrama u .NET aplikacijama"
+  features:
+    # feature loop
+    - title: "Spajanje više dokumenata bez napora u C#"
+      content: "Spajanje dokumenata: Besprijekorno kombinirajte više PDF i Office datoteka u jedan dokument, uz podršku za širok raspon formata. GroupDocs.Merger za .NET čini spajanje dokumenata brzim i bez muke."
 
-      Korištenjem GroupDocs.Merger za .NET možete izvršiti spajanje; razdvajanje i druge povezane operacije na pojedinačnim dokumentima kao i na skupu dokumenata. Programski spojite datoteke svih popularnih formata, kao što su Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook i formati slikovnih datoteka.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Slijedi pregled GroupDocs.Merger za .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Operacije s dokumentima"
-          content: |
-            * Promjena redoslijeda stranica
-            * Ukloni ili izbriši stranice
-            * Razdvojite ili prekinite dokument
-            * Zamijenite ili pomiješajte bilo koje dvije stranice
-            * Obrežite jednu ili više stranica
-            * Spajanje više dokumenata
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Sigurnosne operacije"
-          content: |
-            * Postavljanje sigurnosti dokumenta
-            * Provjerite status sigurnosti dokumenta
-            * Postavite lozinku za dokument
-            * Ažurirajte lozinku dokumenta
-            * Ukloni lozinku dokumenta
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger za .NET podržava spajanje sljedećih [formata datoteka dokumenata](https://docs.groupdocs.com/merger/net/supported-document-formats/):
+    # feature loop
+    - title: "Pojednostavite upravljanje dokumentima dijeljenjem velikih datoteka"
+      content: "S lakoćom podijelite velike PDF ili Office datoteke na manje dijelove kojima je lakše rukovati. GroupDocs.Merger za .NET omogućuje vam razdvajanje dokumenata na temelju određenih stranica, raspona ili čak izdvajanje pojedinačnih stranica bez napora."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** JEDAN
+    # feature loop
+    - title: "Manipulirajte stranicama i prilagodite strukturu dokumenta - promijenite redoslijed, zamijenite ili uklonite"
+      content: "Preuzmite kontrolu nad svojim dokumentima preuređivanjem stranica, uklanjanjem neželjenih stranica ili dodavanjem novih. GroupDocs.Merger za .NET omogućuje vam manipuliranje strukturom dokumenta, omogućujući vam da prilagodite i prilagodite svoje datoteke prema vašim specifičnim potrebama."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument i drugi formati"
-              content: |
-                * **OpenDocument formati**: ODT, OTT, ODP, OTP, ODS
-                * **Fiksni izgled**: PDF, XPS
-                * **Slike**: BMP, PNG, TIFF
-                * **Web**: HTML, MHT, MHTML
-                * **Tekst**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **E-knjiga**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Neovisnost o platformi"
+  description: "GroupDocs.Merger za .NET podržava sljedeće operativne sustave, okvire i upravitelje paketa"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger za .NET podržava sljedeće operativne sustave, okvire i upravitelje paketa:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operacijski sustavi"
-              content: |
-                * Windows radna površina
-                * Windows poslužitelj
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Podržani okviri"
-              content: |
-                * .NET Framework 2.0 ili noviji
-                * Mono Framework 1.2 ili noviji
-                * .NET Standard 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Upravitelj paketa"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Razvojna okruženja"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Podržani formati datoteka"
+  description: |
+    GroupDocs.Merger za .NET podržava rad sa sljedećim [formatima datoteka dokumenata](https://docs.groupdocs.com/merger/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formati
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Dokumenti i slike
+        * **Dokumenti:** PDF, XPS, TEX
+        * **Slike:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Ostali formati
+        * **mreža:**  HTML, MHTML, MHT
+        * **Arhiva:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "Značajke GroupDocs.Merger za .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Kombinirajte i spojite više stranica, slajdova i dijagrama u jedan dokument"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Podijelite i rastavite velike dokumente u više manjih datoteka"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Preuredite, pomiješajte i reorganizirajte stranice, slajdove ili dijagrame"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Zamijenite dvije stranice, slajdove ili dijagrame međusobno unutar dokumenta"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Skratite dokument uklanjanjem određenih stranica, slajdova ili dijagrama"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Uklonite jednu ili skup stranica, slajdova ili dijagrama"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Spojite veliki broj dokumenata u serijama"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Programski provjerite je li dokument zaštićen lozinkom"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Postavite, poništite i uklonite lozinku poznatih i nepoznatih formata dokumenata"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Dohvaćanje popisa podržanih formata datoteka – Format datoteke dnevnika Split and Join Text (ERR)."
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Rotirajte stranice i promijenite orijentaciju stranica poznatih i nepoznatih formata"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Kombinirajte više datoteka različitih formata u DOC, DOCX i XPS"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Dijeljenje velikih tekstualnih datoteka prema brojevima redaka"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Nabavite slikovne prikaze stranica dokumenta i formate obitelji dijagrama"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Spojite slike bojom pozadine za prazan crni prostor slike"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Spajanje različitih vrsta dokumenata (DOC, XLS, PPT itd.) u jednu PDF datoteku"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Jednostavno uvezite OLE objekte u Microsoft Word, Excel, Presentation i OpenDocument vrste datoteka"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Dodajte druge dokumente na stranicu dijagrama putem OLE objekata"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Uklonite željene stranice iz dokumenata"
-        content: |
-          GroupDocs.Merger za .NET API pomaže vam da izbrišete neželjene stranice iz dokumenta.
-      
-      # more_feature_loop
-      - title: "Primijeni transformaciju na renderirani izlaz"
-        content: "Možete izvesti različite transformacije renderiranog izlaznog dokumenta pomoću GroupDocs.Merger za .NET API. Ove opcije transformacije daju vam kontrolu nad načinom na koji prezentirate renderirani izlaz za prikaz. Dostupne transformacije su opcija rotacije stranice, opcija promjene redoslijeda stranice i primjena tekstualnog vodenog žiga."
-
-      # more_feature_loop
-      - title: "Provjerite lozinku nepoznatog formata dokumenta"
-        content: "GroupDocs.Merger for .NET API omogućuje provjeru lozinke dokumenta čiji je format nepoznat."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger nudi API-je za spajanje dokumenata za druga popularna razvojna okruženja"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger za Javu"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Značajke GroupDocs.Merger"
+  description: "Besprijekorno spajajte, dijelite i manipulirajte PDF i Office dokumentima"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Spoji datoteke"
+      content: "Kombinirajte dva ili više dokumenata u jedan dokument, spajanjem određenih stranica ili raspona stranica iz više izvornih dokumenata."
+
+    # feature loop
+    - icon: "split"
+      title: "Split dokumenti"
+      content: "Podijelite izvorni dokument na više rezultirajućih dokumenata pomoću operacije dijeljenja."
+
+    # feature loop
+    - icon: "move"
+      title: "Premjesti stranice"
+      content: "Promijenite položaj stranica unutar dokumenta pomoću značajke MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "Ukloni stranice"
+      content: "Uklonite pojedinačne stranice ili skup određenih brojeva stranica iz izvornog dokumenta."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Rotirajte stranice"
+      content: "Rotirajte stranice unutar dokumenta postavljanjem kuta rotacije na 90, 180 ili 270 stupnjeva pomoću operacije RotatePages."
+
+    # feature loop
+    - icon: "swap"
+      title: "Zamijenite stranice"
+      content: "Razmijenite položaje dviju stranica unutar izvornog dokumenta, stvarajući novi dokument sa zamijenjenim položajima stranica."
+
+    # feature loop
+    - icon: "extract"
+      title: "Ekstrakt stranica"
+      content: "Izdvojite određene stranice ili raspone stranica iz izvornog dokumenta, generirajući novi dokument koji sadrži samo odabrane stranice."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Promijenite orijentaciju"
+      content: "Postavite orijentaciju stranice (portret ili pejzaž) za određene ili sve stranice dokumenta pomoću operacije ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Pregledajte stranice"
+      content: "Generirajte slikovne prikaze stranica dokumenta kako biste bolje razumjeli sadržaj i strukturu. Napravite preglede svih ili samo određenih stranica."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Uzorci kodova"
+  description: "Neki slučajevi upotrebe tipičnih GroupDocs.Merger za .NET operacije"
+  items:
+    # code sample loop
+    - title: "Spojite određene stranice DOCX datoteke u jedan dokument"
+      content: |
+        Značajka [Selektivno spajanje stranica](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) omogućuje izdvajanje i spajanje samo željenog sadržaja iz svake datoteke. Evo primjera kako postići selektivno spajanje stranica pomoću C#:
+        {{< landing/code title="Kako spojiti DOCX datoteke u C#">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // Učitajte izvornu DOCX datoteku
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // Dodajte još jednu DOCX datoteku za spajanje
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // Spoji DOCX datoteke i spremi rezultat
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Podijelite PDF dokument u više datoteka"
+      content: |
+        Učinkovito podijelite dokument u više datoteka pomoću značajke [Razdijeli dokument](https://docs.groupdocs.com/merger/net/split-document/) koja pojednostavljuje proces upravljanja i izdvajanja određenih odjeljaka ili stranica iz velikih dokumenata. Omogućuje vam dijeljenje dokumenata na manje dijelove na temelju različitih kriterija - prema rasponu stranica, prema početnim/završnim stranicama, prema brojevima neparnih/parnih stranica itd.
+        {{< landing/code title="Kako podijeliti dokument na nekoliko dokumenata s više stranica">}}
+        ```csharp {style=abap}   
+        // Podijeli PDF datoteku pomoću GroupDocs.Merger API
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // Inicijalizirajte klasu SplitOptions s formatom staze izlaznih datoteka
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // Instancirajte spajanje s ulaznim PDF dokumentom
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // Pozovite metodu dijeljenja i proslijedite objekt SplitOptions za spremanje rezultirajućih dokumenata
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs recenzije proizvoda"
+# description: "Nemojte nam samo vjerovati na riječ. Pogledajte što drugi programeri kažu o našim API-jima"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Izvrsna usluga i izvrsni proizvodi. Bili su izuzetno korisni i osjetljivi tijekom procesa implementacije GroupDocs.Viewera za .NET, ne mogu ih dovoljno preporučiti."
+#     author: "Martin Lasarga"
+#     company: "Voditelj proizvoda u tvrtki Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Nakon implementacije i korištenja GroupDocs.Viewer za .NET u projektu, čini se da radi vrlo dobro. Testirao sam s puno dokumenata i za sada je dobro. Sve što sam bacio na njega lijepo se prikazuje i izgleda jednako dobro kao što bi izgledalo u PDF pregledniku ili MS Wordu."
+#     author: "Mats Oustad"
+#     company: "Viši konzultant/partner u Novanetu AS"
 ---

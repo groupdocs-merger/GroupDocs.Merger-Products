@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Java Document Merging API | slå samman och ta bort Word Excel PDF XPS EPUB",
+    "description": "Dokument som sammanfogar API för Java. Slå samman, dela, byt, ordna om och ta bort sidor i PDF, Microsoft Word, Excel, presentationer, Visio, XPS och EPUB-format."
+  },
+  "header": {
+    "title_1": "Slå samman dokument",
+    "title_2": "via Java API",
+    "description": "Flexibelt sammanslagnings-API för att enkelt kombinera, dela eller ändra PDF- och Office-dokument",
+    "words": {
+      "for": "för"
+    }
+  },
+  "actions": {
+    "main": "Gratis nedladdning av Maven",
+    "alt": "Licensiering",
+    "title": "Redo att komma igång?",
+    "description": "Prova GroupDocs.Merger-funktioner gratis eller begär en licens"
+  },
+  "release": {
+    "title": "Version {0} släpptes",
+    "notes": "Se vad som är nytt",
+    "downloads": "Nedladdningar"
+  }
+}

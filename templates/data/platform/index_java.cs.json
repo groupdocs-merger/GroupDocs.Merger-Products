@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Java Document Merging API | sloučit a odstranit Word Excel PDF XPS EPUB",
+    "description": "Dokumenty slučující API pro Javu. Slučujte, rozdělujte, vyměňujte, uspořádejte a odstraňte stránky formátů PDF, Microsoft Word, Excel, prezentace, Visio, XPS a EPUB."
+  },
+  "header": {
+    "title_1": "Sloučit dokumenty",
+    "title_2": "přes Java API",
+    "description": "Flexibilní slučovací API pro snadné kombinování, rozdělování nebo upravování dokumentů PDF a Office",
+    "words": {
+      "for": "pro"
+    }
+  },
+  "actions": {
+    "main": "Maven ke stažení zdarma",
+    "alt": "Licencování",
+    "title": "Jste připraveni začít?",
+    "description": "Vyzkoušejte funkce GroupDocs.Merger zdarma nebo si vyžádejte licenci"
+  },
+  "release": {
+    "title": "Vydána verze {0}",
+    "notes": "Podívejte se, co je nového",
+    "downloads": "Stahování"
+  }
+}

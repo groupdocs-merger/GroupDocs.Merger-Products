@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "PDF fájlok egyesítése C#-ban",
+    "more": "További példák",
+    "notes": "Tekintse meg az újdonságokat",
+    "comment_1": "Töltse be a forrás PDF-fájlt",
+    "comment_2": "Adjon hozzá egy másik PDF-fájlt az egyesítéshez",
+    "comment_3": "Egyesítse a PDF fájlokat és mentse az eredményt"
+  }
+}

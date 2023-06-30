@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Gnéithe GroupDocs.Merger",
+    "description": "Doiciméid PDF agus Oifige a chumasc, a scoilt, agus a ionramháil gan uaim",
+    "feature_1": {
+      "title": "Cumaisc comhaid",
+      "content": "Comhcheangail dhá dhoiciméad nó níos mó i ndoiciméad amháin, ag cumasc leathanaigh shainiúla nó raonta leathanach ó dhoiciméid iolracha."
+    },
+    "feature_2": {
+      "title": "Doiciméid scoilte",
+      "content": "Roinn doiciméad foinse ina dhoiciméid iarmhartacha iolracha ag baint úsáide as an oibríocht scoilte."
+    },
+    "feature_3": {
+      "title": "Bog leathanaigh",
+      "content": "Leathanaigh a athshuí laistigh de dhoiciméad ag baint úsáide as an ngné MovePage."
+    },
+    "feature_4": {
+      "title": "Bain leathanaigh",
+      "content": "Bain leathanaigh aonair nó bailiúchán d'uimhreacha leathanaigh ar leith den bhundoiciméad."
+    },
+    "feature_5": {
+      "title": "Rothlaigh na leathanaigh",
+      "content": "Rothlaigh leathanaigh laistigh de dhoiciméad tríd an uillinn rothlaithe a shocrú go 90, 180, nó 270 céim ag baint úsáide as an oibríocht RotatePages."
+    },
+    "feature_6": {
+      "title": "Malartaigh leathanaigh",
+      "content": "Malartú seasaimh dhá leathanach laistigh den bhundoiciméad, ag cruthú doiciméad nua le suímh leathanach babhtála."
+    },
+    "feature_7": {
+      "title": "Sliocht leathanaigh",
+      "content": "Sliocht leathanaigh nó raonta leathanach ar leith ó bhundoiciméad, ag cruthú doiciméad nua nach bhfuil ann ach na leathanaigh roghnaithe."
+    },
+    "feature_8": {
+      "title": "Athrú treoshuíomh",
+      "content": "Socraigh treoshuíomh an leathanaigh (portráid nó tírdhreach) le haghaidh leathanaigh shonracha nó gach leathanach den doiciméad ag baint úsáide as an oibríocht ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Leathanaigh réamhamhairc",
+      "content": "Gin léiriúcháin íomhá de leathanaigh doiciméad chun an t-ábhar agus an struchtúr a thuiscint níos fearr. Déan réamhamhairc de na leathanaigh ar fad nó díreach ar leith."
+    }
+  }
+}

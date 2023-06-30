@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Tuetut tiedostomuodot",
+    "description": "GroupDocs.Merger for .NET tukee toimintoja seuraavilla [asiakirjatiedostomuodoilla](https://docs.groupdocs.com/merger/net/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office -muodot",
+      "title_2": "Asiakirjat & kuvat",
+      "title_3": "Muut muodot",
+      "format_documents": "Asiakirjat",
+      "format_images": "Kuvat",
+      "format_web": "Web",
+      "format_archives": "Arkistot"
+    }
+  }
+}

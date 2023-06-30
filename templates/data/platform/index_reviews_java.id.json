@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "Ulasan produk GroupDocs",
+    "description": "Jangan hanya mengambil kata kami untuk itu. Lihat apa yang dikatakan pengembang lain tentang API kami",
+    "review_1": {
+      "content": "Layanan prima dan produk unggulan. Mereka sangat membantu dan responsif selama GroupDocs.Viewer untuk proses implementasi .NET, tidak dapat merekomendasikan mereka dengan cukup tinggi.",
+      "author": "Martin Lasarga",
+      "company": "Manajer Produk di Axentria ECM oleh G.S.I."
+    },
+    "review_2": {
+      "content": "Setelah menerapkan dan menggunakan GroupDocs.Viewer untuk .NET dalam proyek ini tampaknya bekerja dengan sangat baik. Saya telah menguji dengan banyak dokumen dan sejauh ini bagus. Semua yang saya lemparkan membuatnya bagus dan terlihat sebagus di penampil PDF atau MS Word.",
+      "author": "Mats Oustad",
+      "company": "Konsultan Senior/Mitra di Novanet AS"
+    }
+  }
+}

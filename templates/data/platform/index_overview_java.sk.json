@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger na prvý pohľad",
+    "description": "API na kombinovanie, rozdeľovanie, vymieňanie, orezávanie alebo odstraňovanie dokumentov, snímok a diagramov v aplikáciách Java",
+    "feature_1": {
+      "title": "Bez námahy zlúčte viacero dokumentov v Jave",
+      "description": "Jednoducho zlúčte súbory PDF a Office do jedného dokumentu v jazyku Java, využite možnosti knižnice GroupDocs.Merger. Využite výhody jeho rozsiahlej podpory formátov, ktorá vám umožňuje bezproblémovo kombinovať rôzne typy súborov, čo vedie k pohodlnému a efektívnemu procesu spájania."
+    },
+    "feature_2": {
+      "title": "Zjednodušte správu dokumentov jednoduchým rozdelením objemných súborov",
+      "description": "Rozdeľte veľké súbory PDF alebo Office na menšie, ľahko ovládateľné časti. Môžete rozdeliť dokumenty na základe konkrétnych strán, rozsahov alebo dokonca extrahovať jednotlivé strany jednoducho a pohodlne. Zjednodušte správu dokumentov využitím bezproblémových možností knižnice GroupDocs.Merger a urobte svoje súbory lepšie organizované a spravovateľné."
+    },
+    "feature_3": {
+      "title": "Prispôsobte si štruktúru dokumentu a majte plnú kontrolu nad svojimi súbormi",
+      "description": "Ľahko manipulujte so stránkami zmenou ich poradia, výmenou alebo odstránením. Usporiadajte a prispôsobte svoje dokumenty podľa vašich špecifických požiadaviek s flexibilitou pri vytváraní personalizovanej štruktúry súborov."
+    }
+  }
+}

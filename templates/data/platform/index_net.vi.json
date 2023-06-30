@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API Hợp nhất Tài liệu C# .NET | Kết hợp & Tách PDF Word Excel EPUB",
+    "description": "API hợp nhất tài liệu C# .NET để kết hợp, tách, hoán đổi hoặc xóa các trang tài liệu khỏi các định dạng PDF, Microsoft Word, Excel, bản trình bày, Visio và hình ảnh."
+  },
+  "header": {
+    "title_1": "Hợp nhất tài liệu",
+    "title_2": "thông qua API .NET",
+    "description": "API hợp nhất mạnh mẽ để thao tác các tệp PDF, Microsoft Office, HTML và hình ảnh.",
+    "words": {
+      "for": "vì"
+    }
+  },
+  "actions": {
+    "main": "Tải xuống NuGet miễn phí",
+    "alt": "cấp phép",
+    "title": "Sẵn sàng để bắt đầu?",
+    "description": "Dùng thử miễn phí các tính năng của GroupDocs.Merger hoặc yêu cầu giấy phép"
+  },
+  "release": {
+    "title": "Phiên bản {0} đã phát hành",
+    "notes": "Xem có gì mới",
+    "downloads": "Tải xuống"
+  }
+}
