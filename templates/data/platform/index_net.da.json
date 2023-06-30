@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Kombiner og opdel PDF Word Excel EPUB",
+    "description": "C# .NET dokumentfusions-API til at kombinere, opdele, bytte eller fjerne dokumentsider fra PDF, Microsoft Word, Excel, præsentationer, Visio og billedformater."
+  },
+  "header": {
+    "title_1": "Flet dokumenter",
+    "title_2": "via .NET API",
+    "description": "Kraftig fusions-API til at manipulere PDF-, Microsoft Office-, HTML- og billedfiler.",
+    "words": {
+      "for": "til"
+    }
+  },
+  "actions": {
+    "main": "Gratis download af NuGet",
+    "alt": "Licensering",
+    "title": "Klar til at komme i gang?",
+    "description": "Prøv GroupDocs.Merger-funktioner gratis, eller anmod om en licens"
+  },
+  "release": {
+    "title": "Version {0} frigivet",
+    "notes": "Se, hvad der er nyt",
+    "downloads": "Downloads"
+  }
+}

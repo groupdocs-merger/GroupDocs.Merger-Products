@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Funciones de GroupDocs.Merger",
+    "description": "Combine, divida y manipule sin problemas documentos PDF y de Office",
+    "feature_1": {
+      "title": "Combinar archivos",
+      "content": "Combine dos o más documentos en un solo documento, uniendo páginas específicas o rangos de páginas de múltiples documentos de origen."
+    },
+    "feature_2": {
+      "title": "Dividir documento",
+      "content": "Utilice la operación de división para dividir un documento de origen en varios documentos resultantes, lo que permite una organización y gestión eficientes de los archivos."
+    },
+    "feature_3": {
+      "title": "Mover páginas",
+      "content": "Reposicione suavemente una página dentro de un documento aprovechando la función MovePage."
+    },
+    "feature_4": {
+      "title": "Quitar páginas",
+      "content": "Elimine de manera efectiva páginas individuales o una colección de números de página específicos del documento de origen con la función RemovePages."
+    },
+    "feature_5": {
+      "title": "Rotar páginas",
+      "content": "Aproveche la operación RotatePages para rotar fácilmente las páginas dentro de un documento especificando el ángulo de rotación como 90, 180 o 270 grados"
+    },
+    "feature_6": {
+      "title": "Intercambiar páginas",
+      "content": "Reorganice el orden de las páginas intercambiando las posiciones de dos páginas dentro del documento de origen, produciendo un nuevo documento."
+    },
+    "feature_7": {
+      "title": "Extraer páginas",
+      "content": "Genere un nuevo documento que contenga solo las páginas seleccionadas extrayendo páginas específicas o rangos de páginas del documento de origen."
+    },
+    "feature_8": {
+      "title": "Cambiar orientación",
+      "content": "Modifique la orientación de la página (vertical u horizontal) para páginas específicas o todas las páginas del documento aprovechando la operación ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Páginas de vista previa",
+      "content": "Obtenga una comprensión más clara del contenido y la estructura del documento generando representaciones de imágenes de sus páginas. Haz vistas previas de todas las páginas o solo de páginas específicas."
+    }
+  }
+}

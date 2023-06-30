@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Ciri GroupDocs.Merger",
+    "description": "Cantumkan, belah dan manipulasi PDF dan Dokumen Pejabat dengan lancar",
+    "feature_1": {
+      "title": "Gabungkan fail",
+      "content": "Menggabungkan dua atau lebih dokumen ke dalam satu dokumen, menggabungkan halaman atau julat halaman tertentu daripada berbilang dokumen sumber."
+    },
+    "feature_2": {
+      "title": "Pisah dokumen",
+      "content": "Bahagikan dokumen sumber kepada berbilang dokumen terhasil menggunakan operasi pisah."
+    },
+    "feature_3": {
+      "title": "Pindahkan halaman",
+      "content": "Letakkan semula halaman dalam dokumen menggunakan ciri MovePage."
+    },
+    "feature_4": {
+      "title": "Alih keluar halaman",
+      "content": "Alih keluar halaman individu atau koleksi nombor halaman tertentu daripada dokumen sumber."
+    },
+    "feature_5": {
+      "title": "Putar halaman",
+      "content": "Putar halaman dalam dokumen dengan menetapkan sudut putaran kepada 90, 180 atau 270 darjah menggunakan operasi RotatePages."
+    },
+    "feature_6": {
+      "title": "Tukar muka surat",
+      "content": "Tukar kedudukan dua halaman dalam dokumen sumber, mencipta dokumen baharu dengan kedudukan halaman bertukar."
+    },
+    "feature_7": {
+      "title": "Ekstrak halaman",
+      "content": "Ekstrak halaman atau julat halaman tertentu daripada dokumen sumber, menjana dokumen baharu yang mengandungi hanya halaman yang dipilih."
+    },
+    "feature_8": {
+      "title": "Tukar orientasi",
+      "content": "Tetapkan orientasi halaman (potret atau landskap) untuk tertentu atau semua halaman dokumen menggunakan operasi ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Pratonton halaman",
+      "content": "Hasilkan perwakilan imej halaman dokumen untuk memahami kandungan dan struktur dengan lebih baik. Buat pratonton semua atau hanya halaman tertentu."
+    }
+  }
+}

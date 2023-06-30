@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Các tính năng của GroupDocs.Merger",
+    "description": "Liên tục hợp nhất, chia nhỏ và thao tác Tài liệu PDF và Office",
+    "feature_1": {
+      "title": "kết hợp các tập tin",
+      "content": "Hợp nhất hai hoặc nhiều tài liệu thành một tài liệu duy nhất, nối các trang hoặc phạm vi trang cụ thể từ nhiều tài liệu nguồn."
+    },
+    "feature_2": {
+      "title": "Chia tài liệu",
+      "content": "Sử dụng thao tác tách để chia tài liệu nguồn thành nhiều tài liệu kết quả, cho phép tổ chức và quản lý tệp hiệu quả."
+    },
+    "feature_3": {
+      "title": "Di chuyển trang",
+      "content": "Dễ dàng định vị lại trang trong tài liệu bằng cách tận dụng tính năng MovePage."
+    },
+    "feature_4": {
+      "title": "Xóa trang",
+      "content": "Xóa hiệu quả các trang riêng lẻ hoặc tập hợp các số trang cụ thể khỏi tài liệu nguồn bằng tính năng RemovePages."
+    },
+    "feature_5": {
+      "title": "Xoay trang",
+      "content": "Tận dụng thao tác Xoay trang để dễ dàng xoay các trang trong tài liệu bằng cách chỉ định góc xoay là 90, 180 hoặc 270 độ"
+    },
+    "feature_6": {
+      "title": "Hoán đổi trang",
+      "content": "Sắp xếp lại thứ tự trang bằng cách hoán đổi vị trí của hai trang trong tài liệu nguồn, tạo ra một tài liệu mới."
+    },
+    "feature_7": {
+      "title": "Trích xuất trang",
+      "content": "Tạo một tài liệu mới chỉ chứa các trang đã chọn bằng cách trích xuất các trang hoặc phạm vi trang cụ thể từ tài liệu nguồn."
+    },
+    "feature_8": {
+      "title": "Thay đổi hướng",
+      "content": "Sửa đổi hướng trang (dọc hoặc ngang) cho các trang cụ thể hoặc tất cả các trang của tài liệu bằng cách tận dụng thao tác Thay đổi hướng."
+    },
+    "feature_9": {
+      "title": "Xem trước các trang",
+      "content": "Hiểu rõ hơn về nội dung và cấu trúc của tài liệu bằng cách tạo các hình ảnh đại diện cho các trang của tài liệu. Tạo bản xem trước của tất cả hoặc chỉ các trang cụ thể."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Sampel kod",
+    "description": "Sesetengah kes menggunakan GroupDocs.Merger biasa untuk operasi .NET",
+    "sample_1": {
+      "title": "Gabungkan halaman fail DOCX tertentu ke dalam satu dokumen",
+      "content_1": "Ciri [Gabungan Halaman Terpilih](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) membolehkan anda mengekstrak dan menggabungkan kandungan yang dikehendaki sahaja daripada setiap fail.",
+      "content_2": "Berikut ialah contoh cara untuk mencapai penggabungan halaman terpilih menggunakan C#:",
+      "code_title": "Bagaimana untuk menggabungkan fail DOCX dalam C#",
+      "comment_1": "Muatkan fail DOCX sumber",
+      "comment_2": "Tambah fail DOCX lain untuk digabungkan",
+      "comment_3": "Gabungkan fail DOCX dan simpan hasil"
+    },
+    "sample_2": {
+      "title": "Pisahkan dokumen PDF kepada berbilang fail",
+      "content_1": "Bahagikan dokumen kepada berbilang fail dengan cekap dengan ciri [Dokumen Split](https://docs.groupdocs.com/merger/net/split-document/) yang memudahkan proses mengurus dan mengekstrak bahagian atau halaman tertentu daripada dokumen besar.",
+      "content_2": "Ia membolehkan anda membahagikan dokumen kepada bahagian yang lebih kecil berdasarkan pelbagai kriteria - mengikut julat halaman, dengan halaman mula/akhir, dengan nombor halaman ganjil/genap, dsb.",
+      "code_title": "Cara membahagikan dokumen kepada beberapa dokumen berbilang halaman",
+      "comment_1": "Pisahkan fail PDF menggunakan GroupDocs.Merger API",
+      "comment_2": "Mulakan kelas SplitOptions dengan format laluan fail output",
+      "comment_3": "Segerakan Penggabungan dengan memasukkan dokumen PDF",
+      "comment_4": "Panggil kaedah split dan lulus objek SplitOptions untuk menyimpan dokumen yang terhasil"
+    }
+  }
+}

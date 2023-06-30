@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "მხარდაჭერილი ფაილის ფორმატები",
+    "description": "GroupDocs.Merger for .NET მხარს უჭერს ოპერაციებს შემდეგი [დოკუმენტის ფაილის ფორმატები](https://docs.groupdocs.com/merger/net/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office ფორმატები",
+      "title_2": "დოკუმენტები და სურათები",
+      "title_3": "სხვა ფორმატები",
+      "format_documents": "დოკუმენტები",
+      "format_images": "სურათები",
+      "format_web": "ვებ",
+      "format_archives": "არქივები"
+    }
+  }
+}

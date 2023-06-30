@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Toetatud failivormingud",
+    "description": "GroupDocs.Merger for .NET toetab toiminguid järgmiste [dokumendifailivormingutega](https://docs.groupdocs.com/merger/net/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office'i vormingud",
+      "title_2": "Dokumendid ja pildid",
+      "title_3": "Muud vormingud",
+      "format_documents": "Dokumendid",
+      "format_images": "Pildid",
+      "format_web": "võrk",
+      "format_archives": "Arhiivid"
+    }
+  }
+}

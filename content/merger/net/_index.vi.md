@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-19T08:28:33
+layout: "landing"
+date: 2023-06-29T12:38:09
 draft: false
 
 product: "Merger"
@@ -10,275 +10,238 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "API hợp nhất tài liệu C # .NET | Kết hợp & Tách PDF Word Excel EPUB"
-head_description: "API hợp nhất tài liệu C # .NET để kết hợp, tách, hoán đổi hoặc xóa các trang tài liệu khỏi các định dạng PDF, Microsoft Word, Excel, bản trình bày, Visio và hình ảnh."
+head_title: "API Hợp nhất Tài liệu C# .NET | Kết hợp & Tách PDF Word Excel EPUB"
+head_description: "API hợp nhất tài liệu C# .NET để kết hợp, tách, hoán đổi hoặc xóa các trang tài liệu khỏi các định dạng PDF, Microsoft Word, Excel, bản trình bày, Visio và hình ảnh."
 
 ############################# Header ############################
-title: ".NET API để Hợp nhất & Tách tài liệu"
-description: "API để Kết hợp, Tách, Hoán đổi, Cắt hoặc Loại bỏ Tài liệu, Trang trình bày và Sơ đồ trong Ứng dụng .NET."
-button:
-    enable: true
+title: "Hợp nhất tài liệu<br>thông qua API .NET"
+description: "API hợp nhất mạnh mẽ để thao tác các tệp PDF, Microsoft Office, HTML và hình ảnh."
+words:
+  for: "vì"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "Tải xuống NuGet miễn phí"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "cấp phép"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "Sẵn sàng để bắt đầu?"
+  description: "Dùng thử miễn phí các tính năng của GroupDocs.Merger hoặc yêu cầu giấy phép"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Tổng quan"
+release:
+  title: "Phiên bản {0} đã phát hành"
+  notes: "Xem có gì mới"
+  downloads: "Tải xuống"
 
-            # button loop
-            - link: "#features"
-              text: "Đặc trưng"
+code:
+  title: "Hợp nhất các tệp PDF trong C#"
+  more: "Thêm ví dụ"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // Tải tệp PDF nguồn
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // Thêm một tệp PDF khác để hợp nhất
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "Ủng hộ"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Bản thử trực tiếp"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Định giá"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // Hợp nhất các tệp PDF và lưu kết quả
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger cho .NET, hỗ trợ bạn phát triển nhanh chóng các ứng dụng kinh doanh hàng đầu trong C #, ASP.NET và các công nghệ .NET khác. Chỉ một vài dòng mã sẽ cho phép các ứng dụng .NET của bạn kết hợp, chia tách, sắp xếp lại, hoán đổi, cắt và xóa một trang hoặc một bộ sưu tập các trang tài liệu, trang trình bày, hình ảnh hoặc sơ đồ. Thực hiện các thao tác này trên các tệp an toàn bằng cách đặt hoặc xóa bảo vệ bằng mật khẩu của các định dạng tệp đã biết và không xác định.  
+  enable: true
+  title: "Tổng quan về GroupDocs.Sáp nhập"
+  description: "API để kết hợp, tách, hoán đổi, cắt hoặc xóa tài liệu, trang trình bày và sơ đồ trong các ứng dụng .NET"
+  features:
+    # feature loop
+    - title: "Dễ dàng hợp nhất nhiều tài liệu trong C#"
+      content: "Hợp nhất tài liệu: Kết hợp liền mạch nhiều tệp PDF và Office thành một tài liệu duy nhất, với sự hỗ trợ cho nhiều định dạng. GroupDocs.Merger dành cho .NET giúp hợp nhất tài liệu nhanh chóng và không gặp rắc rối."
 
-      Bằng cách sử dụng GroupDocs.Merger cho .NET, bạn có thể thực hiện hợp nhất; tách và các hoạt động liên quan khác trên các tài liệu đơn lẻ cũng như một loạt tài liệu. Lập trình ghép các tệp của tất cả các định dạng phổ biến, chẳng hạn như Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook và các định dạng tệp hình ảnh.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Sau đây là tổng quan về GroupDocs.Merger cho .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Hoạt động tài liệu"
-          content: |
-            * Thay đổi Thứ tự Trang
-            * Xóa hoặc xóa các trang
-            * Tách hoặc ngắt tài liệu
-            * Hoán đổi hoặc xáo trộn hai trang bất kỳ
-            * Cắt một hoặc nhiều trang
-            * Nối nhiều tài liệu
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Hoạt động bảo mật"
-          content: |
-            * Thiết lập bảo mật tài liệu
-            * Kiểm tra trạng thái bảo mật tài liệu
-            * Đặt mật khẩu tài liệu
-            * Cập nhật mật khẩu tài liệu
-            * Xóa mật khẩu tài liệu
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger cho .NET hỗ trợ hợp nhất [các định dạng tệp tài liệu](https://docs.groupdocs.com/merger/net/supported-document-formats/):
+    # feature loop
+    - title: "Đơn giản hóa việc quản lý tài liệu bằng cách chia nhỏ các tệp lớn"
+      content: "Chia nhỏ các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn một cách dễ dàng. GroupDocs.Merger dành cho .NET cho phép bạn phân chia tài liệu dựa trên các trang, phạm vi cụ thể hoặc thậm chí trích xuất các trang riêng lẻ một cách dễ dàng."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * ** Từ: ** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * ** Excel: ** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * ** PowerPoint: ** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * ** OneNote: ** ONE
+    # feature loop
+    - title: "Thao tác với các trang và tùy chỉnh cấu trúc tài liệu - sắp xếp lại, hoán đổi hoặc xóa"
+      content: "Kiểm soát tài liệu của bạn bằng cách sắp xếp lại các trang, xóa các trang không mong muốn hoặc thêm các trang mới. GroupDocs.Merger dành cho .NET trao quyền cho bạn thao tác cấu trúc tài liệu, cho phép bạn tùy chỉnh và điều chỉnh các tệp theo nhu cầu cụ thể của mình."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument & Các định dạng khác"
-              content: |
-                * ** Các định dạng OpenDocument **: ODT, OTT, ODP, OTP, ODS
-                * ** Bố cục cố định **: PDF, XPS
-                * ** Hình ảnh **: BMP, PNG, TIFF
-                * ** Web **: HTML, MHT, MHTML
-                * ** Văn bản **: TXT, CSV, TSV
-                * ** LaTex **: TEX
-                * ** Ebook **: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Nền tảng độc lập"
+  description: "GroupDocs.Merger cho .NET hỗ trợ các hệ điều hành, khung và trình quản lý gói sau"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger cho .NET hỗ trợ các Hệ điều hành, Khung & Trình quản lý Gói sau:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Các hệ điều hành"
-              content: |
-                * Máy tính để bàn Windows
-                * máy chủ Windows
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Khung được hỗ trợ"
-              content: |
-                * .NET Framework 2.0 trở lên
-                * Mono Framework 1.2 trở lên
-                * .NET Tiêu chuẩn 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Trình quản lý gói"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Môi trường phát triển"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Các định dạng tệp được hỗ trợ"
+  description: |
+    GroupDocs.Merger dành cho .NET hỗ trợ các hoạt động với [định dạng tệp tài liệu](https://docs.groupdocs.com/merger/net/supported-document-formats/) sau đây.
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Định dạng Microsoft Office
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Tài liệu & hình ảnh
+        * **Các tài liệu:** PDF, XPS, TEX
+        * **Hình ảnh:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### định dạng khác
+        * **mạng:**  HTML, MHTML, MHT
+        * **lưu trữ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger cho các tính năng .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Kết hợp và hợp nhất nhiều trang, trang trình bày và sơ đồ thành một tài liệu duy nhất"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Tách và chia nhỏ các tài liệu lớn thành nhiều tệp nhỏ hơn"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Sắp xếp lại, trộn và tổ chức lại các trang, trang trình bày hoặc sơ đồ"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Trao đổi và trao đổi hai trang, trang trình bày hoặc sơ đồ với nhau trong một tài liệu"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Cắt tài liệu bằng cách xóa các trang, trang trình bày hoặc sơ đồ cụ thể"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Loại bỏ một hoặc tập hợp các trang, trang trình bày hoặc sơ đồ"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Ghép số lượng lớn tài liệu theo lô với nhau"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Lập trình kiểm tra xem tài liệu có được bảo mật bằng mật khẩu hay không"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Đặt, đặt lại và xóa mật khẩu của các định dạng tài liệu đã biết và chưa biết"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Tìm nạp danh sách các định dạng tệp được hỗ trợ - Định dạng tệp nhật ký chia và nối văn bản (ERR)"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Xoay các trang và thay đổi hướng trang của các định dạng đã biết và chưa biết"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Kết hợp nhiều tệp có định dạng khác nhau thành DOC, DOCX & XPS"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Tách các tệp văn bản lớn theo số dòng"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Có được hình ảnh đại diện của các trang tài liệu và định dạng họ sơ đồ"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Kết hợp hình ảnh với màu nền cho không gian hình ảnh đen trống"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Hợp nhất các loại tài liệu khác nhau (DOC, XLS, PPT, v.v.) thành một tệp PDF duy nhất"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Dễ dàng nhập các đối tượng OLE vào các loại tệp Microsoft Word, Excel, bản trình bày và tài liệu mở"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Thêm các tài liệu khác vào trang sơ đồ thông qua đối tượng OLE"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Xóa các trang mong muốn khỏi tài liệu"
-        content: |
-          GroupDocs.Merger cho .NET API giúp bạn xóa các trang không mong muốn khỏi tài liệu của mình.
-      
-      # more_feature_loop
-      - title: "Áp dụng chuyển đổi cho đầu ra được kết xuất"
-        content: "Bạn có thể thực hiện các chuyển đổi khác nhau đối với tài liệu đầu ra được kết xuất bằng cách sử dụng GroupDocs.Merger cho .NET API. Các tùy chọn chuyển đổi này cho phép bạn kiểm soát cách bạn trình bày đầu ra được kết xuất để hiển thị. Các biến đổi có sẵn là, tùy chọn xoay trang, tùy chọn sắp xếp lại trang và áp dụng hình mờ văn bản."
-
-      # more_feature_loop
-      - title: "Kiểm tra mật khẩu của định dạng tài liệu không xác định"
-        content: "GroupDocs.Merger cho .NET API cho phép bạn kiểm tra mật khẩu của tài liệu có định dạng không xác định."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger cung cấp các API hợp nhất tài liệu cho các môi trường phát triển phổ biến khác"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Các tính năng của GroupDocs.Merger"
+  description: "Liên tục hợp nhất, chia nhỏ và thao tác Tài liệu PDF và Office"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Hợp nhất các tệp"
+      content: "Kết hợp hai hoặc nhiều tài liệu thành một tài liệu duy nhất, hợp nhất các trang hoặc phạm vi trang cụ thể từ nhiều tài liệu nguồn."
+
+    # feature loop
+    - icon: "split"
+      title: "Tách tài liệu"
+      content: "Chia tài liệu nguồn thành nhiều tài liệu kết quả bằng cách sử dụng thao tác chia."
+
+    # feature loop
+    - icon: "move"
+      title: "Di chuyển trang"
+      content: "Định vị lại các trang trong tài liệu bằng tính năng MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "Xóa trang"
+      content: "Xóa các trang riêng lẻ hoặc tập hợp các số trang cụ thể khỏi tài liệu nguồn."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Xoay trang"
+      content: "Xoay các trang trong tài liệu bằng cách đặt góc xoay thành 90, 180 hoặc 270 độ bằng thao tác Xoay trang."
+
+    # feature loop
+    - icon: "swap"
+      title: "Hoán đổi trang"
+      content: "Trao đổi vị trí của hai trang trong tài liệu nguồn, tạo một tài liệu mới với các vị trí trang được hoán đổi."
+
+    # feature loop
+    - icon: "extract"
+      title: "Trích xuất trang"
+      content: "Trích xuất các trang hoặc phạm vi trang cụ thể từ tài liệu nguồn, tạo tài liệu mới chỉ chứa các trang đã chọn."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Thay đổi hướng"
+      content: "Đặt hướng trang (dọc hoặc ngang) cho các trang cụ thể hoặc tất cả các trang của tài liệu bằng cách sử dụng thao tác Thay đổi hướng."
+
+    # feature loop
+    - icon: "preview"
+      title: "Xem trước các trang"
+      content: "Tạo các hình ảnh đại diện cho các trang tài liệu để hiểu nội dung và cấu trúc tốt hơn. Tạo bản xem trước của tất cả hoặc chỉ các trang cụ thể."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "mẫu mã"
+  description: "Một số trường hợp sử dụng GroupDocs.Merger điển hình cho hoạt động .NET"
+  items:
+    # code sample loop
+    - title: "Hợp nhất các trang tệp DOCX cụ thể vào một tài liệu"
+      content: |
+        Tính năng [Hợp nhất trang chọn lọc](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) cho phép bạn chỉ trích xuất và hợp nhất nội dung mong muốn từ mỗi tệp. Đây là một ví dụ về cách đạt được việc hợp nhất trang có chọn lọc bằng C#:
+        {{< landing/code title="Cách hợp nhất các tệp DOCX trong C#">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // Tải tệp DOCX nguồn
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // Thêm một tệp DOCX khác để hợp nhất
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // Hợp nhất các tệp DOCX và lưu kết quả
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Tách tài liệu PDF thành nhiều tệp"
+      content: |
+        Chia tài liệu thành nhiều tệp một cách hiệu quả bằng tính năng [Split Document](https://docs.groupdocs.com/merger/net/split-document/) giúp đơn giản hóa quy trình quản lý và trích xuất các phần hoặc trang cụ thể từ các tài liệu lớn. Nó cho phép bạn chia tài liệu thành các phần nhỏ hơn dựa trên các tiêu chí khác nhau - theo phạm vi trang, theo trang bắt đầu/kết thúc, theo số trang lẻ/chẵn, v.v.
+        {{< landing/code title="Cách chia tài liệu thành nhiều tài liệu nhiều trang">}}
+        ```csharp {style=abap}   
+        // Tách tệp PDF bằng API GroupDocs.Merger
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // Khởi tạo lớp SplitOptions với định dạng đường dẫn tệp đầu ra
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // Khởi tạo Sáp nhập với tài liệu PDF đầu vào
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // Gọi phương thức tách và chuyển đối tượng SplitOptions để lưu tài liệu kết quả
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Đánh giá sản phẩm GroupDocs"
+# description: "Đừng chỉ nhận lời của chúng tôi cho nó. Xem những nhà phát triển khác nói gì về API của chúng tôi"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Dịch vụ tuyệt vời và sản phẩm tuyệt vời. Chúng cực kỳ hữu ích và phản hồi nhanh trong quá trình triển khai GroupDocs.Viewer cho .NET, không thể đề xuất chúng đủ cao."
+#     author: "Martin Lasarga"
+#     company: "Giám đốc sản phẩm tại Axentria ECM của G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Sau khi triển khai và sử dụng GroupDocs.Viewer cho .NET trong dự án, có vẻ như nó đang hoạt động rất tốt. Tôi đã thử nghiệm với rất nhiều tài liệu và cho đến nay rất tốt. Mọi thứ tôi đã ném vào nó đều hiển thị độc đáo và trông đẹp mắt như trong trình xem PDF hoặc MS Word."
+#     author: "Thảm Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

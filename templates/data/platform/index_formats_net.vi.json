@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Các định dạng tệp được hỗ trợ",
+    "description": "GroupDocs.Merger dành cho .NET hỗ trợ các hoạt động với [định dạng tệp tài liệu](https://docs.groupdocs.com/merger/net/supported-document-formats/) sau đây.",
+    "groups": {
+      "title_1": "Định dạng Microsoft Office",
+      "title_2": "Tài liệu & hình ảnh",
+      "title_3": "định dạng khác",
+      "format_documents": "Các tài liệu",
+      "format_images": "Hình ảnh",
+      "format_web": "mạng",
+      "format_archives": "lưu trữ"
+    }
+  }
+}

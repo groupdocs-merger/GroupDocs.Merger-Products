@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | ترکیب و تقسیم PDF Word Excel EPUB",
+    "description": "C# .NET ادغام API اسناد برای ترکیب، تقسیم، تعویض یا حذف صفحات سند از PDF، Microsoft Word، Excel، ارائه ها، Visio و فرمت های تصویر."
+  },
+  "header": {
+    "title_1": "اسناد را ادغام کنید",
+    "title_2": "از طریق NET API",
+    "description": "API ادغام قدرتمند برای دستکاری PDF، Microsoft Office، HTML و فایل های تصویری.",
+    "words": {
+      "for": "برای"
+    }
+  },
+  "actions": {
+    "main": "دانلود رایگان NuGet",
+    "alt": "صدور مجوز",
+    "title": "برای شروع آماده اید؟",
+    "description": "ویژگی های GroupDocs.Merger را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
+  },
+  "release": {
+    "title": "نسخه {0} منتشر شد",
+    "notes": "ببینید چه چیز جدیدی است",
+    "downloads": "دانلودها"
+  }
+}

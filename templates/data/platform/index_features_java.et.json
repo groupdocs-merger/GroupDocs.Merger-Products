@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger funktsioonid",
+    "description": "Ühendage, tükeldage ja manipuleerige PDF- ja Office'i dokumente sujuvalt",
+    "feature_1": {
+      "title": "Kombineeri failid",
+      "content": "Ühendage kaks või enam dokumenti üheks dokumendiks, ühendades teatud leheküljed või lehevahemikud mitmest lähtedokumendist."
+    },
+    "feature_2": {
+      "title": "Tükeldatud dokument",
+      "content": "Kasutage tükeldamise toimingut, et jagada lähtedokument mitmeks tulemuseks olevaks dokumendiks, mis võimaldab faile tõhusalt korraldada ja hallata."
+    },
+    "feature_3": {
+      "title": "Lehtede teisaldamine",
+      "content": "Saate lehe sujuvalt ümber paigutada, kasutades funktsiooni MovePage."
+    },
+    "feature_4": {
+      "title": "Eemalda lehed",
+      "content": "Eemaldage lähtedokumendist tõhusalt üksikud leheküljed või teatud leheküljenumbrite kogum, kasutades funktsiooni RemovePages."
+    },
+    "feature_5": {
+      "title": "Pöörake lehti",
+      "content": "Kasutage toimingut RotatePages, et hõlpsasti dokumendis lehekülgi pöörata, määrates pöördenurgaks 90, 180 või 270 kraadi"
+    },
+    "feature_6": {
+      "title": "Vahetage lehti",
+      "content": "Korraldage lehekülgede järjekord ümber, vahetades lähtedokumendis kahe lehekülje asukohti, luues uue dokumendi."
+    },
+    "feature_7": {
+      "title": "Lehtede väljavõte",
+      "content": "Looge uus dokument, mis sisaldab ainult valitud lehti, eraldades lähtedokumendist konkreetsed leheküljed või leheküljevahemikud."
+    },
+    "feature_8": {
+      "title": "Muutke orientatsiooni",
+      "content": "Muutke lehe orientatsiooni (portree või rõhtpaigutus) konkreetsete lehtede või dokumendi kõigi lehtede jaoks, võimendades toimingut ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Lehtede eelvaade",
+      "content": "Saate selgemini mõista dokumendi sisu ja struktuuri, luues selle lehekülgede kujutised. Tehke eelvaateid kõikidest või ainult teatud lehtedest."
+    }
+  }
+}

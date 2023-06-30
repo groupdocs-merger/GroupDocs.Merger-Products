@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Unterstützte Dateiformate",
+    "description": "GroupDocs.Merger für .NET unterstützt Vorgänge mit den folgenden [Dokumentdateiformaten](https://docs.groupdocs.com/merger/net/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office-Formate",
+      "title_2": "Dokumente und Bilder",
+      "title_3": "Andere Formate",
+      "format_documents": "Unterlagen",
+      "format_images": "Bilder",
+      "format_web": "Netz",
+      "format_archives": "Archiv"
+    }
+  }
+}

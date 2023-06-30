@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-11-10T15:13:35
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,235 @@ head_title: "Java Document Sameining API | sameina og fjarlægja Word Excel PDF 
 head_description: "Skjöl sameina API fyrir Java. Sameina, skipta, skipta um, endurraða og eyða síðum af PDF, Microsoft Word, Excel, kynningum, Visio, XPS og EPUB sniðum."
 
 ############################# Header ############################
-title: "Java API til að sameina og skipta skjölum"
-description: "Þróaðu afkastamikil öpp sem geta sameinað, rifið, stokkað, klippt eða eytt síðum, skyggnum og skýringarmyndum á ferðinni."
-button:
-    enable: true
+title: "Sameina skjöl<br>í gegnum Java API"
+description: "Sveigjanlegt samruna API til að sameina, skipta eða breyta PDF og Office skjölum auðveldlega"
+words:
+  for: "fyrir"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Maven niðurhal ókeypis"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "Leyfisveitingar"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "Tilbúinn til að byrja?"
+  description: "Prófaðu GroupDocs.Merger eiginleika ókeypis eða biddu um leyfi"
+
+release:
+  title: "Útgáfa {0} gefin út"
+  notes: "Sjáðu hvað er nýtt"
+  downloads: "Niðurhal"
+
+code:
+  title: "Sameina PDF skjöl í Java"
+  more: "Fleiri dæmi"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // Hladdu upprunalegu PDF skjalinu
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // Bættu við annarri PDF skrá til að sameinast
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Yfirlit"
-
-            # button loop
-            - link: "#features"
-              text: "Eiginleikar"
-
-            # button loop
-            - link: "#support"
-              text: "Stuðningur"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Sýning í beinni"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "Verðlag"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // Sameina PDF skrár og vista niðurstöðuna
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger fyrir Java gerir þér kleift að þróa fyrsta flokks viðskiptaforrit fljótt í Java. Með lítilli kóðun geta Java forritin þín sameinað, rifið, stokkað, klippt og eytt einni síðu eða lotu af síðum, skyggnum og skýringarmyndum. Einnig er hægt að framkvæma sameiningaraðgerðir á öruggum skrám af þekktu og óþekktu sniði með því að beita eða fjarlægja lykilorðsvörn.  
+  enable: true
+  title: "GroupDocs.Merger í hnotskurn"
+  description: "API til að sameina, skipta, skipta, klippa eða fjarlægja skjöl, skyggnur og skýringarmyndir í Java forritum"
+  features:
+    # feature loop
+    - title: "Sameina áreynslulaust mörg skjöl í Java"
+      content: "Sameinaðu PDF og Office skrár auðveldlega í eitt skjal í Java, nýttu þér möguleika GroupDocs.Merger bókasafnsins. Njóttu góðs af víðtækum sniðstuðningi, sem gerir þér kleift að sameina ýmsar skráargerðir óaðfinnanlega, sem leiðir til þægilegs og straumlínulagaðs sameiningarferlis."
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Eftirfarandi er yfirlit yfir GroupDocs.Merger fyrir Java:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Skjalaaðgerðir"
-          content: |
-            * Breyta síðuröð
-            * Fjarlægja eða eyða síðum
-            * Kljúfa eða brjóta skjal
-            * Skiptu um eða stokkaðu hvaða tvær síður sem er
-            * Klipptu stakar eða margar síður
-            * Tengdu mörg skjöl
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Öryggisaðgerðir"
-          content: |
-            * Settu upp skjalaöryggi
-            * Athugaðu öryggisstöðu skjalsins
-            * Stilltu lykilorð skjalsins
-            * Uppfærðu lykilorð skjalsins
-            * Fjarlægðu lykilorð skjalsins
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger fyrir Java styður sameiningu eftirfarandi [skjalaskráasniða](https://docs.groupdocs.com/merger/java/supported-document-formats/):
+    # feature loop
+    - title: "Straumlínulagaðu skjalastjórnun með því að skipta fyrirferðarmiklum skrám auðveldlega"
+      content: "Skiptu stórum PDF eða Office skrám í smærri hluta sem auðvelt er að meðhöndla. Þú getur skipt skjölum út frá tilteknum síðum, sviðum eða jafnvel dregið út einstakar síður með auðveldum og þægindum. Straumlínulagaðu skjalastjórnun þína með því að nýta hnökralausa möguleika GroupDocs.Merger bókasafnsins og gera skrárnar þínar skipulagðari og viðráðanlegri."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Orð:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** EIN
+    # feature loop
+    - title: "Sérsníddu skjalaskipulagið þitt og hafðu fulla stjórn á skrám þínum"
+      content: "Notaðu síður auðveldlega með því að endurraða, skipta um eða fjarlægja þær. Skipuleggðu og aðlagaðu skjölin þín í samræmi við sérstakar kröfur þínar með sveigjanleikanum til að búa til persónulega skráaruppbyggingu."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument og önnur snið"
-              content: |
-                * **OpenDocument snið**: ODT, OTT, ODP, OTP, ODS
-                * **Fast útlit**: PDF, XPS
-                * **Myndir**: BMP, PNG, TIFF
-                * **Vef**: HTML, MHT, MHTML
-                * **Texti**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **Rafbók**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Sjálfstæði vettvangs"
+  description: "GroupDocs.Merger fyrir Java styður eftirfarandi stýrikerfi, ramma og pakkastjóra"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger for Java styður eftirfarandi stýrikerfi, ramma og pakkastjóra:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Stýrikerfi"
-              content: |
-                * Microsoft Windows skjáborð
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "Stutt rammar"
-              content: |
-                * Java 7 (1.7)
-                * Java 8 (1.8)
-                * Java 10
-                * Java 11 og nýrri
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Byggja sjálfvirkniverkfæri"
-              content: |
-                * Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Þróunarumhverfi"
-              content: |
-                * NetBeans
-                * IntelliJ HUGMYND
-                * Myrkvi
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Stutt skráarsnið"
+  description: |
+    GroupDocs.Merger fyrir Java styður aðgerðir með eftirfarandi [skjalaskráarsniðum](https://docs.groupdocs.com/merger/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office snið
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Skjöl og myndir
+        * **Skjöl:** PDF, XPS, TEX
+        * **Myndir:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Önnur snið
+        * **vefur:**  HTML, MHTML, MHT
+        * **Skjalasafn:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger fyrir Java eiginleika"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Sameina ýmsar síður, skyggnur og skýringarmyndir í eina skrá"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Rifðu og skiptu risastórum skjölum í margar smærri skrár"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Stokkaðu og endurskipulögðu síður, skyggnur eða skýringarmyndir"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Skiptu um og skiptu tveimur síðum, skyggnum eða skýringarmyndum á milli í skjalinu"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Klipptu og klipptu skjal með því að fjarlægja tilteknar síður, skyggnur eða skýringarmyndir"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Eyða einni eða safni síðna, skyggna eða skýringarmynda"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Saumaðu saman og sameinaðu fjölda skjala í lotum"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Athugaðu forritunarlega í Java hvort skjal er tryggt með lykilorði"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Stilltu, endurstilltu og fjarlægðu lykilorð þekktra og óþekktra skjalasniða"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Skiptu einni textaskrá í margfalda eftir línunúmerum"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Fáðu myndbirtingu á skjalasíðum"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Sameina mörg skjöl af mismunandi sniðum í eina PDF skrá"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Settu OLE hluti inn í PDF, Word, Excel, PowerPoint og opið skjalasnið"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Hengdu skrár við PDF skjal á dagskrá"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Bættu skjali við skýringarmynd með OLE hlutum"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Sameina mismunandi tegundir skjala (DOC, XLS, PPT osfrv.) í eina PDF skrá"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Flyttu inn OLE hluti auðveldlega inn í Microsoft Word, Excel, Presentation og OpenDocument skráargerðir"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Bættu öðrum skjölum við skýringarmyndasíðu með OLE hlutum"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Fjarlægðu æskilegar síður úr skjölum"
-        content: |
-          GroupDocs.Merger for Java API gerir þér kleift að velja og eyða óæskilegum síðum úr skjalinu þínu.
-      
-      # more_feature_loop
-      - title: "Athugaðu lykilorð á óþekkt skjalasnið"
-        content: "Jafnvel þótt snið tiltekins skjals sé óþekkt, gerir GroupDocs.Merger fyrir Java þér kleift að athuga og sækja lykilorð skjalsins, ef það er til staðar."
-
-      # more_feature_loop
-      - title: "Skráðu þig í lykilorðvarin skjöl með þekktum sniðum"
-        content: "GroupDocs.Merger fyrir Java API gerir þér kleift að fá lista yfir skjöl með þekktum og óþekktum sniðum."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger býður upp á API fyrir samruna skjala fyrir önnur vinsæl þróunarumhverfi"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger fyrir .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger eiginleikar"
+  description: "Sameina, kljúfa og vinna með PDF og Office skjöl óaðfinnanlega"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Sameina skrár"
+      content: "Sameina tvö eða fleiri skjöl í eitt skjal, sameina tilteknar síður eða blaðsíðubil úr mörgum upprunaskjölum."
+
+    # feature loop
+    - icon: "split"
+      title: "Skiptu skjalinu"
+      content: "Notaðu skiptingu til að skipta upprunaskjali í mörg skjöl sem myndast, sem gerir skilvirkt skipulag og stjórnun skráa."
+
+    # feature loop
+    - icon: "move"
+      title: "Færa síður"
+      content: "Breyttu síðu mjúklega í skjalinu með því að nýta MovePage eiginleikann."
+
+    # feature loop
+    - icon: "remove"
+      title: "Fjarlægðu síður"
+      content: "Fjarlægðu einstakar síður eða safn tiltekinna blaðsíðunúmera á áhrifaríkan hátt úr upprunaskjalinu með eiginleikanum RemovePages."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Snúa síðum"
+      content: "Nýttu þér aðgerðina RotatePages til að snúa síðum innan skjals auðveldlega með því að tilgreina snúningshornið sem 90, 180 eða 270 gráður"
+
+    # feature loop
+    - icon: "swap"
+      title: "Skiptu um síður"
+      content: "Endurraðaðu blaðsíðuröðinni með því að skipta um stöðu tveggja síðna innan frumskjalsins og búa til nýtt skjal."
+
+    # feature loop
+    - icon: "extract"
+      title: "Dragðu út síður"
+      content: "Búðu til nýtt skjal sem inniheldur aðeins valdar síður með því að draga tilteknar síður eða blaðsíðusvið úr upprunaskjalinu."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Breyta stefnu"
+      content: "Breyttu síðustefnunni (andlitsmynd eða landslagsmynd) fyrir tilteknar síður eða allar síður skjalsins með því að nýta aðgerðina ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Forskoðunarsíður"
+      content: "Fáðu skýrari skilning á innihaldi og uppbyggingu skjalsins með því að búa til myndbirtingar af síðum þess. Gerðu forskoðun á öllum eða bara tilteknum síðum."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Kóða sýnishorn"
+  description: "Sumir nota dæmigerða GroupDocs.Merger fyrir Java-aðgerðir"
+  items:
+    # code sample loop
+    - title: "Sameina DOCX skrár í eitt skjal"
+      content: |
+        Með [Sameina Word skjöl](https://docs.groupdocs.com/merger/java/merge/word/) eiginleikanum geturðu sameinað heilar DOCX skrár í eitt skjal með því að hlaða upprunaskránni, bæta við fleiri DOCX skrám til að sameinast , og vista sameinaða skjalið. Hér að neðan er Java kóðabútur sem sýnir sameiningarferlið:
+        {{< landing/code title="Hvernig á að sameina DOCX skrár í Java">}}
+        ```java {style=abap}   
+        // Hladdu uppruna DOCX skránni
+        Merger merger = new Merger("sample1.docx");
+        // Bættu við annarri DOCX skrá til að sameinast
+        merger.join("sample2.docx");
+        // Sameina DOCX skrár og vista niðurstöðuna
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Skiptu PDF skjalinu í margar skrár"
+      content: |
+        Skiptu skjali í margar skrár með [Split Document](https://docs.groupdocs.com/merger/java/split-document/) eiginleikanum til að einfalda ferlið við að stjórna og draga út tiltekna hluta eða síður úr stórum skjölum. Það gerir þér kleift að skipta skjölum í smærri hluta út frá ýmsum forsendum - eftir blaðsíðubili, eftir upphafs-/lokasíðum, eftir odda/sléttu blaðsíðutölum o.s.frv.
+        {{< landing/code title="Skiptu skjalinu í nokkur einnar síðu skjöl">}}
+        ```java {style=abap}   
+        // Skiptu PDF skrá með GroupDocs.Merger fyrir Java API
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // Frumstilla SplitOptions flokkinn með sniði útgangsskráa
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // Staðfestu samruna með inntaks PDF skjali
+        Merger merger = new Merger(filePath);
+
+        // Hringdu í skiptingaraðferðina og sendu SplitOptions hlut til að vista skjöl sem myndast
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs vörur umsagnir"
+# description: "Ekki bara taka orð okkar fyrir það. Sjáðu hvað aðrir forritarar segja um API okkar"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Frábær þjónusta og frábærar vörur. Þeir voru einstaklega hjálpsamir og móttækilegir í GroupDocs.Viewer fyrir .NET innleiðingarferlinu, get ekki mælt nógu vel með þeim."
+#     author: "Martin Lasarga"
+#     company: "Vörustjóri hjá Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Eftir að hafa innleitt og notað GroupDocs.Viewer fyrir .NET í verkefninu virðist það virka mjög vel. Ég hef prófað með fullt af skjölum og hingað til hefur það gengið vel. Allt sem ég hef varpað á það kemur fallega út og lítur alveg eins vel út og það myndi gera í PDF skoðara eða MS Word."
+#     author: "Mats Oustad"
+#     company: "Yfirráðgjafi/samstarfsaðili hjá Novanet AS"
 ---

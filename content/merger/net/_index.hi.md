@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-26T08:15:50
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -10,275 +10,238 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "C# .NET दस्तावेज़ मर्जिंग API | पीडीएफ वर्ड एक्सेल EPUB को मिलाएं और विभाजित करें"
-head_description: "C# .NET दस्तावेज़ मर्जिंग API, PDF, Microsoft Word, Excel, प्रस्तुतियों, Visio और छवि स्वरूपों से दस्तावेज़ पृष्ठों को संयोजित करने, विभाजित करने, स्वैप करने या निकालने के लिए।"
+head_title: "C# .NET दस्तावेज़ मर्जिंग एपीआई | पीडीएफ वर्ड एक्सेल ईपीयूबी को मिलाएं और विभाजित करें"
+head_description: "पीडीएफ, माइक्रोसॉफ्ट वर्ड, एक्सेल, प्रस्तुतियों, विसियो और छवि प्रारूपों से दस्तावेज़ पृष्ठों को संयोजित करने, विभाजित करने, स्वैप करने या हटाने के लिए सी # .NET दस्तावेज़ विलय एपीआई।"
 
 ############################# Header ############################
-title: "दस्तावेज़ों को मर्ज और विभाजित करने के लिए .NET API"
-description: ".NET अनुप्रयोगों में दस्तावेज़ों, स्लाइडों और आरेखों को संयोजित करने, विभाजित करने, स्वैप करने, ट्रिम करने या हटाने के लिए एपीआई।"
-button:
-    enable: true
+title: "दस्तावेज़ मर्ज करें<br>.NET एपीआई के माध्यम से"
+description: "पीडीएफ, माइक्रोसॉफ्ट ऑफिस, एचटीएमएल और छवि फ़ाइलों में हेरफेर करने के लिए शक्तिशाली विलय एपीआई।"
+words:
+  for: "के लिए"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "नि:शुल्क नुगेट डाउनलोड"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "लाइसेंसिंग"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "आरंभ करने के लिए तैयार हैं?"
+  description: "GroupDocs.Merger सुविधाओं को मुफ़्त में आज़माएँ या लाइसेंस का अनुरोध करें"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "अवलोकन"
+release:
+  title: "संस्करण {0} जारी किया गया"
+  notes: "देखें, क्या नया है"
+  downloads: "डाउनलोड"
 
-            # button loop
-            - link: "#features"
-              text: "विशेषताएँ"
+code:
+  title: "पीडीएफ फाइलों को सी# में मर्ज करें"
+  more: "और ज्यादा उदाहरण"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // स्रोत पीडीएफ फाइल लोड करें
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // मर्ज करने के लिए एक और पीडीएफ फाइल जोड़ें
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "सहायता"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "लाइव डेमो"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "मूल्य निर्धारण"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // पीडीएफ फाइलों को मर्ज करें और परिणाम सहेजें
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger .NET के लिए, आपको C#, ASP.NET और अन्य .NET तकनीकों में उच्च श्रेणी के व्यावसायिक अनुप्रयोगों को तेजी से विकसित करने में सहायता करता है। कोड की कुछ पंक्तियाँ आपके .NET अनुप्रयोगों को एक पृष्ठ या दस्तावेज़ पृष्ठों, स्लाइड, छवियों या आरेखों के संग्रह को संयोजित करने, विभाजित करने, पुनर्व्यवस्थित करने, स्वैप करने, ट्रिम करने और निकालने में सक्षम बनाती हैं। ज्ञात और अज्ञात फ़ाइल स्वरूपों की पासवर्ड सुरक्षा को सेट या हटाकर सुरक्षित फ़ाइलों पर इन कार्यों को करें।  
+  enable: true
+  title: "GroupDocs.Merger एक नज़र में"
+  description: ".NET अनुप्रयोगों में दस्तावेज़ों, स्लाइडों और आरेखों को संयोजित करने, विभाजित करने, स्वैप करने, ट्रिम करने या हटाने के लिए एपीआई"
+  features:
+    # feature loop
+    - title: "C# में अनेक दस्तावेज़ों को सहजता से मर्ज करें"
+      content: "दस्तावेज़ों को मर्ज करें: कई प्रकार के प्रारूपों के समर्थन के साथ, कई पीडीएफ और ऑफिस फ़ाइलों को एक ही दस्तावेज़ में सहजता से संयोजित करें। .NET के लिए GroupDocs.Merger दस्तावेज़ विलय को तेज़ और परेशानी मुक्त बनाता है।"
 
-      .NET के लिए GroupDocs.Merger का उपयोग करके, आप विलय कर सकते हैं; एकल दस्तावेज़ों के साथ-साथ दस्तावेज़ों के एक बैच पर विभाजन और अन्य संबंधित संचालन। Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook और छवि फ़ाइल स्वरूपों जैसे सभी लोकप्रिय स्वरूपों की प्रोग्रामेटिक रूप से फ़ाइलें सिलाई करें।
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          .NET के लिए GroupDocs.Merger का अवलोकन निम्नलिखित है:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "दस्तावेज़ संचालन"
-          content: |
-            * पृष्ठ क्रम बदलें
-            * पेज हटाएं या हटाएं
-            * दस्तावेज़ को विभाजित या तोड़ें
-            * किन्हीं दो पृष्ठों की अदला-बदली या फेरबदल करें
-            * एकल या एकाधिक पृष्ठों को ट्रिम करें
-            * कई दस्तावेज़ों में शामिल हों
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "सुरक्षा संचालन"
-          content: |
-            * सेटअप दस्तावेज़ सुरक्षा
-            * दस्तावेज़ सुरक्षा स्थिति की जाँच करें
-            * दस्तावेज़ पासवर्ड सेट करें
-            * दस्तावेज़ पासवर्ड अपडेट करें
-            * दस्तावेज़ पासवर्ड निकालें
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          .NET के लिए GroupDocs.Merger निम्नलिखित [दस्तावेज़ फ़ाइल स्वरूपोंhttps://docs.groupdocs.com/merger/net/supported-document-formats/) को मर्ज करने का समर्थन करता है:
+    # feature loop
+    - title: "बड़ी फ़ाइलों को विभाजित करके दस्तावेज़ प्रबंधन को सरल बनाएं"
+      content: "बड़ी PDF या Office फ़ाइलों को आसानी से छोटे, अधिक प्रबंधनीय भागों में विभाजित करें। .NET के लिए GroupDocs.Merger आपको विशिष्ट पृष्ठों, श्रेणियों के आधार पर दस्तावेज़ों को विभाजित करने या यहां तक ​​कि अलग-अलग पृष्ठों को आसानी से निकालने में सक्षम बनाता है।"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "माइक्रोसॉफ्ट ऑफिस"
-              content: |
-                * **शब्द:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **एक्सेल:** एक्सएलएस, एक्सएलएसएक्स, एक्सएलएसएम, एक्सएलएसबी, एक्सएलटीएम, एक्सएलटी, एक्सएलटीएम, एक्सएलटीएक्स, एक्सएलएएम, एसएक्ससी, स्प्रेडशीटएमएल
-                * **पावरपॉइंट:** पीपीटी, पीपीटीएक्स, पीपीएस, पीपीएसएक्स, पीपीएसएम, पीओटी, पीओटीएम, पीओटीएक्स, पीपीटीएम
-                * **एक नोट:** एक
+    # feature loop
+    - title: "पृष्ठों में हेरफेर करें और दस्तावेज़ संरचना को अनुकूलित करें - पुन: व्यवस्थित करें, स्वैप करें, या हटाएँ"
+      content: "पृष्ठों को पुनर्व्यवस्थित करके, अवांछित पृष्ठों को हटाकर, या नए जोड़कर अपने दस्तावेज़ों पर नियंत्रण रखें। .NET के लिए GroupDocs.Merger आपको दस्तावेज़ संरचना में हेरफेर करने का अधिकार देता है, जिससे आप अपनी फ़ाइलों को अपनी विशिष्ट आवश्यकताओं के अनुसार अनुकूलित और तैयार कर सकते हैं।"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument और अन्य प्रारूप"
-              content: |
-                * **ओपन डॉक्यूमेंट फॉर्मेट**: ओडीटी, ओटीटी, ओडीपी, ओटीपी, ओडीएस
-                * **फिक्स्ड लेआउट**: पीडीएफ, एक्सपीएस
-                * **छवियां**: बीएमपी, पीएनजी, झगड़ा
-                * **वेब**: एचटीएमएल, एमएचटी, एमएचटीएमएल
-                * **पाठ**: TXT, CSV, TSV
-                * **लाटेक्स**: टेक्स
-                * **ईबुक**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "मंच की स्वतंत्रता"
+  description: ".NET के लिए GroupDocs.Merger निम्नलिखित ऑपरेटिंग सिस्टम, फ्रेमवर्क और पैकेज मैनेजर का समर्थन करता है"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger .NET के लिए निम्नलिखित ऑपरेटिंग सिस्टम, फ्रेमवर्क और पैकेज मैनेजर का समर्थन करता है:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "ऑपरेटिंग सिस्टम"
-              content: |
-                * विंडोज डेस्कटॉप
-                * विंडोज सर्वर
-                * विंडोज नीला
-                * लिनक्स
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "समर्थित चौखटे"
-              content: |
-                * .NET Framework 2.0 या उच्चतर
-                * मोनो फ्रेमवर्क 1.2 या उच्चतर
-                * .NET मानक 2.0
-                * .NET कोर 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "पैकेज प्रबंधक"
-              content: |
-                * नुगेट
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "विकास का माहौल"
-              content: |
-                * माइक्रोसॉफ्ट विजुअल स्टूडियो
-                * ज़ैमरिन। एंड्रॉइड
-                * ज़ामरीन.आईओएस
-                * ज़ामरीन। मैक
-                * मोनो डेवलपमेंट
+############################# File formats ############################
+formats:
+  enable: true
+  title: "समर्थित फ़ाइल स्वरूप"
+  description: |
+    .NET के लिए GroupDocs.Merger निम्नलिखित [दस्तावेज़ फ़ाइल स्वरूपों](https://docs.groupdocs.com/merger/net/supported-document-formats/) के साथ संचालन का समर्थन करता है।
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### माइक्रोसॉफ्ट ऑफिस प्रारूप
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### दस्तावेज़ एवं छवियाँ
+        * **दस्तावेज़:** PDF, XPS, TEX
+        * **इमेजिस:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### अन्य प्रारूप
+        * **वेब:**  HTML, MHTML, MHT
+        * **अभिलेखागार:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.विलय .NET सुविधाओं के लिए"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "एक ही दस्तावेज़ में कई पेज, स्लाइड और डायग्राम को मिलाएं और मर्ज करें"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "बड़े दस्तावेज़ों को कई छोटी फ़ाइलों में विभाजित और तोड़ें"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "पृष्ठों, स्लाइडों या आरेखों को पुनर्व्यवस्थित, फेरबदल और पुनर्व्यवस्थित करें"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "एक दस्तावेज़ के भीतर दो पेज, स्लाइड या डायग्राम को एक दूसरे के साथ स्वैप और एक्सचेंज करें"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "विशिष्ट पृष्ठों, स्लाइडों या आरेखों को हटाकर दस्तावेज़ को ट्रिम करें"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "सिंगल या पेज, स्लाइड या डायग्राम का संग्रह हटाएं"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "बैचों में बड़ी संख्या में दस्तावेज़ों को एक साथ सिलाई करें"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "प्रोग्रामेटिक रूप से जांचें कि क्या कोई दस्तावेज़ पासवर्ड से सुरक्षित है"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "ज्ञात और अज्ञात दस्तावेज़ स्वरूपों का पासवर्ड सेट, रीसेट और निकालें"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "समर्थित फ़ाइल स्वरूपों की सूची प्राप्त करें - पाठ को विभाजित और सम्मिलित करें (ERR) लॉग फ़ाइल स्वरूप"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "पृष्ठों को घुमाएं और ज्ञात और अज्ञात स्वरूपों के पृष्ठ अभिविन्यास बदलें"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "DOC, DOCX और XPS में विभिन्न स्वरूपों की कई फाइलों को मिलाएं"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "बड़ी टेक्स्ट फ़ाइलों को लाइन नंबरों से विभाजित करना"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "दस्तावेज़ पृष्ठों और आरेख परिवार स्वरूपों की छवि प्रस्तुतीकरण प्राप्त करें"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "रिक्त काली छवि स्थान के लिए पृष्ठभूमि रंग वाली छवियों से जुड़ें"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "विभिन्न प्रकार के दस्तावेज़ों (DOC, XLS, PPT आदि) को एक एकल PDF फ़ाइल में मर्ज करें"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Microsoft Word, Excel, प्रस्तुति और OpenDocument फ़ाइल प्रकारों में आसानी से OLE ऑब्जेक्ट आयात करें"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "OLE ऑब्जेक्ट्स के माध्यम से आरेख पृष्ठ में अन्य दस्तावेज़ जोड़ें"
-
-    more_feature:
-      # more_feature_loop
-      - title: "दस्तावेज़ों से वांछित पृष्ठ निकालें"
-        content: |
-          GroupDocs.Merger for .NET API आपको अपने दस्तावेज़ से अवांछित पृष्ठों को हटाने में मदद करता है।
-      
-      # more_feature_loop
-      - title: "रेंडर किए गए आउटपुट में परिवर्तन लागू करें"
-        content: "आप .NET API के लिए GroupDocs.Merger का उपयोग करके रेंडर किए गए आउटपुट दस्तावेज़ में विभिन्न रूपांतरण कर सकते हैं। ये परिवर्तन विकल्प आपको प्रदर्शित करने के लिए प्रस्तुत किए गए आउटपुट को प्रस्तुत करने के तरीके पर नियंत्रण प्रदान करते हैं। उपलब्ध परिवर्तन हैं, पेज रोटेशन विकल्प, पेज रीऑर्डर विकल्प और टेक्स्ट वॉटरमार्क लागू करना।"
-
-      # more_feature_loop
-      - title: "अज्ञात दस्तावेज़ प्रारूप का पासवर्ड जांचें"
-        content: "GroupDocs.Merger for .NET API आपको उस दस्तावेज़ के पासवर्ड की जांच करने में सक्षम बनाता है जिसका प्रारूप ज्ञात नहीं है।"
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger अन्य लोकप्रिय विकास परिवेशों के लिए दस्तावेज़ विलय API प्रदान करता है"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Java के लिए विलय"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger सुविधाएँ"
+  description: "पीडीएफ और ऑफिस दस्तावेज़ों को निर्बाध रूप से मर्ज करें, विभाजित करें और हेरफेर करें"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "फ़ाइलें मर्ज करें"
+      content: "एकाधिक स्रोत दस्तावेज़ों से विशिष्ट पृष्ठों या पृष्ठ श्रेणियों को मर्ज करते हुए, दो या दो से अधिक दस्तावेज़ों को एक ही दस्तावेज़ में संयोजित करें।"
+
+    # feature loop
+    - icon: "split"
+      title: "दस्तावेज़ विभाजित करें"
+      content: "स्प्लिट ऑपरेशन का उपयोग करके एक स्रोत दस्तावेज़ को कई परिणामी दस्तावेज़ों में विभाजित करें।"
+
+    # feature loop
+    - icon: "move"
+      title: "पन्ने हिलाएँ"
+      content: "मूवपेज सुविधा का उपयोग करके दस्तावेज़ के भीतर पृष्ठों का स्थान बदलें।"
+
+    # feature loop
+    - icon: "remove"
+      title: "पन्ने हटाएँ"
+      content: "स्रोत दस्तावेज़ से अलग-अलग पेज या विशिष्ट पेज नंबरों का संग्रह हटा दें।"
+
+    # feature loop
+    - icon: "rotate"
+      title: "पन्ने घुमाएँ"
+      content: "RotatePages ऑपरेशन का उपयोग करके रोटेशन कोण को 90, 180, या 270 डिग्री पर सेट करके किसी दस्तावेज़ के भीतर पृष्ठों को घुमाएँ।"
+
+    # feature loop
+    - icon: "swap"
+      title: "पन्ने स्वैप करें"
+      content: "स्रोत दस्तावेज़ के भीतर दो पृष्ठों की स्थिति का आदान-प्रदान करें, बदली हुई पृष्ठ स्थिति के साथ एक नया दस्तावेज़ बनाएं।"
+
+    # feature loop
+    - icon: "extract"
+      title: "पन्ने निकालें"
+      content: "किसी स्रोत दस्तावेज़ से विशिष्ट पृष्ठ या पृष्ठ श्रेणियाँ निकालें, एक नया दस्तावेज़ तैयार करें जिसमें केवल चयनित पृष्ठ हों।"
+
+    # feature loop
+    - icon: "orientation"
+      title: "ओरिएंटेशन बदलें"
+      content: "ChangeOrientation ऑपरेशन का उपयोग करके दस्तावेज़ के विशिष्ट या सभी पृष्ठों के लिए पेज ओरिएंटेशन (पोर्ट्रेट या लैंडस्केप) सेट करें।"
+
+    # feature loop
+    - icon: "preview"
+      title: "पृष्ठों का पूर्वावलोकन करें"
+      content: "सामग्री और संरचना को बेहतर ढंग से समझने के लिए दस्तावेज़ पृष्ठों का छवि प्रतिनिधित्व तैयार करें। सभी या केवल विशिष्ट पृष्ठों का पूर्वावलोकन करें।"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "कोड नमूने"
+  description: "कुछ लोग .NET संचालन के लिए विशिष्ट GroupDocs.Merger के मामलों का उपयोग करते हैं"
+  items:
+    # code sample loop
+    - title: "विशिष्ट DOCX फ़ाइल पृष्ठों को एक दस्तावेज़ में मर्ज करें"
+      content: |
+        [सेलेक्टिव पेज मर्ज](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) सुविधा आपको प्रत्येक फ़ाइल से केवल वांछित सामग्री निकालने और मर्ज करने की अनुमति देती है। C# का उपयोग करके चयनात्मक पेज मर्जिंग कैसे प्राप्त करें इसका एक उदाहरण यहां दिया गया है:
+        {{< landing/code title="DOCX फ़ाइलों को C# में कैसे मर्ज करें">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // स्रोत DOCX फ़ाइल लोड करें
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // मर्ज करने के लिए एक और DOCX फ़ाइल जोड़ें
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // DOCX फ़ाइलों को मर्ज करें और परिणाम सहेजें
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "पीडीएफ दस्तावेज़ को कई फाइलों में विभाजित करें"
+      content: |
+        [स्प्लिट दस्तावेज़](https://docs.groupdocs.com/merger/net/split-document/) सुविधा के साथ एक दस्तावेज़ को कुशलतापूर्वक कई फ़ाइलों में विभाजित करें जो बड़े दस्तावेज़ों से विशिष्ट अनुभागों या पृष्ठों को प्रबंधित करने और निकालने की प्रक्रिया को सरल बनाता है। यह आपको दस्तावेज़ों को विभिन्न मानदंडों के आधार पर छोटे भागों में विभाजित करने की अनुमति देता है - पृष्ठ सीमा के अनुसार, प्रारंभ/अंत पृष्ठ के अनुसार, विषम/सम पृष्ठ संख्या के अनुसार, आदि।
+        {{< landing/code title="दस्तावेज़ को कई बहु-पृष्ठ दस्तावेज़ों में कैसे विभाजित करें">}}
+        ```csharp {style=abap}   
+        // जावा एपीआई के लिए GroupDocs.Merger का उपयोग करके पीडीएफ फाइल को विभाजित करें
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // आउटपुट फ़ाइल पथ प्रारूप के साथ स्प्लिटऑप्शन क्लास प्रारंभ करें
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // इनपुट पीडीएफ दस्तावेज़ के साथ त्वरित विलय
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // परिणामी दस्तावेज़ों को सहेजने के लिए स्प्लिट विधि को कॉल करें और स्प्लिटऑप्शंस ऑब्जेक्ट पास करें
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs उत्पादों की समीक्षा"
+# description: "बस इसके लिए हमारी बात न मानें। देखें कि अन्य डेवलपर हमारे एपीआई के बारे में क्या कहते हैं"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "उत्कृष्ट सेवा और उत्कृष्ट उत्पाद। .NET कार्यान्वयन प्रक्रिया के लिए GroupDocs.Viewer के दौरान वे बेहद मददगार और प्रतिक्रियाशील थे, हम उनकी पर्याप्त अनुशंसा नहीं कर सकते।"
+#     author: "मार्टिन लसारगा"
+#     company: "जी.एस.आई. द्वारा एक्सेंट्रिया ईसीएम में उत्पाद प्रबंधक।"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "प्रोजेक्ट में .NET के लिए GroupDocs.Viewer को लागू करने और उपयोग करने के बाद यह बहुत अच्छी तरह से काम कर रहा है। मैंने बहुत सारे दस्तावेज़ों के साथ परीक्षण किया है और अब तक बहुत अच्छा है। मैंने इसमें जो कुछ भी डाला है वह अच्छी तरह से प्रस्तुत होता है और उतना ही अच्छा दिखता है जितना पीडीएफ व्यूअर या एमएस वर्ड में होता है।"
+#     author: "मैट्स ओस्ताद"
+#     company: "नोवानेट एएस में वरिष्ठ सलाहकार/साझेदार"
 ---

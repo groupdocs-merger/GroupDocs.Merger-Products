@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Kódminták",
+    "description": "A tipikus GroupDocs.Merger egyes esetei .NET műveletekhez",
+    "sample_1": {
+      "title": "Konkrét DOCX-fájloldalak egyesítése egyetlen dokumentumba",
+      "content_1": "A [Szelektív oldalegyesítés](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) funkció lehetővé teszi, hogy az egyes fájlokból csak a kívánt tartalmat vonja ki és egyesítse.",
+      "content_2": "Íme egy példa arra, hogyan lehet C# használatával szelektív oldalegyesítést elérni:",
+      "code_title": "DOCX fájlok egyesítése C#-ban",
+      "comment_1": "Töltse be a forrás DOCX fájlt",
+      "comment_2": "Adjon hozzá egy másik DOCX-fájlt az egyesítéshez",
+      "comment_3": "Egyesítse a DOCX fájlokat és mentse az eredményt"
+    },
+    "sample_2": {
+      "title": "PDF dokumentum felosztása több fájlra",
+      "content_1": "Hatékonyan oszthat fel egy dokumentumot több fájlra a [Dokumentum felosztása](https://docs.groupdocs.com/merger/net/split-document/) funkcióval, amely leegyszerűsíti a nagy dokumentumok egyes szakaszainak vagy oldalainak kezelését és kibontását.",
+      "content_2": "Lehetővé teszi a dokumentumok kisebb részekre bontását különböző szempontok alapján - oldaltartomány, kezdő/végoldalak, páratlan/páros oldalszámok stb.",
+      "code_title": "A dokumentum felosztása több többoldalas dokumentumra",
+      "comment_1": "PDF-fájl felosztása a GroupDocs.Merger API segítségével",
+      "comment_2": "Inicializálja a SplitOptions osztályt a kimeneti fájlok elérési út formátumával",
+      "comment_3": "Példányos egyesülés a bemeneti PDF dokumentummal",
+      "comment_4": "Hívja meg a felosztási metódust, és adja át a SplitOptions objektumot az eredményül kapott dokumentumok mentéséhez"
+    }
+  }
+}

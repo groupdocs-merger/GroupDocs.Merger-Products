@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Recursos do GroupDocs.Mesclar",
+    "description": "Mescle, divida e manipule perfeitamente PDF e documentos do Office",
+    "feature_1": {
+      "title": "Mesclar arquivos",
+      "content": "Combine dois ou mais documentos em um único documento, mesclando páginas específicas ou intervalos de páginas de vários documentos de origem."
+    },
+    "feature_2": {
+      "title": "Dividir documentos",
+      "content": "Divida um documento de origem em vários documentos resultantes usando a operação de divisão."
+    },
+    "feature_3": {
+      "title": "Mover páginas",
+      "content": "Reposicione as páginas em um documento usando o recurso MovePage."
+    },
+    "feature_4": {
+      "title": "Remover páginas",
+      "content": "Remova páginas individuais ou uma coleção de números de página específicos do documento de origem."
+    },
+    "feature_5": {
+      "title": "Girar páginas",
+      "content": "Gire as páginas em um documento definindo o ângulo de rotação para 90, 180 ou 270 graus usando a operação RotatePages."
+    },
+    "feature_6": {
+      "title": "Trocar páginas",
+      "content": "Troque as posições de duas páginas no documento de origem, criando um novo documento com posições de página trocadas."
+    },
+    "feature_7": {
+      "title": "Extrair páginas",
+      "content": "Extraia páginas específicas ou intervalos de páginas de um documento de origem, gerando um novo documento contendo apenas as páginas selecionadas."
+    },
+    "feature_8": {
+      "title": "Mudar orientação",
+      "content": "Defina a orientação da página (retrato ou paisagem) para páginas específicas ou todas as páginas do documento usando a operação ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Visualizar páginas",
+      "content": "Gere representações de imagens de páginas de documentos para entender melhor o conteúdo e a estrutura. Faça visualizações de todas ou apenas páginas específicas."
+    }
+  }
+}

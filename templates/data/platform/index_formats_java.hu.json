@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Támogatott fájlformátumok",
+    "description": "A GroupDocs.Merger for Java a következő [dokumentumfájl-formátumokkal](https://docs.groupdocs.com/merger/java/supported-document-formats/) végzett műveleteket támogatja.",
+    "groups": {
+      "title_1": "Microsoft Office formátumok",
+      "title_2": "Dokumentumok és képek",
+      "title_3": "Egyéb formátumok",
+      "format_documents": "Dokumentumok",
+      "format_images": "Képek",
+      "format_web": "Web",
+      "format_archives": "Levéltár"
+    }
+  }
+}

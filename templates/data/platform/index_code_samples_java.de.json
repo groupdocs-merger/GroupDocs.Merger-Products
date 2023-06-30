@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Codebeispiele",
+    "description": "Einige Anwendungsfälle typischer GroupDocs.Merger für Java-Operationen",
+    "sample_1": {
+      "title": "Führen Sie DOCX-Dateien in einem einzigen Dokument zusammen",
+      "content_1": "Mit der Funktion [Word-Dokumente zusammenführen](https://docs.groupdocs.com/merger/java/merge/word/) können Sie ganze DOCX-Dateien in einem einzigen Dokument kombinieren, indem Sie die Quelldatei laden und weitere DOCX-Dateien zum Zusammenführen hinzufügen und Speichern des zusammengeführten Dokuments.",
+      "content_2": "Unten finden Sie einen Java-Codeausschnitt, der den Zusammenführungsprozess demonstriert:",
+      "code_title": "So führen Sie DOCX-Dateien in Java zusammen",
+      "comment_1": "Laden Sie die DOCX-Quelldatei",
+      "comment_2": "Fügen Sie eine weitere DOCX-Datei zum Zusammenführen hinzu",
+      "comment_3": "DOCX-Dateien zusammenführen und Ergebnis speichern"
+    },
+    "sample_2": {
+      "title": "Teilen Sie das PDF-Dokument in mehrere Dateien auf",
+      "content_1": "Teilen Sie ein Dokument mit der Funktion [Dokument teilen](https://docs.groupdocs.com/merger/java/split-document/) in mehrere Dateien auf, um das Verwalten und Extrahieren bestimmter Abschnitte oder Seiten aus großen Dokumenten zu vereinfachen.",
+      "content_2": "Es ermöglicht Ihnen, Dokumente anhand verschiedener Kriterien in kleinere Teile zu unterteilen – nach Seitenbereich, nach Anfangs-/Endseiten, nach ungeraden/geraden Seitenzahlen usw.",
+      "code_title": "Teilen Sie das Dokument in mehrere einseitige Dokumente auf",
+      "comment_1": "Teilen Sie die PDF-Datei mit der GroupDocs.Merger für Java-API",
+      "comment_2": "Initialisieren Sie die SplitOptions-Klasse mit dem Pfadformat der Ausgabedateien",
+      "comment_3": "Instanziieren Sie die Zusammenführung mit dem eingegebenen PDF-Dokument",
+      "comment_4": "Rufen Sie die Split-Methode auf und übergeben Sie das SplitOptions-Objekt, um die resultierenden Dokumente zu speichern"
+    }
+  }
+}

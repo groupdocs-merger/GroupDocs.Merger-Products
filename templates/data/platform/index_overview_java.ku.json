@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger bi awirek",
+    "description": "API ku di sepanên Java-yê de belge, slayd û diagraman bi hev veqetîne, parçe bike, biguherîne, bibire an jê rake",
+    "feature_1": {
+      "title": "Di Java-yê de gelek belgeyên bêhêvî li hev bikin",
+      "description": "Pelên PDF û Office-ê bi hêsanî di Java-yê de di yek belgeyek yek de bikin yek, kapasîteyên pirtûkxaneya GroupDocs.Merger bikar bînin. Ji piştgirîya wê ya berfireh a formatê sûd werbigirin, ku dihêle hûn cûrbecûr pelan bi rengek bêkêmasî tevlihev bikin, ku di encamê de pêvajoyek hevgirtinê ya rehet û rêkûpêk pêk tê."
+    },
+    "feature_2": {
+      "title": "Bi dabeşkirina pelên mezin bi hêsanî rêveberiya belgeyê rast bikin",
+      "description": "Pelên PDF an Office-ê yên mezin li beşên piçûktir, bi hêsanî veqetînin. Hûn dikarin belgeyan li ser bingeha rûpelên taybetî, rêzan dabeş bikin, an tewra rûpelên kesane bi hêsanî û rehetî derxînin. Bi karanîna kapasîteyên bêkêmasî yên pirtûkxaneya GroupDocs.Merger û pelên xwe organîzetir û birêkûpêktir bikin, rêveberiya belgeya xwe rast bikin."
+    },
+    "feature_3": {
+      "title": "Struktura belgeya xwe xweş bikin û li ser pelên xwe bi tevahî kontrol bikin",
+      "description": "Bi rêzkirin, guheztin, an rakirina wan rûpelan bi hêsanî manîpule bikin. Belgeyên xwe li gorî hewcedariyên xwe yên taybetî bi nermî organîze bikin û li dar bixin da ku hûn strukturek pelê kesane biafirînin."
+    }
+  }
+}

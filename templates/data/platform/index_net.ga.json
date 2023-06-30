@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C# .NET Document Chumasc API | Chomhcheangail & Scoilt PDF Word Excel EPUB",
+    "description": "C # .NET doiciméad a chumasc API chun leathanaigh doiciméad a chur le chéile, a scoilt, a mhalartú nó a bhaint as PDF, Microsoft Word, Excel, cur i láthair, Visio agus formáidí íomhá."
+  },
+  "header": {
+    "title_1": "Cumaisc doiciméid",
+    "title_2": "via .NET API",
+    "description": "API cumasc cumhachtach chun comhaid PDF, Microsoft Office, HTML agus íomhá a ionramháil.",
+    "words": {
+      "for": "le haghaidh"
+    }
+  },
+  "actions": {
+    "main": "Íoslódáil saor in aisce Nuga",
+    "alt": "Ceadúnú",
+    "title": "Réidh le tosú?",
+    "description": "Bain triail as gnéithe GroupDocs.Merger saor in aisce nó iarr ceadúnas"
+  },
+  "release": {
+    "title": "Leagan {0} eisithe",
+    "notes": "Féach cad atá nua",
+    "downloads": "Íoslódálacha"
+  }
+}

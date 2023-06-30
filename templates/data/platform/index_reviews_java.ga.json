@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "Léirmheasanna ar tháirgí GroupDocs",
+    "description": "Ná glac ár bhfocal faoi. Féach cad a deir forbróirí eile faoinár APIs",
+    "review_1": {
+      "content": "Seirbhís den scoth agus táirgí den scoth. Bhí siad thar a bheith cabhrach agus freagrúil le linn phróiseas forfheidhmithe GroupDocs.Viewer do .NET, ní féidir iad a mholadh sách ard.",
+      "author": "Máirtín Lasarga",
+      "company": "Bainisteoir Táirge ag Axentria ECM le G.S.I."
+    },
+    "review_2": {
+      "content": "Tar éis GroupDocs.Viewer do .NET a chur i bhfeidhm agus a úsáid sa tionscadal tá an chuma air go bhfuil sé ag obair go han-mhaith. Tá mé tástáil le go leor de na doiciméid agus go dtí seo chomh maith. Cuireann gach rud a chaith mé air le fáil go deas agus tá cuma chomh maith air agus a bheadh ​​​​i breathnóir PDF nó MS Word.",
+      "author": "Mata Oustad",
+      "company": "Comhairleoir/Comhpháirtí Sinsearach ag Novanet AS"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Esempi di codice",
+    "description": "Alcuni casi d'uso di operazioni tipiche di GroupDocs.Merger per .NET",
+    "sample_1": {
+      "title": "Unisci pagine di file DOCX specifiche in un unico documento",
+      "content_1": "La funzione [Unione selettiva delle pagine](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) consente di estrarre e unire solo il contenuto desiderato da ciascun file.",
+      "content_2": "Ecco un esempio di come ottenere l'unione selettiva delle pagine utilizzando C#:",
+      "code_title": "Come unire file DOCX in C#",
+      "comment_1": "Carica il file DOCX di origine",
+      "comment_2": "Aggiungi un altro file DOCX da unire",
+      "comment_3": "Unisci i file DOCX e salva il risultato"
+    },
+    "sample_2": {
+      "title": "Dividi il documento PDF in più file",
+      "content_1": "Suddividi in modo efficiente un documento in più file con la funzione [Dividi documento](https://docs.groupdocs.com/merger/net/split-document/) che semplifica il processo di gestione ed estrazione di sezioni o pagine specifiche da documenti di grandi dimensioni.",
+      "content_2": "Ti consente di dividere i documenti in parti più piccole in base a vari criteri: per intervallo di pagine, per pagine iniziali/finali, per numeri di pagina pari/dispari, ecc.",
+      "code_title": "Come suddividere il documento in più documenti multipagina",
+      "comment_1": "Dividi il file PDF utilizzando GroupDocs.Merger API",
+      "comment_2": "Inizializza la classe SplitOptions con il formato del percorso dei file di output",
+      "comment_3": "Crea un'istanza di fusione con il documento PDF di input",
+      "comment_4": "Chiama il metodo split e passa l'oggetto SplitOptions per salvare i documenti risultanti"
+    }
+  }
+}

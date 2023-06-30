@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Formats de fitxer compatibles",
+    "description": "GroupDocs.Merger per a Java admet operacions amb els següents [formats de fitxer de document](https://docs.groupdocs.com/merger/java/supported-document-formats/).",
+    "groups": {
+      "title_1": "Formats de Microsoft Office",
+      "title_2": "Documents i imatges",
+      "title_3": "Altres formats",
+      "format_documents": "Documents",
+      "format_images": "Imatges",
+      "format_web": "Web",
+      "format_archives": "Arxius"
+    }
+  }
+}

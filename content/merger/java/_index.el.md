@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-25T09:03:56
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,235 @@ head_title: "Java Document Merging API | συγχώνευση και κατάρ�
 head_description: "API συγχώνευσης εγγράφων για Java. Συγχώνευση, διαχωρισμός, εναλλαγή, αναδιάταξη και διαγραφή σελίδων PDF, Microsoft Word, Excel, παρουσιάσεων, Visio, XPS & EPUB."
 
 ############################# Header ############################
-title: "Java API για συνδυασμό και διαίρεση εγγράφων"
-description: "Αναπτύξτε εφαρμογές υψηλής απόδοσης που μπορούν να συνδυάζουν, να αντιγράφουν, να ανακατεύουν, να κόβουν ή να διαγράφουν σελίδες, διαφάνειες και διαγράμματα εν κινήσει."
-button:
-    enable: true
+title: "Συγχώνευση εγγράφων<br>μέσω Java API"
+description: "Ευέλικτο API συγχώνευσης για εύκολο συνδυασμό, διαχωρισμό ή τροποποίηση εγγράφων PDF και Office"
+words:
+  for: "Για"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Δωρεάν λήψη Maven"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "Αδειοδότηση"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "Είστε έτοιμοι να ξεκινήσετε;"
+  description: "Δοκιμάστε τις δυνατότητες του GroupDocs.Merger δωρεάν ή ζητήστε άδεια"
+
+release:
+  title: "Κυκλοφόρησε η έκδοση {0}"
+  notes: "Δείτε τι νέο υπάρχει"
+  downloads: "Λήψεις"
+
+code:
+  title: "Συγχώνευση αρχείων PDF σε Java"
+  more: "Περισσότερα παραδείγματα"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // Φορτώστε το αρχείο προέλευσης PDF
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // Προσθέστε ένα άλλο αρχείο PDF για συγχώνευση
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "ΣΦΑΙΡΙΚΗ ΕΙΚΟΝΑ"
-
-            # button loop
-            - link: "#features"
-              text: "Χαρακτηριστικά"
-
-            # button loop
-            - link: "#support"
-              text: "Υποστήριξη"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Ζωντανή επίδειξη"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "Τιμολόγηση"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // Συγχωνεύστε αρχεία PDF και αποθηκεύστε το αποτέλεσμα
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Το GroupDocs.Merger για Java σάς επιτρέπει να αναπτύσσετε γρήγορα κορυφαίες επιχειρηματικές εφαρμογές σε Java. Με λίγη κωδικοποίηση, οι εφαρμογές σας Java μπορούν να συγχωνεύουν, να αντιγράφουν, να ανακατεύουν, να κόβουν και να διαγράφουν μία ή παρτίδα σελίδων, διαφανειών και διαγραμμάτων. Οι λειτουργίες συγχώνευσης μπορούν επίσης να εκτελεστούν σε ασφαλή αρχεία γνωστής και άγνωστης μορφής εφαρμόζοντας ή αφαιρώντας προστασία με κωδικό πρόσβασης.  
+  enable: true
+  title: "GroupDocs.Merger με μια ματιά"
+  description: "API για συνδυασμό, διαχωρισμό, εναλλαγή, περικοπή ή κατάργηση εγγράφων, διαφανειών και διαγραμμάτων σε εφαρμογές Java"
+  features:
+    # feature loop
+    - title: "Συγχώνευση πολλαπλών εγγράφων χωρίς κόπο σε Java"
+      content: "Συγχωνεύστε εύκολα αρχεία PDF και Office σε ένα ενιαίο έγγραφο σε Java, αξιοποιώντας τις δυνατότητες της βιβλιοθήκης GroupDocs.Merger. Επωφεληθείτε από την εκτεταμένη υποστήριξη μορφής, που σας επιτρέπει να συνδυάζετε απρόσκοπτα διάφορους τύπους αρχείων, με αποτέλεσμα μια βολική και απλοποιημένη διαδικασία συγχώνευσης."
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Ακολουθεί μια επισκόπηση του GroupDocs.Merger για Java:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Λειτουργίες εγγράφων"
-          content: |
-            * Αλλαγή σειράς σελίδας
-            * Κατάργηση ή Διαγραφή Σελίδων
-            * Διαίρεση ή διάσπαση εγγράφου
-            * Αλλάξτε ή ανακατέψτε οποιεσδήποτε δύο σελίδες
-            * Περικοπή μεμονωμένων ή πολλαπλών σελίδων
-            * Συνδέστε πολλά έγγραφα
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Λειτουργίες Ασφάλειας"
-          content: |
-            * Ρύθμιση ασφάλειας εγγράφων
-            * Ελέγξτε την κατάσταση ασφάλειας εγγράφων
-            * Ορισμός κωδικού πρόσβασης εγγράφου
-            * Ενημέρωση κωδικού πρόσβασης εγγράφου
-            * Κατάργηση κωδικού πρόσβασης εγγράφου
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Το GroupDocs.Merger για Java υποστηρίζει τη συγχώνευση των ακόλουθων [μορφών αρχείων εγγράφων](https://docs.groupdocs.com/merger/java/supported-document-formats/):
+    # feature loop
+    - title: "Βελτιώστε τη διαχείριση εγγράφων διαιρώντας εύκολα ογκώδη αρχεία"
+      content: "Διαχωρίστε μεγάλα αρχεία PDF ή Office σε μικρότερα, εύκολα χειριζόμενα τμήματα. Μπορείτε να διαιρέσετε έγγραφα με βάση συγκεκριμένες σελίδες, εύρη ή ακόμα και να εξαγάγετε μεμονωμένες σελίδες με ευκολία και ευκολία. Βελτιώστε τη διαχείριση των εγγράφων σας χρησιμοποιώντας τις απρόσκοπτες δυνατότητες της βιβλιοθήκης GroupDocs.Merger και κάντε τα αρχεία σας πιο οργανωμένα και διαχειρίσιμα."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "το γραφείο της Microsoft"
-              content: |
-                * **Λέξη:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, Υπολογιστικό φύλλοML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Προσαρμόστε τη δομή του εγγράφου σας και έχετε τον πλήρη έλεγχο των αρχείων σας"
+      content: "Χειριστείτε εύκολα τις σελίδες αναδιατάσσοντάς τες, ανταλλάσσοντας ή αφαιρώντας τες. Οργανώστε και προσαρμόστε τα έγγραφά σας σύμφωνα με τις συγκεκριμένες απαιτήσεις σας με την ευελιξία να δημιουργήσετε μια εξατομικευμένη δομή αρχείων."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument & Άλλες Μορφές"
-              content: |
-                * **Μορφές OpenDocument**: ODT, OTT, ODP, OTP, ODS
-                * **Σταθερή διάταξη**: PDF, XPS
-                * **Εικόνες**: BMP, PNG, TIFF
-                * **Ιστός**: HTML, MHT, MHTML
-                * **Κείμενο**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **Ebook**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Ανεξαρτησία πλατφόρμας"
+  description: "Το GroupDocs.Merger για Java υποστηρίζει τα ακόλουθα λειτουργικά συστήματα, πλαίσια και διαχειριστές πακέτων"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          Το GroupDocs.Merger για Java υποστηρίζει τα ακόλουθα λειτουργικά συστήματα, Frameworks και Package Managers:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Λειτουργικά συστήματα"
-              content: |
-                * Επιφάνεια εργασίας Microsoft Windows
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "Υποστηριζόμενα πλαίσια"
-              content: |
-                * Java 7 (1.7)
-                * Java 8 (1.8)
-                * Java 10
-                * Java 11 και παραπάνω
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Εργαλείο Build Automation"
-              content: |
-                * Μάβεν
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Αναπτυξιακά Περιβάλλοντα"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Έκλειψη
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Υποστηριζόμενες μορφές αρχείων"
+  description: |
+    Το GroupDocs.Merger για Java υποστηρίζει λειτουργίες με τις ακόλουθες [μορφές αρχείων εγγράφων](https://docs.groupdocs.com/merger/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Μορφές Microsoft Office
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Έγγραφα & εικόνες
+        * **Εγγραφα:** PDF, XPS, TEX
+        * **εικόνες:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Άλλες μορφές
+        * **Ιστός:**  HTML, MHTML, MHT
+        * **Αρχεία:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger για λειτουργίες Java"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Συγχωνεύστε διάφορες σελίδες, διαφάνειες και διαγράμματα σε ένα μόνο αρχείο"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Αντιγράψτε και χωρίστε τεράστια έγγραφα σε πολλά μικρότερα αρχεία"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Ανακατέψτε και αναδιοργανώστε σελίδες, διαφάνειες ή διαγράμματα"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Ανταλλάξτε και ανταλλάξτε δύο σελίδες, διαφάνειες ή διαγράμματα μεταξύ τους μέσα σε ένα έγγραφο"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Κόψτε και περικόψτε το έγγραφο αφαιρώντας συγκεκριμένες σελίδες, διαφάνειες ή διαγράμματα"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Διαγραφή ενός ή μιας συλλογής σελίδων, διαφανειών ή διαγραμμάτων"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Συρραφή και συγχώνευση μεγάλου αριθμού εγγράφων σε παρτίδες"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Ελέγξτε μέσω προγραμματισμού σε Java εάν ένα έγγραφο είναι ασφαλισμένο με κωδικό πρόσβασης"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Ρύθμιση, επαναφορά και κατάργηση κωδικού πρόσβασης γνωστών και άγνωστων μορφών εγγράφων"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Διαχωρίστε ένα αρχείο κειμένου σε πολλούς αριθμούς κατά γραμμή"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Λήψη αναπαράστασης εικόνας σελίδων εγγράφων"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Συγχώνευση πολλαπλών εγγράφων διαφορετικών μορφών σε ένα μόνο αρχείο PDF"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Εισαγάγετε αντικείμενα OLE σε μορφές PDF, Word, Excel, PowerPoint & Open Document"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Επισύναψη αρχείων μέσω προγραμματισμού σε ένα έγγραφο PDF"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Προσθήκη εγγράφου στο διάγραμμα μέσω αντικειμένων OLE"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Συγχώνευση διαφορετικών τύπων εγγράφων (DOC, XLS, PPT κ.λπ.) σε ένα ενιαίο αρχείο PDF"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Εύκολη εισαγωγή αντικειμένων OLE σε τύπους αρχείων Microsoft Word, Excel, Presentation και OpenDocument"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Προσθήκη άλλων εγγράφων στη σελίδα διαγράμματος μέσω αντικειμένων OLE"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Αφαιρέστε τις επιθυμητές σελίδες από τα έγγραφα"
-        content: |
-          Το GroupDocs.Merger for Java API σάς επιτρέπει να επιλέξετε και να διαγράψετε ανεπιθύμητες σελίδες από το έγγραφό σας.
-      
-      # more_feature_loop
-      - title: "Ελέγξτε τον κωδικό πρόσβασης άγνωστης μορφής εγγράφου"
-        content: "Ακόμα κι αν η μορφή ενός συγκεκριμένου εγγράφου είναι άγνωστη, το GroupDocs.Merger για Java σάς δίνει τη δυνατότητα να ελέγξετε και να ανακτήσετε τον κωδικό πρόσβασης του εγγράφου, εάν είναι διαθέσιμος."
-
-      # more_feature_loop
-      - title: "Εγγραφείτε σε έγγραφα γνωστών μορφών που προστατεύονται με κωδικό πρόσβασης"
-        content: "Το GroupDocs.Merger for Java API σάς επιτρέπει να λαμβάνετε μια λίστα εγγράφων γνωστών και άγνωστων μορφών."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "Το GroupDocs.Merger προσφέρει API συγχώνευσης εγγράφων για άλλα δημοφιλή περιβάλλοντα ανάπτυξης"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger για .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Λειτουργίες GroupDocs.Merger"
+  description: "Συγχώνευση, διαχωρισμός και χειρισμός εγγράφων PDF και Office χωρίς προβλήματα"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Συνδυάστε αρχεία"
+      content: "Συγχώνευση δύο ή περισσότερων εγγράφων σε ένα μόνο έγγραφο, ενώνοντας συγκεκριμένες σελίδες ή σειρές σελίδων από έγγραφα πολλαπλών προέλευσης."
+
+    # feature loop
+    - icon: "split"
+      title: "Διαίρεση εγγράφου"
+      content: "Χρησιμοποιήστε τη λειτουργία διαχωρισμού για να διαιρέσετε ένα έγγραφο προέλευσης σε πολλαπλά έγγραφα που προκύπτουν, επιτρέποντας την αποτελεσματική οργάνωση και διαχείριση των αρχείων."
+
+    # feature loop
+    - icon: "move"
+      title: "Μετακίνηση σελίδων"
+      content: "Ομαλά επανατοποθετήστε μια σελίδα μέσα σε ένα έγγραφο αξιοποιώντας τη δυνατότητα MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "Κατάργηση σελίδων"
+      content: "Καταργήστε αποτελεσματικά μεμονωμένες σελίδες ή μια συλλογή συγκεκριμένων αριθμών σελίδων από το έγγραφο προέλευσης με τη δυνατότητα RemovePages."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Περιστροφή σελίδων"
+      content: "Επωφεληθείτε από τη λειτουργία RotatePages για να περιστρέφετε εύκολα σελίδες μέσα σε ένα έγγραφο, καθορίζοντας τη γωνία περιστροφής ως 90, 180 ή 270 μοίρες"
+
+    # feature loop
+    - icon: "swap"
+      title: "Ανταλλαγή σελίδων"
+      content: "Αναδιάταξη της σειράς σελίδων ανταλλάσσοντας τις θέσεις δύο σελίδων μέσα στο έγγραφο προέλευσης, δημιουργώντας ένα νέο έγγραφο."
+
+    # feature loop
+    - icon: "extract"
+      title: "Εξαγωγή σελίδων"
+      content: "Δημιουργήστε ένα νέο έγγραφο που περιέχει μόνο τις επιλεγμένες σελίδες εξάγοντας συγκεκριμένες σελίδες ή περιοχές σελίδων από το έγγραφο προέλευσης."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Αλλαγή προσανατολισμού"
+      content: "Τροποποιήστε τον προσανατολισμό της σελίδας (κατακόρυφος ή οριζόντιος) για συγκεκριμένες σελίδες ή όλες τις σελίδες του εγγράφου αξιοποιώντας τη λειτουργία ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Προεπισκόπηση σελίδων"
+      content: "Αποκτήστε μια σαφέστερη κατανόηση του περιεχομένου και της δομής του εγγράφου δημιουργώντας αναπαραστάσεις εικόνων των σελίδων του. Κάντε προεπισκοπήσεις όλων ή μόνο συγκεκριμένων σελίδων."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Δείγματα κωδικών"
+  description: "Ορισμένες χρησιμοποιούν περιπτώσεις τυπικών GroupDocs.Merger για λειτουργίες Java"
+  items:
+    # code sample loop
+    - title: "Συγχώνευση αρχείων DOCX σε ένα μόνο έγγραφο"
+      content: |
+        Με τη δυνατότητα [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) μπορείτε να συνδυάσετε ολόκληρα αρχεία DOCX σε ένα μόνο έγγραφο φορτώνοντας το αρχείο προέλευσης, προσθέτοντας περισσότερα αρχεία DOCX για συμμετοχή και αποθήκευση του συγχωνευμένου εγγράφου. Ακολουθεί ένα απόσπασμα κώδικα Java που δείχνει τη διαδικασία συγχώνευσης:
+        {{< landing/code title="Πώς να συγχωνεύσετε αρχεία DOCX σε Java">}}
+        ```java {style=abap}   
+        // Φορτώστε το αρχείο προέλευσης DOCX
+        Merger merger = new Merger("sample1.docx");
+        // Προσθέστε ένα άλλο αρχείο DOCX για συγχώνευση
+        merger.join("sample2.docx");
+        // Συγχωνεύστε αρχεία DOCX και αποθηκεύστε το αποτέλεσμα
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Διαχωρίστε το έγγραφο PDF σε πολλά αρχεία"
+      content: |
+        Διαχωρίστε ένα έγγραφο σε πολλά αρχεία με τη δυνατότητα [Split Document](https://docs.groupdocs.com/merger/java/split-document/) για να απλοποιήσετε τη διαδικασία διαχείρισης και εξαγωγής συγκεκριμένων ενοτήτων ή σελίδων από μεγάλα έγγραφα. Σας επιτρέπει να διαιρείτε έγγραφα σε μικρότερα μέρη με βάση διάφορα κριτήρια - κατά εύρος σελίδων, κατά σελίδες έναρξης/τελικής, με μονούς/ζυγούς αριθμούς σελίδων κ.λπ.
+        {{< landing/code title="Διαχωρίστε το έγγραφο σε πολλά έγγραφα μιας σελίδας">}}
+        ```java {style=abap}   
+        // Διαχωρίστε το αρχείο PDF χρησιμοποιώντας το GroupDocs.Merger for Java API
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // Εκκινήστε την κλάση SplitOptions με μορφή διαδρομής αρχείων εξόδου
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // Άμεση συγχώνευση με εισαγωγή εγγράφου PDF
+        Merger merger = new Merger(filePath);
+
+        // Καλέστε τη μέθοδο διαχωρισμού κλήσεων και περάστε το αντικείμενο SplitOptions για να αποθηκεύσετε τα προκύπτοντα έγγραφα
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Κριτικές προϊόντων GroupDocs"
+# description: "Μην παίρνετε το λόγο μας για αυτό. Δείτε τι λένε άλλοι προγραμματιστές για τα API μας"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Εξαιρετική εξυπηρέτηση και εξαιρετικά προϊόντα. Ήταν εξαιρετικά χρήσιμοι και ανταποκρίθηκαν κατά τη διαδικασία υλοποίησης του GroupDocs.Viewer για .NET, δεν μπορώ να τα προτείνω αρκετά."
+#     author: "Μάρτιν Λασάργκα"
+#     company: "Product Manager στην Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Μετά την εφαρμογή και χρήση του GroupDocs.Viewer για .NET στο έργο, φαίνεται να λειτουργεί πολύ καλά. Έχω δοκιμάσει με πολλά έγγραφα και μέχρι στιγμής καλά. Όλα όσα έχω ρίξει σε αυτό αποδίδονται όμορφα και φαίνονται εξίσου καλά με ένα πρόγραμμα προβολής PDF ή MS Word."
+#     author: "Ματς Ουστάντ"
+#     company: "Ανώτερος Σύμβουλος/Συνεργάτης στη Novanet AS"
 ---

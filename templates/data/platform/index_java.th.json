@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API การผสานเอกสาร Java | รวม & ลบ Word Excel PDF XPS EPUB",
+    "description": "API การผสานเอกสารสำหรับ Java ผสาน แยก สลับ จัดลำดับใหม่ และลบหน้าของรูปแบบ PDF, Microsoft Word, Excel, งานนำเสนอ, Visio, XPS และ EPUB"
+  },
+  "header": {
+    "title_1": "รวมเอกสาร",
+    "title_2": "ผ่าน Java API",
+    "description": "API การควบรวมกิจการที่ยืดหยุ่นเพื่อรวม แยก หรือแก้ไข PDF และเอกสาร Office ได้อย่างง่ายดาย",
+    "words": {
+      "for": "สำหรับ"
+    }
+  },
+  "actions": {
+    "main": "ดาวน์โหลด Maven ฟรี",
+    "alt": "การออกใบอนุญาต",
+    "title": "พร้อมที่จะเริ่มต้นหรือยัง",
+    "description": "ลองใช้คุณสมบัติ GroupDocs.Merger ฟรีหรือขอใบอนุญาต"
+  },
+  "release": {
+    "title": "เปิดตัวเวอร์ชัน {0}",
+    "notes": "ดูว่ามีอะไรใหม่",
+    "downloads": "ดาวน์โหลด"
+  }
+}

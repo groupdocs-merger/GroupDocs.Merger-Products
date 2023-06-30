@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Merge PDF files in C#",
+    "more": "More examples",
+    "notes": "See what’s new",
+    "comment_1": "Load the source PDF file",
+    "comment_2": " Add another PDF file to merge",
+    "comment_3": "Merge PDF files and save result"
+  }
+}

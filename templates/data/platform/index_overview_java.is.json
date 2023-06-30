@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger í hnotskurn",
+    "description": "API til að sameina, skipta, skipta, klippa eða fjarlægja skjöl, skyggnur og skýringarmyndir í Java forritum",
+    "feature_1": {
+      "title": "Sameina áreynslulaust mörg skjöl í Java",
+      "description": "Sameinaðu PDF og Office skrár auðveldlega í eitt skjal í Java, nýttu þér möguleika GroupDocs.Merger bókasafnsins. Njóttu góðs af víðtækum sniðstuðningi, sem gerir þér kleift að sameina ýmsar skráargerðir óaðfinnanlega, sem leiðir til þægilegs og straumlínulagaðs sameiningarferlis."
+    },
+    "feature_2": {
+      "title": "Straumlínulagaðu skjalastjórnun með því að skipta fyrirferðarmiklum skrám auðveldlega",
+      "description": "Skiptu stórum PDF eða Office skrám í smærri hluta sem auðvelt er að meðhöndla. Þú getur skipt skjölum út frá tilteknum síðum, sviðum eða jafnvel dregið út einstakar síður með auðveldum og þægindum. Straumlínulagaðu skjalastjórnun þína með því að nýta hnökralausa möguleika GroupDocs.Merger bókasafnsins og gera skrárnar þínar skipulagðari og viðráðanlegri."
+    },
+    "feature_3": {
+      "title": "Sérsníddu skjalaskipulagið þitt og hafðu fulla stjórn á skrám þínum",
+      "description": "Notaðu síður auðveldlega með því að endurraða, skipta um eða fjarlægja þær. Skipuleggðu og aðlagaðu skjölin þín í samræmi við sérstakar kröfur þínar með sveigjanleikanum til að búa til persónulega skráaruppbyggingu."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "GroupDocs produktų apžvalgos",
+    "description": "Netikėkite mūsų žodžio. Sužinokite, ką kiti kūrėjai sako apie mūsų API",
+    "review_1": {
+      "content": "Puikus aptarnavimas ir puikūs produktai. Jie buvo labai naudingi ir reagavo per GroupDocs.Viewer .NET diegimo procesą, todėl negaliu jų rekomenduoti.",
+      "author": "Martinas Lasarga",
+      "company": "„Axentria ECM“ produktų vadovas G.S.I."
+    },
+    "review_2": {
+      "content": "Projekte įdiegus ir panaudojus GroupDocs.Viewer for .NET, atrodo, kad jis veikia labai gerai. Išbandžiau su daugybe dokumentų ir kol kas viskas gerai. Viskas, ką sukūriau, gražiai atvaizduojama ir atrodo taip pat gerai, kaip ir PDF peržiūros programoje arba MS Word.",
+      "author": "Matsas Oustadas",
+      "company": "„Novanet AS“ vyresnysis konsultantas/partneris"
+    }
+  }
+}

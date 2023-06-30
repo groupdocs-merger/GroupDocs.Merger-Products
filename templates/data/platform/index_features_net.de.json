@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger-Funktionen",
+    "description": "PDF- und Office-Dokumente nahtlos zusammenführen, teilen und bearbeiten",
+    "feature_1": {
+      "title": "Dateien zusammenführen",
+      "content": "Kombinieren Sie zwei oder mehr Dokumente zu einem einzigen Dokument und führen Sie bestimmte Seiten oder Seitenbereiche aus mehreren Quelldokumenten zusammen."
+    },
+    "feature_2": {
+      "title": "Dokumente aufteilen",
+      "content": "Teilen Sie ein Quelldokument mithilfe des Teilungsvorgangs in mehrere resultierende Dokumente auf."
+    },
+    "feature_3": {
+      "title": "Seiten verschieben",
+      "content": "Positionieren Sie Seiten innerhalb eines Dokuments mithilfe der MovePage-Funktion neu."
+    },
+    "feature_4": {
+      "title": "Seiten entfernen",
+      "content": "Entfernen Sie einzelne Seiten oder eine Sammlung bestimmter Seitenzahlen aus dem Quelldokument."
+    },
+    "feature_5": {
+      "title": "Seiten drehen",
+      "content": "Drehen Sie Seiten innerhalb eines Dokuments, indem Sie den Drehwinkel mithilfe der Operation „RotatePages“ auf 90, 180 oder 270 Grad festlegen."
+    },
+    "feature_6": {
+      "title": "Seiten tauschen",
+      "content": "Tauschen Sie die Positionen zweier Seiten im Quelldokument aus und erstellen Sie so ein neues Dokument mit vertauschten Seitenpositionen."
+    },
+    "feature_7": {
+      "title": "Seiten extrahieren",
+      "content": "Extrahieren Sie bestimmte Seiten oder Seitenbereiche aus einem Quelldokument und erstellen Sie ein neues Dokument, das nur die ausgewählten Seiten enthält."
+    },
+    "feature_8": {
+      "title": "Orientierung ändern",
+      "content": "Legen Sie die Seitenausrichtung (Hochformat oder Querformat) für bestimmte oder alle Seiten des Dokuments mithilfe der Operation „ChangeOrientation“ fest."
+    },
+    "feature_9": {
+      "title": "Vorschauseiten",
+      "content": "Generieren Sie Bilddarstellungen von Dokumentseiten, um den Inhalt und die Struktur besser zu verstehen. Erstellen Sie eine Vorschau aller oder nur bestimmter Seiten."
+    }
+  }
+}

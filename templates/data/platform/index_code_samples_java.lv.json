@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Koda paraugi",
+    "description": "Daži izmanto tipisku GroupDocs.Merger gadījumus Java operācijām",
+    "sample_1": {
+      "title": "Apvienojiet DOCX failus vienā dokumentā",
+      "content_1": "Izmantojot funkciju [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/), varat apvienot visus DOCX failus vienā dokumentā, ielādējot avota failu, pievienojot papildu DOCX failus, lai pievienotos. un saglabājot apvienoto dokumentu.",
+      "content_2": "Tālāk ir sniegts Java koda fragments, kas parāda sapludināšanas procesu:",
+      "code_title": "Kā sapludināt DOCX failus Java",
+      "comment_1": "Ielādējiet avota DOCX failu",
+      "comment_2": "Pievienojiet vēl vienu DOCX failu, lai sapludinātu",
+      "comment_3": "Apvienojiet DOCX failus un saglabājiet rezultātu"
+    },
+    "sample_2": {
+      "title": "Sadaliet PDF dokumentu vairākos failos",
+      "content_1": "Sadaliet dokumentu vairākos failos, izmantojot funkciju [Sadalīt dokumentu](https://docs.groupdocs.com/merger/java/split-document/), lai vienkāršotu konkrētu sadaļu vai lapu pārvaldību un izvilkšanu no lieliem dokumentiem.",
+      "content_2": "Tas ļauj sadalīt dokumentus mazākās daļās, pamatojoties uz dažādiem kritērijiem - pēc lappušu diapazona, pēc sākuma/beigu lapām, pēc nepāra/pāra lappušu numuriem utt.",
+      "code_title": "Sadaliet dokumentu vairākos vienas lapas dokumentos",
+      "comment_1": "Sadaliet PDF failu, izmantojot GroupDocs.Merger for Java API",
+      "comment_2": "Inicializējiet SplitOptions klasi ar izvades failu ceļa formātu",
+      "comment_3": "Momentāra apvienošana ar ievades PDF dokumentu",
+      "comment_4": "Izsauciet sadalīšanas metodi un nododiet SplitOptions objektu, lai saglabātu iegūtos dokumentus"
+    }
+  }
+}

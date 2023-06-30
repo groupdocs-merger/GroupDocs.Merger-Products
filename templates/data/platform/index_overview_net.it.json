@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger a colpo d'occhio",
+    "description": "API per combinare, dividere, scambiare, tagliare o rimuovere documenti, diapositive e diagrammi nelle applicazioni .NET",
+    "feature_1": {
+      "title": "Unisci facilmente più documenti in C#",
+      "description": "Unisci documenti: combina senza problemi più file PDF e Office in un unico documento, con supporto per un'ampia gamma di formati. GroupDocs.Merger per .NET rende l'unione dei documenti veloce e senza problemi."
+    },
+    "feature_2": {
+      "title": "Semplifica la gestione dei documenti suddividendo file di grandi dimensioni",
+      "description": "Dividi file PDF o Office di grandi dimensioni in parti più piccole e più gestibili con facilità. GroupDocs.Merger per .NET ti consente di dividere i documenti in base a pagine, intervalli specifici o persino di estrarre singole pagine senza sforzo."
+    },
+    "feature_3": {
+      "title": "Manipola le pagine e personalizza la struttura del documento: riordina, scambia o rimuovi",
+      "description": "Assumi il controllo dei tuoi documenti riorganizzando le pagine, rimuovendo le pagine indesiderate o aggiungendone di nuove. GroupDocs.Merger per .NET ti consente di manipolare la struttura del documento, permettendoti di personalizzare e adattare i tuoi file in base alle tue esigenze specifiche."
+    }
+  }
+}

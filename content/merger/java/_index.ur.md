@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-11-11T07:36:17
+layout: "landing"
+date: 2023-06-29T12:38:09
 draft: false
 
 product: "Merger"
@@ -14,271 +14,235 @@ head_title: "جاوا دستاویز ضم کرنے والا API | Word Excel PDF
 head_description: "جاوا کے لیے API کو ضم کرنے والی دستاویزات۔ پی ڈی ایف، مائیکروسافٹ ورڈ، ایکسل، پریزنٹیشنز، Visio، XPS اور EPUB فارمیٹس کے صفحات کو ضم کریں، تقسیم کریں، تبدیل کریں، دوبارہ ترتیب دیں اور حذف کریں۔"
 
 ############################# Header ############################
-title: "دستاویزات کو یکجا اور تقسیم کرنے کے لیے Java API"
-description: "اعلیٰ کارکردگی والی ایپس تیار کریں جو چلتے پھرتے صفحات، سلائیڈز اور خاکوں کو یکجا، چیر، شفل، کاٹ یا حذف کر سکیں۔"
-button:
-    enable: true
+title: "دستاویزات کو ضم کریں۔<br>جاوا API کے ذریعے"
+description: "پی ڈی ایف اور آفس دستاویزات کو آسانی سے جوڑنے، تقسیم کرنے یا ان میں ترمیم کرنے کے لیے لچکدار انضمام API"
+words:
+  for: "کے لیے"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "مفت ماون ڈاؤن لوڈ کریں۔"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "لائسنسنگ"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "شروع کرنے کے لیے تیار ہیں؟"
+  description: "GroupDocs.Merger کی خصوصیات مفت میں آزمائیں یا لائسنس کی درخواست کریں۔"
+
+release:
+  title: "ورژن {0} جاری کیا گیا۔"
+  notes: "دیکھیں کہ نیا کیا ہے۔"
+  downloads: "ڈاؤن لوڈ"
+
+code:
+  title: "جاوا میں پی ڈی ایف فائلوں کو ضم کریں۔"
+  more: "مزید مثالیں۔"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // سورس پی ڈی ایف فائل لوڈ کریں۔
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // ضم کرنے کے لیے ایک اور پی ڈی ایف فائل شامل کریں۔
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "جائزہ"
-
-            # button loop
-            - link: "#features"
-              text: "خصوصیات"
-
-            # button loop
-            - link: "#support"
-              text: "حمایت"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "لائیو ڈیمو"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "قیمتوں کا تعین"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // پی ڈی ایف فائلوں کو ضم کریں اور نتیجہ محفوظ کریں۔
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      جاوا کے لیے GroupDocs.Merger آپ کو جاوا میں ٹاپ لائن بزنس ایپلی کیشنز کو تیزی سے تیار کرنے کے قابل بناتا ہے۔ تھوڑی کوڈنگ کے ساتھ آپ کی جاوا ایپلی کیشنز ایک صفحے یا صفحات کے بیچ، سلائیڈز اور خاکوں کو ضم، چیر، شفل، کاٹ اور حذف کر سکتی ہیں۔ پاس ورڈ پروٹیکشن لگا کر یا ہٹا کر معلوم اور نامعلوم فارمیٹ کی محفوظ فائلوں پر ضم کرنے کی کارروائیاں بھی کی جا سکتی ہیں۔  
+  enable: true
+  title: "GroupDocs.Merger ایک نظر میں"
+  description: "جاوا ایپلیکیشنز میں دستاویزات، سلائیڈز اور خاکوں کو یکجا کرنے، تقسیم کرنے، تبدیل کرنے، تراشنے یا ہٹانے کے لیے API"
+  features:
+    # feature loop
+    - title: "جاوا میں متعدد دستاویزات کو آسانی سے ضم کریں۔"
+      content: "GroupDocs.Merger لائبریری کی صلاحیتوں سے فائدہ اٹھاتے ہوئے جاوا میں PDF اور Office فائلوں کو آسانی سے ایک ہی دستاویز میں ضم کریں۔ اس کے وسیع فارمیٹ سپورٹ سے فائدہ اٹھائیں، جس سے آپ مختلف فائل کی اقسام کو بغیر کسی رکاوٹ کے یکجا کر سکتے ہیں، جس کے نتیجے میں ایک آسان اور ہموار ضم ہونے کا عمل ہوتا ہے۔"
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          ذیل میں جاوا کے لیے GroupDocs.Merger کا ایک جائزہ ہے۔
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "دستاویزی کارروائیاں"
-          content: |
-            * صفحہ کی ترتیب کو تبدیل کریں۔
-            * صفحات کو ہٹا دیں یا حذف کریں۔
-            * دستاویز کو تقسیم یا توڑ دیں۔
-            * کسی بھی دو صفحات کو تبدیل یا شفل کریں۔
-            * ایک یا ایک سے زیادہ صفحات کو تراشیں۔
-            * متعدد دستاویزات میں شامل ہوں۔
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "سیکیورٹی آپریشنز"
-          content: |
-            * دستاویز کی حفاظت کو ترتیب دیں۔
-            * دستاویز کی حفاظتی حیثیت چیک کریں۔
-            * دستاویز کا پاس ورڈ سیٹ کریں۔
-            * دستاویز کا پاس ورڈ اپ ڈیٹ کریں۔
-            * دستاویز کا پاس ورڈ ہٹا دیں۔
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          جاوا کے لیے GroupDocs.Merger [دستاویزی فائل فارمیٹس](https://docs.groupdocs.com/merger/java/supported-document-formats/) کو ضم کرنے کی حمایت کرتا ہے:
+    # feature loop
+    - title: "بڑی فائلوں کو آسانی سے تقسیم کرکے دستاویز کے انتظام کو ہموار کریں۔"
+      content: "بڑی پی ڈی ایف یا آفس فائلوں کو چھوٹے، آسانی سے سنبھالے جانے والے حصوں میں تقسیم کریں۔ آپ دستاویزات کو مخصوص صفحات، حدود کی بنیاد پر تقسیم کر سکتے ہیں، یا آسانی اور سہولت کے ساتھ انفرادی صفحات کو بھی نکال سکتے ہیں۔ GroupDocs.Merger لائبریری کی ہموار صلاحیتوں کو بروئے کار لا کر اپنے دستاویز کے انتظام کو ہموار کریں اور اپنی فائلوں کو مزید منظم اور قابل انتظام بنائیں۔"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "مائیکروسافٹ آفس"
-              content: |
-                * **لفظ:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **پاورپوائنٹ:** PPT، PPTX، PPS، PPSX، PPSM، POT، POTM، POTX، PPTM
-                * **ایک نوٹ:** ایک
+    # feature loop
+    - title: "اپنے دستاویز کے ڈھانچے کو حسب ضرورت بنائیں اور اپنی فائلوں پر مکمل کنٹرول رکھیں"
+      content: "صفحات کو دوبارہ ترتیب دے کر، ادل بدل کر، یا ہٹا کر آسانی سے جوڑ توڑ کریں۔ اپنی دستاویزات کو اپنی مخصوص ضروریات کے مطابق ترتیب دیں اور اپنی مرضی کے مطابق فائل ڈھانچہ بنانے کے لیے لچک کے ساتھ ترتیب دیں۔"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "اوپن دستاویز اور دیگر فارمیٹس"
-              content: |
-                * **اوپن دستاویز فارمیٹس**: ODT، OTT، ODP، OTP، ODS
-                * **فکسڈ لے آؤٹ**: پی ڈی ایف، ایکس پی ایس
-                * **تصاویر**: BMP، PNG، TIFF
-                * **ویب**: ایچ ٹی ایم ایل، ایم ایچ ٹی، ایم ایچ ٹی ایم ایل
-                * **ٹیکسٹ**: TXT, CSV, TSV
-                * **لیٹیکس**: TEX
-                * **Ebook**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "پلیٹ فارم کی آزادی"
+  description: "GroupDocs.Merger for Java درج ذیل آپریٹنگ سسٹمز، فریم ورکس اور پیکیج مینیجرز کو سپورٹ کرتا ہے۔"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          جاوا کے لیے GroupDocs.Merger درج ذیل آپریٹنگ سسٹمز، فریم ورکس اور پیکیج مینیجرز کو سپورٹ کرتا ہے۔
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "آپریٹنگ سسٹمز"
-              content: |
-                * مائیکروسافٹ ونڈوز ڈیسک ٹاپ
-                * مائیکروسافٹ ونڈوز سرور
-                * لینکس
-                * MacOS
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "تعاون یافتہ فریم ورک"
-              content: |
-                * Java 7 (1.7)
-                * Java 8 (1.8)
-                * جاوا 10
-                * Java 11 اور اس سے اوپر
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "آٹومیشن ٹول بنائیں"
-              content: |
-                * ماون
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "ترقیاتی ماحول"
-              content: |
-                * نیٹ بینز
-                * انٹیلی جے آئیڈیا
-                * کلپس
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "تائید شدہ فائل فارمیٹس"
+  description: |
+    جاوا کے لیے GroupDocs.Merger درج ذیل [دستاویزی فائل فارمیٹس](https://docs.groupdocs.com/merger/java/supported-document-formats/) کے ساتھ کارروائیوں کی حمایت کرتا ہے۔
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### مائیکروسافٹ آفس فارمیٹس
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### دستاویزات اور تصاویر
+        * **دستاویزات:** PDF, XPS, TEX
+        * **امیجز:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### دیگر فارمیٹس
+        * **ویب:**  HTML, MHTML, MHT
+        * **آرکائیوز:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "جاوا کی خصوصیات کے لیے GroupDocs.Merger"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "مختلف صفحات، سلائیڈز اور خاکوں کو ایک فائل میں ضم کریں۔"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "بڑی دستاویزات کو ایک سے زیادہ چھوٹی فائلوں میں چیر کر تقسیم کریں۔"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "صفحات، سلائیڈز یا خاکوں کو شفل اور دوبارہ ترتیب دیں۔"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "ایک دستاویز کے اندر دو صفحات، سلائیڈز یا خاکوں کا ایک دوسرے کے درمیان تبادلہ اور تبادلہ کریں۔"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "مخصوص صفحات، سلائیڈز یا خاکوں کو ہٹا کر دستاویز کو کاٹیں اور تراشیں۔"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "صفحات، سلائیڈز یا خاکوں کا واحد یا مجموعہ حذف کریں۔"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "بڑی تعداد میں دستاویزات کو بیچوں میں سلائی اور ضم کریں۔"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "جاوا میں پروگرام کے مطابق چیک کریں کہ آیا کوئی دستاویز پاس ورڈ کے ساتھ محفوظ ہے۔"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "معلوم اور نامعلوم دستاویز فارمیٹس کا پاس ورڈ سیٹ کریں، ری سیٹ کریں اور ہٹا دیں۔"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "ایک ٹیکسٹ فائل کو لائن نمبرز کے حساب سے متعدد میں تقسیم کریں۔"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "دستاویز کے صفحات کی تصویری نمائندگی حاصل کریں۔"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "ایک پی ڈی ایف فائل میں مختلف فارمیٹس کے متعدد دستاویزات کو ضم کریں۔"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "OLE آبجیکٹ کو پی ڈی ایف، ورڈ، ایکسل، پاورپوائنٹ اور اوپن ڈاکومنٹ فارمیٹس میں داخل کریں۔"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "پروگرام کے مطابق فائلوں کو پی ڈی ایف دستاویز سے منسلک کریں۔"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "OLE آبجیکٹ کے ذریعے ڈایاگرام میں دستاویز شامل کریں۔"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "مختلف قسم کے دستاویزات (DOC، XLS، PPT وغیرہ) کو ایک پی ڈی ایف فائل میں ضم کریں"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "آسانی سے OLE آبجیکٹ کو مائیکروسافٹ ورڈ، ایکسل، پریزنٹیشن اور اوپن ڈاکومنٹ فائل کی اقسام میں درآمد کریں۔"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "OLE آبجیکٹ کے ذریعے ڈائیگرام پیج میں دیگر دستاویزات شامل کریں۔"
-
-    more_feature:
-      # more_feature_loop
-      - title: "مطلوبہ صفحات کو دستاویزات سے ہٹا دیں۔"
-        content: |
-          جاوا API کے لیے GroupDocs.Merger آپ کو اپنی دستاویز سے ناپسندیدہ صفحات کو منتخب اور حذف کرنے دیتا ہے۔
-      
-      # more_feature_loop
-      - title: "نامعلوم دستاویز کی شکل کا پاس ورڈ چیک کریں۔"
-        content: "یہاں تک کہ اگر کسی خاص دستاویز کا فارمیٹ نامعلوم ہے، تو جاوا کے لیے GroupDocs.Merger آپ کو دستاویز کا پاس ورڈ چیک کرنے اور دوبارہ حاصل کرنے کے قابل بناتا ہے، اگر دستیاب ہو۔"
-
-      # more_feature_loop
-      - title: "معلوم فارمیٹس کے پاس ورڈ سے محفوظ شدہ دستاویزات میں شامل ہوں۔"
-        content: "GroupDocs.Merger for Java API آپ کو معلوم اور نامعلوم فارمیٹس کی دستاویزات کی فہرست حاصل کرنے کی اجازت دیتا ہے۔"
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger دیگر مقبول ترقیاتی ماحول کے لیے دستاویز ضم کرنے والے APIs پیش کرتا ہے۔"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger کی خصوصیات"
+  description: "بغیر کسی رکاوٹ کے پی ڈی ایف اور آفس دستاویزات کو ضم کریں، تقسیم کریں اور ان میں ہیرا پھیری کریں۔"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "فائلوں کو یکجا کریں۔"
+      content: "ایک سے زیادہ ماخذ دستاویزات سے مخصوص صفحات یا صفحہ کی حدود میں شامل ہوتے ہوئے دو یا زیادہ دستاویزات کو ایک دستاویز میں ضم کریں۔"
+
+    # feature loop
+    - icon: "split"
+      title: "تقسیم دستاویز"
+      content: "ایک ماخذ دستاویز کو متعدد نتیجہ خیز دستاویزات میں تقسیم کرنے کے لیے اسپلٹ آپریشن کا استعمال کریں، فائلوں کی موثر تنظیم اور انتظام کو فعال کریں۔"
+
+    # feature loop
+    - icon: "move"
+      title: "صفحات منتقل کریں۔"
+      content: "MovePage کی خصوصیت کا فائدہ اٹھاتے ہوئے کسی دستاویز کے اندر صفحہ کو آسانی سے تبدیل کریں۔"
+
+    # feature loop
+    - icon: "remove"
+      title: "صفحات کو ہٹا دیں۔"
+      content: "RemovePages خصوصیت کے ساتھ ماخذ دستاویز سے انفرادی صفحات یا مخصوص صفحہ نمبروں کا مجموعہ مؤثر طریقے سے ہٹا دیں۔"
+
+    # feature loop
+    - icon: "rotate"
+      title: "صفحات کو گھمائیں۔"
+      content: "روٹیشن اینگل کو 90، 180 یا 270 ڈگری بتا کر کسی دستاویز کے اندر صفحات کو آسانی سے گھمانے کے لیے RotatePages آپریشن سے فائدہ اٹھائیں۔"
+
+    # feature loop
+    - icon: "swap"
+      title: "صفحات کو تبدیل کریں۔"
+      content: "سورس دستاویز کے اندر دو صفحات کی پوزیشنوں کا تبادلہ کرکے، ایک نئی دستاویز تیار کرکے صفحہ ترتیب کو دوبارہ ترتیب دیں۔"
+
+    # feature loop
+    - icon: "extract"
+      title: "صفحات نکالیں۔"
+      content: "ماخذ دستاویز سے مخصوص صفحات یا صفحہ کی حدیں نکال کر صرف منتخب صفحات پر مشتمل ایک نئی دستاویز بنائیں۔"
+
+    # feature loop
+    - icon: "orientation"
+      title: "واقفیت تبدیل کریں۔"
+      content: "ChangeOrientation آپریشن کا فائدہ اٹھاتے ہوئے مخصوص صفحات یا دستاویز کے تمام صفحات کے لیے صفحہ کی واقفیت (پورٹریٹ یا لینڈ سکیپ) میں ترمیم کریں۔"
+
+    # feature loop
+    - icon: "preview"
+      title: "پیش نظارہ صفحات"
+      content: "اس کے صفحات کی تصویری نمائندگی پیدا کرکے دستاویز کے مواد اور ساخت کی واضح سمجھ حاصل کریں۔ تمام یا صرف مخصوص صفحات کے پیش نظارہ بنائیں۔"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "کوڈ کے نمونے"
+  description: "کچھ جاوا آپریشنز کے لیے مخصوص GroupDocs.Merger کے کیسز استعمال کرتے ہیں۔"
+  items:
+    # code sample loop
+    - title: "DOCX فائلوں کو ایک دستاویز میں ضم کریں۔"
+      content: |
+        [مرج ورڈ ڈاکومنٹس](https://docs.groupdocs.com/merger/java/merge/word/) فیچر کے ساتھ آپ سورس فائل لوڈ کر کے، شامل ہونے کے لیے مزید DOCX فائلیں شامل کر کے پوری DOCX فائلوں کو ایک ہی دستاویز میں جوڑ سکتے ہیں۔ ، اور ضم شدہ دستاویز کو محفوظ کرنا۔ ذیل میں جاوا کوڈ کا ایک ٹکڑا انضمام کے عمل کو ظاہر کرتا ہے:
+        {{< landing/code title="جاوا میں DOCX فائلوں کو کیسے ضم کریں۔">}}
+        ```java {style=abap}   
+        // سورس DOCX فائل لوڈ کریں۔
+        Merger merger = new Merger("sample1.docx");
+        // ضم کرنے کے لیے ایک اور DOCX فائل شامل کریں۔
+        merger.join("sample2.docx");
+        // DOCX فائلوں کو ضم کریں اور نتیجہ محفوظ کریں۔
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "پی ڈی ایف دستاویز کو متعدد فائلوں میں تقسیم کریں۔"
+      content: |
+        کسی دستاویز کو [Split Document](https://docs.groupdocs.com/merger/java/split-document/) خصوصیت کے ساتھ ایک سے زیادہ فائلوں میں تقسیم کریں تاکہ بڑی دستاویزات سے مخصوص حصوں یا صفحات کو منظم کرنے اور نکالنے کے عمل کو آسان بنایا جا سکے۔ یہ آپ کو مختلف معیارات کی بنیاد پر دستاویزات کو چھوٹے حصوں میں تقسیم کرنے کی اجازت دیتا ہے - صفحہ کی حد کے لحاظ سے، شروع/آخری صفحات کے لحاظ سے، طاق/جفت کے صفحہ نمبر وغیرہ کے لحاظ سے۔
+        {{< landing/code title="دستاویز کو کئی ایک صفحے کے دستاویزات میں تقسیم کریں۔">}}
+        ```java {style=abap}   
+        // جاوا API کے لیے GroupDocs.Merger کا استعمال کرتے ہوئے پی ڈی ایف فائل کو تقسیم کریں۔
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // آؤٹ پٹ فائلز پاتھ فارمیٹ کے ساتھ SplitOptions کلاس شروع کریں۔
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // ان پٹ پی ڈی ایف دستاویز کے ساتھ فوری انضمام
+        Merger merger = new Merger(filePath);
+
+        // اسپلٹ میتھڈ کو کال کریں اور نتیجہ خیز دستاویزات کو بچانے کے لیے SplitOptions آبجیکٹ پاس کریں۔
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs مصنوعات کے جائزے"
+# description: "اس کے لیے صرف ہماری بات نہ لیں۔ دیکھیں کہ دوسرے ڈویلپرز ہمارے APIs کے بارے میں کیا کہتے ہیں۔"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "بہترین سروس اور بہترین مصنوعات۔ وہ .NET کے نفاذ کے عمل کے لیے GroupDocs.Viewer کے دوران انتہائی مددگار اور جوابدہ تھے، ان کی سفارش نہیں کر سکتے۔"
+#     author: "مارٹن لاسارگا"
+#     company: "Axentria ECM میں پروڈکٹ مینیجر بذریعہ G.S.I"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "پراجیکٹ میں .NET کے لیے GroupDocs.Viewer کو لاگو کرنے اور استعمال کرنے کے بعد ایسا لگتا ہے کہ یہ بہت اچھا کام کر رہا ہے۔ میں نے بہت سارے دستاویزات کے ساتھ تجربہ کیا ہے اور اب تک بہت اچھا ہے۔ میں نے جو کچھ بھی اس پر پھینکا ہے وہ اچھی طرح سے رینڈر کرتا ہے اور اتنا ہی اچھا لگتا ہے جتنا کہ پی ڈی ایف ویور یا ایم ایس ورڈ میں ہوتا ہے۔"
+#     author: "میٹس اوستاد"
+#     company: "Novanet AS میں سینئر کنسلٹنٹ/ پارٹنر"
 ---

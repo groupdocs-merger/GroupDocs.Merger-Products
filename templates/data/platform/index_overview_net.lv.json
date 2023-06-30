@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Apvienošanās īsumā",
+    "description": "API, lai apvienotu, sadalītu, apmainītu, apgrieztu vai noņemtu dokumentus, slaidus un diagrammas .NET lietojumprogrammās",
+    "feature_1": {
+      "title": "Ērti sapludiniet vairākus dokumentus C#",
+      "description": "Sapludināt dokumentus: nemanāmi apvienojiet vairākus PDF un Office failus vienā dokumentā, atbalstot plašu formātu klāstu. GroupDocs.Merger for .NET ļauj ātri un bez problēmām apvienot dokumentus."
+    },
+    "feature_2": {
+      "title": "Vienkāršojiet dokumentu pārvaldību, sadalot lielus failus",
+      "description": "Ērti sadaliet lielus PDF vai Office failus mazākās, vieglāk pārvaldāmās daļās. GroupDocs.Merger for .NET ļauj jums bez piepūles sadalīt dokumentus, pamatojoties uz konkrētām lapām, diapazoniem vai pat izvilkt atsevišķas lapas."
+    },
+    "feature_3": {
+      "title": "Manipulējiet ar lapām un pielāgojiet dokumenta struktūru — pārkārtojiet, apmainiet vai noņemiet",
+      "description": "Pārņemiet kontroli pār saviem dokumentiem, pārkārtojot lapas, noņemot nevēlamās lapas vai pievienojot jaunas. GroupDocs.Merger for .NET sniedz jums iespēju manipulēt ar dokumentu struktūru, ļaujot pielāgot un pielāgot failus atbilstoši jūsu īpašajām vajadzībām."
+    }
+  }
+}

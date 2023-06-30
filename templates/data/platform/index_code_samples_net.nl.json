@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Codevoorbeelden",
+    "description": "Enkele use-cases van typische GroupDocs.Merger voor .NET-bewerkingen",
+    "sample_1": {
+      "title": "Voeg specifieke DOCX-bestandspagina's samen tot één document",
+      "content_1": "Met de functie [Selectieve pagina samenvoegen](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) kunt u alleen de gewenste inhoud uit elk bestand extraheren en samenvoegen.",
+      "content_2": "Hier is een voorbeeld van hoe u selectieve pagina-samenvoeging kunt bereiken met C#:",
+      "code_title": "Hoe DOCX-bestanden samen te voegen in C#",
+      "comment_1": "Laad het bron-DOCX-bestand",
+      "comment_2": "Voeg nog een DOCX-bestand toe om samen te voegen",
+      "comment_3": "Voeg DOCX-bestanden samen en sla het resultaat op"
+    },
+    "sample_2": {
+      "title": "Splits een PDF-document op in meerdere bestanden",
+      "content_1": "Splits een document efficiënt op in meerdere bestanden met de functie [Split Document](https://docs.groupdocs.com/merger/net/split-document/) die het proces van het beheren en extraheren van specifieke secties of pagina's uit grote documenten vereenvoudigt.",
+      "content_2": "Hiermee kunt u documenten opdelen in kleinere delen op basis van verschillende criteria - op paginabereik, op begin-/eindpagina's, op oneven/even paginanummers, enz.",
+      "code_title": "Het document opsplitsen in meerdere documenten met meerdere pagina's",
+      "comment_1": "Splits PDF-bestand met behulp van GroupDocs.Merger API",
+      "comment_2": "Initialiseer de SplitOptions-klasse met de padindeling van de uitvoerbestanden",
+      "comment_3": "Directe fusie met invoer PDF-document",
+      "comment_4": "Roep de splitsingsmethode aan en geef het object SplitOptions door om de resulterende documenten op te slaan"
+    }
+  }
+}

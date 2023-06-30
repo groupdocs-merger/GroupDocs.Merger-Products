@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-27T11:07:34
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,234 @@ head_title: "C# .NET dokumentu sapludināšanas API | Apvienojiet un sadaliet PD
 head_description: "C# .NET dokumentu sapludināšanas API, lai apvienotu, sadalītu, apmainītu vai noņemtu dokumentu lapas no PDF, Microsoft Word, Excel, prezentācijām, Visio un attēlu formātiem."
 
 ############################# Header ############################
-title: ".NET API dokumentu sapludināšanai un sadalīšanai"
-description: "API, lai apvienotu, sadalītu, apmainītu, apgrieztu vai noņemtu dokumentus, slaidus un diagrammas .NET lietojumprogrammās."
-button:
-    enable: true
+title: "Apvienot dokumentus<br>izmantojot .NET API"
+description: "Jaudīga apvienošanas API, lai manipulētu ar PDF, Microsoft Office, HTML un attēlu failiem."
+words:
+  for: "priekš"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "Bezmaksas NuGet lejupielāde"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "Licencēšana"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "Vai esat gatavs sākt?"
+  description: "Izmēģiniet GroupDocs.Merger funkcijas bez maksas vai pieprasiet licenci"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Pārskats"
+release:
+  title: "Izlaista versija {0}"
+  notes: "Skatiet, kas jauns"
+  downloads: "Lejupielādes"
 
-            # button loop
-            - link: "#features"
-              text: "Iespējas"
+code:
+  title: "Apvienojiet PDF failus C#"
+  more: "Vairāk piemēru"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // Ielādējiet avota PDF failu
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // Pievienojiet vēl vienu PDF failu, lai sapludinātu
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "Atbalsts"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Demo tiešraide"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Cenu noteikšana"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // Apvienojiet PDF failus un saglabājiet rezultātu
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger for .NET palīdz ātri izstrādāt augstākās klases biznesa lietojumprogrammas C#, ASP.NET un citās .NET tehnoloģijās. Tikai dažas koda rindiņas ļaus jūsu .NET lietojumprogrammām apvienot, sadalīt, pārkārtot, apmainīt, apgriezt un noņemt vienu lapu vai dokumentu lappušu, slaidu, attēlu vai diagrammu kolekciju. Veiciet šīs darbības ar drošiem failiem, iestatot vai noņemot zināmu un nezināmu failu formātu aizsardzību ar paroli.  
+  enable: true
+  title: "GroupDocs.Apvienošanās īsumā"
+  description: "API, lai apvienotu, sadalītu, apmainītu, apgrieztu vai noņemtu dokumentus, slaidus un diagrammas .NET lietojumprogrammās"
+  features:
+    # feature loop
+    - title: "Ērti sapludiniet vairākus dokumentus C#"
+      content: "Sapludināt dokumentus: nemanāmi apvienojiet vairākus PDF un Office failus vienā dokumentā, atbalstot plašu formātu klāstu. GroupDocs.Merger for .NET ļauj ātri un bez problēmām apvienot dokumentus."
 
-      Izmantojot GroupDocs.Merger for .NET, varat veikt sapludināšanu; sadalīšana un citas saistītas darbības ar atsevišķiem dokumentiem, kā arī dokumentu partijām. Programmatiski savienojiet visu populāro formātu failus, piemēram, Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, e-grāmatu un attēlu failu formātus.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Tālāk ir sniegts pārskats par GroupDocs.Merger for .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Dokumentu operācijas"
-          content: |
-            * Mainīt lapu secību
-            * Noņemt vai dzēst lapas
-            * Sadalīt vai salauzt dokumentu
-            * Apmainiet vai sajauciet divas lapas
-            * Apgrieziet vienu vai vairākas lapas
-            * Apvienojiet vairākus dokumentus
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Drošības operācijas"
-          content: |
-            * Iestatiet dokumentu drošību
-            * Pārbaudiet dokumenta drošības statusu
-            * Iestatiet dokumenta paroli
-            * Atjauniniet dokumenta paroli
-            * Noņemiet dokumenta paroli
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger for .NET atbalsta šādu [dokumentu failu formātu](https://docs.groupdocs.com/merger/net/supported-document-formats/):
+    # feature loop
+    - title: "Vienkāršojiet dokumentu pārvaldību, sadalot lielus failus"
+      content: "Ērti sadaliet lielus PDF vai Office failus mazākās, vieglāk pārvaldāmās daļās. GroupDocs.Merger for .NET ļauj jums bez piepūles sadalīt dokumentus, pamatojoties uz konkrētām lapām, diapazoniem vai pat izvilkt atsevišķas lapas."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Vārds:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** VIENS
+    # feature loop
+    - title: "Manipulējiet ar lapām un pielāgojiet dokumenta struktūru — pārkārtojiet, apmainiet vai noņemiet"
+      content: "Pārņemiet kontroli pār saviem dokumentiem, pārkārtojot lapas, noņemot nevēlamās lapas vai pievienojot jaunas. GroupDocs.Merger for .NET sniedz jums iespēju manipulēt ar dokumentu struktūru, ļaujot pielāgot un pielāgot failus atbilstoši jūsu īpašajām vajadzībām."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument un citi formāti"
-              content: |
-                * **OpenDocument formāti**: ODT, OTT, ODP, OTP, ODS
-                * **Fiksēts izkārtojums**: PDF, XPS
-                * **Attēli**: BMP, PNG, TIFF
-                * **Tīmeklis**: HTML, MHT, MHTML
-                * **Teksts**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **E-grāmata**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platformas neatkarība"
+  description: "GroupDocs.Merger for .NET atbalsta šādas operētājsistēmas, ietvarus un pakotņu pārvaldniekus"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger for .NET atbalsta šādas operētājsistēmas, ietvarus un pakotņu pārvaldniekus:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operētājsistēmas"
-              content: |
-                * Windows darbvirsma
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Atbalstītie ietvari"
-              content: |
-                * .NET Framework 2.0 vai jaunāka versija
-                * Mono Framework 1.2 vai jaunāka versija
-                * .NET standarts 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Pakešu pārvaldnieks"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Attīstības vide"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Atbalstītie failu formāti"
+  description: |
+    GroupDocs.Merger for .NET atbalsta darbības ar šādiem [dokumentu failu formātiem](https://docs.groupdocs.com/merger/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formāti
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Dokumenti un attēli
+        * **Dokumenti:** PDF, XPS, TEX
+        * **Attēli:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Citi formāti
+        * **Web:**  HTML, MHTML, MHT
+        * **Arhīvi:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger .NET līdzekļiem"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Apvienojiet un sapludiniet vairākas lapas, slaidus un diagrammas vienā dokumentā"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Sadaliet un sadaliet lielus dokumentus vairākos mazākos failos"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Pārkārtojiet, samaisiet un pārkārtojiet lapas, slaidus vai diagrammas"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Apmainiet un apmainiet divas lapas, slaidus vai diagrammas viena ar otru dokumentā"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Apgrieziet dokumentu, noņemot noteiktas lapas, slaidus vai diagrammas"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Noņemiet atsevišķu lapu, slaidu vai diagrammu kopumu"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Savienojiet kopā lielu skaitu dokumentu paketēs"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Programmatiski pārbaudiet, vai dokuments ir aizsargāts ar paroli"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Iestatiet, atiestatiet un noņemiet zināmo un nezināmo dokumentu formātu paroli"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Ielādēt atbalstīto failu formātu sarakstu — teksta sadalīšanas un pievienošanas (ERR) žurnālfaila formāts"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Pagrieziet lapas un mainiet zināmo un nezināmo formātu lappuses orientāciju"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Apvienojiet vairākus dažādu formātu failus DOC, DOCX un XPS"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Lielu teksta failu sadalīšana pēc rindu numuriem"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Iegūstiet dokumentu lappušu attēlu attēlus un diagrammu saimes formātus"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Pievienojiet attēlus ar fona krāsu, lai iegūtu tukšu melnu attēla vietu"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Apvienojiet dažāda veida dokumentus (DOC, XLS, PPT utt.) vienā PDF failā"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Viegli importējiet OLE objektus Microsoft Word, Excel, prezentāciju un OpenDocument failu tipos"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Pievienojiet diagrammas lapai citus dokumentus, izmantojot OLE objektus"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Noņemiet vēlamās lapas no dokumentiem"
-        content: |
-          GroupDocs.Merger for .NET API palīdz dzēst no dokumenta nevēlamās lapas.
-      
-      # more_feature_loop
-      - title: "Lietojiet transformāciju renderētajai izvadei"
-        content: "Varat veikt dažādas renderētā izvades dokumenta transformācijas, izmantojot GroupDocs.Merger for .NET API. Šīs transformācijas opcijas sniedz jums iespēju kontrolēt veidu, kā attēlot renderēto izvadi. Pieejamās transformācijas ir lappušu rotācijas opcija, lapu pārkārtošanas opcija un teksta ūdenszīmes lietošana."
-
-      # more_feature_loop
-      - title: "Pārbaudiet nezināma dokumenta formāta paroli"
-        content: "GroupDocs.Merger for .NET API ļauj pārbaudīt paroli dokumentam, kura formāts nav zināms."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger piedāvā dokumentu sapludināšanas API citām populārām izstrādes vidēm"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger priekš Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger funkcijas"
+  description: "Nemanāmi sapludiniet, sadaliet un manipulējiet ar PDF un Office dokumentiem"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Apvienot failus"
+      content: "Apvienojiet divus vai vairākus dokumentus vienā dokumentā, sapludinot noteiktas lapas vai lappušu diapazonus no vairākiem avota dokumentiem."
+
+    # feature loop
+    - icon: "split"
+      title: "Sadalīt dokumentus"
+      content: "Sadaliet avota dokumentu vairākos iegūtajos dokumentos, izmantojot sadalīšanas darbību."
+
+    # feature loop
+    - icon: "move"
+      title: "Pārvietot lapas"
+      content: "Pārvietojiet lapas dokumentā, izmantojot funkciju MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "Noņemiet lapas"
+      content: "No avota dokumenta noņemiet atsevišķas lapas vai noteiktu lappušu numuru kolekciju."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Pagriezt lapas"
+      content: "Pagrieziet lapas dokumentā, iestatot pagriešanas leņķi uz 90, 180 vai 270 grādiem, izmantojot darbību RotatePages."
+
+    # feature loop
+    - icon: "swap"
+      title: "Apmainīt lapas"
+      content: "Apmainieties ar divu lappušu pozīcijām avota dokumentā, izveidojot jaunu dokumentu ar apmainītām lappušu pozīcijām."
+
+    # feature loop
+    - icon: "extract"
+      title: "Izvilkt lapas"
+      content: "Izņemiet noteiktas lapas vai lappušu diapazonus no avota dokumenta, ģenerējot jaunu dokumentu, kurā ir tikai atlasītās lapas."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Mainiet orientāciju"
+      content: "Iestatiet lapas orientāciju (portrets vai ainava) noteiktām vai visām dokumenta lapām, izmantojot darbību ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Priekšskatīt lapas"
+      content: "Ģenerējiet dokumentu lapu attēlus, lai labāk izprastu saturu un struktūru. Veiciet visu vai tikai noteiktu lapu priekšskatījumus."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Koda paraugi"
+  description: "Daži tipiski GroupDocs.Merger izmantošanas gadījumi .NET operācijām"
+  items:
+    # code sample loop
+    - title: "Apvienojiet noteiktas DOCX faila lapas vienā dokumentā"
+      content: |
+        Funkcija [Selektīva lapu sapludināšana](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) ļauj no katra faila izvilkt un sapludināt tikai vajadzīgo saturu. Šeit ir piemērs, kā panākt selektīvu lapu sapludināšanu, izmantojot C#:
+        {{< landing/code title="Kā sapludināt DOCX failus C#">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // Ielādējiet avota DOCX failu
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // Pievienojiet vēl vienu DOCX failu, lai sapludinātu
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // Apvienojiet DOCX failus un saglabājiet rezultātu
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Sadaliet PDF dokumentu vairākos failos"
+      content: |
+        Efektīvi sadaliet dokumentu vairākos failos, izmantojot funkciju [Sadalīt dokumentu](https://docs.groupdocs.com/merger/net/split-document/), kas vienkāršo noteiktu sadaļu vai lapu pārvaldību un izvilkšanu no lieliem dokumentiem. Tas ļauj sadalīt dokumentus mazākās daļās, pamatojoties uz dažādiem kritērijiem – pēc lappušu diapazona, pēc sākuma/beigu lapām, pēc nepāra/pāra lappušu numuriem utt.
+        {{< landing/code title="Kā sadalīt dokumentu vairākos vairāku lappušu dokumentos">}}
+        ```csharp {style=abap}   
+        // Sadaliet PDF failu, izmantojot GroupDocs.Merger API
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // Inicializējiet SplitOptions klasi ar izvades failu ceļa formātu
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // Momentāra apvienošana ar ievades PDF dokumentu
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // Izsauciet sadalīšanas metodi un nododiet SplitOptions objektu, lai saglabātu iegūtos dokumentus
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs produktu apskati"
+# description: "Neuzņemieties tikai mūsu vārdu. Uzziniet, ko citi izstrādātāji saka par mūsu API"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Lielisks serviss un lieliski produkti. Viņi bija ārkārtīgi izpalīdzīgi un atsaucīgi .NET ieviešanas procesā GroupDocs.Viewer, taču nevaru tos pietiekami labi ieteikt."
+#     author: "Mārtiņš Lasarga"
+#     company: "Produktu vadītājs uzņēmumā Axentria ECM, G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Pēc GroupDocs.Viewer for .NET ieviešanas un izmantošanas projektā, šķiet, ka tas darbojas ļoti labi. Esmu testējis ar daudziem dokumentiem un līdz šim viss ir labi. Viss, ko esmu iemetis tajā, tiek lieliski atveidots un izskatās tikpat labi kā PDF skatītājā vai MS Word."
+#     author: "Matss Oustads"
+#     company: "Novanet AS vecākais konsultants/partneris"
 ---

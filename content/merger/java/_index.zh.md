@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-13T17:30:02
+layout: "landing"
+date: 2023-06-29T12:38:09
 draft: false
 
 product: "Merger"
@@ -11,274 +11,238 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java 文档合并 API |合并和删除 Word Excel PDF XPS EPUB"
-head_description: "用于 Java 的文档合并 API。合并、拆分、交换、重新排序和删除 PDF、Microsoft Word、Excel、演示文稿、Visio、XPS 和 EPUB 格式的页面."
+head_description: "Java 文档合并 API。合并、拆分、交换、重新排序和删除 PDF、Microsoft Word、Excel、演示文稿、Visio、XPS 和 EPUB 格式的页面。"
 
 ############################# Header ############################
-title: "用于合并和拆分文档的 Java API"
-description: "开发可以随时随地组合、翻录、随机播放、剪切或删除页面、幻灯片和图表的高性能应用程序."
-button:
-    enable: true
+title: "合并文档<br>通过Java API"
+description: "灵活的合并 API 可轻松组合、拆分或修改 PDF 和 Office 文档"
+words:
+  for: "为了"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "免费 Maven 下载"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "许可"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "准备好开始了吗？"
+  description: "免费试用 GroupDocs.Merger 功能或申请许可证"
+
+release:
+  title: "已发布版本 {0}"
+  notes: "查看最新消息"
+  downloads: "下载"
+
+code:
+  title: "在Java中合并PDF文件"
+  more: "更多示例"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // 加载源 PDF 文件
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // 添加另一个 PDF 文件进行合并
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "概述"
-
-            # button loop
-            - link: "#features"
-              text: "特征"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "价钱"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // 合并 PDF 文件并保存结果
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger for Java 使您能够使用 Java 快速开发顶级业务应用程序。只需少量编码，您的 Java 应用程序就可以合并、翻录、随机播放、剪切和删除单个页面或一批页面、幻灯片和图表。通过应用或删除密码保护，还可以对已知和未知格式的安全文件执行合并操作。  
+  enable: true
+  title: "GroupDocs.Merger 概览"
+  description: "用于在 Java 应用程序中组合、拆分、交换、修剪或删除文档、幻灯片和图表的 API"
+  features:
+    # feature loop
+    - title: "在 Java 中轻松合并多个文档"
+      content: "利用 GroupDocs.Merger 库的功能，轻松地将 PDF 和 Office 文件合并到 Java 中的单个文档中。受益于其广泛的格式支持，允许您无缝组合各种文件类型，从而实现方便且简化的合并过程。"
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          以下是 Java 版 GroupDocs.Merger 的概述：
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "文档操作"
-          content: |
-            * 更改页面顺序
-            * 移除或删除页面
-            * 拆分或中断文档
-            * 交换或随机播放任意两页
-            * 修剪单页或多页
-            * 加入多个文档
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "安全运营"
-          content: |
-            * 设置文档安全性
-            * 检查文件安全状态
-            * 设置文档密码
-            * 更新文档密码
-            * 删除文档密码
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger for Java 支持合并以下 [文档文件格式](https://docs.groupdocs.com/merger/java/supported-document-formats/)：
+    # feature loop
+    - title: "通过轻松分割大文件来简化文档管理"
+      content: "将大型 PDF 或 Office 文件拆分为更小的、易于处理的部分。您可以根据特定页面、范围划分文档，甚至轻松方便地提取单个页面。利用 GroupDocs.Merger 库的无缝功能简化您的文档管理，并使您的文件更有条理、更易于管理。"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "微软办公软件"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** ONE
+    # feature loop
+    - title: "自定义您的文档结构并完全控制您的文件"
+      content: "通过重新排序、交换或删除页面轻松操作页面。根据您的具体要求组织和定制您的文档，并灵活地创建个性化文件结构。"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument & 其他格式"
-              content: |
-                * **OpenDocument 格式**：ODT、OTT、ODP、OTP、ODS
-                * **固定布局**：PDF、XPS
-                * **图像**：BMP、PNG、TIFF
-                * **网络**：HTML、MHT、MHTML
-                * **文本**：TXT、CSV、TSV
-                * **乳胶**：TEX
-                * **电子书**：EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "平台独立性"
+  description: "GroupDocs.Merger for Java 支持以下操作系统、框架和包管理器"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger for Java 支持以下作品、框架和包管理:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "操作系统"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Linux
-                * MacOS
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "支持的框架"
-              content: |
-                * Java 7 (1.7)
-                * Java 8 (1.8)
-                * Java 10
-                * Java 11 and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "包管理器"
-              content: |
-                * Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "开发环境"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "支持的文件格式"
+  description: |
+    GroupDocs.Merger for Java 支持以下[文档文件格式](https://docs.groupdocs.com/merger/java/supported-document-formats/) 的操作。
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### 微软办公格式
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### 文件和图片
+        * **文件:** PDF, XPS, TEX
+        * **图片:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### 其他格式
+        * **网络:**  HTML, MHTML, MHT
+        * **档案:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger for Java 功能"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "将各种页面、幻灯片和图表合并到一个文件中"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "将大型文档翻录并拆分为多个较小的文件"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "随机播放和重新组织页面、幻灯片或图表"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "在文档中相互交换和交换两个页面、幻灯片或图表"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "通过删除特定页面、幻灯片或图表来剪切和修剪文档"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "删除单个或一组页面、幻灯片或图表"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "批量拼接和合并大量文档"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "如果使用密码保护文档，则以编程方式检查 Java"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "设置、重置和删除已知和未知文档格式的密码"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "按行号将一个文本文件拆分为多个"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "获取文档页面的图像表示"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "将多个不同格式的文档合并为一个 PDF 文件"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "将 OLE 对象插入 PDF、Word、Excel、PowerPoint 和开放文档格式"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "以编程方式将文件附加到 PDF 文档"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "通过 OLE 对象将文档添加到图表"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "将不同类型的文档（DOC、XLS、PPT 等）合并到一个 PDF 文件中"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "轻松将 OLE 对象导入 Microsoft Word、Excel、演示文稿和 OpenDocument 文件类型"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "通过 OLE 对象将其他文档添加到图表页面"
-
-    more_feature:
-      # more_feature_loop
-      - title: "从文档中删除所需页面"
-        content: |
-          GroupDocs.Merger for Java API 允许您从文档中选择和删除不需要的页面。
-      
-      # more_feature_loop
-      - title: "检查未知文档格式的密码"
-        content: "即使特定文档的格式未知，Java 的 GroupDocs.Merger 也可以让您检查和检索文档密码（如果可用）."
-
-      # more_feature_loop
-      - title: "加入已知格式的受密码保护的文档"
-        content: "GroupDocs.Merger for Java API 允许您获取已知和未知格式的文档列表。"
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger 为其他流行的开发环境提供文档查看 API"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger 功能"
+  description: "无缝合并、拆分和操作 PDF 和 Office 文档"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "合并文件"
+      content: "将两个或多个文档合并为一个文档，连接多个源文档中的特定页面或页面范围。"
+
+    # feature loop
+    - icon: "split"
+      title: "拆分文档"
+      content: "利用分割操作将一个源文档分割成多个结果文档，实现文件的高效组织和管理。"
+
+    # feature loop
+    - icon: "move"
+      title: "移动页面"
+      content: "利用 MovePage 功能在文档中平滑地重新定位页面。"
+
+    # feature loop
+    - icon: "remove"
+      title: "删除页面"
+      content: "使用“删除页面”功能有效地从源文档中删除单个页面或特定页码的集合。"
+
+    # feature loop
+    - icon: "rotate"
+      title: "旋转页面"
+      content: "利用 RotatePages 操作，通过将旋转角度指定为 90、180 或 270 度，轻松旋转文档中的页面"
+
+    # feature loop
+    - icon: "swap"
+      title: "交换页面"
+      content: "通过交换源文档中两个页面的位置来重新排列页面顺序，生成一个新文档。"
+
+    # feature loop
+    - icon: "extract"
+      title: "提取页面"
+      content: "通过从源文档中提取特定页面或页面范围来生成仅包含所选页面的新文档。"
+
+    # feature loop
+    - icon: "orientation"
+      title: "改变方向"
+      content: "利用 ChangeOrientation 操作修改文档的特定页面或所有页面的页面方向（纵向或横向）。"
+
+    # feature loop
+    - icon: "preview"
+      title: "预览页面"
+      content: "通过生成文档页面的图像表示，更清楚地了解文档的内容和结构。预览所有页面或仅预览特定页面。"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "代码示例"
+  description: "Java 操作的典型 GroupDocs.Merger 的一些用例"
+  items:
+    # code sample loop
+    - title: "将 DOCX 文件合并为单个文档"
+      content: |
+        使用[合并Word文档](https://docs.groupdocs.com/merger/java/merge/word/)功能，您可以通过加载源文件、添加更多DOCX文件来将整个DOCX文件合并到一个文档中，并保存合并的文档。 下面是演示合并过程的 Java 代码片段：
+        {{< landing/code title="如何在Java中合并DOCX文件">}}
+        ```java {style=abap}   
+        // 加载源 DOCX 文件
+        Merger merger = new Merger("sample1.docx");
+        // 添加另一个 DOCX 文件进行合并
+        merger.join("sample2.docx");
+        // 合并 DOCX 文件并保存结果
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "将 PDF 文档拆分为多个文件"
+      content: |
+        使用[分割文档](https://docs.groupdocs.com/merger/java/split-document/)功能将文档分割为多个文件，以简化管理和从大型文档中提取特定部分或页面的过程。 它允许您根据各种标准将文档分成更小的部分 - 按页面范围、按起始页/结束页、按奇数/偶数页码等。
+        {{< landing/code title="将文档拆分为多个一页文档">}}
+        ```java {style=abap}   
+        // 使用 Java API 的 GroupDocs.Merger 拆分 PDF 文件
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // 使用输出文件路径格式初始化 SplitOptions 类
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // 使用输入 PDF 文档实例化合并
+        Merger merger = new Merger(filePath);
+
+        // 调用 split 方法并传递 SplitOptions 对象来保存结果文档
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs 产品评论"
+# description: "不要只相信我们的话。查看其他开发人员对我们的 API 的评价"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "优良的服务和优良的产品。在 GroupDocs.Viewer for .NET 实施过程中，他们提供了极大的帮助和响应，怎么推荐都不为过。"
+#     author: "马丁拉萨尔加"
+#     company: "G.S.I. Axentria ECM 产品经理"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "在项目中为 .NET 实施和使用 GroupDocs.Viewer 后，它看起来运行良好。我已经测试了很多文件，到目前为止一切顺利。我投入其中的一切都呈现得很好，看起来和在 PDF 查看器或 MS Word 中一样好。"
+#     author: "马茨·乌斯塔德"
+#     company: "Novanet AS 高级顾问/合伙人"
 ---

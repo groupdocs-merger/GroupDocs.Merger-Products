@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger funktioner",
+    "description": "Sammanfoga, dela och manipulera PDF- och Office-dokument sömlöst",
+    "feature_1": {
+      "title": "Slå ihop filer",
+      "content": "Kombinera två eller flera dokument till ett enda dokument, slå samman specifika sidor eller sidintervall från flera källdokument."
+    },
+    "feature_2": {
+      "title": "Dela upp dokument",
+      "content": "Dela upp ett källdokument i flera resulterande dokument med hjälp av split-operationen."
+    },
+    "feature_3": {
+      "title": "Flytta sidor",
+      "content": "Flytta sidor i ett dokument med hjälp av MovePage-funktionen."
+    },
+    "feature_4": {
+      "title": "Ta bort sidor",
+      "content": "Ta bort enskilda sidor eller en samling specifika sidnummer från källdokumentet."
+    },
+    "feature_5": {
+      "title": "Rotera sidor",
+      "content": "Rotera sidor i ett dokument genom att ställa in rotationsvinkeln till 90, 180 eller 270 grader med funktionen RotatePages."
+    },
+    "feature_6": {
+      "title": "Byt sida",
+      "content": "Byt ut positionerna för två sidor i källdokumentet, skapa ett nytt dokument med byta sidpositioner."
+    },
+    "feature_7": {
+      "title": "Extrahera sidor",
+      "content": "Extrahera specifika sidor eller sidintervall från ett källdokument, generera ett nytt dokument som bara innehåller de valda sidorna."
+    },
+    "feature_8": {
+      "title": "Ändra orientering",
+      "content": "Ställ in sidorienteringen (stående eller liggande) för specifika eller alla sidor i dokumentet med funktionen ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Förhandsgranska sidor",
+      "content": "Generera bildrepresentationer av dokumentsidor för att bättre förstå innehållet och strukturen. Gör förhandsvisningar av alla eller bara specifika sidor."
+    }
+  }
+}

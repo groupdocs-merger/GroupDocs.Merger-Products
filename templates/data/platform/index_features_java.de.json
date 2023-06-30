@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger-Funktionen",
+    "description": "PDF- und Office-Dokumente nahtlos zusammenführen, teilen und bearbeiten",
+    "feature_1": {
+      "title": "Dateien kombinieren",
+      "content": "Führen Sie zwei oder mehr Dokumente zu einem einzigen Dokument zusammen, indem Sie bestimmte Seiten oder Seitenbereiche aus mehreren Quelldokumenten zusammenführen."
+    },
+    "feature_2": {
+      "title": "Dokument teilen",
+      "content": "Nutzen Sie den Aufteilungsvorgang, um ein Quelldokument in mehrere resultierende Dokumente aufzuteilen und so eine effiziente Organisation und Verwaltung von Dateien zu ermöglichen."
+    },
+    "feature_3": {
+      "title": "Seiten verschieben",
+      "content": "Positionieren Sie eine Seite innerhalb eines Dokuments reibungslos neu, indem Sie die MovePage-Funktion nutzen."
+    },
+    "feature_4": {
+      "title": "Seiten entfernen",
+      "content": "Entfernen Sie mit der Funktion „RemovePages“ effektiv einzelne Seiten oder eine Sammlung bestimmter Seitenzahlen aus dem Quelldokument."
+    },
+    "feature_5": {
+      "title": "Seiten drehen",
+      "content": "Nutzen Sie den RotatePages-Vorgang, um Seiten innerhalb eines Dokuments einfach zu drehen, indem Sie den Drehwinkel auf 90, 180 oder 270 Grad festlegen"
+    },
+    "feature_6": {
+      "title": "Seiten tauschen",
+      "content": "Ordnen Sie die Seitenreihenfolge neu, indem Sie die Positionen zweier Seiten im Quelldokument austauschen und so ein neues Dokument erstellen."
+    },
+    "feature_7": {
+      "title": "Seiten extrahieren",
+      "content": "Erstellen Sie ein neues Dokument, das nur die ausgewählten Seiten enthält, indem Sie bestimmte Seiten oder Seitenbereiche aus dem Quelldokument extrahieren."
+    },
+    "feature_8": {
+      "title": "Orientierung ändern",
+      "content": "Ändern Sie die Seitenausrichtung (Hoch- oder Querformat) für bestimmte Seiten oder alle Seiten des Dokuments, indem Sie den ChangeOrientation-Vorgang nutzen."
+    },
+    "feature_9": {
+      "title": "Vorschauseiten",
+      "content": "Gewinnen Sie ein klareres Verständnis des Inhalts und der Struktur des Dokuments, indem Sie Bilddarstellungen seiner Seiten erstellen. Erstellen Sie eine Vorschau aller oder nur bestimmter Seiten."
+    }
+  }
+}

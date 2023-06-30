@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-11-10T10:07:21
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,234 @@ head_title: "C# .NET Document Merging API | PDF Word Excel EPUB egyesítése és
 head_description: "C# .NET dokumentum-egyesítő API dokumentumoldalak kombinálásához, felosztásához, cseréjéhez vagy eltávolításához PDF, Microsoft Word, Excel, prezentációk, Visio és képformátumokból."
 
 ############################# Header ############################
-title: ".NET API dokumentumok egyesítéséhez és felosztásához"
-description: "API dokumentumok, diák és diagramok kombinálásához, felosztásához, cseréjéhez, vágásához vagy eltávolításához .NET alkalmazásokban."
-button:
-    enable: true
+title: "Dokumentumok egyesítése<br>.NET API-n keresztül"
+description: "Hatékony egyesítő API PDF, Microsoft Office, HTML és képfájlok kezeléséhez."
+words:
+  for: "számára"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "Ingyenes NuGet letöltés"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "Engedélyezés"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "Készen áll az indulásra?"
+  description: "Próbálja ki a GroupDocs.Merger szolgáltatásait ingyenesen, vagy kérjen licencet"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Áttekintés"
+release:
+  title: "A(z) {0} verzió megjelent"
+  notes: "Tekintse meg az újdonságokat"
+  downloads: "Letöltések"
 
-            # button loop
-            - link: "#features"
-              text: "Jellemzők"
+code:
+  title: "PDF fájlok egyesítése C#-ban"
+  more: "További példák"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // Töltse be a forrás PDF-fájlt
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // Adjon hozzá egy másik PDF-fájlt az egyesítéshez
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "Támogatás"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Élő Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Árazás"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // Egyesítse a PDF fájlokat és mentse az eredményt
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      A GroupDocs.Merger for .NET segít a csúcskategóriás üzleti alkalmazások gyors fejlesztésében C#, ASP.NET és más .NET technológiákban. Csak néhány sornyi kód lehetővé teszi a .NET-alkalmazások kombinálását, felosztását, átrendezését, cseréjét, levágását és eltávolítását egyetlen oldalról vagy dokumentumoldalak, diák, képek vagy diagramok gyűjteményéről. Ezeket a műveleteket biztonságos fájlokon hajtsa végre az ismert és ismeretlen fájlformátumok jelszavas védelmének beállításával vagy eltávolításával.  
+  enable: true
+  title: "GroupDocs.Merger egy pillanat alatt"
+  description: "API dokumentumok, diák és diagramok kombinálásához, felosztásához, cseréjéhez, vágásához vagy eltávolításához .NET alkalmazásokban"
+  features:
+    # feature loop
+    - title: "Könnyedén egyesítsen több dokumentumot C#-ban"
+      content: "Dokumentumok egyesítése: Zökkenőmentesen egyesítsen több PDF- és Office-fájlt egyetlen dokumentumban, sokféle formátum támogatásával. A GroupDocs.Merger for .NET gyors és problémamentes dokumentumegyesítést tesz lehetővé."
 
-      A GroupDocs.Merger for .NET használatával egyesítést hajthat végre; felosztás és egyéb kapcsolódó műveletek egyes dokumentumokon, valamint egy köteg dokumentumon. Programozottan összefűzheti az összes népszerű formátumú fájlokat, például Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, e-könyv- és képfájlformátumokat.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Az alábbiakban a GroupDocs.Merger for .NET áttekintése látható:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Dokumentumműveletek"
-          content: |
-            * Oldalsorrend módosítása
-            * Oldalak eltávolítása vagy törlése
-            * Dokumentum felosztása vagy törése
-            * Cserélje fel vagy keverje össze bármelyik két oldalt
-            * Vágjon egy vagy több oldalt
-            * Csatlakoztasson több dokumentumot
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Biztonsági műveletek"
-          content: |
-            * Dokumentumbiztonság beállítása
-            * Ellenőrizze a dokumentum biztonsági állapotát
-            * Állítsa be a dokumentum jelszavát
-            * A dokumentum jelszavának frissítése
-            * Távolítsa el a dokumentum jelszavát
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          A GroupDocs.Merger for .NET támogatja a következő [dokumentumfájl-formátumok](https://docs.groupdocs.com/merger/net/supported-document-formats/) egyesítését:
+    # feature loop
+    - title: "Egyszerűsítse a dokumentumkezelést a nagy fájlok felosztásával"
+      content: "A nagy PDF- vagy Office-fájlokat könnyedén feloszthatja kisebb, jobban kezelhető részekre. A GroupDocs.Merger for .NET lehetővé teszi a dokumentumok meghatározott oldalak, tartományok alapján történő felosztását, vagy akár az egyes oldalak egyszerű kibontását."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Szó:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** EGY
+    # feature loop
+    - title: "Manipuláljon oldalakat és szabja testre a dokumentum szerkezetét – rendezze át, cserélje ki vagy távolítsa el"
+      content: "Átrendezze a dokumentumokat az oldalak átrendezésével, a nem kívánt oldalak eltávolításával vagy újak hozzáadásával. A GroupDocs.Merger for .NET lehetővé teszi a dokumentumok szerkezetének kezelését, lehetővé téve a fájlok testreszabását és testreszabását az Ön egyedi igényei szerint."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument és egyéb formátumok"
-              content: |
-                * **OpenDocument formátumok**: ODT, OTT, ODP, OTP, ODS
-                * **Rögzített elrendezés**: PDF, XPS
-                * **Képek**: BMP, PNG, TIFF
-                * **Web**: HTML, MHT, MHTML
-                * **Szöveg**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **E-könyv**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platformfüggetlenség"
+  description: "A GroupDocs.Merger for .NET a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          A GroupDocs.Merger for .NET a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operációs rendszer"
-              content: |
-                * Windows asztal
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Támogatott keretrendszerek"
-              content: |
-                * .NET Framework 2.0 vagy újabb
-                * Mono Framework 1.2 vagy újabb
-                * .NET Standard 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Csomagkezelő"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Fejlesztési környezetek"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Támogatott fájlformátumok"
+  description: |
+    A GroupDocs.Merger for .NET a következő [dokumentumfájl-formátumokkal](https://docs.groupdocs.com/merger/net/supported-document-formats/) támogatja a műveleteket.
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formátumok
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Dokumentumok és képek
+        * **Dokumentumok:** PDF, XPS, TEX
+        * **Képek:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Egyéb formátumok
+        * **Web:**  HTML, MHTML, MHT
+        * **Levéltár:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger for .NET Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Több oldal, diák és diagram egyesítése és egyesítése egyetlen dokumentumban"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "A nagy dokumentumok felosztása és felosztása több kisebb fájlra"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Oldalak, diák vagy diagramok átrendezése, keverése és átrendezése"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Cseréljen és cseréljen két oldalt, diát vagy diagramot egymással egy dokumentumon belül"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Vágja le a dokumentumot meghatározott oldalak, diák vagy diagramok eltávolításával"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Távolítsa el az oldalak, diák vagy diagramok egyetlen vagy gyűjteményét"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Nagyszámú dokumentum kötegelt összefűzése"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Programozottan ellenőrizze, hogy egy dokumentum jelszóval védett-e"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Állítsa be, állítsa vissza és távolítsa el az ismert és ismeretlen dokumentumformátumok jelszavát"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "A támogatott fájlformátumok listájának lekérése – Szöveg felosztása és összekapcsolása (ERR) naplófájl formátum"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Forgassa el az oldalakat, és módosítsa az ismert és ismeretlen formátumok tájolását"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Több különböző formátumú fájl kombinálása DOC, DOCX és XPS formátumban"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Nagy szövegfájlok felosztása sorszámok szerint"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Szerezze be a dokumentumoldalak képi megjelenítését és a diagramcsalád formátumait"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Csatlakoztassa a képeket háttérszínnel az üres fekete képterületért"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Különböző típusú dokumentumok (DOC, XLS, PPT stb.) egyesítése egyetlen PDF-fájlba"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Egyszerűen importálhat OLE objektumokat Microsoft Word, Excel, prezentáció és OpenDocument fájltípusokba"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Más dokumentumok hozzáadása a diagramoldalhoz az OLE objektumok segítségével"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Távolítsa el a kívánt oldalakat a dokumentumokból"
-        content: |
-          A GroupDocs.Merger for .NET API segít törölni a nem kívánt oldalakat a dokumentumból.
-      
-      # more_feature_loop
-      - title: "Alkalmazza az átalakítást a renderelt kimenetre"
-        content: "Különféle átalakításokat hajthat végre a megjelenített kimeneti dokumentumon a GroupDocs.Merger for .NET API használatával. Ezekkel az átalakítási beállításokkal szabályozhatja a renderelt kimenet megjelenítési módját. A rendelkezésre álló átalakítások a következők: oldalforgatás, oldal-újrarendezési lehetőség és szöveges vízjel alkalmazása."
-
-      # more_feature_loop
-      - title: "Ellenőrizze az ismeretlen dokumentumformátum jelszavát"
-        content: "A GroupDocs.Merger for .NET API lehetővé teszi az ismeretlen formátumú dokumentumok jelszavának ellenőrzését."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "A GroupDocs.Merger dokumentum-egyesítési API-kat kínál más népszerű fejlesztői környezetekhez"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger funkciók"
+  description: "Zökkenőmentesen egyesítheti, feloszthatja és kezelheti a PDF és Office dokumentumokat"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Fájlok egyesítése"
+      content: "Egyesítsen két vagy több dokumentumot egyetlen dokumentummá, egyesítsen bizonyos oldalakat vagy oldaltartományokat több forrásdokumentumból."
+
+    # feature loop
+    - icon: "split"
+      title: "Dokumentumok felosztása"
+      content: "Ossza fel a forrásdokumentumot több eredő dokumentumra a felosztási művelet segítségével."
+
+    # feature loop
+    - icon: "move"
+      title: "Oldalak mozgatása"
+      content: "Az oldalak áthelyezése a dokumentumon belül a MovePage funkcióval."
+
+    # feature loop
+    - icon: "remove"
+      title: "Távolítsa el az oldalakat"
+      content: "Távolítsa el az egyes oldalakat vagy meghatározott oldalszámok gyűjteményét a forrásdokumentumból."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Oldalak elforgatása"
+      content: "Az oldalak elforgatása a dokumentumon belül az elforgatási szög 90, 180 vagy 270 fokos beállításával a RotatePages művelettel."
+
+    # feature loop
+    - icon: "swap"
+      title: "Cserélj oldalt"
+      content: "Cserélje ki két oldal pozícióját a forrásdokumentumban, és hozzon létre egy új dokumentumot felcserélt oldalpozíciókkal."
+
+    # feature loop
+    - icon: "extract"
+      title: "Oldalak kibontása"
+      content: "Konkrét oldalak vagy oldaltartományok kinyerése egy forrásdokumentumból, létrehozva egy új dokumentumot, amely csak a kiválasztott oldalakat tartalmazza."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Tájolás megváltoztatása"
+      content: "Állítsa be az oldaltájolást (álló vagy fekvő) a dokumentum egyes vagy összes oldalához a ChangeOrientation művelettel."
+
+    # feature loop
+    - icon: "preview"
+      title: "Oldalak előnézete"
+      content: "Képes ábrázolások létrehozása a dokumentum oldalairól, hogy jobban megértse a tartalmat és a szerkezetet. Készítsen előnézetet az összes vagy csak bizonyos oldalról."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Kódminták"
+  description: "A tipikus GroupDocs.Merger egyes esetei .NET műveletekhez"
+  items:
+    # code sample loop
+    - title: "Konkrét DOCX-fájloldalak egyesítése egyetlen dokumentumba"
+      content: |
+        A [Szelektív oldalegyesítés](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) funkció lehetővé teszi, hogy az egyes fájlokból csak a kívánt tartalmat vonja ki és egyesítse. Íme egy példa arra, hogyan lehet C# használatával szelektív oldalegyesítést elérni:
+        {{< landing/code title="DOCX fájlok egyesítése C#-ban">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // Töltse be a forrás DOCX fájlt
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // Adjon hozzá egy másik DOCX-fájlt az egyesítéshez
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // Egyesítse a DOCX fájlokat és mentse az eredményt
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "PDF dokumentum felosztása több fájlra"
+      content: |
+        Hatékonyan oszthat fel egy dokumentumot több fájlra a [Dokumentum felosztása](https://docs.groupdocs.com/merger/net/split-document/) funkcióval, amely leegyszerűsíti a nagy dokumentumok egyes szakaszainak vagy oldalainak kezelését és kibontását. Lehetővé teszi a dokumentumok kisebb részekre bontását különböző szempontok alapján - oldaltartomány, kezdő/végoldalak, páratlan/páros oldalszámok stb.
+        {{< landing/code title="A dokumentum felosztása több többoldalas dokumentumra">}}
+        ```csharp {style=abap}   
+        // PDF-fájl felosztása a GroupDocs.Merger API segítségével
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // Inicializálja a SplitOptions osztályt a kimeneti fájlok elérési út formátumával
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // Példányos egyesülés a bemeneti PDF dokumentummal
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // Hívja meg a felosztási metódust, és adja át a SplitOptions objektumot az eredményül kapott dokumentumok mentéséhez
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs termékértékelések"
+# description: "Ne csak a szavunkat fogadja. Tekintse meg, mit mondanak más fejlesztők az API-inkról"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Kiváló kiszolgálás és kiváló termékek. Rendkívül segítőkészek és készségesek voltak a GroupDocs.Viewer for .NET megvalósítási folyamata során, nem tudom őket eléggé ajánlani."
+#     author: "Martin Lasarga"
+#     company: "Az Axentria ECM termékmenedzsere, G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "A GroupDocs.Viewer for .NET projektben történő megvalósítása és használata után úgy tűnik, hogy nagyon jól működik. Rengeteg dokumentummal teszteltem és eddig jó. Minden, amit rádobtam, szépen megjelenik, és ugyanolyan jól néz ki, mint egy PDF-nézegetőben vagy MS Word-ben."
+#     author: "Mats Oustad"
+#     company: "A Novanet AS vezető tanácsadója/partnere"
 ---

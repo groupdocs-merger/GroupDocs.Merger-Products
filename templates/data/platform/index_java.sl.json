@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API za spajanje dokumentov Java | združi in odstrani Word Excel PDF XPS EPUB",
+    "description": "API za združevanje dokumentov za Javo. Združite, razdelite, zamenjajte, preuredite in izbrišite strani formatov PDF, Microsoft Word, Excel, predstavitev, Visio, XPS in EPUB."
+  },
+  "header": {
+    "title_1": "Združi dokumente",
+    "title_2": "preko Java API",
+    "description": "Prilagodljiv API za združevanje za preprosto združevanje, razdelitev ali spreminjanje dokumentov PDF in Office",
+    "words": {
+      "for": "za"
+    }
+  },
+  "actions": {
+    "main": "Brezplačen prenos Maven",
+    "alt": "Licenciranje",
+    "title": "Ste pripravljeni začeti?",
+    "description": "Brezplačno preizkusite funkcije GroupDocs.Merger ali zahtevajte licenco"
+  },
+  "release": {
+    "title": "Izdana različica {0}",
+    "notes": "Oglejte si, kaj je novega",
+    "downloads": "Prenosi"
+  }
+}

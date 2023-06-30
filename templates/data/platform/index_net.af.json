@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Kombineer en verdeel PDF Word Excel EPUB",
+    "description": "C# .NET dokumentsamesmeltings-API om dokumentbladsye van PDF, Microsoft Word, Excel, aanbiedings, Visio en beeldformate te kombineer, te verdeel, om te ruil of te verwyder."
+  },
+  "header": {
+    "title_1": "Voeg dokumente saam",
+    "title_2": "via .NET API",
+    "description": "Kragtige samesmeltings-API om PDF-, Microsoft Office-, HTML- en beeldlêers te manipuleer.",
+    "words": {
+      "for": "vir"
+    }
+  },
+  "actions": {
+    "main": "Gratis NuGet-aflaai",
+    "alt": "Lisensiëring",
+    "title": "Gereed om te begin?",
+    "description": "Probeer GroupDocs.Merger-kenmerke gratis of versoek 'n lisensie"
+  },
+  "release": {
+    "title": "Weergawe {0} vrygestel",
+    "notes": "Kyk wat nuut is",
+    "downloads": "Aflaaie"
+  }
+}

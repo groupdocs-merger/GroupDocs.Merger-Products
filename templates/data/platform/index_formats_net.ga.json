@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Formáidí comhaid tacaithe",
+    "description": "Tacaíonn GroupDocs.Merger le haghaidh .NET le hoibríochtaí leis na [formáidí comhaid doiciméid](https://docs.groupdocs.com/merger/net/supported-document-formats/) seo a leanas.",
+    "groups": {
+      "title_1": "Formáidí microsoft office",
+      "title_2": "Doiciméid & íomhánna",
+      "title_3": "Formáidí eile",
+      "format_documents": "Doiciméid",
+      "format_images": "Íomhánna",
+      "format_web": "Gréasán",
+      "format_archives": "Cartlanna"
+    }
+  }
+}

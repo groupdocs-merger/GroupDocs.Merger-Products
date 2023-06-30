@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Taybetmendiyên GroupDocs.Merger",
+    "description": "Belgeyên PDF û Ofîsê bi yekdengî hev bikin, parçe bikin, û manîpule bikin",
+    "feature_1": {
+      "title": "Pelên hev bikin",
+      "content": "Du an bêtir belgeyan di yek belgeyek de bihev bikin, rûpelên taybetî an rêzikên rûpelan ji gelek belgeyên çavkaniyê bikin yek."
+    },
+    "feature_2": {
+      "title": "Belgeyên dabeş bikin",
+      "content": "Bi karanîna operasyona dabeşkirinê, belgeyek çavkaniyê di gelek belgeyên encam de dabeş bikin."
+    },
+    "feature_3": {
+      "title": "Rûpelan bigerînin",
+      "content": "Bi karanîna taybetmendiya MovePage, rûpelan di nav belgeyekê de veguhezînin."
+    },
+    "feature_4": {
+      "title": "Rûpelên jêbirin",
+      "content": "Rûpelên takekesî an berhevokek hejmarên rûpelên taybetî ji belgeya çavkaniyê derxînin."
+    },
+    "feature_5": {
+      "title": "Rûpelan bizivirînin",
+      "content": "Bi danîna goşeya zivirîna 90, 180, an 270 pileyî bi karanîna operasyona RotatePages, rûpelan di nav belgeyekê de bizivirînin."
+    },
+    "feature_6": {
+      "title": "Rûpelan biguherînin",
+      "content": "Cihên du rûpelan di nav belgeya çavkaniyê de biguhezînin, belgeyek nû bi pozîsyonên rûpelê yên guhezbar biafirînin."
+    },
+    "feature_7": {
+      "title": "Rûpelan derxînin",
+      "content": "Rûpelên taybetî an rêzikên rûpelan ji belgeyek çavkaniyê derxînin, belgeyek nû ku tenê rûpelên hilbijartî vedihewîne çêbikin."
+    },
+    "feature_8": {
+      "title": "Oryantasyon biguherînin",
+      "content": "Ji bo taybetî an hemî rûpelên belgeyê bi karanîna operasyona ChangeOrientation verastkirina rûpelê (portre an perestgeh) saz bikin."
+    },
+    "feature_9": {
+      "title": "Rûpelên pêşdîtin",
+      "content": "Nûneratiyên wêneyê yên rûpelên belgeyê biafirînin da ku naverok û avahî çêtir fam bikin. Pêşdîtinên hemî an tenê rûpelên taybetî çêbikin."
+    }
+  }
+}

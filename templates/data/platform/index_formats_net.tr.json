@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Desteklenen dosya biçimleri",
+    "description": "GroupDocs.Merger for .NET, aşağıdaki [belge dosyası biçimleri](https://docs.groupdocs.com/merger/net/supported-document-formats/) ile işlemleri destekler.",
+    "groups": {
+      "title_1": "Microsoft Office biçimleri",
+      "title_2": "Belgeler ve resimler",
+      "title_3": "Diğer biçimler",
+      "format_documents": "Belgeler",
+      "format_images": "Görüntüler",
+      "format_web": "ağ",
+      "format_archives": "Arşivler"
+    }
+  }
+}

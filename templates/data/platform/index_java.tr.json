@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Java Belge Birleştirme API'sı | Word Excel PDF XPS EPUB'ı birleştirme ve kaldırma",
+    "description": "Java için API'yi birleştiren belgeler. PDF, Microsoft Word, Excel, sunumlar, Visio, XPS ve EPUB biçimlerindeki sayfaları birleştirin, ayırın, değiştirin, yeniden sıralayın ve silin."
+  },
+  "header": {
+    "title_1": "Belgeleri birleştir",
+    "title_2": "Java API aracılığıyla",
+    "description": "PDF ve Office Belgelerini kolayca birleştirmek, bölmek veya değiştirmek için Esnek Birleşme API'si",
+    "words": {
+      "for": "için"
+    }
+  },
+  "actions": {
+    "main": "Ücretsiz Maven İndirme",
+    "alt": "lisanslama",
+    "title": "başlamaya hazır mısın?",
+    "description": "GroupDocs.Merger özelliklerini ücretsiz deneyin veya lisans isteyin"
+  },
+  "release": {
+    "title": "Sürüm {0} yayınlandı",
+    "notes": "Yenilikleri görün",
+    "downloads": "İndirilenler"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Exemples de code",
+    "description": "Quelques cas d'utilisation typiques de GroupDocs.Merger pour les opérations .NET",
+    "sample_1": {
+      "title": "Fusionner des pages de fichiers DOCX spécifiques en un seul document",
+      "content_1": "La fonction [Fusion sélective de pages](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) vous permet d'extraire et de fusionner uniquement le contenu souhaité de chaque fichier.",
+      "content_2": "Voici un exemple de comment réaliser une fusion sélective de pages à l'aide de C# :",
+      "code_title": "Comment fusionner des fichiers DOCX en C#",
+      "comment_1": "Charger le fichier DOCX source",
+      "comment_2": "Ajouter un autre fichier DOCX à fusionner",
+      "comment_3": "Fusionner les fichiers DOCX et enregistrer le résultat"
+    },
+    "sample_2": {
+      "title": "Diviser le document PDF en plusieurs fichiers",
+      "content_1": "Divisez efficacement un document en plusieurs fichiers grâce à la fonction [Split Document](https://docs.groupdocs.com/merger/net/split-document/) qui simplifie le processus de gestion et d'extraction de sections ou de pages spécifiques à partir de documents volumineux.",
+      "content_2": "Il vous permet de diviser les documents en parties plus petites en fonction de divers critères - par plage de pages, par pages de début/fin, par numéros de page pairs/impairs, etc.",
+      "code_title": "Comment diviser le document en plusieurs documents de plusieurs pages",
+      "comment_1": "Fractionner un fichier PDF à l'aide de GroupDocs.Merger API",
+      "comment_2": "Initialiser la classe SplitOptions avec le format de chemin des fichiers de sortie",
+      "comment_3": "Instancier la fusion avec le document PDF d'entrée",
+      "comment_4": "Appelez la méthode split et passez l'objet SplitOptions pour enregistrer les documents résultants"
+    }
+  }
+}

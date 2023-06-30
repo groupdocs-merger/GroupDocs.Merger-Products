@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Συνδυασμός και διαίρεση PDF Word Excel EPUB",
+    "description": "API συγχώνευσης εγγράφων C# .NET για συνδυασμό, διαχωρισμό, εναλλαγή ή κατάργηση σελίδων εγγράφων από PDF, Microsoft Word, Excel, παρουσιάσεις, Visio και μορφές εικόνας."
+  },
+  "header": {
+    "title_1": "Συγχώνευση εγγράφων",
+    "title_2": "μέσω .NET API",
+    "description": "Ισχυρό API συγχώνευσης για χειρισμό αρχείων PDF, Microsoft Office, HTML και εικόνας.",
+    "words": {
+      "for": "Για"
+    }
+  },
+  "actions": {
+    "main": "Δωρεάν λήψη NuGet",
+    "alt": "Αδειοδότηση",
+    "title": "Είστε έτοιμοι να ξεκινήσετε;",
+    "description": "Δοκιμάστε τις δυνατότητες του GroupDocs.Merger δωρεάν ή ζητήστε άδεια"
+  },
+  "release": {
+    "title": "Κυκλοφόρησε η έκδοση {0}",
+    "notes": "Δείτε τι νέο υπάρχει",
+    "downloads": "Λήψεις"
+  }
+}

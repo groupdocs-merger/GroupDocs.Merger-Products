@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger in 'n oogopslag",
+    "description": "API om dokumente, skyfies en diagramme in Java-toepassings te kombineer, verdeel, ruil, knip of verwyder",
+    "feature_1": {
+      "title": "Voeg moeiteloos verskeie dokumente in Java saam",
+      "description": "Voeg PDF- en Office-lêers maklik saam in 'n enkele dokument in Java, en gebruik die vermoëns van die GroupDocs.Merger-biblioteek. Vind voordeel uit sy uitgebreide formaatondersteuning, sodat jy verskeie lêertipes naatloos kan kombineer, wat lei tot 'n gerieflike en vaartbelynde samesmeltingsproses."
+    },
+    "feature_2": {
+      "title": "Stroomlyn dokumentbestuur deur lywige lêers maklik te verdeel",
+      "description": "Verdeel groot PDF- of Office-lêers in kleiner, maklik hanteerbare afdelings. Jy kan dokumente verdeel op grond van spesifieke bladsye, reekse, of selfs individuele bladsye met gemak en gerief onttrek. Stroomlyn jou dokumentbestuur deur die naatlose vermoëns van die GroupDocs.Merger-biblioteek te gebruik en maak jou lêers meer georganiseer en hanteerbaar."
+    },
+    "feature_3": {
+      "title": "Pas jou dokumentstruktuur aan en het volle beheer oor jou lêers",
+      "description": "Manipuleer bladsye maklik deur hulle te herrangskik, om te ruil of te verwyder. Organiseer en pas u dokumente aan volgens u spesifieke vereistes met die buigsaamheid om 'n persoonlike lêerstruktuur te skep."
+    }
+  }
+}

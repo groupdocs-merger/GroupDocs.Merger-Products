@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C# .NET Document Merging API | Sameina og skipta PDF Word Excel EPUB",
+    "description": "C# .NET skjalsamruna API til að sameina, skipta, skipta um eða fjarlægja skjalasíður úr PDF, Microsoft Word, Excel, kynningum, Visio og myndsniðum."
+  },
+  "header": {
+    "title_1": "Sameina skjöl",
+    "title_2": "í gegnum .NET API",
+    "description": "Öflugt samruna API til að vinna með PDF, Microsoft Office, HTML og myndskrár.",
+    "words": {
+      "for": "fyrir"
+    }
+  },
+  "actions": {
+    "main": "Ókeypis niðurhal NuGet",
+    "alt": "Leyfisveitingar",
+    "title": "Tilbúinn til að byrja?",
+    "description": "Prófaðu GroupDocs.Merger eiginleika ókeypis eða biddu um leyfi"
+  },
+  "release": {
+    "title": "Útgáfa {0} gefin út",
+    "notes": "Sjáðu hvað er nýtt",
+    "downloads": "Niðurhal"
+  }
+}

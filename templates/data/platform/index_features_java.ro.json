@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Funcții GroupDocs.Merger",
+    "description": "Îmbinați, împărțiți și manipulați fără probleme PDF și documente Office",
+    "feature_1": {
+      "title": "Combinați fișierele",
+      "content": "Îmbinați două sau mai multe documente într-un singur document, unind anumite pagini sau intervale de pagini din mai multe documente sursă."
+    },
+    "feature_2": {
+      "title": "Divizarea documentului",
+      "content": "Utilizați operația de împărțire pentru a împărți un document sursă în mai multe documente rezultate, permițând organizarea și gestionarea eficientă a fișierelor."
+    },
+    "feature_3": {
+      "title": "Mutați paginile",
+      "content": "Repoziționați ușor o pagină într-un document utilizând caracteristica MovePage."
+    },
+    "feature_4": {
+      "title": "Eliminați paginile",
+      "content": "Eliminați efectiv pagini individuale sau o colecție de numere de pagini specifice din documentul sursă cu funcția RemovePages."
+    },
+    "feature_5": {
+      "title": "Rotiți paginile",
+      "content": "Profitați de operația RotatePages pentru a roti cu ușurință paginile dintr-un document, specificând unghiul de rotație ca 90, 180 sau 270 de grade"
+    },
+    "feature_6": {
+      "title": "Schimbați paginile",
+      "content": "Rearanjați ordinea paginilor schimbând pozițiile a două pagini în documentul sursă, producând un nou document."
+    },
+    "feature_7": {
+      "title": "Extrage pagini",
+      "content": "Generați un document nou care conține numai paginile selectate prin extragerea anumitor pagini sau intervale de pagini din documentul sursă."
+    },
+    "feature_8": {
+      "title": "Schimbați orientarea",
+      "content": "Modificați orientarea paginii (portret sau peisaj) pentru anumite pagini sau pentru toate paginile documentului utilizând operația ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Previzualizează paginile",
+      "content": "Obțineți o înțelegere mai clară a conținutului și structurii documentului prin generarea de reprezentări de imagini ale paginilor acestuia. Faceți previzualizări ale tuturor paginilor sau doar ale anumitor pagini."
+    }
+  }
+}

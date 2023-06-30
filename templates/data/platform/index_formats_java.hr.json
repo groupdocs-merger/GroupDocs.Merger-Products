@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Podržani formati datoteka",
+    "description": "GroupDocs.Merger za Javu podržava rad sa sljedećim [formatima datoteka dokumenata](https://docs.groupdocs.com/merger/java/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office formati",
+      "title_2": "Dokumenti i slike",
+      "title_3": "Ostali formati",
+      "format_documents": "Dokumenti",
+      "format_images": "Slike",
+      "format_web": "mreža",
+      "format_archives": "Arhiva"
+    }
+  }
+}

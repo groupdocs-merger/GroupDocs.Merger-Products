@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Palaikomi failų formatai",
+    "description": "GroupDocs.Merger for .NET palaiko operacijas su šiais [dokumentų failų formatais](https://docs.groupdocs.com/merger/net/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office formatai",
+      "title_2": "Dokumentai ir vaizdai",
+      "title_3": "Kiti formatai",
+      "format_documents": "Dokumentai",
+      "format_images": "Vaizdai",
+      "format_web": "Žiniatinklis",
+      "format_archives": "Archyvai"
+    }
+  }
+}

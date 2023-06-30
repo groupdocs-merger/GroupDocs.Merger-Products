@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Ühendage lühidalt",
+    "description": "API dokumentide, slaidide ja diagrammide kombineerimiseks, tükeldamiseks, vahetamiseks, kärpimiseks või eemaldamiseks .NET-i rakendustes",
+    "feature_1": {
+      "title": "Ühendage mitu dokumenti C#-s hõlpsalt",
+      "description": "Ühendage dokumendid: ühendage mitu PDF- ja Office'i faili sujuvalt üheks dokumendiks, toetades laia valikut vorminguid. GroupDocs.Merger for .NET muudab dokumentide liitmise kiireks ja probleemivabaks."
+    },
+    "feature_2": {
+      "title": "Lihtsustage dokumendihaldust suurte failide tükeldamisega",
+      "description": "Jagage suured PDF- või Office-failid hõlpsalt väiksemateks, paremini hallatavateks osadeks. GroupDocs.Merger for .NET võimaldab teil dokumente tükeldada konkreetsete lehtede, vahemike alusel või isegi üksikuid lehti vaevata eraldada."
+    },
+    "feature_3": {
+      "title": "Manipuleerige lehekülgi ja kohandage dokumendi struktuuri – järjestage ümber, vahetage või eemaldage",
+      "description": "Võtke oma dokumentide üle kontroll, korraldades lehti ümber, eemaldades soovimatud lehed või lisades uusi. GroupDocs.Merger for .NET annab teile võimaluse manipuleerida dokumendi struktuuriga, võimaldades teil kohandada ja kohandada faile vastavalt teie konkreetsetele vajadustele."
+    }
+  }
+}

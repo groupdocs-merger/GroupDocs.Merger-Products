@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Fitur GroupDocs.Merger",
+    "description": "Menggabungkan, memisahkan, dan memanipulasi PDF dan Dokumen Office dengan mulus",
+    "feature_1": {
+      "title": "Gabungkan file",
+      "content": "Menggabungkan dua dokumen atau lebih menjadi satu dokumen, menggabungkan halaman atau rentang halaman tertentu dari beberapa dokumen sumber."
+    },
+    "feature_2": {
+      "title": "Dokumen terpisah",
+      "content": "Memanfaatkan operasi pemisahan untuk membagi dokumen sumber menjadi beberapa dokumen yang dihasilkan, memungkinkan pengaturan dan pengelolaan file yang efisien."
+    },
+    "feature_3": {
+      "title": "Pindah halaman",
+      "content": "Ubah posisi halaman dengan lancar di dalam dokumen dengan memanfaatkan fitur MovePage."
+    },
+    "feature_4": {
+      "title": "Hapus halaman",
+      "content": "Menghapus halaman individual atau kumpulan nomor halaman tertentu secara efektif dari dokumen sumber dengan fitur RemovePages."
+    },
+    "feature_5": {
+      "title": "Putar halaman",
+      "content": "Manfaatkan operasi RotatePages untuk memutar halaman dalam dokumen dengan mudah dengan menentukan sudut rotasi 90, 180, atau 270 derajat"
+    },
+    "feature_6": {
+      "title": "Tukar halaman",
+      "content": "Atur ulang urutan halaman dengan menukar posisi dua halaman di dalam dokumen sumber, menghasilkan dokumen baru."
+    },
+    "feature_7": {
+      "title": "Ekstrak halaman",
+      "content": "Hasilkan dokumen baru yang hanya berisi halaman yang dipilih dengan mengekstrak halaman atau rentang halaman tertentu dari dokumen sumber."
+    },
+    "feature_8": {
+      "title": "Ubah orientasi",
+      "content": "Ubah orientasi halaman (potret atau lanskap) untuk halaman tertentu atau semua halaman dokumen dengan memanfaatkan operasi ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Pratinjau halaman",
+      "content": "Dapatkan pemahaman yang lebih jelas tentang konten dan struktur dokumen dengan membuat representasi gambar dari halamannya. Buat pratinjau dari semua atau hanya halaman tertentu."
+    }
+  }
+}

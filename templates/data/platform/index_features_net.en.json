@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger features",
+    "description": "Seamlessly merge, split, and manipulate PDF and Office Documents",
+    "feature_1": {
+      "title": "Merge files",
+      "content": "Combine two or more documents into a single document, merging specific pages or page ranges from multiple source documents."
+    },
+    "feature_2": {
+      "title": "Split documents",
+      "content": "Divide a source document into multiple resultant documents using the split operation."
+    },
+    "feature_3": {
+      "title": "Move pages",
+      "content": "Reposition pages within a document using the MovePage feature."
+    },
+    "feature_4": {
+      "title": "Remove pages",
+      "content": "Remove individual pages or a collection of specific page numbers from the source document."
+    },
+    "feature_5": {
+      "title": "Rotate pages",
+      "content": "Rotate pages within a document by setting the rotation angle to 90, 180, or 270 degrees using the RotatePages operation."
+    },
+    "feature_6": {
+      "title": "Swap pages",
+      "content": "Exchange the positions of two pages within the source document, creating a new document with swapped page positions."
+    },
+    "feature_7": {
+      "title": "Extract pages",
+      "content": "Extract specific pages or page ranges from a source document, generating a new document containing only the selected pages."
+    },
+    "feature_8": {
+      "title": "Change orientation",
+      "content": "Set the page orientation (portrait or landscape) for specific or all pages of the document using the ChangeOrientation operation."
+    },
+    "feature_9": {
+      "title": "Preview pages",
+      "content": "Generate image representations of document pages to understand the content and structure better. Make previews of all or just specific pages."
+    }
+  }
+}

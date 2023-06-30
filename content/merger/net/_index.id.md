@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-13T17:30:02
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -10,275 +10,238 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "C# .NET Document Merger API | Gabungkan & Pisahkan PDF Word Excel EPUB"
-head_description: "C# .NET document merging API untuk menggabungkan, membagi, menukar, atau menghapus halaman dokumen dari PDF, Microsoft Word, Excel, presentasi, Visio, dan format gambar."
+head_title: "C# .NET Penggabungan Dokumen API | Gabungkan & Pisahkan PDF Word Excel EPUB"
+head_description: "API penggabungan dokumen C# .NET untuk menggabungkan, memisahkan, menukar, atau menghapus halaman dokumen dari format PDF, Microsoft Word, Excel, presentasi, Visio, dan gambar."
 
 ############################# Header ############################
-title: ".NET API untuk Menggabungkan & Memisahkan Dokumen"
-description: "API untuk Menggabungkan, Memisahkan, Menukar, Memangkas, atau Menghapus Dokumen, Slide, dan Diagram di Aplikasi .NET."
-button:
-    enable: true
+title: "Menggabungkan dokumen<br>melalui .NET API"
+description: "API penggabungan yang kuat untuk memanipulasi file PDF, Microsoft Office, HTML, dan gambar."
+words:
+  for: "untuk"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "Unduh NuGet Gratis"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "Lisensi"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Merger secara gratis atau minta lisensi"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Ringkasan"
+release:
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Download"
 
-            # button loop
-            - link: "#features"
-              text: "Fitur"
+code:
+  title: "Menggabungkan file PDF dalam C#"
+  more: "Lebih banyak contoh"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // Muat file PDF sumber
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // Tambahkan file PDF lain untuk digabungkan
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "Mendukung"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Demo Langsung"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Harga"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // Gabungkan file PDF dan simpan hasilnya
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger untuk .NET, membantu Anda dengan cepat mengembangkan aplikasi bisnis kelas atas di C#, ASP.NET dan teknologi .NET lainnya. Hanya beberapa baris kode akan memungkinkan aplikasi .NET Anda untuk menggabungkan, membagi, mengatur ulang, menukar, memangkas, dan menghapus satu halaman atau kumpulan halaman dokumen, slide, gambar, atau diagram. Lakukan operasi ini pada file aman dengan menyetel atau menghapus proteksi kata sandi dari format file yang dikenal dan tidak dikenal.  
+  enable: true
+  title: "Sekilas tentang GroupDocs.Merger"
+  description: "API untuk menggabungkan, memisahkan, menukar, memotong atau menghapus dokumen, slide, dan diagram dalam aplikasi .NET"
+  features:
+    # feature loop
+    - title: "Menggabungkan beberapa dokumen dengan mudah dalam C#"
+      content: "Menggabungkan Dokumen: Menggabungkan beberapa file PDF dan Office dengan mulus ke dalam satu dokumen, dengan dukungan untuk berbagai format. GroupDocs.Merger untuk .NET membuat penggabungan dokumen menjadi cepat dan tidak merepotkan."
 
-      Dengan menggunakan GroupDocs.Merger untuk .NET, Anda dapat melakukan penggabungan; pemisahan dan operasi terkait lainnya pada dokumen tunggal serta kumpulan dokumen. Jahit file secara terprogram dari semua format populer, seperti Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook, dan format file gambar.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Berikut ini adalah ikhtisar GroupDocs.Merger untuk .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Operasi Dokumen"
-          content: |
-            * Ubah Urutan Halaman
-            * Hapus atau Hapus Halaman
-            * Pisahkan atau Pecahkan dokumen
-            * Tukar atau acak dua halaman mana pun
-            * Pangkas satu atau beberapa halaman
-            * Bergabunglah dengan banyak dokumen
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Operasi Keamanan"
-          content: |
-            * Siapkan keamanan dokumen
-            * Periksa status keamanan dokumen
-            * Atur kata sandi dokumen
-            * Perbarui kata sandi dokumen
-            * Hapus kata sandi dokumen
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger untuk .NET mendukung penggabungan [format file dokumen](https://docs.groupdocs.com/merger/net/supported-document-formats/ berikut):
+    # feature loop
+    - title: "Sederhanakan manajemen dokumen dengan memisahkan file besar"
+      content: "Pisahkan file PDF atau Office besar menjadi bagian yang lebih kecil dan lebih mudah dikelola dengan mudah. GroupDocs.Merger untuk .NET memungkinkan Anda membagi dokumen berdasarkan halaman tertentu, rentang, atau bahkan mengekstrak halaman individual dengan mudah."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Memanipulasi halaman dan menyesuaikan struktur dokumen - menyusun ulang, menukar, atau menghapus"
+      content: "Kendalikan dokumen Anda dengan mengatur ulang halaman, menghapus halaman yang tidak diinginkan, atau menambahkan halaman baru. GroupDocs.Merger untuk .NET memberdayakan Anda untuk memanipulasi struktur dokumen, memungkinkan Anda menyesuaikan dan menyesuaikan file Anda sesuai dengan kebutuhan spesifik Anda."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument & Format Lainnya"
-              content: |
-                * **Format OpenDocument**: ODT, OTT, ODP, OTP, ODS
-                * **Tata Letak Tetap**: PDF, XPSS
-                * **Gambar**: BMP, PNG, TIFF
-                * **Web**: HTML, MHT, MHTML
-                * **Teks**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **Ebook**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Kemandirian platform"
+  description: "GroupDocs.Merger untuk .NET mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger untuk .NET mendukung Sistem Operasi, Kerangka & Manajer Paket berikut:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Desktop Windows
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Kerangka yang Didukung"
-              content: |
-                * .NET Framework 2.0 atau lebih tinggi
-                * Mono Framework 1.2 atau lebih tinggi
-                * .NET Standard 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Manajer Paket"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Lingkungan Pengembangan"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Format file yang didukung"
+  description: |
+    GroupDocs.Merger untuk .NET mendukung operasi dengan [format file dokumen](https://docs.groupdocs.com/merger/net/supported-document-formats/) berikut.
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### format Microsoft Office
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Dokumen & gambar
+        * **Dokumen:** PDF, XPS, TEX
+        * **Gambar-gambar:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Format lain
+        * **Web:**  HTML, MHTML, MHT
+        * **Arsip:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger untuk .NET Fitur"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Gabungkan & gabungkan beberapa halaman, slide & diagram menjadi satu dokumen"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Pisahkan dan pisahkan dokumen besar menjadi beberapa file yang lebih kecil"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Atur ulang, acak, dan atur ulang halaman, slide, atau diagram"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Tukar dan tukar dua halaman, slide, atau diagram satu sama lain dalam dokumen"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Pangkas dokumen dengan menghapus halaman, slide, atau diagram tertentu"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Hapus satu atau kumpulan halaman, slide, atau diagram"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Jahit bersama sejumlah besar dokumen dalam batch"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Secara terprogram memeriksa apakah dokumen diamankan dengan kata sandi"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Setel, setel ulang, dan hapus kata sandi format dokumen yang dikenal dan tidak dikenal"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Ambil daftar format file yang didukung – Format File Log Split and Join Text (ERR)"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Putar halaman dan ubah orientasi halaman dari format yang dikenal & tidak dikenal"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Gabungkan beberapa file dengan format berbeda ke DOC, DOCX & XPS"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Memisahkan file teks besar dengan nomor baris"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Dapatkan representasi gambar dari halaman dokumen dan format keluarga diagram"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Gabung Gambar dengan Warna Latar Belakang untuk Ruang Gambar Hitam Kosong"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Gabungkan Berbagai Jenis Dokumen (DOC, XLS, PPT, dll) ke dalam Satu File PDF"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Mudah Mengimpor Objek OLE ke Microsoft Word, Excel, Presentasi, dan Jenis File OpenDocument"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Tambahkan Dokumen Lain ke Halaman Diagram melalui Objek OLE"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Hapus Halaman yang Diinginkan dari Dokumen"
-        content: |
-          GroupDocs.Merger untuk .NET API membantu Anda menghapus halaman yang tidak diinginkan dari dokumen Anda.
-      
-      # more_feature_loop
-      - title: "Terapkan Transformasi ke Output yang Dirender"
-        content: "Anda dapat melakukan berbagai transformasi ke dokumen keluaran yang dirender menggunakan GroupDocs.Merger untuk .NET API. Opsi transformasi ini memberi Anda kendali atas cara Anda menyajikan output yang dirender untuk ditampilkan. Transformasi yang tersedia adalah, opsi rotasi halaman, opsi pengurutan ulang halaman, dan penerapan watermark teks."
-
-      # more_feature_loop
-      - title: "Periksa Kata Sandi Format Dokumen Tidak Dikenal"
-        content: "GroupDocs.Merger untuk .NET API memungkinkan Anda untuk memeriksa kata sandi dokumen yang formatnya tidak diketahui."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Fitur GroupDocs.Merger"
+  description: "Menggabungkan, memisahkan, dan memanipulasi PDF dan Dokumen Office dengan mulus"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Gabungkan file"
+      content: "Menggabungkan dua atau lebih dokumen ke dalam satu dokumen, menggabungkan halaman atau rentang halaman tertentu dari beberapa dokumen sumber."
+
+    # feature loop
+    - icon: "split"
+      title: "Pisahkan dokumen"
+      content: "Membagi dokumen sumber menjadi beberapa dokumen yang dihasilkan menggunakan operasi pemisahan."
+
+    # feature loop
+    - icon: "move"
+      title: "Pindah halaman"
+      content: "Ubah posisi halaman dalam dokumen menggunakan fitur MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "Hapus halaman"
+      content: "Hapus halaman individual atau kumpulan nomor halaman tertentu dari dokumen sumber."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Putar halaman"
+      content: "Putar halaman dalam dokumen dengan mengatur sudut rotasi ke 90, 180, atau 270 derajat menggunakan operasi RotatePages."
+
+    # feature loop
+    - icon: "swap"
+      title: "Tukar halaman"
+      content: "Tukarkan posisi dua halaman dalam dokumen sumber, buat dokumen baru dengan posisi halaman yang ditukar."
+
+    # feature loop
+    - icon: "extract"
+      title: "Ekstrak halaman"
+      content: "Ekstrak halaman atau rentang halaman tertentu dari dokumen sumber, menghasilkan dokumen baru yang hanya berisi halaman yang dipilih."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Ubah orientasi"
+      content: "Atur orientasi halaman (potret atau lanskap) untuk halaman tertentu atau semua halaman dokumen menggunakan operasi ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Pratinjau halaman"
+      content: "Hasilkan representasi gambar dari halaman dokumen untuk memahami konten dan struktur dengan lebih baik. Buat pratinjau dari semua atau hanya halaman tertentu."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Contoh kode"
+  description: "Beberapa kasus penggunaan GroupDocs.Merger tipikal untuk operasi .NET"
+  items:
+    # code sample loop
+    - title: "Gabungkan halaman file DOCX tertentu menjadi satu dokumen"
+      content: |
+        Fitur [Penggabungan Halaman Selektif](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) memungkinkan Anda untuk mengekstrak dan menggabungkan hanya konten yang diinginkan dari setiap file. Berikut adalah contoh cara mencapai penggabungan halaman selektif menggunakan C#:
+        {{< landing/code title="Cara menggabungkan file DOCX di C#">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // Muat file DOCX sumber
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // Tambahkan file DOCX lain untuk digabungkan
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // Gabungkan file DOCX dan simpan hasilnya
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Pisahkan dokumen PDF menjadi beberapa file"
+      content: |
+        Pisahkan dokumen secara efisien menjadi beberapa file dengan fitur [Split Document](https://docs.groupdocs.com/merger/net/split-document/) yang menyederhanakan proses pengelolaan dan ekstraksi bagian atau halaman tertentu dari dokumen berukuran besar. Ini memungkinkan Anda membagi dokumen menjadi bagian-bagian yang lebih kecil berdasarkan berbagai kriteria - berdasarkan rentang halaman, halaman awal/akhir, nomor halaman ganjil/genap, dll.
+        {{< landing/code title="Cara membagi dokumen menjadi beberapa dokumen multi halaman">}}
+        ```csharp {style=abap}   
+        // Pisahkan file PDF menggunakan GroupDocs.Merger API
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // Inisialisasi kelas SplitOptions dengan format jalur file keluaran
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // Instansiasi Penggabungan dengan memasukkan dokumen PDF
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // Panggil metode split dan berikan objek SplitOptions untuk menyimpan dokumen yang dihasilkan
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Ulasan produk GroupDocs"
+# description: "Jangan hanya mengambil kata kami untuk itu. Lihat apa yang dikatakan pengembang lain tentang API kami"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Layanan prima dan produk unggulan. Mereka sangat membantu dan responsif selama GroupDocs.Viewer untuk proses implementasi .NET, tidak dapat merekomendasikan mereka dengan cukup tinggi."
+#     author: "Martin Lasarga"
+#     company: "Manajer Produk di Axentria ECM oleh G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Setelah menerapkan dan menggunakan GroupDocs.Viewer untuk .NET dalam proyek ini tampaknya bekerja dengan sangat baik. Saya telah menguji dengan banyak dokumen dan sejauh ini bagus. Semua yang saya lemparkan membuatnya bagus dan terlihat sebagus di penampil PDF atau MS Word."
+#     author: "Mats Oustad"
+#     company: "Konsultan Senior/Mitra di Novanet AS"
 ---

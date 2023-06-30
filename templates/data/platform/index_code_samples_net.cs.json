@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Ukázky kódu",
+    "description": "Některé případy použití typických operací GroupDocs.Merger for .NET",
+    "sample_1": {
+      "title": "Sloučit konkrétní stránky souboru DOCX do jednoho dokumentu",
+      "content_1": "Funkce [Selective Page Merge](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) umožňuje extrahovat a sloučit pouze požadovaný obsah z každého souboru.",
+      "content_2": "Zde je příklad, jak dosáhnout selektivního sloučení stránek pomocí C#:",
+      "code_title": "Jak sloučit soubory DOCX v C#",
+      "comment_1": "Načtěte zdrojový soubor DOCX",
+      "comment_2": "Přidejte další soubor DOCX ke sloučení",
+      "comment_3": "Sloučit soubory DOCX a uložit výsledek"
+    },
+    "sample_2": {
+      "title": "Rozdělte dokument PDF do více souborů",
+      "content_1": "Efektivně rozdělte dokument do více souborů pomocí funkce [Split Document](https://docs.groupdocs.com/merger/net/split-document/), která zjednodušuje proces správy a extrahování konkrétních částí nebo stránek z velkých dokumentů.",
+      "content_2": "Umožňuje rozdělit dokumenty na menší části na základě různých kritérií – podle rozsahu stránek, podle počátečních/koncových stránek, podle čísel lichých/sudých stránek atd.",
+      "code_title": "Jak rozdělit dokument na několik vícestránkových dokumentů",
+      "comment_1": "Rozdělte soubor PDF pomocí GroupDocs.Merger API",
+      "comment_2": "Inicializujte třídu SplitOptions s formátem cesty k výstupním souborům",
+      "comment_3": "Okamžité sloučení se vstupním dokumentem PDF",
+      "comment_4": "Zavolejte metodu rozdělení a předejte objekt SplitOptions pro uložení výsledných dokumentů"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Vzorci kod",
+    "description": "Nekateri primeri uporabe tipičnih operacij GroupDocs.Merger za Java",
+    "sample_1": {
+      "title": "Združite datoteke DOCX v en sam dokument",
+      "content_1": "S funkcijo [Združi Wordove dokumente](https://docs.groupdocs.com/merger/java/merge/word/) lahko celotne datoteke DOCX združite v en sam dokument tako, da naložite izvorno datoteko in dodate več datotek DOCX, ki se združijo in shranjevanje združenega dokumenta.",
+      "content_2": "Spodaj je delček kode Java, ki prikazuje postopek spajanja:",
+      "code_title": "Kako združiti datoteke DOCX v Javi",
+      "comment_1": "Naložite izvorno datoteko DOCX",
+      "comment_2": "Dodajte še eno datoteko DOCX za združitev",
+      "comment_3": "Spojite datoteke DOCX in shranite rezultat"
+    },
+    "sample_2": {
+      "title": "Dokument PDF razdelite na več datotek",
+      "content_1": "Razdelite dokument na več datotek s funkcijo [Razdeli dokument](https://docs.groupdocs.com/merger/java/split-document/), da poenostavite postopek upravljanja in ekstrahiranja določenih razdelkov ali strani iz velikih dokumentov.",
+      "content_2": "Omogoča vam razdelitev dokumentov na manjše dele na podlagi različnih kriterijev - po obsegu strani, po začetni/končni strani, po lihih/sodih številkah strani itd.",
+      "code_title": "Razdelite dokument na več enostranskih dokumentov",
+      "comment_1": "Razdeli datoteko PDF z API-jem GroupDocs.Merger za Java",
+      "comment_2": "Inicializirajte razred SplitOptions s formatom poti izhodnih datotek",
+      "comment_3": "Instanciirajte združitev z vhodnim dokumentom PDF",
+      "comment_4": "Pokličite metodo split in posredujte objekt SplitOptions, da shranite nastale dokumente"
+    }
+  }
+}

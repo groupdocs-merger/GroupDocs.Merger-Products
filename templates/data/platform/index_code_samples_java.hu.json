@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Kódminták",
+    "description": "Egyes esetekben a tipikus GroupDocs.Merger Java műveleteket használják",
+    "sample_1": {
+      "title": "Egyesítse a DOCX fájlokat egyetlen dokumentumba",
+      "content_1": "A [Word-dokumentumok egyesítése](https://docs.groupdocs.com/merger/java/merge/word/) funkcióval teljes DOCX-fájlokat egyesíthet egyetlen dokumentumban a forrásfájl betöltésével, és további DOCX-fájlok hozzáadásával az összekapcsoláshoz. , és az egyesített dokumentum mentése.",
+      "content_2": "Az alábbiakban látható egy Java kódrészlet, amely bemutatja az egyesítési folyamatot:",
+      "code_title": "Hogyan lehet DOCX fájlokat egyesíteni Java-ban",
+      "comment_1": "Töltse be a forrás DOCX fájlt",
+      "comment_2": "Adjon hozzá egy másik DOCX-fájlt az egyesítéshez",
+      "comment_3": "Egyesítse a DOCX fájlokat és mentse az eredményt"
+    },
+    "sample_2": {
+      "title": "PDF dokumentum felosztása több fájlra",
+      "content_1": "Osszon fel egy dokumentumot több fájlra a [Dokumentum felosztása](https://docs.groupdocs.com/merger/java/split-document/) funkcióval, hogy leegyszerűsítse a nagy dokumentumok egyes szakaszainak vagy oldalainak kezelését és kibontását.",
+      "content_2": "Lehetővé teszi a dokumentumok kisebb részekre bontását különböző kritériumok alapján - oldaltartomány, kezdő/végoldalak, páratlan/páros oldalszámok stb. szerint.",
+      "code_title": "Ossza fel a dokumentumot több egyoldalas dokumentumra",
+      "comment_1": "PDF-fájl felosztása a GroupDocs.Merger for Java API segítségével",
+      "comment_2": "Inicializálja a SplitOptions osztályt a kimeneti fájlok elérési út formátumával",
+      "comment_3": "Példányos egyesülés a bemeneti PDF dokumentummal",
+      "comment_4": "Hívja meg a felosztási metódust, és adja át a SplitOptions objektumot az eredményül kapott dokumentumok mentéséhez"
+    }
+  }
+}

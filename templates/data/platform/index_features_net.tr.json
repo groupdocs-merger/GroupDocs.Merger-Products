@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger özellikleri",
+    "description": "PDF ve Office Belgelerini sorunsuz bir şekilde birleştirin, bölün ve değiştirin",
+    "feature_1": {
+      "title": "Dosyaları birleştir",
+      "content": "Birden çok kaynak belgeden belirli sayfaları veya sayfa aralıklarını birleştirerek iki veya daha fazla belgeyi tek bir belgede birleştirin."
+    },
+    "feature_2": {
+      "title": "Bölünmüş belgeler",
+      "content": "Bölme işlemini kullanarak bir kaynak belgeyi birden çok sonuçtaki belgeye bölün."
+    },
+    "feature_3": {
+      "title": "Sayfaları taşı",
+      "content": "MovePage özelliğini kullanarak bir belgedeki sayfaları yeniden konumlandırın."
+    },
+    "feature_4": {
+      "title": "Sayfaları kaldır",
+      "content": "Kaynak belgeden tek tek sayfaları veya belirli sayfa numaraları koleksiyonunu kaldırın."
+    },
+    "feature_5": {
+      "title": "Sayfaları döndür",
+      "content": "Sayfaları Döndür işlemini kullanarak döndürme açısını 90, 180 veya 270 dereceye ayarlayarak bir belgedeki sayfaları döndürün."
+    },
+    "feature_6": {
+      "title": "Sayfaları değiştir",
+      "content": "Değiştirilen sayfa konumlarıyla yeni bir belge oluşturarak kaynak belgedeki iki sayfanın konumlarını değiştirin."
+    },
+    "feature_7": {
+      "title": "Sayfaları ayıkla",
+      "content": "Bir kaynak belgeden belirli sayfaları veya sayfa aralıklarını ayıklayarak yalnızca seçilen sayfaları içeren yeni bir belge oluşturun."
+    },
+    "feature_8": {
+      "title": "Yönü değiştir",
+      "content": "ChangeOrientation işlemini kullanarak belgenin belirli sayfaları veya tüm sayfaları için sayfa yönünü (dikey veya yatay) ayarlayın."
+    },
+    "feature_9": {
+      "title": "Önizleme sayfaları",
+      "content": "İçeriği ve yapıyı daha iyi anlamak için belge sayfalarının görüntü temsillerini oluşturun. Tüm sayfaların veya yalnızca belirli sayfaların önizlemesini yapın."
+    }
+  }
+}

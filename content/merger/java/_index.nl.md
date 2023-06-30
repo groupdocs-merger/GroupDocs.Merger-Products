@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-27T19:41:55
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -10,275 +10,239 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "API voor het samenvoegen van Java-documenten | samenvoegen en verwijderen van Word Excel PDF XPS EPUB"
-head_description: "Documenten samenvoegen API voor Java. Pagina's van PDF-, Microsoft Word-, Excel-, presentaties-, Visio-, XPS- en EPUB-indelingen samenvoegen, splitsen, verwisselen, opnieuw ordenen en verwijderen."
+head_title: "API voor het samenvoegen van Java-documenten | voeg samen en verwijder Word Excel PDF XPS EPUB"
+head_description: "Documenten die API voor Java samenvoegen. Pagina's van PDF-, Microsoft Word-, Excel-, presentatie-, Visio-, XPS- en EPUB-indelingen samenvoegen, splitsen, omwisselen, opnieuw ordenen en verwijderen."
 
 ############################# Header ############################
-title: "Java API om documenten te combineren en te splitsen"
-description: "Ontwikkel krachtige apps die pagina's, dia's en diagrammen onderweg kunnen combineren, rippen, shufflen, knippen of verwijderen."
-button:
-    enable: true
+title: "Documenten samenvoegen<br>via Java-API"
+description: "Flexibele Merger API om eenvoudig PDF- en Office-documenten te combineren, splitsen of wijzigen"
+words:
+  for: "voor"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Maven gratis downloaden"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "Licentieverlening"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "klaar om te beginnen?"
+  description: "Probeer de functies van GroupDocs.Merger gratis of vraag een licentie aan"
+
+release:
+  title: "Versie {0} uitgebracht"
+  notes: "Zie wat nieuw is"
+  downloads: "Downloaden"
+
+code:
+  title: "PDF-bestanden samenvoegen in Java"
+  more: "Meer voorbeelden"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // Laad het PDF-bronbestand
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // Voeg nog een PDF-bestand toe om samen te voegen
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overzicht"
-
-            # button loop
-            - link: "#features"
-              text: "Functies"
-
-            # button loop
-            - link: "#support"
-              text: "Steun"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Live demonstratie"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "Prijzen"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // PDF-bestanden samenvoegen en resultaat opslaan
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger voor Java stelt u in staat om snel hoogwaardige bedrijfsapplicaties in Java te ontwikkelen. Met weinig codering kunnen uw Java-toepassingen samenvoegen, rippen, shuffle, knippen en verwijderen van een enkele pagina of een batch pagina's, dia's en diagrammen. Samenvoegbewerkingen kunnen ook worden uitgevoerd op beveiligde bestanden van bekende en onbekende indeling door wachtwoordbeveiliging toe te passen of te verwijderen.  
+  enable: true
+  title: "GroupDocs.Merger in één oogopslag"
+  description: "API om documenten, dia's en diagrammen in Java-toepassingen te combineren, splitsen, verwisselen, bijsnijden of verwijderen"
+  features:
+    # feature loop
+    - title: "Voeg moeiteloos meerdere documenten samen in Java"
+      content: "Voeg eenvoudig PDF- en Office-bestanden samen tot één document in Java, gebruikmakend van de mogelijkheden van de GroupDocs.Merger-bibliotheek. Profiteer van de uitgebreide formaatondersteuning, waardoor u verschillende bestandstypen naadloos kunt combineren, wat resulteert in een handig en gestroomlijnd samenvoegingsproces."
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Hieronder volgt een overzicht van GroupDocs.Merger voor Java:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Documentbewerkingen"
-          content: |
-            * Paginavolgorde wijzigen
-            * Pagina's verwijderen of verwijderen
-            * Document splitsen of breken
-            * Twee pagina's omwisselen of in willekeurige volgorde afspelen
-            * Enkele of meerdere pagina's bijsnijden
-            * Meerdere documenten samenvoegen
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Beveiligingsoperaties"
-          content: |
-            * Documentbeveiliging instellen
-            * Controleer de documentbeveiligingsstatus
-            * Documentwachtwoord instellen
-            * Documentwachtwoord bijwerken
-            * Documentwachtwoord verwijderen
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger voor Java ondersteunt het samenvoegen van de volgende [documentbestandsindelingen](https://docs.groupdocs.com/merger/java/supported-document-formats/):
+    # feature loop
+    - title: "Stroomlijn documentbeheer door omvangrijke bestanden gemakkelijk te verdelen"
+      content: "Splits grote PDF- of Office-bestanden op in kleinere, gemakkelijk te hanteren secties. U kunt documenten eenvoudig opsplitsen op basis van specifieke pagina's, reeksen of zelfs afzonderlijke pagina's extraheren. Stroomlijn uw documentbeheer door gebruik te maken van de naadloze mogelijkheden van de GroupDocs.Merger-bibliotheek en maak uw bestanden beter georganiseerd en beheersbaar."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Woord:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Pas uw documentstructuur aan en heb volledige controle over uw bestanden"
+      content: "Manipuleer eenvoudig pagina's door ze opnieuw te ordenen, te verwisselen of te verwijderen. Organiseer en pas uw documenten aan volgens uw specifieke vereisten met de flexibiliteit om een ​​gepersonaliseerde bestandsstructuur te creëren."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument en andere indelingen"
-              content: |
-                * **OpenDocument-indelingen**: ODT, OTT, ODP, OTP, ODS
-                * **Vaste lay-out**: PDF, XPS
-                * **Afbeeldingen**: BMP, PNG, TIFF
-                * **Web**: HTML, MHT, MHTML
-                * **Tekst**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **E-boek**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platformonafhankelijkheid"
+  description: "GroupDocs.Merger voor Java ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger voor Java ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Besturingssystemen"
-              content: |
-                * Microsoft Windows-bureaublad
-                * Microsoft Windows-server
-                * Linux
-                * MacOS
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "Ondersteunde kaders"
-              content: |
-                * Java7 (1.7)
-                * Java8 (1.8)
-                * Java 10
-                * Java 11 en hoger
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Automatiseringstool bouwen"
-              content: |
-                * Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Ontwikkelomgevingen"
-              content: |
-                * NetBeans
-                * IntelliJ IDEE
-                * Verduistering
-                {tabs.tab_three.right.content_2.line_4}
-                {tabs.tab_three.right.content_2.line_5}
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Ondersteunde bestandsindelingen"
+  description: |
+    GroupDocs.Merger voor Java ondersteunt bewerkingen met de volgende [documentbestandsindelingen](https://docs.groupdocs.com/merger/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office-indelingen
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Documenten & afbeeldingen
+        * **Documenten:** PDF, XPS, TEX
+        * **Afbeeldingen:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Andere formaten
+        * **Web:**  HTML, MHTML, MHT
+        * **archieven:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger voor Java-functies"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Voeg verschillende pagina's, dia's en diagrammen samen tot één bestand"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Grote documenten rippen en splitsen in meerdere kleinere bestanden"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Shuffle en reorganiseer pagina's, dia's of diagrammen"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Wissel en verwissel twee pagina's, dia's of diagrammen met elkaar binnen een document"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Document knippen en bijsnijden door specifieke pagina's, dia's of diagrammen te verwijderen"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Verwijder enkele of verzameling pagina's, dia's of diagrammen"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Een groot aantal documenten in batches samenvoegen en samenvoegen"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Programmatisch in Java controleren of een document is beveiligd met een wachtwoord"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Wachtwoord van bekende en onbekende documentformaten instellen, resetten en verwijderen"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Splits één tekstbestand naar meerdere op regelnummers"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Afbeeldingsweergave van documentpagina's ophalen"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Meerdere documenten van verschillende formaten samenvoegen tot één enkel PDF-bestand"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "OLE-objecten invoegen in PDF-, Word-, Excel-, PowerPoint- en Open Document-indelingen"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Programmatisch bestanden toevoegen aan een PDF-document"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Document aan diagram toevoegen via OLE-objecten"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Voeg verschillende soorten documenten (DOC, XLS, PPT enz.) samen in één enkel PDF-bestand"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Importeer eenvoudig OLE-objecten in Microsoft Word-, Excel-, presentatie- en OpenDocument-bestandstypen"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Voeg andere documenten toe aan de diagrampagina via OLE-objecten"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Gewenste pagina's uit documenten verwijderen"
-        content: |
-          Met GroupDocs.Merger voor Java API kunt u ongewenste pagina's uit uw document selecteren en verwijderen.
-      
-      # more_feature_loop
-      - title: "Controleer wachtwoord van onbekend documentformaat"
-        content: "Zelfs als het formaat van een bepaald document onbekend is, stelt GroupDocs.Merger voor Java u in staat om het documentwachtwoord te controleren en op te halen, indien beschikbaar."
-
-      # more_feature_loop
-      - title: "Word lid van met een wachtwoord beveiligde documenten van bekende indelingen"
-        content: "Met GroupDocs.Merger voor Java API kunt u een lijst met documenten van bekende en onbekende formaten krijgen."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger biedt API's voor het samenvoegen van documenten voor andere populaire ontwikkelomgevingen"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger voor .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger-functies"
+  description: "Naadloos PDF- en Office-documenten samenvoegen, splitsen en manipuleren"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Combineer bestanden"
+      content: "Voeg twee of meer documenten samen tot één document, waarbij u specifieke pagina's of paginabereiken uit meerdere brondocumenten samenvoegt."
+
+    # feature loop
+    - icon: "split"
+      title: "Gesplitst document"
+      content: "Gebruik de splitsingsbewerking om een ​​brondocument op te splitsen in meerdere resulterende documenten, waardoor een efficiënte organisatie en beheer van bestanden mogelijk wordt."
+
+    # feature loop
+    - icon: "move"
+      title: "Verplaats pagina's"
+      content: "Verplaats een pagina soepel in een document door gebruik te maken van de MovePage-functie."
+
+    # feature loop
+    - icon: "remove"
+      title: "Pagina's verwijderen"
+      content: "Verwijder effectief afzonderlijke pagina's of een verzameling specifieke paginanummers uit het brondocument met de functie RemovePages."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Draai pagina's"
+      content: "Profiteer van de RotatePages-bewerking om eenvoudig pagina's in een document te roteren door de rotatiehoek op te geven als 90, 180 of 270 graden"
+
+    # feature loop
+    - icon: "swap"
+      title: "Verwissel pagina's"
+      content: "Herschik de paginavolgorde door de posities van twee pagina's binnen het brondocument uit te wisselen, waardoor een nieuw document ontstaat."
+
+    # feature loop
+    - icon: "extract"
+      title: "Pak pagina's uit"
+      content: "Genereer een nieuw document dat alleen de geselecteerde pagina's bevat door specifieke pagina's of paginabereiken uit het brondocument te extraheren."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Oriëntatie wijzigen"
+      content: "Wijzig de paginaoriëntatie (staand of liggend) voor specifieke pagina's of alle pagina's van het document door gebruik te maken van de bewerking ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Voorbeeldpagina's"
+      content: "Krijg een beter begrip van de inhoud en structuur van het document door afbeeldingsrepresentaties van de pagina's te genereren. Maak voorbeelden van alle of alleen specifieke pagina's."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Codevoorbeelden"
+  description: "Sommige use-cases van typische GroupDocs.Merger voor Java-bewerkingen"
+  items:
+    # code sample loop
+    - title: "Voeg DOCX-bestanden samen tot één document"
+      content: |
+        Met de functie [Word-documenten samenvoegen](https://docs.groupdocs.com/merger/java/merge/word/) kunt u hele DOCX-bestanden combineren tot één document door het bronbestand te laden en meer DOCX-bestanden toe te voegen en sla het samengevoegde document op. Hieronder staat een Java-codefragment dat het samenvoegproces demonstreert:
+        {{< landing/code title="Hoe DOCX-bestanden in Java samen te voegen">}}
+        ```java {style=abap}   
+        // Laad het bron-DOCX-bestand
+        Merger merger = new Merger("sample1.docx");
+        // Voeg nog een DOCX-bestand toe om samen te voegen
+        merger.join("sample2.docx");
+        // Voeg DOCX-bestanden samen en sla het resultaat op
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Splits een PDF-document op in meerdere bestanden"
+      content: |
+        Verdeel een document in meerdere bestanden met de functie [Split Document](https://docs.groupdocs.com/merger/java/split-document/) om het proces van het beheren en extraheren van specifieke secties of pagina's uit grote documenten te vereenvoudigen. Hiermee kunt u documenten opdelen in kleinere delen op basis van verschillende criteria - op paginabereik, op begin-/eindpagina's, op oneven/even paginanummers enz.
+        {{< landing/code title="Splits het document op in meerdere documenten van één pagina">}}
+        ```java {style=abap}   
+        // Splits PDF-bestand met behulp van GroupDocs.Merger voor Java API
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // Initialiseer de SplitOptions-klasse met de padindeling van de uitvoerbestanden
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // Directe fusie met invoer PDF-document
+        Merger merger = new Merger(filePath);
+
+        // Roep de splitsingsmethode aan en geef het object SplitOptions door om de resulterende documenten op te slaan
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs-producten beoordelingen"
+# description: "Geloof ons niet zomaar op ons woord. Bekijk wat andere ontwikkelaars zeggen over onze API's"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Prima service en prima producten. Ze waren buitengewoon behulpzaam en reageerden snel tijdens het implementatieproces van GroupDocs.Viewer voor .NET, en kunnen ze niet sterk genoeg aanbevelen."
+#     author: "Martin Lasarga"
+#     company: "Productmanager bij Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Na het implementeren en gebruiken van GroupDocs.Viewer voor .NET in het project lijkt het erg goed te werken. Ik heb getest met veel documenten en tot nu toe zo goed. Alles wat ik erop heb gegooid, wordt goed weergegeven en ziet er net zo goed uit als in een pdf-viewer of MS Word."
+#     author: "Mats Oudad"
+#     company: "Senior adviseur/partner bij Novanet AS"
 ---

@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Taybetmendiyên GroupDocs.Merger",
+    "description": "Belgeyên PDF û Ofîsê bi yekdengî hev bikin, parçe bikin, û manîpule bikin",
+    "feature_1": {
+      "title": "Pelên hev bikin",
+      "content": "Du an bêtir belgeyan di yek belgeyek yek de bihev bikin, rûpelên taybetî an rêzikên rûpelan ên ji gelek belgeyên çavkaniyê bibin yek."
+    },
+    "feature_2": {
+      "title": "Belge dabeş kirin",
+      "content": "Operasyona dabeşkirinê bikar bînin da ku belgeyek çavkaniyê di gelek belgeyên encam de dabeş bikin, ku organîzasyon û rêveberiya pelan bi bandor bike."
+    },
+    "feature_3": {
+      "title": "Rûpelan bigerînin",
+      "content": "Bi karanîna taybetmendiya MovePage, rûpelek di hundurê belgeyê de ji nû ve cîh bikin."
+    },
+    "feature_4": {
+      "title": "Rûpelên jêbirin",
+      "content": "Bi taybetmendiya RemovePages, rûpelên takekesî an berhevokek hejmarên rûpelên taybetî ji belgeya çavkaniyê bi bandor derxînin."
+    },
+    "feature_5": {
+      "title": "Rûpelan bizivirînin",
+      "content": "Ji operasyona RotatePages sûd werbigirin ku bi hêsanî rûpelan di hundurê belgeyê de bizivirînin û goşeya zivirînê wekî 90, 180, an 270 pileyî diyar bikin."
+    },
+    "feature_6": {
+      "title": "Rûpelan biguherînin",
+      "content": "Bi veguheztina pozîsyonên du rûpelan di nav belgeya çavkaniyê de, bi hilberandina belgeyek nû, rêzika rûpelê ji nû ve saz bikin."
+    },
+    "feature_7": {
+      "title": "Rûpelan derxînin",
+      "content": "Bi derxistina rûpelên taybetî an rêzikên rûpelan ji belgeya çavkaniyê belgeyek nû ya ku tenê rûpelên hilbijartî vedihewîne biafirînin."
+    },
+    "feature_8": {
+      "title": "Oryantasyon biguherînin",
+      "content": "Ji bo rûpelên taybetî an hemî rûpelên belgeyê bi karanîna operasyona ChangeOrientation verastiya rûpelê (portre an perestgeh) biguhezînin."
+    },
+    "feature_9": {
+      "title": "Rûpelên pêşdîtin",
+      "content": "Bi hilberandina wêneyên rûpelên wê, têgihiştinek zelal a naverok û avahiya belgeyê bistînin. Pêşdîtinên hemî an tenê rûpelên taybetî çêbikin."
+    }
+  }
+}

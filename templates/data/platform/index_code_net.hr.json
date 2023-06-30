@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Spajanje PDF datoteka u C#",
+    "more": "Više primjera",
+    "notes": "Pogledajte što je novo",
+    "comment_1": "Učitajte izvornu PDF datoteku",
+    "comment_2": "Dodajte još jednu PDF datoteku za spajanje",
+    "comment_3": "Spoji PDF datoteke i spremi rezultat"
+  }
+}

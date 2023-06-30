@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Penggabungan sepintas lalu",
+    "description": "API untuk menggabungkan, memisahkan, menukar, memangkas atau mengalih keluar dokumen, slaid dan gambar rajah dalam aplikasi .NET",
+    "feature_1": {
+      "title": "Menggabungkan berbilang dokumen dalam C# dengan mudah",
+      "description": "Gabungkan Dokumen: Menggabungkan berbilang fail PDF dan Office dengan lancar ke dalam satu dokumen, dengan sokongan untuk pelbagai format. GroupDocs.Merger untuk .NET menjadikan dokumen penggabungan pantas dan bebas kerumitan."
+    },
+    "feature_2": {
+      "title": "Permudahkan pengurusan dokumen dengan membahagikan fail besar",
+      "description": "Pisahkan fail PDF atau Office yang besar kepada bahagian yang lebih kecil dan lebih mudah diurus. GroupDocs.Merger untuk .NET membolehkan anda memisahkan dokumen berdasarkan halaman tertentu, julat atau bahkan mengekstrak halaman individu dengan mudah."
+    },
+    "feature_3": {
+      "title": "Manipulasi halaman dan sesuaikan struktur dokumen - susun semula, tukar atau alih keluar",
+      "description": "Kawal dokumen anda dengan menyusun semula halaman, mengalih keluar halaman yang tidak diingini atau menambah halaman baharu. GroupDocs.Merger untuk .NET memberi kuasa kepada anda untuk memanipulasi struktur dokumen, membolehkan anda menyesuaikan dan menyesuaikan fail anda mengikut keperluan khusus anda."
+    }
+  }
+}

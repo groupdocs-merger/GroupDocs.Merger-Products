@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API Penggabungan Dokumen Java | menggabungkan & menghapus Word Excel PDF XPS EPUB",
+    "description": "API penggabungan dokumen untuk Java. Gabungkan, pisahkan, tukar, susun ulang, dan hapus halaman format PDF, Microsoft Word, Excel, presentasi, Visio, XPS & EPUB."
+  },
+  "header": {
+    "title_1": "Menggabungkan dokumen",
+    "title_2": "melalui API Jawa",
+    "description": "API Penggabungan Fleksibel untuk menggabungkan, memisahkan, atau memodifikasi PDF dan Dokumen Office dengan mudah",
+    "words": {
+      "for": "untuk"
+    }
+  },
+  "actions": {
+    "main": "Unduh Maven Gratis",
+    "alt": "Lisensi",
+    "title": "Siap untuk memulai?",
+    "description": "Coba fitur GroupDocs.Merger secara gratis atau minta lisensi"
+  },
+  "release": {
+    "title": "Versi {0} dirilis",
+    "notes": "Lihat apa yang baru",
+    "downloads": "Download"
+  }
+}

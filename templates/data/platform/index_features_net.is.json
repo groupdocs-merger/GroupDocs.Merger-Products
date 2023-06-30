@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger eiginleikar",
+    "description": "Sameina, kljúfa og vinna með PDF og Office skjöl óaðfinnanlega",
+    "feature_1": {
+      "title": "Sameina skrár",
+      "content": "Sameina tvö eða fleiri skjöl í eitt skjal, sameina tilteknar síður eða blaðsíðubil úr mörgum upprunaskjölum."
+    },
+    "feature_2": {
+      "title": "Skiptu skjölum",
+      "content": "Skiptu upprunaskjali í mörg skjöl sem myndast með því að nota skiptingaraðgerðina."
+    },
+    "feature_3": {
+      "title": "Færa síður",
+      "content": "Breyttu síðum innan skjals með því að nota MovePage eiginleikann."
+    },
+    "feature_4": {
+      "title": "Fjarlægðu síður",
+      "content": "Fjarlægðu einstakar síður eða safn tiltekinna blaðsíðutalna úr upprunaskjalinu."
+    },
+    "feature_5": {
+      "title": "Snúa síðum",
+      "content": "Snúðu síðum innan skjals með því að stilla snúningshornið á 90, 180 eða 270 gráður með því að nota RotatePages aðgerðina."
+    },
+    "feature_6": {
+      "title": "Skiptu um síður",
+      "content": "Skiptu um stöðu tveggja síðna innan frumskjalsins, búðu til nýtt skjal með skiptum síðustöðum."
+    },
+    "feature_7": {
+      "title": "Dragðu út síður",
+      "content": "Dragðu út tilteknar síður eða blaðsíðubil úr upprunaskjali, búðu til nýtt skjal sem inniheldur aðeins valdar síður."
+    },
+    "feature_8": {
+      "title": "Breyta stefnu",
+      "content": "Stilltu síðustefnuna (andlitsmynd eða lárétt) fyrir tilteknar eða allar síður skjalsins með því að nota ChangeOrientation aðgerðina."
+    },
+    "feature_9": {
+      "title": "Forskoðunarsíður",
+      "content": "Búðu til myndbirtingar af skjalasíðum til að skilja innihald og uppbyggingu betur. Gerðu forskoðun á öllum eða bara tilteknum síðum."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Ondersteunde lêerformate",
+    "description": "GroupDocs.Merger for .NET ondersteun bedrywighede met die volgende [dokumentlêerformate](https://docs.groupdocs.com/merger/net/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office-formate",
+      "title_2": "Dokumente en beelde",
+      "title_3": "Ander formate",
+      "format_documents": "Dokumente",
+      "format_images": "Beelde",
+      "format_web": "Web",
+      "format_archives": "Argiewe"
+    }
+  }
+}

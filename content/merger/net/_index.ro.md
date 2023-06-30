@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-11-10T19:46:15
+layout: "landing"
+date: 2023-06-29T12:38:09
 draft: false
 
 product: "Merger"
@@ -14,271 +14,234 @@ head_title: "C# .NET Document Merging API | Combinați și împărțiți PDF Wor
 head_description: "API C# .NET pentru fuziunea documentelor pentru a combina, împărți, schimba sau elimina paginile documentului din PDF, Microsoft Word, Excel, prezentări, Visio și formate de imagine."
 
 ############################# Header ############################
-title: ".NET API pentru a îmbina și a împărți documente"
-description: "API pentru a combina, diviza, schimba, tăia sau elimina documente, diapozitive și diagrame în aplicațiile .NET."
-button:
-    enable: true
+title: "Îmbinați documentele<br>prin .NET API"
+description: "API de fuziune puternică pentru a manipula fișiere PDF, Microsoft Office, HTML și imagine."
+words:
+  for: "pentru"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "Descărcare gratuită NuGet"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "Licențiere"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "Sunteți gata să începeți?"
+  description: "Încercați gratuit funcțiile GroupDocs.Merger sau solicitați o licență"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Prezentare generală"
+release:
+  title: "Versiunea {0} a fost lansată"
+  notes: "Vezi ce este nou"
+  downloads: "Descărcări"
 
-            # button loop
-            - link: "#features"
-              text: "Caracteristici"
+code:
+  title: "Îmbinați fișiere PDF în C#"
+  more: "Mai multe exemple"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // Încărcați fișierul PDF sursă
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // Adăugați un alt fișier PDF pentru a îmbina
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "A sustine"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Demo live"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Prețuri"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // Îmbinați fișierele PDF și salvați rezultatul
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger pentru .NET, vă ajută să dezvoltați rapid aplicații de afaceri de top în C#, ASP.NET și alte tehnologii .NET. Doar câteva linii de cod vor permite aplicațiilor dvs. .NET să combine, să împartă, să rearanjeze, să schimbe, să decupeze și să elimine o singură pagină sau o colecție de pagini de document, diapozitive, imagini sau diagrame. Efectuați aceste operațiuni pe fișiere securizate setând sau eliminând protecția cu parolă a formatelor de fișiere cunoscute și necunoscute.  
+  enable: true
+  title: "GroupDocs.Merger dintr-o privire"
+  description: "API pentru a combina, împărți, schimba, tăia sau elimina documente, diapozitive și diagrame în aplicațiile .NET"
+  features:
+    # feature loop
+    - title: "Îmbinați fără efort mai multe documente în C#"
+      content: "Îmbinați documente: combinați fără probleme mai multe fișiere PDF și Office într-un singur document, cu suport pentru o gamă largă de formate. GroupDocs.Merger pentru .NET face îmbinarea documentelor rapidă și fără probleme."
 
-      Folosind GroupDocs.Merger pentru .NET, puteți efectua fuzionarea; divizarea și alte operațiuni conexe pe documente unice, precum și pe un lot de documente. Uniți în mod programatic fișierele din toate formatele populare, cum ar fi Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook și formate de fișiere imagine.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Mai jos este o prezentare generală a GroupDocs.Merger pentru .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Operațiuni cu documente"
-          content: |
-            * Schimbați ordinea paginilor
-            * Eliminați sau ștergeți pagini
-            * Împărțiți sau întrerupeți documentul
-            * Schimbați sau amestecați oricare două pagini
-            * Decupați pagini simple sau multiple
-            * Alăturați mai multe documente
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Operațiuni de securitate"
-          content: |
-            * Configurați securitatea documentelor
-            * Verificați starea securității documentului
-            * Setați parola documentului
-            * Actualizați parola documentului
-            * Eliminați parola documentului
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger pentru .NET acceptă îmbinarea următoarelor [formate de fișiere de document](https://docs.groupdocs.com/merger/net/supported-document-formats/):
+    # feature loop
+    - title: "Simplificați gestionarea documentelor prin împărțirea fișierelor mari"
+      content: "Împărțiți cu ușurință fișierele PDF sau Office mari în părți mai mici și mai ușor de gestionat. GroupDocs.Merger pentru .NET vă permite să împărțiți documente în funcție de anumite pagini, intervale sau chiar să extrageți pagini individuale fără efort."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Cuvânt:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Manipulați paginile și personalizați structura documentului - reordonați, schimbați sau eliminați"
+      content: "Preluați controlul asupra documentelor dvs. rearanjand paginile, eliminând pagini nedorite sau adăugând altele noi. GroupDocs.Merger pentru .NET vă permite să manipulați structura documentului, permițându-vă să personalizați și să vă adaptați fișierele în funcție de nevoile dumneavoastră specifice."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument și alte formate"
-              content: |
-                * **Formate OpenDocument**: ODT, OTT, ODP, OTP, ODS
-                * **Aspect fix**: PDF, XPS
-                * **Imagini**: BMP, PNG, TIFF
-                * **Web**: HTML, MHT, MHTML
-                * **Text**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **Ebook**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independenta platformei"
+  description: "GroupDocs.Merger pentru .NET acceptă următoarele sisteme de operare, cadre și manageri de pachete"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger pentru .NET acceptă următoarele sisteme de operare, cadre și manageri de pachete:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Sisteme de operare"
-              content: |
-                * Desktop Windows
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Cadre acceptate"
-              content: |
-                * .NET Framework 2.0 sau o versiune ulterioară
-                * Mono Framework 1.2 sau o versiune superioară
-                * .NET Standard 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Manager de pachete"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Medii de dezvoltare"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Formate de fișiere acceptate"
+  description: |
+    GroupDocs.Merger pentru .NET acceptă operațiuni cu următoarele [formate de fișiere de document](https://docs.groupdocs.com/merger/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### formatele Microsoft Office
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Documente și imagini
+        * **Documente:** PDF, XPS, TEX
+        * **Imagini:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Alte formate
+        * **Web:**  HTML, MHTML, MHT
+        * **Arhive:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger pentru funcții .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Combinați și îmbinați mai multe pagini, diapozitive și diagrame într-un singur document"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Împărțiți și împărțiți documente mari în mai multe fișiere mai mici"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Rearanjați, amestecați și reorganizați paginile, diapozitivele sau diagramele"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Schimbați și schimbați două pagini, diapozitive sau diagrame între ele în cadrul unui document"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Decupați documentul eliminând anumite pagini, diapozitive sau diagrame"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Eliminați o singură pagină sau o colecție de pagini, diapozitive sau diagrame"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Împreună un număr mare de documente în loturi"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Verificați programatic dacă un document este securizat cu parolă"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Setați, resetați și eliminați parola formatelor de document cunoscute și necunoscute"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Preluați lista de formate de fișiere acceptate – Format de fișier jurnal de divizare și îmbinare a textului (ERR)."
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Rotiți paginile și schimbați orientarea paginii formatelor cunoscute și necunoscute"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Combinați mai multe fișiere de formate diferite în DOC, DOCX și XPS"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Împărțirea fișierelor text mari după numere de rând"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Obțineți reprezentări de imagini ale paginilor documentului și formatelor familiei de diagrame"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Asociați imaginile cu culoarea de fundal pentru spațiul negru gol al imaginii"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Îmbinați diferite tipuri de documente (DOC, XLS, PPT etc.) într-un singur fișier PDF"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Importați cu ușurință obiecte OLE în tipuri de fișiere Microsoft Word, Excel, Prezentare și OpenDocument"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Adăugați alte documente la pagina diagramă prin obiecte OLE"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Eliminați paginile dorite din documente"
-        content: |
-          GroupDocs.Merger pentru .NET API vă ajută să ștergeți paginile nedorite din document.
-      
-      # more_feature_loop
-      - title: "Aplicați transformarea rezultatului redat"
-        content: "Puteți efectua diverse transformări ale documentului de ieșire randat folosind GroupDocs.Merger pentru .NET API. Aceste opțiuni de transformare vă oferă control asupra modului în care prezentați rezultatul randat pentru afișare. Transformările disponibile sunt opțiunea de rotație a paginii, opțiunea de reordonare a paginii și aplicarea filigranului de text."
-
-      # more_feature_loop
-      - title: "Verificați parola formatului de document necunoscut"
-        content: "GroupDocs.Merger pentru .NET API vă permite să verificați parola unui document al cărui format nu este cunoscut."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger oferă API-uri de îmbinare a documentelor pentru alte medii de dezvoltare populare"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger pentru Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Funcții GroupDocs.Merger"
+  description: "Îmbinați, împărțiți și manipulați fără probleme PDF și documente Office"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Îmbinați fișierele"
+      content: "Combinați două sau mai multe documente într-un singur document, îmbinând anumite pagini sau intervale de pagini din mai multe documente sursă."
+
+    # feature loop
+    - icon: "split"
+      title: "Divizarea documentelor"
+      content: "Împărțiți un document sursă în mai multe documente rezultate folosind operația de împărțire."
+
+    # feature loop
+    - icon: "move"
+      title: "Mutați paginile"
+      content: "Repoziționați paginile într-un document utilizând caracteristica MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "Eliminați paginile"
+      content: "Eliminați pagini individuale sau o colecție de numere de pagini specifice din documentul sursă."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Rotiți paginile"
+      content: "Rotiți paginile dintr-un document setând unghiul de rotație la 90, 180 sau 270 de grade utilizând operația RotatePages."
+
+    # feature loop
+    - icon: "swap"
+      title: "Schimbați paginile"
+      content: "Schimbați pozițiile a două pagini în documentul sursă, creând un nou document cu pozițiile de pagină schimbate."
+
+    # feature loop
+    - icon: "extract"
+      title: "Extrage pagini"
+      content: "Extrageți anumite pagini sau intervale de pagini dintr-un document sursă, generând un document nou care conține numai paginile selectate."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Schimbați orientarea"
+      content: "Setați orientarea paginii (portret sau peisaj) pentru anumite pagini sau pentru toate paginile documentului utilizând operația ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Previzualizează paginile"
+      content: "Generați reprezentări de imagini ale paginilor documentului pentru a înțelege mai bine conținutul și structura. Faceți previzualizări ale tuturor paginilor sau doar ale anumitor pagini."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Exemple de cod"
+  description: "Unele cazuri de utilizare ale GroupDocs.Merger tipice pentru operațiuni .NET"
+  items:
+    # code sample loop
+    - title: "Îmbinați anumite pagini de fișiere DOCX într-un singur document"
+      content: |
+        Funcția [Imbinare selectivă a paginilor](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) vă permite să extrageți și să îmbinați numai conținutul dorit din fiecare fișier. Iată un exemplu despre cum să realizați îmbinarea selectivă a paginilor folosind C#:
+        {{< landing/code title="Cum să îmbinați fișierele DOCX în C#">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // Încărcați fișierul DOCX sursă
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // Adăugați un alt fișier DOCX pentru a îmbina
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // Îmbinați fișierele DOCX și salvați rezultatul
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Împărțiți documentul PDF în mai multe fișiere"
+      content: |
+        Împărțiți eficient un document în mai multe fișiere cu funcția [Split Document](https://docs.groupdocs.com/merger/net/split-document/), care simplifică procesul de gestionare și extragere a anumitor secțiuni sau pagini din documente mari. Vă permite să împărțiți documentele în părți mai mici pe baza diferitelor criterii - după intervalul de pagini, după paginile de început/sfârșit, după numerele de pagini impare/pare etc.
+        {{< landing/code title="Cum să împărțiți documentul în mai multe documente cu mai multe pagini">}}
+        ```csharp {style=abap}   
+        // Împărțiți fișierul PDF utilizând API-ul GroupDocs.Merger
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // Inițializați clasa SplitOptions cu formatul căii fișierelor de ieșire
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // Instanțiați fuziunea cu documentul PDF de intrare
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // Apelați metoda split și treceți obiectul SplitOptions pentru a salva documentele rezultate
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Recenzii ale produselor GroupDocs"
+# description: "Nu ne credeți pe cuvânt. Vedeți ce spun alți dezvoltatori despre API-urile noastre"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Servicii excelente și produse excelente. Au fost extrem de utile și receptivi în timpul procesului de implementare GroupDocs.Viewer pentru .NET, nu le pot recomanda suficient."
+#     author: "Martin Lasarga"
+#     company: "Product Manager la Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "După implementarea și utilizarea GroupDocs.Viewer pentru .NET în proiect, se pare că funcționează foarte bine. Am testat cu multe documente și până acum e bine. Tot ceea ce am aruncat la el se redă frumos și arată la fel de bine ca într-un vizualizator PDF sau MS Word."
+#     author: "Mats Oustad"
+#     company: "Consultant Senior/Partener la Novanet AS"
 ---

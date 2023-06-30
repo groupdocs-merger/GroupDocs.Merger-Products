@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "コードサンプル",
+    "description": "Java 操作の典型的な GroupDocs.Merger の使用例",
+    "sample_1": {
+      "title": "DOCX ファイルを 1 つのドキュメントに結合する",
+      "content_1": "[Word ドキュメントの結合](https://docs.groupdocs.com/merger/java/merge/word/) 機能を使用すると、ソース ファイルをロードし、結合する DOCX ファイルをさらに追加することで、DOCX ファイル全体を 1 つのドキュメントに結合できます。をクリックし、結合されたドキュメントを保存します。",
+      "content_2": "以下は、マージ プロセスを示す Java コード スニペットです。",
+      "code_title": "Java で DOCX ファイルをマージする方法",
+      "comment_1": "ソースDOCXファイルをロードします",
+      "comment_2": "マージする別の DOCX ファイルを追加します",
+      "comment_3": "DOCX ファイルをマージし、結果を保存します"
+    },
+    "sample_2": {
+      "title": "PDF ドキュメントを複数のファイルに分割する",
+      "content_1": "[ドキュメントの分割](https://docs.groupdocs.com/merger/java/split-document/) 機能を使用してドキュメントを複数のファイルに分割すると、大きなドキュメントから特定のセクションやページを管理および抽出するプロセスが簡素化されます。",
+      "content_2": "ページ範囲別、開始ページ/終了ページ、奇数/偶数ページ番号など、さまざまな基準に基づいてドキュメントを小さな部分に分割できます。",
+      "code_title": "ドキュメントを複数の 1 ページのドキュメントに分割する",
+      "comment_1": "GroupDocs.Merger for Java API を使用して PDF ファイルを分割する",
+      "comment_2": "出力ファイルのパス形式で SplitOptions クラスを初期化する",
+      "comment_3": "入力 PDF ドキュメントを使用してマージャーをインスタンス化する",
+      "comment_4": "分割メソッドを呼び出し、SplitOptions オブジェクトを渡して結果のドキュメントを保存します"
+    }
+  }
+}

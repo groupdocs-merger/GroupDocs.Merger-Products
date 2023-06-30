@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Funciones de GroupDocs.Merger",
+    "description": "Combine, divida y manipule sin problemas documentos PDF y de Office",
+    "feature_1": {
+      "title": "Combinar archivos",
+      "content": "Combine dos o más documentos en un solo documento, fusionando páginas específicas o rangos de páginas de múltiples documentos de origen."
+    },
+    "feature_2": {
+      "title": "Dividir documentos",
+      "content": "Divida un documento de origen en varios documentos resultantes mediante la operación de división."
+    },
+    "feature_3": {
+      "title": "Mover páginas",
+      "content": "Cambie la posición de las páginas dentro de un documento utilizando la función MovePage."
+    },
+    "feature_4": {
+      "title": "Quitar páginas",
+      "content": "Elimine páginas individuales o una colección de números de página específicos del documento de origen."
+    },
+    "feature_5": {
+      "title": "Rotar páginas",
+      "content": "Gire las páginas dentro de un documento configurando el ángulo de rotación en 90, 180 o 270 grados mediante la operación Rotar páginas."
+    },
+    "feature_6": {
+      "title": "Intercambiar páginas",
+      "content": "Intercambie las posiciones de dos páginas dentro del documento de origen, creando un nuevo documento con posiciones de página intercambiadas."
+    },
+    "feature_7": {
+      "title": "Extraer páginas",
+      "content": "Extraiga páginas específicas o rangos de páginas de un documento de origen, generando un nuevo documento que contenga solo las páginas seleccionadas."
+    },
+    "feature_8": {
+      "title": "Cambiar orientación",
+      "content": "Establezca la orientación de la página (vertical u horizontal) para páginas específicas o para todas las páginas del documento mediante la operación Cambiar orientación."
+    },
+    "feature_9": {
+      "title": "Páginas de vista previa",
+      "content": "Genere representaciones de imágenes de páginas de documentos para comprender mejor el contenido y la estructura. Haz vistas previas de todas las páginas o solo de páginas específicas."
+    }
+  }
+}

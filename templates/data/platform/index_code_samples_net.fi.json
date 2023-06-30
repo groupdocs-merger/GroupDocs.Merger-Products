@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Koodinäytteet",
+    "description": "Jotkut käyttävät tyypillisiä GroupDocs.Merger-tapauksia .NET-toimintoihin",
+    "sample_1": {
+      "title": "Yhdistä tietyt DOCX-tiedostosivut yhdeksi asiakirjaksi",
+      "content_1": "[Valikoiva sivujen yhdistäminen](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) -ominaisuuden avulla voit purkaa ja yhdistää vain halutun sisällön kustakin tiedostosta.",
+      "content_2": "Tässä on esimerkki siitä, kuinka saada aikaan valikoiva sivujen yhdistäminen C#:lla:",
+      "code_title": "DOCX-tiedostojen yhdistäminen C#:ssa",
+      "comment_1": "Lataa lähde-DOCX-tiedosto",
+      "comment_2": "Lisää toinen DOCX-tiedosto yhdistettäväksi",
+      "comment_3": "Yhdistä DOCX-tiedostot ja tallenna tulos"
+    },
+    "sample_2": {
+      "title": "Jaa PDF-dokumentti useisiin tiedostoihin",
+      "content_1": "Jaa asiakirja tehokkaasti useiksi tiedostoiksi [Split Document](https://docs.groupdocs.com/merger/net/split-document/) -ominaisuuden avulla, joka yksinkertaistaa tiettyjen osioiden tai sivujen hallintaa ja purkamista suurista asiakirjoista.",
+      "content_2": "Sen avulla voit jakaa asiakirjat pienempiin osiin eri kriteerien perusteella - sivualueen, aloitus-/loppusivujen, parittomien/parillisten sivunumeroiden mukaan jne.",
+      "code_title": "Dokumentin jakaminen useiksi monisivuisiksi asiakirjoiksi",
+      "comment_1": "Jaa PDF-tiedosto GroupDocs.Merger API:n avulla",
+      "comment_2": "Alusta SplitOptions-luokka tulostiedostojen polkumuodolla",
+      "comment_3": "Instantaate fuusio syöttämällä PDF-dokumentti",
+      "comment_4": "Kutsu split-menetelmää ja välitä SplitOptions-objekti tallentaaksesi tuloksena olevat asiakirjat"
+    }
+  }
+}

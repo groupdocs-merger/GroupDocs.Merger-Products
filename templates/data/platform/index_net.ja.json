@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C# .NET ドキュメント結合 API | PDF Word Excel EPUBの結合と分割",
+    "description": "PDF、Microsoft Word、Excel、プレゼンテーション、Visio、および画像形式からドキュメント ページを結合、分割、交換、または削除するための C# .NET ドキュメント結合 API。"
+  },
+  "header": {
+    "title_1": "文書を結合する",
+    "title_2": ".NET API経由",
+    "description": "PDF、Microsoft Office、HTML、画像ファイルを操作するための強力な結合 API。",
+    "words": {
+      "for": "ために"
+    }
+  },
+  "actions": {
+    "main": "無料の NuGet ダウンロード",
+    "alt": "ライセンス",
+    "title": "始める準備はできていますか?",
+    "description": "GroupDocs.Merger の機能を無料で試すか、ライセンスをリクエストしてください"
+  },
+  "release": {
+    "title": "バージョン {0} がリリースされました",
+    "notes": "新機能を見る",
+    "downloads": "ダウンロード"
+  }
+}

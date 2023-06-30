@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Funzionalità di GroupDocs.Merger",
+    "description": "Unisci, dividi e manipola senza problemi documenti PDF e Office",
+    "feature_1": {
+      "title": "Unisci file",
+      "content": "Combina due o più documenti in un unico documento, unendo pagine specifiche o intervalli di pagine da più documenti di origine."
+    },
+    "feature_2": {
+      "title": "Dividere i documenti",
+      "content": "Dividere un documento di origine in più documenti risultanti utilizzando l'operazione di divisione."
+    },
+    "feature_3": {
+      "title": "Sposta pagine",
+      "content": "Riposiziona le pagine all'interno di un documento utilizzando la funzione MovePage."
+    },
+    "feature_4": {
+      "title": "Rimuovi le pagine",
+      "content": "Rimuovere singole pagine o una raccolta di numeri di pagina specifici dal documento di origine."
+    },
+    "feature_5": {
+      "title": "Ruota le pagine",
+      "content": "Ruotare le pagine all'interno di un documento impostando l'angolo di rotazione su 90, 180 o 270 gradi utilizzando l'operazione RotatePages."
+    },
+    "feature_6": {
+      "title": "Scambia pagine",
+      "content": "Scambia le posizioni di due pagine all'interno del documento di origine, creando un nuovo documento con posizioni di pagina scambiate."
+    },
+    "feature_7": {
+      "title": "Estrai pagine",
+      "content": "Estrai pagine o intervalli di pagine specifici da un documento di origine, generando un nuovo documento contenente solo le pagine selezionate."
+    },
+    "feature_8": {
+      "title": "Cambia orientamento",
+      "content": "Impostare l'orientamento della pagina (verticale o orizzontale) per pagine specifiche o per tutte le pagine del documento utilizzando l'operazione Modifica orientamento."
+    },
+    "feature_9": {
+      "title": "Anteprima delle pagine",
+      "content": "Genera rappresentazioni di immagini delle pagine del documento per comprendere meglio il contenuto e la struttura. Crea anteprime di tutte o solo di pagine specifiche."
+    }
+  }
+}

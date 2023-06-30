@@ -12,7 +12,9 @@
             "repoName": "NuGet",
             "repoUrl": "https://www.nuget.org/packages/groupdocs.merger",
             "url": "https://products.groupdocs.com/merger/net/",
-            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png",
+            "main_link": "https://www.nuget.org/packages/GroupDocs.Merger",
+            "alt_link": "https://purchase.groupdocs.com/pricing/merger/net"
         },
         "java": {
             "name": "Java",
@@ -26,7 +28,9 @@
             "repoName": "Maven",
             "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger",
             "url": "https://products.groupdocs.com/merger/java/",
-            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+            "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/",
+            "alt_link": "https://purchase.groupdocs.com/pricing/merger/java"
         }
     }
 }

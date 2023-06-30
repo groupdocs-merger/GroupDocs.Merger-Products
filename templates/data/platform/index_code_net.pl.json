@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Scal pliki PDF w C#",
+    "more": "Więcej przykładów",
+    "notes": "Zobacz co nowego",
+    "comment_1": "Załaduj źródłowy plik PDF",
+    "comment_2": "Dodaj kolejny plik PDF do scalenia",
+    "comment_3": "Scal pliki PDF i zapisz wynik"
+  }
+}

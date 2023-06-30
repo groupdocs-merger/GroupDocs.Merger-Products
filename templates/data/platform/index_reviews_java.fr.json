@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "Avis sur les produits GroupDocs",
+    "description": "Ne vous contentez pas de nous croire sur parole. Découvrez ce que les autres développeurs disent de nos API",
+    "review_1": {
+      "content": "Excellent service et excellents produits. Ils ont été extrêmement utiles et réactifs pendant le processus de mise en œuvre de GroupDocs.Viewer pour .NET, je ne saurais trop les recommander.",
+      "author": "Martin Lasarga",
+      "company": "Chef de produit chez Axentria ECM by G.S.I."
+    },
+    "review_2": {
+      "content": "Après avoir implémenté et utilisé GroupDocs.Viewer pour .NET dans le projet, il semble très bien fonctionner. J'ai testé avec beaucoup de documents et jusqu'ici tout va bien. Tout ce que j'y ai lancé s'affiche bien et est aussi beau que dans une visionneuse PDF ou MS Word.",
+      "author": "Tapis Oustad",
+      "company": "Consultant Senior/Partenaire chez Novanet AS"
+    }
+  }
+}

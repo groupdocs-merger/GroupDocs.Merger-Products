@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Ühendage lühidalt",
+    "description": "API dokumentide, slaidide ja diagrammide kombineerimiseks, tükeldamiseks, vahetamiseks, kärpimiseks või eemaldamiseks Java rakendustes",
+    "feature_1": {
+      "title": "Liidage Javas mitu dokumenti vaevata",
+      "description": "Ühendage PDF- ja Office'i failid hõlpsalt üheks Java-dokumendiks, kasutades ära GroupDocs.Merger teegi võimalusi. Kasutage selle ulatuslikku vormingutuge, mis võimaldab sujuvalt kombineerida erinevaid failitüüpe, mille tulemuseks on mugav ja sujuvam liitmisprotsess."
+    },
+    "feature_2": {
+      "title": "Sujuvustage dokumendihaldust, jagades mahukad failid hõlpsalt",
+      "description": "Jagage suured PDF- või Office-failid väiksemateks hõlpsasti käsitsetavateks osadeks. Saate dokumente jaotada konkreetsete lehtede, vahemike alusel või isegi üksikuid lehti hõlpsalt ja mugavalt eraldada. Muutke oma dokumendihaldust sujuvamaks, kasutades GroupDocs.Merger teegi sujuvaid võimalusi ning muutke oma failid organiseeritumaks ja hallatavamaks."
+    },
+    "feature_3": {
+      "title": "Kohandage oma dokumendi struktuuri ja omage täielikku kontrolli oma failide üle",
+      "description": "Saate lehti hõlpsalt ümber korraldada, vahetada või eemaldada. Korraldage ja kohandage oma dokumente vastavalt oma konkreetsetele vajadustele paindlikult isikupärastatud failistruktuuri loomiseks."
+    }
+  }
+}

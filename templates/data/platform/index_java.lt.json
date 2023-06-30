@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Java dokumentų sujungimo API | sujungti ir pašalinti Word Excel PDF XPS EPUB",
+    "description": "Dokumentų sujungimo API, skirta Java. Sujunkite, padalinkite, sukeiskite, pertvarkykite ir ištrinkite PDF, Microsoft Word, Excel, pristatymų, Visio, XPS ir EPUB formatų puslapius."
+  },
+  "header": {
+    "title_1": "Sujungti dokumentus",
+    "title_2": "per Java API",
+    "description": "Lanksti susijungimo API, skirta lengvai sujungti, skaidyti arba modifikuoti PDF ir „Office“ dokumentus",
+    "words": {
+      "for": "dėl"
+    }
+  },
+  "actions": {
+    "main": "Nemokamas Maven atsisiuntimas",
+    "alt": "Licencijavimas",
+    "title": "Pasiruošę pradėti?",
+    "description": "Išbandykite GroupDocs.Merger funkcijas nemokamai arba paprašykite licencijos"
+  },
+  "release": {
+    "title": "Išleista {0} versija",
+    "notes": "Pažiūrėkite, kas naujo",
+    "downloads": "Atsisiuntimai"
+  }
+}

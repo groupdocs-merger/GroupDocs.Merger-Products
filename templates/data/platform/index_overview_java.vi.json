@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "Tổng quan về GroupDocs.Sáp nhập",
+    "description": "API để kết hợp, tách, hoán đổi, cắt hoặc xóa tài liệu, trang trình bày và sơ đồ trong các ứng dụng Java",
+    "feature_1": {
+      "title": "Dễ dàng hợp nhất nhiều tài liệu trong Java",
+      "description": "Dễ dàng hợp nhất các tệp PDF và Office vào một tài liệu duy nhất trong Java, tận dụng khả năng của thư viện GroupDocs.Merger. Hưởng lợi từ hỗ trợ định dạng mở rộng của nó, cho phép bạn kết hợp liền mạch nhiều loại tệp khác nhau, dẫn đến quy trình hợp nhất thuận tiện và hợp lý."
+    },
+    "feature_2": {
+      "title": "Hợp lý hóa việc quản lý tài liệu bằng cách chia nhỏ các tệp cồng kềnh một cách dễ dàng",
+      "description": "Tách các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ dàng xử lý. Bạn có thể phân chia tài liệu dựa trên các trang, phạm vi cụ thể hoặc thậm chí trích xuất các trang riêng lẻ một cách dễ dàng và thuận tiện. Hợp lý hóa việc quản lý tài liệu của bạn bằng cách sử dụng các khả năng liền mạch của thư viện GroupDocs.Merger và làm cho các tệp của bạn trở nên ngăn nắp và dễ quản lý hơn."
+    },
+    "feature_3": {
+      "title": "Tùy chỉnh cấu trúc tài liệu của bạn và có toàn quyền kiểm soát các tệp của bạn",
+      "description": "Dễ dàng thao tác các trang bằng cách sắp xếp lại thứ tự, hoán đổi hoặc xóa chúng. Sắp xếp và điều chỉnh tài liệu của bạn theo yêu cầu cụ thể của bạn với sự linh hoạt để tạo cấu trúc tệp được cá nhân hóa."
+    }
+  }
+}

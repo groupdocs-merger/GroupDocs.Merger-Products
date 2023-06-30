@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Koodi näidised",
+    "description": "Mõned kasutavad tüüpilisi GroupDocs.Merger Java toiminguid",
+    "sample_1": {
+      "title": "Ühendage DOCX-failid üheks dokumendiks",
+      "content_1": "Funktsiooniga [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) saate ühendada terved DOCX-failid üheks dokumendiks, laadides lähtefaili ja lisades liitumiseks rohkem DOCX-faile ja ühendatud dokumendi salvestamine.",
+      "content_2": "Allpool on Java koodilõik, mis demonstreerib ühendamisprotsessi:",
+      "code_title": "Kuidas Java-s DOCX-faile liita",
+      "comment_1": "Laadige DOCX-i lähtefail",
+      "comment_2": "Lisage ühendamiseks veel üks DOCX-fail",
+      "comment_3": "Ühendage DOCX-failid ja salvestage tulemus"
+    },
+    "sample_2": {
+      "title": "Jagage PDF-dokument mitmeks failiks",
+      "content_1": "Jagage dokument mitmeks failiks funktsiooniga [Dokumendi poolitamine](https://docs.groupdocs.com/merger/java/split-document/), et lihtsustada suurtest dokumentidest konkreetsete jaotiste või lehtede haldamist ja eraldamist.",
+      "content_2": "See võimaldab jagada dokumente väiksemateks osadeks erinevate kriteeriumide alusel – leheküljevahemiku, algus-/lõpulehekülgede, paaritu/paaritud leheküljenumbrite jne järgi.",
+      "code_title": "Jagage dokument mitmeks üheleheküljeliseks dokumendiks",
+      "comment_1": "PDF-faili jagamine, kasutades GroupDocs.Merger for Java API",
+      "comment_2": "Initsialiseerige SplitOptions klass väljundfailide teevorminguga",
+      "comment_3": "Ühenda koheselt sisestatud PDF-dokumendiga",
+      "comment_4": "Helistage split-meetodile ja edastage saadud dokumentide salvestamiseks objekt SplitOptions"
+    }
+  }
+}

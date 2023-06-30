@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger funkcijas",
+    "description": "Nemanāmi sapludiniet, sadaliet un manipulējiet ar PDF un Office dokumentiem",
+    "feature_1": {
+      "title": "Apvienot failus",
+      "content": "Apvienojiet divus vai vairākus dokumentus vienā dokumentā, sapludinot noteiktas lapas vai lappušu diapazonus no vairākiem avota dokumentiem."
+    },
+    "feature_2": {
+      "title": "Sadalīt dokumentus",
+      "content": "Sadaliet avota dokumentu vairākos iegūtajos dokumentos, izmantojot sadalīšanas darbību."
+    },
+    "feature_3": {
+      "title": "Pārvietot lapas",
+      "content": "Pārvietojiet lapas dokumentā, izmantojot funkciju MovePage."
+    },
+    "feature_4": {
+      "title": "Noņemiet lapas",
+      "content": "No avota dokumenta noņemiet atsevišķas lapas vai noteiktu lappušu numuru kolekciju."
+    },
+    "feature_5": {
+      "title": "Pagriezt lapas",
+      "content": "Pagrieziet lapas dokumentā, iestatot pagriešanas leņķi uz 90, 180 vai 270 grādiem, izmantojot darbību RotatePages."
+    },
+    "feature_6": {
+      "title": "Apmainīt lapas",
+      "content": "Apmainieties ar divu lappušu pozīcijām avota dokumentā, izveidojot jaunu dokumentu ar apmainītām lappušu pozīcijām."
+    },
+    "feature_7": {
+      "title": "Izvilkt lapas",
+      "content": "Izņemiet noteiktas lapas vai lappušu diapazonus no avota dokumenta, ģenerējot jaunu dokumentu, kurā ir tikai atlasītās lapas."
+    },
+    "feature_8": {
+      "title": "Mainiet orientāciju",
+      "content": "Iestatiet lapas orientāciju (portrets vai ainava) noteiktām vai visām dokumenta lapām, izmantojot darbību ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Priekšskatīt lapas",
+      "content": "Ģenerējiet dokumentu lapu attēlus, lai labāk izprastu saturu un struktūru. Veiciet visu vai tikai noteiktu lapu priekšskatījumus."
+    }
+  }
+}

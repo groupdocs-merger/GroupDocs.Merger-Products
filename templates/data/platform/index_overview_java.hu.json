@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger egy pillanat alatt",
+    "description": "API dokumentumok, diák és diagramok kombinálásához, felosztásához, cseréjéhez, vágásához vagy eltávolításához Java alkalmazásokban",
+    "feature_1": {
+      "title": "Könnyedén egyesíthet több dokumentumot Java nyelven",
+      "description": "Egyszerűen egyesítse a PDF- és az Office-fájlokat egyetlen dokumentummá Java nyelven, kihasználva a GroupDocs.Merger könyvtár képességeit. Használja ki a kiterjedt formátumtámogatás előnyeit, amely lehetővé teszi a különböző fájltípusok zökkenőmentes kombinálását, ami kényelmes és egyszerűsített egyesítési folyamatot eredményez."
+    },
+    "feature_2": {
+      "title": "Egyszerűsítse a dokumentumkezelést a terjedelmes fájlok egyszerű felosztásával",
+      "description": "Ossza fel a nagy PDF- vagy Office-fájlokat kisebb, könnyen kezelhető részekre. A dokumentumokat konkrét oldalak, tartományok alapján oszthatja fel, vagy akár egyedi oldalakat is kivonhat könnyedén és kényelmesen. Egyszerűsítse dokumentumkezelését a GroupDocs.Merger könyvtár zökkenőmentes képességeinek kihasználásával, és tegye fájljait szervezettebbé és kezelhetőbbé."
+    },
+    "feature_3": {
+      "title": "Testreszabhatja dokumentumszerkezetét, és teljes mértékben irányíthatja fájljait",
+      "description": "Könnyen kezelheti az oldalakat átrendezéssel, cserével vagy eltávolításukkal. Rendszerezze és szabja személyre szabott dokumentumait egyedi igényei szerint, rugalmasan személyre szabott fájlstruktúrát hozzon létre."
+    }
+  }
+}

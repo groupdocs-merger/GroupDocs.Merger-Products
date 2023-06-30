@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger in één oogopslag",
+    "description": "API om documenten, dia's en diagrammen in Java-toepassingen te combineren, splitsen, verwisselen, bijsnijden of verwijderen",
+    "feature_1": {
+      "title": "Voeg moeiteloos meerdere documenten samen in Java",
+      "description": "Voeg eenvoudig PDF- en Office-bestanden samen tot één document in Java, gebruikmakend van de mogelijkheden van de GroupDocs.Merger-bibliotheek. Profiteer van de uitgebreide formaatondersteuning, waardoor u verschillende bestandstypen naadloos kunt combineren, wat resulteert in een handig en gestroomlijnd samenvoegingsproces."
+    },
+    "feature_2": {
+      "title": "Stroomlijn documentbeheer door omvangrijke bestanden gemakkelijk te verdelen",
+      "description": "Splits grote PDF- of Office-bestanden op in kleinere, gemakkelijk te hanteren secties. U kunt documenten eenvoudig opsplitsen op basis van specifieke pagina's, reeksen of zelfs afzonderlijke pagina's extraheren. Stroomlijn uw documentbeheer door gebruik te maken van de naadloze mogelijkheden van de GroupDocs.Merger-bibliotheek en maak uw bestanden beter georganiseerd en beheersbaar."
+    },
+    "feature_3": {
+      "title": "Pas uw documentstructuur aan en heb volledige controle over uw bestanden",
+      "description": "Manipuleer eenvoudig pagina's door ze opnieuw te ordenen, te verwisselen of te verwijderen. Organiseer en pas uw documenten aan volgens uw specifieke vereisten met de flexibiliteit om een ​​gepersonaliseerde bestandsstructuur te creëren."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Značajke GroupDocs.Merger",
+    "description": "Besprijekorno spajajte, dijelite i manipulirajte PDF i Office dokumentima",
+    "feature_1": {
+      "title": "Kombinirajte datoteke",
+      "content": "Spojite dva ili više dokumenata u jedan dokument, spajanjem određenih stranica ili raspona stranica iz više izvornih dokumenata."
+    },
+    "feature_2": {
+      "title": "Split dokument",
+      "content": "Upotrijebite operaciju dijeljenja da biste izvorni dokument podijelili na više rezultirajućih dokumenata, omogućujući učinkovitu organizaciju i upravljanje datotekama."
+    },
+    "feature_3": {
+      "title": "Premjesti stranice",
+      "content": "Glatko premjestite stranicu unutar dokumenta korištenjem značajke MovePage."
+    },
+    "feature_4": {
+      "title": "Ukloni stranice",
+      "content": "Učinkovito uklonite pojedinačne stranice ili skup određenih brojeva stranica iz izvornog dokumenta pomoću značajke RemovePages."
+    },
+    "feature_5": {
+      "title": "Rotirajte stranice",
+      "content": "Iskoristite prednosti operacije RotatePages za jednostavno rotiranje stranica unutar dokumenta određivanjem kuta rotacije od 90, 180 ili 270 stupnjeva"
+    },
+    "feature_6": {
+      "title": "Zamijenite stranice",
+      "content": "Preuredite redoslijed stranica izmjenom položaja dviju stranica unutar izvornog dokumenta, stvarajući novi dokument."
+    },
+    "feature_7": {
+      "title": "Ekstrakt stranica",
+      "content": "Generirajte novi dokument koji sadrži samo odabrane stranice izdvajanjem određenih stranica ili raspona stranica iz izvornog dokumenta."
+    },
+    "feature_8": {
+      "title": "Promijenite orijentaciju",
+      "content": "Promijenite orijentaciju stranice (portret ili pejzaž) za određene stranice ili sve stranice dokumenta korištenjem operacije ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Pregledajte stranice",
+      "content": "Steknite jasnije razumijevanje sadržaja i strukture dokumenta generiranjem slikovnih prikaza njegovih stranica. Napravite preglede svih ili samo određenih stranica."
+    }
+  }
+}

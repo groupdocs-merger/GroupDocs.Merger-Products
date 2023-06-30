@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "تنسيقات الملفات المدعومة",
+    "description": "يدعم GroupDocs.Merger for .NET [تنسيقات ملفات المستندات](https://docs.groupdocs.com/merger/net/supported-document-formats/) العمليات باستخدام  التالية",
+    "groups": {
+      "title_1": "تنسيقات Microsoft Office",
+      "title_2": "المستندات والصور",
+      "title_3": "تنسيقات أخرى",
+      "format_documents": "وثائق",
+      "format_images": "الصور",
+      "format_web": "الويب",
+      "format_archives": "أرشيف"
+    }
+  }
+}

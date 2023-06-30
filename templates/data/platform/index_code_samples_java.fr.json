@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Exemples de code",
+    "description": "Quelques cas d'utilisation d'opérations typiques de GroupDocs.Merger pour Java",
+    "sample_1": {
+      "title": "Fusionner des fichiers DOCX en un seul document",
+      "content_1": "Avec la fonction [Fusionner des documents Word](https://docs.groupdocs.com/merger/java/merge/word/), vous pouvez combiner des fichiers DOCX entiers en un seul document en chargeant le fichier source, en ajoutant d'autres fichiers DOCX à joindre , et enregistrez le document fusionné.",
+      "content_2": "Vous trouverez ci-dessous un extrait de code Java illustrant le processus de fusion :",
+      "code_title": "Comment fusionner des fichiers DOCX en Java",
+      "comment_1": "Charger le fichier DOCX source",
+      "comment_2": "Ajouter un autre fichier DOCX à fusionner",
+      "comment_3": "Fusionner les fichiers DOCX et enregistrer le résultat"
+    },
+    "sample_2": {
+      "title": "Diviser le document PDF en plusieurs fichiers",
+      "content_1": "Divisez un document en plusieurs fichiers avec la fonction [Split Document](https://docs.groupdocs.com/merger/java/split-document/) pour simplifier le processus de gestion et d'extraction de sections ou de pages spécifiques à partir de documents volumineux.",
+      "content_2": "Il vous permet de diviser les documents en parties plus petites en fonction de divers critères - par plage de pages, par pages de début/fin, par numéros de page pairs/impairs, etc.",
+      "code_title": "Fractionner le document en plusieurs documents d'une page",
+      "comment_1": "Fractionner un fichier PDF à l'aide de GroupDocs.Merger pour l'API Java",
+      "comment_2": "Initialiser la classe SplitOptions avec le format de chemin des fichiers de sortie",
+      "comment_3": "Instancier la fusion avec le document PDF d'entrée",
+      "comment_4": "Appelez la méthode split et passez l'objet SplitOptions pour enregistrer les documents résultants"
+    }
+  }
+}

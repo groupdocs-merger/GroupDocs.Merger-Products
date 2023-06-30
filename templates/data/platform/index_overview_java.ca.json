@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger d'un cop d'ull",
+    "description": "API per combinar, dividir, intercanviar, retallar o eliminar documents, diapositives i diagrames en aplicacions Java",
+    "feature_1": {
+      "title": "Combina sense esforç diversos documents a Java",
+      "description": "Combina fàcilment fitxers PDF i Office en un sol document a Java, aprofitant les capacitats de la biblioteca GroupDocs.Merger. Beneficieu-vos del seu ampli suport de format, que us permet combinar sense problemes diversos tipus de fitxers, donant lloc a un procés de fusió còmode i simplificat."
+    },
+    "feature_2": {
+      "title": "Racionalitzeu la gestió de documents dividint fàcilment fitxers voluminosos",
+      "description": "Dividiu fitxers PDF o Office grans en seccions més petites i fàcils de manejar. Podeu dividir documents en funció de pàgines, intervals específics o fins i tot extreure pàgines individuals amb facilitat i comoditat. Optimitzeu la vostra gestió de documents utilitzant les capacitats perfectes de la biblioteca GroupDocs.Merger i feu que els vostres fitxers siguin més organitzats i gestionables."
+    },
+    "feature_3": {
+      "title": "Personalitzeu l'estructura del vostre document i tingueu control total sobre els vostres fitxers",
+      "description": "Manipuleu pàgines fàcilment reordenant-les, canviant-les o eliminant-les. Organitzeu i adapteu els vostres documents segons els vostres requisits específics amb la flexibilitat de crear una estructura de fitxers personalitzada."
+    }
+  }
+}

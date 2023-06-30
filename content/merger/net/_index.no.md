@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-11-11T20:00:42
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,234 @@ head_title: "C# .NET Document Merging API | Kombiner og del PDF Word Excel EPUB"
 head_description: "C# .NET dokumentsammenslåings-API for å kombinere, dele, bytte eller fjerne dokumentsider fra PDF, Microsoft Word, Excel, presentasjoner, Visio og bildeformater."
 
 ############################# Header ############################
-title: ".NET API for å slå sammen og dele dokumenter"
-description: "API for å kombinere, dele, bytte, trimme eller fjerne dokumenter, lysbilder og diagrammer i .NET-applikasjoner."
-button:
-    enable: true
+title: "Slå sammen dokumenter<br>via .NET API"
+description: "Kraftig fusjons-API for å manipulere PDF-, Microsoft Office-, HTML- og bildefiler."
+words:
+  for: "til"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "Gratis nedlasting av NuGet"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "Lisensering"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "Klar til å komme i gang?"
+  description: "Prøv GroupDocs.Merger-funksjonene gratis eller be om en lisens"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Oversikt"
+release:
+  title: "Versjon {0} utgitt"
+  notes: "Se hva som er nytt"
+  downloads: "Nedlastinger"
 
-            # button loop
-            - link: "#features"
-              text: "Funksjoner"
+code:
+  title: "Slå sammen PDF-filer i C#"
+  more: "Flere eksempler"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // Last inn kilde-PDF-filen
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // Legg til en annen PDF-fil for å slå sammen
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "Brukerstøtte"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Prissetting"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // Slå sammen PDF-filer og lagre resultatet
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger for .NET, hjelper deg med å raskt utvikle førsteklasses forretningsapplikasjoner i C#, ASP.NET og andre .NET-teknologier. Bare noen få linjer med kode vil gjøre det mulig for .NET-applikasjonene dine å kombinere, dele, omorganisere, bytte, trimme og fjerne enkeltside eller en samling dokumentsider, lysbilder, bilder eller diagrammer. Utfør disse operasjonene på sikre filer ved å angi eller fjerne passordbeskyttelse for kjente og ukjente filformater.  
+  enable: true
+  title: "GroupDocs.Merger på et øyeblikk"
+  description: "API for å kombinere, dele, bytte, trimme eller fjerne dokumenter, lysbilder og diagrammer i .NET-applikasjoner"
+  features:
+    # feature loop
+    - title: "Slå enkelt sammen flere dokumenter i C#"
+      content: "Slå sammen dokumenter: Kombiner sømløst flere PDF- og Office-filer til ett enkelt dokument, med støtte for et bredt spekter av formater. GroupDocs.Merger for .NET gjør dokumentsammenslåing rask og problemfri."
 
-      Ved å bruke GroupDocs.Merger for .NET kan du utføre sammenslåing; splitting og andre relaterte operasjoner på enkeltdokumenter samt et parti med dokumenter. Sy sammen filer av alle populære formater, for eksempel Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook og bildefilformater.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Følgende er en oversikt over GroupDocs.Merger for .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Dokumentoperasjoner"
-          content: |
-            * Endre siderekkefølge
-            * Fjern eller slett sider
-            * Del eller bryte dokumentet
-            * Bytt eller bland to sider
-            * Trim én eller flere sider
-            * Slå sammen flere dokumenter
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Sikkerhetsoperasjoner"
-          content: |
-            * Sett opp dokumentsikkerhet
-            * Sjekk dokumentets sikkerhetsstatus
-            * Angi dokumentpassord
-            * Oppdater dokumentpassordet
-            * Fjern dokumentpassordet
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger for .NET støtter sammenslåing av følgende [dokumentfilformater](https://docs.groupdocs.com/merger/net/supported-document-formats/):
+    # feature loop
+    - title: "Forenkle dokumentbehandlingen ved å dele store filer"
+      content: "Del opp store PDF- eller Office-filer i mindre, mer håndterbare deler på en enkel måte. GroupDocs.Merger for .NET lar deg dele dokumenter basert på spesifikke sider, områder, eller til og med trekke ut individuelle sider uten problemer."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** EN
+    # feature loop
+    - title: "Manipuler sider og tilpass dokumentstrukturen - omorganiser, bytt eller fjern"
+      content: "Ta kontroll over dokumentene dine ved å omorganisere sider, fjerne uønskede sider eller legge til nye. GroupDocs.Merger for .NET gir deg mulighet til å manipulere dokumentstrukturen, slik at du kan tilpasse og skreddersy filene dine etter dine spesifikke behov."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument og andre formater"
-              content: |
-                * **OpenDocument-formater**: ODT, OTT, ODP, OTP, ODS
-                * **Fast layout**: PDF, XPS
-                * **Bilder**: BMP, PNG, TIFF
-                * **Nett**: HTML, MHT, MHTML
-                * **Tekst**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **E-bok**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Plattformuavhengighet"
+  description: "GroupDocs.Merger for .NET støtter følgende operativsystemer, rammeverk og pakkeforvaltere"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger for .NET støtter følgende operativsystemer, rammeverk og pakkeadministratorer:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operativsystemer"
-              content: |
-                * Windows skrivebord
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Støttede rammer"
-              content: |
-                * .NET Framework 2.0 eller høyere
-                * Mono Framework 1.2 eller høyere
-                * .NET Standard 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Pakkebehandler"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Utviklingsmiljøer"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Støttede filformater"
+  description: |
+    GroupDocs.Merger for .NET støtter operasjoner med følgende [dokumentfilformater](https://docs.groupdocs.com/merger/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office-formater
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Dokumenter og bilder
+        * **Dokumenter:** PDF, XPS, TEX
+        * **Bilder:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Andre formater
+        * **Web:**  HTML, MHTML, MHT
+        * **Arkiv:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger for .NET-funksjoner"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Kombiner og slå sammen flere sider, lysbilder og diagrammer til ett enkelt dokument"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Del og del store dokumenter i flere mindre filer"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Omorganiser, bland og omorganiser sider, lysbilder eller diagrammer"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Bytt og bytt ut to sider, lysbilder eller diagrammer med hverandre i et dokument"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Trim dokumentet ved å fjerne bestemte sider, lysbilder eller diagrammer"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Fjern enkelt eller samling av sider, lysbilder eller diagrammer"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Sy sammen et stort antall dokumenter i grupper"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Kontroller automatisk om et dokument er sikret med passord"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Sett, tilbakestill og fjern passord for kjente og ukjente dokumentformater"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Hent liste over støttede filformater – Del og slå sammen tekst (ERR) loggfilformat"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Roter sider og endre sideretning for kjente og ukjente formater"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Kombiner flere filer i forskjellige formater til DOC, DOCX og XPS"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Splitting av store tekstfiler etter linjetall"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Skaff bilderepresentasjoner av dokumentsider og diagramfamilieformater"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Slå sammen bilder med bakgrunnsfarge for tom svart bildeplass"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Slå sammen ulike typer dokumenter (DOC, XLS, PPT osv.) til en enkelt PDF-fil"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Importer enkelt OLE-objekter til filtypene Microsoft Word, Excel, Presentation og OpenDocument"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Legg til andre dokumenter på diagramsiden via OLE-objekter"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Fjern ønskede sider fra dokumenter"
-        content: |
-          GroupDocs.Merger for .NET API hjelper deg med å slette uønskede sider fra dokumentet ditt.
-      
-      # more_feature_loop
-      - title: "Bruk transformasjon på gjengitt utgang"
-        content: "Du kan utføre ulike transformasjoner til det gjengitte utdatadokumentet ved å bruke GroupDocs.Merger for .NET API. Disse transformasjonsalternativene gir deg kontroll over måten du presenterer det gjengitte resultatet for visning. De tilgjengelige transformasjonene er alternativ for siderotering, alternativ for siderekkefølge og bruk av tekstvannmerke."
-
-      # more_feature_loop
-      - title: "Sjekk passord for ukjent dokumentformat"
-        content: "GroupDocs.Merger for .NET API lar deg sjekke passordet til et dokument hvis format ikke er kjent."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger tilbyr API-er for dokumentsammenslåing for andre populære utviklingsmiljøer"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger-funksjoner"
+  description: "Slå sømløst sammen, del og manipuler PDF- og Office-dokumenter"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Slå sammen filer"
+      content: "Kombiner to eller flere dokumenter til ett enkelt dokument, og slå sammen bestemte sider eller sideområder fra flere kildedokumenter."
+
+    # feature loop
+    - icon: "split"
+      title: "Del opp dokumenter"
+      content: "Del et kildedokument i flere resulterende dokumenter ved å bruke split-operasjonen."
+
+    # feature loop
+    - icon: "move"
+      title: "Flytt sider"
+      content: "Flytt sider i et dokument ved å bruke MovePage-funksjonen."
+
+    # feature loop
+    - icon: "remove"
+      title: "Fjern sider"
+      content: "Fjern individuelle sider eller en samling av spesifikke sidetall fra kildedokumentet."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Roter sider"
+      content: "Roter sider i et dokument ved å sette rotasjonsvinkelen til 90, 180 eller 270 grader ved å bruke RotatePages-operasjonen."
+
+    # feature loop
+    - icon: "swap"
+      title: "Bytt sider"
+      content: "Bytt ut posisjonene til to sider i kildedokumentet, og lag et nytt dokument med byttet sideposisjon."
+
+    # feature loop
+    - icon: "extract"
+      title: "Trekk ut sider"
+      content: "Trekk ut bestemte sider eller sideområder fra et kildedokument, og generer et nytt dokument som bare inneholder de valgte sidene."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Endre orientering"
+      content: "Still inn sideretningen (stående eller liggende) for spesifikke eller alle sider i dokumentet ved å bruke ChangeOrientation-operasjonen."
+
+    # feature loop
+    - icon: "preview"
+      title: "Forhåndsvis sider"
+      content: "Generer bilderepresentasjoner av dokumentsider for å forstå innholdet og strukturen bedre. Lag forhåndsvisninger av alle eller bare bestemte sider."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Kodeprøver"
+  description: "Noen bruker tilfeller av typiske GroupDocs.Merger for .NET-operasjoner"
+  items:
+    # code sample loop
+    - title: "Slå sammen spesifikke DOCX-filsider til ett enkelt dokument"
+      content: |
+        Funksjonen [Selective Page Merge](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) lar deg trekke ut og slå sammen bare ønsket innhold fra hver fil. Her er et eksempel på hvordan du oppnår selektiv sidesammenslåing ved hjelp av C#:
+        {{< landing/code title="Hvordan slå sammen DOCX-filer i C#">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // Last inn kilde DOCX-filen
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // Legg til en annen DOCX-fil for å slå sammen
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // Slå sammen DOCX-filer og lagre resultatet
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Del PDF-dokument i flere filer"
+      content: |
+        Del et dokument effektivt opp i flere filer med funksjonen [Split Document](https://docs.groupdocs.com/merger/net/split-document/) som forenkler prosessen med å administrere og trekke ut spesifikke seksjoner eller sider fra store dokumenter. Den lar deg dele opp dokumenter i mindre deler basert på ulike kriterier – etter sideområde, etter start-/sluttsider, etter oddetall/partall, etc.
+        {{< landing/code title="Hvordan dele opp dokumentet til flere flersidige dokumenter">}}
+        ```csharp {style=abap}   
+        // Del PDF-fil ved hjelp av GroupDocs.Merger API
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // Initialiser SplitOptions-klassen med utdatafilbaneformat
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // Instantér sammenslåing med PDF-dokument
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // Ring split-metoden og send SplitOptions-objektet for å lagre resulterende dokumenter
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs produktanmeldelser"
+# description: "Ikke bare ta vårt ord for det. Se hva andre utviklere sier om API-ene våre"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Utmerket service og gode produkter. De var ekstremt hjelpsomme og lydhøre under implementeringsprosessen for GroupDocs.Viewer for .NET, kan ikke anbefale dem høyt nok."
+#     author: "Martin Lasarga"
+#     company: "Produktsjef hos Axentria ECM av G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Etter å ha implementert og brukt GroupDocs.Viewer for .NET i prosjektet ser det ut til å fungere veldig bra. Jeg har testet med mange dokumenter og så langt så bra. Alt jeg har kastet på det, gjengis pent og ser like bra ut som det ville gjort i en PDF-visning eller MS Word."
+#     author: "Mats Oustad"
+#     company: "Seniorkonsulent/Partner i Novanet AS"
 ---

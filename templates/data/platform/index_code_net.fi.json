@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Yhdistä PDF-tiedostoja C#:ssa",
+    "more": "Lisää esimerkkejä",
+    "notes": "Katso mitä uutta",
+    "comment_1": "Lataa lähde PDF-tiedosto",
+    "comment_2": "Lisää toinen PDF-tiedosto yhdistettäväksi",
+    "comment_3": "Yhdistä PDF-tiedostoja ja tallenna tulos"
+  }
+}

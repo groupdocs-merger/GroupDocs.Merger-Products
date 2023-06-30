@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-31T14:25:27
+layout: "landing"
+date: 2023-06-29T12:38:09
 draft: false
 
 product: "Merger"
@@ -14,271 +14,235 @@ head_title: "API za spajanje dokumentov Java | združi in odstrani Word Excel PD
 head_description: "API za združevanje dokumentov za Javo. Združite, razdelite, zamenjajte, preuredite in izbrišite strani formatov PDF, Microsoft Word, Excel, predstavitev, Visio, XPS in EPUB."
 
 ############################# Header ############################
-title: "Java API za združevanje in razdelitev dokumentov"
-description: "Razvijte visoko zmogljive aplikacije, ki lahko združujejo, kopirajo, mešajo, režejo ali brišejo strani, diapozitive in diagrame na poti."
-button:
-    enable: true
+title: "Združi dokumente<br>preko Java API"
+description: "Prilagodljiv API za združevanje za preprosto združevanje, razdelitev ali spreminjanje dokumentov PDF in Office"
+words:
+  for: "za"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Brezplačen prenos Maven"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
+  alt: "Licenciranje"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  title: "Ste pripravljeni začeti?"
+  description: "Brezplačno preizkusite funkcije GroupDocs.Merger ali zahtevajte licenco"
+
+release:
+  title: "Izdana različica {0}"
+  notes: "Oglejte si, kaj je novega"
+  downloads: "Prenosi"
+
+code:
+  title: "Združite datoteke PDF v Javi"
+  more: "Več primerov"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-merger</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // Naložite izvorno datoteko PDF
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Merger for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-        product: "GroupDocs.Merger"
-        platform: "Java"
+    // Dodajte drugo datoteko PDF za združitev
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Pregled"
-
-            # button loop
-            - link: "#features"
-              text: "Lastnosti"
-
-            # button loop
-            - link: "#support"
-              text: "Podpora"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Demo v živo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/java"
-              text: "Cenitev"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // Združite datoteke PDF in shranite rezultat
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger za Javo vam omogoča hiter razvoj vrhunskih poslovnih aplikacij v Javi. Z malo kodiranja lahko vaše aplikacije Java združujejo, kopirajo, mešajo, izrezujejo in brišejo eno stran ali skupino strani, diapozitivov in diagramov. Operacije združevanja je mogoče izvesti tudi na varnih datotekah znane in neznane oblike z uporabo ali odstranitvijo zaščite z geslom.  
+  enable: true
+  title: "GroupDocs.Merger na prvi pogled"
+  description: "API za združevanje, razdelitev, zamenjavo, obrezovanje ali odstranjevanje dokumentov, diapozitivov in diagramov v aplikacijah Java"
+  features:
+    # feature loop
+    - title: "Brez težav združite več dokumentov v Javi"
+      content: "Preprosto združite datoteke PDF in Office v en sam dokument v Javi, pri čemer izkoristite zmogljivosti knjižnice GroupDocs.Merger. Izkoristite obsežno podporo za formate, ki vam omogoča brezhibno kombiniranje različnih vrst datotek, kar ima za posledico priročen in poenostavljen postopek združevanja."
 
-      
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Sledi pregled GroupDocs.Merger za Javo:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Dokumentne operacije"
-          content: |
-            * Spremenite vrstni red strani
-            * Odstrani ali izbriši strani
-            * Razdeli ali prelomi dokument
-            * Zamenjajte ali premešajte poljubni dve strani
-            * Obrežite eno ali več strani
-            * Združi več dokumentov
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Varnostne operacije"
-          content: |
-            * Nastavite varnost dokumenta
-            * Preverite varnostni status dokumenta
-            * Nastavite geslo za dokument
-            * Posodobite geslo za dokument
-            * Odstrani geslo za dokument
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger za Javo podpira združevanje naslednjih [oblik datotek dokumentov](https://docs.groupdocs.com/merger/java/supported-document-formats/):
+    # feature loop
+    - title: "Poenostavite upravljanje dokumentov z enostavno razdelitvijo obsežnih datotek"
+      content: "Velike datoteke PDF ali Office razdelite na manjše dele, ki jih je enostavno upravljati. Dokumente lahko razdelite na podlagi določenih strani, obsegov ali celo izvlečete posamezne strani z lahkoto in priročnostjo. Poenostavite svoje upravljanje dokumentov z uporabo brezhibnih zmogljivosti knjižnice GroupDocs.Merger in naredite svoje datoteke bolj organizirane in obvladljive."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Prilagodite strukturo svojega dokumenta in imejte popoln nadzor nad datotekami"
+      content: "Preprosto upravljajte strani tako, da jih preuredite, zamenjate ali odstranite. Organizirajte in prilagodite svoje dokumente glede na vaše posebne zahteve s prilagodljivostjo za ustvarjanje prilagojene strukture datotek."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument in drugi formati"
-              content: |
-                * **Formati OpenDocument**: ODT, OTT, ODP, OTP, ODS
-                * **Fiksna postavitev**: PDF, XPS
-                * **Slike**: BMP, PNG, TIFF
-                * **Splet**: HTML, MHT, MHTML
-                * **Besedilo**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **E-knjiga**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Neodvisnost platforme"
+  description: "GroupDocs.Merger za Javo podpira naslednje operacijske sisteme, ogrodja in upravitelje paketov"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger za Javo podpira naslednje operacijske sisteme, ogrodja in upravitelje paketov:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operacijski sistemi"
-              content: |
-                * Namizje Microsoft Windows
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "Podprta ogrodja"
-              content: |
-                * Java 7 (1.7)
-                * Java 8 (1.8)
-                * Java 10
-                * Java 11 in novejši
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Orodje za avtomatizacijo gradnje"
-              content: |
-                * Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Razvojna okolja"
-              content: |
-                * NetBeans
-                * IntelliJ IDEJA
-                * Mrk
-                
-                
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Podprti formati datotek"
+  description: |
+    GroupDocs.Merger za Javo podpira operacije z naslednjimi [formati datotek dokumentov](https://docs.groupdocs.com/merger/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formati
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Dokumenti in slike
+        * **Dokumenti:** PDF, XPS, TEX
+        * **Slike:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Drugi formati
+        * **Splet:**  HTML, MHTML, MHT
+        * **Arhivi:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger za funkcije Java"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Združite različne strani, diapozitive in diagrame v eno datoteko"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Kopirajte in razdelite velike dokumente v več manjših datotek"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Premešajte in reorganizirajte strani, diapozitive ali diagrame"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Izmenjajte in zamenjajte dve strani, diapozitiva ali diagrama med seboj znotraj dokumenta"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Izrežite in obrežite dokument tako, da odstranite določene strani, diapozitive ali diagrame"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Izbrišite posamezno ali zbirko strani, diapozitivov ali diagramov"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Povežite in združite veliko število dokumentov v paketih"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Programsko preverite v Javi, ali je dokument zaščiten z geslom"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Nastavite, ponastavite in odstranite geslo znanih in neznanih formatov dokumentov"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Razdeli eno besedilno datoteko na več po številkah vrstic"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Pridobite slikovno predstavitev strani dokumenta"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Združite več dokumentov različnih formatov v eno datoteko PDF"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Vstavite predmete OLE v formate PDF, Word, Excel, PowerPoint in Open Document"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Programsko priložite datoteke dokumentu PDF"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Dodajte dokument v diagram prek predmetov OLE"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Združite različne vrste dokumentov (DOC, XLS, PPT itd.) v eno datoteko PDF"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Preprosto uvozite predmete OLE v vrste datotek Microsoft Word, Excel, predstavitve in OpenDocument"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Dodajte druge dokumente na stran z diagramom prek predmetov OLE"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Odstranite želene strani iz dokumentov"
-        content: |
-          GroupDocs.Merger for Java API vam omogoča izbiro in brisanje neželenih strani iz vašega dokumenta.
-      
-      # more_feature_loop
-      - title: "Preverite geslo neznanega formata dokumenta"
-        content: "Tudi če format določenega dokumenta ni znan, vam GroupDocs.Merger za Javo omogoča preverjanje in pridobitev gesla dokumenta, če je na voljo."
-
-      # more_feature_loop
-      - title: "Pridružite se z geslom zaščitenim dokumentom znanih formatov"
-        content: "GroupDocs.Merger for Java API vam omogoča, da dobite seznam dokumentov znanih in neznanih formatov."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger ponuja API-je za spajanje dokumentov za druga priljubljena razvojna okolja"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger za .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-          product: "GroupDocs.Merger"
-          platform: ".NET"
-          link: "/merger/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Funkcije GroupDocs.Merger"
+  description: "Brezhibno spajajte, delite in upravljajte dokumente PDF in Office"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Združi datoteke"
+      content: "Združite dva ali več dokumentov v en sam dokument, združite določene strani ali obsege strani iz več izvornih dokumentov."
+
+    # feature loop
+    - icon: "split"
+      title: "Razdeli dokument"
+      content: "Uporabite operacijo razdelitve za razdelitev izvornega dokumenta na več nastalih dokumentov, kar omogoča učinkovito organizacijo in upravljanje datotek."
+
+    # feature loop
+    - icon: "move"
+      title: "Premikanje strani"
+      content: "Gladko prestavite stran v dokumentu z uporabo funkcije MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "Odstrani strani"
+      content: "Učinkovito odstranite posamezne strani ali zbirko določenih številk strani iz izvornega dokumenta s funkcijo RemovePages."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Zasukaj strani"
+      content: "Izkoristite operacijo RotatePages za preprosto obračanje strani v dokumentu tako, da določite kot vrtenja kot 90, 180 ali 270 stopinj"
+
+    # feature loop
+    - icon: "swap"
+      title: "Zamenjaj strani"
+      content: "Preuredite vrstni red strani tako, da zamenjate položaje dveh strani v izvornem dokumentu in ustvarite nov dokument."
+
+    # feature loop
+    - icon: "extract"
+      title: "Izvleček strani"
+      content: "Ustvarite nov dokument, ki vsebuje samo izbrane strani, tako da ekstrahirate določene strani ali obsege strani iz izvornega dokumenta."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Spremeni orientacijo"
+      content: "Spremenite usmerjenost strani (pokončno ali ležeče) za določene strani ali vse strani dokumenta z uporabo operacije ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Predogled strani"
+      content: "Pridobite jasnejše razumevanje vsebine in strukture dokumenta z ustvarjanjem slikovnih predstavitev njegovih strani. Naredite predogled vseh ali samo določenih strani."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Vzorci kod"
+  description: "Nekateri primeri uporabe tipičnih operacij GroupDocs.Merger za Java"
+  items:
+    # code sample loop
+    - title: "Združite datoteke DOCX v en sam dokument"
+      content: |
+        S funkcijo [Združi Wordove dokumente](https://docs.groupdocs.com/merger/java/merge/word/) lahko celotne datoteke DOCX združite v en sam dokument tako, da naložite izvorno datoteko in dodate več datotek DOCX, ki se združijo in shranjevanje združenega dokumenta. Spodaj je delček kode Java, ki prikazuje postopek spajanja:
+        {{< landing/code title="Kako združiti datoteke DOCX v Javi">}}
+        ```java {style=abap}   
+        // Naložite izvorno datoteko DOCX
+        Merger merger = new Merger("sample1.docx");
+        // Dodajte še eno datoteko DOCX za združitev
+        merger.join("sample2.docx");
+        // Spojite datoteke DOCX in shranite rezultat
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Dokument PDF razdelite na več datotek"
+      content: |
+        Razdelite dokument na več datotek s funkcijo [Razdeli dokument](https://docs.groupdocs.com/merger/java/split-document/), da poenostavite postopek upravljanja in ekstrahiranja določenih razdelkov ali strani iz velikih dokumentov. Omogoča vam razdelitev dokumentov na manjše dele na podlagi različnih kriterijev - po obsegu strani, po začetni/končni strani, po lihih/sodih številkah strani itd.
+        {{< landing/code title="Razdelite dokument na več enostranskih dokumentov">}}
+        ```java {style=abap}   
+        // Razdeli datoteko PDF z API-jem GroupDocs.Merger za Java
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // Inicializirajte razred SplitOptions s formatom poti izhodnih datotek
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // Instanciirajte združitev z vhodnim dokumentom PDF
+        Merger merger = new Merger(filePath);
+
+        // Pokličite metodo split in posredujte objekt SplitOptions, da shranite nastale dokumente
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Ocene izdelkov GroupDocs"
+# description: "Ne verjemite nam na besedo. Oglejte si, kaj drugi razvijalci pravijo o naših API-jih"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Odlična storitev in odlični izdelki. Med postopkom izvajanja GroupDocs.Viewer za .NET so bili izjemno koristni in odzivni, zato jih ne morem dovolj toplo priporočiti."
+#     author: "Martin Lasarga"
+#     company: "Produktni vodja pri Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Po implementaciji in uporabi GroupDocs.Viewer za .NET v projektu je videti, da deluje zelo dobro. Testiral sem z veliko dokumenti in zaenkrat je vse dobro. Vse, kar sem dodal vanj, je lepo upodobljeno in videti enako dobro, kot bi bilo v pregledovalniku PDF ali MS Word."
+#     author: "Mats Oustad"
+#     company: "Višji svetovalec/partner pri Novanet AS"
 ---

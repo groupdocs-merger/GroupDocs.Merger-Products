@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "GroupDocs termékértékelések",
+    "description": "Ne csak a szavunkat fogadja. Tekintse meg, mit mondanak más fejlesztők az API-inkról",
+    "review_1": {
+      "content": "Kiváló kiszolgálás és kiváló termékek. Rendkívül segítőkészek és készségesek voltak a GroupDocs.Viewer for .NET megvalósítási folyamata során, nem tudom őket eléggé ajánlani.",
+      "author": "Martin Lasarga",
+      "company": "Az Axentria ECM termékmenedzsere, G.S.I."
+    },
+    "review_2": {
+      "content": "A GroupDocs.Viewer for .NET projektben történő megvalósítása és használata után úgy tűnik, hogy nagyon jól működik. Rengeteg dokumentummal teszteltem és eddig jó. Minden, amit rádobtam, szépen megjelenik, és ugyanolyan jól néz ki, mint egy PDF-nézegetőben vagy MS Word-ben.",
+      "author": "Mats Oustad",
+      "company": "A Novanet AS vezető tanácsadója/partnere"
+    }
+  }
+}

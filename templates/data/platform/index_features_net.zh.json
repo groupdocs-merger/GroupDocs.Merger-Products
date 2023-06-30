@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger 功能",
+    "description": "无缝合并、拆分和操作 PDF 和 Office 文档",
+    "feature_1": {
+      "title": "合并文件",
+      "content": "将两个或多个文档合并为一个文档，合并来自多个源文档的特定页面或页面范围。"
+    },
+    "feature_2": {
+      "title": "拆分文件",
+      "content": "使用拆分操作将源文档分成多个结果文档。"
+    },
+    "feature_3": {
+      "title": "移动页面",
+      "content": "使用 MovePage 功能在文档中重新定位页面。"
+    },
+    "feature_4": {
+      "title": "删除页面",
+      "content": "从源文档中删除单个页面或特定页码的集合。"
+    },
+    "feature_5": {
+      "title": "旋转页面",
+      "content": "通过使用 RotatePages 操作将旋转角度设置为 90、180 或 270 度来旋转文档中的页面。"
+    },
+    "feature_6": {
+      "title": "交换页面",
+      "content": "交换源文档中两页的位置，创建具有交换页面位置的新文档。"
+    },
+    "feature_7": {
+      "title": "提取页面",
+      "content": "从源文档中提取特定页面或页面范围，生成仅包含所选页面的新文档。"
+    },
+    "feature_8": {
+      "title": "改变方向",
+      "content": "使用 ChangeOrientation 操作为文档的特定或所有页面设置页面方向（纵向或横向）。"
+    },
+    "feature_9": {
+      "title": "预览页面",
+      "content": "生成文档页面的图像表示以更好地理解内容和结构。预览所有页面或仅预览特定页面。"
+    }
+  }
+}

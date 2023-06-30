@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-27T19:41:55
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -10,275 +10,238 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "C# .NET API voor het samenvoegen van documenten | Combineren en splitsen van PDF Word Excel EPUB"
-head_description: "C# .NET API voor het samenvoegen van documenten om documentpagina's te combineren, splitsen, verwisselen of verwijderen uit PDF, Microsoft Word, Excel, presentaties, Visio en afbeeldingsformaten."
+head_title: "C# .NET API voor het samenvoegen van documenten | Combineer en splits PDF Word Excel EPUB"
+head_description: "C# .NET API voor het samenvoegen van documenten om documentpagina's uit PDF, Microsoft Word, Excel, presentaties, Visio en afbeeldingsindelingen te combineren, splitsen, verwisselen of verwijderen."
 
 ############################# Header ############################
-title: ".NET API om documenten samen te voegen en te splitsen"
-description: "API om documenten, dia's en diagrammen in .NET-toepassingen te combineren, splitsen, verwisselen, inkorten of verwijderen."
-button:
-    enable: true
+title: "Documenten samenvoegen<br>via .NET-API"
+description: "Krachtige fusie-API om PDF-, Microsoft Office-, HTML- en afbeeldingsbestanden te manipuleren."
+words:
+  for: "voor"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "Gratis NuGet-download"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "Licentieverlening"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "klaar om te beginnen?"
+  description: "Probeer de functies van GroupDocs.Merger gratis of vraag een licentie aan"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overzicht"
+release:
+  title: "Versie {0} uitgebracht"
+  notes: "Zie wat nieuw is"
+  downloads: "Downloaden"
 
-            # button loop
-            - link: "#features"
-              text: "Functies"
+code:
+  title: "PDF-bestanden samenvoegen in C#"
+  more: "Meer voorbeelden"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // Laad het PDF-bronbestand
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // Voeg nog een PDF-bestand toe om samen te voegen
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "Steun"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Live demonstratie"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Prijzen"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // PDF-bestanden samenvoegen en resultaat opslaan
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger voor .NET, helpt u bij het snel ontwikkelen van bedrijfsapplicaties van topklasse in C#, ASP.NET en andere .NET-technologieën. Met slechts een paar regels code kunnen uw .NET-applicaties een enkele pagina of een verzameling documentpagina's, dia's, afbeeldingen of diagrammen combineren, splitsen, herschikken, verwisselen, bijsnijden en verwijderen. Voer deze bewerkingen uit op beveiligde bestanden door wachtwoordbeveiliging voor bekende en onbekende bestandsindelingen in te stellen of te verwijderen.  
+  enable: true
+  title: "GroupDocs.Merger in één oogopslag"
+  description: "API om documenten, dia's en diagrammen in .NET-toepassingen te combineren, splitsen, verwisselen, bijsnijden of verwijderen"
+  features:
+    # feature loop
+    - title: "Moeiteloos meerdere documenten samenvoegen in C#"
+      content: "Documenten samenvoegen: combineer naadloos meerdere PDF- en Office-bestanden tot één document, met ondersteuning voor een breed scala aan indelingen. GroupDocs.Merger voor .NET maakt het samenvoegen van documenten snel en probleemloos."
 
-      Door GroupDocs.Merger voor .NET te gebruiken, kunt u mergen uitvoeren; splitsen en andere gerelateerde bewerkingen op afzonderlijke documenten en een batch documenten. Programmatisch bestanden van alle populaire formaten samenvoegen, zoals Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, eBook en afbeeldingsbestandsformaten.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Hieronder volgt een overzicht van GroupDocs.Merger voor .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Documentbewerkingen"
-          content: |
-            * Paginavolgorde wijzigen
-            * Pagina's verwijderen of verwijderen
-            * Document splitsen of breken
-            * Twee pagina's omwisselen of in willekeurige volgorde afspelen
-            * Enkele of meerdere pagina's bijsnijden
-            * Meerdere documenten samenvoegen
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Beveiligingsoperaties"
-          content: |
-            * Documentbeveiliging instellen
-            * Controleer de documentbeveiligingsstatus
-            * Documentwachtwoord instellen
-            * Documentwachtwoord bijwerken
-            * Documentwachtwoord verwijderen
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger voor .NET ondersteunt het samenvoegen van de volgende [documentbestandsindelingen](https://docs.groupdocs.com/merger/net/supported-document-formats/):
+    # feature loop
+    - title: "Vereenvoudig documentbeheer door grote bestanden op te splitsen"
+      content: "Splits grote PDF- of Office-bestanden eenvoudig op in kleinere, beter beheersbare delen. Met GroupDocs.Merger voor .NET kunt u moeiteloos documenten opsplitsen op basis van specifieke pagina's, bereiken of zelfs afzonderlijke pagina's extraheren."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Woord:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Manipuleer pagina's en pas de documentstructuur aan - rangschik, verwissel of verwijder"
+      content: "Neem de controle over uw documenten door pagina's te herschikken, ongewenste pagina's te verwijderen of nieuwe toe te voegen. GroupDocs.Merger voor .NET stelt u in staat om de documentstructuur te manipuleren, waardoor u uw bestanden kunt aanpassen en afstemmen op uw specifieke behoeften."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument en andere indelingen"
-              content: |
-                * **OpenDocument-indelingen**: ODT, OTT, ODP, OTP, ODS
-                * **Vaste lay-out**: PDF, XPS
-                * **Afbeeldingen**: BMP, PNG, TIFF
-                * **Web**: HTML, MHT, MHTML
-                * **Tekst**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **E-boek**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platformonafhankelijkheid"
+  description: "GroupDocs.Merger voor .NET ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger voor .NET ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Besturingssystemen"
-              content: |
-                * Windows-bureaublad
-                * Windows-server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Ondersteunde kaders"
-              content: |
-                * .NET Framework 2.0 of hoger
-                * Mono Framework 1.2 of hoger
-                * .NET-standaard 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Pakket manager"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Ontwikkelomgevingen"
-              content: |
-                *Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Ondersteunde bestandsindelingen"
+  description: |
+    GroupDocs.Merger voor .NET ondersteunt bewerkingen met de volgende [documentbestandsindelingen](https://docs.groupdocs.com/merger/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office-indelingen
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Documenten & afbeeldingen
+        * **Documenten:** PDF, XPS, TEX
+        * **Afbeeldingen:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Andere formaten
+        * **Web:**  HTML, MHTML, MHT
+        * **archieven:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger voor .NET-functies"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Combineer en voeg meerdere pagina's, dia's en diagrammen samen in één document"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Grote documenten splitsen en opsplitsen in meerdere kleinere bestanden"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Pagina's, dia's of diagrammen herschikken, in willekeurige volgorde plaatsen en opnieuw ordenen"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Verwissel en wissel twee pagina's, dia's of diagrammen met elkaar uit binnen een document"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Document bijsnijden door specifieke pagina's, dia's of diagrammen te verwijderen"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Verwijder enkele of verzameling pagina's, dia's of diagrammen"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Een groot aantal documenten in batches samenvoegen"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Programmatisch controleren of een document is beveiligd met een wachtwoord"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Wachtwoord van bekende en onbekende documentformaten instellen, resetten en verwijderen"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Lijst met ondersteunde bestandsindelingen ophalen – Split and Join Text (ERR) Logbestandsindeling"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Draai pagina's en verander de pagina-oriëntatie van bekende en onbekende formaten"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Combineer meerdere bestanden van verschillende formaten naar DOC, DOCX & XPS"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Grote tekstbestanden splitsen op regelnummers"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Verkrijg afbeeldingsrepresentaties van documentpagina's en diagramfamilie-indelingen"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Voeg afbeeldingen samen met achtergrondkleur voor lege zwarte afbeeldingsruimte"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Voeg verschillende soorten documenten (DOC, XLS, PPT enz.) samen in één enkel PDF-bestand"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Importeer eenvoudig OLE-objecten in Microsoft Word-, Excel-, presentatie- en OpenDocument-bestandstypen"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Voeg andere documenten toe aan de diagrampagina via OLE-objecten"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Gewenste pagina's uit documenten verwijderen"
-        content: |
-          GroupDocs.Merger voor .NET API helpt u ongewenste pagina's uit uw document te verwijderen.
-      
-      # more_feature_loop
-      - title: "Transformatie toepassen op weergegeven uitvoer"
-        content: "Met GroupDocs.Merger voor .NET API kunt u verschillende transformaties op het weergegeven uitvoerdocument uitvoeren. Deze transformatie-opties geven u controle over de manier waarop u de gerenderde uitvoer voor weergave presenteert. De beschikbare transformaties zijn de optie voor paginarotatie, de optie voor het opnieuw ordenen van pagina's en het toepassen van een tekstwatermerk."
-
-      # more_feature_loop
-      - title: "Controleer wachtwoord van onbekend documentformaat"
-        content: "Met GroupDocs.Merger voor .NET API kunt u het wachtwoord controleren van een document waarvan het formaat niet bekend is."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger biedt API's voor het samenvoegen van documenten voor andere populaire ontwikkelomgevingen"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger voor Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger-functies"
+  description: "Naadloos PDF- en Office-documenten samenvoegen, splitsen en manipuleren"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Bestanden samenvoegen"
+      content: "Combineer twee of meer documenten tot één document, waarbij specifieke pagina's of paginabereiken uit meerdere brondocumenten worden samengevoegd."
+
+    # feature loop
+    - icon: "split"
+      title: "Splits documenten"
+      content: "Verdeel een brondocument in meerdere resulterende documenten met behulp van de splitsingsbewerking."
+
+    # feature loop
+    - icon: "move"
+      title: "Verplaats pagina's"
+      content: "Verplaats pagina's binnen een document met behulp van de MovePage-functie."
+
+    # feature loop
+    - icon: "remove"
+      title: "Pagina's verwijderen"
+      content: "Verwijder afzonderlijke pagina's of een verzameling specifieke paginanummers uit het brondocument."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Draai pagina's"
+      content: "Roteer pagina's binnen een document door de rotatiehoek in te stellen op 90, 180 of 270 graden met behulp van de RotatePages-bewerking."
+
+    # feature loop
+    - icon: "swap"
+      title: "Verwissel pagina's"
+      content: "Wissel de posities van twee pagina's binnen het brondocument uit, waardoor een nieuw document ontstaat met verwisselde paginaposities."
+
+    # feature loop
+    - icon: "extract"
+      title: "Pak pagina's uit"
+      content: "Extraheer specifieke pagina's of paginabereiken uit een brondocument en genereer een nieuw document dat alleen de geselecteerde pagina's bevat."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Oriëntatie wijzigen"
+      content: "Stel de pagina-oriëntatie (staand of liggend) in voor specifieke of alle pagina's van het document met behulp van de bewerking ChangeOrientation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Voorbeeldpagina's"
+      content: "Genereer afbeeldingsrepresentaties van documentpagina's om de inhoud en structuur beter te begrijpen. Maak voorbeelden van alle of alleen specifieke pagina's."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Codevoorbeelden"
+  description: "Enkele use-cases van typische GroupDocs.Merger voor .NET-bewerkingen"
+  items:
+    # code sample loop
+    - title: "Voeg specifieke DOCX-bestandspagina's samen tot één document"
+      content: |
+        Met de functie [Selectieve pagina samenvoegen](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) kunt u alleen de gewenste inhoud uit elk bestand extraheren en samenvoegen. Hier is een voorbeeld van hoe u selectieve pagina-samenvoeging kunt bereiken met C#:
+        {{< landing/code title="Hoe DOCX-bestanden samen te voegen in C#">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // Laad het bron-DOCX-bestand
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // Voeg nog een DOCX-bestand toe om samen te voegen
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // Voeg DOCX-bestanden samen en sla het resultaat op
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Splits een PDF-document op in meerdere bestanden"
+      content: |
+        Splits een document efficiënt op in meerdere bestanden met de functie [Split Document](https://docs.groupdocs.com/merger/net/split-document/) die het proces van het beheren en extraheren van specifieke secties of pagina's uit grote documenten vereenvoudigt. Hiermee kunt u documenten opdelen in kleinere delen op basis van verschillende criteria - op paginabereik, op begin-/eindpagina's, op oneven/even paginanummers, enz.
+        {{< landing/code title="Het document opsplitsen in meerdere documenten met meerdere pagina's">}}
+        ```csharp {style=abap}   
+        // Splits PDF-bestand met behulp van GroupDocs.Merger API
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // Initialiseer de SplitOptions-klasse met de padindeling van de uitvoerbestanden
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // Directe fusie met invoer PDF-document
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // Roep de splitsingsmethode aan en geef het object SplitOptions door om de resulterende documenten op te slaan
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs-producten beoordelingen"
+# description: "Geloof ons niet zomaar op ons woord. Bekijk wat andere ontwikkelaars zeggen over onze API's"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Prima service en prima producten. Ze waren buitengewoon behulpzaam en reageerden snel tijdens het implementatieproces van GroupDocs.Viewer voor .NET, en kunnen ze niet sterk genoeg aanbevelen."
+#     author: "Martin Lasarga"
+#     company: "Productmanager bij Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Na het implementeren en gebruiken van GroupDocs.Viewer voor .NET in het project lijkt het erg goed te werken. Ik heb getest met veel documenten en tot nu toe zo goed. Alles wat ik erop heb gegooid, wordt goed weergegeven en ziet er net zo goed uit als in een pdf-viewer of MS Word."
+#     author: "Mats Oudad"
+#     company: "Senior adviseur/partner bij Novanet AS"
 ---

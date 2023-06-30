@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "C# .NET Belge Birleştirme API'sı | Birleştir ve Böl PDF Word Excel EPUB",
+    "description": "PDF, Microsoft Word, Excel, sunumlar, Visio ve görüntü biçimlerinden belge sayfalarını birleştirmek, bölmek, takas etmek veya kaldırmak için C# .NET belge birleştirme API'si."
+  },
+  "header": {
+    "title_1": "Belgeleri birleştir",
+    "title_2": ".NET API aracılığıyla",
+    "description": "PDF, Microsoft Office, HTML ve görüntü dosyalarını işlemek için güçlü birleştirme API'si.",
+    "words": {
+      "for": "için"
+    }
+  },
+  "actions": {
+    "main": "Ücretsiz NuGet İndirme",
+    "alt": "lisanslama",
+    "title": "başlamaya hazır mısın?",
+    "description": "GroupDocs.Merger özelliklerini ücretsiz deneyin veya lisans isteyin"
+  },
+  "release": {
+    "title": "Sürüm {0} yayınlandı",
+    "notes": "Yenilikleri görün",
+    "downloads": "İndirilenler"
+  }
+}

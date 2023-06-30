@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Filformat som stöds",
+    "description": "GroupDocs.Merger for .NET stöder operationer med följande [dokumentfilformat](https://docs.groupdocs.com/merger/net/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office-format",
+      "title_2": "Dokument & bilder",
+      "title_3": "Andra format",
+      "format_documents": "Dokument",
+      "format_images": "Bilder",
+      "format_web": "webb",
+      "format_archives": "Arkiv"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Codebeispiele",
+    "description": "Einige Anwendungsfälle typischer GroupDocs.Merger für .NET-Vorgänge",
+    "sample_1": {
+      "title": "Führen Sie bestimmte DOCX-Dateiseiten in einem einzigen Dokument zusammen",
+      "content_1": "Mit der Funktion [Selektive Seitenzusammenführung](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) können Sie nur den gewünschten Inhalt aus jeder Datei extrahieren und zusammenführen.",
+      "content_2": "Hier ist ein Beispiel dafür, wie Sie mit C# eine selektive Seitenzusammenführung erreichen:",
+      "code_title": "So führen Sie DOCX-Dateien in C# zusammen",
+      "comment_1": "Laden Sie die DOCX-Quelldatei",
+      "comment_2": "Fügen Sie eine weitere DOCX-Datei zum Zusammenführen hinzu",
+      "comment_3": "DOCX-Dateien zusammenführen und Ergebnis speichern"
+    },
+    "sample_2": {
+      "title": "Teilen Sie das PDF-Dokument in mehrere Dateien auf",
+      "content_1": "Teilen Sie ein Dokument effizient in mehrere Dateien auf mit der Funktion [Dokument teilen](https://docs.groupdocs.com/merger/net/split-document/), die das Verwalten und Extrahieren bestimmter Abschnitte oder Seiten aus großen Dokumenten vereinfacht.",
+      "content_2": "Es ermöglicht Ihnen, Dokumente anhand verschiedener Kriterien in kleinere Teile zu unterteilen – nach Seitenbereich, nach Anfangs-/Endseiten, nach ungeraden/geraden Seitenzahlen usw.",
+      "code_title": "So teilen Sie das Dokument in mehrere mehrseitige Dokumente auf",
+      "comment_1": "Teilen Sie die PDF-Datei mit der GroupDocs.Merger API",
+      "comment_2": "Initialisieren Sie die SplitOptions-Klasse mit dem Pfadformat der Ausgabedateien",
+      "comment_3": "Instanziieren Sie die Zusammenführung mit dem eingegebenen PDF-Dokument",
+      "comment_4": "Rufen Sie die Split-Methode auf und übergeben Sie das SplitOptions-Objekt, um die resultierenden Dokumente zu speichern"
+    }
+  }
+}

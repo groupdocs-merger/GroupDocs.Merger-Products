@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger na prvý pohľad",
+    "description": "API na kombinovanie, rozdeľovanie, vymieňanie, orezávanie alebo odstraňovanie dokumentov, snímok a diagramov v aplikáciách .NET",
+    "feature_1": {
+      "title": "Bez námahy zlúčte viacero dokumentov v C#",
+      "description": "Zlúčiť dokumenty: Bezproblémovo skombinujte viacero súborov PDF a Office do jedného dokumentu s podporou širokej škály formátov. GroupDocs.Merger for .NET umožňuje rýchle a bezproblémové zlúčenie dokumentov."
+    },
+    "feature_2": {
+      "title": "Zjednodušte správu dokumentov rozdelením veľkých súborov",
+      "description": "Rozdeľte veľké súbory PDF alebo Office na menšie, lepšie spravovateľné časti. GroupDocs.Merger for .NET vám umožňuje rozdeliť dokumenty na základe konkrétnych stránok, rozsahov alebo dokonca bez námahy extrahovať jednotlivé stránky."
+    },
+    "feature_3": {
+      "title": "Manipulujte so stránkami a prispôsobujte štruktúru dokumentu – zmeňte poradie, vymeňte alebo odstráňte",
+      "description": "Prevezmite kontrolu nad svojimi dokumentmi preusporiadaním strán, odstránením nechcených strán alebo pridaním nových. GroupDocs.Merger for .NET vám umožňuje manipulovať so štruktúrou dokumentov, čo vám umožňuje prispôsobiť a prispôsobiť vaše súbory podľa vašich špecifických potrieb."
+    }
+  }
+}

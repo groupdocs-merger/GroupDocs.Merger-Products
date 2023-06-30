@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Java ドキュメント結合 API | Word Excel PDF XPS EPUBの結合と削除",
+    "description": "Java 用 API をマージするドキュメント。 PDF、Microsoft Word、Excel、プレゼンテーション、Visio、XPS、EPUB 形式のページを結合、分割、交換、並べ替え、削除します。"
+  },
+  "header": {
+    "title_1": "文書を結合する",
+    "title_2": "Java API経由",
+    "description": "PDF と Office ドキュメントを簡単に結合、分割、または変更するための柔軟な Merger API",
+    "words": {
+      "for": "ために"
+    }
+  },
+  "actions": {
+    "main": "Maven の無料ダウンロード",
+    "alt": "ライセンス",
+    "title": "始める準備はできていますか?",
+    "description": "GroupDocs.Merger の機能を無料で試すか、ライセンスをリクエストしてください"
+  },
+  "release": {
+    "title": "バージョン {0} がリリースされました",
+    "notes": "新機能を見る",
+    "downloads": "ダウンロード"
+  }
+}

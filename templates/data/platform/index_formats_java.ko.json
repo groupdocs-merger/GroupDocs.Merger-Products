@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "지원되는 파일 형식",
+    "description": "GroupDocs.Merger for Java는 다음 [문서 파일 형식](https://docs.groupdocs.com/merger/java/supported-document-formats/) 작업을 지원합니다.",
+    "groups": {
+      "title_1": "마이크로소프트 오피스 형식",
+      "title_2": "문서 및 이미지",
+      "title_3": "기타 형식",
+      "format_documents": "서류",
+      "format_images": "이미지",
+      "format_web": "편물",
+      "format_archives": "아카이브"
+    }
+  }
+}

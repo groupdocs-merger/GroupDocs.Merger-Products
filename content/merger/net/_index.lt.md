@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-27T10:22:19
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 product: "Merger"
@@ -14,271 +14,234 @@ head_title: "C# .NET Document Merging API | Sujunkite ir padalinkite PDF Word Ex
 head_description: "C# .NET dokumentų sujungimo API, skirta sujungti, skaidyti, sukeisti arba pašalinti dokumentų puslapius iš PDF, Microsoft Word, Excel, pristatymų, Visio ir vaizdo formatų."
 
 ############################# Header ############################
-title: ".NET API, skirta sujungti ir padalinti dokumentus"
-description: "API, skirta sujungti, skaidyti, keisti, apkarpyti arba pašalinti dokumentus, skaidres ir diagramas .NET programose."
-button:
-    enable: true
+title: "Sujungti dokumentus<br>per .NET API"
+description: "Galingas sujungimo API, skirtas valdyti PDF, Microsoft Office, HTML ir vaizdo failus."
+words:
+  for: "dėl"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Merger for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-net.png"
-        product: "GroupDocs.Merger"
-        platform: ".NET"
+actions:
+  main: "Nemokamas NuGet atsisiuntimas"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
+  alt: "Licencijavimas"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  title: "Pasiruošę pradėti?"
+  description: "Išbandykite GroupDocs.Merger funkcijas nemokamai arba paprašykite licencijos"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Apžvalga"
+release:
+  title: "Išleista {0} versija"
+  notes: "Pažiūrėkite, kas naujo"
+  downloads: "Atsisiuntimai"
 
-            # button loop
-            - link: "#features"
-              text: "funkcijos"
+code:
+  title: "Sujungti PDF failus C#"
+  more: "Daugiau pavyzdžių"
+  more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
+  install: "dotnet add package GroupDocs.Merger"
+  content: |
+    ```csharp {style=abap}   
+    // Įkelkite šaltinio PDF failą
+    using (Merger merger = new Merger(@"c:\sample1.pdf"))
+    {
+      // Norėdami sujungti, pridėkite kitą PDF failą
+      merger.Join(@"c:\sample2.pdf");
 
-            # button loop
-            - link: "#support"
-              text: "Palaikymas"
-
-            # button loop
-            - link: "https://products.groupdocs.app/merger"
-              text: "Tiesioginė demonstracija"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/merger/net"
-              text: "Kainodara"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/merger"
-        link_learn: "https://docs.groupdocs.com/merger/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // Sujunkite PDF failus ir išsaugokite rezultatą
+      merger.Save(@"c:\merged.pdf");
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Merger for .NET padeda greitai kurti aukščiausios klasės verslo programas C#, ASP.NET ir kitose .NET technologijose. Vos kelios kodo eilutės leis jūsų .NET programoms sujungti, išskaidyti, pertvarkyti, sukeisti, apkarpyti ir pašalinti vieną puslapį arba dokumento puslapių, skaidrių, vaizdų ar diagramų rinkinį. Atlikite šias operacijas su saugiais failais nustatydami arba pašalindami žinomų ir nežinomų failų formatų apsaugą slaptažodžiu.  
+  enable: true
+  title: "GroupDocs.Sujungimas iš pirmo žvilgsnio"
+  description: "API, skirta sujungti, skaidyti, sukeisti, apkarpyti arba pašalinti dokumentus, skaidres ir diagramas .NET programose"
+  features:
+    # feature loop
+    - title: "Lengvai sujunkite kelis dokumentus C#"
+      content: "Sujungti dokumentus: sklandžiai sujunkite kelis PDF ir Office failus į vieną dokumentą, palaikydami daugybę formatų. GroupDocs.Merger for .NET leidžia greitai ir be rūpesčių sujungti dokumentus."
 
-      Naudodami GroupDocs.Merger for .NET, galite atlikti sujungimą; skaidymas ir kitos susijusios operacijos su atskirais dokumentais bei dokumentų paketu. Programiškai susiekite visų populiarių formatų failus, pvz., Microsoft Word, Excel, PowerPoint, Visio, OpenDocument, PDF, XPS, TXT, CSV, el. knygų ir vaizdo failų formatus.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Toliau pateikiama .NET skirto GroupDocs.Merger apžvalga:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Dokumentų operacijos"
-          content: |
-            * Keisti puslapių tvarką
-            * Pašalinti arba ištrinti puslapius
-            * Padalyti arba sulaužyti dokumentą
-            * Sukeiskite arba sumaišykite du puslapius
-            * Apkarpykite vieną ar kelis puslapius
-            * Sujunkite kelis dokumentus
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Apsaugos operacijos"
-          content: |
-            * Nustatykite dokumentų saugumą
-            * Patikrinkite dokumento saugos būseną
-            * Nustatykite dokumento slaptažodį
-            * Atnaujinkite dokumento slaptažodį
-            * Pašalinti dokumento slaptažodį
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Merger for .NET palaiko šių [dokumentų failų formatų](https://docs.groupdocs.com/merger/net/supported-document-formats/) sujungimą:
+    # feature loop
+    - title: "Supaprastinkite dokumentų valdymą skaidydami didelius failus"
+      content: "Lengvai padalykite didelius PDF arba Office failus į mažesnes, lengviau valdomas dalis. GroupDocs.Merger for .NET leidžia skaidyti dokumentus pagal konkrečius puslapius, diapazonus ar net išskleisti atskirus puslapius be vargo."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Žodis:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **OneNote:** VIENA
+    # feature loop
+    - title: "Manipuliuokite puslapiais ir tinkinkite dokumento struktūrą – pertvarkykite, pakeiskite arba pašalinkite"
+      content: "Valdykite savo dokumentus pertvarkydami puslapius, pašalindami nepageidaujamus puslapius arba pridėdami naujų. „GroupDocs.Merger“, skirta .NET, suteikia galimybę valdyti dokumentų struktūrą, todėl galite tinkinti ir pritaikyti failus pagal konkrečius poreikius."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "OpenDocument ir kiti formatai"
-              content: |
-                * **OpenDocument formatai**: ODT, OTT, ODP, OTP, ODS
-                * **Fiksuotas išdėstymas**: PDF, XPS
-                * **Vaizdai**: BMP, PNG, TIFF
-                * **Žiniatinklis**: HTML, MHT, MHTML
-                * **Tekstas**: TXT, CSV, TSV
-                * **LaTex**: TEX
-                * **El. knyga**: EPUB
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platformos nepriklausomybė"
+  description: "GroupDocs.Merger for .NET palaiko šias operacines sistemas, sistemas ir paketų tvarkykles"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Merger for .NET palaiko šias operacines sistemas, karkasus ir paketų tvarkykles:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operacinės sistemos"
-              content: |
-                * Windows darbalaukis
-                * Windows Server.
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Palaikomi karkasai"
-              content: |
-                * .NET Framework 2.0 arba naujesnė versija
-                * Mono Framework 1.2 arba naujesnė versija
-                * .NET standartas 2.0
-                * .NET Core 2.0
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Paketo valdytojas"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Plėtros aplinkos"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Palaikomi failų formatai"
+  description: |
+    GroupDocs.Merger for .NET palaiko operacijas su šiais [dokumentų failų formatais](https://docs.groupdocs.com/merger/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formatai
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+    # group loop
+    - color: "blue"
+      content: |
+        ### Dokumentai ir vaizdai
+        * **Dokumentai:** PDF, XPS, TEX
+        * **Vaizdai:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **OpenDocument:** ODT, OTT, ODS
+        * **eBook:** EPUB
+      # group loop
+    - color: "red"
+      content: |
+        ### Kiti formatai
+        * **Žiniatinklis:**  HTML, MHTML, MHT
+        * **Archyvai:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Merger .NET funkcijoms"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Sujunkite ir sujunkite kelis puslapius, skaidres ir diagramas į vieną dokumentą"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Padalinkite ir suskaidykite didelius dokumentus į kelis mažesnius failus"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Pertvarkykite, keiskite ir pertvarkykite puslapius, skaidres ar diagramas"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Sukeiskite ir keiskite du puslapius, skaidres ar diagramas vienas su kitu dokumente"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Apkarpykite dokumentą pašalindami konkrečius puslapius, skaidres ar diagramas"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Pašalinkite vieną arba puslapių rinkinį, skaidres ar diagramas"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Sujunkite daugybę dokumentų paketais"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Programiškai patikrinkite, ar dokumentas apsaugotas slaptažodžiu"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Nustatykite, iš naujo nustatykite ir pašalinkite žinomų ir nežinomų dokumentų formatų slaptažodį"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Gaukite palaikomų failų formatų sąrašą – Padalyti ir sujungti tekstą (ERR) žurnalo failo formatas"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Pasukite puslapius ir keiskite žinomų ir nežinomų formatų puslapio orientaciją"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Sujunkite kelis skirtingų formatų failus į DOC, DOCX ir XPS"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Didelių tekstinių failų skaidymas pagal eilučių numerius"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Gaukite dokumento puslapių atvaizdus ir diagramų šeimos formatus"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Sujunkite vaizdus su fono spalva, kad būtų tuščia juoda vaizdo erdvė"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Sujunkite skirtingų tipų dokumentus (DOC, XLS, PPT ir tt) į vieną PDF failą"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Lengvai importuokite OLE objektus į Microsoft Word, Excel, Presentation ir OpenDocument failų tipus"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Pridėkite kitus dokumentus prie diagramos puslapio naudodami OLE objektus"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Pašalinkite norimus puslapius iš dokumentų"
-        content: |
-          GroupDocs.Merger for .NET API padeda ištrinti nepageidaujamus puslapius iš jūsų dokumento.
-      
-      # more_feature_loop
-      - title: "Taikyti transformaciją pateiktai išvestiei"
-        content: "Galite atlikti įvairias pateikto išvesties dokumento transformacijas naudodami GroupDocs.Merger for .NET API. Šios transformacijos parinktys suteikia galimybę valdyti, kaip pateikiate pateiktą išvestį ekranui. Galimos transformacijos yra puslapio pasukimo parinktis, puslapių pertvarkymo parinktis ir teksto vandens ženklo taikymas."
-
-      # more_feature_loop
-      - title: "Patikrinkite nežinomo dokumento formato slaptažodį"
-        content: "GroupDocs.Merger for .NET API leidžia patikrinti dokumento, kurio formatas nežinomas, slaptažodį."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Merger siūlo dokumentų sujungimo API kitoms populiarioms kūrimo aplinkoms"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Merger, skirta Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png"
-          product: "GroupDocs.Merger"
-          platform: "Java"
-          link: "/merger/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger funkcijos"
+  description: "Sklandžiai sujunkite, skaidykite ir tvarkykite PDF ir „Office“ dokumentus"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Sujungti failus"
+      content: "Sujunkite du ar daugiau dokumentų į vieną dokumentą, sujungdami konkrečius puslapius arba puslapių diapazonus iš kelių šaltinio dokumentų."
+
+    # feature loop
+    - icon: "split"
+      title: "Suskaidyti dokumentus"
+      content: "Padalinkite šaltinio dokumentą į kelis gautus dokumentus naudodami padalijimo operaciją."
+
+    # feature loop
+    - icon: "move"
+      title: "Perkelti puslapius"
+      content: "Perkelkite puslapių vietą dokumente naudodami funkciją MovePage."
+
+    # feature loop
+    - icon: "remove"
+      title: "Pašalinti puslapius"
+      content: "Pašalinkite atskirus puslapius arba konkrečių puslapių numerių rinkinį iš šaltinio dokumento."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Pasukti puslapius"
+      content: "Pasukite puslapius dokumente, nustatydami sukimo kampą į 90, 180 arba 270 laipsnių, naudodami operaciją RotatePages."
+
+    # feature loop
+    - icon: "swap"
+      title: "Sukeisti puslapius"
+      content: "Pasikeiskite dviejų puslapių pozicijomis pirminio dokumento viduje, sukurdami naują dokumentą su pakeistomis puslapių pozicijomis."
+
+    # feature loop
+    - icon: "extract"
+      title: "Ištraukite puslapius"
+      content: "Ištraukite konkrečius puslapius arba puslapių diapazonus iš šaltinio dokumento, sugeneruodami naują dokumentą, kuriame yra tik pasirinkti puslapiai."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Keisti orientaciją"
+      content: "Naudodami operaciją ChangeOrientation nustatykite puslapio orientaciją (stačias arba gulsčias) konkretiems arba visiems dokumento puslapiams."
+
+    # feature loop
+    - icon: "preview"
+      title: "Puslapių peržiūra"
+      content: "Generuokite dokumento puslapių vaizdinius vaizdus, ​​​​kad geriau suprastumėte turinį ir struktūrą. Atlikite visų arba tik konkrečių puslapių peržiūras."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Kodo pavyzdžiai"
+  description: "Kai kurie įprastų GroupDocs.Merger atvejai naudojami .NET operacijoms"
+  items:
+    # code sample loop
+    - title: "Sujunkite konkrečius DOCX failo puslapius į vieną dokumentą"
+      content: |
+        Funkcija [Pasirinktinis puslapių sujungimas](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) leidžia išgauti ir sujungti tik norimą turinį iš kiekvieno failo. Štai pavyzdys, kaip pasiekti atrankinį puslapių sujungimą naudojant C#:
+        {{< landing/code title="Kaip sujungti DOCX failus C#">}}
+        ```csharp {style=abap}   
+        JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+        
+        // Įkelkite šaltinio DOCX failą
+        using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
+        {
+          // Norėdami sujungti, pridėkite kitą DOCX failą
+          merger.Join(@"c:\sample2.docx", joinOptions);
+          
+          // Sujunkite DOCX failus ir išsaugokite rezultatą
+          merger.Save(@"c:\result.docx");
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Padalinkite PDF dokumentą į kelis failus"
+      content: |
+        Veiksmingai suskaidykite dokumentą į kelis failus naudodami funkciją [Padalyti dokumentą](https://docs.groupdocs.com/merger/net/split-document/), kuri supaprastina konkrečių skyrių ar puslapių tvarkymo ir ištraukimo iš didelių dokumentų procesą. Tai leidžia suskirstyti dokumentus į mažesnes dalis pagal įvairius kriterijus – pagal puslapių diapazoną, pagal pradžios/pabaigos puslapius, pagal nelyginius/lyginius puslapių numerius ir kt.
+        {{< landing/code title="Kaip padalinti dokumentą į kelis kelių puslapių dokumentus">}}
+        ```csharp {style=abap}   
+        // Padalinkite PDF failą naudodami GroupDocs.Merger API
+        int[] splitPages = new int[] { 3, 6, 8 };
+        
+        // Inicijuoti SplitOptions klasę su išvesties failų kelio formatu
+        SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
+        
+        // Momentinis susijungimas su įvesties PDF dokumentu
+        using (Merger merger = new Merger(@"c:\sample.pdf"))
+        {
+          // Iškvieskite padalijimo metodą ir perduokite SplitOptions objektą, kad išsaugotumėte gautus dokumentus
+          merger.Split(splitOptions);
+        }  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs produktų apžvalgos"
+# description: "Netikėkite mūsų žodžio. Sužinokite, ką kiti kūrėjai sako apie mūsų API"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Puikus aptarnavimas ir puikūs produktai. Jie buvo labai naudingi ir reagavo per GroupDocs.Viewer .NET diegimo procesą, todėl negaliu jų rekomenduoti."
+#     author: "Martinas Lasarga"
+#     company: "„Axentria ECM“ produktų vadovas G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Projekte įdiegus ir panaudojus GroupDocs.Viewer for .NET, atrodo, kad jis veikia labai gerai. Išbandžiau su daugybe dokumentų ir kol kas viskas gerai. Viskas, ką sukūriau, gražiai atvaizduojama ir atrodo taip pat gerai, kaip ir PDF peržiūros programoje arba MS Word."
+#     author: "Matsas Oustadas"
+#     company: "„Novanet AS“ vyresnysis konsultantas/partneris"
 ---

@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Yhdistäminen yhdellä silmäyksellä",
+    "description": "API yhdistää, jakaa, vaihtaa, leikata tai poistaa asiakirjoja, dioja ja kaavioita Java-sovelluksissa",
+    "feature_1": {
+      "title": "Yhdistä useita asiakirjoja vaivattomasti Javassa",
+      "description": "Yhdistä PDF- ja Office-tiedostot helposti yhdeksi asiakirjaksi Javassa hyödyntäen GroupDocs.Merger-kirjaston ominaisuuksia. Hyödynnä sen laajaa muototukea, jonka avulla voit yhdistää saumattomasti eri tiedostotyyppejä, mikä johtaa kätevään ja virtaviivaiseen yhdistämisprosessiin."
+    },
+    "feature_2": {
+      "title": "Virtaviivaista asiakirjojen hallintaa jakamalla isot tiedostot helposti",
+      "description": "Jaa suuret PDF- tai Office-tiedostot pienempiin, helposti käsiteltäviin osiin. Voit jakaa asiakirjoja tiettyjen sivujen, alueiden perusteella tai jopa poimia yksittäisiä sivuja helposti ja kätevästi. Virtaviivaista asiakirjojen hallintaa hyödyntämällä GroupDocs.Merger-kirjaston saumattomia ominaisuuksia ja tee tiedostoistasi organisoidumpia ja hallittavampia."
+    },
+    "feature_3": {
+      "title": "Mukauta dokumenttirakennetta ja hallitse tiedostojasi täysin",
+      "description": "Käsittele sivuja helposti järjestämällä, vaihtamalla tai poistamalla ne. Järjestä ja räätälöi asiakirjasi erityisvaatimustesi mukaan joustavasti luodaksesi yksilöllisen tiedostorakenteen."
+    }
+  }
+}

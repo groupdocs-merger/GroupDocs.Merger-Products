@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Recursos do GroupDocs.Mesclar",
+    "description": "Mescle, divida e manipule perfeitamente PDF e documentos do Office",
+    "feature_1": {
+      "title": "Combinar arquivos",
+      "content": "Mescle dois ou mais documentos em um único documento, unindo páginas específicas ou intervalos de páginas de vários documentos de origem."
+    },
+    "feature_2": {
+      "title": "Dividir documento",
+      "content": "Utilize a operação de divisão para dividir um documento de origem em vários documentos resultantes, permitindo uma organização e gerenciamento de arquivos eficientes."
+    },
+    "feature_3": {
+      "title": "Mover páginas",
+      "content": "Reposicione suavemente uma página em um documento aproveitando o recurso MovePage."
+    },
+    "feature_4": {
+      "title": "Remover páginas",
+      "content": "Remova efetivamente páginas individuais ou uma coleção de números de página específicos do documento de origem com o recurso RemovePages."
+    },
+    "feature_5": {
+      "title": "Girar páginas",
+      "content": "Aproveite a operação RotatePages para girar facilmente as páginas em um documento, especificando o ângulo de rotação como 90, 180 ou 270 graus"
+    },
+    "feature_6": {
+      "title": "Trocar páginas",
+      "content": "Reorganize a ordem das páginas trocando as posições de duas páginas no documento de origem, produzindo um novo documento."
+    },
+    "feature_7": {
+      "title": "Extrair páginas",
+      "content": "Gere um novo documento contendo apenas as páginas selecionadas extraindo páginas específicas ou intervalos de páginas do documento de origem."
+    },
+    "feature_8": {
+      "title": "Mudar orientação",
+      "content": "Modifique a orientação da página (retrato ou paisagem) para páginas específicas ou todas as páginas do documento aproveitando a operação ChangeOrientation."
+    },
+    "feature_9": {
+      "title": "Visualizar páginas",
+      "content": "Obtenha uma compreensão mais clara do conteúdo e da estrutura do documento gerando representações de imagens de suas páginas. Faça visualizações de todas ou apenas páginas específicas."
+    }
+  }
+}

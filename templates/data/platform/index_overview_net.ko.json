@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger 개요",
+    "description": ".NET 애플리케이션에서 문서, 슬라이드 및 다이어그램을 결합, 분할, 교체, 트리밍 또는 제거하는 API",
+    "feature_1": {
+      "title": "C#에서 여러 문서를 손쉽게 병합",
+      "description": "문서 병합: 다양한 형식을 지원하여 여러 PDF 및 Office 파일을 단일 문서로 매끄럽게 결합합니다. .NET용 GroupDocs.Merger를 사용하면 문서 병합이 빠르고 번거롭지 않습니다."
+    },
+    "feature_2": {
+      "title": "대용량 파일을 분할하여 문서 관리 간소화",
+      "description": "큰 PDF 또는 Office 파일을 더 작고 관리하기 쉬운 부분으로 쉽게 분할합니다. .NET용 GroupDocs.Merger를 사용하면 특정 페이지, 범위를 기준으로 문서를 분할하거나 개별 페이지를 쉽게 추출할 수도 있습니다."
+    },
+    "feature_3": {
+      "title": "페이지 조작 및 문서 구조 사용자 지정 - 재정렬, 교환 또는 제거",
+      "description": "페이지를 재정렬하거나, 원하지 않는 페이지를 제거하거나, 새 페이지를 추가하여 문서를 관리하세요. GroupDocs.Merger for .NET을 사용하면 문서 구조를 조작할 수 있으므로 특정 요구 사항에 따라 파일을 사용자 지정하고 조정할 수 있습니다."
+    }
+  }
+}

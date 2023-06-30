@@ -1,0 +1,6 @@
+{
+  "platforms": {
+    "title": "Platform bağımsızlığı",
+    "description": "GroupDocs.Merger for .NET aşağıdaki işletim sistemlerini, çerçeveleri ve paket yöneticilerini destekler"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Format file yang didukung",
+    "description": "GroupDocs.Merger untuk .NET mendukung operasi dengan [format file dokumen](https://docs.groupdocs.com/merger/net/supported-document-formats/) berikut.",
+    "groups": {
+      "title_1": "format Microsoft Office",
+      "title_2": "Dokumen & gambar",
+      "title_3": "Format lain",
+      "format_documents": "Dokumen",
+      "format_images": "Gambar-gambar",
+      "format_web": "Web",
+      "format_archives": "Arsip"
+    }
+  }
+}
