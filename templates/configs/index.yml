@@ -1,5 +1,5 @@
 inherits: languages.yml
 
-dictionaries: [ "..\\data\\index.{lang}.json" ]
+dictionaries: [ "..\\data\\index\\index.{lang}.json",  "..\\data\\index\\index_supported_platforms.{lang}.json", "..\\data\\index\\index_code_samples.{lang}.json", "..\\data\\index\\index_customers.{lang}.json", "..\\data\\index\\index_faq.{lang}.json", "..\\data\\index\\index_features.{lang}.json", "..\\data\\index\\index_links.{lang}.json", "..\\data\\index\\index_metrics.{lang}.json" ]
 
 outputPath: "_index.{lang}.md"

@@ -1,0 +1,22 @@
+{
+  "head": {
+    "title": "Document Merge and Split Solution | On Premise APIs & Free App",
+    "description": "Merge & Split MS Office, OpenDocument, PDF images & other File Formats using On Premise Solution or use the Online Document Merger & Splitter App."
+  },
+  "header": {
+    "title": "Merge and split documents with ease",
+    "description_1": "Merge various document types without hassle.",
+    "description_2": "Easily manage documents by breaking up large files into smaller, more manageable pieces.",
+    "description_3": "Manipulate document pages to reorder, swap, or remove them."
+    
+  },
+  "actions": {
+    "title": "Ready to get started?",
+    "description": "Try GroupDocs.Merger features for free on your platform"
+  },
+  "formats": {
+    "title": "60+ file formats supported",
+    "description": "GroupDocs.Merger supports operations with a wide range of [document formats](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+   
+  }
+}

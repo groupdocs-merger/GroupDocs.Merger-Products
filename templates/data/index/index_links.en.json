@@ -1,0 +1,36 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger low code APIs",
+    "description": "Accelerate documents merging in any type of application with our cloud-based REST API.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud for cURL",
+      "content": "Simple cURL commands for RESTful document merger Cloud API to merge and split documents."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud for .NET",
+      "content": "Cloud SDK for Microsoft .NET to implement quick merge and split feature in .NET based applications."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud for Java",
+      "content": "Combine multiple documents into one, split any document to multiple in your Java applications."
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.Merger NoCode apps",
+    "description": "Online application allowing you to merge and split 170+ popular file formats in browser.",
+    "link_1": {
+      "title": "GroupDocs.Merger Total",
+      "content": "Try our free online app to concatenate more than 30 types of files without leaving your favorite web browser."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Concatenate multiple DOCX files to generate a single document."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Merge multiple PDF files to generate a single document directly from the web browser."
+    }
+  }
+ 
+
+}

@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Code samples",
+    "description": "Some use cases of typical GroupDocs.Merger operations.",
+    "sample_1": {
+      "title": "Merging several files",
+      "content": "GroupDocs.Merger allows you to combine several files together into a single file. You can merge whole documents or particular pages from your documents.",
+      "csharp": {
+        "comment_1" : "Specify desired page numbers or page range to join",
+        "comment_2" : "Load the source DOCX file",
+        "comment_3" : "Add another DOCX file to merge",
+        "comment_4" : "Merge DOCX files and save result"
+      },
+      "java": {
+        "comment_1" : "Specify desired page numbers or page range to join",
+        "comment_2" : "Load the source DOCX file",
+        "comment_3" : "Add another DOCX file to merge",
+        "comment_4" : "Merge DOCX files and save result"
+      }
+    }
+  }
+  
+  
+}
