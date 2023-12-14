@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Pogosto zastavljena vprašanja",
+    "description": "Odgovori na najpogostejša vprašanja.",
+    "faq_1": {
+      "question": "Ali knjižnica GroupDocs.Merger potrebuje kakšno drugo programsko opremo za obdelavo dokumentov?",
+      "answer": "GroupDocs.Merger ne zahteva namestitve zunanje programske opreme, kot je Adobe Acrobat, Microsoft Office ali katera koli druga."
+    },
+    "faq_2": {
+      "question": "Ali lahko preizkusim knjižnico GroupDocs.Merger, preden jo kupim?",
+      "answer": "Da, GroupDocs.Merger lahko preizkusite brez nakupa licence. Po namestitvi brez licence knjižnica deluje v preskusnem načinu. V tem načinu se nastalemu dokumentu dodajo preizkusne značke, ki so obrezane na prve 3 strani. Če želite preskusiti GroupDocs.Merger brez omejitev preskusne različice, lahko zahtevate tudi 30-dnevno začasno licenco. Za več podrobnosti glejte [Pridobite začasno licenco](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Kakšne licence imate?",
+      "answer": "Ponujamo več vrst licenc, ki ustrezajo potrebam posameznih razvijalcev ali podjetij. Vrste licenc so odvisne od števila razvijalcev, števila lokacij spletnih mest razvijalcev in od tega, ali morate končnim strankam dostaviti naš SDK/API. Lahko pa izberete licence Metered glede na mesečno uporabo izdelka. Več o tem na [Vrste licenc](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

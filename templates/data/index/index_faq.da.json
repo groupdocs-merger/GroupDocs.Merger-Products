@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Ofte stillede spørgsmål",
+    "description": "Svar på oftest stillede spørgsmål.",
+    "faq_1": {
+      "question": "Har GroupDocs.Merger-biblioteket brug for anden tredjepartssoftware til at manipulere dokumenter?",
+      "answer": "GroupDocs.Merger kræver ikke, at nogen ekstern software installeres, såsom Adobe Acrobat, Microsoft Office eller noget andet."
+    },
+    "faq_2": {
+      "question": "Kan jeg prøve GroupDocs.Merger-biblioteket, før jeg køber det?",
+      "answer": "Ja, du kan prøve GroupDocs.Merger uden at købe en licens. Når det først er installeret uden licens, fungerer biblioteket i prøvetilstand. I denne tilstand føjes prøvemærker til det resulterende dokument, og det trimmes til de første 3 sider. Hvis du ønsker at teste GroupDocs.Merger uden prøveversionens begrænsninger, kan du også anmode om en 30-dages midlertidig licens. For flere detaljer, se [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Hvilke licenser har du?",
+      "answer": "Vi tilbyder flere licenstyper, der passer til bestemte udvikleres eller virksomheders behov. Licenstyper afhænger af antallet af udviklere, antallet af udviklerwebsteder, og om du skal levere vores SDK/API til dine slutkunder. Alternativt kan du vælge Metered-licenser baseret på månedlig brug af produktet. Få flere oplysninger på [License Types](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

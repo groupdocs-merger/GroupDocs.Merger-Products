@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "API de fusion et de fractionnement de documents | API sur site et service en ligne",
+    "description": "Fusionnez et combinez plusieurs fichiers Words, PDF, Images ou PPTX. Divisez et divisez des fichiers Words, PDF, PPTX ou Images facilement et gratuitement"
+  },
+  "header": {
+    "title": "Fusionnez et divisez facilement des documents",
+    "description_1": "Fusionnez différents types de documents sans problème.",
+    "description_2": "Gérez facilement les documents en divisant les fichiers volumineux en morceaux plus petits et plus faciles à gérer.",
+    "description_3": "Manipulez les pages du document pour les réorganiser, les échanger ou les supprimer."
+  },
+  "actions": {
+    "title": "Prêt à commencer?",
+    "description": "Essayez gratuitement les fonctionnalités de GroupDocs.Merger sur votre plateforme"
+  },
+  "formats": {
+    "title": "60+ formats de fichiers pris en charge",
+    "description": "GroupDocs.Merger prend en charge les opérations avec un large éventail de [formats de documents](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

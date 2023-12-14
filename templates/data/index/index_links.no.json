@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger lav kode APIer",
+    "description": "Fremskynd sammenslåing av dokumenter i alle typer applikasjoner med vårt skybaserte REST API.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud for cURL",
+      "content": "Enkle cURL-kommandoer for RESTful dokumentsammenslåing Cloud API for å slå sammen og dele dokumenter."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud for .NET",
+      "content": "Cloud SDK for Microsoft .NET for å implementere rask sammenslåing og delt funksjon i .NET-baserte applikasjoner."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud for Java",
+      "content": "Kombiner flere dokumenter til ett, del ethvert dokument til flere i Java-applikasjonene dine."
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.Merger NoCode-apper",
+    "description": "Online applikasjon som lar deg slå sammen og dele 170+ populære filformater i nettleseren.",
+    "link_1": {
+      "title": "GroupDocs.Fusjon totalt",
+      "content": "Prøv vår gratis online-app for å sette sammen mer enn 30 typer filer uten å forlate favorittnettleseren din."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Slå sammen flere DOCX-filer for å generere ett enkelt dokument."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Slå sammen flere PDF-filer for å generere ett enkelt dokument direkte fra nettleseren."
+    }
+  }
+}

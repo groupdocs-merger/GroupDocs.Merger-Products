@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Padziļināta metrika un statistikas ieskati",
+    "description": "Iepazīstieties ar mūsu galveno skaitļu detalizētu sadalījumu, sniedzot visaptverošu metriku un statistisku ieskatu par mūsu sasniegumiem, ietekmi un izaugsmi.",
+    "metric_1": {
+      "title": "Atbalstītie formāti",
+      "content": "Katra bibliotēka atbalsta vairāk nekā 50 populārāko failu un dokumentu formātu apstrādi."
+    },
+    "metric_2": {
+      "title": "NuGet lejupielādes",
+      "content": "GroupDocs.Merger for .NET ir vairāk nekā 274 000 lejupielādes no NuGet pakotņu pārvaldnieka."
+    },
+    "metric_3": {
+      "title": "Maven lejupielādes",
+      "content": "GroupDocs.Merger for Java ir vairāk nekā 5,5 000 lejupielādes no mūsu Maven repozitorija."
+    },
+    "metric_4": {
+      "title": "Laimīgi klienti",
+      "content": "Mūsu bibliotēkas izmanto gan mazi individuāli izstrādātāji, gan vadošie uzņēmumi visā pasaulē."
+    }
+  }
+}

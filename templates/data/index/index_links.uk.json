@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger облачние API",
+    "description": "Пришвидште об’єднання документів у програмі будь-якого типу за допомогою нашого хмарного REST API.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud для cURL",
+      "content": "Прості команди cURL для об’єднання документів RESTful Cloud API для об’єднання та розділення документів."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud для .NET",
+      "content": "Cloud SDK для Microsoft .NET для реалізації функції швидкого злиття та розділення в програмах на основі .NET."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud для Java",
+      "content": "Об’єднайте кілька документів в один, розділіть будь-який документ на декілька у своїх програмах Java."
+    }
+  },
+  "app_links": {
+    "title": "Програми GroupDocs.Merger NoCode",
+    "description": "Онлайн-програма, яка дозволяє об’єднувати та розділяти понад 170 популярних форматів файлів у браузері.",
+    "link_1": {
+      "title": "GroupDocs.Merger Total",
+      "content": "Спробуйте наш безкоштовний онлайн-додаток, щоб об’єднати понад 30 типів файлів, не виходячи з улюбленого веб-браузера."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Об’єднайте кілька файлів DOCX, щоб створити єдиний документ."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Об’єднайте декілька PDF-файлів, щоб створити єдиний документ безпосередньо з веб-браузера."
+    }
+  }
+}

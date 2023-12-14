@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger niskokodowe interfejsy API",
+    "description": "Przyspiesz łączenie dokumentów w dowolnym typie aplikacji dzięki naszemu opartemu na chmurze interfejsowi API REST.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud dla cURL",
+      "content": "Proste polecenia cURL do łączenia dokumentów RESTful Cloud API do łączenia i dzielenia dokumentów."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud dla .NET",
+      "content": "Cloud SDK dla Microsoft .NET do implementowania funkcji szybkiego scalania i dzielenia w aplikacjach opartych na .NET."
+    },
+    "link_3": {
+      "title": "Chmura GroupDocs.Merger dla Javy",
+      "content": "Połącz wiele dokumentów w jeden, podziel dowolny dokument na wiele w aplikacjach Java."
+    }
+  },
+  "app_links": {
+    "title": "Aplikacje GroupDocs.Merger NoCode",
+    "description": "Aplikacja internetowa umożliwiająca łączenie i dzielenie ponad 170 popularnych formatów plików w przeglądarce.",
+    "link_1": {
+      "title": "GroupDocs.Połączenie ogółem",
+      "content": "Wypróbuj naszą bezpłatną aplikację online, aby połączyć ponad 30 typów plików bez opuszczania ulubionej przeglądarki internetowej."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Połącz wiele plików DOCX, aby wygenerować pojedynczy dokument."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Scal wiele plików PDF, aby wygenerować pojedynczy dokument bezpośrednio z przeglądarki internetowej."
+    }
+  }
+}

@@ -15,7 +15,11 @@
       "description": "GroupDocs.Merger for Java",
       "feature_1" : {"line_1":"J2SE 8.0 or higher"},
       "feature_2" : {"line_1":"Windows, Linux, Mac OS"},
-      "feature_3" : {"line_1":"IntelliJ IDEA", "line_2":"Eclipse", "line_3":"NetBeans"},
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
       "feature_4" : {"line_1":"50+ file formats"}
       }
 

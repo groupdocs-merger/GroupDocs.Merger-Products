@@ -1,0 +1,45 @@
+{
+  "supported_platforms": {
+    "title": "Independência de plataforma",
+    "description": "A biblioteca GroupDocs.Merger oferece suporte aos seguintes sistemas operacionais e estruturas:",
+    "head_title": "Escolha sua plataforma",
+    "details_link_title": "Saber mais",
+    "net": {
+      "description": "GroupDocs.Merger para .NET",
+      "feature_1": {
+        "line_1": ".NET Framework 4.6.2 ou superior",
+        "line_2": ".NET Core 2.0 ou superior",
+        "line_3": ".NET 6.0 ou superior",
+        "line_4": "Estrutura Mono 2.6.7 ou superior"
+      },
+      "feature_2": {
+        "line_1": "Windows, Linux, MacOS"
+      },
+      "feature_3": {
+        "line_1": "MicrosoftVisual Studio",
+        "line_2": "Xamarin (Android, iOS, Mac)",
+        "line_3": "MonoDesenvolvimento"
+      },
+      "feature_4": {
+        "line_1": "Mais de 60 formatos de arquivo"
+      }
+    },
+    "java": {
+      "description": "GroupDocs.Merger para Java",
+      "feature_1": {
+        "line_1": "J2SE 8.0 ou superior"
+      },
+      "feature_2": {
+        "line_1": "Windows, Linux, MacOS"
+      },
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
+      "feature_4": {
+        "line_1": "Mais de 50 formatos de arquivo"
+      }
+    }
+  }
+}

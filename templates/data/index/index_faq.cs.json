@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Často kladené otázky",
+    "description": "Odpovědi na nejčastěji kladené otázky.",
+    "faq_1": {
+      "question": "Potřebuje knihovna GroupDocs.Merger nějaký další software třetích stran pro manipulaci s dokumenty?",
+      "answer": "GroupDocs.Merger nevyžaduje instalaci žádného externího softwaru, jako je Adobe Acrobat, Microsoft Office nebo jakýkoli jiný."
+    },
+    "faq_2": {
+      "question": "Mohu si knihovnu GroupDocs.Merger před zakoupením vyzkoušet?",
+      "answer": "Ano, můžete vyzkoušet GroupDocs.Merger bez zakoupení licence. Po instalaci bez licence funguje knihovna ve zkušebním režimu. V tomto režimu se do výsledného dokumentu přidají zkušební odznaky a dokument se ořízne na první 3 stránky. Pokud si přejete otestovat GroupDocs.Merger bez omezení zkušební verze, můžete také požádat o 30denní dočasnou licenci. Další podrobnosti najdete v části [Získat dočasnou licenci](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Jaké máte licence?",
+      "answer": "Nabízíme několik typů licencí, aby vyhovovaly potřebám konkrétních vývojářů nebo společností. Typy licencí závisí na počtu vývojářů, počtu umístění vývojářských stránek a na tom, zda potřebujete dodávat naše SDK/API svým koncovým zákazníkům. Případně si můžete vybrat měřené licence na základě měsíčního využití produktu. Další informace najdete na [Typy licencí](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

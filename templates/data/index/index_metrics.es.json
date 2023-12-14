@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Métricas detalladas y conocimientos estadísticos",
+    "description": "Sumérgete en un desglose detallado de nuestras cifras clave, proporcionando métricas completas y conocimientos estadísticos sobre nuestros logros, impacto y crecimiento.",
+    "metric_1": {
+      "title": "Formatos soportados",
+      "content": "Cada biblioteca admite el procesamiento de más de 50 de los formatos de archivos y documentos más populares."
+    },
+    "metric_2": {
+      "title": "Descargas NuGet",
+      "content": "GroupDocs.Merger para .NET tiene más de 274.000 descargas desde el administrador de paquetes NuGet."
+    },
+    "metric_3": {
+      "title": "Descargas de Maven",
+      "content": "GroupDocs.Merger para Java tiene más de 5,5K descargas desde nuestro repositorio Maven."
+    },
+    "metric_4": {
+      "title": "Clientes felices",
+      "content": "Nuestras bibliotecas son utilizadas tanto por pequeños desarrolladores individuales como por empresas líderes de todo el mundo."
+    }
+  }
+}

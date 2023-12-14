@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "API de código bajo de GroupDocs.Merger",
+    "description": "Acelere la fusión de documentos en cualquier tipo de aplicación con nuestra API REST basada en la nube.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud para cURL",
+      "content": "Comandos cURL simples para la API de nube de fusión de documentos RESTful para fusionar y dividir documentos."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Nube para .NET",
+      "content": "Cloud SDK para Microsoft .NET para implementar funciones de combinación y división rápidas en aplicaciones basadas en .NET."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Nube para Java",
+      "content": "Combine varios documentos en uno, divida cualquier documento en varios en sus aplicaciones Java."
+    }
+  },
+  "app_links": {
+    "title": "Aplicaciones GroupDocs.Merger NoCode",
+    "description": "Aplicación en línea que le permite fusionar y dividir más de 170 formatos de archivos populares en el navegador.",
+    "link_1": {
+      "title": "GroupDocs.Fusión Total",
+      "content": "Pruebe nuestra aplicación en línea gratuita para concatenar más de 30 tipos de archivos sin salir de su navegador web favorito."
+    },
+    "link_2": {
+      "title": "GroupDocs.Palabra de fusión",
+      "content": "Concatene varios archivos DOCX para generar un solo documento."
+    },
+    "link_3": {
+      "title": "GroupDocs.Fusión PDF",
+      "content": "Combine varios archivos PDF para generar un solo documento directamente desde el navegador web."
+    }
+  }
+}

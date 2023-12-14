@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Vetrina pratica dei codici",
+    "description": "Alcuni casi d'uso delle tipiche operazioni GroupDocs.Merger.",
+    "sample_1": {
+      "title": "Unione di più file",
+      "content": "GroupDocs.Merger ti consente di combinare più file insieme in un unico file. Puoi unire interi documenti o pagine particolari dai tuoi documenti.",
+      "csharp": {
+        "comment_1": "Specificare i numeri di pagina o l'intervallo di pagine desiderati da unire",
+        "comment_2": "Carica il file DOCX di origine",
+        "comment_3": "Aggiungi un altro file DOCX da unire",
+        "comment_4": "Unisci file DOCX e salva il risultato"
+      },
+      "java": {
+        "comment_1": "Specificare i numeri di pagina o l'intervallo di pagine desiderati da unire",
+        "comment_2": "Carica il file DOCX di origine",
+        "comment_3": "Aggiungi un altro file DOCX da unire",
+        "comment_4": "Unisci file DOCX e salva il risultato"
+      }
+    }
+  }
+}

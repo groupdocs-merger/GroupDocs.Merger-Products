@@ -1,0 +1,45 @@
+{
+  "supported_platforms": {
+    "title": "平台独立性",
+    "description": "GroupDocs.Merger 库支持以下操作系统和框架：",
+    "head_title": "选择您的平台",
+    "details_link_title": "了解更多",
+    "net": {
+      "description": ".NET 的 GroupDocs.Merger",
+      "feature_1": {
+        "line_1": ".NET Framework 4.6.2 或更高版本",
+        "line_2": ".NET Core 2.0 或更高版本",
+        "line_3": ".NET 6.0 或更高版本",
+        "line_4": "Mono 框架 2.6.7 或更高版本"
+      },
+      "feature_2": {
+        "line_1": "Windows、Linux、Mac 操作系统"
+      },
+      "feature_3": {
+        "line_1": "Microsoft Visual Studio",
+        "line_2": "Xamarin (Android, iOS, Mac)",
+        "line_3": "MonoDevelop"
+      },
+      "feature_4": {
+        "line_1": "60 多种文件格式"
+      }
+    },
+    "java": {
+      "description": "Java 的 GroupDocs.Merge",
+      "feature_1": {
+        "line_1": "J2SE 8.0 或更高版本"
+      },
+      "feature_2": {
+        "line_1": "Windows、Linux、Mac 操作系统"
+      },
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
+      "feature_4": {
+        "line_1": "50 多种文件格式"
+      }
+    }
+  }
+}

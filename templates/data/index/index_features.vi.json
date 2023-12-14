@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "Tổng quan về GroupDocs.Merger",
+    "description": "API để kết hợp, phân tách, hoán đổi, sắp xếp lại hoặc xóa các trang tài liệu, trang trình bày và sơ đồ.",
+    "feature_1": {
+      "title": "Hợp nhất nhiều định dạng tập tin",
+      "content": "Kết hợp liền mạch nhiều PDF, Office và nhiều định dạng được hỗ trợ khác vào một tài liệu duy nhất."
+    },
+    "feature_2": {
+      "title": "Chia tài liệu lớn",
+      "content": "Chia tài liệu theo các trang, phạm vi cụ thể hoặc thậm chí trích xuất các trang riêng lẻ."
+    },
+    "feature_3": {
+      "title": "Tùy chỉnh cấu trúc tài liệu",
+      "content": "Sắp xếp tài liệu của bạn bằng cách sắp xếp lại, xóa hoặc thêm trang."
+    },
+    "feature_4": {
+      "title": "Xem trước các trang tài liệu",
+      "content": "Tạo hình ảnh trình bày của các trang tài liệu để hiểu rõ hơn về nội dung và cấu trúc."
+    }
+  }
+}

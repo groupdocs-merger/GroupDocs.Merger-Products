@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Pêşangeha koda pratîkî",
+    "description": "Hin rewşên karûbarên gelemperî yên GroupDocs.Merger bikar tînin.",
+    "sample_1": {
+      "title": "Yekkirina çend pelan",
+      "content": "GroupDocs.Merger destûrê dide te ku hûn çend pelan bi hev re di pelek yek de berhev bikin. Hûn dikarin belgeyên tevahî an rûpelên taybetî yên ji belgeyên xwe yek bikin.",
+      "csharp": {
+        "comment_1": "Ji bo tevlêbûnê hejmarên rûpelê an rêza rûpelê ya xwestî diyar bikin",
+        "comment_2": "Pelê çavkaniyê DOCX barkirin",
+        "comment_3": "Pelek DOCX-ê din lê zêde bikin ku bibin yek",
+        "comment_4": "Pelên DOCX-ê tevlihev bikin û encamê hilînin"
+      },
+      "java": {
+        "comment_1": "Ji bo tevlêbûnê hejmarên rûpelê an rêza rûpelê ya xwestî diyar bikin",
+        "comment_2": "Pelê çavkaniyê DOCX barkirin",
+        "comment_3": "Pelek DOCX-ê din lê zêde bikin ku bibin yek",
+        "comment_4": "Pelên DOCX-ê tevlihev bikin û encamê hilînin"
+      }
+    }
+  }
+}

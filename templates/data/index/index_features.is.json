@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger í hnotskurn",
+    "description": "API til að sameina, skipta, skipta um, endurraða eða fjarlægja skjalasíður, skyggnur og skýringarmyndir.",
+    "feature_1": {
+      "title": "Sameina mörg skráarsnið",
+      "content": "Sameinaðu óaðfinnanlega mörg PDF, Office og mörg önnur studd snið í eitt skjal."
+    },
+    "feature_2": {
+      "title": "Kljúfa stór skjöl",
+      "content": "Skiptu skjölum eftir tilteknum síðum, sviðum eða jafnvel dragðu út einstakar síður."
+    },
+    "feature_3": {
+      "title": "Sérsníddu uppbyggingu skjala",
+      "content": "Skipuleggðu skjölin þín með því að endurraða, fjarlægja eða bæta við síðum."
+    },
+    "feature_4": {
+      "title": "Forskoða skjalasíður",
+      "content": "Búðu til myndbirtingar af skjalasíðum til að skilja innihald og uppbyggingu betur."
+    }
+  }
+}

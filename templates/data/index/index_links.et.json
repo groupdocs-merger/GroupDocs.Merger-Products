@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger madala koodiga API-d",
+    "description": "Kiirendage dokumentide ühendamist mis tahes tüüpi rakendustes meie pilvepõhise REST API-ga.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud for cURL",
+      "content": "Lihtsad cURL-i käsud RESTfuli dokumentide ühendamise Cloud API jaoks dokumentide liitmiseks ja tükeldamiseks."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud for .NET",
+      "content": "Cloud SDK Microsoft .NET-ile, et rakendada .NET-põhistes rakendustes kiiret liitmis- ja jagamisfunktsiooni."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud Java jaoks",
+      "content": "Kombineerige mitu dokumenti üheks, jagage mis tahes dokument mitmeks oma Java rakendustes."
+    }
+  },
+  "app_links": {
+    "title": "Rakendused GroupDocs.Merger NoCode",
+    "description": "Veebirakendus, mis võimaldab teil brauseris liita ja jagada 170+ populaarset failivormingut.",
+    "link_1": {
+      "title": "GroupDocs.Merger Kokku",
+      "content": "Proovige meie tasuta veebirakendust, et ühendada rohkem kui 30 tüüpi faile ilma lemmikveebibrauserist lahkumata."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Ühe dokumendi loomiseks ühendage mitu DOCX-faili."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Ühendage mitu PDF-faili, et luua üks dokument otse veebibrauserist."
+    }
+  }
+}

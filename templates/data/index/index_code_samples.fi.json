@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Käytännöllinen koodiesittely",
+    "description": "Jotkut käyttävät tyypillisiä GroupDocs.Merger-toimintoja.",
+    "sample_1": {
+      "title": "Useiden tiedostojen yhdistäminen",
+      "content": "GroupDocs.Mergerin avulla voit yhdistää useita tiedostoja yhdeksi tiedostoksi. Voit yhdistää kokonaisia ​​asiakirjoja tai tiettyjä sivuja asiakirjoistasi.",
+      "csharp": {
+        "comment_1": "Määritä haluamasi sivunumerot tai sivualue liitettäväksi",
+        "comment_2": "Lataa lähde-DOCX-tiedosto",
+        "comment_3": "Lisää toinen DOCX-tiedosto yhdistettäväksi",
+        "comment_4": "Yhdistä DOCX-tiedostot ja tallenna tulos"
+      },
+      "java": {
+        "comment_1": "Määritä haluamasi sivunumerot tai sivualue liitettäväksi",
+        "comment_2": "Lataa lähde-DOCX-tiedosto",
+        "comment_3": "Lisää toinen DOCX-tiedosto yhdistettäväksi",
+        "comment_4": "Yhdistä DOCX-tiedostot ja tallenna tulos"
+      }
+    }
+  }
+}

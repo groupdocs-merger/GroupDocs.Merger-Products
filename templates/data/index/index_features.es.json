@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger de un vistazo",
+    "description": "API para combinar, dividir, intercambiar, reordenar o eliminar páginas de documentos, diapositivas y diagramas.",
+    "feature_1": {
+      "title": "Fusionar múltiples formatos de archivos",
+      "content": "Combine sin problemas varios formatos PDF, Office y muchos otros formatos compatibles en un solo documento."
+    },
+    "feature_2": {
+      "title": "Dividir documentos grandes",
+      "content": "Divida documentos por páginas específicas, rangos o incluso extraiga páginas individuales."
+    },
+    "feature_3": {
+      "title": "Personalizar la estructura del documento",
+      "content": "Organice sus documentos reorganizando, eliminando o agregando páginas."
+    },
+    "feature_4": {
+      "title": "Vista previa de las páginas del documento",
+      "content": "Genere representaciones de imágenes de páginas de documentos para comprender mejor el contenido y la estructura."
+    }
+  }
+}

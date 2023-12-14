@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "Apvienot un sadalīt dokumentus API | On Premise API un tiešsaistes pakalpojums",
+    "description": "Apvienojiet un apvienojiet vairākus vārdus, PDF, attēlus vai PPTX failus. Sadaliet un sadaliet vārdus, PDF, PPTX vai attēlu failus viegli un bez maksas"
+  },
+  "header": {
+    "title": "Viegli sapludiniet un sadaliet dokumentus",
+    "description_1": "Apvienojiet dažādu veidu dokumentus bez problēmām.",
+    "description_2": "Viegli pārvaldiet dokumentus, sadalot lielus failus mazākās, vieglāk pārvaldāmās daļās.",
+    "description_3": "Manipulējiet ar dokumentu lapām, lai tās pārkārtotu, apmainītu vai noņemtu."
+  },
+  "actions": {
+    "title": "Vai esat gatavs sākt?",
+    "description": "Izmēģiniet GroupDocs.Merger funkcijas bez maksas savā platformā"
+  },
+  "formats": {
+    "title": "Atbalstīti 60+ failu formāti",
+    "description": "GroupDocs.Merger atbalsta darbības ar plašu [dokumentu formātu] klāstu (https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

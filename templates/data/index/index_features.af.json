@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger in 'n oogopslag",
+    "description": "API om dokumentbladsye, skyfies en diagramme te kombineer, verdeel, ruil, herrangskik of verwyder.",
+    "feature_1": {
+      "title": "Voeg verskeie lêerformate saam",
+      "content": "Kombineer veelvuldige PDF, Office en baie ander ondersteunde formate naatloos in 'n enkele dokument."
+    },
+    "feature_2": {
+      "title": "Verdeel groot dokumente",
+      "content": "Verdeel dokumente volgens spesifieke bladsye, reekse, of onttrek selfs individuele bladsye."
+    },
+    "feature_3": {
+      "title": "Pas dokumentstruktuur aan",
+      "content": "Organiseer jou dokumente deur bladsye te herrangskik, te verwyder of by te voeg."
+    },
+    "feature_4": {
+      "title": "Voorskou dokumentbladsye",
+      "content": "Genereer beeldvoorstellings van dokumentbladsye om die inhoud en struktuur beter te verstaan."
+    }
+  }
+}

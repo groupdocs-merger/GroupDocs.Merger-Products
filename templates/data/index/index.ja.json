@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "ドキュメントの結合と分割 API |オンプレミスAPIとオンラインサービス",
+    "description": "複数の Word、PDF、画像、または PPTX ファイルを結合して結合します。 Word、PDF、PPTX、画像ファイルを簡単かつ無料で分割"
+  },
+  "header": {
+    "title": "ドキュメントの結合と分割が簡単にできる",
+    "description_1": "さまざまな種類のドキュメントを手間をかけずに結合できます。",
+    "description_2": "大きなファイルをより小さく管理しやすい部分に分割することで、ドキュメントを簡単に管理できます。",
+    "description_3": "ドキュメントのページを操作して、順序を変更、交換、または削除します。"
+  },
+  "actions": {
+    "title": "始める準備はできていますか?",
+    "description": "お使いのプラットフォームで GroupDocs.Merger 機能を無料でお試しください"
+  },
+  "formats": {
+    "title": "60 以上のファイル形式をサポート",
+    "description": "GroupDocs.Merger は、幅広い [ドキュメント形式](https://docs.groupdocs.com/merger/net/supported-document-formats/) での操作をサポートします。"
+  }
+}

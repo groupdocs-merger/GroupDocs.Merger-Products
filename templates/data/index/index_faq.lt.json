@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Dažnai užduodami klausimai",
+    "description": "Atsakymai į dažniausiai užduodamus klausimus.",
+    "faq_1": {
+      "question": "Ar „GroupDocs.Merger“ bibliotekai reikia kokios nors kitos trečiosios šalies programinės įrangos, kad būtų galima manipuliuoti dokumentais?",
+      "answer": "GroupDocs.Merger nereikia įdiegti jokios išorinės programinės įrangos, tokios kaip Adobe Acrobat, Microsoft Office ar bet kuri kita."
+    },
+    "faq_2": {
+      "question": "Ar galiu išbandyti GroupDocs.Merger biblioteką prieš ją įsigydamas?",
+      "answer": "Taip, galite išbandyti GroupDocs.Merger nepirkdami licencijos. Įdiegus be licencijos, biblioteka veikia bandomuoju režimu. Šiuo režimu bandomieji ženkleliai pridedami prie gauto dokumento ir jis apkarpomas iki 3 pirmųjų puslapių. Jei norite išbandyti GroupDocs.Merger be bandomosios versijos apribojimų, taip pat galite paprašyti 30 dienų laikinosios licencijos. Norėdami gauti daugiau informacijos, žr. [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Kokias licencijas turite?",
+      "answer": "Siūlome keletą licencijų tipų, kad atitiktų konkrečių kūrėjų ar įmonių poreikius. Licencijos tipai priklauso nuo kūrėjų skaičiaus, kūrėjų svetainių vietų skaičiaus ir nuo to, ar reikia pateikti mūsų SDK / API galutiniams klientams. Arba galite pasirinkti išmatuotas licencijas, atsižvelgdami į mėnesio produkto naudojimą. Sužinokite daugiau apsilankę [Licencijos tipai](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

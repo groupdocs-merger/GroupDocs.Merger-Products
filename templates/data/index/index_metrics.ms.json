@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Metrik dan cerapan statistik yang mendalam",
+    "description": "Terokai butiran terperinci angka utama kami, memberikan metrik dan cerapan statistik yang komprehensif tentang pencapaian, impak dan pertumbuhan kami.",
+    "metric_1": {
+      "title": "Format yang disokong",
+      "content": "Setiap perpustakaan menyokong pemprosesan lebih daripada 50 format fail dan dokumen yang paling popular."
+    },
+    "metric_2": {
+      "title": "Muat turun NuGet",
+      "content": "GroupDocs.Merger untuk .NET mempunyai lebih daripada 274K muat turun daripada pengurus pakej NuGet."
+    },
+    "metric_3": {
+      "title": "Maven muat turun",
+      "content": "GroupDocs.Merger untuk Java mempunyai lebih daripada 5.5K muat turun daripada repositori Maven kami."
+    },
+    "metric_4": {
+      "title": "Pelanggan gembira",
+      "content": "Perpustakaan kami digunakan oleh pembangun individu kecil dan juga oleh syarikat terkemuka di seluruh dunia."
+    }
+  }
+}

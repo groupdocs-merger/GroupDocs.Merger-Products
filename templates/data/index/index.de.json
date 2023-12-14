@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "API zum Zusammenführen und Teilen von Dokumenten | On-Premise-API und Online-Service",
+    "description": "Führen Sie mehrere Wörter, PDFs, Bilder oder PPTX-Dateien zusammen und kombinieren Sie sie. Teilen und teilen Sie Word-, PDF-, PPTX- oder Bilddateien einfach und kostenlos"
+  },
+  "header": {
+    "title": "Dokumente mühelos zusammenführen und aufteilen",
+    "description_1": "Führen Sie problemlos verschiedene Dokumenttypen zusammen.",
+    "description_2": "Verwalten Sie Dokumente ganz einfach, indem Sie große Dateien in kleinere, besser verwaltbare Teile aufteilen.",
+    "description_3": "Bearbeiten Sie Dokumentseiten, um sie neu anzuordnen, auszutauschen oder zu entfernen."
+  },
+  "actions": {
+    "title": "Bereit anzufangen?",
+    "description": "Testen Sie die Funktionen von GroupDocs.Merger kostenlos auf Ihrer Plattform"
+  },
+  "formats": {
+    "title": "60+ Dateiformate werden unterstützt",
+    "description": "GroupDocs.Merger unterstützt Vorgänge mit einer Vielzahl von [Dokumentformaten](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

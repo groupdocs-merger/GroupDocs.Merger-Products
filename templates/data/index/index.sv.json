@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "Sammanfoga och dela dokument API | On Premise API och onlinetjänst",
+    "description": "Slå samman och kombinera flera ord, PDF, bilder eller PPTX-filer. Dela och dela Word-, PDF-, PPTX- eller bildfiler enkelt och gratis"
+  },
+  "header": {
+    "title": "Slå ihop och dela dokument med lätthet",
+    "description_1": "Slå samman olika dokumenttyper utan krångel.",
+    "description_2": "Hantera dokument enkelt genom att dela upp stora filer i mindre, mer hanterbara bitar.",
+    "description_3": "Manipulera dokumentsidor för att ordna om, byta eller ta bort dem."
+  },
+  "actions": {
+    "title": "Redo att börja?",
+    "description": "Prova GroupDocs.Merger-funktioner gratis på din plattform"
+  },
+  "formats": {
+    "title": "60+ filformat stöds",
+    "description": "GroupDocs.Merger stöder operationer med ett brett utbud av [dokumentformat](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

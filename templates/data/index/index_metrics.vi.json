@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Số liệu chuyên sâu và hiểu biết thống kê",
+    "description": "Đi sâu vào phân tích chi tiết về các số liệu quan trọng của chúng tôi, cung cấp số liệu toàn diện và thông tin thống kê chuyên sâu về thành tích, tác động và sự phát triển của chúng tôi.",
+    "metric_1": {
+      "title": "Các định dạng được hỗ trợ",
+      "content": "Mỗi thư viện hỗ trợ xử lý hơn 50 định dạng tệp và tài liệu phổ biến nhất."
+    },
+    "metric_2": {
+      "title": "Tải xuống NuGet",
+      "content": "GroupDocs.Merger cho .NET có hơn 274K lượt tải xuống từ trình quản lý gói NuGet."
+    },
+    "metric_3": {
+      "title": "Tải xuống Maven",
+      "content": "GroupDocs.Merger dành cho Java có hơn 5,5 nghìn lượt tải xuống từ kho lưu trữ Maven của chúng tôi."
+    },
+    "metric_4": {
+      "title": "Khách hàng hạnh phúc",
+      "content": "Thư viện của chúng tôi được sử dụng bởi cả các nhà phát triển cá nhân nhỏ cũng như các công ty hàng đầu trên toàn thế giới."
+    }
+  }
+}

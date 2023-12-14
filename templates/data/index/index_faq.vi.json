@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Các câu hỏi thường gặp",
+    "description": "Câu trả lời cho các câu hỏi thường gặp nhất.",
+    "faq_1": {
+      "question": "Thư viện GroupDocs.Merger có cần bất kỳ phần mềm bên thứ ba nào khác để thao tác với tài liệu không?",
+      "answer": "GroupDocs.Merger không yêu cầu cài đặt bất kỳ phần mềm bên ngoài nào như Adobe Acrobat, Microsoft Office hoặc bất kỳ phần mềm nào khác."
+    },
+    "faq_2": {
+      "question": "Tôi có thể dùng thử thư viện GroupDocs.Merger trước khi mua không?",
+      "answer": "Có, bạn có thể dùng thử GroupDocs.Merger mà không cần mua giấy phép. Sau khi cài đặt mà không có giấy phép, thư viện sẽ hoạt động ở chế độ dùng thử. Ở chế độ này, huy hiệu dùng thử sẽ được thêm vào tài liệu thu được và được cắt bớt thành 3 trang đầu tiên. Nếu bạn muốn dùng thử GroupDocs.Merger mà không bị giới hạn bởi phiên bản dùng thử, bạn cũng có thể yêu cầu giấy phép tạm thời 30 ngày. Để biết thêm chi tiết, hãy xem [Nhận giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Bạn có giấy phép gì?",
+      "answer": "Chúng tôi cung cấp một số loại giấy phép để phù hợp với nhu cầu của các nhà phát triển hoặc công ty cụ thể. Các loại giấy phép tùy thuộc vào số lượng nhà phát triển, số lượng vị trí trang web của nhà phát triển và liệu bạn có cần phân phối SDK/API của chúng tôi cho khách hàng cuối của mình hay không. Ngoài ra, bạn có thể chọn giấy phép Metered dựa trên mức sử dụng sản phẩm hàng tháng. Tìm hiểu thêm tại [Các loại giấy phép](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

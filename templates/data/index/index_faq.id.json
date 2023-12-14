@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Pertanyaan yang sering diajukan",
+    "description": "Jawaban atas pertanyaan yang paling sering diajukan.",
+    "faq_1": {
+      "question": "Apakah perpustakaan GroupDocs.Merger memerlukan perangkat lunak pihak ketiga lainnya untuk memanipulasi dokumen?",
+      "answer": "GroupDocs.Merger tidak memerlukan instalasi perangkat lunak eksternal apa pun seperti Adobe Acrobat, Microsoft Office, atau lainnya."
+    },
+    "faq_2": {
+      "question": "Bisakah saya mencoba perpustakaan GroupDocs.Merger sebelum membelinya?",
+      "answer": "Ya, Anda dapat mencoba GroupDocs.Merger tanpa membeli lisensi. Setelah diinstal tanpa lisensi, perpustakaan berfungsi dalam mode uji coba. Dalam mode ini, lencana percobaan ditambahkan ke dokumen yang dihasilkan, dan dipotong menjadi 3 halaman pertama. Jika Anda ingin menguji GroupDocs.Merger tanpa batasan versi uji coba, Anda juga dapat meminta lisensi sementara 30 hari. Untuk detail selengkapnya, lihat [Dapatkan Lisensi Sementara](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Lisensi apa yang Anda miliki?",
+      "answer": "Kami menawarkan beberapa jenis lisensi untuk memenuhi kebutuhan pengembang atau perusahaan tertentu. Jenis lisensi bergantung pada jumlah pengembang, jumlah lokasi situs pengembang, dan apakah Anda perlu mengirimkan SDK/API kami ke pelanggan akhir Anda. Alternatifnya, Anda dapat memilih Lisensi terukur berdasarkan penggunaan bulanan produk. Pelajari lebih lanjut di [Jenis Lisensi](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

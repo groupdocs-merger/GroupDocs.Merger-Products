@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Exposició pràctica del codi",
+    "description": "Alguns casos d'ús de les operacions típiques de GroupDocs.Merger.",
+    "sample_1": {
+      "title": "Combinació de diversos fitxers",
+      "content": "GroupDocs.Merger us permet combinar diversos fitxers junts en un sol fitxer. Podeu combinar documents sencers o pàgines particulars dels vostres documents.",
+      "csharp": {
+        "comment_1": "Especifiqueu els números de pàgina o l'interval de pàgines que voleu unir",
+        "comment_2": "Carregueu el fitxer DOCX font",
+        "comment_3": "Afegiu un altre fitxer DOCX per combinar",
+        "comment_4": "Combina els fitxers DOCX i desa el resultat"
+      },
+      "java": {
+        "comment_1": "Especifiqueu els números de pàgina o l'interval de pàgines que voleu unir",
+        "comment_2": "Carregueu el fitxer DOCX font",
+        "comment_3": "Afegiu un altre fitxer DOCX per combinar",
+        "comment_4": "Combina els fitxers DOCX i desa el resultat"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger w skrócie",
+    "description": "API do łączenia, dzielenia, zamiany, zmiany kolejności lub usuwania stron dokumentów, slajdów i diagramów.",
+    "feature_1": {
+      "title": "Scal wiele formatów plików",
+      "content": "Bezproblemowo łącz wiele plików PDF, Office i wielu innych obsługiwanych formatów w jeden dokument."
+    },
+    "feature_2": {
+      "title": "Podziel duże dokumenty",
+      "content": "Dziel dokumenty według określonych stron, zakresów, a nawet wyodrębniaj pojedyncze strony."
+    },
+    "feature_3": {
+      "title": "Dostosuj strukturę dokumentu",
+      "content": "Porządkuj swoje dokumenty, zmieniając układ, usuwając lub dodając strony."
+    },
+    "feature_4": {
+      "title": "Podgląd stron dokumentu",
+      "content": "Generuj reprezentacje obrazów stron dokumentów, aby lepiej zrozumieć treść i strukturę."
+    }
+  }
+}

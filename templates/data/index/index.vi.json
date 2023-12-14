@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "API hợp nhất và phân chia tài liệu | API tại chỗ và dịch vụ trực tuyến",
+    "description": "Hợp nhất và kết hợp nhiều tệp Word, PDF, Hình ảnh hoặc PPTX. Tách và chia các tệp Word, PDF, PPTX hoặc Hình ảnh một cách dễ dàng và miễn phí"
+  },
+  "header": {
+    "title": "Hợp nhất và phân chia tài liệu một cách dễ dàng",
+    "description_1": "Hợp nhất các loại tài liệu khác nhau mà không gặp rắc rối.",
+    "description_2": "Dễ dàng quản lý tài liệu bằng cách chia các tệp lớn thành các phần nhỏ hơn, dễ quản lý hơn.",
+    "description_3": "Thao tác các trang tài liệu để sắp xếp lại, hoán đổi hoặc xóa chúng."
+  },
+  "actions": {
+    "title": "Sẵn sàng để bắt đầu?",
+    "description": "Dùng thử miễn phí các tính năng của GroupDocs.Merger trên nền tảng của bạn"
+  },
+  "formats": {
+    "title": "Hơn 60 định dạng tệp được hỗ trợ",
+    "description": "GroupDocs.Merger hỗ trợ các thao tác với nhiều [định dạng tài liệu](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

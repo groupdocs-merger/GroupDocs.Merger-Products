@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Praktická ukázka kódu",
+    "description": "Některé případy použití typických operací GroupDocs.Merger.",
+    "sample_1": {
+      "title": "Sloučení několika souborů",
+      "content": "GroupDocs.Merger umožňuje spojit několik souborů dohromady do jednoho souboru. Z dokumentů můžete sloučit celé dokumenty nebo jednotlivé stránky.",
+      "csharp": {
+        "comment_1": "Zadejte požadovaná čísla stránek nebo rozsah stránek ke spojení",
+        "comment_2": "Načtěte zdrojový soubor DOCX",
+        "comment_3": "Přidejte další soubor DOCX ke sloučení",
+        "comment_4": "Sloučit soubory DOCX a uložit výsledek"
+      },
+      "java": {
+        "comment_1": "Zadejte požadovaná čísla stránek nebo rozsah stránek ke spojení",
+        "comment_2": "Načtěte zdrojový soubor DOCX",
+        "comment_3": "Přidejte další soubor DOCX ke sloučení",
+        "comment_4": "Sloučit soubory DOCX a uložit výsledek"
+      }
+    }
+  }
+}

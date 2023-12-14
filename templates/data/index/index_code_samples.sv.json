@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Praktisk kodutställning",
+    "description": "Vissa använder fall av typiska GroupDocs.Merger-operationer.",
+    "sample_1": {
+      "title": "Slår ihop flera filer",
+      "content": "GroupDocs.Merger låter dig kombinera flera filer till en enda fil. Du kan slå samman hela dokument eller särskilda sidor från dina dokument.",
+      "csharp": {
+        "comment_1": "Ange önskat sidnummer eller sidintervall för att gå med",
+        "comment_2": "Ladda källfilen DOCX",
+        "comment_3": "Lägg till ytterligare en DOCX-fil för att slå samman",
+        "comment_4": "Slå samman DOCX-filer och spara resultatet"
+      },
+      "java": {
+        "comment_1": "Ange önskat sidnummer eller sidintervall för att gå med",
+        "comment_2": "Ladda källfilen DOCX",
+        "comment_3": "Lägg till ytterligare en DOCX-fil för att slå samman",
+        "comment_4": "Slå samman DOCX-filer och spara resultatet"
+      }
+    }
+  }
+}

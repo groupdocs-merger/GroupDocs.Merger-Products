@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Syvälliset mittarit ja tilastolliset oivallukset",
+    "description": "Sukella avainlukujemme yksityiskohtaiseen erittelyyn, joka tarjoaa kattavia mittareita ja tilastollisia näkemyksiä saavutuksistamme, vaikutuksistamme ja kasvustamme.",
+    "metric_1": {
+      "title": "Tuetut muodot",
+      "content": "Jokainen kirjasto tukee yli 50 suosituimman tiedosto- ja asiakirjamuodon käsittelyä."
+    },
+    "metric_2": {
+      "title": "NuGet-lataukset",
+      "content": "GroupDocs.Merger for .NET sisältää yli 274 000 latausta NuGet-paketinhallinnasta."
+    },
+    "metric_3": {
+      "title": "Maven lataukset",
+      "content": "GroupDocs.Merger for Java sisältää yli 5,5 000 latausta Maven-varastosta."
+    },
+    "metric_4": {
+      "title": "Tyytyväiset asiakkaat",
+      "content": "Kirjastomme käyttävät sekä pienet yksittäiset kehittäjät että johtavat yritykset kaikkialla maailmassa."
+    }
+  }
+}

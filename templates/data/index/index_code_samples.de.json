@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Praktischer Code-Schaukasten",
+    "description": "Einige Anwendungsfälle typischer GroupDocs.Merger-Vorgänge.",
+    "sample_1": {
+      "title": "Mehrere Dateien zusammenführen",
+      "content": "Mit GroupDocs.Merger können Sie mehrere Dateien zu einer einzigen Datei zusammenfassen. Sie können ganze Dokumente oder einzelne Seiten aus Ihren Dokumenten zusammenführen.",
+      "csharp": {
+        "comment_1": "Geben Sie die gewünschten Seitenzahlen oder Seitenbereiche an, die zusammengefügt werden sollen",
+        "comment_2": "Laden Sie die DOCX-Quelldatei",
+        "comment_3": "Fügen Sie eine weitere DOCX-Datei zum Zusammenführen hinzu",
+        "comment_4": "DOCX-Dateien zusammenführen und Ergebnis speichern"
+      },
+      "java": {
+        "comment_1": "Geben Sie die gewünschten Seitenzahlen oder Seitenbereiche an, die zusammengefügt werden sollen",
+        "comment_2": "Laden Sie die DOCX-Quelldatei",
+        "comment_3": "Fügen Sie eine weitere DOCX-Datei zum Zusammenführen hinzu",
+        "comment_4": "DOCX-Dateien zusammenführen und Ergebnis speichern"
+      }
+    }
+  }
+}

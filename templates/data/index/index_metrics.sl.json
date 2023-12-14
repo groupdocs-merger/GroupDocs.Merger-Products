@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Poglobljene meritve in statistični vpogledi",
+    "description": "Poglobite se v podrobno razčlenitev naših ključnih številk, ki zagotavljajo celovite meritve in statistične vpoglede v naše dosežke, vpliv in rast.",
+    "metric_1": {
+      "title": "Podprti formati",
+      "content": "Vsaka knjižnica podpira obdelavo več kot 50 najbolj priljubljenih formatov datotek in dokumentov."
+    },
+    "metric_2": {
+      "title": "Prenosi NuGet",
+      "content": "GroupDocs.Merger za .NET ima več kot 274.000 prenosov iz upravitelja paketov NuGet."
+    },
+    "metric_3": {
+      "title": "Prenosi Maven",
+      "content": "GroupDocs.Merger za Javo ima več kot 5,5 tisoč prenosov iz našega repozitorija Maven."
+    },
+    "metric_4": {
+      "title": "Zadovoljne stranke",
+      "content": "Naše knjižnice uporabljajo tako majhni individualni razvijalci kot tudi vodilna podjetja po vsem svetu."
+    }
+  }
+}

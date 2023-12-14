@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "GroupDocs.Sujungimas iš pirmo žvilgsnio",
+    "description": "API, skirta sujungti, skaidyti, sukeisti, pertvarkyti arba pašalinti dokumentų puslapius, skaidres ir diagramas.",
+    "feature_1": {
+      "title": "Sujungti kelis failų formatus",
+      "content": "Sklandžiai sujunkite kelis PDF, Office ir daugelį kitų palaikomų formatų į vieną dokumentą."
+    },
+    "feature_2": {
+      "title": "Padalinkite didelius dokumentus",
+      "content": "Padalinkite dokumentus pagal konkrečius puslapius, diapazonus arba net ištraukite atskirus puslapius."
+    },
+    "feature_3": {
+      "title": "Tinkinkite dokumento struktūrą",
+      "content": "Tvarkykite dokumentus pertvarkydami, pašalindami arba pridėdami puslapius."
+    },
+    "feature_4": {
+      "title": "Peržiūrėkite dokumento puslapius",
+      "content": "Generuokite dokumento puslapių vaizdinius vaizdus, ​​​​kad geriau suprastumėte turinį ir struktūrą."
+    }
+  }
+}

@@ -37,6 +37,7 @@ supported_platforms:
       color: "blue"
       tag: "net"
       link: "/merger/net/"
+      features_link: "https://docs.groupdocs.com/merger/net/system-requirements/"
       features:
         # features loop
         - content: "<% "{supported_platforms.net.feature_1.line_1}" %>  <br>  <% "{supported_platforms.net.feature_1.line_2}" %>  <br>  <% "{supported_platforms.net.feature_1.line_3}" %> <br>  <% "{supported_platforms.net.feature_1.line_4}" %>"
@@ -45,7 +46,7 @@ supported_platforms:
         - content: "<% "{supported_platforms.net.feature_2.line_1}" %>"
           rows: "1"
         # features loop
-        - content: "<% "{supported_platforms.net.feature_3.line_1}" %>  <br>  <% "{supported_platforms.net.feature_3.line_2}" %>  <br>  <% "{supported_platforms.net.feature_3.line_3}" %>"
+        - content: "Microsoft Visual Studio  <br>  Xamarin (Android, iOS, Mac)  <br>  MonoDevelop"
           rows: "3"
          # features loop
         - content: "<% "{supported_platforms.net.feature_4.line_1}" %>"
@@ -57,6 +58,7 @@ supported_platforms:
       color: "red"
       tag: "java"
       link: "/merger/java/"
+      features_link: "https://docs.groupdocs.com/merger/java/system-requirements/"
       features:
         # features loop
         - content: "<% "{supported_platforms.java.feature_1.line_1}" %>"
@@ -65,7 +67,7 @@ supported_platforms:
         - content:  "<% "{supported_platforms.java.feature_2.line_1}" %>"
           rows: "1"
         # features loop
-        - content:  "<% "{supported_platforms.java.feature_3.line_1}" %>  <br>  <% "{supported_platforms.java.feature_3.line_2}" %>  <br>  <% "{supported_platforms.java.feature_3.line_3}" %>"
+        - content:  "IntelliJ IDEA  <br>  Eclipse  <br>  NetBeans"
           rows: "3"
          # features loop
         - content:  "<% "{supported_platforms.java.feature_4.line_1}" %>"
@@ -308,19 +310,19 @@ app_links:
   items:
     #  loop
     - icon: "groupdocs_merger-app"
-      title: "<% "{app_links.link_1.title}" %>"
+      title: "GroupDocs.Merger Total"
       link: "https://products.groupdocs.app/merger/total"
       content: "<% "{app_links.link_1.content}" %>"
 
     #  loop
     - icon: "groupdocs_words-app"
-      title:  "<% "{app_links.link_2.title}" %>"
+      title:  "GroupDocs.Merger DOCX"
       link: "https://products.groupdocs.app/merger/docx"
       content: "<% "{app_links.link_2.content}" %>"
 
     #  loop
     - icon: "groupdocs_pdf-app"
-      title:  "<% "{app_links.link_3.title}" %>"
+      title:  "GroupDocs.Merger PDF"
       link: "https://products.groupdocs.app/merger/pdf"
       content: "<% "{app_links.link_3.content}" %>"
     

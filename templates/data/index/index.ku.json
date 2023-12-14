@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "API-ya Belgeyên Yekbûn û Parçekirinê | Li ser Premise API û karûbarê serhêl",
+    "description": "Gelek Peyv, PDF, Wêne an pelên PPTX bi hev re bikin û hev bikin. Pelên Peyv, PDF, PPTX an Wêne bi hêsanî û belaş parve bikin û parve bikin"
+  },
+  "header": {
+    "title": "Belgeyên bi hêsanî tevlihev bikin û parçe bikin",
+    "description_1": "Cûreyên cûrbecûr belgeyan bêyî tengasiyê bikin yek.",
+    "description_2": "Bi dabeşkirina pelên mezin li perçeyên piçûktir, birêkûpêktir, belgeyan bi hêsanî birêve bibin.",
+    "description_3": "Rûpelên belgeyê manîpule bikin da ku wan ji nû ve rêz bikin, biguhezînin an jê bikin."
+  },
+  "actions": {
+    "title": "Amade ne ku dest pê bikin?",
+    "description": "Taybetmendiyên GroupDocs.Merger belaş li ser platforma xwe biceribînin"
+  },
+  "formats": {
+    "title": "60+ formatên pelan piştgirî kirin",
+    "description": "GroupDocs.Merger operasyonên bi cûrbecûr  piştgirî dike [formatên belgeyê](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

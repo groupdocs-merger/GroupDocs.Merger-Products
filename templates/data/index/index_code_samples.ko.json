@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "실용적인 코드 쇼케이스",
+    "description": "일반적인 GroupDocs.Merger 작업의 일부 사용 사례입니다.",
+    "sample_1": {
+      "title": "여러 파일 병합",
+      "content": "GroupDocs.Merger를 사용하면 여러 파일을 단일 파일로 결합할 수 있습니다. 전체 문서 또는 문서의 특정 페이지를 병합할 수 있습니다.",
+      "csharp": {
+        "comment_1": "결합할 원하는 페이지 번호 또는 페이지 범위를 지정하세요.",
+        "comment_2": "소스 DOCX 파일 로드",
+        "comment_3": "병합할 다른 DOCX 파일 추가",
+        "comment_4": "DOCX 파일을 병합하고 결과를 저장합니다."
+      },
+      "java": {
+        "comment_1": "결합할 원하는 페이지 번호 또는 페이지 범위를 지정하세요.",
+        "comment_2": "소스 DOCX 파일 로드",
+        "comment_3": "병합할 다른 DOCX 파일 추가",
+        "comment_4": "DOCX 파일을 병합하고 결과를 저장합니다."
+      }
+    }
+  }
+}

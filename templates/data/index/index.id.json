@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "Gabungkan dan Pisahkan API Dokumen | API Lokal dan layanan online",
+    "description": "Gabungkan & gabungkan beberapa file Word, PDF, Gambar, atau PPTX. Pisahkan & bagi file Word, PDF, PPTX, atau Gambar dengan mudah dan gratis"
+  },
+  "header": {
+    "title": "Gabungkan dan pisahkan dokumen dengan mudah",
+    "description_1": "Gabungkan berbagai jenis dokumen tanpa repot.",
+    "description_2": "Kelola dokumen dengan mudah dengan memecah file besar menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola.",
+    "description_3": "Memanipulasi halaman dokumen untuk menyusun ulang, menukar, atau menghapusnya."
+  },
+  "actions": {
+    "title": "Siap untuk memulai?",
+    "description": "Coba fitur GroupDocs.Merger secara gratis di platform Anda"
+  },
+  "formats": {
+    "title": "60+ format file didukung",
+    "description": "GroupDocs.Merger mendukung operasi dengan berbagai [format dokumen](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

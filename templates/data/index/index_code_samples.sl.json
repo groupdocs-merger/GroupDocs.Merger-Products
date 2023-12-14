@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Praktična predstavitev kode",
+    "description": "Nekateri primeri uporabe tipičnih operacij GroupDocs.Merger.",
+    "sample_1": {
+      "title": "Združevanje več datotek",
+      "content": "GroupDocs.Merger omogoča združevanje več datotek skupaj v eno datoteko. Iz svojih dokumentov lahko združite celotne dokumente ali posamezne strani.",
+      "csharp": {
+        "comment_1": "Določite želene številke strani ali obseg strani, ki jih želite pridružiti",
+        "comment_2": "Naložite izvorno datoteko DOCX",
+        "comment_3": "Dodajte še eno datoteko DOCX za združitev",
+        "comment_4": "Spojite datoteke DOCX in shranite rezultat"
+      },
+      "java": {
+        "comment_1": "Določite želene številke strani ali obseg strani, ki jih želite pridružiti",
+        "comment_2": "Naložite izvorno datoteko DOCX",
+        "comment_3": "Dodajte še eno datoteko DOCX za združitev",
+        "comment_4": "Spojite datoteke DOCX in shranite rezultat"
+      }
+    }
+  }
+}

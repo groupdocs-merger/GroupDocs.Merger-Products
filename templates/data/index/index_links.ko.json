@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger 로우 코드 API",
+    "description": "클라우드 기반 REST API를 사용하면 모든 유형의 애플리케이션에서 문서 병합을 가속화할 수 있습니다.",
+    "link_1": {
+      "title": "cURL용 GroupDocs.Merger 클라우드",
+      "content": "문서를 병합하고 분할하기 위한 RESTful 문서 병합 Cloud API용 간단한 cURL 명령입니다."
+    },
+    "link_2": {
+      "title": ".NET용 GroupDocs.Merger 클라우드",
+      "content": ".NET 기반 애플리케이션에서 빠른 병합 및 분할 기능을 구현하는 Microsoft .NET용 Cloud SDK입니다."
+    },
+    "link_3": {
+      "title": "Java용 GroupDocs.Merger 클라우드",
+      "content": "여러 문서를 하나로 결합하고 Java 애플리케이션에서 모든 문서를 여러 문서로 분할하세요."
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.Merger NoCode 앱",
+    "description": "브라우저에서 170개 이상의 널리 사용되는 파일 형식을 병합하고 분할할 수 있는 온라인 애플리케이션입니다.",
+    "link_1": {
+      "title": "GroupDocs.Merger 합계",
+      "content": "즐겨 사용하는 웹 브라우저를 벗어나지 않고도 30가지 이상의 파일 유형을 연결할 수 있는 무료 온라인 앱을 사용해 보세요."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger 단어",
+      "content": "여러 DOCX 파일을 연결하여 단일 문서를 생성합니다."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "여러 PDF 파일을 병합하여 웹 브라우저에서 직접 단일 문서를 생성합니다."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Ayrıntılı ölçümler ve istatistiksel bilgiler",
+    "description": "Başarılarımıza, etkimize ve büyümemize ilişkin kapsamlı ölçümler ve istatistiksel bilgiler sağlayan önemli rakamlarımızın ayrıntılı bir dökümünü inceleyin.",
+    "metric_1": {
+      "title": "Desteklenen formatlar",
+      "content": "Her kitaplık, en popüler dosya ve belge formatlarından 50'den fazlasının işlenmesini destekler."
+    },
+    "metric_2": {
+      "title": "NuGet indirmeleri",
+      "content": "GroupDocs.Merger for .NET, NuGet paket yöneticisinden 274.000'den fazla indirmeye sahiptir."
+    },
+    "metric_3": {
+      "title": "Maven indirmeleri",
+      "content": "GroupDocs.Merger for Java'nın Maven depomuzdan 5,5 binden fazla indirmesi var."
+    },
+    "metric_4": {
+      "title": "Memnun müşteriler",
+      "content": "Kütüphanelerimiz hem küçük bireysel geliştiriciler hem de dünya çapında lider şirketler tarafından kullanılmaktadır."
+    }
+  }
+}

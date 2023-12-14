@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Sýning á hagnýtum kóða",
+    "description": "Sumir nota dæmigerða GroupDocs.Merger aðgerðir.",
+    "sample_1": {
+      "title": "Sameina nokkrar skrár",
+      "content": "GroupDocs.Merger gerir þér kleift að sameina nokkrar skrár saman í eina skrá. Þú getur sameinað heil skjöl eða tilteknar síður úr skjölunum þínum.",
+      "csharp": {
+        "comment_1": "Tilgreindu blaðsíðunúmer eða blaðsíðusvið sem þú vilt taka þátt í",
+        "comment_2": "Hladdu uppruna DOCX skránni",
+        "comment_3": "Bættu við annarri DOCX skrá til að sameinast",
+        "comment_4": "Sameina DOCX skrár og vista niðurstöðuna"
+      },
+      "java": {
+        "comment_1": "Tilgreindu blaðsíðunúmer eða blaðsíðusvið sem þú vilt taka þátt í",
+        "comment_2": "Hladdu uppruna DOCX skránni",
+        "comment_3": "Bættu við annarri DOCX skrá til að sameinast",
+        "comment_4": "Sameina DOCX skrár og vista niðurstöðuna"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "实用代码展示",
+    "description": "典型 GroupDocs.Merger 操作的一些用例。",
+    "sample_1": {
+      "title": "合并多个文件",
+      "content": "GroupDocs.Merger 允许您将多个文件合并为一个文件。您可以合并整个文档或文档中的特定页面。",
+      "csharp": {
+        "comment_1": "指定要加入的所需页码或页面范围",
+        "comment_2": "加载源 DOCX 文件",
+        "comment_3": "添加另一个 DOCX 文件进行合并",
+        "comment_4": "合并 DOCX 文件并保存结果"
+      },
+      "java": {
+        "comment_1": "指定要加入的所需页码或页面范围",
+        "comment_2": "加载源 DOCX 文件",
+        "comment_3": "添加另一个 DOCX 文件进行合并",
+        "comment_4": "合并 DOCX 文件并保存结果"
+      }
+    }
+  }
+}

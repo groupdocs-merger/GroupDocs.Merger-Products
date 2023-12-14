@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "合并和拆分文档 API |本地API和在线服务",
+    "description": "合并和合并多个 Word、PDF、图像或 PPTX 文件。轻松免费地拆分和划分 Word、PDF、PPTX 或图像文件"
+  },
+  "header": {
+    "title": "轻松合并和拆分文档",
+    "description_1": "轻松合并各种文档类型。",
+    "description_2": "通过将大文件分解成更小、更易于管理的部分来轻松管理文档。",
+    "description_3": "操作文档页面以重新排序、交换或删除它们。"
+  },
+  "actions": {
+    "title": "准备好开始了吗？",
+    "description": "在您的平台上免费试用 GroupDocs.Merger 功能"
+  },
+  "formats": {
+    "title": "支持 60 多种文件格式",
+    "description": "GroupDocs.Merger 支持多种[文档格式](https://docs.groupdocs.com/merger/net/supported-document-formats/) 的操作。"
+  }
+}

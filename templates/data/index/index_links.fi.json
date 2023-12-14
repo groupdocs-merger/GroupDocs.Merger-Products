@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger alhaisen koodin sovellusliittymät",
+    "description": "Nopeuta asiakirjojen yhdistämistä minkä tahansa tyyppisissä sovelluksissa pilvipohjaisen REST-sovellusliittymämme avulla.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud for cURL",
+      "content": "Yksinkertaiset cURL-komennot RESTful-dokumenttien yhdistämiseen Cloud API yhdistää ja jakaa asiakirjoja."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud for .NET",
+      "content": "Cloud SDK Microsoft .NETille nopean yhdistämis- ja jakamisominaisuuden toteuttamiseksi .NET-pohjaisissa sovelluksissa."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud Javalle",
+      "content": "Yhdistä useita asiakirjoja yhdeksi, jaa mikä tahansa asiakirja useiksi Java-sovelluksissasi."
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.Merger NoCode -sovellukset",
+    "description": "Online-sovellus, jonka avulla voit yhdistää ja jakaa yli 170 suosittua tiedostomuotoa selaimessa.",
+    "link_1": {
+      "title": "GroupDocs.Merger Yhteensä",
+      "content": "Kokeile ilmaista verkkosovellustamme ketjuttaaksesi yli 30 tiedostotyyppiä poistumatta suosikkiselaimestasi."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Yhdistä useita DOCX-tiedostoja yhden asiakirjan luomiseksi."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Yhdistä useita PDF-tiedostoja luodaksesi yhden asiakirjan suoraan verkkoselaimesta."
+    }
+  }
+}

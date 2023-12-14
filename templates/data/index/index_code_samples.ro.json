@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Prezentare practică de coduri",
+    "description": "Unele cazuri de utilizare ale operațiunilor tipice GroupDocs.Merger.",
+    "sample_1": {
+      "title": "Îmbinarea mai multor fișiere",
+      "content": "GroupDocs.Merger vă permite să combinați mai multe fișiere într-un singur fișier. Puteți îmbina documente întregi sau anumite pagini din documentele dvs.",
+      "csharp": {
+        "comment_1": "Specificați numerele de pagini sau intervalul de pagini dorite pentru a vă alătura",
+        "comment_2": "Încărcați fișierul DOCX sursă",
+        "comment_3": "Adăugați un alt fișier DOCX pentru a îmbina",
+        "comment_4": "Îmbinați fișierele DOCX și salvați rezultatul"
+      },
+      "java": {
+        "comment_1": "Specificați numerele de pagini sau intervalul de pagini dorite pentru a vă alătura",
+        "comment_2": "Încărcați fișierul DOCX sursă",
+        "comment_3": "Adăugați un alt fișier DOCX pentru a îmbina",
+        "comment_4": "Îmbinați fișierele DOCX și salvați rezultatul"
+      }
+    }
+  }
+}

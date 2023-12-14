@@ -1,0 +1,45 @@
+{
+  "supported_platforms": {
+    "title": "플랫폼 독립성",
+    "description": "GroupDocs.Merger 라이브러리는 다음 운영 체제 및 프레임워크를 지원합니다.",
+    "head_title": "플랫폼을 선택하세요",
+    "details_link_title": "더 알아보기",
+    "net": {
+      "description": ".NET용 GroupDocs.Merger",
+      "feature_1": {
+        "line_1": ".NET 프레임워크 4.6.2 이상",
+        "line_2": ".NET 코어 2.0 이상",
+        "line_3": ".NET 6.0 이상",
+        "line_4": "모노 프레임워크 2.6.7 이상"
+      },
+      "feature_2": {
+        "line_1": "윈도우, 리눅스, 맥 OS"
+      },
+      "feature_3": {
+        "line_1": "Microsoft Visual Studio",
+        "line_2": "Xamarin (Android, iOS, Mac)",
+        "line_3": "MonoDevelop"
+      },
+      "feature_4": {
+        "line_1": "60개 이상의 파일 형식"
+      }
+    },
+    "java": {
+      "description": "Java용 GroupDocs.Merger",
+      "feature_1": {
+        "line_1": "J2SE 8.0 이상"
+      },
+      "feature_2": {
+        "line_1": "윈도우, 리눅스, 맥 OS"
+      },
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
+      "feature_4": {
+        "line_1": "50개 이상의 파일 형식"
+      }
+    }
+  }
+}
