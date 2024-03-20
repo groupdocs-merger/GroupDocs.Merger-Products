@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger zema koda API",
+    "description": "Paātriniet dokumentu sapludināšanu jebkura veida lietojumprogrammās, izmantojot mūsu mākoņdatošanas REST API.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud for cURL",
+      "content": "Vienkāršas cURL komandas RESTful dokumentu sapludināšanai Cloud API, lai sapludinātu un sadalītu dokumentus."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger mākonis .NET",
+      "content": "Cloud SDK Microsoft .NET, lai ieviestu ātru sapludināšanu un sadalīšanas funkciju .NET balstītās lietojumprogrammās."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud darbam ar Java",
+      "content": "Apvienojiet vairākus dokumentus vienā, sadaliet jebkuru dokumentu vairākos savās Java lietojumprogrammās."
+    }
+  },
+  "app_links": {
+    "title": "Lietotnes GroupDocs.Merger NoCode",
+    "description": "Tiešsaistes lietojumprogramma, kas ļauj pārlūkprogrammā apvienot un sadalīt vairāk nekā 170 populāru failu formātu.",
+    "link_1": {
+      "title": "GroupDocs.Merger Kopā",
+      "content": "Izmēģiniet mūsu bezmaksas tiešsaistes lietotni, lai savienotu vairāk nekā 30 veidu failus, neizejot no iecienītākās tīmekļa pārlūkprogrammas."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Savienojiet vairākus DOCX failus, lai ģenerētu vienu dokumentu."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Apvienojiet vairākus PDF failus, lai ģenerētu vienu dokumentu tieši no tīmekļa pārlūkprogrammas."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "API de mesclar e dividir documentos | API local e serviço online",
+    "description": "Mesclar e combinar vários arquivos de palavras, PDF, imagens ou PPTX. Divida e divida arquivos de palavras, PDF, PPTX ou imagens de forma fácil e gratuita"
+  },
+  "header": {
+    "title": "Mesclar e dividir documentos com facilidade",
+    "description_1": "Mesclar vários tipos de documentos sem complicações.",
+    "description_2": "Gerencie documentos facilmente dividindo arquivos grandes em partes menores e mais gerenciáveis.",
+    "description_3": "Manipule páginas de documentos para reordená-las, trocá-las ou removê-las."
+  },
+  "actions": {
+    "title": "Pronto para começar?",
+    "description": "Experimente os recursos do GroupDocs.Merger gratuitamente em sua plataforma"
+  },
+  "formats": {
+    "title": "60+ formatos de arquivo suportados",
+    "description": "GroupDocs.Merger oferece suporte a operações com uma ampla variedade de [formatos de documentos](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

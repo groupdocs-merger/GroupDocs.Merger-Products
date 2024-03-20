@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Méadracht dhomhain agus léargais staitistiúla",
+    "description": "Léim isteach i miondealú mionsonraithe ar ár bpríomhfhigiúirí, ag soláthar méadrachta cuimsitheach agus léargais staitistiúla ar ár ngnóthachtálacha, tionchar agus fás.",
+    "metric_1": {
+      "title": "Formáidí tacaithe",
+      "content": "Tacaíonn gach leabharlann le próiseáil níos mó ná 50 de na formáidí comhaid agus doiciméad is coitianta."
+    },
+    "metric_2": {
+      "title": "Íoslódáil NuGet",
+      "content": "Tá níos mó ná íoslódálacha 274K ag GroupDocs.Merger le haghaidh .NET ó bhainisteoir pacáiste NuGet."
+    },
+    "metric_3": {
+      "title": "Maven íoslódáil",
+      "content": "Tá níos mó ná íoslódálacha 5.5K ag GroupDocs.Merger do Java ónár stór Maven."
+    },
+    "metric_4": {
+      "title": "Custaiméirí sásta",
+      "content": "Úsáideann forbróirí aonair beaga chomh maith le cuideachtaí móra ar fud an domhain ár leabharlanna."
+    }
+  }
+}

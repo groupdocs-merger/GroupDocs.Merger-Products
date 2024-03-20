@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "Sekilas tentang GroupDocs.Merger",
+    "description": "API untuk menggabungkan, membagi, menukar, menyusun ulang atau menghapus halaman dokumen, slide, dan diagram.",
+    "feature_1": {
+      "title": "Gabungkan beberapa format file",
+      "content": "Gabungkan beberapa PDF, Office, dan banyak format lain yang didukung dengan lancar ke dalam satu dokumen."
+    },
+    "feature_2": {
+      "title": "Pisahkan dokumen berukuran besar",
+      "content": "Pisahkan dokumen berdasarkan halaman tertentu, rentang, atau bahkan ekstrak halaman individual."
+    },
+    "feature_3": {
+      "title": "Sesuaikan struktur dokumen",
+      "content": "Atur dokumen Anda dengan mengatur ulang, menghapus, atau menambahkan halaman."
+    },
+    "feature_4": {
+      "title": "Pratinjau halaman dokumen",
+      "content": "Hasilkan representasi gambar halaman dokumen untuk memahami konten dan struktur dengan lebih baik."
+    }
+  }
+}

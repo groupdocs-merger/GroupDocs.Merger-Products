@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Giới thiệu mã thực tế",
+    "description": "Một số trường hợp sử dụng các hoạt động GroupDocs.Merger điển hình.",
+    "sample_1": {
+      "title": "Hợp nhất một số tập tin",
+      "content": "GroupDocs.Merger cho phép bạn kết hợp nhiều tệp lại với nhau thành một tệp duy nhất. Bạn có thể hợp nhất toàn bộ tài liệu hoặc các trang cụ thể từ tài liệu của mình.",
+      "csharp": {
+        "comment_1": "Chỉ định số trang hoặc phạm vi trang mong muốn để tham gia",
+        "comment_2": "Tải tệp DOCX nguồn",
+        "comment_3": "Thêm một tệp DOCX khác để hợp nhất",
+        "comment_4": "Hợp nhất các tệp DOCX và lưu kết quả"
+      },
+      "java": {
+        "comment_1": "Chỉ định số trang hoặc phạm vi trang mong muốn để tham gia",
+        "comment_2": "Tải tệp DOCX nguồn",
+        "comment_3": "Thêm một tệp DOCX khác để hợp nhất",
+        "comment_4": "Hợp nhất các tệp DOCX và lưu kết quả"
+      }
+    }
+  }
+}

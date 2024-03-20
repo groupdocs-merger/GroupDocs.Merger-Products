@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger na první pohled",
+    "description": "API pro kombinování, rozdělení, výměnu, změnu pořadí nebo odstranění stránek dokumentu, snímků a diagramů.",
+    "feature_1": {
+      "title": "Sloučit více formátů souborů",
+      "content": "Bezproblémově zkombinujte více PDF, Office a mnoho dalších podporovaných formátů do jednoho dokumentu."
+    },
+    "feature_2": {
+      "title": "Rozdělte velké dokumenty",
+      "content": "Rozdělte dokumenty podle konkrétních stránek, rozsahů nebo dokonce extrahujte jednotlivé stránky."
+    },
+    "feature_3": {
+      "title": "Přizpůsobte strukturu dokumentu",
+      "content": "Uspořádejte své dokumenty přeskupením, odebráním nebo přidáním stránek."
+    },
+    "feature_4": {
+      "title": "Náhled stránek dokumentu",
+      "content": "Vytvářejte obrazové reprezentace stránek dokumentu, abyste lépe porozuměli obsahu a struktuře."
+    }
+  }
+}

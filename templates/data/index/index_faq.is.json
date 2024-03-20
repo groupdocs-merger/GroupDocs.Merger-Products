@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Algengar spurningar",
+    "description": "Svör við algengustu spurningum.",
+    "faq_1": {
+      "question": "Þarf GroupDocs.Merger bókasafnið einhvern annan hugbúnað frá þriðja aðila til að vinna með skjöl?",
+      "answer": "GroupDocs.Merger krefst þess ekki að neinn utanaðkomandi hugbúnaður sé settur upp eins og Adobe Acrobat, Microsoft Office eða neinn annan."
+    },
+    "faq_2": {
+      "question": "Get ég prófað GroupDocs.Merger bókasafnið áður en ég kaupi það?",
+      "answer": "Já, þú getur prófað GroupDocs.Merger án þess að kaupa leyfi. Þegar það hefur verið sett upp án leyfis virkar bókasafnið í prufuham. Í þessum ham er prufumerkjum bætt við skjalið sem myndast og það er klippt niður á fyrstu 3 síðurnar. Ef þú vilt prófa GroupDocs.Merger án takmarkana prufuútgáfunnar geturðu líka beðið um 30 daga tímabundið leyfi. Fyrir frekari upplýsingar, sjá [Fá tímabundið leyfi](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Hvaða leyfi hefur þú?",
+      "answer": "Við bjóðum upp á nokkrar leyfisgerðir til að passa þarfir tiltekinna þróunaraðila eða fyrirtækja. Leyfisgerðir eru háðar fjölda þróunaraðila, fjölda staðsetninga þróunarsvæðis og hvort þú þurfir að afhenda SDK/API okkar til enda viðskiptavina þinna. Að öðrum kosti geturðu valið Metered leyfi byggt á mánaðarlegri notkun vörunnar. Frekari upplýsingar er að finna á [License Types](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

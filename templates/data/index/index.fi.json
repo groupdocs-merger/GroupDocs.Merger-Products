@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "Yhdistä ja jaa asiakirjat API | On Premise API ja verkkopalvelu",
+    "description": "Yhdistä ja yhdistä useita sanoja, PDF-, kuvia tai PPTX-tiedostoja. Jaa ja jaa sanat, PDF, PPTX tai kuvat -tiedostoja helposti ja ilmaiseksi"
+  },
+  "header": {
+    "title": "Yhdistä ja jaa asiakirjoja helposti",
+    "description_1": "Yhdistä eri asiakirjatyypit vaivattomasti.",
+    "description_2": "Hallitse asiakirjoja helposti pilkkomalla suuret tiedostot pienempiin, paremmin hallittaviin osiin.",
+    "description_3": "Käsittele asiakirjan sivuja niiden järjestämiseksi, vaihtamiseksi tai poistamiseksi."
+  },
+  "actions": {
+    "title": "Oletko valmis aloittamaan?",
+    "description": "Kokeile GroupDocs.Merger-ominaisuuksia ilmaiseksi alustallasi"
+  },
+  "formats": {
+    "title": "Yli 60 tiedostomuotoa tuetaan",
+    "description": "GroupDocs.Merger tukee toimintoja useilla [asiakirjamuodoilla](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

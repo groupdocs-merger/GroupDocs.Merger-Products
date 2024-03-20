@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "API de codi baix de GroupDocs.Merger",
+    "description": "Accelera la fusió de documents en qualsevol tipus d'aplicació amb la nostra API REST basada en núvol.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud per a cURL",
+      "content": "Ordres cURL senzilles per a l'API del núvol RESTful document merger per combinar i dividir documents."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud per a .NET",
+      "content": "Cloud SDK per a Microsoft .NET per implementar la funció de fusió i divisió ràpida en aplicacions basades en .NET."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud per a Java",
+      "content": "Combina diversos documents en un, divideix qualsevol document en diversos a les teves aplicacions Java."
+    }
+  },
+  "app_links": {
+    "title": "Aplicacions GroupDocs.Merger NoCode",
+    "description": "Aplicació en línia que us permet combinar i dividir més de 170 formats de fitxer populars al navegador.",
+    "link_1": {
+      "title": "GroupDocs.Merger Total",
+      "content": "Proveu la nostra aplicació en línia gratuïta per concatenar més de 30 tipus de fitxers sense sortir del vostre navegador web preferit."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Concatena diversos fitxers DOCX per generar un sol document."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Combina diversos fitxers PDF per generar un sol document directament des del navegador web."
+    }
+  }
+}

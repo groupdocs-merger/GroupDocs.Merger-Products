@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "API za spajanje in razdelitev dokumentov | On Premise API in spletna storitev",
+    "description": "Združite in združite več datotek Word, PDF, slik ali PPTX. Preprosto in brezplačno razdelite datoteke Words, PDF, PPTX ali slike"
+  },
+  "header": {
+    "title": "Z lahkoto združite in razdelite dokumente",
+    "description_1": "Združite različne vrste dokumentov brez težav.",
+    "description_2": "Preprosto upravljajte dokumente tako, da velike datoteke razdelite na manjše, lažje obvladljive dele.",
+    "description_3": "Manipulirajte s stranmi dokumenta, da jih preuredite, zamenjate ali odstranite."
+  },
+  "actions": {
+    "title": "Ste pripravljeni začeti?",
+    "description": "Brezplačno preizkusite funkcije GroupDocs.Merger na svoji platformi"
+  },
+  "formats": {
+    "title": "Podprtih je več kot 60 formatov datotek",
+    "description": "GroupDocs.Merger podpira operacije s širokim naborom [oblik dokumentov](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

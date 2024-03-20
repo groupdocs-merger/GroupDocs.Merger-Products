@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.API های کم کد را ادغام کنید",
+    "description": "ادغام اسناد در هر نوع برنامه ای را با REST API مبتنی بر ابر ما تسریع کنید.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud برای cURL",
+      "content": "دستورات ساده cURL برای RESTful ادغام اسناد Cloud API برای ادغام و تقسیم اسناد."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud برای NET",
+      "content": "Cloud SDK برای Microsoft.NET برای پیاده سازی ویژگی ادغام و تقسیم سریع در برنامه های مبتنی بر NET."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud برای جاوا",
+      "content": "چندین سند را در یکی ترکیب کنید، هر سند را در برنامه های جاوا خود به چندین سند تقسیم کنید."
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.Amerger NoCode apps",
+    "description": "برنامه آنلاین که به شما امکان می دهد بیش از 170 فرمت فایل محبوب را در مرورگر ادغام و تقسیم کنید.",
+    "link_1": {
+      "title": "GroupDocs.Merger Total",
+      "content": "برنامه آنلاین رایگان ما را امتحان کنید تا بیش از 30 نوع فایل را بدون ترک مرورگر وب مورد علاقه خود به هم متصل کنید."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "چندین فایل DOCX را برای ایجاد یک سند واحد به هم متصل کنید."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "چندین فایل PDF را ادغام کنید تا یک سند واحد را مستقیماً از مرورگر وب ایجاد کنید."
+    }
+  }
+}

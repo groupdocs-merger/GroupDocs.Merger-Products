@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger API kode rendah",
+    "description": "Percepat penggabungan dokumen di semua jenis aplikasi dengan REST API kami yang berbasis cloud.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud untuk cURL",
+      "content": "Perintah cURL sederhana untuk penggabungan dokumen RESTful Cloud API untuk menggabungkan dan memisahkan dokumen."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud untuk .NET",
+      "content": "Cloud SDK untuk Microsoft .NET untuk mengimplementasikan fitur penggabungan dan pemisahan cepat dalam aplikasi berbasis .NET."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud untuk Java",
+      "content": "Gabungkan beberapa dokumen menjadi satu, pisahkan dokumen apa pun menjadi beberapa di aplikasi Java Anda."
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.Merger aplikasi NoCode",
+    "description": "Aplikasi online memungkinkan Anda menggabungkan dan membagi 170+ format file populer di browser.",
+    "link_1": {
+      "title": "GroupDocs.Jumlah Penggabungan",
+      "content": "Coba aplikasi online gratis kami untuk menggabungkan lebih dari 30 jenis file tanpa meninggalkan browser web favorit Anda."
+    },
+    "link_2": {
+      "title": "GroupDocs.Penggabungan Kata",
+      "content": "Gabungkan beberapa file DOCX untuk menghasilkan satu dokumen."
+    },
+    "link_3": {
+      "title": "GroupDocs.Penggabungan PDF",
+      "content": "Gabungkan beberapa file PDF untuk menghasilkan satu dokumen langsung dari browser web."
+    }
+  }
+}

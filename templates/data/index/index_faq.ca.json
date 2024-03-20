@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Preguntes freqüents",
+    "description": "Respostes a les preguntes més freqüents.",
+    "faq_1": {
+      "question": "La biblioteca GroupDocs.Merger necessita algun altre programari de tercers per manipular documents?",
+      "answer": "GroupDocs.Merger no requereix que s'instal·li cap programari extern, com ara Adobe Acrobat, Microsoft Office o cap altre."
+    },
+    "faq_2": {
+      "question": "Puc provar la biblioteca GroupDocs.Merger abans de comprar-la?",
+      "answer": "Sí, podeu provar GroupDocs.Merger sense comprar una llicència. Un cop instal·lada sense llicència, la biblioteca funciona en mode de prova. En aquest mode, s'afegeixen insígnies de prova al document resultant i es retalla a les 3 primeres pàgines. Si voleu provar GroupDocs.Merger sense les limitacions de la versió de prova, també podeu sol·licitar una llicència temporal de 30 dies. Per obtenir més informació, vegeu [Obtenir una llicència temporal](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Quines llicències tens?",
+      "answer": "Oferim diversos tipus de llicències per adaptar-se a les necessitats de desenvolupadors o empreses particulars. Els tipus de llicència depenen del nombre de desenvolupadors, del nombre d'ubicacions del lloc per a desenvolupadors i de si necessiteu lliurar el nostre SDK/API als vostres clients finals. Alternativament, podeu triar llicències mesurades en funció de l'ús mensual del producte. Més informació a [Tipus de llicència](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

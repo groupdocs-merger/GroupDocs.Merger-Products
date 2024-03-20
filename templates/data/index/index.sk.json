@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "Zlúčiť a rozdeliť dokumenty API | On Premise API a online služba",
+    "description": "Zlúčiť a kombinovať viacero súborov Word, PDF, Obrázky alebo PPTX. Rozdeľte a rozdeľte súbory Word, PDF, PPTX alebo Obrázky jednoducho a zadarmo"
+  },
+  "header": {
+    "title": "Ľahko zlúčte a rozdeľte dokumenty",
+    "description_1": "Zlúčte rôzne typy dokumentov bez problémov.",
+    "description_2": "Jednoducho spravujte dokumenty rozdelením veľkých súborov na menšie, lepšie spravovateľné časti.",
+    "description_3": "Manipulujte so stranami dokumentu, aby ste ich usporiadali, vymenili alebo odstránili."
+  },
+  "actions": {
+    "title": "Ste pripravení začať?",
+    "description": "Vyskúšajte funkcie GroupDocs.Merger zadarmo na svojej platforme"
+  },
+  "formats": {
+    "title": "Podporovaných viac ako 60 formátov súborov",
+    "description": "GroupDocs.Merger podporuje operácie so širokou škálou [formátov dokumentov](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

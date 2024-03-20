@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "API-ji GroupDocs.Merger z nizko kodo",
+    "description": "Pospešite združevanje dokumentov v kateri koli vrsti aplikacije z našim API-jem REST v oblaku.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud za cURL",
+      "content": "Preprosti ukazi cURL za RESTful API za združevanje dokumentov v oblaku za združevanje in razdelitev dokumentov."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud za .NET",
+      "content": "Cloud SDK za Microsoft .NET za izvajanje funkcije hitrega združevanja in razdelitve v aplikacijah, ki temeljijo na .NET."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud za Javo",
+      "content": "Združite več dokumentov v enega, razdelite kateri koli dokument na več v svojih aplikacijah Java."
+    }
+  },
+  "app_links": {
+    "title": "Aplikacije GroupDocs.Merger NoCode",
+    "description": "Spletna aplikacija, ki vam omogoča združevanje in razdelitev več kot 170 priljubljenih formatov datotek v brskalniku.",
+    "link_1": {
+      "title": "GroupDocs.Merger Total",
+      "content": "Preizkusite našo brezplačno spletno aplikacijo za povezovanje več kot 30 vrst datotek, ne da bi zapustili svoj najljubši spletni brskalnik."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Združite več datotek DOCX, da ustvarite en sam dokument."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Združite več datotek PDF in ustvarite en sam dokument neposredno iz spletnega brskalnika."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Pratik kod vitrini",
+    "description": "Tipik GroupDocs.Merger işlemlerinin bazı kullanım durumları.",
+    "sample_1": {
+      "title": "Birkaç dosyayı birleştirme",
+      "content": "GroupDocs.Merger, birden fazla dosyayı tek bir dosyada birleştirmenize olanak tanır. Belgelerinizin tamamını veya belirli sayfalarını birleştirebilirsiniz.",
+      "csharp": {
+        "comment_1": "Katılmak istediğiniz sayfa numaralarını veya sayfa aralığını belirtin",
+        "comment_2": "Kaynak DOCX dosyasını yükleyin",
+        "comment_3": "Birleştirmek için başka bir DOCX dosyası ekleyin",
+        "comment_4": "DOCX dosyalarını birleştir ve sonucu kaydet"
+      },
+      "java": {
+        "comment_1": "Katılmak istediğiniz sayfa numaralarını veya sayfa aralığını belirtin",
+        "comment_2": "Kaynak DOCX dosyasını yükleyin",
+        "comment_3": "Birleştirmek için başka bir DOCX dosyası ekleyin",
+        "comment_4": "DOCX dosyalarını birleştir ve sonucu kaydet"
+      }
+    }
+  }
+}

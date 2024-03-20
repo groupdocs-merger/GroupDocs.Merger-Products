@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger 低代码 API",
+    "description": "使用我们基于云的 REST API 加速任何类型应用程序中的文档合并。",
+    "link_1": {
+      "title": "用于 cURL 的 GroupDocs.Merger Cloud",
+      "content": "用于 RESTful 文档合并的简单 cURL 命令 用于合并和拆分文档的云 API。"
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud for .NET",
+      "content": "Cloud SDK for Microsoft .NET，用于在基于 .NET 的应用程序中实现快速合并和拆分功能。"
+    },
+    "link_3": {
+      "title": "适用于 Java 的 GroupDocs.Merger Cloud",
+      "content": "将多个文档合并为一个，在 Java 应用程序中将任何文档拆分为多个。"
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.合并 NoCode 应用程序",
+    "description": "在线应用程序允许您在浏览器中合并和拆分 170 多种流行的文件格式。",
+    "link_1": {
+      "title": "GroupDocs.合并总计",
+      "content": "尝试我们的免费在线应用程序，无需离开您最喜爱的网络浏览器即可连接 30 多种类型的文件。"
+    },
+    "link_2": {
+      "title": "GroupDocs.合并字",
+      "content": "连接多个 DOCX 文件以生成单个文档。"
+    },
+    "link_3": {
+      "title": "GroupDocs.合并 PDF",
+      "content": "合并多个 PDF 文件以直接从 Web 浏览器生成单个文档。"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Korduma kippuvad küsimused",
+    "description": "Vastused enamlevinud küsimustele.",
+    "faq_1": {
+      "question": "Kas GroupDocs.Merger teek vajab dokumentide töötlemiseks muud kolmanda osapoole tarkvara?",
+      "answer": "GroupDocs.Merger ei nõua välise tarkvara (nt Adobe Acrobat, Microsoft Office või mis tahes muu) installimist."
+    },
+    "faq_2": {
+      "question": "Kas ma saan GroupDocs.Merger teeki enne selle ostmist proovida?",
+      "answer": "Jah, saate GroupDocs.Mergerit proovida ilma litsentsi ostmata. Pärast litsentsita installimist töötab raamatukogu proovirežiimis. Selles režiimis lisatakse tulemuseks olevale dokumendile proovimärgid ja see kärbitakse kolmele esimesele lehele. Kui soovite testida GroupDocs.Mergerit ilma prooviversiooni piiranguteta, võite taotleda ka 30-päevast ajutist litsentsi. Lisateavet leiate jaotisest [Hankige ajutine litsents](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Mis litsentsid teil on?",
+      "answer": "Pakume mitut tüüpi litsentsi, mis vastavad konkreetsete arendajate või ettevõtete vajadustele. Litsentsitüübid sõltuvad arendajate arvust, arendajate saitide asukohtade arvust ja sellest, kas teil on vaja meie SDK/API-d lõppklientidele edastada. Teise võimalusena saate valida mõõdetud litsentsid, mis põhinevad toote igakusel kasutusel. Lisateavet leiate aadressilt [litsentsitüübid](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

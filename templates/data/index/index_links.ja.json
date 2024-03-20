@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger ローコード API",
+    "description": "クラウドベースの REST API を使用して、あらゆる種類のアプリケーションでのドキュメントの結合を高速化します。",
+    "link_1": {
+      "title": "cURL 用の GroupDocs.Merger Cloud",
+      "content": "RESTful ドキュメント結合用のシンプルな cURL コマンド ドキュメントを結合および分割するためのクラウド API。"
+    },
+    "link_2": {
+      "title": ".NET 用 GroupDocs.Merger クラウド",
+      "content": "Cloud SDK for Microsoft .NET は、.NET ベースのアプリケーションにクイック マージおよび分割機能を実装します。"
+    },
+    "link_3": {
+      "title": "Java 用 GroupDocs.Merger クラウド",
+      "content": "Java アプリケーションで複数のドキュメントを 1 つに結合し、任意のドキュメントを複数に分割します。"
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.Merge NoCode アプリ",
+    "description": "ブラウザ上で 170 以上の一般的なファイル形式を結合および分割できるオンライン アプリケーション。",
+    "link_1": {
+      "title": "GroupDocs.Merger 合計",
+      "content": "お気に入りの Web ブラウザを離れることなく、30 種類以上のファイルを連結できる無料のオンライン アプリをお試しください。"
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "複数の DOCX ファイルを連結して 1 つのドキュメントを生成します。"
+    },
+    "link_3": {
+      "title": "GroupDocs.Merge PDF",
+      "content": "複数の PDF ファイルを結合して、Web ブラウザから直接 1 つのドキュメントを生成します。"
+    }
+  }
+}

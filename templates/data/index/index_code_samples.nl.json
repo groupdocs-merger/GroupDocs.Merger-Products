@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Praktische codeshowcase",
+    "description": "Enkele gebruiksscenario's van typische GroupDocs.Merger-bewerkingen.",
+    "sample_1": {
+      "title": "Meerdere bestanden samenvoegen",
+      "content": "Met GroupDocs.Merger kunt u meerdere bestanden samenvoegen tot één bestand. U kunt hele documenten of bepaalde pagina's uit uw documenten samenvoegen.",
+      "csharp": {
+        "comment_1": "Geef de gewenste paginanummers of het paginabereik op waaraan u wilt deelnemen",
+        "comment_2": "Laad het bron-DOCX-bestand",
+        "comment_3": "Voeg nog een DOCX-bestand toe om samen te voegen",
+        "comment_4": "Voeg DOCX-bestanden samen en sla het resultaat op"
+      },
+      "java": {
+        "comment_1": "Geef de gewenste paginanummers of het paginabereik op waaraan u wilt deelnemen",
+        "comment_2": "Laad het bron-DOCX-bestand",
+        "comment_3": "Voeg nog een DOCX-bestand toe om samen te voegen",
+        "comment_4": "Voeg DOCX-bestanden samen en sla het resultaat op"
+      }
+    }
+  }
+}

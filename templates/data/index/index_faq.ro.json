@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Întrebări frecvente",
+    "description": "Răspunsuri la cele mai frecvente întrebări.",
+    "faq_1": {
+      "question": "Biblioteca GroupDocs.Merger are nevoie de vreun alt software terță parte pentru a manipula documente?",
+      "answer": "GroupDocs.Merger nu necesită instalarea niciunui software extern, cum ar fi Adobe Acrobat, Microsoft Office sau orice altul."
+    },
+    "faq_2": {
+      "question": "Pot încerca biblioteca GroupDocs.Merger înainte de a o cumpăra?",
+      "answer": "Da, puteți încerca GroupDocs.Merger fără a cumpăra o licență. Odată instalată fără licență, biblioteca funcționează în modul de probă. În acest mod, insignele de probă sunt adăugate documentului rezultat și sunt tăiate la primele 3 pagini. Dacă doriți să testați GroupDocs.Merger fără limitările versiunii de încercare, puteți solicita și o licență temporară de 30 de zile. Pentru mai multe detalii, consultați [Obțineți o licență temporară](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Ce licente ai?",
+      "answer": "Oferim mai multe tipuri de licențe pentru a se potrivi nevoilor anumitor dezvoltatori sau companii. Tipurile de licență depind de numărul de dezvoltatori, de numărul de locații ale site-urilor pentru dezvoltatori și de dacă trebuie să livrați SDK/API-ul nostru clienților finali. Alternativ, puteți alege licențe măsurate pe baza utilizării lunare a produsului. Aflați mai multe la [Tipuri de licență](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

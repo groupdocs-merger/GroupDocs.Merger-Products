@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "문서 병합 및 분할 API | 온프레미스 API 및 온라인 서비스",
+    "description": "여러 단어, PDF, 이미지 또는 PPTX 파일을 병합하고 결합합니다. 단어, PDF, PPTX 또는 이미지 파일을 무료로 쉽게 분할 및 나누기"
+  },
+  "header": {
+    "title": "쉽게 문서를 병합하고 분할하세요",
+    "description_1": "번거로움 없이 다양한 문서 유형을 병합하세요.",
+    "description_2": "대용량 파일을 더 작고 관리하기 쉬운 조각으로 나누어 문서를 쉽게 관리하세요.",
+    "description_3": "문서 페이지를 조작하여 순서를 바꾸거나 교체하거나 제거할 수 있습니다."
+  },
+  "actions": {
+    "title": "시작할 준비가 되셨나요?",
+    "description": "귀하의 플랫폼에서 GroupDocs.Merger 기능을 무료로 사용해 보세요"
+  },
+  "formats": {
+    "title": "60개 이상의 파일 형식 지원",
+    "description": "GroupDocs.Merger는 다양한 [문서 형식](https://docs.groupdocs.com/merger/net/supported-document-formats/) 작업을 지원합니다."
+  }
+}

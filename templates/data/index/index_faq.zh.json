@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "经常问的问题",
+    "description": "最常见问题的解答。",
+    "faq_1": {
+      "question": "GroupDocs.Merger 库是否需要任何其他第三方软件来操作文档？",
+      "answer": "GroupDocs.Merger 不需要安装任何外部软件，例如 Adob​​e Acrobat、Microsoft Office 或任何其他软件。"
+    },
+    "faq_2": {
+      "question": "我可以在购买之前试用 GroupDocs.Merger 库吗？",
+      "answer": "是的，您可以尝试 GroupDocs.Merger，无需购买许可证。一旦在没有许可证的情况下安装，该库就会以试用模式运行。在此模式下，试用徽章将添加到生成的文档中，并被修剪到前 3 页。如果您希望不受试用版限制地测试 GroupDocs.Merger，您还可以请求 30 天的临时许可证。有关更多详细信息，请参阅[获取临时许可证](https://purchase.groupdocs.com/temporary-license/)。"
+    },
+    "faq_3": {
+      "question": "你有什么许可证？",
+      "answer": "我们提供多种许可证类型来满足特定开发商或公司的需求。许可证类型取决于开发人员的数量、开发人员站点位置的数量以及您是否需要向最终客户提供我们的 SDK/API。或者，您可以根据产品的每月使用情况选择计量许可证。了解更多信息，请访问[许可证类型](https://purchase.groupdocs.com/policies/license-types/)。"
+    }
+  }
+}

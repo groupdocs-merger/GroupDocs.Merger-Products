@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Domande frequenti",
+    "description": "Risposte alle domande più frequenti.",
+    "faq_1": {
+      "question": "La libreria GroupDocs.Merger necessita di altri software di terze parti per manipolare i documenti?",
+      "answer": "GroupDocs.Merger non richiede l'installazione di alcun software esterno come Adobe Acrobat, Microsoft Office o qualsiasi altro."
+    },
+    "faq_2": {
+      "question": "Posso provare la libreria GroupDocs.Merger prima di acquistarla?",
+      "answer": "Sì, puoi provare GroupDocs.Merger senza acquistare una licenza. Una volta installata senza licenza, la libreria funziona in modalità di prova. In questa modalità, i badge di prova vengono aggiunti al documento risultante e questo viene tagliato alle prime 3 pagine. Se desideri testare GroupDocs.Merger senza le limitazioni della versione di prova, puoi anche richiedere una licenza temporanea di 30 giorni. Per ulteriori dettagli, vedere [Ottieni una licenza temporanea](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Che licenze hai?",
+      "answer": "Offriamo diversi tipi di licenza per soddisfare le esigenze di particolari sviluppatori o aziende. I tipi di licenza dipendono dal numero di sviluppatori, dal numero di ubicazioni dei siti degli sviluppatori e dalla necessità di fornire il nostro SDK/API ai tuoi clienti finali. In alternativa, puoi scegliere licenze a consumo in base all'utilizzo mensile del prodotto. Scopri di più su [Tipi di licenza](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

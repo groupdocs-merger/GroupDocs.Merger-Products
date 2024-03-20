@@ -1,0 +1,45 @@
+{
+  "supported_platforms": {
+    "title": "Neovisnost o platformi",
+    "description": "GroupDocs.Merger biblioteka podržava sljedeće operativne sustave i okvire:",
+    "head_title": "Odaberite svoju platformu",
+    "details_link_title": "Saznajte više",
+    "net": {
+      "description": "GroupDocs.Merger za .NET",
+      "feature_1": {
+        "line_1": ".NET Framework 4.6.2 ili noviji",
+        "line_2": ".NET Core 2.0 ili noviji",
+        "line_3": ".NET 6.0 ili noviji",
+        "line_4": "Mono Framework 2.6.7 ili noviji"
+      },
+      "feature_2": {
+        "line_1": "Windows, Linux, Mac OS"
+      },
+      "feature_3": {
+        "line_1": "Microsoft Visual Studio",
+        "line_2": "Xamarin (Android, iOS, Mac)",
+        "line_3": "MonoDevelop"
+      },
+      "feature_4": {
+        "line_1": "60+ formata datoteka"
+      }
+    },
+    "java": {
+      "description": "GroupDocs.Merger za Javu",
+      "feature_1": {
+        "line_1": "J2SE 8.0 ili noviji"
+      },
+      "feature_2": {
+        "line_1": "Windows, Linux, Mac OS"
+      },
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
+      "feature_4": {
+        "line_1": "50+ formata datoteka"
+      }
+    }
+  }
+}

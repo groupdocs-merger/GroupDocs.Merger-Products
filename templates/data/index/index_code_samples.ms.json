@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Pameran kod praktikal",
+    "description": "Sesetengah kes menggunakan operasi GroupDocs.Merger biasa.",
+    "sample_1": {
+      "title": "Menggabungkan beberapa fail",
+      "content": "GroupDocs.Merger membolehkan anda menggabungkan beberapa fail bersama-sama menjadi satu fail. Anda boleh menggabungkan keseluruhan dokumen atau halaman tertentu daripada dokumen anda.",
+      "csharp": {
+        "comment_1": "Tentukan nombor halaman atau julat halaman yang dikehendaki untuk disertai",
+        "comment_2": "Muatkan fail DOCX sumber",
+        "comment_3": "Tambah fail DOCX lain untuk digabungkan",
+        "comment_4": "Gabungkan fail DOCX dan simpan hasil"
+      },
+      "java": {
+        "comment_1": "Tentukan nombor halaman atau julat halaman yang dikehendaki untuk disertai",
+        "comment_2": "Muatkan fail DOCX sumber",
+        "comment_3": "Tambah fail DOCX lain untuk digabungkan",
+        "comment_4": "Gabungkan fail DOCX dan simpan hasil"
+      }
+    }
+  }
+}

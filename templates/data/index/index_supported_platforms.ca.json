@@ -1,0 +1,45 @@
+{
+  "supported_platforms": {
+    "title": "Independència de la plataforma",
+    "description": "La biblioteca GroupDocs.Merger admet els sistemes operatius i marcs següents:",
+    "head_title": "Tria la teva plataforma",
+    "details_link_title": "Aprèn més",
+    "net": {
+      "description": "GroupDocs.Merger per a .NET",
+      "feature_1": {
+        "line_1": ".NET Framework 4.6.2 o superior",
+        "line_2": ".NET Core 2.0 o superior",
+        "line_3": ".NET 6.0 o superior",
+        "line_4": "Mono Framework 2.6.7 o superior"
+      },
+      "feature_2": {
+        "line_1": "Windows, Linux, Mac OS"
+      },
+      "feature_3": {
+        "line_1": "Microsoft Visual Studio",
+        "line_2": "Xamarin (Android, iOS, Mac)",
+        "line_3": "MonoDevelop"
+      },
+      "feature_4": {
+        "line_1": "Més de 60 formats de fitxer"
+      }
+    },
+    "java": {
+      "description": "GroupDocs.Merger per a Java",
+      "feature_1": {
+        "line_1": "J2SE 8.0 o superior"
+      },
+      "feature_2": {
+        "line_1": "Windows, Linux, Mac OS"
+      },
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
+      "feature_4": {
+        "line_1": "Més de 50 formats de fitxer"
+      }
+    }
+  }
+}

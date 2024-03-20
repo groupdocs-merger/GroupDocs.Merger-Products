@@ -1,0 +1,45 @@
+{
+  "supported_platforms": {
+    "title": "Alustan riippumattomuus",
+    "description": "GroupDocs.Merger-kirjasto tukee seuraavia käyttöjärjestelmiä ja kehyksiä:",
+    "head_title": "Valitse alustasi",
+    "details_link_title": "Lue lisää",
+    "net": {
+      "description": "GroupDocs.Merger for .NET",
+      "feature_1": {
+        "line_1": ".NET Framework 4.6.2 tai uudempi",
+        "line_2": ".NET Core 2.0 tai uudempi",
+        "line_3": ".NET 6.0 tai uudempi",
+        "line_4": "Mono Framework 2.6.7 tai uudempi"
+      },
+      "feature_2": {
+        "line_1": "Windows, Linux, Mac OS"
+      },
+      "feature_3": {
+        "line_1": "Microsoft Visual Studio",
+        "line_2": "Xamarin (Android, iOS, Mac)",
+        "line_3": "MonoDevelop"
+      },
+      "feature_4": {
+        "line_1": "Yli 60 tiedostomuotoa"
+      }
+    },
+    "java": {
+      "description": "GroupDocs.Merger Javalle",
+      "feature_1": {
+        "line_1": "J2SE 8.0 tai uudempi"
+      },
+      "feature_2": {
+        "line_1": "Windows, Linux, Mac OS"
+      },
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
+      "feature_4": {
+        "line_1": "Yli 50 tiedostomuotoa"
+      }
+    }
+  }
+}

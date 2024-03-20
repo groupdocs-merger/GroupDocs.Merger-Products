@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Pirsên pir caran têne pirsîn",
+    "description": "Bersivên pirsên herî gelemperî têne pirsîn.",
+    "faq_1": {
+      "question": "Ma pirtûkxaneya GroupDocs.Merger pêdivî bi nermalava sêyemîn a din heye ku belgeyan manîpule bike?",
+      "answer": "GroupDocs.Merger hewce nake ku tu nermalava derveyî were saz kirin wekî Adobe Acrobat, Microsoft Office, an yek din."
+    },
+    "faq_2": {
+      "question": "Ez dikarim berî kirîna pirtûkxaneya GroupDocs.Merger biceribînim?",
+      "answer": "Erê, hûn dikarin bêyî kirîna destûrnameyek GroupDocs.Merger biceribînin. Piştî ku bêyî destûrnameyek hate saz kirin, pirtûkxane di moda ceribandinê de dixebite. Di vê modê de, nîşaneyên ceribandinê li belgeya encam têne zêdekirin, û ew di 3 rûpelên pêşîn de têne qut kirin. Heke hûn dixwazin GroupDocs.Merger bêyî sînorkirinên guhertoya ceribandinê biceribînin, hûn dikarin destûrnameyek demkî ya 30-rojî jî bixwazin. Ji bo bêtir agahdarî, li [Lîsansek Demkî Bistînin](https://purchase.groupdocs.com/temporary-license/) binêre."
+    },
+    "faq_3": {
+      "question": "Çi lîsansên we hene?",
+      "answer": "Em gelek cûreyên lîsansê pêşkêş dikin ku hewcedariyên pêşdebir an pargîdaniyên taybetî bicîh bînin. Cûreyên lîsansê bi hejmara pêşdebiran, hejmara cîhên malpera pêşdebiran ve girêdayî ye, û gelo hûn hewce ne ku SDK/API-ya me radestî xerîdarên xwe yên dawî bikin. Wekî din, hûn dikarin li ser bingeha karanîna mehane ya hilberê lîsansên Metered hilbijêrin. Zêdetir fêr bibin [Cûreyên Lîsansê](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

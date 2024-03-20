@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Valori aprofundate și perspective statistice",
+    "description": "Pătrundeți-vă într-o defalcare detaliată a cifrelor noastre cheie, oferind valori cuprinzătoare și perspective statistice asupra realizărilor, impactului și creșterii noastre.",
+    "metric_1": {
+      "title": "Formate acceptate",
+      "content": "Fiecare bibliotecă acceptă procesarea a peste 50 dintre cele mai populare formate de fișiere și documente."
+    },
+    "metric_2": {
+      "title": "Descărcări NuGet",
+      "content": "GroupDocs.Merger pentru .NET are peste 274K descărcări din managerul de pachete NuGet."
+    },
+    "metric_3": {
+      "title": "Descărcări Maven",
+      "content": "GroupDocs.Merger pentru Java are peste 5.5K descărcări din depozitul nostru Maven."
+    },
+    "metric_4": {
+      "title": "Clienți fericiți",
+      "content": "Bibliotecile noastre sunt folosite atât de micii dezvoltatori individuali, cât și de companii de top din întreaga lume."
+    }
+  }
+}

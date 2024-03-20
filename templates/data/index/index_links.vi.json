@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "API mã thấp GroupDocs.Merger",
+    "description": "Tăng tốc việc hợp nhất tài liệu trong bất kỳ loại ứng dụng nào bằng API REST dựa trên đám mây của chúng tôi.",
+    "link_1": {
+      "title": "Đám mây GroupDocs.Merger cho cURL",
+      "content": "Các lệnh cURL đơn giản để hợp nhất tài liệu RESTful API đám mây để hợp nhất và phân chia tài liệu."
+    },
+    "link_2": {
+      "title": "Đám mây GroupDocs.Merger cho .NET",
+      "content": "Cloud SDK dành cho Microsoft .NET để triển khai tính năng hợp nhất và phân chia nhanh chóng trong các ứng dụng dựa trên .NET."
+    },
+    "link_3": {
+      "title": "Đám mây GroupDocs.Merger cho Java",
+      "content": "Kết hợp nhiều tài liệu thành một, chia bất kỳ tài liệu nào thành nhiều tài liệu trong ứng dụng Java của bạn."
+    }
+  },
+  "app_links": {
+    "title": "Ứng dụng GroupDocs.Merger NoCode",
+    "description": "Ứng dụng trực tuyến cho phép bạn hợp nhất và phân chia hơn 170 định dạng tệp phổ biến trong trình duyệt.",
+    "link_1": {
+      "title": "Tổng số GroupDocs.Merger",
+      "content": "Hãy thử ứng dụng trực tuyến miễn phí của chúng tôi để ghép hơn 30 loại tệp mà không cần rời khỏi trình duyệt web yêu thích của bạn."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Ghép nhiều tệp DOCX để tạo một tài liệu duy nhất."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Hợp nhất nhiều tệp PDF để tạo một tài liệu trực tiếp từ trình duyệt web."
+    }
+  }
+}

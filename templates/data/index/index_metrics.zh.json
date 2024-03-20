@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "深入的指标和统计见解",
+    "description": "深入了解我们的关键数据的详细分类，提供有关我们的成就、影响和增长的全面指标和统计见解。",
+    "metric_1": {
+      "title": "支持的格式",
+      "content": "每个库都支持处理 50 多种最流行的文件和文档格式。"
+    },
+    "metric_2": {
+      "title": "NuGet 下载",
+      "content": "GroupDocs.Merger for .NET 从 NuGet 包管理器获得了超过 274K 的下载量。"
+    },
+    "metric_3": {
+      "title": "Maven 下载",
+      "content": "GroupDocs.Merger for Java 从我们的 Maven 存储库中获得了超过 5,500 次下载。"
+    },
+    "metric_4": {
+      "title": "快乐的顾客",
+      "content": "我们的库被小型个人开发者和世界各地的领先公司使用。"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger i ett ögonkast",
+    "description": "API för att kombinera, dela, byta, ordna om eller ta bort dokumentsidor, bilder och diagram.",
+    "feature_1": {
+      "title": "Slå samman flera filformat",
+      "content": "Kombinera sömlöst flera PDF-, Office- och många andra format som stöds till ett enda dokument."
+    },
+    "feature_2": {
+      "title": "Dela stora dokument",
+      "content": "Dela upp dokument efter specifika sidor, intervall eller till och med extrahera enskilda sidor."
+    },
+    "feature_3": {
+      "title": "Anpassa dokumentstrukturen",
+      "content": "Organisera dina dokument genom att ordna om, ta bort eller lägga till sidor."
+    },
+    "feature_4": {
+      "title": "Förhandsgranska dokumentsidor",
+      "content": "Skapa bildrepresentationer av dokumentsidor för att bättre förstå innehållet och strukturen."
+    }
+  }
+}

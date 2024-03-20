@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "Gyakran Ismételt Kérdések",
+    "description": "Válaszok a leggyakrabban feltett kérdésekre.",
+    "faq_1": {
+      "question": "A GroupDocs.Merger könyvtárnak szüksége van más harmadik féltől származó szoftverre a dokumentumok kezeléséhez?",
+      "answer": "A GroupDocs.Mergerhez nem szükséges semmilyen külső szoftver, például Adobe Acrobat, Microsoft Office vagy bármely más telepítése."
+    },
+    "faq_2": {
+      "question": "Kipróbálhatom a GroupDocs.Merger könyvtárat a vásárlás előtt?",
+      "answer": "Igen, kipróbálhatja a GroupDocs.Merger alkalmazást licenc vásárlása nélkül. Licenc nélküli telepítés után a könyvtár próbaüzemmódban működik. Ebben a módban a próbajelvények hozzáadódnak az eredményül kapott dokumentumhoz, és az első 3 oldalra le van vágva. Ha a próbaverzió korlátai nélkül szeretné tesztelni a GroupDocs.Mergert, kérhet 30 napos ideiglenes licencet is. További részletekért lásd: [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/)."
+    },
+    "faq_3": {
+      "question": "Milyen jogosítványai vannak?",
+      "answer": "Számos licenctípust kínálunk, hogy megfeleljenek bizonyos fejlesztők vagy cégek igényeinek. A licenctípusok a fejlesztők számától, a fejlesztői webhelyek számától függenek, valamint attól, hogy el kell-e juttatnia az SDK-t/API-t a végfelhasználóihoz. Alternatív megoldásként a termék havi felhasználása alapján választhatja a Méretes licenceket. További információ: [Licenctípusok](https://purchase.groupdocs.com/policies/license-types/)."
+    }
+  }
+}

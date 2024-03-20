@@ -1,0 +1,18 @@
+{
+  "faq": {
+    "title": "자주 묻는 질문",
+    "description": "가장 자주 묻는 질문에 대한 답변입니다.",
+    "faq_1": {
+      "question": "GroupDocs.Merger 라이브러리에서 문서를 조작하려면 다른 타사 소프트웨어가 필요합니까?",
+      "answer": "GroupDocs.Merger에는 Adobe Acrobat, Microsoft Office 등과 같은 외부 소프트웨어를 설치할 필요가 없습니다."
+    },
+    "faq_2": {
+      "question": "GroupDocs.Merger 라이브러리를 구매하기 전에 사용해 볼 수 있나요?",
+      "answer": "예, 라이센스를 구입하지 않고도 GroupDocs.Merger를 사용해 볼 수 있습니다. 라이센스 없이 설치하면 라이브러리는 평가판 모드에서 작동합니다. 이 모드에서는 결과 문서에 평가판 배지가 추가되고 처음 3페이지로 잘립니다. 평가판의 제한 없이 GroupDocs.Merger를 테스트하려는 경우 30일 임시 라이센스를 요청할 수도 있습니다. 자세한 내용은 [임시 라이선스 받기](https://purchase.groupdocs.com/temporary-license/)를 참조하세요."
+    },
+    "faq_3": {
+      "question": "어떤 라이선스를 갖고 있나요?",
+      "answer": "우리는 특정 개발자나 회사의 요구에 맞게 여러 가지 라이선스 유형을 제공합니다. 라이선스 유형은 개발자 수, 개발자 사이트 위치 수, 최종 고객에게 SDK/API를 제공해야 하는지 여부에 따라 달라집니다. 또는 제품의 월별 사용량을 기준으로 측정 라이센스를 선택할 수 있습니다. [라이선스 유형](https://purchase.groupdocs.com/policies/license-types/)에서 자세히 알아보세요."
+    }
+  }
+}

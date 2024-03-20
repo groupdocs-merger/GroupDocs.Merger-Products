@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger Low-Code-APIs",
+    "description": "Beschleunigen Sie die Zusammenführung von Dokumenten in jeder Art von Anwendung mit unserer cloudbasierten REST-API.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud für cURL",
+      "content": "Einfache cURL-Befehle für die RESTful-Dokumentenzusammenführung. Cloud-API zum Zusammenführen und Teilen von Dokumenten."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud für .NET",
+      "content": "Cloud SDK für Microsoft .NET zur Implementierung der Funktion zum schnellen Zusammenführen und Teilen in .NET-basierten Anwendungen."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud für Java",
+      "content": "Kombinieren Sie mehrere Dokumente zu einem, teilen Sie jedes Dokument in mehrere in Ihren Java-Anwendungen auf."
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.Merger NoCode-Apps",
+    "description": "Online-Anwendung, mit der Sie über 170 gängige Dateiformate im Browser zusammenführen und aufteilen können.",
+    "link_1": {
+      "title": "GroupDocs.Merger Gesamt",
+      "content": "Probieren Sie unsere kostenlose Online-App aus, um mehr als 30 Dateitypen zu verketten, ohne Ihren bevorzugten Webbrowser zu verlassen."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Verketten Sie mehrere DOCX-Dateien, um ein einziges Dokument zu erstellen."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Führen Sie mehrere PDF-Dateien zusammen, um direkt aus dem Webbrowser ein einziges Dokument zu erstellen."
+    }
+  }
+}

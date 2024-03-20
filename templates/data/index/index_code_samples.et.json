@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Praktiline koodi vitriin",
+    "description": "Mõned tüüpiliste GroupDocs.Merger operatsioonide kasutusjuhud.",
+    "sample_1": {
+      "title": "Mitme faili ühendamine",
+      "content": "GroupDocs.Merger võimaldab ühendada mitu faili üheks failiks. Saate oma dokumentidest liita terveid dokumente või teatud lehti.",
+      "csharp": {
+        "comment_1": "Määrake liitumiseks soovitud leheküljenumbrid või leheküljevahemik",
+        "comment_2": "Laadige DOCX-i lähtefail",
+        "comment_3": "Lisage ühendamiseks veel üks DOCX-fail",
+        "comment_4": "Ühendage DOCX-failid ja salvestage tulemus"
+      },
+      "java": {
+        "comment_1": "Määrake liitumiseks soovitud leheküljenumbrid või leheküljevahemik",
+        "comment_2": "Laadige DOCX-i lähtefail",
+        "comment_3": "Lisage ühendamiseks veel üks DOCX-fail",
+        "comment_4": "Ühendage DOCX-failid ja salvestage tulemus"
+      }
+    }
+  }
+}

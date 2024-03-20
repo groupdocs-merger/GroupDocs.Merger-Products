@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "API scalania i dzielenia dokumentów | Lokalne API i usługa online",
+    "description": "Scal i połącz wiele plików Word, PDF, Obrazy lub PPTX. Łatwo i bezpłatnie dziel i dziel pliki Words, PDF, PPTX lub Obrazy"
+  },
+  "header": {
+    "title": "Z łatwością łącz i dziel dokumenty",
+    "description_1": "Bezproblemowo łącz różne typy dokumentów.",
+    "description_2": "Z łatwością zarządzaj dokumentami, dzieląc duże pliki na mniejsze, łatwiejsze do zarządzania części.",
+    "description_3": "Manipuluj stronami dokumentu, aby zmienić ich kolejność, zamienić lub usunąć."
+  },
+  "actions": {
+    "title": "Gotowy żeby zacząć?",
+    "description": "Wypróbuj bezpłatnie funkcje GroupDocs.Merger na swojej platformie"
+  },
+  "formats": {
+    "title": "Obsługiwanych ponad 60 formatów plików",
+    "description": "GroupDocs.Merger obsługuje operacje z szeroką gamą [formatów dokumentów](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

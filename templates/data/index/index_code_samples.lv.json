@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Praktiska kodu vitrīna",
+    "description": "Daži tipisku GroupDocs.Merger operāciju izmantošanas gadījumi.",
+    "sample_1": {
+      "title": "Vairāku failu sapludināšana",
+      "content": "GroupDocs.Merger ļauj apvienot vairākus failus vienā failā. Varat sapludināt veselus dokumentus vai atsevišķas lapas no saviem dokumentiem.",
+      "csharp": {
+        "comment_1": "Norādiet vēlamo lappušu numurus vai lappušu diapazonu, kam pievienoties",
+        "comment_2": "Ielādējiet avota DOCX failu",
+        "comment_3": "Pievienojiet vēl vienu DOCX failu, lai sapludinātu",
+        "comment_4": "Apvienojiet DOCX failus un saglabājiet rezultātu"
+      },
+      "java": {
+        "comment_1": "Norādiet vēlamo lappušu numurus vai lappušu diapazonu, kam pievienoties",
+        "comment_2": "Ielādējiet avota DOCX failu",
+        "comment_3": "Pievienojiet vēl vienu DOCX failu, lai sapludinātu",
+        "comment_4": "Apvienojiet DOCX failus un saglabājiet rezultātu"
+      }
+    }
+  }
+}

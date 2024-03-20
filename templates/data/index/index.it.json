@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "API Unisci e dividi documenti | API on-premise e servizio online",
+    "description": "Unisci e combina più file Word, PDF, immagini o PPTX. Dividi e dividi file Word, PDF, PPTX o immagini in modo semplice e gratuito"
+  },
+  "header": {
+    "title": "Unisci e dividi documenti con facilità",
+    "description_1": "Unisci vari tipi di documenti senza problemi.",
+    "description_2": "Gestisci facilmente i documenti suddividendo file di grandi dimensioni in parti più piccole e più gestibili.",
+    "description_3": "Manipola le pagine del documento per riordinarle, scambiarle o rimuoverle."
+  },
+  "actions": {
+    "title": "Pronti per iniziare?",
+    "description": "Prova gratuitamente le funzionalità di GroupDocs.Merger sulla tua piattaforma"
+  },
+  "formats": {
+    "title": "Sono supportati oltre 60 formati di file",
+    "description": "GroupDocs.Merger supporta operazioni con un'ampia gamma di [formati di documenti](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

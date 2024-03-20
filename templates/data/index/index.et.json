@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "Ühenda ja jaga dokumente API | On Premise API ja võrguteenus",
+    "description": "Ühendage ja kombineerige mitu sõna, PDF-i, pilte või PPTX-faile. Sõna-, PDF-, PPTX- või piltfailide tükeldamine ja jagamine on lihtne ja tasuta"
+  },
+  "header": {
+    "title": "Ühendage ja jagage dokumente hõlpsalt",
+    "description_1": "Ühendage erinevaid dokumenditüüpe ilma probleemideta.",
+    "description_2": "Hallake dokumente hõlpsalt, jagades suured failid väiksemateks, paremini hallatavateks tükkideks.",
+    "description_3": "Manipuleerige dokumendi lehekülgi, et neid ümber järjestada, vahetada või eemaldada."
+  },
+  "actions": {
+    "title": "Kas olete valmis alustama?",
+    "description": "Proovige GroupDocs.Mergeri funktsioone oma platvormil tasuta"
+  },
+  "formats": {
+    "title": "Toetatud on üle 60 failivormingu",
+    "description": "GroupDocs.Merger toetab toiminguid paljude [dokumendivormingutega](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

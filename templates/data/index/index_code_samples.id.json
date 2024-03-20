@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Etalase kode praktis",
+    "description": "Beberapa kasus penggunaan operasi GroupDocs.Merger yang khas.",
+    "sample_1": {
+      "title": "Menggabungkan beberapa file",
+      "content": "GroupDocs.Merger memungkinkan Anda menggabungkan beberapa file menjadi satu file. Anda dapat menggabungkan seluruh dokumen atau halaman tertentu dari dokumen Anda.",
+      "csharp": {
+        "comment_1": "Tentukan nomor halaman atau rentang halaman yang diinginkan untuk digabungkan",
+        "comment_2": "Muat file DOCX sumber",
+        "comment_3": "Tambahkan file DOCX lain untuk digabungkan",
+        "comment_4": "Gabungkan file DOCX dan simpan hasilnya"
+      },
+      "java": {
+        "comment_1": "Tentukan nomor halaman atau rentang halaman yang diinginkan untuk digabungkan",
+        "comment_2": "Muat file DOCX sumber",
+        "comment_3": "Tambahkan file DOCX lain untuk digabungkan",
+        "comment_4": "Gabungkan file DOCX dan simpan hasilnya"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "supported_platforms": {
+    "title": "استقلال سکو",
+    "description": "کتابخانه GroupDocs.Merger از سیستم عامل ها و چارچوب های زیر پشتیبانی می کند:",
+    "head_title": "پلتفرم خود را انتخاب کنید",
+    "details_link_title": "بیشتر بدانید",
+    "net": {
+      "description": "GroupDocs.Merger برای دات نت",
+      "feature_1": {
+        "line_1": ".NET Framework 4.6.2 یا بالاتر",
+        "line_2": "NET Core 2.0 یا بالاتر",
+        "line_3": ".NET 6.0 یا بالاتر",
+        "line_4": "Mono Framework 2.6.7 یا بالاتر"
+      },
+      "feature_2": {
+        "line_1": "ویندوز، لینوکس، سیستم عامل مک"
+      },
+      "feature_3": {
+        "line_1": "Microsoft Visual Studio",
+        "line_2": "Xamarin (Android, iOS, Mac)",
+        "line_3": "MonoDevelop"
+      },
+      "feature_4": {
+        "line_1": "بیش از 60 فرمت فایل"
+      }
+    },
+    "java": {
+      "description": "GroupDocs.Merger برای جاوا",
+      "feature_1": {
+        "line_1": "J2SE 8.0 یا بالاتر"
+      },
+      "feature_2": {
+        "line_1": "ویندوز، لینوکس، سیستم عامل مک"
+      },
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
+      "feature_4": {
+        "line_1": "بیش از 50 فرمت فایل"
+      }
+    }
+  }
+}

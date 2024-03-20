@@ -1,0 +1,45 @@
+{
+  "supported_platforms": {
+    "title": "Независимость от платформы",
+    "description": "Библиотека GroupDocs.Merger поддерживает следующие операционные системы и платформы:",
+    "head_title": "Выберите свою платформу",
+    "details_link_title": "Узнать больше",
+    "net": {
+      "description": "GroupDocs.Merger для .NET",
+      "feature_1": {
+        "line_1": ".NET Framework 4.6.2 или выше",
+        "line_2": ".NET Core 2.0 или выше",
+        "line_3": ".NET 6.0 или выше",
+        "line_4": "Mono Framework 2.6.7 или выше"
+      },
+      "feature_2": {
+        "line_1": "Windows, Линукс, Мак ОС"
+      },
+      "feature_3": {
+        "line_1": "Microsoft Visual Studio",
+        "line_2": "Xamarin (Android, iOS, Mac)",
+        "line_3": "MonoDevelop"
+      },
+      "feature_4": {
+        "line_1": "Более 60 форматов файлов"
+      }
+    },
+    "java": {
+      "description": "GroupDocs.Merger для Java",
+      "feature_1": {
+        "line_1": "J2SE 8.0 или выше"
+      },
+      "feature_2": {
+        "line_1": "Windows, Линукс, Мак ОС"
+      },
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
+      "feature_4": {
+        "line_1": "Более 50 форматов файлов"
+      }
+    }
+  }
+}

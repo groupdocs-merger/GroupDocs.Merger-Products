@@ -1,0 +1,45 @@
+{
+  "supported_platforms": {
+    "title": "ความเป็นอิสระของแพลตฟอร์ม",
+    "description": "ไลบรารี GroupDocs.Merger รองรับระบบปฏิบัติการและเฟรมเวิร์กต่อไปนี้:",
+    "head_title": "เลือกแพลตฟอร์มของคุณ",
+    "details_link_title": "เรียนรู้เพิ่มเติม",
+    "net": {
+      "description": "GroupDocs.Merger สำหรับ .NET",
+      "feature_1": {
+        "line_1": ".NET Framework 4.6.2 หรือสูงกว่า",
+        "line_2": ".NET Core 2.0 หรือสูงกว่า",
+        "line_3": ".NET 6.0 หรือสูงกว่า",
+        "line_4": "Mono Framework 2.6.7 หรือสูงกว่า"
+      },
+      "feature_2": {
+        "line_1": "วินโดวส์, ลินุกซ์, แมคโอเอส"
+      },
+      "feature_3": {
+        "line_1": "ไมโครซอฟต์ วิชวล สตูดิโอ",
+        "line_2": "ซามาริน (Android, iOS, Mac)",
+        "line_3": "โมโนพัฒนา"
+      },
+      "feature_4": {
+        "line_1": "60+ รูปแบบไฟล์"
+      }
+    },
+    "java": {
+      "description": "GroupDocs.Merger สำหรับ Java",
+      "feature_1": {
+        "line_1": "J2SE 8.0 หรือสูงกว่า"
+      },
+      "feature_2": {
+        "line_1": "วินโดวส์, ลินุกซ์, แมคโอเอส"
+      },
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
+      "feature_4": {
+        "line_1": "รูปแบบไฟล์มากกว่า 50 รูปแบบ"
+      }
+    }
+  }
+}

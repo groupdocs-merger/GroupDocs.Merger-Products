@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Muestra de código práctico",
+    "description": "Algunos casos de uso de operaciones típicas de GroupDocs.Merger.",
+    "sample_1": {
+      "title": "Fusionando varios archivos",
+      "content": "GroupDocs.Merger le permite combinar varios archivos en un solo archivo. Puede fusionar documentos completos o páginas particulares de sus documentos.",
+      "csharp": {
+        "comment_1": "Especifique los números de página deseados o el rango de páginas para unirse",
+        "comment_2": "Cargue el archivo DOCX de origen",
+        "comment_3": "Agregue otro archivo DOCX para fusionar",
+        "comment_4": "Fusionar archivos DOCX y guardar el resultado"
+      },
+      "java": {
+        "comment_1": "Especifique los números de página deseados o el rango de páginas para unirse",
+        "comment_2": "Cargue el archivo DOCX de origen",
+        "comment_3": "Agregue otro archivo DOCX para fusionar",
+        "comment_4": "Fusionar archivos DOCX y guardar el resultado"
+      }
+    }
+  }
+}

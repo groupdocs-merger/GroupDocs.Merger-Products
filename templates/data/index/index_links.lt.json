@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger žemo kodo API",
+    "description": "Paspartinkite dokumentų sujungimą bet kokio tipo programoje naudodami debesyje pagrįstą REST API.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud, skirtas cURL",
+      "content": "Paprastos cURL komandos, skirtos RESTful document merger Cloud API, kad būtų galima sujungti ir padalinti dokumentus."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud, skirtas .NET",
+      "content": "„Microsoft .NET“ skirtas debesies SDK, skirtas greito sujungimo ir padalijimo funkcijai įdiegti .NET pagrįstose programose."
+    },
+    "link_3": {
+      "title": "„GroupDocs.Merger Cloud“, skirta „Java“.",
+      "content": "Sujunkite kelis dokumentus į vieną, padalykite bet kurį dokumentą į kelis savo Java programose."
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.Merger NoCode programos",
+    "description": "Internetinė programa, leidžianti sujungti ir padalinti daugiau nei 170 populiarių failų formatų naršyklėje.",
+    "link_1": {
+      "title": "GroupDocs.Merger Iš viso",
+      "content": "Išbandykite mūsų nemokamą internetinę programą, kad sujungtumėte daugiau nei 30 tipų failus neišeidami iš mėgstamos žiniatinklio naršyklės."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Sujunkite kelis DOCX failus, kad sukurtumėte vieną dokumentą."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Sujunkite kelis PDF failus, kad sukurtumėte vieną dokumentą tiesiai iš žiniatinklio naršyklės."
+    }
+  }
+}

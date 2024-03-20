@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Podrobné metriky a štatistické prehľady",
+    "description": "Ponorte sa do podrobného rozpisu našich kľúčových údajov, ktoré poskytujú komplexné metriky a štatistické prehľady o našich úspechoch, vplyve a raste.",
+    "metric_1": {
+      "title": "Podporované formáty",
+      "content": "Každá knižnica podporuje spracovanie viac ako 50 najpopulárnejších formátov súborov a dokumentov."
+    },
+    "metric_2": {
+      "title": "Sťahovanie NuGet",
+      "content": "GroupDocs.Merger for .NET má viac ako 274 000 stiahnutí zo správcu balíkov NuGet."
+    },
+    "metric_3": {
+      "title": "Maven na stiahnutie",
+      "content": "GroupDocs.Merger for Java má viac ako 5,5 tisíc stiahnutí z nášho úložiska Maven."
+    },
+    "metric_4": {
+      "title": "Spokojní zákazníci",
+      "content": "Naše knižnice využívajú tak malí jednotliví vývojári, ako aj popredné spoločnosti po celom svete."
+    }
+  }
+}

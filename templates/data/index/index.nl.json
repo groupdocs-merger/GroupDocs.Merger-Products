@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "API voor samenvoegen en splitsen van documenten | On Premise API en online service",
+    "description": "Voeg meerdere Word-, PDF-, Afbeeldingen- of PPTX-bestanden samen en combineer ze. Splits en verdeel eenvoudig en gratis Word-, PDF-, PPTX- of Afbeeldingen-bestanden"
+  },
+  "header": {
+    "title": "Eenvoudig documenten samenvoegen en splitsen",
+    "description_1": "Voeg probleemloos verschillende documenttypen samen.",
+    "description_2": "Beheer documenten eenvoudig door grote bestanden op te splitsen in kleinere, beter beheersbare stukken.",
+    "description_3": "Manipuleer documentpagina's om ze opnieuw te ordenen, om te wisselen of te verwijderen."
+  },
+  "actions": {
+    "title": "klaar om te beginnen?",
+    "description": "Probeer de GroupDocs.Merger-functies gratis op uw platform"
+  },
+  "formats": {
+    "title": "60+ bestandsformaten ondersteund",
+    "description": "GroupDocs.Merger ondersteunt bewerkingen met een breed scala aan [documentformaten](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

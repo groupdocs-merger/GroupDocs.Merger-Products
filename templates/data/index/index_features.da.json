@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger på et øjeblik",
+    "description": "API til at kombinere, opdele, bytte, omarrangere eller fjerne dokumentsider, dias og diagrammer.",
+    "feature_1": {
+      "title": "Flet flere filformater",
+      "content": "Kombiner problemfrit flere PDF-, Office- og mange andre understøttede formater i et enkelt dokument."
+    },
+    "feature_2": {
+      "title": "Opdel store dokumenter",
+      "content": "Opdel dokumenter efter specifikke sider, områder, eller udtræk endda individuelle sider."
+    },
+    "feature_3": {
+      "title": "Tilpas dokumentstruktur",
+      "content": "Organiser dine dokumenter ved at omarrangere, fjerne eller tilføje sider."
+    },
+    "feature_4": {
+      "title": "Forhåndsvisning af dokumentsider",
+      "content": "Generer billedrepræsentationer af dokumentsider for at forstå indholdet og strukturen bedre."
+    }
+  }
+}

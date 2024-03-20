@@ -1,0 +1,23 @@
+{
+  "metrics": {
+    "title": "In-depth metrics and statistical insights",
+    "description": "Dive into a detailed breakdown of our key figures, providing comprehensive metrics and statistical insights into our achievements, impact, and growth.",
+    "metric_1": {
+      "title": "Supported formats",
+      "content": "Each library supports processing more than 50 of most popular file and document formats."
+    },
+    "metric_2": {
+      "title": "NuGet downloads",
+      "content": "GroupDocs.Merger for .NET has more than 274K downloads from the NuGet package manager."
+    },
+    "metric_3": {
+      "title": "Maven downloads",
+      "content": "GroupDocs.Merger for Java has more than 5.5K downloads from our Maven repository."
+    },
+    "metric_4": {
+      "title": "Happy customers",
+      "content": "Our libraries are used by both small individual developers as well as by leading companies all over the world."
+    }
+  }
+
+}

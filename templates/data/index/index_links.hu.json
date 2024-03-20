@@ -1,0 +1,34 @@
+{
+  "cloud_links": {
+    "title": "GroupDocs.Merger alacsony kódú API-k",
+    "description": "Felhőalapú REST API-nkkal felgyorsíthatja a dokumentumok egyesítését bármilyen típusú alkalmazásban.",
+    "link_1": {
+      "title": "GroupDocs.Merger Cloud a cURL-hez",
+      "content": "Egyszerű cURL-parancsok a RESTful dokumentum-egyesítéshez Cloud API dokumentumok egyesítéséhez és felosztásához."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Cloud for .NET",
+      "content": "Cloud SDK Microsoft .NET-hez a gyors egyesítés és felosztás funkció megvalósításához .NET-alapú alkalmazásokban."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger Cloud Java-hoz",
+      "content": "Kombináljon több dokumentumot egybe, ossza fel bármelyik dokumentumot többre a Java-alkalmazásokban."
+    }
+  },
+  "app_links": {
+    "title": "GroupDocs.Merger NoCode alkalmazások",
+    "description": "Online alkalmazás, amely lehetővé teszi több mint 170 népszerű fájlformátum egyesítését és felosztását a böngészőben.",
+    "link_1": {
+      "title": "GroupDocs.Merger Összesen",
+      "content": "Próbálja ki ingyenes online alkalmazásunkat, amellyel több mint 30 típusú fájlt fűzhet össze anélkül, hogy elhagyná kedvenc webböngészőjét."
+    },
+    "link_2": {
+      "title": "GroupDocs.Merger Word",
+      "content": "Több DOCX-fájl összefűzése egyetlen dokumentum létrehozásához."
+    },
+    "link_3": {
+      "title": "GroupDocs.Merger PDF",
+      "content": "Egyesítsen több PDF-fájlt egyetlen dokumentum létrehozásához közvetlenül a webböngészőből."
+    }
+  }
+}

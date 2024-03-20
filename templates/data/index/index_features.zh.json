@@ -1,0 +1,22 @@
+{
+  "features": {
+    "title": "GroupDocs.Merge 概览",
+    "description": "用于组合、拆分、交换、重新排序或删除文档页面、幻灯片和图表的 API。",
+    "feature_1": {
+      "title": "合并多种文件格式",
+      "content": "将多个 PDF、Office 和许多其他支持的格式无缝组合到一个文档中。"
+    },
+    "feature_2": {
+      "title": "分割大文档",
+      "content": "按特定页面、范围拆分文档，甚至提取单个页面。"
+    },
+    "feature_3": {
+      "title": "自定义文档结构",
+      "content": "通过重新排列、删除或添加页面来组织文档。"
+    },
+    "feature_4": {
+      "title": "预览文档页面",
+      "content": "生成文档页面的图像表示以更好地理解内容和结构。"
+    }
+  }
+}

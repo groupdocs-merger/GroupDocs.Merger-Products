@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Detaljna metrika i statistički uvidi",
+    "description": "Uronite u detaljnu analizu naših ključnih brojki, pružajući sveobuhvatne metrike i statističke uvide u naša postignuća, utjecaj i rast.",
+    "metric_1": {
+      "title": "Podržani formati",
+      "content": "Svaka biblioteka podržava obradu više od 50 najpopularnijih formata datoteka i dokumenata."
+    },
+    "metric_2": {
+      "title": "NuGet preuzimanja",
+      "content": "GroupDocs.Merger za .NET ima više od 274K preuzimanja iz upravitelja paketa NuGet."
+    },
+    "metric_3": {
+      "title": "Maven preuzimanja",
+      "content": "GroupDocs.Merger za Javu ima više od 5,5 tisuća preuzimanja iz našeg Maven repozitorija."
+    },
+    "metric_4": {
+      "title": "Zadovoljni kupci",
+      "content": "Naše biblioteke koriste i mali individualni programeri kao i vodeće tvrtke diljem svijeta."
+    }
+  }
+}

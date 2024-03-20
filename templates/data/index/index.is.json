@@ -1,0 +1,20 @@
+{
+  "head": {
+    "title": "Sameina og skipta skjölum API | On Premise API og netþjónusta",
+    "description": "Sameina og sameina mörg orð, PDF, myndir eða PPTX skrár. Skiptu og skiptu orðum, PDF, PPTX eða myndum skrám auðveldlega og ókeypis"
+  },
+  "header": {
+    "title": "Sameinaðu og skiptu skjölum á auðveldan hátt",
+    "description_1": "Sameina ýmsar skjalagerðir án vandræða.",
+    "description_2": "Stjórnaðu skjölum á auðveldan hátt með því að skipta stórum skrám upp í smærri, meðfærilegri hluti.",
+    "description_3": "Notaðu skjalasíður til að endurraða, skipta um eða fjarlægja þær."
+  },
+  "actions": {
+    "title": "Tilbúinn til að byrja?",
+    "description": "Prófaðu GroupDocs.Merger eiginleika ókeypis á pallinum þínum"
+  },
+  "formats": {
+    "title": "60+ skráarsnið studd",
+    "description": "GroupDocs.Merger styður aðgerðir með fjölmörgum [skjalasniðum](https://docs.groupdocs.com/merger/net/supported-document-formats/)."
+  }
+}

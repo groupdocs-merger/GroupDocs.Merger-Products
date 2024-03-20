@@ -1,0 +1,45 @@
+{
+  "supported_platforms": {
+    "title": "پلیٹ فارم کی آزادی",
+    "description": "GroupDocs.Merger لائبریری درج ذیل آپریٹنگ سسٹمز اور فریم ورکس کو سپورٹ کرتی ہے۔",
+    "head_title": "اپنا پلیٹ فارم منتخب کریں۔",
+    "details_link_title": "اورجانیے",
+    "net": {
+      "description": "GroupDocs.Merger for .NET",
+      "feature_1": {
+        "line_1": ".NET فریم ورک 4.6.2 یا اس سے زیادہ",
+        "line_2": ".NET Core 2.0 یا اس سے زیادہ",
+        "line_3": ".NET 6.0 یا اس سے زیادہ",
+        "line_4": "مونو فریم ورک 2.6.7 یا اس سے زیادہ"
+      },
+      "feature_2": {
+        "line_1": "ونڈوز، لینکس، میک او ایس"
+      },
+      "feature_3": {
+        "line_1": "Microsoft Visual Studio",
+        "line_2": "Xamarin (Android, iOS, Mac)",
+        "line_3": "MonoDevelop"
+      },
+      "feature_4": {
+        "line_1": "60+ فائل فارمیٹس"
+      }
+    },
+    "java": {
+      "description": "جاوا کے لیے GroupDocs.Merger",
+      "feature_1": {
+        "line_1": "J2SE 8.0 یا اس سے زیادہ"
+      },
+      "feature_2": {
+        "line_1": "ونڈوز، لینکس، میک او ایس"
+      },
+      "feature_3" : {
+        "line_1":"IntelliJ IDEA", 
+        "line_2":"Eclipse", 
+        "line_3":"NetBeans"
+      },
+      "feature_4": {
+        "line_1": "50+ فائل فارمیٹس"
+      }
+    }
+  }
+}

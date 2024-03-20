@@ -1,0 +1,22 @@
+{
+  "code_samples": {
+    "title": "Praktinė kodo vitrina",
+    "description": "Kai kurie naudojami tipiškų GroupDocs.Merger operacijų atvejai.",
+    "sample_1": {
+      "title": "Kelių failų sujungimas",
+      "content": "GroupDocs.Merger leidžia sujungti kelis failus į vieną failą. Galite sujungti visus dokumentus arba konkrečius puslapius iš savo dokumentų.",
+      "csharp": {
+        "comment_1": "Nurodykite norimus puslapių numerius arba puslapių diapazoną, kurį norite sujungti",
+        "comment_2": "Įkelkite šaltinio DOCX failą",
+        "comment_3": "Norėdami sujungti, pridėkite kitą DOCX failą",
+        "comment_4": "Sujunkite DOCX failus ir išsaugokite rezultatą"
+      },
+      "java": {
+        "comment_1": "Nurodykite norimus puslapių numerius arba puslapių diapazoną, kurį norite sujungti",
+        "comment_2": "Įkelkite šaltinio DOCX failą",
+        "comment_3": "Norėdami sujungti, pridėkite kitą DOCX failą",
+        "comment_4": "Sujunkite DOCX failus ir išsaugokite rezultatą"
+      }
+    }
+  }
+}

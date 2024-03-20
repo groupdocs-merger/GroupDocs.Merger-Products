@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "title": "Dybdemålinger og statistisk indsigt",
+    "description": "Dyk ned i en detaljeret opdeling af vores nøgletal, som giver omfattende målinger og statistisk indsigt i vores præstationer, indflydelse og vækst.",
+    "metric_1": {
+      "title": "Understøttede formater",
+      "content": "Hvert bibliotek understøtter behandling af mere end 50 af de mest populære fil- og dokumentformater."
+    },
+    "metric_2": {
+      "title": "NuGet downloads",
+      "content": "GroupDocs.Merger for .NET har mere end 274.000 downloads fra NuGet-pakkehåndteringen."
+    },
+    "metric_3": {
+      "title": "Maven downloads",
+      "content": "GroupDocs.Merger for Java har mere end 5,5K downloads fra vores Maven-lager."
+    },
+    "metric_4": {
+      "title": "Glade kunder",
+      "content": "Vores biblioteker bruges af både små individuelle udviklere såvel som af førende virksomheder over hele verden."
+    }
+  }
+}
