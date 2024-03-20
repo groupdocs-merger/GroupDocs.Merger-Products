@@ -1,102 +1,330 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-12T10:05:21
+layout: "family"
+date: 2023-12-13T06:39:57
 draft: false
 
+product: "Merger"
+product_tag: "merger"
+
 ############################# Head ############################
-head_title: "Solution de fusion et de fractionnement de documents | API sur site et application gratuite"
-head_description: "Fusionnez et divisez MS Office, OpenDocument, des images PDF et d'autres formats de fichiers à l'aide de la solution sur site ou utilisez l'application de fusion et de séparation de documents en ligne."
+head_title: "API de fusion et de fractionnement de documents | API sur site et service en ligne"
+head_description: "Fusionnez et combinez plusieurs fichiers Words, PDF, Images ou PPTX. Divisez et divisez des fichiers Words, PDF, PPTX ou Images facilement et gratuitement"
 
 ############################# Header ############################
-title: "Solution pour fusionner et diviser des documents"
-description: "Fusionnez facilement plusieurs documents ou divisez Microsoft Office, OpenOffice, PDF et d'autres documents en pages."
+title: "Fusionnez et divisez facilement des documents"
+description: |
+  Fusionnez différents types de documents sans problème.
 
-############################# APIs ###############################
-apis:
+  Gérez facilement les documents en divisant les fichiers volumineux en morceaux plus petits et plus faciles à gérer.
+
+  Manipulez les pages du document pour les réorganiser, les échanger ou les supprimer.
+  
+
+############################# Platforms ############################
+supported_platforms:
+  enable: true  
+  head_title: "Choisissez votre plateforme"
+  title: "Indépendance de la plateforme"
+  description: "La bibliothèque GroupDocs.Merger prend en charge les systèmes d'exploitation et les frameworks suivants :"
+  details_link_title: "Apprendre encore plus"
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      description: "GroupDocs.Merger pour .NET"
+      color: "blue"
+      tag: "net"
+      link: "/merger/net/"
+      features_link: "https://docs.groupdocs.com/merger/net/system-requirements/"
+      features:
+        # features loop
+        - content: ".NET Framework 4.6.2 ou supérieur  <br>  .NET Core 2.0 ou supérieur  <br>  .NET 6.0 ou supérieur <br>  Mono Framework 2.6.7 ou supérieur"
+          rows: "4"
+        # features loop
+        - content: "Windows, Linux, MacOS"
+          rows: "1"
+        # features loop
+        - content: "Microsoft Visual Studio  <br>  Xamarin (Android, iOS, Mac)  <br>  MonoDevelop"
+          rows: "3"
+         # features loop
+        - content: "Plus de 60 formats de fichiers"
+          rows: "1"
+    
+    # supported_platforms loop
+    - title: "Java"
+      description: "GroupDocs.Merger pour Java"
+      color: "red"
+      tag: "java"
+      link: "/merger/java/"
+      features_link: "https://docs.groupdocs.com/merger/java/system-requirements/"
+      features:
+        # features loop
+        - content: "J2SE 8.0 ou supérieur"
+          rows: "4"
+        # features loop
+        - content:  "Windows, Linux, MacOS"
+          rows: "1"
+        # features loop
+        - content:  "IntelliJ IDEA  <br>  Eclipse  <br>  NetBeans"
+          rows: "3"
+         # features loop
+        - content:  "Plus de 50 formats de fichiers"
+          rows: "1"
+ 
+
+
+
+############################# Features ############################
+
+features:
   enable: true
+  title: "GroupDocs.Merger en un coup d'oeil"
+  description: "API pour combiner, diviser, échanger, réorganiser ou supprimer des pages de document, des diapositives et des diagrammes."
 
-  api:
-    # api loop
-    - title: "Les API GroupDocs.Merger High Code incluent"
-      link: "/merger/"
-      label: "Afficher toutes les API High Code"
-      api_product:
-        # api_product loop
-        - link: "/merger/net/"
-          img_alt: "GroupDocs.Merger for .NET"
-          image: "/border/groupdocs-merger-net.svg"
-          product: "GroupDocs.Merger for"
-          platform: ".NET"
-          content: "Des API sur site qui peuvent vous aider à implémenter une fonction de fractionnement et de fusion rapide pour plusieurs documents dans vos applications basées sur .NET."
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Fusionner plusieurs formats de fichiers"
+      content: "Combinez en toute transparence plusieurs formats PDF, Office et de nombreux autres formats pris en charge en un seul document."
 
-        # api_product loop
-        - link: "/merger/java/"
-          img_alt: "GroupDocs.Merger for Java"
-          image: "/border/groupdocs-merger-java.svg"
-          product: "GroupDocs.Merger for"
-          platform: "Java"
-          content: "API Java natives pour fusionner rapidement plusieurs documents ou diviser n'importe quel document en pages dans vos applications basées sur Java."
+    # feature loop
+    - icon: "split"
+      title: "Divisez des documents volumineux"
+      content: "Divisez les documents en pages et plages spécifiques, ou même extrayez des pages individuelles."
 
-    # api loop
-    - title: "Les API GroupDocs.Merger Low Code incluent"
-      link: "https://products.groupdocs.cloud/merger"
-      label: "Afficher toutes les API Low Code"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/merger/curl"
-          img_alt: "GroupDocs.Merger Cloud for cURL"
-          image: "/sdk/groupdocs_merger-for-curl.svg"
-          product: "GroupDocs.Merger"
-          platform: "Cloud for cURL"
-          content: "Commandes cURL simples pour la fusion de documents RESTful Cloud API pour fusionner et diviser des documents dans la large gamme de formats de documents populaires pris en charge."
+    # feature loop
+    - icon: "structure"
+      title: "Personnaliser la structure du document"
+      content: "Organisez vos documents en réorganisant, supprimant ou ajoutant des pages."
+    
+    # feature loop
+    - icon: "preview"
+      title: "Aperçu des pages du document"
+      content: "Générez des représentations d’images des pages du document pour mieux comprendre le contenu et la structure."
 
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/merger/net"
-          img_alt: "GroupDocs.Merger Cloud SDK for .NET"
-          image: "/sdk/groupdocs_merger-for-net.svg"
-          product: "GroupDocs.Merger"
-          platform: "Cloud SDK for .NET"
-          content: "Cloud SDK pour Microsoft .NET qui aide les programmeurs à implémenter une fonction de fusion et de fractionnement rapide pour plusieurs documents dans leurs applications basées sur .NET."
 
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/merger/java"
-          img_alt: "GroupDocs.Merger Cloud SDK for Java"
-          image: "/sdk/groupdocs_merger-for-java.svg"
-          product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Java"
-          content: "Combinez plusieurs documents en un seul, divisez n'importe quel document en plusieurs, réorganisez, remplacez ou modifiez l'orientation des pages dans vos applications Java."
-
-    # api loop
-    - title: "GroupDocs.Merger Les applications sans code incluent"
-      link: "https://products.groupdocs.app/merger"
-      label: "Voir toutes les applications sans code"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.app/merger/total"
-          img_alt: "GroupDocs.Merger Total"
-          image: "/app/groupdocs_merger-app.svg"
-          product: "GroupDocs.Merger"
-          platform: "Total"
-          content: "Essayez notre application en ligne gratuite pour concaténer plus de 30 types de fichiers sans quitter votre navigateur Web préféré."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/merger/docx"
-          img_alt: "GroupDocs.Merger DOCX"
-          image: "/app/groupdocs_words-app.svg"
-          product: "GroupDocs.Merger"
-          platform: "DOCX"
-          content: "Concaténer plusieurs fichiers DOCX pour générer un seul document."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/merger/pdf"
-          img_alt: "GroupDocs.Merger PDF"
-          image: "/app/groupdocs_pdf-app.svg"
-          product: "GroupDocs.Merger"
-          platform: "PDF"
-          content: "Fusionnez plusieurs fichiers PDF pour générer un seul document directement à partir du navigateur Web."
-
-############################# Back to top ###############################
-back_to_top:
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "Vitrine de code pratique"
+  description: "Quelques cas d’utilisation d’opérations GroupDocs.Merger typiques."
+  items:
+    # code sample loop
+    - title: "Fusionner plusieurs fichiers"
+      content: |
+        GroupDocs.Merger vous permet de combiner plusieurs fichiers en un seul fichier. Vous pouvez fusionner des documents entiers ou des pages particulières de vos documents. 
+      samples:
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            //  Spécifiez les numéros de page souhaités ou la plage de pages à rejoindre
+            PageJoinOptions joinOptions = new PageJoinOptions(1, 4, RangeMode.OddPages);
+            
+            // Charger le fichier DOCX source
+            using (Merger merger = new Merger(@"c:\sample1.docx"))
+            {
+              // Ajouter un autre fichier DOCX à fusionner
+              merger.Join(@"c:\sample2.docx", joinOptions);
+              
+              // Fusionner les fichiers DOCX et enregistrer le résultat
+              merger.Save(@"c:\merged.docx");
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            //  Spécifiez les numéros de page souhaités ou la plage de pages à rejoindre
+            JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+            
+            // Charger le fichier DOCX source
+            Merger merger = new Merger("c:\sample1.docx");
+              
+            // Ajouter un autre fichier DOCX à fusionner
+            merger.join("c:\sample2.docx", joinOptions);
+            
+            // Fusionner les fichiers DOCX et enregistrer le résultat
+            merger.save("c:\merged.docx");
+            ```
+
+
+############################# Formats ############################
+formats:
+  enable: true
+  title:  "60+ formats de fichiers pris en charge"
+  description: "GroupDocs.Merger prend en charge les opérations avec un large éventail de [formats de documents](https://docs.groupdocs.com/merger/net/supported-document-formats/)." 
+
+
+
+############################# Metrics ############################
+
+metrics:
+  enable: true
+  title: "Mesures approfondies et informations statistiques"
+  description: "Plongez dans une présentation détaillée de nos chiffres clés, fournissant des mesures complètes et des informations statistiques sur nos réalisations, notre impact et notre croissance."
+
+  items:
+    # metrics loop
+    - number: "60+"
+      title: "Formats pris en charge"
+      content: "Chaque bibliothèque prend en charge le traitement de plus de 50 formats de fichiers et de documents les plus populaires."
+
+    # metrics loop
+    - number: "274k"
+      title: "Téléchargements NuGet"
+      content: "GroupDocs.Merger pour .NET compte plus de 274 000 téléchargements à partir du gestionnaire de packages NuGet."
+
+    # metrics loop
+    - number: "5.5k"
+      title: "Téléchargements Maven"
+      content: "GroupDocs.Merger pour Java compte plus de 5,5 000 téléchargements depuis notre référentiel Maven."
+    
+    # metrics loop
+    - number: "140+"
+      title: "Clients satisfaits"
+      content: "Nos bibliothèques sont utilisées aussi bien par de petits développeurs individuels que par des entreprises de premier plan du monde entier."
+
+
+############################# Customers ############################
+# logo size X1 => 170:70  X2 => 340 : 140
+
+customers:
+  enable: true
+  title: "Nos clients satisfaits"
+  description: "Les bibliothèques GroupDocs sont utilisées par des marques de renommée mondiale et distinguées à travers le monde."
+
+  items:
+    # customers loop
+    - title: "BenQ Corporation"
+      logo: "benq"
+    # customers loop
+    - title: "Nasdaq Stock Market"
+      logo: "nasdaq"
+    # customers loop
+    - title: "AT&T Inc."
+      logo: "att"
+    # customers loop
+    - title: "AstraZeneca"
+      logo: "astrazeneca"
+    # customers loop
+    - title: "Central Bank of Argentina"
+      logo: "argentinacentralbank"
+    # customers loop
+    - title: "Roche Holding AG"
+      logo: "roche"
+    # customers loop
+    - title: "Capita"
+      logo: "capita"
+    # customers loop
+    - title: "Axa S.A."
+      logo: "axa"
+    # customers loop
+    - title: "Instructure Inc."
+      logo: "instructure"
+     # customers loop
+    - title: "Wipro"
+      logo: "wipro"
+
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Prêt à commencer?"
+  description: "Essayez gratuitement les fonctionnalités de GroupDocs.Merger sur votre plateforme"
+  items:
+    #  loop
+    - title: ".NET"
+      link: "/merger/net/"
+      color: "blue"
+        #  loop
+    - title: "Java"
+      link: "/merger/java/"
+      color: "red"
+        #  loop
+    # - title: "Node.js"
+    #   link: "/merger/node/"
+    #   color: "green"
+
+
+############################# Faq ############################
+
+faq:
+  enable: true
+  title:  "Questions fréquemment posées"
+  description:  "Réponses aux questions les plus fréquemment posées."
+  items:
+    #  loop
+    - question: "La bibliothèque GroupDocs.Merger a-t-elle besoin d'un autre logiciel tiers pour manipuler les documents ?"
+      answer: |
+        GroupDocs.Merger ne nécessite l'installation d'aucun logiciel externe tel qu'Adobe Acrobat, Microsoft Office ou tout autre.
+     #  loop
+    - question:  "Puis-je essayer la bibliothèque GroupDocs.Merger avant de l'acheter ?"
+      answer: |
+        Oui, vous pouvez essayer GroupDocs.Merger sans acheter de licence. Une fois installée sans licence, la bibliothèque fonctionne en mode d'essai. Dans ce mode, les badges d'essai sont ajoutés au document résultant et celui-ci est coupé aux 3 premières pages. Si vous souhaitez tester GroupDocs.Merger sans les limitations de la version d'essai, vous pouvez également demander une licence temporaire de 30 jours. Pour plus de détails, consultez [Obtenir une licence temporaire](https://purchase.groupdocs.com/temporary-license/).
+    #  loop 
+    - question:  "De quelles licences disposez-vous ?"
+      answer: |
+        Nous proposons plusieurs types de licences pour répondre aux besoins de développeurs ou d'entreprises particuliers. Les types de licences dépendent du nombre de développeurs, du nombre d'emplacements de sites de développeurs et de la nécessité ou non de fournir notre SDK/API à vos clients finaux. Vous pouvez également choisir des licences limitées en fonction de l'utilisation mensuelle du produit. Apprenez-en davantage sur [Types de licences](https://purchase.groupdocs.com/policies/license-types/).                      
+     
+
+
+############################# Cloud ############################
+
+cloud_links:
+  enable: true
+  title: "API low code GroupDocs.Merger"
+  description: "Accélérez la fusion de documents dans tout type d'application grâce à notre API REST basée sur le cloud."
+
+  items:
+    #  loop
+    - icon: "groupdocs_merger-for-curl"
+      title: "GroupDocs.Merger Cloud pour cURL"
+      link: "https://products.groupdocs.cloud/merger/curl"
+      content: "Commandes cURL simples pour l'API Cloud de fusion de documents RESTful pour fusionner et diviser des documents."
+
+    #  loop
+    - icon: "groupdocs_merger-for-net"
+      title: "GroupDocs.Merger Cloud pour .NET"
+      link: "https://products.groupdocs.cloud/merger/net"
+      content: "Cloud SDK pour Microsoft .NET pour implémenter une fonctionnalité de fusion et de fractionnement rapide dans les applications basées sur .NET."
+
+    #  loop
+    - icon: "groupdocs_merger-for-java"
+      title: "GroupDocs.Merger Cloud pour Java"
+      link: "https://products.groupdocs.cloud/merger/java"
+      content: "Combinez plusieurs documents en un seul, divisez n'importe quel document en plusieurs dans vos applications Java."
+    
+
+############################# Apps ############################
+
+app_links:
+  enable: true
+  title: "Applications GroupDocs.Merger NoCode"
+  description: "Application en ligne vous permettant de fusionner et de diviser plus de 170 formats de fichiers populaires dans un navigateur."
+
+  items:
+    #  loop
+    - icon: "groupdocs_merger-app"
+      title: "GroupDocs.Merger Total"
+      link: "https://products.groupdocs.app/merger/total"
+      content: "Essayez notre application en ligne gratuite pour concaténer plus de 30 types de fichiers sans quitter votre navigateur Web préféré."
+
+    #  loop
+    - icon: "groupdocs_words-app"
+      title:  "GroupDocs.Merger DOCX"
+      link: "https://products.groupdocs.app/merger/docx"
+      content: "Concaténez plusieurs fichiers DOCX pour générer un seul document."
+
+    #  loop
+    - icon: "groupdocs_pdf-app"
+      title:  "GroupDocs.Merger PDF"
+      link: "https://products.groupdocs.app/merger/pdf"
+      content: "Fusionnez plusieurs fichiers PDF pour générer un seul document directement depuis le navigateur Web."
+    
+
+
+
 ---

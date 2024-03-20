@@ -1,102 +1,330 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-11-10T07:10:41
+layout: "family"
+date: 2023-12-13T06:39:57
 draft: false
 
+product: "Merger"
+product_tag: "merger"
+
 ############################# Head ############################
-head_title: "Asiakirjojen yhdistämis- ja jakamisratkaisu | Premise-sovellusliittymät ja ilmainen sovellus"
-head_description: "Yhdistä ja jaa MS Office, OpenDocument, PDF-kuvat ja muut tiedostomuodot On Premise Solution -sovelluksella tai käytä Online Document Merger & Splitter -sovellusta."
+head_title: "Yhdistä ja jaa asiakirjat API | On Premise API ja verkkopalvelu"
+head_description: "Yhdistä ja yhdistä useita sanoja, PDF-, kuvia tai PPTX-tiedostoja. Jaa ja jaa sanat, PDF, PPTX tai kuvat -tiedostoja helposti ja ilmaiseksi"
 
 ############################# Header ############################
-title: "Ratkaisu asiakirjojen yhdistämiseen ja jakamiseen"
-description: "Yhdistä helposti useita asiakirjoja tai jaa Microsoft Office, OpenOffice, PDF ja muut asiakirjat sivuiksi."
+title: "Yhdistä ja jaa asiakirjoja helposti"
+description: |
+  Yhdistä eri asiakirjatyypit vaivattomasti.
 
-############################# APIs ###############################
-apis:
+  Hallitse asiakirjoja helposti pilkkomalla suuret tiedostot pienempiin, paremmin hallittaviin osiin.
+
+  Käsittele asiakirjan sivuja niiden järjestämiseksi, vaihtamiseksi tai poistamiseksi.
+  
+
+############################# Platforms ############################
+supported_platforms:
+  enable: true  
+  head_title: "Valitse alustasi"
+  title: "Alustan riippumattomuus"
+  description: "GroupDocs.Merger-kirjasto tukee seuraavia käyttöjärjestelmiä ja kehyksiä:"
+  details_link_title: "Lue lisää"
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      description: "GroupDocs.Merger for .NET"
+      color: "blue"
+      tag: "net"
+      link: "/merger/net/"
+      features_link: "https://docs.groupdocs.com/merger/net/system-requirements/"
+      features:
+        # features loop
+        - content: ".NET Framework 4.6.2 tai uudempi  <br>  .NET Core 2.0 tai uudempi  <br>  .NET 6.0 tai uudempi <br>  Mono Framework 2.6.7 tai uudempi"
+          rows: "4"
+        # features loop
+        - content: "Windows, Linux, Mac OS"
+          rows: "1"
+        # features loop
+        - content: "Microsoft Visual Studio  <br>  Xamarin (Android, iOS, Mac)  <br>  MonoDevelop"
+          rows: "3"
+         # features loop
+        - content: "Yli 60 tiedostomuotoa"
+          rows: "1"
+    
+    # supported_platforms loop
+    - title: "Java"
+      description: "GroupDocs.Merger Javalle"
+      color: "red"
+      tag: "java"
+      link: "/merger/java/"
+      features_link: "https://docs.groupdocs.com/merger/java/system-requirements/"
+      features:
+        # features loop
+        - content: "J2SE 8.0 tai uudempi"
+          rows: "4"
+        # features loop
+        - content:  "Windows, Linux, Mac OS"
+          rows: "1"
+        # features loop
+        - content:  "IntelliJ IDEA  <br>  Eclipse  <br>  NetBeans"
+          rows: "3"
+         # features loop
+        - content:  "Yli 50 tiedostomuotoa"
+          rows: "1"
+ 
+
+
+
+############################# Features ############################
+
+features:
   enable: true
+  title: "GroupDocs.Yhdistäminen yhdellä silmäyksellä"
+  description: "API yhdistää, jakaa, vaihtaa, järjestää uudelleen tai poistaa asiakirjasivuja, dioja ja kaavioita."
 
-  api:
-    # api loop
-    - title: "GroupDocs.Merger High Code API:t sisältävät"
-      link: "/merger/"
-      label: "Näytä kaikki High Code API:t"
-      api_product:
-        # api_product loop
-        - link: "/merger/net/"
-          img_alt: "GroupDocs.Merger for .NET"
-          image: "/border/groupdocs-merger-net.svg"
-          product: "GroupDocs.Merger for"
-          platform: ".NET"
-          content: "On Premise-sovellusliittymät, joiden avulla voit ottaa käyttöön nopean jakamis- ja yhdistämisominaisuuden useille asiakirjoille .NET-pohjaisissa sovelluksissasi."
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Yhdistä useita tiedostomuotoja"
+      content: "Yhdistä saumattomasti useita PDF-, Office- ja monia muita tuettuja muotoja yhdeksi asiakirjaksi."
 
-        # api_product loop
-        - link: "/merger/java/"
-          img_alt: "GroupDocs.Merger for Java"
-          image: "/border/groupdocs-merger-java.svg"
-          product: "GroupDocs.Merger for"
-          platform: "Java"
-          content: "Alkuperäiset Java-sovellusliittymät yhdistävät nopeasti useita asiakirjoja tai jakavat minkä tahansa asiakirjan sivuiksi Java-pohjaisissa sovelluksissasi."
+    # feature loop
+    - icon: "split"
+      title: "Jaa suuret asiakirjat"
+      content: "Jaa asiakirjat tiettyjen sivujen, alueiden tai jopa yksittäisten sivujen mukaan."
 
-    # api loop
-    - title: "GroupDocs.Merger Low Code API:t sisältävät"
-      link: "https://products.groupdocs.cloud/merger"
-      label: "Näytä kaikki Low Code API:t"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/merger/curl"
-          img_alt: "GroupDocs.Merger Cloud for cURL"
-          image: "/sdk/groupdocs_merger-for-curl.svg"
-          product: "GroupDocs.Merger"
-          platform: "Cloud for cURL"
-          content: "Yksinkertaiset cURL-komennot RESTful-dokumenttien yhdistämiseen Cloud API yhdistää ja jakaa asiakirjoja useisiin tuettuihin suosittuihin asiakirjamuotoihin."
+    # feature loop
+    - icon: "structure"
+      title: "Mukauta asiakirjan rakennetta"
+      content: "Järjestä asiakirjasi järjestämällä uudelleen, poistamalla tai lisäämällä sivuja."
+    
+    # feature loop
+    - icon: "preview"
+      title: "Esikatsele asiakirjan sivuja"
+      content: "Luo asiakirjasivujen kuvaesityksiä ymmärtääksesi sisällön ja rakenteen paremmin."
 
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/merger/net"
-          img_alt: "GroupDocs.Merger Cloud SDK for .NET"
-          image: "/sdk/groupdocs_merger-for-net.svg"
-          product: "GroupDocs.Merger"
-          platform: "Cloud SDK for .NET"
-          content: "Cloud SDK Microsoft .NETille, joka auttaa ohjelmoijia toteuttamaan nopean yhdistämis- ja jakamisominaisuuden useille asiakirjoille .NET-pohjaisissa sovelluksissaan."
 
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/merger/java"
-          img_alt: "GroupDocs.Merger Cloud SDK for Java"
-          image: "/sdk/groupdocs_merger-for-java.svg"
-          product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Java"
-          content: "Yhdistä useita asiakirjoja yhdeksi, jaa mikä tahansa asiakirja useiksi, järjestä uudelleen, vaihda tai muuta sivun suuntaa Java-sovelluksissasi."
-
-    # api loop
-    - title: "GroupDocs.Merger Ei koodisovelluksia"
-      link: "https://products.groupdocs.app/merger"
-      label: "Näytä kaikki koodittomat sovellukset"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.app/merger/total"
-          img_alt: "GroupDocs.Merger Total"
-          image: "/app/groupdocs_merger-app.svg"
-          product: "GroupDocs.Merger"
-          platform: "Total"
-          content: "Kokeile ilmaista verkkosovellustamme ketjuttaaksesi yli 30 tiedostotyyppiä poistumatta suosikkiselaimestasi."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/merger/docx"
-          img_alt: "GroupDocs.Merger DOCX"
-          image: "/app/groupdocs_words-app.svg"
-          product: "GroupDocs.Merger"
-          platform: "DOCX"
-          content: "Yhdistä useita DOCX-tiedostoja yhden asiakirjan luomiseksi."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/merger/pdf"
-          img_alt: "GroupDocs.Merger PDF"
-          image: "/app/groupdocs_pdf-app.svg"
-          product: "GroupDocs.Merger"
-          platform: "PDF"
-          content: "Yhdistä useita PDF-tiedostoja luodaksesi yhden asiakirjan suoraan verkkoselaimesta."
-
-############################# Back to top ###############################
-back_to_top:
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "Käytännöllinen koodiesittely"
+  description: "Jotkut käyttävät tyypillisiä GroupDocs.Merger-toimintoja."
+  items:
+    # code sample loop
+    - title: "Useiden tiedostojen yhdistäminen"
+      content: |
+        GroupDocs.Mergerin avulla voit yhdistää useita tiedostoja yhdeksi tiedostoksi. Voit yhdistää kokonaisia ​​asiakirjoja tai tiettyjä sivuja asiakirjoistasi. 
+      samples:
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            //  Määritä haluamasi sivunumerot tai sivualue liitettäväksi
+            PageJoinOptions joinOptions = new PageJoinOptions(1, 4, RangeMode.OddPages);
+            
+            // Lataa lähde-DOCX-tiedosto
+            using (Merger merger = new Merger(@"c:\sample1.docx"))
+            {
+              // Lisää toinen DOCX-tiedosto yhdistettäväksi
+              merger.Join(@"c:\sample2.docx", joinOptions);
+              
+              // Yhdistä DOCX-tiedostot ja tallenna tulos
+              merger.Save(@"c:\merged.docx");
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            //  Määritä haluamasi sivunumerot tai sivualue liitettäväksi
+            JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+            
+            // Lataa lähde-DOCX-tiedosto
+            Merger merger = new Merger("c:\sample1.docx");
+              
+            // Lisää toinen DOCX-tiedosto yhdistettäväksi
+            merger.join("c:\sample2.docx", joinOptions);
+            
+            // Yhdistä DOCX-tiedostot ja tallenna tulos
+            merger.save("c:\merged.docx");
+            ```
+
+
+############################# Formats ############################
+formats:
+  enable: true
+  title:  "Yli 60 tiedostomuotoa tuetaan"
+  description: "GroupDocs.Merger tukee toimintoja useilla [asiakirjamuodoilla](https://docs.groupdocs.com/merger/net/supported-document-formats/)." 
+
+
+
+############################# Metrics ############################
+
+metrics:
+  enable: true
+  title: "Syvälliset mittarit ja tilastolliset oivallukset"
+  description: "Sukella avainlukujemme yksityiskohtaiseen erittelyyn, joka tarjoaa kattavia mittareita ja tilastollisia näkemyksiä saavutuksistamme, vaikutuksistamme ja kasvustamme."
+
+  items:
+    # metrics loop
+    - number: "60+"
+      title: "Tuetut muodot"
+      content: "Jokainen kirjasto tukee yli 50 suosituimman tiedosto- ja asiakirjamuodon käsittelyä."
+
+    # metrics loop
+    - number: "274k"
+      title: "NuGet-lataukset"
+      content: "GroupDocs.Merger for .NET sisältää yli 274 000 latausta NuGet-paketinhallinnasta."
+
+    # metrics loop
+    - number: "5.5k"
+      title: "Maven lataukset"
+      content: "GroupDocs.Merger for Java sisältää yli 5,5 000 latausta Maven-varastosta."
+    
+    # metrics loop
+    - number: "140+"
+      title: "Tyytyväiset asiakkaat"
+      content: "Kirjastomme käyttävät sekä pienet yksittäiset kehittäjät että johtavat yritykset kaikkialla maailmassa."
+
+
+############################# Customers ############################
+# logo size X1 => 170:70  X2 => 340 : 140
+
+customers:
+  enable: true
+  title: "Tyytyväiset asiakkaamme"
+  description: "GroupDocs-kirjastot ovat maailmanlaajuisesti tunnettujen ja arvostettujen tuotemerkkien palveluksessa ympäri maailmaa."
+
+  items:
+    # customers loop
+    - title: "BenQ Corporation"
+      logo: "benq"
+    # customers loop
+    - title: "Nasdaq Stock Market"
+      logo: "nasdaq"
+    # customers loop
+    - title: "AT&T Inc."
+      logo: "att"
+    # customers loop
+    - title: "AstraZeneca"
+      logo: "astrazeneca"
+    # customers loop
+    - title: "Central Bank of Argentina"
+      logo: "argentinacentralbank"
+    # customers loop
+    - title: "Roche Holding AG"
+      logo: "roche"
+    # customers loop
+    - title: "Capita"
+      logo: "capita"
+    # customers loop
+    - title: "Axa S.A."
+      logo: "axa"
+    # customers loop
+    - title: "Instructure Inc."
+      logo: "instructure"
+     # customers loop
+    - title: "Wipro"
+      logo: "wipro"
+
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Oletko valmis aloittamaan?"
+  description: "Kokeile GroupDocs.Merger-ominaisuuksia ilmaiseksi alustallasi"
+  items:
+    #  loop
+    - title: ".NET"
+      link: "/merger/net/"
+      color: "blue"
+        #  loop
+    - title: "Java"
+      link: "/merger/java/"
+      color: "red"
+        #  loop
+    # - title: "Node.js"
+    #   link: "/merger/node/"
+    #   color: "green"
+
+
+############################# Faq ############################
+
+faq:
+  enable: true
+  title:  "Usein Kysytyt Kysymykset"
+  description:  "Vastaukset yleisimpiin kysymyksiin."
+  items:
+    #  loop
+    - question: "Tarvitseeko GroupDocs.Merger-kirjasto muita kolmannen osapuolen ohjelmistoja asiakirjojen käsittelyyn?"
+      answer: |
+        GroupDocs.Merger ei vaadi ulkoisten ohjelmistojen, kuten Adobe Acrobatin, Microsoft Officen tai muiden, asentamista.
+     #  loop
+    - question:  "Voinko kokeilla GroupDocs.Merger-kirjastoa ennen sen ostamista?"
+      answer: |
+        Kyllä, voit kokeilla GroupDocs.Mergeria ostamatta lisenssiä. Kun kirjasto on asennettu ilman lisenssiä, se toimii kokeilutilassa. Tässä tilassa koemerkit lisätään tuloksena olevaan asiakirjaan ja se leikataan ensimmäiselle kolmelle sivulle. Jos haluat testata GroupDocs.Mergeria ilman kokeiluversion rajoituksia, voit myös pyytää 30 päivän tilapäisen lisenssin. Lisätietoja on artikkelissa [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/).
+    #  loop 
+    - question:  "Mitä lisenssejä sinulla on?"
+      answer: |
+        Tarjoamme useita lisenssityyppejä tiettyjen kehittäjien tai yritysten tarpeisiin. Lisenssityypit riippuvat kehittäjien määrästä, kehittäjäsivustojen sijaintien määrästä ja siitä, onko sinun toimitettava SDK/API-sovellus loppuasiakkaillesi. Vaihtoehtoisesti voit valita mitatut lisenssit tuotteen kuukausittaisen käytön perusteella. Lue lisää osoitteesta [License Types](https://purchase.groupdocs.com/policies/license-types/).                      
+     
+
+
+############################# Cloud ############################
+
+cloud_links:
+  enable: true
+  title: "GroupDocs.Merger alhaisen koodin sovellusliittymät"
+  description: "Nopeuta asiakirjojen yhdistämistä minkä tahansa tyyppisissä sovelluksissa pilvipohjaisen REST-sovellusliittymämme avulla."
+
+  items:
+    #  loop
+    - icon: "groupdocs_merger-for-curl"
+      title: "GroupDocs.Merger Cloud for cURL"
+      link: "https://products.groupdocs.cloud/merger/curl"
+      content: "Yksinkertaiset cURL-komennot RESTful-dokumenttien yhdistämiseen Cloud API yhdistää ja jakaa asiakirjoja."
+
+    #  loop
+    - icon: "groupdocs_merger-for-net"
+      title: "GroupDocs.Merger Cloud for .NET"
+      link: "https://products.groupdocs.cloud/merger/net"
+      content: "Cloud SDK Microsoft .NETille nopean yhdistämis- ja jakamisominaisuuden toteuttamiseksi .NET-pohjaisissa sovelluksissa."
+
+    #  loop
+    - icon: "groupdocs_merger-for-java"
+      title: "GroupDocs.Merger Cloud Javalle"
+      link: "https://products.groupdocs.cloud/merger/java"
+      content: "Yhdistä useita asiakirjoja yhdeksi, jaa mikä tahansa asiakirja useiksi Java-sovelluksissasi."
+    
+
+############################# Apps ############################
+
+app_links:
+  enable: true
+  title: "GroupDocs.Merger NoCode -sovellukset"
+  description: "Online-sovellus, jonka avulla voit yhdistää ja jakaa yli 170 suosittua tiedostomuotoa selaimessa."
+
+  items:
+    #  loop
+    - icon: "groupdocs_merger-app"
+      title: "GroupDocs.Merger Total"
+      link: "https://products.groupdocs.app/merger/total"
+      content: "Kokeile ilmaista verkkosovellustamme ketjuttaaksesi yli 30 tiedostotyyppiä poistumatta suosikkiselaimestasi."
+
+    #  loop
+    - icon: "groupdocs_words-app"
+      title:  "GroupDocs.Merger DOCX"
+      link: "https://products.groupdocs.app/merger/docx"
+      content: "Yhdistä useita DOCX-tiedostoja yhden asiakirjan luomiseksi."
+
+    #  loop
+    - icon: "groupdocs_pdf-app"
+      title:  "GroupDocs.Merger PDF"
+      link: "https://products.groupdocs.app/merger/pdf"
+      content: "Yhdistä useita PDF-tiedostoja luodaksesi yhden asiakirjan suoraan verkkoselaimesta."
+    
+
+
+
 ---

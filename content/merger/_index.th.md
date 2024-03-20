@@ -1,102 +1,330 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-10-18T10:22:38
+layout: "family"
+date: 2023-12-13T06:39:57
 draft: false
 
+product: "Merger"
+product_tag: "merger"
+
 ############################# Head ############################
-head_title: "โซลูชันการรวมและแยกเอกสาร | บน Premise API และแอปฟรี"
-head_description: "ผสานและแยก MS Office, OpenDocument, รูปภาพ PDF และรูปแบบไฟล์อื่น ๆ โดยใช้โซลูชันในสถานที่หรือใช้แอป Online Document Merger & Splitter"
+head_title: "ผสานและแยกเอกสาร API | บน Premise API และบริการออนไลน์"
+head_description: "ผสานและรวมไฟล์ Word, PDF, Images หรือ PPTX หลายไฟล์ แยกและแบ่งไฟล์ Word, PDF, PPTX หรือรูปภาพได้อย่างง่ายดายและฟรี"
 
 ############################# Header ############################
-title: "โซลูชันการผสานและแยกเอกสาร"
-description: "รวมเอกสารหลายฉบับหรือแยก Microsoft Office, OpenOffice, PDF และเอกสารอื่นๆ ออกเป็นหน้าๆ ได้อย่างง่ายดาย"
+title: "ผสานและแยกเอกสารได้อย่างง่ายดาย"
+description: |
+  ผสานเอกสารประเภทต่างๆ โดยไม่ยุ่งยาก
 
-############################# APIs ###############################
-apis:
+  จัดการเอกสารได้อย่างง่ายดายโดยแบ่งไฟล์ขนาดใหญ่ออกเป็นชิ้นเล็กลงและจัดการได้ง่ายขึ้น
+
+  จัดการหน้าเอกสารเพื่อเรียงลำดับ สลับ หรือลบออก
+  
+
+############################# Platforms ############################
+supported_platforms:
+  enable: true  
+  head_title: "เลือกแพลตฟอร์มของคุณ"
+  title: "ความเป็นอิสระของแพลตฟอร์ม"
+  description: "ไลบรารี GroupDocs.Merger รองรับระบบปฏิบัติการและเฟรมเวิร์กต่อไปนี้:"
+  details_link_title: "เรียนรู้เพิ่มเติม"
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      description: "GroupDocs.Merger สำหรับ .NET"
+      color: "blue"
+      tag: "net"
+      link: "/merger/net/"
+      features_link: "https://docs.groupdocs.com/merger/net/system-requirements/"
+      features:
+        # features loop
+        - content: ".NET Framework 4.6.2 หรือสูงกว่า  <br>  .NET Core 2.0 หรือสูงกว่า  <br>  .NET 6.0 หรือสูงกว่า <br>  Mono Framework 2.6.7 หรือสูงกว่า"
+          rows: "4"
+        # features loop
+        - content: "วินโดวส์, ลินุกซ์, แมคโอเอส"
+          rows: "1"
+        # features loop
+        - content: "ไมโครซอฟต์ วิชวล สตูดิโอ  <br>  ซามาริน (Android, iOS, Mac)  <br>  โมโนพัฒนา"
+          rows: "3"
+         # features loop
+        - content: "60+ รูปแบบไฟล์"
+          rows: "1"
+    
+    # supported_platforms loop
+    - title: "Java"
+      description: "GroupDocs.Merger สำหรับ Java"
+      color: "red"
+      tag: "java"
+      link: "/merger/java/"
+      features_link: "https://docs.groupdocs.com/merger/java/system-requirements/"
+      features:
+        # features loop
+        - content: "J2SE 8.0 หรือสูงกว่า"
+          rows: "4"
+        # features loop
+        - content:  "วินโดวส์, ลินุกซ์, แมคโอเอส"
+          rows: "1"
+        # features loop
+        - content:  "IntelliJ IDEA  <br>  Eclipse  <br>  NetBeans"
+          rows: "3"
+         # features loop
+        - content:  "รูปแบบไฟล์มากกว่า 50 รูปแบบ"
+          rows: "1"
+ 
+
+
+
+############################# Features ############################
+
+features:
   enable: true
+  title: "GroupDocs.Merger ได้อย่างรวดเร็ว"
+  description: "API เพื่อรวม แยก สลับ เรียงลำดับใหม่ หรือลบหน้าเอกสาร สไลด์ และไดอะแกรม"
 
-  api:
-    # api loop
-    - title: "GroupDocs.Merger High Code API รวมอยู่ด้วย"
-      link: "/merger/"
-      label: "ดู High Code API ทั้งหมด"
-      api_product:
-        # api_product loop
-        - link: "/merger/net/"
-          img_alt: "GroupDocs.Merger for .NET"
-          image: "/border/groupdocs-merger-net.svg"
-          product: "GroupDocs.Merger for"
-          platform: ".NET"
-          content: "ใน Premise API ที่สามารถช่วยให้คุณใช้คุณสมบัติการแยกและผสานอย่างรวดเร็วสำหรับเอกสารหลายฉบับในแอปพลิเคชันที่ใช้ .NET ของคุณ"
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "รวมไฟล์หลายรูปแบบ"
+      content: "รวม PDF, Office และรูปแบบที่รองรับอื่นๆ หลายรูปแบบไว้ในเอกสารเดียวได้อย่างราบรื่น"
 
-        # api_product loop
-        - link: "/merger/java/"
-          img_alt: "GroupDocs.Merger for Java"
-          image: "/border/groupdocs-merger-java.svg"
-          product: "GroupDocs.Merger for"
-          platform: "Java"
-          content: "Native Java API เพื่อรวมเอกสารหลายฉบับหรือแยกเอกสารออกเป็นหน้าต่างๆ ภายในแอปพลิเคชันที่ใช้ Java ของคุณ"
+    # feature loop
+    - icon: "split"
+      title: "แยกเอกสารขนาดใหญ่"
+      content: "แบ่งเอกสารตามหน้า ช่วง หรือแม้แต่แยกแต่ละหน้า"
 
-    # api loop
-    - title: "GroupDocs.Merger Low Code APIs รวม"
-      link: "https://products.groupdocs.cloud/merger"
-      label: "ดู Low Code API ทั้งหมด"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/merger/curl"
-          img_alt: "GroupDocs.Merger Cloud for cURL"
-          image: "/sdk/groupdocs_merger-for-curl.svg"
-          product: "GroupDocs.Merger"
-          platform: "Cloud for cURL"
-          content: "คำสั่ง cURL อย่างง่ายสำหรับการควบรวมเอกสาร RESTful Cloud API เพื่อผสานและแยกเอกสารในรูปแบบเอกสารยอดนิยมที่หลากหลาย"
+    # feature loop
+    - icon: "structure"
+      title: "ปรับแต่งโครงสร้างเอกสาร"
+      content: "จัดระเบียบเอกสารของคุณโดยการจัดเรียงใหม่ ลบ หรือเพิ่มหน้า"
+    
+    # feature loop
+    - icon: "preview"
+      title: "ดูตัวอย่างหน้าเอกสาร"
+      content: "สร้างการแสดงรูปภาพของหน้าเอกสารเพื่อให้เข้าใจเนื้อหาและโครงสร้างได้ดีขึ้น"
 
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/merger/net"
-          img_alt: "GroupDocs.Merger Cloud SDK for .NET"
-          image: "/sdk/groupdocs_merger-for-net.svg"
-          product: "GroupDocs.Merger"
-          platform: "Cloud SDK for .NET"
-          content: "Cloud SDK สำหรับ Microsoft .NET ที่ช่วยให้โปรแกรมเมอร์ใช้คุณลักษณะการผสานและแยกอย่างรวดเร็วสำหรับเอกสารหลายฉบับในแอปพลิเคชันที่ใช้ .NET"
 
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/merger/java"
-          img_alt: "GroupDocs.Merger Cloud SDK for Java"
-          image: "/sdk/groupdocs_merger-for-java.svg"
-          product: "GroupDocs.Merger"
-          platform: "Cloud SDK for Java"
-          content: "รวมเอกสารหลายฉบับเป็นหนึ่งเดียว แบ่งเอกสารเป็นหลาย ๆ ฉบับ จัดลำดับใหม่ แทนที่ หรือเปลี่ยนการวางแนวหน้าในแอปพลิเคชัน Java ของคุณ"
-
-    # api loop
-    - title: "GroupDocs.Merger ไม่รวมแอปโค้ด"
-      link: "https://products.groupdocs.app/merger"
-      label: "ดูทั้งหมด No Code Apps"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.app/merger/total"
-          img_alt: "GroupDocs.Merger Total"
-          image: "/app/groupdocs_merger-app.svg"
-          product: "GroupDocs.Merger"
-          platform: "Total"
-          content: "ลองใช้แอปออนไลน์ฟรีของเราเพื่อเชื่อมไฟล์มากกว่า 30 ประเภทโดยไม่ต้องออกจากเว็บเบราว์เซอร์ที่คุณชื่นชอบ"
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/merger/docx"
-          img_alt: "GroupDocs.Merger DOCX"
-          image: "/app/groupdocs_words-app.svg"
-          product: "GroupDocs.Merger"
-          platform: "DOCX"
-          content: "เชื่อมต่อไฟล์ DOCX หลายไฟล์เพื่อสร้างเอกสารเดียว"
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/merger/pdf"
-          img_alt: "GroupDocs.Merger PDF"
-          image: "/app/groupdocs_pdf-app.svg"
-          product: "GroupDocs.Merger"
-          platform: "PDF"
-          content: "รวมไฟล์ PDF หลายไฟล์เพื่อสร้างเอกสารเดียวจากเว็บเบราว์เซอร์โดยตรง"
-
-############################# Back to top ###############################
-back_to_top:
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "ตู้โชว์โค้ดที่ใช้งานได้จริง"
+  description: "กรณีการใช้งานบางส่วนของการดำเนินการ GroupDocs.Merger ทั่วไป"
+  items:
+    # code sample loop
+    - title: "การรวมหลายไฟล์"
+      content: |
+        GroupDocs.Merger ช่วยให้คุณสามารถรวมไฟล์หลายไฟล์เข้าด้วยกันเป็นไฟล์เดียว คุณสามารถรวมเอกสารทั้งหมดหรือบางหน้าจากเอกสารของคุณได้ 
+      samples:
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            //  ระบุหมายเลขหน้าหรือช่วงหน้าที่ต้องการรวม
+            PageJoinOptions joinOptions = new PageJoinOptions(1, 4, RangeMode.OddPages);
+            
+            // โหลดไฟล์ DOCX ต้นฉบับ
+            using (Merger merger = new Merger(@"c:\sample1.docx"))
+            {
+              // เพิ่มไฟล์ DOCX อื่นเพื่อรวม
+              merger.Join(@"c:\sample2.docx", joinOptions);
+              
+              // รวมไฟล์ DOCX และบันทึกผลลัพธ์
+              merger.Save(@"c:\merged.docx");
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            //  ระบุหมายเลขหน้าหรือช่วงหน้าที่ต้องการรวม
+            JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+            
+            // โหลดไฟล์ DOCX ต้นฉบับ
+            Merger merger = new Merger("c:\sample1.docx");
+              
+            // เพิ่มไฟล์ DOCX อื่นเพื่อรวม
+            merger.join("c:\sample2.docx", joinOptions);
+            
+            // รวมไฟล์ DOCX และบันทึกผลลัพธ์
+            merger.save("c:\merged.docx");
+            ```
+
+
+############################# Formats ############################
+formats:
+  enable: true
+  title:  "รองรับไฟล์มากกว่า 60 รูปแบบ"
+  description: "GroupDocs.Merger รองรับการดำเนินงานด้วย [รูปแบบเอกสาร] ที่หลากหลาย(https://docs.groupdocs.com/merger/net/supported-document-formats/)" 
+
+
+
+############################# Metrics ############################
+
+metrics:
+  enable: true
+  title: "ตัวชี้วัดเชิงลึกและข้อมูลเชิงลึกทางสถิติ"
+  description: "เจาะลึกรายละเอียดตัวเลขหลักของเรา โดยให้ตัวชี้วัดที่ครอบคลุมและข้อมูลเชิงลึกทางสถิติเกี่ยวกับความสำเร็จ ผลกระทบ และการเติบโตของเรา"
+
+  items:
+    # metrics loop
+    - number: "60+"
+      title: "รูปแบบที่รองรับ"
+      content: "แต่ละไลบรารีรองรับการประมวลผลไฟล์และรูปแบบเอกสารยอดนิยมมากกว่า 50 รูปแบบ"
+
+    # metrics loop
+    - number: "274k"
+      title: "ดาวน์โหลด NuGet"
+      content: "GroupDocs.Merger สำหรับ .NET มีการดาวน์โหลดมากกว่า 274,000 ครั้งจากตัวจัดการแพ็คเกจ NuGet"
+
+    # metrics loop
+    - number: "5.5k"
+      title: "มาเวนดาวน์โหลด"
+      content: "GroupDocs.Merger สำหรับ Java มีการดาวน์โหลดมากกว่า 5.5K ครั้งจากพื้นที่เก็บข้อมูล Maven ของเรา"
+    
+    # metrics loop
+    - number: "140+"
+      title: "ลูกค้ามีความสุข"
+      content: "ห้องสมุดของเราถูกใช้โดยทั้งนักพัฒนารายย่อยและบริษัทชั้นนำทั่วโลก"
+
+
+############################# Customers ############################
+# logo size X1 => 170:70  X2 => 340 : 140
+
+customers:
+  enable: true
+  title: "ลูกค้าที่มีความสุขของเรา"
+  description: "ห้องสมุด GroupDocs ได้รับการว่าจ้างจากแบรนด์ที่มีชื่อเสียงและโดดเด่นระดับโลกทั่วโลก"
+
+  items:
+    # customers loop
+    - title: "BenQ Corporation"
+      logo: "benq"
+    # customers loop
+    - title: "Nasdaq Stock Market"
+      logo: "nasdaq"
+    # customers loop
+    - title: "AT&T Inc."
+      logo: "att"
+    # customers loop
+    - title: "AstraZeneca"
+      logo: "astrazeneca"
+    # customers loop
+    - title: "Central Bank of Argentina"
+      logo: "argentinacentralbank"
+    # customers loop
+    - title: "Roche Holding AG"
+      logo: "roche"
+    # customers loop
+    - title: "Capita"
+      logo: "capita"
+    # customers loop
+    - title: "Axa S.A."
+      logo: "axa"
+    # customers loop
+    - title: "Instructure Inc."
+      logo: "instructure"
+     # customers loop
+    - title: "Wipro"
+      logo: "wipro"
+
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "พร้อมที่จะเริ่มต้นหรือยัง?"
+  description: "ลองใช้คุณสมบัติ GroupDocs.Merger ฟรีบนแพลตฟอร์มของคุณ"
+  items:
+    #  loop
+    - title: ".NET"
+      link: "/merger/net/"
+      color: "blue"
+        #  loop
+    - title: "Java"
+      link: "/merger/java/"
+      color: "red"
+        #  loop
+    # - title: "Node.js"
+    #   link: "/merger/node/"
+    #   color: "green"
+
+
+############################# Faq ############################
+
+faq:
+  enable: true
+  title:  "คำถามที่พบบ่อย"
+  description:  "คำตอบสำหรับคำถามที่พบบ่อย"
+  items:
+    #  loop
+    - question: "ไลบรารี GroupDocs.Merger ต้องการซอฟต์แวร์ของบริษัทอื่นเพื่อจัดการเอกสารหรือไม่"
+      answer: |
+        GroupDocs.Merger ไม่จำเป็นต้องติดตั้งซอฟต์แวร์ภายนอกใดๆ เช่น Adobe Acrobat, Microsoft Office หรืออื่นๆ
+     #  loop
+    - question:  "ฉันสามารถลองใช้ไลบรารี GroupDocs.Merger ก่อนซื้อได้หรือไม่"
+      answer: |
+        ได้ คุณสามารถลองใช้ GroupDocs.Merger ได้โดยไม่ต้องซื้อใบอนุญาต เมื่อติดตั้งโดยไม่มีใบอนุญาต ไลบรารีจะทำงานในโหมดทดลองใช้งาน ในโหมดนี้ ป้ายสถานะการทดลองจะถูกเพิ่มลงในเอกสารผลลัพธ์ และจะถูกตัดให้เหลือ 3 หน้าแรก หากคุณต้องการทดสอบ GroupDocs.Merger โดยไม่มีข้อจำกัดของเวอร์ชันทดลองใช้งาน คุณสามารถขอใบอนุญาตชั่วคราว 30 วันได้ โปรดดูรายละเอียดเพิ่มเติมที่ [รับใบอนุญาตชั่วคราว](https://purchase.groupdocs.com/temporary-license/)
+    #  loop 
+    - question:  "คุณมีใบอนุญาตอะไรบ้าง?"
+      answer: |
+        เรามีใบอนุญาตหลายประเภทเพื่อให้เหมาะกับความต้องการของนักพัฒนาหรือบริษัทโดยเฉพาะ ประเภทใบอนุญาตขึ้นอยู่กับจำนวนนักพัฒนา จำนวนที่ตั้งไซต์ของนักพัฒนา และคุณจำเป็นต้องส่งมอบ SDK/API ของเราให้กับลูกค้าปลายทางของคุณหรือไม่ หรือคุณสามารถเลือกสิทธิ์การใช้งานแบบคิดค่าบริการตามการใช้งานผลิตภัณฑ์รายเดือนได้ ดูข้อมูลเพิ่มเติมได้ที่ [ประเภทใบอนุญาต](https://purchase.groupdocs.com/policies/license-types/)                      
+     
+
+
+############################# Cloud ############################
+
+cloud_links:
+  enable: true
+  title: "GroupDocs.Merger API แบบโค้ดต่ำ"
+  description: "เร่งความเร็วการรวมเอกสารในแอปพลิเคชันทุกประเภทด้วย REST API บนคลาวด์ของเรา"
+
+  items:
+    #  loop
+    - icon: "groupdocs_merger-for-curl"
+      title: "GroupDocs.Merger Cloud สำหรับ cURL"
+      link: "https://products.groupdocs.cloud/merger/curl"
+      content: "คำสั่ง cURL แบบง่ายสำหรับ Cloud API การรวมเอกสาร RESTful เพื่อผสานและแยกเอกสาร"
+
+    #  loop
+    - icon: "groupdocs_merger-for-net"
+      title: "GroupDocs.Merger Cloud สำหรับ .NET"
+      link: "https://products.groupdocs.cloud/merger/net"
+      content: "Cloud SDK สำหรับ Microsoft .NET เพื่อใช้คุณลักษณะการผสานและแยกอย่างรวดเร็วในแอปพลิเคชันที่ใช้ .NET"
+
+    #  loop
+    - icon: "groupdocs_merger-for-java"
+      title: "GroupDocs.Merger Cloud สำหรับ Java"
+      link: "https://products.groupdocs.cloud/merger/java"
+      content: "รวมเอกสารหลายฉบับเป็นเอกสารเดียว แยกเอกสารใดๆ ออกเป็นหลายฉบับในแอปพลิเคชัน Java ของคุณ"
+    
+
+############################# Apps ############################
+
+app_links:
+  enable: true
+  title: "GroupDocs.Merger แอพ NoCode"
+  description: "แอปพลิเคชันออนไลน์ที่ให้คุณผสานและแยกรูปแบบไฟล์ยอดนิยมกว่า 170 รูปแบบในเบราว์เซอร์"
+
+  items:
+    #  loop
+    - icon: "groupdocs_merger-app"
+      title: "GroupDocs.Merger Total"
+      link: "https://products.groupdocs.app/merger/total"
+      content: "ลองใช้แอปออนไลน์ฟรีของเราเพื่อเชื่อมไฟล์มากกว่า 30 ประเภทโดยไม่ต้องออกจากเว็บเบราว์เซอร์ที่คุณชื่นชอบ"
+
+    #  loop
+    - icon: "groupdocs_words-app"
+      title:  "GroupDocs.Merger DOCX"
+      link: "https://products.groupdocs.app/merger/docx"
+      content: "เชื่อมต่อไฟล์ DOCX หลายไฟล์เพื่อสร้างเอกสารเดียว"
+
+    #  loop
+    - icon: "groupdocs_pdf-app"
+      title:  "GroupDocs.Merger PDF"
+      link: "https://products.groupdocs.app/merger/pdf"
+      content: "รวมไฟล์ PDF หลายไฟล์เพื่อสร้างเอกสารเดียวได้โดยตรงจากเว็บเบราว์เซอร์"
+    
+
+
+
 ---
