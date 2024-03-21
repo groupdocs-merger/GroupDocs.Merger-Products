@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T10:00:12
+date: 2024-03-21T12:33:32
 draft: false
 
 product: "Merger"
@@ -241,7 +241,7 @@ code_samples:
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
-# enable: true
+# enable: false
 # title: "บทวิจารณ์ผลิตภัณฑ์ GroupDocs"
 # description: "อย่าเพิ่งเชื่อคำพูดของเรา ดูความคิดเห็นของนักพัฒนาคนอื่นๆ เกี่ยวกับ API ของเรา"
 

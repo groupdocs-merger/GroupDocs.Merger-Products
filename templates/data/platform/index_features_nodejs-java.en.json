@@ -1,42 +1,42 @@
 {
   "features": {
-    "title": "GroupDocs.Merger features",
-    "description": "Seamlessly merge, split, and manipulate PDF and Office Documents",
+    "title": "Key Features of GroupDocs.Merger for Node.js",
+    "description": "Efficiently merge, split, and manipulate documents in PDF and Office formats using GroupDocs.Merger in a Node.js environment.",
     "feature_1": {
-      "title": "Combine files",
-      "content": "Merge two or more documents into a single document, joining specific pages or page ranges from multiple source documents."
+      "title": "Seamless Document Combination",
+      "content": "Easily merge multiple documents into one by combining specific pages or ranges from various files, using the GroupDocs.Merger for Node.js."
     },
     "feature_2": {
-      "title": "Split document",
-      "content": "Utilize the split operation to divide a source document into multiple resultant documents, enabling efficient organization and management of files."
+      "title": "Document Splitting Capabilities",
+      "content": "Split a single document into several smaller files for better management and organization, utilizing the comprehensive split feature of GroupDocs.Merger for Node.js."
     },
     "feature_3": {
-      "title": "Move pages",
-      "content": "Smoothly reposition a page within a document by leveraging the MovePage feature."
+      "title": "Efficient Page Movement",
+      "content": "Reposition pages within a document to suit your requirements by using the intuitive MovePage feature in the Node.js environment."
     },
     "feature_4": {
-      "title": "Remove pages",
-      "content": "Effectively remove individual pages or a collection of specific page numbers from the source document with the RemovePages feature."
+      "title": "Page Removal Options",
+      "content": "Remove unnecessary pages or specific page numbers easily with the GroupDocs.Merger's RemovePages feature tailored for Node.js."
     },
     "feature_5": {
-      "title": "Rotate pages",
-      "content": "Take advantage of the RotatePages operation to easily rotate pages within a document by specifying the rotation angle as 90, 180, or 270 degrees"
+      "title": "Page Rotation Functionality",
+      "content": "Rotate pages within a document to the desired orientation—90, 180, or 270 degrees—using the straightforward RotatePages operation."
     },
     "feature_6": {
-      "title": "Swap pages",
-      "content": "Rearrange the page order by exchanging the positions of two pages within the source document, producing a new document."
+      "title": "Page Swapping Feature",
+      "content": "Modify the order of your document's pages by swapping their positions, thus creating a reorganized document with the SwapPages function."
     },
     "feature_7": {
-      "title": "Extract pages",
-      "content": "Generate a new document containing only the selected pages by extracting specific pages or page ranges from the source document."
+      "title": "Selective Page Extraction",
+      "content": "Create a new document from selected pages or page ranges, extracting only the necessary content with GroupDocs.Merger for Node.js."
     },
     "feature_8": {
-      "title": "Change orientation",
-      "content": "Modify the page orientation (portrait or landscape) for specific pages or all pages of the document by leveraging the ChangeOrientation operation."
+      "title": "Orientation Alteration Tool",
+      "content": "Change the orientation of specific or all pages from portrait to landscape or vice versa, employing the ChangeOrientation feature in your Node.js projects."
     },
     "feature_9": {
-      "title": "Preview pages",
-      "content": "Gain a clearer understanding of the content and structure of the document by generating image representations of its pages. Make previews of all or just specific pages."
+      "title": "Document Page Previews",
+      "content": "Generate image previews of document pages to better understand their content and layout, using the PreviewPages feature within Node.js."
     }
   }
 }

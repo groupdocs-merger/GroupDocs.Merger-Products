@@ -1,11 +1,11 @@
 {
   "head": {
-    "title": "Java Document Merging API | merge & remove Word Excel PDF XPS EPUB",
-    "description": "Documents merging API for Java. Merge, split, swap, reorder and delete pages of PDF, Microsoft Word, Excel, presentations, Visio, XPS & EPUB formats."
+    "title": "Node.js Document Merging API | merge PDF Word Excel",
+    "description": "Documents merging API for Node.js. Merge, split, swap, reorder and delete pages of PDF, Microsoft Word, Excel, presentations, Visio, XPS & EPUB formats."
   },
   "header": {
     "title_1": "Merge documents",
-    "title_2": "via Java API",
+    "title_2": "via Node.js API",
     "description": "Flexible Merger API to easily combine, split, or modify PDF and Office Documents",
     "words": {
       "for": "for"

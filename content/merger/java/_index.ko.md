@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T10:00:11
+date: 2024-03-21T12:33:32
 draft: false
 
 product: "Merger"
@@ -242,7 +242,7 @@ code_samples:
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
-# enable: true
+# enable: false
 # title: "GroupDocs 제품 리뷰"
 # description: "우리의 말을 그대로 받아들이지 마십시오. API에 대한 다른 개발자의 의견 보기"
 

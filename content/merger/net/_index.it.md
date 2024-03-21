@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T10:00:11
+date: 2024-03-21T12:33:32
 draft: false
 
 product: "Merger"
@@ -241,7 +241,7 @@ code_samples:
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
-# enable: true
+# enable: false
 # title: "Recensioni dei prodotti GroupDocs"
 # description: "Non limitarti a crederci sulla parola. Guarda cosa dicono gli altri sviluppatori sulle nostre API"
 
