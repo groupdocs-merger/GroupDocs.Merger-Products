@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T12:33:32
+date: 2024-03-21T16:43:15
 draft: false
 
 product: "Merger"
@@ -23,7 +23,7 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Node.js Document Merging API | merge & remove Word Excel PDF XPS EPUB"
+head_title: "Node.js Document Merging API | merge PDF Word Excel"
 head_description: "Documents merging API for Node.js. Merge, split, swap, reorder and delete pages of PDF, Microsoft Word, Excel, presentations, Visio, XPS & EPUB formats."
 
 ############################# Header ############################

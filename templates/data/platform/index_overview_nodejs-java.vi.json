@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "Tổng quan về GroupDocs.Merger for Node.js",
+    "description": "API toàn diện để hợp nhất, tách, sắp xếp lại và tinh chỉnh tài liệu, trang trình bày và sơ đồ trong các ứng dụng Node.js.",
+    "feature_1": {
+      "title": "Hợp nhất tài liệu một cách dễ dàng trong Node.js",
+      "description": "Sử dụng GroupDocs.Merger cho Node.js để dễ dàng kết hợp PDF và tài liệu Office thành một tệp thống nhất. Thư viện này mở rộng hỗ trợ định dạng rộng, cho phép tích hợp mượt mà và hợp nhất các loại tệp khác nhau, do đó tăng cường quá trình quản lý tài liệu trong các ứng dụng Node.js."
+    },
+    "feature_2": {
+      "title": "Đơn giản hóa việc xử lý tài liệu bằng cách phân đoạn các tệp lớn",
+      "description": "Với GroupDocs.Merger cho Node.js, bạn có thể dễ dàng chia nhỏ các tệp PDF hoặc Office thành các phần dễ quản lý hơn. Điều chỉnh tài liệu của bạn bằng cách chia chúng dựa trên các trang cụ thể, phạm vi hoặc trích xuất trang riêng lẻ, nâng cao tổ chức và hiệu quả của quy trình công việc tài liệu của bạn."
+    },
+    "feature_3": {
+      "title": "Có được toàn quyền kiểm soát cấu trúc tài liệu của bạn trong Node.js",
+      "description": "Xác định lại bố cục tài liệu của bạn bằng cách dễ dàng sắp xếp lại, trao đổi hoặc loại bỏ các trang bằng cách sử dụng GroupDocs.Merger cho Node.js. Điều chỉnh tài liệu của bạn để đáp ứng nhu cầu duy nhất, cung cấp sự linh hoạt chưa từng có trong việc xây dựng cấu hình tệp tùy chỉnh."
+    }
+  }
+}

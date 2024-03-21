@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Node.js 文档合并 API | 合并 PDF Word Excel",
+    "description": "Node.js 的文档合并 API。合并、拆分、交换、重新排序和删除 PDF、微软 Word、Excel、演示文稿、Visio、XPS 和 EPUB 格式的页面。"
+  },
+  "header": {
+    "title_1": "合并文档",
+    "title_2": "通过 Node.js API",
+    "description": "灵活的合并 API 可轻松合并、拆分或修改 PDF 和 Office 文档",
+    "words": {
+      "for": "为了"
+    }
+  },
+  "actions": {
+    "main": "免费下载 Maven",
+    "alt": "许可",
+    "title": "准备好开始了吗？",
+    "description": "免费试用 GroupDocs.Merger 项功能或申请许可证"
+  },
+  "release": {
+    "title": "版本 {0} 已发布",
+    "notes": "查看新增内容",
+    "downloads": "下载"
+  }
+}

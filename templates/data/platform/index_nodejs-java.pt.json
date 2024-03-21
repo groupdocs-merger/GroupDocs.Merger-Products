@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API de mesclagem de documentos Node.js | mesclar PDF Word Excel",
+    "description": "API de mesclagem de documentos para Node.js. Mescle, divida, troque, reordene e exclua páginas dos formatos PDF, Microsoft Word, Excel, apresentações, Visio, XPS e EPUB."
+  },
+  "header": {
+    "title_1": "Mesclar documentos",
+    "title_2": "por meio da API Node.js",
+    "description": "API de fusão flexível para combinar, dividir ou modificar facilmente PDF e documentos do Office",
+    "words": {
+      "for": "pelo"
+    }
+  },
+  "actions": {
+    "main": "Download grátis do Maven",
+    "alt": "Licenciamento",
+    "title": "Pronto para começar?",
+    "description": "Experimente GroupDocs.Merger recursos gratuitamente ou solicite uma licença"
+  },
+  "release": {
+    "title": "Versão {0} lançada",
+    "notes": "Veja o que há de novo",
+    "downloads": "Downloads"
+  }
+}

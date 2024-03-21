@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "コードサンプル",
+    "description": "Node.js 環境に合わせてカスタマイズされた GroupDocs.Merger の一般的なユースケースをご覧ください。これらの例は、Node.js 用の GroupDocs.Merger を使用してドキュメントをマージすることの効率と容易さを示しています。",
+    "sample_1": {
+      "title": "Node.js を使用して DOCX ファイルを 1 つのドキュメントに効率的にマージ",
+      "content_1": "GroupDocs.Merger for Node.js を活用して、複数の DOCX ファイルを 1 つの包括的なドキュメントにシームレスにマージできます。当社の [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) 機能を利用してファイルを効率的に結合し、ドキュメント管理と生産性を向上させましょう。",
+      "content_2": "以下に、ドキュメント統合プロセスのガイドとなる Node.js コードスニペットを示します。",
+      "code_title": "Node.js 例:DOCX ファイルのマージ",
+      "comment_1": "最初の DOCX ファイルを読み込む",
+      "comment_2": "マージ用に DOCX ファイルを追加",
+      "comment_3": "マージプロセスを実行し、結合されたドキュメントを保存します"
+    },
+    "sample_2": {
+      "title": "PDF ドキュメントを Node.js 内の個々のファイルに分割する",
+      "content_1": "Node.js 用の GroupDocs.Merger を使用すると、ドキュメントを複数のファイルに分割するのが簡単になります。当社の [文書分割](https://docs.groupdocs.com/merger/nodejs-java/split-document/) 機能を使用すると、PDF 個のサイズの大きい文書から特定のセクションを効率的に管理および抽出できるため、文書処理がより効果的になります。",
+      "content_2": "この機能は、ページ範囲、開始/終了ページ、奇数/偶数ページ番号などの条件による文書の分割をサポートします。",
+      "code_title": "Node.js を使用してドキュメントを別々のファイルに分割する方法",
+      "comment_1": "まず、Node.js API 用の GroupDocs.Merger を使用して PDF ファイルを分割します",
+      "comment_2": "出力ファイルのフォーマットで SplitOptions クラスを設定します",
+      "comment_3": "PDF ドキュメントを分割してマージを初期化します",
+      "comment_4": "splitOptions オブジェクトで split メソッドを呼び出して、結果のドキュメントを取得します。"
+    }
+  }
+}

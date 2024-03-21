@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Mẫu mã",
+    "description": "Khám phá các trường hợp sử dụng điển hình cho GroupDocs.Merger phù hợp với môi trường Node.js. Những ví dụ này chứng minh tính hiệu quả và dễ dàng của việc hợp nhất các tài liệu bằng cách sử dụng GroupDocs.Merger cho Node.js.",
+    "sample_1": {
+      "title": "Hợp nhất hiệu quả DOCX tệp thành một tài liệu bằng Node.js",
+      "content_1": "Tận dụng GroupDocs.Merger cho Node.js để hợp nhất liền mạch nhiều tệp DOCX thành một tài liệu toàn diện duy nhất. Sử dụng tính năng [Hợp nhất Word Tài liệu](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) của chúng tôi để kết hợp các tệp một cách hiệu quả, tăng cường quản lý tài liệu và năng suất.",
+      "content_2": "Dưới đây, tìm đoạn mã Node.js để hướng dẫn bạn qua quá trình hợp nhất tài liệu:",
+      "code_title": "Ví dụ Node.js: Hợp nhất các tập tin DOCX",
+      "comment_1": "Tải tập tin DOCX ban đầu",
+      "comment_2": "Thêm DOCX tệp bổ sung để hợp nhất",
+      "comment_3": "Thực hiện quá trình hợp nhất và lưu tài liệu kết hợp"
+    },
+    "sample_2": {
+      "title": "Chia một tài liệu PDF thành các tệp riêng lẻ trong Node.js",
+      "content_1": "Với GroupDocs.Merger cho Node.js, việc chia một tài liệu thành nhiều tệp được sắp xếp hợp lý. Tính năng [Chia tài liệu](https://docs.groupdocs.com/merger/nodejs-java/split-document/) của chúng tôi cho phép quản lý và trích xuất hiệu quả các phần cụ thể từ các tài liệu lớn PDF, giúp việc xử lý tài liệu của bạn hiệu quả hơn.",
+      "content_2": "Tính năng này hỗ trợ chia tài liệu theo phạm vi trang, trang bắt đầu/kết thúc hoặc số trang lẻ/chẵn, trong số các tiêu chí khác.",
+      "code_title": "Cách chia tài liệu thành các tệp riêng biệt với Node.js",
+      "comment_1": "Bắt đầu bằng cách chia tệp PDF bằng GroupDocs.Merger cho API Node.js",
+      "comment_2": "Thiết lập lớp SplitOptions với định dạng cho các tệp đầu ra",
+      "comment_3": "Khởi tạo Merger với tài liệu PDF sẽ được chia",
+      "comment_4": "Gọi phương thức phân tách với đối tượng SplitOptions để lấy các tài liệu kết quả"
+    }
+  }
+}

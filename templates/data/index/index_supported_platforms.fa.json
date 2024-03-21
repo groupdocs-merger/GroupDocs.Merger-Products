@@ -32,13 +32,25 @@
       "feature_2": {
         "line_1": "ویندوز، لینوکس، سیستم عامل مک"
       },
-      "feature_3" : {
-        "line_1":"IntelliJ IDEA", 
-        "line_2":"Eclipse", 
-        "line_3":"NetBeans"
+      "feature_3": {
+        "line_1": "IntelliJ IDEA",
+        "line_2": "Eclipse",
+        "line_3": "NetBeans"
       },
       "feature_4": {
         "line_1": "بیش از 50 فرمت فایل"
+      }
+    },
+    "nodejs-java": {
+      "description": "GroupDocs.Merger برای Node.js",
+      "feature_1": {
+        "line_1": "Node.js ۱۶+ و جی۲سی ۸٫۰ (۱٫۸) +"
+      },
+      "feature_3": {
+        "line_1": "هر ویرایشگر متن دیگر"
+      },
+      "feature_4": {
+        "line_1": "50+ فرمت فایل"
       }
     }
   }

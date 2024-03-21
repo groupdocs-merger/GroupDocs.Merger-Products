@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Codebeispiele",
+    "description": "Erkunden Sie typische Anwendungsfälle für GroupDocs.Merger, die auf Node.js Umgebungen zugeschnitten sind. Diese Beispiele zeigen, wie effizient und einfach das Zusammenführen von Dokumenten mithilfe von GroupDocs.Merger für Node.js ist.",
+    "sample_1": {
+      "title": "Führen Sie DOCX Dateien mithilfe von Node.js effizient zu einem Dokument zusammen",
+      "content_1": "Nutzen Sie GroupDocs.Merger für Node.js, um mehrere DOCX Dateien nahtlos zu einem einzigen umfassenden Dokument zusammenzuführen. Nutzen Sie unsere Funktion [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/), um Dateien effizient zu kombinieren und so die Dokumentenverwaltung und Produktivität zu verbessern.",
+      "content_2": "Im Folgenden finden Sie einen Node.js Codeausschnitt, der Sie durch den Vorgang zum Zusammenführen von Dokumenten führt:",
+      "code_title": "Node.js Beispiel: Zusammenführen von DOCX Dateien",
+      "comment_1": "Laden Sie die ursprüngliche DOCX -Datei",
+      "comment_2": "Zusätzliche DOCX Dateien zum Zusammenführen anhängen",
+      "comment_3": "Führen Sie den Zusammenführungsvorgang aus und speichern Sie das kombinierte Dokument"
+    },
+    "sample_2": {
+      "title": "Teilen Sie ein PDF Dokument in Node.js in einzelne Dateien auf",
+      "content_1": "Mit GroupDocs.Merger für Node.js wird das Aufteilen eines Dokuments in mehrere Dateien vereinfacht. Unsere Funktion [Dokument teilen](https://docs.groupdocs.com/merger/nodejs-java/split-document/) ermöglicht eine effiziente Verwaltung und Extraktion bestimmter Abschnitte aus großen PDF Dokumenten, wodurch Ihre Dokumentenverwaltung effektiver wird.",
+      "content_2": "Diese Funktion unterstützt unter anderem das Aufteilen von Dokumenten nach Seitenbereich, Start-/Endseiten oder ungerade/geraden Seitenzahlen.",
+      "code_title": "So teilen Sie Dokumente mit Node.js in separate Dateien auf",
+      "comment_1": "Teilen Sie zunächst die Datei PDF mithilfe der API GroupDocs.Merger für Node.js auf",
+      "comment_2": "Richten Sie die SplitOptions-Klasse mit dem Format für Ausgabedateien ein",
+      "comment_3": "Initialisieren Sie Merger mit dem PDF Dokument, das aufgeteilt werden soll",
+      "comment_4": "Rufen Sie die Split-Methode mit dem SplitOptions-Objekt auf, um die resultierenden Dokumente abzurufen"
+    }
+  }
+}

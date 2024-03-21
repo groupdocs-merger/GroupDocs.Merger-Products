@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Định dạng tập tin được hỗ trợ",
+    "description": "GroupDocs.Merger cho Node.js thông qua Java hỗ trợ các hoạt động với [định dạng tệp] sau đây (https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office định dạng",
+      "title_2": "Tài liệu & hình ảnh",
+      "title_3": "Các định dạng khác",
+      "format_documents": "Tài liệu",
+      "format_images": "Hình ảnh",
+      "format_web": "Trang web",
+      "format_archives": "Lưu trữ"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "Node.js GroupDocs.Merger 개요",
+    "description": "Node.js 애플리케이션에서 문서, 슬라이드 및 다이어그램을 병합, 분할, 재정렬 및 수정하기 위한 포괄적인 API입니다.",
+    "feature_1": {
+      "title": "Node.js 파일로 간편하게 문서 병합",
+      "description": "Node.js 용 GroupDocs.Merger 을 활용하여 PDF 및 Office 문서를 하나의 통합 파일로 손쉽게 결합할 수 있습니다.이 라이브러리는 광범위한 형식 지원을 확장하여 다양한 파일 형식을 원활하게 통합 및 병합할 수 있게 하여 Node.js 응용 프로그램의 문서 관리 프로세스를 개선합니다."
+    },
+    "feature_2": {
+      "title": "대용량 파일을 분할하여 문서 처리를 간소화합니다.",
+      "description": "Node.js 용 GroupDocs.Merger 을 사용하면 상당한 PDF 파일이나 Office 파일을 관리하기 쉬운 조각으로 쉽게 분할할 수 있습니다.특정 페이지, 범위 또는 개별 페이지 추출을 기준으로 문서를 나누어 문서를 맞춤화하여 문서 워크플로의 체계와 효율성을 향상시키십시오."
+    },
+    "feature_3": {
+      "title": "Node.js 파일에서 문서 구조를 완벽하게 제어할 수 있습니다.",
+      "description": "Node.js 용 GroupDocs.Merger 을 사용하여 페이지를 손쉽게 재정렬, 교환 또는 삭제하여 문서 레이아웃을 재정의하세요.고유한 요구 사항에 맞게 문서를 조정하여 사용자 지정 파일 구성을 구성할 때 타의 추종을 불허하는 유연성을 제공합니다."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Format file yang didukung",
+    "description": "GroupDocs.Merger untuk Node.js melalui Java mendukung operasi dengan [format file] berikut (https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office format",
+      "title_2": "Dokumen & gambar",
+      "title_3": "Format lainnya",
+      "format_documents": "Dokumen",
+      "format_images": "Gambar",
+      "format_web": "Web",
+      "format_archives": "mengarsipkan"
+    }
+  }
+}

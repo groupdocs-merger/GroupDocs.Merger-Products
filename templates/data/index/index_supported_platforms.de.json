@@ -32,10 +32,22 @@
       "feature_2": {
         "line_1": "Windows, Linux, Mac OS"
       },
-      "feature_3" : {
-        "line_1":"IntelliJ IDEA", 
-        "line_2":"Eclipse", 
-        "line_3":"NetBeans"
+      "feature_3": {
+        "line_1": "IntelliJ IDEA",
+        "line_2": "Eclipse",
+        "line_3": "NetBeans"
+      },
+      "feature_4": {
+        "line_1": "Über 50 Dateiformate"
+      }
+    },
+    "nodejs-java": {
+      "description": "GroupDocs.Merger für Node.js",
+      "feature_1": {
+        "line_1": "Node.js 16+ und J2SE 8.0 (1.8) +"
+      },
+      "feature_3": {
+        "line_1": "Jeder andere Texteditor"
       },
       "feature_4": {
         "line_1": "Über 50 Dateiformate"

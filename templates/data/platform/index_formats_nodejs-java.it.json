@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Formati di file supportati",
+    "description": "GroupDocs.Merger per Node.js tramite Java supporta le operazioni con i seguenti [formati di file](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/).",
+    "groups": {
+      "title_1": "Microsoft Office formati",
+      "title_2": "Documenti e immagini",
+      "title_3": "Altri formati",
+      "format_documents": "Documenti",
+      "format_images": "Immagini",
+      "format_web": "Web",
+      "format_archives": "Archivi"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Principais recursos do GroupDocs.Merger para Node.js",
+    "description": "Mescle, divida e manipule documentos com eficiência nos formatos PDF e Office usando GroupDocs.Merger em um ambiente Node.js.",
+    "feature_1": {
+      "title": "Combinação perfeita de documentos",
+      "content": "Mescle facilmente vários documentos em um, combinando páginas ou intervalos específicos de vários arquivos, usando o GroupDocs.Merger para Node.js."
+    },
+    "feature_2": {
+      "title": "Capacidades de divisão de documentos",
+      "content": "Divida um único documento em vários arquivos menores para melhorar o gerenciamento e a organização, utilizando o recurso de divisão abrangente de GroupDocs.Merger para Node.js."
+    },
+    "feature_3": {
+      "title": "Movimentação eficiente de páginas",
+      "content": "Reposicione páginas em um documento para atender às suas necessidades usando o recurso intuitivo MovePage no ambiente Node.js."
+    },
+    "feature_4": {
+      "title": "Opções de remoção de página",
+      "content": "Remova páginas desnecessárias ou números de página específicos com facilidade com o recurso RemovePages do GroupDocs.Merger, personalizado para Node.js."
+    },
+    "feature_5": {
+      "title": "Funcionalidade de rotação de página",
+      "content": "Gire páginas em um documento até a orientação desejada — 90, 180 ou 270 graus — usando a operação simples RotatePages."
+    },
+    "feature_6": {
+      "title": "Recurso de troca de página",
+      "content": "Modifique a ordem das páginas do seu documento trocando suas posições, criando assim um documento reorganizado com a função SwapPages."
+    },
+    "feature_7": {
+      "title": "Extração seletiva de páginas",
+      "content": "Crie um novo documento a partir de páginas ou intervalos de páginas selecionados, extraindo somente o conteúdo necessário com GroupDocs.Merger para Node.js."
+    },
+    "feature_8": {
+      "title": "Ferramenta de alteração de orientação",
+      "content": "Altere a orientação de páginas específicas ou de todas as páginas de retrato para paisagem ou vice-versa, empregando o recurso ChangeOrientation em seus projetos do Node.js."
+    },
+    "feature_9": {
+      "title": "Pré-visualizações de páginas de documentos",
+      "content": "Gere visualizações de imagens de páginas de documentos para entender melhor seu conteúdo e layout, usando o recurso PreviewPages no Node.js."
+    }
+  }
+}

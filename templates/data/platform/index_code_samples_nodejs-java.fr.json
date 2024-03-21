@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Exemples de code",
+    "description": "Explorez les cas d'utilisation typiques de GroupDocs.Merger adaptés aux environnements Node.js. Ces exemples montrent l'efficacité et la facilité de la fusion de documents à l'aide du fichier GroupDocs.Merger pour Node.js.",
+    "sample_1": {
+      "title": "Fusionnez efficacement DOCX fichiers en un seul document à l'aide de Node.js",
+      "content_1": "Tirez parti du GroupDocs.Merger pour Node.js pour fusionner facilement plusieurs fichiers DOCX en un seul document complet. Utilisez notre fonction [Fusionner Word documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) pour combiner efficacement des fichiers, améliorant ainsi la gestion des documents et la productivité.",
+      "content_2": "Vous trouverez ci-dessous un extrait de code Node.js qui vous guidera tout au long du processus de fusion de documents :",
+      "code_title": "Exemple Node.js : fusion de fichiers DOCX",
+      "comment_1": "Chargez le fichier DOCX initial",
+      "comment_2": "Ajouter DOCX fichiers supplémentaires pour les fusionner",
+      "comment_3": "Exécutez le processus de fusion et enregistrez le document combiné"
+    },
+    "sample_2": {
+      "title": "Divisez un document PDF en fichiers individuels dans Node.js",
+      "content_1": "Avec GroupDocs.Merger pour Node.js, la division d'un document en plusieurs fichiers est rationalisée. Notre fonctionnalité [Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) permet de gérer et d'extraire efficacement des sections spécifiques de documents PDF volumineux, ce qui rend la gestion de vos documents plus efficace.",
+      "content_2": "Cette fonctionnalité permet de fractionner les documents par plage de pages, pages de début/fin ou numéros de page pairs ou impairs/pairs, entre autres critères.",
+      "code_title": "Comment diviser des documents en fichiers séparés avec Node.js",
+      "comment_1": "Commencez par fractionner le fichier PDF à l'aide de l'API GroupDocs.Merger pour Node.js",
+      "comment_2": "Configurer la classe SplitOptions avec le format des fichiers de sortie",
+      "comment_3": "Initialisez la fusion avec le document PDF à scinder",
+      "comment_4": "Invoquez la méthode split avec l'objet SplitOptions pour obtenir les documents résultants"
+    }
+  }
+}

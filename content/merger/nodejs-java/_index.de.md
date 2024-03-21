@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T12:33:32
+date: 2024-03-21T16:43:15
 draft: false
 
 product: "Merger"
@@ -23,67 +23,67 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{head.title}"
-head_description: "{head.description}"
+head_title: "Node.js API zum Zusammenführen von Dokumenten | merge PDF Word Excel"
+head_description: "API zum Zusammenführen von Dokumenten für Node.js. Seiten der Formate PDF, Microsoft Word, Excel, Präsentationen, Visio, XPS und EPUB zusammenführen, teilen, austauschen, neu anordnen und löschen."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "{header.description}"
+title: "Dokumente zusammenführen<br>über die Node.js API"
+description: "Flexible Merger-API zum einfachen Kombinieren, Teilen oder Ändern von PDF und Office-Dokumenten"
 words:
-  for: "{header.words.for}"
+  for: "zum"
 
 actions:
-  main: "{actions.main}"
+  main: "Kostenloser Maven-Download"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
-  alt: "{actions.alt}"
+  alt: "Lizenzierung"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Bereit loszulegen?"
+  description: "Testen Sie GroupDocs.Merger Funktionen kostenlos oder fordern Sie eine Lizenz an"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Version {0} veröffentlicht"
+  notes: "Schau dir an, was es Neues gibt"
+  downloads: "herunterladbare"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "PDF Dateien in Node.js über Java zusammenführen"
+  more: "Mehr Beispiele"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.merger"
   content: |
     ```javascript {style=abap}   
-    // {code.comment_1}
+    // Laden Sie die Quelldatei PDF
     const merger = new Merger("sample1.pdf");
     
-    // {code.comment_2}
+    //  Eine weitere PDF -Datei zum Zusammenführen hinzufügen
     merger.join("sample2.pdf");
 
-    // {code.comment_3}
+    // PDF Dateien zusammenführen und Ergebnis speichern
     merger.save("merged.pdf");
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "Überblick über GroupDocs.Merger für Node.js"
+  description: "Umfassende API zum Zusammenführen, Teilen, Neuanordnen und Verfeinern von Dokumenten, Folien und Diagrammen in Node.js Anwendungen."
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Dokumente mühelos in Node.js zusammenführen"
+      content: "Verwenden Sie GroupDocs.Merger für Node.js, um PDF und Office-Dokumente mühelos zu einer einheitlichen Datei zu kombinieren. Diese Bibliothek bietet eine breite Formatunterstützung und ermöglicht so die reibungslose Integration und Zusammenführung verschiedener Dateitypen, wodurch der Dokumentenverwaltungsprozess in Anwendungen von Node.js verbessert wird."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Vereinfachen Sie die Dokumentenverwaltung, indem Sie große Dateien segmentieren"
+      content: "Mit GroupDocs.Merger für Node.js können Sie umfangreiche PDF - oder Office-Dateien einfach in überschaubarere Teile aufteilen. Passen Sie Ihre Dokumente individuell an, indem Sie sie nach bestimmten Seiten, Bereichen oder einzelnen Seitenextraktionen unterteilen, um die Organisation und Effizienz Ihrer Dokumenten-Workflows zu verbessern."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Gewinnen Sie die volle Kontrolle über die Struktur Ihres Dokuments in Node.js"
+      content: "Definieren Sie das Layout Ihres Dokuments neu, indem Sie mühelos Seiten mit GroupDocs.Merger für Node.js neu anordnen, austauschen oder verwerfen. Passen Sie Ihre Dokumente an individuelle Anforderungen an und bieten Sie so unübertroffene Flexibilität bei der Erstellung einer benutzerdefinierten Dateikonfiguration."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Plattformunabhängigkeit"
+  description: "GroupDocs.Merger for Node.js unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager"
   items:
     # platform loop
     - title: "Amazon"
@@ -114,14 +114,14 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Unterstützte Dateiformate"
   description: |
-    {formats.description}
+    GroupDocs.Merger für Node.js über Java unterstützt Operationen mit den folgenden [Dateiformaten](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
+        ### Microsoft Office Formate
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -129,108 +129,108 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        ### Dokumente & Bilder
+        * **Dokumente:** PDF, XPS, TEX
+        * **Bilder:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
         * **eBook:** EPUB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        ### Andere Formate
+        * **Netz:**  HTML, MHTML, MHT
+        * **Archiv:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{features.title}"
-  description: "{features.description}"
+  title: "Hauptmerkmale von GroupDocs.Merger für Node.js"
+  description: "Fügen Sie Dokumente in den Formaten PDF und Office mithilfe von GroupDocs.Merger in einer Node.js -Umgebung effizient zusammen, teilen und bearbeiten Sie sie."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Nahtlose Kombination von Dokumenten"
+      content: "Fügen Sie mühelos mehrere Dokumente zu einem zusammen, indem Sie bestimmte Seiten oder Bereiche aus verschiedenen Dateien kombinieren, indem Sie GroupDocs.Merger für Node.js verwenden."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Funktionen zum Aufteilen von Dokumenten"
+      content: "Teilen Sie ein einzelnes Dokument zur besseren Verwaltung und Organisation in mehrere kleinere Dateien auf, indem Sie die umfassende Aufteilungsfunktion von GroupDocs.Merger für Node.js verwenden."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Effizientes Verschieben von Seiten"
+      content: "Mithilfe der intuitiven MovePage-Funktion in der Umgebung von Node.js können Sie Seiten innerhalb eines Dokuments an Ihre Anforderungen anpassen."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Optionen zum Entfernen von Seiten"
+      content: "Entfernen Sie einfach unnötige Seiten oder bestimmte Seitenzahlen mit der removePages-Funktion von GroupDocs.Merger, die auf Node.js zugeschnitten ist."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Funktionalität zum Drehen von Seiten"
+      content: "Drehen Sie Seiten innerhalb eines Dokuments mithilfe der einfachen RotatePages-Operation in die gewünschte Ausrichtung — 90, 180 oder 270 Grad."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Funktion zum Austauschen von Seiten"
+      content: "Ändern Sie die Reihenfolge der Seiten Ihres Dokuments, indem Sie ihre Positionen vertauschen und so mit der Funktion SwapPages ein neu organisiertes Dokument erstellen."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "Selektive Seitenextraktion"
+      content: "Erstellen Sie ein neues Dokument aus ausgewählten Seiten oder Seitenbereichen und extrahieren Sie nur den erforderlichen Inhalt mit GroupDocs.Merger für Node.js."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Tool zur Änderung der Ausrichtung"
+      content: "Ändern Sie die Ausrichtung bestimmter oder aller Seiten vom Hochformat ins Querformat oder umgekehrt, indem Sie die ChangeOrientation-Funktion in Ihren Node.js -Projekten verwenden."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Seitenvorschauen von Dokumenten"
+      content: "Generieren Sie mithilfe der Funktion PreviewPages in Node.js Bildvorschauen von Dokumentseiten, um deren Inhalt und Layout besser zu verstehen."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Codebeispiele"
+  description: "Erkunden Sie typische Anwendungsfälle für GroupDocs.Merger, die auf Node.js Umgebungen zugeschnitten sind. Diese Beispiele zeigen, wie effizient und einfach das Zusammenführen von Dokumenten mithilfe von GroupDocs.Merger für Node.js ist."
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Führen Sie DOCX Dateien mithilfe von Node.js effizient zu einem Dokument zusammen"
       content: |
-        {code_samples.sample_1.content_1} {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Nutzen Sie GroupDocs.Merger für Node.js, um mehrere DOCX Dateien nahtlos zu einem einzigen umfassenden Dokument zusammenzuführen. Nutzen Sie unsere Funktion [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/), um Dateien effizient zu kombinieren und so die Dokumentenverwaltung und Produktivität zu verbessern. Im Folgenden finden Sie einen Node.js Codeausschnitt, der Sie durch den Vorgang zum Zusammenführen von Dokumenten führt:
+        {{< landing/code title="Node.js Beispiel: Zusammenführen von DOCX Dateien">}}
         ```javascript {style=abap}   
-        // {code_samples.sample_1.comment_1}
+        // Laden Sie die ursprüngliche DOCX -Datei
         const merger = new Merger("sample1.docx");
-        // {code_samples.sample_1.comment_2}
+        // Zusätzliche DOCX Dateien zum Zusammenführen anhängen
         merger.join("sample2.docx");
-        // {code_samples.sample_1.comment_3}
+        // Führen Sie den Zusammenführungsvorgang aus und speichern Sie das kombinierte Dokument
         merger.save("merged.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Teilen Sie ein PDF Dokument in Node.js in einzelne Dateien auf"
       content: |
-        {code_samples.sample_2.content_1} {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title}">}}
+        Mit GroupDocs.Merger für Node.js wird das Aufteilen eines Dokuments in mehrere Dateien vereinfacht. Unsere Funktion [Dokument teilen](https://docs.groupdocs.com/merger/nodejs-java/split-document/) ermöglicht eine effiziente Verwaltung und Extraktion bestimmter Abschnitte aus großen PDF Dokumenten, wodurch Ihre Dokumentenverwaltung effektiver wird. Diese Funktion unterstützt unter anderem das Aufteilen von Dokumenten nach Seitenbereich, Start-/Endseiten oder ungerade/geraden Seitenzahlen.
+        {{< landing/code title="So teilen Sie Dokumente mit Node.js in separate Dateien auf">}}
         ```javascript {style=abap}   
-        // {code_samples.sample_2.comment_1}
+        // Teilen Sie zunächst die Datei PDF mithilfe der API GroupDocs.Merger für Node.js auf
         const filePath = "input.pdf";
         const filePathOut = "output.pdf";
 
-        // {code_samples.sample_2.comment_2}
+        // Richten Sie die SplitOptions-Klasse mit dem Format für Ausgabedateien ein
         const splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // {code_samples.sample_2.comment_3}
+        // Initialisieren Sie Merger mit dem PDF Dokument, das aufgeteilt werden soll
         const merger = new Merger(filePath);
 
-        // {code_samples.sample_2.comment_4}
+        // Rufen Sie die Split-Methode mit dem SplitOptions-Objekt auf, um die resultierenden Dokumente abzurufen
         merger.split(splitOptions);
   
         ```

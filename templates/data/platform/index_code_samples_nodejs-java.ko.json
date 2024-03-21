@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "코드 샘플",
+    "description": "Node.js 환경에 맞게 조정된 GroupDocs.Merger 의 일반적인 사용 사례를 살펴보세요.이 예제는 Node.js 용 GroupDocs.Merger 을 사용하여 문서를 병합하는 효율성과 용이성을 보여줍니다.",
+    "sample_1": {
+      "title": "Node.js 파일을 사용하여 DOCX 개의 파일을 하나의 문서로 효율적으로 병합",
+      "content_1": "Node.js 용 GroupDocs.Merger 을 활용하여 여러 DOCX 개의 파일을 하나의 포괄적인 문서로 원활하게 병합할 수 있습니다.[Word 문서 병합](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) 기능을 활용하여 파일을 효율적으로 결합하여 문서 관리 및 생산성을 향상시키십시오.",
+      "content_2": "아래에서 문서 병합 프로세스를 안내하는 Node.js 코드 스니펫을 찾아보세요.",
+      "code_title": "Node.js 예제: DOCX 개의 파일 병합",
+      "comment_1": "초기 DOCX 파일 로드",
+      "comment_2": "병합을 위해 추가 DOCX 개 파일 추가",
+      "comment_3": "병합 프로세스를 실행하고 결합된 문서를 저장합니다."
+    },
+    "sample_2": {
+      "title": "Node.js 파일에서 PDF 문서를 개별 파일로 분할합니다.",
+      "content_1": "Node.js 용 GroupDocs.Merger 을 사용하면 문서를 여러 파일로 분할하는 작업이 간소화됩니다.[Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) 기능을 사용하면 대용량 PDF 문서에서 특정 섹션을 효율적으로 관리하고 추출하여 문서를 보다 효율적으로 처리할 수 있습니다.",
+      "content_2": "이 기능은 페이지 범위, 시작/끝 페이지 또는 홀수/짝수 페이지 번호 등의 기준에 따라 문서를 분할하는 기능을 지원합니다.",
+      "code_title": "Node.js 파일을 사용하여 문서를 별도의 파일로 분할하는 방법",
+      "comment_1": "먼저 Node.js API용 GroupDocs.Merger 을 사용하여 PDF 파일을 분할합니다.",
+      "comment_2": "출력 파일 형식을 사용하여 SplitOptions 클래스를 설정합니다.",
+      "comment_3": "분할할 PDF 문서와의 병합 초기화",
+      "comment_4": "splitOptions 객체와 함께 split 메서드를 호출하여 결과 문서를 가져옵니다."
+    }
+  }
+}

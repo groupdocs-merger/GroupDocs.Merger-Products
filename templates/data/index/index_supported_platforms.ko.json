@@ -32,10 +32,22 @@
       "feature_2": {
         "line_1": "윈도우, 리눅스, 맥 OS"
       },
-      "feature_3" : {
-        "line_1":"IntelliJ IDEA", 
-        "line_2":"Eclipse", 
-        "line_3":"NetBeans"
+      "feature_3": {
+        "line_1": "IntelliJ IDEA",
+        "line_2": "Eclipse",
+        "line_3": "NetBeans"
+      },
+      "feature_4": {
+        "line_1": "50개 이상의 파일 형식"
+      }
+    },
+    "nodejs-java": {
+      "description": "Node.js 용 GroupDocs.Merger",
+      "feature_1": {
+        "line_1": "Node.js 16+ 및 J2SE 8.0 (1.8) +"
+      },
+      "feature_3": {
+        "line_1": "기타 모든 텍스트 편집기"
       },
       "feature_4": {
         "line_1": "50개 이상의 파일 형식"

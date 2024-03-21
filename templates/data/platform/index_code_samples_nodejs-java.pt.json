@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Amostras de código",
+    "description": "Explore casos de uso típicos de GroupDocs.Merger personalizados para ambientes Node.js. Esses exemplos demonstram a eficiência e a facilidade de mesclar documentos usando o GroupDocs.Merger para Node.js.",
+    "sample_1": {
+      "title": "Mescle com eficiência DOCX arquivos em um documento usando o Node.js",
+      "content_1": "Aproveite o GroupDocs.Merger para Node.js para mesclar perfeitamente vários DOCX arquivos em um único documento abrangente. Utilize nosso recurso [Mesclar Word documentos](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) para combinar arquivos de forma eficiente, aprimorando o gerenciamento e a produtividade de documentos.",
+      "content_2": "Abaixo, encontre um trecho de código do Node.js para guiá-lo pelo processo de mesclagem de documentos:",
+      "code_title": "Exemplo de Node.js: mesclando arquivos DOCX",
+      "comment_1": "Carregue o arquivo DOCX inicial",
+      "comment_2": "Anexar DOCX arquivos adicionais para mesclagem",
+      "comment_3": "Execute o processo de mesclagem e salve o documento combinado"
+    },
+    "sample_2": {
+      "title": "Divida um documento PDF em arquivos individuais em Node.js",
+      "content_1": "Com GroupDocs.Merger para Node.js, a divisão de um documento em vários arquivos é simplificada. Nosso recurso [Documento dividido](https://docs.groupdocs.com/merger/nodejs-java/split-document/) permite o gerenciamento e a extração eficientes de seções específicas de PDF documentos grandes, tornando o manuseio de documentos mais eficaz.",
+      "content_2": "Esse recurso suporta a divisão de documentos por intervalo de páginas, páginas iniciais/finais ou números de página ímpares ou pares, entre outros critérios.",
+      "code_title": "Como dividir documentos em arquivos separados com o Node.js",
+      "comment_1": "Comece dividindo o arquivo PDF usando GroupDocs.Merger para a API Node.js",
+      "comment_2": "Configurar a classe SplitOptions com o formato para arquivos de saída",
+      "comment_3": "Inicialize a fusão com o documento PDF a ser dividido",
+      "comment_4": "Invoque o método split com o objeto SplitOptions para obter os documentos resultantes"
+    }
+  }
+}

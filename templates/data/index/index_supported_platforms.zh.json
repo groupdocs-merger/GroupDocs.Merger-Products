@@ -32,10 +32,22 @@
       "feature_2": {
         "line_1": "Windows、Linux、Mac 操作系统"
       },
-      "feature_3" : {
-        "line_1":"IntelliJ IDEA", 
-        "line_2":"Eclipse", 
-        "line_3":"NetBeans"
+      "feature_3": {
+        "line_1": "IntelliJ IDEA",
+        "line_2": "Eclipse",
+        "line_3": "NetBeans"
+      },
+      "feature_4": {
+        "line_1": "50 多种文件格式"
+      }
+    },
+    "nodejs-java": {
+      "description": "GroupDocs.Merger 用于 Node.js",
+      "feature_1": {
+        "line_1": "Node.js 16+ 和 J2SE 8.0 (1.8) +"
+      },
+      "feature_3": {
+        "line_1": "任何其他文本编辑器"
       },
       "feature_4": {
         "line_1": "50 多种文件格式"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date: 2024-03-21T12:33:24
+date: 2024-03-21T16:43:05
 draft: false
 
 product: "Merger"
@@ -73,23 +73,23 @@ supported_platforms:
     
     # supported_platforms loop
     - title: "Node.js"
-      description: "{supported_platforms.nodejs-java.description}"
+      description: "GroupDocs.Merger untuk Node.js"
       color: "green"
       tag: "nodejs-java"
       link: "/merger/nodejs-java/"
       features_link: "https://docs.groupdocs.com/merger/nodejs-java/system-requirements/"
       features:
         # features loop
-        - content: "{supported_platforms.nodejs-java.feature_1.line_1}"
+        - content: "Node.js 16+ dan J2SE 8.0 (1.8) +"
           rows: "4"
         # features loop
         - content: Windows, Linux, Mac OS
           rows: "1"
         # features loop
-        - content:  "Atom <br> Visual Studio Code <br> {supported_platforms.nodejs-java.feature_3.line_1}"
+        - content:  "Atom <br> Visual Studio Code <br> Editor teks lainnya"
           rows: "3"
          # features loop
-        - content:  "{supported_platforms.nodejs-java.feature_4.line_1}"
+        - content:  "50+ format file"
           rows: "1"
  
 

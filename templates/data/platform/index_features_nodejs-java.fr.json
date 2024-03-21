@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Principales fonctionnalités de GroupDocs.Merger pour Node.js",
+    "description": "Fusionnez, fractionnez et manipulez efficacement des documents aux formats PDF et Office à l'aide de GroupDocs.Merger dans un environnement Node.js.",
+    "feature_1": {
+      "title": "Combinaison fluide de documents",
+      "content": "Fusionnez facilement plusieurs documents en un seul en combinant des pages ou des plages spécifiques provenant de différents fichiers, à l'aide du GroupDocs.Merger pour Node.js."
+    },
+    "feature_2": {
+      "title": "Capacités de fractionnement de documents",
+      "content": "Divisez un document unique en plusieurs fichiers plus petits pour une meilleure gestion et une meilleure organisation, en utilisant la fonction de fractionnement complète de GroupDocs.Merger pour Node.js."
+    },
+    "feature_3": {
+      "title": "Déplacement efficace des pages",
+      "content": "Repositionnez les pages d'un document en fonction de vos besoins à l'aide de la fonction intuitive MovePage de l'environnement Node.js."
+    },
+    "feature_4": {
+      "title": "Options de suppression de page",
+      "content": "Supprimez facilement les pages inutiles ou les numéros de page spécifiques grâce à la fonction RemovePages de GroupDocs.Merger adaptée à Node.js."
+    },
+    "feature_5": {
+      "title": "Fonctionnalité de rotation des pages",
+      "content": "Faites pivoter les pages d'un document dans l'orientation souhaitée (90, 180 ou 270 degrés) à l'aide de la simple opération RotatePages."
+    },
+    "feature_6": {
+      "title": "Fonctionnalité d'échange de pages",
+      "content": "Modifiez l'ordre des pages de votre document en échangeant leurs positions, créant ainsi un document réorganisé grâce à la fonction SwapPages."
+    },
+    "feature_7": {
+      "title": "Extraction sélective de pages",
+      "content": "Créez un nouveau document à partir de pages ou de plages de pages sélectionnées, en extrayant uniquement le contenu nécessaire avec GroupDocs.Merger pour Node.js."
+    },
+    "feature_8": {
+      "title": "Outil de modification de l'orientation",
+      "content": "Modifiez l'orientation de certaines pages ou de toutes les pages, du mode portrait au mode paysage, ou vice versa, en utilisant la fonction ChangeOrientation de vos projets Node.js."
+    },
+    "feature_9": {
+      "title": "Aperçus des pages de documents",
+      "content": "Générez des aperçus d'images des pages de documents afin de mieux comprendre leur contenu et leur mise en page, à l'aide de la fonctionnalité PreviewPages de Node.js."
+    }
+  }
+}

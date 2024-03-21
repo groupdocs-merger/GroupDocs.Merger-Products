@@ -32,13 +32,25 @@
       "feature_2": {
         "line_1": "วินโดวส์, ลินุกซ์, แมคโอเอส"
       },
-      "feature_3" : {
-        "line_1":"IntelliJ IDEA", 
-        "line_2":"Eclipse", 
-        "line_3":"NetBeans"
+      "feature_3": {
+        "line_1": "IntelliJ IDEA",
+        "line_2": "Eclipse",
+        "line_3": "NetBeans"
       },
       "feature_4": {
         "line_1": "รูปแบบไฟล์มากกว่า 50 รูปแบบ"
+      }
+    },
+    "nodejs-java": {
+      "description": "GroupDocs.Merger สำหรับ Node.js",
+      "feature_1": {
+        "line_1": "Node.js 16+ และ J2SE 8.0 (1.8) +"
+      },
+      "feature_3": {
+        "line_1": "โปรแกรมแก้ไขข้อความอื่น ๆ"
+      },
+      "feature_4": {
+        "line_1": "50+ รูปแบบไฟล์"
       }
     }
   }

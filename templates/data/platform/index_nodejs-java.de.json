@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Node.js API zum Zusammenführen von Dokumenten | merge PDF Word Excel",
+    "description": "API zum Zusammenführen von Dokumenten für Node.js. Seiten der Formate PDF, Microsoft Word, Excel, Präsentationen, Visio, XPS und EPUB zusammenführen, teilen, austauschen, neu anordnen und löschen."
+  },
+  "header": {
+    "title_1": "Dokumente zusammenführen",
+    "title_2": "über die Node.js API",
+    "description": "Flexible Merger-API zum einfachen Kombinieren, Teilen oder Ändern von PDF und Office-Dokumenten",
+    "words": {
+      "for": "zum"
+    }
+  },
+  "actions": {
+    "main": "Kostenloser Maven-Download",
+    "alt": "Lizenzierung",
+    "title": "Bereit loszulegen?",
+    "description": "Testen Sie GroupDocs.Merger Funktionen kostenlos oder fordern Sie eine Lizenz an"
+  },
+  "release": {
+    "title": "Version {0} veröffentlicht",
+    "notes": "Schau dir an, was es Neues gibt",
+    "downloads": "herunterladbare"
+  }
+}

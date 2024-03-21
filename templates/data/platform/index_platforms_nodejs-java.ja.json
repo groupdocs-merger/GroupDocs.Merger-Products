@@ -1,0 +1,6 @@
+{
+  "platforms": {
+    "title": "プラットフォーム独立性",
+    "description": "GroupDocs.Merger for Node.js は、以下のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Fusionnez PDF fichiers dans Node.js via Java",
+    "more": "Plus d'exemples",
+    "notes": "Découvrez les nouveautés",
+    "comment_1": "Chargez le fichier source PDF",
+    "comment_2": " Ajouter un autre fichier PDF à fusionner",
+    "comment_3": "Fusionner PDF fichiers et enregistrer le résultat"
+  }
+}
