@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date: 2023-12-13T06:39:57
+date: 2024-03-21T10:20:01
 draft: false
 
 product: "Merger"
@@ -69,6 +69,27 @@ supported_platforms:
           rows: "3"
          # features loop
         - content:  "Более 50 форматов файлов"
+          rows: "1"
+    
+    # supported_platforms loop
+    - title: "Node.js"
+      description: "{supported_platforms.nodejs-java.description}"
+      color: "green"
+      tag: "nodejs-java"
+      link: "/merger/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/merger/nodejs-java/system-requirements/"
+      features:
+        # features loop
+        - content: "{supported_platforms.nodejs-java.feature_1.line_1}"
+          rows: "4"
+        # features loop
+        - content: Windows, Linux, Mac OS
+          rows: "1"
+        # features loop
+        - content:  "Atom <br> Visual Studio Code <br> {supported_platforms.nodejs-java.feature_3.line_1}"
+          rows: "3"
+         # features loop
+        - content:  "{supported_platforms.nodejs-java.feature_4.line_1}"
           rows: "1"
  
 
@@ -140,6 +161,22 @@ code_samples:
             
             // Загрузите исходный файл DOCX
             Merger merger = new Merger("c:\sample1.docx");
+              
+            // Добавьте еще один файл DOCX для объединения
+            merger.join("c:\sample2.docx", joinOptions);
+            
+            // Объедините файлы DOCX и сохраните результат
+            merger.save("c:\merged.docx");
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}   
+            //  Укажите желаемые номера страниц или диапазон страниц для присоединения.
+            const joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+            
+            // Загрузите исходный файл DOCX
+            const merger = new Merger("c:\sample1.docx");
               
             // Добавьте еще один файл DOCX для объединения
             merger.join("c:\sample2.docx", joinOptions);
@@ -244,9 +281,9 @@ actions:
       link: "/merger/java/"
       color: "red"
         #  loop
-    # - title: "Node.js"
-    #   link: "/merger/node/"
-    #   color: "green"
+    - title: "Node.js"
+      link: "/merger/nodejs-java/"
+      color: "green"
 
 
 ############################# Faq ############################
@@ -302,7 +339,7 @@ cloud_links:
 
 app_links:
   enable: true
-  title: "GroupDocs.Merger приложения NoCode"
+  title: "GroupDocs.Merger приложений NoCode"
   description: "Онлайн-приложение, позволяющее объединять и разделять более 170 популярных форматов файлов в браузере."
 
   items:

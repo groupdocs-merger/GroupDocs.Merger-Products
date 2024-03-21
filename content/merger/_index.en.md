@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date: 2023-12-13T06:39:57
+date: 2024-03-21T10:20:01
 draft: false
 
 product: "Merger"
@@ -44,7 +44,7 @@ supported_platforms:
         - content: "Windows, Linux, Mac OS"
           rows: "1"
         # features loop
-        - content: "Microsoft Visual Studio  <br>  Xamarin (Android, iOS, Mac)   <br>  MonoDevelop"
+        - content: "Microsoft Visual Studio  <br>  Xamarin (Android, iOS, Mac)  <br>  MonoDevelop"
           rows: "3"
          # features loop
         - content: "60+ file formats"
@@ -66,6 +66,27 @@ supported_platforms:
           rows: "1"
         # features loop
         - content:  "IntelliJ IDEA  <br>  Eclipse  <br>  NetBeans"
+          rows: "3"
+         # features loop
+        - content:  "50+ file formats"
+          rows: "1"
+    
+    # supported_platforms loop
+    - title: "Node.js"
+      description: "GroupDocs.Merger for Node.js"
+      color: "green"
+      tag: "nodejs-java"
+      link: "/merger/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/merger/nodejs-java/system-requirements/"
+      features:
+        # features loop
+        - content: "Node.js 16+ and J2SE 8.0 (1.8)+"
+          rows: "4"
+        # features loop
+        - content: Windows, Linux, Mac OS
+          rows: "1"
+        # features loop
+        - content:  "Atom <br> Visual Studio Code <br> Any other text editor"
           rows: "3"
          # features loop
         - content:  "50+ file formats"
@@ -140,6 +161,22 @@ code_samples:
             
             // Load the source DOCX file
             Merger merger = new Merger("c:\sample1.docx");
+              
+            // Add another DOCX file to merge
+            merger.join("c:\sample2.docx", joinOptions);
+            
+            // Merge DOCX files and save result
+            merger.save("c:\merged.docx");
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}   
+            //  Specify desired page numbers or page range to join
+            const joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+            
+            // Load the source DOCX file
+            const merger = new Merger("c:\sample1.docx");
               
             // Add another DOCX file to merge
             merger.join("c:\sample2.docx", joinOptions);
@@ -244,9 +281,9 @@ actions:
       link: "/merger/java/"
       color: "red"
         #  loop
-    # - title: "Node.js"
-    #   link: "/merger/node/"
-    #   color: "green"
+    - title: "Node.js"
+      link: "/merger/nodejs-java/"
+      color: "green"
 
 
 ############################# Faq ############################

@@ -1,13 +1,26 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-06-29T12:38:08
+date: 2024-03-21T10:00:11
 draft: false
 
 product: "Merger"
 product_tag: "merger"
 platform: "Java"
 platform_tag: "java"
+
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Java Document Merging API | Word Excel PDF XPS EPUB li hev bikin û jêbirin"

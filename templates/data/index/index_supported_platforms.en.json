@@ -21,6 +21,14 @@
         "line_3":"NetBeans"
       },
       "feature_4" : {"line_1":"50+ file formats"}
+      },
+    "nodejs-java":{
+      "description": "GroupDocs.Merger for Node.js",
+      "feature_1" : {"line_1":"Node.js 16+ and J2SE 8.0 (1.8)+"},
+      "feature_3" : {
+        "line_1":"Any other text editor"
+      },
+      "feature_4" : {"line_1":"50+ file formats"}
       }
 
   }

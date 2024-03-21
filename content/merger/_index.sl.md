@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date: 2023-12-13T06:39:57
+date: 2024-03-21T10:20:01
 draft: false
 
 product: "Merger"
@@ -69,6 +69,27 @@ supported_platforms:
           rows: "3"
          # features loop
         - content:  "50+ formatov datotek"
+          rows: "1"
+    
+    # supported_platforms loop
+    - title: "Node.js"
+      description: "{supported_platforms.nodejs-java.description}"
+      color: "green"
+      tag: "nodejs-java"
+      link: "/merger/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/merger/nodejs-java/system-requirements/"
+      features:
+        # features loop
+        - content: "{supported_platforms.nodejs-java.feature_1.line_1}"
+          rows: "4"
+        # features loop
+        - content: Windows, Linux, Mac OS
+          rows: "1"
+        # features loop
+        - content:  "Atom <br> Visual Studio Code <br> {supported_platforms.nodejs-java.feature_3.line_1}"
+          rows: "3"
+         # features loop
+        - content:  "{supported_platforms.nodejs-java.feature_4.line_1}"
           rows: "1"
  
 
@@ -140,6 +161,22 @@ code_samples:
             
             // Naložite izvorno datoteko DOCX
             Merger merger = new Merger("c:\sample1.docx");
+              
+            // Dodajte še eno datoteko DOCX za združitev
+            merger.join("c:\sample2.docx", joinOptions);
+            
+            // Spojite datoteke DOCX in shranite rezultat
+            merger.save("c:\merged.docx");
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}   
+            //  Določite želene številke strani ali obseg strani, ki jih želite pridružiti
+            const joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+            
+            // Naložite izvorno datoteko DOCX
+            const merger = new Merger("c:\sample1.docx");
               
             // Dodajte še eno datoteko DOCX za združitev
             merger.join("c:\sample2.docx", joinOptions);
@@ -244,9 +281,9 @@ actions:
       link: "/merger/java/"
       color: "red"
         #  loop
-    # - title: "Node.js"
-    #   link: "/merger/node/"
-    #   color: "green"
+    - title: "Node.js"
+      link: "/merger/nodejs-java/"
+      color: "green"
 
 
 ############################# Faq ############################

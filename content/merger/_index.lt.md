@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date: 2023-12-13T06:39:57
+date: 2024-03-21T10:20:01
 draft: false
 
 product: "Merger"
@@ -44,7 +44,7 @@ supported_platforms:
         - content: "Windows, Linux, Mac OS"
           rows: "1"
         # features loop
-        - content: "Microsoft Visual Studio  <br>  „Xamarin“ („Android“, „iOS“, „Mac“)  <br>  MonoDevelop"
+        - content: "Microsoft Visual Studio  <br>  Xamarin (Android, iOS, Mac)  <br>  MonoDevelop"
           rows: "3"
          # features loop
         - content: "60+ failų formatų"
@@ -69,6 +69,27 @@ supported_platforms:
           rows: "3"
          # features loop
         - content:  "50 ir daugiau failų formatų"
+          rows: "1"
+    
+    # supported_platforms loop
+    - title: "Node.js"
+      description: "{supported_platforms.nodejs-java.description}"
+      color: "green"
+      tag: "nodejs-java"
+      link: "/merger/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/merger/nodejs-java/system-requirements/"
+      features:
+        # features loop
+        - content: "{supported_platforms.nodejs-java.feature_1.line_1}"
+          rows: "4"
+        # features loop
+        - content: Windows, Linux, Mac OS
+          rows: "1"
+        # features loop
+        - content:  "Atom <br> Visual Studio Code <br> {supported_platforms.nodejs-java.feature_3.line_1}"
+          rows: "3"
+         # features loop
+        - content:  "{supported_platforms.nodejs-java.feature_4.line_1}"
           rows: "1"
  
 
@@ -140,6 +161,22 @@ code_samples:
             
             // Įkelkite šaltinio DOCX failą
             Merger merger = new Merger("c:\sample1.docx");
+              
+            // Norėdami sujungti, pridėkite kitą DOCX failą
+            merger.join("c:\sample2.docx", joinOptions);
+            
+            // Sujunkite DOCX failus ir išsaugokite rezultatą
+            merger.save("c:\merged.docx");
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}   
+            //  Nurodykite norimus puslapių numerius arba puslapių diapazoną, kurį norite sujungti
+            const joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+            
+            // Įkelkite šaltinio DOCX failą
+            const merger = new Merger("c:\sample1.docx");
               
             // Norėdami sujungti, pridėkite kitą DOCX failą
             merger.join("c:\sample2.docx", joinOptions);
@@ -244,9 +281,9 @@ actions:
       link: "/merger/java/"
       color: "red"
         #  loop
-    # - title: "Node.js"
-    #   link: "/merger/node/"
-    #   color: "green"
+    - title: "Node.js"
+      link: "/merger/nodejs-java/"
+      color: "green"
 
 
 ############################# Faq ############################
