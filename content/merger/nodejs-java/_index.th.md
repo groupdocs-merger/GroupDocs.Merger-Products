@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T16:43:16
+date: 2024-03-22T12:12:08
 draft: false
 
 product: "Merger"
@@ -33,7 +33,7 @@ words:
   for: "สำหรับ"
 
 actions:
-  main: "ดาวน์โหลด Maven ฟรี"
+  main: "ดาวน์โหลด NPM ฟรี"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
   alt: "การออกใบอนุญาต"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/java"

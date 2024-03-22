@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T16:43:15
+date: 2024-03-22T12:12:08
 draft: false
 
 product: "Merger"
@@ -33,7 +33,7 @@ words:
   for: "per"
 
 actions:
-  main: "Download gratuito di Maven"
+  main: "Download gratuito di NPM"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
   alt: "Licenze"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/java"

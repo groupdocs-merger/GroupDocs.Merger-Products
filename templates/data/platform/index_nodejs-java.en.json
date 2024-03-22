@@ -12,7 +12,7 @@
     }
   },
   "actions": {
-    "main": "Free Maven Download",
+    "main": "Free NPM Download",
     "alt": "Licensing",
     "title": "Ready to get started?",
     "description": "Try GroupDocs.Merger features for free or request a license"

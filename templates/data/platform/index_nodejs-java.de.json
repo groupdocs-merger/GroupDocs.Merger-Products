@@ -12,7 +12,7 @@
     }
   },
   "actions": {
-    "main": "Kostenloser Maven-Download",
+    "main": "Kostenloser NPM-Download",
     "alt": "Lizenzierung",
     "title": "Bereit loszulegen?",
     "description": "Testen Sie GroupDocs.Merger Funktionen kostenlos oder fordern Sie eine Lizenz an"

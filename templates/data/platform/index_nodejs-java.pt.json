@@ -12,7 +12,7 @@
     }
   },
   "actions": {
-    "main": "Download grátis do Maven",
+    "main": "Download grátis do NPM",
     "alt": "Licenciamento",
     "title": "Pronto para começar?",
     "description": "Experimente GroupDocs.Merger recursos gratuitamente ou solicite uma licença"

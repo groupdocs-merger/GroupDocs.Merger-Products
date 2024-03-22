@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T16:43:16
+date: 2024-03-22T12:12:08
 draft: false
 
 product: "Merger"
@@ -33,7 +33,7 @@ words:
   for: "...에 대한"
 
 actions:
-  main: "무료 메이븐 다운로드"
+  main: "무료 NPM 다운로드"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
   alt: "라이선싱"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/java"

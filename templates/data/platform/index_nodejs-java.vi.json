@@ -12,7 +12,7 @@
     }
   },
   "actions": {
-    "main": "Tải xuống miễn phí Maven",
+    "main": "Tải xuống miễn phí NPM",
     "alt": "Cấp phép",
     "title": "Sẵn sàng để bắt đầu?",
     "description": "Dùng thử GroupDocs.Merger tính năng miễn phí hoặc yêu cầu giấy phép"

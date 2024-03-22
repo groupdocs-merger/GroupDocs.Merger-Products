@@ -12,7 +12,7 @@
     }
   },
   "actions": {
-    "main": "Mavenの無料ダウンロード",
+    "main": "NPMの無料ダウンロード",
     "alt": "ライセンス",
     "title": "始める準備はできましたか?",
     "description": "GroupDocs.Merger の機能を無料で試すか、ライセンスをリクエストしてください"

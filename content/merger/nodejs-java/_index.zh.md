@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-21T16:43:16
+date: 2024-03-22T12:12:09
 draft: false
 
 product: "Merger"
@@ -33,7 +33,7 @@ words:
   for: "为了"
 
 actions:
-  main: "免费下载 Maven"
+  main: "免费下载 NPM"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
   alt: "许可"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/java"

@@ -12,7 +12,7 @@
     }
   },
   "actions": {
-    "main": "무료 메이븐 다운로드",
+    "main": "무료 NPM 다운로드",
     "alt": "라이선싱",
     "title": "시작할 준비가 되셨나요?",
     "description": "GroupDocs.Merger 기능을 무료로 체험하거나 라이선스를 요청하세요"
