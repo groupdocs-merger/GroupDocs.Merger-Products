@@ -32,21 +32,21 @@
             "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/",
             "alt_link": "https://purchase.groupdocs.com/pricing/merger/java"
         },
-        "nodejs-java": {
-            "name": "Node.js via Java",
-            "fullName": "GroupDocs.Merger for Node.js",
-            "code": "nodejs-java",
-            "progLang": "JavaScript",
-            "srcFileExt": ".js",
-            "syntax": "javascript",
-            "devEnv": "Intellij IDEA, Eclipse Che, Visual Studio Code, WebStorm, etc.",
-            "runtime": "Node.js",
-            "repoName": "NPM",
-            "repoUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.merger",
-            "url": "https://products.groupdocs.com/merger/nodejs-java/",
-            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
-            "main_link": "https://releases.groupdocs.com/merger/nodejs-java/",
-            "alt_link": "https://purchase.groupdocs.com/pricing/merger/java"
-        }
+      "nodejs-java": {
+        "name": "Node.js via Java",
+        "fullName": "GroupDocs.Merger for Node.js",
+        "code": "nodejs-java",
+        "progLang": "JavaScript",
+        "srcFileExt": ".js",
+        "syntax": "javascript",
+        "devEnv": "Intellij IDEA, Eclipse Che, Visual Studio Code, WebStorm, etc.",
+        "runtime": "Node.js",
+        "repoName": "NPM",
+        "repoUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.merger",
+        "url": "https://products.groupdocs.com/merger/nodejs-java/",
+        "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-merger-java.png",
+        "main_link": "https://releases.groupdocs.com/merger/nodejs-java/",
+        "alt_link": "https://purchase.groupdocs.com/pricing/merger/nodejs-java"
+      }
     }
 }
