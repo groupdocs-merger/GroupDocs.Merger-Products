@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date: 2024-03-22T13:33:44
+date: 2024-09-20T12:00:45
 draft: false
 
 product: "Merger"
@@ -91,8 +91,28 @@ supported_platforms:
          # features loop
         - content:  "50+ format file"
           rows: "1"
+    
+    # supported_platforms loop
+    - title: "Python"
+      description: "GroupDocs.Merger untuk Python"
+      color: "yellow"
+      tag: "python-net"
+      link: "/merger/python-net/"
+      features_link: "https://docs.groupdocs.com/merger/python-net/system-requirements/"
+      features:
+        # features loop
+        - content: "Python 3.9+  <br>  dan .Net 6+"
+          rows: "4"
+        # features loop
+        - content: Windows, Linux, Mac OS
+          rows: "1"
+        # features loop
+        - content:  "IDLE <br> PyCharm <br> Visual Studio Code"
+          rows: "3"
+         # features loop
+        - content:  "50+ format file"
+          rows: "1"
  
-
 
 
 ############################# Features ############################
@@ -183,6 +203,26 @@ code_samples:
             
             // Gabungkan file DOCX dan simpan hasilnya
             merger.save("c:\merged.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.merger as gm
+
+            def run():
+
+                #  Tentukan nomor halaman atau rentang halaman yang diinginkan untuk digabungkan
+                joinOptions = gm.domain.options.JoinOptions(1, 4, gm.RangeMode.OddPages)
+
+                # Muat file DOCX sumber
+                with gm.Merger("c:\sample1.docx") as merger:
+
+                    # Tambahkan file DOCX lain untuk digabungkan
+                    merger.join("c:\sample2.docx", joinOptions)
+            
+                    # Gabungkan file DOCX dan simpan hasilnya
+                    merger.save("c:\merged.docx")
             ```
 
 

@@ -2,6 +2,6 @@ inherits: languages.yml
 
 dimensions: 
 - alias: product
-  values: [net, java, nodejs-java]
+  values: [net, java, nodejs-java, python-net]
 
 dictionaries: [ "..\\data\\products.json" ]

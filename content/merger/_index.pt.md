@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date: 2024-03-22T13:33:45
+date: 2024-09-20T12:00:45
 draft: false
 
 product: "Merger"
@@ -91,8 +91,28 @@ supported_platforms:
          # features loop
         - content:  "Mais de 50 formatos de arquivo"
           rows: "1"
+    
+    # supported_platforms loop
+    - title: "Python"
+      description: "GroupDocs.Merger para Python"
+      color: "yellow"
+      tag: "python-net"
+      link: "/merger/python-net/"
+      features_link: "https://docs.groupdocs.com/merger/python-net/system-requirements/"
+      features:
+        # features loop
+        - content: "Python 3.9+  <br>  e .Net 6+"
+          rows: "4"
+        # features loop
+        - content: Windows, Linux, Mac OS
+          rows: "1"
+        # features loop
+        - content:  "IDLE <br> PyCharm <br> Visual Studio Code"
+          rows: "3"
+         # features loop
+        - content:  "Mais de 50 formatos de arquivo"
+          rows: "1"
  
-
 
 
 ############################# Features ############################
@@ -183,6 +203,26 @@ code_samples:
             
             // Mesclar arquivos DOCX e salvar o resultado
             merger.save("c:\merged.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.merger as gm
+
+            def run():
+
+                #  Especifique os números de páginas desejados ou o intervalo de páginas para unir
+                joinOptions = gm.domain.options.JoinOptions(1, 4, gm.RangeMode.OddPages)
+
+                # Carregue o arquivo DOCX de origem
+                with gm.Merger("c:\sample1.docx") as merger:
+
+                    # Adicione outro arquivo DOCX para mesclar
+                    merger.join("c:\sample2.docx", joinOptions)
+            
+                    # Mesclar arquivos DOCX e salvar o resultado
+                    merger.save("c:\merged.docx")
             ```
 
 

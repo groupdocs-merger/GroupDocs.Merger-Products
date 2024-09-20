@@ -52,6 +52,18 @@
       "feature_4": {
         "line_1": "50+ format file"
       }
+    },
+    "python-net": {
+      "description": "GroupDocs.Merger untuk Python",
+      "feature_1": {
+        "line_1": "Python 3.9+  <br>  dan .Net 6+"
+      },
+      "feature_3": {
+        "line_1": "Editor teks lainnya"
+      },
+      "feature_4": {
+        "line_1": "50+ format file"
+      }
     }
   }
 }

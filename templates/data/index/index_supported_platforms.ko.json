@@ -52,6 +52,18 @@
       "feature_4": {
         "line_1": "50개 이상의 파일 형식"
       }
+    },
+    "python-net": {
+      "description": "GroupDocs.Merger 용 Python",
+      "feature_1": {
+        "line_1": "Python 3.9+  <br>  및 .Net 6+"
+      },
+      "feature_3": {
+        "line_1": "기타 모든 텍스트 편집기"
+      },
+      "feature_4": {
+        "line_1": "50개 이상의 파일 형식"
+      }
     }
   }
 }

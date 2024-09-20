@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date: 2024-03-22T13:33:45
+date: 2024-09-20T12:00:45
 draft: false
 
 product: "Merger"
@@ -91,8 +91,28 @@ supported_platforms:
          # features loop
         - content:  "50+ รูปแบบไฟล์"
           rows: "1"
+    
+    # supported_platforms loop
+    - title: "Python"
+      description: "GroupDocs.Merger สำหรับ Python"
+      color: "yellow"
+      tag: "python-net"
+      link: "/merger/python-net/"
+      features_link: "https://docs.groupdocs.com/merger/python-net/system-requirements/"
+      features:
+        # features loop
+        - content: "Python 3.9+  <br>  และ .Net 6+"
+          rows: "4"
+        # features loop
+        - content: Windows, Linux, Mac OS
+          rows: "1"
+        # features loop
+        - content:  "IDLE <br> PyCharm <br> Visual Studio Code"
+          rows: "3"
+         # features loop
+        - content:  "50+ รูปแบบไฟล์"
+          rows: "1"
  
-
 
 
 ############################# Features ############################
@@ -183,6 +203,26 @@ code_samples:
             
             // รวมไฟล์ DOCX และบันทึกผลลัพธ์
             merger.save("c:\merged.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.merger as gm
+
+            def run():
+
+                #  ระบุหมายเลขหน้าหรือช่วงหน้าที่ต้องการรวม
+                joinOptions = gm.domain.options.JoinOptions(1, 4, gm.RangeMode.OddPages)
+
+                # โหลดไฟล์ DOCX ต้นฉบับ
+                with gm.Merger("c:\sample1.docx") as merger:
+
+                    # เพิ่มไฟล์ DOCX อื่นเพื่อรวม
+                    merger.join("c:\sample2.docx", joinOptions)
+            
+                    # รวมไฟล์ DOCX และบันทึกผลลัพธ์
+                    merger.save("c:\merged.docx")
             ```
 
 

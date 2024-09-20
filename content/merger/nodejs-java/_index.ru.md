@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-04-02T13:58:39
+date: 2024-09-20T11:31:03
 draft: false
 
 product: "Merger"
@@ -20,7 +20,10 @@ supported_platforms:
       tag: "java"
     # supported_platforms loop
     - title: "Node.js"
-      tag: "nodejs-java"
+      tag: "nodejs-java" 
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
 
 ############################# Head ############################
 head_title: "API слияния документов Node.js | объединение PDF Word Excel"

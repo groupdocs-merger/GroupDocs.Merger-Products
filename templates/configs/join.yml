@@ -1,4 +1,4 @@
-inherits: products.yml
+inherits: productsformats.yml
 
 dimensions: 
 - alias: ext

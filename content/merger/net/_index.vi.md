@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-22T13:33:27
+date: 2024-09-20T11:31:04
 draft: false
 
 product: "Merger"
@@ -20,7 +20,10 @@ supported_platforms:
       tag: "java"
     # supported_platforms loop
     - title: "Node.js"
-      tag: "nodejs-java"
+      tag: "nodejs-java" 
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
 
 ############################# Head ############################
 head_title: "API Hợp nhất Tài liệu C# .NET | Kết hợp & Tách PDF Word Excel EPUB"

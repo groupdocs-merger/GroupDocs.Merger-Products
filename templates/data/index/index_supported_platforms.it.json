@@ -52,6 +52,18 @@
       "feature_4": {
         "line_1": "Oltre 50 formati di file"
       }
+    },
+    "python-net": {
+      "description": "GroupDocs.Merger per Python",
+      "feature_1": {
+        "line_1": "Python 3.9+  <br>  e .Net 6+"
+      },
+      "feature_3": {
+        "line_1": "Qualsiasi altro editor di testo"
+      },
+      "feature_4": {
+        "line_1": "Oltre 50 formati di file"
+      }
     }
   }
 }

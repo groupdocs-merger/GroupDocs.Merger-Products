@@ -93,8 +93,28 @@ supported_platforms:
          # features loop
         - content:  "<% "{supported_platforms.nodejs-java.feature_4.line_1}" %>"
           rows: "1"
+    
+    # supported_platforms loop
+    - title: "Python"
+      description: "<% "{supported_platforms.python-net.description}" %>"
+      color: "yellow"
+      tag: "python-net"
+      link: "/merger/python-net/"
+      features_link: "https://docs.groupdocs.com/merger/python-net/system-requirements/"
+      features:
+        # features loop
+        - content: "<% "{supported_platforms.python-net.feature_1.line_1}" %>"
+          rows: "4"
+        # features loop
+        - content: Windows, Linux, Mac OS
+          rows: "1"
+        # features loop
+        - content:  "IDLE <br> PyCharm <br> Visual Studio Code"
+          rows: "3"
+         # features loop
+        - content:  "<% "{supported_platforms.python-net.feature_4.line_1}" %>"
+          rows: "1"
  
-
 
 
 ############################# Features ############################
@@ -185,6 +205,26 @@ code_samples:
             
             // <% "{code_samples.sample_1.java.comment_4}" %>
             merger.save("c:\merged.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.merger as gm
+
+            def run():
+
+                #  <% "{code_samples.sample_1.csharp.comment_1}" %>
+                joinOptions = gm.domain.options.JoinOptions(1, 4, gm.RangeMode.OddPages)
+
+                # <% "{code_samples.sample_1.csharp.comment_2}" %>
+                with gm.Merger("c:\sample1.docx") as merger:
+
+                    # <% "{code_samples.sample_1.csharp.comment_3}" %>
+                    merger.join("c:\sample2.docx", joinOptions)
+            
+                    # <% "{code_samples.sample_1.csharp.comment_4}" %>
+                    merger.save("c:\merged.docx")
             ```
 
 

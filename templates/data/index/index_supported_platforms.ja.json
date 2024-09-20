@@ -52,6 +52,18 @@
       "feature_4": {
         "line_1": "50 種類以上のファイルフォーマット"
       }
+    },
+    "python-net": {
+      "description": "GroupDocs.Merger の Python",
+      "feature_1": {
+        "line_1": "Python 3.9+  <br>  と .Net 6+"
+      },
+      "feature_3": {
+        "line_1": "その他のテキストエディター"
+      },
+      "feature_4": {
+        "line_1": "50 種類以上のファイルフォーマット"
+      }
     }
   }
 }

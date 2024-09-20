@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date: 2024-03-22T13:33:44
+date: 2024-09-20T12:00:45
 draft: false
 
 product: "Merger"
@@ -91,8 +91,28 @@ supported_platforms:
          # features loop
         - content:  "Über 50 Dateiformate"
           rows: "1"
+    
+    # supported_platforms loop
+    - title: "Python"
+      description: "GroupDocs.Merger für Python"
+      color: "yellow"
+      tag: "python-net"
+      link: "/merger/python-net/"
+      features_link: "https://docs.groupdocs.com/merger/python-net/system-requirements/"
+      features:
+        # features loop
+        - content: "Python 3.9+  <br>  und .Net 6+"
+          rows: "4"
+        # features loop
+        - content: Windows, Linux, Mac OS
+          rows: "1"
+        # features loop
+        - content:  "IDLE <br> PyCharm <br> Visual Studio Code"
+          rows: "3"
+         # features loop
+        - content:  "Über 50 Dateiformate"
+          rows: "1"
  
-
 
 
 ############################# Features ############################
@@ -183,6 +203,26 @@ code_samples:
             
             // DOCX-Dateien zusammenführen und Ergebnis speichern
             merger.save("c:\merged.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.merger as gm
+
+            def run():
+
+                #  Geben Sie die gewünschten Seitenzahlen oder Seitenbereiche an, die zusammengefügt werden sollen
+                joinOptions = gm.domain.options.JoinOptions(1, 4, gm.RangeMode.OddPages)
+
+                # Laden Sie die DOCX-Quelldatei
+                with gm.Merger("c:\sample1.docx") as merger:
+
+                    # Fügen Sie eine weitere DOCX-Datei zum Zusammenführen hinzu
+                    merger.join("c:\sample2.docx", joinOptions)
+            
+                    # DOCX-Dateien zusammenführen und Ergebnis speichern
+                    merger.save("c:\merged.docx")
             ```
 
 

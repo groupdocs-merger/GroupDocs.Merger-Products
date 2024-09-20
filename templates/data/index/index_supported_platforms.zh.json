@@ -52,6 +52,18 @@
       "feature_4": {
         "line_1": "50 多种文件格式"
       }
+    },
+    "python-net": {
+      "description": "GroupDocs.Merger 用于 Python",
+      "feature_1": {
+        "line_1": "Python 3.9+  <br>  和 .Net 6+"
+      },
+      "feature_3": {
+        "line_1": "任何其他文本编辑器"
+      },
+      "feature_4": {
+        "line_1": "50 多种文件格式"
+      }
     }
   }
 }
