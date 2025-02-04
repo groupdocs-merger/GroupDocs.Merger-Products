@@ -1,14 +1,14 @@
 {
   "formats": {
     "title": "Поддерживаемые форматы файлов",
-    "description": "GroupDocs.Merger для .NET поддерживает операции со следующими [форматами файлов](https://docs.groupdocs.com/merger/net/supported-document-formats/).",
+    "description": "GroupDocs.Merger для {{ProgLang}} позволяет работать с различными [форматами файлов](https://docs.groupdocs.com/merger/net/supported-document-formats/), обеспечивая гибкость для ваших потребностей в обработке документов.",
     "groups": {
       "title_1": "Форматы Microsoft Office",
       "title_2": "Документы и изображения",
       "title_3": "Другие форматы",
       "format_documents": "Документы",
-      "format_images": "Изображений",
-      "format_web": "Интернет",
+      "format_images": "Изображения",
+      "format_web": "Веб",
       "format_archives": "Архивы"
     }
   }

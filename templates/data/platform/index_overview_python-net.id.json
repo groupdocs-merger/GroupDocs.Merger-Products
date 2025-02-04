@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "Ikhtisar GroupDocs.Merger untuk {{ProgLang}}",
+    "description": "API serbaguna untuk menggabungkan, membagi, menyusun ulang, dan menyempurnakan dokumen, presentasi, dan diagram dalam aplikasi {{ProgLang}}.",
+    "feature_1": {
+      "title": "Gabungkan dokumen dengan lancar di {{ProgLang}}",
+      "description": "Dengan GroupDocs.Merger untuk {{ProgLang}}, Anda dapat menggabungkan dokumen PDF dan Office menjadi satu file tanpa kesulitan. Dengan dukungan format yang luas, pustaka ini memastikan integrasi dan penggabungan berbagai jenis file yang mulus, menyederhanakan manajemen dokumen dalam aplikasi {{ProgLang}}."
+    },
+    "feature_2": {
+      "title": "Sederhanakan penanganan dokumen dengan membagi file besar",
+      "description": "Dengan GroupDocs.Merger untuk {{ProgLang}}, Anda dapat dengan mudah membagi file PDF atau Office besar menjadi bagian yang lebih kecil dan lebih mudah dikelola. Sesuaikan dokumen Anda dengan membaginya berdasarkan halaman tertentu, rentang, atau mengekstrak halaman individu, meningkatkan organisasi dan efisiensi alur kerja."
+    },
+    "feature_3": {
+      "title": "Kendalikan sepenuhnya struktur dokumen Anda di {{ProgLang}}",
+      "description": "Dengan GroupDocs.Merger untuk {{ProgLang}}, Anda dapat dengan mudah menyusun ulang, menukar, atau menghapus halaman untuk menyesuaikan tata letak dokumen Anda. Sesuaikan file Anda untuk memenuhi persyaratan spesifik, menawarkan fleksibilitas yang tak tertandingi dalam membuat struktur dokumen yang disesuaikan."
+    }
+  }
+}

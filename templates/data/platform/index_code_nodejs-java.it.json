@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "Unisci i file PDF in Node.js tramite Java",
+    "title": "Unire file PDF in Node.js tramite Java",
     "more": "Altri esempi",
-    "notes": "Scopri cosa c'è di nuovo",
-    "comment_1": "Carica il file sorgente PDF",
-    "comment_2": " Aggiungi un altro file PDF da unire",
-    "comment_3": "Unisci i file PDF e salva il risultato"
+    "notes": "Scopri le novità",
+    "comment_1": "Carica il file PDF originale",
+    "comment_2": "Aggiungi un altro file PDF da combinare",
+    "comment_3": "Unisci i file PDF e salva l'output"
   }
 }

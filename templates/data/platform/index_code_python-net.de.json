@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "PDF-Dateien in Python über .NET zusammenführen",
+    "more": "Weitere Beispiele",
+    "notes": "Siehe, was neu ist",
+    "comment_1": "Laden Sie die ursprüngliche PDF-Datei",
+    "comment_2": "Fügen Sie eine weitere PDF-Datei zum Zusammenführen hinzu",
+    "comment_3": "Kombinieren Sie die PDF-Dateien und speichern Sie das Ergebnis"
+  }
+}

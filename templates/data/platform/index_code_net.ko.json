@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "C#에서 PDF 파일 병합",
-    "more": "더 많은 예",
-    "notes": "새로운 기능 보기",
-    "comment_1": "원본 PDF 파일 로드",
+    "title": "C#에서 PDF 파일 병합하기",
+    "more": "추가 예제",
+    "notes": "새로운 기능 확인하기",
+    "comment_1": "원본 PDF 파일 열기",
     "comment_2": "병합할 다른 PDF 파일 추가",
-    "comment_3": "PDF 파일 병합 및 결과 저장"
+    "comment_3": "PDF 파일 결합 후 결과 저장"
   }
 }

@@ -1,42 +1,42 @@
 {
   "features": {
     "title": "Fitur GroupDocs.Merger",
-    "description": "Menggabungkan, memisahkan, dan memanipulasi PDF dan Dokumen Office dengan mulus",
+    "description": "Gabungkan, pisahkan, dan manipulasi dokumen PDF dan Office dengan alat yang kuat.",
     "feature_1": {
-      "title": "Gabungkan file",
-      "content": "Menggabungkan dua dokumen atau lebih menjadi satu dokumen, menggabungkan halaman atau rentang halaman tertentu dari beberapa dokumen sumber."
+      "title": "Gabungkan berkas",
+      "content": "Kombinasikan beberapa dokumen menjadi satu, memilih halaman tertentu atau rentang halaman dari berkas sumber yang berbeda."
     },
     "feature_2": {
-      "title": "Dokumen terpisah",
-      "content": "Memanfaatkan operasi pemisahan untuk membagi dokumen sumber menjadi beberapa dokumen yang dihasilkan, memungkinkan pengaturan dan pengelolaan file yang efisien."
+      "title": "Pecah dokumen",
+      "content": "Membagi dokumen menjadi beberapa berkas kecil, memudahkan dalam mengelola dan mengatur isi."
     },
     "feature_3": {
-      "title": "Pindah halaman",
-      "content": "Ubah posisi halaman dengan lancar di dalam dokumen dengan memanfaatkan fitur MovePage."
+      "title": "Pindahkan halaman",
+      "content": "Ubah urutan dokumen Anda dengan memindahkan halaman ke posisi baru menggunakan fitur MovePage."
     },
     "feature_4": {
       "title": "Hapus halaman",
-      "content": "Menghapus halaman individual atau kumpulan nomor halaman tertentu secara efektif dari dokumen sumber dengan fitur RemovePages."
+      "content": "Hapus halaman individual atau sekumpulan halaman tertentu dari dokumen menggunakan fitur RemovePages."
     },
     "feature_5": {
       "title": "Putar halaman",
-      "content": "Manfaatkan operasi RotatePages untuk memutar halaman dalam dokumen dengan mudah dengan menentukan sudut rotasi 90, 180, atau 270 derajat"
+      "content": "Putar halaman dalam dokumen sebanyak 90, 180, atau 270 derajat dengan fitur RotatePages."
     },
     "feature_6": {
       "title": "Tukar halaman",
-      "content": "Atur ulang urutan halaman dengan menukar posisi dua halaman di dalam dokumen sumber, menghasilkan dokumen baru."
+      "content": "Ubah urutan halaman dengan menukar dua halaman dalam dokumen."
     },
     "feature_7": {
       "title": "Ekstrak halaman",
-      "content": "Hasilkan dokumen baru yang hanya berisi halaman yang dipilih dengan mengekstrak halaman atau rentang halaman tertentu dari dokumen sumber."
+      "content": "Buat dokumen baru yang hanya berisi halaman yang dipilih dengan mengekstrak halaman tertentu atau rentang halaman."
     },
     "feature_8": {
       "title": "Ubah orientasi",
-      "content": "Ubah orientasi halaman (potret atau lanskap) untuk halaman tertentu atau semua halaman dokumen dengan memanfaatkan operasi ChangeOrientation."
+      "content": "Ganti orientasi halaman antara potret dan lanskap untuk halaman tertentu atau semua halaman dalam sebuah dokumen."
     },
     "feature_9": {
       "title": "Pratinjau halaman",
-      "content": "Dapatkan pemahaman yang lebih jelas tentang konten dan struktur dokumen dengan membuat representasi gambar dari halamannya. Buat pratinjau dari semua atau hanya halaman tertentu."
+      "content": "Hasilkan pratinjau gambar dari halaman dokumen untuk mendapatkan tampilan lebih baik mengenai isi dan tata letaknya."
     }
   }
 }

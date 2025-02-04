@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Combina archivos PDF en Python a través de .NET",
+    "more": "Más ejemplos",
+    "notes": "Consulta las novedades",
+    "comment_1": "Carga el archivo PDF original",
+    "comment_2": "Agrega otro archivo PDF para la fusión",
+    "comment_3": "Combina los archivos PDF y guarda la salida"
+  }
+}

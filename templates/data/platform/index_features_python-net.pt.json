@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Principais Recursos do GroupDocs.Merger para {{ProgLang}}",
+    "description": "Simplifique o manuseio de documentos mesclando, dividindo e editando arquivos PDF e do Office de forma tranquila com o GroupDocs.Merger em um ambiente {{ProgLang}}.",
+    "feature_1": {
+      "title": "Combinação de documentos sem interrupções",
+      "content": "Combine múltiplos documentos em um só, selecionando páginas ou intervalos específicos de vários arquivos usando o GroupDocs.Merger para {{ProgLang}}."
+    },
+    "feature_2": {
+      "title": "Capacidades de divisão de documentos",
+      "content": "Divida documentos grandes em arquivos menores e mais gerenciáveis com as ferramentas avançadas de divisão fornecidas pelo GroupDocs.Merger para {{ProgLang}}."
+    },
+    "feature_3": {
+      "title": "Movimentação eficiente de páginas",
+      "content": "Reposicione páginas dentro de um documento conforme sua necessidade utilizando o recurso intuitivo MovePage em {{ProgLang}}."
+    },
+    "feature_4": {
+      "title": "Opções de remoção de páginas",
+      "content": "Remova páginas desnecessárias ou números de páginas específicas com o recurso RemovePages no GroupDocs.Merger para {{ProgLang}}."
+    },
+    "feature_5": {
+      "title": "Funcionalidade de rotação de páginas",
+      "content": "Gire páginas em 90, 180 ou 270 graus com a operação simples RotatePages."
+    },
+    "feature_6": {
+      "title": "Recurso de troca de páginas",
+      "content": "Reorganize seu documento trocando as posições das páginas utilizando a função SwapPages no GroupDocs.Merger para {{ProgLang}}."
+    },
+    "feature_7": {
+      "title": "Extração seletiva de páginas",
+      "content": "Extraia páginas ou intervalos específicos para criar um novo documento, focando apenas no conteúdo que você precisa com o GroupDocs.Merger para {{ProgLang}}."
+    },
+    "feature_8": {
+      "title": "Ferramenta de alteração de orientação",
+      "content": "Altere a orientação das páginas de retrato para paisagem ou vice-versa usando o recurso ChangeOrientation em seus projetos {{ProgLang}}."
+    },
+    "feature_9": {
+      "title": "Visualizações das páginas do documento",
+      "content": "Gere visualizações em imagem das páginas do documento para revisar seu conteúdo e layout com o recurso PreviewPages em {{ProgLang}}."
+    }
+  }
+}

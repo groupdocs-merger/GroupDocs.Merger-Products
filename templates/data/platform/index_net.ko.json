@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "C# .NET 문서 병합 API | PDF Word Excel EPUB 결합 및 분할",
-    "description": "PDF, Microsoft Word, Excel, 프레젠테이션, Visio 및 이미지 형식에서 문서 페이지를 결합, 분할, 교체 또는 제거하는 C# .NET 문서 병합 API."
+    "title": "C# .NET 문서 병합 API | PDF, Word, Excel, EPUB 결합 및 분할",
+    "description": "문서를 병합하기 위한 C# .NET API. PDF, Microsoft Word, Excel, PowerPoint, Visio 및 이미지 파일에서 페이지를 결합, 분할, 교환 또는 제거합니다."
   },
   "header": {
     "title_1": "문서 병합",
     "title_2": ".NET API를 통해",
-    "description": "PDF, Microsoft Office, HTML 및 이미지 파일을 조작하는 강력한 병합 API입니다.",
+    "description": "PDF, Office, HTML 및 이미지 파일을 병합, 분할 및 관리하기 위한 강력한 API입니다.",
     "words": {
-      "for": "~을 위한"
+      "for": "를 위한"
     }
   },
   "actions": {
     "main": "무료 NuGet 다운로드",
-    "alt": "라이선스",
-    "title": "시작할 준비가 되셨습니까?",
-    "description": "무료로 GroupDocs.Merger 기능을 사용해 보거나 라이센스를 요청하십시오."
+    "alt": "라이선스 제공",
+    "title": "시작할 준비가 되셨나요?",
+    "description": "GroupDocs.Merger를 무료로 사용해 보거나 라이선스를 요청하세요."
   },
   "release": {
-    "title": "버전 {0} 출시됨",
-    "notes": "새로운 기능 보기",
+    "title": "{0} 버전 출시",
+    "notes": "새로운 기능 확인하기",
     "downloads": "다운로드"
   }
 }

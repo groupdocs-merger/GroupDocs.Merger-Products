@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "PythonドキュメントマージAPI | PDF、Word、Excelのマージ",
+    "description": "ドキュメントのマージのためのPython API。PDF、Microsoft Word、Excel、PowerPoint、Visio、XPS、EPUBファイルからページをマージ、分割、スワップ、順序変更、削除できます。"
+  },
+  "header": {
+    "title_1": "ドキュメントをマージ",
+    "title_2": "Python APIを使用して",
+    "description": "PDFおよびOfficeファイルのマージ、分割、修正のための強力なAPIです。",
+    "words": {
+      "for": "のために"
+    }
+  },
+  "actions": {
+    "main": "無料のPyPiダウンロード",
+    "alt": "ライセンス情報",
+    "title": "始める準備はできましたか？",
+    "description": "GroupDocs.Mergerを無料で試すか、ライセンスを取得してください。"
+  },
+  "release": {
+    "title": "バージョン {0} がリリースされました",
+    "notes": "新機能を確認する",
+    "downloads": "ダウンロード"
+  }
+}

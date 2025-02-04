@@ -1,10 +1,10 @@
 {
   "code": {
     "title": "PDF-Dateien in Java zusammenführen",
-    "more": "Mehr Beispiele",
-    "notes": "Schau was neu ist",
+    "more": "Weitere Beispiele",
+    "notes": "Siehe, was neu ist",
     "comment_1": "Laden Sie die Quell-PDF-Datei",
-    "comment_2": "Fügen Sie eine weitere PDF-Datei zum Zusammenführen hinzu",
-    "comment_3": "PDF-Dateien zusammenführen und Ergebnis speichern"
+    "comment_2": "Fügen Sie eine weitere PDF-Datei hinzu, um sie zu kombinieren",
+    "comment_3": "PDF-Dateien zusammenführen und das Ergebnis speichern"
   }
 }

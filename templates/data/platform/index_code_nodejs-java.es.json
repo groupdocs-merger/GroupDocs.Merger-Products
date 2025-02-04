@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "Combine PDF archivos en Node.js mediante Java",
+    "title": "Combina archivos PDF en Node.js a través de Java",
     "more": "Más ejemplos",
-    "notes": "Vea qué hay de nuevo",
-    "comment_1": "Cargue el archivo fuente PDF",
-    "comment_2": " Añadir otro archivo PDF para fusionar",
-    "comment_3": "Combina PDF archivos y guarda el resultado"
+    "notes": "Consulta las novedades",
+    "comment_1": "Cargar el archivo PDF original",
+    "comment_2": "Agregar otro archivo PDF para combinar",
+    "comment_3": "Combinar los archivos PDF y guardar el resultado"
   }
 }

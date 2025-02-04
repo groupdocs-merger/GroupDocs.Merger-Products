@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "코드 샘플",
+    "description": "GroupDocs.Merger를 위한 일반적인 사용 사례를 발견하세요. 이 예제는 GroupDocs.Merger를 사용하여 문서를 효율적으로 병합하고 분할하는 방법을 보여줍니다.",
+    "sample_1": {
+      "title": "여러 DOCX 파일을 하나의 문서로 병합하기 (Python)",
+      "content_1": "GroupDocs.Merger for Python을 사용하면 여러 DOCX 파일을 하나의 문서로 결합할 수 있습니다. [Word 문서 병합](https://docs.groupdocs.com/merger/python-net/merge/word/) 기능을 통해 문서 관리를 간소화하고 생산성을 향상시킬 수 있습니다.",
+      "content_2": "아래는 병합 과정을 보여주는 Python 코드 스니펫입니다:",
+      "code_title": "예제: Python에서 DOCX 파일 병합하기",
+      "comment_1": "첫 번째 DOCX 파일을 로드합니다.",
+      "comment_2": "병합할 추가 DOCX 파일을 추가합니다.",
+      "comment_3": "DOCX 파일을 병합하고 결과를 저장합니다."
+    },
+    "sample_2": {
+      "title": "PDF 문서를 여러 개의 파일로 분할하기 (Python)",
+      "content_1": "GroupDocs.Merger for Python을 사용하면 큰 PDF 문서를 더 작고 관리하기 쉬운 파일로 손쉽게 분할할 수 있습니다. [문서 분할](https://docs.groupdocs.com/merger/python-net/split-document/) 기능을 사용하면 페이지 범위, 시작/종료 페이지 또는 홀/짝 페이지와 같은 기준에 따라 특정 페이지를 추출할 수 있습니다.",
+      "content_2": "이 기능은 큰 문서를 더 작고 관리하기 쉬운 파일로 나누어 정리하는 데 도움을 줍니다.",
+      "code_title": "Python에서 PDF를 개별 파일로 분할하는 방법",
+      "comment_1": "GroupDocs.Merger for Python을 사용하여 PDF 파일을 분할합니다.",
+      "comment_2": "원하는 출력 형식으로 SplitOptions 정의합니다.",
+      "comment_3": "입력 PDF 문서로 Merger를 초기화합니다.",
+      "comment_4": "SplitOptions 객체를 사용하여 분할 메서드를 호출해 개별 파일을 생성합니다."
+    }
+  }
+}

@@ -1,25 +1,25 @@
 {
   "code_samples": {
     "title": "代码示例",
-    "description": "探索专为 Node.js 环境量身定制的 GroupDocs.Merger 的典型用例。这些示例演示了使用适用于 Node.js 的 GroupDocs.Merger 合并文档的效率和易用性。",
+    "description": "探索在 Node.js 中使用 GroupDocs.Merger 的常见用例。这些示例展示了如何有效地使用 GroupDocs.Merger for Node.js 合并和拆分文档。",
     "sample_1": {
-      "title": "使用 Node.js 高效地将 DOCX 个文件合并为一个文档",
-      "content_1": "利用 Node.js 的 GroupDocs.Merger 将多个 DOCX 文件无缝合并为一个综合文档。利用我们的 [合并 Word 文档](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) 功能来高效地合并文件，增强文档管理和工作效率。",
-      "content_2": "下面，找到 Node.js 代码片段来指导你完成文档合并过程：",
-      "code_title": "Node.js 示例：合并 DOCX 个文件",
-      "comment_1": "加载初始 DOCX 文件",
-      "comment_2": "追加其他 DOCX 个文件进行合并",
-      "comment_3": "执行合并过程并保存合并后的文档"
+      "title": "在 Node.js 中将多个 DOCX 文件合并为一个文档",
+      "content_1": "使用 GroupDocs.Merger for Node.js 将多个 DOCX 文件无缝地合并为一个文档。[合并 Word 文档](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) 功能通过高效合并文件简化了文档管理。",
+      "content_2": "以下是一个 Node.js 代码片段，演示了合并过程：",
+      "code_title": "示例：在 Node.js 中合并 DOCX 文件",
+      "comment_1": "加载第一个 DOCX 文件",
+      "comment_2": "添加其他要合并的 DOCX 文件",
+      "comment_3": "合并 DOCX 文件并保存输出"
     },
     "sample_2": {
-      "title": "在 Node.js 中将 PDF 个文档拆分成单个文件",
-      "content_1": "使用 Node.js 的 GroupDocs.Merger，可以简化将文档拆分为多个文件的过程。我们的 [拆分文档](https://docs.groupdocs.com/merger/nodejs-java/split-document/) 功能允许高效管理和从大型 PDF 文档中提取特定部分，从而使您的文档处理更加有效。",
-      "content_2": "此功能支持按页面范围、起始/结束页或奇数/偶数页码等条件拆分文档。",
-      "code_title": "如何使用 Node.js 将文档拆分为单独的文件",
-      "comment_1": "首先使用 Node.js API 的 GroupDocs.Merger 拆分 PDF 文件",
-      "comment_2": "使用输出文件格式设置 SplitOptions 类",
-      "comment_3": "使用要拆分的 PDF 文档初始化 Merger",
-      "comment_4": "使用 splitOptions 对象调用 split 方法以获取生成的文档"
+      "title": "在 Node.js 中将 PDF 文档拆分为多个文件",
+      "content_1": "GroupDocs.Merger for Node.js 使拆分大型 PDF 文档为较小文件变得简单。[拆分文档](https://docs.groupdocs.com/merger/nodejs-java/split-document/) 功能允许您根据不同条件提取特定页面，例如页面范围、起始/结束页面或奇数/偶数页面。",
+      "content_2": "该功能通过将大型文档拆分为更小、更易管理的文件来帮助组织文档。",
+      "code_title": "如何在 Node.js 中将 PDF 拆分为单独文件",
+      "comment_1": "使用 GroupDocs.Merger for Node.js 拆分 PDF 文件",
+      "comment_2": "定义具有所需输出格式的 SplitOptions",
+      "comment_3": "用输入 PDF 文档初始化合并器",
+      "comment_4": "调用拆分方法，使用 SplitOptions 对象生成单独的文件"
     }
   }
 }

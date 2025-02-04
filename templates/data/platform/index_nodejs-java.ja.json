@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "Node.js ドキュメントマージ API | マージ PDF Word Excel",
-    "description": "Node.js の API をマージするドキュメントです。PDF、マイクロソフト Word、Excel、プレゼンテーション、Visio、XPS、EPUB 形式のページの結合、分割、入れ替え、並べ替え、および削除を行います。"
+    "title": "Node.js ドキュメントマージング API | PDF、Word、Excel のマージ",
+    "description": "ドキュメントをマージするための Node.js API。PDF、Microsoft Word、Excel、PowerPoint、Visio、XPS、および EPUB ファイルからページをマージ、分割、スワップ、順序変更、削除します。"
   },
   "header": {
-    "title_1": "文書を結合",
-    "title_2": "Node.js API 経由",
-    "description": "PDF 文書と Office 文書を簡単に結合、分割、または変更できる柔軟な合併API",
+    "title_1": "ドキュメントをマージ",
+    "title_2": "Node.js API を使用して",
+    "description": "PDF と Office ドキュメントを結合、分割、編集するための柔軟な API です。",
     "words": {
-      "for": "にとって"
+      "for": "用"
     }
   },
   "actions": {
-    "main": "NPMの無料ダウンロード",
-    "alt": "ライセンス",
-    "title": "始める準備はできましたか?",
-    "description": "GroupDocs.Merger の機能を無料で試すか、ライセンスをリクエストしてください"
+    "main": "NPM の無料ダウンロード",
+    "alt": "ライセンス取得",
+    "title": "始める準備はできましたか？",
+    "description": "GroupDocs.Merger を無料で試すか、ライセンスをリクエストしてください"
   },
   "release": {
-    "title": "バージョン {0} がリリースされました",
-    "notes": "新機能を見る",
+    "title": "バージョン {0} リリース",
+    "notes": "最新の更新情報をチェックしてください",
     "downloads": "ダウンロード"
   }
 }

@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "C# .NET API zum Zusammenführen von Dokumenten | Kombinieren und teilen Sie PDF Word Excel EPUB",
-    "description": "C# .NET-API zum Zusammenführen von Dokumenten zum Kombinieren, Teilen, Austauschen oder Entfernen von Dokumentseiten aus PDF-, Microsoft Word-, Excel-, Präsentations-, Visio- und Bildformaten."
+    "title": "C# .NET Dokumentenmerge-API | Kombinieren & Teilen von PDF, Word, Excel, EPUB",
+    "description": "C# .NET API zum Zusammenführen von Dokumenten. Kombinieren, teilen, austauschen oder Seiten aus PDF-, Microsoft Word-, Excel-, PowerPoint-, Visio- und Bilddateien entfernen."
   },
   "header": {
     "title_1": "Dokumente zusammenführen",
-    "title_2": "über die .NET-API",
-    "description": "Leistungsstarke Merger-API zum Bearbeiten von PDF-, Microsoft Office-, HTML- und Bilddateien.",
+    "title_2": "über die .NET API",
+    "description": "Eine leistungsstarke API zum Zusammenführen, Teilen und Verwalten von PDF-, Office-, HTML- und Bilddateien.",
     "words": {
       "for": "für"
     }
   },
   "actions": {
-    "main": "Kostenloser NuGet-Download",
+    "main": "Kostenloser NuGet Download",
     "alt": "Lizenzierung",
-    "title": "Bereit anzufangen?",
-    "description": "Testen Sie die Funktionen von GroupDocs.Merger kostenlos oder fordern Sie eine Lizenz an"
+    "title": "Bereit, loszulegen?",
+    "description": "Testen Sie GroupDocs.Merger kostenlos oder fordern Sie eine Lizenz an."
   },
   "release": {
     "title": "Version {0} veröffentlicht",
-    "notes": "Schau was neu ist",
+    "notes": "Erfahren Sie, was neu ist",
     "downloads": "Downloads"
   }
 }

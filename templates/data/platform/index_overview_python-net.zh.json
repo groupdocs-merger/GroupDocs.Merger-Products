@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "关于 GroupDocs.Merger for Python 的概述",
+    "description": "一个多功能的 API，可在 Python 应用程序中合并、拆分、重新排列和完善文档、幻灯片和图表。",
+    "feature_1": {
+      "title": "在 Python 中轻松合并文档",
+      "description": "使用 GroupDocs.Merger for Python 轻松地将 PDF 和 Office 文档合并为一个文件。该库支持多种格式，确保不同文件类型的无缝集成与合并，简化 Python 应用程序中的文档管理。"
+    },
+    "feature_2": {
+      "title": "通过拆分大文件简化文档处理",
+      "description": "利用 GroupDocs.Merger for Python 轻松将大的 PDF 或 Office 文件拆分为更小且可管理的部分。通过根据特定页面、范围或提取单独页面来定制文档，提高组织和工作流程的效率。"
+    },
+    "feature_3": {
+      "title": "在 Python 中完全控制文档结构",
+      "description": "使用 GroupDocs.Merger for Python 轻松重新排列、调换或删除页面，以自定义文档布局。根据特定要求调整文件，提供在创建定制文档结构方面无与伦比的灵活性。"
+    }
+  }
+}

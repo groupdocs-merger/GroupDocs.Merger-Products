@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "Các định dạng tệp được hỗ trợ",
+    "description": "GroupDocs.Merger cho Python qua .NET cho phép thực hiện thao tác liền mạch với đa dạng các [định dạng tệp](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), đảm bảo tính linh hoạt cho các tác vụ quản lý tài liệu của bạn.",
+    "groups": {
+      "title_1": "Định dạng Microsoft Office",
+      "title_2": "Tài liệu & hình ảnh",
+      "title_3": "Định dạng khác",
+      "format_documents": "Tài liệu",
+      "format_images": "Hình ảnh",
+      "format_web": "Web",
+      "format_archives": "Lưu trữ"
+    }
+  }
+}

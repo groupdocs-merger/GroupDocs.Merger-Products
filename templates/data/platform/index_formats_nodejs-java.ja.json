@@ -1,11 +1,11 @@
 {
   "formats": {
-    "title": "対応ファイル形式",
-    "description": "Java 経由の Node.js の GroupDocs.Merger は、次の [ファイル形式](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/) での操作をサポートします。",
+    "title": "サポートされているファイル形式",
+    "description": "GroupDocs.Merger for Node.js via Javaは、さまざまな[ファイル形式](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/)をサポートし、柔軟なドキュメント操作を実現します。",
     "groups": {
-      "title_1": "Microsoft Office フォーマット",
-      "title_2": "ドキュメントと画像",
-      "title_3": "その他のフォーマット",
+      "title_1": "Microsoft Office形式",
+      "title_2": "文書 & 画像",
+      "title_3": "その他の形式",
       "format_documents": "文書",
       "format_images": "画像",
       "format_web": "ウェブ",

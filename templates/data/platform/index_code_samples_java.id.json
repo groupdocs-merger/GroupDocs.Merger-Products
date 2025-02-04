@@ -1,25 +1,25 @@
 {
   "code_samples": {
-    "title": "Contoh kode",
-    "description": "Beberapa kasus penggunaan GroupDocs.Merger tipikal untuk operasi Java",
+    "title": "Contoh Kode",
+    "description": "Contoh operasi umum GroupDocs.Merger dalam Java",
     "sample_1": {
       "title": "Menggabungkan file DOCX menjadi satu dokumen",
-      "content_1": "Dengan fitur [Gabungkan Dokumen Word](https://docs.groupdocs.com/merger/java/merge/word/) Anda dapat menggabungkan seluruh file DOCX menjadi satu dokumen dengan memuat file sumber, menambahkan lebih banyak file DOCX untuk digabungkan , dan menyimpan dokumen gabungan.",
-      "content_2": "Di bawah ini adalah cuplikan kode Java yang mendemonstrasikan proses penggabungan:",
-      "code_title": "Cara menggabungkan file DOCX di Java",
+      "content_1": "Dengan fitur [Gabungkan Dokumen Word](https://docs.groupdocs.com/merger/java/merge/word/), Anda dapat menggabungkan beberapa file DOCX menjadi satu. Muat dokumen sumber, tambahkan file DOCX tambahan, dan simpan hasil gabungan.",
+      "content_2": "Berikut adalah potongan kode Java yang menunjukkan proses penggabungan:",
+      "code_title": "Cara menggabungkan file DOCX dalam Java",
       "comment_1": "Muat file DOCX sumber",
       "comment_2": "Tambahkan file DOCX lain untuk digabungkan",
       "comment_3": "Gabungkan file DOCX dan simpan hasilnya"
     },
     "sample_2": {
-      "title": "Pisahkan dokumen PDF menjadi beberapa file",
-      "content_1": "Bagilah dokumen menjadi beberapa file dengan fitur [Split Document](https://docs.groupdocs.com/merger/java/split-document/) untuk menyederhanakan proses pengelolaan dan ekstraksi bagian atau halaman tertentu dari dokumen berukuran besar.",
-      "content_2": "Ini memungkinkan Anda membagi dokumen menjadi bagian-bagian yang lebih kecil berdasarkan berbagai kriteria - berdasarkan rentang halaman, halaman awal/akhir, nomor halaman ganjil/genap, dll.",
-      "code_title": "Pisahkan dokumen menjadi beberapa dokumen satu halaman",
-      "comment_1": "Pisahkan file PDF menggunakan GroupDocs.Merger untuk Java API",
-      "comment_2": "Inisialisasi kelas SplitOptions dengan format jalur file keluaran",
-      "comment_3": "Instansiasi Penggabungan dengan memasukkan dokumen PDF",
-      "comment_4": "Panggil metode split dan berikan objek SplitOptions untuk menyimpan dokumen yang dihasilkan"
+      "title": "Membagi dokumen PDF menjadi beberapa file",
+      "content_1": "Gunakan fitur [Bagi Dokumen](https://docs.groupdocs.com/merger/java/split-document/) untuk memecah PDF besar menjadi file-file yang lebih kecil dan lebih mudah dikelola. Ini berguna untuk mengekstrak bagian atau halaman tertentu.",
+      "content_2": "Anda dapat membagi dokumen menggunakan berbagai kriteria, seperti rentang halaman, halaman awal dan akhir tertentu, atau bahkan nomor halaman ganjil/genap.",
+      "code_title": "Membagi dokumen menjadi beberapa file satu halaman",
+      "comment_1": "Bagi file PDF menggunakan API GroupDocs.Merger untuk Java",
+      "comment_2": "Inisialisasi kelas SplitOptions dengan format file output",
+      "comment_3": "Buat instance Merger dengan dokumen PDF input",
+      "comment_4": "Panggil metode split dengan objek SplitOptions untuk menghasilkan file terpisah"
     }
   }
 }

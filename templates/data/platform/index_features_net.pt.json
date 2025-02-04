@@ -1,42 +1,42 @@
 {
   "features": {
-    "title": "Recursos do GroupDocs.Mesclar",
-    "description": "Mescle, divida e manipule perfeitamente PDF e documentos do Office",
+    "title": "Recursos do GroupDocs.Merger",
+    "description": "Mescle, divida e gerencie documentos PDF e do Office.",
     "feature_1": {
       "title": "Mesclar arquivos",
-      "content": "Combine dois ou mais documentos em um único documento, mesclando páginas específicas ou intervalos de páginas de vários documentos de origem."
+      "content": "Combine vários documentos em um só, mesclando arquivos inteiros ou páginas específicas de diferentes fontes."
     },
     "feature_2": {
       "title": "Dividir documentos",
-      "content": "Divida um documento de origem em vários documentos resultantes usando a operação de divisão."
+      "content": "Quebre um documento em vários arquivos menores para melhor organização e gerenciamento."
     },
     "feature_3": {
       "title": "Mover páginas",
-      "content": "Reposicione as páginas em um documento usando o recurso MovePage."
+      "content": "Reorganize páginas dentro de um documento movendo-as para uma nova posição."
     },
     "feature_4": {
       "title": "Remover páginas",
-      "content": "Remova páginas individuais ou uma coleção de números de página específicos do documento de origem."
+      "content": "Exclua páginas específicas ou várias páginas selecionadas de um documento."
     },
     "feature_5": {
-      "title": "Girar páginas",
-      "content": "Gire as páginas em um documento definindo o ângulo de rotação para 90, 180 ou 270 graus usando a operação RotatePages."
+      "title": "Rotacionar páginas",
+      "content": "Gire páginas em um documento em 90, 180 ou 270 graus conforme necessário."
     },
     "feature_6": {
       "title": "Trocar páginas",
-      "content": "Troque as posições de duas páginas no documento de origem, criando um novo documento com posições de página trocadas."
+      "content": "Troque as posições de duas páginas dentro de um documento para melhor arranjo."
     },
     "feature_7": {
       "title": "Extrair páginas",
-      "content": "Extraia páginas específicas ou intervalos de páginas de um documento de origem, gerando um novo documento contendo apenas as páginas selecionadas."
+      "content": "Selecione e extraia páginas específicas ou intervalos de páginas para criar um novo documento."
     },
     "feature_8": {
-      "title": "Mudar orientação",
-      "content": "Defina a orientação da página (retrato ou paisagem) para páginas específicas ou todas as páginas do documento usando a operação ChangeOrientation."
+      "title": "Alterar orientação",
+      "content": "Ajuste a orientação da página para retrato ou paisagem para páginas selecionadas ou todas."
     },
     "feature_9": {
-      "title": "Visualizar páginas",
-      "content": "Gere representações de imagens de páginas de documentos para entender melhor o conteúdo e a estrutura. Faça visualizações de todas ou apenas páginas específicas."
+      "title": "Pré-visualizar páginas",
+      "content": "Gere pré-visualizações em imagem das páginas do documento para obter uma visão clara do seu conteúdo e layout."
     }
   }
 }

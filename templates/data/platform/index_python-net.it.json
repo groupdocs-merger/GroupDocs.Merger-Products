@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API di unione documenti Python | unisci PDF, Word, Excel",
+    "description": "API Python per l'unione di documenti. Unisci, dividi, scambia, riordina e rimuovi pagine da file PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS ed EPUB."
+  },
+  "header": {
+    "title_1": "Unisci documenti",
+    "title_2": "utilizzando l'API Python",
+    "description": "Un'API potente per unire, dividere e modificare file PDF e Office.",
+    "words": {
+      "for": "per"
+    }
+  },
+  "actions": {
+    "main": "Download gratuito da PyPi",
+    "alt": "Licenze",
+    "title": "Pronto per iniziare?",
+    "description": "Prova GroupDocs.Merger gratuitamente o acquista una licenza."
+  },
+  "release": {
+    "title": "Versione {0} rilasciata",
+    "notes": "Scopri le novità",
+    "downloads": "Download"
+  }
+}

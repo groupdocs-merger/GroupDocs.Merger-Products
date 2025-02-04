@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "コードサンプル",
+    "description": "GroupDocs.Merger for Pythonの一般的な使用例を紹介します。これらの例は、GroupDocs.Merger for Pythonを使用してドキュメントを効率的にマージおよび分割する方法を示しています。",
+    "sample_1": {
+      "title": "複数のDOCXファイルをPythonで1つの文書にマージする",
+      "content_1": "GroupDocs.Merger for Pythonを使用すると、複数のDOCXファイルを簡単に1つの文書に結合できます。[Word文書のマージ](https://docs.groupdocs.com/merger/python-net/merge/word/)機能により、文書管理を効率化し、生産性を向上させることができます。",
+      "content_2": "以下に、マージプロセスを示すPythonのコードスニペットがあります：",
+      "code_title": "例：PythonでのDOCXファイルのマージ",
+      "comment_1": "最初のDOCXファイルを読み込む",
+      "comment_2": "マージするために他のDOCXファイルを追加する",
+      "comment_3": "DOCXファイルをマージして結果を保存する"
+    },
+    "sample_2": {
+      "title": "PDF文書をPythonで複数のファイルに分割する",
+      "content_1": "GroupDocs.Merger for Pythonを使用すると、大きなPDF文書を小さなファイルに簡単に分割できます。[ドキュメントの分割](https://docs.groupdocs.com/merger/python-net/split-document/)機能により、ページ範囲、開始/終了ページ、または奇数/偶数ページに基づいて特定のページを抽出できます。",
+      "content_2": "この機能は、大きな文書をより管理しやすい小さなファイルに分解することで整理を助けます。",
+      "code_title": "PythonでPDFを別のファイルに分割する方法",
+      "comment_1": "GroupDocs.Merger for Pythonを使用してPDFファイルを分割する",
+      "comment_2": "希望する出力形式でSplitOptionsを定義する",
+      "comment_3": "入力PDF文書でMergerを初期化する",
+      "comment_4": "SplitOptionsオブジェクトを使用して分割メソッドを呼び出し、別々のファイルを生成する"
+    }
+  }
+}

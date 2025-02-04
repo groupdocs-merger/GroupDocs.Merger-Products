@@ -1,18 +1,18 @@
 {
   "overview": {
     "title": "GroupDocs.Merger auf einen Blick",
-    "description": "API zum Kombinieren, Teilen, Austauschen, Trimmen oder Entfernen von Dokumenten, Folien und Diagrammen in .NET-Anwendungen",
+    "description": "API zum Kombinieren, Aufteilen, Tauschen, Zuschneiden oder Entfernen von Dokumenten, Folien und Diagrammen in .NET-Anwendungen.",
     "feature_1": {
-      "title": "Müheloses Zusammenführen mehrerer Dokumente in C#",
-      "description": "Dokumente zusammenführen: Kombinieren Sie mehrere PDF- und Office-Dateien nahtlos in einem einzigen Dokument und unterstützen Sie dabei eine Vielzahl von Formaten. GroupDocs.Merger für .NET ermöglicht eine schnelle und problemlose Zusammenführung von Dokumenten."
+      "title": "Mehrere Dokumente mühelos in C# zusammenführen",
+      "description": "Kombinieren Sie mehrere PDF- und Office-Dateien zu einem einzigen Dokument mithilfe von GroupDocs.Merger für .NET. Mit Unterstützung für eine Vielzahl von Formaten wird das Zusammenführen von Dokumenten schnell und unkompliziert."
     },
     "feature_2": {
-      "title": "Vereinfachen Sie die Dokumentenverwaltung durch Aufteilen großer Dateien",
-      "description": "Teilen Sie große PDF- oder Office-Dateien ganz einfach in kleinere, besser verwaltbare Teile auf. Mit GroupDocs.Merger für .NET können Sie Dokumente mühelos nach bestimmten Seiten oder Bereichen aufteilen oder sogar einzelne Seiten extrahieren."
+      "title": "Dokumentenverwaltung durch Aufteilen großer Dateien vereinfachen",
+      "description": "Zerlegen Sie große PDF- oder Office-Dateien in kleinere, leichter handhabbare Abschnitte. GroupDocs.Merger für .NET ermöglicht das Aufteilen von Dokumenten nach bestimmten Seiten, Bereichen oder das Extrahieren einzelner Seiten."
     },
     "feature_3": {
-      "title": "Bearbeiten Sie Seiten und passen Sie die Dokumentstruktur an – neu anordnen, austauschen oder entfernen",
-      "description": "Übernehmen Sie die Kontrolle über Ihre Dokumente, indem Sie Seiten neu anordnen, unerwünschte Seiten entfernen oder neue hinzufügen. Mit GroupDocs.Merger für .NET können Sie die Dokumentstruktur bearbeiten und Ihre Dateien entsprechend Ihren spezifischen Anforderungen anpassen und anpassen."
+      "title": "Seiten manipulieren und Dokumentstruktur anpassen - Reihenfolge ändern, tauschen oder entfernen",
+      "description": "Erhalten Sie die volle Kontrolle über Ihre Dokumente, indem Sie Seiten neu anordnen, tauschen oder entfernen. GroupDocs.Merger für .NET bietet die Flexibilität, Ihre Dokumentstruktur gemäß Ihren spezifischen Anforderungen anzupassen."
     }
   }
 }

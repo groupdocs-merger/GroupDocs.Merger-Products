@@ -1,0 +1,6 @@
+{
+  "platforms": {
+    "title": "Plattformunabhängigkeit",
+    "description": "GroupDocs.Merger für {{ProgLang}} ist darauf ausgelegt, reibungslos über mehrere Betriebssysteme, Frameworks und Paketmanager hinweg zu funktionieren und bietet Vielseitigkeit und Kompatibilität für Ihre Entwicklungsumgebung."
+  }
+}

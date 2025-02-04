@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Merger for Python 개요",
+    "description": "Python 애플리케이션에서 문서, 슬라이드 및 다이어그램을 병합, 분할, 재배치 및 정제할 수 있는 다목적 API입니다.",
+    "feature_1": {
+      "title": "Python에서 문서 병합",
+      "description": "GroupDocs.Merger for Python을 사용하여 PDF 및 Office 문서를 손쉽게 하나의 파일로 결합하세요. 폭넓은 형식 지원으로 이 라이브러리는 다양한 파일 유형의 원활한 통합 및 병합을 보장하여 Python 애플리케이션에서 문서 관리를 단순화합니다."
+    },
+    "feature_2": {
+      "title": "대용량 파일 세분화를 통한 문서 처리 간소화",
+      "description": "GroupDocs.Merger for Python을 사용하여 대용량 PDF 또는 Office 파일을 더 작고 관리하기 쉬운 섹션으로 쉽게 분할하세요. 특정 페이지, 범위 기반으로 문서를 나누거나 개별 페이지를 추출하여 조직 및 워크플로 효율성을 향상시킵니다."
+    },
+    "feature_3": {
+      "title": "Python에서 문서 구조에 대한 완벽한 제어",
+      "description": "GroupDocs.Merger for Python을 사용하여 페이지를 쉽게 재배치, 교환 또는 제거하여 문서 레이아웃을 맞춤 설정하세요. 특정 요구사항을 충족하도록 파일을 조정하여 맞춤형 문서 구조를 생성할 수 있는 유연성을 제공합니다."
+    }
+  }
+}

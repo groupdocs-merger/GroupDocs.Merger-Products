@@ -1,25 +1,25 @@
 {
   "code_samples": {
-    "title": "mẫu mã",
-    "description": "Một số trường hợp sử dụng GroupDocs.Merger điển hình cho hoạt động .NET",
+    "title": "Mẫu mã",
+    "description": "Ví dụ về các thao tác phổ biến của GroupDocs.Merger trong .NET",
     "sample_1": {
-      "title": "Hợp nhất các trang tệp DOCX cụ thể vào một tài liệu",
-      "content_1": "Tính năng [Hợp nhất trang chọn lọc](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) cho phép bạn chỉ trích xuất và hợp nhất nội dung mong muốn từ mỗi tệp.",
-      "content_2": "Đây là một ví dụ về cách đạt được việc hợp nhất trang có chọn lọc bằng C#:",
-      "code_title": "Cách hợp nhất các tệp DOCX trong C#",
+      "title": "Gộp các trang cụ thể từ các tệp DOCX vào một tài liệu duy nhất",
+      "content_1": "Tính năng [Gộp Trang Lựa Chọn](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) cho phép bạn trích xuất và gộp chỉ những trang cần thiết từ nhiều tệp DOCX.",
+      "content_2": "Dưới đây là cách thực hiện việc gộp trang lựa chọn bằng C#:",
+      "code_title": "Cách gộp các tệp DOCX trong C#",
       "comment_1": "Tải tệp DOCX nguồn",
-      "comment_2": "Thêm một tệp DOCX khác để hợp nhất",
-      "comment_3": "Hợp nhất các tệp DOCX và lưu kết quả"
+      "comment_2": "Thêm một tệp DOCX khác để bao gồm các trang cụ thể",
+      "comment_3": "Gộp các trang đã chọn và lưu kết quả"
     },
     "sample_2": {
-      "title": "Tách tài liệu PDF thành nhiều tệp",
-      "content_1": "Chia tài liệu thành nhiều tệp một cách hiệu quả bằng tính năng [Split Document](https://docs.groupdocs.com/merger/net/split-document/) giúp đơn giản hóa quy trình quản lý và trích xuất các phần hoặc trang cụ thể từ các tài liệu lớn.",
-      "content_2": "Nó cho phép bạn chia tài liệu thành các phần nhỏ hơn dựa trên các tiêu chí khác nhau - theo phạm vi trang, theo trang bắt đầu/kết thúc, theo số trang lẻ/chẵn, v.v.",
-      "code_title": "Cách chia tài liệu thành nhiều tài liệu nhiều trang",
-      "comment_1": "Tách tệp PDF bằng API GroupDocs.Merger",
-      "comment_2": "Khởi tạo lớp SplitOptions với định dạng đường dẫn tệp đầu ra",
-      "comment_3": "Khởi tạo Sáp nhập với tài liệu PDF đầu vào",
-      "comment_4": "Gọi phương thức tách và chuyển đối tượng SplitOptions để lưu tài liệu kết quả"
+      "title": "Chia một tài liệu PDF thành nhiều tệp",
+      "content_1": "Chia một tệp PDF lớn thành nhiều tệp nhỏ hơn bằng tính năng [Chia Tài Liệu](https://docs.groupdocs.com/merger/net/split-document/). Tính năng này giúp trích xuất các phần cụ thể hoặc tổ chức nội dung một cách hợp lý hơn.",
+      "content_2": "Bạn có thể chia tài liệu dựa trên nhiều tiêu chí khác nhau, chẳng hạn như phạm vi trang, các trang bắt đầu và kết thúc cụ thể, hoặc số trang lẻ/chéo.",
+      "code_title": "Cách chia tài liệu thành nhiều tệp đa trang",
+      "comment_1": "Sử dụng API GroupDocs.Merger để chia một tệp PDF",
+      "comment_2": "Thiết lập SplitOptions với định dạng tệp đầu ra",
+      "comment_3": "Tạo một instance Merger và tải tài liệu PDF",
+      "comment_4": "Gọi phương thức chia với SplitOptions để tạo ra các tệp riêng biệt"
     }
   }
 }

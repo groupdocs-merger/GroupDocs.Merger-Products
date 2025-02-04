@@ -1,6 +1,6 @@
 {
   "platforms": {
     "title": "Indipendenza dalla piattaforma",
-    "description": "GroupDocs.Merger per Java supporta i seguenti sistemi operativi, framework e gestori di pacchetti"
+    "description": "GroupDocs.Merger per Java è progettato per funzionare senza problemi su vari sistemi operativi, framework e gestori di pacchetti, garantendo flessibilità e compatibilità per le tue esigenze di sviluppo."
   }
 }

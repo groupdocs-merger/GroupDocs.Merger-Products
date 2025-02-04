@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "Aperçu de GroupDocs.Merger pour {{ProgLang}}",
+    "description": "Une API polyvalente pour fusionner, diviser, réorganiser et affiner des documents, des diapositives et des diagrammes dans des applications {{ProgLang}}.",
+    "feature_1": {
+      "title": "Fusionnez des documents sans effort dans {{ProgLang}}",
+      "description": "Combinez sans effort des documents PDF et Office en un seul fichier à l'aide de GroupDocs.Merger pour {{ProgLang}}. Avec un support étendu des formats, cette bibliothèque garantit une intégration et une fusion sans faille de divers types de fichiers, simplifiant la gestion documentaire dans les applications {{ProgLang}}."
+    },
+    "feature_2": {
+      "title": "Simplicité dans la gestion des documents en segmentant de gros fichiers",
+      "description": "Divisez facilement de grands fichiers PDF ou Office en sections plus petites et plus faciles à gérer avec GroupDocs.Merger pour {{ProgLang}}. Personnalisez vos documents en les divisant en fonction de pages spécifiques, d'intervalles ou en extrayant des pages individuelles, améliorant ainsi l'organisation et l'efficacité du flux de travail."
+    },
+    "feature_3": {
+      "title": "Prenez le contrôle total de la structure de vos documents dans {{ProgLang}}",
+      "description": "Réorganisez, échangez ou supprimez facilement des pages pour personnaliser la mise en page de vos documents à l'aide de GroupDocs.Merger pour {{ProgLang}}. Adaptez vos fichiers pour répondre à des exigences spécifiques, offrant une flexibilité inégalée dans la création de structures documentaires sur mesure."
+    }
+  }
+}

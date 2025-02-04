@@ -1,42 +1,42 @@
 {
   "features": {
-    "title": "Funzionalità di GroupDocs.Merger",
-    "description": "Unisci, dividi e manipola senza problemi documenti PDF e Office",
+    "title": "Caratteristiche di GroupDocs.Merger",
+    "description": "Unisci, suddividi e manipola file PDF e documenti di Office con strumenti potenti.",
     "feature_1": {
       "title": "Combina file",
-      "content": "Unisci due o più documenti in un unico documento, unendo pagine specifiche o intervalli di pagine da più documenti di origine."
+      "content": "Unisci più documenti in uno, selezionando pagine specifiche o intervalli di pagine da file sorgente diversi."
     },
     "feature_2": {
       "title": "Dividi documento",
-      "content": "Utilizza l'operazione di divisione per dividere un documento di origine in più documenti risultanti, consentendo un'organizzazione e una gestione efficienti dei file."
+      "content": "Scomponi un documento in più file più piccoli, facilitando la gestione e l'organizzazione dei contenuti."
     },
     "feature_3": {
       "title": "Sposta pagine",
-      "content": "Riposiziona agevolmente una pagina all'interno di un documento sfruttando la funzione MovePage."
+      "content": "Riorganizza il tuo documento spostando le pagine in una nuova posizione utilizzando la funzionalità MovePage."
     },
     "feature_4": {
-      "title": "Rimuovi le pagine",
-      "content": "Rimuovi efficacemente singole pagine o una raccolta di numeri di pagina specifici dal documento di origine con la funzione Rimuovi pagine."
+      "title": "Rimuovi pagine",
+      "content": "Elimina pagine singole o un insieme di pagine specifiche da un documento utilizzando la funzionalità RemovePages."
     },
     "feature_5": {
-      "title": "Ruota le pagine",
-      "content": "Sfrutta l'operazione RotatePages per ruotare facilmente le pagine all'interno di un documento specificando l'angolo di rotazione come 90, 180 o 270 gradi"
+      "title": "Ruota pagine",
+      "content": "Ruota le pagine in un documento di 90, 180 o 270 gradi con la funzionalità RotatePages."
     },
     "feature_6": {
       "title": "Scambia pagine",
-      "content": "Riorganizzare l'ordine delle pagine scambiando le posizioni di due pagine all'interno del documento di origine, producendo un nuovo documento."
+      "content": "Cambia l'ordine delle pagine scambiando due pagine all'interno del documento."
     },
     "feature_7": {
       "title": "Estrai pagine",
-      "content": "Genera un nuovo documento contenente solo le pagine selezionate estraendo pagine specifiche o intervalli di pagine dal documento di origine."
+      "content": "Crea un nuovo documento contenente solo le pagine selezionate estraendo pagine specifiche o intervalli di pagine."
     },
     "feature_8": {
       "title": "Cambia orientamento",
-      "content": "Modifica l'orientamento della pagina (verticale o orizzontale) per pagine specifiche o per tutte le pagine del documento sfruttando l'operazione Modifica orientamento."
+      "content": "Cambia l'orientamento delle pagine tra verticale e orizzontale per pagine specifiche o per tutte le pagine in un documento."
     },
     "feature_9": {
-      "title": "Anteprima delle pagine",
-      "content": "Ottieni una comprensione più chiara del contenuto e della struttura del documento generando rappresentazioni di immagini delle sue pagine. Crea anteprime di tutte o solo di pagine specifiche."
+      "title": "Anteprima pagine",
+      "content": "Genera anteprime in immagine delle pagine del documento per avere una visione migliore del loro contenuto e layout."
     }
   }
 }

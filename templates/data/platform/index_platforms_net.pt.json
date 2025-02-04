@@ -1,6 +1,6 @@
 {
   "platforms": {
-    "title": "Independência de plataforma",
-    "description": "GroupDocs.Merger for .NET oferece suporte aos seguintes sistemas operacionais, estruturas e gerenciadores de pacotes"
+    "title": "Independência da Plataforma",
+    "description": "GroupDocs.Merger para .NET é projetado para funcionar de maneira fluida em vários sistemas operacionais, frameworks e gerenciadores de pacotes, oferecendo versatilidade e compatibilidade para o seu ambiente de desenvolvimento."
   }
 }

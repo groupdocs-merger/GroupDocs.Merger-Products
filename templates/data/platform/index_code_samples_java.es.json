@@ -1,25 +1,25 @@
 {
   "code_samples": {
     "title": "Ejemplos de código",
-    "description": "Algunos casos de uso de operaciones típicas de GroupDocs.Merger para Java",
+    "description": "Ejemplos de operaciones comunes de GroupDocs.Merger en Java",
     "sample_1": {
       "title": "Combinar archivos DOCX en un solo documento",
-      "content_1": "Con la función [Combinar documentos de Word](https://docs.groupdocs.com/merger/java/merge/word/) puede combinar archivos DOCX completos en un solo documento cargando el archivo de origen, agregando más archivos DOCX para unir y guardar el documento combinado.",
-      "content_2": "A continuación se muestra un fragmento de código Java que demuestra el proceso de fusión:",
-      "code_title": "Cómo fusionar archivos DOCX en Java",
-      "comment_1": "Cargue el archivo DOCX de origen",
-      "comment_2": "Agregue otro archivo DOCX para fusionar",
-      "comment_3": "Combine archivos DOCX y guarde el resultado"
+      "content_1": "Con la función de [Combinar Documentos de Word](https://docs.groupdocs.com/merger/java/merge/word/), puedes combinar múltiples archivos DOCX en uno solo. Carga el documento fuente, añade archivos DOCX adicionales y guarda el resultado combinado.",
+      "content_2": "A continuación se presenta un fragmento de código en Java que demuestra el proceso de combinación:",
+      "code_title": "Cómo combinar archivos DOCX en Java",
+      "comment_1": "Cargar el archivo DOCX fuente",
+      "comment_2": "Añadir otro archivo DOCX para combinar",
+      "comment_3": "Combinar archivos DOCX y guardar la salida"
     },
     "sample_2": {
-      "title": "Divida el documento PDF en varios archivos",
-      "content_1": "Divida un documento en varios archivos con la función [Documento dividido](https://docs.groupdocs.com/merger/java/split-document/) para simplificar el proceso de administración y extracción de secciones o páginas específicas de documentos grandes.",
-      "content_2": "Le permite dividir documentos en partes más pequeñas según varios criterios: por rango de páginas, por páginas de inicio/final, por números de página impares/pares, etc.",
-      "code_title": "Dividir el documento en varios documentos de una página",
-      "comment_1": "Divida el archivo PDF usando GroupDocs.Merger para la API de Java",
-      "comment_2": "Inicialice la clase SplitOptions con el formato de ruta de los archivos de salida",
-      "comment_3": "Instanciar fusión con documento PDF de entrada",
-      "comment_4": "Llame al método de división y pase el objeto SplitOptions para guardar los documentos resultantes"
+      "title": "Dividir un documento PDF en múltiples archivos",
+      "content_1": "Utiliza la función de [Dividir Documento](https://docs.groupdocs.com/merger/java/split-document/) para descomponer un PDF grande en archivos más pequeños y manejables. Esto es útil para extraer secciones o páginas específicas.",
+      "content_2": "Puedes dividir un documento usando varios criterios, como rango de páginas, páginas de inicio y fin específicas, o incluso números de páginas impares / pares.",
+      "code_title": "Dividir un documento en múltiples archivos de una página",
+      "comment_1": "Dividir un archivo PDF utilizando la API de GroupDocs.Merger para Java",
+      "comment_2": "Inicializa la clase SplitOptions con el formato de archivo de salida",
+      "comment_3": "Crea una instancia de Merger con el documento PDF de entrada",
+      "comment_4": "Llama al método de división con el objeto SplitOptions para generar archivos separados"
     }
   }
 }

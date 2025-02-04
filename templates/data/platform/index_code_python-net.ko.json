@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": ".NET을 통해 Python으로 PDF 파일 병합하기",
+    "more": "더 많은 예제",
+    "notes": "새로운 기능 보기",
+    "comment_1": "원본 PDF 파일을 로드합니다",
+    "comment_2": "병합할 다른 PDF 파일을 추가합니다",
+    "comment_3": "PDF 파일을 결합하고 결과를 저장합니다"
+  }
+}

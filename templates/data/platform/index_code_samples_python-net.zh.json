@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "代码示例",
+    "description": "了解在 Python 中使用 GroupDocs.Merger 的常见用例。这些示例展示了如何高效地合并和拆分文档，使用 GroupDocs.Merger for Python。",
+    "sample_1": {
+      "title": "在 Python 中将多个 DOCX 文件合并为一个文档",
+      "content_1": "GroupDocs.Merger for Python 允许您轻松地将多个 DOCX 文件合并为一个文档。使用 [合并 Word 文档](https://docs.groupdocs.com/merger/python-net/merge/word/) 功能，您可以简化文档管理，提升生产力。",
+      "content_2": "以下是一个演示合并过程的 Python 代码示例：",
+      "code_title": "示例：在 Python 中合并 DOCX 文件",
+      "comment_1": "加载第一个 DOCX 文件",
+      "comment_2": "添加更多要合并的 DOCX 文件",
+      "comment_3": "合并 DOCX 文件并保存结果"
+    },
+    "sample_2": {
+      "title": "在 Python 中将 PDF 文档拆分为多个文件",
+      "content_1": "使用 GroupDocs.Merger for Python，您可以轻松地将大型 PDF 文档拆分为较小的文件。[拆分文档](https://docs.groupdocs.com/merger/python-net/split-document/) 功能允许您根据页面范围、起始/结束页面或奇数/偶数页面等标准提取特定页面。",
+      "content_2": "此功能通过将大型文档拆分为更小、更易于管理的文件来帮助组织文件。",
+      "code_title": "如何在 Python 中将 PDF 拆分为单独文件",
+      "comment_1": "使用 GroupDocs.Merger for Python 拆分 PDF 文件",
+      "comment_2": "定义带有所需输出格式的 SplitOptions",
+      "comment_3": "用输入 PDF 文档初始化 Merger",
+      "comment_4": "使用 SplitOptions 对象调用拆分方法以生成单独文件"
+    }
+  }
+}

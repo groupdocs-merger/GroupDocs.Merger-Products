@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API для слияния документов на Python | объединение PDF, Word, Excel",
+    "description": "Python API для слияния документов. Объединяйте, разбивайте, меняйте местами, переставляйте и удаляйте страницы из файлов PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS и EPUB."
+  },
+  "header": {
+    "title_1": "Объединение документов",
+    "title_2": "с помощью API Python",
+    "description": "Мощный API для объединения, разбивания и изменения PDF и офисных файлов.",
+    "words": {
+      "for": "для"
+    }
+  },
+  "actions": {
+    "main": "Бесплатная загрузка из PyPi",
+    "alt": "Лицензирование",
+    "title": "Готовы начать?",
+    "description": "Попробуйте GroupDocs.Merger бесплатно или получите лицензию."
+  },
+  "release": {
+    "title": "Версия {0} выпущена",
+    "notes": "Узнайте, что нового",
+    "downloads": "Загрузки"
+  }
+}

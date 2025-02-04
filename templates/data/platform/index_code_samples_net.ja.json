@@ -1,25 +1,25 @@
 {
   "code_samples": {
     "title": "コードサンプル",
-    "description": ".NET 操作の典型的な GroupDocs.Merger の使用例",
+    "description": ".NETにおける一般的なGroupDocs.Merger操作の例",
     "sample_1": {
-      "title": "特定の DOCX ファイル ページを 1 つのドキュメントに結合します",
-      "content_1": "[選択的なページの結合](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) 機能を使用すると、各ファイルから必要なコンテンツのみを抽出して結合できます。",
-      "content_2": "C# を使用して選択的なページの結合を実現する方法の例を次に示します。",
-      "code_title": "C# で DOCX ファイルをマージする方法",
-      "comment_1": "ソースDOCXファイルをロードします",
-      "comment_2": "マージする別の DOCX ファイルを追加します",
-      "comment_3": "DOCX ファイルをマージし、結果を保存します"
+      "title": "DOCXファイルの特定のページを結合して単一の文書にする",
+      "content_1": "[Selective Page Merge](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/)機能を使用すると、複数のDOCXファイルから必要なページのみを抽出して結合できます。",
+      "content_2": "C#を用いた特定ページ結合の方法は次の通りです：",
+      "code_title": "C#でDOCXファイルを結合する方法",
+      "comment_1": "元のDOCXファイルを読み込む",
+      "comment_2": "特定のページを含めるために別のDOCXファイルを追加する",
+      "comment_3": "選択したページを結合して出力を保存する"
     },
     "sample_2": {
-      "title": "PDF ドキュメントを複数のファイルに分割する",
-      "content_1": "[ドキュメントの分割](https://docs.groupdocs.com/merger/net/split-document/) 機能を使用すると、ドキュメントを複数のファイルに効率的に分割でき、大きなドキュメントから特定のセクションやページを管理および抽出するプロセスが簡素化されます。",
-      "content_2": "ページ範囲別、開始ページ/終了ページ、奇数/偶数ページ番号など、さまざまな基準に基づいてドキュメントを小さな部分に分割できます。",
-      "code_title": "ドキュメントを複数の複数ページのドキュメントに分割する方法",
-      "comment_1": "GroupDocs.Merger API を使用して PDF ファイルを分割する",
-      "comment_2": "出力ファイルのパス形式で SplitOptions クラスを初期化する",
-      "comment_3": "入力 PDF ドキュメントを使用してマージャーをインスタンス化する",
-      "comment_4": "分割メソッドを呼び出し、SplitOptions オブジェクトを渡して結果のドキュメントを保存します"
+      "title": "PDF文書を複数のファイルに分割する",
+      "content_1": "[Split Document](https://docs.groupdocs.com/merger/net/split-document/)機能を使用すると、大きなPDFを複数の小さなファイルに分割できます。これは特定のセクションを抽出したり、コンテンツを効率的に整理したりするのに役立ちます。",
+      "content_2": "ページ範囲、特定の開始および終了ページ、奇数/偶数ページ番号など、さまざまな基準に基づいて文書を分割できます。",
+      "code_title": "文書を複数のマルチページファイルに分割する方法",
+      "comment_1": "GroupDocs.Merger APIを使用してPDFファイルを分割する",
+      "comment_2": "出力ファイル形式を設定するためのSplitOptionsを用意する",
+      "comment_3": "Mergerインスタンスを作成し、PDF文書を読み込む",
+      "comment_4": "SplitOptionsを使用して分割メソッドを呼び出して別々のファイルを生成する"
     }
   }
 }

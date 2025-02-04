@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API ادغام اسناد Python | ادغام PDF، Word، Excel",
+    "description": "API Python برای ادغام اسناد. ادغام، تقسیم، جابه‌جایی، تغییر ترتیب و حذف صفحات از فایل‌های PDF، Microsoft Word، Excel، PowerPoint، Visio، XPS و EPUB."
+  },
+  "header": {
+    "title_1": "ادغام اسناد",
+    "title_2": "با استفاده از API Python",
+    "description": "API قدرتمند برای ادغام، تقسیم و تغییر فایل‌های PDF و Office.",
+    "words": {
+      "for": "برای"
+    }
+  },
+  "actions": {
+    "main": "دانلود رایگان از PyPi",
+    "alt": "مجوزدهی",
+    "title": "آماده‌اید شروع کنید؟",
+    "description": "برای تست رایگان GroupDocs.Merger اقدام کنید یا مجوز دریافت کنید."
+  },
+  "release": {
+    "title": "نسخه {0} منتشر شد",
+    "notes": "کشف کنید چه چیزهایی جدید است",
+    "downloads": "دانلودها"
+  }
+}

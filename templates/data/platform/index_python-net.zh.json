@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Python 文档合并 API | 合并 PDF、Word、Excel",
+    "description": "Python API 用于文档合并。合并、拆分、交换、重新排序和删除 PDF、Microsoft Word、Excel、PowerPoint、Visio、XPS 和 EPUB 文件中的页面。"
+  },
+  "header": {
+    "title_1": "合并文档",
+    "title_2": "使用 Python API",
+    "description": "一个强大的 API 用于合并、拆分和修改 PDF 和 Office 文件。",
+    "words": {
+      "for": "用于"
+    }
+  },
+  "actions": {
+    "main": "免费下载 PyPi",
+    "alt": "许可信息",
+    "title": "准备开始了吗？",
+    "description": "免费测试 GroupDocs.Merger 或获取许可证。"
+  },
+  "release": {
+    "title": "版本 {0} 发布",
+    "notes": "了解新功能",
+    "downloads": "下载"
+  }
+}

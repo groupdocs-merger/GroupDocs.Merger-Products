@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Tổng quan về GroupDocs.Sáp nhập",
-    "description": "API để kết hợp, tách, hoán đổi, cắt hoặc xóa tài liệu, trang trình bày và sơ đồ trong các ứng dụng .NET",
+    "title": "Tổng quan về GroupDocs.Merger",
+    "description": "API để kết hợp, tách, hoán đổi, cắt bớt, hoặc loại bỏ tài liệu, slide, và sơ đồ trong các ứng dụng .NET.",
     "feature_1": {
-      "title": "Dễ dàng hợp nhất nhiều tài liệu trong C#",
-      "description": "Hợp nhất tài liệu: Kết hợp liền mạch nhiều tệp PDF và Office thành một tài liệu duy nhất, với sự hỗ trợ cho nhiều định dạng. GroupDocs.Merger dành cho .NET giúp hợp nhất tài liệu nhanh chóng và không gặp rắc rối."
+      "title": "Kết hợp nhiều tài liệu trong C# một cách dễ dàng",
+      "description": "Kết hợp nhiều tệp PDF và Office thành một tài liệu duy nhất bằng cách sử dụng GroupDocs.Merger cho .NET. Với sự hỗ trợ cho nhiều định dạng, việc kết hợp tài liệu trở nên nhanh chóng và đơn giản."
     },
     "feature_2": {
-      "title": "Đơn giản hóa việc quản lý tài liệu bằng cách chia nhỏ các tệp lớn",
-      "description": "Chia nhỏ các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn một cách dễ dàng. GroupDocs.Merger dành cho .NET cho phép bạn phân chia tài liệu dựa trên các trang, phạm vi cụ thể hoặc thậm chí trích xuất các trang riêng lẻ một cách dễ dàng."
+      "title": "Đơn giản hóa quản lý tài liệu bằng cách tách các tệp lớn",
+      "description": "Phân chia các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn. GroupDocs.Merger cho .NET cho phép bạn tách tài liệu theo trang cụ thể, khoảng hoặc trích xuất các trang cá nhân."
     },
     "feature_3": {
-      "title": "Thao tác với các trang và tùy chỉnh cấu trúc tài liệu - sắp xếp lại, hoán đổi hoặc xóa",
-      "description": "Kiểm soát tài liệu của bạn bằng cách sắp xếp lại các trang, xóa các trang không mong muốn hoặc thêm các trang mới. GroupDocs.Merger dành cho .NET trao quyền cho bạn thao tác cấu trúc tài liệu, cho phép bạn tùy chỉnh và điều chỉnh các tệp theo nhu cầu cụ thể của mình."
+      "title": "Xử lý các trang và tùy chỉnh cấu trúc tài liệu - thay đổi thứ tự, hoán đổi, hoặc loại bỏ",
+      "description": "Kiểm soát hoàn toàn tài liệu của bạn bằng cách thay đổi thứ tự, hoán đổi, hoặc loại bỏ các trang. GroupDocs.Merger cho .NET cung cấp sự linh hoạt để tùy chỉnh cấu trúc tài liệu theo các yêu cầu cụ thể của bạn."
     }
   }
 }

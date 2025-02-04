@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "Node.js API ادغام سند | ادغام PDF Word Excel",
-    "description": "API ادغام اسناد برای Node.js. ادغام، تقسیم، مبادله، ترتیب مجدد و حذف صفحات از فرمت های PDF، مایکروسافت Word، Excel، ارائه ها، Visio، XPS و EPUB."
+    "title": "API ادغام اسناد Node.js | ادغام PDF، Word، Excel",
+    "description": "API Node.js برای ادغام اسناد. ادغام، تقسیم، تعویض، تغییر ترتیب و حذف صفحات از فایل‌های PDF، Microsoft Word، Excel، PowerPoint، Visio، XPS و EPUB."
   },
   "header": {
     "title_1": "ادغام اسناد",
-    "title_2": "از طریق API Node.js",
-    "description": "API ادغام انعطاف پذیر برای ترکیب، تقسیم یا اصلاح PDF و اسناد آفیس به راحتی",
+    "title_2": "با API Node.js",
+    "description": "API انعطاف‌پذیر برای ترکیب، تقسیم و ویرایش اسناد PDF و Office.",
     "words": {
       "for": "برای"
     }
   },
   "actions": {
     "main": "دانلود رایگان NPM",
-    "alt": "صدور مجوز",
-    "title": "آماده شروع هستید؟",
-    "description": "ویژگی های GroupDocs.Merger را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
+    "alt": "مجوزها",
+    "title": "آیا آماده شروع هستید؟",
+    "description": "GroupDocs.Merger را به صورت رایگان بررسی کنید یا درخواست مجوز دهید"
   },
   "release": {
     "title": "نسخه {0} منتشر شد",
-    "notes": "چیزهای جدید را ببینید",
+    "notes": "آخرین بروزرسانی‌ها را مشاهده کنید",
     "downloads": "دانلودها"
   }
 }

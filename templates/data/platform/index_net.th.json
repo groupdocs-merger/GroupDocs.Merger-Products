@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "API การผสานเอกสาร C# .NET | รวมและแยก PDF Word Excel EPUB",
-    "description": "API การผสานเอกสาร C# .NET เพื่อรวม แยก สลับ หรือลบหน้าเอกสารจากรูปแบบ PDF, Microsoft Word, Excel, งานนำเสนอ, Visio และรูปภาพ"
+    "title": "C# .NET API สำหรับการรวมเอกสาร | รวมและแยก PDF, Word, Excel, EPUB",
+    "description": "API สำหรับการรวมเอกสาร C# .NET รวม แยก สลับ หรือ ลบหน้าออกจากไฟล์ PDF, Microsoft Word, Excel, PowerPoint, Visio และไฟล์ภาพ."
   },
   "header": {
     "title_1": "รวมเอกสาร",
-    "title_2": "ผ่าน .NET API",
-    "description": "API การควบรวมกิจการที่มีประสิทธิภาพเพื่อจัดการไฟล์ PDF, Microsoft Office, HTML และรูปภาพ",
+    "title_2": "ผ่าน API .NET",
+    "description": "API ที่ทรงพลังสำหรับการรวม แยก และจัดการไฟล์ PDF, Office, HTML และไฟล์ภาพ.",
     "words": {
       "for": "สำหรับ"
     }
   },
   "actions": {
     "main": "ดาวน์โหลด NuGet ฟรี",
-    "alt": "การออกใบอนุญาต",
-    "title": "พร้อมที่จะเริ่มต้นหรือยัง",
-    "description": "ลองใช้คุณสมบัติ GroupDocs.Merger ฟรีหรือขอใบอนุญาต"
+    "alt": "การอนุญาต",
+    "title": "พร้อมเริ่มต้นแล้วหรือยัง?",
+    "description": "ทดลองใช้ GroupDocs.Merger ได้ฟรีหรือขอใบอนุญาต"
   },
   "release": {
-    "title": "เปิดตัวเวอร์ชัน {0}",
-    "notes": "ดูว่ามีอะไรใหม่",
-    "downloads": "ดาวน์โหลด"
+    "title": "เวอร์ชัน {0} ได้รับการเผยแพร่",
+    "notes": "ดูสิ่งที่ใหม่",
+    "downloads": "การดาวน์โหลด"
   }
 }

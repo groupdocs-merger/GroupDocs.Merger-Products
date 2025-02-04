@@ -1,42 +1,42 @@
 {
   "features": {
     "title": "Hauptmerkmale von GroupDocs.Merger für Node.js",
-    "description": "Fügen Sie Dokumente in den Formaten PDF und Office mithilfe von GroupDocs.Merger in einer Node.js -Umgebung effizient zusammen, teilen und bearbeiten Sie sie.",
+    "description": "Fügen Sie Dokumente in PDF- und Office-Formaten nahtlos zusammen, teilen Sie sie und verwalten Sie sie mit GroupDocs.Merger in einer Node.js-Umgebung.",
     "feature_1": {
-      "title": "Nahtlose Kombination von Dokumenten",
-      "content": "Fügen Sie mühelos mehrere Dokumente zu einem zusammen, indem Sie bestimmte Seiten oder Bereiche aus verschiedenen Dateien kombinieren, indem Sie GroupDocs.Merger für Node.js verwenden."
+      "title": "Nahtlose Dokumentenkombination",
+      "content": "Kombinieren Sie mehrere Dokumente zu einer einzigen Datei, indem Sie spezifische Seiten oder Bereiche aus verschiedenen Quellen mit GroupDocs.Merger für Node.js auswählen."
     },
     "feature_2": {
-      "title": "Funktionen zum Aufteilen von Dokumenten",
-      "content": "Teilen Sie ein einzelnes Dokument zur besseren Verwaltung und Organisation in mehrere kleinere Dateien auf, indem Sie die umfassende Aufteilungsfunktion von GroupDocs.Merger für Node.js verwenden."
+      "title": "Dokumenttrennungsfunktionen",
+      "content": "Teilen Sie ein großes Dokument in kleinere, besser handhabbare Dateien mit den erweiterten Trennungswerkzeugen, die von GroupDocs.Merger für Node.js bereitgestellt werden."
     },
     "feature_3": {
-      "title": "Effizientes Verschieben von Seiten",
-      "content": "Mithilfe der intuitiven MovePage-Funktion in der Umgebung von Node.js können Sie Seiten innerhalb eines Dokuments an Ihre Anforderungen anpassen."
+      "title": "Effiziente Seitenverschiebung",
+      "content": "Ordnen Sie Seiten innerhalb eines Dokuments nach Ihren Bedürfnissen um, indem Sie die MovePage-Funktion nutzen, die für eine nahtlose Integration in Node.js entwickelt wurde."
     },
     "feature_4": {
-      "title": "Optionen zum Entfernen von Seiten",
-      "content": "Entfernen Sie einfach unnötige Seiten oder bestimmte Seitenzahlen mit der removePages-Funktion von GroupDocs.Merger, die auf Node.js zugeschnitten ist."
+      "title": "Seitenentfernungsoptionen",
+      "content": "Entfernen Sie unerwünschte Seiten oder spezifische Seitenzahlen mühelos mit der RemovePages-Funktion in GroupDocs.Merger für Node.js."
     },
     "feature_5": {
-      "title": "Funktionalität zum Drehen von Seiten",
-      "content": "Drehen Sie Seiten innerhalb eines Dokuments mithilfe der einfachen RotatePages-Operation in die gewünschte Ausrichtung — 90, 180 oder 270 Grad."
+      "title": "Seitenrotationsfunktionalität",
+      "content": "Passen Sie die Ausrichtung der Seiten auf 90, 180 oder 270 Grad mit der einfachen und effektiven RotatePages-Operation an."
     },
     "feature_6": {
-      "title": "Funktion zum Austauschen von Seiten",
-      "content": "Ändern Sie die Reihenfolge der Seiten Ihres Dokuments, indem Sie ihre Positionen vertauschen und so mit der Funktion SwapPages ein neu organisiertes Dokument erstellen."
+      "title": "Seitenwechsel-Funktion",
+      "content": "Organisieren Sie Ihr Dokument neu, indem Sie die Positionen der Seiten mit der SwapPages-Funktion in GroupDocs.Merger für Node.js tauschen."
     },
     "feature_7": {
-      "title": "Selektive Seitenextraktion",
-      "content": "Erstellen Sie ein neues Dokument aus ausgewählten Seiten oder Seitenbereichen und extrahieren Sie nur den erforderlichen Inhalt mit GroupDocs.Merger für Node.js."
+      "title": "Selektive Seitenauswahl",
+      "content": "Extrahieren Sie spezifische Seiten oder Bereiche, um ein neues Dokument zu erstellen, das sich nur auf den benötigten Inhalt mit GroupDocs.Merger für Node.js konzentriert."
     },
     "feature_8": {
-      "title": "Tool zur Änderung der Ausrichtung",
-      "content": "Ändern Sie die Ausrichtung bestimmter oder aller Seiten vom Hochformat ins Querformat oder umgekehrt, indem Sie die ChangeOrientation-Funktion in Ihren Node.js -Projekten verwenden."
+      "title": "Werkzeug zur Ausrichtungsänderung",
+      "content": "Wechseln Sie die Ausrichtung von Seiten von Hochformat auf Querformat oder umgekehrt mit der ChangeOrientation-Funktion in Ihren Node.js-Anwendungen."
     },
     "feature_9": {
-      "title": "Seitenvorschauen von Dokumenten",
-      "content": "Generieren Sie mithilfe der Funktion PreviewPages in Node.js Bildvorschauen von Dokumentseiten, um deren Inhalt und Layout besser zu verstehen."
+      "title": "Dokumentseitenvorschau",
+      "content": "Generieren Sie Bildvorschauen der Dokumentseiten, um deren Inhalt und Layout mit der PreviewPages-Funktion in Node.js zu überprüfen."
     }
   }
 }

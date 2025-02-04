@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger for Pythonの主な機能",
+    "description": "GroupDocs.Mergerを使用して、Python環境でPDFやOfficeファイルをシームレスにマージ、分割、編集し、文書の取り扱いを簡素化します。",
+    "feature_1": {
+      "title": "シームレスな文書の統合",
+      "content": "GroupDocs.Merger for Pythonを使用して、さまざまなファイルから特定のページや範囲を選択して複数の文書を1つに結合します。"
+    },
+    "feature_2": {
+      "title": "文書分割機能",
+      "content": "GroupDocs.Merger for Pythonに備わった高度な分割ツールを使用して、大きな文書をより管理しやすい小さなファイルに分けます。"
+    },
+    "feature_3": {
+      "title": "効率的なページ移動",
+      "content": "Pythonの直感的なMovePage機能を使用して、ニーズに合わせて文書内のページの位置を再配置します。"
+    },
+    "feature_4": {
+      "title": "ページ削除オプション",
+      "content": "GroupDocs.Merger for PythonのRemovePages機能を使用して、不要なページや特定のページ番号を簡単に削除します。"
+    },
+    "feature_5": {
+      "title": "ページ回転機能",
+      "content": "ページを90、180、または270度回転させる、シンプルなRotatePages操作を使用します。"
+    },
+    "feature_6": {
+      "title": "ページ入れ替え機能",
+      "content": "GroupDocs.Merger for PythonのSwapPages機能を使用して、ページの位置を入れ替えて文書を再編成します。"
+    },
+    "feature_7": {
+      "title": "選択的ページ抽出",
+      "content": "GroupDocs.Merger for Pythonを使用して、特定のページや範囲を抽出し、新しい文書を作成します。必要な内容にのみ焦点を当てます。"
+    },
+    "feature_8": {
+      "title": "向き変更ツール",
+      "content": "Pythonプロジェクトで、ページの向きをポートレートからランドスケープへ、またはその逆に変更します。"
+    },
+    "feature_9": {
+      "title": "文書ページのプレビュー",
+      "content": "PythonのPreviewPages機能を使用して、文書ページのイメージプレビューを生成し、内容とレイアウトを確認します。"
+    }
+  }
+}

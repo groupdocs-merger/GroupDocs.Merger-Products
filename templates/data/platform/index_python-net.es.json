@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API de fusión de documentos Python | fusionar PDF, Word, Excel",
+    "description": "API de Python para la fusión de documentos. Fusiona, divide, intercambia, reordena y elimina páginas de archivos PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS y EPUB."
+  },
+  "header": {
+    "title_1": "Fusionar documentos",
+    "title_2": "usando la API de Python",
+    "description": "Una API potente para fusionar, dividir y modificar archivos PDF y de Office.",
+    "words": {
+      "for": "para"
+    }
+  },
+  "actions": {
+    "main": "Descarga gratuita de PyPi",
+    "alt": "Licenciamiento",
+    "title": "¿Listo para comenzar?",
+    "description": "Prueba GroupDocs.Merger gratis o adquiere una licencia."
+  },
+  "release": {
+    "title": "Versión {0} lanzada",
+    "notes": "Descubre las novedades",
+    "downloads": "Descargas"
+  }
+}

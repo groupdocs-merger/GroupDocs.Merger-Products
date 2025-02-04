@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Ikhtisar GroupDocs.Merger untuk Node.js",
-    "description": "API komprehensif untuk menggabungkan, memisahkan, menata ulang, dan menyempurnakan dokumen, slide, dan diagram dalam aplikasi Node.js.",
+    "title": "Gambaran Umum GroupDocs.Merger untuk Node.js",
+    "description": "API yang kuat untuk menggabungkan, membagi, menyusun ulang, dan memperbaiki dokumen, slide, dan diagram dalam aplikasi Node.js.",
     "feature_1": {
-      "title": "Gabungkan Dokumen dengan Mudah di Node.js",
-      "description": "Manfaatkan GroupDocs.Merger untuk Node.js untuk menggabungkan dokumen PDF dan Office dengan mudah ke dalam file terpadu. Pustaka ini memperluas dukungan format yang luas, memungkinkan integrasi yang lancar dan penggabungan berbagai jenis file, sehingga meningkatkan proses manajemen dokumen dalam aplikasi Node.js."
+      "title": "Gabungkan dokumen dengan lancar di Node.js",
+      "description": "Gabungkan dokumen PDF dan Office menjadi satu file tanpa kesulitan menggunakan GroupDocs.Merger untuk Node.js. Dengan dukungan format yang luas, pustaka ini menjamin integrasi dan penggabungan berbagai tipe file secara mulus, menyederhanakan manajemen dokumen dalam aplikasi Node.js."
     },
     "feature_2": {
-      "title": "Sederhanakan Penanganan Dokumen dengan Mensegmentasi File Besar",
-      "description": "Dengan GroupDocs.Merger untuk Node.js, Anda dapat dengan mudah membagi file besar PDF atau Office menjadi bagian-bagian yang lebih mudah dikelola. Sesuaikan dokumen Anda dengan membaginya berdasarkan halaman tertentu, rentang, atau ekstraksi halaman individual, meningkatkan organisasi dan efisiensi alur kerja dokumen Anda."
+      "title": "Sederhanakan penanganan dokumen dengan membagi file besar",
+      "description": "Dengan efisien membagi file PDF atau Office yang besar menjadi bagian yang lebih kecil dan lebih mudah dikelola menggunakan GroupDocs.Merger untuk Node.js. Sesuaikan dokumen Anda dengan membaginya berdasar halaman tertentu, rentang, atau mengekstrak halaman individu, meningkatkan organisasi dan efisiensi alur kerja."
     },
     "feature_3": {
-      "title": "Dapatkan Kontrol Penuh Atas Struktur Dokumen Anda di Node.js",
-      "description": "Tentukan ulang tata letak dokumen Anda dengan mudah mengatur ulang, bertukar, atau membuang halaman menggunakan GroupDocs.Merger untuk Node.js. Sesuaikan dokumen Anda untuk memenuhi kebutuhan unik, memberikan fleksibilitas yang tak tertandingi dalam membangun konfigurasi file khusus."
+      "title": "Dapatkan kontrol penuh atas struktur dokumen Anda di Node.js",
+      "description": "Dengan mudah menyusun ulang, menukar, atau menghapus halaman untuk menyesuaikan tata letak dokumen Anda menggunakan GroupDocs.Merger untuk Node.js. Sesuaikan file Anda untuk memenuhi kebutuhan tertentu, menawarkan fleksibilitas yang tiada tara dalam menciptakan struktur dokumen yang disesuaikan."
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "code": {
-    "title": "Menggabungkan file PDF di Java",
-    "more": "Lebih banyak contoh",
-    "notes": "Lihat apa yang baru",
+    "title": "Gabungkan file PDF menggunakan Java",
+    "more": "Contoh lebih lanjut",
+    "notes": "Lihat fitur terbaru",
     "comment_1": "Muat file PDF sumber",
     "comment_2": "Tambahkan file PDF lain untuk digabungkan",
     "comment_3": "Gabungkan file PDF dan simpan hasilnya"

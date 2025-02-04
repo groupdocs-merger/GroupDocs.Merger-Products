@@ -1,6 +1,6 @@
 {
   "platforms": {
     "title": "平台独立性",
-    "description": "GroupDocs.Merger for .NET 支持以下操作系统、框架和包管理器"
+    "description": "GroupDocs.Merger for .NET 旨在能够在多个操作系统、框架和包管理器上顺畅运行，为您的开发环境提供灵活性和兼容性。"
   }
 }

@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "Combinar archivos PDF en Java",
+    "title": "Fusionar archivos PDF en Java",
     "more": "Más ejemplos",
-    "notes": "Ver qué hay de nuevo",
-    "comment_1": "Cargue el archivo PDF de origen",
-    "comment_2": "Agregue otro archivo PDF para fusionar",
-    "comment_3": "Combinar archivos PDF y guardar el resultado"
+    "notes": "Consulta las novedades",
+    "comment_1": "Cargar el archivo PDF fuente",
+    "comment_2": "Agregar otro archivo PDF para combinar",
+    "comment_3": "Fusionar archivos PDF y guardar el resultado"
   }
 }

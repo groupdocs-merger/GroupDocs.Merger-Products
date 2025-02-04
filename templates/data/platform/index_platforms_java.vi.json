@@ -1,6 +1,6 @@
 {
   "platforms": {
-    "title": "Nền tảng độc lập",
-    "description": "GroupDocs.Merger cho Java hỗ trợ các hệ điều hành, khung và trình quản lý gói sau"
+    "title": "Tính độc lập của nền tảng",
+    "description": "GroupDocs.Merger cho Java được thiết kế để hoạt động mượt mà trên nhiều hệ điều hành, khung công tác và trình quản lý gói khác nhau, đảm bảo tính linh hoạt và khả năng tương thích cho nhu cầu phát triển của bạn."
   }
 }

@@ -1,42 +1,42 @@
 {
   "features": {
-    "title": "GroupDocs.Merger-Funktionen",
-    "description": "PDF- und Office-Dokumente nahtlos zusammenführen, teilen und bearbeiten",
+    "title": "Funktionen von GroupDocs.Merger",
+    "description": "Kombinieren, aufteilen und bearbeiten Sie PDF- und Office-Dokumente mit leistungsstarken Tools.",
     "feature_1": {
       "title": "Dateien kombinieren",
-      "content": "Führen Sie zwei oder mehr Dokumente zu einem einzigen Dokument zusammen, indem Sie bestimmte Seiten oder Seitenbereiche aus mehreren Quelldokumenten zusammenführen."
+      "content": "Fügen Sie mehrere Dokumente zu einem zusammen, indem Sie bestimmte Seiten oder Seitenbereiche aus verschiedenen Quelldateien auswählen."
     },
     "feature_2": {
-      "title": "Dokument teilen",
-      "content": "Nutzen Sie den Aufteilungsvorgang, um ein Quelldokument in mehrere resultierende Dokumente aufzuteilen und so eine effiziente Organisation und Verwaltung von Dateien zu ermöglichen."
+      "title": "Dokument aufteilen",
+      "content": "Zerlegen Sie ein Dokument in mehrere kleinere Dateien, um den Inhalt einfacher zu verwalten und zu organisieren."
     },
     "feature_3": {
       "title": "Seiten verschieben",
-      "content": "Positionieren Sie eine Seite innerhalb eines Dokuments reibungslos neu, indem Sie die MovePage-Funktion nutzen."
+      "content": "Ändern Sie die Reihenfolge Ihres Dokuments, indem Sie Seiten mit der Funktion MovePage an eine neue Position verschieben."
     },
     "feature_4": {
       "title": "Seiten entfernen",
-      "content": "Entfernen Sie mit der Funktion „RemovePages“ effektiv einzelne Seiten oder eine Sammlung bestimmter Seitenzahlen aus dem Quelldokument."
+      "content": "Löschen Sie einzelne Seiten oder eine Gruppe spezifischer Seiten aus einem Dokument mit der Funktion RemovePages."
     },
     "feature_5": {
       "title": "Seiten drehen",
-      "content": "Nutzen Sie den RotatePages-Vorgang, um Seiten innerhalb eines Dokuments einfach zu drehen, indem Sie den Drehwinkel auf 90, 180 oder 270 Grad festlegen"
+      "content": "Drehen Sie Seiten in einem Dokument um 90, 180 oder 270 Grad mit der Funktion RotatePages."
     },
     "feature_6": {
       "title": "Seiten tauschen",
-      "content": "Ordnen Sie die Seitenreihenfolge neu, indem Sie die Positionen zweier Seiten im Quelldokument austauschen und so ein neues Dokument erstellen."
+      "content": "Ändern Sie die Reihenfolge der Seiten, indem Sie zwei Seiten innerhalb des Dokuments tauschen."
     },
     "feature_7": {
       "title": "Seiten extrahieren",
-      "content": "Erstellen Sie ein neues Dokument, das nur die ausgewählten Seiten enthält, indem Sie bestimmte Seiten oder Seitenbereiche aus dem Quelldokument extrahieren."
+      "content": "Erstellen Sie ein neues Dokument, das nur die ausgewählten Seiten enthält, indem Sie spezifische Seiten oder Seitenbereiche extrahieren."
     },
     "feature_8": {
       "title": "Orientierung ändern",
-      "content": "Ändern Sie die Seitenausrichtung (Hoch- oder Querformat) für bestimmte Seiten oder alle Seiten des Dokuments, indem Sie den ChangeOrientation-Vorgang nutzen."
+      "content": "Ändern Sie die Seitenorientierung zwischen Hochformat und Querformat für spezifische oder alle Seiten in einem Dokument."
     },
     "feature_9": {
-      "title": "Vorschauseiten",
-      "content": "Gewinnen Sie ein klareres Verständnis des Inhalts und der Struktur des Dokuments, indem Sie Bilddarstellungen seiner Seiten erstellen. Erstellen Sie eine Vorschau aller oder nur bestimmter Seiten."
+      "title": "Seitenvorschau",
+      "content": "Generieren Sie Bildvorschauen von Dokumentseiten, um eine bessere Ansicht ihres Inhalts und Layouts zu erhalten."
     }
   }
 }

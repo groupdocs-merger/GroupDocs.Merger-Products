@@ -1,11 +1,11 @@
 {
   "formats": {
-    "title": "فرمت های فایل پشتیبانی شده",
-    "description": "GroupDocs.Merger for Java [قالب‌های فایل سند](https://docs.groupdocs.com/merger/java/supported-document-formats/) برای جاوا از عملیات با",
+    "title": "فرمت‌های پشتیبانی شده",
+    "description": "GroupDocs.Merger برای Java عملیات بدون درز را با مجموعه گسترده‌ای از [فرمت‌های فایل](https://docs.groupdocs.com/merger/java/supported-document-formats/) امکان‌پذیر می‌سازد.",
     "groups": {
-      "title_1": "فرمت های مایکروسافت آفیس",
+      "title_1": "فرمت‌های مایکروسافت آفیس",
       "title_2": "اسناد و تصاویر",
-      "title_3": "فرمت های دیگر",
+      "title_3": "فرمت‌های دیگر",
       "format_documents": "اسناد",
       "format_images": "تصاویر",
       "format_web": "وب",

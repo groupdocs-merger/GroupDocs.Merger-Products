@@ -1,42 +1,42 @@
 {
   "features": {
     "title": "Các tính năng của GroupDocs.Merger",
-    "description": "Liên tục hợp nhất, chia nhỏ và thao tác Tài liệu PDF và Office",
+    "description": "Hợp nhất, chia tách và quản lý tài liệu PDF và Office một cách hiệu quả.",
     "feature_1": {
-      "title": "Hợp nhất các tệp",
-      "content": "Kết hợp hai hoặc nhiều tài liệu thành một tài liệu duy nhất, hợp nhất các trang hoặc phạm vi trang cụ thể từ nhiều tài liệu nguồn."
+      "title": "Hợp nhất tệp",
+      "content": "Kết hợp nhiều tài liệu thành một, hợp nhất toàn bộ tệp hoặc các trang cụ thể từ các nguồn khác nhau."
     },
     "feature_2": {
-      "title": "Tách tài liệu",
-      "content": "Chia tài liệu nguồn thành nhiều tài liệu kết quả bằng cách sử dụng thao tác chia."
+      "title": "Chia tách tài liệu",
+      "content": "Phân chia một tài liệu thành nhiều tệp nhỏ hơn để tổ chức và quản lý tốt hơn."
     },
     "feature_3": {
       "title": "Di chuyển trang",
-      "content": "Định vị lại các trang trong tài liệu bằng tính năng MovePage."
+      "content": "Sắp xếp lại các trang trong tài liệu bằng cách di chuyển chúng đến vị trí mới."
     },
     "feature_4": {
       "title": "Xóa trang",
-      "content": "Xóa các trang riêng lẻ hoặc tập hợp các số trang cụ thể khỏi tài liệu nguồn."
+      "content": "Xoá các trang cụ thể hoặc nhiều trang đã chọn trong tài liệu."
     },
     "feature_5": {
       "title": "Xoay trang",
-      "content": "Xoay các trang trong tài liệu bằng cách đặt góc xoay thành 90, 180 hoặc 270 độ bằng thao tác Xoay trang."
+      "content": "Xoay các trang trong tài liệu theo 90, 180 hoặc 270 độ theo nhu cầu."
     },
     "feature_6": {
-      "title": "Hoán đổi trang",
-      "content": "Trao đổi vị trí của hai trang trong tài liệu nguồn, tạo một tài liệu mới với các vị trí trang được hoán đổi."
+      "title": "Đổi chỗ trang",
+      "content": "Hoán đổi vị trí của hai trang trong tài liệu để có cách sắp xếp tốt hơn."
     },
     "feature_7": {
       "title": "Trích xuất trang",
-      "content": "Trích xuất các trang hoặc phạm vi trang cụ thể từ tài liệu nguồn, tạo tài liệu mới chỉ chứa các trang đã chọn."
+      "content": "Chọn và trích xuất các trang cụ thể hoặc dải trang để tạo thành một tài liệu mới."
     },
     "feature_8": {
       "title": "Thay đổi hướng",
-      "content": "Đặt hướng trang (dọc hoặc ngang) cho các trang cụ thể hoặc tất cả các trang của tài liệu bằng cách sử dụng thao tác Thay đổi hướng."
+      "content": "Điều chỉnh hướng trang thành chân dung hoặc phong cảnh cho các trang đã chọn hoặc tất cả các trang."
     },
     "feature_9": {
-      "title": "Xem trước các trang",
-      "content": "Tạo các hình ảnh đại diện cho các trang tài liệu để hiểu nội dung và cấu trúc tốt hơn. Tạo bản xem trước của tất cả hoặc chỉ các trang cụ thể."
+      "title": "Xem trước trang",
+      "content": "Tạo hình ảnh xem trước của các trang tài liệu để có cái nhìn rõ ràng về nội dung và bố cục của chúng."
     }
   }
 }

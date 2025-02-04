@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Code-Beispiele",
+    "description": "Entdecken Sie gängige Anwendungsfälle für GroupDocs.Merger in {{ProgLang}}. Diese Beispiele zeigen, wie Sie Dokumente effizient zusammenführen und aufteilen können, indem Sie GroupDocs.Merger für {{ProgLang}} verwenden.",
+    "sample_1": {
+      "title": "Mehrere DOCX-Dateien zu einem Dokument in {{ProgLang}} zusammenführen",
+      "content_1": "GroupDocs.Merger für {{ProgLang}} ermöglicht es Ihnen, mehrere DOCX-Dateien zu einem einzigen Dokument zu kombinieren. Mit der Funktion [Word-Dokumente zusammenführen](https://docs.groupdocs.com/merger/python-net/merge/word/) können Sie das Dokumentenmanagement optimieren und die Produktivität steigern.",
+      "content_2": "Nachfolgend finden Sie ein {{ProgLang}}-Codebeispiel, das den Zusammenführungsprozess demonstriert:",
+      "code_title": "Beispiel: Zusammenführen von DOCX-Dateien in {{ProgLang}}",
+      "comment_1": "Laden Sie die erste DOCX-Datei",
+      "comment_2": "Fügen Sie weitere DOCX-Dateien hinzu, um sie zusammenzuführen",
+      "comment_3": "Führen Sie die DOCX-Dateien zusammen und speichern Sie das Ergebnis"
+    },
+    "sample_2": {
+      "title": "Teilen Sie ein PDF-Dokument in mehrere Dateien in {{ProgLang}}",
+      "content_1": "Mit GroupDocs.Merger für {{ProgLang}} können Sie große PDF-Dokumente problemlos in kleinere Dateien aufteilen. Die Funktion [Dokument aufteilen](https://docs.groupdocs.com/merger/python-net/split-document/) ermöglicht es Ihnen, bestimmte Seiten basierend auf Kriterien wie Seitenbereich, Start-/Endseiten oder ungeraden/geraden Seiten zu extrahieren.",
+      "content_2": "Diese Funktion hilft, große Dokumente zu organisieren, indem sie in kleinere, handhabbare Dateien zerlegt werden.",
+      "code_title": "So teilen Sie ein PDF in separate Dateien in {{ProgLang}}",
+      "comment_1": "Verwenden Sie GroupDocs.Merger für {{ProgLang}}, um die PDF-Datei zu teilen",
+      "comment_2": "Definieren Sie SplitOptions mit dem gewünschten Ausgabeformat",
+      "comment_3": "Initialisieren Sie den Merger mit dem Eingabe-PDF-Dokument",
+      "comment_4": "Rufen Sie die Split-Methode mit dem SplitOptions-Objekt auf, um separate Dateien zu erstellen"
+    }
+  }
+}

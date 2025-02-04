@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API hợp nhất tài liệu Python | hợp nhất PDF, Word, Excel",
+    "description": "API Python cho việc hợp nhất tài liệu. Hợp nhất, tách, hoán đổi, sắp xếp lại và xóa trang từ các tệp PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS và EPUB."
+  },
+  "header": {
+    "title_1": "Hợp nhất tài liệu",
+    "title_2": "sử dụng API Python",
+    "description": "Một API mạnh mẽ cho việc hợp nhất, tách và chỉnh sửa các tệp PDF và Office.",
+    "words": {
+      "for": "cho"
+    }
+  },
+  "actions": {
+    "main": "Tải xuống miễn phí từ PyPi",
+    "alt": "Cấp phép",
+    "title": "Sẵn sàng bắt đầu chưa?",
+    "description": "Hãy thử GroupDocs.Merger miễn phí hoặc nhận giấy phép."
+  },
+  "release": {
+    "title": "Phiên bản {0} đã phát hành",
+    "notes": "Khám phá những gì mới",
+    "downloads": "Tải xuống"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "Java 을 통해 Node.js 파일의 PDF 개 파일 병합",
-    "more": "더 많은 예시",
-    "notes": "새 소식 보기",
-    "comment_1": "소스 PDF 파일을 로드합니다.",
-    "comment_2": " 병합할 다른 PDF 파일 추가",
-    "comment_3": "PDF 개의 파일 병합 및 결과 저장"
+    "title": "Node.js를 통한 Java로 PDF 파일 병합",
+    "more": "더 많은 예제",
+    "notes": "새로운 기능 보기",
+    "comment_1": "원본 PDF 파일 로드",
+    "comment_2": "결합할 다른 PDF 파일 추가",
+    "comment_3": "PDF 파일을 병합하고 결과 저장"
   }
 }

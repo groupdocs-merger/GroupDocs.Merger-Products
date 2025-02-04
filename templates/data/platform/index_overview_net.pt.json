@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Resumo do GroupDocs.Merger",
-    "description": "API para combinar, dividir, trocar, aparar ou remover documentos, slides e diagramas em aplicativos .NET",
+    "title": "Visão geral do GroupDocs.Merger",
+    "description": "API para combinar, dividir, trocar, recortar ou remover documentos, apresentações e diagramas em aplicações .NET.",
     "feature_1": {
-      "title": "Mescle facilmente vários documentos em C#",
-      "description": "Mesclar documentos: combine perfeitamente vários arquivos PDF e Office em um único documento, com suporte para uma ampla variedade de formatos. GroupDocs.Merger para .NET torna a fusão de documentos rápida e sem complicações."
+      "title": "Mescle vários documentos em C# sem esforço",
+      "description": "Combine múltiplos arquivos PDF e Office em um único documento utilizando o GroupDocs.Merger para .NET. Com suporte a uma ampla gama de formatos, a fusão de documentos torna-se rápida e direta."
     },
     "feature_2": {
-      "title": "Simplifique o gerenciamento de documentos dividindo arquivos grandes",
-      "description": "Divida grandes arquivos PDF ou Office em partes menores e mais gerenciáveis ​​com facilidade. GroupDocs.Merger para .NET permite que você divida documentos com base em páginas específicas, intervalos ou até mesmo extraia páginas individuais sem esforço."
+      "title": "Simplifique a gestão de documentos dividindo arquivos grandes",
+      "description": "Divida arquivos PDF ou Office grandes em seções menores e mais manejáveis. O GroupDocs.Merger para .NET permite que você divida documentos por páginas específicas, intervalos ou extraia páginas individuais."
     },
     "feature_3": {
-      "title": "Manipule páginas e personalize a estrutura do documento - reordene, troque ou remova",
-      "description": "Assuma o controle de seus documentos reorganizando páginas, removendo páginas indesejadas ou adicionando novas. GroupDocs.Merger for .NET permite que você manipule a estrutura do documento, permitindo que você personalize e adapte seus arquivos de acordo com suas necessidades específicas."
+      "title": "Manipule páginas e personalize a estrutura do documento - reorganizar, trocar ou remover",
+      "description": "Tenha controle total sobre seus documentos reordenando, trocando ou removendo páginas. O GroupDocs.Merger para .NET oferece a flexibilidade para personalizar a estrutura do seu documento para atender às suas necessidades específicas."
     }
   }
 }

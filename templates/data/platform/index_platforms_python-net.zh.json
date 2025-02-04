@@ -1,0 +1,6 @@
+{
+  "platforms": {
+    "title": "平台独立性",
+    "description": "GroupDocs.Merger for Python 能够在多个操作系统、框架和包管理工具上顺畅运行，为您的开发环境提供灵活性和兼容性。"
+  }
+}

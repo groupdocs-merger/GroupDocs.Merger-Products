@@ -1,15 +1,15 @@
 {
   "formats": {
     "title": "รูปแบบไฟล์ที่รองรับ",
-    "description": "GroupDocs.Merger สำหรับ .NET รองรับการดำเนินการกับ [รูปแบบไฟล์เอกสาร](https://docs.groupdocs.com/merger/net/supported-document-formats/) ต่อไปนี้",
+    "description": "GroupDocs.Merger สำหรับ .NET ช่วยให้คุณสามารถทำงานกับรูปแบบไฟล์ที่หลากหลาย [file formats](https://docs.groupdocs.com/merger/net/supported-document-formats/), เพื่อความยืดหยุ่นในการประมวลผลเอกสารของคุณ.",
     "groups": {
       "title_1": "รูปแบบ Microsoft Office",
-      "title_2": "เอกสารและรูปภาพ",
+      "title_2": "เอกสาร & รูปภาพ",
       "title_3": "รูปแบบอื่นๆ",
       "format_documents": "เอกสาร",
       "format_images": "รูปภาพ",
       "format_web": "เว็บ",
-      "format_archives": "หอจดหมายเหตุ"
+      "format_archives": "ไฟล์บีบอัด"
     }
   }
 }

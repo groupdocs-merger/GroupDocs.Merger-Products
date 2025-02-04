@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger for Python 的关键特性",
+    "description": "通过在 Python 环境中使用 GroupDocs.Merger 无缝合并、拆分和编辑 PDF 和 Office 文件，简化文档处理。",
+    "feature_1": {
+      "title": "无缝文档组合",
+      "content": "使用 GroupDocs.Merger for Python，从多个文件中选择特定页面或范围，将多个文档合并为一个。"
+    },
+    "feature_2": {
+      "title": "文档拆分功能",
+      "content": "利用 GroupDocs.Merger for Python 提供的高级拆分工具，将大型文档划分为更小、更易管理的文件。"
+    },
+    "feature_3": {
+      "title": "高效页面移动",
+      "content": "使用 Python 中直观的 MovePage 功能，根据需要重新定位文档中的页面。"
+    },
+    "feature_4": {
+      "title": "页面删除选项",
+      "content": "使用 GroupDocs.Merger for Python 中的 RemovePages 功能，轻松移除不必要的页面或特定页面编号。"
+    },
+    "feature_5": {
+      "title": "页面旋转功能",
+      "content": "使用简单的 RotatePages 操作，将页面旋转 90、180 或 270 度。"
+    },
+    "feature_6": {
+      "title": "页面交换功能",
+      "content": "通过使用 GroupDocs.Merger for Python 中的 SwapPages 函数重新组织您的文档，交换页面位置。"
+    },
+    "feature_7": {
+      "title": "选择性页面提取",
+      "content": "提取特定页面或范围以创建新文档，专注于您所需的内容，使用 GroupDocs.Merger for Python。"
+    },
+    "feature_8": {
+      "title": "方向调整工具",
+      "content": "在您的 Python 项目中，使用 ChangeOrientation 功能将页面的方向从纵向切换为横向，反之亦然。"
+    },
+    "feature_9": {
+      "title": "文档页面预览",
+      "content": "使用 Python 中的 PreviewPages 功能生成文档页面的图像预览，以查看其内容和布局。"
+    }
+  }
+}

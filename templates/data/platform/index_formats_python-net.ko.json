@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "지원되는 파일 형식",
+    "description": "GroupDocs.Merger for .NET은 다양한 [파일 형식](https://docs.groupdocs.com/merger/python-net/supported-document-formats/)과의 원활한 작업을 가능하게 하여 문서 관리 작업의 유연성을 보장합니다.",
+    "groups": {
+      "title_1": "Microsoft Office 형식",
+      "title_2": "문서 및 이미지",
+      "title_3": "기타 형식",
+      "format_documents": "문서",
+      "format_images": "이미지",
+      "format_web": "웹",
+      "format_archives": "아카이브"
+    }
+  }
+}

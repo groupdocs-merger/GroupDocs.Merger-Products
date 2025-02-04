@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "Mesclar arquivos PDF em C #",
+    "title": "Mesclar arquivos PDF em C#",
     "more": "Mais exemplos",
-    "notes": "Veja o que é novo",
-    "comment_1": "Carregar o arquivo PDF de origem",
-    "comment_2": "Adicionar outro arquivo PDF para mesclar",
-    "comment_3": "Mescle arquivos PDF e salve o resultado"
+    "notes": "Veja o que há de novo",
+    "comment_1": "Abra o arquivo PDF de origem",
+    "comment_2": "Anexe outro arquivo PDF para mesclagem",
+    "comment_3": "Combine os arquivos PDF e salve a saída"
   }
 }

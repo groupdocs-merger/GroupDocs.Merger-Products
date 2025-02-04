@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "通过 Java 合并 Node.js 中的 PDF 个文件",
-    "more": "更多例子",
-    "notes": "查看新增内容",
-    "comment_1": "加载源 PDF 文件",
-    "comment_2": " 添加另一个 PDF 个文件进行合并",
-    "comment_3": "合并 PDF 个文件并保存结果"
+    "title": "通过 Java 在 Node.js 中合并 PDF 文件",
+    "more": "更多示例",
+    "notes": "查看新功能",
+    "comment_1": "加载原始 PDF 文件",
+    "comment_2": "添加另一个 PDF 文件进行合并",
+    "comment_3": "合并 PDF 文件并保存输出"
   }
 }

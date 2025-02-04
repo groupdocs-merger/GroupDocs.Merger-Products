@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Fitur Utama GroupDocs.Merger untuk Python",
+    "description": "Sederhanakan pengelolaan dokumen dengan menggabungkan, membagi, dan mengedit file PDF dan Office secara mulus dengan GroupDocs.Merger dalam lingkungan Python.",
+    "feature_1": {
+      "title": "Kombinasi dokumen tanpa batas",
+      "content": "Gabungkan beberapa dokumen menjadi satu dengan memilih halaman atau rentang tertentu dari berbagai file menggunakan GroupDocs.Merger untuk Python."
+    },
+    "feature_2": {
+      "title": "Kemampuan membagi dokumen",
+      "content": "Bagi dokumen besar menjadi file yang lebih kecil dan lebih mudah dikelola dengan alat pemisahan canggih yang disediakan oleh GroupDocs.Merger untuk Python."
+    },
+    "feature_3": {
+      "title": "Pergerakan halaman yang efisien",
+      "content": "Pindahkan halaman dalam dokumen sesuai kebutuhan Anda menggunakan fitur MovePage yang intuitif di Python."
+    },
+    "feature_4": {
+      "title": "Opsi penghapusan halaman",
+      "content": "Hapus halaman yang tidak perlu atau nomor halaman tertentu dengan fitur RemovePages di GroupDocs.Merger untuk Python."
+    },
+    "feature_5": {
+      "title": "Fungsi rotasi halaman",
+      "content": "Rotasi halaman hingga 90, 180, atau 270 derajat dengan operasi RotatePages yang sederhana."
+    },
+    "feature_6": {
+      "title": "Fitur penukaran halaman",
+      "content": "Reorganisasi dokumen Anda dengan menukar posisi halaman menggunakan fungsi SwapPages di GroupDocs.Merger untuk Python."
+    },
+    "feature_7": {
+      "title": "Ekstraksi halaman selektif",
+      "content": "Ekstrak halaman atau rentang tertentu untuk membuat dokumen baru, fokus hanya pada konten yang Anda butuhkan dengan GroupDocs.Merger untuk Python."
+    },
+    "feature_8": {
+      "title": "Alat perubahan orientasi",
+      "content": "Ubah orientasi halaman dari potret ke lanskap atau sebaliknya menggunakan fitur ChangeOrientation dalam proyek Python Anda."
+    },
+    "feature_9": {
+      "title": "Prabaca halaman dokumen",
+      "content": "Hasilkan prabaca gambar dari halaman dokumen untuk meninjau konten dan tata letaknya dengan fitur PreviewPages di Python."
+    }
+  }
+}

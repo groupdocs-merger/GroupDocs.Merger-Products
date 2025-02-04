@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "支持的文件格式",
+    "description": "通过 .NET 的 GroupDocs.Merger 实现无缝操作各种 [文件格式](https://docs.groupdocs.com/merger/python-net/supported-document-formats/)，确保您的文档管理任务灵活多变。",
+    "groups": {
+      "title_1": "Microsoft Office 格式",
+      "title_2": "文档与图像",
+      "title_3": "其他格式",
+      "format_documents": "文档",
+      "format_images": "图像",
+      "format_web": "网页",
+      "format_archives": "档案"
+    }
+  }
+}

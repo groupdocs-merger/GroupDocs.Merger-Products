@@ -1,6 +1,6 @@
 {
   "platforms": {
-    "title": "Independencia de la plataforma",
-    "description": "GroupDocs.Merger para Node.js es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes"
+    "title": "Independencia de plataforma",
+    "description": "GroupDocs.Merger para Node.js está diseñado para funcionar sin problemas en varios sistemas operativos, frameworks y gestores de paquetes, asegurando flexibilidad y compatibilidad para tus necesidades de desarrollo."
   }
 }

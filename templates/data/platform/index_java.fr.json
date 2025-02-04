@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "API de fusion de documents Java | fusionner et supprimer Word Excel PDF XPS EPUB",
-    "description": "API de fusion de documents pour Java. Fusionnez, divisez, permutez, réorganisez et supprimez des pages de formats PDF, Microsoft Word, Excel, présentations, Visio, XPS et EPUB."
+    "title": "API de fusion de documents Java | fusionner & gérer Word, Excel, PDF, XPS, EPUB",
+    "description": "API Java pour la fusion de documents. Fusionnez, divisez, réorganisez, échangez et supprimez des pages de fichiers PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS et EPUB."
   },
   "header": {
     "title_1": "Fusionner des documents",
-    "title_2": "via l'API Java",
-    "description": "API de fusion flexible pour combiner, diviser ou modifier facilement des documents PDF et Office",
+    "title_2": "avec l'API Java",
+    "description": "Une API polyvalente pour fusionner, diviser et modifier des documents PDF et Office",
     "words": {
       "for": "pour"
     }
   },
   "actions": {
-    "main": "Téléchargement gratuit de Maven",
-    "alt": "Licence",
-    "title": "Prêt à commencer?",
-    "description": "Essayez gratuitement les fonctionnalités de GroupDocs.Merger ou demandez une licence"
+    "main": "Téléchargement Maven gratuit",
+    "alt": "Licences",
+    "title": "Prêt à commencer ?",
+    "description": "Essayez GroupDocs.Merger gratuitement ou demandez une licence"
   },
   "release": {
-    "title": "Version {0} publiée",
-    "notes": "Regardez ce qu'il y a de nouveau",
+    "title": "Version {0} publiée",
+    "notes": "Découvrez les nouveautés",
     "downloads": "Téléchargements"
   }
 }

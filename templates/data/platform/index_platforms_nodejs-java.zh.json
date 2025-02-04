@@ -1,6 +1,6 @@
 {
   "platforms": {
     "title": "平台独立性",
-    "description": "Node.js 的 GroupDocs.Merger 支持以下操作系统、框架和包管理器"
+    "description": "GroupDocs.Merger for Node.js 旨在无缝地在各种操作系统、框架和包管理器之间工作，确保满足您的开发需求的灵活性和兼容性。"
   }
 }

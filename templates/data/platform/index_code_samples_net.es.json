@@ -1,25 +1,25 @@
 {
   "code_samples": {
     "title": "Ejemplos de código",
-    "description": "Algunos casos de uso de operaciones típicas de GroupDocs.Merger para .NET",
+    "description": "Ejemplos de operaciones comunes de GroupDocs.Merger en .NET",
     "sample_1": {
-      "title": "Combine páginas de archivos DOCX específicas en un solo documento",
-      "content_1": "La función [Combinar páginas selectivamente](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) le permite extraer y combinar solo el contenido deseado de cada archivo.",
-      "content_2": "Aquí hay un ejemplo de cómo lograr la fusión selectiva de páginas usando C#:",
-      "code_title": "Cómo fusionar archivos DOCX en C#",
-      "comment_1": "Cargue el archivo DOCX de origen",
-      "comment_2": "Agregue otro archivo DOCX para fusionar",
-      "comment_3": "Combine archivos DOCX y guarde el resultado"
+      "title": "Combinar páginas específicas de archivos DOCX en un único documento",
+      "content_1": "La función de [Combinar Páginas Selectivas](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) te permite extraer y combinar solo las páginas necesarias de varios archivos DOCX.",
+      "content_2": "Así es como realizar la combinación de páginas selectivas usando C#:",
+      "code_title": "Cómo combinar archivos DOCX en C#",
+      "comment_1": "Cargar el archivo DOCX de origen",
+      "comment_2": "Agregar otro archivo DOCX para incluir páginas específicas",
+      "comment_3": "Combinar las páginas seleccionadas y guardar la salida"
     },
     "sample_2": {
-      "title": "Divida el documento PDF en varios archivos",
-      "content_1": "Divida eficientemente un documento en varios archivos con la función [Dividir documento](https://docs.groupdocs.com/merger/net/split-document/) que simplifica el proceso de administración y extracción de secciones o páginas específicas de documentos grandes.",
-      "content_2": "Le permite dividir documentos en partes más pequeñas según varios criterios: por rango de páginas, por páginas de inicio/final, por números de página impares/pares, etc.",
-      "code_title": "Cómo dividir el documento en varios documentos de varias páginas",
-      "comment_1": "Divida el archivo PDF usando GroupDocs.Merger para la API",
-      "comment_2": "Inicialice la clase SplitOptions con el formato de ruta de los archivos de salida",
-      "comment_3": "Instanciar fusión con documento PDF de entrada",
-      "comment_4": "Llame al método de división y pase el objeto SplitOptions para guardar los documentos resultantes"
+      "title": "Dividir un documento PDF en múltiples archivos",
+      "content_1": "Dividir un gran PDF en múltiples archivos más pequeños utilizando la función de [Dividir Documento](https://docs.groupdocs.com/merger/net/split-document/). Esto ayuda a extraer secciones específicas u organizar el contenido de manera más eficiente.",
+      "content_2": "Puedes dividir documentos en función de varios criterios, como rango de páginas, páginas de inicio y fin específicas, o números de página impares/par.",
+      "code_title": "Cómo dividir un documento en múltiples archivos de varias páginas",
+      "comment_1": "Usar API GroupDocs.Merger para dividir un archivo PDF",
+      "comment_2": "Configurar SplitOptions con el formato de archivo de salida",
+      "comment_3": "Crear una instancia de Merger y cargar el documento PDF",
+      "comment_4": "Llamar al método de división con SplitOptions para generar archivos separados"
     }
   }
 }

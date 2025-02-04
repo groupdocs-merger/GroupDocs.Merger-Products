@@ -1,25 +1,25 @@
 {
   "code_samples": {
-    "title": "Sampel Kode",
-    "description": "Jelajahi kasus penggunaan umum untuk GroupDocs.Merger yang disesuaikan dengan lingkungan Node.js. Contoh-contoh ini menunjukkan efisiensi dan kemudahan penggabungan dokumen menggunakan GroupDocs.Merger untuk Node.js.",
+    "title": "Contoh Kode",
+    "description": "Jelajahi kasus penggunaan umum untuk GroupDocs.Merger dalam {{ProgLang}}. Contoh-contoh ini menunjukkan bagaimana menggabungkan dan memisahkan dokumen secara efisien menggunakan GroupDocs.Merger untuk {{ProgLang}}.",
     "sample_1": {
-      "title": "Menggabungkan DOCX File secara Efisien menjadi Satu Dokumen Menggunakan Node.js",
-      "content_1": "Manfaatkan GroupDocs.Merger untuk Node.js untuk menggabungkan beberapa file DOCX dengan mulus ke dalam satu dokumen komprehensif. Manfaatkan fitur [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) kami untuk menggabungkan file secara efisien, meningkatkan manajemen dokumen dan produktivitas.",
-      "content_2": "Di bawah ini, temukan cuplikan kode Node.js untuk memandu Anda melalui proses penggabungan dokumen:",
-      "code_title": "Contoh Node.js: Menggabungkan DOCX File",
-      "comment_1": "Muat file DOCX awal",
-      "comment_2": "Tambahkan file DOCX tambahan untuk penggabungan",
-      "comment_3": "Jalankan proses penggabungan dan simpan dokumen gabungan"
+      "title": "Gabungkan beberapa file DOCX menjadi satu dokumen dalam {{ProgLang}}",
+      "content_1": "Gunakan GroupDocs.Merger untuk {{ProgLang}} untuk menggabungkan beberapa file DOCX menjadi satu dokumen. Fitur [Gabungkan Dokumen Word](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) menyederhanakan manajemen dokumen dengan menggabungkan file secara efisien.",
+      "content_2": "Di bawah ini adalah potongan kode {{ProgLang}} yang menunjukkan proses penggabungan:",
+      "code_title": "Contoh: Menggabungkan file DOCX dalam {{ProgLang}}",
+      "comment_1": "Muat file DOCX pertama",
+      "comment_2": "Tambahkan file DOCX tambahan untuk digabungkan",
+      "comment_3": "Gabungkan file DOCX dan simpan outputnya"
     },
     "sample_2": {
-      "title": "Pisahkan Dokumen PDF menjadi File Individual di Node.js",
-      "content_1": "Dengan GroupDocs.Merger untuk Node.js, memisahkan dokumen menjadi beberapa file menjadi lebih efisien. Fitur [Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) kami memungkinkan pengelolaan dan ekstraksi bagian tertentu secara efisien dari PDF dokumen besar, membuat penanganan dokumen Anda lebih efektif.",
-      "content_2": "Fitur ini mendukung pemisahan dokumen berdasarkan rentang halaman, halaman awal/akhir, atau nomor halaman ganjil/genap, di antara kriteria lainnya.",
-      "code_title": "Cara Membagi Dokumen menjadi File Terpisah dengan Node.js",
-      "comment_1": "Mulailah dengan memisahkan file PDF menggunakan GroupDocs.Merger untuk Node.js API",
-      "comment_2": "Siapkan kelas SplitOptions dengan format untuk file output",
-      "comment_3": "Inisialisasi Merger dengan dokumen PDF yang akan dipecah",
-      "comment_4": "Memanggil metode split dengan objek splitOptions untuk mendapatkan dokumen yang dihasilkan"
+      "title": "Pemisahan dokumen PDF menjadi beberapa file dalam {{ProgLang}}",
+      "content_1": "GroupDocs.Merger untuk {{ProgLang}} memudahkan pemisahan dokumen PDF besar menjadi file-file yang lebih kecil. Fitur [Pemisahan Dokumen](https://docs.groupdocs.com/merger/nodejs-java/split-document/) memungkinkan Anda untuk mengekstrak halaman tertentu berdasarkan kriteria yang berbeda, seperti rentang halaman, halaman mulai/akhir, atau halaman ganjil/genap.",
+      "content_2": "Fitur ini membantu mengatur dokumen besar dengan membaginya menjadi file-file yang lebih kecil dan lebih mudah dikelola.",
+      "code_title": "Cara memisahkan PDF menjadi file terpisah dalam {{ProgLang}}",
+      "comment_1": "Gunakan GroupDocs.Merger untuk {{ProgLang}} untuk memisahkan file PDF",
+      "comment_2": "Tentukan SplitOptions dengan format output yang diinginkan",
+      "comment_3": "Inisialisasi Merger dengan dokumen PDF input",
+      "comment_4": "Panggil metode split dengan objek SplitOptions untuk menghasilkan file terpisah"
     }
   }
 }

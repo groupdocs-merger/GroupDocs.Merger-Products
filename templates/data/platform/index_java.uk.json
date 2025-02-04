@@ -1,12 +1,12 @@
 {
   "head": {
-    "title": "API злиття документів Java | об’єднати та видалити Word Excel PDF XPS EPUB",
-    "description": "API злиття документів для Java. Об’єднуйте, розділяйте, міняйте, змінюйте порядок і видаляйте сторінки форматів PDF, Microsoft Word, Excel, презентацій, Visio, XPS і EPUB."
+    "title": "API для злиття документів на Java | обʼєднуйте та керуйте Word, Excel, PDF, XPS, EPUB",
+    "description": "Java API для злиття документів. Обʼєднуйте, розділяйте, змінюйте порядок, здійснюйте обмін та видаляйте сторінки з файлів PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS та EPUB."
   },
   "header": {
-    "title_1": "Об’єднати документи",
-    "title_2": "через Java API",
-    "description": "Гнучкий API Merger для легкого об’єднання, розділення або зміни документів PDF і Office",
+    "title_1": "Обʼєднання документів",
+    "title_2": "з Java API",
+    "description": "Універсальне API для злиття, розділення та модифікації документів PDF та Office",
     "words": {
       "for": "для"
     }
@@ -15,11 +15,11 @@
     "main": "Безкоштовне завантаження Maven",
     "alt": "Ліцензування",
     "title": "Готові почати?",
-    "description": "Спробуйте функції GroupDocs.Merger безкоштовно або подайте запит на ліцензію"
+    "description": "Спробуйте GroupDocs.Merger безкоштовно або запросіть ліцензію"
   },
   "release": {
     "title": "Випущено версію {0}",
-    "notes": "Подивіться, що нового",
+    "notes": "Дивіться, що нового",
     "downloads": "Завантаження"
   }
 }

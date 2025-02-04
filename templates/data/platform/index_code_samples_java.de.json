@@ -1,25 +1,25 @@
 {
   "code_samples": {
     "title": "Codebeispiele",
-    "description": "Einige Anwendungsfälle typischer GroupDocs.Merger für Java-Operationen",
+    "description": "Beispiele für häufige GroupDocs.Merger-Operationen in Java",
     "sample_1": {
-      "title": "Führen Sie DOCX-Dateien in einem einzigen Dokument zusammen",
-      "content_1": "Mit der Funktion [Word-Dokumente zusammenführen](https://docs.groupdocs.com/merger/java/merge/word/) können Sie ganze DOCX-Dateien in einem einzigen Dokument kombinieren, indem Sie die Quelldatei laden und weitere DOCX-Dateien zum Zusammenführen hinzufügen und Speichern des zusammengeführten Dokuments.",
-      "content_2": "Unten finden Sie einen Java-Codeausschnitt, der den Zusammenführungsprozess demonstriert:",
+      "title": "DOCX-Dokumente in ein einzelnes Dokument zusammenführen",
+      "content_1": "Mit der Funktion [Word-Dokumente zusammenführen](https://docs.groupdocs.com/merger/java/merge/word/) können Sie mehrere DOCX-Dateien zu einer einzigen zusammenführen. Laden Sie das Quelldokument, fügen Sie zusätzliche DOCX-Dateien hinzu und speichern Sie das zusammengeführte Ergebnis.",
+      "content_2": "Im Folgenden finden Sie ein Java-Codebeispiel, das den Zusammenführungsprozess demonstriert:",
       "code_title": "So führen Sie DOCX-Dateien in Java zusammen",
-      "comment_1": "Laden Sie die DOCX-Quelldatei",
-      "comment_2": "Fügen Sie eine weitere DOCX-Datei zum Zusammenführen hinzu",
-      "comment_3": "DOCX-Dateien zusammenführen und Ergebnis speichern"
+      "comment_1": "Laden Sie die Quelldatei im DOCX-Format",
+      "comment_2": "Fügen Sie eine weitere DOCX-Datei hinzu, um sie zu kombinieren",
+      "comment_3": "Führen Sie die DOCX-Dateien zusammen und speichern Sie das Ergebnis"
     },
     "sample_2": {
-      "title": "Teilen Sie das PDF-Dokument in mehrere Dateien auf",
-      "content_1": "Teilen Sie ein Dokument mit der Funktion [Dokument teilen](https://docs.groupdocs.com/merger/java/split-document/) in mehrere Dateien auf, um das Verwalten und Extrahieren bestimmter Abschnitte oder Seiten aus großen Dokumenten zu vereinfachen.",
-      "content_2": "Es ermöglicht Ihnen, Dokumente anhand verschiedener Kriterien in kleinere Teile zu unterteilen – nach Seitenbereich, nach Anfangs-/Endseiten, nach ungeraden/geraden Seitenzahlen usw.",
-      "code_title": "Teilen Sie das Dokument in mehrere einseitige Dokumente auf",
-      "comment_1": "Teilen Sie die PDF-Datei mit der GroupDocs.Merger für Java-API",
-      "comment_2": "Initialisieren Sie die SplitOptions-Klasse mit dem Pfadformat der Ausgabedateien",
-      "comment_3": "Instanziieren Sie die Zusammenführung mit dem eingegebenen PDF-Dokument",
-      "comment_4": "Rufen Sie die Split-Methode auf und übergeben Sie das SplitOptions-Objekt, um die resultierenden Dokumente zu speichern"
+      "title": "Ein PDF-Dokument in mehrere Dateien aufteilen",
+      "content_1": "Nutzen Sie die Funktion [Dokument aufteilen](https://docs.groupdocs.com/merger/java/split-document/), um ein großes PDF in kleinere, handlichere Dateien zu zerlegen. Dies ist nützlich, um spezifische Abschnitte oder Seiten zu extrahieren.",
+      "content_2": "Sie können ein Dokument anhand verschiedener Kriterien aufteilen, wie z. B. Seitenbereich, spezifische Anfangs- und Endseiten oder sogar ungerade/gerade Seitenzahlen.",
+      "code_title": "Ein Dokument in mehrere einseitige Dateien aufteilen",
+      "comment_1": "Teilen Sie eine PDF-Datei mit der GroupDocs.Merger für Java API",
+      "comment_2": "Initialisieren Sie die Klasse SplitOptions mit dem Ausgabe-Dateiformat",
+      "comment_3": "Erstellen Sie eine Merger-Instanz mit dem Eingabe-PDF-Dokument",
+      "comment_4": "Rufen Sie die Methode split mit dem SplitOptions-Objekt auf, um separate Dateien zu generieren"
     }
   }
 }

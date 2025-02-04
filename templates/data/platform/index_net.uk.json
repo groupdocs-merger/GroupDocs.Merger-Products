@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "C# .NET Document Merging API | Об’єднати та розділити PDF Word Excel EPUB",
-    "description": "API злиття документів C# .NET для об’єднання, розділення, заміни або видалення сторінок документа з форматів PDF, Microsoft Word, Excel, презентацій, Visio та зображень."
+    "title": "C# .NET API для об'єднання документів | комбінування та розділення PDF, Word, Excel, EPUB",
+    "description": "C# .NET API для об'єднання документів. Об'єднуйте, розділяйте, міняйте або видаляйте сторінки з PDF, Microsoft Word, Excel, PowerPoint, Visio та графічних файлів."
   },
   "header": {
-    "title_1": "Об’єднати документи",
+    "title_1": "Об'єднання документів",
     "title_2": "через .NET API",
-    "description": "Потужний API злиття для роботи з файлами PDF, Microsoft Office, HTML і зображеннями.",
+    "description": "Потужний API для об'єднання, розділення та керування PDF, Office, HTML та графічними файлами.",
     "words": {
       "for": "для"
     }
   },
   "actions": {
-    "main": "Безкоштовне завантаження NuGet",
+    "main": "Безкоштовне завантаження з NuGet",
     "alt": "Ліцензування",
     "title": "Готові почати?",
-    "description": "Спробуйте функції GroupDocs.Merger безкоштовно або подайте запит на ліцензію"
+    "description": "Спробуйте GroupDocs.Merger безкоштовно або запросіть ліцензію"
   },
   "release": {
-    "title": "Випущено версію {0}",
-    "notes": "Подивіться, що нового",
+    "title": "Версія {0} випущена",
+    "notes": "Дивіться, що нового",
     "downloads": "Завантаження"
   }
 }

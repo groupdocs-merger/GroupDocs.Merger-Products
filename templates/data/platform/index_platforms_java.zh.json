@@ -1,6 +1,6 @@
 {
   "platforms": {
     "title": "平台独立性",
-    "description": "GroupDocs.Merger for Java 支持以下操作系统、框架和包管理器"
+    "description": "GroupDocs.Merger for Java 旨在无缝地支持各种操作系统、框架和包管理工具，从而确保满足您的开发需求的灵活性和兼容性。"
   }
 }

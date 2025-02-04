@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "Hợp nhất PDF tệp trong Node.js thông qua Java",
-    "more": "Thêm ví dụ",
+    "title": "Ghép các tệp PDF trong Node.js qua Java",
+    "more": "Nhiều ví dụ hơn",
     "notes": "Xem những gì mới",
-    "comment_1": "Tải tập tin nguồn PDF",
-    "comment_2": " Thêm một tập tin PDF khác để hợp nhất",
-    "comment_3": "Hợp nhất PDF tệp và lưu kết quả"
+    "comment_1": "Tải tệp PDF gốc",
+    "comment_2": "Thêm một tệp PDF khác để kết hợp",
+    "comment_3": "Kết hợp các tệp PDF và lưu đầu ra"
   }
 }

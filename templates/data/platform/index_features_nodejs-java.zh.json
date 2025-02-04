@@ -1,42 +1,42 @@
 {
   "features": {
-    "title": "Node.js GroupDocs.Merger 的主要功能",
-    "description": "在 Node.js 环境中使用 GroupDocs.Merger 高效合并、拆分和操作 PDF 和 Office 格式的文档。",
+    "title": "GroupDocs.Merger for Node.js 的主要功能",
+    "description": "在 Node.js 环境中，利用 GroupDocs.Merger 轻松合并、拆分和管理 PDF 和 Office 格式的文档。",
     "feature_1": {
       "title": "无缝文档组合",
-      "content": "使用 Node.js 的 GroupDocs.Merger 合并特定页面或不同文件范围，轻松将多个文档合并为一个文档。"
+      "content": "使用 GroupDocs.Merger for Node.js 将多个文档结合为一个文件，可以选择来自不同来源的特定页面或范围。"
     },
     "feature_2": {
-      "title": "文档拆分功能",
-      "content": "利用 Node.js GroupDocs.Merger 的全面拆分功能，将单个文档拆分成几个较小的文件，以便更好地管理和组织。"
+      "title": "文档拆分能力",
+      "content": "利用 GroupDocs.Merger for Node.js 提供的高级拆分工具，将大型文档划分为更小、更易管理的文件。"
     },
     "feature_3": {
       "title": "高效的页面移动",
-      "content": "使用 Node.js 环境中直观的 MovePage 功能，在文档中重新定位页面以满足您的要求。"
+      "content": "使用 MovePage 功能重新排列文档中的页面，以满足您的需求，为 Node.js 设计的无缝集成。"
     },
     "feature_4": {
       "title": "页面删除选项",
-      "content": "使用专为 Node.js 量身定制的 GroupDocs.Merger 的 RemovePages 功能，轻松移除不必要的页面或特定的页码。"
+      "content": "通过 GroupDocs.Merger for Node.js 的 RemovePages 功能轻松消除不需要的页面或特定页码。"
     },
     "feature_5": {
       "title": "页面旋转功能",
-      "content": "使用简单的 RotatePages 操作将文档中的页面旋转到所需的方向（90 度、180 度或 270 度）。"
+      "content": "通过简单有效的 RotatePages 操作，调整页面方向为 90、180 或 270 度。"
     },
     "feature_6": {
       "title": "页面交换功能",
-      "content": "通过交换文档页面的位置来修改文档页面的顺序，从而使用 SwapPages 功能创建经过重组的文档。"
+      "content": "使用 GroupDocs.Merger for Node.js 的 SwapPages 功能，通过交换页面位置来重新组织您的文档。"
     },
     "feature_7": {
       "title": "选择性页面提取",
-      "content": "从选定的页面或页面范围创建新文档，仅使用 GroupDocs.Merger 为 Node.js 提取必要的内容。"
+      "content": "利用 GroupDocs.Merger for Node.js 提取特定页面或范围，创建一个新文档，只关注您所需的内容。"
     },
     "feature_8": {
-      "title": "方向更改工具",
-      "content": "使用 Node.js 项目中的 ChangeOrientation 功能，将特定或所有页面的方向从纵向更改为横向，反之亦然。"
+      "title": "方向变更工具",
+      "content": "在您的 Node.js 应用程序中使用 ChangeOrientation 功能，将页面方向从纵向切换为横向，反之亦然。"
     },
     "feature_9": {
       "title": "文档页面预览",
-      "content": "使用 Node.js 中的 PreviewPages 功能生成文档页面的图像预览以更好地了解其内容和布局。"
+      "content": "生成文档页面的图像预览，以使用 Node.js 中的 PreviewPages 功能查看其内容和布局。"
     }
   }
 }

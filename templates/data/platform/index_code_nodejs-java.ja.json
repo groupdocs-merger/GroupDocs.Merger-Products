@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "PDF ファイルを Java 経由で Node.js にマージ",
-    "more": "その他の例",
-    "notes": "新機能を見る",
-    "comment_1": "ソース PDF ファイルをロードします",
-    "comment_2": " マージする別の PDF ファイルを追加",
-    "comment_3": "PDF ファイルをマージして結果を保存"
+    "title": "Javaを介してNode.jsでPDFファイルを統合する",
+    "more": "他の例",
+    "notes": "新機能を確認する",
+    "comment_1": "元のPDFファイルを読み込む",
+    "comment_2": "統合するために別のPDFファイルを追加する",
+    "comment_3": "PDFファイルを統合し、出力を保存する"
   }
 }

@@ -1,10 +1,10 @@
 {
   "code": {
     "title": "Fusionner des fichiers PDF en C#",
-    "more": "Plus d'exemples",
-    "notes": "Regardez ce qu'il y a de nouveau",
-    "comment_1": "Charger le fichier PDF source",
-    "comment_2": "Ajouter un autre fichier PDF à fusionner",
-    "comment_3": "Fusionner des fichiers PDF et enregistrer le résultat"
+    "more": "D'autres exemples",
+    "notes": "Découvrez les nouveautés",
+    "comment_1": "Ouvrez le fichier PDF source",
+    "comment_2": "Ajoutez un autre fichier PDF pour la fusion",
+    "comment_3": "Combinez des fichiers PDF et enregistrez le résultat"
   }
 }

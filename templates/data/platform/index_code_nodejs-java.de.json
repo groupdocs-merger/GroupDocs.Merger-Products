@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "PDF Dateien in Node.js über Java zusammenführen",
-    "more": "Mehr Beispiele",
-    "notes": "Schau dir an, was es Neues gibt",
-    "comment_1": "Laden Sie die Quelldatei PDF",
-    "comment_2": " Eine weitere PDF -Datei zum Zusammenführen hinzufügen",
-    "comment_3": "PDF Dateien zusammenführen und Ergebnis speichern"
+    "title": "PDF-Dateien in Node.js über Java zusammenführen",
+    "more": "Weitere Beispiele",
+    "notes": "Neuigkeiten entdecken",
+    "comment_1": "Laden Sie die ursprüngliche PDF-Datei",
+    "comment_2": "Fügen Sie eine weitere PDF-Datei zum Kombinieren hinzu",
+    "comment_3": "Führen Sie die PDF-Dateien zusammen und speichern Sie das Ergebnis"
   }
 }

@@ -1,15 +1,15 @@
 {
   "formats": {
     "title": "支持的文件格式",
-    "description": "Node.js 的 GroupDocs.Merger via Java 支持以下 [文件格式](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/) 的操作。",
+    "description": "GroupDocs.Merger for Node.js via Java 支持多种 [文件格式](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/)，实现灵活的文档操作。",
     "groups": {
-      "title_1": "Microsoft Office 种格式",
-      "title_2": "文件和图片",
+      "title_1": "Microsoft Office 格式",
+      "title_2": "文档与图片",
       "title_3": "其他格式",
-      "format_documents": "文件",
+      "format_documents": "文档",
       "format_images": "图片",
       "format_web": "网页",
-      "format_archives": "档案"
+      "format_archives": "归档"
     }
   }
 }

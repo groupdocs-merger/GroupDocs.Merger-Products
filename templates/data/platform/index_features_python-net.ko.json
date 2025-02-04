@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Merger for Python의 주요 기능",
+    "description": "GroupDocs.Merger를 사용하여 PDF 및 Office 파일의 병합, 분할 및 편집을 간편하게 수행하여 문서 처리를 단순화하세요.",
+    "feature_1": {
+      "title": "매끄러운 문서 조합",
+      "content": "GroupDocs.Merger for Python을 사용하여 다양한 파일에서 특정 페이지 또는 범위를 선택하여 여러 문서를 하나로 결합하세요."
+    },
+    "feature_2": {
+      "title": "문서 분할 기능",
+      "content": "GroupDocs.Merger for Python에서 제공하는 고급 분할 도구를 사용하여 대용량 문서를 더 작고 관리하기 쉬운 파일로 나누세요."
+    },
+    "feature_3": {
+      "title": "효율적인 페이지 이동",
+      "content": "Python에서 직관적인 MovePage 기능을 사용하여 문서 내 페이지의 위치를 조정하세요."
+    },
+    "feature_4": {
+      "title": "페이지 제거 옵션",
+      "content": "GroupDocs.Merger for Python의 RemovePages 기능을 사용하여 불필요한 페이지 또는 특정 페이지 번호를 간편하게 제거하세요."
+    },
+    "feature_5": {
+      "title": "페이지 회전 기능",
+      "content": "간단한 RotatePages 작업을 통해 페이지를 90도, 180도 또는 270도로 회전하세요."
+    },
+    "feature_6": {
+      "title": "페이지 스와핑 기능",
+      "content": "GroupDocs.Merger for Python의 SwapPages 함수를 사용하여 문서 내 페이지의 위치를 교환하여 재구성하세요."
+    },
+    "feature_7": {
+      "title": "선택적 페이지 추출",
+      "content": "GroupDocs.Merger for Python을 사용하여 특정 페이지 또는 범위를 추출하여 필요한 내용만 포함된 새 문서를 생성하세요."
+    },
+    "feature_8": {
+      "title": "방향 변경 도구",
+      "content": "Python 프로젝트에서 ChangeOrientation 기능을 사용하여 페이지의 방향을 세로에서 가로로 또는 그 반대로 변경하세요."
+    },
+    "feature_9": {
+      "title": "문서 페이지 미리보기",
+      "content": "Python의 PreviewPages 기능을 사용하여 문서 페이지의 이미지 미리 보기를 생성하여 내용과 레이아웃을 검토하세요."
+    }
+  }
+}

@@ -1,42 +1,42 @@
 {
   "features": {
-    "title": "Node.js 用の GroupDocs.Merger の主な機能",
-    "description": "Node.js 環境で GroupDocs.Merger を使用して、PDF 形式と Office 形式のドキュメントを効率的にマージ、分割、操作できます。",
+    "title": "GroupDocs.Merger for Node.jsの主要機能",
+    "description": "Node.js環境でGroupDocs.Mergerを使用して、PDFおよびOffice形式の文書を簡単に結合、分割、管理します。",
     "feature_1": {
-      "title": "シームレスなドキュメントコンビネーション",
-      "content": "GroupDocs.Merger for Node.js を使用して、さまざまなファイルの特定のページまたは範囲を組み合わせることにより、複数の文書を 1 つに簡単に結合できます。"
+      "title": "シームレスな文書結合",
+      "content": "GroupDocs.Merger for Node.jsを使用して、異なるソースから特定のページや範囲を選択することにより、複数の文書を1つのファイルに結合します。"
     },
     "feature_2": {
       "title": "文書分割機能",
-      "content": "GroupDocs.Merger for Node.js の包括的な分割機能を活用して、1 つの文書を複数の小さなファイルに分割し、管理と整理を容易にします。"
+      "content": "GroupDocs.Merger for Node.jsが提供する高度な分割ツールを使用して、大きな文書をより小さく、管理しやすいファイルに分けます。"
     },
     "feature_3": {
       "title": "効率的なページ移動",
-      "content": "Node.js 環境の直感的な MovePage 機能を使用して、要件に合わせてドキュメント内のページを再配置できます。"
+      "content": "Node.jsでのシームレスな統合を目的としたMovePage機能を使用して、文書内のページを必要に応じて再配置します。"
     },
     "feature_4": {
       "title": "ページ削除オプション",
-      "content": "Node.js 用にカスタマイズされた GroupDocs.Merger の RemovePages 機能を使用すると、不要なページや特定のページ番号を簡単に削除できます。"
+      "content": "GroupDocs.Merger for Node.jsのRemovePages機能を使用して、不要なページや特定のページ番号を簡単に削除します。"
     },
     "feature_5": {
-      "title": "ページローテーション機能",
-      "content": "簡単な RotatePages 操作を使用して、ドキュメント内のページを目的の向き（90 度、180 度、または 270 度）に回転できます。"
+      "title": "ページ回転機能",
+      "content": "簡単かつ効果的なRotatePages操作を使用して、ページの向きを90度、180度、または270度に調整します。"
     },
     "feature_6": {
-      "title": "ページスワップ機能",
-      "content": "位置を入れ替えてドキュメントのページの順序を変更し、SwapPages機能を使用して再編成されたドキュメントを作成します。"
+      "title": "ページ交換機能",
+      "content": "GroupDocs.Merger for Node.jsのSwapPages機能を使用して、ページの位置を交換することにより、文書を再編成します。"
     },
     "feature_7": {
       "title": "選択的ページ抽出",
-      "content": "選択したページまたはページ範囲から新しい文書を作成し、Node.js に GroupDocs.Merger を使用して必要なコンテンツのみを抽出します。"
+      "content": "GroupDocs.Merger for Node.jsを使用して、新しい文書を作成するために特定のページや範囲を抽出し、必要な内容のみに焦点を当てます。"
     },
     "feature_8": {
-      "title": "方向変更ツール",
-      "content": "Node.js プロジェクトの ChangeOrientation 機能を使用して、特定のページまたはすべてのページの向きを縦向きから横向きに、またはその逆に変更できます。"
+      "title": "向き変更ツール",
+      "content": "Node.jsアプリケーションでChangeOrientation機能を使用して、ページの向きをポートレートからランドスケープに変更することができます。"
     },
     "feature_9": {
-      "title": "ドキュメントページのプレビュー",
-      "content": "Node.js の previewPages 機能を使用して、ドキュメントページの画像プレビューを生成して、コンテンツとレイアウトをよりよく理解できるようにします。"
+      "title": "文書ページプレビュー",
+      "content": "Node.jsでPreviewPages機能を使用して、文書ページの画像プレビューを生成し、その内容とレイアウトを確認します。"
     }
   }
 }

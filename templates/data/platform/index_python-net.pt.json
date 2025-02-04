@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API de mesclagem de documentos Python | mesclar PDF, Word, Excel",
+    "description": "API Python para mesclagem de documentos. Mescle, divida, troque, reorganize e remova páginas de arquivos PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS e EPUB."
+  },
+  "header": {
+    "title_1": "Mesclar documentos",
+    "title_2": "usando API Python",
+    "description": "Uma API poderosa para mesclar, dividir e modificar arquivos PDF e Office.",
+    "words": {
+      "for": "para"
+    }
+  },
+  "actions": {
+    "main": "Download gratuito do PyPi",
+    "alt": "Licenciamento",
+    "title": "Pronto para começar?",
+    "description": "Teste o GroupDocs.Merger gratuitamente ou adquira uma licença."
+  },
+  "release": {
+    "title": "Versão {0} lançada",
+    "notes": "Descubra as novidades",
+    "downloads": "Downloads"
+  }
+}

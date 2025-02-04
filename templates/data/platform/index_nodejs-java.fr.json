@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "API de fusion de documents Node.js | merge PDF Word Excel",
-    "description": "API de fusion de documents pour Node.js. Fusionnez, fractionnez, échangez, réorganisez et supprimez des pages aux formats PDF, Microsoft Word, Excel, présentations, Visio, XPS et EPUB."
+    "title": "API de fusion de documents Node.js | fusionner PDF, Word, Excel",
+    "description": "API Node.js pour fusionner des documents. Fusionnez, divisez, échangez, réorganisez et supprimez des pages de fichiers PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS et EPUB."
   },
   "header": {
     "title_1": "Fusionner des documents",
-    "title_2": "via l'API Node.js",
-    "description": "API de fusion flexible pour combiner, scinder ou modifier facilement PDF et Office Documents",
+    "title_2": "avec l'API Node.js",
+    "description": "Une API flexible pour combiner, diviser et modifier des documents PDF et Office.",
     "words": {
       "for": "pour"
     }
   },
   "actions": {
-    "main": "Téléchargement gratuit de NPM",
+    "main": "Téléchargement NPM gratuit",
     "alt": "Licences",
-    "title": "Prêt à démarrer ?",
-    "description": "Essayez GroupDocs.Merger fonctionnalités gratuitement ou demandez une licence"
+    "title": "Prêt à commencer ?",
+    "description": "Explorez GroupDocs.Merger gratuitement ou demandez une licence"
   },
   "release": {
     "title": "Version {0} publiée",
-    "notes": "Découvrez les nouveautés",
+    "notes": "Découvrez les dernières mises à jour",
     "downloads": "Téléchargements"
   }
 }

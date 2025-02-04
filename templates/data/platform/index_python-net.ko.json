@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "Python 문서 병합 API | PDF, Word, Excel 병합",
+    "description": "문서 병합을 위한 Python API. PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS 및 EPUB 파일에서 페이지를 병합, 분할, 스왑, 재정렬 및 제거하세요."
+  },
+  "header": {
+    "title_1": "문서 병합",
+    "title_2": "Python API 사용",
+    "description": "PDF 및 Office 파일을 병합, 분할 및 수정하기 위한 강력한 API입니다.",
+    "words": {
+      "for": "용"
+    }
+  },
+  "actions": {
+    "main": "무료 PyPi 다운로드",
+    "alt": "라이선스 허가",
+    "title": "시작할 준비가 되셨나요?",
+    "description": "GroupDocs.Merger를 무료로 테스트하거나 라이선스를 구매하세요."
+  },
+  "release": {
+    "title": "{0} 버전이 출시되었습니다",
+    "notes": "새로운 기능 알아보기",
+    "downloads": "다운로드"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "platforms": {
     "title": "Indipendenza dalla piattaforma",
-    "description": "GroupDocs.Merger per .NET supporta i seguenti sistemi operativi, framework e gestori di pacchetti"
+    "description": "GroupDocs.Merger per {{ProgLang}} è progettato per funzionare senza problemi su più sistemi operativi, framework e gestori di pacchetti, offrendo versatilità e compatibilità per il tuo ambiente di sviluppo."
   }
 }

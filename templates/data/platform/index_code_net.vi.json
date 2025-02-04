@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "Hợp nhất các tệp PDF trong C#",
+    "title": "Gộp tệp PDF trong C#",
     "more": "Thêm ví dụ",
-    "notes": "Xem có gì mới",
-    "comment_1": "Tải tệp PDF nguồn",
-    "comment_2": "Thêm một tệp PDF khác để hợp nhất",
-    "comment_3": "Hợp nhất các tệp PDF và lưu kết quả"
+    "notes": "Xem những gì mới",
+    "comment_1": "Mở tệp PDF nguồn",
+    "comment_2": "Thêm một tệp PDF khác để gộp",
+    "comment_3": "Kết hợp các tệp PDF và lưu đầu ra"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "فرمت‌های پشتیبانی شده",
+    "description": "GroupDocs.Merger برای Python از طریق .NET عملیات یکپارچه‌ای را با انواع مختلف [فرمت‌های فایل](https://docs.groupdocs.com/merger/python-net/supported-document-formats/) امکان‌پذیر می‌سازد و انعطاف‌پذیری لازم برای وظایف مدیریت مستندات شما را فراهم می‌کند.",
+    "groups": {
+      "title_1": "فرمت‌های مایکروسافت آفیس",
+      "title_2": "اسناد و تصاویر",
+      "title_3": "فرمت‌های دیگر",
+      "format_documents": "اسناد",
+      "format_images": "تصاویر",
+      "format_web": "وب",
+      "format_archives": "آرشیوها"
+    }
+  }
+}

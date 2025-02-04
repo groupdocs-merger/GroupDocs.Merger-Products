@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Sekilas tentang GroupDocs.Merger",
-    "description": "API untuk menggabungkan, membagi, menukar, memangkas atau menghapus dokumen, slide, dan diagram dalam aplikasi Java",
+    "title": "GroupDocs.Merger dalam pandangan sekilas",
+    "description": "API untuk menggabungkan, membagi, menukar,memangkas, atau menghapus dokumen, slide, dan diagram dalam aplikasi Java.",
     "feature_1": {
-      "title": "Menggabungkan beberapa dokumen dengan mudah di Java",
-      "description": "Menggabungkan file PDF dan Office dengan mudah ke dalam satu dokumen di Java, memanfaatkan kemampuan pustaka GroupDocs.Merger. Manfaatkan dukungan formatnya yang ekstensif, memungkinkan Anda menggabungkan berbagai jenis file dengan mulus, menghasilkan proses penggabungan yang nyaman dan efisien."
+      "title": "Gabungkan beberapa dokumen dalam Java dengan mudah",
+      "description": "Gabungkan file PDF dan Office menjadi satu dokumen dalam Java menggunakan GroupDocs.Merger. Dengan dukungan format yang luas, Anda dapat menggabungkan berbagai jenis file secara mulus, menyederhanakan proses penggabungan dan meningkatkan produktivitas."
     },
     "feature_2": {
-      "title": "Sederhanakan manajemen dokumen dengan membagi file berukuran besar dengan mudah",
-      "description": "Pisahkan file PDF atau Office besar menjadi bagian yang lebih kecil dan mudah ditangani. Anda dapat membagi dokumen berdasarkan halaman tertentu, rentang, atau bahkan mengekstrak halaman individual dengan mudah dan nyaman. Sederhanakan manajemen dokumen Anda dengan memanfaatkan kemampuan mulus pustaka GroupDocs.Merger dan jadikan file Anda lebih tertata dan mudah dikelola."
+      "title": "Permudah manajemen dokumen dengan membagi file besar",
+      "description": "Pecah file PDF atau Office yang besar menjadi bagian yang lebih kecil dan lebih mudah dikelola. Bagi dokumen berdasarkan halaman tertentu, rentang, atau ekstrak halaman individu. GroupDocs.Merger menyederhanakan pengorganisasian dokumen, membuat file Anda lebih mudah dikelola dan diakses."
     },
     "feature_3": {
-      "title": "Sesuaikan struktur dokumen Anda dan miliki kontrol penuh atas file Anda",
-      "description": "Mudah memanipulasi halaman dengan menyusun ulang, menukar, atau menghapusnya. Atur dan sesuaikan dokumen Anda sesuai dengan kebutuhan spesifik Anda dengan fleksibilitas untuk membuat struktur file yang dipersonalisasi."
+      "title": "Kustomisasi struktur dokumen Anda dan kendalikan file Anda sepenuhnya",
+      "description": "Kendalikan sepenuhnya dokumen Anda dengan mengatur ulang, menukar, atau menghapus halaman. Sesuaikan file Anda sesuai kebutuhan spesifik dengan fleksibilitas untuk membuat struktur dokumen yang disesuaikan menggunakan GroupDocs.Merger."
     }
   }
 }

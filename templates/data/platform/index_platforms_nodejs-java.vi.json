@@ -1,6 +1,6 @@
 {
   "platforms": {
     "title": "Độc lập nền tảng",
-    "description": "GroupDocs.Merger for Node.js hỗ trợ các hệ điều hành, framework và trình quản lý gói sau"
+    "description": "GroupDocs.Merger cho Node.js được thiết kế để hoạt động liền mạch trên nhiều hệ điều hành, framework và trình quản lý gói khác nhau, đảm bảo tính linh hoạt và khả năng tương thích cho nhu cầu phát triển của bạn."
   }
 }

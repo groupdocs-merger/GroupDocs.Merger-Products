@@ -1,18 +1,18 @@
 {
   "overview": {
     "title": "Descripción general de GroupDocs.Merger para Node.js",
-    "description": "API integral para fusionar, dividir, reorganizar y refinar documentos, diapositivas y diagramas en aplicaciones Node.js.",
+    "description": "Una poderosa API para fusionar, dividir, reorganizar y refinar documentos, presentaciones y diagramas en aplicaciones Node.js.",
     "feature_1": {
-      "title": "Combine documentos con facilidad en Node.js",
-      "description": "Utilice GroupDocs.Merger para que Node.js combine sin esfuerzo PDF y documentos de Office en un archivo unificado. Esta biblioteca amplía la compatibilidad con formatos amplios, lo que permite integrar y combinar sin problemas diferentes tipos de archivos, lo que mejora el proceso de administración de documentos en las aplicaciones de Node.js."
+      "title": "Fusiona documentos sin complicaciones en Node.js",
+      "description": "Combina documentos PDF y de Office en un solo archivo de forma eficiente utilizando GroupDocs.Merger para Node.js. Con un amplio soporte de formatos, esta biblioteca garantiza una integración y fusión sin problemas de varios tipos de archivos, optimizando la gestión de documentos en aplicaciones Node.js."
     },
     "feature_2": {
-      "title": "Simplifique la gestión de documentos mediante la segmentación de archivos de gran tamaño",
-      "description": "Con GroupDocs.Merger para Node.js, puede dividir fácilmente archivos importantes de PDF o de Office en partes más manejables. Personalice sus documentos dividiéndolos en función de páginas, rangos o extracción de páginas individuales específicos, lo que mejora la organización y la eficiencia de los flujos de trabajo de sus documentos."
+      "title": "Simplifica el manejo de documentos segmentando archivos grandes",
+      "description": "Divide eficientemente archivos PDF o de Office grandes en secciones más pequeñas y manejables con GroupDocs.Merger para Node.js. Personaliza tus documentos dividiéndolos según páginas específicas, rangos o extrayendo páginas individuales, mejorando la organización y eficiencia del flujo de trabajo."
     },
     "feature_3": {
-      "title": "Obtenga un control total sobre la estructura de su documento en Node.js",
-      "description": "Redefina el diseño de su documento reorganizando, intercambiando o descartando páginas sin esfuerzo con GroupDocs.Merger para Node.js. Adapte sus documentos para satisfacer necesidades únicas, proporcionando una flexibilidad sin igual a la hora de crear una configuración de archivos personalizada."
+      "title": "Obtén control total sobre la estructura de tus documentos en Node.js",
+      "description": "Reorganiza, intercambia o elimina páginas para personalizar el diseño de tu documento utilizando GroupDocs.Merger para Node.js. Adapta tus archivos para satisfacer requisitos específicos, ofreciendo una flexibilidad sin igual en la creación de estructuras documentales a medida."
     }
   }
 }

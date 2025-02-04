@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Resumo do GroupDocs.Merger",
-    "description": "API para combinar, dividir, trocar, aparar ou remover documentos, slides e diagramas em aplicativos Java",
+    "title": "GroupDocs.Merger em resumo",
+    "description": "API para combinar, dividir, trocar, cortar ou remover documentos, apresentações e diagramas em aplicações Java.",
     "feature_1": {
-      "title": "Mescle facilmente vários documentos em Java",
-      "description": "Mescle facilmente arquivos PDF e Office em um único documento em Java, aproveitando os recursos da biblioteca GroupDocs.Merger. Beneficie-se de seu extenso suporte de formato, permitindo combinar perfeitamente vários tipos de arquivo, resultando em um processo de mesclagem conveniente e simplificado."
+      "title": "Combine vários documentos em Java sem esforço",
+      "description": "Mescle arquivos PDF e do Office em um único documento em Java utilizando o GroupDocs.Merger. Com suporte a uma ampla variedade de formatos, você pode combinar diferentes tipos de arquivos de maneira integrada, simplificando o processo de mesclagem e aumentando a produtividade."
     },
     "feature_2": {
-      "title": "Simplifique o gerenciamento de documentos dividindo arquivos volumosos facilmente",
-      "description": "Divida grandes arquivos PDF ou Office em seções menores e fáceis de manusear. Você pode dividir documentos com base em páginas específicas, intervalos ou até mesmo extrair páginas individuais com facilidade e conveniência. Simplifique seu gerenciamento de documentos utilizando os recursos contínuos da biblioteca GroupDocs.Merger e torne seus arquivos mais organizados e gerenciáveis."
+      "title": "Racionalize a gestão de documentos dividindo arquivos volumosos facilmente",
+      "description": "Divida grandes arquivos PDF ou do Office em seções menores e mais gerenciáveis. Separe documentos por páginas específicas, intervalos ou extraia páginas individuais. O GroupDocs.Merger simplifica a organização de documentos, tornando seus arquivos mais fáceis de manipular e acessar."
     },
     "feature_3": {
       "title": "Personalize a estrutura do seu documento e tenha total controle sobre seus arquivos",
-      "description": "Manipule facilmente as páginas reordenando, trocando ou removendo-as. Organize e adapte seus documentos de acordo com seus requisitos específicos com a flexibilidade de criar uma estrutura de arquivo personalizada."
+      "description": "Tenha controle total sobre seus documentos reordenando, trocando ou removendo páginas. Adapte seus arquivos para atender a necessidades específicas com a flexibilidade de criar uma estrutura de documento personalizada usando o GroupDocs.Merger."
     }
   }
 }

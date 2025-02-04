@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API zum Zusammenführen von Dokumenten in Python | PDF, Word, Excel zusammenführen",
+    "description": "Python-API zum Zusammenführen von Dokumenten. Dokumente zusammenführen, aufteilen, tauschen, neu anordnen und Seiten aus PDF-, Microsoft Word-, Excel-, PowerPoint-, Visio-, XPS- und EPUB-Dateien entfernen."
+  },
+  "header": {
+    "title_1": "Dokumente zusammenführen",
+    "title_2": "mit der Python-API",
+    "description": "Eine leistungsstarke API zum Zusammenführen, Aufteilen und Bearbeiten von PDF- und Office-Dateien.",
+    "words": {
+      "for": "für"
+    }
+  },
+  "actions": {
+    "main": "Kostenloser Download von PyPi",
+    "alt": "Lizenzierung",
+    "title": "Bereit loszulegen?",
+    "description": "Testen Sie GroupDocs.Merger kostenlos oder erwerben Sie eine Lizenz."
+  },
+  "release": {
+    "title": "Version {0} veröffentlicht",
+    "notes": "Entdecken Sie die Neuigkeiten",
+    "downloads": "Downloads"
+  }
+}

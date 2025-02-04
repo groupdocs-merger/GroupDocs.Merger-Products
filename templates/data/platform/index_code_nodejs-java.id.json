@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "Gabungkan PDF file di Node.js melalui Java",
-    "more": "Lebih banyak contoh",
+    "title": "Gabungkan file PDF di Node.js melalui Java",
+    "more": "Contoh lainnya",
     "notes": "Lihat apa yang baru",
-    "comment_1": "Muat file sumber PDF",
-    "comment_2": " Tambahkan file PDF lainnya untuk digabungkan",
-    "comment_3": "Gabungkan PDF file dan simpan hasilnya"
+    "comment_1": "Muat file PDF asli",
+    "comment_2": "Tambahkan file PDF lain untuk digabungkan",
+    "comment_3": "Gabungkan file PDF dan simpan outputnya"
   }
 }

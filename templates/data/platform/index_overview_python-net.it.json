@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "Panoramica di GroupDocs.Merger per Python",
+    "description": "Un'API versatile per unire, suddividere, riordinare e perfezionare documenti, diapositive e diagrammi nelle applicazioni Python.",
+    "feature_1": {
+      "title": "Unisci documenti con efficienza in Python",
+      "description": "Combina senza sforzo documenti PDF e Office in un unico file utilizzando GroupDocs.Merger per Python. Con un ampio supporto per vari formati, questa libreria garantisce integrazione e fusione senza problemi di diversi tipi di file, semplificando la gestione dei documenti nelle applicazioni Python."
+    },
+    "feature_2": {
+      "title": "Semplifica la gestione dei documenti segmentando file di grandi dimensioni",
+      "description": "Suddividi facilmente file PDF o Office di grandi dimensioni in sezioni più piccole e gestibili con GroupDocs.Merger per Python. Personalizza i tuoi documenti dividendo in base a pagine specifiche, intervalli o estraendo pagine singole, migliorando l'organizzazione e l'efficienza del flusso di lavoro."
+    },
+    "feature_3": {
+      "title": "Ottieni il massimo controllo sulla struttura dei tuoi documenti in Python",
+      "description": "Riordina, scambia o rimuovi pagine per personalizzare il layout dei tuoi documenti con GroupDocs.Merger per Python. Adatta i tuoi file per soddisfare requisiti specifici, offrendo una flessibilità senza pari nella creazione di strutture documentali su misura."
+    }
+  }
+}

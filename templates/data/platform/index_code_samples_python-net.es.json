@@ -1,0 +1,26 @@
+{
+  "code_samples": {
+    "title": "Ejemplos de código",
+    "description": "Descubre casos de uso comunes para GroupDocs.Merger en {{ProgLang}}. Estos ejemplos muestran cómo combinar y dividir documentos de manera eficiente utilizando GroupDocs.Merger para {{ProgLang}}.",
+    "sample_1": {
+      "title": "Combinar múltiples archivos DOCX en un solo documento en {{ProgLang}}",
+      "content_1": "GroupDocs.Merger para {{ProgLang}} te permite combinar múltiples archivos DOCX en un solo documento. Con la funcionalidad de [Combinar Documentos de Word](https://docs.groupdocs.com/merger/python-net/merge/word/), puedes optimizar la gestión de documentos y aumentar la productividad.",
+      "content_2": "A continuación se muestra un fragmento de código en {{ProgLang}} que demuestra el proceso de combinación:",
+      "code_title": "Ejemplo: Combinando archivos DOCX en {{ProgLang}}",
+      "comment_1": "Cargar el primer archivo DOCX",
+      "comment_2": "Agregar más archivos DOCX para combinar",
+      "comment_3": "Combinar los archivos DOCX y guardar el resultado"
+    },
+    "sample_2": {
+      "title": "Dividir un documento PDF en múltiples archivos en {{ProgLang}}",
+      "content_1": "Con GroupDocs.Merger para {{ProgLang}}, puedes dividir documentos PDF grandes en archivos más pequeños sin esfuerzo. La funcionalidad de [Dividir Documento](https://docs.groupdocs.com/merger/python-net/split-document/) permite extraer páginas específicas basadas en criterios como rango de páginas, páginas de inicio/final, o páginas impares/par."
+      ,
+      "content_2": "Esta funcionalidad ayuda a organizar documentos grandes al descomponerlos en archivos más pequeños y manejables.",
+      "code_title": "Cómo dividir un PDF en archivos separados en {{ProgLang}}",
+      "comment_1": "Usar GroupDocs.Merger para {{ProgLang}} para dividir el archivo PDF",
+      "comment_2": "Definir SplitOptions con el formato de salida deseado",
+      "comment_3": "Inicializar el Merger con el documento PDF de entrada",
+      "comment_4": "Llamar al método de división con el objeto SplitOptions para generar archivos separados"
+    }
+  }
+}

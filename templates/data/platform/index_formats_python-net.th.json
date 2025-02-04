@@ -1,0 +1,15 @@
+{
+  "formats": {
+    "title": "รูปแบบไฟล์ที่รองรับ",
+    "description": "GroupDocs.Merger สำหรับ Python ผ่าน .NET ช่วยให้สามารถทำงานกับรูปแบบไฟล์ที่หลากหลายได้อย่างราบรื่น [file formats](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), โดยมั่นใจได้ว่าคุณมีความยืดหยุ่นในงานจัดการเอกสารของคุณ.",
+    "groups": {
+      "title_1": "รูปแบบ Microsoft Office",
+      "title_2": "เอกสาร & รูปภาพ",
+      "title_3": "รูปแบบอื่น ๆ",
+      "format_documents": "เอกสาร",
+      "format_images": "รูปภาพ",
+      "format_web": "เว็บ",
+      "format_archives": "ไฟล์บีบอัด"
+    }
+  }
+}

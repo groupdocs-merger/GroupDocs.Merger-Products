@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "ตัวอย่างโค้ด",
+    "description": "ค้นหากรณีการใช้งานทั่วไปสำหรับ GroupDocs.Merger ใน Python ตัวอย่างเหล่านี้แสดงให้เห็นว่าคุณสามารถรวมและแบ่งเอกสารได้อย่างมีประสิทธิภาพโดยใช้ GroupDocs.Merger สำหรับ Python ได้อย่างไร",
+    "sample_1": {
+      "title": "รวมไฟล์ DOCX หลายไฟล์เป็นเอกสารเดียวใน Python",
+      "content_1": "GroupDocs.Merger สำหรับ Python ช่วยให้คุณรวมไฟล์ DOCX หลายไฟล์เป็นเอกสารเดียว การใช้คุณลักษณะ [Merge Word Documents](https://docs.groupdocs.com/merger/python-net/merge/word/) จะช่วยให้การจัดการเอกสารของคุณเป็นเรื่องที่รวดเร็วและเพิ่มประสิทธิภาพการทำงาน",
+      "content_2": "ด้านล่างนี้เป็นตัวอย่างโค้ด Python ที่สาธิตกระบวนการรวม:",
+      "code_title": "ตัวอย่าง: การรวมไฟล์ DOCX ใน Python",
+      "comment_1": "โหลดไฟล์ DOCX แรก",
+      "comment_2": "เพิ่มไฟล์ DOCX เพิ่มเติมเพื่อรวมกัน",
+      "comment_3": "รวมไฟล์ DOCX และบันทึกผลลัพธ์"
+    },
+    "sample_2": {
+      "title": "แบ่งเอกสาร PDF เป็นไฟล์หลายไฟล์ใน Python",
+      "content_1": "ด้วย GroupDocs.Merger สำหรับ Python คุณสามารถแบ่งเอกสาร PDF ขนาดใหญ่เป็นไฟล์ขนาดเล็กได้อย่างง่ายดาย คุณลักษณะ [Split Document](https://docs.groupdocs.com/merger/python-net/split-document/) ช่วยให้คุณสามารถดึงหน้าที่เฉพาะตามเกณฑ์เช่นช่วงหน้า หน้าเริ่ม/สิ้นสุด หรือหน้าเลขคู่/หน้าเลขคี่",
+      "content_2": "คุณลักษณะนี้ช่วยในการจัดระเบียบเอกสารขนาดใหญ่โดยการแบ่งออกเป็นไฟล์ที่เล็กกว่าและจัดการได้ง่ายขึ้น",
+      "code_title": "วิธีแบ่ง PDF เป็นไฟล์แยกใน Python",
+      "comment_1": "ใช้ GroupDocs.Merger สำหรับ Python เพื่อแบ่งไฟล์ PDF",
+      "comment_2": "กำหนด SplitOptions ด้วยรูปแบบผลลัพธ์ที่ต้องการ",
+      "comment_3": "เริ่มต้น Merger ด้วยเอกสาร PDF อินพุต",
+      "comment_4": "เรียกใช้เมธอด split โดยใช้วัตถุ SplitOptions เพื่อสร้างไฟล์แยก"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API การรวมเอกสาร Python | รวม PDF, Word, Excel",
+    "description": "API Python สำหรับการรวมเอกสาร รวม การแบ่ง การสลับ การจัดลำดับใหม่ และการลบหน้าจากไฟล์ PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS และ EPUB."
+  },
+  "header": {
+    "title_1": "รวมเอกสาร",
+    "title_2": "โดยใช้ API Python",
+    "description": "API ที่ทรงพลังสำหรับการรวม การแบ่ง และการปรับแต่งไฟล์ PDF และ Office.",
+    "words": {
+      "for": "สำหรับ"
+    }
+  },
+  "actions": {
+    "main": "ดาวน์โหลดฟรีจาก PyPi",
+    "alt": "การอนุญาต",
+    "title": "พร้อมที่จะเริ่มต้นหรือยัง?",
+    "description": "ลอง GroupDocs.Merger ฟรีหรือขอรับใบอนุญาต."
+  },
+  "release": {
+    "title": "เปิดตัวเวอร์ชัน {0}",
+    "notes": "ค้นพบสิ่งใหม่",
+    "downloads": "ดาวน์โหลด"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Fusionner des fichiers PDF en Python via {{ProgLang}}",
+    "more": "Plus d'exemples",
+    "notes": "Voir les nouveautés",
+    "comment_1": "Charger le fichier PDF original",
+    "comment_2": "Ajouter un autre fichier PDF à fusionner",
+    "comment_3": "Combiner les fichiers PDF et enregistrer la sortie"
+  }
+}

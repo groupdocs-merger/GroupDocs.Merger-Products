@@ -1,13 +1,13 @@
 {
   "formats": {
-    "title": "Format file yang didukung",
-    "description": "GroupDocs.Merger untuk .NET mendukung operasi dengan [format file dokumen](https://docs.groupdocs.com/merger/net/supported-document-formats/) berikut.",
+    "title": "Format File yang Didukung",
+    "description": "GroupDocs.Merger untuk .NET memungkinkan Anda untuk bekerja dengan berbagai [format file](https://docs.groupdocs.com/merger/net/supported-document-formats/), memastikan fleksibilitas untuk kebutuhan pemrosesan dokumen Anda.",
     "groups": {
-      "title_1": "format Microsoft Office",
+      "title_1": "Format Microsoft Office",
       "title_2": "Dokumen & gambar",
-      "title_3": "Format lain",
+      "title_3": "Format lainnya",
       "format_documents": "Dokumen",
-      "format_images": "Gambar-gambar",
+      "format_images": "Gambar",
       "format_web": "Web",
       "format_archives": "Arsip"
     }

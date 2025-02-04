@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Node.js 的 GroupDocs.Merger 概述",
-    "description": "用于合并、拆分、重新排列和完善 Node.js 应用程序中的文档、幻灯片和图表的全面 API。",
+    "title": "GroupDocs.Merger for Node.js 概述",
+    "description": "一个强大的 API，用于在 Node.js 应用程序中合并、拆分、重新排列和精炼文档、幻灯片和图表。",
     "feature_1": {
       "title": "在 Node.js 中轻松合并文档",
-      "description": "使用 GroupDocs.Merger for Node.js 可以毫不费力地将 PDF 和 Office 文档合并为一个统一的文件。该库扩展了广泛的格式支持，实现了不同文件类型的平滑集成和合并，从而增强了 Node.js 应用程序中的文档管理流程。"
+      "description": "使用 GroupDocs.Merger for Node.js，轻松将 PDF 和 Office 文档合并为一个文件。该库支持多种格式，确保不同文件类型的无缝集成和合并，简化 Node.js 应用程序中的文档管理。"
     },
     "feature_2": {
-      "title": "通过分段大文件来简化文档处理",
-      "description": "使用 Node.js 的 GroupDocs.Merger，你可以轻松地将大量 PDF 或 Office 文件拆分成更易于管理的部分。通过根据特定页面、范围或单个页面提取进行划分来定制您的文档，从而增强文档工作流程的组织和效率。"
+      "title": "通过拆分大文件简化文档处理",
+      "description": "使用 GroupDocs.Merger for Node.js 高效地将大 PDF 或 Office 文件拆分为更小、更易管理的部分。通过根据特定页面、范围分割或提取单独页面来定制文档，提高组织性和工作流程效率。"
     },
     "feature_3": {
-      "title": "在 Node.js 中完全控制文档的结构",
-      "description": "使用 Node.js 的 GroupDocs.Merger 轻松地重新排列、交换或丢弃页面，重新定义文档的布局。调整您的文档以满足独特的需求，为构建自定义文件配置提供无与伦比的灵活性。"
+      "title": "完全控制文档结构的能力",
+      "description": "使用 GroupDocs.Merger for Node.js，轻松重新排列、交换或移除页面，以自定义文档布局。根据特定需求调整文件，为创建定制的文档结构提供无与伦比的灵活性。"
     }
   }
 }

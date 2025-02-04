@@ -1,6 +1,6 @@
 {
   "platforms": {
-    "title": "Independensi platform",
-    "description": "GroupDocs.Merger untuk Node.js mendukung sistem operasi, kerangka kerja dan manajer paket berikut"
+    "title": "Kemandirian Platform",
+    "description": "GroupDocs.Merger untuk Node.js dirancang untuk bekerja secara mulus di berbagai sistem operasi, kerangka kerja, dan manajer paket, memastikan fleksibilitas dan kompatibilitas untuk kebutuhan pengembangan Anda."
   }
 }

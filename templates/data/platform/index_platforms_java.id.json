@@ -1,6 +1,6 @@
 {
   "platforms": {
-    "title": "Kemandirian platform",
-    "description": "GroupDocs.Merger untuk Java mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
+    "title": "Independensi Platform",
+    "description": "GroupDocs.Merger untuk Java dirancang untuk berfungsi tanpa hambatan di berbagai sistem operasi, framework, dan manajer paket, memastikan fleksibilitas dan kompatibilitas untuk kebutuhan pengembangan Anda."
   }
 }

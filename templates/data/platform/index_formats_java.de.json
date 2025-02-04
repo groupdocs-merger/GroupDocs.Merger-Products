@@ -1,15 +1,15 @@
 {
   "formats": {
     "title": "Unterstützte Dateiformate",
-    "description": "GroupDocs.Merger für Java unterstützt Vorgänge mit den folgenden [Dokumentdateiformaten](https://docs.groupdocs.com/merger/java/supported-document-formats/).",
+    "description": "GroupDocs.Merger für Java ermöglicht nahtlose Operationen mit einer Vielzahl von [Dateiformaten](https://docs.groupdocs.com/merger/java/supported-document-formats/).",
     "groups": {
-      "title_1": "Microsoft Office-Formate",
-      "title_2": "Dokumente und Bilder",
+      "title_1": "Microsoft Office Formate",
+      "title_2": "Dokumente & Bilder",
       "title_3": "Andere Formate",
-      "format_documents": "Unterlagen",
+      "format_documents": "Dokumente",
       "format_images": "Bilder",
-      "format_web": "Netz",
-      "format_archives": "Archiv"
+      "format_web": "Web",
+      "format_archives": "Archive"
     }
   }
 }

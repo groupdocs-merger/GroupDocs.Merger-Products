@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API penggabungan dokumen untuk {{ProgLang}} | gabungkan PDF, Word, Excel",
+    "description": "API {{ProgLang}} untuk penggabungan dokumen. Gabungkan, pisahkan, tukar, urutkan ulang, dan hapus halaman dari file PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, dan EPUB."
+  },
+  "header": {
+    "title_1": "Gabungkan dokumen",
+    "title_2": "menggunakan API {{ProgLang}}",
+    "description": "API yang kuat untuk menggabungkan, memisahkan, dan memodifikasi file PDF dan Office.",
+    "words": {
+      "for": "untuk"
+    }
+  },
+  "actions": {
+    "main": "Unduh gratis di PyPi",
+    "alt": "Lisensi",
+    "title": "Siap untuk memulai?",
+    "description": "Uji GroupDocs.Merger secara gratis atau dapatkan lisensi."
+  },
+  "release": {
+    "title": "Versi {0} telah dirilis",
+    "notes": "Temukan apa yang baru",
+    "downloads": "Unduhan"
+  }
+}

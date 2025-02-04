@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "在Java中合并PDF文件",
+    "title": "在 Java 中合并 PDF 文件",
     "more": "更多示例",
-    "notes": "查看最新消息",
+    "notes": "查看最新动态",
     "comment_1": "加载源 PDF 文件",
-    "comment_2": "添加另一个 PDF 文件进行合并",
-    "comment_3": "合并 PDF 文件并保存结果"
+    "comment_2": "添加另一个 PDF 文件以进行合并",
+    "comment_3": "合并 PDF 文件并保存输出"
   }
 }

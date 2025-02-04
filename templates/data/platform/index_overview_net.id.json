@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Sekilas tentang GroupDocs.Merger",
-    "description": "API untuk menggabungkan, memisahkan, menukar, memotong atau menghapus dokumen, slide, dan diagram dalam aplikasi .NET",
+    "title": "GroupDocs.Merger sekilas",
+    "description": "API untuk menggabungkan, membagi, menukar, memotong, atau menghapus dokumen, slide, dan diagram dalam aplikasi .NET.",
     "feature_1": {
-      "title": "Menggabungkan beberapa dokumen dengan mudah dalam C#",
-      "description": "Menggabungkan Dokumen: Menggabungkan beberapa file PDF dan Office dengan mulus ke dalam satu dokumen, dengan dukungan untuk berbagai format. GroupDocs.Merger untuk .NET membuat penggabungan dokumen menjadi cepat dan tidak merepotkan."
+      "title": "Gabungkan beberapa dokumen dalam C#",
+      "description": "Gabungkan beberapa file PDF dan Office ke dalam satu dokumen menggunakan GroupDocs.Merger untuk .NET. Dengan dukungan untuk berbagai format, menggabungkan dokumen menjadi cepat dan sederhana."
     },
     "feature_2": {
-      "title": "Sederhanakan manajemen dokumen dengan memisahkan file besar",
-      "description": "Pisahkan file PDF atau Office besar menjadi bagian yang lebih kecil dan lebih mudah dikelola dengan mudah. GroupDocs.Merger untuk .NET memungkinkan Anda membagi dokumen berdasarkan halaman tertentu, rentang, atau bahkan mengekstrak halaman individual dengan mudah."
+      "title": "Permudah pengelolaan dokumen dengan membagi file besar",
+      "description": "Pisahkan file PDF atau Office besar menjadi bagian yang lebih kecil dan lebih mudah dikelola. GroupDocs.Merger untuk .NET memungkinkan Anda membagi dokumen berdasarkan halaman tertentu, rentang, atau mengekstrak halaman individu."
     },
     "feature_3": {
-      "title": "Memanipulasi halaman dan menyesuaikan struktur dokumen - menyusun ulang, menukar, atau menghapus",
-      "description": "Kendalikan dokumen Anda dengan mengatur ulang halaman, menghapus halaman yang tidak diinginkan, atau menambahkan halaman baru. GroupDocs.Merger untuk .NET memberdayakan Anda untuk memanipulasi struktur dokumen, memungkinkan Anda menyesuaikan dan menyesuaikan file Anda sesuai dengan kebutuhan spesifik Anda."
+      "title": "Manipulasi halaman dan sesuaikan struktur dokumen - urutkan, tukar, atau hapus",
+      "description": "Kendalikan dokumen Anda sepenuhnya dengan mengurutkan, menukar, atau menghapus halaman. GroupDocs.Merger untuk .NET memberikan fleksibilitas untuk menyesuaikan struktur dokumen Anda sesuai kebutuhan spesifik Anda."
     }
   }
 }

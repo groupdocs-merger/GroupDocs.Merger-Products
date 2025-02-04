@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Node.js の GroupDocs.Merger の概要",
-    "description": "Node.js アプリケーションのドキュメント、スライド、図を結合、分割、再配置、調整するための包括的な API。",
+    "title": "GroupDocs.Merger for Node.jsの概要",
+    "description": "Node.jsアプリケーションで文書、スライド、図をマージ、分割、再配置、洗練するための強力なAPIです。",
     "feature_1": {
-      "title": "Node.js でドキュメントを簡単に結合",
-      "description": "GroupDocs.Merger for Node.js を利用すると、PDF ドキュメントと Office ドキュメントを簡単に統合ファイルにまとめることができます。このライブラリは幅広い形式のサポートを拡張し、異なるファイルタイプのスムーズな統合と結合を可能にし、Node.js アプリケーションのドキュメント管理プロセスを強化します。"
+      "title": "Node.jsで文書を簡単にマージ",
+      "description": "GroupDocs.Merger for Node.jsを使用して、PDFおよびOffice文書を容易に1つのファイルに統合します。広範なフォーマットサポートにより、このライブラリはさまざまなファイルタイプの統合とマージをシームレスに実現し、Node.jsアプリケーションでの文書管理を効率化します。"
     },
     "feature_2": {
-      "title": "大きなファイルをセグメント化して文書処理を簡素化",
-      "description": "GroupDocs.Merger for Node.js を使用すると、大量の PDF ファイルまたは Office ファイルをより管理しやすい部分に簡単に分割できます。特定のページ、範囲、または個々のページの抽出に基づいて文書を分割することで文書をカスタマイズできるため、文書ワークフローの整理と効率が向上します。"
+      "title": "大きなファイルをセグメント化して文書処理を単純化",
+      "description": "GroupDocs.Merger for Node.jsを活用して、大きなPDFまたはOfficeファイルをより管理しやすい小さなセクションに効率的に分割します。特定のページ、範囲に基づいて文書を分割したり、個別のページを抽出することで、整理や作業効率を向上させます。"
     },
     "feature_3": {
-      "title": "Node.js で文書の構造を完全に制御できます",
-      "description": "GroupDocs.Merger for Node.js を使用してページを簡単に再配置、交換、または破棄することで、文書のレイアウトを再定義できます。独自のニーズに合わせて文書を調整できるため、カスタムファイル構成を他に類を見ない柔軟性が得られます。"
+      "title": "Node.jsで文書の構造を完全に制御",
+      "description": "GroupDocs.Merger for Node.jsを使って、ページを簡単に再配置、入れ替え、または削除して文書レイアウトをカスタマイズします。特定の要件に合わせてファイルを調整し、自分専用の文書構造を作成するための比類のない柔軟性を提供します。"
     }
   }
 }

@@ -1,25 +1,25 @@
 {
   "code_samples": {
     "title": "Esempi di codice",
-    "description": "Esplora i casi d'uso tipici di GroupDocs.Merger personalizzati per gli ambienti Node.js. Questi esempi dimostrano l'efficienza e la facilità di unire documenti utilizzando GroupDocs.Merger per Node.js.",
+    "description": "Esplora casi d'uso comuni per GroupDocs.Merger in Node.js. Questi esempi dimostrano come unire e dividere documenti in modo efficiente utilizzando GroupDocs.Merger per Node.js.",
     "sample_1": {
-      "title": "Unisci in modo efficiente DOCX file in un unico documento utilizzando Node.js",
-      "content_1": "Sfrutta GroupDocs.Merger for Node.js per unire senza problemi più file DOCX in un unico documento completo. Utilizza la nostra funzionalità [Unisci Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) per combinare in modo efficiente i file, migliorando la gestione dei documenti e la produttività.",
-      "content_2": "Di seguito, trovate uno snippet di codice Node.js per guidarvi nel processo di unione dei documenti:",
-      "code_title": "Esempio Node.js: unione di file DOCX",
-      "comment_1": "Carica il file DOCX iniziale",
-      "comment_2": "Aggiungi altri DOCX file per l'unione",
-      "comment_3": "Esegui il processo di unione e salva il documento combinato"
+      "title": "Unire più file DOCX in un unico documento in Node.js",
+      "content_1": "Utilizza GroupDocs.Merger per Node.js per combinare senza problemi più file DOCX in un unico documento. La funzione [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) semplifica la gestione dei documenti unendo file in modo efficiente.",
+      "content_2": "Di seguito è riportato un frammento di codice Node.js che dimostra il processo di fusione:",
+      "code_title": "Esempio: Unione di file DOCX in Node.js",
+      "comment_1": "Carica il primo file DOCX",
+      "comment_2": "Aggiungi file DOCX aggiuntivi da unire",
+      "comment_3": "Unisci i file DOCX e salva l'output"
     },
     "sample_2": {
-      "title": "Dividi un documento PDF in singoli file in Node.js",
-      "content_1": "Con GroupDocs.Merger per Node.js, la suddivisione di un documento in più file è semplificata. La nostra funzione [Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) consente una gestione e un'estrazione efficienti di sezioni specifiche da documenti PDF di grandi dimensioni, rendendo più efficace la gestione dei documenti.",
-      "content_2": "Questa funzione supporta la suddivisione dei documenti per intervallo di pagine, pagine iniziali/finali o numeri di pagina pari/dispari, tra gli altri criteri.",
-      "code_title": "Come dividere i documenti in file separati con Node.js",
-      "comment_1": "Inizia dividendo il file PDF usando GroupDocs.Merger per l'API Node.js",
-      "comment_2": "Imposta la classe SplitOptions con il formato per i file di output",
-      "comment_3": "Inizializza la fusione con il documento PDF da dividere",
-      "comment_4": "Richiamate il metodo split con l'oggetto SplitOptions per ottenere i documenti risultanti"
+      "title": "Dividere un documento PDF in più file in Node.js",
+      "content_1": "GroupDocs.Merger per Node.js facilita la divisione di documenti PDF di grandi dimensioni in file più piccoli. La funzione [Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) consente di estrarre specifiche pagine in base a diversi criteri, come intervallo di pagine, pagine di inizio/fine, o pagine dispari/pari.",
+      "content_2": "Questa funzione aiuta a organizzare documenti di grandi dimensioni suddividendoli in file più piccoli e gestibili.",
+      "code_title": "Come dividere un PDF in file separati in Node.js",
+      "comment_1": "Utilizza GroupDocs.Merger per Node.js per dividere il file PDF",
+      "comment_2": "Definisci SplitOptions con il formato di output desiderato",
+      "comment_3": "Inizializza il Merger con il documento PDF di input",
+      "comment_4": "Chiama il metodo split con l'oggetto SplitOptions per generare file separati"
     }
   }
 }

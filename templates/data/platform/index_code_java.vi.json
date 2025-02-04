@@ -1,10 +1,10 @@
 {
   "code": {
-    "title": "Hợp nhất các tệp PDF trong Java",
-    "more": "Thêm ví dụ",
-    "notes": "Xem có gì mới",
+    "title": "Ghép nối tệp PDF trong Java",
+    "more": "Nhiều ví dụ hơn",
+    "notes": "Xem thông tin mới",
     "comment_1": "Tải tệp PDF nguồn",
-    "comment_2": "Thêm một tệp PDF khác để hợp nhất",
-    "comment_3": "Hợp nhất các tệp PDF và lưu kết quả"
+    "comment_2": "Thêm tệp PDF khác để kết hợp",
+    "comment_3": "Ghép nối các tệp PDF và lưu đầu ra"
   }
 }

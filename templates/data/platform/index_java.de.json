@@ -1,12 +1,12 @@
 {
   "head": {
-    "title": "API zum Zusammenführen von Java-Dokumenten | Zusammenführen und Entfernen von Word Excel PDF XPS EPUB",
-    "description": "API zum Zusammenführen von Dokumenten für Java. Zusammenführen, Teilen, Tauschen, Neuanordnen und Löschen von Seiten in den Formaten PDF, Microsoft Word, Excel, Präsentationen, Visio, XPS und EPUB."
+    "title": "Java-Dokumenten-Merging-API | Zusammenführen und Verwalten von Word, Excel, PDF, XPS, EPUB",
+    "description": "Java-API zum Zusammenführen von Dokumenten. Zusammenführen, Trennen, Neuordnen, Tauschen und Entfernen von Seiten aus PDF-, Microsoft Word-, Excel-, PowerPoint-, Visio-, XPS- und EPUB-Dateien."
   },
   "header": {
     "title_1": "Dokumente zusammenführen",
-    "title_2": "über Java API",
-    "description": "Flexible Merger-API zum einfachen Kombinieren, Teilen oder Ändern von PDF- und Office-Dokumenten",
+    "title_2": "mit Java-API",
+    "description": "Eine vielseitige API zum Zusammenführen, Trennen und Bearbeiten von PDF- und Office-Dokumenten",
     "words": {
       "for": "für"
     }
@@ -14,12 +14,12 @@
   "actions": {
     "main": "Kostenloser Maven-Download",
     "alt": "Lizenzierung",
-    "title": "Bereit anzufangen?",
-    "description": "Testen Sie die Funktionen von GroupDocs.Merger kostenlos oder fordern Sie eine Lizenz an"
+    "title": "Bereit, loszulegen?",
+    "description": "Testen Sie GroupDocs.Merger kostenlos oder fordern Sie eine Lizenz an"
   },
   "release": {
     "title": "Version {0} veröffentlicht",
-    "notes": "Schau was neu ist",
+    "notes": "Erfahren Sie, was neu ist",
     "downloads": "Downloads"
   }
 }

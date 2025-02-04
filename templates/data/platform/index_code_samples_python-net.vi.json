@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Mẫu mã",
+    "description": "Khám phá các trường hợp sử dụng phổ biến cho GroupDocs.Merger trong Python. Những ví dụ này cho thấy cách hợp nhất và tách tài liệu một cách hiệu quả bằng cách sử dụng GroupDocs.Merger cho Python.",
+    "sample_1": {
+      "title": "Hợp nhất nhiều tệp DOCX thành một tài liệu trong Python",
+      "content_1": "GroupDocs.Merger cho Python cho phép bạn kết hợp nhiều tệp DOCX thành một tài liệu duy nhất. Với tính năng [Hợp nhất Tài liệu Word](https://docs.groupdocs.com/merger/python-net/merge/word/), bạn có thể tối ưu hóa quản lý tài liệu và nâng cao năng suất.",
+      "content_2": "Dưới đây là một đoạn mã Python minh họa quá trình hợp nhất:",
+      "code_title": "Ví dụ: Hợp nhất tệp DOCX trong Python",
+      "comment_1": "Tải tệp DOCX đầu tiên",
+      "comment_2": "Thêm nhiều tệp DOCX khác để hợp nhất",
+      "comment_3": "Hợp nhất các tệp DOCX và lưu kết quả"
+    },
+    "sample_2": {
+      "title": "Tách một tài liệu PDF thành nhiều tệp trong Python",
+      "content_1": "Với GroupDocs.Merger cho Python, bạn có thể tách các tài liệu PDF lớn thành những tệp nhỏ hơn một cách hiệu quả. Tính năng [Tách Tài liệu](https://docs.groupdocs.com/merger/python-net/split-document/) cho phép bạn trích xuất các trang cụ thể dựa trên các tiêu chí như phạm vi trang, trang bắt đầu/kết thúc hoặc các trang lẻ/chẵn.",
+      "content_2": "Tính năng này giúp tổ chức các tài liệu lớn bằng cách chia chúng thành các tệp nhỏ hơn, dễ quản lý hơn.",
+      "code_title": "Cách tách một PDF thành các tệp riêng biệt trong Python",
+      "comment_1": "Sử dụng GroupDocs.Merger cho Python để tách tệp PDF",
+      "comment_2": "Xác định SplitOptions với định dạng đầu ra mong muốn",
+      "comment_3": "Khởi tạo Merger với tài liệu PDF đầu vào",
+      "comment_4": "Gọi phương thức tách với đối tượng SplitOptions để tạo ra các tệp riêng biệt"
+    }
+  }
+}

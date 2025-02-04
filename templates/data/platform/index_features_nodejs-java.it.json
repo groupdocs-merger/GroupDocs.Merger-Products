@@ -1,42 +1,42 @@
 {
   "features": {
-    "title": "Caratteristiche principali di GroupDocs.Merger for Node.js",
-    "description": "Unisci, dividi e manipola in modo efficiente documenti nei formati PDF e Office utilizzando GroupDocs.Merger in un ambiente Node.js.",
+    "title": "Caratteristiche principali di GroupDocs.Merger per Node.js",
+    "description": "Unisci, dividi e gestisci documenti in formati PDF e Office con GroupDocs.Merger in un ambiente Node.js.",
     "feature_1": {
-      "title": "Combinazione perfetta di documenti",
-      "content": "Unisci facilmente più documenti in uno solo combinando pagine o intervalli specifici di vari file, utilizzando GroupDocs.Merger per Node.js."
+      "title": "Combinazione di documenti senza interruzioni",
+      "content": "Unisci più documenti in un unico file selezionando pagine specifiche o intervalli da diverse fonti utilizzando GroupDocs.Merger per Node.js."
     },
     "feature_2": {
-      "title": "Funzionalità di suddivisione dei documenti",
-      "content": "Suddividi un singolo documento in diversi file più piccoli per una migliore gestione e organizzazione, utilizzando la funzionalità di suddivisione completa di GroupDocs.Merger for Node.js."
+      "title": "Capacità di suddivisione dei documenti",
+      "content": "Dividi un documento di grandi dimensioni in file più piccoli e gestibili con gli strumenti avanzati di suddivisione forniti da GroupDocs.Merger per Node.js."
     },
     "feature_3": {
       "title": "Movimento efficiente delle pagine",
-      "content": "Riposiziona le pagine all'interno di un documento in base alle tue esigenze utilizzando l'intuitiva funzione MovePage nell'ambiente Node.js."
+      "content": "Riorganizza le pagine all'interno di un documento secondo le tue necessità usando la funzionalità MovePage, progettata per un'integrazione fluida in Node.js."
     },
     "feature_4": {
       "title": "Opzioni di rimozione delle pagine",
-      "content": "Rimuovi facilmente pagine non necessarie o numeri di pagina specifici con la funzione RemovePages di GroupDocs.Merger su misura per Node.js."
+      "content": "Elimina pagine indesiderate o numeri di pagina specifici senza sforzo con la funzionalità RemovePages in GroupDocs.Merger per Node.js."
     },
     "feature_5": {
-      "title": "Funzionalità di rotazione della pagina",
-      "content": "Ruota le pagine all'interno di un documento nell'orientamento desiderato (90, 180 o 270 gradi) utilizzando la semplice operazione RotatePages."
+      "title": "Funzionalità di rotazione delle pagine",
+      "content": "Regola l'orientamento delle pagine a 90, 180 o 270 gradi con l'operazione semplice ed efficace RotatePages."
     },
     "feature_6": {
-      "title": "Funzione di scambio di pagine",
-      "content": "Modifica l'ordine delle pagine del tuo documento scambiandone le posizioni, creando così un documento riorganizzato con la funzione SwappPages."
+      "title": "Funzionalità di scambio delle pagine",
+      "content": "Riorganizza il tuo documento scambiando le posizioni delle pagine utilizzando la funzione SwapPages in GroupDocs.Merger per Node.js."
     },
     "feature_7": {
       "title": "Estrazione selettiva delle pagine",
-      "content": "Crea un nuovo documento da pagine o intervalli di pagine selezionati, estraendo solo il contenuto necessario con GroupDocs.Merger per Node.js."
+      "content": "Estrai pagine specifiche o intervalli per creare un nuovo documento, concentrandoti solo sul contenuto necessario con GroupDocs.Merger per Node.js."
     },
     "feature_8": {
       "title": "Strumento di alterazione dell'orientamento",
-      "content": "Cambia l'orientamento di pagine specifiche o di tutte le pagine da verticale a orizzontale o viceversa, utilizzando la funzione ChangeOrientation nei tuoi progetti Node.js."
+      "content": "Cambia l'orientamento delle pagine da verticale a orizzontale o viceversa utilizzando la funzionalità ChangeOrientation nelle tue applicazioni Node.js."
     },
     "feature_9": {
       "title": "Anteprime delle pagine del documento",
-      "content": "Genera anteprime di immagini delle pagine dei documenti per comprenderne meglio il contenuto e il layout, utilizzando la funzione PreviewPages all'interno di Node.js."
+      "content": "Genera anteprime immagini delle pagine del documento per rivedere il loro contenuto e layout con la funzionalità PreviewPages in Node.js."
     }
   }
 }

@@ -1,42 +1,42 @@
 {
   "features": {
-    "title": "Các tính năng chính của GroupDocs.Merger cho Node.js",
-    "description": "Hợp nhất, tách và thao tác hiệu quả các tài liệu ở định dạng PDF và Office bằng cách sử dụng GroupDocs.Merger trong môi trường Node.js.",
+    "title": "Tính năng nổi bật của GroupDocs.Merger cho Node.js",
+    "description": "Kết hợp, tách và quản lý tài liệu định dạng PDF và Office một cách hiệu quả với GroupDocs.Merger trong môi trường Node.js.",
     "feature_1": {
       "title": "Kết hợp tài liệu liền mạch",
-      "content": "Dễ dàng hợp nhất nhiều tài liệu thành một bằng cách kết hợp các trang hoặc phạm vi cụ thể từ các tệp khác nhau, sử dụng GroupDocs.Merger cho Node.js."
+      "content": "Kết hợp nhiều tài liệu thành một tập tin duy nhất bằng cách chọn các trang hoặc phạm vi cụ thể từ nhiều nguồn khác nhau sử dụng GroupDocs.Merger cho Node.js."
     },
     "feature_2": {
       "title": "Khả năng tách tài liệu",
-      "content": "Chia một tài liệu thành nhiều tệp nhỏ hơn để quản lý và tổ chức tốt hơn, sử dụng tính năng phân tách toàn diện của GroupDocs.Merger cho Node.js."
+      "content": "Chia một tài liệu lớn thành các tập tin nhỏ hơn, dễ quản lý hơn với các công cụ tách nâng cao do GroupDocs.Merger cho Node.js cung cấp."
     },
     "feature_3": {
       "title": "Di chuyển trang hiệu quả",
-      "content": "Định vị lại các trang trong tài liệu để phù hợp với yêu cầu của bạn bằng cách sử dụng tính năng MovePage trực quan trong môi trường Node.js."
+      "content": "Sắp xếp lại trang trong tài liệu để đáp ứng nhu cầu của bạn bằng tính năng MovePage, được thiết kế cho sự tích hợp liền mạch trong Node.js."
     },
     "feature_4": {
-      "title": "Tùy chọn loại bỏ trang",
-      "content": "Loại bỏ các trang không cần thiết hoặc số trang cụ thể một cách dễ dàng với tính năng RemovePages của GroupDocs.Merger được thiết kế riêng cho Node.js."
+      "title": "Tùy chọn xóa trang",
+      "content": "Xóa các trang không mong muốn hoặc các số trang cụ thể một cách dễ dàng với tính năng RemovePages trong GroupDocs.Merger cho Node.js."
     },
     "feature_5": {
       "title": "Chức năng xoay trang",
-      "content": "Xoay các trang trong tài liệu theo hướng mong muốn — 90, 180 hoặc 270 độ — bằng cách sử dụng thao tác RotatePages đơn giản."
+      "content": "Điều chỉnh hướng của các trang thành 90, 180 hoặc 270 độ với thao tác RotatePages đơn giản và hiệu quả."
     },
     "feature_6": {
       "title": "Tính năng hoán đổi trang",
-      "content": "Sửa đổi thứ tự các trang tài liệu của bạn bằng cách hoán đổi vị trí của chúng, do đó tạo ra một tài liệu được tổ chức lại với chức năng SwappAges."
+      "content": "Tổ chức lại tài liệu của bạn bằng cách hoán đổi vị trí của các trang sử dụng hàm SwapPages trong GroupDocs.Merger cho Node.js."
     },
     "feature_7": {
       "title": "Trích xuất trang có chọn lọc",
-      "content": "Tạo một tài liệu mới từ các trang hoặc phạm vi trang đã chọn, chỉ trích xuất nội dung cần thiết với GroupDocs.Merger cho Node.js."
+      "content": "Trích xuất các trang hoặc phạm vi cụ thể để tạo một tài liệu mới, chỉ tập trung vào nội dung bạn cần với GroupDocs.Merger cho Node.js."
     },
     "feature_8": {
-      "title": "Công cụ thay đổi định hướng",
-      "content": "Thay đổi hướng của các trang cụ thể hoặc tất cả các trang từ dọc sang ngang hoặc ngược lại, sử dụng tính năng ChangeOrientation trong các dự án Node.js của bạn."
+      "title": "Công cụ thay đổi hướng",
+      "content": "Chuyển đổi hướng của các trang từ chân dung sang phong cảnh hoặc ngược lại bằng cách sử dụng tính năng ChangeOrientation trong các ứng dụng Node.js của bạn."
     },
     "feature_9": {
       "title": "Xem trước trang tài liệu",
-      "content": "Tạo bản xem trước hình ảnh của các trang tài liệu để hiểu rõ hơn về nội dung và bố cục của chúng, sử dụng tính năng PreviewPages trong Node.js."
+      "content": "Tạo hình ảnh xem trước các trang tài liệu để xem lại nội dung và bố cục của chúng với tính năng PreviewPages trong Node.js."
     }
   }
 }

@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "Node.js API การรวมเอกสาร | ผสาน PDF Word Excel",
-    "description": "การผสานเอกสาร API สำหรับ Node.jsผสาน แยก สวาป เรียงลำดับใหม่ และลบหน้าของรูปแบบ PDF, ไมโครซอฟท์ Word, Excel, งานนำเสนอ, Visio, XPS และ EPUB"
+    "title": "API การรวมเอกสารของ Node.js | รวม PDF, Word, Excel",
+    "description": "API สำหรับ Node.js ในการรวมเอกสาร รวม เอกสาร, แยก, สลับ, ปรับลำดับ, และลบหน้าจากไฟล์ PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, และ EPUB."
   },
   "header": {
-    "title_1": "ผสานเอกสาร",
-    "title_2": "ผ่าน Node.js API",
-    "description": "API การผสมผสานที่ยืดหยุ่นเพื่อรวม แยก หรือแก้ไข PDF และเอกสาร Office ได้อย่างง่ายดาย",
+    "title_1": "รวมเอกสาร",
+    "title_2": "ด้วย API ของ Node.js",
+    "description": "API ที่ยืดหยุ่นสำหรับการรวม, แยก, และแก้ไขเอกสาร PDF และเอกสาร Office.",
     "words": {
       "for": "สำหรับ"
     }
   },
   "actions": {
     "main": "ดาวน์โหลด NPM ฟรี",
-    "alt": "การออกใบอนุญาต",
-    "title": "พร้อมที่จะเริ่มแล้วหรือยัง?",
-    "description": "ลองใช้คุณสมบัติ GroupDocs.Merger ฟรีหรือขอใบอนุญาต"
+    "alt": "การอนุญาต",
+    "title": "พร้อมเริ่มต้นแล้วหรือยัง?",
+    "description": "สำรวจ GroupDocs.Merger ได้ฟรี หรือขอใบอนุญาต"
   },
   "release": {
-    "title": "เวอร์ชัน {0} เผยแพร่",
-    "notes": "ดูว่ามีอะไรใหม่",
+    "title": "เวอร์ชัน {0} ได้รับการเผยแพร่แล้ว",
+    "notes": "ตรวจสอบการอัปเดตล่าสุด",
     "downloads": "ดาวน์โหลด"
   }
 }

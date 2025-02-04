@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "API de fusão de documentos C# .NET | Combinar e dividir PDF Word Excel EPUB",
-    "description": "API de fusão de documentos C# .NET para combinar, dividir, trocar ou remover páginas de documentos PDF, Microsoft Word, Excel, apresentações, Visio e formatos de imagem."
+    "title": "API de mesclagem de documentos C# .NET | combine e divida PDF, Word, Excel, EPUB",
+    "description": "API C# .NET para mesclar documentos. Combine, divida, troque ou remova páginas de arquivos PDF, Microsoft Word, Excel, PowerPoint, Visio e imagens."
   },
   "header": {
     "title_1": "Mesclar documentos",
     "title_2": "via API .NET",
-    "description": "Poderosa API de fusão para manipular PDF, Microsoft Office, HTML e arquivos de imagem.",
+    "description": "Uma API poderosa para mesclar, dividir e gerenciar arquivos PDF, Office, HTML e imagens.",
     "words": {
       "for": "para"
     }
   },
   "actions": {
-    "main": "Download grátis do NuGet",
+    "main": "Download gratuito do NuGet",
     "alt": "Licenciamento",
     "title": "Pronto para começar?",
-    "description": "Experimente os recursos do GroupDocs.Merger gratuitamente ou solicite uma licença"
+    "description": "Experimente o GroupDocs.Merger gratuitamente ou solicite uma licença"
   },
   "release": {
     "title": "Versão {0} lançada",
-    "notes": "Veja o que é novo",
-    "downloads": "Transferências"
+    "notes": "Veja o que há de novo",
+    "downloads": "Downloads"
   }
 }

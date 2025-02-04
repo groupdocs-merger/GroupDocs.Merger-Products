@@ -1,0 +1,25 @@
+{
+  "code_samples": {
+    "title": "Esempi di codice",
+    "description": "Scopri casi d'uso comuni per GroupDocs.Merger in {{ProgLang}}. Questi esempi mostrano come unire e dividere documenti in modo efficiente utilizzando GroupDocs.Merger per {{ProgLang}}.",
+    "sample_1": {
+      "title": "Unisci più file DOCX in un unico documento in {{ProgLang}}",
+      "content_1": "GroupDocs.Merger per {{ProgLang}} ti consente di combinare più file DOCX in un unico documento. Con la funzionalità [Unisci documenti Word](https://docs.groupdocs.com/merger/python-net/merge/word/), puoi semplificare la gestione dei documenti e migliorare la produttività.",
+      "content_2": "Di seguito è riportato un frammento di codice {{ProgLang}} che dimostra il processo di unione:",
+      "code_title": "Esempio: Unire file DOCX in {{ProgLang}}",
+      "comment_1": "Carica il primo file DOCX",
+      "comment_2": "Aggiungi altri file DOCX da unire",
+      "comment_3": "Unisci i file DOCX e salva il risultato"
+    },
+    "sample_2": {
+      "title": "Dividi un documento PDF in più file in {{ProgLang}}",
+      "content_1": "Con GroupDocs.Merger per {{ProgLang}}, puoi dividere documenti PDF di grandi dimensioni in file più piccoli senza sforzo. La funzionalità [Dividi documento](https://docs.groupdocs.com/merger/python-net/split-document/) consente di estrarre pagine specifiche in base a criteri come intervallo di pagine, pagine di inizio/fine o pagine dispari/e pari.",
+      "content_2": "Questa funzionalità aiuta a organizzare documenti di grandi dimensioni suddividendoli in file più piccoli e gestibili.",
+      "code_title": "Come dividere un PDF in file separati in {{ProgLang}}",
+      "comment_1": "Usa GroupDocs.Merger per {{ProgLang}} per dividere il file PDF",
+      "comment_2": "Definisci SplitOptions con il formato di output desiderato",
+      "comment_3": "Inizializza il Merger con il documento PDF di input",
+      "comment_4": "Chiama il metodo di divisione con l'oggetto SplitOptions per generare file separati"
+    }
+  }
+}
