@@ -1,25 +1,25 @@
 {
   "code_samples": {
-    "title": "Code Samples",
-    "description": "Explore typical use cases for GroupDocs.Merger tailored to Node.js environments. These examples demonstrate the efficiency and ease of merging documents using the GroupDocs.Merger for Node.js.",
+    "title": "Code samples",
+    "description": "Explore common use cases for GroupDocs.Merger in Node.js. These examples demonstrate how to efficiently merge and split documents using GroupDocs.Merger for Node.js.",
     "sample_1": {
-      "title": "Efficiently Merge DOCX Files into One Document Using Node.js",
-      "content_1": "Leverage the GroupDocs.Merger for Node.js to seamlessly merge multiple DOCX files into a single comprehensive document. Utilize our [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) feature to efficiently combine files, enhancing document management and productivity.",
-      "content_2": "Below, find a Node.js code snippet to guide you through the document merge process:",
-      "code_title": "Node.js Example: Merging DOCX Files",
-      "comment_1": "Load the initial DOCX file",
-      "comment_2": "Append additional DOCX files for merging",
-      "comment_3": "Execute the merge process and save the combined document"
+      "title": "Merge multiple DOCX files into one document in Node.js",
+      "content_1": "Use GroupDocs.Merger for Node.js to seamlessly combine multiple DOCX files into a single document. The [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) feature simplifies document management by merging files efficiently.",
+      "content_2": "Below is a Node.js code snippet demonstrating the merging process:",
+      "code_title": "Example: Merging DOCX files in Node.js",
+      "comment_1": "Load the first DOCX file",
+      "comment_2": "Add additional DOCX files to merge",
+      "comment_3": "Merge the DOCX files and save the output"
     },
     "sample_2": {
-      "title": "Split a PDF Document into Individual Files in Node.js",
-      "content_1": "With GroupDocs.Merger for Node.js, splitting a document into multiple files is streamlined. Our [Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) feature allows for efficient management and extraction of specific sections from large PDF documents, making your document handling more effective.",
-      "content_2": "This feature supports splitting documents by page range, start/end pages, or odd/even page numbers, among other criteria.",
-      "code_title": "How to Split Documents into Separate Files with Node.js",
-      "comment_1": "Begin by splitting the PDF file using GroupDocs.Merger for Node.js API",
-      "comment_2": "Set up SplitOptions class with the format for output files",
-      "comment_3": "Initialize Merger with the PDF document to be split",
-      "comment_4": "Invoke the split method with the SplitOptions object to obtain the resulting documents"
+      "title": "Split a PDF document into multiple files in Node.js",
+      "content_1": "GroupDocs.Merger for Node.js makes it easy to split large PDF documents into smaller files. The [Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) feature allows you to extract specific pages based on different criteria, such as page range, start/end pages, or odd/even pages.",
+      "content_2": "This feature helps organize large documents by breaking them into smaller, more manageable files.",
+      "code_title": "How to split a PDF into separate files in Node.js",
+      "comment_1": "Use GroupDocs.Merger for Node.js to split the PDF file",
+      "comment_2": "Define SplitOptions with the desired output format",
+      "comment_3": "Initialize the Merger with the input PDF document",
+      "comment_4": "Call the split method with the SplitOptions object to generate separate files"
     }
   }
 }

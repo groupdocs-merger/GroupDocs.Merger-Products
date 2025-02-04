@@ -1,7 +1,7 @@
 {
   "formats": {
     "title": "Supported file formats",
-    "description": "GroupDocs.Merger for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/).",
+    "description": "GroupDocs.Merger for Python via .NET enables seamless operations with a variety of [file formats](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), ensuring flexibility for your document management tasks.",
     "groups": {
       "title_1": "Microsoft Office formats",
       "title_2": "Documents & images",

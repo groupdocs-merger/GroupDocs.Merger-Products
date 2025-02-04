@@ -1,25 +1,25 @@
 {
   "code_samples": {
     "title": "Code samples",
-    "description": "Some use cases of typical GroupDocs.Merger for Java operations",
+    "description": "Examples of common GroupDocs.Merger operations in Java",
     "sample_1": {
       "title": "Merge DOCX files into a single document",
-      "content_1": "With the [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) feature you can combine entire DOCX files into a single document by loading the source file, adding more DOCX files to join, and saving the merged document.",
-      "content_2": "Below is a Java code snippet demonstrating the merge process: ",
+      "content_1": "With the [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) feature, you can easily combine multiple DOCX files into one. Load the source document, add additional DOCX files, and save the merged result.",
+      "content_2": "Below is a Java code snippet demonstrating the merging process:",
       "code_title": "How to merge DOCX files in Java",
       "comment_1": "Load the source DOCX file",
-      "comment_2": "Add another DOCX file to merge",
-      "comment_3": "Merge DOCX files and save result"
+      "comment_2": "Add another DOCX file to combine",
+      "comment_3": "Merge DOCX files and save the output"
     },
     "sample_2": {
-      "title": "Split PDF document into multiple files",
-      "content_1": "Divide a document into multiple files with the [Split Document](https://docs.groupdocs.com/merger/java/split-document/) feature to simplify the process of managing and extracting specific sections or pages from large documents.",
-      "content_2": "It allows you to divide documents into smaller parts based on various criteria - by page range, by start/end pages, by odd/even page numbers etc.",
-      "code_title": "Split the document to several one-page documents",
-      "comment_1": "Split PDF file using GroupDocs.Merger for Java API",
-      "comment_2": "Initialize SplitOptions class with output files path format",
-      "comment_3": "Instantiate Merger with input PDF document",
-      "comment_4": "Call split method and pass SplitOptions object to save resultant documents"
+      "title": "Split a PDF document into multiple files",
+      "content_1": "Use the [Split Document](https://docs.groupdocs.com/merger/java/split-document/) feature to break a large PDF into smaller, more manageable files. This is useful for extracting specific sections or pages.",
+      "content_2": "You can split a document using various criteria, such as page range, specific start and end pages, or even odd/even page numbers.",
+      "code_title": "Split a document into multiple one-page files",
+      "comment_1": "Split a PDF file using GroupDocs.Merger for Java API",
+      "comment_2": "Initialize the SplitOptions class with the output file format",
+      "comment_3": "Create a Merger instance with the input PDF document",
+      "comment_4": "Call the split method with the SplitOptions object to generate separate files"
     }
   }
 }

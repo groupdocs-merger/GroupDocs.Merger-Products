@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Overview of GroupDocs.Merger for Node.js",
-    "description": "Comprehensive API for merging, splitting, rearranging, and refining documents, slides, and diagrams in Node.js applications.",
+    "title": "Overview of GroupDocs.Merger for Python",
+    "description": "A versatile API for merging, splitting, rearranging, and refining documents, slides, and diagrams in Python applications.",
     "feature_1": {
-      "title": "Merge Documents with Ease in Node.js",
-      "description": "Utilize GroupDocs.Merger for Node.js to effortlessly combine PDF and Office documents into a unified file. This library extends broad format support, enabling the smooth integration and merging of different file types, thereby enhancing the document management process in Node.js applications."
+      "title": "Merge documents with ease in Python",
+      "description": "Effortlessly combine PDF and Office documents into a single file using GroupDocs.Merger for Python. With extensive format support, this library ensures seamless integration and merging of various file types, simplifying document management in Python applications."
     },
     "feature_2": {
-      "title": "Simplify Document Handling by Segmenting Large Files",
-      "description": "With GroupDocs.Merger for Node.js, you can easily split substantial PDF or Office files into more manageable pieces. Tailor your documents by dividing them based on specific pages, ranges, or individual page extraction, enhancing the organization and efficiency of your document workflows."
+      "title": "Simplify document handling by segmenting large files",
+      "description": "Easily split large PDF or Office files into smaller, more manageable sections with GroupDocs.Merger for Python. Customize your documents by dividing them based on specific pages, ranges, or extracting individual pages, improving organization and workflow efficiency."
     },
     "feature_3": {
-      "title": "Gain Full Control Over Your Document's Structure in Node.js",
-      "description": "Redefine your document's layout by effortlessly rearranging, exchanging, or discarding pages using GroupDocs.Merger for Node.js. Adapt your documents to meet unique needs, providing unmatched flexibility in constructing a custom file configuration."
+      "title": "Gain full control over your document's structure in Python",
+      "description": "Easily rearrange, swap, or remove pages to customize your document layout using GroupDocs.Merger for Python. Adapt your files to meet specific requirements, offering unmatched flexibility in creating tailored document structures."
     }
   }
 }

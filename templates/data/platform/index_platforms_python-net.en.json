@@ -1,6 +1,6 @@
 {
   "platforms": {
     "title": "Platform independence",
-    "description": "GroupDocs.Merger for Node.js supports the following operating systems, frameworks and package managers"
+    "description": "GroupDocs.Merger for Python is built to operate smoothly across multiple operating systems, frameworks, and package managers, providing versatility and compatibility for your development environment."
   }
 }

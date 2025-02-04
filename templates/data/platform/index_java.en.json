@@ -1,12 +1,12 @@
 {
   "head": {
-    "title": "Java Document Merging API | merge & remove Word Excel PDF XPS EPUB",
-    "description": "Documents merging API for Java. Merge, split, swap, reorder and delete pages of PDF, Microsoft Word, Excel, presentations, Visio, XPS & EPUB formats."
+    "title": "Java document merging API | merge & manage Word, Excel, PDF, XPS, EPUB",
+    "description": "Java API for document merging. Merge, split, reorder, swap, and remove pages from PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, and EPUB files."
   },
   "header": {
     "title_1": "Merge documents",
-    "title_2": "via Java API",
-    "description": "Flexible Merger API to easily combine, split, or modify PDF and Office Documents",
+    "title_2": "with Java API",
+    "description": "A versatile API for merging, splitting, and modifying PDF and Office documents",
     "words": {
       "for": "for"
     }
@@ -15,11 +15,11 @@
     "main": "Free Maven Download",
     "alt": "Licensing",
     "title": "Ready to get started?",
-    "description": "Try GroupDocs.Merger features for free or request a license"
+    "description": "Try GroupDocs.Merger for free or request a license"
   },
   "release": {
     "title": "Version {0} released",
-    "notes": "See what’s new",
+    "notes": "See what's new",
     "downloads": "Downloads"
   }
 }

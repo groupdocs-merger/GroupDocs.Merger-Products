@@ -1,6 +1,6 @@
 {
   "platforms": {
     "title": "Platform independence",
-    "description": "GroupDocs.Merger for Node.js supports the following operating systems, frameworks and package managers"
+    "description": "GroupDocs.Merger for Node.js is designed to work seamlessly across various operating systems, frameworks, and package managers, ensuring flexibility and compatibility for your development needs."
   }
 }

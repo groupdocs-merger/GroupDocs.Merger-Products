@@ -1,18 +1,18 @@
 {
   "overview": {
     "title": "GroupDocs.Merger at a glance",
-    "description": "API to combine, split, swap, trim or remove documents, slides, and diagrams in Java applications",
+    "description": "API to combine, split, swap, trim, or remove documents, slides, and diagrams in Java applications.",
     "feature_1": {
       "title": "Effortlessly merge multiple documents in Java",
-      "description": "Easily merge PDF and Office files into a single document in Java, leveraging the capabilities of the GroupDocs.Merger library. Benefit from its extensive format support, allowing you to seamlessly combine various file types, resulting in a convenient and streamlined merging process."
+      "description": "Merge PDF and Office files into a single document effortlessly in Java using GroupDocs.Merger. With its wide format support, you can combine various file types seamlessly, simplifying the merging process and enhancing productivity."
     },
     "feature_2": {
       "title": "Streamline document management by dividing bulky files easily",
-      "description": "Split large PDF or Office files into smaller, easily handled sections. You may divide documents based on specific pages, ranges, or even extract individual pages with ease and convenience. Streamline your document management by utilizing the seamless capabilities of the GroupDocs.Merger library and make your files more organized and manageable."
+      "description": "Break down large PDF or Office files into smaller, more manageable sections. Split documents by specific pages, ranges, or extract individual pages with ease. GroupDocs.Merger simplifies document organization, making your files easier to handle and access."
     },
     "feature_3": {
       "title": "Customize your document structure and have full control over your files",
-      "description": "Easily manipulate pages by reordering, swapping, or removing them. Organize and tailor your documents according to your specific requirements with the flexibility to create a personalized file structure."
+      "description": "Take full control of your documents by reordering, swapping, or removing pages. Tailor your files to meet specific needs with the flexibility to create a customized document structure using GroupDocs.Merger."
     }
   }
 }

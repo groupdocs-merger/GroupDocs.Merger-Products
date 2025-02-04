@@ -1,42 +1,42 @@
 {
   "features": {
     "title": "Key Features of GroupDocs.Merger for Node.js",
-    "description": "Efficiently merge, split, and manipulate documents in PDF and Office formats using GroupDocs.Merger in a Node.js environment.",
+    "description": "Effortlessly merge, split, and manage documents in PDF and Office formats with GroupDocs.Merger in a Node.js environment.",
     "feature_1": {
-      "title": "Seamless Document Combination",
-      "content": "Easily merge multiple documents into one by combining specific pages or ranges from various files, using the GroupDocs.Merger for Node.js."
+      "title": "Seamless document combination",
+      "content": "Combine multiple documents into a single file by selecting specific pages or ranges from different sources using GroupDocs.Merger for Node.js."
     },
     "feature_2": {
-      "title": "Document Splitting Capabilities",
-      "content": "Split a single document into several smaller files for better management and organization, utilizing the comprehensive split feature of GroupDocs.Merger for Node.js."
+      "title": "Document splitting capabilities",
+      "content": "Divide a large document into smaller, more manageable files with the advanced splitting tools provided by GroupDocs.Merger for Node.js."
     },
     "feature_3": {
-      "title": "Efficient Page Movement",
-      "content": "Reposition pages within a document to suit your requirements by using the intuitive MovePage feature in the Node.js environment."
+      "title": "Efficient page movement",
+      "content": "Rearrange pages within a document to meet your needs using the MovePage feature, designed for seamless integration in Node.js."
     },
     "feature_4": {
-      "title": "Page Removal Options",
-      "content": "Remove unnecessary pages or specific page numbers easily with the GroupDocs.Merger's RemovePages feature tailored for Node.js."
+      "title": "Page removal options",
+      "content": "Eliminate unwanted pages or specific page numbers effortlessly with the RemovePages feature in GroupDocs.Merger for Node.js."
     },
     "feature_5": {
-      "title": "Page Rotation Functionality",
-      "content": "Rotate pages within a document to the desired orientation—90, 180, or 270 degrees—using the straightforward RotatePages operation."
+      "title": "Page rotation functionality",
+      "content": "Adjust the orientation of pages to 90, 180, or 270 degrees with the simple and effective RotatePages operation."
     },
     "feature_6": {
-      "title": "Page Swapping Feature",
-      "content": "Modify the order of your document's pages by swapping their positions, thus creating a reorganized document with the SwapPages function."
+      "title": "Page swapping feature",
+      "content": "Reorganize your document by swapping the positions of pages using the SwapPages function in GroupDocs.Merger for Node.js."
     },
     "feature_7": {
-      "title": "Selective Page Extraction",
-      "content": "Create a new document from selected pages or page ranges, extracting only the necessary content with GroupDocs.Merger for Node.js."
+      "title": "Selective page extraction",
+      "content": "Extract specific pages or ranges to create a new document, focusing only on the content you need with GroupDocs.Merger for Node.js."
     },
     "feature_8": {
-      "title": "Orientation Alteration Tool",
-      "content": "Change the orientation of specific or all pages from portrait to landscape or vice versa, employing the ChangeOrientation feature in your Node.js projects."
+      "title": "Orientation alteration tool",
+      "content": "Switch the orientation of pages from portrait to landscape or vice versa using the ChangeOrientation feature in your Node.js applications."
     },
     "feature_9": {
-      "title": "Document Page Previews",
-      "content": "Generate image previews of document pages to better understand their content and layout, using the PreviewPages feature within Node.js."
+      "title": "Document page previews",
+      "content": "Generate image previews of document pages to review their content and layout with the PreviewPages feature in Node.js."
     }
   }
 }

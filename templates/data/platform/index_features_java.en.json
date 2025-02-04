@@ -1,42 +1,42 @@
 {
   "features": {
     "title": "GroupDocs.Merger features",
-    "description": "Seamlessly merge, split, and manipulate PDF and Office Documents",
+    "description": "Easily merge, split, and manipulate PDF and Office documents with powerful tools.",
     "feature_1": {
       "title": "Combine files",
-      "content": "Merge two or more documents into a single document, joining specific pages or page ranges from multiple source documents."
+      "content": "Merge multiple documents into one, selecting specific pages or page ranges from different source files."
     },
     "feature_2": {
       "title": "Split document",
-      "content": "Utilize the split operation to divide a source document into multiple resultant documents, enabling efficient organization and management of files."
+      "content": "Break a document into multiple smaller files, making it easier to manage and organize content."
     },
     "feature_3": {
       "title": "Move pages",
-      "content": "Smoothly reposition a page within a document by leveraging the MovePage feature."
+      "content": "Reorder your document by moving pages to a new position with the MovePage feature."
     },
     "feature_4": {
       "title": "Remove pages",
-      "content": "Effectively remove individual pages or a collection of specific page numbers from the source document with the RemovePages feature."
+      "content": "Delete individual pages or a set of specific pages from a document using the RemovePages feature."
     },
     "feature_5": {
       "title": "Rotate pages",
-      "content": "Take advantage of the RotatePages operation to easily rotate pages within a document by specifying the rotation angle as 90, 180, or 270 degrees"
+      "content": "Rotate pages in a document by 90, 180, or 270 degrees with the RotatePages feature."
     },
     "feature_6": {
       "title": "Swap pages",
-      "content": "Rearrange the page order by exchanging the positions of two pages within the source document, producing a new document."
+      "content": "Change the order of pages by swapping two pages within the document."
     },
     "feature_7": {
       "title": "Extract pages",
-      "content": "Generate a new document containing only the selected pages by extracting specific pages or page ranges from the source document."
+      "content": "Create a new document containing only selected pages by extracting specific pages or page ranges."
     },
     "feature_8": {
       "title": "Change orientation",
-      "content": "Modify the page orientation (portrait or landscape) for specific pages or all pages of the document by leveraging the ChangeOrientation operation."
+      "content": "Switch page orientation between portrait and landscape for specific or all pages in a document."
     },
     "feature_9": {
       "title": "Preview pages",
-      "content": "Gain a clearer understanding of the content and structure of the document by generating image representations of its pages. Make previews of all or just specific pages."
+      "content": "Generate image previews of document pages to get a better view of their content and layout."
     }
   }
 }
