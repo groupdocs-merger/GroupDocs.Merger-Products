@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:02
+date: 2025-02-05T07:59:06
 draft: false
 
 product: "Merger"
@@ -26,12 +26,12 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "C# .NET Document Merging API | Combine & Split PDF Word Excel EPUB"
-head_description: "C# .NET document merging API to combine, split, swap or remove document pages from PDF, Microsoft Word, Excel, presentations, Visio and image formats."
+head_title: "C# .NET document merging API | combine & split PDF, Word, Excel, EPUB"
+head_description: "C# .NET API for merging documents. Combine, split, swap, or remove pages from PDF, Microsoft Word, Excel, PowerPoint, Visio, and image files."
 
 ############################# Header ############################
 title: "Merge documents<br>via .NET API"
-description: "Powerful merger API to manipulate PDF, Microsoft Office, HTML and image files."
+description: "A powerful API for merging, splitting, and managing PDF, Office, HTML, and image files."
 words:
   for: "for"
 
@@ -41,11 +41,11 @@ actions:
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
   title: "Ready to get started?"
-  description: "Try GroupDocs.Merger features for free or request a license"
+  description: "Try GroupDocs.Merger for free or request a license"
 
 release:
   title: "Version {0} released"
-  notes: "See what’s new"
+  notes: "See what's new"
   downloads: "Downloads"
 
 code:
@@ -55,13 +55,13 @@ code:
   install: "dotnet add package GroupDocs.Merger"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Open the source PDF file
     using (Merger merger = new Merger(@"c:\sample1.pdf"))
     {
-      //  Add another PDF file to merge
+      // Append another PDF file for merging
       merger.Join(@"c:\sample2.pdf");
 
-      // Merge PDF files and save result
+      // Combine PDF files and save the output
       merger.Save(@"c:\merged.pdf");
     }
     ```
@@ -69,25 +69,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Merger at a glance"
-  description: "API to combine, split, swap, trim or remove documents, slides, and diagrams in .NET applications"
+  description: "API to combine, split, swap, trim, or remove documents, slides, and diagrams in .NET applications."
   features:
     # feature loop
     - title: "Effortlessly merge multiple documents in C#"
-      content: "Merge Documents: Seamlessly combine multiple PDF and Office files into a single document, with support for a wide range of formats. GroupDocs.Merger for .NET makes document merging fast and hassle-free."
+      content: "Easily combine multiple PDF and Office files into a single document using GroupDocs.Merger for .NET. With support for a wide range of formats, merging documents becomes quick and straightforward."
 
     # feature loop
     - title: "Simplify document management by splitting large files"
-      content: "Split large PDF or Office files into smaller, more manageable parts with ease. GroupDocs.Merger for .NET enables you to split documents based on specific pages, ranges, or even extract individual pages effortlessly."
+      content: "Break down large PDF or Office files into smaller, more manageable sections. GroupDocs.Merger for .NET allows you to split documents by specific pages, ranges, or extract individual pages with ease."
 
     # feature loop
     - title: "Manipulate pages and customize document structure - reorder, swap, or remove"
-      content: "Take control of your documents by rearranging pages, removing unwanted pages, or adding new ones. GroupDocs.Merger for .NET empowers you to manipulate document structure, allowing you to customize and tailor your files according to your specific needs."
+      content: "Gain full control over your documents by reordering, swapping, or removing pages. GroupDocs.Merger for .NET provides the flexibility to customize your document structure to meet your specific requirements."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Merger for .NET supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Merger for .NET is built to operate smoothly across multiple operating systems, frameworks, and package managers, providing versatility and compatibility for your development environment."
   items:
     # platform loop
     - title: "Amazon"
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Merger for .NET supports operations with the following [file formats](https://docs.groupdocs.com/merger/net/supported-document-formats/).
+    GroupDocs.Merger for .NET allows you to work with a variety of [file formats](https://docs.groupdocs.com/merger/net/supported-document-formats/), ensuring flexibility for your document processing needs.
   groups:
     # group loop
     - color: "green"
@@ -149,64 +149,64 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Merger features"
-  description: "Seamlessly merge, split, and manipulate PDF and Office Documents"
+  description: "Easily merge, split, and manage PDF and Office documents."
 
   items:
     # feature loop
     - icon: "merge"
       title: "Merge files"
-      content: "Combine two or more documents into a single document, merging specific pages or page ranges from multiple source documents."
+      content: "Combine multiple documents into one, merging entire files or specific pages from different sources."
 
     # feature loop
     - icon: "split"
       title: "Split documents"
-      content: "Divide a source document into multiple resultant documents using the split operation."
+      content: "Break a document into multiple smaller files for better organization and management."
 
     # feature loop
     - icon: "move"
       title: "Move pages"
-      content: "Reposition pages within a document using the MovePage feature."
+      content: "Reorder pages within a document by moving them to a new position."
 
     # feature loop
     - icon: "remove"
       title: "Remove pages"
-      content: "Remove individual pages or a collection of specific page numbers from the source document."
+      content: "Delete specific pages or multiple selected pages from a document."
 
     # feature loop
     - icon: "rotate"
       title: "Rotate pages"
-      content: "Rotate pages within a document by setting the rotation angle to 90, 180, or 270 degrees using the RotatePages operation."
+      content: "Rotate pages in a document by 90, 180, or 270 degrees as needed."
 
     # feature loop
     - icon: "swap"
       title: "Swap pages"
-      content: "Exchange the positions of two pages within the source document, creating a new document with swapped page positions."
+      content: "Switch the positions of two pages within a document for better arrangement."
 
     # feature loop
     - icon: "extract"
       title: "Extract pages"
-      content: "Extract specific pages or page ranges from a source document, generating a new document containing only the selected pages."
+      content: "Select and extract specific pages or page ranges to create a new document."
 
     # feature loop
     - icon: "orientation"
       title: "Change orientation"
-      content: "Set the page orientation (portrait or landscape) for specific or all pages of the document using the ChangeOrientation operation."
+      content: "Adjust page orientation to portrait or landscape for selected or all pages."
 
     # feature loop
     - icon: "preview"
       title: "Preview pages"
-      content: "Generate image representations of document pages to understand the content and structure better. Make previews of all or just specific pages."
+      content: "Generate image previews of document pages to get a clear view of their content and layout."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Merger for .NET operations"
+  description: "Examples of common GroupDocs.Merger operations in .NET"
   items:
     # code sample loop
-    - title: "Merge specific DOCX file pages into a single document"
+    - title: "Merge specific pages from DOCX files into a single document"
       content: |
-        The [Selective Page Merge](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) feature allows you to extract and merge only the desired content from each file. Here's an example of how to achieve selective page merging using C#: 
+        The [Selective Page Merge](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) feature allows you to extract and merge only the required pages from multiple DOCX files. Here's how to perform selective page merging using C#:
         {{< landing/code title="How to merge DOCX files in C#">}}
         ```csharp {style=abap}   
         JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
@@ -214,30 +214,30 @@ code_samples:
         // Load the source DOCX file
         using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
         {
-          // Add another DOCX file to merge
+          // Add another DOCX file to include specific pages
           merger.Join(@"c:\sample2.docx", joinOptions);
           
-          // Merge DOCX files and save result
+          // Merge selected pages and save the output
           merger.Save(@"c:\result.docx");
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Split PDF document into multiple files"
+    - title: "Split a PDF document into multiple files"
       content: |
-        Efficiently split a document into multiple files with the [Split Document](https://docs.groupdocs.com/merger/net/split-document/) feature which simplifies the process of managing and extracting specific sections or pages from large documents. It allows you to divide documents into smaller parts based on various criteria - by page range, by start/end pages, by odd/even page numbers, etc.
-        {{< landing/code title="How to split the document to several multi-page documents">}}
+        Easily break a large PDF into multiple smaller files using the [Split Document](https://docs.groupdocs.com/merger/net/split-document/) feature. This helps with extracting specific sections or organizing content more efficiently. You can split documents based on various criteria, such as page range, specific start and end pages, or odd/even page numbers.
+        {{< landing/code title="How to split a document into multiple multi-page files">}}
         ```csharp {style=abap}   
-        // Split PDF file using GroupDocs.Merger API
+        // Use GroupDocs.Merger API to split a PDF file
         int[] splitPages = new int[] { 3, 6, 8 };
         
-        // Initialize SplitOptions class with output files path format
+        // Set up SplitOptions with the output file format
         SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
         
-        // Instantiate Merger with input PDF document
+        // Create a Merger instance and load the PDF document
         using (Merger merger = new Merger(@"c:\sample.pdf"))
         {
-          // Call split method and pass SplitOptions object to save resultant documents
+          // Call the split method with SplitOptions to generate separate files
           merger.Split(splitOptions);
         }  
         ```

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:03
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,67 +26,67 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "API Penggabungan Dokumen Node.js | gabungkan PDF Word Excel"
-head_description: "Dokumen menggabungkan API untuk Node.js. Gabungkan, pisahkan, tukar, menyusun ulang, dan menghapus halaman format PDF, Microsoft Word, Excel, presentasi, Visio, XPS & EPUB."
+head_title: "API penggabungan dokumen Node.js | gabungkan PDF, Word, Excel"
+head_description: "API Node.js untuk menggabungkan dokumen. Gabungkan, pisahkan, tukar, urutkan, dan hapus halaman dari file PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, dan EPUB."
 
 ############################# Header ############################
-title: "Gabungkan dokumen<br>melalui Node.js API"
-description: "API Penggabungan Fleksibel untuk menggabungkan, membagi, atau memodifikasi PDF dan Dokumen Office dengan mudah"
+title: "Gabungkan dokumen<br>dengan API Node.js"
+description: "API yang fleksibel untuk menggabungkan, memisahkan, dan mengedit dokumen PDF dan Office."
 words:
   for: "untuk"
 
 actions:
-  main: "Unduhan NPM Gratis"
+  main: "Unduh NPM gratis"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
-  alt: "Perizinan"
+  alt: "Lisensi"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java"
   title: "Siap untuk memulai?"
-  description: "Coba fitur GroupDocs.Merger secara gratis atau minta lisensi"
+  description: "Jelajahi GroupDocs.Merger secara gratis atau minta lisensi"
 
 release:
   title: "Versi {0} dirilis"
-  notes: "Lihat apa yang baru"
+  notes: "Lihat pembaruan terbaru"
   downloads: "Unduhan"
 
 code:
-  title: "Gabungkan PDF file di Node.js melalui Java"
-  more: "Lebih banyak contoh"
+  title: "Gabungkan file PDF di Node.js melalui Java"
+  more: "Contoh lainnya"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.merger"
   content: |
     ```javascript {style=abap}   
-    // Muat file sumber PDF
+    // Muat file PDF asli
     const merger = new Merger("sample1.pdf");
     
-    //  Tambahkan file PDF lainnya untuk digabungkan
+    // Tambahkan file PDF lain untuk digabungkan
     merger.join("sample2.pdf");
 
-    // Gabungkan PDF file dan simpan hasilnya
+    // Gabungkan file PDF dan simpan outputnya
     merger.save("merged.pdf");
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Ikhtisar GroupDocs.Merger untuk Node.js"
-  description: "API komprehensif untuk menggabungkan, memisahkan, menata ulang, dan menyempurnakan dokumen, slide, dan diagram dalam aplikasi Node.js."
+  title: "Gambaran Umum GroupDocs.Merger untuk Node.js"
+  description: "API yang kuat untuk menggabungkan, membagi, menyusun ulang, dan memperbaiki dokumen, slide, dan diagram dalam aplikasi Node.js."
   features:
     # feature loop
-    - title: "Gabungkan Dokumen dengan Mudah di Node.js"
-      content: "Manfaatkan GroupDocs.Merger untuk Node.js untuk menggabungkan dokumen PDF dan Office dengan mudah ke dalam file terpadu. Pustaka ini memperluas dukungan format yang luas, memungkinkan integrasi yang lancar dan penggabungan berbagai jenis file, sehingga meningkatkan proses manajemen dokumen dalam aplikasi Node.js."
+    - title: "Gabungkan dokumen dengan lancar di Node.js"
+      content: "Gabungkan dokumen PDF dan Office menjadi satu file tanpa kesulitan menggunakan GroupDocs.Merger untuk Node.js. Dengan dukungan format yang luas, pustaka ini menjamin integrasi dan penggabungan berbagai tipe file secara mulus, menyederhanakan manajemen dokumen dalam aplikasi Node.js."
 
     # feature loop
-    - title: "Sederhanakan Penanganan Dokumen dengan Mensegmentasi File Besar"
-      content: "Dengan GroupDocs.Merger untuk Node.js, Anda dapat dengan mudah membagi file besar PDF atau Office menjadi bagian-bagian yang lebih mudah dikelola. Sesuaikan dokumen Anda dengan membaginya berdasarkan halaman tertentu, rentang, atau ekstraksi halaman individual, meningkatkan organisasi dan efisiensi alur kerja dokumen Anda."
+    - title: "Sederhanakan penanganan dokumen dengan membagi file besar"
+      content: "Dengan efisien membagi file PDF atau Office yang besar menjadi bagian yang lebih kecil dan lebih mudah dikelola menggunakan GroupDocs.Merger untuk Node.js. Sesuaikan dokumen Anda dengan membaginya berdasar halaman tertentu, rentang, atau mengekstrak halaman individu, meningkatkan organisasi dan efisiensi alur kerja."
 
     # feature loop
-    - title: "Dapatkan Kontrol Penuh Atas Struktur Dokumen Anda di Node.js"
-      content: "Tentukan ulang tata letak dokumen Anda dengan mudah mengatur ulang, bertukar, atau membuang halaman menggunakan GroupDocs.Merger untuk Node.js. Sesuaikan dokumen Anda untuk memenuhi kebutuhan unik, memberikan fleksibilitas yang tak tertandingi dalam membangun konfigurasi file khusus."
+    - title: "Dapatkan kontrol penuh atas struktur dokumen Anda di Node.js"
+      content: "Dengan mudah menyusun ulang, menukar, atau menghapus halaman untuk menyesuaikan tata letak dokumen Anda menggunakan GroupDocs.Merger untuk Node.js. Sesuaikan file Anda untuk memenuhi kebutuhan tertentu, menawarkan fleksibilitas yang tiada tara dalam menciptakan struktur dokumen yang disesuaikan."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Independensi platform"
-  description: "GroupDocs.Merger untuk Node.js mendukung sistem operasi, kerangka kerja dan manajer paket berikut"
+  title: "Kemandirian Platform"
+  description: "GroupDocs.Merger untuk Node.js dirancang untuk bekerja secara mulus di berbagai sistem operasi, kerangka kerja, dan manajer paket, memastikan fleksibilitas dan kompatibilitas untuk kebutuhan pengembangan Anda."
   items:
     # platform loop
     - title: "Amazon"
@@ -117,14 +117,14 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "Format file yang didukung"
+  title: "Format File yang Didukung"
   description: |
-    GroupDocs.Merger untuk Node.js melalui Java mendukung operasi dengan [format file] berikut (https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/).
+    GroupDocs.Merger untuk Node.js melalui Java menyediakan dukungan untuk berbagai macam [format file](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/), memungkinkan operasi dokumen yang serbaguna.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office format
+        ### Format Microsoft Office
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -142,98 +142,98 @@ formats:
       content: |
         ### Format lainnya
         * **Web:**  HTML, MHTML, MHT
-        * **mengarsipkan:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Arsip:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
   title: "Fitur Utama GroupDocs.Merger untuk Node.js"
-  description: "Menggabungkan, membagi, dan memanipulasi dokumen secara efisien dalam format PDF dan Office menggunakan GroupDocs.Merger di lingkungan Node.js."
+  description: "Menggabungkan, membagi, dan mengelola dokumen dalam format PDF dan Office dengan GroupDocs.Merger di lingkungan Node.js."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "Kombinasi Dokumen yang Mulus"
-      content: "Gabungkan beberapa dokumen dengan mudah menjadi satu dengan menggabungkan halaman atau rentang tertentu dari berbagai file, menggunakan GroupDocs.Merger untuk Node.js."
+      title: "Penggabungan dokumen yang mulus"
+      content: "Gabungkan beberapa dokumen menjadi satu file dengan memilih halaman atau rentang tertentu dari berbagai sumber menggunakan GroupDocs.Merger untuk Node.js."
 
     # feature loop
     - icon: "split"
-      title: "Kemampuan Pemisahan Dokumen"
-      content: "Pisahkan satu dokumen menjadi beberapa file yang lebih kecil untuk manajemen dan organisasi yang lebih baik, memanfaatkan fitur pemisahan komprehensif GroupDocs.Merger untuk Node.js."
+      title: "Kemampuan pemisahan dokumen"
+      content: "Pisahkan dokumen besar menjadi file yang lebih kecil dan lebih mudah dikelola dengan alat pemisahan canggih yang disediakan oleh GroupDocs.Merger untuk Node.js."
 
     # feature loop
     - icon: "move"
-      title: "Gerakan Halaman yang Efisien"
-      content: "Ubah posisi halaman dalam dokumen agar sesuai dengan kebutuhan Anda dengan menggunakan fitur MovePage yang intuitif di lingkungan Node.js."
+      title: "Pergerakan halaman yang efisien"
+      content: "Susun ulang halaman dalam dokumen sesuai kebutuhan Anda menggunakan fitur MovePage, dirancang untuk integrasi yang mulus di Node.js."
 
     # feature loop
     - icon: "remove"
-      title: "Opsi Penghapusan Halaman"
-      content: "Hapus halaman yang tidak perlu atau nomor halaman tertentu dengan mudah dengan fitur RemovePages GroupDocs.Merger yang disesuaikan untuk Node.js."
+      title: "Opsi penghapusan halaman"
+      content: "Hilangkan halaman yang tidak diinginkan atau nomor halaman tertentu dengan mudah menggunakan fitur RemovePages dalam GroupDocs.Merger untuk Node.js."
 
     # feature loop
     - icon: "rotate"
-      title: "Fungsi Rotasi Halaman"
-      content: "Putar halaman dalam dokumen ke orientasi yang diinginkan—90, 180, atau 270 derajat—menggunakan operasi rotatePages langsung."
+      title: "Fungsi rotasi halaman"
+      content: "Atur orientasi halaman menjadi 90, 180, atau 270 derajat dengan operasi RotatePages yang sederhana namun efektif."
 
     # feature loop
     - icon: "swap"
-      title: "Fitur Penukaran Halaman"
-      content: "Ubah urutan halaman dokumen Anda dengan menukar posisinya, sehingga membuat dokumen yang ditata ulang dengan fungsi SwappAges."
+      title: "Fitur pertukaran halaman"
+      content: "Atur ulang dokumen Anda dengan menukar posisi halaman menggunakan fungsi SwapPages dalam GroupDocs.Merger untuk Node.js."
 
     # feature loop
     - icon: "extract"
-      title: "Ekstraksi Halaman Selektif"
-      content: "Buat dokumen baru dari halaman atau rentang halaman yang dipilih, ekstrak hanya konten yang diperlukan dengan GroupDocs.Merger untuk Node.js."
+      title: "Ekstraksi halaman selektif"
+      content: "Ekstrak halaman tertentu atau rentang untuk membuat dokumen baru, dengan fokus hanya pada konten yang Anda butuhkan menggunakan GroupDocs.Merger untuk Node.js."
 
     # feature loop
     - icon: "orientation"
-      title: "Alat Perubahan Orientasi"
-      content: "Ubah orientasi halaman tertentu atau semua dari potret ke lanskap atau sebaliknya, gunakan fitur ChangeOrientation di proyek Node.js Anda."
+      title: "Alat perubahan orientasi"
+      content: "Ubah orientasi halaman dari potret ke lanskap atau sebaliknya menggunakan fitur ChangeOrientation dalam aplikasi Node.js Anda."
 
     # feature loop
     - icon: "preview"
-      title: "Pratinjau Halaman Dokumen"
-      content: "Hasilkan pratinjau gambar halaman dokumen untuk lebih memahami konten dan tata letaknya, menggunakan fitur PreviewPages dalam Node.js."
+      title: "Pratampilan halaman dokumen"
+      content: "Hasilkan pratinjau gambar halaman dokumen untuk meninjau konten dan tata letaknya menggunakan fitur PreviewPages di Node.js."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Sampel Kode"
-  description: "Jelajahi kasus penggunaan umum untuk GroupDocs.Merger yang disesuaikan dengan lingkungan Node.js. Contoh-contoh ini menunjukkan efisiensi dan kemudahan penggabungan dokumen menggunakan GroupDocs.Merger untuk Node.js."
+  title: "Contoh Kode"
+  description: "Jelajahi kasus penggunaan umum untuk GroupDocs.Merger dalam {{ProgLang}}. Contoh-contoh ini menunjukkan bagaimana menggabungkan dan memisahkan dokumen secara efisien menggunakan GroupDocs.Merger untuk {{ProgLang}}."
   items:
     # code sample loop
-    - title: "Menggabungkan DOCX File secara Efisien menjadi Satu Dokumen Menggunakan Node.js"
+    - title: "Gabungkan beberapa file DOCX menjadi satu dokumen dalam {{ProgLang}}"
       content: |
-        Manfaatkan GroupDocs.Merger untuk Node.js untuk menggabungkan beberapa file DOCX dengan mulus ke dalam satu dokumen komprehensif. Manfaatkan fitur [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) kami untuk menggabungkan file secara efisien, meningkatkan manajemen dokumen dan produktivitas. Di bawah ini, temukan cuplikan kode Node.js untuk memandu Anda melalui proses penggabungan dokumen:
-        {{< landing/code title="Contoh Node.js: Menggabungkan DOCX File">}}
+        Gunakan GroupDocs.Merger untuk {{ProgLang}} untuk menggabungkan beberapa file DOCX menjadi satu dokumen. Fitur [Gabungkan Dokumen Word](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) menyederhanakan manajemen dokumen dengan menggabungkan file secara efisien. Di bawah ini adalah potongan kode {{ProgLang}} yang menunjukkan proses penggabungan:
+        {{< landing/code title="Contoh: Menggabungkan file DOCX dalam {{ProgLang}}">}}
         ```javascript {style=abap}   
-        // Muat file DOCX awal
+        // Muat file DOCX pertama
         const merger = new Merger("sample1.docx");
-        // Tambahkan file DOCX tambahan untuk penggabungan
+        // Tambahkan file DOCX tambahan untuk digabungkan
         merger.join("sample2.docx");
-        // Jalankan proses penggabungan dan simpan dokumen gabungan
+        // Gabungkan file DOCX dan simpan outputnya
         merger.save("merged.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Pisahkan Dokumen PDF menjadi File Individual di Node.js"
+    - title: "Pemisahan dokumen PDF menjadi beberapa file dalam {{ProgLang}}"
       content: |
-        Dengan GroupDocs.Merger untuk Node.js, memisahkan dokumen menjadi beberapa file menjadi lebih efisien. Fitur [Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) kami memungkinkan pengelolaan dan ekstraksi bagian tertentu secara efisien dari PDF dokumen besar, membuat penanganan dokumen Anda lebih efektif. Fitur ini mendukung pemisahan dokumen berdasarkan rentang halaman, halaman awal/akhir, atau nomor halaman ganjil/genap, di antara kriteria lainnya.
-        {{< landing/code title="Cara Membagi Dokumen menjadi File Terpisah dengan Node.js">}}
+        GroupDocs.Merger untuk {{ProgLang}} memudahkan pemisahan dokumen PDF besar menjadi file-file yang lebih kecil. Fitur [Pemisahan Dokumen](https://docs.groupdocs.com/merger/nodejs-java/split-document/) memungkinkan Anda untuk mengekstrak halaman tertentu berdasarkan kriteria yang berbeda, seperti rentang halaman, halaman mulai/akhir, atau halaman ganjil/genap. Fitur ini membantu mengatur dokumen besar dengan membaginya menjadi file-file yang lebih kecil dan lebih mudah dikelola.
+        {{< landing/code title="Cara memisahkan PDF menjadi file terpisah dalam {{ProgLang}}">}}
         ```javascript {style=abap}   
-        // Mulailah dengan memisahkan file PDF menggunakan GroupDocs.Merger untuk Node.js API
+        // Gunakan GroupDocs.Merger untuk {{ProgLang}} untuk memisahkan file PDF
         const filePath = "input.pdf";
         const filePathOut = "output.pdf";
 
-        // Siapkan kelas SplitOptions dengan format untuk file output
+        // Tentukan SplitOptions dengan format output yang diinginkan
         const splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Inisialisasi Merger dengan dokumen PDF yang akan dipecah
+        // Inisialisasi Merger dengan dokumen PDF input
         const merger = new Merger(filePath);
 
-        // Memanggil metode split dengan objek splitOptions untuk mendapatkan dokumen yang dihasilkan
+        // Panggil metode split dengan objek SplitOptions untuk menghasilkan file terpisah
         merger.split(splitOptions);
   
         ```

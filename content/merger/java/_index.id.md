@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:03
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,12 +26,12 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "API Penggabungan Dokumen Java | menggabungkan & menghapus Word Excel PDF XPS EPUB"
-head_description: "API penggabungan dokumen untuk Java. Gabungkan, pisahkan, tukar, susun ulang, dan hapus halaman format PDF, Microsoft Word, Excel, presentasi, Visio, XPS & EPUB."
+head_title: "API Penggabungan Dokumen Java | gabungkan & kelola Word, Excel, PDF, XPS, EPUB"
+head_description: "API Java untuk penggabungan dokumen. Gabungkan, pisahkan, urutkan ulang, tukar, dan hapus halaman dari file PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, dan EPUB."
 
 ############################# Header ############################
-title: "Menggabungkan dokumen<br>melalui API Jawa"
-description: "API Penggabungan Fleksibel untuk menggabungkan, memisahkan, atau memodifikasi PDF dan Dokumen Office dengan mudah"
+title: "Gabungkan dokumen<br>dengan API Java"
+description: "API serbaguna untuk menggabungkan, memisahkan, dan memodifikasi dokumen PDF dan Office"
 words:
   for: "untuk"
 
@@ -41,16 +41,16 @@ actions:
   alt: "Lisensi"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
   title: "Siap untuk memulai?"
-  description: "Coba fitur GroupDocs.Merger secara gratis atau minta lisensi"
+  description: "Coba GroupDocs.Merger secara gratis atau minta lisensi"
 
 release:
   title: "Versi {0} dirilis"
-  notes: "Lihat apa yang baru"
-  downloads: "Download"
+  notes: "Lihat yang baru"
+  downloads: "Unduhan"
 
 code:
-  title: "Menggabungkan file PDF di Java"
-  more: "Lebih banyak contoh"
+  title: "Gabungkan file PDF menggunakan Java"
+  more: "Contoh lebih lanjut"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
   install: |
     <dependency>
@@ -72,26 +72,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Sekilas tentang GroupDocs.Merger"
-  description: "API untuk menggabungkan, membagi, menukar, memangkas atau menghapus dokumen, slide, dan diagram dalam aplikasi Java"
+  title: "GroupDocs.Merger dalam pandangan sekilas"
+  description: "API untuk menggabungkan, membagi, menukar,memangkas, atau menghapus dokumen, slide, dan diagram dalam aplikasi Java."
   features:
     # feature loop
-    - title: "Menggabungkan beberapa dokumen dengan mudah di Java"
-      content: "Menggabungkan file PDF dan Office dengan mudah ke dalam satu dokumen di Java, memanfaatkan kemampuan pustaka GroupDocs.Merger. Manfaatkan dukungan formatnya yang ekstensif, memungkinkan Anda menggabungkan berbagai jenis file dengan mulus, menghasilkan proses penggabungan yang nyaman dan efisien."
+    - title: "Gabungkan beberapa dokumen dalam Java dengan mudah"
+      content: "Gabungkan file PDF dan Office menjadi satu dokumen dalam Java menggunakan GroupDocs.Merger. Dengan dukungan format yang luas, Anda dapat menggabungkan berbagai jenis file secara mulus, menyederhanakan proses penggabungan dan meningkatkan produktivitas."
 
     # feature loop
-    - title: "Sederhanakan manajemen dokumen dengan membagi file berukuran besar dengan mudah"
-      content: "Pisahkan file PDF atau Office besar menjadi bagian yang lebih kecil dan mudah ditangani. Anda dapat membagi dokumen berdasarkan halaman tertentu, rentang, atau bahkan mengekstrak halaman individual dengan mudah dan nyaman. Sederhanakan manajemen dokumen Anda dengan memanfaatkan kemampuan mulus pustaka GroupDocs.Merger dan jadikan file Anda lebih tertata dan mudah dikelola."
+    - title: "Permudah manajemen dokumen dengan membagi file besar"
+      content: "Pecah file PDF atau Office yang besar menjadi bagian yang lebih kecil dan lebih mudah dikelola. Bagi dokumen berdasarkan halaman tertentu, rentang, atau ekstrak halaman individu. GroupDocs.Merger menyederhanakan pengorganisasian dokumen, membuat file Anda lebih mudah dikelola dan diakses."
 
     # feature loop
-    - title: "Sesuaikan struktur dokumen Anda dan miliki kontrol penuh atas file Anda"
-      content: "Mudah memanipulasi halaman dengan menyusun ulang, menukar, atau menghapusnya. Atur dan sesuaikan dokumen Anda sesuai dengan kebutuhan spesifik Anda dengan fleksibilitas untuk membuat struktur file yang dipersonalisasi."
+    - title: "Kustomisasi struktur dokumen Anda dan kendalikan file Anda sepenuhnya"
+      content: "Kendalikan sepenuhnya dokumen Anda dengan mengatur ulang, menukar, atau menghapus halaman. Sesuaikan file Anda sesuai kebutuhan spesifik dengan fleksibilitas untuk membuat struktur dokumen yang disesuaikan menggunakan GroupDocs.Merger."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Kemandirian platform"
-  description: "GroupDocs.Merger untuk Java mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
+  title: "Independensi Platform"
+  description: "GroupDocs.Merger untuk Java dirancang untuk berfungsi tanpa hambatan di berbagai sistem operasi, framework, dan manajer paket, memastikan fleksibilitas dan kompatibilitas untuk kebutuhan pengembangan Anda."
   items:
     # platform loop
     - title: "Amazon"
@@ -122,14 +122,14 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "Format file yang didukung"
+  title: "Format File yang Didukung"
   description: |
-    GroupDocs.Merger untuk Java mendukung operasi dengan [format file dokumen](https://docs.groupdocs.com/merger/java/supported-document-formats/) berikut.
+    GroupDocs.Merger untuk Java memungkinkan operasi tanpa batas dengan berbagai [format file](https://docs.groupdocs.com/merger/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### format Microsoft Office
+        ### Format Microsoft Office
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -139,13 +139,13 @@ formats:
       content: |
         ### Dokumen & gambar
         * **Dokumen:** PDF, XPS, TEX
-        * **Gambar-gambar:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Gambar:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
         * **eBook:** EPUB
       # group loop
     - color: "red"
       content: |
-        ### Format lain
+        ### Format lainnya
         * **Web:**  HTML, MHTML, MHT
         * **Arsip:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
@@ -154,65 +154,65 @@ formats:
 features:
   enable: true
   title: "Fitur GroupDocs.Merger"
-  description: "Menggabungkan, memisahkan, dan memanipulasi PDF dan Dokumen Office dengan mulus"
+  description: "Gabungkan, pisahkan, dan manipulasi dokumen PDF dan Office dengan alat yang kuat."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "Gabungkan file"
-      content: "Menggabungkan dua dokumen atau lebih menjadi satu dokumen, menggabungkan halaman atau rentang halaman tertentu dari beberapa dokumen sumber."
+      title: "Gabungkan berkas"
+      content: "Kombinasikan beberapa dokumen menjadi satu, memilih halaman tertentu atau rentang halaman dari berkas sumber yang berbeda."
 
     # feature loop
     - icon: "split"
-      title: "Dokumen terpisah"
-      content: "Memanfaatkan operasi pemisahan untuk membagi dokumen sumber menjadi beberapa dokumen yang dihasilkan, memungkinkan pengaturan dan pengelolaan file yang efisien."
+      title: "Pecah dokumen"
+      content: "Membagi dokumen menjadi beberapa berkas kecil, memudahkan dalam mengelola dan mengatur isi."
 
     # feature loop
     - icon: "move"
-      title: "Pindah halaman"
-      content: "Ubah posisi halaman dengan lancar di dalam dokumen dengan memanfaatkan fitur MovePage."
+      title: "Pindahkan halaman"
+      content: "Ubah urutan dokumen Anda dengan memindahkan halaman ke posisi baru menggunakan fitur MovePage."
 
     # feature loop
     - icon: "remove"
       title: "Hapus halaman"
-      content: "Menghapus halaman individual atau kumpulan nomor halaman tertentu secara efektif dari dokumen sumber dengan fitur RemovePages."
+      content: "Hapus halaman individual atau sekumpulan halaman tertentu dari dokumen menggunakan fitur RemovePages."
 
     # feature loop
     - icon: "rotate"
       title: "Putar halaman"
-      content: "Manfaatkan operasi RotatePages untuk memutar halaman dalam dokumen dengan mudah dengan menentukan sudut rotasi 90, 180, atau 270 derajat"
+      content: "Putar halaman dalam dokumen sebanyak 90, 180, atau 270 derajat dengan fitur RotatePages."
 
     # feature loop
     - icon: "swap"
       title: "Tukar halaman"
-      content: "Atur ulang urutan halaman dengan menukar posisi dua halaman di dalam dokumen sumber, menghasilkan dokumen baru."
+      content: "Ubah urutan halaman dengan menukar dua halaman dalam dokumen."
 
     # feature loop
     - icon: "extract"
       title: "Ekstrak halaman"
-      content: "Hasilkan dokumen baru yang hanya berisi halaman yang dipilih dengan mengekstrak halaman atau rentang halaman tertentu dari dokumen sumber."
+      content: "Buat dokumen baru yang hanya berisi halaman yang dipilih dengan mengekstrak halaman tertentu atau rentang halaman."
 
     # feature loop
     - icon: "orientation"
       title: "Ubah orientasi"
-      content: "Ubah orientasi halaman (potret atau lanskap) untuk halaman tertentu atau semua halaman dokumen dengan memanfaatkan operasi ChangeOrientation."
+      content: "Ganti orientasi halaman antara potret dan lanskap untuk halaman tertentu atau semua halaman dalam sebuah dokumen."
 
     # feature loop
     - icon: "preview"
       title: "Pratinjau halaman"
-      content: "Dapatkan pemahaman yang lebih jelas tentang konten dan struktur dokumen dengan membuat representasi gambar dari halamannya. Buat pratinjau dari semua atau hanya halaman tertentu."
+      content: "Hasilkan pratinjau gambar dari halaman dokumen untuk mendapatkan tampilan lebih baik mengenai isi dan tata letaknya."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Contoh kode"
-  description: "Beberapa kasus penggunaan GroupDocs.Merger tipikal untuk operasi Java"
+  title: "Contoh Kode"
+  description: "Contoh operasi umum GroupDocs.Merger dalam Java"
   items:
     # code sample loop
     - title: "Menggabungkan file DOCX menjadi satu dokumen"
       content: |
-        Dengan fitur [Gabungkan Dokumen Word](https://docs.groupdocs.com/merger/java/merge/word/) Anda dapat menggabungkan seluruh file DOCX menjadi satu dokumen dengan memuat file sumber, menambahkan lebih banyak file DOCX untuk digabungkan , dan menyimpan dokumen gabungan. Di bawah ini adalah cuplikan kode Java yang mendemonstrasikan proses penggabungan:
-        {{< landing/code title="Cara menggabungkan file DOCX di Java">}}
+        Dengan fitur [Gabungkan Dokumen Word](https://docs.groupdocs.com/merger/java/merge/word/), Anda dapat menggabungkan beberapa file DOCX menjadi satu. Muat dokumen sumber, tambahkan file DOCX tambahan, dan simpan hasil gabungan. Berikut adalah potongan kode Java yang menunjukkan proses penggabungan:
+        {{< landing/code title="Cara menggabungkan file DOCX dalam Java">}}
         ```java {style=abap}   
         // Muat file DOCX sumber
         Merger merger = new Merger("sample1.docx");
@@ -223,22 +223,22 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Pisahkan dokumen PDF menjadi beberapa file"
+    - title: "Membagi dokumen PDF menjadi beberapa file"
       content: |
-        Bagilah dokumen menjadi beberapa file dengan fitur [Split Document](https://docs.groupdocs.com/merger/java/split-document/) untuk menyederhanakan proses pengelolaan dan ekstraksi bagian atau halaman tertentu dari dokumen berukuran besar. Ini memungkinkan Anda membagi dokumen menjadi bagian-bagian yang lebih kecil berdasarkan berbagai kriteria - berdasarkan rentang halaman, halaman awal/akhir, nomor halaman ganjil/genap, dll.
-        {{< landing/code title="Pisahkan dokumen menjadi beberapa dokumen satu halaman">}}
+        Gunakan fitur [Bagi Dokumen](https://docs.groupdocs.com/merger/java/split-document/) untuk memecah PDF besar menjadi file-file yang lebih kecil dan lebih mudah dikelola. Ini berguna untuk mengekstrak bagian atau halaman tertentu. Anda dapat membagi dokumen menggunakan berbagai kriteria, seperti rentang halaman, halaman awal dan akhir tertentu, atau bahkan nomor halaman ganjil/genap.
+        {{< landing/code title="Membagi dokumen menjadi beberapa file satu halaman">}}
         ```java {style=abap}   
-        // Pisahkan file PDF menggunakan GroupDocs.Merger untuk Java API
+        // Bagi file PDF menggunakan API GroupDocs.Merger untuk Java
         String filePath = "input.pdf";
         String filePathOut = "output.pdf";
 
-        // Inisialisasi kelas SplitOptions dengan format jalur file keluaran
+        // Inisialisasi kelas SplitOptions dengan format file output
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Instansiasi Penggabungan dengan memasukkan dokumen PDF
+        // Buat instance Merger dengan dokumen PDF input
         Merger merger = new Merger(filePath);
 
-        // Panggil metode split dan berikan objek SplitOptions untuk menyimpan dokumen yang dihasilkan
+        // Panggil metode split dengan objek SplitOptions untuk menghasilkan file terpisah
         merger.split(splitOptions);
   
         ```

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:04
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,31 +26,31 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "API hợp nhất tài liệu Java | hợp nhất và xóa Word Excel PDF XPS EPUB"
-head_description: "API hợp nhất tài liệu cho Java. Hợp nhất, tách, hoán đổi, sắp xếp lại và xóa các trang có định dạng PDF, Microsoft Word, Excel, bản trình bày, Visio, XPS & EPUB."
+head_title: "API hợp nhất tài liệu Java | hợp nhất & quản lý Word, Excel, PDF, XPS, EPUB"
+head_description: "API Java để hợp nhất tài liệu. Hợp nhất, chia tách, thay đổi thứ tự, hoán đổi và xóa trang từ các tệp PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS và EPUB."
 
 ############################# Header ############################
-title: "Hợp nhất tài liệu<br>thông qua API Java"
-description: "API hợp nhất linh hoạt để dễ dàng kết hợp, chia nhỏ hoặc sửa đổi Tài liệu PDF và Office"
+title: "Hợp nhất tài liệu<br>với API Java"
+description: "Một API đa năng cho việc hợp nhất, chia tách và sửa đổi tài liệu PDF và văn phòng."
 words:
-  for: "vì"
+  for: "cho"
 
 actions:
-  main: "Tải xuống Maven miễn phí"
+  main: "Tải xuống miễn phí Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
-  alt: "cấp phép"
+  alt: "Cấp phép"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
-  title: "Sẵn sàng để bắt đầu?"
-  description: "Dùng thử miễn phí các tính năng của GroupDocs.Merger hoặc yêu cầu giấy phép"
+  title: "Sẵn sàng bắt đầu?"
+  description: "Hãy thử GroupDocs.Merger miễn phí hoặc yêu cầu giấy phép"
 
 release:
-  title: "Phiên bản {0} đã phát hành"
-  notes: "Xem có gì mới"
+  title: "Phiên bản {0} đã được phát hành"
+  notes: "Xem những gì mới"
   downloads: "Tải xuống"
 
 code:
-  title: "Hợp nhất các tệp PDF trong Java"
-  more: "Thêm ví dụ"
+  title: "Ghép nối tệp PDF trong Java"
+  more: "Nhiều ví dụ hơn"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
   install: |
     <dependency>
@@ -63,35 +63,35 @@ code:
     // Tải tệp PDF nguồn
     Merger merger = new Merger("sample1.pdf");
     
-    // Thêm một tệp PDF khác để hợp nhất
+    // Thêm tệp PDF khác để kết hợp
     merger.join("sample2.pdf");
 
-    // Hợp nhất các tệp PDF và lưu kết quả
+    // Ghép nối các tệp PDF và lưu đầu ra
     merger.save("merged.pdf");
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Tổng quan về GroupDocs.Sáp nhập"
-  description: "API để kết hợp, tách, hoán đổi, cắt hoặc xóa tài liệu, trang trình bày và sơ đồ trong các ứng dụng Java"
+  title: "Tổng quan về GroupDocs.Merger"
+  description: "API để kết hợp, tách, hoán đổi, cắt, hoặc loại bỏ tài liệu, bài trình chiếu và biểu đồ trong các ứng dụng Java."
   features:
     # feature loop
-    - title: "Dễ dàng hợp nhất nhiều tài liệu trong Java"
-      content: "Dễ dàng hợp nhất các tệp PDF và Office vào một tài liệu duy nhất trong Java, tận dụng khả năng của thư viện GroupDocs.Merger. Hưởng lợi từ hỗ trợ định dạng mở rộng của nó, cho phép bạn kết hợp liền mạch nhiều loại tệp khác nhau, dẫn đến quy trình hợp nhất thuận tiện và hợp lý."
+    - title: "Kết hợp nhiều tài liệu trong Java một cách hiệu quả"
+      content: "Kết hợp các tệp PDF và Office thành một tài liệu duy nhất trong Java sử dụng GroupDocs.Merger. Với sự hỗ trợ đa dạng các định dạng, bạn có thể kết hợp nhiều loại tệp một cách liền mạch, đơn giản hóa quy trình kết hợp và nâng cao năng suất."
 
     # feature loop
-    - title: "Hợp lý hóa việc quản lý tài liệu bằng cách chia nhỏ các tệp cồng kềnh một cách dễ dàng"
-      content: "Tách các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ dàng xử lý. Bạn có thể phân chia tài liệu dựa trên các trang, phạm vi cụ thể hoặc thậm chí trích xuất các trang riêng lẻ một cách dễ dàng và thuận tiện. Hợp lý hóa việc quản lý tài liệu của bạn bằng cách sử dụng các khả năng liền mạch của thư viện GroupDocs.Merger và làm cho các tệp của bạn trở nên ngăn nắp và dễ quản lý hơn."
+    - title: "Quản lý tài liệu hiệu quả bằng cách tách các tệp lớn"
+      content: "Chia nhỏ các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn. Tách tài liệu theo các trang cụ thể, khoảng cách, hoặc trích xuất các trang riêng lẻ một cách linh hoạt. GroupDocs.Merger giúp đơn giản hóa việc tổ chức tài liệu, khiến tệp của bạn dễ dàng hơn trong việc xử lý và truy cập."
 
     # feature loop
-    - title: "Tùy chỉnh cấu trúc tài liệu của bạn và có toàn quyền kiểm soát các tệp của bạn"
-      content: "Dễ dàng thao tác các trang bằng cách sắp xếp lại thứ tự, hoán đổi hoặc xóa chúng. Sắp xếp và điều chỉnh tài liệu của bạn theo yêu cầu cụ thể của bạn với sự linh hoạt để tạo cấu trúc tệp được cá nhân hóa."
+    - title: "Tùy chỉnh cấu trúc tài liệu của bạn và kiểm soát hoàn toàn các tệp"
+      content: "Nắm quyền kiểm soát hoàn toàn tài liệu của bạn bằng cách thay đổi thứ tự, hoán đổi, hoặc loại bỏ các trang. Tùy chỉnh các tệp của bạn để đáp ứng nhu cầu cụ thể với sự linh hoạt trong việc tạo cấu trúc tài liệu riêng biệt bằng GroupDocs.Merger."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Nền tảng độc lập"
-  description: "GroupDocs.Merger cho Java hỗ trợ các hệ điều hành, khung và trình quản lý gói sau"
+  title: "Tính độc lập của nền tảng"
+  description: "GroupDocs.Merger cho Java được thiết kế để hoạt động mượt mà trên nhiều hệ điều hành, khung công tác và trình quản lý gói khác nhau, đảm bảo tính linh hoạt và khả năng tương thích cho nhu cầu phát triển của bạn."
   items:
     # platform loop
     - title: "Amazon"
@@ -124,7 +124,7 @@ formats:
   enable: true
   title: "Các định dạng tệp được hỗ trợ"
   description: |
-    GroupDocs.Merger cho Java hỗ trợ các thao tác với [định dạng tệp tài liệu](https://docs.groupdocs.com/merger/java/supported-document-formats/) sau đây.
+    GroupDocs.Merger for Java cho phép thực hiện các thao tác liền mạch với nhiều loại [định dạng tệp](https://docs.groupdocs.com/merger/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -138,107 +138,107 @@ formats:
     - color: "blue"
       content: |
         ### Tài liệu & hình ảnh
-        * **Các tài liệu:** PDF, XPS, TEX
+        * **Tài liệu:** PDF, XPS, TEX
         * **Hình ảnh:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
         * **eBook:** EPUB
       # group loop
     - color: "red"
       content: |
-        ### định dạng khác
-        * **mạng:**  HTML, MHTML, MHT
-        * **lưu trữ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        ### Các định dạng khác
+        * **Web:**  HTML, MHTML, MHT
+        * **Kho lưu trữ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Các tính năng của GroupDocs.Merger"
-  description: "Liên tục hợp nhất, chia nhỏ và thao tác Tài liệu PDF và Office"
+  title: "Tính năng của GroupDocs.Merger"
+  description: "Kết hợp, tách và thao tác với tài liệu PDF và Office bằng các công cụ mạnh mẽ."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "kết hợp các tập tin"
-      content: "Hợp nhất hai hoặc nhiều tài liệu thành một tài liệu duy nhất, nối các trang hoặc phạm vi trang cụ thể từ nhiều tài liệu nguồn."
+      title: "Kết hợp tài liệu"
+      content: "Gộp nhiều tài liệu thành một, chọn các trang cụ thể hoặc khoảng trang từ các tệp nguồn khác nhau."
 
     # feature loop
     - icon: "split"
-      title: "Chia tài liệu"
-      content: "Sử dụng thao tác tách để chia tài liệu nguồn thành nhiều tài liệu kết quả, cho phép tổ chức và quản lý tệp hiệu quả."
+      title: "Tách tài liệu"
+      content: "Chia một tài liệu thành nhiều tệp nhỏ hơn, giúp quản lý và tổ chức nội dung dễ dàng hơn."
 
     # feature loop
     - icon: "move"
       title: "Di chuyển trang"
-      content: "Dễ dàng định vị lại trang trong tài liệu bằng cách tận dụng tính năng MovePage."
+      content: "Sắp xếp lại tài liệu của bạn bằng cách di chuyển các trang đến vị trí mới với tính năng MovePage."
 
     # feature loop
     - icon: "remove"
       title: "Xóa trang"
-      content: "Xóa hiệu quả các trang riêng lẻ hoặc tập hợp các số trang cụ thể khỏi tài liệu nguồn bằng tính năng RemovePages."
+      content: "Xóa các trang đơn lẻ hoặc một tập hợp các trang cụ thể khỏi tài liệu bằng cách sử dụng tính năng RemovePages."
 
     # feature loop
     - icon: "rotate"
       title: "Xoay trang"
-      content: "Tận dụng thao tác Xoay trang để dễ dàng xoay các trang trong tài liệu bằng cách chỉ định góc xoay là 90, 180 hoặc 270 độ"
+      content: "Xoay các trang trong tài liệu theo 90, 180 hoặc 270 độ với tính năng RotatePages."
 
     # feature loop
     - icon: "swap"
-      title: "Hoán đổi trang"
-      content: "Sắp xếp lại thứ tự trang bằng cách hoán đổi vị trí của hai trang trong tài liệu nguồn, tạo ra một tài liệu mới."
+      title: "Đổi chỗ trang"
+      content: "Thay đổi thứ tự của các trang bằng cách hoán đổi hai trang trong tài liệu."
 
     # feature loop
     - icon: "extract"
       title: "Trích xuất trang"
-      content: "Tạo một tài liệu mới chỉ chứa các trang đã chọn bằng cách trích xuất các trang hoặc phạm vi trang cụ thể từ tài liệu nguồn."
+      content: "Tạo một tài liệu mới chỉ chứa các trang đã chọn bằng cách trích xuất các trang cụ thể hoặc khoảng trang."
 
     # feature loop
     - icon: "orientation"
-      title: "Thay đổi hướng"
-      content: "Sửa đổi hướng trang (dọc hoặc ngang) cho các trang cụ thể hoặc tất cả các trang của tài liệu bằng cách tận dụng thao tác Thay đổi hướng."
+      title: "Thay đổi hướng trang"
+      content: "Chuyển đổi hướng trang giữa chân dung và phong cảnh cho các trang cụ thể hoặc tất cả các trang trong tài liệu."
 
     # feature loop
     - icon: "preview"
-      title: "Xem trước các trang"
-      content: "Hiểu rõ hơn về nội dung và cấu trúc của tài liệu bằng cách tạo các hình ảnh đại diện cho các trang của tài liệu. Tạo bản xem trước của tất cả hoặc chỉ các trang cụ thể."
+      title: "Xem trước trang"
+      content: "Tạo hình ảnh xem trước cho các trang tài liệu để có cái nhìn rõ hơn về nội dung và bố cục của chúng."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "mẫu mã"
-  description: "Một số trường hợp sử dụng GroupDocs.Merger điển hình cho các hoạt động Java"
+  title: "Mẫu mã code"
+  description: "Ví dụ về các thao tác phổ biến của GroupDocs.Merger trong Java"
   items:
     # code sample loop
-    - title: "Hợp nhất các tệp DOCX thành một tài liệu duy nhất"
+    - title: "Gộp các tệp DOCX thành một tài liệu duy nhất"
       content: |
-        Với tính năng [Hợp nhất tài liệu Word](https://docs.groupdocs.com/merger/java/merge/word/), bạn có thể kết hợp toàn bộ tệp DOCX thành một tài liệu duy nhất bằng cách tải tệp nguồn, thêm nhiều tệp DOCX để nối và lưu tài liệu đã hợp nhất. Dưới đây là đoạn mã Java thể hiện quá trình hợp nhất:
-        {{< landing/code title="Cách hợp nhất các tệp DOCX trong Java">}}
+        Với tính năng [Gộp Tài liệu Word](https://docs.groupdocs.com/merger/java/merge/word/), bạn có thể kết hợp nhiều tệp DOCX thành một. Tải tài liệu nguồn, thêm các tệp DOCX bổ sung và lưu kết quả đã gộp lại. Dưới đây là một đoạn mã Java thể hiện quy trình gộp:
+        {{< landing/code title="Cách gộp các tệp DOCX trong Java">}}
         ```java {style=abap}   
         // Tải tệp DOCX nguồn
         Merger merger = new Merger("sample1.docx");
-        // Thêm một tệp DOCX khác để hợp nhất
+        // Thêm một tệp DOCX khác để kết hợp
         merger.join("sample2.docx");
-        // Hợp nhất các tệp DOCX và lưu kết quả
+        // Gộp các tệp DOCX và lưu đầu ra
         merger.save("merged.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Tách tài liệu PDF thành nhiều tệp"
+    - title: "Chia một tài liệu PDF thành nhiều tệp"
       content: |
-        Chia tài liệu thành nhiều tệp bằng tính năng [Split Document](https://docs.groupdocs.com/merger/java/split-document/) để đơn giản hóa quy trình quản lý và trích xuất các phần hoặc trang cụ thể từ các tài liệu lớn. Nó cho phép bạn chia tài liệu thành các phần nhỏ hơn dựa trên các tiêu chí khác nhau - theo phạm vi trang, theo trang bắt đầu/kết thúc, theo số trang lẻ/chẵn, v.v.
-        {{< landing/code title="Chia tài liệu thành nhiều tài liệu một trang">}}
+        Sử dụng tính năng [Chia Tài liệu](https://docs.groupdocs.com/merger/java/split-document/) để chia một tệp PDF lớn thành những tệp nhỏ hơn, dễ quản lý hơn. Điều này hữu ích để trích xuất các phần hoặc trang cụ thể. Bạn có thể chia một tài liệu bằng nhiều tiêu chí khác nhau, chẳng hạn như khoảng trang, các trang bắt đầu và kết thúc cụ thể, hoặc thậm chí là số trang lẻ/chẵn.
+        {{< landing/code title="Chia một tài liệu thành nhiều tệp một trang">}}
         ```java {style=abap}   
-        // Tách tệp PDF bằng API GroupDocs.Merger cho Java
+        // Chia một tệp PDF sử dụng API GroupDocs.Merger cho Java
         String filePath = "input.pdf";
         String filePathOut = "output.pdf";
 
-        // Khởi tạo lớp SplitOptions với định dạng đường dẫn tệp đầu ra
+        // Khởi tạo lớp SplitOptions với định dạng tệp đầu ra
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Khởi tạo Sáp nhập với tài liệu PDF đầu vào
+        // Tạo một thể hiện Merger với tài liệu PDF đầu vào
         Merger merger = new Merger(filePath);
 
-        // Gọi phương thức tách và chuyển đối tượng SplitOptions để lưu tài liệu kết quả
+        // Gọi phương thức split với đối tượng SplitOptions để tạo ra các tệp riêng biệt
         merger.split(splitOptions);
   
         ```

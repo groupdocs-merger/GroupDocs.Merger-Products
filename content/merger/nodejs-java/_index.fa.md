@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:02
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,67 +26,67 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "Node.js API ادغام سند | ادغام PDF Word Excel"
-head_description: "API ادغام اسناد برای Node.js. ادغام، تقسیم، مبادله، ترتیب مجدد و حذف صفحات از فرمت های PDF، مایکروسافت Word، Excel، ارائه ها، Visio، XPS و EPUB."
+head_title: "API ادغام اسناد Node.js | ادغام PDF، Word، Excel"
+head_description: "API Node.js برای ادغام اسناد. ادغام، تقسیم، تعویض، تغییر ترتیب و حذف صفحات از فایل‌های PDF، Microsoft Word، Excel، PowerPoint، Visio، XPS و EPUB."
 
 ############################# Header ############################
-title: "ادغام اسناد<br>از طریق API Node.js"
-description: "API ادغام انعطاف پذیر برای ترکیب، تقسیم یا اصلاح PDF و اسناد آفیس به راحتی"
+title: "ادغام اسناد<br>با API Node.js"
+description: "API انعطاف‌پذیر برای ترکیب، تقسیم و ویرایش اسناد PDF و Office."
 words:
   for: "برای"
 
 actions:
   main: "دانلود رایگان NPM"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
-  alt: "صدور مجوز"
+  alt: "مجوزها"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java"
-  title: "آماده شروع هستید؟"
-  description: "ویژگی های GroupDocs.Merger را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
+  title: "آیا آماده شروع هستید؟"
+  description: "GroupDocs.Merger را به صورت رایگان بررسی کنید یا درخواست مجوز دهید"
 
 release:
   title: "نسخه {0} منتشر شد"
-  notes: "چیزهای جدید را ببینید"
+  notes: "آخرین بروزرسانی‌ها را مشاهده کنید"
   downloads: "دانلودها"
 
 code:
-  title: "ادغام PDF فایل در Node.js از طریق Java"
-  more: "نمونه های بیشتر"
+  title: "ترکیب فایل‌های PDF در Node.js از طریق Java"
+  more: "نمونه‌های بیشتر"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.merger"
   content: |
     ```javascript {style=abap}   
-    // فایل منبع PDF را بارگیری کنید
+    // بارگذاری فایل PDF اصلی
     const merger = new Merger("sample1.pdf");
     
-    //  یک فایل PDF دیگر برای ادغام اضافه کنید
+    // اضافه کردن فایل PDF دیگر برای ترکیب
     merger.join("sample2.pdf");
 
-    // ادغام PDF فایل ها و ذخیره نتیجه
+    // ترکیب فایل‌های PDF و ذخیره خروجی
     merger.save("merged.pdf");
     ```
 ############################# Overview ############################
 overview:
   enable: true
   title: "مروری بر GroupDocs.Merger برای Node.js"
-  description: "API جامع برای ادغام، تقسیم، تنظیم مجدد و تصفیه اسناد، اسلاید و نمودارها در برنامه های Node.js."
+  description: "یک API قدرتمند برای ادغام، تقسیم، بازآرایی و اصلاح اسناد، اسلایدها و دیاگرام‌ها در برنامه‌های Node.js."
   features:
     # feature loop
-    - title: "ادغام اسناد با سهولت در Node.js"
-      content: "از GroupDocs.Merger برای Node.js استفاده کنید تا بدون زحمت PDF و اسناد آفیس را در یک فایل واحد ترکیب کنید. این کتابخانه پشتیبانی از فرمت گسترده را گسترش می دهد و ادغام روان و ادغام انواع فایل های مختلف را امکان پذیر می کند و در نتیجه روند مدیریت اسناد در برنامه های Node.js را بهبود می بخشد."
+    - title: "ادغام اسناد به راحتی در Node.js"
+      content: "با استفاده از GroupDocs.Merger برای Node.js، اسناد PDF و Office را به‌طور یکجا بدون زحمت ترکیب کنید. این کتابخانه با پشتیبانی گسترده از فرمت‌ها، ادغام یکپارچه و ترکیب انواع فایل‌های مختلف را تضمین کرده و مدیریت اسناد را در برنامه‌های Node.js ساده می‌کند."
 
     # feature loop
-    - title: "مدیریت اسناد را با تقسیم بندی فایل های بزرگ ساده کنید"
-      content: "با GroupDocs.Merger برای Node.js، شما به راحتی می توانید فایل های مهم PDF یا Office را به قطعات قابل مدیریت تقسیم کنید. اسناد خود را با تقسیم آنها بر اساس صفحات خاص، محدوده ها یا استخراج صفحات فردی تنظیم کنید و سازماندهی و کارایی گردش کار اسناد خود را افزایش دهید."
+    - title: "ساده‌سازی مدیریت اسناد با تقسیم فایل‌های بزرگ"
+      content: "با استفاده از GroupDocs.Merger برای Node.js، فایل‌های بزرگ PDF یا Office را به بخش‌های کوچک و قابل مدیریت‌تر به‌طور کارآمد تقسیم کنید. اسناد خود را با تقسیم بر اساس صفحات خاص، بازه‌ها یا استخراج صفحات فردی سفارشی کنید و سازماندهی و کارایی جریان کار را بهبود بخشید."
 
     # feature loop
-    - title: "کنترل کامل بر ساختار سند خود را در Node.js بدست آورید"
-      content: "با تنظیم مجدد، تبادل یا حذف صفحات با استفاده از GroupDocs.Merger برای Node.js، طرح سند خود را دوباره تعریف کنید. اسناد خود را برای پاسخگویی به نیازهای منحصر به فرد سازگار کنید و انعطاف پذیری بی نظیری را در ساخت یک پیکربندی فایل سفارشی"
+    - title: "کنترل کامل بر ساختار سند خود در Node.js"
+      content: "با استفاده از GroupDocs.Merger برای Node.js، به‌راحتی صفحات را بازآرایی، جابجا یا حذف کنید تا ساختار سند خود را سفارشی کنید. فایل‌های خود را با توجه به نیازهای خاص تنظیم کنید و انعطاف‌پذیری بی‌نظیری در ایجاد ساختارهای سفارشی اسناد ارائه دهید."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "استقلال پلت فرم"
-  description: "GroupDocs.Merger برای Node.js از سیستم عامل ها، چارچوب ها و مدیران بسته زیر پشتیبانی می کند"
+  title: "استقلال پلتفرم"
+  description: "GroupDocs.Merger برای Node.js به گونه‌ای طراحی شده است که به‌طور یکپارچه در سیستم‌عامل‌ها، فریم‌ورک‌ها و مدیران بسته مختلف کار کند و انعطاف‌پذیری و سازگاری را برای نیازهای توسعه شما تضمین کند."
   items:
     # platform loop
     - title: "Amazon"
@@ -117,14 +117,14 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "فرمت های فایل پشتیبانی شده"
+  title: "فرمت‌های پشتیبانی شده"
   description: |
-    GroupDocs.Merger برای Node.js از طریق Java از عملیات با [فرمت های فایل] زیر پشتیبانی می کند (https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/).
+    GroupDocs.Merger برای Node.js از طریق Java از طیف وسیعی از [فرمت‌های فایل](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/) پشتیبانی می‌کند و عملیات مستندات متنوعی را امکان‌پذیر می‌سازد.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office فرمت
+        ### فرمت‌های مایکروسافت آفیس
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -140,100 +140,100 @@ formats:
       # group loop
     - color: "red"
       content: |
-        ### فرمت های دیگر
+        ### فرمت‌های دیگر
         * **وب:**  HTML, MHTML, MHT
-        * **بایگانی می کند:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **آرشیوها:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "ویژگی های کلیدی GroupDocs.Merger برای Node.js"
-  description: "اسناد را در قالب های PDF و آفیس با استفاده از GroupDocs.Merger در محیط Node.js به طور موثر ادغام، تقسیم و دستکاری کنید."
+  title: "ویژگی‌های کلیدی GroupDocs.Merger برای Node.js"
+  description: "با استفاده از GroupDocs.Merger در محیط Node.js، به راحتی می‌توانید اسناد را در فرمت‌های PDF و Office ادغام، تقسیم و مدیریت کنید."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "ترکیب سند بدون درز"
-      content: "با ترکیب صفحات خاص یا دامنه های خاص از فایل های مختلف، با استفاده از GroupDocs.Merger برای Node.js، به راحتی چندین سند را در یک ادغام کنید."
+      title: "ترکیب بدون درز اسناد"
+      content: "با انتخاب صفحات یا دامنه‌های خاص از منابع مختلف، چندین سند را به یک فایل واحد تبدیل کنید و این کار را با استفاده از GroupDocs.Merger برای Node.js انجام دهید."
 
     # feature loop
     - icon: "split"
-      title: "قابلیت تقسیم اسناد"
-      content: "با استفاده از ویژگی تقسیم جامع GroupDocs.Merger برای Node.js، یک سند واحد را به چندین فایل کوچکتر تقسیم کنید تا مدیریت و سازماندهی بهتر شود."
+      title: "قابلیت‌های تقسیم سند"
+      content: "مدارک بزرگ را به فایل‌های کوچکتر و قابل مدیریت‌تری تقسیم کنید با ابزارهای پیشرفته تقسیم ارائه شده توسط GroupDocs.Merger برای Node.js."
 
     # feature loop
     - icon: "move"
-      title: "حرکت صفحه کارآمد"
-      content: "با استفاده از ویژگی بصری MovePage در محیط Node.js، صفحات درون یک سند را متناسب با نیازهای شما تغییر دهید."
+      title: "حرکت کارآمد صفحات"
+      content: "برای برآورده کردن نیازهای خود، صفحات را درون یک سند دوباره ترتیب دهید با استفاده از ویژگی MovePage که برای ادغام بی‌درز در Node.js طراحی شده است."
 
     # feature loop
     - icon: "remove"
-      title: "گزینه های حذف صفحه"
-      content: "صفحات غیر ضروری یا شماره صفحات خاص را به راحتی با ویژگی RemovePages GroupDocs.Merger که برای Node.js طراحی شده است حذف کنید."
+      title: "گزینه‌های حذف صفحات"
+      content: "صفحات ناخواسته یا شماره‌های خاص صفحات را به سادگی حذف کنید با استفاده از ویژگی RemovePages در GroupDocs.Merger برای Node.js."
 
     # feature loop
     - icon: "rotate"
-      title: "قابلیت چرخش صفحه"
-      content: "صفحات درون یک سند را به جهت دلخواه (90، 180 یا 270 درجه) با استفاده از عملیات ساده RotatePages بچرخانید."
+      title: "عملکرد چرخش صفحات"
+      content: "جهت‌گیری صفحات را به 90، 180 یا 270 درجه تنظیم کنید با عملیات ساده و مؤثر RotatePages."
 
     # feature loop
     - icon: "swap"
-      title: "ویژگی تبادل صفحه"
-      content: "ترتیب صفحات سند خود را با تعویض موقعیت آنها تغییر دهید، در نتیجه یک سند سازماندهی شده با تابع SwappAges ایجاد کنید."
+      title: "ویژگی تعویض صفحات"
+      content: "سند خود را با استفاده از تابع SwapPages در GroupDocs.Merger برای Node.js با تعویض موقعیت صفحات، دوباره سازماندهی کنید."
 
     # feature loop
     - icon: "extract"
-      title: "استخراج انتخابی صفحه"
-      content: "یک سند جدید از صفحات یا محدوده صفحات انتخاب شده ایجاد کنید و فقط محتوای لازم را با GroupDocs.Merger برای Node.js استخراج کنید."
+      title: "استخراج انتخابی صفحات"
+      content: "صفحات یا دامنه‌های خاصی را استخراج کنید تا یک سند جدید ایجاد نمایید، و فقط بر روی محتوای مورد نیاز خود با GroupDocs.Merger برای Node.js تمرکز کنید."
 
     # feature loop
     - icon: "orientation"
-      title: "ابزار تغییر جهت"
-      content: "جهت گیری صفحات خاص یا همه صفحات را از عمودی به افقی یا بالعکس تغییر دهید و از ویژگی ChangeOrientation در پروژه های Node.js خود استفاده کنید."
+      title: "ابزار تغییر جهت‌گیری"
+      content: "جهت‌گیری صفحات را از عمودی به افقی یا بالعکس تغییر دهید با استفاده از ویژگی ChangeOrientation در برنامه‌های Node.js خود."
 
     # feature loop
     - icon: "preview"
-      title: "پیش نمایش صفحه سند"
-      content: "با استفاده از ویژگی PreviewPages در Node.js، پیش نمایش تصاویر صفحات سند را برای درک بهتر محتوا و طرح آنها ایجاد کنید."
+      title: "پیش‌نمایش صفحات سند"
+      content: "تصاویر پیش‌نمایش صفحات سند را برای بررسی محتوا و چیدمان آن‌ها تولید کنید با استفاده از ویژگی PreviewPages در Node.js."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "نمونه های کد"
-  description: "موارد استفاده معمول برای GroupDocs.Merger متناسب با محیط های Node.js را بررسی کنید. این مثالها کارایی و سهولت ادغام اسناد با استفاده از GroupDocs.Merger برای Node.js را نشان می دهند."
+  title: "نمونه‌های کد"
+  description: "موارد استفاده رایج برای GroupDocs.Merger در Node.js را بررسی کنید. این مثال‌ها نحوه ادغام و تقسیم اسناد را با استفاده از GroupDocs.Merger برای Node.js به صورت مؤثر نشان می‌دهند."
   items:
     # code sample loop
-    - title: "با استفاده از Node.js به طور موثر DOCX فایل را در یک سند ادغام کنید"
+    - title: "ادغام چندین فایل DOCX به یک سند در Node.js"
       content: |
-        از GroupDocs.Merger برای Node.js استفاده کنید تا چندین فایل DOCX را به طور یکپارچه در یک سند جامع ادغام کنید. از ویژگی [ادغام Word اسناد](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) برای ترکیب موثر فایل ها، افزایش مدیریت اسناد و بهره وری استفاده کنید. در زیر، یک قطعه کد Node.js را پیدا کنید تا شما را در فرآیند ادغام سند راهنمایی کند:
-        {{< landing/code title="Node.js مثال: ادغام DOCX فایل">}}
+        از GroupDocs.Merger برای Node.js برای ادغام بی‌نقص چندین فایل DOCX به یک سند واحد استفاده کنید. ویژگی [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) مدیریت اسناد را با ادغام مؤثر فایل‌ها ساده می‌کند. در زیر یک قطعه کد Node.js که روند ادغام را نشان می‌دهد، آورده شده است:
+        {{< landing/code title="مثال: ادغام فایل‌های DOCX در Node.js">}}
         ```javascript {style=abap}   
-        // فایل اولیه DOCX را بارگیری کنید
+        // فایل DOCX اول را بارگذاری کنید
         const merger = new Merger("sample1.docx");
-        // افزودن فایل های اضافی DOCX برای ادغام
+        // فایل‌های DOCX اضافی را برای ادغام اضافه کنید
         merger.join("sample2.docx");
-        // فرآیند ادغام را اجرا کنید و سند ترکیبی را ذخیره کنید
+        // فایل‌های DOCX را ادغام کرده و خروجی را ذخیره کنید
         merger.save("merged.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "یک سند PDF را به فایل های جداگانه در Node.js تقسیم کنید"
+    - title: "تقسیم یک سند PDF به چندین فایل در Node.js"
       content: |
-        با GroupDocs.Merger برای Node.js، تقسیم یک سند به چندین فایل ساده می شود. ویژگی [Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) ما امکان مدیریت کارآمد و استخراج بخشهای خاص از اسناد بزرگ PDF را فراهم می کند و مدیریت سند شما را موثرتر می کند. این ویژگی از تقسیم اسناد بر اساس محدوده صفحه، صفحات آغازی/پایان، یا شماره صفحات حج/زوج، در میان معیارهای دیگر پشتیبانی می کند.
-        {{< landing/code title="نحوه تقسیم اسناد به فایل های جداگانه با Node.js">}}
+        GroupDocs.Merger برای Node.js این امکان را فراهم می‌کند که اسناد PDF بزرگ را به فایل‌های کوچکتر تقسیم کنید. ویژگی [Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) به شما این امکان را می‌دهد که صفحات خاص را بر اساس معیارهای مختلف، از جمله محدوده صفحات، صفحات شروع/پایان، یا صفحات فرد/زوج استخراج کنید. این ویژگی به سازماندهی اسناد بزرگ با تقسیم آن‌ها به فایل‌های کوچکتر و قابل مدیریت‌تر کمک می‌کند.
+        {{< landing/code title="چگونه یک PDF را به فایل‌های جداگانه در Node.js تقسیم کنیم">}}
         ```javascript {style=abap}   
-        // با تقسیم فایل PDF با استفاده از GroupDocs.Merger برای API Node.js شروع کنید
+        // از GroupDocs.Merger برای Node.js برای تقسیم فایل PDF استفاده کنید
         const filePath = "input.pdf";
         const filePathOut = "output.pdf";
 
-        // کلاس SplitOptions را با فرمت فایل های خروجی تنظیم کنید
+        // SplitOptions را با فرمت خروجی مورد نظر تعریف کنید
         const splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // ادغام را با سند PDF برای تقسیم اولیه کنید
+        // مرجر را با سند PDF ورودی مقداردهی اولیه کنید
         const merger = new Merger(filePath);
 
-        // برای به دست آوردن اسناد حاصل، روش split را با شی SplitOptions فراخوانی کنید
+        // متد split را با شیء SplitOptions فراخوانی کنید تا فایل‌های جداگانه تولید شوند
         merger.split(splitOptions);
   
         ```

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:03
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,39 +26,39 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "API การผสานเอกสาร C# .NET | รวมและแยก PDF Word Excel EPUB"
-head_description: "API การผสานเอกสาร C# .NET เพื่อรวม แยก สลับ หรือลบหน้าเอกสารจากรูปแบบ PDF, Microsoft Word, Excel, งานนำเสนอ, Visio และรูปภาพ"
+head_title: "C# .NET API สำหรับการรวมเอกสาร | รวมและแยก PDF, Word, Excel, EPUB"
+head_description: "API สำหรับการรวมเอกสาร C# .NET รวม แยก สลับ หรือ ลบหน้าออกจากไฟล์ PDF, Microsoft Word, Excel, PowerPoint, Visio และไฟล์ภาพ."
 
 ############################# Header ############################
-title: "รวมเอกสาร<br>ผ่าน .NET API"
-description: "API การควบรวมกิจการที่มีประสิทธิภาพเพื่อจัดการไฟล์ PDF, Microsoft Office, HTML และรูปภาพ"
+title: "รวมเอกสาร<br>ผ่าน API .NET"
+description: "API ที่ทรงพลังสำหรับการรวม แยก และจัดการไฟล์ PDF, Office, HTML และไฟล์ภาพ."
 words:
   for: "สำหรับ"
 
 actions:
   main: "ดาวน์โหลด NuGet ฟรี"
   main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
-  alt: "การออกใบอนุญาต"
+  alt: "การอนุญาต"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
-  title: "พร้อมที่จะเริ่มต้นหรือยัง"
-  description: "ลองใช้คุณสมบัติ GroupDocs.Merger ฟรีหรือขอใบอนุญาต"
+  title: "พร้อมเริ่มต้นแล้วหรือยัง?"
+  description: "ทดลองใช้ GroupDocs.Merger ได้ฟรีหรือขอใบอนุญาต"
 
 release:
-  title: "เปิดตัวเวอร์ชัน {0}"
-  notes: "ดูว่ามีอะไรใหม่"
-  downloads: "ดาวน์โหลด"
+  title: "เวอร์ชัน {0} ได้รับการเผยแพร่"
+  notes: "ดูสิ่งที่ใหม่"
+  downloads: "การดาวน์โหลด"
 
 code:
   title: "รวมไฟล์ PDF ใน C#"
-  more: "ตัวอย่างเพิ่มเติม"
+  more: "ดูตัวอย่างเพิ่มเติม"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
   install: "dotnet add package GroupDocs.Merger"
   content: |
     ```csharp {style=abap}   
-    // โหลดไฟล์ PDF ต้นทาง
+    // เปิดไฟล์ PDF ต้นฉบับ
     using (Merger merger = new Merger(@"c:\sample1.pdf"))
     {
-      // เพิ่มไฟล์ PDF อื่นที่จะผสาน
+      // เพิ่มไฟล์ PDF อีกไฟล์เพื่อทำการรวม
       merger.Join(@"c:\sample2.pdf");
 
       // รวมไฟล์ PDF และบันทึกผลลัพธ์
@@ -68,26 +68,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "ภาพรวม GroupDocs.Merger"
-  description: "API เพื่อรวม แยก สลับ ตัดแต่ง หรือลบเอกสาร สไลด์ และไดอะแกรมในแอปพลิเคชัน .NET"
+  title: "การแสดงภาพรวม GroupDocs.Merger"
+  description: "API สำหรับรวม แยก แลกเปลี่ยน ตัดทอน หรือ ลบเอกสาร สไลด์ และ ไดอะแกรมในแอปพลิเคชัน .NET"
   features:
     # feature loop
-    - title: "รวมหลายเอกสารอย่างง่ายดายใน C#"
-      content: "ผสานเอกสาร: รวมไฟล์ PDF และ Office หลายไฟล์ไว้ในเอกสารเดียวได้อย่างราบรื่น พร้อมรองรับรูปแบบที่หลากหลาย GroupDocs.Merger สำหรับ .NET ทำให้การรวมเอกสารรวดเร็วและไม่ยุ่งยาก"
+    - title: "รวมเอกสารหลายไฟล์ใน C# ได้อย่างมีประสิทธิภาพ"
+      content: "รวมไฟล์ PDF และไฟล์ Office หลายไฟล์เข้าเป็นเอกสารเดียวด้วย GroupDocs.Merger สำหรับ .NET ด้วยการสนับสนุนรูปแบบที่หลากหลาย การรวมเอกสารจึงทำได้รวดเร็วและตรงไปตรงมา"
 
     # feature loop
-    - title: "ลดความซับซ้อนในการจัดการเอกสารโดยการแยกไฟล์ขนาดใหญ่"
-      content: "แยกไฟล์ PDF หรือ Office ขนาดใหญ่ออกเป็นส่วนย่อยๆ ที่จัดการได้ง่ายขึ้น GroupDocs.Merger สำหรับ .NET ช่วยให้คุณสามารถแยกเอกสารตามหน้า ช่วง หรือแม้กระทั่งแยกแต่ละหน้าได้อย่างง่ายดาย"
+    - title: "ทำให้การจัดการเอกสารง่ายขึ้นโดยการแยกไฟล์ขนาดใหญ่"
+      content: "แบ่งไฟล์ PDF หรือไฟล์ Office ขนาดใหญ่เป็นส่วนเล็กๆ ที่จัดการได้ง่ายขึ้น GroupDocs.Merger สำหรับ .NET ช่วยให้คุณสามารถแยกเอกสารตามหน้าที่กำหนด ช่วงหน้าหรือจัดเก็บหน้าที่ต้องการได้"
 
     # feature loop
-    - title: "จัดการหน้าและปรับแต่งโครงสร้างเอกสาร - จัดลำดับใหม่ สลับ หรือลบ"
-      content: "ควบคุมเอกสารของคุณด้วยการจัดเรียงหน้าใหม่ ลบหน้าที่ไม่ต้องการ หรือเพิ่มหน้าใหม่ GroupDocs.Merger สำหรับ .NET ช่วยให้คุณสามารถจัดการโครงสร้างเอกสาร ช่วยให้คุณสามารถปรับแต่งและปรับแต่งไฟล์ของคุณตามความต้องการเฉพาะของคุณ"
+    - title: "จัดการหน้าและปรับแต่งโครงสร้างเอกสาร - เรียงใหม่ แลกเปลี่ยน หรือ ลบ"
+      content: "มีการควบคุมเต็มที่เหนือเอกสารของคุณโดยการเรียงใหม่ แลกเปลี่ยน หรือ ลบหน้า GroupDocs.Merger สำหรับ .NET มอบความยืดหยุ่นในการปรับแต่งโครงสร้างเอกสารให้ตรงตามความต้องการเฉพาะของคุณ"
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "ความเป็นอิสระของแพลตฟอร์ม"
-  description: "GroupDocs.Merger สำหรับ .NET รองรับระบบปฏิบัติการ เฟรมเวิร์ก และตัวจัดการแพ็คเกจต่อไปนี้"
+  description: "GroupDocs.Merger สำหรับ .NET ถูกพัฒนาให้ทำงานได้อย่างราบรื่นในหลายระบบปฏิบัติการ, เฟรมเวิร์ก, และตัวจัดการแพ็คเกจ, ส่งมอบความหลากหลายและความเข้ากันได้สำหรับสภาพแวดล้อมการพัฒนาของคุณ."
   items:
     # platform loop
     - title: "Amazon"
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "รูปแบบไฟล์ที่รองรับ"
   description: |
-    GroupDocs.Merger สำหรับ .NET รองรับการดำเนินการกับ [รูปแบบไฟล์เอกสาร](https://docs.groupdocs.com/merger/net/supported-document-formats/) ต่อไปนี้
+    GroupDocs.Merger สำหรับ .NET ช่วยให้คุณสามารถทำงานกับรูปแบบไฟล์ที่หลากหลาย [file formats](https://docs.groupdocs.com/merger/net/supported-document-formats/), เพื่อความยืดหยุ่นในการประมวลผลเอกสารของคุณ.
   groups:
     # group loop
     - color: "green"
@@ -132,7 +132,7 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### เอกสารและรูปภาพ
+        ### เอกสาร & รูปภาพ
         * **เอกสาร:** PDF, XPS, TEX
         * **รูปภาพ:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
@@ -142,82 +142,82 @@ formats:
       content: |
         ### รูปแบบอื่นๆ
         * **เว็บ:**  HTML, MHTML, MHT
-        * **หอจดหมายเหตุ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **ไฟล์บีบอัด:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "คุณสมบัติ GroupDocs.Merger"
-  description: "รวม แยก และจัดการ PDF และเอกสาร Office ได้อย่างราบรื่น"
+  title: "คุณสมบัติของ GroupDocs.Merger"
+  description: "รวม แยก และจัดการเอกสาร PDF และ Office ได้อย่างมีประสิทธิภาพ."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "ผสานไฟล์"
-      content: "รวมเอกสารตั้งแต่สองเอกสารขึ้นไปเป็นเอกสารเดียว ผสานหน้าหรือช่วงหน้าที่ต้องการจากเอกสารต้นฉบับหลายชุด"
+      title: "รวมไฟล์"
+      content: "รวมเอกสารหลายฉบับเข้าด้วยกัน โดยสามารถเลือกที่จะรวมไฟล์ทั้งหมดหรือเฉพาะหน้าจากแหล่งที่แตกต่างกัน."
 
     # feature loop
     - icon: "split"
       title: "แยกเอกสาร"
-      content: "แบ่งเอกสารต้นทางออกเป็นเอกสารผลลัพธ์หลายชุดโดยใช้การดำเนินการแยก"
+      content: "แบ่งเอกสารออกเป็นไฟล์ขนาดเล็กหลายไฟล์เพื่อการจัดระเบียบและการจัดการที่ดีขึ้น."
 
     # feature loop
     - icon: "move"
-      title: "ย้ายหน้า"
-      content: "เปลี่ยนตำแหน่งหน้าภายในเอกสารโดยใช้คุณสมบัติ MovePage"
+      title: "เคลื่อนย้ายหน้า"
+      content: "จัดเรียงลำดับหน้าภายในเอกสารโดยย้ายไปยังตำแหน่งใหม่."
 
     # feature loop
     - icon: "remove"
       title: "ลบหน้า"
-      content: "ลบแต่ละหน้าหรือชุดหมายเลขหน้าเฉพาะออกจากเอกสารต้นฉบับ"
+      content: "ลบหน้าที่เฉพาะเจาะจงหรือหน้าหลายหน้าที่เลือกจากเอกสาร."
 
     # feature loop
     - icon: "rotate"
       title: "หมุนหน้า"
-      content: "หมุนหน้าภายในเอกสารโดยตั้งค่ามุมการหมุนเป็น 90, 180 หรือ 270 องศาโดยใช้การดำเนินการ RotatePages"
+      content: "หมุนหน้าภายในเอกสารตามต้องการที่ 90, 180, หรือ 270 องศา."
 
     # feature loop
     - icon: "swap"
       title: "สลับหน้า"
-      content: "แลกเปลี่ยนตำแหน่งของสองหน้าในเอกสารต้นทาง สร้างเอกสารใหม่โดยสลับตำแหน่งหน้า"
+      content: "สลับตำแหน่งของหน้าสองหน้าในเอกสารเพื่อการจัดแบบที่ดียิ่งขึ้น."
 
     # feature loop
     - icon: "extract"
-      title: "แยกหน้า"
-      content: "แยกหน้าหรือช่วงหน้าที่ต้องการจากเอกสารต้นฉบับ สร้างเอกสารใหม่ที่มีเฉพาะหน้าที่เลือก"
+      title: "ดึงหน้า"
+      content: "เลือกและดึงหน้าเฉพาะหรือช่วงหน้ามาสร้างเอกสารใหม่."
 
     # feature loop
     - icon: "orientation"
       title: "เปลี่ยนทิศทาง"
-      content: "ตั้งค่าการวางแนวหน้า (แนวตั้งหรือแนวนอน) สำหรับบางหน้าหรือทุกหน้าของเอกสารโดยใช้การดำเนินการ ChangeOrientation"
+      content: "ปรับทิศทางของหน้าให้เป็นแนวตั้งหรือแนวนอนสำหรับหน้าที่เลือกหรือทั้งหมด."
 
     # feature loop
     - icon: "preview"
-      title: "หน้าตัวอย่าง"
-      content: "สร้างการแสดงรูปภาพของหน้าเอกสารเพื่อให้เข้าใจเนื้อหาและโครงสร้างได้ดียิ่งขึ้น แสดงตัวอย่างหน้าทั้งหมดหรือเฉพาะบางหน้า"
+      title: "ดูตัวอย่างหน้า"
+      content: "สร้างตัวอย่างภาพของหน้าจากเอกสารเพื่อให้เห็นภาพเนื้อหาและรูปแบบได้ชัดเจน."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "ตัวอย่างโค้ด"
-  description: "บางกรณีการใช้งานของ GroupDocs.Merger ทั่วไปสำหรับการดำเนินการ .NET"
+  description: "ตัวอย่างการใช้งานการทำงานทั่วไปของ GroupDocs.Merger ใน {{ProgLang}}"
   items:
     # code sample loop
-    - title: "รวมหน้าไฟล์ DOCX เฉพาะลงในเอกสารเดียว"
+    - title: "รวมหน้าที่เฉพาะจากไฟล์ DOCX เป็นเอกสารเดียว"
       content: |
-        คุณลักษณะ[การผสานหน้าแบบเลือก](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/)ช่วยให้คุณแยกและรวมเฉพาะเนื้อหาที่ต้องการจากแต่ละไฟล์ได้ ต่อไปนี้คือตัวอย่างวิธีการรวมเพจที่เลือกโดยใช้ C#:
-        {{< landing/code title="วิธีรวมไฟล์ DOCX ใน C#">}}
+        ฟีเจอร์ [Selective Page Merge](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) ช่วยให้คุณสามารถแยกและรวมเฉพาะหน้าที่ต้องการจากไฟล์ DOCX หลายไฟล์. นี่คือวิธีการรวมหน้าที่เฉพาะโดยใช้ C#:
+        {{< landing/code title="วิธีการรวมไฟล์ DOCX ใน C#">}}
         ```csharp {style=abap}   
         JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
         
-        // โหลดไฟล์ DOCX ต้นทาง
+        // โหลดไฟล์ DOCX ต้นฉบับ
         using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
         {
-          // เพิ่มไฟล์ DOCX อื่นที่จะผสาน
+          // เพิ่มไฟล์ DOCX อื่นเพื่อรวมหน้าที่เฉพาะ
           merger.Join(@"c:\sample2.docx", joinOptions);
           
-          // รวมไฟล์ DOCX และบันทึกผลลัพธ์
+          // รวมหน้าที่เลือกและบันทึกผลลัพธ์
           merger.Save(@"c:\result.docx");
         }
         ```
@@ -225,19 +225,19 @@ code_samples:
     # code sample loop
     - title: "แยกเอกสาร PDF ออกเป็นหลายไฟล์"
       content: |
-        แบ่งเอกสารออกเป็นหลายไฟล์อย่างมีประสิทธิภาพด้วยคุณลักษณะ [แยกเอกสาร](https://docs.groupdocs.com/merger/net/split-document/) ซึ่งลดความซับซ้อนของกระบวนการจัดการและแยกส่วนหรือหน้าที่เจาะจงออกจากเอกสารขนาดใหญ่ ช่วยให้คุณแบ่งเอกสารออกเป็นส่วนย่อยๆ ตามเกณฑ์ต่างๆ - ตามช่วงหน้า, ตามหน้าเริ่มต้น/หน้าสุดท้าย, ตามเลขหน้าคู่/คี่ ฯลฯ
-        {{< landing/code title="วิธีแยกเอกสารเป็นเอกสารหลายหน้า">}}
+        คุณสามารถแบ่ง PDF ขนาดใหญ่เป็นไฟล์ขนาดเล็กหลายไฟล์โดยใช้ฟีเจอร์ [Split Document](https://docs.groupdocs.com/merger/net/split-document/). สิ่งนี้ช่วยในการแยกส่วนที่เฉพาะเจาะจงหรือจัดระเบียบเนื้อหาได้อย่างมีประสิทธิภาพ. คุณสามารถแยกเอกสารตามเกณฑ์ต่างๆ เช่น ช่วงหน้า, หน้าต้นและหน้าสิ้นสุดเฉพาะ, หรือหมายเลขหน้าที่เป็นเลขคี่/คู่.
+        {{< landing/code title="วิธีการแยกเอกสารออกเป็นหลายไฟล์ที่มีหลายหน้า">}}
         ```csharp {style=abap}   
-        // แยกไฟล์ PDF โดยใช้ GroupDocs.Merger API
+        // ใช้ API ของ GroupDocs.Merger เพื่อแยกไฟล์ PDF
         int[] splitPages = new int[] { 3, 6, 8 };
         
-        // เริ่มต้นคลาส SplitOptions ด้วยรูปแบบเส้นทางไฟล์เอาต์พุต
+        // ตั้งค่า SplitOptions ด้วยรูปแบบไฟล์ที่ต้องการสุดท้าย
         SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
         
-        // สร้างอินสแตนซ์การควบรวมกิจการด้วยการป้อนเอกสาร PDF
+        // สร้างตัวอย่าง Merger และโหลดเอกสาร PDF
         using (Merger merger = new Merger(@"c:\sample.pdf"))
         {
-          // วิธีการแยกการโทรและส่งวัตถุ SplitOptions เพื่อบันทึกเอกสารผลลัพธ์
+          // เรียกใช้เมธอด split ด้วย SplitOptions เพื่อสร้างไฟล์แยกต่างหาก
           merger.Split(splitOptions);
         }  
         ```

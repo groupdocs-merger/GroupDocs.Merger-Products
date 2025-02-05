@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:03
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,31 +26,31 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "Java ドキュメント結合 API | Word Excel PDF XPS EPUBの結合と削除"
-head_description: "Java 用 API をマージするドキュメント。 PDF、Microsoft Word、Excel、プレゼンテーション、Visio、XPS、EPUB 形式のページを結合、分割、交換、並べ替え、削除します。"
+head_title: "JavaドキュメントマージAPI | Word、Excel、PDF、XPS、EPUBの統合と管理"
+head_description: "ドキュメントの統合のためのJava API。PDF、Microsoft Word、Excel、PowerPoint、Visio、XPS、EPUBファイルからページをマージ、分割、順序変更、入れ替え、削除します。"
 
 ############################# Header ############################
-title: "文書を結合する<br>Java API経由"
-description: "PDF と Office ドキュメントを簡単に結合、分割、または変更するための柔軟な Merger API"
+title: "ドキュメントを統合<br>Java APIで"
+description: "PDFおよびOfficeドキュメントを統合、分割、変更するための多目的API"
 words:
-  for: "ために"
+  for: "のため"
 
 actions:
-  main: "Maven の無料ダウンロード"
+  main: "無料Mavenダウンロード"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
-  alt: "ライセンス"
+  alt: "ライセンス取得"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
-  title: "始める準備はできていますか?"
-  description: "GroupDocs.Merger の機能を無料で試すか、ライセンスをリクエストしてください"
+  title: "始める準備はできましたか？"
+  description: "GroupDocs.Mergerを無料で試すか、ライセンスをリクエストしてください"
 
 release:
   title: "バージョン {0} がリリースされました"
-  notes: "新機能を見る"
+  notes: "新機能の確認"
   downloads: "ダウンロード"
 
 code:
-  title: "Java で PDF ファイルを結合する"
-  more: "他の例"
+  title: "JavaでPDFファイルをマージする"
+  more: "さらなる例"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
   install: |
     <dependency>
@@ -60,38 +60,38 @@ code:
     </dependency>
   content: |
     ```java {style=abap}   
-    // ソース PDF ファイルをロードします
+    // ソースPDFファイルをロードする
     Merger merger = new Merger("sample1.pdf");
     
-    // 結合する別の PDF ファイルを追加します
+    // 結合する別のPDFファイルを追加する
     merger.join("sample2.pdf");
 
-    // PDF ファイルを結合して結果を保存する
+    // PDFファイルをマージして出力を保存する
     merger.save("merged.pdf");
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Merger の概要"
-  description: "Java アプリケーションでドキュメント、スライド、図を結合、分割、交換、トリムまたは削除するための API"
+  title: "GroupDocs.Mergerの概要"
+  description: "Javaアプリケーションでドキュメント、スライド、図を結合、分割、入れ替え、トリミング、または削除するためのAPIです。"
   features:
     # feature loop
-    - title: "Java で複数のドキュメントを簡単にマージ"
-      content: "GroupDocs.Merger ライブラリの機能を利用して、Java で PDF ファイルと Office ファイルを単一のドキュメントに簡単に結合します。広範な形式サポートの恩恵を受け、さまざまなファイル タイプをシームレスに結合できるため、便利で合理化された結合プロセスが実現します。"
+    - title: "Javaで複数のドキュメントを簡単に結合"
+      content: "GroupDocs.Mergerを使用して、PDFおよびOfficeファイルをJavaで単一のドキュメントに結合できます。幅広いフォーマットサポートにより、さまざまなファイルタイプをシームレスに結合し、マージプロセスを簡素化して生産性を向上させます。"
 
     # feature loop
-    - title: "かさばるファイルを簡単に分割して文書管理を合理化します。"
-      content: "大きな PDF または Office ファイルを、扱いやすい小さなセクションに分割します。特定のページや範囲に基づいてドキュメントを分割したり、個々のページを簡単に抽出したりすることもできます。 GroupDocs.Merger ライブラリのシームレスな機能を利用してドキュメント管理を合理化し、ファイルをより整理して管理しやすくします。"
+    - title: "大容量ファイルを簡単に分割して文書管理をスムーズに"
+      content: "大きなPDFまたはOfficeファイルをより扱いやすいセクションに分解します。特定のページや範囲で文書を分割したり、個々のページを抽出したりすることができます。GroupDocs.Mergerにより、文書の整理が簡単になり、ファイルの取り扱いやアクセスが容易になります。"
 
     # feature loop
-    - title: "ドキュメント構造をカスタマイズし、ファイルを完全に制御します"
-      content: "ページの並べ替え、入れ替え、削除などを簡単に行うことができます。パーソナライズされたファイル構造を柔軟に作成できるため、特定の要件に応じてドキュメントを整理および調整できます。"
+    - title: "ドキュメント構造をカスタマイズし、ファイルを完全に制御"
+      content: "ページの順序を変更したり、入れ替えたり、削除したりすることで、ドキュメントを完全に制御します。GroupDocs.Mergerを使用して、特定のニーズに応じた柔軟なカスタマイズドキュメント構造を作成できます。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "プラットフォームの独立性"
-  description: "Java 用 GroupDocs.Merger は、次のオペレーティング システム、フレームワーク、およびパッケージ マネージャーをサポートします。"
+  description: "GroupDocs.Merger for Java は、さまざまなオペレーティングシステム、フレームワーク、パッケージマネージャーでシームレスに動作するように設計されており、開発ニーズに対する柔軟性と互換性を保証します。"
   items:
     # platform loop
     - title: "Amazon"
@@ -124,12 +124,12 @@ formats:
   enable: true
   title: "サポートされているファイル形式"
   description: |
-    GroupDocs.Merger for Java は、次の [ドキュメント ファイル形式](https://docs.groupdocs.com/merger/java/supported-document-formats/) での操作をサポートします。
+    GroupDocs.Merger for Java は、さまざまな [ファイル形式](https://docs.groupdocs.com/merger/java/supported-document-formats/) に対してシームレスな操作を可能にします。
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office形式
+        ### Microsoft Office 形式
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -138,7 +138,7 @@ formats:
     - color: "blue"
       content: |
         ### 文書と画像
-        * **書類:** PDF, XPS, TEX
+        * **文書:** PDF, XPS, TEX
         * **画像:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
         * **eBook:** EPUB
@@ -153,92 +153,92 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Merger の機能"
-  description: "PDF と Office ドキュメントをシームレスに結合、分割、操作します"
+  title: "GroupDocs.Mergerの機能"
+  description: "強力なツールを使用して、PDFおよびOffice文書をマージ、分割、操作します。"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "ファイルを結合する"
-      content: "2 つ以上のドキュメントを 1 つのドキュメントに結合し、複数のソース ドキュメントの特定のページまたはページ範囲を結合します。"
+      title: "ファイル結合"
+      content: "複数の文書を1つに結合し、異なるソースファイルから特定のページまたはページ範囲を選択します。"
 
     # feature loop
     - icon: "split"
-      title: "分割ドキュメント"
-      content: "分割操作を利用してソース ドキュメントを複数の結果ドキュメントに分割し、ファイルの効率的な編成と管理を可能にします。"
+      title: "文書分割"
+      content: "文書を複数の小さいファイルに分割し、コンテンツの管理と整理を容易にします。"
 
     # feature loop
     - icon: "move"
-      title: "ページの移動"
-      content: "MovePage 機能を利用して、ドキュメント内のページの位置をスムーズに変更します。"
+      title: "ページ移動"
+      content: "MovePage機能を使用して、文書内のページの順序を新しい位置に移動します。"
 
     # feature loop
     - icon: "remove"
-      title: "ページを削除する"
-      content: "RemovePages 機能を使用して、ソース文書から個々のページまたは特定のページ番号の集合を効果的に削除します。"
+      title: "ページ削除"
+      content: "RemovePages機能を使用して、文書から個々のページまたは特定のページセットを削除します。"
 
     # feature loop
     - icon: "rotate"
-      title: "ページを回転する"
-      content: "RotatePages 操作を利用して、回転角度を 90、180、または 270 度に指定することで、ドキュメント内のページを簡単に回転できます。"
+      title: "ページ回転"
+      content: "RotatePages機能を使用して、文書内のページを90、180、または270度回転させます。"
 
     # feature loop
     - icon: "swap"
-      title: "ページを交換する"
-      content: "ソース文書内の 2 ページの位置を交換してページ順序を再配置し、新しい文書を作成します。"
+      title: "ページ入れ替え"
+      content: "文書内の2ページを入れ替えることで、ページの順序を変更します。"
 
     # feature loop
     - icon: "extract"
-      title: "ページの抽出"
-      content: "ソース文書から特定のページまたはページ範囲を抽出して、選択したページのみを含む新しい文書を生成します。"
+      title: "ページ抽出"
+      content: "特定のページやページ範囲を抽出し、選択したページのみを含む新しい文書を作成します。"
 
     # feature loop
     - icon: "orientation"
-      title: "方向を変更する"
-      content: "ChangeOrientation 操作を利用して、ドキュメントの特定のページまたはすべてのページのページの向き (縦または横) を変更します。"
+      title: "向きの変更"
+      content: "文書内の特定のページまたはすべてのページの向きをポートレートとランドスケープの間で切り替えます。"
 
     # feature loop
     - icon: "preview"
-      title: "ページのプレビュー"
-      content: "ページの画像表現を生成することで、文書の内容と構造をより明確に理解できます。すべてのページまたは特定のページのみのプレビューを作成します。"
+      title: "ページプレビュー"
+      content: "文書ページの画像プレビューを生成して、その内容やレイアウトをより良く確認します。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "コードサンプル"
-  description: "Java 操作の典型的な GroupDocs.Merger の使用例"
+  description: "Javaにおける一般的なGroupDocs.Merger操作の例"
   items:
     # code sample loop
-    - title: "DOCX ファイルを 1 つのドキュメントに結合する"
+    - title: "複数のDOCXファイルを1つのドキュメントにマージ"
       content: |
-        [Word ドキュメントの結合](https://docs.groupdocs.com/merger/java/merge/word/) 機能を使用すると、ソース ファイルをロードし、結合する DOCX ファイルをさらに追加することで、DOCX ファイル全体を 1 つのドキュメントに結合できます。をクリックし、結合されたドキュメントを保存します。 以下は、マージ プロセスを示す Java コード スニペットです。
-        {{< landing/code title="Java で DOCX ファイルをマージする方法">}}
+        [Wordドキュメントのマージ](https://docs.groupdocs.com/merger/java/merge/word/)機能を使用すると、複数のDOCXファイルを1つに統合できます。ソースドキュメントをロードし、追加のDOCXファイルを追加し、マージされた結果を保存します。 以下は、マージプロセスを示すJavaのコードスニペットです:
+        {{< landing/code title="JavaでDOCXファイルをマージする方法">}}
         ```java {style=abap}   
-        // ソースDOCXファイルをロードします
+        // ソースDOCXファイルをロードする
         Merger merger = new Merger("sample1.docx");
-        // マージする別の DOCX ファイルを追加します
+        // 結合する別のDOCXファイルを追加する
         merger.join("sample2.docx");
-        // DOCX ファイルをマージし、結果を保存します
+        // DOCXファイルをマージし、出力を保存する
         merger.save("merged.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "PDF ドキュメントを複数のファイルに分割する"
+    - title: "PDFドキュメントを複数のファイルに分割する"
       content: |
-        [ドキュメントの分割](https://docs.groupdocs.com/merger/java/split-document/) 機能を使用してドキュメントを複数のファイルに分割すると、大きなドキュメントから特定のセクションやページを管理および抽出するプロセスが簡素化されます。 ページ範囲別、開始ページ/終了ページ、奇数/偶数ページ番号など、さまざまな基準に基づいてドキュメントを小さな部分に分割できます。
-        {{< landing/code title="ドキュメントを複数の 1 ページのドキュメントに分割する">}}
+        [ドキュメントの分割](https://docs.groupdocs.com/merger/java/split-document/)機能を使用して、大きなPDFを小さく扱いやすいファイルに分割します。特定のセクションやページを抽出するのに便利です。 ドキュメントをページ範囲や特定の開始ページと終了ページ、奇数/偶数ページ番号など、さまざまな基準で分割できます。
+        {{< landing/code title="ドキュメントを複数の1ページファイルに分割する">}}
         ```java {style=abap}   
-        // GroupDocs.Merger for Java API を使用して PDF ファイルを分割する
+        // GroupDocs.Merger for Java APIを使用してPDFファイルを分割する
         String filePath = "input.pdf";
         String filePathOut = "output.pdf";
 
-        // 出力ファイルのパス形式で SplitOptions クラスを初期化する
+        // 出力ファイル形式でSplitOptionsクラスを初期化する
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // 入力 PDF ドキュメントを使用してマージャーをインスタンス化する
+        // 入力PDFドキュメントでMergerインスタンスを作成する
         Merger merger = new Merger(filePath);
 
-        // 分割メソッドを呼び出し、SplitOptions オブジェクトを渡して結果のドキュメントを保存します
+        // SplitOptionsオブジェクトを使ってsplitメソッドを呼び出し、別々のファイルを生成する
         merger.split(splitOptions);
   
         ```

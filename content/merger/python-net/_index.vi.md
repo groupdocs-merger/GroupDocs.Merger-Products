@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:04
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,31 +26,31 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "{head.title}"
-head_description: "{head.description}"
+head_title: "API hợp nhất tài liệu Python | hợp nhất PDF, Word, Excel"
+head_description: "API Python cho việc hợp nhất tài liệu. Hợp nhất, tách, hoán đổi, sắp xếp lại và xóa trang từ các tệp PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS và EPUB."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "{header.description}"
+title: "Hợp nhất tài liệu<br>sử dụng API Python"
+description: "Một API mạnh mẽ cho việc hợp nhất, tách và chỉnh sửa các tệp PDF và Office."
 words:
-  for: "{header.words.for}"
+  for: "cho"
 
 actions:
-  main: "{actions.main}"
+  main: "Tải xuống miễn phí từ PyPi"
   main_link: "https://releases.groupdocs.com/merger/python-net/"
-  alt: "{actions.alt}"
+  alt: "Cấp phép"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/python-net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Sẵn sàng bắt đầu chưa?"
+  description: "Hãy thử GroupDocs.Merger miễn phí hoặc nhận giấy phép."
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Phiên bản {0} đã phát hành"
+  notes: "Khám phá những gì mới"
+  downloads: "Tải xuống"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Hợp nhất các tệp PDF trong Python thông qua .NET"
+  more: "Nhiều ví dụ hơn"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Python-via-.NET/"
   install: "pip install groupdocs-merger-net"
   content: |
@@ -59,38 +59,38 @@ code:
 
     def run():
 
-        # {code.comment_1}
+        # Tải tệp PDF gốc
         with gm.Merger("sample1.pdf") as merger:
     
-            # {code.comment_2}
+            # Thêm một tệp PDF khác để hợp nhất
             merger.join("sample2.pdf")
 
-            # {code.comment_3}
+            # Kết hợp các tệp PDF và lưu đầu ra
             merger.save("merged.pdf")
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "Tổng quan về GroupDocs.Merger cho {{ProgLang}}"
+  description: "Một API đa năng để gộp, chia tách, sắp xếp lại và tinh chỉnh tài liệu, slide và sơ đồ trong các ứng dụng {{ProgLang}}."
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Gộp tài liệu một cách nhanh chóng trong {{ProgLang}}"
+      content: "Kết hợp tài liệu PDF và Office thành một tệp duy nhất một cách hiệu quả bằng cách sử dụng GroupDocs.Merger cho {{ProgLang}}. Với hỗ trợ định dạng phong phú, thư viện này đảm bảo tích hợp và gộp các loại tệp khác nhau một cách liền mạch, đơn giản hóa việc quản lý tài liệu trong các ứng dụng {{ProgLang}}."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Đơn giản hóa việc xử lý tài liệu bằng cách chia nhỏ các tệp lớn"
+      content: "Chia nhỏ dễ dàng các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn với GroupDocs.Merger cho {{ProgLang}}. Tùy chỉnh tài liệu của bạn bằng cách chia chúng theo các trang cụ thể, khoảng, hoặc trích xuất các trang riêng lẻ, cải thiện tổ chức và hiệu quả công việc."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Kiểm soát hoàn toàn cấu trúc tài liệu của bạn trong {{ProgLang}}"
+      content: "Dễ dàng sắp xếp lại, hoán đổi hoặc xóa các trang để tùy chỉnh bố cục tài liệu của bạn bằng GroupDocs.Merger cho {{ProgLang}}. Điều chỉnh các tệp của bạn để đáp ứng các yêu cầu cụ thể, cung cấp tính linh hoạt vô song trong việc tạo ra cấu trúc tài liệu được tùy chỉnh."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Độc lập nền tảng"
+  description: "GroupDocs.Merger cho Python được thiết kế để hoạt động mượt mà trên nhiều hệ điều hành, khung phát triển và trình quản lý gói, cung cấp tính linh hoạt và khả năng tương thích cho môi trường phát triển của bạn."
   items:
     # platform loop
     - title: "Amazon"
@@ -121,14 +121,14 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Các định dạng tệp được hỗ trợ"
   description: |
-    {formats.description}
+    GroupDocs.Merger cho Python qua .NET cho phép thực hiện thao tác liền mạch với đa dạng các [định dạng tệp](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), đảm bảo tính linh hoạt cho các tác vụ quản lý tài liệu của bạn.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
+        ### Định dạng Microsoft Office
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -136,118 +136,118 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        ### Tài liệu & hình ảnh
+        * **Tài liệu:** PDF, XPS, TEX
+        * **Hình ảnh:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
         * **eBook:** EPUB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        ### Định dạng khác
+        * **Web:**  HTML, MHTML, MHT
+        * **Lưu trữ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{features.title}"
-  description: "{features.description}"
+  title: "Các Tính Năng Chính của GroupDocs.Merger cho {{ProgLang}}"
+  description: "Đơn giản hóa việc xử lý tài liệu bằng cách kết hợp, chia tách và chỉnh sửa các tệp PDF và Office một cách liền mạch với GroupDocs.Merger trong môi trường {{ProgLang}}."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Kết hợp tài liệu liền mạch"
+      content: "Kết hợp nhiều tài liệu thành một bằng cách chọn trang cụ thể hoặc khoảng từ nhiều tệp khác nhau sử dụng GroupDocs.Merger cho {{ProgLang}}."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Khả năng chia tách tài liệu"
+      content: "Chia nhỏ các tài liệu lớn thành các tệp nhỏ hơn, dễ quản lý hơn với các công cụ chia tách tiên tiến được cung cấp bởi GroupDocs.Merger cho {{ProgLang}}."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Di chuyển trang hiệu quả"
+      content: "Thay đổi vị trí các trang trong một tài liệu để đáp ứng nhu cầu của bạn bằng cách sử dụng tính năng Di chuyển Trang trong {{ProgLang}}."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Tùy chọn xóa trang"
+      content: "Xóa dễ dàng các trang không cần thiết hoặc các số trang cụ thể với tính năng Xóa Trang trong GroupDocs.Merger cho {{ProgLang}}."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Chức năng xoay trang"
+      content: "Xoay các trang theo góc 90, 180 hoặc 270 độ với thao tác Xoay Trang đơn giản."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Tính năng hoán đổi trang"
+      content: "Tổ chức lại tài liệu của bạn bằng cách hoán đổi vị trí các trang sử dụng chức năng Hoán Đổi Trang trong GroupDocs.Merger cho {{ProgLang}}."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "Trích xuất trang chọn lọc"
+      content: "Trích xuất các trang cụ thể hoặc khoảng để tạo một tài liệu mới, chỉ tập trung vào nội dung bạn cần với GroupDocs.Merger cho {{ProgLang}}."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Công cụ thay đổi hướng trang"
+      content: "Thay đổi hướng của các trang từ chiều dọc sang chiều ngang hoặc ngược lại bằng cách sử dụng tính năng Thay Đổi Hướng trong các dự án {{ProgLang}} của bạn."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Xem trước trang tài liệu"
+      content: "Tạo hình ảnh xem trước của các trang tài liệu để xem xét nội dung và bố cục của chúng với tính năng Xem Trước Trang trong {{ProgLang}}."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Mẫu mã"
+  description: "Khám phá các trường hợp sử dụng phổ biến cho GroupDocs.Merger trong Python. Những ví dụ này cho thấy cách hợp nhất và tách tài liệu một cách hiệu quả bằng cách sử dụng GroupDocs.Merger cho Python."
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Hợp nhất nhiều tệp DOCX thành một tài liệu trong Python"
       content: |
-        {code_samples.sample_1.content_1} {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        GroupDocs.Merger cho Python cho phép bạn kết hợp nhiều tệp DOCX thành một tài liệu duy nhất. Với tính năng [Hợp nhất Tài liệu Word](https://docs.groupdocs.com/merger/python-net/merge/word/), bạn có thể tối ưu hóa quản lý tài liệu và nâng cao năng suất. Dưới đây là một đoạn mã Python minh họa quá trình hợp nhất:
+        {{< landing/code title="Ví dụ: Hợp nhất tệp DOCX trong Python">}}
         ```python {style=abap}   
         import groupdocs.merger as gm
 
         def run():
 
-            # {code_samples.sample_1.comment_1}
+            # Tải tệp DOCX đầu tiên
             with gm.Merger("sample1.docx") as merger:
 
-                # {code_samples.sample_1.comment_2}
+                # Thêm nhiều tệp DOCX khác để hợp nhất
                 merger.join("sample2.docx")
 
-                # {code_samples.sample_1.comment_3}
+                # Hợp nhất các tệp DOCX và lưu kết quả
                 merger.save("merged.docx")
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Tách một tài liệu PDF thành nhiều tệp trong Python"
       content: |
-        {code_samples.sample_2.content_1} {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title}">}}
+        Với GroupDocs.Merger cho Python, bạn có thể tách các tài liệu PDF lớn thành những tệp nhỏ hơn một cách hiệu quả. Tính năng [Tách Tài liệu](https://docs.groupdocs.com/merger/python-net/split-document/) cho phép bạn trích xuất các trang cụ thể dựa trên các tiêu chí như phạm vi trang, trang bắt đầu/kết thúc hoặc các trang lẻ/chẵn. Tính năng này giúp tổ chức các tài liệu lớn bằng cách chia chúng thành các tệp nhỏ hơn, dễ quản lý hơn.
+        {{< landing/code title="Cách tách một PDF thành các tệp riêng biệt trong Python">}}
         ```python {style=abap}   
         import groupdocs.merger as gm
 
         def run():
 
-            # {code_samples.sample_2.comment_1}
+            # Sử dụng GroupDocs.Merger cho Python để tách tệp PDF
             filePath = "input.pdf"
             filePathOut = "output.pdf"
 
-            # {code_samples.sample_2.comment_2}
+            # Xác định SplitOptions với định dạng đầu ra mong muốn
             splitOptions = gm.domain.options.SplitOptions(filePathOut, [ 3, 6, 8 ])
 
-            # {code_samples.sample_2.comment_3}
+            # Khởi tạo Merger với tài liệu PDF đầu vào
             with gm.Merger(filePath) as merger:
 
-                # {code_samples.sample_2.comment_4}
+                # Gọi phương thức tách với đối tượng SplitOptions để tạo ra các tệp riêng biệt
                 merger.split(splitOptions)
         ```
         {{< /landing/code >}}

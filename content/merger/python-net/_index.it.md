@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:03
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,31 +26,31 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "{head.title}"
-head_description: "{head.description}"
+head_title: "API di unione documenti Python | unisci PDF, Word, Excel"
+head_description: "API Python per l'unione di documenti. Unisci, dividi, scambia, riordina e rimuovi pagine da file PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS ed EPUB."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "{header.description}"
+title: "Unisci documenti<br>utilizzando l'API Python"
+description: "Un'API potente per unire, dividere e modificare file PDF e Office."
 words:
-  for: "{header.words.for}"
+  for: "per"
 
 actions:
-  main: "{actions.main}"
+  main: "Download gratuito da PyPi"
   main_link: "https://releases.groupdocs.com/merger/python-net/"
-  alt: "{actions.alt}"
+  alt: "Licenze"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/python-net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Pronto per iniziare?"
+  description: "Prova GroupDocs.Merger gratuitamente o acquista una licenza."
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Versione {0} rilasciata"
+  notes: "Scopri le novità"
+  downloads: "Download"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Unire file PDF in Python tramite .NET"
+  more: "Altri esempi"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Python-via-.NET/"
   install: "pip install groupdocs-merger-net"
   content: |
@@ -59,38 +59,38 @@ code:
 
     def run():
 
-        # {code.comment_1}
+        # Carica il file PDF originale
         with gm.Merger("sample1.pdf") as merger:
     
-            # {code.comment_2}
+            # Aggiungi un altro file PDF da unire
             merger.join("sample2.pdf")
 
-            # {code.comment_3}
+            # Combina i file PDF e salva l'output
             merger.save("merged.pdf")
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "Panoramica di GroupDocs.Merger per Python"
+  description: "Un'API versatile per unire, suddividere, riordinare e perfezionare documenti, diapositive e diagrammi nelle applicazioni Python."
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Unisci documenti con efficienza in Python"
+      content: "Combina senza sforzo documenti PDF e Office in un unico file utilizzando GroupDocs.Merger per Python. Con un ampio supporto per vari formati, questa libreria garantisce integrazione e fusione senza problemi di diversi tipi di file, semplificando la gestione dei documenti nelle applicazioni Python."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Semplifica la gestione dei documenti segmentando file di grandi dimensioni"
+      content: "Suddividi facilmente file PDF o Office di grandi dimensioni in sezioni più piccole e gestibili con GroupDocs.Merger per Python. Personalizza i tuoi documenti dividendo in base a pagine specifiche, intervalli o estraendo pagine singole, migliorando l'organizzazione e l'efficienza del flusso di lavoro."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Ottieni il massimo controllo sulla struttura dei tuoi documenti in Python"
+      content: "Riordina, scambia o rimuovi pagine per personalizzare il layout dei tuoi documenti con GroupDocs.Merger per Python. Adatta i tuoi file per soddisfare requisiti specifici, offrendo una flessibilità senza pari nella creazione di strutture documentali su misura."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Indipendenza dalla piattaforma"
+  description: "GroupDocs.Merger per Python è progettato per funzionare senza problemi su più sistemi operativi, framework e gestori di pacchetti, offrendo versatilità e compatibilità per il tuo ambiente di sviluppo."
   items:
     # platform loop
     - title: "Amazon"
@@ -121,14 +121,14 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Formati di file supportati"
   description: |
-    {formats.description}
+    GroupDocs.Merger per Python tramite .NET consente operazioni fluide con una varietà di [formati di file](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), garantendo flessibilità nelle tue attività di gestione documentale.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
+        ### Formati Microsoft Office
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -136,118 +136,118 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        ### Documenti e immagini
+        * **Documenti:** PDF, XPS, TEX
+        * **Immagini:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
         * **eBook:** EPUB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        ### Altri formati
+        * **Web:**  HTML, MHTML, MHT
+        * **Archivi:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{features.title}"
-  description: "{features.description}"
+  title: "Caratteristiche principali di GroupDocs.Merger per {{ProgLang}}"
+  description: "Semplifica la gestione dei documenti unendo, dividendo e modificando file PDF e Office senza soluzione di continuità con GroupDocs.Merger in un ambiente {{ProgLang}}."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Combinazione senza interruzioni dei documenti"
+      content: "Combina più documenti in uno selezionando pagine specifiche o intervalli da vari file utilizzando GroupDocs.Merger per {{ProgLang}}."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Capacità di suddivisione dei documenti"
+      content: "Dividi grandi documenti in file più piccoli e gestibili con gli strumenti di suddivisione avanzati forniti da GroupDocs.Merger per {{ProgLang}}."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Movimento efficiente delle pagine"
+      content: "Reimposta le pagine all'interno di un documento per soddisfare le tue esigenze utilizzando la funzione intuitiva MovePage in {{ProgLang}}."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Opzioni di rimozione delle pagine"
+      content: "Rimuovi facilmente pagine inutili o numeri di pagina specifici con la funzione RemovePages in GroupDocs.Merger per {{ProgLang}}."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Funzionalità di rotazione delle pagine"
+      content: "Ruota le pagine di 90, 180 o 270 gradi con l'operazione semplice RotatePages."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Funzione di scambio delle pagine"
+      content: "Riorganizza il tuo documento scambiando le posizioni delle pagine utilizzando la funzione SwapPages in GroupDocs.Merger per {{ProgLang}}."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "Estrazione selettiva delle pagine"
+      content: "Estrai pagine specifiche o intervalli per creare un nuovo documento, concentrandoti solo sul contenuto necessario con GroupDocs.Merger per {{ProgLang}}."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Strumento di alterazione dell'orientamento"
+      content: "Cambia l'orientamento delle pagine da verticale a orizzontale o viceversa utilizzando la funzione ChangeOrientation nei tuoi progetti {{ProgLang}}."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Anteprime delle pagine del documento"
+      content: "Genera anteprime delle immagini delle pagine del documento per rivedere il loro contenuto e layout con la funzione PreviewPages in {{ProgLang}}."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Esempi di codice"
+  description: "Scopri casi d'uso comuni per GroupDocs.Merger in {{ProgLang}}. Questi esempi mostrano come unire e dividere documenti in modo efficiente utilizzando GroupDocs.Merger per {{ProgLang}}."
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Unisci più file DOCX in un unico documento in {{ProgLang}}"
       content: |
-        {code_samples.sample_1.content_1} {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        GroupDocs.Merger per {{ProgLang}} ti consente di combinare più file DOCX in un unico documento. Con la funzionalità [Unisci documenti Word](https://docs.groupdocs.com/merger/python-net/merge/word/), puoi semplificare la gestione dei documenti e migliorare la produttività. Di seguito è riportato un frammento di codice {{ProgLang}} che dimostra il processo di unione:
+        {{< landing/code title="Esempio: Unire file DOCX in {{ProgLang}}">}}
         ```python {style=abap}   
         import groupdocs.merger as gm
 
         def run():
 
-            # {code_samples.sample_1.comment_1}
+            # Carica il primo file DOCX
             with gm.Merger("sample1.docx") as merger:
 
-                # {code_samples.sample_1.comment_2}
+                # Aggiungi altri file DOCX da unire
                 merger.join("sample2.docx")
 
-                # {code_samples.sample_1.comment_3}
+                # Unisci i file DOCX e salva il risultato
                 merger.save("merged.docx")
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Dividi un documento PDF in più file in {{ProgLang}}"
       content: |
-        {code_samples.sample_2.content_1} {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title}">}}
+        Con GroupDocs.Merger per {{ProgLang}}, puoi dividere documenti PDF di grandi dimensioni in file più piccoli senza sforzo. La funzionalità [Dividi documento](https://docs.groupdocs.com/merger/python-net/split-document/) consente di estrarre pagine specifiche in base a criteri come intervallo di pagine, pagine di inizio/fine o pagine dispari/e pari. Questa funzionalità aiuta a organizzare documenti di grandi dimensioni suddividendoli in file più piccoli e gestibili.
+        {{< landing/code title="Come dividere un PDF in file separati in {{ProgLang}}">}}
         ```python {style=abap}   
         import groupdocs.merger as gm
 
         def run():
 
-            # {code_samples.sample_2.comment_1}
+            # Usa GroupDocs.Merger per {{ProgLang}} per dividere il file PDF
             filePath = "input.pdf"
             filePathOut = "output.pdf"
 
-            # {code_samples.sample_2.comment_2}
+            # Definisci SplitOptions con il formato di output desiderato
             splitOptions = gm.domain.options.SplitOptions(filePathOut, [ 3, 6, 8 ])
 
-            # {code_samples.sample_2.comment_3}
+            # Inizializza il Merger con il documento PDF di input
             with gm.Merger(filePath) as merger:
 
-                # {code_samples.sample_2.comment_4}
+                # Chiama il metodo di divisione con l'oggetto SplitOptions per generare file separati
                 merger.split(splitOptions)
         ```
         {{< /landing/code >}}

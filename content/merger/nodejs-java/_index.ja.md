@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:03
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,67 +26,67 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "Node.js ドキュメントマージ API | マージ PDF Word Excel"
-head_description: "Node.js の API をマージするドキュメントです。PDF、マイクロソフト Word、Excel、プレゼンテーション、Visio、XPS、EPUB 形式のページの結合、分割、入れ替え、並べ替え、および削除を行います。"
+head_title: "Node.js ドキュメントマージング API | PDF、Word、Excel のマージ"
+head_description: "ドキュメントをマージするための Node.js API。PDF、Microsoft Word、Excel、PowerPoint、Visio、XPS、および EPUB ファイルからページをマージ、分割、スワップ、順序変更、削除します。"
 
 ############################# Header ############################
-title: "文書を結合<br>Node.js API 経由"
-description: "PDF 文書と Office 文書を簡単に結合、分割、または変更できる柔軟な合併API"
+title: "ドキュメントをマージ<br>Node.js API を使用して"
+description: "PDF と Office ドキュメントを結合、分割、編集するための柔軟な API です。"
 words:
-  for: "にとって"
+  for: "用"
 
 actions:
-  main: "NPMの無料ダウンロード"
+  main: "NPM の無料ダウンロード"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
-  alt: "ライセンス"
+  alt: "ライセンス取得"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java"
-  title: "始める準備はできましたか?"
-  description: "GroupDocs.Merger の機能を無料で試すか、ライセンスをリクエストしてください"
+  title: "始める準備はできましたか？"
+  description: "GroupDocs.Merger を無料で試すか、ライセンスをリクエストしてください"
 
 release:
-  title: "バージョン {0} がリリースされました"
-  notes: "新機能を見る"
+  title: "バージョン {0} リリース"
+  notes: "最新の更新情報をチェックしてください"
   downloads: "ダウンロード"
 
 code:
-  title: "PDF ファイルを Java 経由で Node.js にマージ"
-  more: "その他の例"
+  title: "Javaを介してNode.jsでPDFファイルを統合する"
+  more: "他の例"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.merger"
   content: |
     ```javascript {style=abap}   
-    // ソース PDF ファイルをロードします
+    // 元のPDFファイルを読み込む
     const merger = new Merger("sample1.pdf");
     
-    //  マージする別の PDF ファイルを追加
+    // 統合するために別のPDFファイルを追加する
     merger.join("sample2.pdf");
 
-    // PDF ファイルをマージして結果を保存
+    // PDFファイルを統合し、出力を保存する
     merger.save("merged.pdf");
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Node.js の GroupDocs.Merger の概要"
-  description: "Node.js アプリケーションのドキュメント、スライド、図を結合、分割、再配置、調整するための包括的な API。"
+  title: "GroupDocs.Merger for Node.jsの概要"
+  description: "Node.jsアプリケーションで文書、スライド、図をマージ、分割、再配置、洗練するための強力なAPIです。"
   features:
     # feature loop
-    - title: "Node.js でドキュメントを簡単に結合"
-      content: "GroupDocs.Merger for Node.js を利用すると、PDF ドキュメントと Office ドキュメントを簡単に統合ファイルにまとめることができます。このライブラリは幅広い形式のサポートを拡張し、異なるファイルタイプのスムーズな統合と結合を可能にし、Node.js アプリケーションのドキュメント管理プロセスを強化します。"
+    - title: "Node.jsで文書を簡単にマージ"
+      content: "GroupDocs.Merger for Node.jsを使用して、PDFおよびOffice文書を容易に1つのファイルに統合します。広範なフォーマットサポートにより、このライブラリはさまざまなファイルタイプの統合とマージをシームレスに実現し、Node.jsアプリケーションでの文書管理を効率化します。"
 
     # feature loop
-    - title: "大きなファイルをセグメント化して文書処理を簡素化"
-      content: "GroupDocs.Merger for Node.js を使用すると、大量の PDF ファイルまたは Office ファイルをより管理しやすい部分に簡単に分割できます。特定のページ、範囲、または個々のページの抽出に基づいて文書を分割することで文書をカスタマイズできるため、文書ワークフローの整理と効率が向上します。"
+    - title: "大きなファイルをセグメント化して文書処理を単純化"
+      content: "GroupDocs.Merger for Node.jsを活用して、大きなPDFまたはOfficeファイルをより管理しやすい小さなセクションに効率的に分割します。特定のページ、範囲に基づいて文書を分割したり、個別のページを抽出することで、整理や作業効率を向上させます。"
 
     # feature loop
-    - title: "Node.js で文書の構造を完全に制御できます"
-      content: "GroupDocs.Merger for Node.js を使用してページを簡単に再配置、交換、または破棄することで、文書のレイアウトを再定義できます。独自のニーズに合わせて文書を調整できるため、カスタムファイル構成を他に類を見ない柔軟性が得られます。"
+    - title: "Node.jsで文書の構造を完全に制御"
+      content: "GroupDocs.Merger for Node.jsを使って、ページを簡単に再配置、入れ替え、または削除して文書レイアウトをカスタマイズします。特定の要件に合わせてファイルを調整し、自分専用の文書構造を作成するための比類のない柔軟性を提供します。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "プラットフォーム独立性"
-  description: "GroupDocs.Merger for Node.js は、以下のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています"
+  title: "プラットフォームの独立性"
+  description: "GroupDocs.Merger for Node.jsは、さまざまなオペレーティングシステム、フレームワーク、およびパッケージマネージャーでシームレスに動作するように設計されており、開発ニーズに対する柔軟性と互換性を確保します。"
   items:
     # platform loop
     - title: "Amazon"
@@ -117,14 +117,14 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "対応ファイル形式"
+  title: "サポートされているファイル形式"
   description: |
-    Java 経由の Node.js の GroupDocs.Merger は、次の [ファイル形式](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/) での操作をサポートします。
+    GroupDocs.Merger for Node.js via Javaは、さまざまな[ファイル形式](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/)をサポートし、柔軟なドキュメント操作を実現します。
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office フォーマット
+        ### Microsoft Office形式
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -132,7 +132,7 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### ドキュメントと画像
+        ### 文書 & 画像
         * **文書:** PDF, XPS, TEX
         * **画像:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
@@ -140,7 +140,7 @@ formats:
       # group loop
     - color: "red"
       content: |
-        ### その他のフォーマット
+        ### その他の形式
         * **ウェブ:**  HTML, MHTML, MHT
         * **アーカイブ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
@@ -148,92 +148,92 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "Node.js 用の GroupDocs.Merger の主な機能"
-  description: "Node.js 環境で GroupDocs.Merger を使用して、PDF 形式と Office 形式のドキュメントを効率的にマージ、分割、操作できます。"
+  title: "GroupDocs.Merger for Node.jsの主要機能"
+  description: "Node.js環境でGroupDocs.Mergerを使用して、PDFおよびOffice形式の文書を簡単に結合、分割、管理します。"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "シームレスなドキュメントコンビネーション"
-      content: "GroupDocs.Merger for Node.js を使用して、さまざまなファイルの特定のページまたは範囲を組み合わせることにより、複数の文書を 1 つに簡単に結合できます。"
+      title: "シームレスな文書結合"
+      content: "GroupDocs.Merger for Node.jsを使用して、異なるソースから特定のページや範囲を選択することにより、複数の文書を1つのファイルに結合します。"
 
     # feature loop
     - icon: "split"
       title: "文書分割機能"
-      content: "GroupDocs.Merger for Node.js の包括的な分割機能を活用して、1 つの文書を複数の小さなファイルに分割し、管理と整理を容易にします。"
+      content: "GroupDocs.Merger for Node.jsが提供する高度な分割ツールを使用して、大きな文書をより小さく、管理しやすいファイルに分けます。"
 
     # feature loop
     - icon: "move"
       title: "効率的なページ移動"
-      content: "Node.js 環境の直感的な MovePage 機能を使用して、要件に合わせてドキュメント内のページを再配置できます。"
+      content: "Node.jsでのシームレスな統合を目的としたMovePage機能を使用して、文書内のページを必要に応じて再配置します。"
 
     # feature loop
     - icon: "remove"
       title: "ページ削除オプション"
-      content: "Node.js 用にカスタマイズされた GroupDocs.Merger の RemovePages 機能を使用すると、不要なページや特定のページ番号を簡単に削除できます。"
+      content: "GroupDocs.Merger for Node.jsのRemovePages機能を使用して、不要なページや特定のページ番号を簡単に削除します。"
 
     # feature loop
     - icon: "rotate"
-      title: "ページローテーション機能"
-      content: "簡単な RotatePages 操作を使用して、ドキュメント内のページを目的の向き（90 度、180 度、または 270 度）に回転できます。"
+      title: "ページ回転機能"
+      content: "簡単かつ効果的なRotatePages操作を使用して、ページの向きを90度、180度、または270度に調整します。"
 
     # feature loop
     - icon: "swap"
-      title: "ページスワップ機能"
-      content: "位置を入れ替えてドキュメントのページの順序を変更し、SwapPages機能を使用して再編成されたドキュメントを作成します。"
+      title: "ページ交換機能"
+      content: "GroupDocs.Merger for Node.jsのSwapPages機能を使用して、ページの位置を交換することにより、文書を再編成します。"
 
     # feature loop
     - icon: "extract"
       title: "選択的ページ抽出"
-      content: "選択したページまたはページ範囲から新しい文書を作成し、Node.js に GroupDocs.Merger を使用して必要なコンテンツのみを抽出します。"
+      content: "GroupDocs.Merger for Node.jsを使用して、新しい文書を作成するために特定のページや範囲を抽出し、必要な内容のみに焦点を当てます。"
 
     # feature loop
     - icon: "orientation"
-      title: "方向変更ツール"
-      content: "Node.js プロジェクトの ChangeOrientation 機能を使用して、特定のページまたはすべてのページの向きを縦向きから横向きに、またはその逆に変更できます。"
+      title: "向き変更ツール"
+      content: "Node.jsアプリケーションでChangeOrientation機能を使用して、ページの向きをポートレートからランドスケープに変更することができます。"
 
     # feature loop
     - icon: "preview"
-      title: "ドキュメントページのプレビュー"
-      content: "Node.js の previewPages 機能を使用して、ドキュメントページの画像プレビューを生成して、コンテンツとレイアウトをよりよく理解できるようにします。"
+      title: "文書ページプレビュー"
+      content: "Node.jsでPreviewPages機能を使用して、文書ページの画像プレビューを生成し、その内容とレイアウトを確認します。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "コードサンプル"
-  description: "Node.js 環境に合わせてカスタマイズされた GroupDocs.Merger の一般的なユースケースをご覧ください。これらの例は、Node.js 用の GroupDocs.Merger を使用してドキュメントをマージすることの効率と容易さを示しています。"
+  description: "Node.jsにおけるGroupDocs.Mergerの一般的なユースケースを探ります。これらの例は、Node.js用のGroupDocs.Mergerを使用して文書を効率的にマージおよび分割する方法を示しています。"
   items:
     # code sample loop
-    - title: "Node.js を使用して DOCX ファイルを 1 つのドキュメントに効率的にマージ"
+    - title: "Node.jsで複数のDOCXファイルを1つの文書にマージする"
       content: |
-        GroupDocs.Merger for Node.js を活用して、複数の DOCX ファイルを 1 つの包括的なドキュメントにシームレスにマージできます。当社の [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) 機能を利用してファイルを効率的に結合し、ドキュメント管理と生産性を向上させましょう。 以下に、ドキュメント統合プロセスのガイドとなる Node.js コードスニペットを示します。
-        {{< landing/code title="Node.js 例:DOCX ファイルのマージ">}}
+        Node.js用のGroupDocs.Mergerを使用して、複数のDOCXファイルをシームレスに1つの文書に統合します。[Word文書のマージ](https://docs.groupdocs.com/merger/nodejs-java/merge/word/)機能は、ファイルを効率的にマージすることで文書管理を簡素化します。 以下は、マージプロセスを示すNode.jsのコードスニペットです。
+        {{< landing/code title="例: Node.jsでDOCXファイルをマージする">}}
         ```javascript {style=abap}   
-        // 最初の DOCX ファイルを読み込む
+        // 最初のDOCXファイルをロードする
         const merger = new Merger("sample1.docx");
-        // マージ用に DOCX ファイルを追加
+        // マージする追加のDOCXファイルを追加する
         merger.join("sample2.docx");
-        // マージプロセスを実行し、結合されたドキュメントを保存します
+        // DOCXファイルをマージして出力を保存する
         merger.save("merged.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "PDF ドキュメントを Node.js 内の個々のファイルに分割する"
+    - title: "Node.jsでPDF文書を複数のファイルに分割する"
       content: |
-        Node.js 用の GroupDocs.Merger を使用すると、ドキュメントを複数のファイルに分割するのが簡単になります。当社の [文書分割](https://docs.groupdocs.com/merger/nodejs-java/split-document/) 機能を使用すると、PDF 個のサイズの大きい文書から特定のセクションを効率的に管理および抽出できるため、文書処理がより効果的になります。 この機能は、ページ範囲、開始/終了ページ、奇数/偶数ページ番号などの条件による文書の分割をサポートします。
-        {{< landing/code title="Node.js を使用してドキュメントを別々のファイルに分割する方法">}}
+        Node.js用のGroupDocs.Mergerは、大きなPDF文書を小さなファイルに分割するのを容易にします。[文書を分割](https://docs.groupdocs.com/merger/nodejs-java/split-document/)機能は、ページ範囲、開始/終了ページ、または奇数/偶数ページなどのさまざまな基準に基づいて特定のページを抽出できます。 この機能は、大きな文書をより管理しやすい小さなファイルに分割することで整理を助けます。
+        {{< landing/code title="Node.jsでPDFを別々のファイルに分割する方法">}}
         ```javascript {style=abap}   
-        // まず、Node.js API 用の GroupDocs.Merger を使用して PDF ファイルを分割します
+        // Node.js用のGroupDocs.Mergerを使用してPDFファイルを分割する
         const filePath = "input.pdf";
         const filePathOut = "output.pdf";
 
-        // 出力ファイルのフォーマットで SplitOptions クラスを設定します
+        // 希望の出力形式を持つSplitOptionsを定義する
         const splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // PDF ドキュメントを分割してマージを初期化します
+        // 入力PDF文書でMergerを初期化する
         const merger = new Merger(filePath);
 
-        // splitOptions オブジェクトで split メソッドを呼び出して、結果のドキュメントを取得します。
+        // SplitOptionsオブジェクトを使用して分割メソッドを呼び出し、別々のファイルを生成する
         merger.split(splitOptions);
   
         ```

@@ -1,12 +1,42 @@
 {
   "features": {
     "title": "Fitur Utama GroupDocs.Merger untuk Node.js",
-    "description": "Gabungkan, pisahkan, dan kelola dokumen dalam format PDF dan Office dengan GroupDocs.Merger di lingkungan Node.js.",
+    "description": "Menggabungkan, membagi, dan mengelola dokumen dalam format PDF dan Office dengan GroupDocs.Merger di lingkungan Node.js.",
     "feature_1": {
       "title": "Penggabungan dokumen yang mulus",
-      "content": "Gabungkan beberapa dokumen menjadi satu file dengan memilih halaman tertentu atau rentang dari berbagai sumber menggunakan GroupDocs.Merger untuk Node.js."
+      "content": "Gabungkan beberapa dokumen menjadi satu file dengan memilih halaman atau rentang tertentu dari berbagai sumber menggunakan GroupDocs.Merger untuk Node.js."
     },
     "feature_2": {
       "title": "Kemampuan pemisahan dokumen",
-      "content": "Pecah dokumen besar menjadi file-file kecil yang lebih mudah dikelola dengan alat pemisahan canggih yang disediakan oleh GroupDocs.Merger untuk Node.js."
+      "content": "Pisahkan dokumen besar menjadi file yang lebih kecil dan lebih mudah dikelola dengan alat pemisahan canggih yang disediakan oleh GroupDocs.Merger untuk Node.js."
+    },
+    "feature_3": {
+      "title": "Pergerakan halaman yang efisien",
+      "content": "Susun ulang halaman dalam dokumen sesuai kebutuhan Anda menggunakan fitur MovePage, dirancang untuk integrasi yang mulus di Node.js."
+    },
+    "feature_4": {
+      "title": "Opsi penghapusan halaman",
+      "content": "Hilangkan halaman yang tidak diinginkan atau nomor halaman tertentu dengan mudah menggunakan fitur RemovePages dalam GroupDocs.Merger untuk Node.js."
+    },
+    "feature_5": {
+      "title": "Fungsi rotasi halaman",
+      "content": "Atur orientasi halaman menjadi 90, 180, atau 270 derajat dengan operasi RotatePages yang sederhana namun efektif."
+    },
+    "feature_6": {
+      "title": "Fitur pertukaran halaman",
+      "content": "Atur ulang dokumen Anda dengan menukar posisi halaman menggunakan fungsi SwapPages dalam GroupDocs.Merger untuk Node.js."
+    },
+    "feature_7": {
+      "title": "Ekstraksi halaman selektif",
+      "content": "Ekstrak halaman tertentu atau rentang untuk membuat dokumen baru, dengan fokus hanya pada konten yang Anda butuhkan menggunakan GroupDocs.Merger untuk Node.js."
+    },
+    "feature_8": {
+      "title": "Alat perubahan orientasi",
+      "content": "Ubah orientasi halaman dari potret ke lanskap atau sebaliknya menggunakan fitur ChangeOrientation dalam aplikasi Node.js Anda."
+    },
+    "feature_9": {
+      "title": "Pratampilan halaman dokumen",
+      "content": "Hasilkan pratinjau gambar halaman dokumen untuk meninjau konten dan tata letaknya menggunakan fitur PreviewPages di Node.js."
     }
+  }
+}

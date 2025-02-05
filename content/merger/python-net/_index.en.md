@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:02
+date: 2025-02-05T07:59:06
 draft: false
 
 product: "Merger"
@@ -26,30 +26,30 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "Node.js Document Merging API | merge PDF Word Excel"
-head_description: "Documents merging API for Node.js. Merge, split, swap, reorder and delete pages of PDF, Microsoft Word, Excel, presentations, Visio, XPS & EPUB formats."
+head_title: "Python document merging API | merge PDF, Word, Excel"
+head_description: "Python API for document merging. Easily merge, split, swap, reorder, and remove pages from PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, and EPUB files."
 
 ############################# Header ############################
-title: "Merge documents<br>via Node.js API"
-description: "Flexible Merger API to easily combine, split, or modify PDF and Office Documents"
+title: "Merge documents<br>using Python API"
+description: "A powerful API for merging, splitting, and modifying PDF and Office files."
 words:
   for: "for"
 
 actions:
-  main: "Free NPM Download"
+  main: "Free PyPi download"
   main_link: "https://releases.groupdocs.com/merger/python-net/"
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/python-net"
   title: "Ready to get started?"
-  description: "Try GroupDocs.Merger features for free or request a license"
+  description: "Test GroupDocs.Merger for free or get a license."
 
 release:
   title: "Version {0} released"
-  notes: "See what’s new"
+  notes: "Discover what's new"
   downloads: "Downloads"
 
 code:
-  title: "Merge PDF files in Node.js via Java"
+  title: "Merge PDF files in Python via .NET"
   more: "More examples"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Python-via-.NET/"
   install: "pip install groupdocs-merger-net"
@@ -59,38 +59,38 @@ code:
 
     def run():
 
-        # Load the source PDF file
+        # Load the original PDF file
         with gm.Merger("sample1.pdf") as merger:
     
-            #  Add another PDF file to merge
+            # Add another PDF file for merging
             merger.join("sample2.pdf")
 
-            # Merge PDF files and save result
+            # Combine the PDF files and save the output
             merger.save("merged.pdf")
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Overview of GroupDocs.Merger for Node.js"
-  description: "Comprehensive API for merging, splitting, rearranging, and refining documents, slides, and diagrams in Node.js applications."
+  title: "Overview of GroupDocs.Merger for Python"
+  description: "A versatile API for merging, splitting, rearranging, and refining documents, slides, and diagrams in Python applications."
   features:
     # feature loop
-    - title: "Merge Documents with Ease in Node.js"
-      content: "Utilize GroupDocs.Merger for Node.js to effortlessly combine PDF and Office documents into a unified file. This library extends broad format support, enabling the smooth integration and merging of different file types, thereby enhancing the document management process in Node.js applications."
+    - title: "Merge documents with ease in Python"
+      content: "Effortlessly combine PDF and Office documents into a single file using GroupDocs.Merger for Python. With extensive format support, this library ensures seamless integration and merging of various file types, simplifying document management in Python applications."
 
     # feature loop
-    - title: "Simplify Document Handling by Segmenting Large Files"
-      content: "With GroupDocs.Merger for Node.js, you can easily split substantial PDF or Office files into more manageable pieces. Tailor your documents by dividing them based on specific pages, ranges, or individual page extraction, enhancing the organization and efficiency of your document workflows."
+    - title: "Simplify document handling by segmenting large files"
+      content: "Easily split large PDF or Office files into smaller, more manageable sections with GroupDocs.Merger for Python. Customize your documents by dividing them based on specific pages, ranges, or extracting individual pages, improving organization and workflow efficiency."
 
     # feature loop
-    - title: "Gain Full Control Over Your Document's Structure in Node.js"
-      content: "Redefine your document's layout by effortlessly rearranging, exchanging, or discarding pages using GroupDocs.Merger for Node.js. Adapt your documents to meet unique needs, providing unmatched flexibility in constructing a custom file configuration."
+    - title: "Gain full control over your document's structure in Python"
+      content: "Easily rearrange, swap, or remove pages to customize your document layout using GroupDocs.Merger for Python. Adapt your files to meet specific requirements, offering unmatched flexibility in creating tailored document structures."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Merger for Node.js supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Merger for Python is built to operate smoothly across multiple operating systems, frameworks, and package managers, providing versatility and compatibility for your development environment."
   items:
     # platform loop
     - title: "Amazon"
@@ -123,7 +123,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Merger for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/).
+    GroupDocs.Merger for Python via .NET enables seamless operations with a variety of [file formats](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), ensuring flexibility for your document management tasks.
   groups:
     # group loop
     - color: "green"
@@ -152,102 +152,102 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "Key Features of GroupDocs.Merger for Node.js"
-  description: "Efficiently merge, split, and manipulate documents in PDF and Office formats using GroupDocs.Merger in a Node.js environment."
+  title: "Key Features of GroupDocs.Merger for Python"
+  description: "Simplify document handling by merging, splitting, and editing PDF and Office files seamlessly with GroupDocs.Merger in a Python environment."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "Seamless Document Combination"
-      content: "Easily merge multiple documents into one by combining specific pages or ranges from various files, using the GroupDocs.Merger for Node.js."
+      title: "Seamless document combination"
+      content: "Combine multiple documents into one by selecting specific pages or ranges from various files using GroupDocs.Merger for Python."
 
     # feature loop
     - icon: "split"
-      title: "Document Splitting Capabilities"
-      content: "Split a single document into several smaller files for better management and organization, utilizing the comprehensive split feature of GroupDocs.Merger for Node.js."
+      title: "Document splitting capabilities"
+      content: "Divide large documents into smaller, more manageable files with the advanced splitting tools provided by GroupDocs.Merger for Python."
 
     # feature loop
     - icon: "move"
-      title: "Efficient Page Movement"
-      content: "Reposition pages within a document to suit your requirements by using the intuitive MovePage feature in the Node.js environment."
+      title: "Efficient page movement"
+      content: "Reposition pages within a document to meet your needs using the intuitive MovePage feature in Python."
 
     # feature loop
     - icon: "remove"
-      title: "Page Removal Options"
-      content: "Remove unnecessary pages or specific page numbers easily with the GroupDocs.Merger's RemovePages feature tailored for Node.js."
+      title: "Page removal options"
+      content: "Easily remove unnecessary pages or specific page numbers with the RemovePages feature in GroupDocs.Merger for Python."
 
     # feature loop
     - icon: "rotate"
-      title: "Page Rotation Functionality"
-      content: "Rotate pages within a document to the desired orientation—90, 180, or 270 degrees—using the straightforward RotatePages operation."
+      title: "Page rotation functionality"
+      content: "Rotate pages to 90, 180, or 270 degrees with the straightforward RotatePages operation."
 
     # feature loop
     - icon: "swap"
-      title: "Page Swapping Feature"
-      content: "Modify the order of your document's pages by swapping their positions, thus creating a reorganized document with the SwapPages function."
+      title: "Page swapping feature"
+      content: "Reorganize your document by swapping the positions of pages using the SwapPages function in GroupDocs.Merger for Python."
 
     # feature loop
     - icon: "extract"
-      title: "Selective Page Extraction"
-      content: "Create a new document from selected pages or page ranges, extracting only the necessary content with GroupDocs.Merger for Node.js."
+      title: "Selective page extraction"
+      content: "Extract specific pages or ranges to create a new document, focusing only on the content you need with GroupDocs.Merger for Python."
 
     # feature loop
     - icon: "orientation"
-      title: "Orientation Alteration Tool"
-      content: "Change the orientation of specific or all pages from portrait to landscape or vice versa, employing the ChangeOrientation feature in your Node.js projects."
+      title: "Orientation alteration tool"
+      content: "Change the orientation of pages from portrait to landscape or vice versa using the ChangeOrientation feature in your Python projects."
 
     # feature loop
     - icon: "preview"
-      title: "Document Page Previews"
-      content: "Generate image previews of document pages to better understand their content and layout, using the PreviewPages feature within Node.js."
+      title: "Document page previews"
+      content: "Generate image previews of document pages to review their content and layout with the PreviewPages feature in Python."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Code Samples"
-  description: "Explore typical use cases for GroupDocs.Merger tailored to Node.js environments. These examples demonstrate the efficiency and ease of merging documents using the GroupDocs.Merger for Node.js."
+  title: "Code samples"
+  description: "Discover common use cases for GroupDocs.Merger in Python. These examples show how to efficiently merge and split documents using GroupDocs.Merger for Python."
   items:
     # code sample loop
-    - title: "Efficiently Merge DOCX Files into One Document Using Node.js"
+    - title: "Merge multiple DOCX files into one document in Python"
       content: |
-        Leverage the GroupDocs.Merger for Node.js to seamlessly merge multiple DOCX files into a single comprehensive document. Utilize our [Merge Word Documents](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) feature to efficiently combine files, enhancing document management and productivity. Below, find a Node.js code snippet to guide you through the document merge process:
-        {{< landing/code title="Node.js Example: Merging DOCX Files">}}
+        GroupDocs.Merger for Python lets you easily combine multiple DOCX files into a single document. With the [Merge Word Documents](https://docs.groupdocs.com/merger/python-net/merge/word/) feature, you can streamline document management and improve productivity. Below is a Python code snippet demonstrating the merging process:
+        {{< landing/code title="Example: Merging DOCX files in Python">}}
         ```python {style=abap}   
         import groupdocs.merger as gm
 
         def run():
 
-            # Load the initial DOCX file
+            # Load the first DOCX file
             with gm.Merger("sample1.docx") as merger:
 
-                # Append additional DOCX files for merging
+                # Add more DOCX files to merge
                 merger.join("sample2.docx")
 
-                # Execute the merge process and save the combined document
+                # Merge the DOCX files and save the result
                 merger.save("merged.docx")
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Split a PDF Document into Individual Files in Node.js"
+    - title: "Split a PDF document into multiple files in Python"
       content: |
-        With GroupDocs.Merger for Node.js, splitting a document into multiple files is streamlined. Our [Split Document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) feature allows for efficient management and extraction of specific sections from large PDF documents, making your document handling more effective. This feature supports splitting documents by page range, start/end pages, or odd/even page numbers, among other criteria.
-        {{< landing/code title="How to Split Documents into Separate Files with Node.js">}}
+        With GroupDocs.Merger for Python, you can split large PDF documents into smaller files effortlessly. The [Split Document](https://docs.groupdocs.com/merger/python-net/split-document/) feature allows you to extract specific pages based on criteria such as page range, start/end pages, or odd/even pages. This feature helps organize large documents by breaking them into smaller, more manageable files.
+        {{< landing/code title="How to split a PDF into separate files in Python">}}
         ```python {style=abap}   
         import groupdocs.merger as gm
 
         def run():
 
-            # Begin by splitting the PDF file using GroupDocs.Merger for Node.js API
+            # Use GroupDocs.Merger for Python to split the PDF file
             filePath = "input.pdf"
             filePathOut = "output.pdf"
 
-            # Set up SplitOptions class with the format for output files
+            # Define SplitOptions with the desired output format
             splitOptions = gm.domain.options.SplitOptions(filePathOut, [ 3, 6, 8 ])
 
-            # Initialize Merger with the PDF document to be split
+            # Initialize the Merger with the input PDF document
             with gm.Merger(filePath) as merger:
 
-                # Invoke the split method with the SplitOptions object to obtain the resulting documents
+                # Call the split method with the SplitOptions object to generate separate files
                 merger.split(splitOptions)
         ```
         {{< /landing/code >}}

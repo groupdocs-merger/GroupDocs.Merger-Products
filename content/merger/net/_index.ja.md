@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:03
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,68 +26,68 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "C# .NET ドキュメント結合 API | PDF Word Excel EPUBの結合と分割"
-head_description: "PDF、Microsoft Word、Excel、プレゼンテーション、Visio、および画像形式からドキュメント ページを結合、分割、交換、または削除するための C# .NET ドキュメント結合 API。"
+head_title: "C# .NET ドキュメントマージングAPI | PDF、Word、Excel、EPUBを結合・分割"
+head_description: "ドキュメントをマージするためのC# .NET API。PDF、Microsoft Word、Excel、PowerPoint、Visio、および画像ファイルのページを結合、分割、交換、または削除します。"
 
 ############################# Header ############################
-title: "文書を結合する<br>.NET API経由"
-description: "PDF、Microsoft Office、HTML、画像ファイルを操作するための強力な結合 API。"
+title: "ドキュメントをマージ<br>via .NET API"
+description: "PDF、Office、HTML、画像ファイルの統合、分割、管理のための強力なAPI。"
 words:
-  for: "ために"
+  for: "のため"
 
 actions:
-  main: "無料の NuGet ダウンロード"
+  main: "無料NuGetダウンロード"
   main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
   alt: "ライセンス"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
-  title: "始める準備はできていますか?"
-  description: "GroupDocs.Merger の機能を無料で試すか、ライセンスをリクエストしてください"
+  title: "始める準備はできましたか？"
+  description: "GroupDocs.Mergerを無料で試しますか、それともライセンスをリクエストしますか"
 
 release:
   title: "バージョン {0} がリリースされました"
-  notes: "新機能を見る"
+  notes: "新機能を確認"
   downloads: "ダウンロード"
 
 code:
-  title: "C# で PDF ファイルを結合する"
+  title: "C#でPDFファイルを結合する"
   more: "他の例"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
   install: "dotnet add package GroupDocs.Merger"
   content: |
     ```csharp {style=abap}   
-    // ソース PDF ファイルをロードします
+    // ソースPDFファイルを開く
     using (Merger merger = new Merger(@"c:\sample1.pdf"))
     {
-      // 結合する別の PDF ファイルを追加します
+      // 結合するために別のPDFファイルを追加する
       merger.Join(@"c:\sample2.pdf");
 
-      // PDF ファイルを結合して結果を保存する
+      // PDFファイルを統合して出力を保存する
       merger.Save(@"c:\merged.pdf");
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Merger の概要"
-  description: ".NET アプリケーションでドキュメント、スライド、図を結合、分割、交換、トリミングまたは削除するための API"
+  title: "GroupDocs.Mergerの概要"
+  description: ".NETアプリケーションで文書、スライド、図を結合、分割、交換、トリミング、または削除するためのAPIです。"
   features:
     # feature loop
-    - title: "C# で複数のドキュメントを簡単にマージ"
-      content: "ドキュメントの結合: 幅広い形式をサポートし、複数の PDF および Office ファイルを 1 つのドキュメントにシームレスに結合します。 GroupDocs.Merger for .NET を使用すると、ドキュメントを迅速かつ手間なく結合できます。"
+    - title: "C#で複数の文書を簡単に結合"
+      content: "GroupDocs.Merger for .NETを使用して、複数のPDFおよびOfficeファイルを単一の文書に結合できます。幅広いフォーマットに対応しているため、文書の結合は迅速かつ簡単です。"
 
     # feature loop
-    - title: "大きなファイルを分割して文書管理を簡素化する"
-      content: "大きな PDF または Office ファイルを、より小さく管理しやすい部分に簡単に分割します。 GroupDocs.Merger for .NET を使用すると、特定のページや範囲に基づいてドキュメントを分割したり、個々のページを簡単に抽出したりできます。"
+    - title: "大きなファイルを分割して文書管理を簡素化"
+      content: "大きなPDFやOfficeファイルをより管理しやすい小さなセクションに分割します。GroupDocs.Merger for .NETを使用すると、特定のページ、範囲で文書を分割したり、個々のページを抽出したりできます。"
 
     # feature loop
-    - title: "ページを操作し、ドキュメント構造をカスタマイズ - 並べ替え、入れ替え、または削除"
-      content: "ページを並べ替えたり、不要なページを削除したり、新しいページを追加したりして、ドキュメントを管理します。 GroupDocs.Merger for .NET を使用すると、ドキュメント構造を操作できるようになり、特定のニーズに応じてファイルをカスタマイズおよび調整できるようになります。"
+    - title: "ページを操作し、文書の構造をカスタマイズ - 再配置、交換、または削除"
+      content: "文書のページを再配置、交換、または削除することで、完全な制御を得ることができます。GroupDocs.Merger for .NETは、特定の要件に合わせて文書の構造をカスタマイズする柔軟性を提供します。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "プラットフォームの独立性"
-  description: "GroupDocs.Merger for .NET は、次のオペレーティング システム、フレームワーク、およびパッケージ マネージャーをサポートします。"
+  description: "GroupDocs.Merger for .NETは、複数のオペレーティングシステム、フレームワーク、パッケージマネージャーでスムーズに動作するように設計されており、開発環境における柔軟性と互換性を提供します。"
   items:
     # platform loop
     - title: "Amazon"
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "サポートされているファイル形式"
   description: |
-    GroupDocs.Merger for .NET は、次の [ドキュメント ファイル形式](https://docs.groupdocs.com/merger/net/supported-document-formats/) での操作をサポートします。
+    GroupDocs.Merger for .NETは、さまざまな[ファイル形式](https://docs.groupdocs.com/merger/net/supported-document-formats/)を扱うことができ、文書処理ニーズに対する柔軟性を提供します。
   groups:
     # group loop
     - color: "green"
@@ -133,7 +133,7 @@ formats:
     - color: "blue"
       content: |
         ### 文書と画像
-        * **書類:** PDF, XPS, TEX
+        * **文書:** PDF, XPS, TEX
         * **画像:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
         * **eBook:** EPUB
@@ -149,95 +149,95 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Merger の機能"
-  description: "PDF と Office ドキュメントをシームレスに結合、分割、操作します"
+  description: "PDFおよびOffice文書の結合、分割、管理を行います。"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "ファイルを結合する"
-      content: "複数のソース ドキュメントの特定のページまたはページ範囲を結合して、2 つ以上のドキュメントを 1 つのドキュメントに結合します。"
+      title: "ファイルの結合"
+      content: "複数の文書を1つに結合し、異なるソースから全体のファイルまたは特定のページを統合します。"
 
     # feature loop
     - icon: "split"
-      title: "文書を分割する"
-      content: "分割操作を使用して、ソースドキュメントを複数の結果ドキュメントに分割します。"
+      title: "文書の分割"
+      content: "文書を複数の小さなファイルに分解し、より良い整理と管理を実現します。"
 
     # feature loop
     - icon: "move"
       title: "ページの移動"
-      content: "MovePage 機能を使用して、ドキュメント内のページの位置を変更します。"
+      content: "文書内のページの順序を変更し、新しい位置に移動します。"
 
     # feature loop
     - icon: "remove"
-      title: "ページを削除する"
-      content: "ソース文書から個々のページまたは特定のページ番号の集合を削除します。"
+      title: "ページの削除"
+      content: "文書から特定のページや複数選択したページを削除します。"
 
     # feature loop
     - icon: "rotate"
-      title: "ページを回転する"
-      content: "RotatePages 操作を使用して回転角度を 90、180、または 270 度に設定し、文書内のページを回転します。"
+      title: "ページの回転"
+      content: "必要に応じて、文書内のページを90、180、または270度回転させます。"
 
     # feature loop
     - icon: "swap"
-      title: "ページを交換する"
-      content: "ソース文書内の 2 つのページの位置を交換し、ページ位置を交換した新しい文書を作成します。"
+      title: "ページの入れ替え"
+      content: "文書内の2つのページの位置を入れ替え、整理を改善します。"
 
     # feature loop
     - icon: "extract"
       title: "ページの抽出"
-      content: "ソースドキュメントから特定のページまたはページ範囲を抽出し、選択したページのみを含む新しいドキュメントを生成します。"
+      content: "特定のページやページ範囲を選択して抽出し、新しい文書を作成します。"
 
     # feature loop
     - icon: "orientation"
-      title: "方向を変更する"
-      content: "ChangeOrientation 操作を使用して、ドキュメントの特定のページまたはすべてのページのページの向き (縦または横) を設定します。"
+      title: "向きを変更"
+      content: "選択した全てのページまたは特定のページの向きを縦または横に調整します。"
 
     # feature loop
     - icon: "preview"
       title: "ページのプレビュー"
-      content: "コンテンツと構造をよりよく理解するためにドキュメント ページの画像表現を生成します。すべてのページまたは特定のページのみのプレビューを作成します。"
+      content: "文書ページの画像プレビューを生成し、その内容とレイアウトを明確に確認します。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "コードサンプル"
-  description: ".NET 操作の典型的な GroupDocs.Merger の使用例"
+  description: ".NETにおける一般的なGroupDocs.Merger操作の例"
   items:
     # code sample loop
-    - title: "特定の DOCX ファイル ページを 1 つのドキュメントに結合します"
+    - title: "DOCXファイルの特定のページを結合して単一の文書にする"
       content: |
-        [選択的なページの結合](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) 機能を使用すると、各ファイルから必要なコンテンツのみを抽出して結合できます。 C# を使用して選択的なページの結合を実現する方法の例を次に示します。
-        {{< landing/code title="C# で DOCX ファイルをマージする方法">}}
+        [Selective Page Merge](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/)機能を使用すると、複数のDOCXファイルから必要なページのみを抽出して結合できます。 C#を用いた特定ページ結合の方法は次の通りです：
+        {{< landing/code title="C#でDOCXファイルを結合する方法">}}
         ```csharp {style=abap}   
         JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
         
-        // ソースDOCXファイルをロードします
+        // 元のDOCXファイルを読み込む
         using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
         {
-          // マージする別の DOCX ファイルを追加します
+          // 特定のページを含めるために別のDOCXファイルを追加する
           merger.Join(@"c:\sample2.docx", joinOptions);
           
-          // DOCX ファイルをマージし、結果を保存します
+          // 選択したページを結合して出力を保存する
           merger.Save(@"c:\result.docx");
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "PDF ドキュメントを複数のファイルに分割する"
+    - title: "PDF文書を複数のファイルに分割する"
       content: |
-        [ドキュメントの分割](https://docs.groupdocs.com/merger/net/split-document/) 機能を使用すると、ドキュメントを複数のファイルに効率的に分割でき、大きなドキュメントから特定のセクションやページを管理および抽出するプロセスが簡素化されます。 ページ範囲別、開始ページ/終了ページ、奇数/偶数ページ番号など、さまざまな基準に基づいてドキュメントを小さな部分に分割できます。
-        {{< landing/code title="ドキュメントを複数の複数ページのドキュメントに分割する方法">}}
+        [Split Document](https://docs.groupdocs.com/merger/net/split-document/)機能を使用すると、大きなPDFを複数の小さなファイルに分割できます。これは特定のセクションを抽出したり、コンテンツを効率的に整理したりするのに役立ちます。 ページ範囲、特定の開始および終了ページ、奇数/偶数ページ番号など、さまざまな基準に基づいて文書を分割できます。
+        {{< landing/code title="文書を複数のマルチページファイルに分割する方法">}}
         ```csharp {style=abap}   
-        // GroupDocs.Merger API を使用して PDF ファイルを分割する
+        // GroupDocs.Merger APIを使用してPDFファイルを分割する
         int[] splitPages = new int[] { 3, 6, 8 };
         
-        // 出力ファイルのパス形式で SplitOptions クラスを初期化する
+        // 出力ファイル形式を設定するためのSplitOptionsを用意する
         SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
         
-        // 入力 PDF ドキュメントを使用してマージャーをインスタンス化する
+        // Mergerインスタンスを作成し、PDF文書を読み込む
         using (Merger merger = new Merger(@"c:\sample.pdf"))
         {
-          // 分割メソッドを呼び出し、SplitOptions オブジェクトを渡して結果のドキュメントを保存します
+          // SplitOptionsを使用して分割メソッドを呼び出して別々のファイルを生成する
           merger.Split(splitOptions);
         }  
         ```

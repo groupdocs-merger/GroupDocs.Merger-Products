@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:03
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,31 +26,31 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "{head.title}"
-head_description: "{head.description}"
+head_title: "API penggabungan dokumen untuk {{ProgLang}} | gabungkan PDF, Word, Excel"
+head_description: "API {{ProgLang}} untuk penggabungan dokumen. Gabungkan, pisahkan, tukar, urutkan ulang, dan hapus halaman dari file PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, dan EPUB."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "{header.description}"
+title: "Gabungkan dokumen<br>menggunakan API {{ProgLang}}"
+description: "API yang kuat untuk menggabungkan, memisahkan, dan memodifikasi file PDF dan Office."
 words:
-  for: "{header.words.for}"
+  for: "untuk"
 
 actions:
-  main: "{actions.main}"
+  main: "Unduh gratis di PyPi"
   main_link: "https://releases.groupdocs.com/merger/python-net/"
-  alt: "{actions.alt}"
+  alt: "Lisensi"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/python-net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Siap untuk memulai?"
+  description: "Uji GroupDocs.Merger secara gratis atau dapatkan lisensi."
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Versi {0} telah dirilis"
+  notes: "Temukan apa yang baru"
+  downloads: "Unduhan"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Gabungkan berkas PDF menggunakan .NET"
+  more: "Lebih banyak contoh"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Python-via-.NET/"
   install: "pip install groupdocs-merger-net"
   content: |
@@ -59,38 +59,38 @@ code:
 
     def run():
 
-        # {code.comment_1}
+        # Muatan berkas PDF asli
         with gm.Merger("sample1.pdf") as merger:
     
-            # {code.comment_2}
+            # Tambahkan berkas PDF lain untuk digabungkan
             merger.join("sample2.pdf")
 
-            # {code.comment_3}
+            # Gabungkan berkas PDF dan simpan hasilnya
             merger.save("merged.pdf")
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "Ikhtisar GroupDocs.Merger untuk {{ProgLang}}"
+  description: "API serbaguna untuk menggabungkan, membagi, menyusun ulang, dan menyempurnakan dokumen, presentasi, dan diagram dalam aplikasi {{ProgLang}}."
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Gabungkan dokumen dengan lancar di {{ProgLang}}"
+      content: "Dengan GroupDocs.Merger untuk {{ProgLang}}, Anda dapat menggabungkan dokumen PDF dan Office menjadi satu file tanpa kesulitan. Dengan dukungan format yang luas, pustaka ini memastikan integrasi dan penggabungan berbagai jenis file yang mulus, menyederhanakan manajemen dokumen dalam aplikasi {{ProgLang}}."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Sederhanakan penanganan dokumen dengan membagi file besar"
+      content: "Dengan GroupDocs.Merger untuk {{ProgLang}}, Anda dapat dengan mudah membagi file PDF atau Office besar menjadi bagian yang lebih kecil dan lebih mudah dikelola. Sesuaikan dokumen Anda dengan membaginya berdasarkan halaman tertentu, rentang, atau mengekstrak halaman individu, meningkatkan organisasi dan efisiensi alur kerja."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Kendalikan sepenuhnya struktur dokumen Anda di {{ProgLang}}"
+      content: "Dengan GroupDocs.Merger untuk {{ProgLang}}, Anda dapat dengan mudah menyusun ulang, menukar, atau menghapus halaman untuk menyesuaikan tata letak dokumen Anda. Sesuaikan file Anda untuk memenuhi persyaratan spesifik, menawarkan fleksibilitas yang tak tertandingi dalam membuat struktur dokumen yang disesuaikan."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Kemandirian Platform"
+  description: "GroupDocs.Merger untuk {{ProgLang}} dirancang untuk beroperasi dengan lancar di berbagai sistem operasi, kerangka kerja, dan pengelola paket, memberikan fleksibilitas dan kompatibilitas untuk lingkungan pengembangan Anda."
   items:
     # platform loop
     - title: "Amazon"
@@ -121,14 +121,14 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Format File yang Didukung"
   description: |
-    {formats.description}
+    GroupDocs.Merger untuk {{ProgLang}} memungkinkan operasi tanpa hambatan dengan berbagai [format file](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), memastikan fleksibilitas dalam tugas manajemen dokumen Anda.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
+        ### Format Microsoft Office
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -136,118 +136,118 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        ### Dokumen & gambar
+        * **Dokumen:** PDF, XPS, TEX
+        * **Gambar:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
         * **eBook:** EPUB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        ### Format lainnya
+        * **Web:**  HTML, MHTML, MHT
+        * **Arsip:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{features.title}"
-  description: "{features.description}"
+  title: "Fitur Utama GroupDocs.Merger untuk Python"
+  description: "Sederhanakan pengelolaan dokumen dengan menggabungkan, membagi, dan mengedit file PDF dan Office secara mulus dengan GroupDocs.Merger dalam lingkungan Python."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Kombinasi dokumen tanpa batas"
+      content: "Gabungkan beberapa dokumen menjadi satu dengan memilih halaman atau rentang tertentu dari berbagai file menggunakan GroupDocs.Merger untuk Python."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Kemampuan membagi dokumen"
+      content: "Bagi dokumen besar menjadi file yang lebih kecil dan lebih mudah dikelola dengan alat pemisahan canggih yang disediakan oleh GroupDocs.Merger untuk Python."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Pergerakan halaman yang efisien"
+      content: "Pindahkan halaman dalam dokumen sesuai kebutuhan Anda menggunakan fitur MovePage yang intuitif di Python."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Opsi penghapusan halaman"
+      content: "Hapus halaman yang tidak perlu atau nomor halaman tertentu dengan fitur RemovePages di GroupDocs.Merger untuk Python."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Fungsi rotasi halaman"
+      content: "Rotasi halaman hingga 90, 180, atau 270 derajat dengan operasi RotatePages yang sederhana."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Fitur penukaran halaman"
+      content: "Reorganisasi dokumen Anda dengan menukar posisi halaman menggunakan fungsi SwapPages di GroupDocs.Merger untuk Python."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "Ekstraksi halaman selektif"
+      content: "Ekstrak halaman atau rentang tertentu untuk membuat dokumen baru, fokus hanya pada konten yang Anda butuhkan dengan GroupDocs.Merger untuk Python."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Alat perubahan orientasi"
+      content: "Ubah orientasi halaman dari potret ke lanskap atau sebaliknya menggunakan fitur ChangeOrientation dalam proyek Python Anda."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Prabaca halaman dokumen"
+      content: "Hasilkan prabaca gambar dari halaman dokumen untuk meninjau konten dan tata letaknya dengan fitur PreviewPages di Python."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Contoh Kode"
+  description: "Temukan kasus penggunaan umum untuk GroupDocs.Merger dalam Python. Contoh ini menunjukkan cara menggabungkan dan membagi dokumen secara efisien menggunakan GroupDocs.Merger untuk Python."
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Gabungkan beberapa file DOCX menjadi satu dokumen di Python"
       content: |
-        {code_samples.sample_1.content_1} {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        GroupDocs.Merger untuk Python memungkinkan Anda menggabungkan beberapa file DOCX menjadi satu dokumen. Dengan fitur [Gabungkan Dokumen Word](https://docs.groupdocs.com/merger/python-net/merge/word/), Anda dapat menyederhanakan manajemen dokumen dan meningkatkan produktivitas. Berikut adalah cuplikan kode Python yang menunjukkan proses penggabungan:
+        {{< landing/code title="Contoh: Menggabungkan file DOCX di Python">}}
         ```python {style=abap}   
         import groupdocs.merger as gm
 
         def run():
 
-            # {code_samples.sample_1.comment_1}
+            # Muat file DOCX pertama
             with gm.Merger("sample1.docx") as merger:
 
-                # {code_samples.sample_1.comment_2}
+                # Tambahkan lebih banyak file DOCX untuk digabungkan
                 merger.join("sample2.docx")
 
-                # {code_samples.sample_1.comment_3}
+                # Gabungkan file DOCX dan simpan hasilnya
                 merger.save("merged.docx")
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Pecahkan dokumen PDF menjadi beberapa file di Python"
       content: |
-        {code_samples.sample_2.content_1} {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title}">}}
+        Dengan GroupDocs.Merger untuk Python, Anda dapat dengan mudah membagi dokumen PDF besar menjadi file-file yang lebih kecil. Fitur [Pecah Dokumen](https://docs.groupdocs.com/merger/python-net/split-document/) memungkinkan Anda mengekstrak halaman tertentu berdasarkan kriteria seperti rentang halaman, halaman awal/akhir, atau halaman ganjil/genap. Fitur ini membantu mengatur dokumen besar dengan memecahnya menjadi file-file yang lebih kecil dan lebih mudah dikelola.
+        {{< landing/code title="Cara membagi PDF menjadi file terpisah di Python">}}
         ```python {style=abap}   
         import groupdocs.merger as gm
 
         def run():
 
-            # {code_samples.sample_2.comment_1}
+            # Gunakan GroupDocs.Merger untuk Python untuk membagi file PDF
             filePath = "input.pdf"
             filePathOut = "output.pdf"
 
-            # {code_samples.sample_2.comment_2}
+            # Tentukan SplitOptions dengan format output yang diinginkan
             splitOptions = gm.domain.options.SplitOptions(filePathOut, [ 3, 6, 8 ])
 
-            # {code_samples.sample_2.comment_3}
+            # Inisialisasi Merger dengan dokumen PDF masukan
             with gm.Merger(filePath) as merger:
 
-                # {code_samples.sample_2.comment_4}
+                # Panggil metode split dengan objek SplitOptions untuk menghasilkan file terpisah
                 merger.split(splitOptions)
         ```
         {{< /landing/code >}}

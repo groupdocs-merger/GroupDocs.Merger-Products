@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:04
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,67 +26,67 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "API hợp nhất tài liệu Node.js | hợp nhất PDF Word Excel"
-head_description: "Tài liệu hợp nhất API cho Node.js. Hợp nhất, tách, hoán đổi, sắp xếp lại và xóa các trang có định dạng PDF, Microsoft Word, Excel, bản trình bày, Visio, XPS & EPUB."
+head_title: "API hợp nhất tài liệu Node.js | hợp nhất PDF, Word, Excel"
+head_description: "API Node.js để hợp nhất tài liệu. Hợp nhất, tách, hoán đổi, thay đổi thứ tự và xóa các trang từ tài liệu PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS và EPUB."
 
 ############################# Header ############################
-title: "Hợp nhất tài liệu<br>thông qua API Node.js"
-description: "API Hợp nhất linh hoạt để dễ dàng kết hợp, tách hoặc sửa đổi PDF và Tài liệu Office"
+title: "Hợp nhất tài liệu<br>với API Node.js"
+description: "Một API linh hoạt để kết hợp, tách và chỉnh sửa tài liệu PDF và Office."
 words:
   for: "cho"
 
 actions:
-  main: "Tải xuống miễn phí NPM"
+  main: "Tải xuống NPM miễn phí"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
   alt: "Cấp phép"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java"
   title: "Sẵn sàng để bắt đầu?"
-  description: "Dùng thử GroupDocs.Merger tính năng miễn phí hoặc yêu cầu giấy phép"
+  description: "Khám phá GroupDocs.Merger miễn phí hoặc yêu cầu giấy phép"
 
 release:
-  title: "Phiên bản {0} đã phát hành"
-  notes: "Xem những gì mới"
+  title: "Phiên bản {0} đã được phát hành"
+  notes: "Hãy xem các bản cập nhật mới nhất"
   downloads: "Tải xuống"
 
 code:
-  title: "Hợp nhất PDF tệp trong Node.js thông qua Java"
-  more: "Thêm ví dụ"
+  title: "Ghép các tệp PDF trong Node.js qua Java"
+  more: "Nhiều ví dụ hơn"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.merger"
   content: |
     ```javascript {style=abap}   
-    // Tải tập tin nguồn PDF
+    // Tải tệp PDF gốc
     const merger = new Merger("sample1.pdf");
     
-    //  Thêm một tập tin PDF khác để hợp nhất
+    // Thêm một tệp PDF khác để kết hợp
     merger.join("sample2.pdf");
 
-    // Hợp nhất PDF tệp và lưu kết quả
+    // Kết hợp các tệp PDF và lưu đầu ra
     merger.save("merged.pdf");
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Tổng quan về GroupDocs.Merger for Node.js"
-  description: "API toàn diện để hợp nhất, tách, sắp xếp lại và tinh chỉnh tài liệu, trang trình bày và sơ đồ trong các ứng dụng Node.js."
+  title: "Tổng Quan Về GroupDocs.Merger cho Node.js"
+  description: "Một API mạnh mẽ cho việc hợp nhất, chia tách, sắp xếp lại và tinh chỉnh tài liệu, trình chiếu và sơ đồ trong các ứng dụng Node.js."
   features:
     # feature loop
-    - title: "Hợp nhất tài liệu một cách dễ dàng trong Node.js"
-      content: "Sử dụng GroupDocs.Merger cho Node.js để dễ dàng kết hợp PDF và tài liệu Office thành một tệp thống nhất. Thư viện này mở rộng hỗ trợ định dạng rộng, cho phép tích hợp mượt mà và hợp nhất các loại tệp khác nhau, do đó tăng cường quá trình quản lý tài liệu trong các ứng dụng Node.js."
+    - title: "Hợp nhất tài liệu một cách hiệu quả trong Node.js"
+      content: "Kết hợp các tài liệu PDF và Office thành một tệp duy nhất một cách thuận tiện bằng cách sử dụng GroupDocs.Merger cho Node.js. Với hỗ trợ nhiều định dạng, thư viện này đảm bảo tích hợp và hợp nhất các loại tệp khác nhau một cách liền mạch, tối ưu hóa quản lý tài liệu trong các ứng dụng Node.js."
 
     # feature loop
-    - title: "Đơn giản hóa việc xử lý tài liệu bằng cách phân đoạn các tệp lớn"
-      content: "Với GroupDocs.Merger cho Node.js, bạn có thể dễ dàng chia nhỏ các tệp PDF hoặc Office thành các phần dễ quản lý hơn. Điều chỉnh tài liệu của bạn bằng cách chia chúng dựa trên các trang cụ thể, phạm vi hoặc trích xuất trang riêng lẻ, nâng cao tổ chức và hiệu quả của quy trình công việc tài liệu của bạn."
+    - title: "Đơn giản hóa xử lý tài liệu bằng cách chia nhỏ tệp lớn"
+      content: "Chia tách hiệu quả các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn với GroupDocs.Merger cho Node.js. Tùy chỉnh tài liệu của bạn bằng cách chia theo trang cụ thể, phạm vi hoặc trích xuất các trang riêng lẻ, nâng cao tổ chức và hiệu quả quy trình làm việc."
 
     # feature loop
-    - title: "Có được toàn quyền kiểm soát cấu trúc tài liệu của bạn trong Node.js"
-      content: "Xác định lại bố cục tài liệu của bạn bằng cách dễ dàng sắp xếp lại, trao đổi hoặc loại bỏ các trang bằng cách sử dụng GroupDocs.Merger cho Node.js. Điều chỉnh tài liệu của bạn để đáp ứng nhu cầu duy nhất, cung cấp sự linh hoạt chưa từng có trong việc xây dựng cấu hình tệp tùy chỉnh."
+    - title: "Có toàn quyền kiểm soát cấu trúc tài liệu của bạn trong Node.js"
+      content: "Dễ dàng sắp xếp lại, hoán đổi hoặc xóa các trang để tùy chỉnh bố cục tài liệu của bạn bằng GroupDocs.Merger cho Node.js. Thích nghi với các yêu cầu cụ thể, mang đến sự linh hoạt không thể so sánh trong việc tạo ra các cấu trúc tài liệu được tùy chỉnh."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Độc lập nền tảng"
-  description: "GroupDocs.Merger for Node.js hỗ trợ các hệ điều hành, framework và trình quản lý gói sau"
+  description: "GroupDocs.Merger cho Node.js được thiết kế để hoạt động liền mạch trên nhiều hệ điều hành, framework và trình quản lý gói khác nhau, đảm bảo tính linh hoạt và khả năng tương thích cho nhu cầu phát triển của bạn."
   items:
     # platform loop
     - title: "Amazon"
@@ -117,14 +117,14 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "Định dạng tập tin được hỗ trợ"
+  title: "Các định dạng tệp được hỗ trợ"
   description: |
-    GroupDocs.Merger cho Node.js thông qua Java hỗ trợ các hoạt động với [định dạng tệp] sau đây (https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/).
+    GroupDocs.Merger cho Node.js thông qua Java hỗ trợ một loạt các [định dạng tệp](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/), cho phép thực hiện các thao tác tài liệu linh hoạt.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office định dạng
+        ### Định dạng Microsoft Office
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -141,99 +141,99 @@ formats:
     - color: "red"
       content: |
         ### Các định dạng khác
-        * **Trang web:**  HTML, MHTML, MHT
-        * **Lưu trữ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Web:**  HTML, MHTML, MHT
+        * **Kho lưu trữ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Các tính năng chính của GroupDocs.Merger cho Node.js"
-  description: "Hợp nhất, tách và thao tác hiệu quả các tài liệu ở định dạng PDF và Office bằng cách sử dụng GroupDocs.Merger trong môi trường Node.js."
+  title: "Tính năng nổi bật của GroupDocs.Merger cho Node.js"
+  description: "Kết hợp, tách và quản lý tài liệu định dạng PDF và Office một cách hiệu quả với GroupDocs.Merger trong môi trường Node.js."
 
   items:
     # feature loop
     - icon: "merge"
       title: "Kết hợp tài liệu liền mạch"
-      content: "Dễ dàng hợp nhất nhiều tài liệu thành một bằng cách kết hợp các trang hoặc phạm vi cụ thể từ các tệp khác nhau, sử dụng GroupDocs.Merger cho Node.js."
+      content: "Kết hợp nhiều tài liệu thành một tập tin duy nhất bằng cách chọn các trang hoặc phạm vi cụ thể từ nhiều nguồn khác nhau sử dụng GroupDocs.Merger cho Node.js."
 
     # feature loop
     - icon: "split"
       title: "Khả năng tách tài liệu"
-      content: "Chia một tài liệu thành nhiều tệp nhỏ hơn để quản lý và tổ chức tốt hơn, sử dụng tính năng phân tách toàn diện của GroupDocs.Merger cho Node.js."
+      content: "Chia một tài liệu lớn thành các tập tin nhỏ hơn, dễ quản lý hơn với các công cụ tách nâng cao do GroupDocs.Merger cho Node.js cung cấp."
 
     # feature loop
     - icon: "move"
       title: "Di chuyển trang hiệu quả"
-      content: "Định vị lại các trang trong tài liệu để phù hợp với yêu cầu của bạn bằng cách sử dụng tính năng MovePage trực quan trong môi trường Node.js."
+      content: "Sắp xếp lại trang trong tài liệu để đáp ứng nhu cầu của bạn bằng tính năng MovePage, được thiết kế cho sự tích hợp liền mạch trong Node.js."
 
     # feature loop
     - icon: "remove"
-      title: "Tùy chọn loại bỏ trang"
-      content: "Loại bỏ các trang không cần thiết hoặc số trang cụ thể một cách dễ dàng với tính năng RemovePages của GroupDocs.Merger được thiết kế riêng cho Node.js."
+      title: "Tùy chọn xóa trang"
+      content: "Xóa các trang không mong muốn hoặc các số trang cụ thể một cách dễ dàng với tính năng RemovePages trong GroupDocs.Merger cho Node.js."
 
     # feature loop
     - icon: "rotate"
       title: "Chức năng xoay trang"
-      content: "Xoay các trang trong tài liệu theo hướng mong muốn — 90, 180 hoặc 270 độ — bằng cách sử dụng thao tác RotatePages đơn giản."
+      content: "Điều chỉnh hướng của các trang thành 90, 180 hoặc 270 độ với thao tác RotatePages đơn giản và hiệu quả."
 
     # feature loop
     - icon: "swap"
       title: "Tính năng hoán đổi trang"
-      content: "Sửa đổi thứ tự các trang tài liệu của bạn bằng cách hoán đổi vị trí của chúng, do đó tạo ra một tài liệu được tổ chức lại với chức năng SwappAges."
+      content: "Tổ chức lại tài liệu của bạn bằng cách hoán đổi vị trí của các trang sử dụng hàm SwapPages trong GroupDocs.Merger cho Node.js."
 
     # feature loop
     - icon: "extract"
       title: "Trích xuất trang có chọn lọc"
-      content: "Tạo một tài liệu mới từ các trang hoặc phạm vi trang đã chọn, chỉ trích xuất nội dung cần thiết với GroupDocs.Merger cho Node.js."
+      content: "Trích xuất các trang hoặc phạm vi cụ thể để tạo một tài liệu mới, chỉ tập trung vào nội dung bạn cần với GroupDocs.Merger cho Node.js."
 
     # feature loop
     - icon: "orientation"
-      title: "Công cụ thay đổi định hướng"
-      content: "Thay đổi hướng của các trang cụ thể hoặc tất cả các trang từ dọc sang ngang hoặc ngược lại, sử dụng tính năng ChangeOrientation trong các dự án Node.js của bạn."
+      title: "Công cụ thay đổi hướng"
+      content: "Chuyển đổi hướng của các trang từ chân dung sang phong cảnh hoặc ngược lại bằng cách sử dụng tính năng ChangeOrientation trong các ứng dụng Node.js của bạn."
 
     # feature loop
     - icon: "preview"
       title: "Xem trước trang tài liệu"
-      content: "Tạo bản xem trước hình ảnh của các trang tài liệu để hiểu rõ hơn về nội dung và bố cục của chúng, sử dụng tính năng PreviewPages trong Node.js."
+      content: "Tạo hình ảnh xem trước các trang tài liệu để xem lại nội dung và bố cục của chúng với tính năng PreviewPages trong Node.js."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Mẫu mã"
-  description: "Khám phá các trường hợp sử dụng điển hình cho GroupDocs.Merger phù hợp với môi trường Node.js. Những ví dụ này chứng minh tính hiệu quả và dễ dàng của việc hợp nhất các tài liệu bằng cách sử dụng GroupDocs.Merger cho Node.js."
+  description: "Khám phá các trường hợp sử dụng phổ biến của GroupDocs.Merger trong Node.js. Những ví dụ này minh họa cách kết hợp và chia tách tài liệu một cách hiệu quả bằng GroupDocs.Merger cho Node.js."
   items:
     # code sample loop
-    - title: "Hợp nhất hiệu quả DOCX tệp thành một tài liệu bằng Node.js"
+    - title: "Gộp nhiều tệp DOCX thành một tài liệu trong Node.js"
       content: |
-        Tận dụng GroupDocs.Merger cho Node.js để hợp nhất liền mạch nhiều tệp DOCX thành một tài liệu toàn diện duy nhất. Sử dụng tính năng [Hợp nhất Word Tài liệu](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) của chúng tôi để kết hợp các tệp một cách hiệu quả, tăng cường quản lý tài liệu và năng suất. Dưới đây, tìm đoạn mã Node.js để hướng dẫn bạn qua quá trình hợp nhất tài liệu:
-        {{< landing/code title="Ví dụ Node.js: Hợp nhất các tập tin DOCX">}}
+        Sử dụng GroupDocs.Merger cho Node.js để kết hợp liền mạch nhiều tệp DOCX thành một tài liệu duy nhất. Tính năng [Gộp Tài liệu Word](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) đơn giản hóa việc quản lý tài liệu bằng cách gộp các tệp một cách hiệu quả. Dưới đây là một đoạn mã Node.js mô tả quy trình gộp:
+        {{< landing/code title="Ví dụ: Gộp tệp DOCX trong Node.js">}}
         ```javascript {style=abap}   
-        // Tải tập tin DOCX ban đầu
+        // Tải tệp DOCX đầu tiên
         const merger = new Merger("sample1.docx");
-        // Thêm DOCX tệp bổ sung để hợp nhất
+        // Thêm các tệp DOCX bổ sung để gộp
         merger.join("sample2.docx");
-        // Thực hiện quá trình hợp nhất và lưu tài liệu kết hợp
+        // Gộp các tệp DOCX và lưu kết quả
         merger.save("merged.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Chia một tài liệu PDF thành các tệp riêng lẻ trong Node.js"
+    - title: "Chia tách tài liệu PDF thành nhiều tệp trong Node.js"
       content: |
-        Với GroupDocs.Merger cho Node.js, việc chia một tài liệu thành nhiều tệp được sắp xếp hợp lý. Tính năng [Chia tài liệu](https://docs.groupdocs.com/merger/nodejs-java/split-document/) của chúng tôi cho phép quản lý và trích xuất hiệu quả các phần cụ thể từ các tài liệu lớn PDF, giúp việc xử lý tài liệu của bạn hiệu quả hơn. Tính năng này hỗ trợ chia tài liệu theo phạm vi trang, trang bắt đầu/kết thúc hoặc số trang lẻ/chẵn, trong số các tiêu chí khác.
-        {{< landing/code title="Cách chia tài liệu thành các tệp riêng biệt với Node.js">}}
+        GroupDocs.Merger cho Node.js giúp dễ dàng chia tách các tài liệu PDF lớn thành các tệp nhỏ hơn. Tính năng [Chia tách Tài liệu](https://docs.groupdocs.com/merger/nodejs-java/split-document/) cho phép bạn trích xuất các trang cụ thể dựa trên các tiêu chí khác nhau, chẳng hạn như khoảng trang, trang bắt đầu/kết thúc, hoặc trang lẻ/chẵn. Tính năng này giúp tổ chức các tài liệu lớn bằng cách chia chúng thành các tệp nhỏ hơn, dễ quản lý hơn.
+        {{< landing/code title="Cách chia tách một tài liệu PDF thành các tệp riêng biệt trong Node.js">}}
         ```javascript {style=abap}   
-        // Bắt đầu bằng cách chia tệp PDF bằng GroupDocs.Merger cho API Node.js
+        // Sử dụng GroupDocs.Merger cho Node.js để chia tách tệp PDF
         const filePath = "input.pdf";
         const filePathOut = "output.pdf";
 
-        // Thiết lập lớp SplitOptions với định dạng cho các tệp đầu ra
+        // Định nghĩa SplitOptions với định dạng đầu ra mong muốn
         const splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Khởi tạo Merger với tài liệu PDF sẽ được chia
+        // Khởi tạo Merger với tài liệu PDF đầu vào
         const merger = new Merger(filePath);
 
-        // Gọi phương thức phân tách với đối tượng SplitOptions để lấy các tài liệu kết quả
+        // Gọi phương thức chia tách với đối tượng SplitOptions để tạo các tệp riêng biệt
         merger.split(splitOptions);
   
         ```

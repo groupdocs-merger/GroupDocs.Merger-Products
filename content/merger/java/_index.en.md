@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:02
+date: 2025-02-05T07:59:06
 draft: false
 
 product: "Merger"
@@ -26,12 +26,12 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "Java Document Merging API | merge & remove Word Excel PDF XPS EPUB"
-head_description: "Documents merging API for Java. Merge, split, swap, reorder and delete pages of PDF, Microsoft Word, Excel, presentations, Visio, XPS & EPUB formats."
+head_title: "Java document merging API | merge & manage Word, Excel, PDF, XPS, EPUB"
+head_description: "Java API for document merging. Merge, split, reorder, swap, and remove pages from PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, and EPUB files."
 
 ############################# Header ############################
-title: "Merge documents<br>via Java API"
-description: "Flexible Merger API to easily combine, split, or modify PDF and Office Documents"
+title: "Merge documents<br>with Java API"
+description: "A versatile API for merging, splitting, and modifying PDF and Office documents"
 words:
   for: "for"
 
@@ -41,11 +41,11 @@ actions:
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
   title: "Ready to get started?"
-  description: "Try GroupDocs.Merger features for free or request a license"
+  description: "Try GroupDocs.Merger for free or request a license"
 
 release:
   title: "Version {0} released"
-  notes: "See what’s new"
+  notes: "See what's new"
   downloads: "Downloads"
 
 code:
@@ -63,35 +63,35 @@ code:
     // Load the source PDF file
     Merger merger = new Merger("sample1.pdf");
     
-    //  Add another PDF file to merge
+    // Add another PDF file to combine
     merger.join("sample2.pdf");
 
-    // Merge PDF files and save result
+    // Merge PDF files and save the output
     merger.save("merged.pdf");
     ```
 ############################# Overview ############################
 overview:
   enable: true
   title: "GroupDocs.Merger at a glance"
-  description: "API to combine, split, swap, trim or remove documents, slides, and diagrams in Java applications"
+  description: "API to combine, split, swap, trim, or remove documents, slides, and diagrams in Java applications."
   features:
     # feature loop
     - title: "Effortlessly merge multiple documents in Java"
-      content: "Easily merge PDF and Office files into a single document in Java, leveraging the capabilities of the GroupDocs.Merger library. Benefit from its extensive format support, allowing you to seamlessly combine various file types, resulting in a convenient and streamlined merging process."
+      content: "Merge PDF and Office files into a single document effortlessly in Java using GroupDocs.Merger. With its wide format support, you can combine various file types seamlessly, simplifying the merging process and enhancing productivity."
 
     # feature loop
     - title: "Streamline document management by dividing bulky files easily"
-      content: "Split large PDF or Office files into smaller, easily handled sections. You may divide documents based on specific pages, ranges, or even extract individual pages with ease and convenience. Streamline your document management by utilizing the seamless capabilities of the GroupDocs.Merger library and make your files more organized and manageable."
+      content: "Break down large PDF or Office files into smaller, more manageable sections. Split documents by specific pages, ranges, or extract individual pages with ease. GroupDocs.Merger simplifies document organization, making your files easier to handle and access."
 
     # feature loop
     - title: "Customize your document structure and have full control over your files"
-      content: "Easily manipulate pages by reordering, swapping, or removing them. Organize and tailor your documents according to your specific requirements with the flexibility to create a personalized file structure."
+      content: "Take full control of your documents by reordering, swapping, or removing pages. Tailor your files to meet specific needs with the flexibility to create a customized document structure using GroupDocs.Merger."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Merger for Java supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Merger for Java is designed to work seamlessly across various operating systems, frameworks, and package managers, ensuring flexibility and compatibility for your development needs."
   items:
     # platform loop
     - title: "Amazon"
@@ -124,7 +124,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Merger for Java supports operations with the following [file formats](https://docs.groupdocs.com/merger/java/supported-document-formats/).
+    GroupDocs.Merger for Java enables seamless operations with a wide range of [file formats](https://docs.groupdocs.com/merger/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -154,91 +154,91 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Merger features"
-  description: "Seamlessly merge, split, and manipulate PDF and Office Documents"
+  description: "Easily merge, split, and manipulate PDF and Office documents with powerful tools."
 
   items:
     # feature loop
     - icon: "merge"
       title: "Combine files"
-      content: "Merge two or more documents into a single document, joining specific pages or page ranges from multiple source documents."
+      content: "Merge multiple documents into one, selecting specific pages or page ranges from different source files."
 
     # feature loop
     - icon: "split"
       title: "Split document"
-      content: "Utilize the split operation to divide a source document into multiple resultant documents, enabling efficient organization and management of files."
+      content: "Break a document into multiple smaller files, making it easier to manage and organize content."
 
     # feature loop
     - icon: "move"
       title: "Move pages"
-      content: "Smoothly reposition a page within a document by leveraging the MovePage feature."
+      content: "Reorder your document by moving pages to a new position with the MovePage feature."
 
     # feature loop
     - icon: "remove"
       title: "Remove pages"
-      content: "Effectively remove individual pages or a collection of specific page numbers from the source document with the RemovePages feature."
+      content: "Delete individual pages or a set of specific pages from a document using the RemovePages feature."
 
     # feature loop
     - icon: "rotate"
       title: "Rotate pages"
-      content: "Take advantage of the RotatePages operation to easily rotate pages within a document by specifying the rotation angle as 90, 180, or 270 degrees"
+      content: "Rotate pages in a document by 90, 180, or 270 degrees with the RotatePages feature."
 
     # feature loop
     - icon: "swap"
       title: "Swap pages"
-      content: "Rearrange the page order by exchanging the positions of two pages within the source document, producing a new document."
+      content: "Change the order of pages by swapping two pages within the document."
 
     # feature loop
     - icon: "extract"
       title: "Extract pages"
-      content: "Generate a new document containing only the selected pages by extracting specific pages or page ranges from the source document."
+      content: "Create a new document containing only selected pages by extracting specific pages or page ranges."
 
     # feature loop
     - icon: "orientation"
       title: "Change orientation"
-      content: "Modify the page orientation (portrait or landscape) for specific pages or all pages of the document by leveraging the ChangeOrientation operation."
+      content: "Switch page orientation between portrait and landscape for specific or all pages in a document."
 
     # feature loop
     - icon: "preview"
       title: "Preview pages"
-      content: "Gain a clearer understanding of the content and structure of the document by generating image representations of its pages. Make previews of all or just specific pages."
+      content: "Generate image previews of document pages to get a better view of their content and layout."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Merger for Java operations"
+  description: "Examples of common GroupDocs.Merger operations in Java"
   items:
     # code sample loop
     - title: "Merge DOCX files into a single document"
       content: |
-        With the [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) feature you can combine entire DOCX files into a single document by loading the source file, adding more DOCX files to join, and saving the merged document. Below is a Java code snippet demonstrating the merge process: 
+        With the [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) feature, you can easily combine multiple DOCX files into one. Load the source document, add additional DOCX files, and save the merged result. Below is a Java code snippet demonstrating the merging process:
         {{< landing/code title="How to merge DOCX files in Java">}}
         ```java {style=abap}   
         // Load the source DOCX file
         Merger merger = new Merger("sample1.docx");
-        // Add another DOCX file to merge
+        // Add another DOCX file to combine
         merger.join("sample2.docx");
-        // Merge DOCX files and save result
+        // Merge DOCX files and save the output
         merger.save("merged.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Split PDF document into multiple files"
+    - title: "Split a PDF document into multiple files"
       content: |
-        Divide a document into multiple files with the [Split Document](https://docs.groupdocs.com/merger/java/split-document/) feature to simplify the process of managing and extracting specific sections or pages from large documents. It allows you to divide documents into smaller parts based on various criteria - by page range, by start/end pages, by odd/even page numbers etc.
-        {{< landing/code title="Split the document to several one-page documents">}}
+        Use the [Split Document](https://docs.groupdocs.com/merger/java/split-document/) feature to break a large PDF into smaller, more manageable files. This is useful for extracting specific sections or pages. You can split a document using various criteria, such as page range, specific start and end pages, or even odd/even page numbers.
+        {{< landing/code title="Split a document into multiple one-page files">}}
         ```java {style=abap}   
-        // Split PDF file using GroupDocs.Merger for Java API
+        // Split a PDF file using GroupDocs.Merger for Java API
         String filePath = "input.pdf";
         String filePathOut = "output.pdf";
 
-        // Initialize SplitOptions class with output files path format
+        // Initialize the SplitOptions class with the output file format
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Instantiate Merger with input PDF document
+        // Create a Merger instance with the input PDF document
         Merger merger = new Merger(filePath);
 
-        // Call split method and pass SplitOptions object to save resultant documents
+        // Call the split method with the SplitOptions object to generate separate files
         merger.split(splitOptions);
   
         ```

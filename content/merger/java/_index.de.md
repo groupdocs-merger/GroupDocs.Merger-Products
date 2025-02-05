@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:02
+date: 2025-02-05T07:59:06
 draft: false
 
 product: "Merger"
@@ -26,12 +26,12 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "API zum Zusammenführen von Java-Dokumenten | Zusammenführen und Entfernen von Word Excel PDF XPS EPUB"
-head_description: "API zum Zusammenführen von Dokumenten für Java. Zusammenführen, Teilen, Tauschen, Neuanordnen und Löschen von Seiten in den Formaten PDF, Microsoft Word, Excel, Präsentationen, Visio, XPS und EPUB."
+head_title: "Java-Dokumenten-Merging-API | Zusammenführen und Verwalten von Word, Excel, PDF, XPS, EPUB"
+head_description: "Java-API zum Zusammenführen von Dokumenten. Zusammenführen, Trennen, Neuordnen, Tauschen und Entfernen von Seiten aus PDF-, Microsoft Word-, Excel-, PowerPoint-, Visio-, XPS- und EPUB-Dateien."
 
 ############################# Header ############################
-title: "Dokumente zusammenführen<br>über Java API"
-description: "Flexible Merger-API zum einfachen Kombinieren, Teilen oder Ändern von PDF- und Office-Dokumenten"
+title: "Dokumente zusammenführen<br>mit Java-API"
+description: "Eine vielseitige API zum Zusammenführen, Trennen und Bearbeiten von PDF- und Office-Dokumenten"
 words:
   for: "für"
 
@@ -40,17 +40,17 @@ actions:
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
   alt: "Lizenzierung"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
-  title: "Bereit anzufangen?"
-  description: "Testen Sie die Funktionen von GroupDocs.Merger kostenlos oder fordern Sie eine Lizenz an"
+  title: "Bereit, loszulegen?"
+  description: "Testen Sie GroupDocs.Merger kostenlos oder fordern Sie eine Lizenz an"
 
 release:
   title: "Version {0} veröffentlicht"
-  notes: "Schau was neu ist"
+  notes: "Erfahren Sie, was neu ist"
   downloads: "Downloads"
 
 code:
   title: "PDF-Dateien in Java zusammenführen"
-  more: "Mehr Beispiele"
+  more: "Weitere Beispiele"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java"
   install: |
     <dependency>
@@ -63,35 +63,35 @@ code:
     // Laden Sie die Quell-PDF-Datei
     Merger merger = new Merger("sample1.pdf");
     
-    // Fügen Sie eine weitere PDF-Datei zum Zusammenführen hinzu
+    // Fügen Sie eine weitere PDF-Datei hinzu, um sie zu kombinieren
     merger.join("sample2.pdf");
 
-    // PDF-Dateien zusammenführen und Ergebnis speichern
+    // PDF-Dateien zusammenführen und das Ergebnis speichern
     merger.save("merged.pdf");
     ```
 ############################# Overview ############################
 overview:
   enable: true
   title: "GroupDocs.Merger auf einen Blick"
-  description: "API zum Kombinieren, Teilen, Austauschen, Trimmen oder Entfernen von Dokumenten, Folien und Diagrammen in Java-Anwendungen"
+  description: "API zum Kombinieren, Aufteilen, Austauschen, Trimmen oder Entfernen von Dokumenten, Folien und Diagrammen in Java-Anwendungen."
   features:
     # feature loop
-    - title: "Führen Sie mühelos mehrere Dokumente in Java zusammen"
-      content: "Führen Sie PDF- und Office-Dateien ganz einfach in einem einzigen Dokument in Java zusammen und nutzen Sie dabei die Funktionen der GroupDocs.Merger-Bibliothek. Profitieren Sie von der umfassenden Formatunterstützung, die es Ihnen ermöglicht, verschiedene Dateitypen nahtlos zu kombinieren, was zu einem bequemen und optimierten Zusammenführungsprozess führt."
+    - title: "Mehrere Dokumente in Java mühelos zusammenführen"
+      content: "Führen Sie PDF- und Office-Dateien in einem einzigen Dokument mühelos in Java mit GroupDocs.Merger zusammen. Mit der breiten Formatunterstützung können Sie verschiedene Dateitypen nahtlos kombinieren, was den Zusammenführungsprozess vereinfacht und die Produktivität steigert."
 
     # feature loop
-    - title: "Optimieren Sie die Dokumentenverwaltung, indem Sie umfangreiche Dateien einfach aufteilen"
-      content: "Teilen Sie große PDF- oder Office-Dateien in kleinere, einfach zu handhabende Abschnitte auf. Sie können Dokumente einfach und bequem nach bestimmten Seiten oder Bereichen unterteilen oder sogar einzelne Seiten extrahieren. Optimieren Sie Ihr Dokumentenmanagement, indem Sie die nahtlosen Funktionen der GroupDocs.Merger-Bibliothek nutzen und Ihre Dateien besser organisiert und verwaltbar machen."
+    - title: "Dokumentenmanagement durch einfaches Aufteilen großer Dateien optimieren"
+      content: "Teilen Sie große PDF- oder Office-Dateien in kleinere, besser handhabbare Abschnitte auf. Dokumente nach spezifischen Seiten, Bereichen aufteilen oder einzelne Seiten extrahieren. GroupDocs.Merger vereinfacht die Dokumentenorganisation und macht Ihre Dateien leichter zugänglich."
 
     # feature loop
-    - title: "Passen Sie Ihre Dokumentenstruktur an und behalten Sie die volle Kontrolle über Ihre Dateien"
-      content: "Bearbeiten Sie Seiten ganz einfach, indem Sie sie neu anordnen, austauschen oder entfernen. Organisieren und passen Sie Ihre Dokumente entsprechend Ihren spezifischen Anforderungen an und bieten Sie die Flexibilität, eine personalisierte Dateistruktur zu erstellen."
+    - title: "Passen Sie Ihre Dokumentenstruktur an und haben Sie volle Kontrolle über Ihre Dateien"
+      content: "Erhalten Sie die volle Kontrolle über Ihre Dokumente, indem Sie Seiten neu anordnen, austauschen oder entfernen. Gestalten Sie Ihre Dateien nach Ihren spezifischen Bedürfnissen mit der Flexibilität, eine angepasste Dokumentenstruktur mit GroupDocs.Merger zu erstellen."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Plattformunabhängigkeit"
-  description: "GroupDocs.Merger für Java unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager"
+  description: "GroupDocs.Merger für Java wurde entwickelt, um nahtlos auf verschiedenen Betriebssystemen, Frameworks und Paketmanagern zu funktionieren und bietet Flexibilität sowie Kompatibilität für Ihre Entwicklungsanforderungen."
   items:
     # platform loop
     - title: "Amazon"
@@ -124,12 +124,12 @@ formats:
   enable: true
   title: "Unterstützte Dateiformate"
   description: |
-    GroupDocs.Merger für Java unterstützt Vorgänge mit den folgenden [Dokumentdateiformaten](https://docs.groupdocs.com/merger/java/supported-document-formats/).
+    GroupDocs.Merger für Java ermöglicht nahtlose Operationen mit einer Vielzahl von [Dateiformaten](https://docs.groupdocs.com/merger/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office-Formate
+        ### Microsoft Office Formate
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
@@ -137,8 +137,8 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### Dokumente und Bilder
-        * **Unterlagen:** PDF, XPS, TEX
+        ### Dokumente & Bilder
+        * **Dokumente:** PDF, XPS, TEX
         * **Bilder:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **OpenDocument:** ODT, OTT, ODS
         * **eBook:** EPUB
@@ -146,99 +146,99 @@ formats:
     - color: "red"
       content: |
         ### Andere Formate
-        * **Netz:**  HTML, MHTML, MHT
-        * **Archiv:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Web:**  HTML, MHTML, MHT
+        * **Archive:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Merger-Funktionen"
-  description: "PDF- und Office-Dokumente nahtlos zusammenführen, teilen und bearbeiten"
+  title: "Funktionen von GroupDocs.Merger"
+  description: "Kombinieren, aufteilen und bearbeiten Sie PDF- und Office-Dokumente mit leistungsstarken Tools."
 
   items:
     # feature loop
     - icon: "merge"
       title: "Dateien kombinieren"
-      content: "Führen Sie zwei oder mehr Dokumente zu einem einzigen Dokument zusammen, indem Sie bestimmte Seiten oder Seitenbereiche aus mehreren Quelldokumenten zusammenführen."
+      content: "Fügen Sie mehrere Dokumente zu einem zusammen, indem Sie bestimmte Seiten oder Seitenbereiche aus verschiedenen Quelldateien auswählen."
 
     # feature loop
     - icon: "split"
-      title: "Dokument teilen"
-      content: "Nutzen Sie den Aufteilungsvorgang, um ein Quelldokument in mehrere resultierende Dokumente aufzuteilen und so eine effiziente Organisation und Verwaltung von Dateien zu ermöglichen."
+      title: "Dokument aufteilen"
+      content: "Zerlegen Sie ein Dokument in mehrere kleinere Dateien, um den Inhalt einfacher zu verwalten und zu organisieren."
 
     # feature loop
     - icon: "move"
       title: "Seiten verschieben"
-      content: "Positionieren Sie eine Seite innerhalb eines Dokuments reibungslos neu, indem Sie die MovePage-Funktion nutzen."
+      content: "Ändern Sie die Reihenfolge Ihres Dokuments, indem Sie Seiten mit der Funktion MovePage an eine neue Position verschieben."
 
     # feature loop
     - icon: "remove"
       title: "Seiten entfernen"
-      content: "Entfernen Sie mit der Funktion „RemovePages“ effektiv einzelne Seiten oder eine Sammlung bestimmter Seitenzahlen aus dem Quelldokument."
+      content: "Löschen Sie einzelne Seiten oder eine Gruppe spezifischer Seiten aus einem Dokument mit der Funktion RemovePages."
 
     # feature loop
     - icon: "rotate"
       title: "Seiten drehen"
-      content: "Nutzen Sie den RotatePages-Vorgang, um Seiten innerhalb eines Dokuments einfach zu drehen, indem Sie den Drehwinkel auf 90, 180 oder 270 Grad festlegen"
+      content: "Drehen Sie Seiten in einem Dokument um 90, 180 oder 270 Grad mit der Funktion RotatePages."
 
     # feature loop
     - icon: "swap"
       title: "Seiten tauschen"
-      content: "Ordnen Sie die Seitenreihenfolge neu, indem Sie die Positionen zweier Seiten im Quelldokument austauschen und so ein neues Dokument erstellen."
+      content: "Ändern Sie die Reihenfolge der Seiten, indem Sie zwei Seiten innerhalb des Dokuments tauschen."
 
     # feature loop
     - icon: "extract"
       title: "Seiten extrahieren"
-      content: "Erstellen Sie ein neues Dokument, das nur die ausgewählten Seiten enthält, indem Sie bestimmte Seiten oder Seitenbereiche aus dem Quelldokument extrahieren."
+      content: "Erstellen Sie ein neues Dokument, das nur die ausgewählten Seiten enthält, indem Sie spezifische Seiten oder Seitenbereiche extrahieren."
 
     # feature loop
     - icon: "orientation"
       title: "Orientierung ändern"
-      content: "Ändern Sie die Seitenausrichtung (Hoch- oder Querformat) für bestimmte Seiten oder alle Seiten des Dokuments, indem Sie den ChangeOrientation-Vorgang nutzen."
+      content: "Ändern Sie die Seitenorientierung zwischen Hochformat und Querformat für spezifische oder alle Seiten in einem Dokument."
 
     # feature loop
     - icon: "preview"
-      title: "Vorschauseiten"
-      content: "Gewinnen Sie ein klareres Verständnis des Inhalts und der Struktur des Dokuments, indem Sie Bilddarstellungen seiner Seiten erstellen. Erstellen Sie eine Vorschau aller oder nur bestimmter Seiten."
+      title: "Seitenvorschau"
+      content: "Generieren Sie Bildvorschauen von Dokumentseiten, um eine bessere Ansicht ihres Inhalts und Layouts zu erhalten."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Codebeispiele"
-  description: "Einige Anwendungsfälle typischer GroupDocs.Merger für Java-Operationen"
+  description: "Beispiele für häufige GroupDocs.Merger-Operationen in Java"
   items:
     # code sample loop
-    - title: "Führen Sie DOCX-Dateien in einem einzigen Dokument zusammen"
+    - title: "DOCX-Dokumente in ein einzelnes Dokument zusammenführen"
       content: |
-        Mit der Funktion [Word-Dokumente zusammenführen](https://docs.groupdocs.com/merger/java/merge/word/) können Sie ganze DOCX-Dateien in einem einzigen Dokument kombinieren, indem Sie die Quelldatei laden und weitere DOCX-Dateien zum Zusammenführen hinzufügen und Speichern des zusammengeführten Dokuments. Unten finden Sie einen Java-Codeausschnitt, der den Zusammenführungsprozess demonstriert:
+        Mit der Funktion [Word-Dokumente zusammenführen](https://docs.groupdocs.com/merger/java/merge/word/) können Sie mehrere DOCX-Dateien zu einer einzigen zusammenführen. Laden Sie das Quelldokument, fügen Sie zusätzliche DOCX-Dateien hinzu und speichern Sie das zusammengeführte Ergebnis. Im Folgenden finden Sie ein Java-Codebeispiel, das den Zusammenführungsprozess demonstriert:
         {{< landing/code title="So führen Sie DOCX-Dateien in Java zusammen">}}
         ```java {style=abap}   
-        // Laden Sie die DOCX-Quelldatei
+        // Laden Sie die Quelldatei im DOCX-Format
         Merger merger = new Merger("sample1.docx");
-        // Fügen Sie eine weitere DOCX-Datei zum Zusammenführen hinzu
+        // Fügen Sie eine weitere DOCX-Datei hinzu, um sie zu kombinieren
         merger.join("sample2.docx");
-        // DOCX-Dateien zusammenführen und Ergebnis speichern
+        // Führen Sie die DOCX-Dateien zusammen und speichern Sie das Ergebnis
         merger.save("merged.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Teilen Sie das PDF-Dokument in mehrere Dateien auf"
+    - title: "Ein PDF-Dokument in mehrere Dateien aufteilen"
       content: |
-        Teilen Sie ein Dokument mit der Funktion [Dokument teilen](https://docs.groupdocs.com/merger/java/split-document/) in mehrere Dateien auf, um das Verwalten und Extrahieren bestimmter Abschnitte oder Seiten aus großen Dokumenten zu vereinfachen. Es ermöglicht Ihnen, Dokumente anhand verschiedener Kriterien in kleinere Teile zu unterteilen – nach Seitenbereich, nach Anfangs-/Endseiten, nach ungeraden/geraden Seitenzahlen usw.
-        {{< landing/code title="Teilen Sie das Dokument in mehrere einseitige Dokumente auf">}}
+        Nutzen Sie die Funktion [Dokument aufteilen](https://docs.groupdocs.com/merger/java/split-document/), um ein großes PDF in kleinere, handlichere Dateien zu zerlegen. Dies ist nützlich, um spezifische Abschnitte oder Seiten zu extrahieren. Sie können ein Dokument anhand verschiedener Kriterien aufteilen, wie z. B. Seitenbereich, spezifische Anfangs- und Endseiten oder sogar ungerade/gerade Seitenzahlen.
+        {{< landing/code title="Ein Dokument in mehrere einseitige Dateien aufteilen">}}
         ```java {style=abap}   
-        // Teilen Sie die PDF-Datei mit der GroupDocs.Merger für Java-API
+        // Teilen Sie eine PDF-Datei mit der GroupDocs.Merger für Java API
         String filePath = "input.pdf";
         String filePathOut = "output.pdf";
 
-        // Initialisieren Sie die SplitOptions-Klasse mit dem Pfadformat der Ausgabedateien
+        // Initialisieren Sie die Klasse SplitOptions mit dem Ausgabe-Dateiformat
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Instanziieren Sie die Zusammenführung mit dem eingegebenen PDF-Dokument
+        // Erstellen Sie eine Merger-Instanz mit dem Eingabe-PDF-Dokument
         Merger merger = new Merger(filePath);
 
-        // Rufen Sie die Split-Methode auf und übergeben Sie das SplitOptions-Objekt, um die resultierenden Dokumente zu speichern
+        // Rufen Sie die Methode split mit dem SplitOptions-Objekt auf, um separate Dateien zu generieren
         merger.split(splitOptions);
   
         ```

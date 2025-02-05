@@ -1,0 +1,6 @@
+{
+  "platforms": {
+    "title": "Independencia de plataforma",
+    "description": "GroupDocs.Merger para {{ProgLang}} está diseñado para funcionar sin problemas en múltiples sistemas operativos, marcos y gestores de paquetes, proporcionando versatilidad y compatibilidad para su entorno de desarrollo."
+  }
+}

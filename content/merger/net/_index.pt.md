@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-20T11:31:03
+date: 2025-02-05T07:59:07
 draft: false
 
 product: "Merger"
@@ -26,68 +26,68 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "API de fusão de documentos C# .NET | Combinar e dividir PDF Word Excel EPUB"
-head_description: "API de fusão de documentos C# .NET para combinar, dividir, trocar ou remover páginas de documentos PDF, Microsoft Word, Excel, apresentações, Visio e formatos de imagem."
+head_title: "API de mesclagem de documentos C# .NET | combine e divida PDF, Word, Excel, EPUB"
+head_description: "API C# .NET para mesclar documentos. Combine, divida, troque ou remova páginas de arquivos PDF, Microsoft Word, Excel, PowerPoint, Visio e imagens."
 
 ############################# Header ############################
 title: "Mesclar documentos<br>via API .NET"
-description: "Poderosa API de fusão para manipular PDF, Microsoft Office, HTML e arquivos de imagem."
+description: "Uma API poderosa para mesclar, dividir e gerenciar arquivos PDF, Office, HTML e imagens."
 words:
   for: "para"
 
 actions:
-  main: "Download grátis do NuGet"
+  main: "Download gratuito do NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
   alt: "Licenciamento"
   alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
   title: "Pronto para começar?"
-  description: "Experimente os recursos do GroupDocs.Merger gratuitamente ou solicite uma licença"
+  description: "Experimente o GroupDocs.Merger gratuitamente ou solicite uma licença"
 
 release:
   title: "Versão {0} lançada"
-  notes: "Veja o que é novo"
-  downloads: "Transferências"
+  notes: "Veja o que há de novo"
+  downloads: "Downloads"
 
 code:
-  title: "Mesclar arquivos PDF em C #"
+  title: "Mesclar arquivos PDF em C#"
   more: "Mais exemplos"
   more_link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET"
   install: "dotnet add package GroupDocs.Merger"
   content: |
     ```csharp {style=abap}   
-    // Carregar o arquivo PDF de origem
+    // Abra o arquivo PDF de origem
     using (Merger merger = new Merger(@"c:\sample1.pdf"))
     {
-      // Adicionar outro arquivo PDF para mesclar
+      // Anexe outro arquivo PDF para mesclagem
       merger.Join(@"c:\sample2.pdf");
 
-      // Mescle arquivos PDF e salve o resultado
+      // Combine os arquivos PDF e salve a saída
       merger.Save(@"c:\merged.pdf");
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Resumo do GroupDocs.Merger"
-  description: "API para combinar, dividir, trocar, aparar ou remover documentos, slides e diagramas em aplicativos .NET"
+  title: "Visão geral do GroupDocs.Merger"
+  description: "API para combinar, dividir, trocar, recortar ou remover documentos, apresentações e diagramas em aplicações .NET."
   features:
     # feature loop
-    - title: "Mescle facilmente vários documentos em C#"
-      content: "Mesclar documentos: combine perfeitamente vários arquivos PDF e Office em um único documento, com suporte para uma ampla variedade de formatos. GroupDocs.Merger para .NET torna a fusão de documentos rápida e sem complicações."
+    - title: "Mescle vários documentos em C# sem esforço"
+      content: "Combine múltiplos arquivos PDF e Office em um único documento utilizando o GroupDocs.Merger para .NET. Com suporte a uma ampla gama de formatos, a fusão de documentos torna-se rápida e direta."
 
     # feature loop
-    - title: "Simplifique o gerenciamento de documentos dividindo arquivos grandes"
-      content: "Divida grandes arquivos PDF ou Office em partes menores e mais gerenciáveis ​​com facilidade. GroupDocs.Merger para .NET permite que você divida documentos com base em páginas específicas, intervalos ou até mesmo extraia páginas individuais sem esforço."
+    - title: "Simplifique a gestão de documentos dividindo arquivos grandes"
+      content: "Divida arquivos PDF ou Office grandes em seções menores e mais manejáveis. O GroupDocs.Merger para .NET permite que você divida documentos por páginas específicas, intervalos ou extraia páginas individuais."
 
     # feature loop
-    - title: "Manipule páginas e personalize a estrutura do documento - reordene, troque ou remova"
-      content: "Assuma o controle de seus documentos reorganizando páginas, removendo páginas indesejadas ou adicionando novas. GroupDocs.Merger for .NET permite que você manipule a estrutura do documento, permitindo que você personalize e adapte seus arquivos de acordo com suas necessidades específicas."
+    - title: "Manipule páginas e personalize a estrutura do documento - reorganizar, trocar ou remover"
+      content: "Tenha controle total sobre seus documentos reordenando, trocando ou removendo páginas. O GroupDocs.Merger para .NET oferece a flexibilidade para personalizar a estrutura do seu documento para atender às suas necessidades específicas."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Independência de plataforma"
-  description: "GroupDocs.Merger for .NET oferece suporte aos seguintes sistemas operacionais, estruturas e gerenciadores de pacotes"
+  title: "Independência da Plataforma"
+  description: "GroupDocs.Merger para .NET é projetado para funcionar de maneira fluida em vários sistemas operacionais, frameworks e gerenciadores de pacotes, oferecendo versatilidade e compatibilidade para o seu ambiente de desenvolvimento."
   items:
     # platform loop
     - title: "Amazon"
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "Formatos de arquivo suportados"
   description: |
-    GroupDocs.Merger para .NET suporta operações com os seguintes [formatos de arquivo de documento](https://docs.groupdocs.com/merger/net/supported-document-formats/).
+    O GroupDocs.Merger para .NET permite trabalhar com uma variedade de [formatos de arquivo](https://docs.groupdocs.com/merger/net/supported-document-formats/), garantindo flexibilidade para suas necessidades de processamento de documentos.
   groups:
     # group loop
     - color: "green"
@@ -141,103 +141,103 @@ formats:
     - color: "red"
       content: |
         ### Outros formatos
-        * **Rede:**  HTML, MHTML, MHT
+        * **Web:**  HTML, MHTML, MHT
         * **Arquivos:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Recursos do GroupDocs.Mesclar"
-  description: "Mescle, divida e manipule perfeitamente PDF e documentos do Office"
+  title: "Recursos do GroupDocs.Merger"
+  description: "Mescle, divida e gerencie documentos PDF e do Office."
 
   items:
     # feature loop
     - icon: "merge"
       title: "Mesclar arquivos"
-      content: "Combine dois ou mais documentos em um único documento, mesclando páginas específicas ou intervalos de páginas de vários documentos de origem."
+      content: "Combine vários documentos em um só, mesclando arquivos inteiros ou páginas específicas de diferentes fontes."
 
     # feature loop
     - icon: "split"
       title: "Dividir documentos"
-      content: "Divida um documento de origem em vários documentos resultantes usando a operação de divisão."
+      content: "Quebre um documento em vários arquivos menores para melhor organização e gerenciamento."
 
     # feature loop
     - icon: "move"
       title: "Mover páginas"
-      content: "Reposicione as páginas em um documento usando o recurso MovePage."
+      content: "Reorganize páginas dentro de um documento movendo-as para uma nova posição."
 
     # feature loop
     - icon: "remove"
       title: "Remover páginas"
-      content: "Remova páginas individuais ou uma coleção de números de página específicos do documento de origem."
+      content: "Exclua páginas específicas ou várias páginas selecionadas de um documento."
 
     # feature loop
     - icon: "rotate"
-      title: "Girar páginas"
-      content: "Gire as páginas em um documento definindo o ângulo de rotação para 90, 180 ou 270 graus usando a operação RotatePages."
+      title: "Rotacionar páginas"
+      content: "Gire páginas em um documento em 90, 180 ou 270 graus conforme necessário."
 
     # feature loop
     - icon: "swap"
       title: "Trocar páginas"
-      content: "Troque as posições de duas páginas no documento de origem, criando um novo documento com posições de página trocadas."
+      content: "Troque as posições de duas páginas dentro de um documento para melhor arranjo."
 
     # feature loop
     - icon: "extract"
       title: "Extrair páginas"
-      content: "Extraia páginas específicas ou intervalos de páginas de um documento de origem, gerando um novo documento contendo apenas as páginas selecionadas."
+      content: "Selecione e extraia páginas específicas ou intervalos de páginas para criar um novo documento."
 
     # feature loop
     - icon: "orientation"
-      title: "Mudar orientação"
-      content: "Defina a orientação da página (retrato ou paisagem) para páginas específicas ou todas as páginas do documento usando a operação ChangeOrientation."
+      title: "Alterar orientação"
+      content: "Ajuste a orientação da página para retrato ou paisagem para páginas selecionadas ou todas."
 
     # feature loop
     - icon: "preview"
-      title: "Visualizar páginas"
-      content: "Gere representações de imagens de páginas de documentos para entender melhor o conteúdo e a estrutura. Faça visualizações de todas ou apenas páginas específicas."
+      title: "Pré-visualizar páginas"
+      content: "Gere pré-visualizações em imagem das páginas do documento para obter uma visão clara do seu conteúdo e layout."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Amostras de código"
-  description: "Alguns casos de uso típicos de GroupDocs.Merger para operações .NET"
+  title: "Exemplos de código"
+  description: "Exemplos de operações comuns do GroupDocs.Merger em .NET"
   items:
     # code sample loop
-    - title: "Mescle páginas específicas de arquivos DOCX em um único documento"
+    - title: "Mesclar páginas específicas de arquivos DOCX em um único documento"
       content: |
-        O recurso [Mesclar página seletiva](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) permite extrair e mesclar apenas o conteúdo desejado de cada arquivo. Aqui está um exemplo de como obter a mesclagem seletiva de páginas usando C#:
-        {{< landing/code title="Como mesclar arquivos DOCX em C #">}}
+        O recurso [Mesclagem de Páginas Seletivas](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) permite extrair e mesclar apenas as páginas necessárias de vários arquivos DOCX. Veja como realizar a mesclagem de páginas seletivas usando C#: 
+        {{< landing/code title="Como mesclar arquivos DOCX em C#">}}
         ```csharp {style=abap}   
         JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
         
         // Carregue o arquivo DOCX de origem
         using (Merger merger = new Merger(@"c:\sample.docx", loadOptions))
         {
-          // Adicione outro arquivo DOCX para mesclar
+          // Adicione outro arquivo DOCX para incluir páginas específicas
           merger.Join(@"c:\sample2.docx", joinOptions);
           
-          // Mesclar arquivos DOCX e salvar o resultado
+          // Mescle as páginas selecionadas e salve a saída
           merger.Save(@"c:\result.docx");
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Dividir documento PDF em vários arquivos"
+    - title: "Dividir um documento PDF em vários arquivos"
       content: |
-        Divida um documento com eficiência em vários arquivos com o recurso [Dividir documento](https://docs.groupdocs.com/merger/net/split-document/), que simplifica o processo de gerenciamento e extração de seções ou páginas específicas de documentos grandes. Ele permite que você divida documentos em partes menores com base em vários critérios - por intervalo de páginas, páginas iniciais/finais, números de páginas pares/ímpares, etc.
-        {{< landing/code title="Como dividir o documento em vários documentos de várias páginas">}}
+        Divida facilmente um PDF grande em vários arquivos menores usando o recurso [Dividir Documento](https://docs.groupdocs.com/merger/net/split-document/). Isso ajuda na extração de seções específicas ou na organização do conteúdo de forma mais eficiente. Você pode dividir documentos com base em vários critérios, como intervalo de páginas, páginas iniciais e finais específicas ou números de páginas ímpares/par.
+        {{< landing/code title="Como dividir um documento em vários arquivos com várias páginas">}}
         ```csharp {style=abap}   
-        // Dividir arquivo PDF usando GroupDocs.Merger API
+        // Use a API do GroupDocs.Merger para dividir um arquivo PDF
         int[] splitPages = new int[] { 3, 6, 8 };
         
-        // Inicialize a classe SplitOptions com o formato do caminho dos arquivos de saída
+        // Configure as SplitOptions com o formato do arquivo de saída
         SplitOptions splitOptions = new SplitOptions(@"c:\result_{0}.{1}", splitPages, SplitMode.Interval);
         
-        // Instanciar fusão com documento PDF de entrada
+        // Crie uma instância de Merger e carregue o documento PDF
         using (Merger merger = new Merger(@"c:\sample.pdf"))
         {
-          // Chame o método split e passe o objeto SplitOptions para salvar os documentos resultantes
+          // Chame o método de divisão com as SplitOptions para gerar arquivos separados
           merger.Split(splitOptions);
         }  
         ```
