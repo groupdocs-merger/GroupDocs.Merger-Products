@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Tổng quan về GroupDocs.Merger cho {{ProgLang}}",
-    "description": "Một API đa năng để gộp, chia tách, sắp xếp lại và tinh chỉnh tài liệu, slide và sơ đồ trong các ứng dụng {{ProgLang}}.",
+    "title": "Tổng quan về GroupDocs.Merger cho Python",
+    "description": "Một API đa năng để gộp, chia tách, sắp xếp lại và tinh chỉnh tài liệu, slide và sơ đồ trong các ứng dụng Python.",
     "feature_1": {
-      "title": "Gộp tài liệu một cách nhanh chóng trong {{ProgLang}}",
-      "description": "Kết hợp tài liệu PDF và Office thành một tệp duy nhất một cách hiệu quả bằng cách sử dụng GroupDocs.Merger cho {{ProgLang}}. Với hỗ trợ định dạng phong phú, thư viện này đảm bảo tích hợp và gộp các loại tệp khác nhau một cách liền mạch, đơn giản hóa việc quản lý tài liệu trong các ứng dụng {{ProgLang}}."
+      "title": "Gộp tài liệu một cách nhanh chóng trong Python",
+      "description": "Kết hợp tài liệu PDF và Office thành một tệp duy nhất một cách hiệu quả bằng cách sử dụng GroupDocs.Merger cho Python. Với hỗ trợ định dạng phong phú, thư viện này đảm bảo tích hợp và gộp các loại tệp khác nhau một cách liền mạch, đơn giản hóa việc quản lý tài liệu trong các ứng dụng Python."
     },
     "feature_2": {
       "title": "Đơn giản hóa việc xử lý tài liệu bằng cách chia nhỏ các tệp lớn",
-      "description": "Chia nhỏ dễ dàng các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn với GroupDocs.Merger cho {{ProgLang}}. Tùy chỉnh tài liệu của bạn bằng cách chia chúng theo các trang cụ thể, khoảng, hoặc trích xuất các trang riêng lẻ, cải thiện tổ chức và hiệu quả công việc."
+      "description": "Chia nhỏ dễ dàng các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn với GroupDocs.Merger cho Python. Tùy chỉnh tài liệu của bạn bằng cách chia chúng theo các trang cụ thể, khoảng, hoặc trích xuất các trang riêng lẻ, cải thiện tổ chức và hiệu quả công việc."
     },
     "feature_3": {
-      "title": "Kiểm soát hoàn toàn cấu trúc tài liệu của bạn trong {{ProgLang}}",
-      "description": "Dễ dàng sắp xếp lại, hoán đổi hoặc xóa các trang để tùy chỉnh bố cục tài liệu của bạn bằng GroupDocs.Merger cho {{ProgLang}}. Điều chỉnh các tệp của bạn để đáp ứng các yêu cầu cụ thể, cung cấp tính linh hoạt vô song trong việc tạo ra cấu trúc tài liệu được tùy chỉnh."
+      "title": "Kiểm soát hoàn toàn cấu trúc tài liệu của bạn trong Python",
+      "description": "Dễ dàng sắp xếp lại, hoán đổi hoặc xóa các trang để tùy chỉnh bố cục tài liệu của bạn bằng GroupDocs.Merger cho Python. Điều chỉnh các tệp của bạn để đáp ứng các yêu cầu cụ thể, cung cấp tính linh hoạt vô song trong việc tạo ra cấu trúc tài liệu được tùy chỉnh."
     }
   }
 }

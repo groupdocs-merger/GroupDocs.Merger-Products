@@ -1,7 +1,7 @@
 {
   "code_samples": {
     "title": "Exemples de code",
-    "description": "Exemples d'opérations courantes de GroupDocs.Merger en {{ProgLang}}",
+    "description": "Exemples d'opérations courantes de GroupDocs.Merger en .NET",
     "sample_1": {
       "title": "Fusionner des pages spécifiques de fichiers DOCX en un document unique",
       "content_1": "La fonctionnalité [Merge de Pages Sélectives](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) permet d'extraire et de fusionner uniquement les pages nécessaires provenant de plusieurs fichiers DOCX.",

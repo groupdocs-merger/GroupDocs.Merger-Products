@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:37:00
 draft: false
 
 product: "Merger"
@@ -86,7 +86,7 @@ overview:
 platforms:
   enable: true
   title: "Indipendenza dalla piattaforma"
-  description: "GroupDocs.Merger per {{ProgLang}} è progettato per funzionare in modo efficace su diversi sistemi operativi, framework e gestori di pacchetti, garantendo flessibilità e compatibilità per le tue esigenze di sviluppo."
+  description: "GroupDocs.Merger per Node.js è progettato per funzionare in modo efficace su diversi sistemi operativi, framework e gestori di pacchetti, garantendo flessibilità e compatibilità per le tue esigenze di sviluppo."
   items:
     # platform loop
     - title: "Amazon"

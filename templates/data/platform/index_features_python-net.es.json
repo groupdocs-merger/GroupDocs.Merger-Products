@@ -1,22 +1,22 @@
 {
   "features": {
-    "title": "Características Clave de GroupDocs.Merger para {{ProgLang}}",
-    "description": "Simplifica la gestión de documentos combinando, dividiendo y editando PDF y archivos de Office de manera fluida con GroupDocs.Merger en un entorno de {{ProgLang}}.",
+    "title": "Características Clave de GroupDocs.Merger para Python",
+    "description": "Simplifica la gestión de documentos combinando, dividiendo y editando PDF y archivos de Office de manera fluida con GroupDocs.Merger en un entorno de Python.",
     "feature_1": {
       "title": "Combinación fluida de documentos",
-      "content": "Combina múltiples documentos en uno seleccionando páginas específicas o rangos de varios archivos utilizando GroupDocs.Merger para {{ProgLang}}."
+      "content": "Combina múltiples documentos en uno seleccionando páginas específicas o rangos de varios archivos utilizando GroupDocs.Merger para Python."
     },
     "feature_2": {
       "title": "Capacidades de división de documentos",
-      "content": "Divide documentos grandes en archivos más pequeños y manejables con las avanzadas herramientas de división proporcionadas por GroupDocs.Merger para {{ProgLang}}."
+      "content": "Divide documentos grandes en archivos más pequeños y manejables con las avanzadas herramientas de división proporcionadas por GroupDocs.Merger para Python."
     },
     "feature_3": {
       "title": "Movimiento eficiente de páginas",
-      "content": "Reubica páginas dentro de un documento para satisfacer tus necesidades utilizando la intuitiva función MovePage en {{ProgLang}}."
+      "content": "Reubica páginas dentro de un documento para satisfacer tus necesidades utilizando la intuitiva función MovePage en Python."
     },
     "feature_4": {
       "title": "Opciones de eliminación de páginas",
-      "content": "Elimina páginas innecesarias o números de páginas específicos con la función RemovePages en GroupDocs.Merger para {{ProgLang}}."
+      "content": "Elimina páginas innecesarias o números de páginas específicos con la función RemovePages en GroupDocs.Merger para Python."
     },
     "feature_5": {
       "title": "Funcionalidad de rotación de páginas",
@@ -24,19 +24,19 @@
     },
     "feature_6": {
       "title": "Función de intercambio de páginas",
-      "content": "Reorganiza tu documento intercambiando las posiciones de las páginas utilizando la función SwapPages en GroupDocs.Merger para {{ProgLang}}."
+      "content": "Reorganiza tu documento intercambiando las posiciones de las páginas utilizando la función SwapPages en GroupDocs.Merger para Python."
     },
     "feature_7": {
       "title": "Extracción selectiva de páginas",
-      "content": "Extrae páginas específicas o rangos para crear un nuevo documento, enfocándote solo en el contenido que necesitas con GroupDocs.Merger para {{ProgLang}}."
+      "content": "Extrae páginas específicas o rangos para crear un nuevo documento, enfocándote solo en el contenido que necesitas con GroupDocs.Merger para Python."
     },
     "feature_8": {
       "title": "Herramienta de Alteración de Orientación",
-      "content": "Cambia la orientación de las páginas de retrato a paisaje o viceversa utilizando la función ChangeOrientation en tus proyectos de {{ProgLang}}."
+      "content": "Cambia la orientación de las páginas de retrato a paisaje o viceversa utilizando la función ChangeOrientation en tus proyectos de Python."
     },
     "feature_9": {
       "title": "Previsualizaciones de páginas de documentos",
-      "content": "Genera vistas previas en imagen de las páginas de documentos para revisar su contenido y diseño con la función PreviewPages en {{ProgLang}}."
+      "content": "Genera vistas previas en imagen de las páginas de documentos para revisar su contenido y diseño con la función PreviewPages en Python."
     }
   }
 }

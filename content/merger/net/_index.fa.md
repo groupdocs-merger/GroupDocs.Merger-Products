@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:36:59
 draft: false
 
 product: "Merger"
@@ -201,7 +201,7 @@ features:
 code_samples:
   enable: true
   title: "نمونه‌های کد"
-  description: "نمونه‌هایی از عملیات‌های رایج GroupDocs.Merger در {{ProgLang}}"
+  description: "نمونه‌هایی از عملیات‌های رایج GroupDocs.Merger در .NET"
   items:
     # code sample loop
     - title: "ادغام صفحات خاص از فایل‌های DOCX به یک سند واحد"

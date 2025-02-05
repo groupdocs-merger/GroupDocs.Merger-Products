@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:37:00
 draft: false
 
 product: "Merger"
@@ -71,20 +71,20 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Visão Geral do GroupDocs.Merger para {{ProgLang}}"
-  description: "Uma API versátil para mesclar, dividir, reorganizar e aprimorar documentos, slides e diagramas em aplicações {{ProgLang}}."
+  title: "Visão Geral do GroupDocs.Merger para Python"
+  description: "Uma API versátil para mesclar, dividir, reorganizar e aprimorar documentos, slides e diagramas em aplicações Python."
   features:
     # feature loop
-    - title: "Mescle documentos com precisão em {{ProgLang}}"
-      content: "Combine documentos PDF e do Office em um único arquivo usando o GroupDocs.Merger para {{ProgLang}}. Com suporte a diversos formatos, esta biblioteca garante integração e mesclagem sem falhas de vários tipos de arquivo, facilitando a gestão de documentos em aplicações {{ProgLang}}."
+    - title: "Mescle documentos com precisão em Python"
+      content: "Combine documentos PDF e do Office em um único arquivo usando o GroupDocs.Merger para Python. Com suporte a diversos formatos, esta biblioteca garante integração e mesclagem sem falhas de vários tipos de arquivo, facilitando a gestão de documentos em aplicações Python."
 
     # feature loop
     - title: "Simplifique o manuseio de documentos segmentando arquivos grandes"
-      content: "Divida facilmente arquivos PDF ou do Office grandes em seções menores e mais gerenciáveis com o GroupDocs.Merger para {{ProgLang}}. Personalize seus documentos dividindo-os com base em páginas específicas, intervalos ou extraindo páginas individuais, melhorando a organização e a eficiência do fluxo de trabalho."
+      content: "Divida facilmente arquivos PDF ou do Office grandes em seções menores e mais gerenciáveis com o GroupDocs.Merger para Python. Personalize seus documentos dividindo-os com base em páginas específicas, intervalos ou extraindo páginas individuais, melhorando a organização e a eficiência do fluxo de trabalho."
 
     # feature loop
-    - title: "Tenha controle total sobre a estrutura do seu documento em {{ProgLang}}"
-      content: "Reorganize, troque ou remova páginas para personalizar o layout do seu documento usando o GroupDocs.Merger para {{ProgLang}}. Adapte seus arquivos para atender a requisitos específicos, oferecendo flexibilidade incomparável na criação de estruturas de documentos personalizadas."
+    - title: "Tenha controle total sobre a estrutura do seu documento em Python"
+      content: "Reorganize, troque ou remova páginas para personalizar o layout do seu documento usando o GroupDocs.Merger para Python. Adapte seus arquivos para atender a requisitos específicos, oferecendo flexibilidade incomparável na criação de estruturas de documentos personalizadas."
 
 ############################# Platforms ############################
 platforms:
@@ -152,29 +152,29 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "Principais Recursos do GroupDocs.Merger para {{ProgLang}}"
-  description: "Simplifique o manuseio de documentos mesclando, dividindo e editando arquivos PDF e do Office de forma tranquila com o GroupDocs.Merger em um ambiente {{ProgLang}}."
+  title: "Principais Recursos do GroupDocs.Merger para Python"
+  description: "Simplifique o manuseio de documentos mesclando, dividindo e editando arquivos PDF e do Office de forma tranquila com o GroupDocs.Merger em um ambiente Python."
 
   items:
     # feature loop
     - icon: "merge"
       title: "Combinação de documentos sem interrupções"
-      content: "Combine múltiplos documentos em um só, selecionando páginas ou intervalos específicos de vários arquivos usando o GroupDocs.Merger para {{ProgLang}}."
+      content: "Combine múltiplos documentos em um só, selecionando páginas ou intervalos específicos de vários arquivos usando o GroupDocs.Merger para Python."
 
     # feature loop
     - icon: "split"
       title: "Capacidades de divisão de documentos"
-      content: "Divida documentos grandes em arquivos menores e mais gerenciáveis com as ferramentas avançadas de divisão fornecidas pelo GroupDocs.Merger para {{ProgLang}}."
+      content: "Divida documentos grandes em arquivos menores e mais gerenciáveis com as ferramentas avançadas de divisão fornecidas pelo GroupDocs.Merger para Python."
 
     # feature loop
     - icon: "move"
       title: "Movimentação eficiente de páginas"
-      content: "Reposicione páginas dentro de um documento conforme sua necessidade utilizando o recurso intuitivo MovePage em {{ProgLang}}."
+      content: "Reposicione páginas dentro de um documento conforme sua necessidade utilizando o recurso intuitivo MovePage em Python."
 
     # feature loop
     - icon: "remove"
       title: "Opções de remoção de páginas"
-      content: "Remova páginas desnecessárias ou números de páginas específicas com o recurso RemovePages no GroupDocs.Merger para {{ProgLang}}."
+      content: "Remova páginas desnecessárias ou números de páginas específicas com o recurso RemovePages no GroupDocs.Merger para Python."
 
     # feature loop
     - icon: "rotate"
@@ -184,22 +184,22 @@ features:
     # feature loop
     - icon: "swap"
       title: "Recurso de troca de páginas"
-      content: "Reorganize seu documento trocando as posições das páginas utilizando a função SwapPages no GroupDocs.Merger para {{ProgLang}}."
+      content: "Reorganize seu documento trocando as posições das páginas utilizando a função SwapPages no GroupDocs.Merger para Python."
 
     # feature loop
     - icon: "extract"
       title: "Extração seletiva de páginas"
-      content: "Extraia páginas ou intervalos específicos para criar um novo documento, focando apenas no conteúdo que você precisa com o GroupDocs.Merger para {{ProgLang}}."
+      content: "Extraia páginas ou intervalos específicos para criar um novo documento, focando apenas no conteúdo que você precisa com o GroupDocs.Merger para Python."
 
     # feature loop
     - icon: "orientation"
       title: "Ferramenta de alteração de orientação"
-      content: "Altere a orientação das páginas de retrato para paisagem ou vice-versa usando o recurso ChangeOrientation em seus projetos {{ProgLang}}."
+      content: "Altere a orientação das páginas de retrato para paisagem ou vice-versa usando o recurso ChangeOrientation em seus projetos Python."
 
     # feature loop
     - icon: "preview"
       title: "Visualizações das páginas do documento"
-      content: "Gere visualizações em imagem das páginas do documento para revisar seu conteúdo e layout com o recurso PreviewPages em {{ProgLang}}."
+      content: "Gere visualizações em imagem das páginas do documento para revisar seu conteúdo e layout com o recurso PreviewPages em Python."
 
 ############################# Code samples ############################
 code_samples:

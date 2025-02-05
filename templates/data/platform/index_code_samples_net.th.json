@@ -1,7 +1,7 @@
 {
   "code_samples": {
     "title": "ตัวอย่างโค้ด",
-    "description": "ตัวอย่างการใช้งานการทำงานทั่วไปของ GroupDocs.Merger ใน {{ProgLang}}",
+    "description": "ตัวอย่างการใช้งานการทำงานทั่วไปของ GroupDocs.Merger ใน .NET",
     "sample_1": {
       "title": "รวมหน้าที่เฉพาะจากไฟล์ DOCX เป็นเอกสารเดียว",
       "content_1": "ฟีเจอร์ [Selective Page Merge](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) ช่วยให้คุณสามารถแยกและรวมเฉพาะหน้าที่ต้องการจากไฟล์ DOCX หลายไฟล์.",

@@ -1,7 +1,7 @@
 {
   "formats": {
     "title": "Format File yang Didukung",
-    "description": "GroupDocs.Merger untuk {{ProgLang}} memungkinkan operasi tanpa hambatan dengan berbagai [format file](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), memastikan fleksibilitas dalam tugas manajemen dokumen Anda.",
+    "description": "GroupDocs.Merger untuk Python memungkinkan operasi tanpa hambatan dengan berbagai [format file](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), memastikan fleksibilitas dalam tugas manajemen dokumen Anda.",
     "groups": {
       "title_1": "Format Microsoft Office",
       "title_2": "Dokumen & gambar",

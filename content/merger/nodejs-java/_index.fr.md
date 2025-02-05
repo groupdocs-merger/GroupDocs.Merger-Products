@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:36:59
 draft: false
 
 product: "Merger"
@@ -67,20 +67,20 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Aperçu de GroupDocs.Merger pour {{ProgLang}}"
-  description: "Une API puissante pour fusionner, diviser, réorganiser et affiner des documents, des diapositives et des diagrammes dans les applications {{ProgLang}}."
+  title: "Aperçu de GroupDocs.Merger pour Node.js"
+  description: "Une API puissante pour fusionner, diviser, réorganiser et affiner des documents, des diapositives et des diagrammes dans les applications Node.js."
   features:
     # feature loop
-    - title: "Fusionnez des documents facilement avec {{ProgLang}}"
-      content: "Combinez des documents PDF et Office en un seul fichier sans effort grâce à GroupDocs.Merger pour {{ProgLang}}. Avec un large support de formats, cette bibliothèque garantit une intégration et une fusion sans couture de divers types de fichiers, simplifiant la gestion des documents dans les applications {{ProgLang}}."
+    - title: "Fusionnez des documents facilement avec Node.js"
+      content: "Combinez des documents PDF et Office en un seul fichier sans effort grâce à GroupDocs.Merger pour Node.js. Avec un large support de formats, cette bibliothèque garantit une intégration et une fusion sans couture de divers types de fichiers, simplifiant la gestion des documents dans les applications Node.js."
 
     # feature loop
     - title: "Simplifiez la gestion des documents en segmentant de gros fichiers"
-      content: "Divisez efficacement de gros fichiers PDF ou Office en sections plus petites et plus gérables avec GroupDocs.Merger pour {{ProgLang}}. Personnalisez vos documents en les répartissant selon des pages spécifiques, des plages, ou en extrayant des pages individuelles, améliorant ainsi l'organisation et l'efficacité des flux de travail."
+      content: "Divisez efficacement de gros fichiers PDF ou Office en sections plus petites et plus gérables avec GroupDocs.Merger pour Node.js. Personnalisez vos documents en les répartissant selon des pages spécifiques, des plages, ou en extrayant des pages individuelles, améliorant ainsi l'organisation et l'efficacité des flux de travail."
 
     # feature loop
-    - title: "Prenez le contrôle total de la structure de vos documents dans {{ProgLang}}"
-      content: "Réorganisez, échangez ou supprimez facilement des pages pour personnaliser la mise en page de vos documents avec GroupDocs.Merger pour {{ProgLang}}. Adaptez vos fichiers pour répondre à des exigences spécifiques, offrant une flexibilité inégalée dans la création de structures documentaires sur mesure."
+    - title: "Prenez le contrôle total de la structure de vos documents dans Node.js"
+      content: "Réorganisez, échangez ou supprimez facilement des pages pour personnaliser la mise en page de vos documents avec GroupDocs.Merger pour Node.js. Adaptez vos fichiers pour répondre à des exigences spécifiques, offrant une flexibilité inégalée dans la création de structures documentaires sur mesure."
 
 ############################# Platforms ############################
 platforms:
@@ -201,13 +201,13 @@ features:
 code_samples:
   enable: true
   title: "Exemples de code"
-  description: "Découvrez les cas d'utilisation courants de GroupDocs.Merger en {{ProgLang}}. Ces exemples montrent comment fusionner et diviser efficacement des documents en utilisant GroupDocs.Merger pour {{ProgLang}}."
+  description: "Découvrez les cas d'utilisation courants de GroupDocs.Merger en Node.js. Ces exemples montrent comment fusionner et diviser efficacement des documents en utilisant GroupDocs.Merger pour Node.js."
   items:
     # code sample loop
-    - title: "Fusionner plusieurs fichiers DOCX en un seul document en {{ProgLang}}"
+    - title: "Fusionner plusieurs fichiers DOCX en un seul document en Node.js"
       content: |
-        Utilisez GroupDocs.Merger pour {{ProgLang}} pour combiner sans effort plusieurs fichiers DOCX en un seul document. La fonctionnalité [Fusionner des documents Word](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) simplifie la gestion des documents en fusionnant les fichiers de manière efficace. Voici un extrait de code {{ProgLang}} démontrant le processus de fusion :
-        {{< landing/code title="Exemple : Fusion de fichiers DOCX en {{ProgLang}}">}}
+        Utilisez GroupDocs.Merger pour Node.js pour combiner sans effort plusieurs fichiers DOCX en un seul document. La fonctionnalité [Fusionner des documents Word](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) simplifie la gestion des documents en fusionnant les fichiers de manière efficace. Voici un extrait de code Node.js démontrant le processus de fusion :
+        {{< landing/code title="Exemple : Fusion de fichiers DOCX en Node.js">}}
         ```javascript {style=abap}   
         // Chargez le premier fichier DOCX
         const merger = new Merger("sample1.docx");
@@ -218,12 +218,12 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Diviser un document PDF en plusieurs fichiers en {{ProgLang}}"
+    - title: "Diviser un document PDF en plusieurs fichiers en Node.js"
       content: |
-        GroupDocs.Merger pour {{ProgLang}} permet de diviser facilement de grands documents PDF en fichiers plus petits. La fonctionnalité [Diviser le document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) vous permet d'extraire des pages spécifiques selon divers critères, tels que la plage de pages, les pages de début/de fin ou les pages impaires/ paires. Cette fonctionnalité aide à organiser de gros documents en les divisant en fichiers plus petits et plus gérables.
-        {{< landing/code title="Comment diviser un PDF en fichiers séparés en {{ProgLang}}">}}
+        GroupDocs.Merger pour Node.js permet de diviser facilement de grands documents PDF en fichiers plus petits. La fonctionnalité [Diviser le document](https://docs.groupdocs.com/merger/nodejs-java/split-document/) vous permet d'extraire des pages spécifiques selon divers critères, tels que la plage de pages, les pages de début/de fin ou les pages impaires/ paires. Cette fonctionnalité aide à organiser de gros documents en les divisant en fichiers plus petits et plus gérables.
+        {{< landing/code title="Comment diviser un PDF en fichiers séparés en Node.js">}}
         ```javascript {style=abap}   
-        // Utilisez GroupDocs.Merger pour {{ProgLang}} pour diviser le fichier PDF
+        // Utilisez GroupDocs.Merger pour Node.js pour diviser le fichier PDF
         const filePath = "input.pdf";
         const filePathOut = "output.pdf";
 

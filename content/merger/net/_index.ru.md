@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:37:00
 draft: false
 
 product: "Merger"
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "Поддерживаемые форматы файлов"
   description: |
-    GroupDocs.Merger для {{ProgLang}} позволяет работать с различными [форматами файлов](https://docs.groupdocs.com/merger/net/supported-document-formats/), обеспечивая гибкость для ваших потребностей в обработке документов.
+    GroupDocs.Merger для .NET позволяет работать с различными [форматами файлов](https://docs.groupdocs.com/merger/net/supported-document-formats/), обеспечивая гибкость для ваших потребностей в обработке документов.
   groups:
     # group loop
     - color: "green"
@@ -201,7 +201,7 @@ features:
 code_samples:
   enable: true
   title: "Примеры кода"
-  description: "Примеры распространённых операций GroupDocs.Merger в {{ProgLang}}"
+  description: "Примеры распространённых операций GroupDocs.Merger в .NET"
   items:
     # code sample loop
     - title: "Объединение конкретных страниц из файлов DOCX в один документ"

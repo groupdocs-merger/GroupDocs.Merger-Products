@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:37:00
 draft: false
 
 product: "Merger"
@@ -87,7 +87,7 @@ overview:
 platforms:
   enable: true
   title: "Indipendenza dalla piattaforma"
-  description: "GroupDocs.Merger per {{ProgLang}} è progettato per funzionare senza problemi su più sistemi operativi, framework e gestori di pacchetti, offrendo versatilità e compatibilità per il tuo ambiente di sviluppo."
+  description: "GroupDocs.Merger per .NET è progettato per funzionare senza problemi su più sistemi operativi, framework e gestori di pacchetti, offrendo versatilità e compatibilità per il tuo ambiente di sviluppo."
   items:
     # platform loop
     - title: "Amazon"
@@ -201,7 +201,7 @@ features:
 code_samples:
   enable: true
   title: "Esempi di codice"
-  description: "Esempi di operazioni comuni di GroupDocs.Merger in {{ProgLang}}"
+  description: "Esempi di operazioni comuni di GroupDocs.Merger in .NET"
   items:
     # code sample loop
     - title: "Unisci pagine specifiche da file DOCX in un unico documento"

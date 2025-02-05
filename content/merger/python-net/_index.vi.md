@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:37:01
 draft: false
 
 product: "Merger"
@@ -71,20 +71,20 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Tổng quan về GroupDocs.Merger cho {{ProgLang}}"
-  description: "Một API đa năng để gộp, chia tách, sắp xếp lại và tinh chỉnh tài liệu, slide và sơ đồ trong các ứng dụng {{ProgLang}}."
+  title: "Tổng quan về GroupDocs.Merger cho Python"
+  description: "Một API đa năng để gộp, chia tách, sắp xếp lại và tinh chỉnh tài liệu, slide và sơ đồ trong các ứng dụng Python."
   features:
     # feature loop
-    - title: "Gộp tài liệu một cách nhanh chóng trong {{ProgLang}}"
-      content: "Kết hợp tài liệu PDF và Office thành một tệp duy nhất một cách hiệu quả bằng cách sử dụng GroupDocs.Merger cho {{ProgLang}}. Với hỗ trợ định dạng phong phú, thư viện này đảm bảo tích hợp và gộp các loại tệp khác nhau một cách liền mạch, đơn giản hóa việc quản lý tài liệu trong các ứng dụng {{ProgLang}}."
+    - title: "Gộp tài liệu một cách nhanh chóng trong Python"
+      content: "Kết hợp tài liệu PDF và Office thành một tệp duy nhất một cách hiệu quả bằng cách sử dụng GroupDocs.Merger cho Python. Với hỗ trợ định dạng phong phú, thư viện này đảm bảo tích hợp và gộp các loại tệp khác nhau một cách liền mạch, đơn giản hóa việc quản lý tài liệu trong các ứng dụng Python."
 
     # feature loop
     - title: "Đơn giản hóa việc xử lý tài liệu bằng cách chia nhỏ các tệp lớn"
-      content: "Chia nhỏ dễ dàng các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn với GroupDocs.Merger cho {{ProgLang}}. Tùy chỉnh tài liệu của bạn bằng cách chia chúng theo các trang cụ thể, khoảng, hoặc trích xuất các trang riêng lẻ, cải thiện tổ chức và hiệu quả công việc."
+      content: "Chia nhỏ dễ dàng các tệp PDF hoặc Office lớn thành các phần nhỏ hơn, dễ quản lý hơn với GroupDocs.Merger cho Python. Tùy chỉnh tài liệu của bạn bằng cách chia chúng theo các trang cụ thể, khoảng, hoặc trích xuất các trang riêng lẻ, cải thiện tổ chức và hiệu quả công việc."
 
     # feature loop
-    - title: "Kiểm soát hoàn toàn cấu trúc tài liệu của bạn trong {{ProgLang}}"
-      content: "Dễ dàng sắp xếp lại, hoán đổi hoặc xóa các trang để tùy chỉnh bố cục tài liệu của bạn bằng GroupDocs.Merger cho {{ProgLang}}. Điều chỉnh các tệp của bạn để đáp ứng các yêu cầu cụ thể, cung cấp tính linh hoạt vô song trong việc tạo ra cấu trúc tài liệu được tùy chỉnh."
+    - title: "Kiểm soát hoàn toàn cấu trúc tài liệu của bạn trong Python"
+      content: "Dễ dàng sắp xếp lại, hoán đổi hoặc xóa các trang để tùy chỉnh bố cục tài liệu của bạn bằng GroupDocs.Merger cho Python. Điều chỉnh các tệp của bạn để đáp ứng các yêu cầu cụ thể, cung cấp tính linh hoạt vô song trong việc tạo ra cấu trúc tài liệu được tùy chỉnh."
 
 ############################# Platforms ############################
 platforms:
@@ -152,29 +152,29 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "Các Tính Năng Chính của GroupDocs.Merger cho {{ProgLang}}"
-  description: "Đơn giản hóa việc xử lý tài liệu bằng cách kết hợp, chia tách và chỉnh sửa các tệp PDF và Office một cách liền mạch với GroupDocs.Merger trong môi trường {{ProgLang}}."
+  title: "Các Tính Năng Chính của GroupDocs.Merger cho Python"
+  description: "Đơn giản hóa việc xử lý tài liệu bằng cách kết hợp, chia tách và chỉnh sửa các tệp PDF và Office một cách liền mạch với GroupDocs.Merger trong môi trường Python."
 
   items:
     # feature loop
     - icon: "merge"
       title: "Kết hợp tài liệu liền mạch"
-      content: "Kết hợp nhiều tài liệu thành một bằng cách chọn trang cụ thể hoặc khoảng từ nhiều tệp khác nhau sử dụng GroupDocs.Merger cho {{ProgLang}}."
+      content: "Kết hợp nhiều tài liệu thành một bằng cách chọn trang cụ thể hoặc khoảng từ nhiều tệp khác nhau sử dụng GroupDocs.Merger cho Python."
 
     # feature loop
     - icon: "split"
       title: "Khả năng chia tách tài liệu"
-      content: "Chia nhỏ các tài liệu lớn thành các tệp nhỏ hơn, dễ quản lý hơn với các công cụ chia tách tiên tiến được cung cấp bởi GroupDocs.Merger cho {{ProgLang}}."
+      content: "Chia nhỏ các tài liệu lớn thành các tệp nhỏ hơn, dễ quản lý hơn với các công cụ chia tách tiên tiến được cung cấp bởi GroupDocs.Merger cho Python."
 
     # feature loop
     - icon: "move"
       title: "Di chuyển trang hiệu quả"
-      content: "Thay đổi vị trí các trang trong một tài liệu để đáp ứng nhu cầu của bạn bằng cách sử dụng tính năng Di chuyển Trang trong {{ProgLang}}."
+      content: "Thay đổi vị trí các trang trong một tài liệu để đáp ứng nhu cầu của bạn bằng cách sử dụng tính năng Di chuyển Trang trong Python."
 
     # feature loop
     - icon: "remove"
       title: "Tùy chọn xóa trang"
-      content: "Xóa dễ dàng các trang không cần thiết hoặc các số trang cụ thể với tính năng Xóa Trang trong GroupDocs.Merger cho {{ProgLang}}."
+      content: "Xóa dễ dàng các trang không cần thiết hoặc các số trang cụ thể với tính năng Xóa Trang trong GroupDocs.Merger cho Python."
 
     # feature loop
     - icon: "rotate"
@@ -184,22 +184,22 @@ features:
     # feature loop
     - icon: "swap"
       title: "Tính năng hoán đổi trang"
-      content: "Tổ chức lại tài liệu của bạn bằng cách hoán đổi vị trí các trang sử dụng chức năng Hoán Đổi Trang trong GroupDocs.Merger cho {{ProgLang}}."
+      content: "Tổ chức lại tài liệu của bạn bằng cách hoán đổi vị trí các trang sử dụng chức năng Hoán Đổi Trang trong GroupDocs.Merger cho Python."
 
     # feature loop
     - icon: "extract"
       title: "Trích xuất trang chọn lọc"
-      content: "Trích xuất các trang cụ thể hoặc khoảng để tạo một tài liệu mới, chỉ tập trung vào nội dung bạn cần với GroupDocs.Merger cho {{ProgLang}}."
+      content: "Trích xuất các trang cụ thể hoặc khoảng để tạo một tài liệu mới, chỉ tập trung vào nội dung bạn cần với GroupDocs.Merger cho Python."
 
     # feature loop
     - icon: "orientation"
       title: "Công cụ thay đổi hướng trang"
-      content: "Thay đổi hướng của các trang từ chiều dọc sang chiều ngang hoặc ngược lại bằng cách sử dụng tính năng Thay Đổi Hướng trong các dự án {{ProgLang}} của bạn."
+      content: "Thay đổi hướng của các trang từ chiều dọc sang chiều ngang hoặc ngược lại bằng cách sử dụng tính năng Thay Đổi Hướng trong các dự án Python của bạn."
 
     # feature loop
     - icon: "preview"
       title: "Xem trước trang tài liệu"
-      content: "Tạo hình ảnh xem trước của các trang tài liệu để xem xét nội dung và bố cục của chúng với tính năng Xem Trước Trang trong {{ProgLang}}."
+      content: "Tạo hình ảnh xem trước của các trang tài liệu để xem xét nội dung và bố cục của chúng với tính năng Xem Trước Trang trong Python."
 
 ############################# Code samples ############################
 code_samples:

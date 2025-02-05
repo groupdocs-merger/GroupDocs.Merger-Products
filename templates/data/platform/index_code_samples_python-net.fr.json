@@ -1,22 +1,22 @@
 {
   "code_samples": {
     "title": "Exemples de code",
-    "description": "Découvrez des cas d'utilisation courants de GroupDocs.Merger en {{ProgLang}}. Ces exemples montrent comment fusionner et diviser efficacement des documents en utilisant GroupDocs.Merger pour {{ProgLang}}.",
+    "description": "Découvrez des cas d'utilisation courants de GroupDocs.Merger en Python. Ces exemples montrent comment fusionner et diviser efficacement des documents en utilisant GroupDocs.Merger pour Python.",
     "sample_1": {
-      "title": "Fusionner plusieurs fichiers DOCX en un seul document en {{ProgLang}}",
-      "content_1": "GroupDocs.Merger pour {{ProgLang}} vous permet de combiner plusieurs fichiers DOCX en un seul document. Grâce à la fonctionnalité [Fusionner des documents Word](https://docs.groupdocs.com/merger/python-net/merge/word/), vous pouvez rationaliser la gestion documentaire et améliorer la productivité.",
-      "content_2": "Voici un extrait de code en {{ProgLang}} démontrant le processus de fusion :",
-      "code_title": "Exemple : Fusion de fichiers DOCX en {{ProgLang}}",
+      "title": "Fusionner plusieurs fichiers DOCX en un seul document en Python",
+      "content_1": "GroupDocs.Merger pour Python vous permet de combiner plusieurs fichiers DOCX en un seul document. Grâce à la fonctionnalité [Fusionner des documents Word](https://docs.groupdocs.com/merger/python-net/merge/word/), vous pouvez rationaliser la gestion documentaire et améliorer la productivité.",
+      "content_2": "Voici un extrait de code en Python démontrant le processus de fusion :",
+      "code_title": "Exemple : Fusion de fichiers DOCX en Python",
       "comment_1": "Charger le premier fichier DOCX",
       "comment_2": "Ajouter d'autres fichiers DOCX à fusionner",
       "comment_3": "Fusionner les fichiers DOCX et enregistrer le résultat"
     },
     "sample_2": {
-      "title": "Diviser un document PDF en plusieurs fichiers en {{ProgLang}}",
-      "content_1": "Avec GroupDocs.Merger pour {{ProgLang}}, vous pouvez diviser de grands documents PDF en fichiers plus petits sans effort. La fonctionnalité [Diviser le document](https://docs.groupdocs.com/merger/python-net/split-document/) vous permet d'extraire des pages spécifiques sur la base de critères tels que la plage de pages, les pages de début/fin, ou les pages impair/paire.",
+      "title": "Diviser un document PDF en plusieurs fichiers en Python",
+      "content_1": "Avec GroupDocs.Merger pour Python, vous pouvez diviser de grands documents PDF en fichiers plus petits sans effort. La fonctionnalité [Diviser le document](https://docs.groupdocs.com/merger/python-net/split-document/) vous permet d'extraire des pages spécifiques sur la base de critères tels que la plage de pages, les pages de début/fin, ou les pages impair/paire.",
       "content_2": "Cette fonctionnalité aide à organiser de grands documents en les fractionnant en fichiers plus petits et plus gérables.",
-      "code_title": "Comment diviser un PDF en fichiers distincts en {{ProgLang}}",
-      "comment_1": "Utiliser GroupDocs.Merger pour {{ProgLang}} pour diviser le fichier PDF",
+      "code_title": "Comment diviser un PDF en fichiers distincts en Python",
+      "comment_1": "Utiliser GroupDocs.Merger pour Python pour diviser le fichier PDF",
       "comment_2": "Définir SplitOptions avec le format de sortie souhaité",
       "comment_3": "Initialiser le Merger avec le document PDF d'entrée",
       "comment_4": "Appeler la méthode de division avec l'objet SplitOptions pour générer des fichiers séparés"

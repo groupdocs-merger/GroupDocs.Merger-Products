@@ -1,11 +1,11 @@
 {
   "head": {
-    "title": "API penggabungan dokumen untuk {{ProgLang}} | gabungkan PDF, Word, Excel",
-    "description": "API {{ProgLang}} untuk penggabungan dokumen. Gabungkan, pisahkan, tukar, urutkan ulang, dan hapus halaman dari file PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, dan EPUB."
+    "title": "API penggabungan dokumen untuk Python | gabungkan PDF, Word, Excel",
+    "description": "API Python untuk penggabungan dokumen. Gabungkan, pisahkan, tukar, urutkan ulang, dan hapus halaman dari file PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, dan EPUB."
   },
   "header": {
     "title_1": "Gabungkan dokumen",
-    "title_2": "menggunakan API {{ProgLang}}",
+    "title_2": "menggunakan API Python",
     "description": "API yang kuat untuk menggabungkan, memisahkan, dan memodifikasi file PDF dan Office.",
     "words": {
       "for": "untuk"

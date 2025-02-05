@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:37:00
 draft: false
 
 product: "Merger"
@@ -123,7 +123,7 @@ formats:
   enable: true
   title: "サポートされているファイル形式"
   description: |
-    GroupDocs.Merger for {{ProgLang}}を使用すると、さまざまな[ファイル形式](https://docs.groupdocs.com/merger/python-net/supported-document-formats/)とのシームレスな操作が可能になり、ドキュメント管理タスクの柔軟性が向上します。
+    GroupDocs.Merger for Pythonを使用すると、さまざまな[ファイル形式](https://docs.groupdocs.com/merger/python-net/supported-document-formats/)とのシームレスな操作が可能になり、ドキュメント管理タスクの柔軟性が向上します。
   groups:
     # group loop
     - color: "green"

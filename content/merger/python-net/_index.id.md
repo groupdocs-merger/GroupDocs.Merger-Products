@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:37:00
 draft: false
 
 product: "Merger"
@@ -26,11 +26,11 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "API penggabungan dokumen untuk {{ProgLang}} | gabungkan PDF, Word, Excel"
-head_description: "API {{ProgLang}} untuk penggabungan dokumen. Gabungkan, pisahkan, tukar, urutkan ulang, dan hapus halaman dari file PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, dan EPUB."
+head_title: "API penggabungan dokumen untuk Python | gabungkan PDF, Word, Excel"
+head_description: "API Python untuk penggabungan dokumen. Gabungkan, pisahkan, tukar, urutkan ulang, dan hapus halaman dari file PDF, Microsoft Word, Excel, PowerPoint, Visio, XPS, dan EPUB."
 
 ############################# Header ############################
-title: "Gabungkan dokumen<br>menggunakan API {{ProgLang}}"
+title: "Gabungkan dokumen<br>menggunakan API Python"
 description: "API yang kuat untuk menggabungkan, memisahkan, dan memodifikasi file PDF dan Office."
 words:
   for: "untuk"
@@ -71,26 +71,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "Ikhtisar GroupDocs.Merger untuk {{ProgLang}}"
-  description: "API serbaguna untuk menggabungkan, membagi, menyusun ulang, dan menyempurnakan dokumen, presentasi, dan diagram dalam aplikasi {{ProgLang}}."
+  title: "Ikhtisar GroupDocs.Merger untuk Python"
+  description: "API serbaguna untuk menggabungkan, membagi, menyusun ulang, dan menyempurnakan dokumen, presentasi, dan diagram dalam aplikasi Python."
   features:
     # feature loop
-    - title: "Gabungkan dokumen dengan lancar di {{ProgLang}}"
-      content: "Dengan GroupDocs.Merger untuk {{ProgLang}}, Anda dapat menggabungkan dokumen PDF dan Office menjadi satu file tanpa kesulitan. Dengan dukungan format yang luas, pustaka ini memastikan integrasi dan penggabungan berbagai jenis file yang mulus, menyederhanakan manajemen dokumen dalam aplikasi {{ProgLang}}."
+    - title: "Gabungkan dokumen dengan lancar di Python"
+      content: "Dengan GroupDocs.Merger untuk Python, Anda dapat menggabungkan dokumen PDF dan Office menjadi satu file tanpa kesulitan. Dengan dukungan format yang luas, pustaka ini memastikan integrasi dan penggabungan berbagai jenis file yang mulus, menyederhanakan manajemen dokumen dalam aplikasi Python."
 
     # feature loop
     - title: "Sederhanakan penanganan dokumen dengan membagi file besar"
-      content: "Dengan GroupDocs.Merger untuk {{ProgLang}}, Anda dapat dengan mudah membagi file PDF atau Office besar menjadi bagian yang lebih kecil dan lebih mudah dikelola. Sesuaikan dokumen Anda dengan membaginya berdasarkan halaman tertentu, rentang, atau mengekstrak halaman individu, meningkatkan organisasi dan efisiensi alur kerja."
+      content: "Dengan GroupDocs.Merger untuk Python, Anda dapat dengan mudah membagi file PDF atau Office besar menjadi bagian yang lebih kecil dan lebih mudah dikelola. Sesuaikan dokumen Anda dengan membaginya berdasarkan halaman tertentu, rentang, atau mengekstrak halaman individu, meningkatkan organisasi dan efisiensi alur kerja."
 
     # feature loop
-    - title: "Kendalikan sepenuhnya struktur dokumen Anda di {{ProgLang}}"
-      content: "Dengan GroupDocs.Merger untuk {{ProgLang}}, Anda dapat dengan mudah menyusun ulang, menukar, atau menghapus halaman untuk menyesuaikan tata letak dokumen Anda. Sesuaikan file Anda untuk memenuhi persyaratan spesifik, menawarkan fleksibilitas yang tak tertandingi dalam membuat struktur dokumen yang disesuaikan."
+    - title: "Kendalikan sepenuhnya struktur dokumen Anda di Python"
+      content: "Dengan GroupDocs.Merger untuk Python, Anda dapat dengan mudah menyusun ulang, menukar, atau menghapus halaman untuk menyesuaikan tata letak dokumen Anda. Sesuaikan file Anda untuk memenuhi persyaratan spesifik, menawarkan fleksibilitas yang tak tertandingi dalam membuat struktur dokumen yang disesuaikan."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Kemandirian Platform"
-  description: "GroupDocs.Merger untuk {{ProgLang}} dirancang untuk beroperasi dengan lancar di berbagai sistem operasi, kerangka kerja, dan pengelola paket, memberikan fleksibilitas dan kompatibilitas untuk lingkungan pengembangan Anda."
+  description: "GroupDocs.Merger untuk Python dirancang untuk beroperasi dengan lancar di berbagai sistem operasi, kerangka kerja, dan pengelola paket, memberikan fleksibilitas dan kompatibilitas untuk lingkungan pengembangan Anda."
   items:
     # platform loop
     - title: "Amazon"
@@ -123,7 +123,7 @@ formats:
   enable: true
   title: "Format File yang Didukung"
   description: |
-    GroupDocs.Merger untuk {{ProgLang}} memungkinkan operasi tanpa hambatan dengan berbagai [format file](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), memastikan fleksibilitas dalam tugas manajemen dokumen Anda.
+    GroupDocs.Merger untuk Python memungkinkan operasi tanpa hambatan dengan berbagai [format file](https://docs.groupdocs.com/merger/python-net/supported-document-formats/), memastikan fleksibilitas dalam tugas manajemen dokumen Anda.
   groups:
     # group loop
     - color: "green"

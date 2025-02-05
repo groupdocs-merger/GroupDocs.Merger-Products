@@ -1,7 +1,7 @@
 {
   "code_samples": {
     "title": "Примеры кода",
-    "description": "Примеры распространённых операций GroupDocs.Merger в {{ProgLang}}",
+    "description": "Примеры распространённых операций GroupDocs.Merger в .NET",
     "sample_1": {
       "title": "Объединение конкретных страниц из файлов DOCX в один документ",
       "content_1": "Функция [Селективное объединение страниц](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) позволяет извлекать и объединять только необходимые страницы из нескольких файлов DOCX.",

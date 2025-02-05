@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:37:01
 draft: false
 
 product: "Merger"
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "Підтримувані формати файлів"
   description: |
-    GroupDocs.Merger для {{ProgLang}} дозволяє працювати з різноманітними [форматами файлів](https://docs.groupdocs.com/merger/net/supported-document-formats/), забезпечуючи гнучкість для ваших потреб у обробці документів.
+    GroupDocs.Merger для .NET дозволяє працювати з різноманітними [форматами файлів](https://docs.groupdocs.com/merger/net/supported-document-formats/), забезпечуючи гнучкість для ваших потреб у обробці документів.
   groups:
     # group loop
     - color: "green"

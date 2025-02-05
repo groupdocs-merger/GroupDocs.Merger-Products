@@ -1,18 +1,18 @@
 {
   "overview": {
-    "title": "Übersicht über GroupDocs.Merger für {{ProgLang}}",
-    "description": "Eine vielseitige API zum Zusammenführen, Aufteilen, Anordnen und Verfeinern von Dokumenten, Folien und Diagrammen in {{ProgLang}}-Anwendungen.",
+    "title": "Übersicht über GroupDocs.Merger für Python",
+    "description": "Eine vielseitige API zum Zusammenführen, Aufteilen, Anordnen und Verfeinern von Dokumenten, Folien und Diagrammen in Python-Anwendungen.",
     "feature_1": {
-      "title": "Dokumente in {{ProgLang}} problemlos zusammenführen",
-      "description": "Kombinieren Sie mühelos PDF- und Office-Dokumente zu einer einzigen Datei mit GroupDocs.Merger für {{ProgLang}}. Mit umfangreicher Formatunterstützung gewährleistet diese Bibliothek eine nahtlose Integration und das Zusammenführen verschiedener Dateitypen, was das Dokumentenmanagement in {{ProgLang}}-Anwendungen vereinfacht."
+      "title": "Dokumente in Python problemlos zusammenführen",
+      "description": "Kombinieren Sie mühelos PDF- und Office-Dokumente zu einer einzigen Datei mit GroupDocs.Merger für Python. Mit umfangreicher Formatunterstützung gewährleistet diese Bibliothek eine nahtlose Integration und das Zusammenführen verschiedener Dateitypen, was das Dokumentenmanagement in Python-Anwendungen vereinfacht."
     },
     "feature_2": {
       "title": "Vereinfachen Sie die Dokumentenverwaltung durch Segmentierung großer Dateien",
-      "description": "Teilen Sie große PDF- oder Office-Dateien mit GroupDocs.Merger für {{ProgLang}} in kleinere, überschaubare Abschnitte. Passen Sie Ihre Dokumente an, indem Sie sie basierend auf bestimmten Seiten oder Bereichen aufteilen oder einzelne Seiten extrahieren, was die Organisation und Effizienz des Workflows verbessert."
+      "description": "Teilen Sie große PDF- oder Office-Dateien mit GroupDocs.Merger für Python in kleinere, überschaubare Abschnitte. Passen Sie Ihre Dokumente an, indem Sie sie basierend auf bestimmten Seiten oder Bereichen aufteilen oder einzelne Seiten extrahieren, was die Organisation und Effizienz des Workflows verbessert."
     },
     "feature_3": {
-      "title": "Erhalten Sie die volle Kontrolle über die Struktur Ihrer Dokumente in {{ProgLang}}",
-      "description": "Ordnen Sie Seiten mit GroupDocs.Merger für {{ProgLang}} mühelos neu, tauschen Sie Seiten aus oder entfernen Sie diese, um das Layout Ihres Dokuments anzupassen. Passen Sie Ihre Dateien an spezifische Anforderungen an und bieten Sie unvergleichliche Flexibilität bei der Erstellung maßgeschneiderter Dokumentstrukturen."
+      "title": "Erhalten Sie die volle Kontrolle über die Struktur Ihrer Dokumente in Python",
+      "description": "Ordnen Sie Seiten mit GroupDocs.Merger für Python mühelos neu, tauschen Sie Seiten aus oder entfernen Sie diese, um das Layout Ihres Dokuments anzupassen. Passen Sie Ihre Dateien an spezifische Anforderungen an und bieten Sie unvergleichliche Flexibilität bei der Erstellung maßgeschneiderter Dokumentstrukturen."
     }
   }
 }

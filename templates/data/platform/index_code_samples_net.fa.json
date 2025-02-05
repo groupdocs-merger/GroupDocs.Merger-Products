@@ -1,7 +1,7 @@
 {
   "code_samples": {
     "title": "نمونه‌های کد",
-    "description": "نمونه‌هایی از عملیات‌های رایج GroupDocs.Merger در {{ProgLang}}",
+    "description": "نمونه‌هایی از عملیات‌های رایج GroupDocs.Merger در .NET",
     "sample_1": {
       "title": "ادغام صفحات خاص از فایل‌های DOCX به یک سند واحد",
       "content_1": "ویژگی [ادغام انتخابی صفحات](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) این امکان را به شما می‌دهد تا فقط صفحات مورد نیاز را از چندین فایل DOCX استخراج و ادغام کنید.",

@@ -1,22 +1,22 @@
 {
   "features": {
-    "title": "Hauptfunktionen von GroupDocs.Merger für {{ProgLang}}",
-    "description": "Vereinfachen Sie die Dokumentenbearbeitung, indem Sie PDF- und Office-Dateien nahtlos mit GroupDocs.Merger in einer {{ProgLang}}-Umgebung zusammenführen, aufteilen und bearbeiten.",
+    "title": "Hauptfunktionen von GroupDocs.Merger für Python",
+    "description": "Vereinfachen Sie die Dokumentenbearbeitung, indem Sie PDF- und Office-Dateien nahtlos mit GroupDocs.Merger in einer Python-Umgebung zusammenführen, aufteilen und bearbeiten.",
     "feature_1": {
       "title": "Nahtlose Dokumentenkombination",
-      "content": "Fügen Sie mehrere Dokumente zu einem zusammen, indem Sie bestimmte Seiten oder Seitenbereiche aus verschiedenen Dateien mit GroupDocs.Merger für {{ProgLang}} auswählen."
+      "content": "Fügen Sie mehrere Dokumente zu einem zusammen, indem Sie bestimmte Seiten oder Seitenbereiche aus verschiedenen Dateien mit GroupDocs.Merger für Python auswählen."
     },
     "feature_2": {
       "title": "Funktionen zum Aufteilen von Dokumenten",
-      "content": "Teilen Sie große Dokumente in kleinere, handhabbarere Dateien mit den erweiterten Aufteilungswerkzeugen von GroupDocs.Merger für {{ProgLang}}."
+      "content": "Teilen Sie große Dokumente in kleinere, handhabbarere Dateien mit den erweiterten Aufteilungswerkzeugen von GroupDocs.Merger für Python."
     },
     "feature_3": {
       "title": "Effiziente Seitenverschiebung",
-      "content": "Repositionieren Sie Seiten innerhalb eines Dokuments nach Ihren Anforderungen mit der intuitiven MovePage-Funktion in {{ProgLang}}."
+      "content": "Repositionieren Sie Seiten innerhalb eines Dokuments nach Ihren Anforderungen mit der intuitiven MovePage-Funktion in Python."
     },
     "feature_4": {
       "title": "Optionen zum Entfernen von Seiten",
-      "content": "Entfernen Sie unnötige Seiten oder spezifische Seitenzahlen mit der RemovePages-Funktion in GroupDocs.Merger für {{ProgLang}}."
+      "content": "Entfernen Sie unnötige Seiten oder spezifische Seitenzahlen mit der RemovePages-Funktion in GroupDocs.Merger für Python."
     },
     "feature_5": {
       "title": "Seitenrotationsfunktionalität",
@@ -24,19 +24,19 @@
     },
     "feature_6": {
       "title": "Seitenwechsel-Funktion",
-      "content": "Organisieren Sie Ihr Dokument neu, indem Sie die Positionen von Seiten mit der SwapPages-Funktion in GroupDocs.Merger für {{ProgLang}} tauschen."
+      "content": "Organisieren Sie Ihr Dokument neu, indem Sie die Positionen von Seiten mit der SwapPages-Funktion in GroupDocs.Merger für Python tauschen."
     },
     "feature_7": {
       "title": "Selektive Seitenextraktion",
-      "content": "Extrahieren Sie spezifische Seiten oder Bereiche, um ein neues Dokument zu erstellen, das sich ausschließlich auf den benötigten Inhalt konzentriert, mit GroupDocs.Merger für {{ProgLang}}."
+      "content": "Extrahieren Sie spezifische Seiten oder Bereiche, um ein neues Dokument zu erstellen, das sich ausschließlich auf den benötigten Inhalt konzentriert, mit GroupDocs.Merger für Python."
     },
     "feature_8": {
       "title": "Werkzeug zur Änderung der Ausrichtung",
-      "content": "Ändern Sie die Ausrichtung von Seiten von Hochformat auf Querformat oder umgekehrt mit der ChangeOrientation-Funktion in Ihren {{ProgLang}}-Projekten."
+      "content": "Ändern Sie die Ausrichtung von Seiten von Hochformat auf Querformat oder umgekehrt mit der ChangeOrientation-Funktion in Ihren Python-Projekten."
     },
     "feature_9": {
       "title": "Vorschau von Dokumentenseiten",
-      "content": "Generieren Sie Bildvorschauen von Dokumentenseiten, um deren Inhalt und Layout mit der PreviewPages-Funktion in {{ProgLang}} zu überprüfen."
+      "content": "Generieren Sie Bildvorschauen von Dokumentenseiten, um deren Inhalt und Layout mit der PreviewPages-Funktion in Python zu überprüfen."
     }
   }
 }

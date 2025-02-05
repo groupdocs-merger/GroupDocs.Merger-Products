@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:36:59
 draft: false
 
 product: "Merger"
@@ -201,13 +201,13 @@ features:
 code_samples:
   enable: true
   title: "Contoh Kode"
-  description: "Jelajahi kasus penggunaan umum untuk GroupDocs.Merger dalam {{ProgLang}}. Contoh-contoh ini menunjukkan bagaimana menggabungkan dan memisahkan dokumen secara efisien menggunakan GroupDocs.Merger untuk {{ProgLang}}."
+  description: "Jelajahi kasus penggunaan umum untuk GroupDocs.Merger dalam Node.js. Contoh-contoh ini menunjukkan bagaimana menggabungkan dan memisahkan dokumen secara efisien menggunakan GroupDocs.Merger untuk Node.js."
   items:
     # code sample loop
-    - title: "Gabungkan beberapa file DOCX menjadi satu dokumen dalam {{ProgLang}}"
+    - title: "Gabungkan beberapa file DOCX menjadi satu dokumen dalam Node.js"
       content: |
-        Gunakan GroupDocs.Merger untuk {{ProgLang}} untuk menggabungkan beberapa file DOCX menjadi satu dokumen. Fitur [Gabungkan Dokumen Word](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) menyederhanakan manajemen dokumen dengan menggabungkan file secara efisien. Di bawah ini adalah potongan kode {{ProgLang}} yang menunjukkan proses penggabungan:
-        {{< landing/code title="Contoh: Menggabungkan file DOCX dalam {{ProgLang}}">}}
+        Gunakan GroupDocs.Merger untuk Node.js untuk menggabungkan beberapa file DOCX menjadi satu dokumen. Fitur [Gabungkan Dokumen Word](https://docs.groupdocs.com/merger/nodejs-java/merge/word/) menyederhanakan manajemen dokumen dengan menggabungkan file secara efisien. Di bawah ini adalah potongan kode Node.js yang menunjukkan proses penggabungan:
+        {{< landing/code title="Contoh: Menggabungkan file DOCX dalam Node.js">}}
         ```javascript {style=abap}   
         // Muat file DOCX pertama
         const merger = new Merger("sample1.docx");
@@ -218,12 +218,12 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Pemisahan dokumen PDF menjadi beberapa file dalam {{ProgLang}}"
+    - title: "Pemisahan dokumen PDF menjadi beberapa file dalam Node.js"
       content: |
-        GroupDocs.Merger untuk {{ProgLang}} memudahkan pemisahan dokumen PDF besar menjadi file-file yang lebih kecil. Fitur [Pemisahan Dokumen](https://docs.groupdocs.com/merger/nodejs-java/split-document/) memungkinkan Anda untuk mengekstrak halaman tertentu berdasarkan kriteria yang berbeda, seperti rentang halaman, halaman mulai/akhir, atau halaman ganjil/genap. Fitur ini membantu mengatur dokumen besar dengan membaginya menjadi file-file yang lebih kecil dan lebih mudah dikelola.
-        {{< landing/code title="Cara memisahkan PDF menjadi file terpisah dalam {{ProgLang}}">}}
+        GroupDocs.Merger untuk Node.js memudahkan pemisahan dokumen PDF besar menjadi file-file yang lebih kecil. Fitur [Pemisahan Dokumen](https://docs.groupdocs.com/merger/nodejs-java/split-document/) memungkinkan Anda untuk mengekstrak halaman tertentu berdasarkan kriteria yang berbeda, seperti rentang halaman, halaman mulai/akhir, atau halaman ganjil/genap. Fitur ini membantu mengatur dokumen besar dengan membaginya menjadi file-file yang lebih kecil dan lebih mudah dikelola.
+        {{< landing/code title="Cara memisahkan PDF menjadi file terpisah dalam Node.js">}}
         ```javascript {style=abap}   
-        // Gunakan GroupDocs.Merger untuk {{ProgLang}} untuk memisahkan file PDF
+        // Gunakan GroupDocs.Merger untuk Node.js untuk memisahkan file PDF
         const filePath = "input.pdf";
         const filePathOut = "output.pdf";
 

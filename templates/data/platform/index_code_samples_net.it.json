@@ -1,7 +1,7 @@
 {
   "code_samples": {
     "title": "Esempi di codice",
-    "description": "Esempi di operazioni comuni di GroupDocs.Merger in {{ProgLang}}",
+    "description": "Esempi di operazioni comuni di GroupDocs.Merger in .NET",
     "sample_1": {
       "title": "Unisci pagine specifiche da file DOCX in un unico documento",
       "content_1": "La funzione [Selezione Pagina Unione](https://docs.groupdocs.com/merger/net/merge-pages-from-various-documents/) consente di estrarre e unire solo le pagine necessarie da più file DOCX.",

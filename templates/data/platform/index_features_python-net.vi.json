@@ -1,22 +1,22 @@
 {
   "features": {
-    "title": "Các Tính Năng Chính của GroupDocs.Merger cho {{ProgLang}}",
-    "description": "Đơn giản hóa việc xử lý tài liệu bằng cách kết hợp, chia tách và chỉnh sửa các tệp PDF và Office một cách liền mạch với GroupDocs.Merger trong môi trường {{ProgLang}}.",
+    "title": "Các Tính Năng Chính của GroupDocs.Merger cho Python",
+    "description": "Đơn giản hóa việc xử lý tài liệu bằng cách kết hợp, chia tách và chỉnh sửa các tệp PDF và Office một cách liền mạch với GroupDocs.Merger trong môi trường Python.",
     "feature_1": {
       "title": "Kết hợp tài liệu liền mạch",
-      "content": "Kết hợp nhiều tài liệu thành một bằng cách chọn trang cụ thể hoặc khoảng từ nhiều tệp khác nhau sử dụng GroupDocs.Merger cho {{ProgLang}}."
+      "content": "Kết hợp nhiều tài liệu thành một bằng cách chọn trang cụ thể hoặc khoảng từ nhiều tệp khác nhau sử dụng GroupDocs.Merger cho Python."
     },
     "feature_2": {
       "title": "Khả năng chia tách tài liệu",
-      "content": "Chia nhỏ các tài liệu lớn thành các tệp nhỏ hơn, dễ quản lý hơn với các công cụ chia tách tiên tiến được cung cấp bởi GroupDocs.Merger cho {{ProgLang}}."
+      "content": "Chia nhỏ các tài liệu lớn thành các tệp nhỏ hơn, dễ quản lý hơn với các công cụ chia tách tiên tiến được cung cấp bởi GroupDocs.Merger cho Python."
     },
     "feature_3": {
       "title": "Di chuyển trang hiệu quả",
-      "content": "Thay đổi vị trí các trang trong một tài liệu để đáp ứng nhu cầu của bạn bằng cách sử dụng tính năng Di chuyển Trang trong {{ProgLang}}."
+      "content": "Thay đổi vị trí các trang trong một tài liệu để đáp ứng nhu cầu của bạn bằng cách sử dụng tính năng Di chuyển Trang trong Python."
     },
     "feature_4": {
       "title": "Tùy chọn xóa trang",
-      "content": "Xóa dễ dàng các trang không cần thiết hoặc các số trang cụ thể với tính năng Xóa Trang trong GroupDocs.Merger cho {{ProgLang}}."
+      "content": "Xóa dễ dàng các trang không cần thiết hoặc các số trang cụ thể với tính năng Xóa Trang trong GroupDocs.Merger cho Python."
     },
     "feature_5": {
       "title": "Chức năng xoay trang",
@@ -24,19 +24,19 @@
     },
     "feature_6": {
       "title": "Tính năng hoán đổi trang",
-      "content": "Tổ chức lại tài liệu của bạn bằng cách hoán đổi vị trí các trang sử dụng chức năng Hoán Đổi Trang trong GroupDocs.Merger cho {{ProgLang}}."
+      "content": "Tổ chức lại tài liệu của bạn bằng cách hoán đổi vị trí các trang sử dụng chức năng Hoán Đổi Trang trong GroupDocs.Merger cho Python."
     },
     "feature_7": {
       "title": "Trích xuất trang chọn lọc",
-      "content": "Trích xuất các trang cụ thể hoặc khoảng để tạo một tài liệu mới, chỉ tập trung vào nội dung bạn cần với GroupDocs.Merger cho {{ProgLang}}."
+      "content": "Trích xuất các trang cụ thể hoặc khoảng để tạo một tài liệu mới, chỉ tập trung vào nội dung bạn cần với GroupDocs.Merger cho Python."
     },
     "feature_8": {
       "title": "Công cụ thay đổi hướng trang",
-      "content": "Thay đổi hướng của các trang từ chiều dọc sang chiều ngang hoặc ngược lại bằng cách sử dụng tính năng Thay Đổi Hướng trong các dự án {{ProgLang}} của bạn."
+      "content": "Thay đổi hướng của các trang từ chiều dọc sang chiều ngang hoặc ngược lại bằng cách sử dụng tính năng Thay Đổi Hướng trong các dự án Python của bạn."
     },
     "feature_9": {
       "title": "Xem trước trang tài liệu",
-      "content": "Tạo hình ảnh xem trước của các trang tài liệu để xem xét nội dung và bố cục của chúng với tính năng Xem Trước Trang trong {{ProgLang}}."
+      "content": "Tạo hình ảnh xem trước của các trang tài liệu để xem xét nội dung và bố cục của chúng với tính năng Xem Trước Trang trong Python."
     }
   }
 }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T07:59:07
+date: 2025-02-05T14:37:01
 draft: false
 
 product: "Merger"
@@ -201,7 +201,7 @@ features:
 code_samples:
   enable: true
   title: "ตัวอย่างโค้ด"
-  description: "ตัวอย่างการใช้งานการทำงานทั่วไปของ GroupDocs.Merger ใน {{ProgLang}}"
+  description: "ตัวอย่างการใช้งานการทำงานทั่วไปของ GroupDocs.Merger ใน .NET"
   items:
     # code sample loop
     - title: "รวมหน้าที่เฉพาะจากไฟล์ DOCX เป็นเอกสารเดียว"
