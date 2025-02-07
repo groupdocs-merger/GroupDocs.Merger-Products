@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T14:37:01
+date: 2025-02-07T13:35:54
 draft: false
 
 product: "Merger"
@@ -39,7 +39,7 @@ actions:
   main: "免费下载 NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
   alt: "许可证"
-  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net/"
   title: "准备开始吗？"
   description: "免费尝试 GroupDocs.Merger 或请求许可证"
 

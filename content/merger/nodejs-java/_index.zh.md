@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T14:37:01
+date: 2025-02-07T13:35:54
 draft: false
 
 product: "Merger"
@@ -39,7 +39,7 @@ actions:
   main: "免费下载NPM"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
   alt: "授权"
-  alt_link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java/"
   title: "准备好开始了吗？"
   description: "免费探索GroupDocs.Merger或申请许可证"
 

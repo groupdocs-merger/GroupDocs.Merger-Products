@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T14:36:59
+date: 2025-02-07T13:35:54
 draft: false
 
 product: "Merger"
@@ -39,7 +39,7 @@ actions:
   main: "Unduh Maven Gratis"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
   alt: "Lisensi"
-  alt_link: "https://purchase.groupdocs.com/pricing/merger/java"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/java/"
   title: "Siap untuk memulai?"
   description: "Coba GroupDocs.Merger secara gratis atau minta lisensi"
 

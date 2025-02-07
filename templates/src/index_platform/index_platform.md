@@ -7,8 +7,8 @@ draft: false
 
 product: "Merger"
 product_tag: "merger"
-platform: "<% dict "products.{product}.name" %>"
-platform_tag: "<% dict "products.{product}.code" %>"
+platform: "<% dict "products.{product}.environmentName" %>"
+platform_tag: "<% dict "products.{product}.productCode" %>"
 
 ############################# Drop-down ############################
 supported_platforms:
@@ -40,7 +40,7 @@ actions:
   main: "<% "{actions.main}" %>"
   main_link: "<% dict "products.{product}.main_link" %>"
   alt: "<% "{actions.alt}" %>"
-  alt_link: "<% dict "products.{product}.alt_link" %>"
+  alt_link: "<% dict "products.{product}.pricesUrl" %>"
   title: "<% "{actions.title}" %>"
   description: "<% "{actions.description}" %>"
 

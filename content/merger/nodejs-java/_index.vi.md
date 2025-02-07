@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T14:37:01
+date: 2025-02-07T13:35:54
 draft: false
 
 product: "Merger"
@@ -39,7 +39,7 @@ actions:
   main: "Tải xuống NPM miễn phí"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
   alt: "Cấp phép"
-  alt_link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java/"
   title: "Sẵn sàng để bắt đầu?"
   description: "Khám phá GroupDocs.Merger miễn phí hoặc yêu cầu giấy phép"
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T14:37:00
+date: 2025-02-07T13:35:54
 draft: false
 
 product: "Merger"
@@ -39,7 +39,7 @@ actions:
   main: "Download gratuito do PyPi"
   main_link: "https://releases.groupdocs.com/merger/python-net/"
   alt: "Licenciamento"
-  alt_link: "https://purchase.groupdocs.com/pricing/merger/python-net"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/python-net/"
   title: "Pronto para começar?"
   description: "Teste o GroupDocs.Merger gratuitamente ou adquira uma licença."
 

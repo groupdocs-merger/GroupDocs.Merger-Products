@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T14:36:59
+date: 2025-02-07T13:35:54
 draft: false
 
 product: "Merger"
@@ -39,7 +39,7 @@ actions:
   main: "Descarga NPM gratuita"
   main_link: "https://releases.groupdocs.com/merger/nodejs-java/"
   alt: "Licenciamiento"
-  alt_link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java/"
   title: "¿Listo para comenzar?"
   description: "Explora GroupDocs.Merger de forma gratuita o solicita una licencia"
 

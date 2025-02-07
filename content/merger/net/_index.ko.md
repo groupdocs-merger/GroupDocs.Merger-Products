@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-02-05T14:37:00
+date: 2025-02-07T13:35:54
 draft: false
 
 product: "Merger"
@@ -39,7 +39,7 @@ actions:
   main: "무료 NuGet 다운로드"
   main_link: "https://www.nuget.org/packages/GroupDocs.Merger"
   alt: "라이선스 제공"
-  alt_link: "https://purchase.groupdocs.com/pricing/merger/net"
+  alt_link: "https://purchase.groupdocs.com/pricing/merger/net/"
   title: "시작할 준비가 되셨나요?"
   description: "GroupDocs.Merger를 무료로 사용해 보거나 라이선스를 요청하세요."
 
