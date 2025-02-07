@@ -1,0 +1,105 @@
+{
+  "common-content": {
+    "format-formats": {
+      "docx": {
+        "name": "Search in DOCX",
+        "description": "Microsoft Word Open XML Document"
+      },
+      "pdf": {
+        "name": "Search in PDF",
+        "description": "Adobe Portable Document Format"
+      },
+      "pptx": {
+        "name": "Search in PPTX",
+        "description": "PowerPoint Open XML Presentation"
+      },
+      "txt": {
+        "name": "Search in TXT",
+        "description": "Text Document"
+      },
+      "xlsx": {
+        "name": "Search in XLSX",
+        "description": "Microsoft Excel Open XML Spreadsheet"
+      }
+    },
+    "format-operations": {
+      "boolean": {
+        "pdf": "Boolean search PDF",
+        "docx": "Boolean search DOCX",
+        "xlsx": "Boolean search XLSX",
+        "pptx": "Boolean search PPTX",
+        "jpeg": "Boolean search JPEG"
+      },
+      "case-sensitive": {
+        "pdf": "PDF case-sensitive search",
+        "docx": "DOCX case-sensitive search",
+        "xlsx": "XLSX case-sensitive search",
+        "pptx": "PPTX case-sensitive search",
+        "jpeg": "JPEG case-sensitive search"
+      },
+      "document": {
+        "pdf": "Search in PDF document",
+        "docx": "Search in DOCX document",
+        "xlsx": "Search in XLSX document",
+        "pptx": "Search in PPTX document",
+        "jpeg": "Search in JPEG document"
+      },
+      "filters": {
+        "pdf": "Search filters for PDF",
+        "docx": "Search filters for DOCX",
+        "xlsx": "Search filters for XLSX",
+        "pptx": "Search filters for PPTX",
+        "jpeg": "Search filters for JPEG"
+      },
+      "phrase": {
+        "pdf": "PDF phrase search",
+        "docx": "DOCX phrase search",
+        "xlsx": "XLSX phrase search",
+        "pptx": "PPTX phrase search",
+        "jpeg": "JPEG phrase search"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copy",
+      "result_title": "Search result",
+      "result_title_bottom": "Download result",
+      "copy_tip": "click to copy",
+      "copy_done": "copied",
+      "links": {
+        "title_1": "More examples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Ready to get started?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "comment_1": "{{PackageStoreName}} download",
+      "comment_2": "Licensing"
+    },
+    "texts": {
+      "learn_more": "Learn more"
+    },
+    "operations": {
+      "boolean": {
+        "name": "Search by condition",
+        "description": "Find information in documents using boolean conditions"
+      },
+      "case-sensitive": {
+        "name": "Case-sensitive search",
+        "description": "Improve search accuracy by considering case sensitivity"
+      },
+      "document": {
+        "name": "Document indexing",
+        "description": "Index documents once and reuse the index for multiple searches"
+      },
+      "filters": {
+        "name": "Search filters",
+        "description": "Use filters to narrow down the data being processed"
+      },
+      "phrase": {
+        "name": "Exact phrase",
+        "description": "Search for a specific sentence or phrase"
+      }
+    }
+  }
+}

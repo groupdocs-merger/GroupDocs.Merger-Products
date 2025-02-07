@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Boolean {{FileFormatUp}} search via {{EnvNameShort}}",
+    "description": "Use {{ProdFullName}} API to execute advanced searches in document content with boolean operators like AND, OR, and NOT, tailored for {{ProgLang}} developers."
+  },
+  "header": {
+    "title": "Perform boolean logic searches",
+    "description": "With {{ProdFullName}}, you can create advanced search queries using boolean operators (AND, OR, NOT) seamlessly within your {{EnvNameShort}} environment.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Now"
+  },
+  "about": {
+    "title": "What is {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust tool for searching and indexing text within documents. It supports over 70 formats like PDF, Word, Excel, PowerPoint, images, and ZIP files, making it easy to process large amounts of information efficiently."
+  },
+  "more_features": {
+    "title": "Powerful tools for document search and indexing",
+    "description": "{{ProdFullName}} streamlines text search and indexing for over 70 file types, helping you find and manage information faster and with precision.",
+    "image_description": "Key features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Enhanced text search",
+      "content": "Find text quickly across various formats such as PDFs, Word documents, presentations, and spreadsheets. Use features like exact matches, wildcard searches, and fuzzy search for precise results."
+    },
+    "feature_2": {
+      "title": "Efficient data indexing",
+      "content": "Build and manage indexes to speed up searches in large document collections. Indexing ensures fast and structured access to your data."
+    },
+    "feature_3": {
+      "title": "Multilingual support",
+      "content": "Search in documents written in over 80 languages. Morphological support and keyboard layout compatibility enhance search results in different languages."
+    },
+    "feature_4": {
+      "title": "Flexible search settings",
+      "content": "Customize your search by enabling case sensitivity, applying date filters, or skipping specific words and data during indexing."
+    }
+  },
+  "formats": {
+    "title": "Search popular document formats",
+    "description": "{{ProdShortName}} supports over 70 file formats, providing flexible search rules and efficient indexing to save time and effort."
+  },
+  "operations": {
+    "title": "Key capabilities of {{ProdShortName}}",
+    "description": "Unlock advanced, efficient, and customizable search features."
+  },
+  "examples": {
+    "comment_1": "Set the location for the index folder",
+    "comment_2": "Specify the folder containing documents to search",
+    "comment_3": "Execute a search query with advanced logic"
+  },
+  "steps": {
+    "title": "How to search in {{FileFormatUp}} documents using boolean operators",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to search content in {{FileFormatUp}} files effectively. With boolean logic, you can refine your search queries in {{EnvName}} applications for improved accuracy.",
+      "step_1": "Set up the folder to store the search index.",
+      "step_2": "Select the folder containing {{FileFormatUp}} files for the search.",
+      "step_3": "Run the search query and retrieve results.",
+      "step_4": "Process and analyze the search results."
+    }
+  },
+  "code_1": {
+    "title": "Example of advanced boolean search",
+    "content": "This example demonstrates how to create Boolean-based queries for searching content in {{FileFormatUp}} documents.",
+    "comment_1": "Define the folder for the search index",
+    "comment_2": "Provide the location of the documents to search",
+    "comment_3": "Build a query using Boolean operators",
+    "comment_4": "Retrieve search results",
+    "comment_5": "Process and use the search results"
+  }
+}

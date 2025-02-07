@@ -1,0 +1,17 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [nodejs-java]
+- alias:  operation
+  values: [combine]
+- alias:  fileformat
+  values: [docx, pdf, pptx, xlsx, epub]
+
+generationRules:
+  include:
+  - fileformat[docx, pdf, pptx, xlsx, epub]
+  
+outputPath: "merger\\{product}\\{operation}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

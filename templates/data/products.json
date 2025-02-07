@@ -1,64 +1,109 @@
 {
   "products": {
+    "nameProduct": "Merger",
+    "productShortName": "GroupDocs.Merger",
+    "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
+    "pricingUrl": "https://purchase.groupdocs.com/pricing/merger/net/",
+    "textIndex": "Index",
     "net": {
-      "name": ".NET",
-      "fullName": "GroupDocs.Merger for .NET",
-      "code": "net",
-      "progLang": "C#",
+      "environmentName": ".NET",
+      "environmentNameShort": ".NET",
+      "productCode": "net",
+      "productPlatformLink": "/merger/net/",
+      "productFullName": "GroupDocs.Merger for .NET",
+
+      "programmingLanguage": "C#",
       "srcFileExt": ".cs",
       "syntax": "csharp",
-      "devEnv": "Visual Studio, Xamarin, MonoDevelop",
-      "runtime": ".NET Framework, .NET Standard, .NET Core, Mono",
-      "repoName": "NuGet",
-      "repoUrl": "https://www.nuget.org/packages/groupdocs.merger",
-      "url": "https://products.groupdocs.com/merger/net/",
-      "main_link": "https://www.nuget.org/packages/GroupDocs.Merger",
-      "alt_link": "https://purchase.groupdocs.com/pricing/merger/net"
+      "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+
+      "productUrl": "https://products.groupdocs.com/merger/net/",
+      "packageStoreName": "Nuget",
+      "packageUrl": "https://www.nuget.org/packages/GroupDocs.Merger",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/merger/net/",
+      "docsUrl": "https://docs.groupdocs.com/merger/net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/merger/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/merger/net/merger-results/",
+      "sample2Url": "https://docs.groupdocs.com/merger/net/regular-expression-merger/",
+
+      "more_link": "https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/merger/net/",
+      "main_link": "https://www.nuget.org/packages/GroupDocs.Merger"
     },
     "java": {
-      "name": "Java",
-      "fullName": "GroupDocs.Merger for Java",
-      "code": "java",
-      "progLang": "Java",
+      "environmentName": "Java",
+      "environmentNameShort": "Java",
+      "productCode": "java",
+      "productPlatformLink": "/merger/java/",
+      "productFullName": "GroupDocs.Merger for Java",
+
+      "programmingLanguage": "Java",
       "srcFileExt": ".java",
       "syntax": "java",
-      "devEnv": "NetBeans, IntelliJ IDEA, Eclipse",
-      "runtime": "J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10",
-      "repoName": "Maven",
-      "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger",
-      "url": "https://products.groupdocs.com/merger/java/",
-      "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/",
-      "alt_link": "https://purchase.groupdocs.com/pricing/merger/java"
+      "runtime": "Java runtime: J2SE 6.0 and above",
+
+      "productUrl": "https://products.groupdocs.com/merger/java/",
+      "packageStoreName": "Maven",
+      "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/merger/java/",
+      "docsUrl": "https://docs.groupdocs.com/merger/java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/merger/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/merger/java/merger-results/",
+      "sample2Url": "https://docs.groupdocs.com/merger/java/regular-expression-merger/",
+
+      "more_link": "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java/",
+      "release_downloads": "https://releases.groupdocs.com/merger/java/",
+      "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/"
     },
     "nodejs-java": {
-      "name": "Node.js via Java",
-      "fullName": "GroupDocs.Merger for Node.js",
-      "code": "nodejs-java",
-      "progLang": "JavaScript",
+      "environmentName": "Node.js via Java",
+      "environmentNameShort": "Node.js",
+      "productCode": "nodejs-java",
+      "productPlatformLink": "/merger/nodejs-java/",
+      "productFullName": "GroupDocs.Merger for Node.js via Java",
+
+      "programmingLanguage": "JavaScript",
       "srcFileExt": ".js",
       "syntax": "javascript",
-      "devEnv": "Intellij IDEA, Eclipse Che, Visual Studio Code, WebStorm, etc.",
       "runtime": "Node.js",
-      "repoName": "NPM",
-      "repoUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.merger",
-      "url": "https://products.groupdocs.com/merger/nodejs-java/",
-      "main_link": "https://releases.groupdocs.com/merger/nodejs-java/",
-      "alt_link": "https://purchase.groupdocs.com/pricing/merger/nodejs-java"
+
+      "productUrl": "https://products.groupdocs.com/merger/nodejs-java/",
+      "packageStoreName": "NPM",
+      "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.merger",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/merger/nodejs-java/",
+      "docsUrl": "https://docs.groupdocs.com/merger/nodejs-java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/merger/nodejs-java/merger-results/",
+      "sample2Url": "https://docs.groupdocs.com/merger/nodejs-java/regular-expression-merger/",
+
+      "more_link": "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java/",
+      "release_downloads": "https://releases.groupdocs.com/merger/nodejs-java/",
+      "main_link": "https://releases.groupdocs.com/merger/nodejs-java/"
     },
     "python-net": {
-      "name": "Python via .NET",
-      "fullName": "GroupDocs.Merger for Python",
-      "code": "python-net",
-      "progLang": "JavaScript",
+      "environmentName": "Python via .NET",
+      "environmentNameShort": "Python",
+      "productCode": "python-net",
+      "productPlatformLink": "/merger/python-net/",
+      "productFullName": "GroupDocs.Merger for Python via .NET",
+
+      "programmingLanguage": "Python",
       "srcFileExt": ".py",
-      "syntax": "javascript",
-      "devEnv": "IDLE, PyCharm, Visual Studio Code, etc.",
+      "syntax": "python",
       "runtime": "Python",
-      "repoName": "PyPi",
-      "repoUrl": "https://pypi.org/project/groupdocs-merger-net/",
-      "url": "https://products.groupdocs.com/merger/python-net/",
-      "main_link": "https://releases.groupdocs.com/merger/python-net/",
-      "alt_link": "https://purchase.groupdocs.com/pricing/merger/python-net"
+
+      "productUrl": "https://products.groupdocs.com/merger/python-net/",
+      "packageStoreName": "PyPi",
+      "packageUrl": "https://pypi.org/project/groupdocs-merger-net/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/merger/python-net/",
+      "docsUrl": "https://docs.groupdocs.com/merger/python-net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/merger/python-net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/merger/python-net/find-merger-properties/",
+      "sample2Url": "https://docs.groupdocs.com/merger/python-net/adding-merger/",
+
+      "more_link": "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Python-via-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/merger/python-net/",
+      "main_link": "https://releases.groupdocs.com/merger/python-net/"
     }
   }
 }

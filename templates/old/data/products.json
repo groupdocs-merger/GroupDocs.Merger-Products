@@ -1,0 +1,64 @@
+{
+  "products": {
+    "net": {
+      "name": ".NET",
+      "fullName": "GroupDocs.Merger for .NET",
+      "code": "net",
+      "progLang": "C#",
+      "srcFileExt": ".cs",
+      "syntax": "csharp",
+      "devEnv": "Visual Studio, Xamarin, MonoDevelop",
+      "runtime": ".NET Framework, .NET Standard, .NET Core, Mono",
+      "repoName": "NuGet",
+      "repoUrl": "https://www.nuget.org/packages/groupdocs.merger",
+      "url": "https://products.groupdocs.com/merger/net/",
+      "main_link": "https://www.nuget.org/packages/GroupDocs.Merger",
+      "alt_link": "https://purchase.groupdocs.com/pricing/merger/net"
+    },
+    "java": {
+      "name": "Java",
+      "fullName": "GroupDocs.Merger for Java",
+      "code": "java",
+      "progLang": "Java",
+      "srcFileExt": ".java",
+      "syntax": "java",
+      "devEnv": "NetBeans, IntelliJ IDEA, Eclipse",
+      "runtime": "J2SE 7.0 (1.7), J2SE 8.0 (1.8), Java 10",
+      "repoName": "Maven",
+      "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger",
+      "url": "https://products.groupdocs.com/merger/java/",
+      "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/",
+      "alt_link": "https://purchase.groupdocs.com/pricing/merger/java"
+    },
+    "nodejs-java": {
+      "name": "Node.js via Java",
+      "fullName": "GroupDocs.Merger for Node.js",
+      "code": "nodejs-java",
+      "progLang": "JavaScript",
+      "srcFileExt": ".js",
+      "syntax": "javascript",
+      "devEnv": "Intellij IDEA, Eclipse Che, Visual Studio Code, WebStorm, etc.",
+      "runtime": "Node.js",
+      "repoName": "NPM",
+      "repoUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.merger",
+      "url": "https://products.groupdocs.com/merger/nodejs-java/",
+      "main_link": "https://releases.groupdocs.com/merger/nodejs-java/",
+      "alt_link": "https://purchase.groupdocs.com/pricing/merger/nodejs-java"
+    },
+    "python-net": {
+      "name": "Python via .NET",
+      "fullName": "GroupDocs.Merger for Python",
+      "code": "python-net",
+      "progLang": "JavaScript",
+      "srcFileExt": ".py",
+      "syntax": "javascript",
+      "devEnv": "IDLE, PyCharm, Visual Studio Code, etc.",
+      "runtime": "Python",
+      "repoName": "PyPi",
+      "repoUrl": "https://pypi.org/project/groupdocs-merger-net/",
+      "url": "https://products.groupdocs.com/merger/python-net/",
+      "main_link": "https://releases.groupdocs.com/merger/python-net/",
+      "alt_link": "https://purchase.groupdocs.com/pricing/merger/python-net"
+    }
+  }
+}
