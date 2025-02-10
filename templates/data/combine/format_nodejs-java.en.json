@@ -1,69 +1,69 @@
 {
   "head": {
-    "title": "Boolean {{FileFormatUp}} search via {{EnvNameShort}}",
-    "description": "Use {{ProdFullName}} API to execute advanced searches in document content with boolean operators like AND, OR, and NOT, tailored for {{ProgLang}} developers."
+    "title": "Merge {{FileFormatUp}} files in {{ProgLang}} via {{EnvNameShort}}",
+    "description": "Easily integrate {{FileFormatUp}} file merging into your {{EnvNameShort}} projects with {{ProdFullName}}."
   },
   "header": {
-    "title": "Perform boolean logic searches",
-    "description": "With {{ProdFullName}}, you can create advanced search queries using boolean operators (AND, OR, NOT) seamlessly within your {{EnvNameShort}} environment.",
+    "title": "Merge {{FileFormatUp}} files",
+    "description": "{{ProdFullName}} allows you to seamlessly merge {{FileFormatUp}} documents within your {{EnvNameShort}} applications.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Now"
+    "action_title": "Download for Free"
   },
   "about": {
-    "title": "What is {{ProdShortName}}?",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust tool for searching and indexing text within documents. It supports over 70 formats like PDF, Word, Excel, PowerPoint, images, and ZIP files, making it easy to process large amounts of information efficiently."
+    "title": "About {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive tool for document management. It supports more than 50 formats, including PDF, Word, Excel, PowerPoint, images, and archives, enabling you to merge, split, extract, swap, and remove pages with ease."
   },
   "more_features": {
-    "title": "Powerful tools for document search and indexing",
-    "description": "{{ProdFullName}} streamlines text search and indexing for over 70 file types, helping you find and manage information faster and with precision.",
-    "image_description": "Key features of {{ProdShortName}}",
+    "title": "Advanced document merging",
+    "description": "{{ProdFullName}} is designed to work with over 50 popular file formats, providing robust document processing capabilities.",
+    "image_description": "Key capabilities of {{ProdShortName}}",
     "feature_1": {
-      "title": "Enhanced text search",
-      "content": "Find text quickly across various formats such as PDFs, Word documents, presentations, and spreadsheets. Use features like exact matches, wildcard searches, and fuzzy search for precise results."
+      "title": "Merge various document types",
+      "content": "Effortlessly combine PDFs, Word documents, presentations, spreadsheets, images, and more. Customize which pages to merge as needed."
     },
     "feature_2": {
-      "title": "Efficient data indexing",
-      "content": "Build and manage indexes to speed up searches in large document collections. Indexing ensures fast and structured access to your data."
+      "title": "Modify document pages",
+      "content": "Rearrange, delete, or swap pages to better structure your business documents."
     },
     "feature_3": {
-      "title": "Multilingual support",
-      "content": "Search in documents written in over 80 languages. Morphological support and keyboard layout compatibility enhance search results in different languages."
+      "title": "Adjust page settings",
+      "content": "Rotate pages to any angle and change their orientation between landscape and portrait for supported file formats."
     },
     "feature_4": {
-      "title": "Flexible search settings",
-      "content": "Customize your search by enabling case sensitivity, applying date filters, or skipping specific words and data during indexing."
+      "title": "Extract document pages",
+      "content": "Select and extract specific pages, saving them as a new standalone document."
     }
   },
   "formats": {
-    "title": "Search popular document formats",
-    "description": "{{ProdShortName}} supports over 70 file formats, providing flexible search rules and efficient indexing to save time and effort."
+    "title": "Combine multiple file formats",
+    "description": "{{ProdShortName}} supports over 50 file types, ensuring seamless document processing for various business needs."
   },
   "operations": {
-    "title": "Key capabilities of {{ProdShortName}}",
-    "description": "Unlock advanced, efficient, and customizable search features."
+    "title": "Key functionalities",
+    "description": "Explore additional features and operations supported by {{ProdShortName}}."
   },
   "examples": {
-    "comment_1": "Set the location for the index folder",
-    "comment_2": "Specify the folder containing documents to search",
-    "comment_3": "Execute a search query with advanced logic"
+    "comment_1": "Initialize Merger with the input {{FileFormatUp}} file",
+    "comment_2": "Combine the file with another document",
+    "comment_3": "Save the merged document to a specified location"
   },
   "steps": {
-    "title": "How to search in {{FileFormatUp}} documents using boolean operators",
+    "title": "How to merge {{FileFormatUp}} documents",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to search content in {{FileFormatUp}} files effectively. With boolean logic, you can refine your search queries in {{EnvName}} applications for improved accuracy.",
-      "step_1": "Set up the folder to store the search index.",
-      "step_2": "Select the folder containing {{FileFormatUp}} files for the search.",
-      "step_3": "Run the search query and retrieve results.",
-      "step_4": "Process and analyze the search results."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) provides seamless merging for {{FileFormatUp}} documents. Enhance your {{EnvName}} applications by combining multiple files into one.",
+      "step_1": "Set the path to the first {{FileFormatUp}} document.",
+      "step_2": "Select the second document.",
+      "step_3": "Define optional parameters.",
+      "step_4": "Merge the files and save the output document."
     }
   },
   "code_1": {
-    "title": "Example of advanced boolean search",
-    "content": "This example demonstrates how to create Boolean-based queries for searching content in {{FileFormatUp}} documents.",
-    "comment_1": "Define the folder for the search index",
-    "comment_2": "Provide the location of the documents to search",
-    "comment_3": "Build a query using Boolean operators",
-    "comment_4": "Retrieve search results",
-    "comment_5": "Process and use the search results"
+    "title": "Merge selected pages from different file formats",
+    "content": "This example shows how to merge {{FileFormatUp}} files while selecting specific pages from other document types.",
+    "comment_1": "Specify the primary document path",
+    "comment_2": "Set options to include selected pages",
+    "comment_3": "Merge the primary file with pages from another document",
+    "comment_4": "Save the final merged document to the desired location"
   }
 }
+

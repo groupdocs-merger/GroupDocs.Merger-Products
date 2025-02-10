@@ -115,7 +115,7 @@ more_features:
       code:
         title: "JavaScript"
         content: |
-          ```javascript {style=abap}
+          ```python {style=abap}
           import groupdocs.merger as gm
           
           # <% "{code_1.comment_1}" %>
