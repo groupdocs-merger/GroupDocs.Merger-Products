@@ -70,17 +70,17 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```javascript {style=abap}
-        const mergerLib = require('@groupdocs/groupdocs.merger')
+        ```python {style=abap}
+        import groupdocs.merger as gm
 
-        // <% "{examples.comment_1}" %>
-        const index = new mergerLib.Index("c:/MyIndex");
+        # <% "{examples.comment_1}" %>
+        with gm.Merger("file_1.<% get "fileformat" %>") as merger:
+            
+            # <% "{examples.comment_2}" %>
+            merger.join("file_2.<% get "fileformat" %>")
 
-        // <% "{examples.comment_2}" %>
-        index.add("c:/MyDocuments");
-
-        // <% "{examples.comment_3}" %>
-        const result = index.merger("lorem AND impsum");
+            # <% "{examples.comment_3}" %>
+            merger.save("result.<% get "fileformat" %>")
         ```            
 
 ############################# More features ############################
@@ -116,25 +116,21 @@ more_features:
         title: "JavaScript"
         content: |
           ```javascript {style=abap}
-          const mergerLib = require('@groupdocs/groupdocs.merger')
+          import groupdocs.merger as gm
           
-          // <% "{code_1.comment_1}" %>
-          const index = new mergerLib.Index("c:/MyIndex");
-              
-          // <% "{code_1.comment_2}" %>
-          index.add("c:/MyDocuments");
-
-          // <% "{code_1.comment_3}" %>
-          const wordQuery1 = mergerLib.MergerQuery.createWordQuery("Lorem");
-          const wordQuery2 = mergerLib.MergerQuery.createWordQuery("ipsum");
-          const combineQuery = mergerLib.MergerQuery.createAndQuery(wordQuery1, wordQuery2);
-
-          // <% "{code_1.comment_4}" %>
-          const result = index.merger(combineQuery);
+          # <% "{code_1.comment_1}" %>
+          with gm.Merger("file_1.<% get "fileformat" %>") as merger:
+            
+              # <% "{code_1.comment_2}" %>
+              joinOptions12 = gm.domain.options.PageJoinOptions(1, 2)
+              joinOptions34 = gm.domain.options.PageJoinOptions(3, 4)
           
-          // <% "{code_1.comment_5}" %>
-          console.log('Documents: ' + result.getDocumentCount());
-          console.log('Occurrences: ' + result.getOccurrenceCount());
+              # <% "{code_1.comment_3}" %>
+              merger.join("file_2.docx", joinOptions12)
+              merger.join("file_3.xlsx", joinOptions34)
+
+              # <% "{code_1.comment_4}" %>
+              merger.save("result.<% get "fileformat" %>");
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

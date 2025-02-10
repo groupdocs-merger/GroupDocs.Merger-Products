@@ -88,13 +88,13 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        Index index = new Index("c:/MyIndex");
+        Merger merger = new Merger("file_1.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        index.add("c:/MyDocuments");
+        merger.join("file_2.<% get "fileformat" %>");
 
         // <% "{examples.comment_3}" %>
-        MergerResult result = index.merger("lorem AND impsum");
+        merger.save("result.<% get "fileformat" %>");
         ```            
 
 ############################# More features ############################
@@ -131,22 +131,18 @@ more_features:
         content: |
           ```java {style=abap}
           // <% "{code_1.comment_1}" %>
-          Index index = new Index("c:/MyIndex");
-              
-          // <% "{code_1.comment_2}" %>
-          index.add("c:/MyDocuments");
+          Merger merger = new Merger("file_1.<% get "fileformat" %>");
 
+          // <% "{code_1.comment_2}" %>
+          PageJoinOptions joinOptions12 = new PageJoinOptions(1, 2);
+          PageJoinOptions joinOptions34 = new PageJoinOptions(3, 4);
+          
           // <% "{code_1.comment_3}" %>
-          MergerQuery wordQuery1 = MergerQuery.createWordQuery("Lorem");
-          MergerQuery wordQuery2 = MergerQuery.createWordQuery("ipsum");
-          MergerQuery booleanQuery = MergerQuery.createAndQuery(wordQuery1, wordQuery2);
+          merger.join("file_2.docx", joinOptions12);
+          merger.join("file_3.xlsx", joinOptions34);
 
           // <% "{code_1.comment_4}" %>
-          MergerResult result = index.merger(booleanQuery);
-          
-          // <% "{code_1.comment_5}" %>
-          System.out.println("Documents: " + result.getDocumentCount());
-          System.out.println("Occurrences: " + result.getDocumentCount());
+          merger.save("result.<% get "fileformat" %>");
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

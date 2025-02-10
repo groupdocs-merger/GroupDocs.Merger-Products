@@ -72,13 +72,14 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        Index index = new Index("c:/MyIndex");
+        using (Merger merger = new Merger("file_1.<% get "fileformat" %>"))
+        {
+            // <% "{examples.comment_2}" %>
+            merger.Join("file_2.<% get "fileformat" %>");
 
-        // <% "{examples.comment_2}" %>
-        index.Add("c:/MyDocuments");
-
-        // <% "{examples.comment_3}" %>
-        MergerResult result = index.Merger("lorem AND impsum");
+            // <% "{examples.comment_3}" %>
+            merger.Save("result.<% get "fileformat" %>");
+        }
         ```            
 
 ############################# More features ############################
@@ -115,22 +116,19 @@ more_features:
         content: |
           ```csharp {style=abap}
           // <% "{code_1.comment_1}" %>
-          Index index = new Index("c:/MyIndex");
-              
-          // <% "{code_1.comment_2}" %>
-          index.Add("c:/MyDocuments");
-
-          // <% "{code_1.comment_3}" %>
-          MergerQuery wordQuery1 = MergerQuery.CreateWordQuery("Lorem");
-          MergerQuery wordQuery2 = MergerQuery.CreateWordQuery("ipsum");
-          MergerQuery booleanQuery = MergerQuery.CreateAndQuery(wordQuery1, wordQuery2);
-
-          // <% "{code_1.comment_4}" %>
-          MergerResult result = index.Merger(booleanQuery);
+          using (Merger merger = new Merger("file_1.<% get "fileformat" %>"))
+          {
+              // <% "{code_1.comment_2}" %>
+              PageJoinOptions joinOptions12 = new PageJoinOptions(1, 2);
+              PageJoinOptions joinOptions34 = new PageJoinOptions(3, 4);
           
-          // <% "{code_1.comment_5}" %>
-          Console.WriteLine("Documents: " + result.DocumentCount);
-          Console.WriteLine("Occurrences: " + result.OccurrenceCount);
+              // <% "{code_1.comment_3}" %>
+              merger.Join("file_2.docx", joinOptions12);
+              merger.Join("file_3.xlsx", joinOptions34);
+
+              // <% "{code_1.comment_4}" %>
+              merger.Save("result.<% get "fileformat" %>");
+          }
           ```
         platform: "net"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

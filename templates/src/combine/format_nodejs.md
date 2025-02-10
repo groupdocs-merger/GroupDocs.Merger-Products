@@ -74,13 +74,13 @@ steps:
         const mergerLib = require('@groupdocs/groupdocs.merger')
 
         // <% "{examples.comment_1}" %>
-        const index = new mergerLib.Index("c:/MyIndex");
+        const merger = new mergerLib.Merger("file_1.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        index.add("c:/MyDocuments");
+        merger.join("file_2.<% get "fileformat" %>");
 
         // <% "{examples.comment_3}" %>
-        const result = index.merger("lorem AND impsum");
+        merger.save("result.<% get "fileformat" %>");
         ```            
 
 ############################# More features ############################
@@ -119,22 +119,18 @@ more_features:
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
           // <% "{code_1.comment_1}" %>
-          const index = new mergerLib.Index("c:/MyIndex");
-              
-          // <% "{code_1.comment_2}" %>
-          index.add("c:/MyDocuments");
+          const merger = new mergerLib.Merger("file_1.<% get "fileformat" %>");
 
+          // <% "{code_1.comment_2}" %>
+          PageJoinOptions joinOptions12 = new mergerLib.PageJoinOptions(1, 2);
+          PageJoinOptions joinOptions34 = new mergerLib.PageJoinOptions(3, 4);
+          
           // <% "{code_1.comment_3}" %>
-          const wordQuery1 = mergerLib.MergerQuery.createWordQuery("Lorem");
-          const wordQuery2 = mergerLib.MergerQuery.createWordQuery("ipsum");
-          const combineQuery = mergerLib.MergerQuery.createAndQuery(wordQuery1, wordQuery2);
+          merger.join("file_2.docx", joinOptions12);
+          merger.join("file_3.xlsx", joinOptions34);
 
           // <% "{code_1.comment_4}" %>
-          const result = index.merger(combineQuery);
-          
-          // <% "{code_1.comment_5}" %>
-          console.log('Documents: ' + result.getDocumentCount());
-          console.log('Occurrences: ' + result.getOccurrenceCount());
+          merger.save("result.<% get "fileformat" %>");
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"
