@@ -1,10 +1,10 @@
     items: 
           
         # operation loop 1
-        - name: "<% "{common-content.operations.boolean.name}" %>"
-          operation: "boolean"
-          link: "/search/<% get "ProdCode" %>/boolean/<% get "FileFormat" %>/"
-          description: "<% "{common-content.operations.boolean.description}" %>"
+        - name: "<% "{common-content.operations.combine.name}" %>"
+          operation: "combine"
+          link: "/search/<% get "ProdCode" %>/combine/<% get "FileFormat" %>/"
+          description: "<% "{common-content.operations.combine.description}" %>"
 
         # operation loop 2
         - name: "<% "{common-content.operations.case-sensitive.name}" %>"

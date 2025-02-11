@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-10T17:58:48
+date:  2025-02-11T14:53:58
 draft: false
 lang: en
 format: Docx
@@ -179,34 +179,34 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "Search by condition"
-          operation: "boolean"
-          link: "/search/nodejs-java/boolean/docx/"
+        - name: "Combine documents"
+          operation: "combine"
+          link: "/search/nodejs-java/combine/docx/"
           description: "Find information in documents using boolean conditions"
 
         # operation loop 2
-        - name: "Case-sensitive search"
+        - name: "{common-content.operations.case-sensitive.name}"
           operation: "case-sensitive"
           link: "/search/nodejs-java/case-sensitive/docx/"
-          description: "Improve search accuracy by considering case sensitivity"
+          description: "{common-content.operations.case-sensitive.description}"
 
         # operation loop 3
-        - name: "Document indexing"
+        - name: "{common-content.operations.document.name}"
           operation: "document"
           link: "/search/nodejs-java/document/docx/"
-          description: "Index documents once and reuse the index for multiple searches"
+          description: "{common-content.operations.document.description}"
 
         # operation loop 4
-        - name: "Search filters"
+        - name: "{common-content.operations.filters.name}"
           operation: "filters"
           link: "/search/nodejs-java/filters/docx/"
-          description: "Use filters to narrow down the data being processed"
+          description: "{common-content.operations.filters.description}"
 
         # operation loop 5
-        - name: "Exact phrase"
+        - name: "{common-content.operations.phrase.name}"
           operation: "phrase"
           link: "/search/nodejs-java/phrase/docx/"
-          description: "Search for a specific sentence or phrase"
+          description: "{common-content.operations.phrase.description}"
           
         
           
@@ -218,33 +218,33 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file types, ensuring seamless document processing for various business needs."
     items: 
         # format loop 1
-        - name: "Search in DOCX"
+        - name: "Merge DOCX"
           format: "DOCX"
-          link: "/search/nodejs-java/combine/docx/"
+          link: "/merger/nodejs-java/combine/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Search in PDF"
+        - name: "Merge PDF"
           format: "PDF"
-          link: "/search/nodejs-java/combine/pdf/"
+          link: "/merger/nodejs-java/combine/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Search in PPTX"
+        - name: "Merge PPTX"
           format: "PPTX"
-          link: "/search/nodejs-java/combine/pptx/"
+          link: "/merger/nodejs-java/combine/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Search in TXT"
-          format: "TXT"
-          link: "/search/nodejs-java/combine/txt/"
-          description: "Text Document"
+        - name: "Merge EPUB"
+          format: "EPUB"
+          link: "/merger/nodejs-java/combine/epub/"
+          description: "Electronic Publication"
           
         # format loop 5
-        - name: "Search in XLSX"
+        - name: "Merge XLSX"
           format: "XLSX"
-          link: "/search/nodejs-java/combine/xlsx/"
+          link: "/merger/nodejs-java/combine/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
   
 
