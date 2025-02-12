@@ -2,52 +2,52 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-12T16:15:43
+date:  2025-02-12T16:15:44
 draft: false
 lang: en
-format: Xlsx
+format: Epub
 product: "Merger"
 product_tag: "merger"
 platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Merge XLSX files in Python via .NET"
-head_description: "Seamlessly integrate XLSX file merging into your Python projects using GroupDocs.Merger for Python via .NET."
+head_title: "Extract EPUB pages in Python via .NET"
+head_description: "Quickly extract specific pages from a EPUB file using GroupDocs.Merger for Python via .NET and save them as a separate document."
 
 ############################# Header ############################
-title: "Merge XLSX files" 
-description: "GroupDocs.Merger for Python via .NET enables you to merge XLSX documents effortlessly within your Python applications, providing seamless integration and high performance."
+title: "Extract EPUB pages" 
+description: "Enhance your Python applications with GroupDocs.Merger for Python via .NET, providing seamless page extraction for EPUB documents."
 subtitle: "GroupDocs.Merger for Python via .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/merger/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Overview of GroupDocs.Merger"
+    title: "About GroupDocs.Merger"
     link: "/merger/python-net/"
     link_title: "Learn more"
     picture: "about_merger.svg" # 480 X 400
     content: |
-       [GroupDocs.Merger for Python via .NET](/merger/python-net/) is a feature-rich document processing solution supporting over 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. With its robust set of tools, you can merge, split, extract, swap, and remove pages efficiently.
+       [GroupDocs.Merger for Python via .NET](/merger/python-net/) is a versatile document processing library that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, and images. It enables you to merge, split, extract, rearrange, and delete pages effortlessly.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to merge XLSX documents"
+    title: "How to extract EPUB pages"
     content: |
-      With [GroupDocs.Merger](/merger/python-net/), merging XLSX documents is simple. Enhance your Python via .NET applications with efficient document combination capabilities.
+      [GroupDocs.Merger](/merger/python-net/) makes it easy to extract pages from EPUB documents. Integrate seamless document processing into your Python via .NET applications.
       
-      1. Provide the file path for the first XLSX document.
-      2. Select the second document to be merged.
-      3. Set optional parameters for customization.
-      4. Execute the merge process and save the output document.
+      1. Specify the file path of the source EPUB document.
+      2. Select the pages you want to extract.
+      3. Run the extraction process.
+      4. Save the extracted pages as a new document.
    
     code:
       platform: "nodejs-java"
@@ -71,64 +71,66 @@ steps:
         ```python {style=abap}
         import groupdocs.merger as gm
 
-        # Initialize the Merger with the source XLSX document
-        with gm.Merger("file_1.xlsx") as merger:
+        # Initialize GroupDocs.Merger with the source document
+        with gm.Merger("document.epub") as merger:
             
-            # Merge the document with another selected file
-            merger.join("file_2.xlsx")
+            # Specify the pages to extract
+            extractOptions = gm.domain.options.ExtractOptions([2])
 
-            # Save the final merged document to a preferred location
-            merger.save("result.xlsx")
+            # Execute the extraction process
+            merger.extract_pages(extractOptions)
+
+            # Save the extracted pages as a new file
+            merger.save("result.epub")
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive document merging capabilities"
-  description: "GroupDocs.Merger for Python via .NET is optimized for handling a wide variety of document formats, offering extensive features for managing business documents."
-  image: "/img/merger/features_combine.webp" # 500x500 px
-  image_description: "Core functionalities of GroupDocs.Merger"
+  title: "Advanced document processing"
+  description: "GroupDocs.Merger for Python via .NET provides a wide range of tools to manage over 50 popular business file formats."
+  image: "/img/merger/features_extract.webp" # 500x500 px
+  image_description: "Key features of GroupDocs.Merger"
   features:
     # feature loop
-    - title: "Merge multiple document types"
-      content: "Easily combine PDFs, Word files, presentations, spreadsheets, images, and other document types. Define specific page ranges to customize the merge process."
+    - title: "Merge multiple file formats"
+      content: "Combine PDFs, Word documents, PowerPoint slides, Excel spreadsheets, images, and archives into a single document with flexible options."
 
     # feature loop
-    - title: "Modify and organize document pages"
-      content: "Rearrange pages, delete unwanted sections, or swap pages to create well-structured documents tailored to your needs."
+    - title: "Manage document pages"
+      content: "Easily reorder, move, or remove pages to structure your documents efficiently."
 
     # feature loop
-    - title: "Customize page layout and orientation"
-      content: "Rotate pages to any desired angle and adjust page orientation between landscape and portrait for various file types."
+    - title: "Modify page layout"
+      content: "Rotate pages to any angle or switch between portrait and landscape orientation as needed."
 
     # feature loop
-    - title: "Extract and save specific document pages"
-      content: "Select particular pages from a document and save them as a separate file, ensuring easy access and organization."
+    - title: "Extract selected pages"
+      content: "Choose and extract only the pages you need, saving them as a new document."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Merge selected pages from different document formats"
+    - title: "Extract specific pages from a document"
       content: |
-        This example demonstrates how to merge XLSX files while selecting specific pages from documents in other formats.
+        This example shows how to extract a selected range of pages from a EPUB file and save them as a separate document.
       code:
         title: "JavaScript"
         content: |
           ```python {style=abap}
           import groupdocs.merger as gm
           
-          # Define the path of the main document
-          with gm.Merger("file_1.xlsx") as merger:
+          # Specify the file path of the source document
+          with gm.Merger("file_1.epub") as merger:
             
-              # Configure options to include specific pages
-              joinOptions12 = gm.domain.options.PageJoinOptions(1, 2)
-              joinOptions34 = gm.domain.options.PageJoinOptions(3, 4)
+              # Set options to extract only even-numbered pages within a range
+              rangeMode = gm.domain.options.RangeMode.EVEN_PAGES
+              extractOptions = gm.domain.options.ExtractOptions(1, 3, rangeMode)
           
-              # Merge the primary file with selected pages from another document
-              merger.join("file_2.docx", joinOptions12)
-              merger.join("file_3.xlsx", joinOptions34)
+              # Perform the extraction operation
+              merger.extract_pages(extractOptions)
 
-              # Save the final document in the desired location
-              merger.save("result.xlsx");
+              # Save the extracted pages as a new file
+              merger.save("result.epub");
           ```
         platform: "nodejs-java"
         copy_title: "Copy"
@@ -140,7 +142,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/merger/formats/mergercombine.pdf"
+            link: "/examples/merger/formats/mergerextract.pdf"
         links:
           #  loop
           - title: "More examples"
@@ -173,39 +175,39 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key functionalities"
-    exclude: "combine"
-    description: "Discover additional operations and features supported by GroupDocs.Merger to enhance your document processing experience."
+    title: "Key features"
+    exclude: "extract"
+    description: "Explore additional document processing capabilities."
     items: 
           
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/python-net/combine/xlsx/"
+          link: "/merger/python-net/combine/epub/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/python-net/extract/xlsx/"
+          link: "/merger/python-net/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "{common-content.operations.document.name}"
           operation: "document"
-          link: "/merger/python-net/document/xlsx/"
+          link: "/merger/python-net/document/epub/"
           description: "{common-content.operations.document.description}"
 
         # operation loop 4
         - name: "{common-content.operations.filters.name}"
           operation: "filters"
-          link: "/merger/python-net/filters/xlsx/"
+          link: "/merger/python-net/filters/epub/"
           description: "{common-content.operations.filters.description}"
 
         # operation loop 5
         - name: "{common-content.operations.phrase.name}"
           operation: "phrase"
-          link: "/merger/python-net/phrase/xlsx/"
+          link: "/merger/python-net/phrase/epub/"
           description: "{common-content.operations.phrase.description}"
           
         
@@ -213,38 +215,38 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Combine files in different formats"
-    exclude: "XLSX"
-    description: "With support for over 50 document types, GroupDocs.Merger streamlines file processing, making document handling simple and efficient."
+    title: "Extract pages from various file formats"
+    exclude: "EPUB"
+    description: "GroupDocs.Merger supports over 50 file formats, making document management easy and efficient."
     items: 
         # format loop 1
-        - name: "Combine DOCX"
+        - name: "Extract DOCX"
           format: "DOCX"
-          link: "/merger/python-net/combine/docx/"
+          link: "/merger/python-net/extract/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Combine PDF"
+        - name: "Extract PDF"
           format: "PDF"
-          link: "/merger/python-net/combine/pdf/"
+          link: "/merger/python-net/extract/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Combine PPTX"
+        - name: "Extract PPTX"
           format: "PPTX"
-          link: "/merger/python-net/combine/pptx/"
+          link: "/merger/python-net/extract/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Combine EPUB"
+        - name: "Extract EPUB"
           format: "EPUB"
-          link: "/merger/python-net/combine/epub/"
+          link: "/merger/python-net/extract/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Combine XLSX"
+        - name: "Extract XLSX"
           format: "XLSX"
-          link: "/merger/python-net/combine/xlsx/"
+          link: "/merger/python-net/extract/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
   
 

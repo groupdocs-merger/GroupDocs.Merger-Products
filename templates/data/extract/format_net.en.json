@@ -1,69 +1,69 @@
 {
   "head": {
-    "title": "Merge {{FileFormatUp}} files in {{ProgLang}} via {{EnvNameShort}}",
-    "description": "Integrate {{ProdFullName}} into your {{EnvNameShort}} projects to easily merge {{FileFormatUp}} files."
+    "title": "Extract {{FileFormatUp}} pages in {{EnvName}}",
+    "description": "Quickly extract specific pages from a {{FileFormatUp}} file using {{ProdFullName}} and save them as a separate document."
   },
   "header": {
-    "title": "Merge {{FileFormatUp}} files",
-    "description": "Use {{ProdFullName}} to build {{EnvNameShort}} applications that efficiently merge {{FileFormatUp}} documents.",
+    "title": "Extract {{FileFormatUp}} pages",
+    "description": "Integrate {{ProdFullName}} into your {{EnvNameShort}} applications to efficiently process {{FileFormatUp}} files with advanced page extraction features.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for Free"
   },
   "about": {
     "title": "About {{ProdShortName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive document processing solution. It supports over 50 formats, including PDF, Word, Excel, PowerPoint, images, and archives, allowing you to merge, split, extract, swap, and remove pages effortlessly."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful document processing library that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, and images. It enables seamless operations like merging, splitting, extracting, reordering, and deleting pages."
   },
   "more_features": {
-    "title": "Tools for document merging",
-    "description": "{{ProdFullName}} supports 50+ commonly used business file formats and provides extensive document manipulation features.",
+    "title": "Versatile document processing",
+    "description": "{{ProdFullName}} provides robust functionality for working with over 50 widely used business document formats.",
     "image_description": "Core features of {{ProdShortName}}",
     "feature_1": {
-      "title": "Merge multiple document formats",
-      "content": "Easily combine PDFs, Word files, presentations, spreadsheets, images, and more. Choose specific pages to merge as needed."
+      "title": "Merge multiple file types",
+      "content": "Combine PDFs, Word documents, PowerPoint slides, Excel sheets, images, and archives into a single file with customizable options."
     },
     "feature_2": {
-      "title": "Modify document pages",
-      "content": "Rearrange, delete, or swap pages within your business documents to structure them according to your needs."
+      "title": "Advanced page management",
+      "content": "Easily move, remove, or reorder pages within a document to organize your content effectively."
     },
     "feature_3": {
-      "title": "Customize page layout",
-      "content": "Rotate pages to any angle and adjust their orientation between landscape and portrait for supported file types."
+      "title": "Modify page layout",
+      "content": "Rotate pages to any angle or switch between portrait and landscape orientation as needed."
     },
     "feature_4": {
-      "title": "Extract pages",
-      "content": "Select and extract specific pages, saving them as a new document."
+      "title": "Extract specific pages",
+      "content": "Select and extract only the required pages, saving them as a new document for further use."
     }
   },
   "formats": {
-    "title": "Merge different file formats",
-    "description": "{{ProdShortName}} handles over 50 file formats, enabling seamless business document processing."
+    "title": "Extract pages from multiple file formats",
+    "description": "{{ProdShortName}} supports over 50 file formats, making document management more flexible and efficient."
   },
   "operations": {
-    "title": "Core features",
-    "description": "Discover additional supported operations."
+    "title": "Main capabilities",
+    "description": "Explore additional document processing features."
   },
   "examples": {
-    "comment_1": "Create a Merger instance with the input {{FileFormatUp}} document",
-    "comment_2": "Merge the file with another document",
-    "comment_3": "Save the merged file to the specified location"
+    "comment_1": "Create an instance of {{ProdShortName}} with the source document",
+    "comment_2": "Define extraction settings for specific pages",
+    "comment_3": "Execute the page extraction process",
+    "comment_4": "Save the extracted pages as a new file"
   },
   "steps": {
-    "title": "Steps to merge {{FileFormatUp}} files",
+    "title": "How to extract {{FileFormatUp}} pages",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to merge {{FileFormatUp}} files effortlessly. Integrate this feature into your {{EnvName}} applications to handle multiple documents as a single file.",
-      "step_1": "Set the path to the first {{FileFormatUp}} file.",
-      "step_2": "Choose the second file.",
-      "step_3": "Configure optional settings.",
-      "step_4": "Merge the documents and save the output file."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it simple to extract pages from {{FileFormatUp}} documents. Enhance your {{EnvName}} applications with seamless document processing capabilities.",
+      "step_1": "Provide the file path of the source {{FileFormatUp}} document.",
+      "step_2": "Select the pages you want to extract.",
+      "step_3": "Run the extraction process.",
+      "step_4": "Save the extracted pages as a separate document."
     }
   },
   "code_1": {
-    "title": "Merge selected pages from files of different formats",
-    "content": "This example illustrates how to merge {{FileFormatUp}} files while incorporating selected pages from other formats.",
-    "comment_1": "Define the main file path",
-    "comment_2": "Specify options to select particular pages",
-    "comment_3": "Merge the primary document with selected pages from another file",
-    "comment_4": "Save the final merged document to the specified location"
+    "title": "Extract specific pages from a document",
+    "content": "This example shows how to extract a selected range of pages from a {{FileFormatUp}} file and save them as a new document.",
+    "comment_1": "Specify the file path of the original document",
+    "comment_2": "Define options to extract only even-numbered pages from the selected range",
+    "comment_3": "Perform the extraction operation",
+    "comment_4": "Save the extracted pages to a new file"
   }
 }
-

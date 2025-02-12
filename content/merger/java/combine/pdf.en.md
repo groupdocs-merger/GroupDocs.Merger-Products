@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-11T14:53:58
+date:  2025-02-12T16:15:43
 draft: false
 lang: en
 format: Pdf
@@ -12,7 +12,7 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Combine PDF files in Java via Java"
+head_title: "Combine PDF files in Java"
 head_description: "Use GroupDocs.Merger for Java to add PDF document merging capabilities to your Java projects."
 
 ############################# Header ############################
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/merger/merger_all.pdf"
-      result_title: "Search result"
+      result_title: "Code result"
       install:
         command_title: "Maven XML"
         command: |
@@ -206,33 +206,33 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "Combine documents"
+        - name: "Merge documents"
           operation: "combine"
-          link: "/search/java/combine/pdf/"
-          description: "Find information in documents using boolean conditions"
+          link: "/merger/java/combine/pdf/"
+          description: "Combine multiple documents into one"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
-          operation: "case-sensitive"
-          link: "/search/java/case-sensitive/pdf/"
-          description: "{common-content.operations.case-sensitive.description}"
+        - name: "Extract pages"
+          operation: "extract"
+          link: "/merger/java/extract/pdf/"
+          description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "{common-content.operations.document.name}"
           operation: "document"
-          link: "/search/java/document/pdf/"
+          link: "/merger/java/document/pdf/"
           description: "{common-content.operations.document.description}"
 
         # operation loop 4
         - name: "{common-content.operations.filters.name}"
           operation: "filters"
-          link: "/search/java/filters/pdf/"
+          link: "/merger/java/filters/pdf/"
           description: "{common-content.operations.filters.description}"
 
         # operation loop 5
         - name: "{common-content.operations.phrase.name}"
           operation: "phrase"
-          link: "/search/java/phrase/pdf/"
+          link: "/merger/java/phrase/pdf/"
           description: "{common-content.operations.phrase.description}"
           
         
@@ -245,31 +245,31 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, allowing you to manipulate business documents with efficiency."
     items: 
         # format loop 1
-        - name: "Merge DOCX"
+        - name: "Combine DOCX"
           format: "DOCX"
           link: "/merger/java/combine/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Merge PDF"
+        - name: "Combine PDF"
           format: "PDF"
           link: "/merger/java/combine/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Merge PPTX"
+        - name: "Combine PPTX"
           format: "PPTX"
           link: "/merger/java/combine/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Merge EPUB"
+        - name: "Combine EPUB"
           format: "EPUB"
           link: "/merger/java/combine/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Merge XLSX"
+        - name: "Combine XLSX"
           format: "XLSX"
           link: "/merger/java/combine/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

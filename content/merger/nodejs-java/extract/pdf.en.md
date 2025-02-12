@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-12T16:15:43
+date:  2025-02-12T16:15:44
 draft: false
 lang: en
 format: Pdf
@@ -12,12 +12,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Merge PDF files in JavaScript"
-head_description: "Easily integrate PDF file merging into your Node.js projects with GroupDocs.Merger for Node.js via Java."
+head_title: "Extract PDF pages in Node.js via Java"
+head_description: "Easily extract specific pages from a PDF file using GroupDocs.Merger for Node.js via Java and save them as a new document."
 
 ############################# Header ############################
-title: "Merge PDF files" 
-description: "GroupDocs.Merger for Node.js via Java allows you to seamlessly merge PDF documents within your Node.js applications."
+title: "Extract PDF pages" 
+description: "Use GroupDocs.Merger for Node.js via Java to enhance your Node.js applications with advanced page extraction features for PDF documents."
 subtitle: "GroupDocs.Merger for Node.js via Java" 
 
 header_actions:
@@ -35,19 +35,19 @@ about:
     link_title: "Learn more"
     picture: "about_merger.svg" # 480 X 400
     content: |
-       [GroupDocs.Merger for Node.js via Java](/merger/nodejs-java/) is a comprehensive tool for document management. It supports more than 50 formats, including PDF, Word, Excel, PowerPoint, images, and archives, enabling you to merge, split, extract, swap, and remove pages with ease.
+       [GroupDocs.Merger for Node.js via Java](/merger/nodejs-java/) is a comprehensive document processing library that supports over 50 formats, including PDF, Word, Excel, PowerPoint, and images. It allows you to merge, split, extract, rearrange, and delete pages with ease.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to merge PDF documents"
+    title: "How to extract PDF pages"
     content: |
-      [GroupDocs.Merger](/merger/nodejs-java/) provides seamless merging for PDF documents. Enhance your Node.js via Java applications by combining multiple files into one.
+      [GroupDocs.Merger](/merger/nodejs-java/) makes it easy to extract pages from PDF documents. Add seamless document processing to your Node.js via Java applications.
       
-      1. Set the path to the first PDF document.
-      2. Select the second document.
-      3. Define optional parameters.
-      4. Merge the files and save the output document.
+      1. Provide the file path of the source PDF document.
+      2. Choose the pages you want to extract.
+      3. Run the extraction process.
+      4. Save the extracted pages as a new document.
    
     code:
       platform: "nodejs-java"
@@ -71,63 +71,67 @@ steps:
         ```javascript {style=abap}
         const mergerLib = require('@groupdocs/groupdocs.merger')
 
-        // Initialize Merger with the input PDF file
-        const merger = new mergerLib.Merger("file_1.pdf");
+        // Initialize GroupDocs.Merger with the source document
+        const merger = new mergerLib.Merger("document.pdf")
 
-        // Combine the file with another document
-        merger.join("file_2.pdf");
+        // Set up options to extract specific pages
+        const java = require('java')
+        const pageArray = java.newArray('int', [2])
+        const extractOptions = new mergerLib.ExtractOptions(pageArray)
 
-        // Save the merged document to a specified location
-        merger.save("result.pdf");
+        // Perform the extraction operation
+        merger.extractPages(extractOptions)
+
+        // Save the extracted pages as a new file
+        merger.save("result.pdf")
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced document merging"
-  description: "GroupDocs.Merger for Node.js via Java is designed to work with over 50 popular file formats, providing robust document processing capabilities."
-  image: "/img/merger/features_combine.webp" # 500x500 px
+  title: "Comprehensive document processing"
+  description: "GroupDocs.Merger for Node.js via Java offers powerful features for handling over 50 widely used business file formats."
+  image: "/img/merger/features_extract.webp" # 500x500 px
   image_description: "Key capabilities of GroupDocs.Merger"
   features:
     # feature loop
-    - title: "Merge various document types"
-      content: "Effortlessly combine PDFs, Word documents, presentations, spreadsheets, images, and more. Customize which pages to merge as needed."
+    - title: "Merge different file formats"
+      content: "Combine PDFs, Word documents, PowerPoint presentations, Excel sheets, images, and archives into a single document with flexible options."
 
     # feature loop
-    - title: "Modify document pages"
-      content: "Rearrange, delete, or swap pages to better structure your business documents."
+    - title: "Manage document pages"
+      content: "Reorder, move, or remove pages to refine and organize your documents efficiently."
 
     # feature loop
-    - title: "Adjust page settings"
-      content: "Rotate pages to any angle and change their orientation between landscape and portrait for supported file formats."
+    - title: "Adjust page layout"
+      content: "Rotate pages to any angle or switch between portrait and landscape orientation as needed."
 
     # feature loop
-    - title: "Extract document pages"
-      content: "Select and extract specific pages, saving them as a new standalone document."
+    - title: "Extract specific pages"
+      content: "Select and extract only the necessary pages, saving them as a standalone document."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Merge selected pages from different file formats"
+    - title: "Extract specific pages from a document"
       content: |
-        This example shows how to merge PDF files while selecting specific pages from other document types.
+        This example demonstrates how to extract a selected range of pages from a PDF file and save them as a new document.
       code:
         title: "JavaScript"
         content: |
           ```javascript {style=abap}
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
-          // Specify the primary document path
+          // Specify the path to the source document
           const merger = new mergerLib.Merger("file_1.pdf");
 
-          // Set options to include selected pages
-          PageJoinOptions joinOptions12 = new mergerLib.PageJoinOptions(1, 2);
-          PageJoinOptions joinOptions34 = new mergerLib.PageJoinOptions(3, 4);
+          // Set extraction options to include only even-numbered pages within a range
+          const evenPages = groupdocs.merger.RangeMode.EvenPages
+          const extractOptions = new groupdocs.merger.ExtractOptions(1, 3, evenPages)
           
-          // Merge the primary file with pages from another document
-          merger.join("file_2.docx", joinOptions12);
-          merger.join("file_3.xlsx", joinOptions34);
+          // Execute the extraction operation
+          merger.extractPages(extractOptions)
 
-          // Save the final merged document to the desired location
+          // Save the extracted pages to a new file
           merger.save("result.pdf");
           ```
         platform: "nodejs-java"
@@ -140,7 +144,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/merger/formats/mergercombine.pdf"
+            link: "/examples/merger/formats/mergerextract.pdf"
         links:
           #  loop
           - title: "More examples"
@@ -174,8 +178,8 @@ actions:
 more_operations:
     enable: true
     title: "Key functionalities"
-    exclude: "combine"
-    description: "Explore additional features and operations supported by GroupDocs.Merger."
+    exclude: "extract"
+    description: "Discover additional document processing features."
     items: 
           
         # operation loop 1
@@ -213,38 +217,38 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Combine multiple file formats"
+    title: "Extract pages from multiple formats"
     exclude: "PDF"
-    description: "GroupDocs.Merger supports over 50 file types, ensuring seamless document processing for various business needs."
+    description: "GroupDocs.Merger supports over 50 file formats, enabling seamless document processing."
     items: 
         # format loop 1
-        - name: "Combine DOCX"
+        - name: "Extract DOCX"
           format: "DOCX"
-          link: "/merger/nodejs-java/combine/docx/"
+          link: "/merger/nodejs-java/extract/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Combine PDF"
+        - name: "Extract PDF"
           format: "PDF"
-          link: "/merger/nodejs-java/combine/pdf/"
+          link: "/merger/nodejs-java/extract/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Combine PPTX"
+        - name: "Extract PPTX"
           format: "PPTX"
-          link: "/merger/nodejs-java/combine/pptx/"
+          link: "/merger/nodejs-java/extract/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Combine EPUB"
+        - name: "Extract EPUB"
           format: "EPUB"
-          link: "/merger/nodejs-java/combine/epub/"
+          link: "/merger/nodejs-java/extract/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Combine XLSX"
+        - name: "Extract XLSX"
           format: "XLSX"
-          link: "/merger/nodejs-java/combine/xlsx/"
+          link: "/merger/nodejs-java/extract/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
   
 

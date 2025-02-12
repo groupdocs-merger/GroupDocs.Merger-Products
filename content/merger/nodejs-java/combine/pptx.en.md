@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-11T14:53:58
+date:  2025-02-12T16:15:43
 draft: false
 lang: en
 format: Pptx
@@ -12,7 +12,7 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Merge PPTX files in JavaScript via Node.js"
+head_title: "Merge PPTX files in JavaScript"
 head_description: "Easily integrate PPTX file merging into your Node.js projects with GroupDocs.Merger for Node.js via Java."
 
 ############################# Header ############################
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/merger/merger_all.pdf"
-      result_title: "Search result"
+      result_title: "Code result"
       install:
         command: "npm i @groupdocs/groupdocs.merger"
         copy_tip: "click to copy"
@@ -140,7 +140,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/merger/formats/mergercombine.pptx"
+            link: "/examples/merger/formats/mergercombine.pdf"
         links:
           #  loop
           - title: "More examples"
@@ -179,33 +179,33 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "Combine documents"
+        - name: "Merge documents"
           operation: "combine"
-          link: "/search/nodejs-java/combine/pptx/"
-          description: "Find information in documents using boolean conditions"
+          link: "/merger/nodejs-java/combine/pptx/"
+          description: "Combine multiple documents into one"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
-          operation: "case-sensitive"
-          link: "/search/nodejs-java/case-sensitive/pptx/"
-          description: "{common-content.operations.case-sensitive.description}"
+        - name: "Extract pages"
+          operation: "extract"
+          link: "/merger/nodejs-java/extract/pptx/"
+          description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "{common-content.operations.document.name}"
           operation: "document"
-          link: "/search/nodejs-java/document/pptx/"
+          link: "/merger/nodejs-java/document/pptx/"
           description: "{common-content.operations.document.description}"
 
         # operation loop 4
         - name: "{common-content.operations.filters.name}"
           operation: "filters"
-          link: "/search/nodejs-java/filters/pptx/"
+          link: "/merger/nodejs-java/filters/pptx/"
           description: "{common-content.operations.filters.description}"
 
         # operation loop 5
         - name: "{common-content.operations.phrase.name}"
           operation: "phrase"
-          link: "/search/nodejs-java/phrase/pptx/"
+          link: "/merger/nodejs-java/phrase/pptx/"
           description: "{common-content.operations.phrase.description}"
           
         
@@ -218,31 +218,31 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file types, ensuring seamless document processing for various business needs."
     items: 
         # format loop 1
-        - name: "Merge DOCX"
+        - name: "Combine DOCX"
           format: "DOCX"
           link: "/merger/nodejs-java/combine/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Merge PDF"
+        - name: "Combine PDF"
           format: "PDF"
           link: "/merger/nodejs-java/combine/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Merge PPTX"
+        - name: "Combine PPTX"
           format: "PPTX"
           link: "/merger/nodejs-java/combine/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Merge EPUB"
+        - name: "Combine EPUB"
           format: "EPUB"
           link: "/merger/nodejs-java/combine/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Merge XLSX"
+        - name: "Combine XLSX"
           format: "XLSX"
           link: "/merger/nodejs-java/combine/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

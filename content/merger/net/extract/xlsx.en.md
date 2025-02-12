@@ -2,22 +2,22 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-12T16:15:43
+date:  2025-02-12T16:15:44
 draft: false
 lang: en
-format: Pdf
+format: Xlsx
 product: "Merger"
 product_tag: "merger"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Merge PDF files in .NET"
-head_description: "Integrate GroupDocs.Merger for .NET into your .NET projects to easily merge PDF files."
+head_title: "Extract XLSX pages in .NET"
+head_description: "Quickly extract specific pages from a XLSX file using GroupDocs.Merger for .NET and save them as a separate document."
 
 ############################# Header ############################
-title: "Merge PDF files" 
-description: "Use GroupDocs.Merger for .NET to build .NET applications that efficiently merge PDF documents."
+title: "Extract XLSX pages" 
+description: "Integrate GroupDocs.Merger for .NET into your .NET applications to efficiently process XLSX files with advanced page extraction features."
 subtitle: "GroupDocs.Merger for .NET" 
 
 header_actions:
@@ -35,19 +35,19 @@ about:
     link_title: "Learn more"
     picture: "about_merger.svg" # 480 X 400
     content: |
-       [GroupDocs.Merger for .NET](/merger/net/) is a comprehensive document processing solution. It supports over 50 formats, including PDF, Word, Excel, PowerPoint, images, and archives, allowing you to merge, split, extract, swap, and remove pages effortlessly.
+       [GroupDocs.Merger for .NET](/merger/net/) is a powerful document processing library that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, and images. It enables seamless operations like merging, splitting, extracting, reordering, and deleting pages.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps to merge PDF files"
+    title: "How to extract XLSX pages"
     content: |
-      [GroupDocs.Merger](/merger/net/) allows you to merge PDF files effortlessly. Integrate this feature into your .NET applications to handle multiple documents as a single file.
+      [GroupDocs.Merger](/merger/net/) makes it simple to extract pages from XLSX documents. Enhance your .NET applications with seamless document processing capabilities.
       
-      1. Set the path to the first PDF file.
-      2. Choose the second file.
-      3. Configure optional settings.
-      4. Merge the documents and save the output file.
+      1. Provide the file path of the source XLSX document.
+      2. Select the pages you want to extract.
+      3. Run the extraction process.
+      4. Save the extracted pages as a separate document.
    
     code:
       platform: "net"
@@ -69,63 +69,67 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Create a Merger instance with the input PDF document
-        using (Merger merger = new Merger("file_1.pdf"))
+        // Create an instance of GroupDocs.Merger with the source document
+        using (Merger merger = new Merger("document.xlsx"))
         {
-            // Merge the file with another document
-            merger.Join("file_2.pdf");
+            // Define extraction settings for specific pages
+            merger.Join("file_2.xlsx");
 
-            // Save the merged file to the specified location
-            merger.Save("result.pdf");
+            // Define extraction settings for specific pages
+            ExtractOptions extractOptions = new ExtractOptions(new int[] { 2 });
+
+            // Execute the page extraction process
+            merger.ExtractPages(extractOptions);
+
+            // Execute the page extraction process
+            merger.Save("result.xlsx");
         }
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Tools for document merging"
-  description: "GroupDocs.Merger for .NET supports 50+ commonly used business file formats and provides extensive document manipulation features."
-  image: "/img/merger/features_combine.webp" # 500x500 px
+  title: "Versatile document processing"
+  description: "GroupDocs.Merger for .NET provides robust functionality for working with over 50 widely used business document formats."
+  image: "/img/merger/features_extract.webp" # 500x500 px
   image_description: "Core features of GroupDocs.Merger"
   features:
     # feature loop
-    - title: "Merge multiple document formats"
-      content: "Easily combine PDFs, Word files, presentations, spreadsheets, images, and more. Choose specific pages to merge as needed."
+    - title: "Merge multiple file types"
+      content: "Combine PDFs, Word documents, PowerPoint slides, Excel sheets, images, and archives into a single file with customizable options."
 
     # feature loop
-    - title: "Modify document pages"
-      content: "Rearrange, delete, or swap pages within your business documents to structure them according to your needs."
+    - title: "Advanced page management"
+      content: "Easily move, remove, or reorder pages within a document to organize your content effectively."
 
     # feature loop
-    - title: "Customize page layout"
-      content: "Rotate pages to any angle and adjust their orientation between landscape and portrait for supported file types."
+    - title: "Modify page layout"
+      content: "Rotate pages to any angle or switch between portrait and landscape orientation as needed."
 
     # feature loop
-    - title: "Extract pages"
-      content: "Select and extract specific pages, saving them as a new document."
+    - title: "Extract specific pages"
+      content: "Select and extract only the required pages, saving them as a new document for further use."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Merge selected pages from files of different formats"
+    - title: "Extract specific pages from a document"
       content: |
-        This example illustrates how to merge PDF files while incorporating selected pages from other formats.
+        This example shows how to extract a selected range of pages from a XLSX file and save them as a new document.
       code:
         title: "C#"
         content: |
           ```csharp {style=abap}
-          // Define the main file path
-          using (Merger merger = new Merger("file_1.pdf"))
+          // Specify the file path of the original document
+          using (Merger merger = new Merger("file_1.xlsx"))
           {
-              // Specify options to select particular pages
-              PageJoinOptions joinOptions12 = new PageJoinOptions(1, 2);
-              PageJoinOptions joinOptions34 = new PageJoinOptions(3, 4);
+              // Define options to extract only even-numbered pages from the selected range
+              ExtractOptions extractOptions = new ExtractOptions(1, 3, RangeMode.EvenPages);
           
-              // Merge the primary document with selected pages from another file
-              merger.Join("file_2.docx", joinOptions12);
-              merger.Join("file_3.xlsx", joinOptions34);
+              // Perform the extraction operation
+              merger.ExtractPages(extractOptions);
 
-              // Save the final merged document to the specified location
-              merger.Save("result.pdf");
+              // Save the extracted pages to a new file
+              merger.Save("result.xlsx");
           }
           ```
         platform: "net"
@@ -138,7 +142,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/merger/formats/mergercombine.pdf"
+            link: "/examples/merger/formats/mergerextract.pdf"
         links:
           #  loop
           - title: "More examples"
@@ -171,39 +175,39 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Core features"
-    exclude: "combine"
-    description: "Discover additional supported operations."
+    title: "Main capabilities"
+    exclude: "extract"
+    description: "Explore additional document processing features."
     items: 
           
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/net/combine/pdf/"
+          link: "/merger/net/combine/xlsx/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/net/extract/pdf/"
+          link: "/merger/net/extract/xlsx/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "{common-content.operations.document.name}"
           operation: "document"
-          link: "/merger/net/document/pdf/"
+          link: "/merger/net/document/xlsx/"
           description: "{common-content.operations.document.description}"
 
         # operation loop 4
         - name: "{common-content.operations.filters.name}"
           operation: "filters"
-          link: "/merger/net/filters/pdf/"
+          link: "/merger/net/filters/xlsx/"
           description: "{common-content.operations.filters.description}"
 
         # operation loop 5
         - name: "{common-content.operations.phrase.name}"
           operation: "phrase"
-          link: "/merger/net/phrase/pdf/"
+          link: "/merger/net/phrase/xlsx/"
           description: "{common-content.operations.phrase.description}"
           
         
@@ -211,38 +215,38 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Merge different file formats"
-    exclude: "PDF"
-    description: "GroupDocs.Merger handles over 50 file formats, enabling seamless business document processing."
+    title: "Extract pages from multiple file formats"
+    exclude: "XLSX"
+    description: "GroupDocs.Merger supports over 50 file formats, making document management more flexible and efficient."
     items: 
         # format loop 1
-        - name: "Combine DOCX"
+        - name: "Extract DOCX"
           format: "DOCX"
-          link: "/merger/net/combine/docx/"
+          link: "/merger/net/extract/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Combine PDF"
+        - name: "Extract PDF"
           format: "PDF"
-          link: "/merger/net/combine/pdf/"
+          link: "/merger/net/extract/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Combine PPTX"
+        - name: "Extract PPTX"
           format: "PPTX"
-          link: "/merger/net/combine/pptx/"
+          link: "/merger/net/extract/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Combine EPUB"
+        - name: "Extract EPUB"
           format: "EPUB"
-          link: "/merger/net/combine/epub/"
+          link: "/merger/net/extract/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Combine XLSX"
+        - name: "Extract XLSX"
           format: "XLSX"
-          link: "/merger/net/combine/xlsx/"
+          link: "/merger/net/extract/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
   
 

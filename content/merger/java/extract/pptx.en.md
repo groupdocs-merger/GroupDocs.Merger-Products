@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-12T16:15:43
+date:  2025-02-12T16:15:44
 draft: false
 lang: en
 format: Pptx
@@ -12,12 +12,12 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Combine PPTX files in Java"
-head_description: "Use GroupDocs.Merger for Java to add PPTX document merging capabilities to your Java projects."
+head_title: "Extract PPTX pages in Java"
+head_description: "Use GroupDocs.Merger for Java to extract specific pages from a PPTX document and save them as a separate file."
 
 ############################# Header ############################
-title: "Combine PPTX files" 
-description: "With GroupDocs.Merger for Java, you can develop advanced Java applications that merge PPTX documents effortlessly."
+title: "Extract PPTX pages" 
+description: "With GroupDocs.Merger for Java, you can enhance your Java applications with powerful document processing features for PPTX files."
 subtitle: "GroupDocs.Merger for Java" 
 
 header_actions:
@@ -35,19 +35,19 @@ about:
     link_title: "Learn more"
     picture: "about_merger.svg" # 480 X 400
     content: |
-       [GroupDocs.Merger for Java](/merger/java/) is a powerful solution for document manipulation. It supports over 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. Perform operations like merging, splitting, extracting, swapping, and removing pages with ease.
+       [GroupDocs.Merger for Java](/merger/java/) is a versatile document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, and images. It provides essential features such as merging, splitting, extracting, swapping, and removing pages.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to merge PPTX documents"
+    title: "How to extract PPTX pages"
     content: |
-      [GroupDocs.Merger](/merger/java/) provides merging capabilities for PPTX documents. Enhance your Java applications by merging multiple files into one.
+      [GroupDocs.Merger](/merger/java/) allows you to extract pages from PPTX documents easily. Enhance your Java applications by integrating advanced document management capabilities.
       
-      1. Specify the path to the first PPTX file.
-      2. Select the second file.
-      3. Set additional options if needed.
-      4. Merge the files and save the output.
+      1. Specify the file path of the source PPTX document.
+      2. Choose the pages you want to extract.
+      3. Extract the selected pages.
+      4. Save the extracted pages as a new document.
    
     code:
       platform: "java"
@@ -85,61 +85,62 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Initialize Merger with the input PPTX document
-        Merger merger = new Merger("file_1.pptx");
+        // Initialize GroupDocs.Merger with the source document
+        Merger merger = new Merger("document.pptx");
 
-        // Merge the document with another file
-        merger.join("file_2.pptx");
+        // Specify the pages to extract
+        ExtractOptions extractOptions = new ExtractOptions(new int[] { 2 });
 
-        // Save the merged document to the desired location
+        // Perform the extraction process
+        merger.extractPages(extractOptions);
+
+        // Save the extracted pages as a new file
         merger.save("result.pptx");
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Document merging tools"
-  description: "GroupDocs.Merger for Java supports more than 50 popular business file formats, offering a wide range of document manipulation features."
-  image: "/img/merger/features_combine.webp" # 500x500 px
+  title: "Comprehensive document processing"
+  description: "GroupDocs.Merger for Java offers a range of powerful features to process more than 50 widely used business file formats."
+  image: "/img/merger/features_extract.webp" # 500x500 px
   image_description: "Key features of GroupDocs.Merger"
   features:
     # feature loop
-    - title: "Merge different document formats"
-      content: "Combine documents such as PDFs, Word files, presentations, spreadsheets, images, and more. Apply options to specify which pages should be processed."
+    - title: "Merge multiple document formats"
+      content: "Combine files like PDFs, Word documents, PowerPoint presentations, Excel spreadsheets, images, and archives. Customize merging options to meet your needs."
 
     # feature loop
-    - title: "Page manipulation"
-      content: "Easily move, remove, or swap selected pages to structure your business documents as needed."
+    - title: "Page management"
+      content: "Work with specific pages or page ranges—move, remove, or reorder them to refine your business documents."
 
     # feature loop
-    - title: "Adjust page appearance"
-      content: "Rotate pages to any angle and change orientation (landscape or portrait) for supported document types."
+    - title: "Adjust page layout"
+      content: "Rotate pages to any angle or change their orientation between landscape and portrait."
 
     # feature loop
-    - title: "Extract pages"
-      content: "Extract specific pages and save them as a new file or document."
+    - title: "Extract selected pages"
+      content: "Extract only the pages you need and save them as a separate document."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Merge specific pages from files of different formats"
+    - title: "Extract specific pages from a document"
       content: |
-        This example demonstrates how to merge PPTX files while including specific pages from documents in other formats.
+        This example demonstrates how to extract a range of pages from a PPTX document and save them as a separate file.
       code:
         title: "Java"
         content: |
           ```java {style=abap}
-          // Specify the main file path
+          // Provide the source file path
           Merger merger = new Merger("file_1.pptx");
 
-          // Define options for selecting specific pages
-          PageJoinOptions joinOptions12 = new PageJoinOptions(1, 2);
-          PageJoinOptions joinOptions34 = new PageJoinOptions(3, 4);
+          // Set options to extract only even-numbered pages within a range
+          ExtractOptions extractOptions = new ExtractOptions(1, 3, RangeMode.EvenPages);
           
-          // Merge the main document with selected pages from another document
-          merger.join("file_2.docx", joinOptions12);
-          merger.join("file_3.xlsx", joinOptions34);
+          // Execute the extraction operation
+          merger.extractPages(extractOptions);
 
-          // Save the merged file to a new location
+          // Save the extracted pages as a new document
           merger.save("result.pptx");
           ```
         platform: "java"
@@ -167,7 +168,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/merger/formats/mergercombine.pdf"
+            link: "/examples/merger/formats/mergerextract.pdf"
         links:
           #  loop
           - title: "More examples"
@@ -201,8 +202,8 @@ actions:
 more_operations:
     enable: true
     title: "Key features"
-    exclude: "combine"
-    description: "Explore additional supported operations"
+    exclude: "extract"
+    description: "Explore additional document processing capabilities."
     items: 
           
         # operation loop 1
@@ -240,38 +241,38 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Merge various file formats"
+    title: "Extract pages from various document formats"
     exclude: "PPTX"
-    description: "GroupDocs.Merger supports over 50 file formats, allowing you to manipulate business documents with efficiency."
+    description: "GroupDocs.Merger supports over 50 file formats, enabling efficient document manipulation."
     items: 
         # format loop 1
-        - name: "Combine DOCX"
+        - name: "Extract DOCX"
           format: "DOCX"
-          link: "/merger/java/combine/docx/"
+          link: "/merger/java/extract/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Combine PDF"
+        - name: "Extract PDF"
           format: "PDF"
-          link: "/merger/java/combine/pdf/"
+          link: "/merger/java/extract/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Combine PPTX"
+        - name: "Extract PPTX"
           format: "PPTX"
-          link: "/merger/java/combine/pptx/"
+          link: "/merger/java/extract/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Combine EPUB"
+        - name: "Extract EPUB"
           format: "EPUB"
-          link: "/merger/java/combine/epub/"
+          link: "/merger/java/extract/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Combine XLSX"
+        - name: "Extract XLSX"
           format: "XLSX"
-          link: "/merger/java/combine/xlsx/"
+          link: "/merger/java/extract/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
   
 

@@ -1,69 +1,69 @@
 {
   "head": {
     "title": "Extract {{FileFormatUp}} pages in {{EnvName}}",
-    "description": "{{ProdFullName}} is able to get one or more {{FileFormatUp}} document pages and save to standalone file."
+    "description": "Use {{ProdFullName}} to extract specific pages from a {{FileFormatUp}} document and save them as a separate file."
   },
   "header": {
     "title": "Extract {{FileFormatUp}} pages",
-    "description": "With {{ProdFullName}}, you can enrich {{EnvNameShort}} applications with powerful features in order to process {{FileFormatUp}} documents.",
+    "description": "With {{ProdFullName}}, you can enhance your {{EnvNameShort}} applications with powerful document processing features for {{FileFormatUp}} files.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for Free"
   },
   "about": {
     "title": "About {{ProdShortName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is designed to process wide range of documents in popular formats. Supporting over 50 file formats, such as PDF, Word, Excel, PowerPoint, images, etc., we provide capable features. Operations like merging, splitting, extracting, swapping, and removing pages available."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a versatile document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, and images. It provides essential features such as merging, splitting, extracting, swapping, and removing pages."
   },
   "more_features": {
-    "title": "Document processing solution",
-    "description": "{{ProdFullName}} provides many useful features to process more than 50 popular business file formats.",
-    "image_description": "{{ProdShortName}} main features",
+    "title": "Comprehensive document processing",
+    "description": "{{ProdFullName}} offers a range of powerful features to process more than 50 widely used business file formats.",
+    "image_description": "Key features of {{ProdShortName}}",
     "feature_1": {
-      "title": "Merge different document formats",
-      "content": "Combine documents such as PDFs, Word, PowerPoint, Excel, images, archives, and more. Use flexible options to specify additional details."
+      "title": "Merge multiple document formats",
+      "content": "Combine files like PDFs, Word documents, PowerPoint presentations, Excel spreadsheets, images, and archives. Customize merging options to meet your needs."
     },
     "feature_2": {
-      "title": "Page manipulation",
-      "content": "Manipulate with particular page or range of pages. Move, remove, or swap pages to update your business documents."
+      "title": "Page management",
+      "content": "Work with specific pages or page ranges—move, remove, or reorder them to refine your business documents."
     },
     "feature_3": {
-      "title": "Control page appearance",
-      "content": "Rotate pages or change their orientation in landscape or portrait."
+      "title": "Adjust page layout",
+      "content": "Rotate pages to any angle or change their orientation between landscape and portrait."
     },
     "feature_4": {
-      "title": "Save selected pages",
-      "content": "Extract pages what you need and save them as a standalone document."
+      "title": "Extract selected pages",
+      "content": "Extract only the pages you need and save them as a separate document."
     }
   },
   "formats": {
-    "title": "Extract pages from many document formats",
-    "description": "{{ProdShortName}} supports over 50 file formats, allowing you to manipulate files effectively."
+    "title": "Extract pages from various document formats",
+    "description": "{{ProdShortName}} supports over 50 file formats, enabling efficient document manipulation."
   },
   "operations": {
-    "title": "Main features",
-    "description": "Investigate other supported operations"
+    "title": "Key features",
+    "description": "Explore additional document processing capabilities."
   },
   "examples": {
-    "comment_1": "Instantiate {{NameProduct}} with the source document",
-    "comment_2": "Create extraction options with page number",
-    "comment_3": "Extract desired pages",
-    "comment_4": "Save them to the new location"
+    "comment_1": "Initialize {{ProdShortName}} with the source document",
+    "comment_2": "Specify the pages to extract",
+    "comment_3": "Perform the extraction process",
+    "comment_4": "Save the extracted pages as a new file"
   },
   "steps": {
     "title": "How to extract {{FileFormatUp}} pages",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) provides feature to extract pages from {{FileFormatUp}} documents. {{EnvName}} applications might be improved by adding abilities provided by our solution.",
-      "step_1": "Specify the path to the source {{FileFormatUp}} file.",
-      "step_2": "Select the page numbers to be extracted.",
-      "step_3": "Extract pages.",
-      "step_4": "Save the pages to a new file."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to extract pages from {{FileFormatUp}} documents easily. Enhance your {{EnvName}} applications by integrating advanced document management capabilities.",
+      "step_1": "Specify the file path of the source {{FileFormatUp}} document.",
+      "step_2": "Choose the pages you want to extract.",
+      "step_3": "Extract the selected pages.",
+      "step_4": "Save the extracted pages as a new document."
     }
   },
   "code_1": {
-    "title": "Extract specific pages from documents",
-    "content": "This example demonstrates how to extract {{FileFormatUp}} pages range and save them as a new document.",
-    "comment_1": "Provide file path",
-    "comment_2": "Create options which extract only even pages from a range",
-    "comment_3": "Call extraction operation",
-    "comment_4": "Save extracted pages to result file"
+    "title": "Extract specific pages from a document",
+    "content": "This example demonstrates how to extract a range of pages from a {{FileFormatUp}} document and save them as a separate file.",
+    "comment_1": "Provide the source file path",
+    "comment_2": "Set options to extract only even-numbered pages within a range",
+    "comment_3": "Execute the extraction operation",
+    "comment_4": "Save the extracted pages as a new document"
   }
 }

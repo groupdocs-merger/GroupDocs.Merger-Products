@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-11T14:53:58
+date:  2025-02-12T16:15:43
 draft: false
 lang: en
 format: Docx
@@ -12,7 +12,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Merge DOCX files in C# via .NET"
+head_title: "Merge DOCX files in .NET"
 head_description: "Integrate GroupDocs.Merger for .NET into your .NET projects to easily merge DOCX files."
 
 ############################# Header ############################
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/merger/merger_all.pdf"
-      result_title: "Search result"
+      result_title: "Code result"
       install:
         command: "dotnet add package GroupDocs.Merger"
         copy_tip: "click to copy"
@@ -138,7 +138,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/merger/formats/mergercombine.docx"
+            link: "/examples/merger/formats/mergercombine.pdf"
         links:
           #  loop
           - title: "More examples"
@@ -177,33 +177,33 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "Combine documents"
+        - name: "Merge documents"
           operation: "combine"
-          link: "/search/net/combine/docx/"
-          description: "Find information in documents using boolean conditions"
+          link: "/merger/net/combine/docx/"
+          description: "Combine multiple documents into one"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
-          operation: "case-sensitive"
-          link: "/search/net/case-sensitive/docx/"
-          description: "{common-content.operations.case-sensitive.description}"
+        - name: "Extract pages"
+          operation: "extract"
+          link: "/merger/net/extract/docx/"
+          description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "{common-content.operations.document.name}"
           operation: "document"
-          link: "/search/net/document/docx/"
+          link: "/merger/net/document/docx/"
           description: "{common-content.operations.document.description}"
 
         # operation loop 4
         - name: "{common-content.operations.filters.name}"
           operation: "filters"
-          link: "/search/net/filters/docx/"
+          link: "/merger/net/filters/docx/"
           description: "{common-content.operations.filters.description}"
 
         # operation loop 5
         - name: "{common-content.operations.phrase.name}"
           operation: "phrase"
-          link: "/search/net/phrase/docx/"
+          link: "/merger/net/phrase/docx/"
           description: "{common-content.operations.phrase.description}"
           
         
@@ -216,31 +216,31 @@ more_formats:
     description: "GroupDocs.Merger handles over 50 file formats, enabling seamless business document processing."
     items: 
         # format loop 1
-        - name: "Merge DOCX"
+        - name: "Combine DOCX"
           format: "DOCX"
           link: "/merger/net/combine/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Merge PDF"
+        - name: "Combine PDF"
           format: "PDF"
           link: "/merger/net/combine/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Merge PPTX"
+        - name: "Combine PPTX"
           format: "PPTX"
           link: "/merger/net/combine/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Merge EPUB"
+        - name: "Combine EPUB"
           format: "EPUB"
           link: "/merger/net/combine/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Merge XLSX"
+        - name: "Combine XLSX"
           format: "XLSX"
           link: "/merger/net/combine/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

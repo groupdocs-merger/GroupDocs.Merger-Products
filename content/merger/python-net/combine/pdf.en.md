@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-11T14:53:58
+date:  2025-02-12T16:15:43
 draft: false
 lang: en
 format: Pdf
@@ -12,7 +12,7 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Merge PDF files in Python with Python"
+head_title: "Merge PDF files in Python via .NET"
 head_description: "Seamlessly integrate PDF file merging into your Python projects using GroupDocs.Merger for Python via .NET."
 
 ############################# Header ############################
@@ -54,7 +54,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/merger/merger_all.pdf"
-      result_title: "Search result"
+      result_title: "Code result"
       install:
         command: "npm i @groupdocs/groupdocs.merger"
         copy_tip: "click to copy"
@@ -179,33 +179,33 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "Combine documents"
+        - name: "Merge documents"
           operation: "combine"
-          link: "/search/python-net/combine/pdf/"
-          description: "Find information in documents using boolean conditions"
+          link: "/merger/python-net/combine/pdf/"
+          description: "Combine multiple documents into one"
 
         # operation loop 2
-        - name: "{common-content.operations.case-sensitive.name}"
-          operation: "case-sensitive"
-          link: "/search/python-net/case-sensitive/pdf/"
-          description: "{common-content.operations.case-sensitive.description}"
+        - name: "Extract pages"
+          operation: "extract"
+          link: "/merger/python-net/extract/pdf/"
+          description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "{common-content.operations.document.name}"
           operation: "document"
-          link: "/search/python-net/document/pdf/"
+          link: "/merger/python-net/document/pdf/"
           description: "{common-content.operations.document.description}"
 
         # operation loop 4
         - name: "{common-content.operations.filters.name}"
           operation: "filters"
-          link: "/search/python-net/filters/pdf/"
+          link: "/merger/python-net/filters/pdf/"
           description: "{common-content.operations.filters.description}"
 
         # operation loop 5
         - name: "{common-content.operations.phrase.name}"
           operation: "phrase"
-          link: "/search/python-net/phrase/pdf/"
+          link: "/merger/python-net/phrase/pdf/"
           description: "{common-content.operations.phrase.description}"
           
         
@@ -218,31 +218,31 @@ more_formats:
     description: "With support for over 50 document types, GroupDocs.Merger streamlines file processing, making document handling simple and efficient."
     items: 
         # format loop 1
-        - name: "Merge DOCX"
+        - name: "Combine DOCX"
           format: "DOCX"
           link: "/merger/python-net/combine/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Merge PDF"
+        - name: "Combine PDF"
           format: "PDF"
           link: "/merger/python-net/combine/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Merge PPTX"
+        - name: "Combine PPTX"
           format: "PPTX"
           link: "/merger/python-net/combine/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Merge EPUB"
+        - name: "Combine EPUB"
           format: "EPUB"
           link: "/merger/python-net/combine/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Merge XLSX"
+        - name: "Combine XLSX"
           format: "XLSX"
           link: "/merger/python-net/combine/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

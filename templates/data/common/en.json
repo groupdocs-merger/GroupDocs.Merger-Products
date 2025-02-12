@@ -2,38 +2,45 @@
   "common-content": {
     "format-formats": {
       "docx": {
-        "name": "Merge DOCX",
+        "name": "DOCX",
         "description": "Microsoft Word Open XML Document"
       },
       "pdf": {
-        "name": "Merge PDF",
+        "name": "PDF",
         "description": "Adobe Portable Document Format"
       },
       "pptx": {
-        "name": "Merge PPTX",
+        "name": "PPTX",
         "description": "PowerPoint Open XML Presentation"
       },
       "epub": {
-        "name": "Merge EPUB",
+        "name": "EPUB",
         "description": "Electronic Publication"
       },
       "xlsx": {
-        "name": "Merge XLSX",
+        "name": "XLSX",
         "description": "Microsoft Excel Open XML Spreadsheet"
       }
     },
     "format-operations": {
       "combine": {
-        "pdf": "Boolean combine PDF",
-        "docx": "Boolean combine DOCX",
-        "xlsx": "Boolean combine XLSX",
-        "pptx": "Boolean combine PPTX",
-        "epub": "Boolean combine EPUB"
+        "pdf": "Combine PDF",
+        "docx": "Combine DOCX",
+        "xlsx": "Combine XLSX",
+        "pptx": "Combine PPTX",
+        "epub": "Combine EPUB"
+      },
+      "extract": {
+        "pdf": "Extract PDF",
+        "docx": "Extract DOCX",
+        "xlsx": "Extract XLSX",
+        "pptx": "Extract PPTX",
+        "epub": "Extract EPUB"
       }
     },
     "format-code": {
       "copy_title": "Copy",
-      "result_title": "Search result",
+      "result_title": "Code result",
       "result_title_bottom": "Download result",
       "copy_tip": "click to copy",
       "copy_done": "copied",
@@ -53,8 +60,12 @@
     },
     "operations": {
       "combine": {
-        "name": "Combine documents",
-        "description": "Find information in documents using boolean conditions"
+        "name": "Merge documents",
+        "description": "Combine multiple documents into one"
+      },
+      "extract": {
+        "name": "Extract pages",
+        "description": "Save selected pages as a separate document"
       }
     }
   }
