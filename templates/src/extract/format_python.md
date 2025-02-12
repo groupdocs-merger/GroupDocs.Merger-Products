@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\combine\\format_python.yml" %>
+<% configRef "..\\..\\configs\\extract\\format_python.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -74,12 +74,15 @@ steps:
         import groupdocs.merger as gm
 
         # <% "{examples.comment_1}" %>
-        with gm.Merger("file_1.<% get "fileformat" %>") as merger:
+        with gm.Merger("document.<% get "fileformat" %>") as merger:
             
             # <% "{examples.comment_2}" %>
-            merger.join("file_2.<% get "fileformat" %>")
+            extractOptions = gm.domain.options.ExtractOptions([2])
 
             # <% "{examples.comment_3}" %>
+            merger.extract_pages(extractOptions)
+
+            # <% "{examples.comment_4}" %>
             merger.save("result.<% get "fileformat" %>")
         ```            
 
@@ -88,7 +91,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/merger/features_combine.webp" # 500x500 px
+  image: "/img/merger/features_extract.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -122,12 +125,11 @@ more_features:
           with gm.Merger("file_1.<% get "fileformat" %>") as merger:
             
               # <% "{code_1.comment_2}" %>
-              joinOptions12 = gm.domain.options.PageJoinOptions(1, 2)
-              joinOptions34 = gm.domain.options.PageJoinOptions(3, 4)
+              rangeMode = gm.domain.options.RangeMode.EVEN_PAGES
+              extractOptions = gm.domain.options.ExtractOptions(1, 3, rangeMode)
           
               # <% "{code_1.comment_3}" %>
-              merger.join("file_2.docx", joinOptions12)
-              merger.join("file_3.xlsx", joinOptions34)
+              merger.extract_pages(extractOptions)
 
               # <% "{code_1.comment_4}" %>
               merger.save("result.<% get "fileformat" %>");

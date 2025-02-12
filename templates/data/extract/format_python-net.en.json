@@ -1,6 +1,6 @@
 {
   "head": {
-    "title": "Merge {{FileFormatUp}} files in {{EnvName}}",
+    "title": "Merge {{FileFormatUp}} files in {{ProgLang}} with {{EnvNameShort}}",
     "description": "Seamlessly integrate {{FileFormatUp}} file merging into your {{EnvNameShort}} projects using {{ProdFullName}}."
   },
   "header": {
@@ -43,7 +43,7 @@
     "description": "Discover additional operations and features supported by {{ProdShortName}} to enhance your document processing experience."
   },
   "examples": {
-    "comment_1": "Initialize the {{NameProduct}} with the source {{FileFormatUp}} document",
+    "comment_1": "Initialize the Merger with the source {{FileFormatUp}} document",
     "comment_2": "Merge the document with another selected file",
     "comment_3": "Save the final merged document to a preferred location"
   },

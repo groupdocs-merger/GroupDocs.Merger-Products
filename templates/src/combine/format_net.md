@@ -140,7 +140,7 @@ more_features:
           #  loop
           - title: "<% "{common-content.format-code.result_title_bottom}" %>"
             icon: "download"
-            link: "/examples/merger/formats/merger<% get "OperationLow" %>.<% get "fileformat" %>"
+            link: "/examples/merger/formats/merger<% get "OperationLow" %>.pdf"
         links:
           #  loop
           - title: "<% "{common-content.format-code.links.title_1}" %>"

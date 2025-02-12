@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\combine\\format_python.yml" %>
+<% configRef "..\\..\\configs\\extract\\format_nodejs.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Merger"
 product_tag: "merger"
-platform: "Python via .NET"
-platform_tag: "python-net"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -70,17 +70,22 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```python {style=abap}
-        import groupdocs.merger as gm
+        ```javascript {style=abap}
+        const mergerLib = require('@groupdocs/groupdocs.merger')
 
-        # <% "{examples.comment_1}" %>
-        with gm.Merger("file_1.<% get "fileformat" %>") as merger:
-            
-            # <% "{examples.comment_2}" %>
-            merger.join("file_2.<% get "fileformat" %>")
+        // <% "{examples.comment_1}" %>
+        const merger = new mergerLib.Merger("document.<% get "fileformat" %>")
 
-            # <% "{examples.comment_3}" %>
-            merger.save("result.<% get "fileformat" %>")
+        // <% "{examples.comment_2}" %>
+        const java = require('java')
+        const pageArray = java.newArray('int', [2])
+        const extractOptions = new mergerLib.ExtractOptions(pageArray)
+
+        // <% "{examples.comment_3}" %>
+        merger.extractPages(extractOptions)
+
+        // <% "{examples.comment_4}" %>
+        merger.save("result.<% get "fileformat" %>")
         ```            
 
 ############################# More features ############################
@@ -88,7 +93,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/merger/features_combine.webp" # 500x500 px
+  image: "/img/merger/features_extract.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -115,22 +120,21 @@ more_features:
       code:
         title: "JavaScript"
         content: |
-          ```python {style=abap}
-          import groupdocs.merger as gm
+          ```javascript {style=abap}
+          const mergerLib = require('@groupdocs/groupdocs.merger')
           
-          # <% "{code_1.comment_1}" %>
-          with gm.Merger("file_1.<% get "fileformat" %>") as merger:
-            
-              # <% "{code_1.comment_2}" %>
-              joinOptions12 = gm.domain.options.PageJoinOptions(1, 2)
-              joinOptions34 = gm.domain.options.PageJoinOptions(3, 4)
-          
-              # <% "{code_1.comment_3}" %>
-              merger.join("file_2.docx", joinOptions12)
-              merger.join("file_3.xlsx", joinOptions34)
+          // <% "{code_1.comment_1}" %>
+          const merger = new mergerLib.Merger("file_1.<% get "fileformat" %>");
 
-              # <% "{code_1.comment_4}" %>
-              merger.save("result.<% get "fileformat" %>");
+          // <% "{code_1.comment_2}" %>
+          const evenPages = groupdocs.merger.RangeMode.EvenPages
+          const extractOptions = new groupdocs.merger.ExtractOptions(1, 3, evenPages)
+          
+          // <% "{code_1.comment_3}" %>
+          merger.extractPages(extractOptions)
+
+          // <% "{code_1.comment_4}" %>
+          merger.save("result.<% get "fileformat" %>");
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

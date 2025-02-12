@@ -1,6 +1,6 @@
 {
   "head": {
-    "title": "Combine {{FileFormatUp}} files in {{ProgLang}} via {{EnvNameShort}}",
+    "title": "Combine {{FileFormatUp}} files in {{EnvName}}",
     "description": "Use {{ProdFullName}} to add {{FileFormatUp}} document merging capabilities to your {{EnvNameShort}} projects."
   },
   "header": {
@@ -43,7 +43,7 @@
     "description": "Explore additional supported operations"
   },
   "examples": {
-    "comment_1": "Initialize Merger with the input {{FileFormatUp}} document",
+    "comment_1": "Initialize {{NameProduct}} with the input {{FileFormatUp}} document",
     "comment_2": "Merge the document with another file",
     "comment_3": "Save the merged document to the desired location"
   },
