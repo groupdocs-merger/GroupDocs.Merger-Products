@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Remove {{FileFormatUp}} pages in {{EnvName}} apps",
+    "description": "Use {{ProdFullName}} to reorder pages in {{FileFormatUp}} documents effortlessly. Process PDF, Word, Excel, PowerPoint, images, and more with ease."
+  },
+  "header": {
+    "title": "Move pages in {{FileFormatUp}}",
+    "description": "{{ProdFullName}} empowers {{EnvNameShort}} applications to reorder pages in {{FileFormatUp}} documents seamlessly.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Get for Free"
+  },
+  "about": {
+    "title": "{{ProdShortName}} Info",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. It offers essential features like merging, splitting, extracting, moving, swapping, and removing pages."
+  },
+  "more_features": {
+    "title": "Efficient document processing",
+    "description": "{{ProdFullName}} is designed to provide a comprehensive set of features, enabling you to process over 50 widely used business file formats for your needs.",
+    "image_description": "Key features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combine documents in various formats",
+      "content": "Merge content from files like PDFs, Word documents, presentations, spreadsheets, images, archives, and more. Use flexible options to achieve precise results."
+    },
+    "feature_2": {
+      "title": "Page manipulations",
+      "content": "Reposition pages within documents. Move, swap, or remove pages to manage your business document content effectively."
+    },
+    "feature_3": {
+      "title": "Adjust page appearance",
+      "content": "Rotate pages to any angle or switch their orientation between landscape and portrait."
+    },
+    "feature_4": {
+      "title": "Extract pages into separate files",
+      "content": "Extract one or more pages and save them as standalone documents."
+    }
+  },
+  "formats": {
+    "title": "Reorder document pages in multiple formats",
+    "description": "{{ProdShortName}} supports over 50 file formats, enabling efficient and flexible document manipulation."
+  },
+  "operations": {
+    "title": "Main features",
+    "description": "Discover other popular capabilities of our solution."
+  },
+  "examples": {
+    "comment_1": "Instantiate {{NameProduct}} passing the file path",
+    "comment_2": "Provide number of the page that is supposed to be removed",
+    "comment_3": "Process the document using options",
+    "comment_4": "Save the final version"
+  },
+  "steps": {
+    "title": "How to remove pages in {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) is able to delete {{FileFormatUp}} document pages easily. {{EnvName}} applications may be powered by our solution in order to provide document management features.",
+      "step_1": "Specify {{FileFormatUp}} path.",
+      "step_2": "Set the options with numbers of pages to be deleted.",
+      "step_3": "Remove all intended pages.",
+      "step_4": "Save the result file."
+    }
+  },
+  "code_1": {
+    "title": "Be informed how to remove all even pages",
+    "content": "Learn how to remove even pages in a {{FileFormatUp}} document.",
+    "comment_1": "Pass file path to the constructor",
+    "comment_2": "Get the number of the last page",
+    "comment_3": "Set up options to remove all even pages",
+    "comment_4": "Process the document",
+    "comment_5": "Save the result to specified location"
+  }
+}

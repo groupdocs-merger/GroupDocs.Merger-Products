@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Rearrange {{FileFormatUp}} pages in {{EnvName}}",
+    "description": "Use {{ProdFullName}} to effortlessly change the order of pages in {{FileFormatUp}} documents. Process PDF, Word, Excel, PowerPoint, images, and more."
+  },
+  "header": {
+    "title": "Rearrange pages in {{FileFormatUp}}",
+    "description": "{{ProdFullName}} provides {{EnvNameShort}} applications with the ability to easily change the order of pages in {{FileFormatUp}} documents.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Try for free"
+  },
+  "about": {
+    "title": "About {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a robust document processing tool supporting over 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. It offers powerful features for merging, splitting, extracting, rearranging, swapping, and deleting pages."
+  },
+  "more_features": {
+    "title": "Comprehensive document handling",
+    "description": "{{ProdFullName}} delivers a rich set of features, allowing you to work with over 50 popular business file formats efficiently.",
+    "image_description": "Key capabilities of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Merge documents of different types",
+      "content": "Combine content from PDFs, Word files, presentations, spreadsheets, images, and archives. Use flexible options to customize the final document structure."
+    },
+    "feature_2": {
+      "title": "Modify document pages",
+      "content": "Rearrange pages in your documents by moving, swapping, or removing them as needed."
+    },
+    "feature_3": {
+      "title": "Adjust page layout and orientation",
+      "content": "Rotate pages to any desired angle or switch between portrait and landscape modes."
+    },
+    "feature_4": {
+      "title": "Extract pages as separate documents",
+      "content": "Select specific pages and save them as standalone files for further use."
+    }
+  },
+  "formats": {
+    "title": "Rearrange pages in multiple formats",
+    "description": "{{ProdShortName}} supports over 50 file formats, offering flexibility and precision in document manipulation."
+  },
+  "operations": {
+    "title": "Core features",
+    "description": "Discover other essential features included in our solution."
+  },
+  "examples": {
+    "comment_1": "Initialize a {{NameProduct}} instance with the source document",
+    "comment_2": "Define the page number that needs to be moved",
+    "comment_3": "Reposition the selected page",
+    "comment_4": "Save the modified document"
+  },
+  "steps": {
+    "title": "How to rearrange {{FileFormatUp}} pages",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifies the process of moving pages within {{FileFormatUp}} documents. Enhance your {{EnvName}} applications with advanced document organization capabilities.",
+      "step_1": "Specify the path to the {{FileFormatUp}} document.",
+      "step_2": "Indicate the page number and its new position.",
+      "step_3": "Perform the page move operation.",
+      "step_4": "Save the modified document."
+    }
+  },
+  "code_1": {
+    "title": "Move a page to the last position in a document",
+    "content": "This example demonstrates how to relocate a page to the end of a {{FileFormatUp}} document.",
+    "comment_1": "Provide the source document path",
+    "comment_2": "Retrieve document details and determine the last page number",
+    "comment_3": "Configure the move operation with the target page numbers",
+    "comment_4": "Execute the move operation",
+    "comment_5": "Save the updated document in the desired location"
+  }
+}
