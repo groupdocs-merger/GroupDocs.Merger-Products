@@ -1,69 +1,70 @@
 {
   "head": {
-    "title": "Extract {{FileFormatUp}} pages in {{EnvName}}",
-    "description": "Quickly extract specific pages from a {{FileFormatUp}} file using {{ProdFullName}} and save them as a separate document."
+    "title": "Move {{FileFormatUp}} pages in {{EnvName}}",
+    "description": "Use {{ProdFullName}} to effortlessly reorder pages in {{FileFormatUp}} documents. Process PDF, Word, Excel, PowerPoint, images, and more with ease."
   },
   "header": {
-    "title": "Extract {{FileFormatUp}} pages",
-    "description": "Integrate {{ProdFullName}} into your {{EnvNameShort}} applications to efficiently process {{FileFormatUp}} files with advanced page extraction features.",
+    "title": "Move pages in {{FileFormatUp}}",
+    "description": "{{ProdFullName}} enables {{EnvNameShort}} applications to easily reorder pages in {{FileFormatUp}} documents.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download for Free"
+    "action_title": "Get for free"
   },
   "about": {
     "title": "About {{ProdShortName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful document processing library that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, and images. It enables seamless operations like merging, splitting, extracting, reordering, and deleting pages."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. It provides essential features such as merging, splitting, extracting, moving, swapping, and deleting pages."
   },
   "more_features": {
-    "title": "Versatile document processing",
-    "description": "{{ProdFullName}} provides robust functionality for working with over 50 widely used business document formats.",
-    "image_description": "Core features of {{ProdShortName}}",
+    "title": "Advanced document processing",
+    "description": "{{ProdFullName}} offers a comprehensive set of features, allowing you to efficiently process over 50 widely used business file formats.",
+    "image_description": "Key features of {{ProdShortName}}",
     "feature_1": {
-      "title": "Merge multiple file types",
-      "content": "Combine PDFs, Word documents, PowerPoint slides, Excel sheets, images, and archives into a single file with customizable options."
+      "title": "Merge documents in various formats",
+      "content": "Combine PDFs, Word documents, presentations, spreadsheets, images, archives, and more. Use flexible options to achieve the desired results."
     },
     "feature_2": {
-      "title": "Advanced page management",
-      "content": "Easily move, remove, or reorder pages within a document to organize your content effectively."
+      "title": "Manage document pages",
+      "content": "Rearrange pages within documents. Move, swap, or remove pages to better organize your content."
     },
     "feature_3": {
-      "title": "Modify page layout",
-      "content": "Rotate pages to any angle or switch between portrait and landscape orientation as needed."
+      "title": "Adjust page layout",
+      "content": "Rotate pages to any angle or switch between landscape and portrait orientation."
     },
     "feature_4": {
-      "title": "Extract specific pages",
-      "content": "Select and extract only the required pages, saving them as a new document for further use."
+      "title": "Extract pages into separate files",
+      "content": "Select and extract specific pages, saving them as standalone documents."
     }
   },
   "formats": {
-    "title": "Extract pages from multiple file formats",
-    "description": "{{ProdShortName}} supports over 50 file formats, making document management more flexible and efficient."
+    "title": "Reorder pages in multiple formats",
+    "description": "{{ProdShortName}} supports over 50 file formats, making document manipulation flexible and efficient."
   },
   "operations": {
-    "title": "Main capabilities",
-    "description": "Explore additional document processing features."
+    "title": "Key features",
+    "description": "Explore additional powerful capabilities of our solution."
   },
   "examples": {
-    "comment_1": "Create an instance of {{ProdShortName}} with the source document",
-    "comment_2": "Define extraction settings for specific pages",
-    "comment_3": "Execute the page extraction process",
-    "comment_4": "Save the extracted pages as a new file"
+    "comment_1": "Create a {{NameProduct}} instance with the source file",
+    "comment_2": "Specify the page number to be moved",
+    "comment_3": "Move the page to the new position",
+    "comment_4": "Save the modified document"
   },
   "steps": {
-    "title": "How to extract {{FileFormatUp}} pages",
+    "title": "How to move {{FileFormatUp}} pages",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it simple to extract pages from {{FileFormatUp}} documents. Enhance your {{EnvName}} applications with seamless document processing capabilities.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy to move selected pages in {{FileFormatUp}} documents. Enhance your {{EnvName}} applications with advanced document processing features.",
       "step_1": "Provide the file path of the source {{FileFormatUp}} document.",
-      "step_2": "Select the pages you want to extract.",
-      "step_3": "Run the extraction process.",
-      "step_4": "Save the extracted pages as a separate document."
+      "step_2": "Specify the page number and its new position.",
+      "step_3": "Execute the page move operation.",
+      "step_4": "Save the updated document."
     }
   },
   "code_1": {
-    "title": "Extract specific pages from a document",
-    "content": "This example shows how to extract a selected range of pages from a {{FileFormatUp}} file and save them as a new document.",
-    "comment_1": "Specify the file path of the original document",
-    "comment_2": "Define options to extract only even-numbered pages from the selected range",
-    "comment_3": "Perform the extraction operation",
-    "comment_4": "Save the extracted pages to a new file"
+    "title": "Move a page to the end of the document",
+    "content": "This example demonstrates how to move a specific page to the end of a {{FileFormatUp}} document.",
+    "comment_1": "Pass the source file path to the constructor",
+    "comment_2": "Retrieve document details and the last page number",
+    "comment_3": "Set up options with the page numbers",
+    "comment_4": "Move the page to the end of the document",
+    "comment_5": "Save the updated document to a new location"
   }
 }

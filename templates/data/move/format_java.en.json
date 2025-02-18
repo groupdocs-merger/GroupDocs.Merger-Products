@@ -1,70 +1,70 @@
 {
   "head": {
     "title": "Move {{FileFormatUp}} pages in {{EnvName}}",
-    "description": "Use {{ProdFullName}} to reorder pages in {{FileFormatUp}} document in any order. Process PDF, Word, Excel, PowerPoint, images, and other formats."
+    "description": "Use {{ProdFullName}} to reorder pages in {{FileFormatUp}} documents effortlessly. Process PDF, Word, Excel, PowerPoint, images, and more with ease."
   },
   "header": {
     "title": "Move pages in {{FileFormatUp}}",
-    "description": "{{ProdFullName}} grants to {{EnvNameShort}} applications an ability to reorder pages in {{FileFormatUp}} documents.",
+    "description": "{{ProdFullName}} empowers {{EnvNameShort}} applications to reorder pages in {{FileFormatUp}} documents seamlessly.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Get for Free"
   },
   "about": {
     "title": "{{ProdShortName}} Info",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a versatile document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, images and archives. It provides essential features such as merging, splitting, extracting, moving, swapping, and removing pages."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. It offers essential features like merging, splitting, extracting, moving, swapping, and removing pages."
   },
   "more_features": {
-    "title": "Effective document processing",
-    "description": "{{ProdFullName}} is developed to provide comprehensive set of features. You are able to process more than 50 widely used business file formats for your business needs.",
+    "title": "Efficient document processing",
+    "description": "{{ProdFullName}} is designed to provide a comprehensive set of features, enabling you to process over 50 widely used business file formats for your needs.",
     "image_description": "Key features of {{ProdShortName}}",
     "feature_1": {
-      "title": "Combine documents in many formats",
-      "content": "Join content of such files like PDFs, Word, presentations, spreadsheets, images, archives, etc. Use flexible options to achieve exact what you need."
+      "title": "Combine documents in various formats",
+      "content": "Merge content from files like PDFs, Word documents, presentations, spreadsheets, images, archives, and more. Use flexible options to achieve precise results."
     },
     "feature_2": {
-      "title": "Pages manipulations",
-      "content": "Change pages position in documents. Move, swipe, remove, pages in order to manage your business documents content."
+      "title": "Page manipulations",
+      "content": "Reposition pages within documents. Move, swap, or remove pages to manage your business document content effectively."
     },
     "feature_3": {
-      "title": "Manipulate with pages appearance",
-      "content": "Rotate pages to any angle or change their orientation between landscape and portrait."
+      "title": "Adjust page appearance",
+      "content": "Rotate pages to any angle or switch their orientation between landscape and portrait."
     },
     "feature_4": {
-      "title": "Extract pages to standalone files",
-      "content": "Get one or more pages and save them as a separate document."
+      "title": "Extract pages into separate files",
+      "content": "Extract one or more pages and save them as standalone documents."
     }
   },
   "formats": {
-    "title": "Reorder document pages in many formats",
-    "description": "{{ProdShortName}} supports over 50 file formats, enabling efficient document manipulation."
+    "title": "Reorder document pages in multiple formats",
+    "description": "{{ProdShortName}} supports over 50 file formats, enabling efficient and flexible document manipulation."
   },
   "operations": {
     "title": "Main features",
-    "description": "Explore other popular capabilities of our solution."
+    "description": "Discover other popular capabilities of our solution."
   },
   "examples": {
-    "comment_1": "Create {{ProdShortName}} object passing source path",
+    "comment_1": "Create a {{NameProduct}} object by passing the source path",
     "comment_2": "Specify the page to be moved",
-    "comment_3": "Move it",
+    "comment_3": "Move the page",
     "comment_4": "Save the processed document"
   },
   "steps": {
     "title": "How to move {{FileFormatUp}} pages",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to move selected pages in {{FileFormatUp}} documents. Give more abilities to your {{EnvName}} applications by using our advanced document processing features.",
-      "step_1": "Specify the source {{FileFormatUp}} path.",
-      "step_2": "Set up page number and new position.",
-      "step_3": "Perform moving operation.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to move selected pages in {{FileFormatUp}} documents. Enhance your {{EnvName}} applications with advanced document processing features.",
+      "step_1": "Specify the source {{FileFormatUp}} file path.",
+      "step_2": "Set the page number and its new position.",
+      "step_3": "Perform the move operation.",
       "step_4": "Save the result."
     }
   },
   "code_1": {
-    "title": "Move a page to the document end",
-    "content": "Be informed how to move a specific page exactly to the end of {{FileFormatUp}} document.",
-    "comment_1": "Pass source file path to constructor",
-    "comment_2": "Get document info and number of the last page",
-    "comment_3": "Construct options with page numbers",
-    "comment_4": "Process the document moving the page to the end",
+    "title": "Move a page to the end of the document",
+    "content": "Learn how to move a specific page to the end of a {{FileFormatUp}} document.",
+    "comment_1": "Pass the source file path to the constructor",
+    "comment_2": "Get document info and the number of the last page",
+    "comment_3": "Set up options with page numbers",
+    "comment_4": "Process the document, moving the page to the end",
     "comment_5": "Save the document to a new location"
   }
 }

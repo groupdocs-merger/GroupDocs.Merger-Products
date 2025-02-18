@@ -13,10 +13,10 @@
           description: "<% "{common-content.operations.extract.description}" %>"
 
         # operation loop 3
-        - name: "<% "{common-content.operations.document.name}" %>"
-          operation: "document"
-          link: "/merger/<% get "ProdCode" %>/document/<% get "FileFormat" %>/"
-          description: "<% "{common-content.operations.document.description}" %>"
+        - name: "<% "{common-content.operations.move.name}" %>"
+          operation: "move"
+          link: "/merger/<% get "ProdCode" %>/move/<% get "FileFormat" %>/"
+          description: "<% "{common-content.operations.move.description}" %>"
 
         # operation loop 4
         - name: "<% "{common-content.operations.filters.name}" %>"

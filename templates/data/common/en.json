@@ -36,6 +36,13 @@
         "xlsx": "Extract XLSX",
         "pptx": "Extract PPTX",
         "epub": "Extract EPUB"
+      },
+      "move": {
+        "pdf": "Move PDF pages",
+        "docx": "Move DOCX pages",
+        "xlsx": "Move XLSX pages",
+        "pptx": "Move PPTX pages",
+        "epub": "Move EPUB pages"
       }
     },
     "format-code": {
@@ -66,6 +73,10 @@
       "extract": {
         "name": "Extract pages",
         "description": "Save selected pages as a separate document"
+      },
+      "move": {
+        "name": "Move pages",
+        "description": "Reposition any page within a document"
       }
     }
   }
