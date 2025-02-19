@@ -74,10 +74,10 @@ steps:
         import groupdocs.merger as gm
 
         # <% "{examples.comment_1}" %>
-        with gm.Merger("file_1.<% get "fileformat" %>") as merger:
+        with gm.Merger("file_frst.<% get "fileformat" %>") as merger:
             
             # <% "{examples.comment_2}" %>
-            merger.join("file_2.<% get "fileformat" %>")
+            merger.join("file_scnd.<% get "fileformat" %>")
 
             # <% "{examples.comment_3}" %>
             merger.save("result.<% get "fileformat" %>")
@@ -88,7 +88,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/merger/features_combine.webp" # 500x500 px
+  image: "/img/merger/features_join.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -119,15 +119,15 @@ more_features:
           import groupdocs.merger as gm
           
           # <% "{code_1.comment_1}" %>
-          with gm.Merger("file_1.<% get "fileformat" %>") as merger:
+          with gm.Merger("file_frst.<% get "fileformat" %>") as merger:
             
               # <% "{code_1.comment_2}" %>
-              joinOptions12 = gm.domain.options.PageJoinOptions(1, 2)
-              joinOptions34 = gm.domain.options.PageJoinOptions(3, 4)
+              joinOpt1 = gm.domain.options.PageJoinOptions(1, 2)
+              joinOpt2 = gm.domain.options.PageJoinOptions(3, 4)
           
               # <% "{code_1.comment_3}" %>
-              merger.join("file_2.docx", joinOptions12)
-              merger.join("file_3.xlsx", joinOptions34)
+              merger.join("file_scnd.docx", joinOpt1)
+              merger.join("file_thrd.xlsx", joinOpt2)
 
               # <% "{code_1.comment_4}" %>
               merger.save("result.<% get "fileformat" %>");

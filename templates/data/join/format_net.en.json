@@ -1,25 +1,25 @@
 {
   "head": {
-    "title": "Merge {{FileFormatUp}} files in {{EnvName}}",
-    "description": "Integrate {{ProdFullName}} into your {{EnvNameShort}} projects to easily merge {{FileFormatUp}} files."
+    "title": "Join {{FileFormatUp}} files in {{EnvName}}",
+    "description": "Integrate {{ProdFullName}} into your {{EnvNameShort}} projects to easily join {{FileFormatUp}} files."
   },
   "header": {
-    "title": "Merge {{FileFormatUp}} files",
-    "description": "Use {{ProdFullName}} to build {{EnvNameShort}} applications that efficiently merge {{FileFormatUp}} documents.",
+    "title": "Join {{FileFormatUp}} files",
+    "description": "Use {{ProdFullName}} to build {{EnvNameShort}} applications that efficiently join {{FileFormatUp}} documents.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for Free"
   },
   "about": {
     "title": "About {{ProdShortName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive document processing solution. It supports over 50 formats, including PDF, Word, Excel, PowerPoint, images, and archives, allowing you to merge, split, extract, swap, and remove pages effortlessly."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive document processing solution. It supports over 50 formats, including PDF, Word, Excel, PowerPoint, images, and archives, allowing you to join, split, extract, swap, and remove pages effortlessly."
   },
   "more_features": {
-    "title": "Tools for document merging",
+    "title": "Tools for document joining",
     "description": "{{ProdFullName}} supports 50+ commonly used business file formats and provides extensive document manipulation features.",
     "image_description": "Core features of {{ProdShortName}}",
     "feature_1": {
-      "title": "Merge multiple document formats",
-      "content": "Easily combine PDFs, Word files, presentations, spreadsheets, images, and more. Choose specific pages to merge as needed."
+      "title": "Join multiple document formats",
+      "content": "Easily join PDFs, Word files, presentations, spreadsheets, images, and more. Choose specific pages to include as needed."
     },
     "feature_2": {
       "title": "Modify document pages",
@@ -35,7 +35,7 @@
     }
   },
   "formats": {
-    "title": "Merge different file formats",
+    "title": "Join different file formats",
     "description": "{{ProdShortName}} handles over 50 file formats, enabling seamless business document processing."
   },
   "operations": {
@@ -44,26 +44,25 @@
   },
   "examples": {
     "comment_1": "Create a {{NameProduct}} instance with the input {{FileFormatUp}} document",
-    "comment_2": "Merge the file with another document",
-    "comment_3": "Save the merged file to the specified location"
+    "comment_2": "Join the file with another document",
+    "comment_3": "Save the joined file to the specified location"
   },
   "steps": {
-    "title": "Steps to merge {{FileFormatUp}} files",
+    "title": "Steps to join {{FileFormatUp}} files",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to merge {{FileFormatUp}} files effortlessly. Integrate this feature into your {{EnvName}} applications to handle multiple documents as a single file.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows you to join {{FileFormatUp}} files effortlessly. Integrate this feature into your {{EnvName}} applications to handle multiple documents as a single file.",
       "step_1": "Set the path to the first {{FileFormatUp}} file.",
       "step_2": "Choose the second file.",
       "step_3": "Configure optional settings.",
-      "step_4": "Merge the documents and save the output file."
+      "step_4": "Join the documents and save the output file."
     }
   },
   "code_1": {
-    "title": "Merge selected pages from files of different formats",
-    "content": "This example illustrates how to merge {{FileFormatUp}} files while incorporating selected pages from other formats.",
+    "title": "Join selected pages from files of different formats",
+    "content": "This example illustrates how to join {{FileFormatUp}} files while incorporating selected pages from other formats.",
     "comment_1": "Define the main file path",
     "comment_2": "Specify options to select particular pages",
-    "comment_3": "Merge the primary document with selected pages from another file",
-    "comment_4": "Save the final merged document to the specified location"
+    "comment_3": "Join the primary document with selected pages from another file",
+    "comment_4": "Save the final joined document to the specified location"
   }
 }
-

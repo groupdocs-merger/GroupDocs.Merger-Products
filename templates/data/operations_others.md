@@ -25,10 +25,10 @@
           description: "<% "{common-content.operations.remove.description}" %>"
 
         # operation loop 5
-        - name: "<% "{common-content.operations.phrase.name}" %>"
-          operation: "phrase"
-          link: "/merger/<% get "ProdCode" %>/phrase/<% get "FileFormat" %>/"
-          description: "<% "{common-content.operations.phrase.description}" %>"
+        - name: "<% "{common-content.operations.join.name}" %>"
+          operation: "join"
+          link: "/merger/<% get "ProdCode" %>/join/<% get "FileFormat" %>/"
+          description: "<% "{common-content.operations.join.description}" %>"
           
         
           
