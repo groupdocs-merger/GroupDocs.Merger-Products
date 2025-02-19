@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-18T20:16:23
+date:  2025-02-19T16:18:19
 draft: false
 lang: en
 format: Docx
@@ -12,12 +12,12 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Remove DOCX pages in Java apps"
-head_description: "Use GroupDocs.Merger for Java to reorder pages in DOCX documents effortlessly. Process PDF, Word, Excel, PowerPoint, images, and more with ease."
+head_title: "Delete DOCX pages in Java apps"
+head_description: "Use GroupDocs.Merger for Java to remove specific pages from DOCX documents. Easily process PDF, Word, Excel, PowerPoint, images, archives, and more."
 
 ############################# Header ############################
-title: "Move pages in DOCX" 
-description: "GroupDocs.Merger for Java empowers Java applications to reorder pages in DOCX documents seamlessly."
+title: "Delete pages in DOCX" 
+description: "GroupDocs.Merger for Java enhances Java apps with powerful document processing features, including page removal in DOCX files."
 subtitle: "GroupDocs.Merger for Java" 
 
 header_actions:
@@ -30,24 +30,24 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Merger Info"
+    title: "About GroupDocs.Merger"
     link: "/merger/java/"
     link_title: "Learn more"
     picture: "about_merger.svg" # 480 X 400
     content: |
-       [GroupDocs.Merger for Java](/merger/java/) is a powerful document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. It offers essential features like merging, splitting, extracting, moving, swapping, and removing pages.
+       [GroupDocs.Merger for Java](/merger/java/) is a robust document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. It offers features such as merging, splitting, extracting, moving, swapping, and removing pages to enhance your applications.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to remove pages in DOCX"
+    title: "How to delete pages in DOCX"
     content: |
-      [GroupDocs.Merger](/merger/java/) is able to delete DOCX document pages easily. Java applications may be powered by our solution in order to provide document management features.
+      [GroupDocs.Merger](/merger/java/) allows you to easily remove pages from DOCX documents. Enhance your Java applications with advanced document management capabilities.
       
-      1. Specify DOCX path.
-      2. Set the options with numbers of pages to be deleted.
-      3. Remove all intended pages.
-      4. Save the result file.
+      1. Specify the DOCX file path.
+      2. Define the pages to be deleted.
+      3. Execute the page removal operation.
+      4. Save the updated file.
    
     code:
       platform: "java"
@@ -85,66 +85,66 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Instantiate Merger passing the file path
+        // Create a Merger instance with the file path
         Merger merger = new Merger("document.docx");
 
-        // Provide number of the page that is supposed to be removed
+        // Specify the page number to delete
         RemoveOptions removeOptions = new RemoveOptions(new int[] { 2 });
 
-        // Process the document using options
+        // Apply the page removal options
         merger.removePages(removeOptions);
 
-        // Save the final version
+        // Save the modified document
         merger.save("result.docx");
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Efficient document processing"
-  description: "GroupDocs.Merger for Java is designed to provide a comprehensive set of features, enabling you to process over 50 widely used business file formats for your needs."
+  title: "Advanced document processing"
+  description: "GroupDocs.Merger for Java provides a comprehensive set of features, allowing you to work with over 50 popular business file formats efficiently."
   image: "/img/merger/features_remove.webp" # 500x500 px
   image_description: "Key features of GroupDocs.Merger"
   features:
     # feature loop
-    - title: "Combine documents in various formats"
-      content: "Merge content from files like PDFs, Word documents, presentations, spreadsheets, images, archives, and more. Use flexible options to achieve precise results."
+    - title: "Merge files in different formats"
+      content: "Combine PDFs, Word documents, presentations, spreadsheets, images, and archives with flexible merging options for precise results."
 
     # feature loop
-    - title: "Page manipulations"
-      content: "Reposition pages within documents. Move, swap, or remove pages to manage your business document content effectively."
+    - title: "Page management"
+      content: "Rearrange document pages by moving, swapping, or deleting them to organize content effectively."
 
     # feature loop
-    - title: "Adjust page appearance"
-      content: "Rotate pages to any angle or switch their orientation between landscape and portrait."
+    - title: "Modify page layout"
+      content: "Rotate pages to any angle or switch between landscape and portrait orientations."
 
     # feature loop
     - title: "Extract pages into separate files"
-      content: "Extract one or more pages and save them as standalone documents."
+      content: "Select specific pages and save them as standalone documents."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Be informed how to remove all even pages"
+    - title: "How to delete all even pages"
       content: |
-        Learn how to remove even pages in a DOCX document.
+        Learn how to remove even-numbered pages from a DOCX document.
       code:
         title: "Java"
         content: |
           ```java {style=abap}
-          // Pass file path to the constructor
+          // Provide the file path to the constructor
           Merger merger = new Merger("document.docx");
 
-          // Get the number of the last page
+          // Retrieve the total number of pages
           IDocumentInfo info = merger.getDocumentInfo();
-
-          // Set up options to remove all even pages
           int lastPage = info.PageCount;
+
+          // Define options to delete even pages
           RemoveOptions removeOptions = new RemoveOptions(1, lastPage, RangeMode.EvenPages);
 
           // Process the document
           merger.removePages(removeOptions);
           
-          // Save the result to specified location
+          // Save the modified file to the desired location
           merger.save("result.docx");
           ```
         platform: "java"
@@ -205,9 +205,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Main features"
+    title: "Key features"
     exclude: "remove"
-    description: "Discover other popular capabilities of our solution."
+    description: "Explore additional powerful features of our solution."
     items: 
           
         # operation loop 1
@@ -229,10 +229,10 @@ more_operations:
           description: "Reposition any page within a document"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
-          operation: "filters"
-          link: "/merger/java/filters/docx/"
-          description: "{common-content.operations.filters.description}"
+        - name: "Remove pages"
+          operation: "remove"
+          link: "/merger/java/remove/docx/"
+          description: "Delete document pages"
 
         # operation loop 5
         - name: "{common-content.operations.phrase.name}"
@@ -245,36 +245,36 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Reorder document pages in multiple formats"
+    title: "Delete pages from multiple document formats"
     exclude: "DOCX"
-    description: "GroupDocs.Merger supports over 50 file formats, enabling efficient and flexible document manipulation."
+    description: "GroupDocs.Merger supports over 50 file formats, enabling fast and convenient document modifications."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Delete DOCX pages"
           format: "DOCX"
           link: "/merger/java/remove/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: ""
+        - name: "Delete PDF pages"
           format: "PDF"
           link: "/merger/java/remove/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: ""
+        - name: "Remove PPTX pages"
           format: "PPTX"
           link: "/merger/java/remove/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: ""
+        - name: "Delete EPUB pages"
           format: "EPUB"
           link: "/merger/java/remove/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: ""
+        - name: "Remove XLSX pages"
           format: "XLSX"
           link: "/merger/java/remove/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

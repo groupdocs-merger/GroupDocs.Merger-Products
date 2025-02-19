@@ -123,9 +123,9 @@ more_features:
           {
               // <% "{code_1.comment_2}" %>
               IDocumentInfo info = merger.GetDocumentInfo();
+              int lastPage = info.PageCount;
 
               // <% "{code_1.comment_3}" %>
-              int lastPage = info.PageCount;
               RemoveOptions removeOptions = new RemoveOptions(1, lastPage, RangeMode.EvenPages);
           
               // <% "{code_1.comment_4}" %>

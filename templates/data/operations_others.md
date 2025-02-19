@@ -19,10 +19,10 @@
           description: "<% "{common-content.operations.move.description}" %>"
 
         # operation loop 4
-        - name: "<% "{common-content.operations.filters.name}" %>"
-          operation: "filters"
-          link: "/merger/<% get "ProdCode" %>/filters/<% get "FileFormat" %>/"
-          description: "<% "{common-content.operations.filters.description}" %>"
+        - name: "<% "{common-content.operations.remove.name}" %>"
+          operation: "remove"
+          link: "/merger/<% get "ProdCode" %>/remove/<% get "FileFormat" %>/"
+          description: "<% "{common-content.operations.remove.description}" %>"
 
         # operation loop 5
         - name: "<% "{common-content.operations.phrase.name}" %>"

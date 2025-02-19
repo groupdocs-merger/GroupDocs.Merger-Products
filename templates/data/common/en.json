@@ -24,25 +24,39 @@
     },
     "format-operations": {
       "combine": {
-        "pdf": "Combine PDF",
-        "docx": "Combine DOCX",
-        "xlsx": "Combine XLSX",
-        "pptx": "Combine PPTX",
-        "epub": "Combine EPUB"
+        "pdf": "Combine PDF doc",
+        "docx": "Join DOCX doc",
+        "xlsx": "Combine XLSX doc",
+        "pptx": "Join PPTX doc",
+        "epub": "Combine EPUB doc"
+      },
+      "join": {
+        "pdf": "Join PDF files",
+        "docx": "Combine DOCX files",
+        "xlsx": "Join XLSX files",
+        "pptx": "Combine PPTX files",
+        "epub": "Join EPUB files"
       },
       "extract": {
-        "pdf": "Extract PDF",
-        "docx": "Extract DOCX",
-        "xlsx": "Extract XLSX",
-        "pptx": "Extract PPTX",
-        "epub": "Extract EPUB"
+        "pdf": "Extract PDF pages",
+        "docx": "Save DOCX pages",
+        "xlsx": "Extract XLSX pages",
+        "pptx": "Save PPTX pages",
+        "epub": "Extract EPUB pages"
       },
       "move": {
         "pdf": "Move PDF pages",
-        "docx": "Move DOCX pages",
+        "docx": "Reorder DOCX pages",
         "xlsx": "Move XLSX pages",
-        "pptx": "Move PPTX pages",
+        "pptx": "Reorder PPTX pages",
         "epub": "Move EPUB pages"
+      },
+      "remove": {
+        "pdf": "Delete PDF pages",
+        "docx": "Delete DOCX pages",
+        "xlsx": "Remove XLSX pages",
+        "pptx": "Remove PPTX pages",
+        "epub": "Delete EPUB pages"
       }
     },
     "format-code": {
@@ -77,6 +91,10 @@
       "move": {
         "name": "Move pages",
         "description": "Reposition any page within a document"
+      },
+      "remove": {
+        "name": "Remove pages",
+        "description": "Delete document pages"
       }
     }
   }

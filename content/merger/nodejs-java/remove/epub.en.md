@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-18T20:16:24
+date:  2025-02-19T16:18:19
 draft: false
 lang: en
 format: Epub
@@ -12,42 +12,42 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Rearrange EPUB pages in Node.js via Java"
-head_description: "Use GroupDocs.Merger for Node.js via Java to effortlessly change the order of pages in EPUB documents. Process PDF, Word, Excel, PowerPoint, images, and more."
+head_title: "Remove EPUB pages in Node.js via Java apps"
+head_description: "Use GroupDocs.Merger for Node.js via Java to remove specific pages from EPUB documents. Effortlessly process PDFs, Word, Excel, PowerPoint, images, archives, and more."
 
 ############################# Header ############################
-title: "Rearrange pages in EPUB" 
-description: "GroupDocs.Merger for Node.js via Java provides Node.js applications with the ability to easily change the order of pages in EPUB documents."
+title: "Remove pages from EPUB" 
+description: "GroupDocs.Merger for Node.js via Java enhances Node.js apps with powerful document processing features, including page removal from EPUB files."
 subtitle: "GroupDocs.Merger for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Try for free"
+    - title: "Get for Free"
       link: "https://releases.groupdocs.com/merger/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Merger"
+    title: "What is GroupDocs.Merger?"
     link: "/merger/nodejs-java/"
     link_title: "Learn more"
     picture: "about_merger.svg" # 480 X 400
     content: |
-       [GroupDocs.Merger for Node.js via Java](/merger/nodejs-java/) is a robust document processing tool supporting over 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. It offers powerful features for merging, splitting, extracting, rearranging, swapping, and deleting pages.
+       [GroupDocs.Merger for Node.js via Java](/merger/nodejs-java/) is a feature-rich document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. It offers merging, splitting, extracting, moving, swapping, and deleting pages to streamline document management in your applications.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to rearrange EPUB pages"
+    title: "How to remove pages from EPUB"
     content: |
-      [GroupDocs.Merger](/merger/nodejs-java/) simplifies the process of moving pages within EPUB documents. Enhance your Node.js via Java applications with advanced document organization capabilities.
+      [GroupDocs.Merger](/merger/nodejs-java/) makes it easy to delete pages from EPUB documents. Integrate it into your Node.js via Java applications to enhance document management capabilities.
       
-      1. Specify the path to the EPUB document.
-      2. Indicate the page number and its new position.
-      3. Perform the page move operation.
-      4. Save the modified document.
+      1. Specify the path to the EPUB file.
+      2. Set the page numbers you want to remove.
+      3. Run the page removal operation.
+      4. Save the updated document.
    
     code:
       platform: "nodejs-java"
@@ -71,13 +71,13 @@ steps:
         ```javascript {style=abap}
         const mergerLib = require('@groupdocs/groupdocs.merger')
 
-        // Initialize a Merger instance with the source document
+        // Create a Merger instance and provide the file path
         const merger = new mergerLib.Merger("document.epub")
 
-        // Define the page number that needs to be moved
-        const removeOptions = new groupdocs.merger.RemoveOptions(2, 2)
+        // Define the page number(s) to be removed
+        const removeOptions = new mergerLib.RemoveOptions(2, 2)
 
-        // Reposition the selected page
+        // Apply the removal settings
         merger.removePages(removeOptions)
 
         // Save the modified document
@@ -87,53 +87,53 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive document handling"
-  description: "GroupDocs.Merger for Node.js via Java delivers a rich set of features, allowing you to work with over 50 popular business file formats efficiently."
+  title: "Advanced document management"
+  description: "GroupDocs.Merger for Node.js via Java provides a complete set of tools for working with over 50 widely used file formats, making document processing easier and more efficient."
   image: "/img/merger/features_remove.webp" # 500x500 px
   image_description: "Key capabilities of GroupDocs.Merger"
   features:
     # feature loop
-    - title: "Merge documents of different types"
-      content: "Combine content from PDFs, Word files, presentations, spreadsheets, images, and archives. Use flexible options to customize the final document structure."
+    - title: "Merge multiple file formats"
+      content: "Combine PDFs, Word documents, spreadsheets, presentations, images, and archives with customizable merging options for precise results."
 
     # feature loop
-    - title: "Modify document pages"
-      content: "Rearrange pages in your documents by moving, swapping, or removing them as needed."
+    - title: "Flexible page management"
+      content: "Rearrange document pages by moving, swapping, or deleting them to keep your files well-organized."
 
     # feature loop
-    - title: "Adjust page layout and orientation"
-      content: "Rotate pages to any desired angle or switch between portrait and landscape modes."
+    - title: "Customize page layout"
+      content: "Rotate pages to any angle or switch between landscape and portrait orientation."
 
     # feature loop
-    - title: "Extract pages as separate documents"
-      content: "Select specific pages and save them as standalone files for further use."
+    - title: "Extract pages as separate files"
+      content: "Select and save specific pages as standalone documents."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Move a page to the last position in a document"
+    - title: "Remove all even-numbered pages"
       content: |
-        This example demonstrates how to relocate a page to the end of a EPUB document.
+        Learn how to delete even-numbered pages from a EPUB document.
       code:
         title: "JavaScript"
         content: |
           ```javascript {style=abap}
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
-          // Provide the source document path
+          // Provide the file path to the constructor
           const merger = new mergerLib.Merger("document.epub");
 
-          // Retrieve document details and determine the last page number
+          // Get the total number of pages in the document
           const info = merger.getDocumentInfo()
           const lastPage = info.getPageCount()
 
-          // Configure the move operation with the target page numbers
-          const rangeMode = groupdocs.merger.RangeMode.EvenPages
+          // Configure settings to remove even pages
+          const rangeMode = mergerLib.RangeMode.EvenPages
           const removeOptions = new mergerLib.RemoveOptions(1, lastPage, rangeMode)
           
-          // Execute the move operation
+          // Process the document
           merger.removePages(removeOptions)
 
-          // Save the updated document in the desired location
+          // Save the updated file to the specified location
           merger.save("result.epub")
           ```
         platform: "nodejs-java"
@@ -179,9 +179,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Core features"
+    title: "Key features"
     exclude: "remove"
-    description: "Discover other essential features included in our solution."
+    description: "Discover additional capabilities of our document processing solution."
     items: 
           
         # operation loop 1
@@ -203,10 +203,10 @@ more_operations:
           description: "Reposition any page within a document"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
-          operation: "filters"
-          link: "/merger/nodejs-java/filters/epub/"
-          description: "{common-content.operations.filters.description}"
+        - name: "Remove pages"
+          operation: "remove"
+          link: "/merger/nodejs-java/remove/epub/"
+          description: "Delete document pages"
 
         # operation loop 5
         - name: "{common-content.operations.phrase.name}"
@@ -219,36 +219,36 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Rearrange pages in multiple formats"
+    title: "Remove pages from various document formats"
     exclude: "EPUB"
-    description: "GroupDocs.Merger supports over 50 file formats, offering flexibility and precision in document manipulation."
+    description: "GroupDocs.Merger supports over 50 file formats, allowing you to modify documents quickly and effortlessly."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Delete DOCX pages"
           format: "DOCX"
           link: "/merger/nodejs-java/remove/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: ""
+        - name: "Delete PDF pages"
           format: "PDF"
           link: "/merger/nodejs-java/remove/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: ""
+        - name: "Remove PPTX pages"
           format: "PPTX"
           link: "/merger/nodejs-java/remove/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: ""
+        - name: "Delete EPUB pages"
           format: "EPUB"
           link: "/merger/nodejs-java/remove/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: ""
+        - name: "Remove XLSX pages"
           format: "XLSX"
           link: "/merger/nodejs-java/remove/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

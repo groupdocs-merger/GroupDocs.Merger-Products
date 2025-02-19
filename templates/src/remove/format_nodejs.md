@@ -77,7 +77,7 @@ steps:
         const merger = new mergerLib.Merger("document.<% get "fileformat" %>")
 
         // <% "{examples.comment_2}" %>
-        const removeOptions = new groupdocs.merger.RemoveOptions(2, 2)
+        const removeOptions = new mergerLib.RemoveOptions(2, 2)
 
         // <% "{examples.comment_3}" %>
         merger.removePages(removeOptions)
@@ -129,7 +129,7 @@ more_features:
           const lastPage = info.getPageCount()
 
           // <% "{code_1.comment_3}" %>
-          const rangeMode = groupdocs.merger.RangeMode.EvenPages
+          const rangeMode = mergerLib.RangeMode.EvenPages
           const removeOptions = new mergerLib.RemoveOptions(1, lastPage, rangeMode)
           
           // <% "{code_1.comment_4}" %>

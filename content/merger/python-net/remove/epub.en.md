@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-18T20:16:24
+date:  2025-02-19T16:18:19
 draft: false
 lang: en
 format: Epub
@@ -12,42 +12,42 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Rearrange EPUB pages in Python via .NET"
-head_description: "Use GroupDocs.Merger for Python via .NET to quickly reorder pages in EPUB documents. Process PDFs, Word, Excel, PowerPoint files, images, and more with ease."
+head_title: "Remove pages from EPUB in Python via .NET apps"
+head_description: "Easily delete specific pages from EPUB files using GroupDocs.Merger for Python via .NET. Process PDFs, Word, Excel, PowerPoint, images, archives, and more."
 
 ############################# Header ############################
-title: "Rearrange pages in EPUB" 
-description: "GroupDocs.Merger for Python via .NET enables Python applications to modify page order in EPUB documents effortlessly."
+title: "Remove pages from EPUB" 
+description: "GroupDocs.Merger for Python via .NET brings powerful page removal capabilities to your Python applications, making document management easier."
 subtitle: "GroupDocs.Merger for Python via .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Try for free"
+    - title: "Try for Free"
       link: "https://releases.groupdocs.com/merger/python-net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Merger"
+    title: "What is GroupDocs.Merger?"
     link: "/merger/python-net/"
     link_title: "Learn more"
     picture: "about_merger.svg" # 480 X 400
     content: |
-       [GroupDocs.Merger for Python via .NET](/merger/python-net/) is a versatile document processing tool that supports more than 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. It provides features for merging, splitting, extracting, moving, swapping, and removing pages.
+       [GroupDocs.Merger for Python via .NET](/merger/python-net/) is a powerful document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. It lets you merge, split, extract, move, swap, and delete pages, improving how you handle documents in your applications.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to rearrange EPUB pages"
+    title: "Steps to remove pages from EPUB"
     content: |
-      [GroupDocs.Merger](/merger/python-net/) makes it easy to move pages within EPUB documents. Upgrade your Python via .NET applications with advanced document management features.
+      With [GroupDocs.Merger](/merger/python-net/), you can quickly delete pages from EPUB documents. Integrate it into your Python via .NET apps for enhanced document management.
       
-      1. Provide the path to the EPUB document.
-      2. Select the page number and specify its new position.
-      3. Execute the move operation.
-      4. Save the modified document.
+      1. Provide the file path of the EPUB document.
+      2. Select the pages you want to delete.
+      3. Run the removal operation.
+      4. Save the updated document.
    
     code:
       platform: "nodejs-java"
@@ -71,13 +71,13 @@ steps:
         ```python {style=abap}
         import groupdocs.merger as gm
 
-        # Initialize a Merger object with the source document path
+        # Initialize a Merger instance with the file path
         with gm.Merger("document.epub") as merger:
             
-            # Select the page to be moved
+            # Specify which pages to delete
             removeOptions = gm.domain.options.RemoveOptions([2])
 
-            # Reposition the page
+            # Apply page removal settings
             merger.remove_pages(removeOptions)
 
             # Save the updated document
@@ -87,53 +87,53 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced document processing"
-  description: "GroupDocs.Merger for Python via .NET offers a wide range of features to help you handle over 50 popular business document formats efficiently."
+  title: "Advanced document handling"
+  description: "GroupDocs.Merger for Python via .NET simplifies working with documents by providing a full set of tools for over 50 popular file formats."
   image: "/img/merger/features_remove.webp" # 500x500 px
-  image_description: "Key capabilities of GroupDocs.Merger"
+  image_description: "Main features of GroupDocs.Merger"
   features:
     # feature loop
-    - title: "Merge documents of different formats"
-      content: "Combine content from PDFs, Word documents, presentations, spreadsheets, images, and archives. Flexible options allow precise document structuring."
+    - title: "Merge different file types"
+      content: "Combine PDFs, Word files, presentations, spreadsheets, images, and archives with precise merging options."
 
     # feature loop
-    - title: "Page organization"
-      content: "Rearrange pages within documents by moving, swapping, or deleting them as needed."
+    - title: "Manage pages easily"
+      content: "Move, swap, or remove pages to organize your documents exactly as needed."
 
     # feature loop
     - title: "Adjust page orientation"
-      content: "Rotate pages to any angle or switch between portrait and landscape modes."
+      content: "Rotate pages to any angle or switch between portrait and landscape mode."
 
     # feature loop
-    - title: "Extract pages as separate documents"
-      content: "Select and extract pages, saving them as independent files."
+    - title: "Extract pages as new files"
+      content: "Select specific pages and save them separately as new documents."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Move a page to the last position in a document"
+    - title: "Delete all even-numbered pages"
       content: |
-        This example demonstrates how to move a specific page to the end of a EPUB document.
+        Learn how to remove even pages from a EPUB file.
       code:
         title: "JavaScript"
         content: |
           ```python {style=abap}
           import groupdocs.merger as gm
           
-          # Set the source file path
+          # Load the file by specifying the path
           with gm.Merger("document.epub") as merger:
             
-              # Retrieve document details and determine the last page number
+              # Get the total number of pages
               info = merger.get_document_info()
               lastPage = info.page_count
 
-              # Configure options with the target page numbers
+              # Set up options to remove even pages
               rangeMode = gm.domain.options.RangeMode.EvenPages
               removeOptions = gm.domain.options.RemoveOptions(1, lastPage, rangeMode)
           
-              # Perform the page move operation
+              # Process the document
               merger.remove_pages(removeOptions)
 
-              # Save the modified document
+              # Save the modified document to the chosen location
               merger.save("result.epub");
           ```
         platform: "nodejs-java"
@@ -179,9 +179,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key features"
+    title: "Main features"
     exclude: "remove"
-    description: "Explore additional powerful capabilities of our solution."
+    description: "Explore additional tools available in our document processing solution."
     items: 
           
         # operation loop 1
@@ -203,10 +203,10 @@ more_operations:
           description: "Reposition any page within a document"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
-          operation: "filters"
-          link: "/merger/python-net/filters/epub/"
-          description: "{common-content.operations.filters.description}"
+        - name: "Remove pages"
+          operation: "remove"
+          link: "/merger/python-net/remove/epub/"
+          description: "Delete document pages"
 
         # operation loop 5
         - name: "{common-content.operations.phrase.name}"
@@ -219,36 +219,36 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Rearrange pages in multiple formats"
+    title: "Remove pages from various document types"
     exclude: "EPUB"
-    description: "GroupDocs.Merger supports over 50 file formats, providing a flexible solution for document organization."
+    description: "GroupDocs.Merger supports more than 50 file formats, making document modifications quick and seamless."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Delete DOCX pages"
           format: "DOCX"
           link: "/merger/python-net/remove/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: ""
+        - name: "Delete PDF pages"
           format: "PDF"
           link: "/merger/python-net/remove/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: ""
+        - name: "Remove PPTX pages"
           format: "PPTX"
           link: "/merger/python-net/remove/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: ""
+        - name: "Delete EPUB pages"
           format: "EPUB"
           link: "/merger/python-net/remove/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: ""
+        - name: "Remove XLSX pages"
           format: "XLSX"
           link: "/merger/python-net/remove/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

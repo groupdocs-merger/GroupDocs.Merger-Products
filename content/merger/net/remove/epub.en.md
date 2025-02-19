@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-18T20:16:24
+date:  2025-02-19T16:18:19
 draft: false
 lang: en
 format: Epub
@@ -12,19 +12,19 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Move EPUB pages in .NET"
-head_description: "Use GroupDocs.Merger for .NET to effortlessly reorder pages in EPUB documents. Process PDF, Word, Excel, PowerPoint, images, and more with ease."
+head_title: "Remove EPUB pages in .NET apps"
+head_description: "Use GroupDocs.Merger for .NET to delete specific pages from EPUB documents. Easily manage PDF, Word, Excel, PowerPoint, images, archives, and more."
 
 ############################# Header ############################
-title: "Move pages in EPUB" 
-description: "GroupDocs.Merger for .NET enables .NET applications to easily reorder pages in EPUB documents."
+title: "Remove pages in EPUB" 
+description: "GroupDocs.Merger for .NET enhances .NET apps with powerful document processing capabilities, including removing pages from EPUB files."
 subtitle: "GroupDocs.Merger for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Get for free"
+    - title: "Get for Free"
       link: "https://releases.groupdocs.com/merger/net/"
       
 ############################# About ############################
@@ -35,19 +35,19 @@ about:
     link_title: "Learn more"
     picture: "about_merger.svg" # 480 X 400
     content: |
-       [GroupDocs.Merger for .NET](/merger/net/) is a powerful document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. It provides essential features such as merging, splitting, extracting, moving, swapping, and deleting pages.
+       [GroupDocs.Merger for .NET](/merger/net/) is an advanced document processing tool supporting over 50 file formats, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. It offers a range of features such as merging, splitting, extracting, reordering, swapping, and deleting pages to optimize document management.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to move EPUB pages"
+    title: "How to remove pages from EPUB"
     content: |
-      [GroupDocs.Merger](/merger/net/) makes it easy to move selected pages in EPUB documents. Enhance your .NET applications with advanced document processing features.
+      With [GroupDocs.Merger](/merger/net/), you can easily delete pages from EPUB files. Add document management functionality to your .NET applications effortlessly.
       
-      1. Provide the file path of the source EPUB document.
-      2. Specify the page number and its new position.
-      3. Execute the page move operation.
-      4. Save the updated document.
+      1. Specify the EPUB file path.
+      2. Choose the pages to remove.
+      3. Perform the removal operation.
+      4. Save the modified document.
    
     code:
       platform: "net"
@@ -69,16 +69,16 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Create a Merger instance with the source file
+        // Initialize Merger with the file path
         using (Merger merger = new Merger("document.epub"))
         {
-            // Specify the page number to be moved
+            // Specify the page number(s) to be removed
             RemoveOptions removeOptions = new RemoveOptions(new int[] { 2 });
 
-            // Move the page to the new position
+            // Apply the removal settings
             merger.RemovePages(removeOptions);
 
-            // Save the modified document
+            // Save the updated document
             merger.Save("result.epub");
         }
         ```            
@@ -86,50 +86,50 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced document processing"
-  description: "GroupDocs.Merger for .NET offers a comprehensive set of features, allowing you to efficiently process over 50 widely used business file formats."
+  title: "Comprehensive document processing"
+  description: "GroupDocs.Merger for .NET offers a wide range of features, enabling efficient handling of over 50 commonly used business file formats."
   image: "/img/merger/features_remove.webp" # 500x500 px
-  image_description: "Key features of GroupDocs.Merger"
+  image_description: "Key capabilities of GroupDocs.Merger"
   features:
     # feature loop
-    - title: "Merge documents in various formats"
-      content: "Combine PDFs, Word documents, presentations, spreadsheets, images, archives, and more. Use flexible options to achieve the desired results."
+    - title: "Merge multiple file types"
+      content: "Combine PDFs, Word documents, presentations, spreadsheets, images, and archives with flexible options for precise merging."
 
     # feature loop
-    - title: "Manage document pages"
-      content: "Rearrange pages within documents. Move, swap, or remove pages to better organize your content."
+    - title: "Organize document pages"
+      content: "Rearrange pages by moving, swapping, or deleting them to structure documents efficiently."
 
     # feature loop
-    - title: "Adjust page layout"
-      content: "Rotate pages to any angle or switch between landscape and portrait orientation."
+    - title: "Customize page layout"
+      content: "Rotate pages at any angle or switch between portrait and landscape orientations as needed."
 
     # feature loop
-    - title: "Extract pages into separate files"
-      content: "Select and extract specific pages, saving them as standalone documents."
+    - title: "Extract pages into separate documents"
+      content: "Select and save specific pages as independent files for better document organization."
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Move a page to the end of the document"
+    - title: "How to remove all even pages"
       content: |
-        This example demonstrates how to move a specific page to the end of a EPUB document.
+        Learn how to delete even-numbered pages from a EPUB document.
       code:
         title: "C#"
         content: |
           ```csharp {style=abap}
-          // Pass the source file path to the constructor
+          // Provide the file path to the constructor
           using (Merger merger = new Merger("document.epub"))
           {
-              // Retrieve document details and the last page number
+              // Get the total page count
               IDocumentInfo info = merger.GetDocumentInfo();
-
-              // Set up options with the page numbers
               int lastPage = info.PageCount;
+
+              // Define settings to remove even pages
               RemoveOptions removeOptions = new RemoveOptions(1, lastPage, RangeMode.EvenPages);
           
-              // Move the page to the end of the document
+              // Process the document
               merger.RemovePages(removeOptions);
 
-              // Save the updated document to a new location
+              // Save the final version to the specified location
               merger.Save("result.epub");
           }
           ```
@@ -176,9 +176,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key features"
+    title: "Core features"
     exclude: "remove"
-    description: "Explore additional powerful capabilities of our solution."
+    description: "Discover additional capabilities of our solution."
     items: 
           
         # operation loop 1
@@ -200,10 +200,10 @@ more_operations:
           description: "Reposition any page within a document"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
-          operation: "filters"
-          link: "/merger/net/filters/epub/"
-          description: "{common-content.operations.filters.description}"
+        - name: "Remove pages"
+          operation: "remove"
+          link: "/merger/net/remove/epub/"
+          description: "Delete document pages"
 
         # operation loop 5
         - name: "{common-content.operations.phrase.name}"
@@ -216,36 +216,36 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Reorder pages in multiple formats"
+    title: "Remove pages from various file formats"
     exclude: "EPUB"
-    description: "GroupDocs.Merger supports over 50 file formats, making document manipulation flexible and efficient."
+    description: "GroupDocs.Merger supports over 50 document formats, allowing quick and easy modifications."
     items: 
         # format loop 1
-        - name: ""
+        - name: "Delete DOCX pages"
           format: "DOCX"
           link: "/merger/net/remove/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: ""
+        - name: "Delete PDF pages"
           format: "PDF"
           link: "/merger/net/remove/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: ""
+        - name: "Remove PPTX pages"
           format: "PPTX"
           link: "/merger/net/remove/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: ""
+        - name: "Delete EPUB pages"
           format: "EPUB"
           link: "/merger/net/remove/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: ""
+        - name: "Remove XLSX pages"
           format: "XLSX"
           link: "/merger/net/remove/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
