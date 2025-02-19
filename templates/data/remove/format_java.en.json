@@ -1,17 +1,17 @@
 {
   "head": {
     "title": "Remove {{FileFormatUp}} pages in {{EnvName}} apps",
-    "description": "Use {{ProdFullName}} to reorder pages in {{FileFormatUp}} documents effortlessly. Process PDF, Word, Excel, PowerPoint, images, and more with ease."
+    "description": "Use {{ProdFullName}} to delete any page or set of pages in {{FileFormatUp}} documents. Manipulate with PDF, Word, Excel, PowerPoint, images, archives and other formats."
   },
   "header": {
-    "title": "Move pages in {{FileFormatUp}}",
-    "description": "{{ProdFullName}} empowers {{EnvNameShort}} applications to reorder pages in {{FileFormatUp}} documents seamlessly.",
+    "title": "Remove {{FileFormatUp}} pages",
+    "description": "{{ProdFullName}} is designed to bring in {{EnvNameShort}} apps document processing features. One of them is pages removal in {{FileFormatUp}} documents.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Get for Free"
   },
   "about": {
     "title": "{{ProdShortName}} Info",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful document processing tool that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, images, and archives. It offers essential features like merging, splitting, extracting, moving, swapping, and removing pages."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful document processing solution that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, Visio, images, archives, etc. Such features as merging, splitting, extracting, moving, swapping, or removing might be used to empower your applications."
   },
   "more_features": {
     "title": "Efficient document processing",
@@ -35,12 +35,12 @@
     }
   },
   "formats": {
-    "title": "Reorder document pages in multiple formats",
-    "description": "{{ProdShortName}} supports over 50 file formats, enabling efficient and flexible document manipulation."
+    "title": "Remove pages for various document formats",
+    "description": "{{ProdShortName}} provide operations with documents in more than 50 formats. Perform any document manipulation in fast and convenient way."
   },
   "operations": {
     "title": "Main features",
-    "description": "Discover other popular capabilities of our solution."
+    "description": "Be informed about other useful capabilities of our solution."
   },
   "examples": {
     "comment_1": "Instantiate {{NameProduct}} passing the file path",
