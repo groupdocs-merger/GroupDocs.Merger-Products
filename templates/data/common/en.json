@@ -57,6 +57,13 @@
         "xlsx": "Remove XLSX pages",
         "pptx": "Remove PPTX pages",
         "epub": "Delete EPUB pages"
+      },
+      "rotate": {
+        "pdf": "Rotate PDF pages",
+        "docx": "Rotate DOCX pages",
+        "xlsx": "Rotate XLSX pages",
+        "pptx": "Rotate PPTX pages",
+        "epub": "Rotate EPUB pages"
       }
     },
     "format-code": {
@@ -99,6 +106,10 @@
       "remove": {
         "name": "Remove pages",
         "description": "Delete document pages"
+      },
+      "rotate": {
+        "name": "Rotate pages",
+        "description": "Rotate document pages"
       }
     }
   }

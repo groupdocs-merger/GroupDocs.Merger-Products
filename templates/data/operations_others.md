@@ -29,6 +29,12 @@
           operation: "join"
           link: "/merger/<% get "ProdCode" %>/join/<% get "FileFormat" %>/"
           description: "<% "{common-content.operations.join.description}" %>"
+
+        # operation loop 6
+        - name: "<% "{common-content.operations.rotate.name}" %>"
+          operation: "rotate"
+          link: "/merger/<% get "ProdCode" %>/rotate/<% get "FileFormat" %>/"
+          description: "<% "{common-content.operations.rotate.description}" %>"
           
         
           
