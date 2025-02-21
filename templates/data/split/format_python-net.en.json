@@ -1,70 +1,70 @@
 {
   "head": {
-    "title": "Rotate {{FileFormatUp}} pages in {{EnvName}} apps",
-    "description": "Use {{ProdFullName}} to rotate pages in {{FileFormatUp}} documents. Easily modify PDFs, Word files, Excel spreadsheets, PowerPoint slides, images, and archives."
+    "title": "Break apart {{FileFormatUp}} documents in {{EnvName}} apps",
+    "description": "Use {{ProdFullName}} to separate {{FileFormatUp}} files into multiple documents. Easily manage PDFs, Word files, spreadsheets, presentations, Visio diagrams, images, archives, and more."
   },
   "header": {
-    "title": "Rotate pages in {{FileFormatUp}} files",
-    "description": "Enhance your {{EnvNameShort}} applications with {{ProdFullName}}, a powerful document processing solution. Rotate pages in {{FileFormatUp}} and manage various file formats effortlessly.",
+    "title": "Break {{FileFormatUp}} files into parts",
+    "description": "{{ProdFullName}} enhances {{EnvNameShort}} applications with advanced document processing. Split {{FileFormatUp}} files effortlessly and work with a variety of commonly used formats.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Free Download"
+    "action_title": "Get Free Trial"
   },
   "about": {
-    "title": "About {{ProdShortName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced document processing library that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. It provides features like merging, splitting, extracting, rearranging, and deleting pages to streamline document management in your applications."
+    "title": "What is {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a feature-rich document processing library supporting 50+ file types, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. It allows developers to merge, split, extract, rearrange, swap, and remove pages, streamlining document operations within applications."
   },
   "more_features": {
-    "title": "Comprehensive document management",
-    "description": "{{ProdFullName}} offers a broad set of features, making it easy to handle over 50 commonly used business file formats.",
-    "image_description": "Key capabilities of {{ProdShortName}}",
+    "title": "Advanced document management",
+    "description": "{{ProdFullName}} offers a powerful toolkit for efficiently processing over 50 popular file formats.",
+    "image_description": "Core capabilities of {{ProdShortName}}",
     "feature_1": {
-      "title": "Merge multiple file formats",
-      "content": "Combine PDFs, Word documents, spreadsheets, presentations, Visio diagrams, images, and archives. Use advanced options for precise control over the merging process."
+      "title": "Merge different document types",
+      "content": "Combine PDFs, Word documents, spreadsheets, presentations, Visio drawings, images, and archive files. Apply customization settings for precise output."
     },
     "feature_2": {
-      "title": "Rearrange document pages",
-      "content": "Easily move, swap, or remove pages to better organize your files."
+      "title": "Rearrange document structure",
+      "content": "Modify document layout by moving, swapping, or deleting pages to organize content more effectively."
     },
     "feature_3": {
-      "title": "Customize page layout",
-      "content": "Rotate pages to any angle or switch between landscape and portrait orientation for better readability."
+      "title": "Adjust page orientation",
+      "content": "Rotate pages to any angle or switch between portrait and landscape orientations."
     },
     "feature_4": {
-      "title": "Extract pages as separate files",
-      "content": "Select specific pages or a page range and save them as a new document in your preferred location."
+      "title": "Extract selected pages",
+      "content": "Choose specific pages or page ranges and save them as a separate document."
     }
   },
   "formats": {
-    "title": "Rotate pages in multiple formats",
-    "description": "{{ProdShortName}} supports over 50 file types, allowing you to modify documents quickly with a variety of built-in operations."
+    "title": "Split multiple document formats",
+    "description": "{{ProdShortName}} supports over 50 file types, making it easy to modify documents with precision."
   },
   "operations": {
-    "title": "Core features",
-    "description": "Discover the powerful capabilities available in our document processing library."
+    "title": "Main features",
+    "description": "Explore the key capabilities of our document processing library."
   },
   "examples": {
-    "comment_1": "Initialize {{NameProduct}} and load the source document",
-    "comment_2": "Specify the page number for rotation",
-    "comment_3": "Execute the rotation process",
-    "comment_4": "Save the updated document to the desired location"
+    "comment_1": "Load the input document into {{NameProduct}}",
+    "comment_2": "Define the output file path",
+    "comment_3": "Set up split options",
+    "comment_4": "Execute the split operation"
   },
   "steps": {
-    "title": "How to rotate {{FileFormatUp}} pages",
+    "title": "How to break {{FileFormatUp}} documents into parts",
     "content": {
-      "title": "With [{{ProdShortName}}]({{PlatformLink}}), you can rotate pages in {{FileFormatUp}} documents, bringing powerful document management to {{EnvName}} applications.",
-      "step_1": "Provide the path to the {{FileFormatUp}} file.",
-      "step_2": "Choose the page number you want to rotate.",
-      "step_3": "Apply the rotation operation.",
-      "step_4": "Save the modified document to your desired location."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy to split {{FileFormatUp}} files, extracting selected pages and saving them as a new document. Integrate efficient document processing into your {{EnvName}} applications.",
+      "step_1": "Specify the original {{FileFormatUp}} file path.",
+      "step_2": "Choose where to save the output file.",
+      "step_3": "Configure the split operation settings.",
+      "step_4": "Process and save the separated document."
     }
   },
   "code_1": {
-    "title": "Rotate all even-numbered {{FileFormatUp}} pages",
-    "content": "This example demonstrates how to rotate every even-numbered page in a {{FileFormatUp}} document.",
-    "comment_1": "Load the source document into the constructor",
-    "comment_2": "Retrieve the total number of pages",
-    "comment_3": "Configure settings to rotate even pages by 180 degrees",
-    "comment_4": "Execute the rotation operation",
-    "comment_5": "Save the modified file"
+    "title": "Extract even pages from a {{FileFormatUp}} file",
+    "content": "This example demonstrates how to split a {{FileFormatUp}} file and save all even-numbered pages into a new document.",
+    "comment_1": "Open the source document",
+    "comment_2": "Specify the output file destination",
+    "comment_3": "Determine the total page count",
+    "comment_4": "Set up split options for even pages",
+    "comment_5": "Perform the split and save the output"
   }
 }
