@@ -1,70 +1,70 @@
 {
   "head": {
     "title": "Swap pages in {{FileFormatUp}} documents using {{EnvName}} apps",
-    "description": "Use {{ProdFullName}} to swap pages in {{FileFormatUp}} files. Manage content of PDFs, Word files, spreadsheets, presentations, Visio diagrams, images, archives, and more."
+    "description": "Use {{ProdFullName}} to swap pages in {{FileFormatUp}} files. Easily manage PDFs, Word documents, spreadsheets, presentations, Visio diagrams, images, archives, and more."
   },
   "header": {
     "title": "Swap {{FileFormatUp}} pages",
-    "description": "{{ProdFullName}} enhances {{EnvNameShort}} applications with advanced document processing. Swap pages in {{FileFormatUp}} files in order to control business information.",
+    "description": "{{ProdFullName}} enhances {{EnvNameShort}} applications with advanced document processing. Swap pages in {{FileFormatUp}} files to better organize and control your content.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for free"
   },
   "about": {
     "title": "{{ProdShortName}} features",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a document processing library supporting 50+ file types, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. Include our product to your applications and be ready to merge, split, extract, rearrange, swap, and remove pages, in all popular document formats."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a document processing library that supports 50+ file formats, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. Add it to your applications to merge, split, extract, rearrange, swap, and remove pages in widely used document formats."
   },
   "more_features": {
     "title": "Advanced document management",
-    "description": "{{ProdFullName}} offers a powerful toolkit for efficiently processing over 50 popular file formats.",
-    "image_description": "Core capabilities of {{ProdShortName}}",
+    "description": "{{ProdFullName}} provides a powerful set of tools for processing over 50 file formats with ease.",
+    "image_description": "Key capabilities of {{ProdShortName}}",
     "feature_1": {
-      "title": "Merge different document types",
-      "content": "Combine PDFs, Word documents, spreadsheets, presentations, Visio drawings, images, and archive files. Apply customization settings for precise output."
+      "title": "Merge various document types",
+      "content": "Combine PDFs, Word documents, spreadsheets, presentations, Visio diagrams, images, and archive files. Customize output with flexible options."
     },
     "feature_2": {
-      "title": "Rearrange document structure",
-      "content": "Modify document layout by moving, swapping, or deleting pages to organize content more effectively."
+      "title": "Rearrange document pages",
+      "content": "Modify document layout by moving, swapping, or deleting pages for better content organization."
     },
     "feature_3": {
       "title": "Adjust page orientation",
-      "content": "Rotate pages to predefined angle or switch between portrait and landscape orientations."
+      "content": "Rotate pages to a specific angle or switch between portrait and landscape mode."
     },
     "feature_4": {
       "title": "Extract selected pages",
-      "content": "Choose specific pages or page ranges and save them as a separate document."
+      "content": "Select specific pages or page ranges and save them as a separate document."
     }
   },
   "formats": {
-    "title": "Swap pages in multiple formats",
-    "description": "{{ProdShortName}} supports over 50 file types, making it easy to modify documents with precision."
+    "title": "Swap pages in various file formats",
+    "description": "{{ProdShortName}} supports over 50 file formats, allowing precise document modifications."
   },
   "operations": {
     "title": "Main features",
-    "description": "Explore the key capabilities of our document processing library."
+    "description": "Discover the key features of our document processing library."
   },
   "examples": {
     "comment_1": "Load the document into {{NameProduct}}",
-    "comment_2": "Set page numbers in options",
+    "comment_2": "Specify the page numbers to swap",
     "comment_3": "Swap the selected pages",
-    "comment_4": "Save result file to new location"
+    "comment_4": "Save the modified file"
   },
   "steps": {
     "title": "How to swap {{FileFormatUp}} pages",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy to swap {{FileFormatUp}} pages, controlling document content. Integrate efficient document processing into your {{EnvName}} applications.",
-      "step_1": "Specify the original {{FileFormatUp}} file path.",
-      "step_2": "Provide number of pages to be swapped.",
-      "step_3": "Call appropriate method.",
-      "step_4": "Save the result to desired location."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy to swap {{FileFormatUp}} pages, giving you full control over document content. Use it in your {{EnvName}} applications for seamless document processing.",
+      "step_1": "Specify the path to the {{FileFormatUp}} file.",
+      "step_2": "Select the page numbers to swap.",
+      "step_3": "Use the appropriate method to swap pages.",
+      "step_4": "Save the updated document to the desired location."
     }
   },
   "code_1": {
-    "title": "Swap the first and the last {{FileFormatUp}} pages",
-    "content": "This example demonstrates how to swap a {{FileFormatUp}} pages in a few simple steps.",
+    "title": "Swap the first and last pages of a {{FileFormatUp}} file",
+    "content": "This example shows how to swap pages in a {{FileFormatUp}} file in just a few steps.",
     "comment_1": "Load the source document",
-    "comment_2": "Get document page count",
-    "comment_3": "Instantiate options passing page numbers",
-    "comment_4": "Perform swap operation",
-    "comment_5": "Save edited file"
+    "comment_2": "Get the total number of pages",
+    "comment_3": "Define swap options with selected pages",
+    "comment_4": "Execute the swap operation",
+    "comment_5": "Save the modified document"
   }
 }

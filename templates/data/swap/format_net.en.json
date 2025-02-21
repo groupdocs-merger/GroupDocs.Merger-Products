@@ -1,70 +1,70 @@
 {
   "head": {
-    "title": "Split {{FileFormatUp}} documents in {{EnvName}} apps",
-    "description": "Use {{ProdFullName}} to split {{FileFormatUp}} files into separate documents. Easily manage PDFs, Word files, Excel sheets, PowerPoint slides, Visio files, images, archives, and more."
+    "title": "Swap pages in {{FileFormatUp}} files using {{EnvName}} apps",
+    "description": "Use {{ProdFullName}} to reorder pages in {{FileFormatUp}} documents. Easily modify PDFs, Word files, spreadsheets, presentations, Visio diagrams, images, and more."
   },
   "header": {
-    "title": "Split {{FileFormatUp}} files",
-    "description": "{{ProdFullName}} enhances {{EnvNameShort}} applications with advanced document processing features. Easily split {{FileFormatUp}} files and work with various popular business formats.",
+    "title": "Swap {{FileFormatUp}} pages",
+    "description": "{{ProdFullName}} extends {{EnvNameShort}} applications with advanced document management capabilities. Easily rearrange pages in {{FileFormatUp}} files to structure content exactly as needed.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Free Download"
+    "action_title": "Download for free"
   },
   "about": {
-    "title": "About {{ProdShortName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful document processing library that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. It enables merging, splitting, extracting, moving, swapping, and deleting pages to simplify document management."
+    "title": "{{ProdShortName}} capabilities",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive document processing library that supports 50+ file formats, including PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio diagrams, images, and archives. Integrate it into your applications to merge, split, extract, reorder, swap, and delete pages across various document types."
   },
   "more_features": {
-    "title": "Advanced document management",
-    "description": "{{ProdFullName}} offers a complete set of tools for efficiently processing over 50 commonly used business file formats.",
-    "image_description": "Key capabilities of {{ProdShortName}}",
+    "title": "Advanced document handling",
+    "description": "{{ProdFullName}} provides a complete set of tools for seamless document modification, supporting over 50 formats.",
+    "image_description": "Key functionalities of {{ProdShortName}}",
     "feature_1": {
-      "title": "Merge multiple file formats",
-      "content": "Combine PDFs, Word documents, presentations, spreadsheets, Visio diagrams, images, and archives. Customize the merging process for precise results."
+      "title": "Merge different document types",
+      "content": "Combine PDFs, Word files, spreadsheets, presentations, Visio drawings, images, and archive files. Customize the output to match specific requirements."
     },
     "feature_2": {
-      "title": "Organize document pages",
-      "content": "Rearrange pages by moving, swapping, or deleting them to improve document structure."
+      "title": "Organize document structure",
+      "content": "Rearrange content by moving, swapping, or deleting pages, ensuring documents are well-structured and easy to navigate."
     },
     "feature_3": {
-      "title": "Adjust page layout",
-      "content": "Rotate pages to any angle or switch between portrait and landscape orientations."
+      "title": "Adjust page orientation",
+      "content": "Rotate pages to any angle or switch between portrait and landscape modes for optimal presentation."
     },
     "feature_4": {
-      "title": "Extract pages as separate files",
-      "content": "Select specific pages or a page range and save them as a new file in a chosen location."
+      "title": "Extract selected pages",
+      "content": "Choose and extract specific pages or page ranges to create a new, refined document."
     }
   },
   "formats": {
-    "title": "Split multiple file formats",
-    "description": "{{ProdShortName}} supports over 50 file types, making document modification quick and efficient."
+    "title": "Rearrange pages in multiple file formats",
+    "description": "{{ProdShortName}} supports over 50 file types, giving you full control over document content."
   },
   "operations": {
-    "title": "Key features",
-    "description": "Explore the powerful document processing capabilities of our library."
+    "title": "Main features",
+    "description": "Explore the core capabilities of our document processing library."
   },
   "examples": {
-    "comment_1": "Load the source file into {{NameProduct}}",
-    "comment_2": "Specify the output file path",
-    "comment_3": "Configure split options",
-    "comment_4": "Execute the split operation"
+    "comment_1": "Load the document into {{NameProduct}}",
+    "comment_2": "Specify the pages to be swapped",
+    "comment_3": "Execute the swap operation",
+    "comment_4": "Save the modified file to the desired location"
   },
   "steps": {
-    "title": "How to split {{FileFormatUp}} files",
+    "title": "How to rearrange {{FileFormatUp}} pages",
     "content": {
-      "title": "With [{{ProdShortName}}]({{PlatformLink}}), you can split {{FileFormatUp}} documents and save selected pages as a new file. Enhance document processing in your {{EnvName}} applications.",
-      "step_1": "Specify the source path of the {{FileFormatUp}} file.",
-      "step_2": "Define the output file path for the split document.",
-      "step_3": "Configure the split operation settings.",
-      "step_4": "Execute the split operation and save the file."
+      "title": "With [{{ProdShortName}}]({{PlatformLink}}), you can easily reorganize pages in {{FileFormatUp}} documents to enhance readability and structure. Add efficient document processing to your {{EnvName}} applications.",
+      "step_1": "Provide the path to the {{FileFormatUp}} file.",
+      "step_2": "Select the pages to be swapped or reordered.",
+      "step_3": "Apply the appropriate method to modify the document.",
+      "step_4": "Save the updated file to the specified location."
     }
   },
   "code_1": {
-    "title": "Split {{FileFormatUp}} document and save even-numbered pages",
-    "content": "This example shows how to split a {{FileFormatUp}} document and save all even-numbered pages as a separate file.",
-    "comment_1": "Load the source file into the constructor",
-    "comment_2": "Specify the output file path",
-    "comment_3": "Retrieve the total number of pages",
-    "comment_4": "Define split options for even-numbered pages",
-    "comment_5": "Execute the split operation and save the file"
+    "title": "Swap the first and last pages in a {{FileFormatUp}} file",
+    "content": "This example demonstrates how to swap pages in a {{FileFormatUp}} file in a few simple steps.",
+    "comment_1": "Load the source document",
+    "comment_2": "Determine the total number of pages",
+    "comment_3": "Define swap settings with page numbers",
+    "comment_4": "Execute the swap operation",
+    "comment_5": "Save the updated document"
   }
 }

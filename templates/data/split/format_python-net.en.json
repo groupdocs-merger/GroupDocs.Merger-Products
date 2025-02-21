@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "Break apart {{FileFormatUp}} documents in {{EnvName}} apps",
+    "title": "Split {{FileFormatUp}} documents in {{EnvName}} apps",
     "description": "Use {{ProdFullName}} to separate {{FileFormatUp}} files into multiple documents. Easily manage PDFs, Word files, spreadsheets, presentations, Visio diagrams, images, archives, and more."
   },
   "header": {
-    "title": "Break {{FileFormatUp}} files into parts",
+    "title": "Split {{FileFormatUp}} files into parts",
     "description": "{{ProdFullName}} enhances {{EnvNameShort}} applications with advanced document processing. Split {{FileFormatUp}} files effortlessly and work with a variety of commonly used formats.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Get Free Trial"
