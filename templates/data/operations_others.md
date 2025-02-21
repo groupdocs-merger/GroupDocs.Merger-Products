@@ -35,6 +35,18 @@
           operation: "rotate"
           link: "/merger/<% get "ProdCode" %>/rotate/<% get "FileFormat" %>/"
           description: "<% "{common-content.operations.rotate.description}" %>"
+
+        # operation loop 7
+        - name: "<% "{common-content.operations.split.name}" %>"
+          operation: "split"
+          link: "/merger/<% get "ProdCode" %>/split/<% get "FileFormat" %>/"
+          description: "<% "{common-content.operations.split.description}" %>"
+
+        # operation loop 8
+        - name: "<% "{common-content.operations.swap.name}" %>"
+          operation: "swap"
+          link: "/merger/<% get "ProdCode" %>/swap/<% get "FileFormat" %>/"
+          description: "<% "{common-content.operations.swap.description}" %>"
           
         
           

@@ -71,6 +71,13 @@
         "xlsx": "Split XLSX file",
         "pptx": "Split PPTX file",
         "epub": "Split EPUB file"
+      },
+      "swap": {
+        "pdf": "Swap PDF file",
+        "docx": "Swap DOCX file",
+        "xlsx": "Swap XLSX file",
+        "pptx": "Swap PPTX file",
+        "epub": "Swap EPUB file"
       }
     },
     "format-code": {
@@ -121,6 +128,10 @@
       "split": {
         "name": "Split doc",
         "description": "Split documents"
+      },
+      "swap": {
+        "name": "Swap pages",
+        "description": "Swap document pages"
       }
     }
   }
