@@ -138,7 +138,7 @@ more_features:
               merger.move_page(moveOptions)
 
               # <% "{code_1.comment_5}" %>
-              merger.save("result.<% get "fileformat" %>");
+              merger.save("result.<% get "fileformat" %>")
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

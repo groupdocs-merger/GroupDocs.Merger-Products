@@ -77,8 +77,8 @@ steps:
         const merger = new mergerLib.Merger("document.<% get "fileformat" %>")
 
         // <% "{examples.comment_2}" %>
-        const pageNum = 3;
-        const moveTo = 1;
+        const pageNum = 3
+        const moveTo = 1
         const moveOptions = new mergerLib.MoveOptions(pageNum, moveTo)
 
         // <% "{examples.comment_3}" %>
@@ -124,7 +124,7 @@ more_features:
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
           // <% "{code_1.comment_1}" %>
-          const merger = new mergerLib.Merger("document.<% get "fileformat" %>");
+          const merger = new mergerLib.Merger("document.<% get "fileformat" %>")
 
           // <% "{code_1.comment_2}" %>
           const info = merger.getDocumentInfo()

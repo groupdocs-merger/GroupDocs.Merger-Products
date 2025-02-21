@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Split {{FileFormatUp}} documents in {{EnvName}} apps",
+    "description": "Use {{ProdFullName}} to split {{FileFormatUp}} to separate files. Manipulate with your PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio files, images, archives, and more with our solutions."
+  },
+  "header": {
+    "title": "Split {{FileFormatUp}} files",
+    "description": "{{ProdFullName}} is designed to bring document processing features to {{EnvNameShort}} applications. Process documents in popular business formats with features like split {{FileFormatUp}} files.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Free Download"
+  },
+  "about": {
+    "title": "About {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful document processing library supporting over 50 file formats, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. It enables merging, splitting, extracting, moving, swapping, and removing pages, enhancing document management in your applications."
+  },
+  "more_features": {
+    "title": "Powerful document content management",
+    "description": "{{ProdFullName}} provides a comprehensive set of features for processing over 50 popular business file formats efficiently.",
+    "image_description": "Key features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Merge various file formats",
+      "content": "Combine PDFs, Word documents, presentations, spreadsheets, Visio diagrams, images, and archives. Use customization options for optimal results."
+    },
+    "feature_2": {
+      "title": "Manage document pages",
+      "content": "Rearrange pages by moving, swapping, or deleting them to better organize your content."
+    },
+    "feature_3": {
+      "title": "Control page layout",
+      "content": "Rotate pages to a specific angle or switch between portrait and landscape orientations."
+    },
+    "feature_4": {
+      "title": "Extract pages as separate files",
+      "content": "Select a single page or a range of pages and save them as a new file in a specified location."
+    }
+  },
+  "formats": {
+    "title": "Split various file formats",
+    "description": "{{ProdShortName}} supports over 50 file formats, allowing you to modify documents effortlessly with a wide range of operations."
+  },
+  "operations": {
+    "title": "Key features",
+    "description": "Explore the powerful features provided by our document processing library."
+  },
+  "examples": {
+    "comment_1": "Pass source file to {{NameProduct}}",
+    "comment_2": "Specify the result file path",
+    "comment_3": "Instantiate split options",
+    "comment_4": "Perform split operation"
+  },
+  "steps": {
+    "title": "How to split {{FileFormatUp}} files",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) is able to split {{FileFormatUp}} documents saving selected pages as a new file. Use our document management capabilities in your {{EnvName}} applications.",
+      "step_1": "Specify the {{FileFormatUp}} source path.",
+      "step_2": "Select file path for splitting result.",
+      "step_3": "Use options to set up operation parameters.",
+      "step_4": "Split file and save to the desired location."
+    }
+  },
+  "code_1": {
+    "title": "Split {{FileFormatUp}} doc saving all even pages",
+    "content": "Check out this example to be informed how to split {{FileFormatUp}} document and save all even-numbered pages to a separate file.",
+    "comment_1": "Load the source file into the constructor",
+    "comment_2": "Provide result file path",
+    "comment_3": "Retrieve the total number of pages",
+    "comment_4": "Create split options for all even pages",
+    "comment_5": "Split and save the result file"
+  }
+}
+

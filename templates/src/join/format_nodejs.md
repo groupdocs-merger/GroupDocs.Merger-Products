@@ -74,13 +74,13 @@ steps:
         const mergerLib = require('@groupdocs/groupdocs.merger')
 
         // <% "{examples.comment_1}" %>
-        const merger = new mergerLib.Merger("file_frst.<% get "fileformat" %>");
+        const merger = new mergerLib.Merger("file_frst.<% get "fileformat" %>")
 
         // <% "{examples.comment_2}" %>
-        merger.join("file_scnd.<% get "fileformat" %>");
+        merger.join("file_scnd.<% get "fileformat" %>")
 
         // <% "{examples.comment_3}" %>
-        merger.save("result.<% get "fileformat" %>");
+        merger.save("result.<% get "fileformat" %>")
         ```            
 
 ############################# More features ############################
@@ -119,18 +119,18 @@ more_features:
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
           // <% "{code_1.comment_1}" %>
-          const merger = new mergerLib.Merger("file_frst.<% get "fileformat" %>");
+          const merger = new mergerLib.Merger("file_frst.<% get "fileformat" %>")
 
           // <% "{code_1.comment_2}" %>
-          PageJoinOptions joinOpt1 = new mergerLib.PageJoinOptions(1, 2);
-          PageJoinOptions joinOpt2 = new mergerLib.PageJoinOptions(3, 4);
+          PageJoinOptions joinOpt1 = new mergerLib.PageJoinOptions(1, 2)
+          PageJoinOptions joinOpt2 = new mergerLib.PageJoinOptions(3, 4)
           
           // <% "{code_1.comment_3}" %>
-          merger.join("file_scnd.docx", joinOpt1);
-          merger.join("file_thrd.xlsx", joinOpt2);
+          merger.join("file_scnd.docx", joinOpt1)
+          merger.join("file_thrd.xlsx", joinOpt2)
 
           // <% "{code_1.comment_4}" %>
-          merger.save("result.<% get "fileformat" %>");
+          merger.save("result.<% get "fileformat" %>")
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

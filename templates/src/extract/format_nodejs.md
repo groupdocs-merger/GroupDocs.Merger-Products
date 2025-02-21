@@ -124,7 +124,7 @@ more_features:
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
           // <% "{code_1.comment_1}" %>
-          const merger = new mergerLib.Merger("file_1.<% get "fileformat" %>");
+          const merger = new mergerLib.Merger("file_1.<% get "fileformat" %>")
 
           // <% "{code_1.comment_2}" %>
           const evenPages = groupdocs.merger.RangeMode.EvenPages
@@ -134,7 +134,7 @@ more_features:
           merger.extractPages(extractOptions)
 
           // <% "{code_1.comment_4}" %>
-          merger.save("result.<% get "fileformat" %>");
+          merger.save("result.<% get "fileformat" %>")
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

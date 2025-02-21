@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\join\\format_python.yml" %>
+<% configRef "..\\..\\configs\\split\\format_python.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -74,13 +74,16 @@ steps:
         import groupdocs.merger as gm
 
         # <% "{examples.comment_1}" %>
-        with gm.Merger("file_frst.<% get "fileformat" %>") as merger:
+        with gm.Merger("document.<% get "fileformat" %>") as merger:
             
             # <% "{examples.comment_2}" %>
-            merger.join("file_scnd.<% get "fileformat" %>")
+            outPath = "result.<% get "fileformat" %>"
 
             # <% "{examples.comment_3}" %>
-            merger.save("result.<% get "fileformat" %>")
+            splitOptions = gm.domain.options.SplitOptions(outPath, [1])
+
+            # <% "{examples.comment_4}" %>
+            merger.split(splitOptions)
         ```            
 
 ############################# More features ############################
@@ -88,7 +91,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/merger/features_join.webp" # 500x500 px
+  image: "/img/merger/features_split.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -119,18 +122,21 @@ more_features:
           import groupdocs.merger as gm
           
           # <% "{code_1.comment_1}" %>
-          with gm.Merger("file_frst.<% get "fileformat" %>") as merger:
+          with gm.Merger("document.<% get "fileformat" %>") as merger:
             
               # <% "{code_1.comment_2}" %>
-              joinOpt1 = gm.domain.options.PageJoinOptions(1, 2)
-              joinOpt2 = gm.domain.options.PageJoinOptions(3, 4)
-          
+              outPath = "result.<% get "fileformat" %>"
+
               # <% "{code_1.comment_3}" %>
-              merger.join("file_scnd.docx", joinOpt1)
-              merger.join("file_thrd.xlsx", joinOpt2)
+              info = merger.get_document_info()
+              lastPage = info.page_count
 
               # <% "{code_1.comment_4}" %>
-              merger.save("result.<% get "fileformat" %>")
+              rangeMode = gm.domain.options.RangeMode.EvenPages
+              splitOptions = gm.domain.options.SplitOptions(outPath, 1, lastPage, rangeMode)
+
+              # <% "{code_1.comment_5}" %>
+              merger.split(splitOptions)
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

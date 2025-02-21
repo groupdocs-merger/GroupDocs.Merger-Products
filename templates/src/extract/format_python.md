@@ -132,7 +132,7 @@ more_features:
               merger.extract_pages(extractOptions)
 
               # <% "{code_1.comment_4}" %>
-              merger.save("result.<% get "fileformat" %>");
+              merger.save("result.<% get "fileformat" %>")
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

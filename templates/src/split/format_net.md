@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\join\\format_python.yml" %>
+<% configRef "..\\..\\configs\\split\\format_net.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Merger"
 product_tag: "merger"
-platform: "Python via .NET"
-platform_tag: "python-net"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -52,13 +52,13 @@ steps:
       4. <% "{steps.content.step_4}" %>
    
     code:
-      platform: "nodejs-java"
+      platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
       result_link: "/examples/merger/merger_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "npm i @groupdocs/groupdocs.merger"
+        command: "dotnet add package GroupDocs.Merger"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,17 +70,19 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```python {style=abap}
-        import groupdocs.merger as gm
+        ```csharp {style=abap}
+        // <% "{examples.comment_1}" %>
+        using (Merger merger = new Merger("document.<% get "fileformat" %>"))
+        {
+            // <% "{examples.comment_2}" %>
+            String outPath = "result.<% get "fileformat" %>";
 
-        # <% "{examples.comment_1}" %>
-        with gm.Merger("file_frst.<% get "fileformat" %>") as merger:
-            
-            # <% "{examples.comment_2}" %>
-            merger.join("file_scnd.<% get "fileformat" %>")
+            // <% "{examples.comment_3}" %>
+            SplitOptions splitOptions = new SplitOptions(outPath, new int[] { 1 });
 
-            # <% "{examples.comment_3}" %>
-            merger.save("result.<% get "fileformat" %>")
+            // <% "{examples.comment_4}" %>
+            merger.Split(splitOptions);
+        }
         ```            
 
 ############################# More features ############################
@@ -88,7 +90,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/merger/features_join.webp" # 500x500 px
+  image: "/img/merger/features_split.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -113,29 +115,31 @@ more_features:
       content: |
         <% "{code_1.content}" %>
       code:
-        title: "JavaScript"
+        title: "C#"
         content: |
-          ```python {style=abap}
-          import groupdocs.merger as gm
-          
-          # <% "{code_1.comment_1}" %>
-          with gm.Merger("file_frst.<% get "fileformat" %>") as merger:
-            
-              # <% "{code_1.comment_2}" %>
-              joinOpt1 = gm.domain.options.PageJoinOptions(1, 2)
-              joinOpt2 = gm.domain.options.PageJoinOptions(3, 4)
-          
-              # <% "{code_1.comment_3}" %>
-              merger.join("file_scnd.docx", joinOpt1)
-              merger.join("file_thrd.xlsx", joinOpt2)
+          ```csharp {style=abap}
+          // <% "{code_1.comment_1}" %>
+          using (Merger merger = new Merger("document.<% get "fileformat" %>"))
+          {
+              // <% "{code_1.comment_2}" %>
+              String outPath = "result.<% get "fileformat" %>";
 
-              # <% "{code_1.comment_4}" %>
-              merger.save("result.<% get "fileformat" %>")
+              // <% "{code_1.comment_3}" %>
+              IDocumentInfo info = merger.GetDocumentInfo();
+              int lastPage = info.PageCount;
+          
+              // <% "{code_1.comment_4}" %>
+              RangeMode rangeMode = RangeMode.EvenPages;
+              SplitOptions splitOptions = new SplitOptions(outPath, 1, lastPage, rangeMode);
+
+              // <% "{code_1.comment_5}" %>
+              merger.Split(splitOptions);
+          }
           ```
-        platform: "nodejs-java"
+        platform: "net"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"
         install:
-          command: "npm i @groupdocs/groupdocs.merger"
+          command: "dotnet add package GroupDocs.Merger"
           copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
           copy_done: "<% "{common-content.format-code.copy_done}" %>"
         top_links:

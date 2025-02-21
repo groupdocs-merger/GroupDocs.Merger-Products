@@ -74,7 +74,7 @@ steps:
         const mergerLib = require('@groupdocs/groupdocs.merger')
 
         // <% "{examples.comment_1}" %>
-        const merger = new mergerLib.Merger("file_1.<% get "fileformat" %>");
+        const merger = new mergerLib.Merger("file_1.<% get "fileformat" %>")
 
         // <% "{examples.comment_2}" %>
         merger.join("file_2.<% get "fileformat" %>");
@@ -119,18 +119,18 @@ more_features:
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
           // <% "{code_1.comment_1}" %>
-          const merger = new mergerLib.Merger("file_1.<% get "fileformat" %>");
+          const merger = new mergerLib.Merger("file_1.<% get "fileformat" %>")
 
           // <% "{code_1.comment_2}" %>
-          PageJoinOptions joinOptions12 = new mergerLib.PageJoinOptions(1, 2);
-          PageJoinOptions joinOptions34 = new mergerLib.PageJoinOptions(3, 4);
+          PageJoinOptions joinOptions12 = new mergerLib.PageJoinOptions(1, 2)
+          PageJoinOptions joinOptions34 = new mergerLib.PageJoinOptions(3, 4)
           
           // <% "{code_1.comment_3}" %>
-          merger.join("file_2.docx", joinOptions12);
-          merger.join("file_3.xlsx", joinOptions34);
+          merger.join("file_2.docx", joinOptions12)
+          merger.join("file_3.xlsx", joinOptions34)
 
           // <% "{code_1.comment_4}" %>
-          merger.save("result.<% get "fileformat" %>");
+          merger.save("result.<% get "fileformat" %>")
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

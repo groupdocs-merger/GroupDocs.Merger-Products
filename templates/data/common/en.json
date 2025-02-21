@@ -64,6 +64,13 @@
         "xlsx": "Rotate XLSX pages",
         "pptx": "Rotate PPTX pages",
         "epub": "Rotate EPUB pages"
+      },
+      "split": {
+        "pdf": "Split PDF file",
+        "docx": "Split DOCX file",
+        "xlsx": "Split XLSX file",
+        "pptx": "Split PPTX file",
+        "epub": "Split EPUB file"
       }
     },
     "format-code": {
@@ -110,6 +117,10 @@
       "rotate": {
         "name": "Rotate pages",
         "description": "Rotate document pages"
+      },
+      "split": {
+        "name": "Split doc",
+        "description": "Split documents"
       }
     }
   }
