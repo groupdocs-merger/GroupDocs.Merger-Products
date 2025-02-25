@@ -47,6 +47,12 @@
           operation: "swap"
           link: "/merger/<% get "ProdCode" %>/swap/<% get "FileFormat" %>/"
           description: "<% "{common-content.operations.swap.description}" %>"
+
+        # operation loop 9
+        - name: "<% "{common-content.operations.orientation.name}" %>"
+          operation: "orientation"
+          link: "/merger/<% get "ProdCode" %>/orientation/<% get "FileFormat" %>/"
+          description: "<% "{common-content.operations.orientation.description}" %>"
           
         
           

@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Change {{FileFormatUp}} pages orientation in {{EnvName}} apps",
+    "description": "Use {{ProdFullName}} to control orientation (portrait or landscape) of {{FileFormatUp}} pages. COntrol content and appearance of PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, Visio, images, archives, and more with our solutions."
+  },
+  "header": {
+    "title": "Page orientation control in {{FileFormatUp}}",
+    "description": "{{ProdFullName}} provides useful abilities for {{EnvNameShort}} applications. Developers can extend their solutions and control content of many popular business formats using features like changing {{FileFormatUp}} pages orientation.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download for Free"
+  },
+  "about": {
+    "title": "{{ProdShortName}} Overview",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a solution designed to control content and appearance of documents in more than 50 file formats, including PDF, Word, Excel, PowerPoint, Visio, images, archives, etc. It enables merging, splitting, extracting, moving, swapping, removing pages, and changing orientation. Include powerful document management features in your applications."
+  },
+  "more_features": {
+    "title": "Flexible document content management",
+    "description": "{{ProdFullName}} provides a comprehensive set of features for controlling content of many popular file formats. More than 50 document formats may be processed efficiently.",
+    "image_description": "{{ProdShortName}} features",
+    "feature_1": {
+      "title": "Merge various file formats",
+      "content": "Combine PDFs, Word documents, presentations, spreadsheets, Visio diagrams, images, and archives. Use customization options for optimal results."
+    },
+    "feature_2": {
+      "title": "Manage document pages",
+      "content": "Rearrange pages by moving, swapping, or deleting them to better organize your content."
+    },
+    "feature_3": {
+      "title": "Control page layout",
+      "content": "Rotate pages to a specific angle or switch between portrait and landscape orientations."
+    },
+    "feature_4": {
+      "title": "Extract pages as separate files",
+      "content": "Select a single page or a range of pages and save them as a new file in a specified location."
+    }
+  },
+  "formats": {
+    "title": "Change page orientation for many formats",
+    "description": "{{ProdShortName}} supports over 50 file formats, allowing you to modify documents effortlessly with a wide range of operations."
+  },
+  "operations": {
+    "title": "Key features",
+    "description": "Explore our features that may be useful in your solutions."
+  },
+  "examples": {
+    "comment_1": "Load source file path to {{NameProduct}}",
+    "comment_2": "Specify which page needs orientation changing",
+    "comment_3": "Change page orientation to demanded",
+    "comment_4": "Save the result document"
+  },
+  "steps": {
+    "title": "How to change {{FileFormatUp}} pages orientation",
+    "content": {
+      "title": "Use [{{ProdShortName}}]({{PlatformLink}}) to {{FileFormatUp}} pages orientation. This and other features provide useful document management capabilities for {{EnvName}} projects.",
+      "step_1": "Specify {{FileFormatUp}} source path.",
+      "step_2": "Choose the page number which need be processed.",
+      "step_3": "Change selected page orientation.",
+      "step_4": "Save the result."
+    }
+  },
+  "code_1": {
+    "title": "Change orientation of the last page in {{FileFormatUp}} doc",
+    "content": "Investigate how to get number of pages in {{FileFormatUp}} document and change orientation of the last page.",
+    "comment_1": "Load the source file into the constructor",
+    "comment_2": "Retrieve the total number of pages",
+    "comment_3": "Provide the page number and desired (portrait or landscape) orientation",
+    "comment_4": "Change page orientation",
+    "comment_5": "Save the result file to output path"
+  }
+}
+

@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Rotate {{FileFormatUp}} pages in {{EnvName}} apps",
+    "description": "Use {{ProdFullName}} to rotate pages in {{FileFormatUp}} documents. Easily manage PDFs, Word files, Excel sheets, PowerPoint slides, images, archives, and more."
+  },
+  "header": {
+    "title": "Page rotation in {{FileFormatUp}}",
+    "description": "{{ProdFullName}} enhances {{EnvNameShort}} applications by adding advanced document processing features. Rotate pages in {{FileFormatUp}} files and work with popular business formats effortlessly.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Free Download"
+  },
+  "about": {
+    "title": "About {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive document processing library that supports over 50 file formats, including PDF, Word, Excel, PowerPoint, Visio, images, and archives. It provides tools for merging, splitting, extracting, rearranging, and deleting pages, enhancing document handling in your applications."
+  },
+  "more_features": {
+    "title": "Powerful document content management",
+    "description": "{{ProdFullName}} includes a wide range of features, enabling efficient processing of over 50 commonly used business file formats.",
+    "image_description": "Key features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Merge different file formats",
+      "content": "Combine PDFs, Word documents, presentations, spreadsheets, Visio diagrams, images, and archives. Use various options for precise output."
+    },
+    "feature_2": {
+      "title": "Manage document pages",
+      "content": "Rearrange pages by moving, swapping, or deleting them to structure your documents better."
+    },
+    "feature_3": {
+      "title": "Adjust page layout",
+      "content": "Rotate pages to any angle or switch between portrait and landscape orientations."
+    },
+    "feature_4": {
+      "title": "Extract pages as separate files",
+      "content": "Select a single page or a page range and save it as a new file in a chosen location."
+    }
+  },
+  "formats": {
+    "title": "Rotate pages in multiple formats",
+    "description": "{{ProdShortName}} supports over 50 file formats, allowing you to modify documents easily using a variety of operations."
+  },
+  "operations": {
+    "title": "Key features",
+    "description": "Explore the powerful features provided by our document processing library."
+  },
+  "examples": {
+    "comment_1": "Create an instance of {{NameProduct}} and load the source file",
+    "comment_2": "Specify the page number to rotate",
+    "comment_3": "Execute the page rotation operation",
+    "comment_4": "Save the output file to the desired location"
+  },
+  "steps": {
+    "title": "How to rotate {{FileFormatUp}} pages",
+    "content": {
+      "title": "With [{{ProdShortName}}]({{PlatformLink}}), you can easily rotate pages in {{FileFormatUp}} documents, adding powerful document management capabilities to {{EnvName}} applications.",
+      "step_1": "Define the source path of the {{FileFormatUp}} file.",
+      "step_2": "Select the page number to rotate.",
+      "step_3": "Execute the page rotation operation.",
+      "step_4": "Save the modified file to your preferred location."
+    }
+  },
+  "code_1": {
+    "title": "Rotate all even-numbered {{FileFormatUp}} pages",
+    "content": "This example demonstrates how to rotate all even-numbered pages in a {{FileFormatUp}} document.",
+    "comment_1": "Load the source file into the constructor",
+    "comment_2": "Get the total number of pages in the document",
+    "comment_3": "Configure rotation settings for even pages (180 degrees)",
+    "comment_4": "Apply the page rotation operation",
+    "comment_5": "Save the output file"
+  }
+}
+

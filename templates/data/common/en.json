@@ -78,6 +78,13 @@
         "xlsx": "Swap XLSX file",
         "pptx": "Swap PPTX file",
         "epub": "Swap EPUB file"
+      },
+      "orientation": {
+        "pdf": "Change PDF orientation",
+        "docx": "Change DOCX orientation",
+        "xlsx": "Change XLSX orientation",
+        "pptx": "Change PPTX orientation",
+        "epub": "Change EPUB orientation"
       }
     },
     "format-code": {
@@ -132,6 +139,10 @@
       "swap": {
         "name": "Swap pages",
         "description": "Swap document pages"
+      },
+      "orientation": {
+        "name": "Change orientation",
+        "description": "Change pages orientation"
       }
     }
   }
