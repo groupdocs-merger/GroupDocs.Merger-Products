@@ -88,10 +88,10 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        Merger merger = new Merger("document.<% get "fileformat" %>");
+        Merger merger = new Merger("document.<% get "FileFormatExtension" %>");
 
         // <% "{examples.comment_2}" %>
-        String outPath = "result.<% get "fileformat" %>";
+        String outPath = "result.<% get "FileFormatExtension" %>";
 
         // <% "{examples.comment_3}" %>
         SplitOptions splitOptions = new SplitOptions(outPath, new int[] { 1 });
@@ -134,10 +134,10 @@ more_features:
         content: |
           ```java {style=abap}
           // <% "{code_1.comment_1}" %>
-          Merger merger = new Merger("document.<% get "fileformat" %>");
+          Merger merger = new Merger("document.<% get "FileFormatExtension" %>");
 
           // <% "{code_1.comment_2}" %>
-          String outPath = "result.<% get "fileformat" %>";
+          String outPath = "result.<% get "FileFormatExtension" %>";
 
           // <% "{code_1.comment_3}" %>
           IDocumentInfo info = merger.getDocumentInfo();

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-25T18:12:55
+date:  2025-02-27T14:40:31
 draft: false
 lang: en
 format: Pptx

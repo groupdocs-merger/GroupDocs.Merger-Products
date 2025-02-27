@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-20T14:12:09
+date:  2025-02-27T14:40:34
 draft: false
 lang: en
 format: Epub
@@ -136,7 +136,7 @@ more_features:
               merger.rotate_pages(rotateOptions)
 
               # Save the modified file
-              merger.save("result.epub");
+              merger.save("result.epub")
           ```
         platform: "nodejs-java"
         copy_title: "Copy"
@@ -221,6 +221,24 @@ more_operations:
           operation: "rotate"
           link: "/merger/python-net/rotate/epub/"
           description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/python-net/split/epub/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/python-net/swap/epub/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/python-net/orientation/epub/"
+          description: "Change pages orientation"
           
         
           

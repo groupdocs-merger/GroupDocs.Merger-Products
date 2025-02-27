@@ -74,7 +74,7 @@ steps:
         const mergerLib = require('@groupdocs/groupdocs.merger')
 
         // <% "{examples.comment_1}" %>
-        const merger = new mergerLib.Merger("document.<% get "fileformat" %>")
+        const merger = new mergerLib.Merger("document.<% get "FileFormatExtension" %>")
 
         // <% "{examples.comment_2}" %>
         const rotateMode = mergerLib.RotateMode.Rotate180
@@ -84,7 +84,7 @@ steps:
         merger.rotatePages(rotateOptions)
 
         // <% "{examples.comment_4}" %>
-        merger.save("result.<% get "fileformat" %>")
+        merger.save("result.<% get "FileFormatExtension" %>")
         ```            
 
 ############################# More features ############################
@@ -123,7 +123,7 @@ more_features:
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
           // <% "{code_1.comment_1}" %>
-          const merger = new mergerLib.Merger("document.<% get "fileformat" %>");
+          const merger = new mergerLib.Merger("document.<% get "FileFormatExtension" %>");
 
           // <% "{code_1.comment_2}" %>
           const info = merger.getDocumentInfo()
@@ -138,7 +138,7 @@ more_features:
           merger.rotatePages(rotateOptions)
 
           // <% "{code_1.comment_5}" %>
-          merger.save("result.<% get "fileformat" %>")
+          merger.save("result.<% get "FileFormatExtension" %>")
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

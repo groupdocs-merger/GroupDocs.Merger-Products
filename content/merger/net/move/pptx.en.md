@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-18T15:36:04
+date:  2025-02-27T14:40:31
 draft: false
 lang: en
 format: Pptx
@@ -203,16 +203,40 @@ more_operations:
           description: "Reposition any page within a document"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
-          operation: "filters"
-          link: "/merger/net/filters/pptx/"
-          description: "{common-content.operations.filters.description}"
+        - name: "Remove pages"
+          operation: "remove"
+          link: "/merger/net/remove/pptx/"
+          description: "Delete document pages"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
-          operation: "phrase"
-          link: "/merger/net/phrase/pptx/"
-          description: "{common-content.operations.phrase.description}"
+        - name: "Join documents"
+          operation: "join"
+          link: "/merger/net/join/pptx/"
+          description: "Combine multiple documents into one"
+
+        # operation loop 6
+        - name: "Rotate pages"
+          operation: "rotate"
+          link: "/merger/net/rotate/pptx/"
+          description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/net/split/pptx/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/net/swap/pptx/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/net/orientation/pptx/"
+          description: "Change pages orientation"
           
         
           
@@ -224,7 +248,7 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, making document manipulation flexible and efficient."
     items: 
         # format loop 1
-        - name: "Move DOCX pages"
+        - name: "Reorder DOCX pages"
           format: "DOCX"
           link: "/merger/net/move/docx/"
           description: "Microsoft Word Open XML Document"
@@ -236,7 +260,7 @@ more_formats:
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Move PPTX pages"
+        - name: "Reorder PPTX pages"
           format: "PPTX"
           link: "/merger/net/move/pptx/"
           description: "PowerPoint Open XML Presentation"

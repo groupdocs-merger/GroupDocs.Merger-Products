@@ -72,11 +72,8 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        using (Merger merger = new Merger("document.<% get "fileformat" %>"))
+        using (Merger merger = new Merger("document.<% get "FileFormatExtension" %>"))
         {
-            // <% "{examples.comment_2}" %>
-            merger.Join("file_2.<% get "fileformat" %>");
-
             // <% "{examples.comment_2}" %>
             ExtractOptions extractOptions = new ExtractOptions(new int[] { 2 });
 
@@ -84,7 +81,7 @@ steps:
             merger.ExtractPages(extractOptions);
 
             // <% "{examples.comment_3}" %>
-            merger.Save("result.<% get "fileformat" %>");
+            merger.Save("result.<% get "FileFormatExtension" %>");
         }
         ```            
 
@@ -122,7 +119,7 @@ more_features:
         content: |
           ```csharp {style=abap}
           // <% "{code_1.comment_1}" %>
-          using (Merger merger = new Merger("file_1.<% get "fileformat" %>"))
+          using (Merger merger = new Merger("file_1.<% get "FileFormatExtension" %>"))
           {
               // <% "{code_1.comment_2}" %>
               ExtractOptions extractOptions = new ExtractOptions(1, 3, RangeMode.EvenPages);
@@ -131,7 +128,7 @@ more_features:
               merger.ExtractPages(extractOptions);
 
               // <% "{code_1.comment_4}" %>
-              merger.Save("result.<% get "fileformat" %>");
+              merger.Save("result.<% get "FileFormatExtension" %>");
           }
           ```
         platform: "net"

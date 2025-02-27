@@ -6,11 +6,11 @@ dimensions:
 - alias:  operation
   values: [join]
 - alias:  fileformat
-  values: [docx, pdf, pptx, xlsx, epub]
+  values: [word, excel, powerpoint, image, visio, pdf, docx, xlsx, pptx, bmp, jpeg, jpg, png, svg, tiff, csv, epub, html, mhtml, txt, xps, zip]
 
 generationRules:
   include:
-  - fileformat[docx, pdf, pptx, xlsx, epub]
+  - fileformat[word, excel, powerpoint, image, visio, pdf, docx, xlsx, pptx, bmp, jpeg, jpg, png, svg, tiff, csv, epub, html, mhtml, txt, xps, zip]
   
 outputPath: "merger\\{product}\\{operation}\\{fileformat}.{lang}.md"
 

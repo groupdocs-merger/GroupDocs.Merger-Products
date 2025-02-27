@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-21T09:19:40
+date:  2025-02-27T14:40:35
 draft: false
 lang: en
 format: Pdf
@@ -12,11 +12,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Divide PDF documents in Node.js via Java apps"
+head_title: "Split PDF documents in Node.js via Java apps"
 head_description: "With GroupDocs.Merger for Node.js via Java, easily break down PDF files into separate documents. Work with PDFs, Word files, Excel sheets, PowerPoint presentations, Visio diagrams, images, archives, and more."
 
 ############################# Header ############################
-title: "Divide PDF files" 
+title: "Split PDF files" 
 description: "GroupDocs.Merger for Node.js via Java adds powerful document manipulation features to Node.js applications. Seamlessly split PDF files and process a variety of widely used formats."
 subtitle: "GroupDocs.Merger for Node.js via Java" 
 
@@ -221,6 +221,24 @@ more_operations:
           operation: "rotate"
           link: "/merger/nodejs-java/rotate/pdf/"
           description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/nodejs-java/split/pdf/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/nodejs-java/swap/pdf/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/nodejs-java/orientation/pdf/"
+          description: "Change pages orientation"
           
         
           

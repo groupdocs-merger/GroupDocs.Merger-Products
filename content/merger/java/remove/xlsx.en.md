@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-19T16:18:19
+date:  2025-02-27T14:40:32
 draft: false
 lang: en
 format: Xlsx
@@ -235,10 +235,34 @@ more_operations:
           description: "Delete document pages"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
-          operation: "phrase"
-          link: "/merger/java/phrase/xlsx/"
-          description: "{common-content.operations.phrase.description}"
+        - name: "Join documents"
+          operation: "join"
+          link: "/merger/java/join/xlsx/"
+          description: "Combine multiple documents into one"
+
+        # operation loop 6
+        - name: "Rotate pages"
+          operation: "rotate"
+          link: "/merger/java/rotate/xlsx/"
+          description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/java/split/xlsx/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/java/swap/xlsx/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/java/orientation/xlsx/"
+          description: "Change pages orientation"
           
         
           

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-12T16:15:43
+date:  2025-02-27T14:40:27
 draft: false
 lang: en
 format: Pptx
@@ -128,7 +128,7 @@ more_features:
               merger.join("file_3.xlsx", joinOptions34)
 
               # Save the final document in the desired location
-              merger.save("result.pptx");
+              merger.save("result.pptx")
           ```
         platform: "nodejs-java"
         copy_title: "Copy"
@@ -191,22 +191,46 @@ more_operations:
           description: "Save selected pages as a separate document"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
-          operation: "document"
-          link: "/merger/python-net/document/pptx/"
-          description: "{common-content.operations.document.description}"
+        - name: "Move pages"
+          operation: "move"
+          link: "/merger/python-net/move/pptx/"
+          description: "Reposition any page within a document"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
-          operation: "filters"
-          link: "/merger/python-net/filters/pptx/"
-          description: "{common-content.operations.filters.description}"
+        - name: "Remove pages"
+          operation: "remove"
+          link: "/merger/python-net/remove/pptx/"
+          description: "Delete document pages"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
-          operation: "phrase"
-          link: "/merger/python-net/phrase/pptx/"
-          description: "{common-content.operations.phrase.description}"
+        - name: "Join documents"
+          operation: "join"
+          link: "/merger/python-net/join/pptx/"
+          description: "Combine multiple documents into one"
+
+        # operation loop 6
+        - name: "Rotate pages"
+          operation: "rotate"
+          link: "/merger/python-net/rotate/pptx/"
+          description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/python-net/split/pptx/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/python-net/swap/pptx/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/python-net/orientation/pptx/"
+          description: "Change pages orientation"
           
         
           
@@ -218,31 +242,31 @@ more_formats:
     description: "With support for over 50 document types, GroupDocs.Merger streamlines file processing, making document handling simple and efficient."
     items: 
         # format loop 1
-        - name: "Combine DOCX"
+        - name: "Join DOCX doc"
           format: "DOCX"
           link: "/merger/python-net/combine/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Combine PDF"
+        - name: "Combine PDF doc"
           format: "PDF"
           link: "/merger/python-net/combine/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Combine PPTX"
+        - name: "Join PPTX doc"
           format: "PPTX"
           link: "/merger/python-net/combine/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Combine EPUB"
+        - name: "Combine EPUB doc"
           format: "EPUB"
           link: "/merger/python-net/combine/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Combine XLSX"
+        - name: "Combine XLSX doc"
           format: "XLSX"
           link: "/merger/python-net/combine/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

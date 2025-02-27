@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-12T16:15:44
+date:  2025-02-27T14:40:29
 draft: false
 lang: en
 format: Epub
@@ -130,7 +130,7 @@ more_features:
               merger.extract_pages(extractOptions)
 
               # Save the extracted pages as a new file
-              merger.save("result.epub");
+              merger.save("result.epub")
           ```
         platform: "nodejs-java"
         copy_title: "Copy"
@@ -193,22 +193,46 @@ more_operations:
           description: "Save selected pages as a separate document"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
-          operation: "document"
-          link: "/merger/python-net/document/epub/"
-          description: "{common-content.operations.document.description}"
+        - name: "Move pages"
+          operation: "move"
+          link: "/merger/python-net/move/epub/"
+          description: "Reposition any page within a document"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
-          operation: "filters"
-          link: "/merger/python-net/filters/epub/"
-          description: "{common-content.operations.filters.description}"
+        - name: "Remove pages"
+          operation: "remove"
+          link: "/merger/python-net/remove/epub/"
+          description: "Delete document pages"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
-          operation: "phrase"
-          link: "/merger/python-net/phrase/epub/"
-          description: "{common-content.operations.phrase.description}"
+        - name: "Join documents"
+          operation: "join"
+          link: "/merger/python-net/join/epub/"
+          description: "Combine multiple documents into one"
+
+        # operation loop 6
+        - name: "Rotate pages"
+          operation: "rotate"
+          link: "/merger/python-net/rotate/epub/"
+          description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/python-net/split/epub/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/python-net/swap/epub/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/python-net/orientation/epub/"
+          description: "Change pages orientation"
           
         
           
@@ -220,31 +244,31 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, making document management easy and efficient."
     items: 
         # format loop 1
-        - name: "Extract DOCX"
+        - name: "Save DOCX pages"
           format: "DOCX"
           link: "/merger/python-net/extract/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Extract PDF"
+        - name: "Extract PDF pages"
           format: "PDF"
           link: "/merger/python-net/extract/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Extract PPTX"
+        - name: "Save PPTX pages"
           format: "PPTX"
           link: "/merger/python-net/extract/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Extract EPUB"
+        - name: "Extract EPUB pages"
           format: "EPUB"
           link: "/merger/python-net/extract/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Extract XLSX"
+        - name: "Extract XLSX pages"
           format: "XLSX"
           link: "/merger/python-net/extract/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

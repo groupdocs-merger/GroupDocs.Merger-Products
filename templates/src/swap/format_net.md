@@ -72,7 +72,7 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        using (Merger merger = new Merger("document.<% get "fileformat" %>"))
+        using (Merger merger = new Merger("document.<% get "FileFormatExtension" %>"))
         {
             // <% "{examples.comment_2}" %>
             SwapOptions swapOptions = new SwapOptions(1, 2);
@@ -81,7 +81,7 @@ steps:
             merger.SwapPages(swapOptions);
 
             // <% "{examples.comment_4}" %>
-            merger.Save("result.<% get "fileformat" %>");
+            merger.Save("result.<% get "FileFormatExtension" %>");
         }
         ```            
 
@@ -119,7 +119,7 @@ more_features:
         content: |
           ```csharp {style=abap}
           // <% "{code_1.comment_1}" %>
-          using (Merger merger = new Merger("document.<% get "fileformat" %>"))
+          using (Merger merger = new Merger("document.<% get "FileFormatExtension" %>"))
           {
               // <% "{code_1.comment_2}" %>
               IDocumentInfo info = merger.GetDocumentInfo();
@@ -132,7 +132,7 @@ more_features:
               merger.SwapPages(swapOptions);
 
               // <% "{code_1.comment_5}" %>
-              merger.Save("result.<% get "fileformat" %>");
+              merger.Save("result.<% get "FileFormatExtension" %>");
           }
           ```
         platform: "net"

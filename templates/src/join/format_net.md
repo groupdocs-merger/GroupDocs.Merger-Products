@@ -72,13 +72,13 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        using (Merger merger = new Merger("file_frst.<% get "fileformat" %>"))
+        using (Merger merger = new Merger("file_frst.<% get "FileFormatExtension" %>"))
         {
             // <% "{examples.comment_2}" %>
-            merger.Join("file_scnd.<% get "fileformat" %>");
+            merger.Join("file_scnd.<% get "FileFormatExtension" %>");
 
             // <% "{examples.comment_3}" %>
-            merger.Save("result.<% get "fileformat" %>");
+            merger.Save("result.<% get "FileFormatExtension" %>");
         }
         ```            
 
@@ -116,7 +116,7 @@ more_features:
         content: |
           ```csharp {style=abap}
           // <% "{code_1.comment_1}" %>
-          using (Merger merger = new Merger("file_frst.<% get "fileformat" %>"))
+          using (Merger merger = new Merger("file_frst.<% get "FileFormatExtension" %>"))
           {
               // <% "{code_1.comment_2}" %>
               PageJoinOptions joinOpt1 = new PageJoinOptions(1, 2);
@@ -127,7 +127,7 @@ more_features:
               merger.Join("file_thrd.xlsx", joinOpt2);
 
               // <% "{code_1.comment_4}" %>
-              merger.Save("result.<% get "fileformat" %>");
+              merger.Save("result.<% get "FileFormatExtension" %>");
           }
           ```
         platform: "net"

@@ -6,11 +6,11 @@ dimensions:
 - alias:  operation
   values: [rotate]
 - alias:  fileformat
-  values: [docx, pdf, pptx, xlsx, epub]
+  values: [pdf, epub, xps]
 
 generationRules:
   include:
-  - fileformat[docx, pdf, pptx, xlsx, epub]
+  - fileformat[pdf, epub, xps]
   
 outputPath: "merger\\{product}\\{operation}\\{fileformat}.{lang}.md"
 

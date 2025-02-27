@@ -4,6 +4,7 @@
 <% set "FileFormat" (get "fileformat") %>
 <% set "FileFormatUp" (upper (get "fileformat")) %>
 <% set "FileformatCap" (capitalize (get "fileformat")) %>
+<% set "FileFormatExtension" (dict "products.formats.{fileformat}.val") %>
 <% set "EnvName" (dict "products.{product}.environmentName") %>
 <% set "EnvNameShort" (dict "products.{product}.environmentNameShort") %>
 <% set "ProdCode" (dict "products.{product}.productCode") %>

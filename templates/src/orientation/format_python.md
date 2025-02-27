@@ -74,7 +74,7 @@ steps:
         import groupdocs.merger as gm
 
         # <% "{examples.comment_1}" %>
-        with gm.Merger("document.<% get "fileformat" %>") as merger:
+        with gm.Merger("document.<% get "FileFormatExtension" %>") as merger:
             
             # <% "{examples.comment_2}" %>
             mode = gm.domain.options.OrientationMode.LANDSCAPE
@@ -84,7 +84,7 @@ steps:
             merger.change_orientation(orientationOptions)
 
             # <% "{examples.comment_4}" %>
-            merger.save("result.<% get "fileformat" %>")
+            merger.save("result.<% get "FileFormatExtension" %>")
         ```            
 
 ############################# More features ############################
@@ -123,7 +123,7 @@ more_features:
           import groupdocs.merger as gm
           
           # <% "{code_1.comment_1}" %>
-          with gm.Merger("document.<% get "fileformat" %>") as merger:
+          with gm.Merger("document.<% get "FileFormatExtension" %>") as merger:
             
               # <% "{code_1.comment_2}" %>
               info = merger.get_document_info()
@@ -137,7 +137,7 @@ more_features:
               merger.change_orientation(orientationOptions)
 
               # <% "{code_1.comment_5}" %>
-              merger.save("result.<% get "fileformat" %>")
+              merger.save("result.<% get "FileFormatExtension" %>")
           ```
         platform: "nodejs-java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

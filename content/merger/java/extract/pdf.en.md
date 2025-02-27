@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-12T16:15:44
+date:  2025-02-27T14:40:28
 draft: false
 lang: en
 format: Pdf
@@ -219,22 +219,46 @@ more_operations:
           description: "Save selected pages as a separate document"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
-          operation: "document"
-          link: "/merger/java/document/pdf/"
-          description: "{common-content.operations.document.description}"
+        - name: "Move pages"
+          operation: "move"
+          link: "/merger/java/move/pdf/"
+          description: "Reposition any page within a document"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
-          operation: "filters"
-          link: "/merger/java/filters/pdf/"
-          description: "{common-content.operations.filters.description}"
+        - name: "Remove pages"
+          operation: "remove"
+          link: "/merger/java/remove/pdf/"
+          description: "Delete document pages"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
-          operation: "phrase"
-          link: "/merger/java/phrase/pdf/"
-          description: "{common-content.operations.phrase.description}"
+        - name: "Join documents"
+          operation: "join"
+          link: "/merger/java/join/pdf/"
+          description: "Combine multiple documents into one"
+
+        # operation loop 6
+        - name: "Rotate pages"
+          operation: "rotate"
+          link: "/merger/java/rotate/pdf/"
+          description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/java/split/pdf/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/java/swap/pdf/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/java/orientation/pdf/"
+          description: "Change pages orientation"
           
         
           
@@ -246,31 +270,31 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, enabling efficient document manipulation."
     items: 
         # format loop 1
-        - name: "Extract DOCX"
+        - name: "Save DOCX pages"
           format: "DOCX"
           link: "/merger/java/extract/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Extract PDF"
+        - name: "Extract PDF pages"
           format: "PDF"
           link: "/merger/java/extract/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Extract PPTX"
+        - name: "Save PPTX pages"
           format: "PPTX"
           link: "/merger/java/extract/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Extract EPUB"
+        - name: "Extract EPUB pages"
           format: "EPUB"
           link: "/merger/java/extract/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Extract XLSX"
+        - name: "Extract XLSX pages"
           format: "XLSX"
           link: "/merger/java/extract/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

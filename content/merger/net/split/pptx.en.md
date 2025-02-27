@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-21T09:19:40
+date:  2025-02-27T14:40:35
 draft: false
 lang: en
 format: Pptx
@@ -217,6 +217,24 @@ more_operations:
           operation: "rotate"
           link: "/merger/net/rotate/pptx/"
           description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/net/split/pptx/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/net/swap/pptx/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/net/orientation/pptx/"
+          description: "Change pages orientation"
           
         
           

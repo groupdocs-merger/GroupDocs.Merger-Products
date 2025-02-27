@@ -74,10 +74,10 @@ steps:
         import groupdocs.merger as gm
 
         # <% "{examples.comment_1}" %>
-        with gm.Merger("document.<% get "fileformat" %>") as merger:
+        with gm.Merger("document.<% get "FileFormatExtension" %>") as merger:
             
             # <% "{examples.comment_2}" %>
-            outPath = "result.<% get "fileformat" %>"
+            outPath = "result.<% get "FileFormatExtension" %>"
 
             # <% "{examples.comment_3}" %>
             splitOptions = gm.domain.options.SplitOptions(outPath, [1])
@@ -122,10 +122,10 @@ more_features:
           import groupdocs.merger as gm
           
           # <% "{code_1.comment_1}" %>
-          with gm.Merger("document.<% get "fileformat" %>") as merger:
+          with gm.Merger("document.<% get "FileFormatExtension" %>") as merger:
             
               # <% "{code_1.comment_2}" %>
-              outPath = "result.<% get "fileformat" %>"
+              outPath = "result.<% get "FileFormatExtension" %>"
 
               # <% "{code_1.comment_3}" %>
               info = merger.get_document_info()

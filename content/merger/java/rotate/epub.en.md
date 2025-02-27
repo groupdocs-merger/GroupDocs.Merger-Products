@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-20T14:12:09
+date:  2025-02-27T14:40:34
 draft: false
 lang: en
 format: Epub
@@ -248,6 +248,24 @@ more_operations:
           operation: "rotate"
           link: "/merger/java/rotate/epub/"
           description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/java/split/epub/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/java/swap/epub/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/java/orientation/epub/"
+          description: "Change pages orientation"
           
         
           

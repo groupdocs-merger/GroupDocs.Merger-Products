@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-19T17:36:51
+date:  2025-02-27T14:40:30
 draft: false
 lang: en
 format: Pptx
@@ -72,13 +72,13 @@ steps:
         const mergerLib = require('@groupdocs/groupdocs.merger')
 
         // Initialize Merger with the input PPTX file
-        const merger = new mergerLib.Merger("file_frst.pptx");
+        const merger = new mergerLib.Merger("file_frst.pptx")
 
         // Join the file with another document
-        merger.join("file_scnd.pptx");
+        merger.join("file_scnd.pptx")
 
         // Save the joined document to a specified location
-        merger.save("result.pptx");
+        merger.save("result.pptx")
         ```            
 
 ############################# More features ############################
@@ -117,18 +117,18 @@ more_features:
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
           // Specify the primary document path
-          const merger = new mergerLib.Merger("file_frst.pptx");
+          const merger = new mergerLib.Merger("file_frst.pptx")
 
           // Set options to include selected pages
-          PageJoinOptions joinOpt1 = new mergerLib.PageJoinOptions(1, 2);
-          PageJoinOptions joinOpt2 = new mergerLib.PageJoinOptions(3, 4);
+          PageJoinOptions joinOpt1 = new mergerLib.PageJoinOptions(1, 2)
+          PageJoinOptions joinOpt2 = new mergerLib.PageJoinOptions(3, 4)
           
           // Join the primary file with pages from another document
-          merger.join("file_scnd.docx", joinOpt1);
-          merger.join("file_thrd.xlsx", joinOpt2);
+          merger.join("file_scnd.docx", joinOpt1)
+          merger.join("file_thrd.xlsx", joinOpt2)
 
           // Save the final joined document to the desired location
-          merger.save("result.pptx");
+          merger.save("result.pptx")
           ```
         platform: "nodejs-java"
         copy_title: "Copy"
@@ -207,6 +207,30 @@ more_operations:
           operation: "join"
           link: "/merger/nodejs-java/join/pptx/"
           description: "Combine multiple documents into one"
+
+        # operation loop 6
+        - name: "Rotate pages"
+          operation: "rotate"
+          link: "/merger/nodejs-java/rotate/pptx/"
+          description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/nodejs-java/split/pptx/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/nodejs-java/swap/pptx/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/nodejs-java/orientation/pptx/"
+          description: "Change pages orientation"
           
         
           

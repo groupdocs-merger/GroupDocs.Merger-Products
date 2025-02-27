@@ -88,7 +88,7 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        Merger merger = new Merger("document.<% get "fileformat" %>");
+        Merger merger = new Merger("document.<% get "FileFormatExtension" %>");
 
         // <% "{examples.comment_2}" %>
         ExtractOptions extractOptions = new ExtractOptions(new int[] { 2 });
@@ -97,7 +97,7 @@ steps:
         merger.extractPages(extractOptions);
 
         // <% "{examples.comment_4}" %>
-        merger.save("result.<% get "fileformat" %>");
+        merger.save("result.<% get "FileFormatExtension" %>");
         ```            
 
 ############################# More features ############################
@@ -134,7 +134,7 @@ more_features:
         content: |
           ```java {style=abap}
           // <% "{code_1.comment_1}" %>
-          Merger merger = new Merger("file_1.<% get "fileformat" %>");
+          Merger merger = new Merger("file_1.<% get "FileFormatExtension" %>");
 
           // <% "{code_1.comment_2}" %>
           ExtractOptions extractOptions = new ExtractOptions(1, 3, RangeMode.EvenPages);
@@ -143,7 +143,7 @@ more_features:
           merger.extractPages(extractOptions);
 
           // <% "{code_1.comment_4}" %>
-          merger.save("result.<% get "fileformat" %>");
+          merger.save("result.<% get "FileFormatExtension" %>");
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

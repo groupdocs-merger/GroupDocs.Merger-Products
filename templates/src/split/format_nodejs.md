@@ -74,10 +74,10 @@ steps:
         const mergerLib = require('@groupdocs/groupdocs.merger')
 
         // <% "{examples.comment_1}" %>
-        const merger = new mergerLib.Merger("document.<% get "fileformat" %>")
+        const merger = new mergerLib.Merger("document.<% get "FileFormatExtension" %>")
 
         // <% "{examples.comment_2}" %>
-        const outPath = 'result.<% get "fileformat" %>'
+        const outPath = 'result.<% get "FileFormatExtension" %>'
 
         // <% "{examples.comment_3}" %>
         const java = require('java')
@@ -124,10 +124,10 @@ more_features:
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
           // <% "{code_1.comment_1}" %>
-          const merger = new mergerLib.Merger("document.<% get "fileformat" %>")
+          const merger = new mergerLib.Merger("document.<% get "FileFormatExtension" %>")
 
           // <% "{code_1.comment_2}" %>
-          const outPath = 'result.<% get "fileformat" %>'
+          const outPath = 'result.<% get "FileFormatExtension" %>'
 
           // <% "{code_1.comment_3}" %>
           const info = merger.getDocumentInfo()

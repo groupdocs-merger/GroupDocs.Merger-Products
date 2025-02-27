@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-12T16:15:44
+date:  2025-02-27T14:40:28
 draft: false
 lang: en
 format: Xlsx
@@ -122,7 +122,7 @@ more_features:
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
           // Specify the path to the source document
-          const merger = new mergerLib.Merger("file_1.xlsx");
+          const merger = new mergerLib.Merger("file_1.xlsx")
 
           // Set extraction options to include only even-numbered pages within a range
           const evenPages = groupdocs.merger.RangeMode.EvenPages
@@ -132,7 +132,7 @@ more_features:
           merger.extractPages(extractOptions)
 
           // Save the extracted pages to a new file
-          merger.save("result.xlsx");
+          merger.save("result.xlsx")
           ```
         platform: "nodejs-java"
         copy_title: "Copy"
@@ -195,22 +195,46 @@ more_operations:
           description: "Save selected pages as a separate document"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
-          operation: "document"
-          link: "/merger/nodejs-java/document/xlsx/"
-          description: "{common-content.operations.document.description}"
+        - name: "Move pages"
+          operation: "move"
+          link: "/merger/nodejs-java/move/xlsx/"
+          description: "Reposition any page within a document"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
-          operation: "filters"
-          link: "/merger/nodejs-java/filters/xlsx/"
-          description: "{common-content.operations.filters.description}"
+        - name: "Remove pages"
+          operation: "remove"
+          link: "/merger/nodejs-java/remove/xlsx/"
+          description: "Delete document pages"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
-          operation: "phrase"
-          link: "/merger/nodejs-java/phrase/xlsx/"
-          description: "{common-content.operations.phrase.description}"
+        - name: "Join documents"
+          operation: "join"
+          link: "/merger/nodejs-java/join/xlsx/"
+          description: "Combine multiple documents into one"
+
+        # operation loop 6
+        - name: "Rotate pages"
+          operation: "rotate"
+          link: "/merger/nodejs-java/rotate/xlsx/"
+          description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/nodejs-java/split/xlsx/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/nodejs-java/swap/xlsx/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/nodejs-java/orientation/xlsx/"
+          description: "Change pages orientation"
           
         
           
@@ -222,31 +246,31 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, enabling seamless document processing."
     items: 
         # format loop 1
-        - name: "Extract DOCX"
+        - name: "Save DOCX pages"
           format: "DOCX"
           link: "/merger/nodejs-java/extract/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Extract PDF"
+        - name: "Extract PDF pages"
           format: "PDF"
           link: "/merger/nodejs-java/extract/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Extract PPTX"
+        - name: "Save PPTX pages"
           format: "PPTX"
           link: "/merger/nodejs-java/extract/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Extract EPUB"
+        - name: "Extract EPUB pages"
           format: "EPUB"
           link: "/merger/nodejs-java/extract/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Extract XLSX"
+        - name: "Extract XLSX pages"
           format: "XLSX"
           link: "/merger/nodejs-java/extract/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

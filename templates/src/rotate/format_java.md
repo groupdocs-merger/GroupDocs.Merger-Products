@@ -88,7 +88,7 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        Merger merger = new Merger("document.<% get "fileformat" %>");
+        Merger merger = new Merger("document.<% get "FileFormatExtension" %>");
 
         // <% "{examples.comment_2}" %>
         RotateMode rotateMode = RotateMode.Rotate180;
@@ -98,7 +98,7 @@ steps:
         merger.rotatePages(rotateOptions);
 
         // <% "{examples.comment_4}" %>
-        merger.save("result.<% get "fileformat" %>");
+        merger.save("result.<% get "FileFormatExtension" %>");
         ```            
 
 ############################# More features ############################
@@ -135,7 +135,7 @@ more_features:
         content: |
           ```java {style=abap}
           // <% "{code_1.comment_1}" %>
-          Merger merger = new Merger("document.<% get "fileformat" %>");
+          Merger merger = new Merger("document.<% get "FileFormatExtension" %>");
 
           // <% "{code_1.comment_2}" %>
           IDocumentInfo info = merger.getDocumentInfo();
@@ -150,7 +150,7 @@ more_features:
           merger.rotatePages(rotateOptions);
           
           // <% "{code_1.comment_5}" %>
-          merger.save("result.<% get "fileformat" %>");
+          merger.save("result.<% get "FileFormatExtension" %>");
           ```
         platform: "java"
         copy_title: "<% "{common-content.format-code.copy_title}" %>"

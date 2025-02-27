@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-21T09:19:40
+date:  2025-02-27T14:40:35
 draft: false
 lang: en
 format: Pdf
@@ -12,11 +12,11 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Break apart PDF documents in Python via .NET apps"
+head_title: "Split PDF documents in Python via .NET apps"
 head_description: "Use GroupDocs.Merger for Python via .NET to separate PDF files into multiple documents. Easily manage PDFs, Word files, spreadsheets, presentations, Visio diagrams, images, archives, and more."
 
 ############################# Header ############################
-title: "Break PDF files into parts" 
+title: "Split PDF files into parts" 
 description: "GroupDocs.Merger for Python via .NET enhances Python applications with advanced document processing. Split PDF files effortlessly and work with a variety of commonly used formats."
 subtitle: "GroupDocs.Merger for Python via .NET" 
 
@@ -219,6 +219,24 @@ more_operations:
           operation: "rotate"
           link: "/merger/python-net/rotate/pdf/"
           description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/python-net/split/pdf/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/python-net/swap/pdf/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/python-net/orientation/pdf/"
+          description: "Change pages orientation"
           
         
           

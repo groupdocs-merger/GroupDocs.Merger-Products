@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-12T16:15:43
+date:  2025-02-27T14:40:27
 draft: false
 lang: en
 format: Xlsx
@@ -72,7 +72,7 @@ steps:
         const mergerLib = require('@groupdocs/groupdocs.merger')
 
         // Initialize Merger with the input XLSX file
-        const merger = new mergerLib.Merger("file_1.xlsx");
+        const merger = new mergerLib.Merger("file_1.xlsx")
 
         // Combine the file with another document
         merger.join("file_2.xlsx");
@@ -117,18 +117,18 @@ more_features:
           const mergerLib = require('@groupdocs/groupdocs.merger')
           
           // Specify the primary document path
-          const merger = new mergerLib.Merger("file_1.xlsx");
+          const merger = new mergerLib.Merger("file_1.xlsx")
 
           // Set options to include selected pages
-          PageJoinOptions joinOptions12 = new mergerLib.PageJoinOptions(1, 2);
-          PageJoinOptions joinOptions34 = new mergerLib.PageJoinOptions(3, 4);
+          PageJoinOptions joinOptions12 = new mergerLib.PageJoinOptions(1, 2)
+          PageJoinOptions joinOptions34 = new mergerLib.PageJoinOptions(3, 4)
           
           // Merge the primary file with pages from another document
-          merger.join("file_2.docx", joinOptions12);
-          merger.join("file_3.xlsx", joinOptions34);
+          merger.join("file_2.docx", joinOptions12)
+          merger.join("file_3.xlsx", joinOptions34)
 
           // Save the final merged document to the desired location
-          merger.save("result.xlsx");
+          merger.save("result.xlsx")
           ```
         platform: "nodejs-java"
         copy_title: "Copy"
@@ -191,22 +191,46 @@ more_operations:
           description: "Save selected pages as a separate document"
 
         # operation loop 3
-        - name: "{common-content.operations.document.name}"
-          operation: "document"
-          link: "/merger/nodejs-java/document/xlsx/"
-          description: "{common-content.operations.document.description}"
+        - name: "Move pages"
+          operation: "move"
+          link: "/merger/nodejs-java/move/xlsx/"
+          description: "Reposition any page within a document"
 
         # operation loop 4
-        - name: "{common-content.operations.filters.name}"
-          operation: "filters"
-          link: "/merger/nodejs-java/filters/xlsx/"
-          description: "{common-content.operations.filters.description}"
+        - name: "Remove pages"
+          operation: "remove"
+          link: "/merger/nodejs-java/remove/xlsx/"
+          description: "Delete document pages"
 
         # operation loop 5
-        - name: "{common-content.operations.phrase.name}"
-          operation: "phrase"
-          link: "/merger/nodejs-java/phrase/xlsx/"
-          description: "{common-content.operations.phrase.description}"
+        - name: "Join documents"
+          operation: "join"
+          link: "/merger/nodejs-java/join/xlsx/"
+          description: "Combine multiple documents into one"
+
+        # operation loop 6
+        - name: "Rotate pages"
+          operation: "rotate"
+          link: "/merger/nodejs-java/rotate/xlsx/"
+          description: "Rotate document pages"
+
+        # operation loop 7
+        - name: "Split doc"
+          operation: "split"
+          link: "/merger/nodejs-java/split/xlsx/"
+          description: "Split documents"
+
+        # operation loop 8
+        - name: "Swap pages"
+          operation: "swap"
+          link: "/merger/nodejs-java/swap/xlsx/"
+          description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/nodejs-java/orientation/xlsx/"
+          description: "Change pages orientation"
           
         
           
@@ -218,31 +242,31 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file types, ensuring seamless document processing for various business needs."
     items: 
         # format loop 1
-        - name: "Combine DOCX"
+        - name: "Join DOCX doc"
           format: "DOCX"
           link: "/merger/nodejs-java/combine/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
-        - name: "Combine PDF"
+        - name: "Combine PDF doc"
           format: "PDF"
           link: "/merger/nodejs-java/combine/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 3
-        - name: "Combine PPTX"
+        - name: "Join PPTX doc"
           format: "PPTX"
           link: "/merger/nodejs-java/combine/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop 4
-        - name: "Combine EPUB"
+        - name: "Combine EPUB doc"
           format: "EPUB"
           link: "/merger/nodejs-java/combine/epub/"
           description: "Electronic Publication"
           
         # format loop 5
-        - name: "Combine XLSX"
+        - name: "Combine XLSX doc"
           format: "XLSX"
           link: "/merger/nodejs-java/combine/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

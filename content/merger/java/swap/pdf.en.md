@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-21T13:21:35
+date:  2025-02-27T14:40:36
 draft: false
 lang: en
 format: Pdf
@@ -257,6 +257,12 @@ more_operations:
           operation: "swap"
           link: "/merger/java/swap/pdf/"
           description: "Swap document pages"
+
+        # operation loop 9
+        - name: "Change orientation"
+          operation: "orientation"
+          link: "/merger/java/orientation/pdf/"
+          description: "Change pages orientation"
           
         
           
