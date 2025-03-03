@@ -1,25 +1,93 @@
 {
   "common-content": {
     "format-formats": {
-      "docx": {
-        "name": "DOCX",
-        "description": "Microsoft Word Open XML Document"
+      "word": {
+        "name": "WORD",
+        "description": "Microsoft Word Documents"
+      },
+      "excel": {
+        "name": "EXCEL",
+        "description": "Microsoft Excel Spreadsheets"
+      },
+      "powerpoint": {
+        "name": "POWERPOINT",
+        "description": "Microsoft PowerPoint Presentations"
+      },
+      "image": {
+        "name": "IMAGE",
+        "description": "Popular Image Formats"
+      },
+      "visio": {
+        "name": "VISIO",
+        "description": "Microsoft Visio Diagrams"
       },
       "pdf": {
         "name": "PDF",
         "description": "Adobe Portable Document Format"
       },
+      "docx": {
+        "name": "DOCX",
+        "description": "Microsoft Word Open XML Document"
+      },
+      "xlsx": {
+        "name": "XLSX",
+        "description": "Microsoft Excel Open XML Spreadsheet"
+      },
       "pptx": {
         "name": "PPTX",
         "description": "PowerPoint Open XML Presentation"
+      },
+      "bmp": {
+        "name": "BMP",
+        "description": "Bitmap Image"
+      },
+      "jpeg": {
+        "name": "JPEG",
+        "description": "JPEG Image File"
+      },
+      "jpg": {
+        "name": "JPG",
+        "description": "JPEG Image File"
+      },
+      "png": {
+        "name": "PNG",
+        "description": "Portable Network Graphics"
+      },
+      "svg": {
+        "name": "SVG",
+        "description": "Scalar Vector Graphics"
+      },
+      "tiff": {
+        "name": "TIFF",
+        "description": "Tagged Image File Format"
+      },
+      "csv": {
+        "name": "CSV",
+        "description": "Comma Separated Values File"
       },
       "epub": {
         "name": "EPUB",
         "description": "Electronic Publication"
       },
-      "xlsx": {
-        "name": "XLSX",
-        "description": "Microsoft Excel Open XML Spreadsheet"
+      "html": {
+        "name": "HTML",
+        "description": "Hypertext Markup Language File"
+      },
+      "mhtml": {
+        "name": "MHTML",
+        "description": "MHTML Web Archive"
+      },
+      "txt": {
+        "name": "TXT",
+        "description": "Plain Text File"
+      },
+      "xps": {
+        "name": "XPS",
+        "description": "XML Paper Specification File"
+      },
+      "zip": {
+        "name": "ZIP",
+        "description": "ZIP Archive"
       }
     },
     "format-operations": {

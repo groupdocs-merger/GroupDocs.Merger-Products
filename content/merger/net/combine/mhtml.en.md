@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:27
+date:  2025-03-03T14:56:06
 draft: false
 lang: en
 format: Mhtml
@@ -240,34 +240,131 @@ more_formats:
     description: "GroupDocs.Merger handles over 50 file formats, enabling seamless business document processing."
     items: 
         # format loop 1
-        - name: "Join DOCX doc"
-          format: "DOCX"
-          link: "/merger/net/combine/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Combine Word"
+          format: "WORD"
+          link: "/merger/net/combine/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Combine PDF doc"
+        - name: "Combine Excel"
+          format: "EXCEL"
+          link: "/merger/net/combine/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Combine Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/net/combine/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Combine Image"
+          format: "IMAGE"
+          link: "/merger/net/combine/image/"
+          description: "Popular Image Formats"
+
+        # format loop 5
+        - name: "Combine Visio"
+          format: "VISIO"
+          link: "/merger/net/combine/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 6
+        - name: "Combine Pdf"
           format: "PDF"
           link: "/merger/net/combine/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Join PPTX doc"
+
+        # format loop 7
+        - name: "Combine Docx"
+          format: "DOCX"
+          link: "/merger/net/combine/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 8
+        - name: "Combine Xlsx"
+          format: "XLSX"
+          link: "/merger/net/combine/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 9
+        - name: "Combine Pptx"
           format: "PPTX"
           link: "/merger/net/combine/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Combine EPUB doc"
+        # format loop 10
+        - name: "Combine Bmp"
+          format: "BMP"
+          link: "/merger/net/combine/bmp/"
+          description: "Bitmap Image"
+
+        # format loop 11
+        - name: "Combine Jpeg"
+          format: "JPEG"
+          link: "/merger/net/combine/jpeg/"
+          description: "JPEG Image File"
+
+        # format loop 12
+        - name: "Combine Png"
+          format: "PNG"
+          link: "/merger/net/combine/png/"
+          description: "Portable Network Graphics"
+
+        # format loop 13
+        - name: "Combine Svg"
+          format: "SVG"
+          link: "/merger/net/combine/svg/"
+          description: "Scalar Vector Graphics"
+
+        # format loop 14
+        - name: "Combine Tiff"
+          format: "TIFF"
+          link: "/merger/net/combine/tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop 15
+        - name: "Combine Csv"
+          format: "CSV"
+          link: "/merger/net/combine/csv/"
+          description: "Comma Separated Values File"
+
+        # format loop 16
+        - name: "Combine Epub"
           format: "EPUB"
           link: "/merger/net/combine/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Combine XLSX doc"
-          format: "XLSX"
-          link: "/merger/net/combine/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 17
+        - name: "Combine Html"
+          format: "HTML"
+          link: "/merger/net/combine/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 18
+        - name: "Combine Mhtml"
+          format: "MHTML"
+          link: "/merger/net/combine/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 19
+        - name: "Combine Txt"
+          format: "TXT"
+          link: "/merger/net/combine/txt/"
+          description: "Plain Text File"
+
+        # format loop 20
+        - name: "Combine Xps"
+          format: "XPS"
+          link: "/merger/net/combine/xps/"
+          description: "XML Paper Specification File"
+
+        # format loop 21
+        - name: "Combine Zip"
+          format: "ZIP"
+          link: "/merger/net/combine/zip/"
+          description: "ZIP Archive"
+
   
 
 ---
