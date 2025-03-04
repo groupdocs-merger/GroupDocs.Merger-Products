@@ -189,6 +189,6 @@ more_formats:
     title: "<% (dict "formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
     description: "<% (dict "formats.description") %>"
-<% include "..\\..\\data\\format_others.md" %>
+<% include "..\\..\\data\\formats_remove.md" %>
 
 ---
