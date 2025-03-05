@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-03T14:56:06
+date:  2025-03-05T11:30:29
 draft: false
 lang: en
 format: Pdf
@@ -185,7 +185,7 @@ more_operations:
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/net/extract/pdf/"
+          link: "/merger/net/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
@@ -197,13 +197,13 @@ more_operations:
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/net/remove/pdf/"
+          link: "/merger/net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/net/join/pdf/"
+          link: "/merger/net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
@@ -215,19 +215,19 @@ more_operations:
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/net/split/pdf/"
+          link: "/merger/net/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/net/swap/pdf/"
+          link: "/merger/net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/net/orientation/pdf/"
+          link: "/merger/net/orientation/epub/"
           description: "Change pages orientation"
           
         

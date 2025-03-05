@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-03T14:56:06
+date:  2025-03-05T11:30:29
 draft: false
 lang: en
 format: Jpeg
@@ -181,25 +181,25 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/nodejs-java/combine/jpeg/"
+          link: "/merger/nodejs-java/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/nodejs-java/extract/jpeg/"
+          link: "/merger/nodejs-java/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/nodejs-java/move/jpeg/"
+          link: "/merger/nodejs-java/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/nodejs-java/remove/jpeg/"
+          link: "/merger/nodejs-java/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
@@ -211,25 +211,25 @@ more_operations:
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/nodejs-java/rotate/jpeg/"
+          link: "/merger/nodejs-java/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/nodejs-java/split/jpeg/"
+          link: "/merger/nodejs-java/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/nodejs-java/swap/jpeg/"
+          link: "/merger/nodejs-java/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/nodejs-java/orientation/jpeg/"
+          link: "/merger/nodejs-java/orientation/epub/"
           description: "Change pages orientation"
           
         

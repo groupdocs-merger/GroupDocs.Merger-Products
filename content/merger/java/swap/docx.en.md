@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:36
+date:  2025-03-05T11:30:34
 draft: false
 lang: en
 format: Docx
@@ -213,37 +213,37 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/java/combine/docx/"
+          link: "/merger/java/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/java/extract/docx/"
+          link: "/merger/java/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/java/move/docx/"
+          link: "/merger/java/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/java/remove/docx/"
+          link: "/merger/java/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/java/join/docx/"
+          link: "/merger/java/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/java/rotate/docx/"
+          link: "/merger/java/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
@@ -255,13 +255,13 @@ more_operations:
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/java/swap/docx/"
+          link: "/merger/java/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/java/orientation/docx/"
+          link: "/merger/java/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -274,34 +274,76 @@ more_formats:
     description: "GroupDocs.Merger supports more than 50 formats, enabling precise document modifications."
     items: 
         # format loop 1
-        - name: "Swap DOCX file"
-          format: "DOCX"
-          link: "/merger/java/swap/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Swap Word"
+          format: "WORD"
+          link: "/merger/java/swap/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Swap PDF file"
+        - name: "Swap Excel"
+          format: "EXCEL"
+          link: "/merger/java/swap/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Swap Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/java/swap/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Swap Visio"
+          format: "VISIO"
+          link: "/merger/java/swap/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 5
+        - name: "Swap Pdf"
           format: "PDF"
           link: "/merger/java/swap/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Swap PPTX file"
+
+        # format loop 6
+        - name: "Swap Docx"
+          format: "DOCX"
+          link: "/merger/java/swap/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 7
+        - name: "Swap Xlsx"
+          format: "XLSX"
+          link: "/merger/java/swap/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 8
+        - name: "Swap Pptx"
           format: "PPTX"
           link: "/merger/java/swap/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Swap EPUB file"
+        # format loop 9
+        - name: "Swap Epub"
           format: "EPUB"
           link: "/merger/java/swap/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Swap XLSX file"
-          format: "XLSX"
-          link: "/merger/java/swap/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
+
+        # format loop 10
+        - name: "Swap Html"
+          format: "HTML"
+          link: "/merger/java/swap/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 11
+        - name: "Swap Mhtml"
+          format: "MHTML"
+          link: "/merger/java/swap/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 12
+        - name: "Swap Xps"
+          format: "XPS"
+          link: "/merger/java/swap/xps/"
+          description: "XML Paper Specification File"
+
 
 ---

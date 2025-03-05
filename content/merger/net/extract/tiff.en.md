@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:28
+date:  2025-03-05T11:30:30
 draft: false
 lang: en
 format: Tiff
@@ -180,55 +180,55 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/net/combine/tiff/"
+          link: "/merger/net/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/net/extract/tiff/"
+          link: "/merger/net/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/net/move/tiff/"
+          link: "/merger/net/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/net/remove/tiff/"
+          link: "/merger/net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/net/join/tiff/"
+          link: "/merger/net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/net/rotate/tiff/"
+          link: "/merger/net/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/net/split/tiff/"
+          link: "/merger/net/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/net/swap/tiff/"
+          link: "/merger/net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/net/orientation/tiff/"
+          link: "/merger/net/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -241,34 +241,82 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, making document management more flexible and efficient."
     items: 
         # format loop 1
-        - name: "Save DOCX pages"
-          format: "DOCX"
-          link: "/merger/net/extract/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Extract Word"
+          format: "WORD"
+          link: "/merger/net/extract/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Extract PDF pages"
+        - name: "Extract Excel"
+          format: "EXCEL"
+          link: "/merger/net/extract/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Extract Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/net/extract/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Extract Visio"
+          format: "VISIO"
+          link: "/merger/net/extract/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 5
+        - name: "Extract Pdf"
           format: "PDF"
           link: "/merger/net/extract/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Save PPTX pages"
+
+        # format loop 6
+        - name: "Extract Docx"
+          format: "DOCX"
+          link: "/merger/net/extract/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 7
+        - name: "Extract Xlsx"
+          format: "XLSX"
+          link: "/merger/net/extract/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 8
+        - name: "Extract Pptx"
           format: "PPTX"
           link: "/merger/net/extract/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Extract EPUB pages"
+        # format loop 9
+        - name: "Extract Tiff"
+          format: "TIFF"
+          link: "/merger/net/extract/tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop 10
+        - name: "Extract Epub"
           format: "EPUB"
           link: "/merger/net/extract/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Extract XLSX pages"
-          format: "XLSX"
-          link: "/merger/net/extract/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 11
+        - name: "Extract Html"
+          format: "HTML"
+          link: "/merger/net/extract/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 12
+        - name: "Extract Mhtml"
+          format: "MHTML"
+          link: "/merger/net/extract/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 13
+        - name: "Extract Xps"
+          format: "XPS"
+          link: "/merger/net/extract/xps/"
+          description: "XML Paper Specification File"
   
 
 ---

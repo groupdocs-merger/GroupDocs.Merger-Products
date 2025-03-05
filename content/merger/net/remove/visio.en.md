@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:33
+date:  2025-03-05T11:30:32
 draft: false
 lang: en
 format: Visio
@@ -184,55 +184,55 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/net/combine/visio/"
+          link: "/merger/net/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/net/extract/visio/"
+          link: "/merger/net/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/net/move/visio/"
+          link: "/merger/net/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/net/remove/visio/"
+          link: "/merger/net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/net/join/visio/"
+          link: "/merger/net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/net/rotate/visio/"
+          link: "/merger/net/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/net/split/visio/"
+          link: "/merger/net/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/net/swap/visio/"
+          link: "/merger/net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/net/orientation/visio/"
+          link: "/merger/net/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -245,34 +245,75 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 document formats, allowing quick and easy modifications."
     items: 
         # format loop 1
-        - name: "Delete DOCX pages"
-          format: "DOCX"
-          link: "/merger/net/remove/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Remove Word"
+          format: "WORD"
+          link: "/merger/net/remove/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Delete PDF pages"
+        - name: "Remove Excel"
+          format: "EXCEL"
+          link: "/merger/net/remove/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Remove Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/net/remove/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Remove Visio"
+          format: "VISIO"
+          link: "/merger/net/remove/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 5
+        - name: "Remove Pdf"
           format: "PDF"
           link: "/merger/net/remove/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Remove PPTX pages"
+
+        # format loop 6
+        - name: "Remove Docx"
+          format: "DOCX"
+          link: "/merger/net/remove/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 7
+        - name: "Remove Xlsx"
+          format: "XLSX"
+          link: "/merger/net/remove/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 8
+        - name: "Remove Pptx"
           format: "PPTX"
           link: "/merger/net/remove/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Delete EPUB pages"
+        # format loop 9
+        - name: "Remove Epub"
           format: "EPUB"
           link: "/merger/net/remove/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Remove XLSX pages"
-          format: "XLSX"
-          link: "/merger/net/remove/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
 
+        # format loop 10
+        - name: "Remove Html"
+          format: "HTML"
+          link: "/merger/net/remove/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 11
+        - name: "Remove Mhtml"
+          format: "MHTML"
+          link: "/merger/net/remove/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 12
+        - name: "Remove Xps"
+          format: "XPS"
+          link: "/merger/net/remove/xps/"
+          description: "XML Paper Specification File"
+  
 ---

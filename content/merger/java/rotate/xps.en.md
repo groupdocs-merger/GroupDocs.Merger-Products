@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:34
+date:  2025-03-05T11:30:33
 draft: false
 lang: en
 format: Xps
@@ -216,55 +216,55 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/java/combine/xps/"
+          link: "/merger/java/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/java/extract/xps/"
+          link: "/merger/java/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/java/move/xps/"
+          link: "/merger/java/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/java/remove/xps/"
+          link: "/merger/java/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/java/join/xps/"
+          link: "/merger/java/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/java/rotate/xps/"
+          link: "/merger/java/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/java/split/xps/"
+          link: "/merger/java/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/java/swap/xps/"
+          link: "/merger/java/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/java/orientation/xps/"
+          link: "/merger/java/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -277,34 +277,22 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, allowing you to modify documents effortlessly with a wide range of operations."
     items: 
         # format loop 1
-        - name: "Rotate DOCX pages"
-          format: "DOCX"
-          link: "/merger/java/rotate/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Rotate PDF pages"
+        - name: "Rotate Pdf"
           format: "PDF"
           link: "/merger/java/rotate/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Rotate PPTX pages"
-          format: "PPTX"
-          link: "/merger/java/rotate/pptx/"
-          description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Rotate EPUB pages"
+        # format loop 2
+        - name: "Rotate Epub"
           format: "EPUB"
           link: "/merger/java/rotate/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Rotate XLSX pages"
-          format: "XLSX"
-          link: "/merger/java/rotate/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
+
+        # format loop 3
+        - name: "Rotate Xps"
+          format: "XPS"
+          link: "/merger/java/rotate/xps/"
+          description: "XML Paper Specification File"
+
 
 ---

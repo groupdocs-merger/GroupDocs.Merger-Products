@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:32
+date:  2025-03-05T11:30:32
 draft: false
 lang: en
 format: Word
@@ -188,55 +188,55 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/nodejs-java/combine/word/"
+          link: "/merger/nodejs-java/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/nodejs-java/extract/word/"
+          link: "/merger/nodejs-java/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/nodejs-java/move/word/"
+          link: "/merger/nodejs-java/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/nodejs-java/remove/word/"
+          link: "/merger/nodejs-java/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/nodejs-java/join/word/"
+          link: "/merger/nodejs-java/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/nodejs-java/rotate/word/"
+          link: "/merger/nodejs-java/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/nodejs-java/split/word/"
+          link: "/merger/nodejs-java/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/nodejs-java/swap/word/"
+          link: "/merger/nodejs-java/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/nodejs-java/orientation/word/"
+          link: "/merger/nodejs-java/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -249,34 +249,52 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file types, letting you refine documents with a broad set of options."
     items: 
         # format loop 1
-        - name: "Change DOCX orientation"
+        - name: "Orientation Word"
+          format: "WORD"
+          link: "/merger/nodejs-java/orientation/word/"
+          description: "Microsoft Word Documents"
+
+        # format loop 2
+        - name: "Orientation Excel"
+          format: "EXCEL"
+          link: "/merger/nodejs-java/orientation/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Orientation Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/nodejs-java/orientation/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Orientation Docx"
           format: "DOCX"
           link: "/merger/nodejs-java/orientation/docx/"
           description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Change PDF orientation"
-          format: "PDF"
-          link: "/merger/nodejs-java/orientation/pdf/"
-          description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Change PPTX orientation"
+
+        # format loop 5
+        - name: "Orientation Xlsx"
+          format: "XLSX"
+          link: "/merger/nodejs-java/orientation/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 6
+        - name: "Orientation Pptx"
           format: "PPTX"
           link: "/merger/nodejs-java/orientation/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Change EPUB orientation"
+        # format loop 7
+        - name: "Orientation Epub"
           format: "EPUB"
           link: "/merger/nodejs-java/orientation/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Change XLSX orientation"
-          format: "XLSX"
-          link: "/merger/nodejs-java/orientation/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
+
+        # format loop 8
+        - name: "Orientation Xps"
+          format: "XPS"
+          link: "/merger/nodejs-java/orientation/xps/"
+          description: "XML Paper Specification File"
+
 
 ---

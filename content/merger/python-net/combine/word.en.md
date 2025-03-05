@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-03T14:56:06
+date:  2025-03-05T11:30:29
 draft: false
 lang: en
 format: Word
@@ -181,55 +181,55 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/python-net/combine/word/"
+          link: "/merger/python-net/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/python-net/extract/word/"
+          link: "/merger/python-net/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/python-net/move/word/"
+          link: "/merger/python-net/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/python-net/remove/word/"
+          link: "/merger/python-net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/python-net/join/word/"
+          link: "/merger/python-net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/python-net/rotate/word/"
+          link: "/merger/python-net/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/python-net/split/word/"
+          link: "/merger/python-net/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/python-net/swap/word/"
+          link: "/merger/python-net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/python-net/orientation/word/"
+          link: "/merger/python-net/orientation/epub/"
           description: "Change pages orientation"
           
         

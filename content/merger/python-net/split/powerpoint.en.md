@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:35
+date:  2025-03-05T11:30:33
 draft: false
 lang: en
 format: Powerpoint
@@ -187,55 +187,55 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/python-net/combine/powerpoint/"
+          link: "/merger/python-net/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/python-net/extract/powerpoint/"
+          link: "/merger/python-net/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/python-net/move/powerpoint/"
+          link: "/merger/python-net/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/python-net/remove/powerpoint/"
+          link: "/merger/python-net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/python-net/join/powerpoint/"
+          link: "/merger/python-net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/python-net/rotate/powerpoint/"
+          link: "/merger/python-net/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/python-net/split/powerpoint/"
+          link: "/merger/python-net/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/python-net/swap/powerpoint/"
+          link: "/merger/python-net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/python-net/orientation/powerpoint/"
+          link: "/merger/python-net/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -248,34 +248,96 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file types, making it easy to modify documents with precision."
     items: 
         # format loop 1
-        - name: "Split DOCX file"
-          format: "DOCX"
-          link: "/merger/python-net/split/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Split Word"
+          format: "WORD"
+          link: "/merger/python-net/split/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Split PDF file"
+        - name: "Split Excel"
+          format: "EXCEL"
+          link: "/merger/python-net/split/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Split Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/python-net/split/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Split Visio"
+          format: "VISIO"
+          link: "/merger/python-net/split/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 5
+        - name: "Split Pdf"
           format: "PDF"
           link: "/merger/python-net/split/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Split PPTX file"
+
+        # format loop 6
+        - name: "Split Docx"
+          format: "DOCX"
+          link: "/merger/python-net/split/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 7
+        - name: "Split Xlsx"
+          format: "XLSX"
+          link: "/merger/python-net/split/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 8
+        - name: "Split Pptx"
           format: "PPTX"
           link: "/merger/python-net/split/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Split EPUB file"
+        # format loop 9
+        - name: "Split Tiff"
+          format: "TIFF"
+          link: "/merger/python-net/split/tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop 10
+        - name: "Split Csv"
+          format: "CSV"
+          link: "/merger/python-net/split/csv/"
+          description: "Comma Separated Values File"
+
+        # format loop 11
+        - name: "Split Epub"
           format: "EPUB"
           link: "/merger/python-net/split/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Split XLSX file"
-          format: "XLSX"
-          link: "/merger/python-net/split/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 12
+        - name: "Split Html"
+          format: "HTML"
+          link: "/merger/python-net/split/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 13
+        - name: "Split Mhtml"
+          format: "MHTML"
+          link: "/merger/python-net/split/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 14
+        - name: "Split Txt"
+          format: "TXT"
+          link: "/merger/python-net/split/txt/"
+          description: "Plain Text File"
+
+        # format loop 15
+        - name: "Split Xps"
+          format: "XPS"
+          link: "/merger/python-net/split/xps/"
+          description: "XML Paper Specification File"
+
+
   
 
 ---

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-03T14:56:06
+date:  2025-03-05T11:30:29
 draft: false
 lang: en
 format: Pdf
@@ -187,7 +187,7 @@ more_operations:
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/nodejs-java/extract/pdf/"
+          link: "/merger/nodejs-java/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
@@ -199,13 +199,13 @@ more_operations:
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/nodejs-java/remove/pdf/"
+          link: "/merger/nodejs-java/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/nodejs-java/join/pdf/"
+          link: "/merger/nodejs-java/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
@@ -217,19 +217,19 @@ more_operations:
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/nodejs-java/split/pdf/"
+          link: "/merger/nodejs-java/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/nodejs-java/swap/pdf/"
+          link: "/merger/nodejs-java/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/nodejs-java/orientation/pdf/"
+          link: "/merger/nodejs-java/orientation/epub/"
           description: "Change pages orientation"
           
         

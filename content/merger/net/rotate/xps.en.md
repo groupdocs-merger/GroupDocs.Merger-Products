@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:34
+date:  2025-03-05T11:30:33
 draft: false
 lang: en
 format: Xps
@@ -187,55 +187,55 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/net/combine/xps/"
+          link: "/merger/net/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/net/extract/xps/"
+          link: "/merger/net/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/net/move/xps/"
+          link: "/merger/net/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/net/remove/xps/"
+          link: "/merger/net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/net/join/xps/"
+          link: "/merger/net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/net/rotate/xps/"
+          link: "/merger/net/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/net/split/xps/"
+          link: "/merger/net/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/net/swap/xps/"
+          link: "/merger/net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/net/orientation/xps/"
+          link: "/merger/net/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -248,34 +248,22 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, allowing you to modify documents easily using a variety of operations."
     items: 
         # format loop 1
-        - name: "Rotate DOCX pages"
-          format: "DOCX"
-          link: "/merger/net/rotate/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Rotate PDF pages"
+        - name: "Rotate Pdf"
           format: "PDF"
           link: "/merger/net/rotate/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Rotate PPTX pages"
-          format: "PPTX"
-          link: "/merger/net/rotate/pptx/"
-          description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Rotate EPUB pages"
+        # format loop 2
+        - name: "Rotate Epub"
           format: "EPUB"
           link: "/merger/net/rotate/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Rotate XLSX pages"
-          format: "XLSX"
-          link: "/merger/net/rotate/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
+
+        # format loop 3
+        - name: "Rotate Xps"
+          format: "XPS"
+          link: "/merger/net/rotate/xps/"
+          description: "XML Paper Specification File"
+
 
 ---

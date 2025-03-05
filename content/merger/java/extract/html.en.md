@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:28
+date:  2025-03-05T11:30:29
 draft: false
 lang: en
 format: Html
@@ -209,55 +209,55 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/java/combine/html/"
+          link: "/merger/java/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/java/extract/html/"
+          link: "/merger/java/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/java/move/html/"
+          link: "/merger/java/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/java/remove/html/"
+          link: "/merger/java/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/java/join/html/"
+          link: "/merger/java/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/java/rotate/html/"
+          link: "/merger/java/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/java/split/html/"
+          link: "/merger/java/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/java/swap/html/"
+          link: "/merger/java/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/java/orientation/html/"
+          link: "/merger/java/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -270,34 +270,82 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, enabling efficient document manipulation."
     items: 
         # format loop 1
-        - name: "Save DOCX pages"
-          format: "DOCX"
-          link: "/merger/java/extract/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Extract Word"
+          format: "WORD"
+          link: "/merger/java/extract/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Extract PDF pages"
+        - name: "Extract Excel"
+          format: "EXCEL"
+          link: "/merger/java/extract/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Extract Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/java/extract/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Extract Visio"
+          format: "VISIO"
+          link: "/merger/java/extract/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 5
+        - name: "Extract Pdf"
           format: "PDF"
           link: "/merger/java/extract/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Save PPTX pages"
+
+        # format loop 6
+        - name: "Extract Docx"
+          format: "DOCX"
+          link: "/merger/java/extract/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 7
+        - name: "Extract Xlsx"
+          format: "XLSX"
+          link: "/merger/java/extract/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 8
+        - name: "Extract Pptx"
           format: "PPTX"
           link: "/merger/java/extract/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Extract EPUB pages"
+        # format loop 9
+        - name: "Extract Tiff"
+          format: "TIFF"
+          link: "/merger/java/extract/tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop 10
+        - name: "Extract Epub"
           format: "EPUB"
           link: "/merger/java/extract/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Extract XLSX pages"
-          format: "XLSX"
-          link: "/merger/java/extract/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 11
+        - name: "Extract Html"
+          format: "HTML"
+          link: "/merger/java/extract/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 12
+        - name: "Extract Mhtml"
+          format: "MHTML"
+          link: "/merger/java/extract/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 13
+        - name: "Extract Xps"
+          format: "XPS"
+          link: "/merger/java/extract/xps/"
+          description: "XML Paper Specification File"
   
 
 ---

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:32
+date:  2025-03-05T11:30:32
 draft: false
 lang: en
 format: Docx
@@ -187,37 +187,37 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/net/combine/docx/"
+          link: "/merger/net/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/net/extract/docx/"
+          link: "/merger/net/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/net/move/docx/"
+          link: "/merger/net/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/net/remove/docx/"
+          link: "/merger/net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/net/join/docx/"
+          link: "/merger/net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/net/rotate/docx/"
+          link: "/merger/net/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
@@ -229,13 +229,13 @@ more_operations:
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/net/swap/docx/"
+          link: "/merger/net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/net/orientation/docx/"
+          link: "/merger/net/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -248,34 +248,52 @@ more_formats:
     description: "GroupDocs.Merger handles 50+ file types, letting you adjust documents with ease using a range of functions."
     items: 
         # format loop 1
-        - name: "Change DOCX orientation"
+        - name: "Orientation Word"
+          format: "WORD"
+          link: "/merger/net/orientation/word/"
+          description: "Microsoft Word Documents"
+
+        # format loop 2
+        - name: "Orientation Excel"
+          format: "EXCEL"
+          link: "/merger/net/orientation/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Orientation Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/net/orientation/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Orientation Docx"
           format: "DOCX"
           link: "/merger/net/orientation/docx/"
           description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Change PDF orientation"
-          format: "PDF"
-          link: "/merger/net/orientation/pdf/"
-          description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Change PPTX orientation"
+
+        # format loop 5
+        - name: "Orientation Xlsx"
+          format: "XLSX"
+          link: "/merger/net/orientation/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 6
+        - name: "Orientation Pptx"
           format: "PPTX"
           link: "/merger/net/orientation/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Change EPUB orientation"
+        # format loop 7
+        - name: "Orientation Epub"
           format: "EPUB"
           link: "/merger/net/orientation/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Change XLSX orientation"
-          format: "XLSX"
-          link: "/merger/net/orientation/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
+
+        # format loop 8
+        - name: "Orientation Xps"
+          format: "XPS"
+          link: "/merger/net/orientation/xps/"
+          description: "XML Paper Specification File"
+
 
 ---

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:36
+date:  2025-03-05T11:30:34
 draft: false
 lang: en
 format: Xps
@@ -186,55 +186,55 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/python-net/combine/xps/"
+          link: "/merger/python-net/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/python-net/extract/xps/"
+          link: "/merger/python-net/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/python-net/move/xps/"
+          link: "/merger/python-net/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/python-net/remove/xps/"
+          link: "/merger/python-net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/python-net/join/xps/"
+          link: "/merger/python-net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/python-net/rotate/xps/"
+          link: "/merger/python-net/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/python-net/split/xps/"
+          link: "/merger/python-net/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/python-net/swap/xps/"
+          link: "/merger/python-net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/python-net/orientation/xps/"
+          link: "/merger/python-net/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -247,34 +247,76 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, allowing precise document modifications."
     items: 
         # format loop 1
-        - name: "Swap DOCX file"
-          format: "DOCX"
-          link: "/merger/python-net/swap/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Swap Word"
+          format: "WORD"
+          link: "/merger/python-net/swap/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Swap PDF file"
+        - name: "Swap Excel"
+          format: "EXCEL"
+          link: "/merger/python-net/swap/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Swap Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/python-net/swap/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Swap Visio"
+          format: "VISIO"
+          link: "/merger/python-net/swap/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 5
+        - name: "Swap Pdf"
           format: "PDF"
           link: "/merger/python-net/swap/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Swap PPTX file"
+
+        # format loop 6
+        - name: "Swap Docx"
+          format: "DOCX"
+          link: "/merger/python-net/swap/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 7
+        - name: "Swap Xlsx"
+          format: "XLSX"
+          link: "/merger/python-net/swap/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 8
+        - name: "Swap Pptx"
           format: "PPTX"
           link: "/merger/python-net/swap/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Swap EPUB file"
+        # format loop 9
+        - name: "Swap Epub"
           format: "EPUB"
           link: "/merger/python-net/swap/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Swap XLSX file"
-          format: "XLSX"
-          link: "/merger/python-net/swap/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
+
+        # format loop 10
+        - name: "Swap Html"
+          format: "HTML"
+          link: "/merger/python-net/swap/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 11
+        - name: "Swap Mhtml"
+          format: "MHTML"
+          link: "/merger/python-net/swap/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 12
+        - name: "Swap Xps"
+          format: "XPS"
+          link: "/merger/python-net/swap/xps/"
+          description: "XML Paper Specification File"
+
 
 ---

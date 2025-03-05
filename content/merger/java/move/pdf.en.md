@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:30
+date:  2025-03-05T11:30:31
 draft: false
 lang: en
 format: Pdf
@@ -222,7 +222,7 @@ more_operations:
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/java/extract/pdf/"
+          link: "/merger/java/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
@@ -234,13 +234,13 @@ more_operations:
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/java/remove/pdf/"
+          link: "/merger/java/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/java/join/pdf/"
+          link: "/merger/java/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
@@ -252,19 +252,19 @@ more_operations:
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/java/split/pdf/"
+          link: "/merger/java/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/java/swap/pdf/"
+          link: "/merger/java/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/java/orientation/pdf/"
+          link: "/merger/java/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -277,34 +277,75 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, enabling efficient and flexible document manipulation."
     items: 
         # format loop 1
-        - name: "Reorder DOCX pages"
-          format: "DOCX"
-          link: "/merger/java/move/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Move Word"
+          format: "WORD"
+          link: "/merger/java/move/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Move PDF pages"
+        - name: "Move Excel"
+          format: "EXCEL"
+          link: "/merger/java/move/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Move Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/java/move/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Move Visio"
+          format: "VISIO"
+          link: "/merger/java/move/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 5
+        - name: "Move Pdf"
           format: "PDF"
           link: "/merger/java/move/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Reorder PPTX pages"
+
+        # format loop 6
+        - name: "Move Docx"
+          format: "DOCX"
+          link: "/merger/java/move/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 7
+        - name: "Move Xlsx"
+          format: "XLSX"
+          link: "/merger/java/move/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 8
+        - name: "Move Pptx"
           format: "PPTX"
           link: "/merger/java/move/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Move EPUB pages"
+        # format loop 9
+        - name: "Move Epub"
           format: "EPUB"
           link: "/merger/java/move/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Move XLSX pages"
-          format: "XLSX"
-          link: "/merger/java/move/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
 
+        # format loop 10
+        - name: "Move Html"
+          format: "HTML"
+          link: "/merger/java/move/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 11
+        - name: "Move Mhtml"
+          format: "MHTML"
+          link: "/merger/java/move/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 12
+        - name: "Move Xps"
+          format: "XPS"
+          link: "/merger/java/move/xps/"
+          description: "XML Paper Specification File"
+  
 ---

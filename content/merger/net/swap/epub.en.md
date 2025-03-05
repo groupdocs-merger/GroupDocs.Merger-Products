@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:36
+date:  2025-03-05T11:30:34
 draft: false
 lang: en
 format: Epub
@@ -184,7 +184,7 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/net/combine/epub/"
+          link: "/merger/net/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
@@ -196,37 +196,37 @@ more_operations:
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/net/move/epub/"
+          link: "/merger/net/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/net/remove/epub/"
+          link: "/merger/net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/net/join/epub/"
+          link: "/merger/net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/net/rotate/epub/"
+          link: "/merger/net/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/net/split/epub/"
+          link: "/merger/net/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/net/swap/epub/"
+          link: "/merger/net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
@@ -245,34 +245,76 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file types, giving you full control over document content."
     items: 
         # format loop 1
-        - name: "Swap DOCX file"
-          format: "DOCX"
-          link: "/merger/net/swap/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Swap Word"
+          format: "WORD"
+          link: "/merger/net/swap/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Swap PDF file"
+        - name: "Swap Excel"
+          format: "EXCEL"
+          link: "/merger/net/swap/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Swap Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/net/swap/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Swap Visio"
+          format: "VISIO"
+          link: "/merger/net/swap/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 5
+        - name: "Swap Pdf"
           format: "PDF"
           link: "/merger/net/swap/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Swap PPTX file"
+
+        # format loop 6
+        - name: "Swap Docx"
+          format: "DOCX"
+          link: "/merger/net/swap/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 7
+        - name: "Swap Xlsx"
+          format: "XLSX"
+          link: "/merger/net/swap/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 8
+        - name: "Swap Pptx"
           format: "PPTX"
           link: "/merger/net/swap/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Swap EPUB file"
+        # format loop 9
+        - name: "Swap Epub"
           format: "EPUB"
           link: "/merger/net/swap/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Swap XLSX file"
-          format: "XLSX"
-          link: "/merger/net/swap/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
+
+        # format loop 10
+        - name: "Swap Html"
+          format: "HTML"
+          link: "/merger/net/swap/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 11
+        - name: "Swap Mhtml"
+          format: "MHTML"
+          link: "/merger/net/swap/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 12
+        - name: "Swap Xps"
+          format: "XPS"
+          link: "/merger/net/swap/xps/"
+          description: "XML Paper Specification File"
+
 
 ---

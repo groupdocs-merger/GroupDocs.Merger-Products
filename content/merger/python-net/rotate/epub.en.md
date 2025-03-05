@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:34
+date:  2025-03-05T11:30:33
 draft: false
 lang: en
 format: Epub
@@ -189,7 +189,7 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/python-net/combine/epub/"
+          link: "/merger/python-net/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
@@ -201,37 +201,37 @@ more_operations:
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/python-net/move/epub/"
+          link: "/merger/python-net/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/python-net/remove/epub/"
+          link: "/merger/python-net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/python-net/join/epub/"
+          link: "/merger/python-net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/python-net/rotate/epub/"
+          link: "/merger/python-net/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/python-net/split/epub/"
+          link: "/merger/python-net/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/python-net/swap/epub/"
+          link: "/merger/python-net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
@@ -250,34 +250,22 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file types, allowing you to modify documents quickly with a variety of built-in operations."
     items: 
         # format loop 1
-        - name: "Rotate DOCX pages"
-          format: "DOCX"
-          link: "/merger/python-net/rotate/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Rotate PDF pages"
+        - name: "Rotate Pdf"
           format: "PDF"
           link: "/merger/python-net/rotate/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Rotate PPTX pages"
-          format: "PPTX"
-          link: "/merger/python-net/rotate/pptx/"
-          description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Rotate EPUB pages"
+        # format loop 2
+        - name: "Rotate Epub"
           format: "EPUB"
           link: "/merger/python-net/rotate/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Rotate XLSX pages"
-          format: "XLSX"
-          link: "/merger/python-net/rotate/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
+
+        # format loop 3
+        - name: "Rotate Xps"
+          format: "XPS"
+          link: "/merger/python-net/rotate/xps/"
+          description: "XML Paper Specification File"
+
 
 ---

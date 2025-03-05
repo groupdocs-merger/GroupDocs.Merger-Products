@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:33
+date:  2025-03-05T11:30:32
 draft: false
 lang: en
 format: Docx
@@ -187,37 +187,37 @@ more_operations:
         # operation loop 1
         - name: "Merge documents"
           operation: "combine"
-          link: "/merger/nodejs-java/combine/docx/"
+          link: "/merger/nodejs-java/combine/pdf/"
           description: "Combine multiple documents into one"
 
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/nodejs-java/extract/docx/"
+          link: "/merger/nodejs-java/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
         - name: "Move pages"
           operation: "move"
-          link: "/merger/nodejs-java/move/docx/"
+          link: "/merger/nodejs-java/move/pdf/"
           description: "Reposition any page within a document"
 
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/nodejs-java/remove/docx/"
+          link: "/merger/nodejs-java/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/nodejs-java/join/docx/"
+          link: "/merger/nodejs-java/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
         - name: "Rotate pages"
           operation: "rotate"
-          link: "/merger/nodejs-java/rotate/docx/"
+          link: "/merger/nodejs-java/rotate/pdf/"
           description: "Rotate document pages"
 
         # operation loop 7
@@ -229,13 +229,13 @@ more_operations:
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/nodejs-java/swap/docx/"
+          link: "/merger/nodejs-java/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/nodejs-java/orientation/docx/"
+          link: "/merger/nodejs-java/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -248,34 +248,75 @@ more_formats:
     description: "GroupDocs.Merger supports over 50 file formats, allowing you to modify documents quickly and effortlessly."
     items: 
         # format loop 1
-        - name: "Delete DOCX pages"
-          format: "DOCX"
-          link: "/merger/nodejs-java/remove/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Remove Word"
+          format: "WORD"
+          link: "/merger/nodejs-java/remove/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Delete PDF pages"
+        - name: "Remove Excel"
+          format: "EXCEL"
+          link: "/merger/nodejs-java/remove/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Remove Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/nodejs-java/remove/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Remove Visio"
+          format: "VISIO"
+          link: "/merger/nodejs-java/remove/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 5
+        - name: "Remove Pdf"
           format: "PDF"
           link: "/merger/nodejs-java/remove/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Remove PPTX pages"
+
+        # format loop 6
+        - name: "Remove Docx"
+          format: "DOCX"
+          link: "/merger/nodejs-java/remove/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 7
+        - name: "Remove Xlsx"
+          format: "XLSX"
+          link: "/merger/nodejs-java/remove/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 8
+        - name: "Remove Pptx"
           format: "PPTX"
           link: "/merger/nodejs-java/remove/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Delete EPUB pages"
+        # format loop 9
+        - name: "Remove Epub"
           format: "EPUB"
           link: "/merger/nodejs-java/remove/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Remove XLSX pages"
-          format: "XLSX"
-          link: "/merger/nodejs-java/remove/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-  
 
+        # format loop 10
+        - name: "Remove Html"
+          format: "HTML"
+          link: "/merger/nodejs-java/remove/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 11
+        - name: "Remove Mhtml"
+          format: "MHTML"
+          link: "/merger/nodejs-java/remove/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 12
+        - name: "Remove Xps"
+          format: "XPS"
+          link: "/merger/nodejs-java/remove/xps/"
+          description: "XML Paper Specification File"
+  
 ---

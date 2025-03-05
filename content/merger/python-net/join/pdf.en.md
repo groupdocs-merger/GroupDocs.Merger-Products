@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-02-27T14:40:30
+date:  2025-03-05T11:30:31
 draft: false
 lang: en
 format: Pdf
@@ -187,7 +187,7 @@ more_operations:
         # operation loop 2
         - name: "Extract pages"
           operation: "extract"
-          link: "/merger/python-net/extract/pdf/"
+          link: "/merger/python-net/extract/epub/"
           description: "Save selected pages as a separate document"
 
         # operation loop 3
@@ -199,13 +199,13 @@ more_operations:
         # operation loop 4
         - name: "Remove pages"
           operation: "remove"
-          link: "/merger/python-net/remove/pdf/"
+          link: "/merger/python-net/remove/xlsx/"
           description: "Delete document pages"
 
         # operation loop 5
         - name: "Join documents"
           operation: "join"
-          link: "/merger/python-net/join/pdf/"
+          link: "/merger/python-net/join/jpeg/"
           description: "Combine multiple documents into one"
 
         # operation loop 6
@@ -217,19 +217,19 @@ more_operations:
         # operation loop 7
         - name: "Split doc"
           operation: "split"
-          link: "/merger/python-net/split/pdf/"
+          link: "/merger/python-net/split/docx/"
           description: "Split documents"
 
         # operation loop 8
         - name: "Swap pages"
           operation: "swap"
-          link: "/merger/python-net/swap/pdf/"
+          link: "/merger/python-net/swap/pptx/"
           description: "Swap document pages"
 
         # operation loop 9
         - name: "Change orientation"
           operation: "orientation"
-          link: "/merger/python-net/orientation/pdf/"
+          link: "/merger/python-net/orientation/epub/"
           description: "Change pages orientation"
           
         
@@ -242,34 +242,131 @@ more_formats:
     description: "With support for over 50 document types, GroupDocs.Merger streamlines file processing, making document handling simple and efficient."
     items: 
         # format loop 1
-        - name: "Combine DOCX files"
-          format: "DOCX"
-          link: "/merger/python-net/join/docx/"
-          description: "Microsoft Word Open XML Document"
-          
+        - name: "Join Word"
+          format: "WORD"
+          link: "/merger/python-net/join/word/"
+          description: "Microsoft Word Documents"
+
         # format loop 2
-        - name: "Join PDF files"
+        - name: "Join Excel"
+          format: "EXCEL"
+          link: "/merger/python-net/join/excel/"
+          description: "Microsoft Excel Spreadsheets"
+
+        # format loop 3
+        - name: "Join Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/python-net/join/powerpoint/"
+          description: "Microsoft PowerPoint Presentations"
+
+        # format loop 4
+        - name: "Join Image"
+          format: "IMAGE"
+          link: "/merger/python-net/join/image/"
+          description: "Popular Image Formats"
+
+        # format loop 5
+        - name: "Join Visio"
+          format: "VISIO"
+          link: "/merger/python-net/join/visio/"
+          description: "Microsoft Visio Diagrams"
+          
+        # format loop 6
+        - name: "Join Pdf"
           format: "PDF"
           link: "/merger/python-net/join/pdf/"
           description: "Adobe Portable Document Format"
-          
-        # format loop 3
-        - name: "Combine PPTX files"
+
+        # format loop 7
+        - name: "Join Docx"
+          format: "DOCX"
+          link: "/merger/python-net/join/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 8
+        - name: "Join Xlsx"
+          format: "XLSX"
+          link: "/merger/python-net/join/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 9
+        - name: "Join Pptx"
           format: "PPTX"
           link: "/merger/python-net/join/pptx/"
           description: "PowerPoint Open XML Presentation"
 
-        # format loop 4
-        - name: "Join EPUB files"
+        # format loop 10
+        - name: "Join Bmp"
+          format: "BMP"
+          link: "/merger/python-net/join/bmp/"
+          description: "Bitmap Image"
+
+        # format loop 11
+        - name: "Join Jpeg"
+          format: "JPEG"
+          link: "/merger/python-net/join/jpeg/"
+          description: "JPEG Image File"
+
+        # format loop 12
+        - name: "Join Png"
+          format: "PNG"
+          link: "/merger/python-net/join/png/"
+          description: "Portable Network Graphics"
+
+        # format loop 13
+        - name: "Join Svg"
+          format: "SVG"
+          link: "/merger/python-net/join/svg/"
+          description: "Scalar Vector Graphics"
+
+        # format loop 14
+        - name: "Join Tiff"
+          format: "TIFF"
+          link: "/merger/python-net/join/tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop 15
+        - name: "Join Csv"
+          format: "CSV"
+          link: "/merger/python-net/join/csv/"
+          description: "Comma Separated Values File"
+
+        # format loop 16
+        - name: "Join Epub"
           format: "EPUB"
           link: "/merger/python-net/join/epub/"
           description: "Electronic Publication"
-          
-        # format loop 5
-        - name: "Join XLSX files"
-          format: "XLSX"
-          link: "/merger/python-net/join/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 17
+        - name: "Join Html"
+          format: "HTML"
+          link: "/merger/python-net/join/html/"
+          description: "Hypertext Markup Language File"
+
+        # format loop 18
+        - name: "Join Mhtml"
+          format: "MHTML"
+          link: "/merger/python-net/join/mhtml/"
+          description: "MHTML Web Archive"
+
+        # format loop 19
+        - name: "Join Txt"
+          format: "TXT"
+          link: "/merger/python-net/join/txt/"
+          description: "Plain Text File"
+
+        # format loop 20
+        - name: "Join Xps"
+          format: "XPS"
+          link: "/merger/python-net/join/xps/"
+          description: "XML Paper Specification File"
+
+        # format loop 21
+        - name: "Join Zip"
+          format: "ZIP"
+          link: "/merger/python-net/join/zip/"
+          description: "ZIP Archive"
+
   
 
 ---
