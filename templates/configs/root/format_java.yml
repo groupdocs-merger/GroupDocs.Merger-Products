@@ -1,0 +1,15 @@
+inherits: ..\\languages-formats-root.yml
+
+dimensions:
+- alias: product
+  values: [java]
+- alias:  fileformat
+  values: [word, excel, powerpoint, image, visio, pdf, docx, xlsx, pptx, bmp, jpeg, jpg, png, svg, tiff, csv, epub, html, mhtml, txt, xps, zip]
+
+generationRules:
+  include:
+  - fileformat[word, excel, powerpoint, image, visio, pdf, docx, xlsx, pptx, bmp, jpeg, jpg, png, svg, tiff, csv, epub, html, mhtml, txt, xps, zip]
+  
+outputPath: "merger\\{product}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

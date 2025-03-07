@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Merge {{FileFormatUp}} files via {{EnvName}}",
+    "description": "Integrate {{FileFormatUp}} document merging seamlessly into your {{EnvNameShort}} projects with {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Merge {{FileFormatUp}} files",
+    "description": "Streamline document processing in your {{EnvNameShort}} applications with {{ProdFullName}}, enabling fast and efficient {{FileFormatUp}} file merging.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download for free"
+  },
+  "about": {
+    "title": "About {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive solution for document management, supporting over 50 file types, including PDFs, Word documents, spreadsheets, presentations, images, and archives. Easily merge, split, reorder, extract, and remove pages to structure your documents as needed."
+  },
+  "more_features": {
+    "title": "Document merging tools",
+    "description": "{{ProdFullName}} provides advanced document processing capabilities, supporting over 50 widely used file formats.",
+    "image_description": "Key benefits of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Merge different document formats",
+      "content": "Merge various file types, including PDFs, Word documents, spreadsheets, presentations, and images. Define specific pages to include in the merge process."
+    },
+    "feature_2": {
+      "title": "Page management",
+      "content": "Easily reorganize, delete, or swap pages to structure documents efficiently."
+    },
+    "feature_3": {
+      "title": "Modify page layout",
+      "content": "Rotate pages to any angle and toggle between landscape and portrait modes for compatible file formats."
+    },
+    "feature_4": {
+      "title": "Extract pages",
+      "content": "Select and extract specific pages, saving them as a new document."
+    }
+  },
+  "formats": {
+    "title": "Merge various file formats",
+    "description": "{{ProdShortName}} supports over 50 document types, allowing seamless merging and customization."
+  },
+  "operations": {
+    "title": "Key features",
+    "description": "Discover additional tools for document processing"
+  },
+  "examples": {
+    "comment_1": "Initialize {{NameProduct}} with the source {{FileFormatUp}} document",
+    "comment_2": "Merge the document with an additional file",
+    "comment_3": "Save the merged document to the desired location"
+  },
+  "steps": {
+    "title": "How to merge {{FileFormatUp}} documents",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it simple to merge {{FileFormatUp}} documents. Add merging capabilities to your {{EnvName}} applications to efficiently combine multiple files.",
+      "step_1": "Provide the path to the first {{FileFormatUp}} file.",
+      "step_2": "Select an additional file to merge.",
+      "step_3": "Apply optional settings if necessary.",
+      "step_4": "Execute the merge process and save the output document."
+    }
+  },
+  "code_1": {
+    "title": "Merge files of different formats",
+    "content": "This example demonstrates how to merge multiple files of various formats into a single document.",
+    "comment_1": "Define the main file path",
+    "comment_2": "Merge it with a Microsoft Word document",
+    "comment_3": "Include a Microsoft Excel spreadsheet in the merged document",
+    "comment_4": "Save the final merged document to the specified location"
+  }
+}
