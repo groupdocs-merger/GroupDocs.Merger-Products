@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Remover páginas de {{FileFormatUp}} em aplicativos {{EnvName}}",
+    "description": "Utilize {{ProdFullName}} para remover páginas específicas de documentos {{FileFormatUp}}. Processe PDFs, Word, Excel, PowerPoint, imagens, arquivos e muito mais."
+  },
+  "header": {
+    "title": "Remover páginas de {{FileFormatUp}}",
+    "description": "{{ProdFullName}} aprimora aplicativos {{EnvNameShort}} com poderosas funcionalidades de processamento de documentos, incluindo remoção de páginas de arquivos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenha Gratuitamente"
+  },
+  "about": {
+    "title": "O que é {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma ferramenta de processamento de documentos rica em recursos que suporta mais de 50 formatos de arquivos, incluindo PDF, Word, Excel, PowerPoint, Visio, imagens e arquivos. Oferece funcionalidades de mesclagem, divisão, extração, movimentação, troca e deleção de páginas para simplificar a gestão de documentos em suas aplicações."
+  },
+  "more_features": {
+    "title": "Gestão avançada de documentos",
+    "description": "{{ProdFullName}} fornece um conjunto completo de ferramentas para trabalhar com mais de 50 formatos de arquivos amplamente utilizados, tornando o processamento de documentos mais fácil e eficiente.",
+    "image_description": "Capacidades principais de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mescle vários formatos de arquivo",
+      "content": "Combine PDFs, documentos Word, planilhas, apresentações, imagens e arquivos com opções de mesclagem personalizáveis para resultados precisos."
+    },
+    "feature_2": {
+      "title": "Gerenciamento flexível de páginas",
+      "content": "Reorganize as páginas do documento movendo, trocando ou deletando para manter seus arquivos bem organizados."
+    },
+    "feature_3": {
+      "title": "Personalize o layout das páginas",
+      "content": "Gire páginas em qualquer ângulo ou alterne entre orientações paisagem e retrato."
+    },
+    "feature_4": {
+      "title": "Extraia páginas como arquivos separados",
+      "content": "Selecione e salve páginas específicas como documentos independentes."
+    }
+  },
+  "formats": {
+    "title": "Remova páginas de vários formatos de documento",
+    "description": "{{ProdShortName}} suporta mais de 50 formatos de arquivos, permitindo modificar documentos de forma rápida e eficiente."
+  },
+  "operations": {
+    "title": "Recursos principais",
+    "description": "Descubra capacidades adicionais da nossa solução de processamento de documentos."
+  },
+  "examples": {
+    "comment_1": "Crie uma instância de {{NameProduct}} e forneça o caminho do arquivo",
+    "comment_2": "Defina o(s) número(s) da(s) página(s) a serem removidas",
+    "comment_3": "Aplique as configurações de remoção",
+    "comment_4": "Salve o documento modificado"
+  },
+  "steps": {
+    "title": "Como remover páginas de {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita a exclusão de páginas de documentos {{FileFormatUp}}. Integre-o em suas aplicações {{EnvName}} para aprimorar as capacidades de gestão de documentos.",
+      "step_1": "Especifique o caminho para o arquivo {{FileFormatUp}}.",
+      "step_2": "Defina os números das páginas que deseja remover.",
+      "step_3": "Execute a operação de remoção de páginas.",
+      "step_4": "Salve o documento atualizado."
+    }
+  },
+  "code_1": {
+    "title": "Remover todas as páginas com número par",
+    "content": "Aprenda como excluir páginas com número par de um documento {{FileFormatUp}}.",
+    "comment_1": "Forneça o caminho do arquivo ao construtor",
+    "comment_2": "Obtenha o número total de páginas no documento",
+    "comment_3": "Configure as configurações para remover páginas pares",
+    "comment_4": "Processar o documento",
+    "comment_5": "Salve o arquivo atualizado no local especificado"
+  }
+}

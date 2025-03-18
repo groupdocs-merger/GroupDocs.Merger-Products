@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Fusionner des fichiers {{FileFormatUp}} en {{ProgLang}}",
+    "description": "Intégrez la fusion de fichiers {{FileFormatUp}} dans vos projets {{EnvNameShort}} avec {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Fusionner des fichiers {{FileFormatUp}}",
+    "description": "{{ProdFullName}} vous permet de fusionner sans effort des documents {{FileFormatUp}} au sein de vos applications {{EnvNameShort}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil complet de gestion de documents. Il prend en charge plus de 50 formats, y compris PDF, Word, Excel, PowerPoint, images et archives, vous permettant de fusionner, diviser, extraire, échanger et supprimer des pages sans difficulté."
+  },
+  "more_features": {
+    "title": "Fusion avancée de documents",
+    "description": "{{ProdFullName}} est conçu pour fonctionner avec plus de 50 formats de fichiers populaires, offrant des capacités robustes de traitement de documents.",
+    "image_description": "Capacités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner différents types de documents",
+      "content": "Fusionnez sans effort des PDF, des documents Word, des présentations, des tableurs, des images, et plus encore. Personnalisez les pages à inclure selon vos besoins."
+    },
+    "feature_2": {
+      "title": "Modifier les pages de documents",
+      "content": "Réorganisez, supprimez ou échangez des pages pour mieux structurer vos documents d'entreprise."
+    },
+    "feature_3": {
+      "title": "Ajuster les paramètres des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle et changez leur orientation entre paysage et portrait pour les formats de fichiers supportés."
+    },
+    "feature_4": {
+      "title": "Extraire des pages de documents",
+      "content": "Sélectionnez et extrayez des pages spécifiques, en les enregistrant sous forme de nouveau document autonome."
+    }
+  },
+  "formats": {
+    "title": "Fusionner plusieurs formats de fichiers",
+    "description": "{{ProdShortName}} prend en charge plus de 50 types de fichiers, garantissant un traitement fluide des documents pour divers besoins professionnels."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés",
+    "description": "Découvrez d'autres fonctionnalités et opérations prises en charge par {{ProdShortName}}."
+  },
+  "examples": {
+    "comment_1": "Initialisez {{NameProduct}} avec le fichier {{FileFormatUp}} d'entrée",
+    "comment_2": "Fusionnez le fichier avec un autre document",
+    "comment_3": "Enregistrez le document fusionné à un emplacement spécifié"
+  },
+  "steps": {
+    "title": "Comment fusionner des documents {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permet une fusion fluide pour les documents {{FileFormatUp}}. Améliorez vos applications {{EnvName}} en combinant plusieurs fichiers en un seul.",
+      "step_1": "Définissez le chemin du premier document {{FileFormatUp}}.",
+      "step_2": "Sélectionnez le deuxième document.",
+      "step_3": "Définissez les paramètres optionnels.",
+      "step_4": "Fusionnez les fichiers et enregistrez le document de sortie."
+    }
+  },
+  "code_1": {
+    "title": "Fusionner des pages sélectionnées de différents formats de fichiers",
+    "content": "Cet exemple montre comment fusionner des fichiers {{FileFormatUp}} tout en sélectionnant des pages spécifiques d'autres types de documents.",
+    "comment_1": "Spécifiez le chemin du document principal",
+    "comment_2": "Définissez les options pour inclure les pages sélectionnées",
+    "comment_3": "Fusionnez le fichier principal avec des pages d'un autre document",
+    "comment_4": "Enregistrez le document fusionné final à l'emplacement souhaité"
+  }
+}

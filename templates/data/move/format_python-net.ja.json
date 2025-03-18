@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}ページの並び替え - {{EnvName}}",
+    "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ドキュメント内のページを迅速に並び替えます。PDF、Word、Excel、PowerPointファイル、画像などを処理します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}のページを並び替え",
+    "description": "{{ProdFullName}}は、{{EnvNameShort}}アプリケーションが{{FileFormatUp}}ドキュメント内のページ順を自在に変更できるようにします。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料で試す"
+  },
+  "about": {
+    "title": "{{ProdShortName}}について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word、Excel、PowerPoint、画像、アーカイブなど、50以上のファイル形式をサポートする多用途なドキュメント処理ツールです。マージ、分割、抽出、移動、スワップ、ページの削除などの機能を提供します。"
+  },
+  "more_features": {
+    "title": "高度なドキュメント処理",
+    "description": "{{ProdFullName}}は、50以上の一般的なビジネス文書形式を効率的に処理するための幅広い機能を提供します。",
+    "image_description": "{{ProdShortName}}の主な機能",
+    "feature_1": {
+      "title": "異なる形式の文書をマージ",
+      "content": "PDF、Word文書、プレゼンテーション、スプレッドシート、画像、アーカイブのコンテンツを結合します。柔軟なオプションにより、文書の構造を正確に設定できます。"
+    },
+    "feature_2": {
+      "title": "ページの整理",
+      "content": "必要に応じてページを移動、スワップ、または削除することで、文書内のページを並び替えます。"
+    },
+    "feature_3": {
+      "title": "ページの向きを調整",
+      "content": "ページを任意の角度に回転させたり、縦横のモードを切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "ページを個別の文書として抽出",
+      "content": "ページを選択して抽出し、独立したファイルとして保存します。"
+    }
+  },
+  "formats": {
+    "title": "複数形式でのページの並び替え",
+    "description": "{{ProdShortName}}は50以上のファイル形式をサポートし、文書の整理のための柔軟なソリューションを提供します。"
+  },
+  "operations": {
+    "title": "主要な機能",
+    "description": "私たちのソリューションのさらなる強力な機能を探ります。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}オブジェクトをソースドキュメントパスで初期化",
+    "comment_2": "移動するページを選択",
+    "comment_3": "ページを再配置",
+    "comment_4": "更新された文書を保存"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}ページを並び替える方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})は、{{FileFormatUp}}ドキュメント内のページを移動するのに役立ちます。高度なドキュメント管理機能を使って{{EnvName}}アプリケーションをアップグレードしましょう。",
+      "step_1": "{{FileFormatUp}}ドキュメントへのパスを提供します。",
+      "step_2": "ページ番号を選択し、その新しい位置を指定します。",
+      "step_3": "移動操作を実行します。",
+      "step_4": "修正された文書を保存します。"
+    }
+  },
+  "code_1": {
+    "title": "文書の最後の位置にページを移動する",
+    "content": "この例は、特定のページを{{FileFormatUp}}文書の最後に移動する方法を示しています。",
+    "comment_1": "ソースファイルパスを設定",
+    "comment_2": "文書の詳細を取得し、最後のページ番号を決定",
+    "comment_3": "ターゲットページ番号でオプションを設定",
+    "comment_4": "ページ移動操作を実行",
+    "comment_5": "修正された文書を保存"
+  }
+}

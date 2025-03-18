@@ -1,0 +1,217 @@
+{
+  "common-content": {
+    "format-formats": {
+      "word": {
+        "name": "WORD",
+        "description": "Tài liệu Microsoft Word"
+      },
+      "excel": {
+        "name": "EXCEL",
+        "description": "Bảng tính Microsoft Excel"
+      },
+      "powerpoint": {
+        "name": "POWERPOINT",
+        "description": "Bài thuyết trình Microsoft PowerPoint"
+      },
+      "image": {
+        "name": "HÌNH ẢNH",
+        "description": "Các định dạng hình ảnh phổ biến"
+      },
+      "visio": {
+        "name": "VISIO",
+        "description": "Sơ đồ Microsoft Visio"
+      },
+      "pdf": {
+        "name": "PDF",
+        "description": "Định dạng tài liệu di động của Adobe"
+      },
+      "docx": {
+        "name": "DOCX",
+        "description": "Tài liệu mở XML Microsoft Word"
+      },
+      "xlsx": {
+        "name": "XLSX",
+        "description": "Bảng tính mở XML Microsoft Excel"
+      },
+      "pptx": {
+        "name": "PPTX",
+        "description": "Bài thuyết trình mở XML PowerPoint"
+      },
+      "bmp": {
+        "name": "BMP",
+        "description": "Hình ảnh Bitmap"
+      },
+      "jpeg": {
+        "name": "JPEG",
+        "description": "Tập tin hình ảnh JPEG"
+      },
+      "jpg": {
+        "name": "JPG",
+        "description": "Tập tin hình ảnh JPEG"
+      },
+      "png": {
+        "name": "PNG",
+        "description": "Đồ họa mạng di động"
+      },
+      "svg": {
+        "name": "SVG",
+        "description": "Đồ họa vector tỉ lệ"
+      },
+      "tiff": {
+        "name": "TIFF",
+        "description": "Định dạng tệp hình ảnh đánh dấu"
+      },
+      "csv": {
+        "name": "CSV",
+        "description": "Tập tin giá trị phân tách bằng dấu phẩy"
+      },
+      "epub": {
+        "name": "EPUB",
+        "description": "Xuất bản điện tử"
+      },
+      "html": {
+        "name": "HTML",
+        "description": "Tập tin ngôn ngữ đánh dấu siêu văn bản"
+      },
+      "mhtml": {
+        "name": "MHTML",
+        "description": "Lưu trữ web MHTML"
+      },
+      "txt": {
+        "name": "TXT",
+        "description": "Tập tin văn bản thuần"
+      },
+      "xps": {
+        "name": "XPS",
+        "description": "Tệp thông số giấy XML"
+      },
+      "zip": {
+        "name": "ZIP",
+        "description": "Lưu trữ ZIP"
+      }
+    },
+    "format-operations": {
+      "combine": {
+        "pdf": "Ghép các tài liệu PDF",
+        "docx": "Gộp các tài liệu DOCX",
+        "xlsx": "Ghép các tài liệu XLSX",
+        "pptx": "Gộp các tài liệu PPTX",
+        "epub": "Ghép các tài liệu EPUB"
+      },
+      "extract": {
+        "pdf": "Trích xuất các trang PDF",
+        "docx": "Lưu các trang DOCX",
+        "xlsx": "Trích xuất các trang XLSX",
+        "pptx": "Lưu các trang PPTX",
+        "epub": "Trích xuất các trang EPUB"
+      },
+      "join": {
+        "pdf": "Gộp các tệp PDF",
+        "docx": "Ghép các tệp DOCX",
+        "xlsx": "Gộp các tệp XLSX",
+        "pptx": "Ghép các tệp PPTX",
+        "epub": "Gộp các tệp EPUB"
+      },
+      "move": {
+        "pdf": "Di chuyển các trang PDF",
+        "docx": "Thay đổi thứ tự các trang DOCX",
+        "xlsx": "Di chuyển các trang XLSX",
+        "pptx": "Thay đổi thứ tự các trang PPTX",
+        "epub": "Di chuyển các trang EPUB"
+      },
+      "remove": {
+        "pdf": "Xóa các trang PDF",
+        "docx": "Xóa các trang DOCX",
+        "xlsx": "Loại bỏ các trang XLSX",
+        "pptx": "Xóa các trang PPTX",
+        "epub": "Xóa các trang EPUB"
+      },
+      "rotate": {
+        "pdf": "Xoay các trang PDF",
+        "docx": "Xoay các trang DOCX",
+        "xlsx": "Xoay các trang XLSX",
+        "pptx": "Xoay các trang PPTX",
+        "epub": "Xoay các trang EPUB"
+      },
+      "split": {
+        "pdf": "Chia tệp PDF",
+        "docx": "Chia tệp DOCX",
+        "xlsx": "Chia tệp XLSX",
+        "pptx": "Chia tệp PPTX",
+        "epub": "Chia tệp EPUB"
+      },
+      "swap": {
+        "pdf": "Hoán đổi tệp PDF",
+        "docx": "Hoán đổi tệp DOCX",
+        "xlsx": "Hoán đổi tệp XLSX",
+        "pptx": "Hoán đổi tệp PPTX",
+        "epub": "Hoán đổi tệp EPUB"
+      },
+      "orientation": {
+        "pdf": "Thay đổi hướng PDF",
+        "docx": "Thay đổi hướng DOCX",
+        "xlsx": "Thay đổi hướng XLSX",
+        "pptx": "Thay đổi hướng PPTX",
+        "epub": "Thay đổi hướng EPUB"
+      }
+    },
+    "format-code": {
+      "copy_title": "Sao chép",
+      "result_title": "Kết quả mã",
+      "result_title_bottom": "Tải kết quả xuống",
+      "copy_tip": "nhấp để sao chép",
+      "copy_done": "đã sao chép",
+      "links": {
+        "title_1": "Nhiều ví dụ hơn",
+        "title_2": "Tài liệu"
+      }
+    },
+    "format-actions": {
+      "title": "Sẵn sàng để bắt đầu?",
+      "description": "Thử các tính năng của {{ProdShortName}} miễn phí hoặc yêu cầu giấy phép",
+      "comment_1": "Tải xuống {{PackageStoreName}}",
+      "comment_2": "Giấy phép"
+    },
+    "texts": {
+      "learn_more": "Tìm hiểu thêm"
+    },
+    "operations": {
+      "combine": {
+        "name": "Gộp tài liệu",
+        "description": "Kết hợp nhiều tài liệu thành một"
+      },
+      "extract": {
+        "name": "Trích xuất các trang",
+        "description": "Lưu các trang đã chọn thành một tài liệu riêng"
+      },
+      "join": {
+        "name": "Ghép tài liệu",
+        "description": "Kết hợp nhiều tài liệu thành một"
+      },
+      "move": {
+        "name": "Di chuyển các trang",
+        "description": "Thay đổi vị trí bất kỳ trang nào trong tài liệu"
+      },
+      "remove": {
+        "name": "Xóa các trang",
+        "description": "Xóa các trang tài liệu"
+      },
+      "rotate": {
+        "name": "Xoay các trang",
+        "description": "Xoay các trang tài liệu"
+      },
+      "split": {
+        "name": "Chia tài liệu",
+        "description": "Chia các tài liệu"
+      },
+      "swap": {
+        "name": "Hoán đổi các trang",
+        "description": "Hoán đổi các trang tài liệu"
+      },
+      "orientation": {
+        "name": "Thay đổi hướng",
+        "description": "Thay đổi hướng các trang"
+      }
+    }
+  }
+}

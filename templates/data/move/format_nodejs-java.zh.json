@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "重新排列 {{FileFormatUp}} 页面于 {{EnvName}}",
+    "description": "使用 {{ProdFullName}} 无缝地更改 {{FileFormatUp}} 文档中页面的顺序。处理 PDF、Word、Excel、PowerPoint、图片等格式。"
+  },
+  "header": {
+    "title": "重新排列 {{FileFormatUp}} 中的页面",
+    "description": "{{ProdFullName}} 为 {{EnvNameShort}} 应用程序提供了轻松更改 {{FileFormatUp}} 文档中页面顺序的能力。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费试用"
+  },
+  "about": {
+    "title": "关于 {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一款强大的文档处理工具，支持超过 50 种文件格式，包括 PDF、Word、Excel、PowerPoint、图像及归档文件。它提供强大的合并、拆分、提取、重新排列、交换和删除页面的功能。"
+  },
+  "more_features": {
+    "title": "全面的文档处理",
+    "description": "{{ProdFullName}} 提供丰富的功能集，使您能够高效地处理超过 50 种流行的商业文件格式。",
+    "image_description": "{{ProdShortName}} 的关键功能",
+    "feature_1": {
+      "title": "合并不同类型的文档",
+      "content": "结合来自 PDF、Word 文件、演示文稿、电子表格、图片和归档的内容。使用灵活的选项自定义最终文档结构。"
+    },
+    "feature_2": {
+      "title": "修改文档页面",
+      "content": "通过移动、交换或删除需要的页面来重新排列文档中的页面。"
+    },
+    "feature_3": {
+      "title": "调整页面布局和方向",
+      "content": "将页面旋转到所需的角度或在纵向和横向模式之间切换。"
+    },
+    "feature_4": {
+      "title": "将页面提取为单独文档",
+      "content": "选择特定页面并将其保存为独立文件以供进一步使用。"
+    }
+  },
+  "formats": {
+    "title": "在多种格式中重新排列页面",
+    "description": "{{ProdShortName}} 支持超过 50 种文件格式，提供灵活性和精确性进行文档操作。"
+  },
+  "operations": {
+    "title": "核心功能",
+    "description": "发现我们解决方案中包含的其他基本功能。"
+  },
+  "examples": {
+    "comment_1": "用源文档初始化一个 {{NameProduct}} 实例",
+    "comment_2": "定义需要移动的页面编号",
+    "comment_3": "重新定位所选页面",
+    "comment_4": "保存修改过的文档"
+  },
+  "steps": {
+    "title": "如何重新排列 {{FileFormatUp}} 页面",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 简化了在 {{FileFormatUp}} 文档中移动页面的过程。为您的 {{EnvName}} 应用程序增强高级文档组织功能。",
+      "step_1": "指定 {{FileFormatUp}} 文档的路径。",
+      "step_2": "指明页面编号及其新位置。",
+      "step_3": "执行页面移动操作。",
+      "step_4": "保存修改后的文档。"
+    }
+  },
+  "code_1": {
+    "title": "将页面移动到文档的最后位置",
+    "content": "本示例演示如何将一个页面重新定位到 {{FileFormatUp}} 文档的末尾。",
+    "comment_1": "提供源文档路径",
+    "comment_2": "获取文档详情并确定最后页面编号",
+    "comment_3": "使用目标页面编号配置移动操作",
+    "comment_4": "执行移动操作",
+    "comment_5": "将更新后的文档保存到所需位置"
+  }
+}

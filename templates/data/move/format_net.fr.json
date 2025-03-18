@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Déplacer des pages {{FileFormatUp}} dans {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour réorganiser les pages dans les documents {{FileFormatUp}}. Traitez les fichiers PDF, Word, Excel, PowerPoint, images et bien plus."
+  },
+  "header": {
+    "title": "Déplacer des pages dans {{FileFormatUp}}",
+    "description": "{{ProdFullName}} permet aux applications {{EnvNameShort}} de réorganiser les pages dans les documents {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenir gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un puissant outil de traitement de documents qui prend en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, images et archives. Il offre des fonctionnalités essentielles telles que la fusion, le fractionnement, l'extraction, le déplacement, l'échange et la suppression de pages."
+  },
+  "more_features": {
+    "title": "Traitement avancé des documents",
+    "description": "{{ProdFullName}} propose un ensemble complet de fonctionnalités, vous permettant de traiter efficacement plus de 50 formats de fichiers professionnels largement utilisés.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner des documents dans divers formats",
+      "content": "Combinez des PDF, des documents Word, des présentations, des tableurs, des images, des archives et plus encore. Utilisez des options flexibles pour obtenir les résultats souhaités."
+    },
+    "feature_2": {
+      "title": "Gérer les pages des documents",
+      "content": "Réorganisez les pages au sein des documents. Déplacez, échangez ou supprimez des pages pour mieux organiser votre contenu."
+    },
+    "feature_3": {
+      "title": "Ajuster la mise en page des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle ou alternez entre l'orientation paysage et portrait."
+    },
+    "feature_4": {
+      "title": "Extraire des pages dans des fichiers séparés",
+      "content": "Sélectionnez et extrayez des pages spécifiques, en les enregistrant en tant que documents autonomes."
+    }
+  },
+  "formats": {
+    "title": "Réorganiser les pages dans plusieurs formats",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de fichiers, rendant la manipulation des documents flexible et efficace."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés",
+    "description": "Découvrez des capacités puissantes supplémentaires de notre solution."
+  },
+  "examples": {
+    "comment_1": "Créez une instance de {{NameProduct}} avec le fichier source",
+    "comment_2": "Spécifiez le numéro de page à déplacer",
+    "comment_3": "Déplacez la page vers la nouvelle position",
+    "comment_4": "Enregistrez le document modifié"
+  },
+  "steps": {
+    "title": "Comment déplacer des pages {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilite le déplacement de pages sélectionnées dans des documents {{FileFormatUp}}. Améliorez vos applications {{EnvName}} avec des fonctionnalités avancées de traitement de documents.",
+      "step_1": "Fournissez le chemin d'accès du document source {{FileFormatUp}}.",
+      "step_2": "Indiquez le numéro de page et sa nouvelle position.",
+      "step_3": "Exécutez l'opération de déplacement de page.",
+      "step_4": "Enregistrez le document mis à jour."
+    }
+  },
+  "code_1": {
+    "title": "Déplacer une page à la fin du document",
+    "content": "Cet exemple montre comment déplacer une page spécifique à la fin d'un document {{FileFormatUp}}.",
+    "comment_1": "Passez le chemin du fichier source au constructeur",
+    "comment_2": "Récupérez les détails du document et le dernier numéro de page",
+    "comment_3": "Configurez les options avec les numéros de pages",
+    "comment_4": "Déplacez la page à la fin du document",
+    "comment_5": "Enregistrez le document mis à jour à un nouvel emplacement"
+  }
+}

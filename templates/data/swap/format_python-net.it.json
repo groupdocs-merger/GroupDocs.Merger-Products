@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Scambia pagine in documenti {{FileFormatUp}} utilizzando app {{EnvName}}",
+    "description": "Utilizza {{ProdFullName}} per scambiare pagine nei file {{FileFormatUp}}. Gestisci PDF, documenti Word, fogli di calcolo, presentazioni, diagrammi Visio, immagini, archivi e altro ancora."
+  },
+  "header": {
+    "title": "Scambia pagine {{FileFormatUp}}",
+    "description": "{{ProdFullName}} arricchisce le applicazioni {{EnvNameShort}} con avanzate funzionalità di elaborazione documentale. Scambia pagine nei file {{FileFormatUp}} per organizzare e controllare meglio i tuoi contenuti.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Caratteristiche di {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una libreria di elaborazione documentale che supporta oltre 50 formati, tra cui PDF, Word, Excel, PowerPoint, Visio, immagini e archivi. Aggiungila alle tue applicazioni per unire, dividere, estrarre, riordinare, scambiare e rimuovere pagine nei formati documentali più comunemente usati."
+  },
+  "more_features": {
+    "title": "Gestione documentale avanzata",
+    "description": "{{ProdFullName}} offre un potente insieme di strumenti per elaborare oltre 50 formati di file con precisione.",
+    "image_description": "Capacità chiave di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci diversi tipi di documenti",
+      "content": "Combina PDF, documenti Word, fogli di calcolo, presentazioni, diagrammi Visio, immagini e file di archivio. Personalizza l'output con opzioni flessibili."
+    },
+    "feature_2": {
+      "title": "Riordina le pagine del documento",
+      "content": "Modifica il layout del documento spostando, scambiando o eliminando pagine per una migliore organizzazione dei contenuti."
+    },
+    "feature_3": {
+      "title": "Regola l'orientamento delle pagine",
+      "content": "Ruota le pagine a un angolo specifico o alterna tra modalità ritratto e paesaggio."
+    },
+    "feature_4": {
+      "title": "Estrai pagine selezionate",
+      "content": "Seleziona pagine specifiche o intervalli di pagine e salvale come documento separato."
+    }
+  },
+  "formats": {
+    "title": "Scambia pagine in vari formati di file",
+    "description": "{{ProdShortName}} supporta oltre 50 formati di file, consentendo modifiche documentali precise."
+  },
+  "operations": {
+    "title": "Caratteristiche principali",
+    "description": "Scopri le caratteristiche chiave della nostra libreria di elaborazione documentale."
+  },
+  "examples": {
+    "comment_1": "Carica il documento in {{NameProduct}}",
+    "comment_2": "Specifica i numeri di pagina da scambiare",
+    "comment_3": "Scambia le pagine selezionate",
+    "comment_4": "Salva il file modificato"
+  },
+  "steps": {
+    "title": "Come scambiare pagine {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) semplifica il processo di scambio di pagine {{FileFormatUp}}, consentendoti il pieno controllo sui contenuti documentali. Usalo nelle tue applicazioni {{EnvName}} per un'elaborazione fluida dei documenti.",
+      "step_1": "Specifica il percorso del file {{FileFormatUp}}.",
+      "step_2": "Seleziona i numeri delle pagine da scambiare.",
+      "step_3": "Utilizza il metodo appropriato per scambiare le pagine.",
+      "step_4": "Salva il documento aggiornato nella posizione desiderata."
+    }
+  },
+  "code_1": {
+    "title": "Scambia la prima e l'ultima pagina di un file {{FileFormatUp}}",
+    "content": "Questo esempio mostra come scambiare le pagine in un file {{FileFormatUp}} in pochi passaggi.",
+    "comment_1": "Carica il documento sorgente",
+    "comment_2": "Ottieni il numero totale di pagine",
+    "comment_3": "Definisci le opzioni di scambio con le pagine selezionate",
+    "comment_4": "Esegui l'operazione di scambio",
+    "comment_5": "Salva il documento modificato"
+  }
+}

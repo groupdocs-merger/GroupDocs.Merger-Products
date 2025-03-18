@@ -1,0 +1,217 @@
+{
+  "common-content": {
+    "format-formats": {
+      "word": {
+        "name": "WORD",
+        "description": "Документы Microsoft Word"
+      },
+      "excel": {
+        "name": "EXCEL",
+        "description": "Таблицы Microsoft Excel"
+      },
+      "powerpoint": {
+        "name": "POWERPOINT",
+        "description": "Презентации Microsoft PowerPoint"
+      },
+      "image": {
+        "name": "IMAGE",
+        "description": "Популярные форматы изображений"
+      },
+      "visio": {
+        "name": "VISIO",
+        "description": "Диаграммы Microsoft Visio"
+      },
+      "pdf": {
+        "name": "PDF",
+        "description": "Формат переносимого документа Adobe"
+      },
+      "docx": {
+        "name": "DOCX",
+        "description": "Документ Microsoft Word Open XML"
+      },
+      "xlsx": {
+        "name": "XLSX",
+        "description": "Таблица Microsoft Excel Open XML"
+      },
+      "pptx": {
+        "name": "PPTX",
+        "description": "Презентация PowerPoint Open XML"
+      },
+      "bmp": {
+        "name": "BMP",
+        "description": "Битовая карта"
+      },
+      "jpeg": {
+        "name": "JPEG",
+        "description": "Файл изображения JPEG"
+      },
+      "jpg": {
+        "name": "JPG",
+        "description": "Файл изображения JPEG"
+      },
+      "png": {
+        "name": "PNG",
+        "description": "Универсальная графика в сети"
+      },
+      "svg": {
+        "name": "SVG",
+        "description": "Векторная графика"
+      },
+      "tiff": {
+        "name": "TIFF",
+        "description": "Формат файла с тегированными изображениями"
+      },
+      "csv": {
+        "name": "CSV",
+        "description": "Файл с разделёнными запятыми значениями"
+      },
+      "epub": {
+        "name": "EPUB",
+        "description": "Электронная публикация"
+      },
+      "html": {
+        "name": "HTML",
+        "description": "Файл языка разметки гипертекста"
+      },
+      "mhtml": {
+        "name": "MHTML",
+        "description": "Архив веб-страницы MHTML"
+      },
+      "txt": {
+        "name": "TXT",
+        "description": "Текстовый файл"
+      },
+      "xps": {
+        "name": "XPS",
+        "description": "Файл спецификации бумаги XML"
+      },
+      "zip": {
+        "name": "ZIP",
+        "description": "ZIP-архив"
+      }
+    },
+    "format-operations": {
+      "combine": {
+        "pdf": "Объединить PDF документы",
+        "docx": "Объединить DOCX документы",
+        "xlsx": "Объединить XLSX документы",
+        "pptx": "Объединить PPTX документы",
+        "epub": "Объединить EPUB документы"
+      },
+      "extract": {
+        "pdf": "Извлечь страницы PDF",
+        "docx": "Сохранить страницы DOCX",
+        "xlsx": "Извлечь страницы XLSX",
+        "pptx": "Сохранить страницы PPTX",
+        "epub": "Извлечь страницы EPUB"
+      },
+      "join": {
+        "pdf": "Объединить PDF файлы",
+        "docx": "Объединить DOCX файлы",
+        "xlsx": "Объединить XLSX файлы",
+        "pptx": "Объединить PPTX файлы",
+        "epub": "Объединить EPUB файлы"
+      },
+      "move": {
+        "pdf": "Переместить страницы PDF",
+        "docx": "Изменить порядок страниц DOCX",
+        "xlsx": "Переместить страницы XLSX",
+        "pptx": "Изменить порядок страниц PPTX",
+        "epub": "Переместить страницы EPUB"
+      },
+      "remove": {
+        "pdf": "Удалить страницы PDF",
+        "docx": "Удалить страницы DOCX",
+        "xlsx": "Удалить страницы XLSX",
+        "pptx": "Удалить страницы PPTX",
+        "epub": "Удалить страницы EPUB"
+      },
+      "rotate": {
+        "pdf": "Повернуть страницы PDF",
+        "docx": "Повернуть страницы DOCX",
+        "xlsx": "Повернуть страницы XLSX",
+        "pptx": "Повернуть страницы PPTX",
+        "epub": "Повернуть страницы EPUB"
+      },
+      "split": {
+        "pdf": "Разделить PDF файл",
+        "docx": "Разделить DOCX файл",
+        "xlsx": "Разделить XLSX файл",
+        "pptx": "Разделить PPTX файл",
+        "epub": "Разделить EPUB файл"
+      },
+      "swap": {
+        "pdf": "Обменять PDF файл",
+        "docx": "Обменять DOCX файл",
+        "xlsx": "Обменять XLSX файл",
+        "pptx": "Обменять PPTX файл",
+        "epub": "Обменять EPUB файл"
+      },
+      "orientation": {
+        "pdf": "Изменить ориентацию PDF",
+        "docx": "Изменить ориентацию DOCX",
+        "xlsx": "Изменить ориентацию XLSX",
+        "pptx": "Изменить ориентацию PPTX",
+        "epub": "Изменить ориентацию EPUB"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копировать",
+      "result_title": "Результат кода",
+      "result_title_bottom": "Скачать результат",
+      "copy_tip": "щелкните, чтобы скопировать",
+      "copy_done": "скопировано",
+      "links": {
+        "title_1": "Больше примеров",
+        "title_2": "Документация"
+      }
+    },
+    "format-actions": {
+      "title": "Готовы начать?",
+      "description": "Попробуйте возможности {{ProdShortName}} бесплатно или запросите лицензию",
+      "comment_1": "Скачать {{PackageStoreName}}",
+      "comment_2": "Лицензирование"
+    },
+    "texts": {
+      "learn_more": "Узнать больше"
+    },
+    "operations": {
+      "combine": {
+        "name": "Объединить документы",
+        "description": "Объединить несколько документов в один"
+      },
+      "extract": {
+        "name": "Извлечь страницы",
+        "description": "Сохранить выбранные страницы как отдельный документ"
+      },
+      "join": {
+        "name": "Объединить документы",
+        "description": "Объединить несколько документов в один"
+      },
+      "move": {
+        "name": "Переместить страницы",
+        "description": "Изменить расположение любой страницы в документе"
+      },
+      "remove": {
+        "name": "Удалить страницы",
+        "description": "Удалить страницы документа"
+      },
+      "rotate": {
+        "name": "Повернуть страницы",
+        "description": "Повернуть страницы документа"
+      },
+      "split": {
+        "name": "Разделить документ",
+        "description": "Разделить документы"
+      },
+      "swap": {
+        "name": "Обменять страницы",
+        "description": "Обменять страницы документа"
+      },
+      "orientation": {
+        "name": "Изменить ориентацию",
+        "description": "Изменить ориентацию страниц"
+      }
+    }
+  }
+}

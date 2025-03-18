@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Gira páginas de {{FileFormatUp}} en aplicaciones {{EnvName}}",
+    "description": "Utiliza {{ProdFullName}} para girar páginas en documentos {{FileFormatUp}}. Modifica PDFs, archivos de Word, hojas de cálculo de Excel, presentaciones de PowerPoint, imágenes y archivos comprimidos."
+  },
+  "header": {
+    "title": "Gira páginas en archivos {{FileFormatUp}}",
+    "description": "Mejora tus aplicaciones {{EnvNameShort}} con {{ProdFullName}}, una potente solución de procesamiento de documentos. Gira páginas en {{FileFormatUp}} y gestiona varios formatos de archivo sin complicaciones.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descarga Gratis"
+  },
+  "about": {
+    "title": "Acerca de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una biblioteca avanzada de procesamiento de documentos que admite más de 50 formatos de archivo, incluyendo PDF, Word, Excel, PowerPoint, Visio, imágenes y archivos comprimidos. Proporciona funciones como la fusión, división, extracción, reordenamiento y eliminación de páginas para optimizar la gestión de documentos en tus aplicaciones."
+  },
+  "more_features": {
+    "title": "Gestión documental integral",
+    "description": "{{ProdFullName}} ofrece un amplio conjunto de características, facilitando el manejo de más de 50 formatos de archivo comúnmente utilizados en negocios.",
+    "image_description": "Capacidades clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusiona múltiples formatos de archivo",
+      "content": "Combina PDFs, documentos de Word, hojas de cálculo, presentaciones, diagramas de Visio, imágenes y archivos comprimidos. Utiliza opciones avanzadas para un control preciso sobre el proceso de fusión."
+    },
+    "feature_2": {
+      "title": "Reorganiza las páginas del documento",
+      "content": "Mueve, intercambia o elimina páginas para organizar mejor tus archivos."
+    },
+    "feature_3": {
+      "title": "Personaliza el diseño de las páginas",
+      "content": "Gira las páginas a cualquier ángulo o alterna entre orientación horizontal y vertical para una mejor legibilidad."
+    },
+    "feature_4": {
+      "title": "Extrae páginas como archivos separados",
+      "content": "Selecciona páginas específicas o un rango de páginas y guárdalas como un nuevo documento en la ubicación que desees."
+    }
+  },
+  "formats": {
+    "title": "Gira páginas en múltiples formatos",
+    "description": "{{ProdShortName}} admite más de 50 tipos de archivos, permitiéndote modificar documentos rápidamente con una variedad de operaciones integradas."
+  },
+  "operations": {
+    "title": "Características principales",
+    "description": "Descubre las potentes capacidades disponibles en nuestra biblioteca de procesamiento de documentos."
+  },
+  "examples": {
+    "comment_1": "Inicializa {{NameProduct}} y carga el documento fuente",
+    "comment_2": "Especifica el número de página para girar",
+    "comment_3": "Ejecuta el proceso de rotación",
+    "comment_4": "Guarda el documento actualizado en la ubicación deseada"
+  },
+  "steps": {
+    "title": "Cómo girar páginas de {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), puedes girar páginas en documentos {{FileFormatUp}}, aportando una gestión documental potente a las aplicaciones {{EnvName}}.",
+      "step_1": "Proporciona la ruta al archivo {{FileFormatUp}}.",
+      "step_2": "Elige el número de página que deseas girar.",
+      "step_3": "Aplica la operación de rotación.",
+      "step_4": "Guarda el documento modificado en la ubicación deseada."
+    }
+  },
+  "code_1": {
+    "title": "Gira todas las páginas de {{FileFormatUp}} con números pares",
+    "content": "Este ejemplo demuestra cómo girar cada página de número par en un documento {{FileFormatUp}}.",
+    "comment_1": "Cargar el documento fuente en el constructor",
+    "comment_2": "Recuperar el número total de páginas",
+    "comment_3": "Configurar los ajustes para girar las páginas pares 180 grados",
+    "comment_4": "Ejecutar la operación de rotación",
+    "comment_5": "Guardar el archivo modificado"
+  }
+}

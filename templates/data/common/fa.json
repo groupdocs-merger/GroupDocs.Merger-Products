@@ -1,0 +1,217 @@
+{
+  "common-content": {
+    "format-formats": {
+      "word": {
+        "name": "ورد",
+        "description": "اسناد مایکروسافت ورد"
+      },
+      "excel": {
+        "name": "اکسل",
+        "description": "صفحات محاسباتی مایکروسافت اکسل"
+      },
+      "powerpoint": {
+        "name": "پاورپوینت",
+        "description": "ارائه‌های مایکروسافت پاورپوینت"
+      },
+      "image": {
+        "name": "تصویر",
+        "description": "فرمت‌های رایج تصویر"
+      },
+      "visio": {
+        "name": "ویژیو",
+        "description": "نقشه‌های مایکروسافت ویژیو"
+      },
+      "pdf": {
+        "name": "پی‌دی‌اف",
+        "description": "فرمت سند قابل حمل ادوبی"
+      },
+      "docx": {
+        "name": "داکس",
+        "description": "اسناد باز XML مایکروسافت ورد"
+      },
+      "xlsx": {
+        "name": "اکسل",
+        "description": "صفحات محاسباتی باز XML مایکروسافت اکسل"
+      },
+      "pptx": {
+        "name": "پاورپوینت",
+        "description": "ارائه‌های باز XML مایکروسافت پاورپوینت"
+      },
+      "bmp": {
+        "name": "بی‌ام‌پی",
+        "description": "تصویر بیت‌مپ"
+      },
+      "jpeg": {
+        "name": "جی‌پی‌ئی‌جی",
+        "description": "فایل تصویر JPEG"
+      },
+      "jpg": {
+        "name": "جی‌پی‌جی",
+        "description": "فایل تصویر JPEG"
+      },
+      "png": {
+        "name": "پی‌ان‌جی",
+        "description": "گرافیک شبکه قابل حمل"
+      },
+      "svg": {
+        "name": "اس‌وی‌جی",
+        "description": "گرافیک وکتور مقیاس‌پذیر"
+      },
+      "tiff": {
+        "name": "تیف",
+        "description": "فرمت فایل تصویر برچسب‌گذاری شده"
+      },
+      "csv": {
+        "name": "سی‌اس‌وی",
+        "description": "فایل مقادیر جدا شده با ویرگول"
+      },
+      "epub": {
+        "name": "ای‌پاب",
+        "description": "انتشار الکترونیکی"
+      },
+      "html": {
+        "name": "اچ‌تی‌ام‌ال",
+        "description": "فایل زبان نشانه‌گذاری ابرمتنی"
+      },
+      "mhtml": {
+        "name": "ام‌اچ‌تی‌ام‌ال",
+        "description": "آرشیو وب MHTML"
+      },
+      "txt": {
+        "name": "متن",
+        "description": "فایل متن ساده"
+      },
+      "xps": {
+        "name": "ایکس‌پی‌اس",
+        "description": "فایل مشخصات کاغذ XML"
+      },
+      "zip": {
+        "name": "زیپ",
+        "description": "آرشیو ZIP"
+      }
+    },
+    "format-operations": {
+      "combine": {
+        "pdf": "ترکیب اسناد PDF",
+        "docx": "پیوستن به اسناد DOCX",
+        "xlsx": "ترکیب اسناد XLSX",
+        "pptx": "پیوستن به اسناد PPTX",
+        "epub": "ترکیب اسناد EPUB"
+      },
+      "extract": {
+        "pdf": "استخراج صفحات PDF",
+        "docx": "ذخیره صفحات DOCX",
+        "xlsx": "استخراج صفحات XLSX",
+        "pptx": "ذخیره صفحات PPTX",
+        "epub": "استخراج صفحات EPUB"
+      },
+      "join": {
+        "pdf": "پیوستن به فایل‌های PDF",
+        "docx": "ترکیب فایل‌های DOCX",
+        "xlsx": "پیوستن به فایل‌های XLSX",
+        "pptx": "ترکیب فایل‌های PPTX",
+        "epub": "پیوستن به فایل‌های EPUB"
+      },
+      "move": {
+        "pdf": "جابه‌جایی صفحات PDF",
+        "docx": "تغییر ترتیب صفحات DOCX",
+        "xlsx": "جابه‌جایی صفحات XLSX",
+        "pptx": "تغییر ترتیب صفحات PPTX",
+        "epub": "جابه‌جایی صفحات EPUB"
+      },
+      "remove": {
+        "pdf": "حذف صفحات PDF",
+        "docx": "حذف صفحات DOCX",
+        "xlsx": "حذف صفحات XLSX",
+        "pptx": "حذف صفحات PPTX",
+        "epub": "حذف صفحات EPUB"
+      },
+      "rotate": {
+        "pdf": "چرخش صفحات PDF",
+        "docx": "چرخش صفحات DOCX",
+        "xlsx": "چرخش صفحات XLSX",
+        "pptx": "چرخش صفحات PPTX",
+        "epub": "چرخش صفحات EPUB"
+      },
+      "split": {
+        "pdf": "تقسیم فایل PDF",
+        "docx": "تقسیم فایل DOCX",
+        "xlsx": "تقسیم فایل XLSX",
+        "pptx": "تقسیم فایل PPTX",
+        "epub": "تقسیم فایل EPUB"
+      },
+      "swap": {
+        "pdf": "تعویض فایل PDF",
+        "docx": "تعویض فایل DOCX",
+        "xlsx": "تعویض فایل XLSX",
+        "pptx": "تعویض فایل PPTX",
+        "epub": "تعویض فایل EPUB"
+      },
+      "orientation": {
+        "pdf": "تغییر جهت PDF",
+        "docx": "تغییر جهت DOCX",
+        "xlsx": "تغییر جهت XLSX",
+        "pptx": "تغییر جهت PPTX",
+        "epub": "تغییر جهت EPUB"
+      }
+    },
+    "format-code": {
+      "copy_title": "کپی",
+      "result_title": "نتیجه کد",
+      "result_title_bottom": "دانلود نتیجه",
+      "copy_tip": "برای کپی کلیک کنید",
+      "copy_done": "کپی شد",
+      "links": {
+        "title_1": "نمونه‌های بیشتر",
+        "title_2": "مستندات"
+      }
+    },
+    "format-actions": {
+      "title": "آماده شروع هستید؟",
+      "description": "ویژگی‌های {{ProdShortName}} را به صورت رایگان امتحان کنید یا درخواست مجوز دهید",
+      "comment_1": "دانلود {{PackageStoreName}}",
+      "comment_2": "مجوز"
+    },
+    "texts": {
+      "learn_more": "بیشتر بدانید"
+    },
+    "operations": {
+      "combine": {
+        "name": "ادغام اسناد",
+        "description": "ترکیب چندین سند به یک سند"
+      },
+      "extract": {
+        "name": "استخراج صفحات",
+        "description": "ذخیره صفحات انتخاب‌شده به عنوان یک سند جداگانه"
+      },
+      "join": {
+        "name": "ملحق کردن اسناد",
+        "description": "ترکیب چندین سند به یک سند"
+      },
+      "move": {
+        "name": "انتقال صفحات",
+        "description": "تغییر موقعیت هر صفحه در سند"
+      },
+      "remove": {
+        "name": "حذف صفحات",
+        "description": "حذف صفحات سند"
+      },
+      "rotate": {
+        "name": "چرخش صفحات",
+        "description": "چرخش صفحات سند"
+      },
+      "split": {
+        "name": "تقسیم سند",
+        "description": "تقسیم اسناد"
+      },
+      "swap": {
+        "name": "تعویض صفحات",
+        "description": "تعویض صفحات سند"
+      },
+      "orientation": {
+        "name": "تغییر جهت‌گیری",
+        "description": "تغییر جهت صفحات"
+      }
+    }
+  }
+}

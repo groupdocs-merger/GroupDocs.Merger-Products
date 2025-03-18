@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Seiten in {{FileFormatUp}}-Dokumenten mit {{EnvName}}-Apps tauschen",
+    "description": "Verwenden Sie {{ProdFullName}}, um Seiten in {{FileFormatUp}}-Dateien zu tauschen. Verwalten Sie PDFs, Word-Dokumente, Tabellenkalkulationen, Präsentationen, Visio-Diagramme, Bilder, Archive und mehr."
+  },
+  "header": {
+    "title": "Seiten in {{FileFormatUp}} tauschen",
+    "description": "{{ProdFullName}} erweitert {{EnvNameShort}}-Anwendungen mit fortschrittlicher Dokumentenverarbeitung. Tauschen Sie Seiten in {{FileFormatUp}}-Dateien, um Ihren Inhalt besser zu organisieren und zu kontrollieren.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "{{ProdShortName}}-Funktionen",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine Dokumentenverarbeitungsbibliothek, die über 50 Dateiformate unterstützt, darunter PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive. Fügen Sie es zu Ihren Anwendungen hinzu, um Seiten in weit verbreiteten Dokumentformaten zusammenzuführen, zu trennen, zu extrahieren, neu anzuordnen, zu tauschen und zu entfernen."
+  },
+  "more_features": {
+    "title": "Erweiterte Dokumentenverwaltung",
+    "description": "{{ProdFullName}} bietet ein leistungsstarkes Set an Tools zur Verarbeitung von über 50 Dateiformaten.",
+    "image_description": "Wesentliche Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Verschiedene Dokumenttypen zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, Tabellenkalkulationen, Präsentationen, Visio-Diagramme, Bilder und Archivdateien. Passen Sie die Ausgaben mit flexiblen Optionen an."
+    },
+    "feature_2": {
+      "title": "Seiten im Dokument neu anordnen",
+      "content": "Ändern Sie das Layout des Dokuments durch Verschieben, Tauschen oder Löschen von Seiten, um den Inhalt besser zu organisieren."
+    },
+    "feature_3": {
+      "title": "Seitenorientierung anpassen",
+      "content": "Rotieren Sie Seiten in einem bestimmten Winkel oder wechseln Sie zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Ausgewählte Seiten extrahieren",
+      "content": "Wählen Sie bestimmte Seiten oder Seitenbereiche aus und speichern Sie diese als separates Dokument."
+    }
+  },
+  "formats": {
+    "title": "Seiten in verschiedenen Dateiformaten tauschen",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateiformate, was präzise Dokumentenänderungen ermöglicht."
+  },
+  "operations": {
+    "title": "Hauptmerkmale",
+    "description": "Entdecken Sie die Hauptmerkmale unserer Dokumentenverarbeitungsbibliothek."
+  },
+  "examples": {
+    "comment_1": "Laden Sie das Dokument in {{NameProduct}}",
+    "comment_2": "Geben Sie die Seitenzahlen an, die getauscht werden sollen",
+    "comment_3": "Tauschen Sie die ausgewählten Seiten",
+    "comment_4": "Speichern Sie die modifizierte Datei"
+  },
+  "steps": {
+    "title": "So tauschen Sie Seiten in {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht das Tauschen von Seiten in {{FileFormatUp}}, sodass Sie die volle Kontrolle über den Inhalt Ihres Dokuments haben. Verwenden Sie es in Ihren {{EnvName}}-Anwendungen für eine nahtlose Dokumentenverarbeitung.",
+      "step_1": "Geben Sie den Pfad zur {{FileFormatUp}}-Datei an.",
+      "step_2": "Wählen Sie die Seitenzahlen aus, die getauscht werden sollen.",
+      "step_3": "Verwenden Sie die entsprechende Methode zum Tauschen der Seiten.",
+      "step_4": "Speichern Sie das aktualisierte Dokument an dem gewünschten Ort."
+    }
+  },
+  "code_1": {
+    "title": "Die erste und letzte Seite einer {{FileFormatUp}}-Datei tauschen",
+    "content": "Dieses Beispiel zeigt, wie Sie in nur wenigen Schritten Seiten in einer {{FileFormatUp}}-Datei tauschen können.",
+    "comment_1": "Laden Sie das Quelldokument",
+    "comment_2": "Ermitteln Sie die Gesamtzahl der Seiten",
+    "comment_3": "Definieren Sie die Tauschoptionen mit den ausgewählten Seiten",
+    "comment_4": "Führen Sie die Tauschoperation aus",
+    "comment_5": "Speichern Sie das modifizierte Dokument"
+  }
+}

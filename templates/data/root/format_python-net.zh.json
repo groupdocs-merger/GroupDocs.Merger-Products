@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "通过 {{EnvName}} 合并 {{FileFormatUp}} 文件",
+    "description": "使用 {{ProdFullName}} 无缝集成 {{FileFormatUp}} 文档合并到您的 {{EnvNameShort}} 项目中。"
+  },
+  "header": {
+    "title": "合并 {{FileFormatUp}} 文件",
+    "description": "通过 {{ProdFullName}} 简化您 {{EnvNameShort}} 应用程序中的文档处理，快速高效地执行 {{FileFormatUp}} 文件合并。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于 {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一款全面的文档管理解决方案，支持超过 50 种文件格式，包括 PDF、Word 文档、电子表格、演示文稿、图像和档案。轻松合并、拆分、重新排序、提取和删除页面，以便根据需要来组织文档。"
+  },
+  "more_features": {
+    "title": "文档合并工具",
+    "description": "{{ProdFullName}} 提供先进的文档处理功能，支持超过 50 种广泛使用的文件格式。",
+    "image_description": "{{ProdShortName}} 的主要优势",
+    "feature_1": {
+      "title": "合并不同的文档格式",
+      "content": "合并各种文件类型，包括 PDF、Word 文档、电子表格、演示文稿和图像。定义合并过程中要包含的特定页面。"
+    },
+    "feature_2": {
+      "title": "页面管理",
+      "content": "轻松重新组织、删除或交换页面，以有效地结构化文档。"
+    },
+    "feature_3": {
+      "title": "修改页面布局",
+      "content": "将页面旋转至任意角度，并在兼容的文件格式中切换横向和纵向模式。"
+    },
+    "feature_4": {
+      "title": "提取页面",
+      "content": "选择并提取特定页面，将其保存为新文档。"
+    }
+  },
+  "formats": {
+    "title": "合并各种文件格式",
+    "description": "{{ProdShortName}} 支持 50 种以上文档类型，允许无缝合并和自定义。"
+  },
+  "operations": {
+    "title": "主要功能",
+    "description": "发现其他文档处理工具"
+  },
+  "examples": {
+    "comment_1": "使用源 {{FileFormatUp}} 文档初始化 {{NameProduct}}",
+    "comment_2": "将该文档与附加文件合并",
+    "comment_3": "将合并后的文档保存到所需位置"
+  },
+  "steps": {
+    "title": "如何合并 {{FileFormatUp}} 文档",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 让合并 {{FileFormatUp}} 文档变得简单。将合并功能添加到您的 {{EnvName}} 应用程序中，以高效地组合多个文件。",
+      "step_1": "提供第一个 {{FileFormatUp}} 文件的路径。",
+      "step_2": "选择要合并的附加文件。",
+      "step_3": "如果需要，应用可选设置。",
+      "step_4": "执行合并过程并保存输出文档。"
+    }
+  },
+  "code_1": {
+    "title": "合并不同格式的文件",
+    "content": "本示例演示如何将多种格式的多个文件合并为一个文档。",
+    "comment_1": "定义主文件路径",
+    "comment_2": "将其与 Microsoft Word 文档合并",
+    "comment_3": "将 Microsoft Excel 电子表格包含在合并文档中",
+    "comment_4": "将最终合并文档保存到指定位置"
+  }
+}

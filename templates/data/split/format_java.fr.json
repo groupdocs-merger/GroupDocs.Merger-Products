@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Diviser des documents {{FileFormatUp}} dans des applications {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour diviser des fichiers {{FileFormatUp}} en documents distincts. Gérez des PDF, des fichiers Word, des feuilles Excel, des diapositives PowerPoint, des fichiers Visio, des images, des archives, et plus encore."
+  },
+  "header": {
+    "title": "Diviser des fichiers {{FileFormatUp}}",
+    "description": "{{ProdFullName}} améliore les applications {{EnvNameShort}} en ajoutant des fonctionnalités avancées de traitement de documents. Divisez facilement des fichiers {{FileFormatUp}} et travaillez avec une variété de formats professionnels populaires.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger Gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une bibliothèque puissante de traitement de documents prenant en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, Visio, images et archives. Elle permet de fusionner, diviser, extraire, déplacer, échanger et supprimer des pages, rendant la gestion des documents plus efficace."
+  },
+  "more_features": {
+    "title": "Gestion avancée des documents",
+    "description": "{{ProdFullName}} propose un ensemble riche de fonctionnalités pour le traitement de plus de 50 formats de fichiers couramment utilisés en entreprise.",
+    "image_description": "Capacités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner différents formats de fichiers",
+      "content": "Combinez des PDF, des documents Word, des présentations, des feuilles de calcul, des diagrammes Visio, des images et des archives. Personnalisez le processus de fusion pour des résultats optimaux."
+    },
+    "feature_2": {
+      "title": "Organiser les pages de document",
+      "content": "Réorganisez les pages en les déplaçant, en les échangeant ou en les supprimant pour structurer vos documents de manière efficace."
+    },
+    "feature_3": {
+      "title": "Modifier la mise en page des pages",
+      "content": "Faites pivoter les pages dans n'importe quel angle ou changez entre orientations portrait et paysage."
+    },
+    "feature_4": {
+      "title": "Extraire des pages en tant que fichiers séparés",
+      "content": "Sélectionnez des pages spécifiques ou une plage de pages et enregistrez-les en tant que nouveau document à un emplacement choisi."
+    }
+  },
+  "formats": {
+    "title": "Diviser divers formats de fichiers",
+    "description": "{{ProdShortName}} prend en charge plus de 50 types de fichiers, permettant une modification rapide et flexible des documents."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés",
+    "description": "Découvrez les puissantes capacités de traitement de documents de notre bibliothèque."
+  },
+  "examples": {
+    "comment_1": "Chargez le fichier source dans {{NameProduct}}",
+    "comment_2": "Définissez le chemin du fichier de sortie",
+    "comment_3": "Configurez les options de division",
+    "comment_4": "Exécutez l'opération de division"
+  },
+  "steps": {
+    "title": "Comment diviser des fichiers {{FileFormatUp}}",
+    "content": {
+      "title": "Avec [{{ProdShortName}}]({{PlatformLink}}), vous pouvez diviser des documents {{FileFormatUp}} et enregistrer les pages sélectionnées en tant que nouveau fichier. Intégrez une gestion avancée des documents dans vos applications {{EnvName}}.",
+      "step_1": "Fournissez le chemin source du fichier {{FileFormatUp}}.",
+      "step_2": "Spécifiez le chemin du fichier de sortie pour le document divisé.",
+      "step_3": "Configurez les options pour l'opération de division.",
+      "step_4": "Exécutez le processus de division et enregistrez le fichier."
+    }
+  },
+  "code_1": {
+    "title": "Diviser un document {{FileFormatUp}} et sauvegarder les pages paires",
+    "content": "Cet exemple démontre comment diviser un document {{FileFormatUp}} et sauvegarder toutes les pages paires en tant que fichier séparé.",
+    "comment_1": "Chargez le fichier source dans le constructeur",
+    "comment_2": "Spécifiez le chemin du fichier de sortie",
+    "comment_3": "Récupérez le nombre total de pages",
+    "comment_4": "Définissez les options de division pour les pages paires",
+    "comment_5": "Exécutez l'opération de division et sauvegardez le résultat"
+  }
+}

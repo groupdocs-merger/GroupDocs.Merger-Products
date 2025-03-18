@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Seiten aus {{FileFormatUp}} in {{EnvName}}-Apps entfernen",
+    "description": "Verwenden Sie {{ProdFullName}}, um bestimmte Seiten aus {{FileFormatUp}}-Dokumenten zu entfernen. Verarbeiten Sie PDFs, Word, Excel, PowerPoint, Bilder, Archive und mehr mühelos."
+  },
+  "header": {
+    "title": "Seiten aus {{FileFormatUp}} entfernen",
+    "description": "{{ProdFullName}} erweitert {{EnvNameShort}}-Apps mit leistungsstarken Dokumentverarbeitungsfunktionen, einschließlich der Seitenentfernung aus {{FileFormatUp}}-Dateien.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos erhalten"
+  },
+  "about": {
+    "title": "Was ist {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein funktionsreiches Dokumentverarbeitungswerkzeug, das über 50 Dateiformate unterstützt, darunter PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive. Es bietet Funktionen zum Mergen, Splitten, Extrahieren, Verschieben, Tauschen und Löschen von Seiten, um das Dokumentenmanagement in Ihren Anwendungen zu optimieren."
+  },
+  "more_features": {
+    "title": "Erweiterte Dokumentenverwaltung",
+    "description": "{{ProdFullName}} bietet ein komplettes Set an Werkzeugen zur Verarbeitung von über 50 weit verbreiteten Dateiformaten und macht die Dokumentenverarbeitung einfacher und effizienter.",
+    "image_description": "Wesentliche Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mehrere Dateiformate zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, Tabellenkalkulationen, Präsentationen, Bilder und Archive mit anpassbaren Merging-Optionen für präzise Ergebnisse."
+    },
+    "feature_2": {
+      "title": "Flexible Seitenverwaltung",
+      "content": "Ordnen Sie Dokumentseiten neu an, indem Sie sie verschieben, tauschen oder löschen, um Ihre Dateien gut organisiert zu halten."
+    },
+    "feature_3": {
+      "title": "Seitenlayout anpassen",
+      "content": "Drehen Sie Seiten in jeden Winkel oder wechseln Sie zwischen Quer- und Hochformat."
+    },
+    "feature_4": {
+      "title": "Seiten als separate Dateien extrahieren",
+      "content": "Wählen und speichern Sie bestimmte Seiten als eigenständige Dokumente."
+    }
+  },
+  "formats": {
+    "title": "Seiten aus verschiedenen Dokumentformaten entfernen",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateiformate, mit denen Sie Dokumente schnell und effizient ändern können."
+  },
+  "operations": {
+    "title": "Hauptmerkmale",
+    "description": "Entdecken Sie zusätzliche Funktionen unserer Dokumentverarbeitungslösung."
+  },
+  "examples": {
+    "comment_1": "Erstellen Sie eine Instanz von {{NameProduct}} und geben Sie den Dateipfad an",
+    "comment_2": "Definieren Sie die zu entfernenden Seitenzahlen",
+    "comment_3": "Wenden Sie die Entfernungseinstellungen an",
+    "comment_4": "Speichern Sie das modifizierte Dokument"
+  },
+  "steps": {
+    "title": "So entfernen Sie Seiten aus {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht es Ihnen, Seiten aus {{FileFormatUp}}-Dokumenten zu löschen. Integrieren Sie es in Ihre {{EnvName}}-Anwendungen, um die Dokumentenverwaltung zu verbessern.",
+      "step_1": "Geben Sie den Pfad zur {{FileFormatUp}}-Datei an.",
+      "step_2": "Legen Sie die Seitenzahlen fest, die Sie entfernen möchten.",
+      "step_3": "Führen Sie die Seitenentfernung aus.",
+      "step_4": "Speichern Sie das aktualisierte Dokument."
+    }
+  },
+  "code_1": {
+    "title": "Alle gerade nummerierten Seiten entfernen",
+    "content": "Erfahren Sie, wie Sie gerade nummerierte Seiten aus einem {{FileFormatUp}}-Dokument löschen.",
+    "comment_1": "Geben Sie den Dateipfad im Konstruktor an",
+    "comment_2": "Holen Sie die Gesamtzahl der Seiten im Dokument",
+    "comment_3": "Konfigurieren Sie die Einstellungen zur Entfernung gerader Seiten",
+    "comment_4": "Verarbeiten Sie das Dokument",
+    "comment_5": "Speichern Sie die aktualisierte Datei am angegebenen Speicherort"
+  }
+}

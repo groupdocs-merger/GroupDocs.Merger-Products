@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} 페이지 삭제 in {{EnvName}} 앱",
+    "description": "{{ProdFullName}}를 사용하여 {{FileFormatUp}} 문서에서 특정 페이지를 제거하세요. PDF, Word, Excel, PowerPoint, 이미지, 아카이브 등 다양한 파일을 손쉽게 처리할 수 있습니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}에서 페이지 삭제",
+    "description": "{{ProdFullName}}는 {{EnvNameShort}} 앱에 강력한 문서 처리 기능을 추가하여 {{FileFormatUp}} 파일에서 페이지를 제거할 수 있습니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료로 받기"
+  },
+  "about": {
+    "title": "{{ProdShortName}}란?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 PDF, Word, Excel, PowerPoint, Visio, 이미지 및 아카이브를 포함한 50개 이상의 파일 형식을 지원하는 기능이 풍부한 문서 처리 도구입니다. 문서 관리 프로세스를 간소화하기 위해 페이지 병합, 분할, 추출, 이동, 교환 및 삭제 기능을 제공합니다."
+  },
+  "more_features": {
+    "title": "고급 문서 관리",
+    "description": "{{ProdFullName}}는 50개 이상의 널리 사용되는 파일 형식을 작업할 수 있는 완벽한 도구 세트를 제공하여 문서 처리를 더욱 쉽고 효율적으로 만들어 줍니다.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "다양한 파일 형식 병합",
+      "content": "PDF, Word 문서, 스프레드시트, 프레젠테이션, 이미지 및 아카이브를 결합하여 정확한 결과를 위한 사용자 정의 병합 옵션을 제공합니다."
+    },
+    "feature_2": {
+      "title": "유연한 페이지 관리",
+      "content": "문서 페이지를 이동, 교환 또는 삭제하여 파일을 잘 정리할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "페이지 레이아웃 사용자 정의",
+      "content": "페이지를 원하는 각도로 회전시키거나 가로 세로 방향을 전환할 수 있습니다."
+    },
+    "feature_4": {
+      "title": "페이지를 별도의 파일로 추출",
+      "content": "특정 페이지를 선택하고 개별 문서로 저장할 수 있습니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 문서 형식에서 페이지 삭제",
+    "description": "{{ProdShortName}}는 50개 이상의 파일 형식을 지원하여 문서를 신속하게 수정할 수 있습니다."
+  },
+  "operations": {
+    "title": "주요 기능",
+    "description": "우리의 문서 처리 솔루션의 추가 기능을 발견하세요."
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}} 인스턴스를 생성하고 파일 경로를 제공하세요.",
+    "comment_2": "제거할 페이지 번호를 정의하세요.",
+    "comment_3": "제거 설정을 적용하세요.",
+    "comment_4": "수정된 문서를 저장하세요."
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}에서 페이지를 삭제하는 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})는 {{FileFormatUp}} 문서에서 페이지를 삭제하도록 설계되었습니다. {{EnvName}} 애플리케이션에 통합하여 문서 관리 기능을 강화하세요.",
+      "step_1": "{{FileFormatUp}} 파일의 경로를 지정하세요.",
+      "step_2": "제거할 페이지 번호를 설정하세요.",
+      "step_3": "페이지 제거 작업을 실행하세요.",
+      "step_4": "업데이트된 문서를 저장하세요."
+    }
+  },
+  "code_1": {
+    "title": "모든 짝수 페이지 삭제",
+    "content": "{{FileFormatUp}} 문서에서 짝수 페이지를 삭제하는 방법을 학습하세요.",
+    "comment_1": "생성자에 파일 경로를 제공하세요.",
+    "comment_2": "문서의 총 페이지 수를 가져오세요.",
+    "comment_3": "짝수 페이지 제거 설정을 구성하세요.",
+    "comment_4": "문서를 처리하세요.",
+    "comment_5": "업데이트된 파일을 지정된 위치에 저장하세요."
+  }
+}

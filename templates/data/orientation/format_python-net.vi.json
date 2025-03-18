@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Điều chỉnh các trang {{FileFormatUp}} trong các ứng dụng {{EnvName}}",
+    "description": "{{ProdFullName}} giúp bạn chuyển các trang {{FileFormatUp}} sang chế độ chân dung hoặc phong cảnh. Xử lý các tệp PDF, tài liệu Word, bảng tính Excel, trang trình bày PowerPoint, thiết kế Visio, hình ảnh, tệp lưu trữ và hơn thế nữa với sự kiểm soát."
+  },
+  "header": {
+    "title": "Căn chỉnh trang cho {{FileFormatUp}}",
+    "description": "{{ProdFullName}} làm phong phú các ứng dụng {{EnvNameShort}} với những tính năng hữu ích. Các nhà phát triển có thể xây dựng những giải pháp tốt hơn bằng cách quản lý định dạng tệp và điều chỉnh cách bố trí trang {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Thử miễn phí"
+  },
+  "about": {
+    "title": "Tổng quan về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) được xây dựng để quản lý tài liệu ở hơn 50 định dạng, chẳng hạn như PDF, Word, Excel, PowerPoint, Visio, hình ảnh và tệp lưu trữ. Ghép, chia, trích xuất, chuyển, hoán đổi, xóa hoặc điều chỉnh bố cục trang theo nhu cầu."
+  },
+  "more_features": {
+    "title": "Quản lý tài liệu linh hoạt",
+    "description": "{{ProdFullName}} cung cấp nhiều công cụ để quản lý nội dung trong hơn 50 định dạng tệp, đảm bảo kết quả nhanh chóng và mượt mà.",
+    "image_description": "Tùy chọn của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Kết hợp các định dạng khác nhau",
+      "content": "Ghép các tệp PDF, tài liệu Word, trang trình bày, bảng tính, tệp Visio, hình ảnh và tệp lưu trữ. Điều chỉnh để có đầu ra tốt nhất."
+    },
+    "feature_2": {
+      "title": "Sắp xếp các trang tài liệu",
+      "content": "Di chuyển, hoán đổi hoặc xóa các trang để cải thiện cấu trúc tài liệu của bạn."
+    },
+    "feature_3": {
+      "title": "Đặt căn chỉnh trang",
+      "content": "Xoay trang theo góc hoặc chuyển đổi giữa chế độ chân dung và phong cảnh."
+    },
+    "feature_4": {
+      "title": "Xuất các trang riêng lẻ",
+      "content": "Lấy một trang hoặc nhóm trang và lưu chúng thành tệp mới ở bất kỳ đâu."
+    }
+  },
+  "formats": {
+    "title": "Điều chỉnh các trang trong nhiều định dạng",
+    "description": "{{ProdShortName}} hoạt động với hơn 50 loại tệp, mang đến cho bạn những cách linh hoạt để điều chỉnh tài liệu."
+  },
+  "operations": {
+    "title": "Tính năng hàng đầu",
+    "description": "Khám phá các công cụ có thể cải thiện dự án của bạn."
+  },
+  "examples": {
+    "comment_1": "Cung cấp đường dẫn đến tệp cho {{NameProduct}}",
+    "comment_2": "Nhắm mục tiêu vào trang cần điều chỉnh",
+    "comment_3": "Áp dụng hướng mới",
+    "comment_4": "Lưu tài liệu hoàn thành"
+  },
+  "steps": {
+    "title": "Cách điều chỉnh các trang {{FileFormatUp}}",
+    "content": {
+      "title": "Với [{{ProdShortName}}]({{PlatformLink}}), chuyển các trang {{FileFormatUp}}. Tính năng này cùng với những tính năng khác cung cấp các công cụ tài liệu đáng tin cậy cho các ứng dụng {{EnvName}}.",
+      "step_1": "Tải tệp {{FileFormatUp}}.",
+      "step_2": "Chọn trang cần điều chỉnh.",
+      "step_3": "Thay đổi hướng của nó.",
+      "step_4": "Lưu kết quả."
+    }
+  },
+  "code_1": {
+    "title": "Chuyển trang cuối cùng của {{FileFormatUp}}",
+    "content": "Học cách kiểm tra số lượng trang trong một tệp {{FileFormatUp}} và điều chỉnh trang cuối cùng của nó.",
+    "comment_1": "Tải tệp vào hàm khởi tạo",
+    "comment_2": "Đếm tổng số trang",
+    "comment_3": "Chọn trang và đặt chế độ chân dung hoặc phong cảnh",
+    "comment_4": "Cập nhật bố cục trang",
+    "comment_5": "Lưu vào đường dẫn bạn chọn"
+  }
+}

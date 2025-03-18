@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Unisci file {{FileFormatUp}} tramite {{EnvName}}",
+    "description": "Integra la fusione di documenti {{FileFormatUp}} senza problemi nei tuoi progetti {{EnvNameShort}} con {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Unisci file {{FileFormatUp}}",
+    "description": "Ottimizza l'elaborazione dei documenti nelle tue applicazioni {{EnvNameShort}} con {{ProdFullName}}, consentendo una fusione rapida ed efficiente dei file {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una soluzione completa per la gestione dei documenti, supportando oltre 50 formati di file, tra cui PDF, documenti Word, fogli di calcolo, presentazioni, immagini e archivi. Unisci, dividi, riordina, estrai e rimuovi pagine per strutturare i tuoi documenti secondo necessità."
+  },
+  "more_features": {
+    "title": "Strumenti di fusione documenti",
+    "description": "{{ProdFullName}} offre capacità avanzate di elaborazione dei documenti, supportando oltre 50 formati di file ampiamente utilizzati.",
+    "image_description": "Vantaggi chiave di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci diversi formati di documento",
+      "content": "Unisci vari tipi di file, tra cui PDF, documenti Word, fogli di calcolo, presentazioni e immagini. Definisci pagine specifiche da includere nel processo di fusione."
+    },
+    "feature_2": {
+      "title": "Gestione delle pagine",
+      "content": "Riorganizza, elimina o scambia facilmente le pagine per strutturare i documenti in modo efficiente."
+    },
+    "feature_3": {
+      "title": "Modifica il layout delle pagine",
+      "content": "Ruota le pagine a qualsiasi angolo e passa tra le modalità paesaggio e ritratto per formati di file compatibili."
+    },
+    "feature_4": {
+      "title": "Estrai pagine",
+      "content": "Seleziona ed estrai pagine specifiche, salvandole come un nuovo documento."
+    }
+  },
+  "formats": {
+    "title": "Unisci vari formati di file",
+    "description": "{{ProdShortName}} supporta oltre 50 tipi di documenti, consentendo fusione e personalizzazione senza interruzioni."
+  },
+  "operations": {
+    "title": "Caratteristiche principali",
+    "description": "Scopri strumenti aggiuntivi per l'elaborazione dei documenti"
+  },
+  "examples": {
+    "comment_1": "Inizializza {{NameProduct}} con il documento sorgente {{FileFormatUp}}",
+    "comment_2": "Unisci il documento con un file aggiuntivo",
+    "comment_3": "Salva il documento unito nella posizione desiderata"
+  },
+  "steps": {
+    "title": "Come unire documenti {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) rende semplice unire documenti {{FileFormatUp}}. Aggiungi funzionalità di fusione alle tue applicazioni {{EnvName}} per combinare efficientemente più file.",
+      "step_1": "Fornisci il percorso del primo file {{FileFormatUp}}.",
+      "step_2": "Seleziona un file aggiuntivo da unire.",
+      "step_3": "Applica impostazioni facoltative se necessario.",
+      "step_4": "Esegui il processo di fusione e salva il documento di output."
+    }
+  },
+  "code_1": {
+    "title": "Unire file di diversi formati",
+    "content": "Questo esempio dimostra come unire più file di vari formati in un unico documento.",
+    "comment_1": "Definisci il percorso del file principale",
+    "comment_2": "Uniscilo con un documento Microsoft Word",
+    "comment_3": "Includi un foglio di calcolo Microsoft Excel nel documento unito",
+    "comment_4": "Salva il documento finale unito nella posizione specificata"
+  }
+}

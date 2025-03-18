@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Reorganizar páginas de {{FileFormatUp}} en {{EnvName}}",
+    "description": "Utiliza {{ProdFullName}} para cambiar el orden de las páginas en documentos {{FileFormatUp}}. Procesa PDF, Word, Excel, PowerPoint, imágenes y más."
+  },
+  "header": {
+    "title": "Reorganizar páginas en {{FileFormatUp}}",
+    "description": "{{ProdFullName}} proporciona a las aplicaciones {{EnvNameShort}} la capacidad de cambiar el orden de las páginas en documentos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Prueba gratis"
+  },
+  "about": {
+    "title": "Acerca de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una herramienta de procesamiento de documentos robusta que admite más de 50 formatos de archivo, incluyendo PDF, Word, Excel, PowerPoint, imágenes y archivos comprimidos. Ofrece potentes características para combinar, dividir, extraer, reorganizar, intercambiar y eliminar páginas."
+  },
+  "more_features": {
+    "title": "Manejo integral de documentos",
+    "description": "{{ProdFullName}} ofrece un conjunto rico de características, permitiéndote trabajar eficientemente con más de 50 formatos de archivos empresariales populares.",
+    "image_description": "Principales capacidades de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combinar documentos de diferentes tipos",
+      "content": "Combina contenido de PDFs, archivos de Word, presentaciones, hojas de cálculo, imágenes y archivos comprimidos. Usa opciones flexibles para personalizar la estructura del documento final."
+    },
+    "feature_2": {
+      "title": "Modificar páginas del documento",
+      "content": "Reorganiza las páginas en tus documentos moviéndolas, intercambiándolas o eliminándolas según sea necesario."
+    },
+    "feature_3": {
+      "title": "Ajustar la disposición y orientación de las páginas",
+      "content": "Rota páginas a cualquier ángulo deseado o cambia entre modos vertical y horizontal."
+    },
+    "feature_4": {
+      "title": "Extraer páginas como documentos separados",
+      "content": "Selecciona páginas específicas y guárdalas como archivos independientes para su uso posterior."
+    }
+  },
+  "formats": {
+    "title": "Reorganizar páginas en múltiples formatos",
+    "description": "{{ProdShortName}} admite más de 50 formatos de archivo, ofreciendo flexibilidad y precisión en la manipulación de documentos."
+  },
+  "operations": {
+    "title": "Características principales",
+    "description": "Descubre otras características esenciales incluidas en nuestra solución."
+  },
+  "examples": {
+    "comment_1": "Inicializa una instancia de {{NameProduct}} con el documento fuente",
+    "comment_2": "Define el número de página que necesita ser movida",
+    "comment_3": "Reubica la página seleccionada",
+    "comment_4": "Guarda el documento modificado"
+  },
+  "steps": {
+    "title": "Cómo reorganizar páginas de {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifica el proceso de mover páginas dentro de documentos {{FileFormatUp}}. Mejora tus aplicaciones {{EnvName}} con capacidades avanzadas de organización de documentos.",
+      "step_1": "Especifica la ruta al documento {{FileFormatUp}}.",
+      "step_2": "Indica el número de página y su nueva posición.",
+      "step_3": "Realiza la operación de movimiento de página.",
+      "step_4": "Guarda el documento modificado."
+    }
+  },
+  "code_1": {
+    "title": "Mover una página a la última posición en un documento",
+    "content": "Este ejemplo demuestra cómo recolocar una página al final de un documento {{FileFormatUp}}.",
+    "comment_1": "Proporciona la ruta del documento fuente",
+    "comment_2": "Recupera los detalles del documento y determina el número de la última página",
+    "comment_3": "Configura la operación de movimiento con los números de página objetivo",
+    "comment_4": "Ejecuta la operación de movimiento",
+    "comment_5": "Guarda el documento actualizado en la ubicación deseada"
+  }
+}

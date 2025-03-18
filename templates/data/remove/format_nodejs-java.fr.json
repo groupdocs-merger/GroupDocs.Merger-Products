@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Supprimer les pages de {{FileFormatUp}} dans les applications {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour supprimer des pages spécifiques des documents {{FileFormatUp}}. Traitez sans effort des PDF, Word, Excel, PowerPoint, images, archives et plus encore."
+  },
+  "header": {
+    "title": "Supprimer des pages de {{FileFormatUp}}",
+    "description": "{{ProdFullName}} améliore les applications {{EnvNameShort}} avec des fonctionnalités puissantes de traitement de documents, y compris la suppression de pages dans les fichiers {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenez-le gratuitement"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdShortName}} ?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil de traitement de documents riche en fonctionnalités qui prend en charge plus de 50 formats de fichiers, dont PDF, Word, Excel, PowerPoint, Visio, images et archives. Il offre la possibilité de fusionner, diviser, extraire, déplacer, échanger et supprimer des pages pour simplifier la gestion des documents dans vos applications."
+  },
+  "more_features": {
+    "title": "Gestion avancée des documents",
+    "description": "{{ProdFullName}} fournit un ensemble complet d'outils pour travailler avec plus de 50 formats de fichiers largement utilisés, rendant le traitement des documents plus simple et efficace.",
+    "image_description": "Principales fonctionnalités de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner plusieurs formats de fichiers",
+      "content": "Combinez des PDF, documents Word, feuilles de calcul, présentations, images et archives avec des options de fusion personnalisables pour des résultats précis."
+    },
+    "feature_2": {
+      "title": "Gestion flexible des pages",
+      "content": "Réorganisez les pages des documents en les déplaçant, en les échangeant ou en les supprimant pour garder vos fichiers bien organisés."
+    },
+    "feature_3": {
+      "title": "Personnaliser la mise en page des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle ou passez entre les orientations paysage et portrait."
+    },
+    "feature_4": {
+      "title": "Extraire des pages sous forme de fichiers séparés",
+      "content": "Sélectionnez et enregistrez des pages spécifiques en tant que documents autonomes."
+    }
+  },
+  "formats": {
+    "title": "Supprimer des pages de divers formats de documents",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de fichiers, vous permettant de modifier rapidement et efficacement des documents."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés",
+    "description": "Découvrez d'autres capacités de notre solution de traitement de documents."
+  },
+  "examples": {
+    "comment_1": "Créez une instance de {{NameProduct}} et fournissez le chemin du fichier",
+    "comment_2": "Définissez le(s) numéro(s) de page à supprimer",
+    "comment_3": "Appliquez les paramètres de suppression",
+    "comment_4": "Enregistrez le document modifié"
+  },
+  "steps": {
+    "title": "Comment supprimer des pages de {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilite la suppression de pages dans les documents {{FileFormatUp}}. Intégrez-le dans vos applications {{EnvName}} pour améliorer les capacités de gestion des documents.",
+      "step_1": "Spécifiez le chemin du fichier {{FileFormatUp}}.",
+      "step_2": "Définissez les numéros de pages que vous souhaitez supprimer.",
+      "step_3": "Exécutez l'opération de suppression de pages.",
+      "step_4": "Enregistrez le document mis à jour."
+    }
+  },
+  "code_1": {
+    "title": "Supprimer toutes les pages avec des numéros pairs",
+    "content": "Découvrez comment supprimer les pages avec des numéros pairs d'un document {{FileFormatUp}}.",
+    "comment_1": "Fournissez le chemin du fichier au constructeur",
+    "comment_2": "Obtenez le nombre total de pages dans le document",
+    "comment_3": "Configurez les paramètres pour supprimer les pages paires",
+    "comment_4": "Traitez le document",
+    "comment_5": "Enregistrez le fichier mis à jour à l'emplacement spécifié"
+  }
+}

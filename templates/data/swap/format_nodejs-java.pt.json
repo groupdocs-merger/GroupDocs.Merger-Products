@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Troque páginas em arquivos {{FileFormatUp}} com aplicativos {{EnvName}}",
+    "description": "Use {{ProdFullName}} para modificar a ordem das páginas em documentos {{FileFormatUp}}. Gerencie PDFs, arquivos do Word, planilhas, apresentações, imagens e muito mais."
+  },
+  "header": {
+    "title": "Troque páginas {{FileFormatUp}}",
+    "description": "{{ProdFullName}} adiciona recursos avançados de edição de documentos às aplicações {{EnvNameShort}}. Reordene páginas em arquivos {{FileFormatUp}} para melhorar a estrutura e a legibilidade.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar gratuitamente"
+  },
+  "about": {
+    "title": "Capacidades do {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma biblioteca versátil de processamento de documentos que suporta mais de 50 formatos de arquivo, incluindo PDFs, documentos do Word, planilhas do Excel, apresentações do PowerPoint, diagramas do Visio, imagens e arquivos compactados. Use-a para mesclar, dividir, extrair, reorganizar, trocar e excluir páginas entre diferentes tipos de documentos."
+  },
+  "more_features": {
+    "title": "Gerenciamento poderoso de documentos",
+    "description": "{{ProdFullName}} oferece um conjunto abrangente de ferramentas para modificar e organizar documentos em mais de 50 formatos.",
+    "image_description": "Recursos principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mesclar vários tipos de documentos",
+      "content": "Combine PDFs, arquivos do Word, planilhas, apresentações, imagens e arquivos compactados. Personalize a saída para atender às suas necessidades."
+    },
+    "feature_2": {
+      "title": "Reorganizar layout de documentos",
+      "content": "Modifique a estrutura de seus documentos movendo, trocando ou excluindo páginas para melhorar a organização."
+    },
+    "feature_3": {
+      "title": "Alterar orientação da página",
+      "content": "Gire as páginas em qualquer ângulo ou altere entre o modo retrato e paisagem conforme necessário."
+    },
+    "feature_4": {
+      "title": "Extrair páginas específicas",
+      "content": "Selecione e extraia páginas individuais ou intervalos de páginas para criar novos documentos."
+    }
+  },
+  "formats": {
+    "title": "Modificar a ordem das páginas em vários formatos",
+    "description": "O {{ProdShortName}} suporta mais de 50 formatos de arquivo, permitindo que você ajuste os layouts de documentos sem esforço."
+  },
+  "operations": {
+    "title": "Recursos principais",
+    "description": "Explore as principais funcionalidades de nossa biblioteca de processamento de documentos."
+  },
+  "examples": {
+    "comment_1": "Carregue o documento no {{NameProduct}}",
+    "comment_2": "Defina as páginas a serem trocadas",
+    "comment_3": "Execute a operação de troca",
+    "comment_4": "Salve o arquivo atualizado em um novo local"
+  },
+  "steps": {
+    "title": "Como reorganizar páginas {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita a reorganização das páginas em documentos {{FileFormatUp}}, oferecendo total controle sobre a organização do documento. Integre a edição eficiente de documentos em suas aplicações {{EnvName}}.",
+      "step_1": "Especifique o caminho do arquivo para o documento {{FileFormatUp}}.",
+      "step_2": "Selecione as páginas a serem trocadas ou reorganizadas.",
+      "step_3": "Aplique o método adequado para modificar o documento.",
+      "step_4": "Salve o documento atualizado no local desejado."
+    }
+  },
+  "code_1": {
+    "title": "Troque a primeira e a última páginas em um arquivo {{FileFormatUp}}",
+    "content": "Este exemplo mostra como trocar páginas em um arquivo {{FileFormatUp}} em apenas algumas etapas.",
+    "comment_1": "Carregue o documento de origem",
+    "comment_2": "Recupere o total de páginas",
+    "comment_3": "Defina os parâmetros de troca usando números de página",
+    "comment_4": "Execute a operação de troca de páginas",
+    "comment_5": "Salve o documento modificado"
+  }
+}

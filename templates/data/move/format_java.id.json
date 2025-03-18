@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Pindahkan halaman {{FileFormatUp}} di {{EnvName}}",
+    "description": "Gunakan {{ProdFullName}} untuk mengatur ulang halaman dalam dokumen {{FileFormatUp}} tanpa kesulitan. Proses PDF, Word, Excel, PowerPoint, gambar, dan lainnya."
+  },
+  "header": {
+    "title": "Pindahkan halaman dalam {{FileFormatUp}}",
+    "description": "{{ProdFullName}} memberdayakan aplikasi {{EnvNameShort}} untuk mengatur ulang halaman dalam dokumen {{FileFormatUp}} dengan lancar.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dapatkan Gratis"
+  },
+  "about": {
+    "title": "Info {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat pemrosesan dokumen yang kuat mendukung lebih dari 50 format file, termasuk PDF, Word, Excel, PowerPoint, gambar, dan arsip. Ini menawarkan fitur penting seperti menggabungkan, memisahkan, mengekstrak, memindahkan, menukar, dan menghapus halaman."
+  },
+  "more_features": {
+    "title": "Pemrosesan dokumen yang efisien",
+    "description": "{{ProdFullName}} dirancang untuk memberikan rangkaian fitur lengkap, memungkinkan Anda memproses lebih dari 50 format file bisnis yang umum digunakan sesuai kebutuhan Anda.",
+    "image_description": "Fitur utama dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan dokumen dalam berbagai format",
+      "content": "Gabungkan konten dari file seperti PDF, dokumen Word, presentasi, spreadsheet, gambar, arsip, dan lainnya. Gunakan opsi fleksibel untuk mencapai hasil yang tepat."
+    },
+    "feature_2": {
+      "title": "Manipulasi halaman",
+      "content": "Pindahkan halaman dalam dokumen. Pindahkan, tukar, atau hapus halaman untuk mengelola konten dokumen bisnis Anda secara efektif."
+    },
+    "feature_3": {
+      "title": "Sesuaikan tampilan halaman",
+      "content": "Putar halaman ke sudut mana pun atau ubah orientasinya antara lanskap dan potret."
+    },
+    "feature_4": {
+      "title": "Ekstrak halaman menjadi file terpisah",
+      "content": "Ekstrak satu atau lebih halaman dan simpan sebagai dokumen terpisah."
+    }
+  },
+  "formats": {
+    "title": "Atur ulang halaman dokumen dalam berbagai format",
+    "description": "{{ProdShortName}} mendukung lebih dari 50 format file, memungkinkan manipulasi dokumen yang efisien dan fleksibel."
+  },
+  "operations": {
+    "title": "Fitur utama",
+    "description": "Temukan kemampuan populer lainnya dari solusi kami."
+  },
+  "examples": {
+    "comment_1": "Buat objek {{NameProduct}} dengan memberikan jalur sumber",
+    "comment_2": "Tentukan halaman yang akan dipindahkan",
+    "comment_3": "Pindahkan halaman tersebut",
+    "comment_4": "Simpan dokumen yang diproses"
+  },
+  "steps": {
+    "title": "Cara memindahkan halaman {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memungkinkan Anda memindahkan halaman yang dipilih dalam dokumen {{FileFormatUp}}. Tingkatkan aplikasi {{EnvName}} Anda dengan fitur pemrosesan dokumen yang canggih.",
+      "step_1": "Tentukan jalur file {{FileFormatUp}} sumber.",
+      "step_2": "Atur nomor halaman dan posisi barunya.",
+      "step_3": "Lakukan operasi pemindahan.",
+      "step_4": "Simpan hasilnya."
+    }
+  },
+  "code_1": {
+    "title": "Pindahkan halaman ke akhir dokumen",
+    "content": "Pelajari cara memindahkan halaman tertentu ke akhir dokumen {{FileFormatUp}}.",
+    "comment_1": "Berikan jalur file sumber ke konstruktor",
+    "comment_2": "Dapatkan informasi dokumen dan nomor halaman terakhir",
+    "comment_3": "Siapkan opsi dengan nomor halaman",
+    "comment_4": "Proses dokumen, memindahkan halaman ke akhir",
+    "comment_5": "Simpan dokumen ke lokasi baru"
+  }
+}

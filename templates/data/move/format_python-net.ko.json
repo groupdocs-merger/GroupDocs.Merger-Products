@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} 페이지 재정렬하기 in {{EnvName}}",
+    "description": "{{ProdFullName}}를 사용하여 {{FileFormatUp}} 문서의 페이지를 신속하게 재배치하세요. PDF, Word, Excel, PowerPoint 파일과 이미지 등 다양한 형식을 처리합니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 페이지 재정렬하기",
+    "description": "{{ProdFullName}}는 {{EnvNameShort}} 애플리케이션이 {{FileFormatUp}} 문서의 페이지 순서를 수정할 수 있도록 해줍니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 체험하기"
+  },
+  "about": {
+    "title": "{{ProdShortName}}에 대하여",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 PDF, Word, Excel, PowerPoint, 이미지, 압축 파일을 포함하여 50개 이상의 파일 형식을 지원하는 다목적 문서 처리 도구입니다. 병합, 분할, 페이지 추출, 이동, 교환 및 삭제 기능을 제공합니다."
+  },
+  "more_features": {
+    "title": "고급 문서 처리",
+    "description": "{{ProdFullName}}는 50개 이상의 인기 있는 비즈니스 문서 형식을 효율적으로 처리할 수 있는 다양한 기능을 제공합니다.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "다양한 형식의 문서 병합",
+      "content": "PDF, Word 문서, 프레젠테이션, 스프레드시트, 이미지 및 압축 파일의 내용을 결합하세요. 유연한 옵션을 통해 문서를 정밀하게 구성할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "페이지 구성",
+      "content": "필요에 따라 문서 내에서 페이지를 이동, 교환 또는 삭제하여 재배치하세요."
+    },
+    "feature_3": {
+      "title": "페이지 방향 조정",
+      "content": "페이지를 어떤 각도로 회전시키거나 세로 및 가로 모드 간에 전환할 수 있습니다."
+    },
+    "feature_4": {
+      "title": "페이지를 개별 문서로 추출",
+      "content": "원하는 페이지를 선택하여 독립적인 파일로 저장하세요."
+    }
+  },
+  "formats": {
+    "title": "다양한 형식에서 페이지 재정렬하기",
+    "description": "{{ProdShortName}}는 50개 이상의 파일 형식을 지원하여 문서 조직을 위한 유연한 솔루션을 제공합니다."
+  },
+  "operations": {
+    "title": "주요 기능",
+    "description": "우리 솔루션의 추가 강력한 기능을 탐색하세요."
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}} 객체를 원본 문서 경로로 초기화",
+    "comment_2": "이동할 페이지 선택",
+    "comment_3": "페이지 재배치",
+    "comment_4": "수정된 문서 저장"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 페이지 재정렬하는 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})은 {{FileFormatUp}} 문서 내에서 페이지 이동을 가능하게 합니다. 고급 문서 관리 기능으로 {{EnvName}} 애플리케이션을 업그레이드하세요.",
+      "step_1": "{{FileFormatUp}} 문서의 경로를 제공하세요.",
+      "step_2": "페이지 번호를 선택하고 새로운 위치를 지정하세요.",
+      "step_3": "이동 작업을 실행하세요.",
+      "step_4": "수정된 문서를 저장하세요."
+    }
+  },
+  "code_1": {
+    "title": "문서에서 페이지를 마지막 위치로 이동하기",
+    "content": "이 예제에서는 특정 페이지를 {{FileFormatUp}} 문서의 끝으로 이동하는 방법을 보여줍니다.",
+    "comment_1": "원본 파일 경로 설정",
+    "comment_2": "문서 세부 정보를 가져오고 마지막 페이지 번호 결정",
+    "comment_3": "대상 페이지 번호로 옵션 구성",
+    "comment_4": "페이지 이동 작업 수행",
+    "comment_5": "수정된 문서 저장"
+  }
+}

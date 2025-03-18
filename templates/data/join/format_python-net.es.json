@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Unir archivos {{FileFormatUp}} en {{EnvName}}",
+    "description": "Integra sin problemas la unión de archivos {{FileFormatUp}} en tus proyectos {{EnvNameShort}} utilizando {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Unir archivos {{FileFormatUp}}",
+    "description": "{{ProdFullName}} te permite unir documentos {{FileFormatUp}} en tus aplicaciones {{EnvNameShort}}, proporcionando integración fluida y alto rendimiento.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Gratis"
+  },
+  "about": {
+    "title": "Descripción general de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una solución de procesamiento de documentos rica en funciones que admite más de 50 formatos de archivo, incluidos PDF, Word, Excel, PowerPoint, imágenes y archivos comprimidos. Con su robusto conjunto de herramientas, puedes unir, dividir, extraer, intercambiar y eliminar páginas de manera eficiente."
+  },
+  "more_features": {
+    "title": "Capacidades integrales de unión de documentos",
+    "description": "{{ProdFullName}} está optimizado para manejar una amplia variedad de formatos de documentos, ofreciendo extensas características para la gestión de documentos empresariales.",
+    "image_description": "Funcionalidades principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unir múltiples tipos de documentos",
+      "content": "Combina PDFs, archivos de Word, presentaciones, hojas de cálculo, imágenes y otros tipos de documentos. Define rangos de páginas específicos para personalizar el proceso de unión."
+    },
+    "feature_2": {
+      "title": "Modificar y organizar páginas del documento",
+      "content": "Reorganiza páginas, elimina secciones no deseadas o intercambia páginas para crear documentos bien estructurados adaptados a tus necesidades."
+    },
+    "feature_3": {
+      "title": "Personalizar diseño y orientación de la página",
+      "content": "Rota las páginas a cualquier ángulo deseado y ajusta la orientación de la página entre horizontal y vertical para varios tipos de archivos."
+    },
+    "feature_4": {
+      "title": "Extraer y guardar páginas específicas del documento",
+      "content": "Selecciona páginas particulares de un documento y guárdalas como un archivo separado, asegurando un acceso y organización simples."
+    }
+  },
+  "formats": {
+    "title": "Unir archivos en diferentes formatos",
+    "description": "Con soporte para más de 50 tipos de documentos, {{ProdShortName}} simplifica el procesamiento de archivos, haciendo que la gestión de documentos sea simple y eficiente."
+  },
+  "operations": {
+    "title": "Funciones clave",
+    "description": "Descubre operaciones y características adicionales que admite {{ProdShortName}} para mejorar tu experiencia de procesamiento de documentos."
+  },
+  "examples": {
+    "comment_1": "Inicializa {{NameProduct}} con el documento fuente {{FileFormatUp}}",
+    "comment_2": "Une el documento con otro archivo seleccionado",
+    "comment_3": "Guarda el documento final unido en la ubicación preferida"
+  },
+  "steps": {
+    "title": "Cómo unir documentos {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), unir documentos {{FileFormatUp}} es sencillo. Mejora tus aplicaciones {{EnvName}} con capacidades eficientes de combinación de documentos.",
+      "step_1": "Proporciona la ruta del primer documento {{FileFormatUp}}.",
+      "step_2": "Selecciona el segundo documento a unir.",
+      "step_3": "Configura parámetros opcionales para personalización.",
+      "step_4": "Ejecuta el proceso de unión y guarda el documento de salida."
+    }
+  },
+  "code_1": {
+    "title": "Unir páginas seleccionadas de diferentes formatos de documentos",
+    "content": "Este ejemplo demuestra cómo unir archivos {{FileFormatUp}} seleccionando páginas específicas de documentos en otros formatos.",
+    "comment_1": "Define la ruta del documento principal",
+    "comment_2": "Configura opciones para incluir páginas específicas",
+    "comment_3": "Une el archivo principal con las páginas seleccionadas de otro documento",
+    "comment_4": "Guarda el documento final en la ubicación deseada"
+  }
+}

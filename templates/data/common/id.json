@@ -1,0 +1,217 @@
+{
+  "common-content": {
+    "format-formats": {
+      "word": {
+        "name": "WORD",
+        "description": "Dokumen Microsoft Word"
+      },
+      "excel": {
+        "name": "EXCEL",
+        "description": "Spreadsheet Microsoft Excel"
+      },
+      "powerpoint": {
+        "name": "POWERPOINT",
+        "description": "Presentasi Microsoft PowerPoint"
+      },
+      "image": {
+        "name": "GAMBAR",
+        "description": "Format Gambar Populer"
+      },
+      "visio": {
+        "name": "VISIO",
+        "description": "Diagram Microsoft Visio"
+      },
+      "pdf": {
+        "name": "PDF",
+        "description": "Format Dokumen Portable Adobe"
+      },
+      "docx": {
+        "name": "DOCX",
+        "description": "Dokumen Open XML Microsoft Word"
+      },
+      "xlsx": {
+        "name": "XLSX",
+        "description": "Spreadsheet Open XML Microsoft Excel"
+      },
+      "pptx": {
+        "name": "PPTX",
+        "description": "Presentasi Open XML PowerPoint"
+      },
+      "bmp": {
+        "name": "BMP",
+        "description": "Gambar Bitmap"
+      },
+      "jpeg": {
+        "name": "JPEG",
+        "description": "File Gambar JPEG"
+      },
+      "jpg": {
+        "name": "JPG",
+        "description": "File Gambar JPEG"
+      },
+      "png": {
+        "name": "PNG",
+        "description": "Grafis Jaringan Portabel"
+      },
+      "svg": {
+        "name": "SVG",
+        "description": "Grafis Vektor Skalar"
+      },
+      "tiff": {
+        "name": "TIFF",
+        "description": "Format File Gambar Terlabel"
+      },
+      "csv": {
+        "name": "CSV",
+        "description": "File Nilai Pisah Koma"
+      },
+      "epub": {
+        "name": "EPUB",
+        "description": "Publikasi Elektronik"
+      },
+      "html": {
+        "name": "HTML",
+        "description": "File Bahasa Markup Hypertext"
+      },
+      "mhtml": {
+        "name": "MHTML",
+        "description": "Arsip Web MHTML"
+      },
+      "txt": {
+        "name": "TXT",
+        "description": "File Teks Biasa"
+      },
+      "xps": {
+        "name": "XPS",
+        "description": "File Spesifikasi Kertas XML"
+      },
+      "zip": {
+        "name": "ZIP",
+        "description": "Arsip ZIP"
+      }
+    },
+    "format-operations": {
+      "combine": {
+        "pdf": "Gabungkan dokumen PDF",
+        "docx": "Gabungkan dokumen DOCX",
+        "xlsx": "Gabungkan dokumen XLSX",
+        "pptx": "Gabungkan dokumen PPTX",
+        "epub": "Gabungkan dokumen EPUB"
+      },
+      "extract": {
+        "pdf": "Ekstrak halaman PDF",
+        "docx": "Simpan halaman DOCX",
+        "xlsx": "Ekstrak halaman XLSX",
+        "pptx": "Simpan halaman PPTX",
+        "epub": "Ekstrak halaman EPUB"
+      },
+      "join": {
+        "pdf": "Gabungkan file PDF",
+        "docx": "Gabungkan file DOCX",
+        "xlsx": "Gabungkan file XLSX",
+        "pptx": "Gabungkan file PPTX",
+        "epub": "Gabungkan file EPUB"
+      },
+      "move": {
+        "pdf": "Pindahkan halaman PDF",
+        "docx": "Atur ulang halaman DOCX",
+        "xlsx": "Pindahkan halaman XLSX",
+        "pptx": "Atur ulang halaman PPTX",
+        "epub": "Pindahkan halaman EPUB"
+      },
+      "remove": {
+        "pdf": "Hapus halaman PDF",
+        "docx": "Hapus halaman DOCX",
+        "xlsx": "Hapus halaman XLSX",
+        "pptx": "Hapus halaman PPTX",
+        "epub": "Hapus halaman EPUB"
+      },
+      "rotate": {
+        "pdf": "Putar halaman PDF",
+        "docx": "Putar halaman DOCX",
+        "xlsx": "Putar halaman XLSX",
+        "pptx": "Putar halaman PPTX",
+        "epub": "Putar halaman EPUB"
+      },
+      "split": {
+        "pdf": "Pecah file PDF",
+        "docx": "Pecah file DOCX",
+        "xlsx": "Pecah file XLSX",
+        "pptx": "Pecah file PPTX",
+        "epub": "Pecah file EPUB"
+      },
+      "swap": {
+        "pdf": "Tukar file PDF",
+        "docx": "Tukar file DOCX",
+        "xlsx": "Tukar file XLSX",
+        "pptx": "Tukar file PPTX",
+        "epub": "Tukar file EPUB"
+      },
+      "orientation": {
+        "pdf": "Ubah orientasi PDF",
+        "docx": "Ubah orientasi DOCX",
+        "xlsx": "Ubah orientasi XLSX",
+        "pptx": "Ubah orientasi PPTX",
+        "epub": "Ubah orientasi EPUB"
+      }
+    },
+    "format-code": {
+      "copy_title": "Salin",
+      "result_title": "Hasil kode",
+      "result_title_bottom": "Unduh hasil",
+      "copy_tip": "klik untuk menyalin",
+      "copy_done": "disalin",
+      "links": {
+        "title_1": "Lebih banyak contoh",
+        "title_2": "Dokumentasi"
+      }
+    },
+    "format-actions": {
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "comment_1": "Unduh {{PackageStoreName}}",
+      "comment_2": "Lisensi"
+    },
+    "texts": {
+      "learn_more": "Pelajari lebih lanjut"
+    },
+    "operations": {
+      "combine": {
+        "name": "Gabungkan dokumen",
+        "description": "Menggabungkan beberapa dokumen menjadi satu"
+      },
+      "extract": {
+        "name": "Ekstrak halaman",
+        "description": "Simpan halaman yang dipilih sebagai dokumen terpisah"
+      },
+      "join": {
+        "name": "Gabungkan dokumen",
+        "description": "Menggabungkan beberapa dokumen menjadi satu"
+      },
+      "move": {
+        "name": "Pindahkan halaman",
+        "description": "Menempatkan kembali halaman dalam dokumen"
+      },
+      "remove": {
+        "name": "Hapus halaman",
+        "description": "Hapus halaman dari dokumen"
+      },
+      "rotate": {
+        "name": "Putar halaman",
+        "description": "Memutar halaman dokumen"
+      },
+      "split": {
+        "name": "Pecah dokumen",
+        "description": "Membagi dokumen"
+      },
+      "swap": {
+        "name": "Tukar halaman",
+        "description": "Tukar halaman dalam dokumen"
+      },
+      "orientation": {
+        "name": "Ubah orientasi",
+        "description": "Mengubah orientasi halaman"
+      }
+    }
+  }
+}

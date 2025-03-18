@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{EnvName}}에서 {{FileFormatUp}} 파일 병합",
+    "description": "{{ProdFullName}}을 사용하여 {{EnvNameShort}} 프로젝트에 {{FileFormatUp}} 파일 병합을 매끄럽게 통합하세요."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 파일 병합",
+    "description": "{{ProdFullName}}은 {{EnvNameShort}} 애플리케이션 내에서 {{FileFormatUp}} 문서를 효율적으로 병합할 수 있도록 하여 매끄러운 통합과 높은 성능을 제공합니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 다운로드"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 개요",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 PDF, Word, Excel, PowerPoint, 이미지 및 아카이브를 포함한 50개 이상의 파일 형식을 지원하는 기능이 풍부한 문서 처리 솔루션입니다. 강력한 도구 세트를 통해 문서를 효율적으로 병합, 분할, 추출, 교체 및 페이지를 제거할 수 있습니다."
+  },
+  "more_features": {
+    "title": "종합적인 문서 병합 기능",
+    "description": "{{ProdFullName}}은 다양한 문서 형식 처리를 최적화하여 비즈니스 문서 관리를 위한 폭넓은 기능을 제공합니다.",
+    "image_description": "{{ProdShortName}}의 핵심 기능",
+    "feature_1": {
+      "title": "여러 문서 유형 병합",
+      "content": "PDF, Word 파일, 프레젠테이션, 스프레드시트, 이미지 등 다양한 문서 유형을 결합합니다. 병합 프로세스를 사용자 정의하기 위해 특정 페이지 범위를 정의할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "문서 페이지 수정 및 조직",
+      "content": "페이지를 재정렬하거나 원치 않는 섹션을 삭제하거나 페이지를 교체하여 필요에 맞게 잘 구성된 문서를 생성할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "페이지 레이아웃 및 방향 사용자 정의",
+      "content": "페이지를 원하는 각도로 회전하고 다양한 파일 유형에 대해 방향을 가로 또는 세로로 조정할 수 있습니다."
+    },
+    "feature_4": {
+      "title": "특정 문서 페이지 추출 및 저장",
+      "content": "문서에서 특정 페이지를 선택하고 별도의 파일로 저장하여 손쉬운 접근 및 조직을 보장합니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 형식의 파일 결합",
+    "description": "50개 이상의 문서 유형을 지원하는 {{ProdShortName}}는 파일 처리 과정을 간소화하여 문서 관리를 간편하고 효율적으로 만듭니다."
+  },
+  "operations": {
+    "title": "주요 기능",
+    "description": "{{ProdShortName}}에서 지원하는 추가 작업 및 기능을 확인하여 문서 처리 경험을 개선하세요."
+  },
+  "examples": {
+    "comment_1": "소스 {{FileFormatUp}} 문서로 {{NameProduct}} 초기화",
+    "comment_2": "선택한 다른 파일과 문서를 병합",
+    "comment_3": "최종 병합된 문서를 원하는 위치에 저장"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 문서 병합 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})을 사용하여 {{FileFormatUp}} 문서를 병합하는 것은 간단합니다. 효율적인 문서 조합 기능으로 {{EnvName}} 애플리케이션을 향상시킵니다.",
+      "step_1": "첫 번째 {{FileFormatUp}} 문서의 파일 경로를 제공합니다.",
+      "step_2": "병합할 두 번째 문서를 선택합니다.",
+      "step_3": "사용자 정의를 위한 선택적 매개 변수를 설정합니다.",
+      "step_4": "병합 프로세스를 실행하고 출력 문서를 저장합니다."
+    }
+  },
+  "code_1": {
+    "title": "다양한 문서 형식의 선택된 페이지 병합",
+    "content": "이 예제는 다른 형식의 문서에서 특정 페이지를 선택하여 {{FileFormatUp}} 파일을 병합하는 방법을 보여줍니다.",
+    "comment_1": "주 문서의 경로 정의",
+    "comment_2": "특정 페이지 포함 옵션 구성",
+    "comment_3": "선택된 페이지와 함께 기본 파일 병합",
+    "comment_4": "최종 문서를 원하는 위치에 저장"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Ubah orientasi halaman {{FileFormatUp}} dalam aplikasi {{EnvName}}",
+    "description": "Gunakan {{ProdFullName}} untuk menyesuaikan orientasi halaman {{FileFormatUp}} (potret atau lanskap). Kelola file PDF, dokumen Word, lembar Excel, slide PowerPoint, file Visio, gambar, arsip, dan banyak lagi."
+  },
+  "header": {
+    "title": "Kontrol orientasi halaman dalam {{FileFormatUp}}",
+    "description": "{{ProdFullName}} memperlengkapi aplikasi {{EnvNameShort}} dengan alat yang berguna. Pengembang dapat meningkatkan proyek mereka dengan mengelola format file populer dan mengubah orientasi halaman {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "{{ProdShortName}} Ikhtisar",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat untuk mengelola dokumen dalam lebih dari 50 format, seperti PDF, Word, Excel, PowerPoint, Visio, gambar, dan arsip. Ini memungkinkan Anda untuk menggabungkan, memisahkan, mengekstrak, memindahkan, menukar, menghapus, atau memutar halaman. Tambahkan kontrol dokumen yang kuat ke aplikasi Anda."
+  },
+  "more_features": {
+    "title": "Manajemen konten dokumen yang fleksibel",
+    "description": "{{ProdFullName}} menawarkan seperangkat alat lengkap untuk menangani konten dalam lebih dari 50 format file populer dengan pemrosesan yang mulus dan efisien.",
+    "image_description": "Fitur {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan berbagai format file",
+      "content": "Gabungkan file PDF, dokumen Word, slide, spreadsheet, diagram Visio, gambar, dan arsip. Sesuaikan proses untuk hasil terbaik."
+    },
+    "feature_2": {
+      "title": "Kelola halaman dokumen",
+      "content": "Susun ulang halaman dengan memindahkan, menukar, atau menghapusnya untuk mengatur konten Anda dengan lebih baik."
+    },
+    "feature_3": {
+      "title": "Kontrol tata letak halaman",
+      "content": "Putar halaman ke sudut tertentu atau beralih antara mode potret dan lanskap."
+    },
+    "feature_4": {
+      "title": "Ekstrak halaman sebagai file terpisah",
+      "content": "Pilih halaman atau rentang halaman dan simpan sebagai file baru di mana pun Anda mau."
+    }
+  },
+  "formats": {
+    "title": "Ubah orientasi halaman untuk banyak format",
+    "description": "{{ProdShortName}} bekerja dengan lebih dari 50 format file, memudahkan Anda untuk menyesuaikan dokumen dengan berbagai operasi."
+  },
+  "operations": {
+    "title": "Fitur kunci",
+    "description": "Periksa fitur-fitur yang dapat meningkatkan proyek Anda."
+  },
+  "examples": {
+    "comment_1": "Muat jalur file sumber ke dalam {{NameProduct}}",
+    "comment_2": "Pilih halaman yang akan diubah orientasinya",
+    "comment_3": "Tentukan orientasi halaman sesuai kebutuhan",
+    "comment_4": "Simpan dokumen yang diperbarui"
+  },
+  "steps": {
+    "title": "Cara mengubah orientasi halaman {{FileFormatUp}}",
+    "content": {
+      "title": "Gunakan [{{ProdShortName}}]({{PlatformLink}}) untuk menyesuaikan orientasi halaman {{FileFormatUp}}. Fitur ini, bersama dengan fitur lain, memberikan manajemen dokumen yang solid untuk proyek {{EnvName}}.",
+      "step_1": "Tunjuk ke file sumber {{FileFormatUp}}.",
+      "step_2": "Pilih nomor halaman yang ingin disesuaikan.",
+      "step_3": "Perbarui orientasi halaman.",
+      "step_4": "Simpan perubahan."
+    }
+  },
+  "code_1": {
+    "title": "Ubah orientasi halaman terakhir dalam dokumen {{FileFormatUp}}",
+    "content": "Pelajari cara menghitung halaman dalam file {{FileFormatUp}} dan mengubah orientasi halaman terakhir.",
+    "comment_1": "Muat file sumber ke dalam konstruktor",
+    "comment_2": "Dapatkan total jumlah halaman",
+    "comment_3": "Tentukan nomor halaman dan pilih potret atau lanskap",
+    "comment_4": "Terapkan orientasi baru",
+    "comment_5": "Simpan file yang diperbarui ke jalur keluaran"
+  }
+}

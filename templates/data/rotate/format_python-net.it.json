@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Ruota le pagine dei file {{FileFormatUp}} nelle app {{EnvName}}",
+    "description": "Utilizza {{ProdFullName}} per ruotare le pagine nei documenti {{FileFormatUp}}. Modifica i PDF, i file Word, i fogli di calcolo Excel, le diapositive PowerPoint, le immagini e gli archivi."
+  },
+  "header": {
+    "title": "Ruota le pagine dei file {{FileFormatUp}}",
+    "description": "Potenzia le tue applicazioni {{EnvNameShort}} con {{ProdFullName}}, una potente soluzione per l'elaborazione dei documenti. Ruota le pagine nei file {{FileFormatUp}} e gestisci vari formati di file senza sforzo.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Gratuito"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una libreria avanzata per l'elaborazione dei documenti che supporta oltre 50 formati di file, inclusi PDF, Word, Excel, PowerPoint, Visio, immagini e archivi. Fornisce funzionalità come unione, divisione, estrazione, riordino e cancellazione delle pagine per semplificare la gestione dei documenti nelle tue applicazioni."
+  },
+  "more_features": {
+    "title": "Gestione documentale completa",
+    "description": "{{ProdFullName}} offre un ampio set di funzionalità, facilitando la gestione di oltre 50 formati di file aziendali comunemente utilizzati.",
+    "image_description": "Capacità chiave di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci più formati di file",
+      "content": "Combina PDF, documenti Word, fogli di calcolo, presentazioni, diagrammi Visio, immagini e archivi. Utilizza opzioni avanzate per un controllo preciso sul processo di unione."
+    },
+    "feature_2": {
+      "title": "Riordina le pagine del documento",
+      "content": "Sposta, scambia o rimuovi facilmente le pagine per organizzare meglio i tuoi file."
+    },
+    "feature_3": {
+      "title": "Personalizza il layout delle pagine",
+      "content": "Ruota le pagine a qualsiasi angolo o passa da orientamento orizzontale a verticale per una migliore leggibilità."
+    },
+    "feature_4": {
+      "title": "Estrai le pagine come file separati",
+      "content": "Seleziona pagine specifiche o un intervallo di pagine e salvale come un nuovo documento nella tua posizione preferita."
+    }
+  },
+  "formats": {
+    "title": "Ruota le pagine in più formati",
+    "description": "{{ProdShortName}} supporta oltre 50 tipi di file, permettendoti di modificare rapidamente i documenti con una varietà di operazioni integrate."
+  },
+  "operations": {
+    "title": "Funzionalità principali",
+    "description": "Scopri le potenti capacità disponibili nella nostra libreria di elaborazione dei documenti."
+  },
+  "examples": {
+    "comment_1": "Inizializza {{NameProduct}} e carica il documento sorgente",
+    "comment_2": "Specifica il numero della pagina da ruotare",
+    "comment_3": "Esegui il processo di rotazione",
+    "comment_4": "Salva il documento aggiornato nella posizione desiderata"
+  },
+  "steps": {
+    "title": "Come ruotare le pagine {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), puoi ruotare le pagine nei documenti {{FileFormatUp}}, portando una gestione documentale potente alle applicazioni {{EnvName}}.",
+      "step_1": "Fornisci il percorso del file {{FileFormatUp}}.",
+      "step_2": "Scegli il numero della pagina che desideri ruotare.",
+      "step_3": "Applica l'operazione di rotazione.",
+      "step_4": "Salva il documento modificato nella posizione desiderata."
+    }
+  },
+  "code_1": {
+    "title": "Ruota tutte le pagine {{FileFormatUp}} con numero pari",
+    "content": "Questo esempio dimostra come ruotare ogni pagina con numero pari in un documento {{FileFormatUp}}.",
+    "comment_1": "Carica il documento sorgente nel costruttore",
+    "comment_2": "Recupera il numero totale di pagine",
+    "comment_3": "Configura le impostazioni per ruotare le pagine pari di 180 gradi",
+    "comment_4": "Esegui l'operazione di rotazione",
+    "comment_5": "Salva il file modificato"
+  }
+}

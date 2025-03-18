@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Seiten von {{FileFormatUp}} in {{EnvName}} extrahieren",
+    "description": "Extrahieren Sie schnell bestimmte Seiten aus einer {{FileFormatUp}}-Datei mit {{ProdFullName}} und speichern Sie sie als separates Dokument."
+  },
+  "header": {
+    "title": "Seiten von {{FileFormatUp}} extrahieren",
+    "description": "Integrieren Sie {{ProdFullName}} in Ihre {{EnvNameShort}}-Anwendungen, um {{FileFormatUp}}-Dateien effizient mit erweiterten Funktionen zur Seitenextraktion zu verarbeiten.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine leistungsstarke Bibliothek für die Dokumentenverarbeitung, die über 50 Dateiformate unterstützt, darunter PDF, Word, Excel, PowerPoint und Bilder. Sie ermöglicht nahtlose Operationen wie Merging, Splitting, Extrahieren, Umordnen und Löschen von Seiten."
+  },
+  "more_features": {
+    "title": "Vielseitige Dokumentenverarbeitung",
+    "description": "{{ProdFullName}} bietet robuste Funktionalitäten für die Arbeit mit über 50 weit verbreiteten Geschäfts-dokumentformaten.",
+    "image_description": "Hauptfunktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mehrere Dateitypen zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, PowerPoint-Folien, Excel-Tabellen, Bilder und Archive in einer einzelnen Datei mit anpassbaren Optionen."
+    },
+    "feature_2": {
+      "title": "Erweiterte Seitenverwaltung",
+      "content": "Verschieben, entfernen oder ordnen Sie Seiten innerhalb eines Dokuments neu an, um Ihre Inhalte effektiv zu organisieren."
+    },
+    "feature_3": {
+      "title": "Seitenlayout ändern",
+      "content": "Drehen Sie Seiten in jeden Winkel oder wechseln Sie zwischen Hoch- und Querformat nach Bedarf."
+    },
+    "feature_4": {
+      "title": "Spezifische Seiten extrahieren",
+      "content": "Wählen und extrahieren Sie nur die benötigten Seiten und speichern Sie diese als neues Dokument zur weiteren Verwendung."
+    }
+  },
+  "formats": {
+    "title": "Seiten aus mehreren Dateiformaten extrahieren",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateiformate und macht die Dokumentenverwaltung flexibler und effizienter."
+  },
+  "operations": {
+    "title": "Hauptfähigkeiten",
+    "description": "Entdecken Sie zusätzliche Funktionen zur Dokumentenverarbeitung."
+  },
+  "examples": {
+    "comment_1": "Erstellen Sie eine Instanz von {{ProdShortName}} mit dem Quelldokument",
+    "comment_2": "Definieren Sie die Extraktionseinstellungen für bestimmte Seiten",
+    "comment_3": "Führen Sie den Seitenextraktionsprozess aus",
+    "comment_4": "Speichern Sie die extrahierten Seiten als neue Datei"
+  },
+  "steps": {
+    "title": "So extrahieren Sie Seiten von {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) erleichtert das Extrahieren von Seiten aus {{FileFormatUp}}-Dokumenten. Verbessern Sie Ihre {{EnvName}}-Anwendungen durch nahtlose Funktionen zur Dokumentenverarbeitung.",
+      "step_1": "Geben Sie den Dateipfad des Quelldokuments im {{FileFormatUp}}-Format an.",
+      "step_2": "Wählen Sie die Seiten aus, die Sie extrahieren möchten.",
+      "step_3": "Führen Sie den Extraktionsprozess aus.",
+      "step_4": "Speichern Sie die extrahierten Seiten als separates Dokument."
+    }
+  },
+  "code_1": {
+    "title": "Spezifische Seiten aus einem Dokument extrahieren",
+    "content": "Dieses Beispiel zeigt, wie man einen ausgewählten Seitenbereich aus einer {{FileFormatUp}}-Datei extrahiert und als neues Dokument speichert.",
+    "comment_1": "Geben Sie den Dateipfad des Originaldokuments an",
+    "comment_2": "Definieren Sie Optionen, um nur die geraden Seiten aus dem ausgewählten Bereich zu extrahieren",
+    "comment_3": "Führen Sie die Extraktionsoperation aus",
+    "comment_4": "Speichern Sie die extrahierten Seiten in einer neuen Datei"
+  }
+}

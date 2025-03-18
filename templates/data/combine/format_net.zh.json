@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "在{{EnvName}}中合并{{FileFormatUp}}文件",
+    "description": "将{{ProdFullName}}集成到您的{{EnvNameShort}}项目中，以合并{{FileFormatUp}}文件."
+  },
+  "header": {
+    "title": "合并{{FileFormatUp}}文件",
+    "description": "使用{{ProdFullName}}构建高效合并{{FileFormatUp}}文档的{{EnvNameShort}}应用程序。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于{{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})是一个全面的文档处理解决方案。它支持超过50种格式，包括PDF、Word、Excel、PowerPoint、图像和压缩包，使您能够轻松合并、拆分、提取、交换和删除页面。"
+  },
+  "more_features": {
+    "title": "文档合并工具",
+    "description": "{{ProdFullName}}支持50多种常用商业文件格式，并提供广泛的文档操作功能。",
+    "image_description": "{{ProdShortName}}的核心功能",
+    "feature_1": {
+      "title": "合并多种文档格式",
+      "content": "轻松结合PDF、Word文件、演示文稿、电子表格、图像等。根据需要选择特定页面进行合并。"
+    },
+    "feature_2": {
+      "title": "修改文档页面",
+      "content": "重新排列、删除或交换商业文档中的页面，以根据需求进行结构化。"
+    },
+    "feature_3": {
+      "title": "自定义页面布局",
+      "content": "将页面旋转至任意角度，并根据支持的文件类型在横向和纵向之间调整它们的方向。"
+    },
+    "feature_4": {
+      "title": "提取页面",
+      "content": "选择并提取特定页面，将其保存为新文档。"
+    }
+  },
+  "formats": {
+    "title": "合并不同的文件格式",
+    "description": "{{ProdShortName}}处理超过50种文件格式，实现无缝的商业文档处理。"
+  },
+  "operations": {
+    "title": "核心功能",
+    "description": "了解更多支持的操作."
+  },
+  "examples": {
+    "comment_1": "创建一个{{NameProduct}}实例，并传入输入的{{FileFormatUp}}文档",
+    "comment_2": "将文件与另一个文档合并",
+    "comment_3": "将合并后的文件保存到指定位置"
+  },
+  "steps": {
+    "title": "合并{{FileFormatUp}}文件的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})使您能够轻松合并{{FileFormatUp}}文件。将此功能集成到您的{{EnvName}}应用程序中，以将多个文档处理为一个文件。",
+      "step_1": "设置第一个{{FileFormatUp}}文件的路径。",
+      "step_2": "选择第二个文件。",
+      "step_3": "配置可选设置。",
+      "step_4": "合并文档并保存输出文件。"
+    }
+  },
+  "code_1": {
+    "title": "从不同格式的文件合并选定页面",
+    "content": "该示例说明如何在合并{{FileFormatUp}}文件时，包含来自其他格式的选定页面。",
+    "comment_1": "定义主文件路径",
+    "comment_2": "指定选项以选择特定页面",
+    "comment_3": "将主文档与来自另一个文件的选定页面合并",
+    "comment_4": "将最终合并的文档保存到指定位置"
+  }
+}

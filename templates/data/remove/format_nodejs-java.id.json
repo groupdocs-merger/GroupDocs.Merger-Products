@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Hapus halaman {{FileFormatUp}} dalam aplikasi {{EnvName}}",
+    "description": "Gunakan {{ProdFullName}} untuk menghapus halaman tertentu dari dokumen {{FileFormatUp}}. Proses PDF, Word, Excel, PowerPoint, gambar, arsip, dan lainnya dengan efisien."
+  },
+  "header": {
+    "title": "Hapus halaman dari {{FileFormatUp}}",
+    "description": "{{ProdFullName}} memperkaya aplikasi {{EnvNameShort}} Anda dengan fitur pemrosesan dokumen yang kuat, termasuk penghapusan halaman dari file {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dapatkan Gratis"
+  },
+  "about": {
+    "title": "Apa itu {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat pemrosesan dokumen yang kaya fitur dan mendukung lebih dari 50 format file, termasuk PDF, Word, Excel, PowerPoint, Visio, gambar, dan arsip. Ini menawarkan penggabungan, pemisahan, ekstraksi, pemindahan, pertukaran, dan penghapusan halaman untuk memperlancar manajemen dokumen dalam aplikasi Anda."
+  },
+  "more_features": {
+    "title": "Manajemen dokumen tingkat lanjut",
+    "description": "{{ProdFullName}} menyediakan satu set lengkap alat untuk bekerja dengan lebih dari 50 format file yang umum digunakan, menjadikan pemrosesan dokumen lebih mudah dan efisien.",
+    "image_description": "Kemampuan kunci dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan berbagai format file",
+      "content": "Kombinasikan PDF, dokumen Word, lembar kerja, presentasi, gambar, dan arsip dengan opsi penggabungan yang dapat disesuaikan untuk hasil yang tepat."
+    },
+    "feature_2": {
+      "title": "Manajemen halaman yang fleksibel",
+      "content": "Atur ulang halaman dokumen dengan memindahkan, menukar, atau menghapusnya agar file Anda tetap terorganisir dengan baik."
+    },
+    "feature_3": {
+      "title": "Kustomisasi tata letak halaman",
+      "content": "Putar halaman pada sudut mana pun atau beralih antara orientasi lanskap dan potret."
+    },
+    "feature_4": {
+      "title": "Ekstrak halaman sebagai file terpisah",
+      "content": "Pilih dan simpan halaman tertentu sebagai dokumen mandiri."
+    }
+  },
+  "formats": {
+    "title": "Hapus halaman dari berbagai format dokumen",
+    "description": "{{ProdShortName}} mendukung lebih dari 50 format file, memungkinkan Anda untuk memodifikasi dokumen dengan cepat dan efektif."
+  },
+  "operations": {
+    "title": "Fitur Utama",
+    "description": "Temukan kemampuan tambahan dari solusi pemrosesan dokumen kami."
+  },
+  "examples": {
+    "comment_1": "Buat instance {{NameProduct}} dan sediakan jalur file",
+    "comment_2": "Tentukan nomor halaman yang akan dihapus",
+    "comment_3": "Terapkan pengaturan penghapusan",
+    "comment_4": "Simpan dokumen yang telah dimodifikasi"
+  },
+  "steps": {
+    "title": "Cara menghapus halaman dari {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) mempermudah penghapusan halaman dari dokumen {{FileFormatUp}}. Integrasikan ke dalam aplikasi {{EnvName}} Anda untuk meningkatkan kemampuan manajemen dokumen.",
+      "step_1": "Tentukan jalur ke file {{FileFormatUp}}.",
+      "step_2": "Tetapkan nomor halaman yang ingin Anda hapus.",
+      "step_3": "Jalankan operasi penghapusan halaman.",
+      "step_4": "Simpan dokumen yang diperbarui."
+    }
+  },
+  "code_1": {
+    "title": "Hapus semua halaman bernomor genap",
+    "content": "Pelajari cara menghapus halaman bernomor genap dari dokumen {{FileFormatUp}}.",
+    "comment_1": "Berikan jalur file ke konstruktor",
+    "comment_2": "Dapatkan jumlah total halaman dalam dokumen",
+    "comment_3": "Konfigurasi pengaturan untuk menghapus halaman genap",
+    "comment_4": "Proses dokumen",
+    "comment_5": "Simpan file yang diperbarui ke lokasi yang ditentukan"
+  }
+}

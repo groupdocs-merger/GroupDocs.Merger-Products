@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Regola l'orientamento delle pagine {{FileFormatUp}} nelle app {{EnvName}}",
+    "description": "Con {{ProdFullName}}, modifica i layout delle pagine {{FileFormatUp}} (verticale o orizzontale). Gestisci PDF, file Word, fogli Excel, presentazioni PowerPoint, disegni Visio, immagini, archivi e altro senza problemi."
+  },
+  "header": {
+    "title": "Modifiche all'orientamento delle pagine {{FileFormatUp}}",
+    "description": "{{ProdFullName}} offre strumenti pratici per le app {{EnvNameShort}}. Gli sviluppatori possono migliorare i loro progetti gestendo formati di file chiave e regolando i layout delle pagine {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Provalo Gratis"
+  },
+  "about": {
+    "title": "Panoramica di {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è un insieme di strumenti per gestire documenti in oltre 50 formati, inclusi PDF, Word, Excel, PowerPoint, Visio, immagini e archivi. Unisci, dividi, estrai, riposiziona, scambia, rimuovi o ruota le pagine in base alle tue necessità."
+  },
+  "more_features": {
+    "title": "Gestione documentale versatile",
+    "description": "{{ProdFullName}} offre una solida gamma di strumenti per gestire contenuti in oltre 50 formati di file con prestazioni rapide e affidabili.",
+    "image_description": "Capacità di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci più tipi di file",
+      "content": "Fondi PDF, documenti Word, diapositive, fogli di calcolo, file Visio, immagini e archivi. Affina il processo per risultati ottimali."
+    },
+    "feature_2": {
+      "title": "Organizza le pagine del documento",
+      "content": "Sposta, scambia o taglia pagine per semplificare la struttura del tuo documento."
+    },
+    "feature_3": {
+      "title": "Regola la configurazione della pagina",
+      "content": "Ruota le pagine in un angolo personalizzato o passa tra verticale e orizzontale."
+    },
+    "feature_4": {
+      "title": "Estrai pagine in nuovi file",
+      "content": "Seleziona una pagina o un gruppo e salvali come un nuovo file ovunque."
+    }
+  },
+  "formats": {
+    "title": "Modifica l'orientamento delle pagine in diversi formati",
+    "description": "{{ProdShortName}} gestisce oltre 50 tipi di file, consentendoti di modificare i documenti utilizzando una gamma di funzioni."
+  },
+  "operations": {
+    "title": "Funzionalità principali",
+    "description": "Scopri gli strumenti che possono migliorare il tuo lavoro."
+  },
+  "examples": {
+    "comment_1": "Indica a {{NameProduct}} il file sorgente",
+    "comment_2": "Scegli la pagina per le modifiche al layout",
+    "comment_3": "Imposta il nuovo orientamento della pagina",
+    "comment_4": "Salva il tuo file aggiornato"
+  },
+  "steps": {
+    "title": "Come regolare l'orientamento delle pagine {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), modifica i layout delle pagine {{FileFormatUp}}. Questa funzionalità e altre offrono un controllo intelligente dei documenti per i progetti {{EnvName}}.",
+      "step_1": "Carica la posizione del file {{FileFormatUp}}.",
+      "step_2": "Seleziona la pagina da modificare.",
+      "step_3": "Aggiorna il suo orientamento.",
+      "step_4": "Salva il risultato."
+    }
+  },
+  "code_1": {
+    "title": "Cambia l'orientamento dell'ultima pagina {{FileFormatUp}}",
+    "content": "Scopri come contare le pagine in un file {{FileFormatUp}} e cambiare l'orientamento dell'ultima pagina.",
+    "comment_1": "Fornisci il file al costruttore",
+    "comment_2": "Recupera il numero totale delle pagine",
+    "comment_3": "Imposta il numero di pagina e scegli verticale o orizzontale",
+    "comment_4": "Applica le modifiche all'orientamento",
+    "comment_5": "Salva in una posizione di output"
+  }
+}

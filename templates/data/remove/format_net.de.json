@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}-Seiten in {{EnvName}}-Apps entfernen",
+    "description": "Verwenden Sie {{ProdFullName}}, um bestimmte Seiten aus {{FileFormatUp}}-Dokumenten zu löschen. Verwaltet PDF, Word, Excel, PowerPoint, Bilder, Archive und mehr."
+  },
+  "header": {
+    "title": "Seiten in {{FileFormatUp}} entfernen",
+    "description": "{{ProdFullName}} verbessert {{EnvNameShort}}-Apps mit leistungsstarken Dokumentenverarbeitungsfunktionen, einschließlich des Entfernens von Seiten aus {{FileFormatUp}}-Dateien.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Jetzt kostenlos erhalten"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein fortschrittliches Dokumentenverarbeitungstool, das über 50 Dateiformate unterstützt, darunter PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive. Es bietet eine Vielzahl von Funktionen wie Zusammenführen, Trennen, Extrahieren, Neuorden, Tauschen und Entfernen von Seiten, um das Dokumentenmanagement zu optimieren."
+  },
+  "more_features": {
+    "title": "Umfassende Dokumentenverarbeitung",
+    "description": "{{ProdFullName}} bietet eine breite Palette von Funktionen, die eine effiziente Handhabung von über 50 gängigen Geschäftsdateiformaten ermöglichen.",
+    "image_description": "Schlüsselmerkmale von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mehrere Dateitypen zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, Präsentationen, Tabellenkalkulationen, Bilder und Archive mit flexiblen Optionen für eine präzise Zusammenführung."
+    },
+    "feature_2": {
+      "title": "Dokumentseiten organisieren",
+      "content": "Rearrangieren Sie Seiten durch Verschieben, Tauschen oder Löschen, um Dokumente effizient zu strukturieren."
+    },
+    "feature_3": {
+      "title": "Seitenlayout anpassen",
+      "content": "Drehen Sie Seiten in jedem Winkel oder wechseln Sie nach Bedarf zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Seiten in separate Dokumente extrahieren",
+      "content": "Wählen und speichern Sie bestimmte Seiten als unabhängige Dateien zur besseren Dokumentorganisation."
+    }
+  },
+  "formats": {
+    "title": "Seiten aus verschiedenen Dateiformaten entfernen",
+    "description": "{{ProdShortName}} unterstützt über 50 Dokumentformate und ermöglicht schnelle Änderungen."
+  },
+  "operations": {
+    "title": "Kernfunktionen",
+    "description": "Entdecken Sie zusätzliche Funktionen unserer Lösung."
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}} mit dem Dateipfad initialisieren",
+    "comment_2": "Die Seitenzahl(en) anzugeben, die entfernt werden sollen",
+    "comment_3": "Die Entfernungseinstellungen anwenden",
+    "comment_4": "Das aktualisierte Dokument speichern"
+  },
+  "steps": {
+    "title": "So entfernen Sie Seiten aus {{FileFormatUp}}",
+    "content": {
+      "title": "Mit [{{ProdShortName}}]({{PlatformLink}}) können Sie Seiten aus {{FileFormatUp}}-Dateien löschen. Fügen Sie Ihren {{EnvName}}-Anwendungen mühelos Dokumentenverwaltungsfunktionen hinzu.",
+      "step_1": "{{FileFormatUp}}-Dateipfad angeben.",
+      "step_2": "Die zu entfernenden Seiten auswählen.",
+      "step_3": "Die Entfernung durchführen.",
+      "step_4": "Das bearbeitete Dokument speichern."
+    }
+  },
+  "code_1": {
+    "title": "So entfernen Sie alle geraden Seiten",
+    "content": "Erfahren Sie, wie Sie gerade nummerierte Seiten aus einem {{FileFormatUp}}-Dokument löschen.",
+    "comment_1": "Den Dateipfad an den Konstruktor übergeben",
+    "comment_2": "Die Gesamtanzahl der Seiten abrufen",
+    "comment_3": "Einstellungen definieren, um gerade Seiten zu entfernen",
+    "comment_4": "Das Dokument verarbeiten",
+    "comment_5": "Die endgültige Version am angegebenen Ort speichern"
+  }
+}

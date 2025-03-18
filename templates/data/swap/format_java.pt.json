@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Troque páginas em arquivos {{FileFormatUp}} com aplicativos {{EnvName}}",
+    "description": "Use {{ProdFullName}} para reorganizar páginas em documentos {{FileFormatUp}}. Modifique PDFs, arquivos Word, planilhas, apresentações, diagramas Visio, imagens, arquivos e mais."
+  },
+  "header": {
+    "title": "Trocar páginas {{FileFormatUp}}",
+    "description": "{{ProdFullName}} melhora aplicações {{EnvNameShort}} com recursos flexíveis de manipulação de documentos. Reordene páginas em arquivos {{FileFormatUp}} para otimizar a estrutura do conteúdo.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar gratuitamente"
+  },
+  "about": {
+    "title": "Recursos do {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma poderosa biblioteca de processamento de documentos que suporta mais de 50 formatos de arquivo, incluindo PDF, Word, Excel, PowerPoint, Visio, imagens e arquivos. Integre-a em suas aplicações para mesclar, dividir, extrair, rearranjar, trocar e remover páginas de vários tipos de documentos."
+  },
+  "more_features": {
+    "title": "Processamento de documentos aprimorado",
+    "description": "{{ProdFullName}} fornece um conjunto robusto de ferramentas para gerenciar e manipular documentos de maneira eficiente em mais de 50 formatos.",
+    "image_description": "Recursos principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mesclar múltiplos formatos de documentos",
+      "content": "Combine PDFs, documentos Word, planilhas, apresentações, arquivos Visio, imagens e arquivos. Ajuste a saída com opções de personalização."
+    },
+    "feature_2": {
+      "title": "Modificar layout do documento",
+      "content": "Reorganize o conteúdo trocando, reordenando ou removendo páginas para melhorar a estrutura do documento."
+    },
+    "feature_3": {
+      "title": "Alterar a orientação das páginas",
+      "content": "Gire páginas em qualquer ângulo ou alterne entre modo retrato e paisagem conforme necessário."
+    },
+    "feature_4": {
+      "title": "Extrair páginas específicas",
+      "content": "Selecione e extraia páginas específicas ou intervalos de páginas para criar novos documentos."
+    }
+  },
+  "formats": {
+    "title": "Reordenar páginas em vários tipos de arquivos",
+    "description": "{{ProdShortName}} suporta mais de 50 formatos, permitindo modificações precisas em documentos."
+  },
+  "operations": {
+    "title": "Funcionalidades principais",
+    "description": "Descubra os recursos essenciais da nossa biblioteca de processamento de documentos."
+  },
+  "examples": {
+    "comment_1": "Carregar o documento no {{NameProduct}}",
+    "comment_2": "Especificar as páginas a serem trocadas",
+    "comment_3": "Executar a operação de troca",
+    "comment_4": "Salvar o arquivo modificado em um novo local"
+  },
+  "steps": {
+    "title": "Como reordenar páginas {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifica a reordenação de páginas em documentos {{FileFormatUp}}, dando total controle sobre a organização do conteúdo. Integre um processamento de documentos sem costura em suas aplicações {{EnvName}}.",
+      "step_1": "Defina o caminho do arquivo {{FileFormatUp}}.",
+      "step_2": "Escolha as páginas a serem trocadas ou reordenadas.",
+      "step_3": "Use o método apropriado para modificar o documento.",
+      "step_4": "Salve o arquivo atualizado no local preferido."
+    }
+  },
+  "code_1": {
+    "title": "Trocar a primeira e a última página em um arquivo {{FileFormatUp}}",
+    "content": "Este exemplo demonstra como trocar páginas em um arquivo {{FileFormatUp}} com apenas alguns passos simples.",
+    "comment_1": "Carregar o documento original",
+    "comment_2": "Recuperar o número total de páginas",
+    "comment_3": "Definir as configurações de troca com números de páginas",
+    "comment_4": "Executar a operação de troca de páginas",
+    "comment_5": "Salvar o documento modificado"
+  }
+}

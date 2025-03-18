@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Dividi i documenti {{FileFormatUp}} nelle app {{EnvName}}",
+    "description": "Utilizza {{ProdFullName}} per suddividere i file {{FileFormatUp}} in documenti separati. Gestisci PDF, file Word, fogli Excel, presentazioni PowerPoint, file Visio, immagini, archivi e altro."
+  },
+  "header": {
+    "title": "Dividi file {{FileFormatUp}}",
+    "description": "{{ProdFullName}} potenzia le applicazioni {{EnvNameShort}} aggiungendo funzionalità avanzate di elaborazione dei documenti. Suddividi i file {{FileFormatUp}} e lavora con una varietà di formati aziendali popolari.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Gratuito"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una potente libreria di elaborazione dei documenti che supporta oltre 50 formati di file, inclusi PDF, Word, Excel, PowerPoint, Visio, immagini e archivi. Consente di unire, dividere, estrarre, spostare, scambiare e eliminare pagine, rendendo la gestione dei documenti più efficiente."
+  },
+  "more_features": {
+    "title": "Gestione avanzata dei documenti",
+    "description": "{{ProdFullName}} offre un ricco set di funzionalità per l'elaborazione di oltre 50 formati di file aziendali comunemente utilizzati.",
+    "image_description": "Principali capacità di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci diversi formati di file",
+      "content": "Combina PDF, documenti Word, presentazioni, fogli di calcolo, diagrammi Visio, immagini e archivi. Personalizza il processo di unione per risultati ottimali."
+    },
+    "feature_2": {
+      "title": "Organizza le pagine dei documenti",
+      "content": "Riorganizza le pagine spostandole, scambiandole o eliminandole per strutturare i tuoi documenti in modo efficiente."
+    },
+    "feature_3": {
+      "title": "Modifica il layout delle pagine",
+      "content": "Ruota le pagine a qualsiasi angolo o alterna tra orientamenti verticale e orizzontale."
+    },
+    "feature_4": {
+      "title": "Estrai le pagine come file separati",
+      "content": "Seleziona pagine specifiche o un intervallo di pagine e salvale come un nuovo documento in una posizione scelta."
+    }
+  },
+  "formats": {
+    "title": "Dividi vari formati di file",
+    "description": "{{ProdShortName}} supporta oltre 50 tipi di file, consentendo una modifica rapida e flessibile dei documenti."
+  },
+  "operations": {
+    "title": "Funzionalità chiave",
+    "description": "Scopri le potenti capacità di elaborazione dei documenti della nostra libreria."
+  },
+  "examples": {
+    "comment_1": "Carica il file sorgente in {{NameProduct}}",
+    "comment_2": "Definisci il percorso del file di output",
+    "comment_3": "Imposta le opzioni di divisione",
+    "comment_4": "Esegui l'operazione di divisione"
+  },
+  "steps": {
+    "title": "Come dividere i file {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), puoi dividere i documenti {{FileFormatUp}} e salvare le pagine selezionate come un nuovo file. Integra la gestione avanzata dei documenti nelle tue applicazioni {{EnvName}}.",
+      "step_1": "Fornisci il percorso sorgente del file {{FileFormatUp}}.",
+      "step_2": "Specifica il percorso del file di output per il documento diviso.",
+      "step_3": "Configura le opzioni per l'operazione di divisione.",
+      "step_4": "Esegui il processo di divisione e salva il file."
+    }
+  },
+  "code_1": {
+    "title": "Dividi il documento {{FileFormatUp}} e salva le pagine con numeri pari",
+    "content": "Questo esempio dimostra come dividere un documento {{FileFormatUp}} e salvare tutte le pagine con numeri pari come un file separato.",
+    "comment_1": "Carica il file sorgente nel costruttore",
+    "comment_2": "Specifica il percorso del file di output",
+    "comment_3": "Recupera il numero totale di pagine",
+    "comment_4": "Definisci le opzioni di divisione per le pagine con numeri pari",
+    "comment_5": "Esegui l'operazione di divisione e salva il risultato"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "common-content": {
+    "format-formats": {
+      "word": {
+        "name": "WORD",
+        "description": "เอกสาร Microsoft Word"
+      },
+      "excel": {
+        "name": "EXCEL",
+        "description": "สเปรดชีต Microsoft Excel"
+      },
+      "powerpoint": {
+        "name": "POWERPOINT",
+        "description": "การนำเสนอ Microsoft PowerPoint"
+      },
+      "image": {
+        "name": "IMAGE",
+        "description": "รูปแบบภาพยอดนิยม"
+      },
+      "visio": {
+        "name": "VISIO",
+        "description": "แผนภาพ Microsoft Visio"
+      },
+      "pdf": {
+        "name": "PDF",
+        "description": "รูปแบบเอกสารที่พกพาของ Adobe"
+      },
+      "docx": {
+        "name": "DOCX",
+        "description": "เอกสาร Microsoft Word Open XML"
+      },
+      "xlsx": {
+        "name": "XLSX",
+        "description": "สเปรดชีต Microsoft Excel Open XML"
+      },
+      "pptx": {
+        "name": "PPTX",
+        "description": "การนำเสนอ PowerPoint Open XML"
+      },
+      "bmp": {
+        "name": "BMP",
+        "description": "ภาพบิตแมพ"
+      },
+      "jpeg": {
+        "name": "JPEG",
+        "description": "ไฟล์ภาพ JPEG"
+      },
+      "jpg": {
+        "name": "JPG",
+        "description": "ไฟล์ภาพ JPEG"
+      },
+      "png": {
+        "name": "PNG",
+        "description": "กราฟิกเครือข่ายแบบพกพา"
+      },
+      "svg": {
+        "name": "SVG",
+        "description": "กราฟิกเวกเตอร์ที่สามารถปรับขนาดได้"
+      },
+      "tiff": {
+        "name": "TIFF",
+        "description": "รูปแบบไฟล์ภาพแท็ก"
+      },
+      "csv": {
+        "name": "CSV",
+        "description": "ไฟล์ค่าที่คั่นด้วยลูกน้ำ"
+      },
+      "epub": {
+        "name": "EPUB",
+        "description": "การตีพิมพ์อิเล็กทรอนิกส์"
+      },
+      "html": {
+        "name": "HTML",
+        "description": "ไฟล์ภาษาเครื่องหมายไฮเปอร์เท็กซ์"
+      },
+      "mhtml": {
+        "name": "MHTML",
+        "description": "สถิติเว็บ MHTML"
+      },
+      "txt": {
+        "name": "TXT",
+        "description": "ไฟล์ข้อความธรรมดา"
+      },
+      "xps": {
+        "name": "XPS",
+        "description": "ไฟล์ข้อตกลงเอกสาร XML"
+      },
+      "zip": {
+        "name": "ZIP",
+        "description": "ไฟล์ ZIP"
+      }
+    },
+    "format-operations": {
+      "combine": {
+        "pdf": "รวมเอกสาร PDF",
+        "docx": "รวมเอกสาร DOCX",
+        "xlsx": "รวมเอกสาร XLSX",
+        "pptx": "รวมเอกสาร PPTX",
+        "epub": "รวมเอกสาร EPUB"
+      },
+      "extract": {
+        "pdf": "ดึงหน้าจาก PDF",
+        "docx": "บันทึกหน้าจาก DOCX",
+        "xlsx": "ดึงหน้าจาก XLSX",
+        "pptx": "บันทึกหน้าจาก PPTX",
+        "epub": "ดึงหน้าจาก EPUB"
+      },
+      "join": {
+        "pdf": "รวมไฟล์ PDF",
+        "docx": "รวมไฟล์ DOCX",
+        "xlsx": "รวมไฟล์ XLSX",
+        "pptx": "รวมไฟล์ PPTX",
+        "epub": "รวมไฟล์ EPUB"
+      },
+      "move": {
+        "pdf": "ย้ายหน้าจาก PDF",
+        "docx": "ปรับลำดับหน้าจาก DOCX",
+        "xlsx": "ย้ายหน้าจาก XLSX",
+        "pptx": "ปรับลำดับหน้าจาก PPTX",
+        "epub": "ย้ายหน้าจาก EPUB"
+      },
+      "remove": {
+        "pdf": "ลบหน้าจาก PDF",
+        "docx": "ลบหน้าจาก DOCX",
+        "xlsx": "ลบหน้าจาก XLSX",
+        "pptx": "ลบหน้าจาก PPTX",
+        "epub": "ลบหน้าจาก EPUB"
+      },
+      "rotate": {
+        "pdf": "หมุนหน้าจาก PDF",
+        "docx": "หมุนหน้าจาก DOCX",
+        "xlsx": "หมุนหน้าจาก XLSX",
+        "pptx": "หมุนหน้าจาก PPTX",
+        "epub": "หมุนหน้าจาก EPUB"
+      },
+      "split": {
+        "pdf": "แยกไฟล์ PDF",
+        "docx": "แยกไฟล์ DOCX",
+        "xlsx": "แยกไฟล์ XLSX",
+        "pptx": "แยกไฟล์ PPTX",
+        "epub": "แยกไฟล์ EPUB"
+      },
+      "swap": {
+        "pdf": "สลับไฟล์ PDF",
+        "docx": "สลับไฟล์ DOCX",
+        "xlsx": "สลับไฟล์ XLSX",
+        "pptx": "สลับไฟล์ PPTX",
+        "epub": "สลับไฟล์ EPUB"
+      },
+      "orientation": {
+        "pdf": "เปลี่ยนทิศทาง PDF",
+        "docx": "เปลี่ยนทิศทาง DOCX",
+        "xlsx": "เปลี่ยนทิศทาง XLSX",
+        "pptx": "เปลี่ยนทิศทาง PPTX",
+        "epub": "เปลี่ยนทิศทาง EPUB"
+      }
+    },
+    "format-code": {
+      "copy_title": "คัดลอก",
+      "result_title": "ผลลัพธ์ของโค้ด",
+      "result_title_bottom": "ดาวน์โหลดผลลัพธ์",
+      "copy_tip": "คลิกเพื่อคัดลอก",
+      "copy_done": "คัดลอกแล้ว",
+      "links": {
+        "title_1": "ตัวอย่างเพิ่มเติม",
+        "title_2": "เอกสาร"
+      }
+    },
+    "format-actions": {
+      "title": "พร้อมเริ่มต้นแล้วหรือยัง?",
+      "description": "ลองใช้ฟีเจอร์ของ {{ProdShortName}} ฟรีหรือขอใบอนุญาต",
+      "comment_1": "ดาวน์โหลด {{PackageStoreName}}",
+      "comment_2": "การอนุญาต"
+    },
+    "texts": {
+      "learn_more": "เรียนรู้เพิ่มเติม"
+    },
+    "operations": {
+      "combine": {
+        "name": "รวมเอกสาร",
+        "description": "รวมเอกสารหลายฉบับเข้าด้วยกัน"
+      },
+      "extract": {
+        "name": "ดึงหน้า",
+        "description": "บันทึกหน้าที่เลือกเป็นเอกสารแยก"
+      },
+      "join": {
+        "name": "รวมเอกสาร",
+        "description": "รวมเอกสารหลายฉบับเข้าด้วยกัน"
+      },
+      "move": {
+        "name": "ย้ายหน้า",
+        "description": "ปรับตำแหน่งหน้าภายในเอกสาร"
+      },
+      "remove": {
+        "name": "ลบหน้า",
+        "description": "ลบหน้าจากเอกสาร"
+      },
+      "rotate": {
+        "name": "หมุนหน้า",
+        "description": "หมุนหน้าของเอกสาร"
+      },
+      "split": {
+        "name": "แยกเอกสาร",
+        "description": "แยกเอกสาร"
+      },
+      "swap": {
+        "name": "สลับหน้า",
+        "description": "สลับหน้าของเอกสาร"
+      },
+      "orientation": {
+        "name": "เปลี่ยนทิศทาง",
+        "description": "เปลี่ยนทิศทางของหน้า"
+      }
+    }
+  }
+}

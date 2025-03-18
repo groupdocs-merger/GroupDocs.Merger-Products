@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Gire páginas de {{FileFormatUp}} em aplicativos {{EnvName}}",
+    "description": "Utilize {{ProdFullName}} para girar páginas em documentos {{FileFormatUp}}. Modifique PDFs, arquivos do Word, planilhas do Excel, apresentações do PowerPoint, imagens e arquivos compactados."
+  },
+  "header": {
+    "title": "Gire páginas em arquivos {{FileFormatUp}}",
+    "description": "Aprimore suas aplicações {{EnvNameShort}} com {{ProdFullName}}, uma solução poderosa para processamento de documentos. Gire páginas em {{FileFormatUp}} e gerencie vários formatos de arquivo sem complicações.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Gratuito"
+  },
+  "about": {
+    "title": "Sobre {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma biblioteca avançada de processamento de documentos que suporta mais de 50 formatos de arquivo, incluindo PDF, Word, Excel, PowerPoint, Visio, imagens e arquivos compactados. Oferece recursos como mesclar, dividir, extrair, reorganizar e deletar páginas para otimizar a gestão de documentos em suas aplicações."
+  },
+  "more_features": {
+    "title": "Gerenciamento abrangente de documentos",
+    "description": "{{ProdFullName}} oferece um conjunto amplo de recursos, facilitando o manuseio de mais de 50 formatos de arquivos empresariais comumente utilizados.",
+    "image_description": "Principais capacidades do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mescle múltiplos formatos de arquivos",
+      "content": "Combine PDFs, documentos do Word, planilhas, apresentações, diagramas do Visio, imagens e arquivos compactados. Utilize opções avançadas para controle preciso sobre o processo de mesclagem."
+    },
+    "feature_2": {
+      "title": "Reorganize páginas do documento",
+      "content": "Mova, troque ou remova facilmente páginas para melhor organizar seus arquivos."
+    },
+    "feature_3": {
+      "title": "Personalize o layout das páginas",
+      "content": "Gire páginas em qualquer ângulo ou troque entre orientação paisagem e retrato para uma melhor legibilidade."
+    },
+    "feature_4": {
+      "title": "Extraia páginas como arquivos separados",
+      "content": "Selecione páginas específicas ou um intervalo de páginas e salve-as como um novo documento em sua localização preferida."
+    }
+  },
+  "formats": {
+    "title": "Gire páginas em múltiplos formatos",
+    "description": "{{ProdShortName}} suporta mais de 50 tipos de arquivos, permitindo que você modifique documentos rapidamente com uma variedade de operações integradas."
+  },
+  "operations": {
+    "title": "Recursos principais",
+    "description": "Descubra as poderosas capacidades disponíveis em nossa biblioteca de processamento de documentos."
+  },
+  "examples": {
+    "comment_1": "Inicialize {{NameProduct}} e carregue o documento fonte",
+    "comment_2": "Especifique o número da página para rotação",
+    "comment_3": "Execute o processo de rotação",
+    "comment_4": "Salve o documento atualizado na localização desejada"
+  },
+  "steps": {
+    "title": "Como girar páginas {{FileFormatUp}}",
+    "content": {
+      "title": "Com [{{ProdShortName}}]({{PlatformLink}}), você pode girar páginas em documentos {{FileFormatUp}}, trazendo gestão de documentos poderosa para aplicativos {{EnvName}}.",
+      "step_1": "Forneça o caminho para o arquivo {{FileFormatUp}}.",
+      "step_2": "Escolha o número da página que deseja girar.",
+      "step_3": "Aplique a operação de rotação.",
+      "step_4": "Salve o documento modificado na localização desejada."
+    }
+  },
+  "code_1": {
+    "title": "Gire todas as páginas pares de {{FileFormatUp}}",
+    "content": "Este exemplo demonstra como girar cada página par em um documento {{FileFormatUp}}.",
+    "comment_1": "Carregue o documento fonte no construtor",
+    "comment_2": "Recupere o número total de páginas",
+    "comment_3": "Configure as definições para girar as páginas pares em 180 graus",
+    "comment_4": "Execute a operação de rotação",
+    "comment_5": "Salve o arquivo modificado"
+  }
+}

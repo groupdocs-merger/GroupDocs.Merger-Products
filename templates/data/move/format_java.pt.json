@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Mover páginas de {{FileFormatUp}} em {{EnvName}}",
+    "description": "Utilize {{ProdFullName}} para reorganizar páginas em documentos {{FileFormatUp}} de forma eficaz. Processar PDFs, Word, Excel, PowerPoint, imagens e muito mais."
+  },
+  "header": {
+    "title": "Mover páginas em {{FileFormatUp}}",
+    "description": "{{ProdFullName}} permite que aplicativos {{EnvNameShort}} reorganizem páginas em documentos {{FileFormatUp}} de maneira integrada.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenha Gratuitamente"
+  },
+  "about": {
+    "title": "Informações sobre {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma potente ferramenta de processamento de documentos que suporta mais de 50 formatos de arquivo, incluindo PDF, Word, Excel, PowerPoint, imagens e arquivos compactados. Oferece recursos essenciais como mesclar, dividir, extrair, mover, trocar e remover páginas."
+  },
+  "more_features": {
+    "title": "Processamento eficiente de documentos",
+    "description": "{{ProdFullName}} é projetado para fornecer um conjunto abrangente de recursos, permitindo que você processe mais de 50 formatos de arquivo comerciais amplamente utilizados.",
+    "image_description": "Principais recursos de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combinar documentos em vários formatos",
+      "content": "Mescle conteúdo de arquivos como PDFs, documentos do Word, apresentações, planilhas, imagens, arquivos compactados e muito mais. Use opções flexíveis para obter resultados precisos."
+    },
+    "feature_2": {
+      "title": "Manipulações de páginas",
+      "content": "Reaposicione páginas dentro de documentos. Mova, troque ou remova páginas para gerenciar o conteúdo do seu documento empresarial de forma eficaz."
+    },
+    "feature_3": {
+      "title": "Ajustar a aparência das páginas",
+      "content": "Gire páginas em qualquer ângulo ou altere sua orientação entre paisagem e retrato."
+    },
+    "feature_4": {
+      "title": "Extrair páginas em arquivos separados",
+      "content": "Extraia uma ou mais páginas e salve-as como documentos autônomos."
+    }
+  },
+  "formats": {
+    "title": "Reorganizar páginas de documentos em vários formatos",
+    "description": "{{ProdShortName}} suporta mais de 50 formatos de arquivo, permitindo manipulação de documentos eficiente e flexível."
+  },
+  "operations": {
+    "title": "Principais recursos",
+    "description": "Descubra outras capacidades populares da nossa solução."
+  },
+  "examples": {
+    "comment_1": "Crie um objeto {{NameProduct}} passando o caminho da fonte",
+    "comment_2": "Especifique a página a ser movida",
+    "comment_3": "Mova a página",
+    "comment_4": "Salve o documento processado"
+  },
+  "steps": {
+    "title": "Como mover páginas de {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite que você mova páginas selecionadas em documentos {{FileFormatUp}}. Aprimore seus aplicativos {{EnvName}} com recursos avançados de processamento de documentos.",
+      "step_1": "Especifique o caminho do arquivo {{FileFormatUp}} de origem.",
+      "step_2": "Defina o número da página e sua nova posição.",
+      "step_3": "Execute a operação de mover.",
+      "step_4": "Salve o resultado."
+    }
+  },
+  "code_1": {
+    "title": "Mover uma página para o final do documento",
+    "content": "Aprenda como mover uma página específica para o final de um documento {{FileFormatUp}}.",
+    "comment_1": "Passe o caminho do arquivo fonte para o construtor",
+    "comment_2": "Obtenha informações do documento e o número da última página",
+    "comment_3": "Configure opções com os números das páginas",
+    "comment_4": "Processe o documento, movendo a página para o final",
+    "comment_5": "Salve o documento em um novo local"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Thay đổi hướng trang {{FileFormatUp}} trong ứng dụng {{EnvName}}",
+    "description": "Sử dụng {{ProdFullName}} để điều chỉnh hướng trang {{FileFormatUp}} (dọc hoặc ngang). Quản lý PDF, tài liệu Word, bảng tính Excel, slide PowerPoint, tệp Visio, hình ảnh, lưu trữ và nhiều hơn nữa."
+  },
+  "header": {
+    "title": "Kiểm soát hướng trang trong {{FileFormatUp}}",
+    "description": "{{ProdFullName}} trang bị cho các ứng dụng {{EnvNameShort}} những công cụ tiện lợi. Các nhà phát triển có thể nâng cao dự án của mình bằng cách quản lý các định dạng tệp phổ biến và điều chỉnh hướng trang {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "{{ProdShortName}} Tổng quan",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một công cụ để quản lý tài liệu trong hơn 50 định dạng, như PDF, Word, Excel, PowerPoint, Visio, hình ảnh và lưu trữ. Nó cho phép bạn hợp nhất, tách, trích xuất, di chuyển, hoán đổi, xóa hoặc xoay trang. Thêm khả năng kiểm soát tài liệu mạnh mẽ vào ứng dụng của bạn."
+  },
+  "more_features": {
+    "title": "Quản lý nội dung tài liệu linh hoạt",
+    "description": "{{ProdFullName}} cung cấp một bộ công cụ đầy đủ để xử lý nội dung trong hơn 50 định dạng tệp phổ biến với quy trình mượt mà và hiệu quả.",
+    "image_description": "Các tính năng của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hợp nhất nhiều định dạng tệp",
+      "content": "Kết hợp PDF, tệp Word, slide, bảng tính, sơ đồ Visio, hình ảnh, và lưu trữ. Tùy chỉnh quy trình để đạt được kết quả tốt nhất."
+    },
+    "feature_2": {
+      "title": "Quản lý các trang tài liệu",
+      "content": "Sắp xếp lại các trang bằng cách di chuyển, hoán đổi hoặc xóa chúng để tổ chức nội dung tốt hơn."
+    },
+    "feature_3": {
+      "title": "Kiểm soát bố cục trang",
+      "content": "Xoay trang đến một góc xác định hoặc chuyển đổi giữa các chế độ dọc và ngang."
+    },
+    "feature_4": {
+      "title": "Trích xuất trang dưới dạng tệp riêng biệt",
+      "content": "Chọn một trang hoặc một khoảng trang và lưu chúng dưới dạng một tệp mới ở bất kỳ đâu bạn muốn."
+    }
+  },
+  "formats": {
+    "title": "Thay đổi hướng trang cho nhiều định dạng",
+    "description": "{{ProdShortName}} hoạt động với hơn 50 định dạng tệp, giúp bạn điều chỉnh tài liệu với nhiều thao tác khác nhau."
+  },
+  "operations": {
+    "title": "Các tính năng chính",
+    "description": "Khám phá các tính năng có thể nâng cao dự án của bạn."
+  },
+  "examples": {
+    "comment_1": "Tải đường dẫn tệp nguồn vào {{NameProduct}}",
+    "comment_2": "Chọn trang cần thay đổi hướng",
+    "comment_3": "Thiết lập hướng trang theo yêu cầu",
+    "comment_4": "Lưu tài liệu đã cập nhật"
+  },
+  "steps": {
+    "title": "Cách thay đổi hướng trang {{FileFormatUp}}",
+    "content": {
+      "title": "Sử dụng [{{ProdShortName}}]({{PlatformLink}}) để điều chỉnh hướng trang {{FileFormatUp}}. Tính năng này cùng với những tính năng khác mang đến quản lý tài liệu vững chắc cho các dự án {{EnvName}}.",
+      "step_1": "Chỉ định tệp nguồn {{FileFormatUp}}.",
+      "step_2": "Chọn số trang cần điều chỉnh.",
+      "step_3": "Cập nhật hướng trang.",
+      "step_4": "Lưu thay đổi."
+    }
+  },
+  "code_1": {
+    "title": "Thay đổi hướng trang cuối cùng trong tài liệu {{FileFormatUp}}",
+    "content": "Tìm hiểu cách đếm số trang trong tệp {{FileFormatUp}} và thay đổi hướng của trang cuối cùng.",
+    "comment_1": "Tải tệp nguồn vào constructor",
+    "comment_2": "Lấy tổng số trang",
+    "comment_3": "Chọn số trang và chỉ định chế độ dọc hoặc ngang",
+    "comment_4": "Áp dụng hướng mới",
+    "comment_5": "Lưu tệp đã cập nhật vào đường dẫn đầu ra"
+  }
+}

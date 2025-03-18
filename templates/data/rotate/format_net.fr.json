@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Faire tourner les pages {{FileFormatUp}} dans les applications {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour faire tourner les pages dans des documents {{FileFormatUp}}. Gérez les PDFs, les fichiers Word, les feuilles Excel, les diapositives PowerPoint, les images, les archives et plus encore."
+  },
+  "header": {
+    "title": "Rotation de pages dans {{FileFormatUp}}",
+    "description": "{{ProdFullName}} améliore les applications {{EnvNameShort}} en ajoutant des fonctionnalités avancées de traitement de documents. Faites pivoter des pages dans des fichiers {{FileFormatUp}} et traitez facilement des formats commerciaux populaires.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Téléchargement gratuit"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une bibliothèque complète de traitement de documents prenant en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, Visio, images et archives. Elle fournit des outils pour fusionner, diviser, extraire, réorganiser et supprimer des pages, améliorant ainsi la gestion des documents dans vos applications."
+  },
+  "more_features": {
+    "title": "Gestion puissante du contenu des documents",
+    "description": "{{ProdFullName}} inclut une large gamme de fonctionnalités, permettant un traitement efficace de plus de 50 formats de fichiers commerciaux couramment utilisés.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner différents formats de fichiers",
+      "content": "Combinez des PDFs, des documents Word, des présentations, des feuilles de calcul, des diagrammes Visio, des images et des archives. Utilisez diverses options pour un résultat précis."
+    },
+    "feature_2": {
+      "title": "Gérer les pages du document",
+      "content": "Réorganisez les pages en les déplaçant, les échangeant ou en les supprimant pour mieux structurer vos documents."
+    },
+    "feature_3": {
+      "title": "Ajuster la mise en page des pages",
+      "content": "Faites tourner les pages sous n'importe quel angle ou passez entre les orientations portrait et paysage."
+    },
+    "feature_4": {
+      "title": "Extraire des pages en tant que fichiers séparés",
+      "content": "Sélectionnez une seule page ou une plage de pages et enregistrez-la en tant que nouveau fichier à un emplacement choisi."
+    }
+  },
+  "formats": {
+    "title": "Faire tourner des pages dans plusieurs formats",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de fichiers, vous permettant de modifier des documents à l'aide de diverses opérations."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés",
+    "description": "Découvrez les puissantes fonctionnalités offertes par notre bibliothèque de traitement de documents."
+  },
+  "examples": {
+    "comment_1": "Créez une instance de {{NameProduct}} et chargez le fichier source",
+    "comment_2": "Spécifiez le numéro de page à faire tourner",
+    "comment_3": "Exécutez l'opération de rotation de page",
+    "comment_4": "Enregistrez le fichier de sortie à l'emplacement souhaité"
+  },
+  "steps": {
+    "title": "Comment faire tourner les pages {{FileFormatUp}}",
+    "content": {
+      "title": "Avec [{{ProdShortName}}]({{PlatformLink}}), vous pouvez faire pivoter des pages dans des documents {{FileFormatUp}}, ajoutant des capacités puissantes de gestion de documents aux applications {{EnvName}}.",
+      "step_1": "Définissez le chemin d'accès du fichier {{FileFormatUp}}.",
+      "step_2": "Sélectionnez le numéro de page à faire tourner.",
+      "step_3": "Exécutez l'opération de rotation de page.",
+      "step_4": "Enregistrez le fichier modifié à l'emplacement de votre choix."
+    }
+  },
+  "code_1": {
+    "title": "Faire tourner toutes les pages {{FileFormatUp}} numérotées paire",
+    "content": "Cet exemple montre comment faire pivoter toutes les pages numérotées paires dans un document {{FileFormatUp}}.",
+    "comment_1": "Chargez le fichier source dans le constructeur",
+    "comment_2": "Obtenez le nombre total de pages dans le document",
+    "comment_3": "Configurez les paramètres de rotation pour les pages paires (180 degrés)",
+    "comment_4": "Appliquez l'opération de rotation de page",
+    "comment_5": "Enregistrez le fichier de sortie"
+  }
+}

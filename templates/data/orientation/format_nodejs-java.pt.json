@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Defina a orientação da página {{FileFormatUp}} em aplicativos {{EnvName}}",
+    "description": "{{ProdFullName}} permite alternar páginas {{FileFormatUp}} entre retrato e paisagem. Gerencie PDFs, documentos do Word, arquivos do Excel, slides do PowerPoint, diagramas do Visio, imagens, arquivos compactados e mais com precisão."
+  },
+  "header": {
+    "title": "Orientação da página para arquivos {{FileFormatUp}}",
+    "description": "{{ProdFullName}} adiciona recursos inteligentes aos aplicativos {{EnvNameShort}}. Os desenvolvedores podem aprimorar suas ferramentas ao lidar com formatos populares e definir orientações de página {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Agora"
+  },
+  "about": {
+    "title": "Visão Geral do {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) aborda a gestão de documentos para mais de 50 formatos como PDF, Word, Excel, PowerPoint, Visio, imagens e arquivos compactados. Mescle, divida, extraia, reorganize, troque, exclua ou ajuste layouts de página de forma eficaz."
+  },
+  "more_features": {
+    "title": "Controle dinâmico de documentos",
+    "description": "{{ProdFullName}} fornece um conjunto robusto de ferramentas para gerenciar conteúdo em mais de 50 formatos de arquivo com resultados rápidos e confiáveis.",
+    "image_description": "Ferramentas do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Junte diferentes formatos de arquivo",
+      "content": "Combine PDFs, arquivos do Word, apresentações, planilhas, diagramas do Visio, imagens e arquivos compactados. Ajuste as configurações para um encaixe perfeito."
+    },
+    "feature_2": {
+      "title": "Reorganize páginas de documentos",
+      "content": "Mova, troque ou remova páginas para moldar o fluxo do seu documento."
+    },
+    "feature_3": {
+      "title": "Ajuste a orientação da página",
+      "content": "Gire páginas em um ângulo ou altere entre visões de retrato e paisagem."
+    },
+    "feature_4": {
+      "title": "Salve páginas como novos arquivos",
+      "content": "Selecione páginas e exporte-as como um arquivo autônomo para qualquer local."
+    }
+  },
+  "formats": {
+    "title": "Ajuste a orientação para múltiplos formatos",
+    "description": "{{ProdShortName}} suporta mais de 50 tipos de arquivo, permitindo que você refine documentos com um amplo conjunto de opções."
+  },
+  "operations": {
+    "title": "Principais recursos",
+    "description": "Descubra ferramentas para potencializar suas soluções."
+  },
+  "examples": {
+    "comment_1": "Carregue o arquivo no {{NameProduct}}",
+    "comment_2": "Selecione a página a ser ajustada",
+    "comment_3": "Escolha a orientação desejada",
+    "comment_4": "Salve as alterações"
+  },
+  "steps": {
+    "title": "Como definir a orientação da página {{FileFormatUp}}",
+    "content": {
+      "title": "Use [{{ProdShortName}}]({{PlatformLink}}) para modificar layouts de página {{FileFormatUp}}. Esta e outras ferramentas trazem um forte tratamento de documentos para aplicativos {{EnvName}}.",
+      "step_1": "Forneça o caminho do arquivo {{FileFormatUp}}.",
+      "step_2": "Escolha a página a ser trabalhada.",
+      "step_3": "Altere sua orientação.",
+      "step_4": "Salve a saída."
+    }
+  },
+  "code_1": {
+    "title": "Inverta a última página em um arquivo {{FileFormatUp}}",
+    "content": "Descubra como contar páginas em um documento {{FileFormatUp}} e ajustar o layout da última página.",
+    "comment_1": "Abra o arquivo no construtor",
+    "comment_2": "Obtenha a contagem de páginas",
+    "comment_3": "Escolha a página e defina como retrato ou paisagem",
+    "comment_4": "Atualize a orientação",
+    "comment_5": "Salve o arquivo em um novo caminho"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Intercambiar páginas en documentos {{FileFormatUp}} utilizando aplicaciones {{EnvName}}",
+    "description": "Utiliza {{ProdFullName}} para intercambiar páginas en archivos {{FileFormatUp}}. Gestiona PDFs, documentos de Word, hojas de cálculo, presentaciones, diagramas de Visio, imágenes, archivos comprimidos y más."
+  },
+  "header": {
+    "title": "Intercambiar páginas {{FileFormatUp}}",
+    "description": "{{ProdFullName}} mejora las aplicaciones {{EnvNameShort}} con un procesamiento avanzado de documentos. Intercambia páginas en archivos {{FileFormatUp}} para organizar y controlar mejor tu contenido.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar gratis"
+  },
+  "about": {
+    "title": "Características de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una biblioteca de procesamiento de documentos que admite más de 50 formatos de archivo, incluidos PDF, Word, Excel, PowerPoint, Visio, imágenes y archivos comprimidos. Agrégala a tus aplicaciones para combinar, dividir, extraer, reorganizar, intercambiar y eliminar páginas en formatos de documentos ampliamente utilizados."
+  },
+  "more_features": {
+    "title": "Gestión avanzada de documentos",
+    "description": "{{ProdFullName}} proporciona un conjunto potente de herramientas para procesar más de 50 formatos de archivo con precisión.",
+    "image_description": "Características clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combina diversos tipos de documentos",
+      "content": "Combina PDFs, documentos de Word, hojas de cálculo, presentaciones, diagramas de Visio, imágenes y archivos de archivo. Personaliza la salida con opciones flexibles."
+    },
+    "feature_2": {
+      "title": "Reorganiza las páginas del documento",
+      "content": "Modifica la disposición del documento moviendo, intercambiando o eliminando páginas para una mejor organización del contenido."
+    },
+    "feature_3": {
+      "title": "Ajusta la orientación de la página",
+      "content": "Rota las páginas a un ángulo específico o cambia entre modo retrato y paisaje."
+    },
+    "feature_4": {
+      "title": "Extrae páginas seleccionadas",
+      "content": "Selecciona páginas o rangos de páginas específicos y guárdalos como un documento separado."
+    }
+  },
+  "formats": {
+    "title": "Intercambiar páginas en varios formatos de archivo",
+    "description": "{{ProdShortName}} admite más de 50 formatos de archivo, permitiendo modificaciones precisas de documentos."
+  },
+  "operations": {
+    "title": "Características principales",
+    "description": "Descubre las características clave de nuestra biblioteca de procesamiento de documentos."
+  },
+  "examples": {
+    "comment_1": "Carga el documento en {{NameProduct}}",
+    "comment_2": "Especifica los números de página a intercambiar",
+    "comment_3": "Intercambia las páginas seleccionadas",
+    "comment_4": "Guarda el archivo modificado"
+  },
+  "steps": {
+    "title": "Cómo intercambiar páginas {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita el intercambio de páginas {{FileFormatUp}}, brindándote un control total sobre el contenido del documento. Úsalo en tus aplicaciones {{EnvName}} para un procesamiento fluido de documentos.",
+      "step_1": "Especifica la ruta al archivo {{FileFormatUp}}.",
+      "step_2": "Selecciona los números de página a intercambiar.",
+      "step_3": "Utiliza el método apropiado para intercambiar páginas.",
+      "step_4": "Guarda el documento actualizado en la ubicación deseada."
+    }
+  },
+  "code_1": {
+    "title": "Intercambiar la primera y la última página de un archivo {{FileFormatUp}}",
+    "content": "Este ejemplo muestra cómo intercambiar páginas en un archivo {{FileFormatUp}} en solo unos pocos pasos.",
+    "comment_1": "Carga el documento fuente",
+    "comment_2": "Obtén el número total de páginas",
+    "comment_3": "Define las opciones de intercambio con las páginas seleccionadas",
+    "comment_4": "Ejecuta la operación de intercambio",
+    "comment_5": "Guarda el documento modificado"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Seiten in {{FileFormatUp}} in {{EnvName}}-Apps rotieren",
+    "description": "Verwenden Sie {{ProdFullName}}, um Seiten in {{FileFormatUp}}-Dokumenten zu rotieren. Verwalten Sie PDFs, Word-Dateien, Excel-Tabellen, PowerPoint-Präsentationen, Bilder, Archive und mehr."
+  },
+  "header": {
+    "title": "Seitenrotation in {{FileFormatUp}}",
+    "description": "{{ProdFullName}} erweitert {{EnvNameShort}}-Anwendungen durch die Hinzufügung fortschrittlicher Dokumentenverarbeitungsfunktionen. Rotieren Sie Seiten in {{FileFormatUp}}-Dateien und arbeiten Sie mühelos mit gängigen Geschäftsdatenformaten.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenloser Download"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine umfassende Bibliothek zur Dokumentenverarbeitung, die über 50 Dateiformate unterstützt, einschließlich PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive. Sie bietet Werkzeuge zum Zusammenführen, Trennen, Extrahieren, Anordnen und Löschen von Seiten und verbessert die Dokumentenverwaltung in Ihren Anwendungen."
+  },
+  "more_features": {
+    "title": "Leistungsstarkes Dokumentenmanagement",
+    "description": "{{ProdFullName}} bietet eine Vielzahl von Funktionen, die eine effiziente Verarbeitung von über 50 gängigen Geschäftsdatenformaten ermöglichen.",
+    "image_description": "Schlüsselfunktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Verschiedene Dateiformate zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, Präsentationen, Tabellenkalkulationen, Visio-Diagramme, Bilder und Archive. Nutzen Sie verschiedene Optionen für eine präzise Ausgabe."
+    },
+    "feature_2": {
+      "title": "Dokumentseiten verwalten",
+      "content": "Ordnen Sie Seiten um, indem Sie sie verschieben, tauschen oder löschen, um Ihre Dokumente besser zu strukturieren."
+    },
+    "feature_3": {
+      "title": "Seitenlayout anpassen",
+      "content": "Drehen Sie Seiten in jedem Winkel oder wechseln Sie zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Seiten als separate Dateien extrahieren",
+      "content": "Wählen Sie eine einzelne Seite oder einen Seitenbereich aus und speichern Sie sie als neue Datei an einem gewählten Ort."
+    }
+  },
+  "formats": {
+    "title": "Seiten in mehreren Formaten rotieren",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateiformate, sodass Sie Dokumente mit einer Vielzahl von Operationen modifizieren können."
+  },
+  "operations": {
+    "title": "Hauptfunktionen",
+    "description": "Entdecken Sie die leistungsstarken Funktionen, die unsere Dokumentenverarbeitungsbibliothek bietet."
+  },
+  "examples": {
+    "comment_1": "Erstellen Sie eine Instanz von {{NameProduct}} und laden Sie die Quelldatei",
+    "comment_2": "Geben Sie die Seitennummer an, die rotiert werden soll",
+    "comment_3": "Führen Sie die Seitenrotation durch",
+    "comment_4": "Speichern Sie die Ausgabedatei an dem gewünschten Ort"
+  },
+  "steps": {
+    "title": "So rotieren Sie Seiten in {{FileFormatUp}}",
+    "content": {
+      "title": "Mit [{{ProdShortName}}]({{PlatformLink}}) können Sie Seiten in {{FileFormatUp}}-Dokumenten rotieren und fügen Ihren {{EnvName}}-Anwendungen leistungsstarke Dokumentenverwaltungsfunktionen hinzu.",
+      "step_1": "Definieren Sie den Quellpfad der {{FileFormatUp}}-Datei.",
+      "step_2": "Wählen Sie die zu rotierende Seitennummer aus.",
+      "step_3": "Führen Sie die Seitenrotation durch.",
+      "step_4": "Speichern Sie die modifizierte Datei an Ihrem bevorzugten Ort."
+    }
+  },
+  "code_1": {
+    "title": "Rotieren Sie alle geraden {FileFormatUp}-Seiten",
+    "content": "Dieses Beispiel demonstriert, wie man alle geraden Seiten in einem {{FileFormatUp}}-Dokument rotiert.",
+    "comment_1": "Laden Sie die Quelldatei in den Konstruktor",
+    "comment_2": "Ermitteln Sie die Gesamtanzahl der Seiten im Dokument",
+    "comment_3": "Konfigurieren Sie die Rotationsparameter für gerade Seiten (180 Grad)",
+    "comment_4": "Wenden Sie die Seitenrotationsoperation an",
+    "comment_5": "Speichern Sie die Ausgabedatei"
+  }
+}

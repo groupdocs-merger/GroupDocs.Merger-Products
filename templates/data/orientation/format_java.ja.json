@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{EnvName}} アプリで {{FileFormatUp}} ページの向きを変更する",
+    "description": "{{ProdFullName}} を使用して、{{FileFormatUp}} ページの向き（縦向きまたは横向き）を調整します。PDF、Word ドキュメント、Excel シート、PowerPoint スライド、Visio ファイル、画像、アーカイブなどを効果的に管理できます。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}} におけるページの向き制御",
+    "description": "{{ProdFullName}} は {{EnvNameShort}} アプリに便利なツールを提供します。開発者は、一般的なファイル形式を管理し、{{FileFormatUp}} ページの向きを調整することでプロジェクトを強化できます。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料でダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 概要",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) は、PDF、Word、Excel、PowerPoint、Visio、画像、およびアーカイブを含む 50 以上のフォーマットで文書を管理するためのツールです。文書をマージ、分割、抽出、移動、交換、削除、またはページを回転させることができます。アプリに堅牢な文書管理を追加してください。"
+  },
+  "more_features": {
+    "title": "柔軟な文書内容管理",
+    "description": "{{ProdFullName}} は、50 以上の一般的なファイル形式でコンテンツを処理するための完全なツールセットを提供し、スムーズで効率的な処理を実現します。",
+    "image_description": "{{ProdShortName}} の機能",
+    "feature_1": {
+      "title": "さまざまなファイル形式のマージ",
+      "content": "PDF、Word ファイル、スライド、スプレッドシート、Visio 図、画像、およびアーカイブを組み合わせます。最良の結果を得るためにプロセスをカスタマイズしてください。"
+    },
+    "feature_2": {
+      "title": "文書ページの管理",
+      "content": "ページを移動、交換、または削除することにより、コンテンツをより整理します。"
+    },
+    "feature_3": {
+      "title": "ページレイアウトの制御",
+      "content": "ページを特定の角度に回転させたり、縦向きと横向きのモードを切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "ページを個別のファイルとして抽出",
+      "content": "ページまたはページの範囲を選択し、新しいファイルとして任意の場所に保存します。"
+    }
+  },
+  "formats": {
+    "title": "多くのフォーマットのページ向きを変更",
+    "description": "{{ProdShortName}} は 50 以上のファイル形式に対応しており、さまざまな操作で文書の調整を容易にします。"
+  },
+  "operations": {
+    "title": "主要な機能",
+    "description": "プロジェクトを強化できる機能をチェックしてください。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}} にソースファイルパスをロードする",
+    "comment_2": "向きを変更するページを選択する",
+    "comment_3": "必要に応じてページの向きを設定する",
+    "comment_4": "更新した文書を保存する"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} ページの向きを変更する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) を使用して {{FileFormatUp}} ページの向きを調整します。この機能は他の機能とともに、{{EnvName}} プロジェクトに強力な文書管理をもたらします。",
+      "step_1": "{{FileFormatUp}} のソースファイルを指定します。",
+      "step_2": "調整するページ番号を選択します。",
+      "step_3": "ページの向きを更新します。",
+      "step_4": "変更を保存します。"
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}} ドキュメントの最後のページの向きを変更",
+    "content": "{{FileFormatUp}} ファイルのページを数え、最後のページの向きを変更する方法を学びます。",
+    "comment_1": "ソースファイルをコンストラクタにロードする",
+    "comment_2": "総ページ数を取得する",
+    "comment_3": "ページ番号を設定し、縦向きまたは横向きを選択する",
+    "comment_4": "新しい向きを適用する",
+    "comment_5": "更新されたファイルを出力パスに保存する"
+  }
+}

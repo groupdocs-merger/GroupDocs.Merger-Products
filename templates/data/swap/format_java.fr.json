@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Échanger des pages dans des fichiers {{FileFormatUp}} avec les applications {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour réorganiser les pages dans des documents {{FileFormatUp}}. Modifiez des fichiers PDF, Word, des tableurs, des présentations, des diagrammes Visio, des images, des archives, et plus encore."
+  },
+  "header": {
+    "title": "Échanger des pages {{FileFormatUp}}",
+    "description": "{{ProdFullName}} améliore les applications {{EnvNameShort}} avec des fonctionnalités flexibles de manipulation de documents. Réorganisez les pages dans les fichiers {{FileFormatUp}} pour rationaliser la structure du contenu.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "Fonctionnalités de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une bibliothèque de traitement de documents puissante qui prend en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, Visio, images et archives. Intégrez-la dans vos applications pour combiner, diviser, extraire, réorganiser, échanger et supprimer des pages de divers types de documents."
+  },
+  "more_features": {
+    "title": "Traitement de documents amélioré",
+    "description": "{{ProdFullName}} offre un ensemble d'outils robuste pour gérer et manipuler efficacement des documents dans plus de 50 formats.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner plusieurs formats de documents",
+      "content": "Combinez des fichiers PDF, des documents Word, des tableurs, des présentations, des fichiers Visio, des images et des archives. Personnalisez la sortie avec des options d'ajustement."
+    },
+    "feature_2": {
+      "title": "Modifier la mise en page du document",
+      "content": "Réorganisez le contenu en échangeant, réordonnant ou supprimant des pages pour améliorer la structure du document."
+    },
+    "feature_3": {
+      "title": "Changer l'orientation des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle ou changez entre le mode portrait et paysage selon les besoins."
+    },
+    "feature_4": {
+      "title": "Extraire des pages spécifiques",
+      "content": "Sélectionnez et extrayez des pages spécifiques ou des plages de pages pour créer de nouveaux documents."
+    }
+  },
+  "formats": {
+    "title": "Réorganiser les pages dans divers types de fichiers",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats, permettant des modifications précises des documents."
+  },
+  "operations": {
+    "title": "Fonctionnalités essentielles",
+    "description": "Découvrez les fonctionnalités essentielles de notre bibliothèque de traitement de documents."
+  },
+  "examples": {
+    "comment_1": "Chargez le document dans {{NameProduct}}",
+    "comment_2": "Spécifiez les pages à échanger",
+    "comment_3": "Exécutez l'opération d'échange",
+    "comment_4": "Enregistrez le fichier modifié à un nouvel emplacement"
+  },
+  "steps": {
+    "title": "Comment réorganiser les pages {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifie la réorganisation des pages dans les documents {{FileFormatUp}}, vous donnant un contrôle total sur l'organisation du contenu. Intégrez un traitement de documents fluide dans vos applications {{EnvName}}.",
+      "step_1": "Définissez le chemin d'accès au fichier {{FileFormatUp}}.",
+      "step_2": "Choisissez les pages à échanger ou à réorganiser.",
+      "step_3": "Utilisez la méthode appropriée pour modifier le document.",
+      "step_4": "Enregistrez le fichier mis à jour à l'emplacement choisi."
+    }
+  },
+  "code_1": {
+    "title": "Échanger la première et la dernière page d'un fichier {{FileFormatUp}}",
+    "content": "Cet exemple démontre comment échanger des pages dans un fichier {{FileFormatUp}} en quelques étapes simples.",
+    "comment_1": "Chargez le document original",
+    "comment_2": "Récupérez le nombre total de pages",
+    "comment_3": "Définissez les paramètres d'échange avec les numéros de pages",
+    "comment_4": "Exécutez l'opération d'échange de pages",
+    "comment_5": "Enregistrez le document modifié"
+  }
+}

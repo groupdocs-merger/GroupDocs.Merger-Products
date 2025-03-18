@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Extraire des pages {{FileFormatUp}} dans {{EnvName}}",
+    "description": "Extraire rapidement des pages spécifiques d'un fichier {{FileFormatUp}} à l'aide de {{ProdFullName}} et les enregistrer en tant que document séparé."
+  },
+  "header": {
+    "title": "Extraire des pages {{FileFormatUp}}",
+    "description": "Intégrez {{ProdFullName}} dans vos applications {{EnvNameShort}} pour traiter efficacement les fichiers {{FileFormatUp}} avec des fonctionnalités avancées d'extraction de pages.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une bibliothèque de traitement de documents puissante qui prend en charge plus de 50 formats de fichiers, notamment PDF, Word, Excel, PowerPoint et des images. Elle permet d'effectuer sans effort des opérations telles que fusionner, séparer, extraire, réorganiser et supprimer des pages."
+  },
+  "more_features": {
+    "title": "Traitement de documents polyvalent",
+    "description": "{{ProdFullName}} offre des fonctionnalités robustes pour travailler avec plus de 50 formats de documents commerciaux largement utilisés.",
+    "image_description": "Fonctionnalités principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner plusieurs types de fichiers",
+      "content": "Combinez des PDF, des documents Word, des diapositives PowerPoint, des feuilles Excel, des images et des archives en un seul fichier avec des options personnalisables."
+    },
+    "feature_2": {
+      "title": "Gestion avancée des pages",
+      "content": "Déplacez, supprimez ou réorganisez facilement les pages d'un document pour organiser efficacement votre contenu."
+    },
+    "feature_3": {
+      "title": "Modifier la mise en page des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle ou changez entre l'orientation portrait et paysage selon vos besoins."
+    },
+    "feature_4": {
+      "title": "Extraire des pages spécifiques",
+      "content": "Sélectionnez et extrayez uniquement les pages requises, en les enregistrant en tant que nouveau document pour une utilisation ultérieure."
+    }
+  },
+  "formats": {
+    "title": "Extraire des pages de plusieurs formats de fichiers",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de fichiers, rendant la gestion des documents plus flexible et efficace."
+  },
+  "operations": {
+    "title": "Principales capacités",
+    "description": "Explorez des fonctionnalités de traitement de documents supplémentaires."
+  },
+  "examples": {
+    "comment_1": "Créer une instance de {{ProdShortName}} avec le document source",
+    "comment_2": "Définir les paramètres d'extraction pour des pages spécifiques",
+    "comment_3": "Exécuter le processus d'extraction des pages",
+    "comment_4": "Enregistrer les pages extraites en tant que nouveau fichier"
+  },
+  "steps": {
+    "title": "Comment extraire des pages {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilite l'extraction de pages à partir de documents {{FileFormatUp}}. Améliorez vos applications {{EnvName}} avec des capacités de traitement de documents sans faille.",
+      "step_1": "Fournir le chemin du fichier du document {{FileFormatUp}} source.",
+      "step_2": "Sélectionnez les pages que vous souhaitez extraire.",
+      "step_3": "Exécutez le processus d'extraction.",
+      "step_4": "Enregistrez les pages extraites en tant que document séparé."
+    }
+  },
+  "code_1": {
+    "title": "Extraire des pages spécifiques d'un document",
+    "content": "Cet exemple montre comment extraire une plage sélectionnée de pages d'un fichier {{FileFormatUp}} et les enregistrer en tant que nouveau document.",
+    "comment_1": "Spécifiez le chemin du fichier du document original",
+    "comment_2": "Définissez des options pour extraire uniquement les pages numérotées paires de la plage sélectionnée",
+    "comment_3": "Effectuez l'opération d'extraction",
+    "comment_4": "Enregistrez les pages extraites dans un nouveau fichier"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "使用{{EnvName}}应用程序交换{{FileFormatUp}}文档中的页面",
+    "description": "使用{{ProdFullName}}交换{{FileFormatUp}}文件中的页面。管理PDF、Word文档、电子表格、演示文稿、Visio图表、图像、归档文件等。"
+  },
+  "header": {
+    "title": "交换{{FileFormatUp}}页面",
+    "description": "{{ProdFullName}}增强了{{EnvNameShort}}应用程序的文档处理能力。交换{{FileFormatUp}}文件中的页面以更好地组织和控制您的内容。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载安装"
+  },
+  "about": {
+    "title": "{{ProdShortName}}特性",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})是一个支持50多种文件格式的文档处理库，包括PDF、Word、Excel、PowerPoint、Visio、图像和归档文件。将其添加到您的应用程序中，以在广泛使用的文档格式中进行合并、拆分、提取、重新排列、交换和删除页面。"
+  },
+  "more_features": {
+    "title": "高级文档管理",
+    "description": "{{ProdFullName}}提供了一套强大的工具，以便轻松处理超过50种文件格式。",
+    "image_description": "{{ProdShortName}}的关键功能",
+    "feature_1": {
+      "title": "合并各种文档类型",
+      "content": "将PDF、Word文档、电子表格、演示文稿、Visio图表、图像和归档文件合并。使用灵活的选项自定义输出。"
+    },
+    "feature_2": {
+      "title": "重新排列文档页面",
+      "content": "通过移动、交换或删除页面来修改文档布局，以便更好地组织内容。"
+    },
+    "feature_3": {
+      "title": "调整页面方向",
+      "content": "将页面旋转到特定角度或在竖屏和横屏模式之间切换。"
+    },
+    "feature_4": {
+      "title": "提取选定页面",
+      "content": "选择特定页面或页面范围并将其保存为单独的文档。"
+    }
+  },
+  "formats": {
+    "title": "在各种文件格式中交换页面",
+    "description": "{{ProdShortName}}支持超过50种文件格式，允许精确的文档修改。"
+  },
+  "operations": {
+    "title": "主要特性",
+    "description": "探索我们的文档处理库的关键特性。"
+  },
+  "examples": {
+    "comment_1": "将文档加载到{{NameProduct}}",
+    "comment_2": "指定要交换的页面编号",
+    "comment_3": "交换选定的页面",
+    "comment_4": "保存修改后的文件"
+  },
+  "steps": {
+    "title": "如何交换{{FileFormatUp}}页面",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})使得交换{{FileFormatUp}}页面简单易行，让您全面掌控文档内容。在您的{{EnvName}}应用程序中使用它以实现无缝的文档处理。",
+      "step_1": "指定{{FileFormatUp}}文件的路径。",
+      "step_2": "选择要交换的页面编号。",
+      "step_3": "使用适当的方法交换页面。",
+      "step_4": "将更新后的文档保存到所需位置。"
+    }
+  },
+  "code_1": {
+    "title": "交换{{FileFormatUp}}文件的第一和最后页面",
+    "content": "此示例展示了如何在{{FileFormatUp}}文件中仅通过几个步骤来交换页面。",
+    "comment_1": "加载源文档",
+    "comment_2": "获取总页面数",
+    "comment_3": "定义具有选定页面的交换选项",
+    "comment_4": "执行交换操作",
+    "comment_5": "保存修改后的文档"
+  }
+}

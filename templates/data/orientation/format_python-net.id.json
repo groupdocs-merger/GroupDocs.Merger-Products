@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Atur halaman {{FileFormatUp}} dalam aplikasi {{EnvName}}",
+    "description": "{{ProdFullName}} membantu Anda mengubah halaman {{FileFormatUp}} ke mode potret atau lanskap. Proses file PDF, dokumen Word, lembar Excel, slide PowerPoint, desain Visio, gambar, arsip, dan lainnya dengan kontrol."
+  },
+  "header": {
+    "title": "Penyelarasan Halaman untuk {{FileFormatUp}}",
+    "description": "{{ProdFullName}} memperkaya aplikasi {{EnvNameShort}} dengan fitur berguna. Pengembang dapat membangun solusi yang lebih baik dengan mengelola format file dan menyesuaikan tata letak halaman {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Coba Gratis"
+  },
+  "about": {
+    "title": "Ikhtisar {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) dirancang untuk mengelola dokumen dalam lebih dari 50 format, seperti PDF, Word, Excel, PowerPoint, Visio, gambar, dan arsip. Gabungkan, pisahkan, ekstrak, geser, tukar, hapus, atau sesuaikan tata letak halaman sesuai kebutuhan."
+  },
+  "more_features": {
+    "title": "Penanganan dokumen yang dapat disesuaikan",
+    "description": "{{ProdFullName}} menawarkan berbagai alat untuk mengelola konten dalam lebih dari 50 format file, memberikan hasil yang cepat dan lancar.",
+    "image_description": "Opsi {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan berbagai format",
+      "content": "Gabungkan PDF, dokumen Word, slide, spreadsheet, file Visio, gambar, dan arsip. Sesuaikan untuk mendapatkan keluaran terbaik."
+    },
+    "feature_2": {
+      "title": "Urutkan halaman dokumen",
+      "content": "Pindahkan, tukar, atau hapus halaman untuk memperbaiki pengaturan dokumen Anda."
+    },
+    "feature_3": {
+      "title": "Atur penyelarasan halaman",
+      "content": "Putar halaman ke sudut atau beralih antara mode potret dan lanskap."
+    },
+    "feature_4": {
+      "title": "Ekspor halaman secara terpisah",
+      "content": "Ambil satu halaman atau sekelompok halaman dan simpan sebagai file baru di mana saja."
+    }
+  },
+  "formats": {
+    "title": "Sesuaikan halaman dalam banyak format",
+    "description": "{{ProdShortName}} bekerja dengan lebih dari 50 tipe file, memberikan Anda cara fleksibel untuk menyesuaikan dokumen."
+  },
+  "operations": {
+    "title": "Fitur Utama",
+    "description": "Lihat alat yang dapat meningkatkan proyek Anda."
+  },
+  "examples": {
+    "comment_1": "Masukkan jalur file ke {{NameProduct}}",
+    "comment_2": "Tentukan halaman yang akan disesuaikan",
+    "comment_3": "Terapkan orientasi baru",
+    "comment_4": "Simpan dokumen yang sudah selesai"
+  },
+  "steps": {
+    "title": "Cara menyesuaikan halaman {{FileFormatUp}}",
+    "content": {
+      "title": "Dengan [{{ProdShortName}}]({{PlatformLink}}), geser halaman {{FileFormatUp}}. Fitur ini, ditambah yang lainnya, menambahkan alat dokumen yang dapat diandalkan ke aplikasi {{EnvName}}.",
+      "step_1": "Muat file {{FileFormatUp}}.",
+      "step_2": "Pilih halaman untuk disesuaikan.",
+      "step_3": "Ubah orientasinya.",
+      "step_4": "Simpan hasilnya."
+    }
+  },
+  "code_1": {
+    "title": "Geser halaman {{FileFormatUp}} terakhir",
+    "content": "Pelajari cara memeriksa jumlah halaman dalam file {{FileFormatUp}} dan sesuaikan halaman akhirnya.",
+    "comment_1": "Muat file ke dalam konstruktor",
+    "comment_2": "Hitung total halaman",
+    "comment_3": "Pilih halaman dan atur potret atau lanskap",
+    "comment_4": "Perbarui tata letak halaman",
+    "comment_5": "Simpan ke jalur yang Anda pilih"
+  }
+}

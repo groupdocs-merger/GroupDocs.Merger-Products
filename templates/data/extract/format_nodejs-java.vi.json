@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Trích xuất các trang {{FileFormatUp}} trong {{EnvName}}",
+    "description": "Trích xuất các trang cụ thể từ tệp {{FileFormatUp}} bằng cách sử dụng {{ProdFullName}} và lưu chúng dưới dạng tài liệu mới."
+  },
+  "header": {
+    "title": "Trích xuất các trang {{FileFormatUp}}",
+    "description": "Sử dụng {{ProdFullName}} để cải thiện các ứng dụng {{EnvNameShort}} của bạn với các tính năng trích xuất trang nâng cao cho tài liệu {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về miễn phí"
+  },
+  "about": {
+    "title": "Về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện xử lý tài liệu toàn diện hỗ trợ hơn 50 định dạng, bao gồm PDF, Word, Excel, PowerPoint và hình ảnh. Nó cho phép bạn hợp nhất, tách, trích xuất, sắp xếp lại và xóa các trang một cách hiệu quả."
+  },
+  "more_features": {
+    "title": "Xử lý tài liệu toàn diện",
+    "description": "{{ProdFullName}} cung cấp các tính năng mạnh mẽ cho việc xử lý hơn 50 định dạng tệp kinh doanh phổ biến.",
+    "image_description": "Các khả năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gộp các định dạng tệp khác nhau",
+      "content": "Kết hợp các tệp PDF, tài liệu Word, bài trình bày PowerPoint, bảng tính Excel, hình ảnh và lưu trữ thành một tài liệu duy nhất với nhiều tùy chọn linh hoạt."
+    },
+    "feature_2": {
+      "title": "Quản lý các trang tài liệu",
+      "content": "Sắp xếp lại, di chuyển hoặc xóa các trang để tinh chỉnh và tổ chức tài liệu của bạn một cách hiệu quả."
+    },
+    "feature_3": {
+      "title": "Điều chỉnh bố cục trang",
+      "content": "Xoay các trang theo bất kỳ góc độ nào hoặc chuyển đổi giữa hướng dọc và ngang khi cần."
+    },
+    "feature_4": {
+      "title": "Trích xuất các trang cụ thể",
+      "content": "Chọn và trích xuất chỉ các trang cần thiết, lưu chúng dưới dạng tài liệu độc lập."
+    }
+  },
+  "formats": {
+    "title": "Trích xuất trang từ nhiều định dạng",
+    "description": "{{ProdShortName}} hỗ trợ hơn 50 định dạng tệp, cho phép xử lý tài liệu liền mạch."
+  },
+  "operations": {
+    "title": "Chức năng chính",
+    "description": "Khám phá các tính năng xử lý tài liệu bổ sung."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo {{ProdShortName}} với tài liệu nguồn",
+    "comment_2": "Thiết lập tùy chọn để trích xuất các trang cụ thể",
+    "comment_3": "Thực hiện thao tác trích xuất",
+    "comment_4": "Lưu các trang đã trích xuất dưới dạng tệp mới"
+  },
+  "steps": {
+    "title": "Cách trích xuất các trang {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp bạn trích xuất các trang từ tài liệu {{FileFormatUp}}. Thêm khả năng xử lý tài liệu liền mạch vào các ứng dụng {{EnvName}} của bạn.",
+      "step_1": "Cung cấp đường dẫn tệp của tài liệu {{FileFormatUp}} nguồn.",
+      "step_2": "Chọn các trang bạn muốn trích xuất.",
+      "step_3": "Chạy quy trình trích xuất.",
+      "step_4": "Lưu các trang đã trích xuất dưới dạng tài liệu mới."
+    }
+  },
+  "code_1": {
+    "title": "Trích xuất các trang cụ thể từ một tài liệu",
+    "content": "Ví dụ này cho thấy cách để trích xuất một dải các trang được chọn từ tệp {{FileFormatUp}} và lưu chúng dưới dạng tài liệu mới.",
+    "comment_1": "Chỉ định đường dẫn đến tài liệu nguồn",
+    "comment_2": "Thiết lập tùy chọn trích xuất để chỉ bao gồm các trang có số chẵn trong một dải",
+    "comment_3": "Thực thi thao tác trích xuất",
+    "comment_4": "Lưu các trang đã trích xuất vào một tệp mới"
+  }
+}

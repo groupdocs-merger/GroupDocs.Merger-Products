@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "在 {{EnvName}} 应用程序中拆分 {{FileFormatUp}} 文档",
+    "description": "使用 {{ProdFullName}} 将 {{FileFormatUp}} 文件拆分为单独的文档。高效管理 PDF、Word 文件、Excel 表格、PowerPoint 幻灯片、Visio 文件、图片、档案等。"
+  },
+  "header": {
+    "title": "拆分 {{FileFormatUp}} 文件",
+    "description": "{{ProdFullName}} 通过添加高级文档处理功能增强了 {{EnvNameShort}} 应用程序。可拆分 {{FileFormatUp}} 文件并处理多种流行的商业格式。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于 {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一款强大的文档处理库，支持超过 50 种文件格式，包括 PDF、Word、Excel、PowerPoint、Visio、图片和档案。它可以高效地进行合并、拆分、提取、移动、交换和删除页面，从而提高文档管理的效率。"
+  },
+  "more_features": {
+    "title": "高级文档管理",
+    "description": "{{ProdFullName}} 提供丰富的功能集，用于处理超过 50 种常用的商业文件格式。",
+    "image_description": "{{ProdShortName}} 的关键功能",
+    "feature_1": {
+      "title": "合并不同文件格式",
+      "content": "组合 PDF、Word 文档、演示文稿、电子表格、Visio 图形、图片和档案。根据需要自定义合并过程，以获得最佳结果。"
+    },
+    "feature_2": {
+      "title": "整理文档页面",
+      "content": "通过移动、交换或删除页面来有效地组织您的文档结构。"
+    },
+    "feature_3": {
+      "title": "修改页面布局",
+      "content": "将页面旋转到任何角度或在纵向和横向方向之间切换。"
+    },
+    "feature_4": {
+      "title": "将页面提取为单独文件",
+      "content": "选择特定页面或页面范围，并将其保存为选定位置的新文档。"
+    }
+  },
+  "formats": {
+    "title": "拆分各种文件格式",
+    "description": "{{ProdShortName}} 支持超过 50 种文件类型，实现快速灵活的文档修改。"
+  },
+  "operations": {
+    "title": "主要功能",
+    "description": "探索我们库的强大文档处理能力。"
+  },
+  "examples": {
+    "comment_1": "将源文件加载到 {{NameProduct}} 中",
+    "comment_2": "定义输出文件路径",
+    "comment_3": "设置拆分选项",
+    "comment_4": "执行拆分操作"
+  },
+  "steps": {
+    "title": "如何拆分 {{FileFormatUp}} 文件",
+    "content": {
+      "title": "借助 [{{ProdShortName}}]({{PlatformLink}})，您可以拆分 {{FileFormatUp}} 文档，并将选定页面保存为新文件。将高级文档管理集成到您的 {{EnvName}} 应用程序中。",
+      "step_1": "提供 {{FileFormatUp}} 文件的源路径。",
+      "step_2": "为拆分文档指定输出文件路径。",
+      "step_3": "配置拆分操作的选项。",
+      "step_4": "执行拆分过程并保存文件。"
+    }
+  },
+  "code_1": {
+    "title": "拆分 {{FileFormatUp}} 文档并保存偶数页",
+    "content": "本示例演示如何拆分 {{FileFormatUp}} 文档，并将所有偶数页保存为单独的文件。",
+    "comment_1": "将源文件加载到构造函数中",
+    "comment_2": "指定输出文件路径",
+    "comment_3": "获取总页数",
+    "comment_4": "定义偶数页拆分选项",
+    "comment_5": "执行拆分操作并保存结果"
+  }
+}

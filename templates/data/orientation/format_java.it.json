@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Cambia l'orientamento delle pagine {{FileFormatUp}} nelle app {{EnvName}}",
+    "description": "Utilizza {{ProdFullName}} per regolare l'orientamento delle pagine {{FileFormatUp}} (verticale o orizzontale). Gestisci PDF, documenti Word, fogli Excel, diapositive PowerPoint, file Visio, immagini, archivi e altro."
+  },
+  "header": {
+    "title": "Controllo dell'orientamento della pagina in {{FileFormatUp}}",
+    "description": "{{ProdFullName}} fornisce agli app {{EnvNameShort}} strumenti utili. Gli sviluppatori possono migliorare i loro progetti gestendo formati di file popolari e regolando l'orientamento delle pagine {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratis"
+  },
+  "about": {
+    "title": "Panoramica di {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è uno strumento per gestire documenti in oltre 50 formati, come PDF, Word, Excel, PowerPoint, Visio, immagini e archivi. Ti consente di unire, dividere, estrarre, spostare, scambiare, eliminare o ruotare pagine. Aggiungi un controllo robusto dei documenti alle tue app."
+  },
+  "more_features": {
+    "title": "Gestione flessibile dei contenuti dei documenti",
+    "description": "{{ProdFullName}} offre un set completo di strumenti per gestire contenuti in oltre 50 formati di file popolari con un'elaborazione fluida ed efficace.",
+    "image_description": "Caratteristiche di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci vari formati di file",
+      "content": "Combina PDF, file Word, diapositive, fogli di calcolo, diagrammi Visio, immagini e archivi. Personalizza il processo per ottenere i migliori risultati."
+    },
+    "feature_2": {
+      "title": "Gestisci le pagine dei documenti",
+      "content": "Riorganizza le pagine spostandole, scambiandole o eliminandole per gestire meglio i tuoi contenuti."
+    },
+    "feature_3": {
+      "title": "Controllo del layout della pagina",
+      "content": "Ruota le pagine a un angolo impostato o passa tra le modalità verticale e orizzontale."
+    },
+    "feature_4": {
+      "title": "Estrai pagine come file separati",
+      "content": "Seleziona una pagina o un intervallo di pagine e salvale come un nuovo file dove desideri."
+    }
+  },
+  "formats": {
+    "title": "Cambia l'orientamento della pagina per molti formati",
+    "description": "{{ProdShortName}} funziona con oltre 50 formati di file, facilitando la modifica dei documenti con una varietà di operazioni."
+  },
+  "operations": {
+    "title": "Caratteristiche principali",
+    "description": "Scopri le funzionalità che possono potenziare i tuoi progetti."
+  },
+  "examples": {
+    "comment_1": "Carica il percorso del file sorgente in {{NameProduct}}",
+    "comment_2": "Seleziona la pagina di cui cambiare l'orientamento",
+    "comment_3": "Imposta l'orientamento della pagina come necessario",
+    "comment_4": "Salva il documento aggiornato"
+  },
+  "steps": {
+    "title": "Come cambiare l'orientamento delle pagine {{FileFormatUp}}",
+    "content": {
+      "title": "Utilizza [{{ProdShortName}}]({{PlatformLink}}) per regolare l'orientamento delle pagine {{FileFormatUp}}. Questa funzione, insieme ad altre, fornisce una gestione documentale solida ai progetti {{EnvName}}.",
+      "step_1": "Indica il file sorgente {{FileFormatUp}}.",
+      "step_2": "Seleziona il numero di pagina da regolare.",
+      "step_3": "Aggiorna l'orientamento della pagina.",
+      "step_4": "Salva le modifiche."
+    }
+  },
+  "code_1": {
+    "title": "Cambia l'orientamento dell'ultima pagina nel documento {{FileFormatUp}}",
+    "content": "Scopri come contare le pagine in un file {{FileFormatUp}} e cambiare l'orientamento dell'ultima pagina.",
+    "comment_1": "Carica il file sorgente nel costruttore",
+    "comment_2": "Ottieni il conteggio totale delle pagine",
+    "comment_3": "Imposta il numero di pagina e scegli verticale o orizzontale",
+    "comment_4": "Applica il nuovo orientamento",
+    "comment_5": "Salva il file aggiornato in un percorso di output"
+  }
+}

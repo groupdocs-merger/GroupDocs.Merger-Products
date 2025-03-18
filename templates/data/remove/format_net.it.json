@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Rimuovi pagine {{FileFormatUp}} nelle app {{EnvName}}",
+    "description": "Utilizza {{ProdFullName}} per eliminare pagine specifiche da documenti {{FileFormatUp}}. Gestisci PDF, Word, Excel, PowerPoint, immagini, archivi e altro."
+  },
+  "header": {
+    "title": "Rimuovi pagine in {{FileFormatUp}}",
+    "description": "{{ProdFullName}} migliora le app {{EnvNameShort}} con potenti capacità di elaborazione dei documenti, inclusa la rimozione di pagine dai file {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Ottieni Gratis"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è uno strumento avanzato per l'elaborazione dei documenti che supporta oltre 50 formati di file, tra cui PDF, Word, Excel, PowerPoint, Visio, immagini e archivi. Offre una gamma di funzionalità come fusione, divisione, estrazione, riordino, scambio e eliminazione di pagine per ottimizzare la gestione dei documenti."
+  },
+  "more_features": {
+    "title": "Elaborazione documentale completa",
+    "description": "{{ProdFullName}} offre un'ampia gamma di funzionalità, consentendo una gestione efficiente di oltre 50 formati di file aziendali comunemente usati.",
+    "image_description": "Capacità principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci più tipi di file",
+      "content": "Combina PDF, documenti Word, presentazioni, fogli di calcolo, immagini e archivi con opzioni flessibili per un'unione precisa."
+    },
+    "feature_2": {
+      "title": "Organizza le pagine del documento",
+      "content": "Riorganizza le pagine spostandole, scambiandole o eliminandole per strutturare i documenti in modo efficiente."
+    },
+    "feature_3": {
+      "title": "Personalizza il layout delle pagine",
+      "content": "Ruota le pagine ad angolo qualsiasi o passa tra le modalità verticale e orizzontale come necessario."
+    },
+    "feature_4": {
+      "title": "Estrai pagine in documenti separati",
+      "content": "Seleziona e salva pagine specifiche come file indipendenti per una migliore organizzazione dei documenti."
+    }
+  },
+  "formats": {
+    "title": "Rimuovi pagine da vari formati di file",
+    "description": "{{ProdShortName}} supporta oltre 50 formati di documento, consentendo modifiche rapide e effettive."
+  },
+  "operations": {
+    "title": "Funzionalità principali",
+    "description": "Scopri ulteriori capacità della nostra soluzione."
+  },
+  "examples": {
+    "comment_1": "Inizializza {{NameProduct}} con il percorso del file",
+    "comment_2": "Specifica il numero di pagina/i da rimuovere",
+    "comment_3": "Applica le impostazioni di rimozione",
+    "comment_4": "Salva il documento aggiornato"
+  },
+  "steps": {
+    "title": "Come rimuovere pagine da {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), puoi eliminare pagine dai file {{FileFormatUp}}. Aggiungi funzionalità di gestione documentale alle tue applicazioni {{EnvName}} in modo efficace.",
+      "step_1": "Specifica il percorso del file {{FileFormatUp}}.",
+      "step_2": "Scegli le pagine da rimuovere.",
+      "step_3": "Esegui l'operazione di rimozione.",
+      "step_4": "Salva il documento modificato."
+    }
+  },
+  "code_1": {
+    "title": "Come rimuovere tutte le pagine pari",
+    "content": "Scopri come eliminare le pagine numerate pari da un documento {{FileFormatUp}}.",
+    "comment_1": "Fornisci il percorso del file al costruttore",
+    "comment_2": "Ottieni il conteggio totale delle pagine",
+    "comment_3": "Definisci le impostazioni per rimuovere le pagine pari",
+    "comment_4": "Elabora il documento",
+    "comment_5": "Salva la versione finale nella posizione specificata"
+  }
+}

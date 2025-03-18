@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Ändern der Seitenorientierung von {{FileFormatUp}} in {{EnvName}}-Apps",
+    "description": "Verwenden Sie {{ProdFullName}}, um die Seitenorientierung von {{FileFormatUp}} (Hochformat oder Querformat) anzupassen. Verwenden Sie PDFs, Word-Dokumente, Excel-Tabellen, PowerPoint-Präsentationen, Visio-Dateien, Bilder, Archive und mehr."
+  },
+  "header": {
+    "title": "Seitenorientierungskontrolle in {{FileFormatUp}}",
+    "description": "{{ProdFullName}} rüstet {{EnvNameShort}}-Apps mit praktischen Werkzeugen aus. Entwickler können ihre Projekte verbessern, indem sie beliebte Dateiformate verwalten und die Seitenorientierung von {{FileFormatUp}} anpassen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "{{ProdShortName}} Übersicht",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein Tool zur Verwaltung von Dokumenten in über 50 Formaten, wie PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive. Es ermöglicht Ihnen, Seiten zu verbinden, zu teilen, zu extrahieren, zu verschieben, zu tauschen, zu löschen oder zu drehen. Fügen Sie robuste Dokumentenkontrolle zu Ihren Apps hinzu."
+  },
+  "more_features": {
+    "title": "Flexibles Content-Management für Dokumente",
+    "description": "{{ProdFullName}} bietet ein vollständiges Set an Werkzeugen zur Verarbeitung von Inhalten in über 50 gängigen Dateiformaten mit reibungsloser und effizienter Verarbeitung.",
+    "image_description": "{{ProdShortName}}-Funktionen",
+    "feature_1": {
+      "title": "Verschiedene Dateiformate zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dateien, Folien, Tabellenkalkulationen, Visio-Diagramme, Bilder und Archive. Passen Sie den Prozess für das beste Ergebnis an."
+    },
+    "feature_2": {
+      "title": "Dokumentseiten verwalten",
+      "content": "Ordnen Sie die Seiten durch Verschieben, Tauschen oder Löschen besser an."
+    },
+    "feature_3": {
+      "title": "Seitenlayout steuern",
+      "content": "Drehen Sie Seiten auf einen bestimmten Winkel oder wechseln Sie zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Seiten als separate Dateien extrahieren",
+      "content": "Wählen Sie eine Seite oder einen Seitenbereich und speichern Sie diese als neue Datei an einem beliebigen Ort."
+    }
+  },
+  "formats": {
+    "title": "Seitenorientierung für viele Formate ändern",
+    "description": "{{ProdShortName}} arbeitet mit über 50 Dateiformaten und ermöglicht das Anpassen von Dokumenten durch eine Vielzahl von Operationen."
+  },
+  "operations": {
+    "title": "Schlüsselfunktionen",
+    "description": "Überprüfen Sie die Funktionen, die Ihre Projekte voranbringen können."
+  },
+  "examples": {
+    "comment_1": "Laden Sie den Pfad zur Quelldatei in {{NameProduct}}",
+    "comment_2": "Wählen Sie die Seite, deren Orientierung geändert werden soll",
+    "comment_3": "Legen Sie die Seitenorientierung nach Bedarf fest",
+    "comment_4": "Speichern Sie das aktualisierte Dokument"
+  },
+  "steps": {
+    "title": "So ändern Sie die Seitenorientierung von {{FileFormatUp}}",
+    "content": {
+      "title": "Verwenden Sie [{{ProdShortName}}]({{PlatformLink}}), um die Seitenorientierung von {{FileFormatUp}} anzupassen. Diese Funktion, zusammen mit anderen, bringt eine solide Dokumentenverwaltung in {{EnvName}}-Projekte.",
+      "step_1": "Verweisen Sie auf die {{FileFormatUp}}-Quelldatei.",
+      "step_2": "Wählen Sie die Seitenzahl zur Anpassung aus.",
+      "step_3": "Aktualisieren Sie die Seitenorientierung.",
+      "step_4": "Speichern Sie die Änderungen."
+    }
+  },
+  "code_1": {
+    "title": "Ändern der Orientierung der letzten Seite in {{FileFormatUp}}-Dokument",
+    "content": "Erfahren Sie, wie man Seiten in einer {{FileFormatUp}}-Datei zählt und die Orientierung der letzten ändert.",
+    "comment_1": "Laden Sie die Quelldatei in den Konstruktor",
+    "comment_2": "Ermitteln Sie die Gesamtanzahl der Seiten",
+    "comment_3": "Legen Sie die Seitenzahl fest und wählen Sie Hoch- oder Querformat",
+    "comment_4": "Wenden Sie die neue Orientierung an",
+    "comment_5": "Speichern Sie die aktualisierte Datei an einem Ausgabepfad"
+  }
+}

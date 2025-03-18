@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Seiten in {{FileFormatUp}} in {{EnvName}} verschieben",
+    "description": "{{ProdFullName}} ermöglicht das mühelose Neuanordnen von Seiten in {{FileFormatUp}}-Dokumenten. Verarbeiten Sie PDF, Word, Excel, PowerPoint, Bilder und mehr."
+  },
+  "header": {
+    "title": "Seiten in {{FileFormatUp}} verschieben",
+    "description": "{{ProdFullName}} befähigt {{EnvNameShort}}-Anwendungen, Seiten in {{FileFormatUp}}-Dokumenten einfach neu anzuordnen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein leistungsstarkes Dokumentenverarbeitungstool, das über 50 Datei­formate unterstützt, darunter PDF, Word, Excel, PowerPoint, Bilder und Archive. Es bietet grundlegende Funktionen wie Zusammenführen, Aufteilen, Extrahieren, Verschieben, Tauschen und Löschen von Seiten."
+  },
+  "more_features": {
+    "title": "Erweiterte Dokumentenverarbeitung",
+    "description": "{{ProdFullName}} bietet ein umfassendes Set an Funktionen, mit denen Sie über 50 weit verbreitete Geschäftsdateiformate effizient verarbeiten können.",
+    "image_description": "Schlüsselfunktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Dokumente in verschiedenen Formaten zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, Präsentationen, Tabellenkalkulationen, Bilder, Archive und mehr. Verwenden Sie flexible Optionen, um die gewünschten Ergebnisse zu erzielen."
+    },
+    "feature_2": {
+      "title": "Dokumentseiten verwalten",
+      "content": "Ordnen Sie Seiten innerhalb von Dokumenten neu an. Verschieben, tauschen oder entfernen Sie Seiten, um Ihren Inhalt besser zu organisieren."
+    },
+    "feature_3": {
+      "title": "Seitenlayout anpassen",
+      "content": "Drehen Sie Seiten in jeden beliebigen Winkel oder wechseln Sie zwischen Hochformat und Querformat."
+    },
+    "feature_4": {
+      "title": "Seiten in separate Dateien extrahieren",
+      "content": "Wählen und extrahieren Sie spezifische Seiten, indem Sie diese als eigenständige Dokumente speichern."
+    }
+  },
+  "formats": {
+    "title": "Seiten in mehreren Formaten neu anordnen",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateiformate und ermöglicht eine flexible und effiziente Dokumentbearbeitung."
+  },
+  "operations": {
+    "title": "Wichtige Funktionen",
+    "description": "Erkunden Sie zusätzliche leistungsstarke Funktionen unserer Lösung."
+  },
+  "examples": {
+    "comment_1": "Erstellen Sie eine {{NameProduct}}-Instanz mit der Quelldatei",
+    "comment_2": "Geben Sie die zu verschiebende Seitennummer an",
+    "comment_3": "Verschieben Sie die Seite an die neue Position",
+    "comment_4": "Speichern Sie das modifizierte Dokument"
+  },
+  "steps": {
+    "title": "So verschieben Sie {{FileFormatUp}}-Seiten",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) erleichtert das Verschieben ausgewählter Seiten in {{FileFormatUp}}-Dokumenten. Verbessern Sie Ihre {{EnvName}}-Anwendungen mit erweiterten Funktionen zur Dokumentenverarbeitung.",
+      "step_1": "Geben Sie den Dateipfad des Quell-{{FileFormatUp}}-Dokuments an.",
+      "step_2": "Bestimmen Sie die Seitennummer und ihre neue Position.",
+      "step_3": "Führen Sie die Seitenverschiebeoperation aus.",
+      "step_4": "Speichern Sie das aktualisierte Dokument."
+    }
+  },
+  "code_1": {
+    "title": "Eine Seite ans Ende des Dokuments verschieben",
+    "content": "In diesem Beispiel wird gezeigt, wie eine bestimmte Seite ans Ende eines {{FileFormatUp}}-Dokuments verschoben wird.",
+    "comment_1": "Übergeben Sie den Dateipfad der Quelldatei an den Konstruktor",
+    "comment_2": "Rufen Sie die Dokumentdetails und die letzte Seitennummer ab",
+    "comment_3": "Richten Sie die Optionen mit den Seitennummern ein",
+    "comment_4": "Verschieben Sie die Seite ans Ende des Dokuments",
+    "comment_5": "Speichern Sie das aktualisierte Dokument an einem neuen Ort"
+  }
+}

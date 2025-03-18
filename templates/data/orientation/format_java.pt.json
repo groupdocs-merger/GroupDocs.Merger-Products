@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Alterar a orientação das páginas {{FileFormatUp}} em aplicativos {{EnvName}}",
+    "description": "Utilize o {{ProdFullName}} para ajustar a orientação das páginas {{FileFormatUp}} (retrato ou paisagem). Gerencie PDFs, documentos Word, planilhas Excel, slides PowerPoint, arquivos Visio, imagens, arquivos compactados e muito mais."
+  },
+  "header": {
+    "title": "Controle de orientação de página em {{FileFormatUp}}",
+    "description": "{{ProdFullName}} fornece aos aplicativos {{EnvNameShort}} ferramentas úteis. Os desenvolvedores podem aprimorar seus projetos gerenciando formatos de arquivos populares e ajustando a orientação das páginas {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Grátis"
+  },
+  "about": {
+    "title": "{{ProdShortName}} Visão Geral",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma ferramenta para gerenciar documentos em mais de 50 formatos, como PDF, Word, Excel, PowerPoint, Visio, imagens e arquivos compactados. Permite mesclar, dividir, extrair, mover, trocar, excluir ou girar páginas. Adicione controle robusto de documentos aos seus aplicativos."
+  },
+  "more_features": {
+    "title": "Gerenciamento flexível de conteúdo de documentos",
+    "description": "{{ProdFullName}} oferece um conjunto completo de ferramentas para lidar com o conteúdo em mais de 50 formatos de arquivo populares com processamento suave e eficiente.",
+    "image_description": "Recursos do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mesclar diversos formatos de arquivos",
+      "content": "Combine PDFs, arquivos do Word, slides, planilhas, diagramas Visio, imagens e arquivos compactados. Personalize o processo para obter o melhor resultado."
+    },
+    "feature_2": {
+      "title": "Gerenciar páginas de documentos",
+      "content": "Reorganize as páginas movendo, trocando ou excluindo-as para organizar melhor seu conteúdo."
+    },
+    "feature_3": {
+      "title": "Controlar layout de páginas",
+      "content": "Gire páginas para um ângulo definido ou alterne entre os modos retrato e paisagem."
+    },
+    "feature_4": {
+      "title": "Extrair páginas como arquivos separados",
+      "content": "Escolha uma página ou um intervalo de páginas e salve-as como um novo arquivo onde desejar."
+    }
+  },
+  "formats": {
+    "title": "Alterar a orientação de página para muitos formatos",
+    "description": "{{ProdShortName}} funciona com mais de 50 formatos de arquivo, facilitando a modificação de documentos com uma variedade de operações."
+  },
+  "operations": {
+    "title": "Recursos principais",
+    "description": "Confira os recursos que podem impulsionar seus projetos."
+  },
+  "examples": {
+    "comment_1": "Carregue o caminho do arquivo de origem no {{NameProduct}}",
+    "comment_2": "Escolha a página para alterar a orientação",
+    "comment_3": "Defina a orientação da página conforme necessário",
+    "comment_4": "Salve o documento atualizado"
+  },
+  "steps": {
+    "title": "Como alterar a orientação das páginas {{FileFormatUp}}",
+    "content": {
+      "title": "Utilize [{{ProdShortName}}]({{PlatformLink}}) para ajustar a orientação das páginas {{FileFormatUp}}. Este recurso, juntamente com outros, traz um gerenciamento sólido de documentos para projetos {{EnvName}}.",
+      "step_1": "Aponte para o arquivo de origem {{FileFormatUp}}.",
+      "step_2": "Selecione o número da página a ser ajustada.",
+      "step_3": "Atualize a orientação da página.",
+      "step_4": "Salve as alterações."
+    }
+  },
+  "code_1": {
+    "title": "Alterar a orientação da última página no documento {{FileFormatUp}}",
+    "content": "Aprenda como contar as páginas em um arquivo {{FileFormatUp}} e alterar a orientação da última.",
+    "comment_1": "Carregue o arquivo de origem no construtor",
+    "comment_2": "Obtenha a contagem total de páginas",
+    "comment_3": "Defina o número da página e escolha retrato ou paisagem",
+    "comment_4": "Aplique a nova orientação",
+    "comment_5": "Salve o arquivo atualizado em um caminho de saída"
+  }
+}

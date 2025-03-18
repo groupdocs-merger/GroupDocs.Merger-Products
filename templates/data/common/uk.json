@@ -1,0 +1,217 @@
+{
+  "common-content": {
+    "format-formats": {
+      "word": {
+        "name": "WORD",
+        "description": "Документи Microsoft Word"
+      },
+      "excel": {
+        "name": "EXCEL",
+        "description": "Таблиці Microsoft Excel"
+      },
+      "powerpoint": {
+        "name": "POWERPOINT",
+        "description": "Презентації Microsoft PowerPoint"
+      },
+      "image": {
+        "name": "ЗОБРАЖЕННЯ",
+        "description": "Популярні формати зображень"
+      },
+      "visio": {
+        "name": "VISIO",
+        "description": "Діаграми Microsoft Visio"
+      },
+      "pdf": {
+        "name": "PDF",
+        "description": "Формат Adobe Portable Document"
+      },
+      "docx": {
+        "name": "DOCX",
+        "description": "Документ Microsoft Word Open XML"
+      },
+      "xlsx": {
+        "name": "XLSX",
+        "description": "Таблиця Microsoft Excel Open XML"
+      },
+      "pptx": {
+        "name": "PPTX",
+        "description": "Презентація PowerPoint Open XML"
+      },
+      "bmp": {
+        "name": "BMP",
+        "description": "Зображення Bitmap"
+      },
+      "jpeg": {
+        "name": "JPEG",
+        "description": "Файл зображення JPEG"
+      },
+      "jpg": {
+        "name": "JPG",
+        "description": "Файл зображення JPEG"
+      },
+      "png": {
+        "name": "PNG",
+        "description": "Графіка переносної мережі"
+      },
+      "svg": {
+        "name": "SVG",
+        "description": "Векторна графіка скалярного формату"
+      },
+      "tiff": {
+        "name": "TIFF",
+        "description": "Формат файлу зображень з тегами"
+      },
+      "csv": {
+        "name": "CSV",
+        "description": "Файл зі значеннями, розділеними комами"
+      },
+      "epub": {
+        "name": "EPUB",
+        "description": "Електронна публікація"
+      },
+      "html": {
+        "name": "HTML",
+        "description": "Файл мови розмітки HTML"
+      },
+      "mhtml": {
+        "name": "MHTML",
+        "description": "Веб-архів MHTML"
+      },
+      "txt": {
+        "name": "TXT",
+        "description": "Файл звичайного тексту"
+      },
+      "xps": {
+        "name": "XPS",
+        "description": "Файл спецификації паперу XML"
+      },
+      "zip": {
+        "name": "ZIP",
+        "description": "ZIP-архів"
+      }
+    },
+    "format-operations": {
+      "combine": {
+        "pdf": "Об'єднати PDF документи",
+        "docx": "Об'єднати DOCX документи",
+        "xlsx": "Об'єднати XLSX документи",
+        "pptx": "Об'єднати PPTX документи",
+        "epub": "Об'єднати EPUB документи"
+      },
+      "extract": {
+        "pdf": "Витягти сторінки PDF",
+        "docx": "Зберегти сторінки DOCX",
+        "xlsx": "Витягти сторінки XLSX",
+        "pptx": "Зберегти сторінки PPTX",
+        "epub": "Витягти сторінки EPUB"
+      },
+      "join": {
+        "pdf": "Об'єднати PDF файли",
+        "docx": "Об'єднати DOCX файли",
+        "xlsx": "Об'єднати XLSX файли",
+        "pptx": "Об'єднати PPTX файли",
+        "epub": "Об'єднати EPUB файли"
+      },
+      "move": {
+        "pdf": "Перемістити сторінки PDF",
+        "docx": "Змінити порядок сторінок DOCX",
+        "xlsx": "Перемістити сторінки XLSX",
+        "pptx": "Змінити порядок сторінок PPTX",
+        "epub": "Перемістити сторінки EPUB"
+      },
+      "remove": {
+        "pdf": "Видалити сторінки PDF",
+        "docx": "Видалити сторінки DOCX",
+        "xlsx": "Видалити сторінки XLSX",
+        "pptx": "Видалити сторінки PPTX",
+        "epub": "Видалити сторінки EPUB"
+      },
+      "rotate": {
+        "pdf": "Повернути сторінки PDF",
+        "docx": "Повернути сторінки DOCX",
+        "xlsx": "Повернути сторінки XLSX",
+        "pptx": "Повернути сторінки PPTX",
+        "epub": "Повернути сторінки EPUB"
+      },
+      "split": {
+        "pdf": "Розділити PDF файл",
+        "docx": "Розділити DOCX файл",
+        "xlsx": "Розділити XLSX файл",
+        "pptx": "Розділити PPTX файл",
+        "epub": "Розділити EPUB файл"
+      },
+      "swap": {
+        "pdf": "Поміняти PDF файл",
+        "docx": "Поміняти DOCX файл",
+        "xlsx": "Поміняти XLSX файл",
+        "pptx": "Поміняти PPTX файл",
+        "epub": "Поміняти EPUB файл"
+      },
+      "orientation": {
+        "pdf": "Змінити орієнтацію PDF",
+        "docx": "Змінити орієнтацію DOCX",
+        "xlsx": "Змінити орієнтацію XLSX",
+        "pptx": "Змінити орієнтацію PPTX",
+        "epub": "Змінити орієнтацію EPUB"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копіювати",
+      "result_title": "Результат коду",
+      "result_title_bottom": "Завантажити результат",
+      "copy_tip": "натисніть, щоб скопіювати",
+      "copy_done": "скопійовано",
+      "links": {
+        "title_1": "Більше прикладів",
+        "title_2": "Документація"
+      }
+    },
+    "format-actions": {
+      "title": "Готові почати?",
+      "description": "Спробуйте функції {{ProdShortName}} безкоштовно або запитайте ліцензію",
+      "comment_1": "Завантаження {{PackageStoreName}}",
+      "comment_2": "Ліцензування"
+    },
+    "texts": {
+      "learn_more": "Дізнайтеся більше"
+    },
+    "operations": {
+      "combine": {
+        "name": "Об'єднати документи",
+        "description": "Об'єднати кілька документів в один"
+      },
+      "extract": {
+        "name": "Витягти сторінки",
+        "description": "Зберегти вибрані сторінки окремим документом"
+      },
+      "join": {
+        "name": "Об'єднати документи",
+        "description": "Об'єднати кілька документів в один"
+      },
+      "move": {
+        "name": "Перемістити сторінки",
+        "description": "Змінити позицію будь-якої сторінки всередині документа"
+      },
+      "remove": {
+        "name": "Видалити сторінки",
+        "description": "Видалити сторінки документа"
+      },
+      "rotate": {
+        "name": "Повернути сторінки",
+        "description": "Повернути сторінки документа"
+      },
+      "split": {
+        "name": "Розділити документ",
+        "description": "Розділити документи"
+      },
+      "swap": {
+        "name": "Поміняти сторінки",
+        "description": "Поміняти сторінки документа"
+      },
+      "orientation": {
+        "name": "Змінити орієнтацію",
+        "description": "Змінити орієнтацію сторінок"
+      }
+    }
+  }
+}

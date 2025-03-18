@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}-Dateien über {{EnvName}} zusammenführen",
+    "description": "Integrieren Sie das Zusammenführen von {{FileFormatUp}}-Dokumenten in Ihre {{EnvNameShort}}-Projekte mit {{ProdFullName}}."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}-Dateien zusammenführen",
+    "description": "Nutzen Sie {{ProdFullName}}, um leistungsstarke {{EnvNameShort}}-Anwendungen zu erstellen, die das nahtlose Zusammenführen und Verwalten von {{FileFormatUp}}-Dokumenten ermöglichen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine fortschrittliche Dokumentverarbeitungslösung, die über 50 Dateiformate unterstützt, darunter PDFs, Word-Dokumente, Tabellenkalkulationen, Präsentationen, Bilder und Archive. Kombinieren, teilen, extrahieren, sortieren und entfernen Sie Seiten nach Bedarf."
+  },
+  "more_features": {
+    "title": "Werkzeuge zum Zusammenführen von Dokumenten",
+    "description": "{{ProdFullName}} arbeitet mit mehr als 50 weit verbreiteten Geschäftsdatenformaten und bietet umfassende Dokumentverarbeitungsfunktionen.",
+    "image_description": "Wichtige Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Verschiedene Dokumentformate zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, Tabellenkalkulationen, Präsentationen, Bilder und andere Dateitypen. Wählen Sie bestimmte Seiten für den Zusammenführungsprozess aus."
+    },
+    "feature_2": {
+      "title": "Seitenmanipulation",
+      "content": "Ordnen Sie Seiten um, entfernen Sie sie oder tauschen Sie sie aus, um Dokumente entsprechend Ihren Anforderungen zu organisieren."
+    },
+    "feature_3": {
+      "title": "Seitenanzeige anpassen",
+      "content": "Drehen Sie Seiten auf beliebige Winkel und wechseln Sie zwischen Hoch- und Querformat für unterstützte Formate."
+    },
+    "feature_4": {
+      "title": "Seiten extrahieren",
+      "content": "Wählen Sie spezifische Seiten aus und extrahieren Sie diese, um eine neue Datei oder ein neues Dokument zu erstellen."
+    }
+  },
+  "formats": {
+    "title": "Verschiedene Dateiformate zusammenführen",
+    "description": "{{ProdShortName}} unterstützt mehr als 50 Dateiformate, die eine effiziente Zusammenführung und Verarbeitung von Dokumenten ermöglichen."
+  },
+  "operations": {
+    "title": "Hauptfunktionen",
+    "description": "Entdecken Sie zusätzliche Optionen zur Dokumentverarbeitung"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}} mit dem Quell-{{FileFormatUp}}-Dokument initialisieren",
+    "comment_2": "Das Dokument mit einer anderen Datei zusammenführen",
+    "comment_3": "Die zusammengeführte Datei am gewünschten Speicherort speichern"
+  },
+  "steps": {
+    "title": "Wie man {{FileFormatUp}}-Dokumente zusammenführt",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht das Zusammenführen von {{FileFormatUp}}-Dokumenten. Fügen Sie die Zusammenführungsfunktionalität in Ihre {{EnvName}}-Anwendungen ein und kombinieren Sie mehrere Dateien effizient.",
+      "step_1": "Definieren Sie den Pfad zur ersten {{FileFormatUp}}-Datei.",
+      "step_2": "Wählen Sie die zweite Datei zum Zusammenführen aus.",
+      "step_3": "Wenden Sie zusätzliche Zusammenführungseinstellungen an, falls erforderlich.",
+      "step_4": "Führen Sie die Zusammenführungsoperation aus und speichern Sie die Ausgabedatei."
+    }
+  },
+  "code_1": {
+    "title": "Dateien unterschiedlicher Formate zusammenführen",
+    "content": "Dieses Beispiel zeigt, wie man mehrere Dateien verschiedener unterstützter Formate in ein einzelnes Dokument zusammenführt.",
+    "comment_1": "Definieren Sie den Hauptdateipfad",
+    "comment_2": "Fügen Sie es mit einem Microsoft Word-Dokument zusammen",
+    "comment_3": "Fügen Sie eine Microsoft Excel-Tabelle zur zusammengeführten Datei hinzu",
+    "comment_4": "Speichern Sie das zusammengeführte Dokument am angegebenen Speicherort"
+  }
+}

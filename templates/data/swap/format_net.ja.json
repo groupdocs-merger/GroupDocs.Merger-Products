@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} ファイルのページを {{EnvName}} アプリで入れ替える",
+    "description": "{{ProdFullName}} を使用して {{FileFormatUp}} ドキュメントのページ順を変更します。PDF、Word ファイル、スプレッドシート、プレゼンテーション、Visio 図、画像などを修正します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}} ページの入れ替え",
+    "description": "{{ProdFullName}} は {{EnvNameShort}} アプリケーションに高度な文書管理機能を追加します。{{FileFormatUp}} ファイルのページを再配置して、必要な内容を正確に構成します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料でダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}} の機能",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) は、PDF、Word 文書、Excel スプレッドシート、PowerPoint プレゼンテーション、Visio 図、画像、アーカイブなど、50 以上のファイル形式をサポートする包括的な文書処理ライブラリです。さまざまなドキュメントタイプでページを結合、分割、抽出、再配置、入れ替え、および削除するために、アプリケーションに統合できます。"
+  },
+  "more_features": {
+    "title": "高度な文書処理",
+    "description": "{{ProdFullName}} は、50 以上の形式をサポートする完全なドキュメント修正ツールセットを提供します。",
+    "image_description": "{{ProdShortName}} の主な機能",
+    "feature_1": {
+      "title": "異なるドキュメントタイプを結合",
+      "content": "PDF、Word ファイル、スプレッドシート、プレゼンテーション、Visio 図、画像、アーカイブファイルを組み合わせます。特定の要件に合わせて出力をカスタマイズします。"
+    },
+    "feature_2": {
+      "title": "ドキュメント構造を整理",
+      "content": "ページを移動、入れ替え、または削除することでコンテンツを再配置し、ドキュメントが適切に構成されていることと、ナビゲートしやすいことを確保します。"
+    },
+    "feature_3": {
+      "title": "ページの向きを調整",
+      "content": "ページを任意の角度に回転させたり、最適な表示のために縦向きと横向きのモードを切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "選択したページを抽出",
+      "content": "特定のページまたはページ範囲を選択して、新しい洗練されたドキュメントを作成します。"
+    }
+  },
+  "formats": {
+    "title": "複数のファイル形式でページを再配置",
+    "description": "{{ProdShortName}} は 50 以上のファイルタイプをサポートしており、文書コンテンツを完全に制御できます。"
+  },
+  "operations": {
+    "title": "主な機能",
+    "description": "私たちのドキュメント処理ライブラリのコア機能を探索します。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}} にドキュメントを読み込む",
+    "comment_2": "入れ替えるページを指定する",
+    "comment_3": "入れ替え操作を実行する",
+    "comment_4": "変更したファイルを所定の場所に保存する"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} ページを再配置する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) を使用すると、{{FileFormatUp}} ドキュメントのページを再編成し、読みやすさと構造を向上させることができます。効率的な文書処理を {{EnvName}} アプリケーションに追加します。",
+      "step_1": "{{FileFormatUp}} ファイルへのパスを提供します。",
+      "step_2": "入れ替えまたは再配置するページを選択します。",
+      "step_3": "文書を修正するために適切なメソッドを適用します。",
+      "step_4": "指定した場所に更新されたファイルを保存します。"
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}} ファイルで最初と最後のページを入れ替える",
+    "content": "この例では、いくつかの簡単な手順で {{FileFormatUp}} ファイルのページを入れ替える方法を示します。",
+    "comment_1": "ソースドキュメントを読み込む",
+    "comment_2": "総ページ数を確認する",
+    "comment_3": "ページ番号を指定して入れ替え設定を定義する",
+    "comment_4": "入れ替え操作を実行する",
+    "comment_5": "更新されたドキュメントを保存する"
+  }
+}

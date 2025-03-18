@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Junte arquivos {{FileFormatUp}} em {{EnvName}}",
+    "description": "Integre perfeitamente a junção de arquivos {{FileFormatUp}} em seus projetos {{EnvNameShort}} usando {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Junte arquivos {{FileFormatUp}}",
+    "description": "{{ProdFullName}} permite que você junte documentos {{FileFormatUp}} de forma eficiente dentro de suas aplicações {{EnvNameShort}}, proporcionando integração contínua e alta performance.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Grátis"
+  },
+  "about": {
+    "title": "Visão Geral do {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma solução rica em recursos para processamento de documentos que suporta mais de 50 formatos de arquivo, incluindo PDF, Word, Excel, PowerPoint, imagens e arquivos compactados. Com um conjunto robusto de ferramentas, você pode juntar, dividir, extrair, trocar e remover páginas de forma eficiente."
+  },
+  "more_features": {
+    "title": "Capacidades abrangentes de junção de documentos",
+    "description": "{{ProdFullName}} é otimizado para lidar com uma ampla variedade de formatos de documentos, oferecendo extensos recursos para gerenciar documentos empresariais.",
+    "image_description": "Funcionalidades principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Junte múltiplos tipos de documentos",
+      "content": "Combine PDFs, arquivos Word, apresentações, planilhas, imagens e outros tipos de documentos. Defina intervalos de páginas específicos para personalizar o processo de junção."
+    },
+    "feature_2": {
+      "title": "Modificar e organizar páginas de documentos",
+      "content": "Reorganize páginas, exclua seções indesejadas ou troque páginas para criar documentos bem estruturados personalizados para suas necessidades."
+    },
+    "feature_3": {
+      "title": "Personalize o layout e a orientação das páginas",
+      "content": "Gire as páginas para qualquer ângulo desejado e ajuste a orientação das páginas entre paisagem e retrato para vários tipos de arquivos."
+    },
+    "feature_4": {
+      "title": "Extraia e salve páginas específicas de documentos",
+      "content": "Selecione páginas específicas de um documento e salve-as como um arquivo separado, garantindo fácil acesso e organização."
+    }
+  },
+  "formats": {
+    "title": "Junte arquivos em diferentes formatos",
+    "description": "Com suporte para mais de 50 tipos de documentos, {{ProdShortName}} simplifica o processamento de arquivos, tornando o manuseio de documentos simples e eficiente."
+  },
+  "operations": {
+    "title": "Funcionalidades principais",
+    "description": "Descubra operações e recursos adicionais suportados pelo {{ProdShortName}} para aprimorar sua experiência de processamento de documentos."
+  },
+  "examples": {
+    "comment_1": "Inicialize o {{NameProduct}} com o documento {{FileFormatUp}} de origem",
+    "comment_2": "Junte o documento com outro arquivo selecionado",
+    "comment_3": "Salve o documento final juntado em um local preferido"
+  },
+  "steps": {
+    "title": "Como juntar documentos {{FileFormatUp}}",
+    "content": {
+      "title": "Com [{{ProdShortName}}]({{PlatformLink}}), juntar documentos {{FileFormatUp}} é simples. Aprimore suas aplicações {{EnvName}} com capacidades eficientes de combinação de documentos.",
+      "step_1": "Forneça o caminho do arquivo para o primeiro documento {{FileFormatUp}}.",
+      "step_2": "Selecione o segundo documento a ser juntado.",
+      "step_3": "Defina parâmetros opcionais para personalização.",
+      "step_4": "Execute o processo de junção e salve o documento de saída."
+    }
+  },
+  "code_1": {
+    "title": "Junte páginas selecionadas de diferentes formatos de documentos",
+    "content": "Este exemplo demonstra como juntar arquivos {{FileFormatUp}} enquanto seleciona páginas específicas de documentos em outros formatos.",
+    "comment_1": "Defina o caminho do documento principal",
+    "comment_2": "Configure opções para incluir páginas específicas",
+    "comment_3": "Junte o arquivo principal com páginas selecionadas de outro documento",
+    "comment_4": "Salve o documento final no local desejado"
+  }
+}

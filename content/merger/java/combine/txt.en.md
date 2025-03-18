@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-05T11:30:29
+date:  2025-03-18T08:59:58
 draft: false
 lang: en
 format: Txt

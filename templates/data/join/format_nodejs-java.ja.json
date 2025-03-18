@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{ProgLang}}での{{FileFormatUp}}ファイルの結合",
+    "description": "{{ProdFullName}}を使用して、{{EnvNameShort}}プロジェクトに{{FileFormatUp}}ファイルの結合を統合します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}ファイルの結合",
+    "description": "{{ProdFullName}}を使用すると、{{EnvNameShort}}アプリケーション内で{{FileFormatUp}}ドキュメントをシームレスに結合できます。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料でダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}}について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、ドキュメント管理のための包括的なツールです。PDF、Word、Excel、PowerPoint、画像、アーカイブなど、50以上のフォーマットをサポートし、ページの結合、分割、抽出、交換、および削除が可能です。"
+  },
+  "more_features": {
+    "title": "高度なドキュメント結合",
+    "description": "{{ProdFullName}}は、50以上の一般的なファイル形式での作業を目的として設計されており、堅牢なドキュメント処理機能を提供します。",
+    "image_description": "{{ProdShortName}}の主要機能",
+    "feature_1": {
+      "title": "さまざまなドキュメントタイプを結合",
+      "content": "PDF、Wordドキュメント、プレゼンテーション、スプレッドシート、画像などを簡単に結合できます。必要に応じて含めるページをカスタマイズします。"
+    },
+    "feature_2": {
+      "title": "ドキュメントページの変更",
+      "content": "ビジネスドキュメントをより良く構成するために、ページを並べ替えたり、削除したり、交換したりできます。"
+    },
+    "feature_3": {
+      "title": "ページ設定の調整",
+      "content": "サポートされているファイル形式において、ページを任意の角度に回転させ、横向きと縦向きの間で向きを変更できます。"
+    },
+    "feature_4": {
+      "title": "ドキュメントページの抽出",
+      "content": "特定のページを選択して抽出し、それを新しい独立したドキュメントとして保存します。"
+    }
+  },
+  "formats": {
+    "title": "複数のファイル形式の結合",
+    "description": "{{ProdShortName}}は50以上のファイルタイプをサポートしており、さまざまなビジネスニーズに対してシームレスなドキュメント処理を実現します。"
+  },
+  "operations": {
+    "title": "主な機能",
+    "description": "{{ProdShortName}}がサポートする追加機能や操作を探索します。"
+  },
+  "examples": {
+    "comment_1": "入力{{FileFormatUp}}ファイルで{{NameProduct}}を初期化",
+    "comment_2": "別のドキュメントとファイルを結合",
+    "comment_3": "結合されたドキュメントを指定の場所に保存"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}ドキュメントを結合する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})は、{{FileFormatUp}}ドキュメントのシームレスな結合を提供します。複数のファイルを1つにまとめて、{{EnvName}}アプリケーションを強化しましょう。",
+      "step_1": "最初の{{FileFormatUp}}ドキュメントへのパスを設定します。",
+      "step_2": "2番目のドキュメントを選択します。",
+      "step_3": "オプションのパラメータを定義します。",
+      "step_4": "ファイルを結合し、出力ドキュメントを保存します。"
+    }
+  },
+  "code_1": {
+    "title": "異なるファイル形式から選択したページを結合",
+    "content": "この例では、他のドキュメントタイプから特定のページを選択しながら{{FileFormatUp}}ファイルを結合する方法を示します。",
+    "comment_1": "主要なドキュメントのパスを指定します",
+    "comment_2": "選択したページを含めるためのオプションを設定します",
+    "comment_3": "主要なファイルを他のドキュメントのページと結合します",
+    "comment_4": "最終的な結合ドキュメントを所定の場所に保存します"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Extraire des pages {{FileFormatUp}} en {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour extraire des pages spécifiques d'un document {{FileFormatUp}} et les enregistrer en tant que fichier séparé."
+  },
+  "header": {
+    "title": "Extraire des pages {{FileFormatUp}}",
+    "description": "Avec {{ProdFullName}}, vous pouvez améliorer vos applications {{EnvNameShort}} avec des fonctionnalités puissantes de traitement de documents pour les fichiers {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil de traitement de documents polyvalent qui prend en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint et les images. Il fournit des fonctionnalités essentielles telles que la fusion, la séparation, l'extraction, l'échange et la suppression de pages."
+  },
+  "more_features": {
+    "title": "Traitement documentaire complet",
+    "description": "{{ProdFullName}} propose une gamme de fonctionnalités puissantes pour traiter plus de 50 formats de fichiers commerciaux courants.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner plusieurs formats de documents",
+      "content": "Combinez des fichiers tels que des PDF, des documents Word, des présentations PowerPoint, des feuilles de calcul Excel, des images et des archives. Personnalisez les options de fusion selon vos besoins."
+    },
+    "feature_2": {
+      "title": "Gestion des pages",
+      "content": "Travaillez avec des pages spécifiques ou des plages de pages – déplacez, supprimez ou réorganisez-les pour peaufiner vos documents professionnels."
+    },
+    "feature_3": {
+      "title": "Ajuster la mise en page des pages",
+      "content": "Faites pivoter les pages selon n'importe quel angle ou changez leur orientation entre paysage et portrait."
+    },
+    "feature_4": {
+      "title": "Extraire des pages sélectionnées",
+      "content": "Extraire uniquement les pages dont vous avez besoin et les enregistrer en tant que document séparé."
+    }
+  },
+  "formats": {
+    "title": "Extraire des pages de divers formats de documents",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de fichiers, permettant une manipulation efficace des documents."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés",
+    "description": "Découvrez des capacités supplémentaires de traitement de documents."
+  },
+  "examples": {
+    "comment_1": "Initialisez {{ProdShortName}} avec le document source",
+    "comment_2": "Spécifiez les pages à extraire",
+    "comment_3": "Effectuez le processus d'extraction",
+    "comment_4": "Enregistrez les pages extraites en tant que nouveau fichier"
+  },
+  "steps": {
+    "title": "Comment extraire des pages {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vous permet d'extraire des pages de documents {{FileFormatUp}}. Améliorez vos applications {{EnvName}} en intégrant des capacités avancées de gestion de documents.",
+      "step_1": "Spécifiez le chemin du fichier du document source {{FileFormatUp}}.",
+      "step_2": "Choisissez les pages que vous souhaitez extraire.",
+      "step_3": "Extrayez les pages sélectionnées.",
+      "step_4": "Enregistrez les pages extraites en tant que nouveau document."
+    }
+  },
+  "code_1": {
+    "title": "Extraire des pages spécifiques d'un document",
+    "content": "Cet exemple démontre comment extraire une plage de pages d'un document {{FileFormatUp}} et les enregistrer en tant que fichier séparé.",
+    "comment_1": "Fournir le chemin du fichier source",
+    "comment_2": "Définir des options pour extraire uniquement les pages à numéros pairs dans une plage",
+    "comment_3": "Exécuter l'opération d'extraction",
+    "comment_4": "Enregistrer les pages extraites en tant que nouveau document"
+  }
+}

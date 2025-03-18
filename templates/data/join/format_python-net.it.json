@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Unisci file {{FileFormatUp}} in {{EnvName}}",
+    "description": "Integra senza soluzione di continuità l'unione di file {{FileFormatUp}} nei tuoi progetti {{EnvNameShort}} utilizzando {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Unisci file {{FileFormatUp}}",
+    "description": "{{ProdFullName}} ti consente di unire documenti {{FileFormatUp}} all'interno delle tue applicazioni {{EnvNameShort}}, offrendo un'integrazione perfetta e prestazioni elevate.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Panoramica di {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una soluzione di elaborazione documentale ricca di funzionalità che supporta oltre 50 formati di file, inclusi PDF, Word, Excel, PowerPoint, immagini e archivi. Con il suo set robusto di strumenti, puoi unire, dividere, estrarre, sostituire e rimuovere pagine in modo efficiente."
+  },
+  "more_features": {
+    "title": "Capacità complete di unione dei documenti",
+    "description": "{{ProdFullName}} è ottimizzato per gestire una vasta gamma di formati documentali, offrendo funzionalità estese per la gestione di documenti aziendali.",
+    "image_description": "Funzionalità principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci più tipi di documenti",
+      "content": "Combina PDF, file Word, presentazioni, fogli di calcolo, immagini e altri tipi di documenti. Definisci intervalli di pagina specifici per personalizzare il processo di unione."
+    },
+    "feature_2": {
+      "title": "Modifica e organizza le pagine del documento",
+      "content": "Riorganizza le pagine, elimina sezioni indesiderate o sostituisci le pagine per creare documenti ben strutturati su misura per le tue esigenze."
+    },
+    "feature_3": {
+      "title": "Personalizza layout e orientamento delle pagine",
+      "content": "Ruota le pagine in qualsiasi angolo desiderato e regola l'orientamento delle pagine tra orizzontale e verticale per vari tipi di file."
+    },
+    "feature_4": {
+      "title": "Estrai e salva pagine specifiche del documento",
+      "content": "Seleziona pagine particolari da un documento e salvale come file separato, garantendo un facile accesso e organizzazione."
+    }
+  },
+  "formats": {
+    "title": "Unisci file in diversi formati",
+    "description": "Con il supporto per oltre 50 tipi di documenti, {{ProdShortName}} semplifica l'elaborazione dei file, rendendo la gestione dei documenti semplice ed efficiente."
+  },
+  "operations": {
+    "title": "Funzionalità chiave",
+    "description": "Scopri ulteriori operazioni e funzionalità supportate da {{ProdShortName}} per migliorare la tua esperienza di elaborazione documentale."
+  },
+  "examples": {
+    "comment_1": "Inizializza {{NameProduct}} con il documento sorgente {{FileFormatUp}}",
+    "comment_2": "Unisci il documento con un altro file selezionato",
+    "comment_3": "Salva il documento finale unito in una posizione preferita"
+  },
+  "steps": {
+    "title": "Come unire documenti {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), unire documenti {{FileFormatUp}} è semplice. Migliora le tue applicazioni {{EnvName}} con capacità efficienti di combinazione dei documenti.",
+      "step_1": "Fornisci il percorso del primo documento {{FileFormatUp}}.",
+      "step_2": "Seleziona il secondo documento da unire.",
+      "step_3": "Imposta parametri opzionali per la personalizzazione.",
+      "step_4": "Esegui il processo di unione e salva il documento di output."
+    }
+  },
+  "code_1": {
+    "title": "Unisci pagine selezionate da diversi formati di documento",
+    "content": "Questo esempio dimostra come unire file {{FileFormatUp}} selezionando pagine specifiche da documenti in altri formati.",
+    "comment_1": "Definisci il percorso del documento principale",
+    "comment_2": "Configura le opzioni per includere pagine specifiche",
+    "comment_3": "Unisci il file principale con le pagine selezionate da un altro documento",
+    "comment_4": "Salva il documento finale nella posizione desiderata"
+  }
+}

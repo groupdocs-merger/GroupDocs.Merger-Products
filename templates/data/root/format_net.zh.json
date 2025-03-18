@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "通过{{EnvName}}合并{{FileFormatUp}}文件",
+    "description": "将{{FileFormatUp}}文档合并集成功能纳入您的{{EnvNameShort}}项目，使用{{ProdFullName}}。"
+  },
+  "header": {
+    "title": "合并{{FileFormatUp}}文件",
+    "description": "使用{{ProdFullName}}创建强大的{{EnvNameShort}}应用程序，轻松合并和管理{{FileFormatUp}}文档。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于{{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一款先进的文档处理解决方案，支持超过50种文件格式，包括PDF、Word文档、电子表格、演示文稿、图像和归档文件。合并、拆分、提取、重新排序和删除页面的操作灵活多样。"
+  },
+  "more_features": {
+    "title": "文档合并工具",
+    "description": "{{ProdFullName}}支持超过50种广泛使用的商务文件格式，提供丰富的文档处理功能。",
+    "image_description": "{{ProdShortName}}的关键特性",
+    "feature_1": {
+      "title": "合并不同的文档格式",
+      "content": "将PDF、Word文档、电子表格、演示文稿、图像和其他文件类型合并。选择特定页面以纳入合并过程。"
+    },
+    "feature_2": {
+      "title": "页面操作",
+      "content": "重新排列、删除或交换页面，以符合您的需求组织文档。"
+    },
+    "feature_3": {
+      "title": "调整页面外观",
+      "content": "将页面旋转到任意角度，并在支持的格式之间切换横向和纵向模式。"
+    },
+    "feature_4": {
+      "title": "提取页面",
+      "content": "选择并提取特定页面以创建新文件或文档。"
+    }
+  },
+  "formats": {
+    "title": "合并多种文件格式",
+    "description": "{{ProdShortName}}支持超过50种文件格式，实现高效的文档合并和处理。"
+  },
+  "operations": {
+    "title": "关键特性",
+    "description": "探索更多文档处理选项"
+  },
+  "examples": {
+    "comment_1": "使用源{{FileFormatUp}}文档初始化{{NameProduct}}",
+    "comment_2": "将文档与另一个文件合并",
+    "comment_3": "将合并后的文件保存到所需位置"
+  },
+  "steps": {
+    "title": "如何合并{{FileFormatUp}}文档",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})使合并{{FileFormatUp}}文档变得高效。为您的{{EnvName}}应用添加合并功能，轻松合并多个文件。",
+      "step_1": "定义第一个{{FileFormatUp}}文件的路径。",
+      "step_2": "选择要合并的第二个文件。",
+      "step_3": "根据需要应用其他合并设置。",
+      "step_4": "执行合并操作并保存输出文件。"
+    }
+  },
+  "code_1": {
+    "title": "合并不同格式的文件",
+    "content": "此示例演示了如何将多种支持的文件合并为一个文档。",
+    "comment_1": "定义主文件路径",
+    "comment_2": "与Microsoft Word文档合并",
+    "comment_3": "将Microsoft Excel电子表格添加到合并文件中",
+    "comment_4": "将合并后的文档保存到指定位置"
+  }
+}

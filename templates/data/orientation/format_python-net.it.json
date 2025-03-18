@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Regola le pagine {{FileFormatUp}} nelle app {{EnvName}}",
+    "description": "{{ProdFullName}} ti consente di spostare le pagine {{FileFormatUp}} in modalità ritratto o paesaggio. Elabora PDF, documenti Word, fogli Excel, diapositive PowerPoint, design Visio, immagini, archivi e altro ancora con controllo."
+  },
+  "header": {
+    "title": "Allineamento delle pagine per {{FileFormatUp}}",
+    "description": "{{ProdFullName}} arricchisce le app {{EnvNameShort}} con funzionalità utili. Gli sviluppatori possono creare soluzioni migliori gestendo i formati di file e modificando i layout delle pagine {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Provalo gratis"
+  },
+  "about": {
+    "title": "Panoramica di {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è progettato per gestire documenti in oltre 50 formati, come PDF, Word, Excel, PowerPoint, Visio, immagini e archivi. Unisci, dividi, estrai, sposta, scambia, rimuovi o regola i layout delle pagine secondo necessità."
+  },
+  "more_features": {
+    "title": "Gestione documentale adattabile",
+    "description": "{{ProdFullName}} offre un'ampia gamma di strumenti per gestire contenuti in oltre 50 formati di file, fornendo risultati rapidi e fluidi.",
+    "image_description": "Opzioni di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combina vari formati",
+      "content": "Unisci PDF, documenti Word, diapositive, fogli di calcolo, file Visio, immagini e archivi. Personalizzalo per ottenere i migliori risultati."
+    },
+    "feature_2": {
+      "title": "Ordina le pagine del documento",
+      "content": "Sposta, scambia o rimuovi pagine per migliorare la configurazione del tuo documento."
+    },
+    "feature_3": {
+      "title": "Imposta l'allineamento delle pagine",
+      "content": "Ruota le pagine a un angolo o passa tra modalità ritratto e paesaggio."
+    },
+    "feature_4": {
+      "title": "Esporta le pagine separatamente",
+      "content": "Prendi una pagina o un gruppo di pagine e salvale come un nuovo file ovunque."
+    }
+  },
+  "formats": {
+    "title": "Regola le pagine in vari formati",
+    "description": "{{ProdShortName}} funziona con oltre 50 tipi di file, offrendo modi flessibili per modificare i documenti."
+  },
+  "operations": {
+    "title": "Caratteristiche principali",
+    "description": "Scopri gli strumenti che possono migliorare i tuoi progetti."
+  },
+  "examples": {
+    "comment_1": "Fornisci il percorso del file a {{NameProduct}}",
+    "comment_2": "Indica la pagina da modificare",
+    "comment_3": "Applica la nuova orientazione",
+    "comment_4": "Salva il documento finito"
+  },
+  "steps": {
+    "title": "Come regolare le pagine {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), sposta le pagine {{FileFormatUp}}. Questa funzionalità, insieme ad altre, aggiunge strumenti documentali affidabili alle app {{EnvName}}.",
+      "step_1": "Carica il file {{FileFormatUp}}.",
+      "step_2": "Seleziona la pagina da modificare.",
+      "step_3": "Cambia la sua orientazione.",
+      "step_4": "Salva il risultato."
+    }
+  },
+  "code_1": {
+    "title": "Sposta l'ultima pagina {{FileFormatUp}}",
+    "content": "Scopri come controllare il numero di pagine in un file {{FileFormatUp}} e regolare la sua pagina finale.",
+    "comment_1": "Carica il file nel costruttore",
+    "comment_2": "Conta il totale delle pagine",
+    "comment_3": "Scegli la pagina e imposta ritratto o paesaggio",
+    "comment_4": "Aggiorna il layout della pagina",
+    "comment_5": "Salva nel percorso scelto"
+  }
+}

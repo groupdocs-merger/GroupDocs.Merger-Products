@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Dividir documentos {{FileFormatUp}} en aplicaciones {{EnvName}}",
+    "description": "Utilice {{ProdFullName}} para dividir archivos {{FileFormatUp}} en documentos separados. Administre archivos PDF, documentos de Word, hojas de Excel, presentaciones de PowerPoint, archivos de Visio, imágenes, archivos comprimidos y más."
+  },
+  "header": {
+    "title": "Dividir archivos {{FileFormatUp}}",
+    "description": "{{ProdFullName}} potencia las aplicaciones {{EnvNameShort}} con características avanzadas de procesamiento de documentos. Divida archivos {{FileFormatUp}} y trabaje con varios formatos de negocio populares.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descarga gratuita"
+  },
+  "about": {
+    "title": "Acerca de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una poderosa biblioteca de procesamiento de documentos que admite más de 50 formatos de archivo, incluidos PDF, Word, Excel, PowerPoint, Visio, imágenes y archivos comprimidos. Permite fusionar, dividir, extraer, mover, intercambiar y eliminar páginas para simplificar la gestión de documentos."
+  },
+  "more_features": {
+    "title": "Gestión avanzada de documentos",
+    "description": "{{ProdFullName}} ofrece un conjunto completo de herramientas para procesar de manera eficiente más de 50 formatos de archivo comerciales de uso común.",
+    "image_description": "Capacidades clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combinar múltiples formatos de archivo",
+      "content": "Combine archivos PDF, documentos de Word, presentaciones, hojas de cálculo, diagramas de Visio, imágenes y archivos comprimidos. Personalice el proceso de fusión para resultados precisos."
+    },
+    "feature_2": {
+      "title": "Organizar páginas de documentos",
+      "content": "Reorganice páginas moviéndolas, intercambiándolas o eliminándolas para mejorar la estructura del documento."
+    },
+    "feature_3": {
+      "title": "Ajustar el diseño de páginas",
+      "content": "Gire las páginas a cualquier ángulo o cambie entre orientaciones verticales y horizontales."
+    },
+    "feature_4": {
+      "title": "Extraer páginas como archivos separados",
+      "content": "Seleccione páginas específicas o un rango de páginas y guárdelas como un nuevo archivo en una ubicación elegida."
+    }
+  },
+  "formats": {
+    "title": "Dividir múltiples formatos de archivo",
+    "description": "{{ProdShortName}} admite más de 50 tipos de archivos, lo que hace que la modificación de documentos sea rápida y eficiente."
+  },
+  "operations": {
+    "title": "Características clave",
+    "description": "Explore las potentes capacidades de procesamiento de documentos de nuestra biblioteca."
+  },
+  "examples": {
+    "comment_1": "Cargue el archivo fuente en {{NameProduct}}",
+    "comment_2": "Especifique la ruta del archivo de salida",
+    "comment_3": "Configure las opciones de división",
+    "comment_4": "Ejecute la operación de división"
+  },
+  "steps": {
+    "title": "Cómo dividir archivos {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), puede dividir documentos {{FileFormatUp}} y guardar páginas seleccionadas como un nuevo archivo. Mejore el procesamiento de documentos en sus aplicaciones {{EnvName}}.",
+      "step_1": "Especifique la ruta de origen del archivo {{FileFormatUp}}.",
+      "step_2": "Defina la ruta del archivo de salida para el documento dividido.",
+      "step_3": "Configure la configuración de la operación de división.",
+      "step_4": "Ejecute la operación de división y guarde el archivo."
+    }
+  },
+  "code_1": {
+    "title": "Dividir documento {{FileFormatUp}} y guardar páginas con números pares",
+    "content": "Este ejemplo muestra cómo dividir un documento {{FileFormatUp}} y guardar todas las páginas con números pares como un archivo separado.",
+    "comment_1": "Cargue el archivo fuente en el constructor",
+    "comment_2": "Especifique la ruta del archivo de salida",
+    "comment_3": "Recupere el número total de páginas",
+    "comment_4": "Defina las opciones de división para las páginas con números pares",
+    "comment_5": "Ejecute la operación de división y guarde el archivo"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Divida documentos {{FileFormatUp}} em aplicativos {{EnvName}}",
+    "description": "Use {{ProdFullName}} para dividir arquivos {{FileFormatUp}} em documentos separados. Gerencie PDFs, arquivos Word, planilhas Excel, slides PowerPoint, arquivos Visio, imagens, arquivos compactados e muito mais."
+  },
+  "header": {
+    "title": "Divida arquivos {{FileFormatUp}}",
+    "description": "{{ProdFullName}} aprimora aplicações {{EnvNameShort}} ao adicionar recursos avançados de processamento de documentos. Divida arquivos {{FileFormatUp}} e trabalhe com uma variedade de formatos de negócios populares.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Gratuito"
+  },
+  "about": {
+    "title": "Sobre {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma poderosa biblioteca de processamento de documentos que suporta mais de 50 formatos de arquivo, incluindo PDF, Word, Excel, PowerPoint, Visio, imagens e arquivos compactados. Permite mesclar, dividir, extrair, mover, trocar e excluir páginas, tornando a gestão de documentos mais eficiente."
+  },
+  "more_features": {
+    "title": "Gerenciamento avançado de documentos",
+    "description": "{{ProdFullName}} oferece um conjunto rico de recursos para processar mais de 50 formatos de arquivo de negócios comumente usados.",
+    "image_description": "Principais capacidades do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mesclar diferentes formatos de arquivo",
+      "content": "Combine PDFs, documentos Word, apresentações, planilhas, diagramas Visio, imagens e arquivos compactados. Personalize o processo de mesclagem para obter resultados otimizados."
+    },
+    "feature_2": {
+      "title": "Organizar páginas de documentos",
+      "content": "Reorganize páginas movendo, trocando ou excluindo-as para estruturar seus documentos de forma eficiente."
+    },
+    "feature_3": {
+      "title": "Modificar layout de página",
+      "content": "Gire páginas em qualquer ângulo ou altere entre orientações retrato e paisagem."
+    },
+    "feature_4": {
+      "title": "Extrair páginas como arquivos separados",
+      "content": "Selecione páginas específicas ou um intervalo de páginas e salve-as como um novo documento em um local escolhido."
+    }
+  },
+  "formats": {
+    "title": "Divida vários formatos de arquivo",
+    "description": "{{ProdShortName}} suporta mais de 50 tipos de arquivo, permitindo modificação rápida e flexível de documentos."
+  },
+  "operations": {
+    "title": "Principais recursos",
+    "description": "Descubra as poderosas capacidades de processamento de documentos da nossa biblioteca."
+  },
+  "examples": {
+    "comment_1": "Carregue o arquivo fonte no {{NameProduct}}",
+    "comment_2": "Defina o caminho do arquivo de saída",
+    "comment_3": "Configure as opções de divisão",
+    "comment_4": "Execute a operação de divisão"
+  },
+  "steps": {
+    "title": "Como dividir arquivos {{FileFormatUp}}",
+    "content": {
+      "title": "Com [{{ProdShortName}}]({{PlatformLink}}), você pode dividir documentos {{FileFormatUp}} e salvar as páginas selecionadas como um novo arquivo. Integre gerenciamento avançado de documentos em suas aplicações {{EnvName}}.",
+      "step_1": "Forneça o caminho fonte do arquivo {{FileFormatUp}}.",
+      "step_2": "Especifique o caminho do arquivo de saída para o documento dividido.",
+      "step_3": "Configure opções para a operação de divisão.",
+      "step_4": "Execute o processo de divisão e salve o arquivo."
+    }
+  },
+  "code_1": {
+    "title": "Dividir documento {{FileFormatUp}} e salvar páginas de número par",
+    "content": "Este exemplo demonstra como dividir um documento {{FileFormatUp}} e salvar todas as páginas de número par como um arquivo separado.",
+    "comment_1": "Carregue o arquivo fonte no construtor",
+    "comment_2": "Especifique o caminho do arquivo de saída",
+    "comment_3": "Recupere o número total de páginas",
+    "comment_4": "Defina opções de divisão para páginas de número par",
+    "comment_5": "Execute a operação de divisão e salve o resultado"
+  }
+}

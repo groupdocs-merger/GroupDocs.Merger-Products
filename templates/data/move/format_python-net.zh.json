@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "在 {{EnvName}} 中重新排列 {{FileFormatUp}} 页面",
+    "description": "使用 {{ProdFullName}} 快速重新排序 {{FileFormatUp}} 文档中的页面。处理 PDF、Word、Excel、PowerPoint 文件、图像等。"
+  },
+  "header": {
+    "title": "重新排列 {{FileFormatUp}} 页面",
+    "description": "{{ProdFullName}} 使 {{EnvNameShort}} 应用程序能够高效修改 {{FileFormatUp}} 文档中的页面顺序。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费试用"
+  },
+  "about": {
+    "title": "关于 {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一个多功能文档处理工具，支持超过 50 种文件格式，包括 PDF、Word、Excel、PowerPoint、图像和归档文件。它提供合并、分割、提取、移动、交换和删除页面的功能。"
+  },
+  "more_features": {
+    "title": "先进的文档处理",
+    "description": "{{ProdFullName}} 提供广泛的功能，帮助您高效处理超过 50 种流行商业文档格式。",
+    "image_description": "{{ProdShortName}} 的关键功能",
+    "feature_1": {
+      "title": "合并不同格式的文档",
+      "content": "将 PDF、Word 文档、演示文稿、电子表格、图像和归档中的内容结合起来。灵活的选项允许精确的文档结构调整。"
+    },
+    "feature_2": {
+      "title": "页面组织",
+      "content": "按需在文档内重新排列页面，包括移动、交换或删除页面。"
+    },
+    "feature_3": {
+      "title": "调整页面方向",
+      "content": "将页面旋转到任意角度，或在纵向和横向模式之间切换。"
+    },
+    "feature_4": {
+      "title": "将页面提取为单独的文档",
+      "content": "选择并提取页面，保存为独立文件。"
+    }
+  },
+  "formats": {
+    "title": "以多种格式重新排列页面",
+    "description": "{{ProdShortName}} 支持超过 50 种文件格式，提供灵活的文档组织解决方案。"
+  },
+  "operations": {
+    "title": "关键功能",
+    "description": "探索我们解决方案的其他强大功能。"
+  },
+  "examples": {
+    "comment_1": "使用源文档路径初始化 {{NameProduct}} 对象",
+    "comment_2": "选择要移动的页面",
+    "comment_3": "重新定位该页面",
+    "comment_4": "保存更新后的文档"
+  },
+  "steps": {
+    "title": "如何重新排列 {{FileFormatUp}} 页面",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 让您能够在 {{FileFormatUp}} 文档中移动页面。通过先进的文档管理功能提升您的 {{EnvName}} 应用程序。",
+      "step_1": "提供 {{FileFormatUp}} 文档的路径。",
+      "step_2": "选择页面编号并指定其新位置。",
+      "step_3": "执行移动操作。",
+      "step_4": "保存修改后的文档。"
+    }
+  },
+  "code_1": {
+    "title": "将页面移动到文档的最后位置",
+    "content": "此示例演示如何将特定页面移动到 {{FileFormatUp}} 文档的末尾。",
+    "comment_1": "设置源文件路径",
+    "comment_2": "获取文档详细信息并确定最后一页页码",
+    "comment_3": "配置目标页面编号的选项",
+    "comment_4": "执行页面移动操作",
+    "comment_5": "保存修改后的文档"
+  }
+}

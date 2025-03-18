@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{EnvName}} アプリで {{FileFormatUp}} ページを削除",
+    "description": "{{ProdFullName}} を使用して {{FileFormatUp}} 文書から特定のページを削除します。PDF、Word、Excel、PowerPoint、画像、アーカイブなどを管理します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}} のページを削除",
+    "description": "{{ProdFullName}} は {{EnvNameShort}} アプリに強力な文書処理機能を追加し、{{FileFormatUp}} ファイルからページを削除することができます。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料で入手"
+  },
+  "about": {
+    "title": "{{ProdShortName}} について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) は、PDF、Word、Excel、PowerPoint、Visio、画像、アーカイブを含む50以上のファイル形式をサポートする高度な文書処理ツールです。文書管理を最適化するために、マージ、分割、抽出、順序変更、スワップ、ページ削除などの機能を提供します。"
+  },
+  "more_features": {
+    "title": "包括的な文書処理",
+    "description": "{{ProdFullName}} は、50以上の一般的なビジネスファイル形式の効率的な取り扱いを可能にする幅広い機能を提供します。",
+    "image_description": "{{ProdShortName}} の主要機能",
+    "feature_1": {
+      "title": "複数のファイルタイプを統合",
+      "content": "PDF、Word文書、プレゼンテーション、スプレッドシート、画像、アーカイブを、正確なマージのための柔軟なオプションで結合します。"
+    },
+    "feature_2": {
+      "title": "文書ページを整理",
+      "content": "ページを移動、スワップ、または削除して効率的に文書を構造化します。"
+    },
+    "feature_3": {
+      "title": "ページレイアウトのカスタマイズ",
+      "content": "必要に応じてページを任意の角度で回転させたり、縦横の向きを切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "ページを独立した文書に抽出",
+      "content": "特定のページを選択して独立したファイルとして保存し、文書の整理を向上させます。"
+    }
+  },
+  "formats": {
+    "title": "さまざまなファイル形式からページを削除",
+    "description": "{{ProdShortName}} は、50以上の文書形式をサポートし、迅速かつ簡単に変更を行います。"
+  },
+  "operations": {
+    "title": "基本機能",
+    "description": "当社のソリューションの追加機能を発見してください。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}} をファイルパスで初期化",
+    "comment_2": "削除対象のページ番号を指定",
+    "comment_3": "削除設定を適用",
+    "comment_4": "更新された文書を保存"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} のページを削除する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) を使用すると、{{FileFormatUp}} ファイルからページを削除できます。{{EnvName}} アプリケーションに文書管理機能を簡単に追加できます。",
+      "step_1": "{{FileFormatUp}} ファイルパスを指定します。",
+      "step_2": "削除するページを選択します。",
+      "step_3": "削除操作を実行します。",
+      "step_4": "修正された文書を保存します。"
+    }
+  },
+  "code_1": {
+    "title": "すべての偶数ページを削除する方法",
+    "content": "{{FileFormatUp}} 文書から偶数番号のページを削除する方法を学びます。",
+    "comment_1": "コンストラクタにファイルパスを提供します",
+    "comment_2": "総ページ数を取得します",
+    "comment_3": "偶数ページを削除するための設定を定義します",
+    "comment_4": "文書を処理します",
+    "comment_5": "最終版を指定された場所に保存します"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} 페이지 방향 변경 {{EnvName}} 앱에서",
+    "description": "{{ProdFullName}}를 사용하여 {{FileFormatUp}} 페이지 방향(세로 또는 가로)을 조정하세요. PDF, Word 문서, Excel 시트, PowerPoint 슬라이드, Visio 파일, 이미지, 아카이브 등을 관리하세요."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 페이지 방향 제어",
+    "description": "{{ProdFullName}}는 {{EnvNameShort}} 앱에 유용한 도구를 제공합니다. 개발자는 인기 있는 파일 형식을 관리하고 {{FileFormatUp}} 페이지 방향을 조정하여 프로젝트를 개선할 수 있습니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 다운로드"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 개요",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 PDF, Word, Excel, PowerPoint, Visio, 이미지 및 아카이브와 같은 50개 이상의 형식으로 문서를 관리하는 도구입니다. 문서를 병합, 분할, 추출, 이동, 교환, 삭제 또는 회전할 수 있으며, 애플리케이션에 강력한 문서 관리를 추가할 수 있습니다."
+  },
+  "more_features": {
+    "title": "유연한 문서 콘텐츠 관리",
+    "description": "{{ProdFullName}}는 50개 이상의 인기 파일 형식에서 콘텐츠를 다룰 수 있는 도구 세트를 제공하여 매끄럽고 효율적인 처리를 보장합니다.",
+    "image_description": "{{ProdShortName}} 기능",
+    "feature_1": {
+      "title": "다양한 파일 형식 병합",
+      "content": "PDF, Word 파일, 슬라이드, 스프레드시트, Visio 다이어그램, 이미지 및 아카이브를 결합할 수 있습니다. 최상의 결과를 위한 프로세스를 사용자 지정하세요."
+    },
+    "feature_2": {
+      "title": "문서 페이지 관리",
+      "content": "페이지를 이동, 교환 또는 삭제하여 콘텐츠를 더 잘 구성하세요."
+    },
+    "feature_3": {
+      "title": "페이지 레이아웃 제어",
+      "content": "설정된 각도로 페이지를 회전시키거나 세로 및 가로 모드 간에 전환하세요."
+    },
+    "feature_4": {
+      "title": "페이지를 별도 파일로 추출",
+      "content": "페이지 또는 페이지 범위를 선택하고 원하는 위치에 새 파일로 저장하세요."
+    }
+  },
+  "formats": {
+    "title": "여러 형식에 대해 페이지 방향 변경",
+    "description": "{{ProdShortName}}는 50개 이상의 파일 형식으로 작업하여 다양한 작업으로 문서를 조정하는 데 용이합니다."
+  },
+  "operations": {
+    "title": "주요 기능",
+    "description": "프로젝트를 향상시킬 수 있는 기능을 확인하세요."
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}에 소스 파일 경로 로드",
+    "comment_2": "방향을 변경할 페이지 선택",
+    "comment_3": "필요에 따라 페이지 방향 설정",
+    "comment_4": "업데이트된 문서 저장"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 페이지 방향 변경 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})를 사용하여 {{FileFormatUp}} 페이지 방향을 조정하세요. 이 기능은 문서 관리를 {{EnvName}} 프로젝트에 확실히 제공합니다.",
+      "step_1": "{{FileFormatUp}} 소스 파일 지정.",
+      "step_2": "조정할 페이지 번호 선택.",
+      "step_3": "페이지 방향 업데이트.",
+      "step_4": "변경 사항 저장."
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}} 문서의 마지막 페이지 방향 변경",
+    "content": "{{FileFormatUp}} 파일에서 페이지 수를 세고 마지막 페이지의 방향을 변경하는 방법을 알아보세요.",
+    "comment_1": "생성자에 소스 파일 로드",
+    "comment_2": "총 페이지 수 얻기",
+    "comment_3": "페이지 번호 설정 및 세로 또는 가로 선택",
+    "comment_4": "새 방향 적용",
+    "comment_5": "업데이트된 파일을 출력 경로에 저장"
+  }
+}

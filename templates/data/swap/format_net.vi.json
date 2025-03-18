@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Hoán đổi các trang trong tệp {{FileFormatUp}} bằng các ứng dụng {{EnvName}}",
+    "description": "Sử dụng {{ProdFullName}} để sắp xếp lại các trang trong tài liệu {{FileFormatUp}}. Chỉnh sửa các tệp PDF, tài liệu Word, bảng tính, bài thuyết trình, sơ đồ Visio, hình ảnh và nhiều hơn nữa."
+  },
+  "header": {
+    "title": "Hoán đổi các trang {{FileFormatUp}}",
+    "description": "{{ProdFullName}} mở rộng các ứng dụng {{EnvNameShort}} với khả năng quản lý tài liệu nâng cao. Sắp xếp lại các trang trong tệp {{FileFormatUp}} để cấu trúc nội dung chính xác như mong muốn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải miễn phí"
+  },
+  "about": {
+    "title": "Khả năng của {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện xử lý tài liệu toàn diện hỗ trợ hơn 50 định dạng tệp, bao gồm PDF, tài liệu Word, bảng tính Excel, bài thuyết trình PowerPoint, sơ đồ Visio, hình ảnh và tệp lưu trữ. Tích hợp nó vào các ứng dụng của bạn để hợp nhất, chia tách, trích xuất, sắp xếp lại, hoán đổi và xóa các trang trong nhiều loại tài liệu khác nhau."
+  },
+  "more_features": {
+    "title": "Xử lý tài liệu nâng cao",
+    "description": "{{ProdFullName}} cung cấp một bộ công cụ hoàn chỉnh cho việc sửa đổi tài liệu liền mạch, hỗ trợ hơn 50 định dạng.",
+    "image_description": "Các chức năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hợp nhất các loại tài liệu khác nhau",
+      "content": "Kết hợp PDF, tệp Word, bảng tính, bài thuyết trình, bản vẽ Visio, hình ảnh và tệp lưu trữ. Tùy chỉnh đầu ra để phù hợp với yêu cầu cụ thể."
+    },
+    "feature_2": {
+      "title": "Cấu trúc lại tài liệu",
+      "content": "Sắp xếp lại nội dung bằng cách di chuyển, hoán đổi hoặc xóa các trang, đảm bảo tài liệu được cấu trúc rõ ràng và dễ dàng điều hướng."
+    },
+    "feature_3": {
+      "title": "Điều chỉnh hướng trang",
+      "content": "Xoay các trang ở bất kỳ góc độ nào hoặc chuyển đổi giữa chế độ chân dung và phong cảnh để trình bày tối ưu."
+    },
+    "feature_4": {
+      "title": "Trích xuất các trang được chọn",
+      "content": "Chọn và trích xuất các trang hoặc dải trang cụ thể để tạo ra một tài liệu mới, tinh chỉnh."
+    }
+  },
+  "formats": {
+    "title": "Sắp xếp lại các trang trong nhiều định dạng tệp",
+    "description": "{{ProdShortName}} hỗ trợ hơn 50 loại tệp, mang đến cho bạn toàn quyền kiểm soát nội dung tài liệu."
+  },
+  "operations": {
+    "title": "Các tính năng chính",
+    "description": "Khám phá các khả năng cốt lõi của thư viện xử lý tài liệu của chúng tôi."
+  },
+  "examples": {
+    "comment_1": "Tải tài liệu vào {{NameProduct}}",
+    "comment_2": "Xác định các trang cần hoán đổi",
+    "comment_3": "Thực hiện thao tác hoán đổi",
+    "comment_4": "Lưu tệp đã chỉnh sửa đến vị trí mong muốn"
+  },
+  "steps": {
+    "title": "Cách sắp xếp lại các trang {{FileFormatUp}}",
+    "content": {
+      "title": "Với [{{ProdShortName}}]({{PlatformLink}}), bạn có thể dễ dàng tổ chức lại các trang trong tài liệu {{FileFormatUp}} để cải thiện khả năng đọc và cấu trúc. Thêm tính năng xử lý tài liệu hiệu quả vào các ứng dụng {{EnvName}} của bạn.",
+      "step_1": "Cung cấp đường dẫn tới tệp {{FileFormatUp}}.",
+      "step_2": "Chọn các trang cần hoán đổi hoặc sắp xếp lại.",
+      "step_3": "Áp dụng phương thức thích hợp để sửa đổi tài liệu.",
+      "step_4": "Lưu tệp đã cập nhật đến vị trí đã chỉ định."
+    }
+  },
+  "code_1": {
+    "title": "Hoán đổi trang đầu và trang cuối trong tệp {{FileFormatUp}}",
+    "content": "Ví dụ này trình bày cách hoán đổi các trang trong tệp {{FileFormatUp}} qua vài bước đơn giản.",
+    "comment_1": "Tải tài liệu nguồn",
+    "comment_2": "Xác định tổng số trang",
+    "comment_3": "Xác định cài đặt hoán đổi với số trang",
+    "comment_4": "Thực hiện thao tác hoán đổi",
+    "comment_5": "Lưu tài liệu đã cập nhật"
+  }
+}

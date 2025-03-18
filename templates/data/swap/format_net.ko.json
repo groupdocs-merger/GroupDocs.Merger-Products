@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} 파일에서 페이지 교환하기 - {{EnvName}} 앱 사용",
+    "description": "{{ProdFullName}}을(를) 사용하여 {{FileFormatUp}} 문서의 페이지 순서를 재조정하세요. PDF, Word 파일, 스프레드시트, 프레젠테이션, Visio 다이어그램, 이미지 등 다양한 파일을 수정할 수 있습니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 페이지 교환",
+    "description": "{{ProdFullName}}은(는) {{EnvNameShort}} 애플리케이션에 고급 문서 관리 기능을 추가합니다. {{FileFormatUp}} 파일에서 페이지를 재배열하여 콘텐츠를 필요에 맞게 구조화하세요.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료로 다운로드"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 기능",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})은(는) PDF, Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, Visio 다이어그램, 이미지 및 아카이브를 포함하여 50개 이상의 파일 형식을 지원하는 종합 문서 처리 라이브러리입니다. 다양한 문서 유형에서 페이지를 병합, 분할, 추출, 재정렬, 교환 및 삭제할 수 있도록 애플리케이션에 통합하세요."
+  },
+  "more_features": {
+    "title": "고급 문서 처리",
+    "description": "{{ProdFullName}}은(는) 50개 이상의 형식을 지원하는 문서 수정 도구를 제공합니다.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "다양한 문서 유형 병합",
+      "content": "PDF, Word 파일, 스프레드시트, 프레젠테이션, Visio 도면, 이미지 및 아카이브 파일을 결합하세요. 특정 요구 사항에 맞게 출력물을 조정할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "문서 구조 조직",
+      "content": "페이지를 이동, 교환 또는 삭제하여 내용을 재배열하고 문서가 잘 정리되고 탐색하기 쉽게 하세요."
+    },
+    "feature_3": {
+      "title": "페이지 방향 설정",
+      "content": "페이지를 원하는 각도로 회전하거나 최적의 프레젠테이션을 위해 세로 및 가로 모드 간에 전환하세요."
+    },
+    "feature_4": {
+      "title": "선택한 페이지 추출",
+      "content": "특정 페이지 또는 페이지 범위를 선택하여 새로운 정제된 문서를 만드세요."
+    }
+  },
+  "formats": {
+    "title": "다양한 파일 형식에서 페이지 재배열",
+    "description": "{{ProdShortName}}은(는) 50개 이상의 파일 형식을 지원하며, 문서 콘텐츠에 대한 완전한 제어를 제공합니다."
+  },
+  "operations": {
+    "title": "주요 기능",
+    "description": "문서 처리 라이브러리의 핵심 기능을 탐색하세요."
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}에 문서를 로드하세요",
+    "comment_2": "교환할 페이지를 지정하세요",
+    "comment_3": "교환 작업을 실행하세요",
+    "comment_4": "수정된 파일을 원하는 위치에 저장하세요"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 페이지 재배열 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})을(를) 사용하면 {{FileFormatUp}} 문서에서 페이지를 재구성하여 가독성과 구조를 향상시킬 수 있습니다. {{EnvName}} 애플리케이션에 효율적인 문서 처리를 추가하세요.",
+      "step_1": "{{FileFormatUp}} 파일 경로를 제공합니다.",
+      "step_2": "교환하거나 재정렬할 페이지를 선택합니다.",
+      "step_3": "문서를 수정하기 위해 적절한 메서드를 적용합니다.",
+      "step_4": "업데이트된 파일을 지정된 위치에 저장합니다."
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}} 파일의 첫 번째와 마지막 페이지를 교환하기",
+    "content": "이 예는 {{FileFormatUp}} 파일에서 페이지를 교환하는 방법을 몇 가지 간단한 단계로 보여줍니다.",
+    "comment_1": "원본 문서를 로드합니다",
+    "comment_2": "전체 페이지 수를 확인합니다",
+    "comment_3": "페이지 번호로 교환 설정을 정의합니다",
+    "comment_4": "교환 작업을 실행합니다",
+    "comment_5": "업데이트된 문서를 저장합니다"
+  }
+}

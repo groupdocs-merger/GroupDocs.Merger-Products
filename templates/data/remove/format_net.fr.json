@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Supprimer des pages {{FileFormatUp}} dans des applications {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour supprimer des pages spécifiques des documents {{FileFormatUp}}. Gérez efficacement des PDF, Word, Excel, PowerPoint, images, archives, et plus."
+  },
+  "header": {
+    "title": "Supprimer des pages dans {{FileFormatUp}}",
+    "description": "{{ProdFullName}} améliore les applications {{EnvNameShort}} avec des capacités avancées de traitement de documents, y compris la suppression de pages dans des fichiers {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenez-le gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil avancé de traitement de documents prenant en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, Visio, images, et archives. Il offre une gamme de fonctionnalités telles que la fusion, la division, l'extraction, le réarrangement, l'échange et la suppression de pages pour optimiser la gestion documentaire."
+  },
+  "more_features": {
+    "title": "Traitement de documents complet",
+    "description": "{{ProdFullName}} offre un large éventail de fonctionnalités, permettant une gestion efficace de plus de 50 formats de fichiers commerciaux couramment utilisés.",
+    "image_description": "Capacités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner plusieurs types de fichiers",
+      "content": "Combinez des PDF, des documents Word, des présentations, des tableurs, des images et des archives avec des options flexibles pour une fusion précise."
+    },
+    "feature_2": {
+      "title": "Organiser les pages de documents",
+      "content": "Réorganisez les pages en les déplaçant, en les échangeant ou en les supprimant pour structurer les documents efficacement."
+    },
+    "feature_3": {
+      "title": "Personnaliser la mise en page des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle ou passez entre les orientations portrait et paysage selon vos besoins."
+    },
+    "feature_4": {
+      "title": "Extraire des pages dans des documents distincts",
+      "content": "Sélectionnez et enregistrez des pages spécifiques comme fichiers indépendants pour une meilleure organisation des documents."
+    }
+  },
+  "formats": {
+    "title": "Supprimer des pages de divers formats de fichiers",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de documents, permettant des modifications rapides et efficaces."
+  },
+  "operations": {
+    "title": "Fonctionnalités principales",
+    "description": "Découvrez d'autres capacités de notre solution."
+  },
+  "examples": {
+    "comment_1": "Initialisez {{NameProduct}} avec le chemin du fichier",
+    "comment_2": "Spécifiez le(s) numéro(s) de page à supprimer",
+    "comment_3": "Appliquez les paramètres de suppression",
+    "comment_4": "Enregistrez le document mis à jour"
+  },
+  "steps": {
+    "title": "Comment supprimer des pages de {{FileFormatUp}}",
+    "content": {
+      "title": "Avec [{{ProdShortName}}]({{PlatformLink}}), vous pouvez supprimer des pages de fichiers {{FileFormatUp}}. Ajoutez des fonctionnalités de gestion de documents à vos applications {{EnvName}} sans effort.",
+      "step_1": "Spécifiez le chemin du fichier {{FileFormatUp}}.",
+      "step_2": "Choisissez les pages à supprimer.",
+      "step_3": "Effectuez l'opération de suppression.",
+      "step_4": "Enregistrez le document modifié."
+    }
+  },
+  "code_1": {
+    "title": "Comment supprimer toutes les pages paires",
+    "content": "Apprenez à supprimer les pages à numéros pairs d'un document {{FileFormatUp}}.",
+    "comment_1": "Fournissez le chemin du fichier au constructeur",
+    "comment_2": "Obtenez le nombre total de pages",
+    "comment_3": "Définissez les paramètres pour supprimer les pages paires",
+    "comment_4": "Traitez le document",
+    "comment_5": "Enregistrez la version finale à l'emplacement spécifié"
+  }
+}

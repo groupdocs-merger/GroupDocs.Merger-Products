@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Seiten in {{FileFormatUp}}-Dateien in {{EnvName}}-Apps drehen",
+    "description": "Verwenden Sie {{ProdFullName}}, um Seiten in {{FileFormatUp}}-Dokumenten zu drehen. Modifizieren Sie PDFs, Word-Dateien, Excel-Tabellen, PowerPoint-Präsentationen, Bilder und Archive."
+  },
+  "header": {
+    "title": "Seiten in {{FileFormatUp}}-Dateien drehen",
+    "description": "Optimieren Sie Ihre {{EnvNameShort}}-Anwendungen mit {{ProdFullName}}, einer leistungsstarken Lösung zur Dokumentenverarbeitung. Drehen Sie Seiten in {{FileFormatUp}} und verwalten Sie verschiedene Dateiformate mühelos.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenloser Download"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine fortschrittliche Bibliothek zur Dokumentenverarbeitung, die über 50 Dateiformate unterstützt, darunter PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive. Es bietet Funktionen wie Zusammenführen, Aufteilen, Extrahieren, Neuordnen und Löschen von Seiten, um das Dokumentenmanagement in Ihren Anwendungen zu optimieren."
+  },
+  "more_features": {
+    "title": "Umfassendes Dokumentenmanagement",
+    "description": "{{ProdFullName}} bietet eine breite Palette von Funktionen und ermöglicht die Bearbeitung von über 50 gängigen Geschäftsdokumentformaten.",
+    "image_description": "Hauptfähigkeiten von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mehrere Dateiformate zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, Tabellenkalkulationen, Präsentationen, Visio-Diagramme, Bilder und Archive. Verwenden Sie erweiterte Optionen für präzise Kontrolle über den Zusammenführungsprozess."
+    },
+    "feature_2": {
+      "title": "Seiten im Dokument neu anordnen",
+      "content": "Verschieben, tauschen oder entfernen Sie Seiten, um Ihre Dateien besser zu organisieren."
+    },
+    "feature_3": {
+      "title": "Seitenlayout anpassen",
+      "content": "Drehen Sie Seiten in jeden gewünschten Winkel oder wechseln Sie zwischen Hoch- und Querformat für eine bessere Lesbarkeit."
+    },
+    "feature_4": {
+      "title": "Seiten als separate Dateien extrahieren",
+      "content": "Wählen Sie spezifische Seiten oder einen Seitenbereich und speichern Sie diese als neues Dokument an einem gewünschten Speicherort."
+    }
+  },
+  "formats": {
+    "title": "Seiten in mehreren Formaten drehen",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateitypen, sodass Sie Dokumente schnell mit einer Vielzahl integrierter Operationen modifizieren können."
+  },
+  "operations": {
+    "title": "Kernfunktionen",
+    "description": "Entdecken Sie die leistungsstarken Funktionen, die in unserer Bibliothek zur Dokumentenverarbeitung verfügbar sind."
+  },
+  "examples": {
+    "comment_1": "Initialisieren Sie {{NameProduct}} und laden Sie das Quell-Dokument",
+    "comment_2": "Geben Sie die Seitenzahl für die Drehung an",
+    "comment_3": "Führen Sie den Drehvorgang aus",
+    "comment_4": "Speichern Sie das aktualisierte Dokument an dem gewünschten Speicherort"
+  },
+  "steps": {
+    "title": "So drehen Sie {{FileFormatUp}}-Seiten",
+    "content": {
+      "title": "Mit [{{ProdShortName}}]({{PlatformLink}}) können Sie Seiten in {{FileFormatUp}}-Dokumenten drehen, was ein leistungsstarkes Dokumentenmanagement für {{EnvName}}-Anwendungen ermöglicht.",
+      "step_1": "Geben Sie den Pfad zur {{FileFormatUp}}-Datei an.",
+      "step_2": "Wählen Sie die Seitenzahl, die Sie drehen möchten.",
+      "step_3": "Wenden Sie die Dreh-Operation an.",
+      "step_4": "Speichern Sie das modifizierte Dokument an Ihrem gewünschten Speicherort."
+    }
+  },
+  "code_1": {
+    "title": "Drehen Sie alle geraden {{FileFormatUp}}-Seiten",
+    "content": "Dieses Beispiel zeigt, wie Sie jede gerade Seite in einem {{FileFormatUp}}-Dokument drehen.",
+    "comment_1": "Laden Sie das Quell-Dokument in den Konstruktor",
+    "comment_2": "Ermitteln Sie die Gesamtanzahl der Seiten",
+    "comment_3": "Konfigurieren Sie die Einstellungen, um gerade Seiten um 180 Grad zu drehen",
+    "comment_4": "Führen Sie die Dreh-Operation aus",
+    "comment_5": "Speichern Sie die modifizierte Datei"
+  }
+}

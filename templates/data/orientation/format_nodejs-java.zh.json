@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "在{{EnvName}}应用中设置{{FileFormatUp}}页面方向",
+    "description": "{{ProdFullName}}允许您在纵向和横向之间切换{{FileFormatUp}}页面。精准管理PDF、Word文档、Excel文件、PowerPoint幻灯片、Visio图表、图像、压缩包等。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}文件的页面方向",
+    "description": "{{ProdFullName}}为{{EnvNameShort}}应用增加了智能功能。开发者可以通过处理流行格式和设置{{FileFormatUp}}页面方向来提升工具的性能。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "立即下载"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 概述",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 处理50多种格式的文档管理，如PDF、Word、Excel、PowerPoint、Visio、图像和压缩包。合并、拆分、提取、重新排序、互换、删除或调整页面布局。"
+  },
+  "more_features": {
+    "title": "动态文档控制",
+    "description": "{{ProdFullName}} 提供了一套强大的工具，能够快速且可靠地管理50多种文件格式的内容。",
+    "image_description": "{{ProdShortName}} 工具",
+    "feature_1": {
+      "title": "合并不同的文件格式",
+      "content": "将PDF、Word文件、演示文稿、电子表格、Visio图表、图像和压缩包连接起来。调整设置以获得完美的契合。"
+    },
+    "feature_2": {
+      "title": "重新排列文档页面",
+      "content": "移动、互换或删除页面，以塑造您的文档流。"
+    },
+    "feature_3": {
+      "title": "调整页面方向",
+      "content": "旋转页面或在纵向和横向视图之间切换。"
+    },
+    "feature_4": {
+      "title": "将页面另存为新文件",
+      "content": "选择页面并将其导出为独立文件保存到任何位置。"
+    }
+  },
+  "formats": {
+    "title": "为多种格式调整方向",
+    "description": "{{ProdShortName}} 支持超过50种文件类型，让您以广泛的选项精细化文档。"
+  },
+  "operations": {
+    "title": "主要功能",
+    "description": "发现能够增强您解决方案的工具。"
+  },
+  "examples": {
+    "comment_1": "将文件加载到{{NameProduct}}中",
+    "comment_2": "选择要调整的页面",
+    "comment_3": "选择您想要的方向",
+    "comment_4": "保存更改"
+  },
+  "steps": {
+    "title": "如何设置{{FileFormatUp}}页面方向",
+    "content": {
+      "title": "使用[{{ProdShortName}}]({{PlatformLink}})来修改{{FileFormatUp}}页面布局。这个工具和其他工具为{{EnvName}}应用提供强大的文档处理功能。",
+      "step_1": "提供{{FileFormatUp}}文件的路径。",
+      "step_2": "选择要操作的页面。",
+      "step_3": "切换页面方向。",
+      "step_4": "保存输出。"
+    }
+  },
+  "code_1": {
+    "title": "翻转{{FileFormatUp}}文件中的最后一页",
+    "content": "了解如何计算{{FileFormatUp}}文档中的页面数并调整最后一页的布局。",
+    "comment_1": "在构造函数中打开文件",
+    "comment_2": "获取页面总数",
+    "comment_3": "选择页面并设置为纵向或横向",
+    "comment_4": "更新方向",
+    "comment_5": "将文件保存到新路径"
+  }
+}

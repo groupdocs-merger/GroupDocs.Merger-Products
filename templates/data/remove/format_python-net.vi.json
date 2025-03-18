@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Xóa các trang khỏi {{FileFormatUp}} trong ứng dụng {{EnvName}}",
+    "description": "Xóa các trang cụ thể từ các tệp {{FileFormatUp}} bằng cách sử dụng {{ProdFullName}}. Xử lý PDF, Word, Excel, PowerPoint, hình ảnh, lưu trữ, và nhiều hơn nữa."
+  },
+  "header": {
+    "title": "Xóa các trang khỏi {{FileFormatUp}}",
+    "description": "{{ProdFullName}} mang đến khả năng xóa trang mạnh mẽ cho ứng dụng {{EnvNameShort}} của bạn, giúp quản lý tài liệu hiệu quả hơn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dùng thử miễn phí"
+  },
+  "about": {
+    "title": "{{ProdShortName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một công cụ xử lý tài liệu mạnh mẽ hỗ trợ hơn 50 định dạng tệp khác nhau, bao gồm PDF, Word, Excel, PowerPoint, Visio, hình ảnh, và lưu trữ. Nó cho phép bạn ghép, tách, trích xuất, di chuyển, hoán đổi và xóa các trang, cải thiện cách bạn xử lý tài liệu trong ứng dụng của mình."
+  },
+  "more_features": {
+    "title": "Quản lý tài liệu nâng cao",
+    "description": "{{ProdFullName}} đơn giản hóa việc làm việc với tài liệu bằng cách cung cấp đầy đủ các công cụ cho hơn 50 định dạng tệp phổ biến.",
+    "image_description": "Các tính năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ghép các loại tệp khác nhau",
+      "content": "Kết hợp PDF, tệp Word, bài thuyết trình, bảng tính, hình ảnh và lưu trữ với tùy chọn ghép chính xác."
+    },
+    "feature_2": {
+      "title": "Quản lý trang một cách đơn giản",
+      "content": "Di chuyển, hoán đổi, hoặc xóa các trang để tổ chức tài liệu của bạn đúng theo nhu cầu."
+    },
+    "feature_3": {
+      "title": "Điều chỉnh hướng trang",
+      "content": "Xoay các trang ở bất kỳ góc độ nào hoặc chuyển đổi giữa chế độ chân dung và phong cảnh."
+    },
+    "feature_4": {
+      "title": "Trích xuất các trang thành tệp mới",
+      "content": "Chọn các trang cụ thể và lưu chúng dưới dạng tài liệu mới."
+    }
+  },
+  "formats": {
+    "title": "Xóa trang từ nhiều loại tài liệu",
+    "description": "{{ProdShortName}} hỗ trợ hơn 50 định dạng tệp, giúp việc chỉnh sửa tài liệu nhanh chóng và liền mạch."
+  },
+  "operations": {
+    "title": "Các tính năng chính",
+    "description": "Khám phá các công cụ bổ sung có sẵn trong giải pháp xử lý tài liệu của chúng tôi."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo một phiên bản {{NameProduct}} với đường dẫn tệp",
+    "comment_2": "Xác định các trang muốn xóa",
+    "comment_3": "Áp dụng các tùy chọn xóa trang",
+    "comment_4": "Lưu tài liệu đã cập nhật"
+  },
+  "steps": {
+    "title": "Các bước để xóa trang khỏi {{FileFormatUp}}",
+    "content": {
+      "title": "Với [{{ProdShortName}}]({{PlatformLink}}), bạn có thể nhanh chóng xóa các trang từ tài liệu {{FileFormatUp}}. Tích hợp nó vào các ứng dụng {{EnvName}} của bạn để cải thiện quản lý tài liệu.",
+      "step_1": "Cung cấp đường dẫn tệp của tài liệu {{FileFormatUp}}.",
+      "step_2": "Chọn các trang bạn muốn xóa.",
+      "step_3": "Chạy thao tác xóa.",
+      "step_4": "Lưu tài liệu đã cập nhật."
+    }
+  },
+  "code_1": {
+    "title": "Xóa tất cả các trang chẵn",
+    "content": "Tìm hiểu cách xóa các trang chẵn từ tệp {{FileFormatUp}}.",
+    "comment_1": "Tải tệp bằng cách chỉ định đường dẫn",
+    "comment_2": "Lấy tổng số trang",
+    "comment_3": "Thiết lập tùy chọn để xóa các trang chẵn",
+    "comment_4": "Xử lý tài liệu",
+    "comment_5": "Lưu tài liệu đã chỉnh sửa vào vị trí đã chọn"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{EnvName}} 애플리케이션에서 {{FileFormatUp}} 페이지 삭제",
+    "description": "{{ProdFullName}}을(를) 사용하여 {{FileFormatUp}} 문서에서 특정 페이지를 제거하세요. PDF, Word, Excel, PowerPoint, 이미지, 아카이브 등 다양한 형식을 처리합니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}에서 페이지 삭제",
+    "description": "{{ProdFullName}}은(는) {{EnvNameShort}} 애플리케이션에 강력한 문서 처리 기능을 추가하여 {{FileFormatUp}} 파일의 페이지 제거를 지원합니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료로 받기"
+  },
+  "about": {
+    "title": "{{ProdShortName}}에 대해",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})은(는) PDF, Word, Excel, PowerPoint, Visio, 이미지, 아카이브 등 50개 이상의 파일 형식을 지원하는 강력한 문서 처리 도구입니다. 문서 병합, 분할, 추출, 이동, 교환, 페이지 제거 등의 기능을 제공하여 애플리케이션을 향상시킵니다."
+  },
+  "more_features": {
+    "title": "고급 문서 처리",
+    "description": "{{ProdFullName}}은(는) 50개 이상의 비즈니스 파일 형식을 효율적으로 작업할 수 있는 종합적인 기능 세트를 제공합니다.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "다양한 형식의 파일 병합",
+      "content": "정확한 결과를 위해 유연한 병합 옵션으로 PDF, Word 문서, 프레젠테이션, 스프레드시트, 이미지 및 아카이브를 결합하세요."
+    },
+    "feature_2": {
+      "title": "페이지 관리",
+      "content": "문서 페이지를 이동, 교환 또는 삭제하여 콘텐츠를 효과적으로 조직하세요."
+    },
+    "feature_3": {
+      "title": "페이지 레이아웃 수정",
+      "content": "페이지를 원하는 각도로 회전하거나 가로 및 세로 방향으로 전환하세요."
+    },
+    "feature_4": {
+      "title": "페이지를 별도의 파일로 추출",
+      "content": "특정 페이지를 선택하고 독립적인 문서로 저장하세요."
+    }
+  },
+  "formats": {
+    "title": "여러 문서 형식에서 페이지 삭제",
+    "description": "{{ProdShortName}}은(는) 50개 이상의 파일 형식을 지원하여 빠르고 편리한 문서 수정을 가능하게 합니다."
+  },
+  "operations": {
+    "title": "주요 기능",
+    "description": "우리의 솔루션에서 추가적인 강력한 기능을 탐색하세요."
+  },
+  "examples": {
+    "comment_1": "파일 경로로 {{NameProduct}} 인스턴스 생성",
+    "comment_2": "삭제할 페이지 번호 지정",
+    "comment_3": "페이지 제거 옵션 적용",
+    "comment_4": "수정된 문서 저장"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}에서 페이지를 삭제하는 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})을(를) 통해 {{FileFormatUp}} 문서에서 페이지를 제거할 수 있습니다. 고급 문서 관리 기능으로 {{EnvName}} 애플리케이션을 개선하세요.",
+      "step_1": "{{FileFormatUp}} 파일 경로를 지정하세요.",
+      "step_2": "삭제할 페이지를 정의하세요.",
+      "step_3": "페이지 제거 작업을 실행하세요.",
+      "step_4": "수정된 파일을 저장하세요."
+    }
+  },
+  "code_1": {
+    "title": "모든 짝수 페이지 삭제 방법",
+    "content": "{{FileFormatUp}} 문서에서 짝수 번호 페이지를 제거하는 방법을 알아보세요.",
+    "comment_1": "생성자에 파일 경로 제공",
+    "comment_2": "총 페이지 수를 가져옵니다.",
+    "comment_3": "짝수 페이지를 삭제하기 위한 옵션 정의",
+    "comment_4": "문서 처리",
+    "comment_5": "수정된 파일을 원하는 위치에 저장"
+  }
+}

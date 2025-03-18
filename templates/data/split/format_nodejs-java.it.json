@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Dividi i documenti {{FileFormatUp}} nelle app {{EnvName}}",
+    "description": "Con {{ProdFullName}}, suddividi facilmente i file {{FileFormatUp}} in documenti separati. Lavora con PDF, file Word, fogli Excel, presentazioni PowerPoint, diagrammi Visio, immagini, archivi e altro."
+  },
+  "header": {
+    "title": "Dividi file {{FileFormatUp}}",
+    "description": "{{ProdFullName}} aggiunge potenti funzionalità di manipolazione dei documenti alle app {{EnvNameShort}}. Dividi senza soluzione di continuità i file {{FileFormatUp}} e gestisci una varietà di formati ampiamente utilizzati.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Panoramica di {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una robusta libreria di gestione documentale che supporta oltre 50 formati, inclusi PDF, Word, Excel, PowerPoint, Visio, immagini e archivi. Consente la fusione, la divisione, l'estrazione di pagine, la riorganizzazione, lo scambio e la cancellazione dei file, semplificando la gestione dei documenti all'interno delle tue applicazioni."
+  },
+  "more_features": {
+    "title": "Gestione documentale completa",
+    "description": "{{ProdFullName}} fornisce un toolkit esteso per modificare oltre 50 formati di documenti ampiamente usati.",
+    "image_description": "Principali capacità di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci diversi tipi di file",
+      "content": "Combina PDF, documenti Word, fogli di lavoro, presentazioni, diagrammi Visio, immagini e archivi compressi. Regola le impostazioni di fusione in base alle tue esigenze."
+    },
+    "feature_2": {
+      "title": "Personalizza la struttura del documento",
+      "content": "Modifica il layout del documento riordinando, scambiando o rimuovendo pagine secondo necessità."
+    },
+    "feature_3": {
+      "title": "Modifica l'orientamento delle pagine",
+      "content": "Ruota le pagine a qualsiasi angolo o cambia tra formati ritratto e paesaggio."
+    },
+    "feature_4": {
+      "title": "Estrai pagine specifiche",
+      "content": "Seleziona una o più pagine e salvale come documento separato nella posizione desiderata."
+    }
+  },
+  "formats": {
+    "title": "Dividi più formati di file",
+    "description": "{{ProdShortName}} supporta oltre 50 tipi di documenti, permettendo modifiche rapide e flessibili."
+  },
+  "operations": {
+    "title": "Funzionalità principali",
+    "description": "Scopri le funzionalità avanzate della nostra libreria di elaborazione documentale."
+  },
+  "examples": {
+    "comment_1": "Carica il file originale in {{NameProduct}}",
+    "comment_2": "Imposta il percorso di destinazione per il file di output",
+    "comment_3": "Definisci le impostazioni di divisione",
+    "comment_4": "Esegui la divisione del documento"
+  },
+  "steps": {
+    "title": "Passaggi per dividere i file {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) consente di dividere i documenti {{FileFormatUp}}, estraendo le pagine selezionate in un nuovo file. Integra una gestione documentale efficiente nelle tue applicazioni {{EnvName}}.",
+      "step_1": "Fornisci il percorso del file del documento {{FileFormatUp}} originale.",
+      "step_2": "Imposta la posizione in cui sarà salvato il documento diviso.",
+      "step_3": "Definisci le impostazioni per controllare l'operazione di divisione.",
+      "step_4": "Elabora il file e salva i risultati."
+    }
+  },
+  "code_1": {
+    "title": "Estrai pagine con numero pari dal documento {{FileFormatUp}}",
+    "content": "Questo esempio dimostra come dividere un documento {{FileFormatUp}} e salvare solo le pagine con numero pari come un nuovo file.",
+    "comment_1": "Apri il documento sorgente",
+    "comment_2": "Specifica la posizione del file di output",
+    "comment_3": "Ottieni il numero totale di pagine",
+    "comment_4": "Configura l'operazione di divisione per le pagine pari",
+    "comment_5": "Esegui la divisione e salva il nuovo file"
+  }
+}

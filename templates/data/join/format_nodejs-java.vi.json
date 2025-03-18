@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Ghép các tệp {{FileFormatUp}} trong {{ProgLang}}",
+    "description": "Tích hợp việc ghép tệp {{FileFormatUp}} vào các dự án {{EnvNameShort}} của bạn với {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Ghép các tệp {{FileFormatUp}}",
+    "description": "{{ProdFullName}} cho phép bạn ghép các tài liệu {{FileFormatUp}} một cách liền mạch trong các ứng dụng {{EnvNameShort}} của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một công cụ toàn diện cho quản lý tài liệu. Nó hỗ trợ hơn 50 định dạng, bao gồm PDF, Word, Excel, PowerPoint, hình ảnh và lưu trữ, cho phép bạn ghép, tách, trích xuất, hoán đổi và xóa các trang một cách chính xác."
+  },
+  "more_features": {
+    "title": "Ghép tài liệu nâng cao",
+    "description": "{{ProdFullName}} được thiết kế để làm việc với hơn 50 định dạng tệp phổ biến, cung cấp khả năng xử lý tài liệu mạnh mẽ.",
+    "image_description": "Các khả năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ghép các loại tài liệu khác nhau",
+      "content": "Ghép các tài liệu PDF, tài liệu Word, bài thuyết trình, bảng tính, hình ảnh và nhiều hơn nữa một cách hiệu quả. Tùy chỉnh các trang cần bao gồm theo nhu cầu."
+    },
+    "feature_2": {
+      "title": "Chỉnh sửa trang tài liệu",
+      "content": "Sắp xếp lại, xóa hoặc hoán đổi các trang để cấu trúc tốt hơn cho tài liệu kinh doanh của bạn."
+    },
+    "feature_3": {
+      "title": "Điều chỉnh cài đặt trang",
+      "content": "Xoay các trang ở bất kỳ góc độ nào và thay đổi hướng của chúng giữa chế độ chân dung và phong cảnh cho các định dạng tệp được hỗ trợ."
+    },
+    "feature_4": {
+      "title": "Trích xuất các trang tài liệu",
+      "content": "Chọn và trích xuất các trang cụ thể, lưu chúng dưới dạng tài liệu độc lập mới."
+    }
+  },
+  "formats": {
+    "title": "Ghép nhiều định dạng tệp",
+    "description": "{{ProdShortName}} hỗ trợ hơn 50 loại tệp, đảm bảo xử lý tài liệu liền mạch cho nhiều nhu cầu kinh doanh khác nhau."
+  },
+  "operations": {
+    "title": "Chức năng chính",
+    "description": "Khám phá các tính năng và thao tác bổ sung được hỗ trợ bởi {{ProdShortName}}."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo {{NameProduct}} với tệp {{FileFormatUp}} đầu vào",
+    "comment_2": "Ghép tệp với một tài liệu khác",
+    "comment_3": "Lưu tài liệu đã ghép vào vị trí xác định"
+  },
+  "steps": {
+    "title": "Cách ghép các tài liệu {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cung cấp việc ghép liền mạch cho các tài liệu {{FileFormatUp}}. Nâng cao ứng dụng {{EnvName}} của bạn bằng cách kết hợp nhiều tệp thành một.",
+      "step_1": "Đặt đường dẫn đến tài liệu {{FileFormatUp}} đầu tiên.",
+      "step_2": "Chọn tài liệu thứ hai.",
+      "step_3": "Định nghĩa các tham số tùy chọn.",
+      "step_4": "Ghép các tệp và lưu tài liệu đầu ra."
+    }
+  },
+  "code_1": {
+    "title": "Ghép các trang được chọn từ các định dạng tệp khác nhau",
+    "content": "Ví dụ này cho thấy cách ghép các tệp {{FileFormatUp}} trong khi chọn các trang cụ thể từ các loại tài liệu khác.",
+    "comment_1": "Xác định đường dẫn tài liệu chính",
+    "comment_2": "Đặt các tùy chọn để bao gồm các trang đã chọn",
+    "comment_3": "Ghép tệp chính với các trang từ một tài liệu khác",
+    "comment_4": "Lưu tài liệu đã ghép cuối cùng vào vị trí mong muốn"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Ajuster les pages {{FileFormatUp}} dans les applications {{EnvName}}",
+    "description": "{{ProdFullName}} vous aide à changer l'orientation des pages {{FileFormatUp}} en portrait ou en paysage. Traitez des PDF, des fichiers Word, des feuilles Excel, des diapositives PowerPoint, des designs Visio, des images, des archives, et plus encore avec contrôle."
+  },
+  "header": {
+    "title": "Alignement des pages pour {{FileFormatUp}}",
+    "description": "{{ProdFullName}} améliore les applications {{EnvNameShort}} avec des fonctionnalités utiles. Les développeurs peuvent créer de meilleures solutions en gérant les formats de fichiers et en modifiant les mises en page des pages {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Essayez-le gratuitement"
+  },
+  "about": {
+    "title": "Aperçu de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est conçu pour gérer des documents dans plus de 50 formats, tels que PDF, Word, Excel, PowerPoint, Visio, images et archives. Fusionnez, divisez, extrayez, modifiez, échangez, supprimez ou ajustez les mises en page des pages selon vos besoins."
+  },
+  "more_features": {
+    "title": "Gestion de documents adaptable",
+    "description": "{{ProdFullName}} propose une large gamme d'outils pour gérer le contenu dans plus de 50 formats de fichiers, offrant des résultats rapides et fluides.",
+    "image_description": "Options de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combiner divers formats",
+      "content": "Fusionnez des PDFs, des documents Word, des diapositives, des feuilles de calcul, des fichiers Visio, des images et des archives. Personnalisez-le pour obtenir le meilleur rendu."
+    },
+    "feature_2": {
+      "title": "Trier les pages de documents",
+      "content": "Déplacez, échangez ou supprimez des pages pour améliorer la structure de votre document."
+    },
+    "feature_3": {
+      "title": "Définir l'alignement des pages",
+      "content": "Inclinez les pages ou passez d'un mode portrait à un mode paysage."
+    },
+    "feature_4": {
+      "title": "Exporter les pages séparément",
+      "content": "Prenez une page ou un groupe de pages et enregistrez-les comme un nouveau fichier n'importe où."
+    }
+  },
+  "formats": {
+    "title": "Ajuster les pages dans de nombreux formats",
+    "description": "{{ProdShortName}} fonctionne avec plus de 50 types de fichiers, vous offrant des moyens flexibles d'ajuster vos documents."
+  },
+  "operations": {
+    "title": "Fonctionnalités principales",
+    "description": "Découvrez les outils qui peuvent améliorer vos projets."
+  },
+  "examples": {
+    "comment_1": "Alimentez le chemin du fichier dans {{NameProduct}}",
+    "comment_2": "Ciblez la page à ajuster",
+    "comment_3": "Appliquez la nouvelle orientation",
+    "comment_4": "Enregistrez le document final"
+  },
+  "steps": {
+    "title": "Comment ajuster les pages {{FileFormatUp}}",
+    "content": {
+      "title": "Avec [{{ProdShortName}}]({{PlatformLink}}), déplacez les pages {{FileFormatUp}}. Cette fonctionnalité, ainsi que d'autres, ajoute des outils de document fiables aux applications {{EnvName}}.",
+      "step_1": "Chargez le fichier {{FileFormatUp}}.",
+      "step_2": "Sélectionnez la page à modifier.",
+      "step_3": "Changez son orientation.",
+      "step_4": "Enregistrez le résultat."
+    }
+  },
+  "code_1": {
+    "title": "Déplacer la dernière page {{FileFormatUp}}",
+    "content": "Apprenez à vérifier le nombre de pages dans un fichier {{FileFormatUp}} et à ajuster sa dernière page.",
+    "comment_1": "Chargez le fichier dans le constructeur",
+    "comment_2": "Comptez le nombre total de pages",
+    "comment_3": "Sélectionnez la page et définissez le mode portrait ou paysage",
+    "comment_4": "Mettez à jour la mise en page de la page",
+    "comment_5": "Enregistrez à l'emplacement de votre choix"
+  }
+}

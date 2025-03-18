@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Dividi i documenti {{FileFormatUp}} nelle app {{EnvName}}",
+    "description": "Utilizza {{ProdFullName}} per separare i file {{FileFormatUp}} in più documenti. Gestisci con precisione PDF, file Word, fogli di calcolo, presentazioni, diagrammi Visio, immagini, archivi e altro."
+  },
+  "header": {
+    "title": "Dividi i file {{FileFormatUp}} in parti",
+    "description": "{{ProdFullName}} potenzia le applicazioni {{EnvNameShort}} con un avanzato elaborazione dei documenti. Suddividi i file {{FileFormatUp}} senza difficoltà e lavora con una varietà di formati comunemente utilizzati.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Prova Gratuita"
+  },
+  "about": {
+    "title": "Che cos'è {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una libreria di elaborazione documentale ricca di funzionalità che supporta oltre 50 tipi di file, tra cui PDF, Word, Excel, PowerPoint, Visio, immagini e archivi. Consente agli sviluppatori di unire, dividere, estrarre, riordinare, scambiare e rimuovere pagine, semplificando le operazioni sui documenti all'interno delle applicazioni."
+  },
+  "more_features": {
+    "title": "Gestione avanzata dei documenti",
+    "description": "{{ProdFullName}} offre un potente toolkit per elaborare in modo efficiente oltre 50 formati di file popolari.",
+    "image_description": "Capacità principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci diversi tipi di documenti",
+      "content": "Combina PDF, documenti Word, fogli di calcolo, presentazioni, disegni Visio, immagini e file di archivio. Applica impostazioni di personalizzazione per un output preciso."
+    },
+    "feature_2": {
+      "title": "Riordina la struttura del documento",
+      "content": "Modifica il layout del documento spostando, scambiando o eliminando pagine per organizzare meglio i contenuti."
+    },
+    "feature_3": {
+      "title": "Regola l'orientamento delle pagine",
+      "content": "Ruota le pagine a qualsiasi angolo o alterna tra orientamenti verticale e orizzontale."
+    },
+    "feature_4": {
+      "title": "Estrai pagine selezionate",
+      "content": "Scegli pagine specifiche o intervalli di pagine e salvale come un documento separato."
+    }
+  },
+  "formats": {
+    "title": "Dividi più formati di documenti",
+    "description": "{{ProdShortName}} supporta oltre 50 tipi di file, permettendo di modificare i documenti con precisione."
+  },
+  "operations": {
+    "title": "Caratteristiche principali",
+    "description": "Esplora le principali capacità della nostra libreria di elaborazione dei documenti."
+  },
+  "examples": {
+    "comment_1": "Carica il documento di input in {{NameProduct}}",
+    "comment_2": "Definisci il percorso del file di output",
+    "comment_3": "Imposta le opzioni di divisione",
+    "comment_4": "Esegui l'operazione di divisione"
+  },
+  "steps": {
+    "title": "Come suddividere i documenti {{FileFormatUp}} in parti",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) semplifica la suddivisione dei file {{FileFormatUp}}, estraendo pagine selezionate e salvandole come un nuovo documento. Integra processi di elaborazione documentale efficienti nelle tue applicazioni {{EnvName}}.",
+      "step_1": "Specifica il percorso del file {{FileFormatUp}} originale.",
+      "step_2": "Scegli dove salvare il file di output.",
+      "step_3": "Configura le impostazioni dell'operazione di divisione.",
+      "step_4": "Elabora e salva il documento separato."
+    }
+  },
+  "code_1": {
+    "title": "Estrai solo le pagine pari da un file {{FileFormatUp}}",
+    "content": "Questo esempio dimostra come suddividere un file {{FileFormatUp}} e salvare tutte le pagine numerate pari in un nuovo documento.",
+    "comment_1": "Apri il documento sorgente",
+    "comment_2": "Specifica la destinazione del file di output",
+    "comment_3": "Determina il numero totale di pagine",
+    "comment_4": "Imposta le opzioni di divisione per le pagine pari",
+    "comment_5": "Esegui la divisione e salva l'output"
+  }
+}

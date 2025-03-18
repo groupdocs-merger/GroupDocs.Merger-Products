@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "在 {{FileFormatUp}} 文件中交换页面，使用 {{EnvName}} 应用程序",
+    "description": "使用 {{ProdFullName}} 来重新排列 {{FileFormatUp}} 文档中的页面。修改 PDF、Word 文件、电子表格、演示文稿、Visio 图纸、图像、档案等。"
+  },
+  "header": {
+    "title": "交换 {{FileFormatUp}} 页面",
+    "description": "{{ProdFullName}} 为 {{EnvNameShort}} 应用程序提供灵活的文档处理功能。重新排列 {{FileFormatUp}} 文件中的页面，以简化内容结构。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 功能",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一个强大的文档处理库，支持超过 50 种文件格式，包括 PDF、Word、Excel、PowerPoint、Visio、图像和档案。将其集成到您的应用程序中，以合并、拆分、提取、重新排列、交换和删除各类文档的页面。"
+  },
+  "more_features": {
+    "title": "增强的文档处理",
+    "description": "{{ProdFullName}} 提供了一整套强大的工具，以高效管理和处理超过 50 种格式的文档。",
+    "image_description": "{{ProdShortName}} 的关键特性",
+    "feature_1": {
+      "title": "合并多种文档格式",
+      "content": "组合 PDF、Word 文档、电子表格、演示文稿、Visio 文件、图像和档案。通过定制选项微调输出。"
+    },
+    "feature_2": {
+      "title": "修改文档布局",
+      "content": "通过交换、重新排序或删除页面来重新排列内容，以改善文档结构。"
+    },
+    "feature_3": {
+      "title": "更改页面方向",
+      "content": "根据需要旋转页面到任意角度或在纵向和横向模式之间切换。"
+    },
+    "feature_4": {
+      "title": "提取特定页面",
+      "content": "选择并提取特定页面或页面范围以创建新文档。"
+    }
+  },
+  "formats": {
+    "title": "在各种文件类型中重新排序页面",
+    "description": "{{ProdShortName}} 支持超过 50 种格式，使文档修改更为精准。"
+  },
+  "operations": {
+    "title": "核心功能",
+    "description": "了解我们文档处理库的基本功能。"
+  },
+  "examples": {
+    "comment_1": "将文档加载到 {{NameProduct}} 中",
+    "comment_2": "指定需要交换的页面",
+    "comment_3": "执行交换操作",
+    "comment_4": "将修改后的文件保存到新位置"
+  },
+  "steps": {
+    "title": "如何重新排序 {{FileFormatUp}} 页面",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 简化了 {{FileFormatUp}} 文档中的页面重新排序，让您全面掌控内容组织。将无缝文档处理集成到您的 {{EnvName}} 应用程序中。",
+      "step_1": "定义 {{FileFormatUp}} 文件的路径。",
+      "step_2": "选择要交换或重新排序的页面。",
+      "step_3": "使用适当的方法修改文档。",
+      "step_4": "将更新后的文件保存到所需位置。"
+    }
+  },
+  "code_1": {
+    "title": "在 {{FileFormatUp}} 文件中交换第一页和最后一页",
+    "content": "该示例演示了如何在 {{FileFormatUp}} 文件中仅用几个简单步骤交换页面。",
+    "comment_1": "加载原始文档",
+    "comment_2": "检索页面总数",
+    "comment_3": "定义带有页码的交换设置",
+    "comment_4": "执行页面交换操作",
+    "comment_5": "保存修改后的文档"
+  }
+}

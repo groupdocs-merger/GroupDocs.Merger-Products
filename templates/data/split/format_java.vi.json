@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Tách tài liệu {{FileFormatUp}} trong ứng dụng {{EnvName}}",
+    "description": "Sử dụng {{ProdFullName}} để tách các tệp {{FileFormatUp}} thành các tài liệu riêng biệt. Quản lý PDF, tệp Word, bảng tính Excel, bài trình bày PowerPoint, tệp Visio, hình ảnh, tệp lưu trữ và nhiều hơn nữa một cách hiệu quả."
+  },
+  "header": {
+    "title": "Tách tệp {{FileFormatUp}}",
+    "description": "{{ProdFullName}} nâng cao ứng dụng {{EnvNameShort}} bằng cách thêm các tính năng xử lý tài liệu tiên tiến. Tách các tệp {{FileFormatUp}} và làm việc với một loạt định dạng kinh doanh phổ biến.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện xử lý tài liệu mạnh mẽ hỗ trợ hơn 50 định dạng tệp, bao gồm PDF, Word, Excel, PowerPoint, Visio, hình ảnh và tệp lưu trữ. Nó cho phép hợp nhất, tách, trích xuất, di chuyển, hoán đổi và xóa các trang, làm cho việc quản lý tài liệu trở nên hiệu quả hơn."
+  },
+  "more_features": {
+    "title": "Quản lý tài liệu tiên tiến",
+    "description": "{{ProdFullName}} cung cấp một bộ tính năng phong phú cho việc xử lý hơn 50 định dạng tệp kinh doanh thông dụng.",
+    "image_description": "Các khả năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hợp nhất các định dạng tệp khác nhau",
+      "content": "Kết hợp PDF, tài liệu Word, bài thuyết trình, bảng tính, sơ đồ Visio, hình ảnh và tệp lưu trữ. Tùy chỉnh quy trình hợp nhất để đạt kết quả tối ưu."
+    },
+    "feature_2": {
+      "title": "Sắp xếp các trang tài liệu",
+      "content": "Sắp xếp lại các trang bằng cách di chuyển, hoán đổi hoặc xóa để cấu trúc tài liệu của bạn một cách hiệu quả."
+    },
+    "feature_3": {
+      "title": "Chỉnh sửa bố cục trang",
+      "content": "Xoay trang ở bất kỳ góc độ nào hoặc chuyển đổi giữa định hướng dọc và ngang."
+    },
+    "feature_4": {
+      "title": "Trích xuất các trang thành các tệp riêng biệt",
+      "content": "Chọn các trang cụ thể hoặc một khoảng trang và lưu chúng thành một tài liệu mới tại vị trí đã chọn."
+    }
+  },
+  "formats": {
+    "title": "Tách các định dạng tệp khác nhau",
+    "description": "{{ProdShortName}} hỗ trợ hơn 50 loại tệp, cho phép sửa đổi tài liệu nhanh chóng và linh hoạt."
+  },
+  "operations": {
+    "title": "Các tính năng chính",
+    "description": "Khám phá khả năng xử lý tài liệu mạnh mẽ của thư viện chúng tôi."
+  },
+  "examples": {
+    "comment_1": "Tải tệp nguồn vào {{NameProduct}}",
+    "comment_2": "Xác định đường dẫn tệp đầu ra",
+    "comment_3": "Thiết lập tùy chọn tách",
+    "comment_4": "Thực hiện thao tác tách"
+  },
+  "steps": {
+    "title": "Cách tách tệp {{FileFormatUp}}",
+    "content": {
+      "title": "Với [{{ProdShortName}}]({{PlatformLink}}), bạn có thể tách tài liệu {{FileFormatUp}} và lưu các trang đã chọn thành một tệp mới. Tích hợp khả năng quản lý tài liệu tiên tiến vào ứng dụng {{EnvName}} của bạn.",
+      "step_1": "Cung cấp đường dẫn nguồn của tệp {{FileFormatUp}}.",
+      "step_2": "Xác định đường dẫn tệp đầu ra cho tài liệu tách ra.",
+      "step_3": "Cấu hình các tùy chọn cho thao tác tách.",
+      "step_4": "Thực hiện quá trình tách và lưu tệp."
+    }
+  },
+  "code_1": {
+    "title": "Tách tài liệu {{FileFormatUp}} và lưu các trang số chẵn",
+    "content": "Ví dụ này minh họa cách tách một tài liệu {{FileFormatUp}} và lưu tất cả các trang số chẵn dưới dạng một tệp riêng biệt.",
+    "comment_1": "Tải tệp nguồn vào bộ khởi tạo",
+    "comment_2": "Xác định đường dẫn tệp đầu ra",
+    "comment_3": "Lấy tổng số trang",
+    "comment_4": "Định nghĩa tùy chọn tách cho các trang số chẵn",
+    "comment_5": "Thực hiện thao tác tách và lưu kết quả"
+  }
+}

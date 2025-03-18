@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} ファイルを {{EnvName}} で統合する",
+    "description": "{{ProdFullName}} を使用して、{{EnvNameShort}} アプリケーションに {{FileFormatUp}} ドキュメントの統合機能を追加します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}} ファイルの統合",
+    "description": "{{ProdFullName}} を使用すると、複数の {{FileFormatUp}} ドキュメントを効率的に統合する {{EnvNameShort}} アプリケーションを開発できます。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料でダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}} について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) は、PDF、Word、Excel、PowerPoint、画像、アーカイブなど、50以上のファイル形式をサポートする強力なドキュメント処理ライブラリです。ドキュメントを統合、分割、抽出、並べ替え、ページを削除する機能を提供します。"
+  },
+  "more_features": {
+    "title": "ドキュメント統合ツール",
+    "description": "{{ProdFullName}} は、業務で一般的に使用される50以上のファイル形式をサポートし、多様なドキュメント処理機能を提供します。",
+    "image_description": "{{ProdShortName}} の主な機能",
+    "feature_1": {
+      "title": "異なるドキュメント形式の統合",
+      "content": "PDF、Wordファイル、プレゼンテーション、スプレッドシート、画像などのドキュメントを統合します。正確な結果を得るために統合するページを指定します。"
+    },
+    "feature_2": {
+      "title": "ページ管理",
+      "content": "選択したページを容易に移動、削除、または並べ替えて、必要なドキュメントストラクチャを構成します。"
+    },
+    "feature_3": {
+      "title": "ページレイアウトの調整",
+      "content": "任意の角度でページを回転させ、横向きと縦向きのオリエンテーションを切り替えます。"
+    },
+    "feature_4": {
+      "title": "特定のページの抽出",
+      "content": "ドキュメントからページを選択して抽出し、別のファイルとして保存します。"
+    }
+  },
+  "formats": {
+    "title": "さまざまなファイル形式の統合",
+    "description": "{{ProdShortName}} は50以上のファイル形式をサポートし、ドキュメント処理を効率的かつ柔軟にします。"
+  },
+  "operations": {
+    "title": "主な機能",
+    "description": "追加のドキュメント管理機能を発見します。"
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}} ドキュメントを入力として {{NameProduct}} を初期化します",
+    "comment_2": "ドキュメントを別のファイルと統合します",
+    "comment_3": "結合したドキュメントを希望する場所に保存します"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} ドキュメントの統合方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) は、{{FileFormatUp}} ドキュメントを統合する簡単な方法を提供します。複数のファイルを結合して、あなたの {{EnvName}} アプリケーションを強化します。",
+      "step_1": "最初の {{FileFormatUp}} ファイルのパスを指定します。",
+      "step_2": "統合するための2つ目のファイルを選択します。",
+      "step_3": "必要に応じて追加オプションを設定します。",
+      "step_4": "ファイルを統合し、出力を保存します。"
+    }
+  },
+  "code_1": {
+    "title": "異なるドキュメント形式から特定のページを統合する",
+    "content": "この例では、他の形式から特定のページを選択しながら {{FileFormatUp}} ファイルを統合する方法を示します。",
+    "comment_1": "メインファイルパスを指定します",
+    "comment_2": "特定のページを選択するためのオプションを定義します",
+    "comment_3": "メインドキュメントを選択したページと統合します",
+    "comment_4": "結合したドキュメントを新しい場所に保存します"
+  }
+}

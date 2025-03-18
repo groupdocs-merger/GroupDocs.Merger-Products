@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "在 {{EnvName}} 中提取 {{FileFormatUp}} 页",
+    "description": "使用 {{ProdFullName}} 从 {{FileFormatUp}} 文件中提取特定页面，并将其保存为新文档。"
+  },
+  "header": {
+    "title": "提取 {{FileFormatUp}} 页",
+    "description": "使用 {{ProdFullName}} 为您的 {{EnvNameShort}} 应用程序增强先进的页面提取功能，适用于 {{FileFormatUp}} 文档。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于 {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一个全面的文档处理库，支持超过 50 种格式，包括 PDF、Word、Excel、PowerPoint 和图像。它允许您轻松地合并、拆分、提取、重排和删除页面。"
+  },
+  "more_features": {
+    "title": "全面的文档处理",
+    "description": "{{ProdFullName}} 提供强大的功能，以处理超过 50 种广泛使用的商业文件格式。",
+    "image_description": "{{ProdShortName}} 的主要功能",
+    "feature_1": {
+      "title": "合并不同的文件格式",
+      "content": "将 PDF、Word 文档、PowerPoint 演示文稿、Excel 表格、图像和档案合并成一个文档，具有灵活的选项。"
+    },
+    "feature_2": {
+      "title": "管理文档页面",
+      "content": "重新排序、移动或删除页面，以高效地精细化和组织您的文档。"
+    },
+    "feature_3": {
+      "title": "调整页面布局",
+      "content": "根据需要旋转页面到任意角度或在纵向和横向之间切换。"
+    },
+    "feature_4": {
+      "title": "提取特定页面",
+      "content": "选择并提取仅所需的页面，将其保存为独立文档。"
+    }
+  },
+  "formats": {
+    "title": "从多种格式中提取页面",
+    "description": "{{ProdShortName}} 支持超过 50 种文件格式，实现无缝文档处理。"
+  },
+  "operations": {
+    "title": "主要功能",
+    "description": "发现其他文档处理功能。"
+  },
+  "examples": {
+    "comment_1": "用源文档初始化 {{ProdShortName}}",
+    "comment_2": "设置选项以提取特定页面",
+    "comment_3": "执行提取操作",
+    "comment_4": "将提取的页面保存为新文件"
+  },
+  "steps": {
+    "title": "如何提取 {{FileFormatUp}} 页",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使提取 {{FileFormatUp}} 文档中的页面变得简单。为您的 {{EnvName}} 应用程序添加无缝的文档处理。",
+      "step_1": "提供源 {{FileFormatUp}} 文档的文件路径。",
+      "step_2": "选择要提取的页面。",
+      "step_3": "运行提取过程。",
+      "step_4": "将提取的页面保存为新文档。"
+    }
+  },
+  "code_1": {
+    "title": "从文档中提取特定页面",
+    "content": "此示例演示如何从 {{FileFormatUp}} 文件中提取选定范围的页面并将其保存为新文档。",
+    "comment_1": "指定源文档的路径",
+    "comment_2": "设定提取选项，仅包含选定范围内的偶数页",
+    "comment_3": "执行提取操作",
+    "comment_4": "将提取的页面保存到新文件"
+  }
+}

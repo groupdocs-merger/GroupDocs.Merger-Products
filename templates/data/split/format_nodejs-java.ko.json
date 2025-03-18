@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{EnvName}} 앱에서 {{FileFormatUp}} 문서 나누기",
+    "description": "{{ProdFullName}}와 함께 {{FileFormatUp}} 파일을 개별 문서로 분해합니다. PDF, Word 파일, Excel 시트, PowerPoint 프레젠테이션, Visio 다이어그램, 이미지, 아카이브 등과 함께 작업하세요."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 파일 나누기",
+    "description": "{{ProdFullName}}는 {{EnvNameShort}} 애플리케이션에 강력한 문서 조작 기능을 추가합니다. {{FileFormatUp}} 파일을 원활하게 분할하고 널리 사용되는 다양한 형식을 처리할 수 있습니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 다운로드"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 개요",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 PDF, Word, Excel, PowerPoint, Visio, 이미지 및 아카이브를 포함하여 50개 이상의 형자를 지원하는 강력한 문서 관리 라이브러리입니다. 파일 병합, 분할, 페이지 추출, 재배치, 교환 및 삭제 기능을 제공하여 애플리케이션 내에서 문서 처리를 간소화합니다."
+  },
+  "more_features": {
+    "title": "종합 문서 처리",
+    "description": "{{ProdFullName}}는 50개 이상의 널리 사용되는 문서 형식을 수정할 수 있는 광범위한 도구 키트를 제공합니다.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "다양한 파일 유형 병합",
+      "content": "PDF, Word 문서, 스프레드시트, 프레젠테이션, Visio 다이어그램, 이미지 및 압축 아카이브를 결합합니다. 필요에 따라 병합 설정을 조정합니다."
+    },
+    "feature_2": {
+      "title": "문서 구조 사용자 정의",
+      "content": "필요에 따라 페이지를 재정렬, 교환 또는 제거하여 문서 레이아웃을 수정합니다."
+    },
+    "feature_3": {
+      "title": "페이지 방향 수정",
+      "content": "페이지를 원하는 각도로 회전하거나 세로 및 가로 형식 간에 변경합니다."
+    },
+    "feature_4": {
+      "title": "특정 페이지 추출",
+      "content": "하나 이상의 페이지를 선택하고 원하는 위치에 별도의 문서로 저장합니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 파일 형식 나누기",
+    "description": "{{ProdShortName}}는 50개 이상의 문서 형식을 지원하여 빠르고 유연한 수정을 가능하게 합니다."
+  },
+  "operations": {
+    "title": "핵심 기능",
+    "description": "우리의 문서 처리 라이브러리의 고급 기능을 알아보세요."
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}에 원본 파일 로드",
+    "comment_2": "출력 파일의 저장 경로 설정",
+    "comment_3": "분할 설정 정의",
+    "comment_4": "문서 분할 실행"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 파일 나누는 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})는 {{FileFormatUp}} 문서를 나누어 선택한 페이지를 새 파일로 추출할 수 있게 합니다. 효율적인 문서 관리 기능을 {{EnvName}} 애플리케이션에 통합하세요.",
+      "step_1": "원본 {{FileFormatUp}} 문서의 파일 경로를 제공합니다.",
+      "step_2": "분할 문서가 저장될 위치를 설정합니다.",
+      "step_3": "분할 작업을 제어할 설정을 정의합니다.",
+      "step_4": "파일을 처리하고 결과를 저장합니다."
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}} 문서에서 짝수 페이지 추출",
+    "content": "이 샘플은 {{FileFormatUp}} 문서를 분할하고 짝수 페이지만을 새 파일로 저장하는 방법을 보여줍니다.",
+    "comment_1": "원본 문서 열기",
+    "comment_2": "출력 파일 위치 지정",
+    "comment_3": "총 페이지 수 가져오기",
+    "comment_4": "짝수 페이지를 위한 분할 작업 구성",
+    "comment_5": "분할 수행 및 새 파일 저장"
+  }
+}

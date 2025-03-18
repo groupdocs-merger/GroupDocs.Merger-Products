@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Scambia le pagine nei file {{FileFormatUp}} con le app {{EnvName}}",
+    "description": "Utilizza {{ProdFullName}} per modificare l'ordine delle pagine nei documenti {{FileFormatUp}}. Gestisci PDF, file Word, fogli di calcolo, presentazioni, immagini e molto altro."
+  },
+  "header": {
+    "title": "Scambia pagine {{FileFormatUp}}",
+    "description": "{{ProdFullName}} aggiunge funzionalità avanzate di editing dei documenti alle applicazioni {{EnvNameShort}}. Riorganizza senza sforzo le pagine dei file {{FileFormatUp}} per migliorare la struttura e la leggibilità.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Capacità di {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una libreria versatile per l'elaborazione dei documenti che supporta oltre 50 formati di file, inclusi PDF, documenti Word, fogli di calcolo Excel, presentazioni PowerPoint, diagrammi Visio, immagini e archivi. Usala per unire, dividere, estrarre, riordinare, scambiare ed eliminare pagine tra diversi tipi di documenti."
+  },
+  "more_features": {
+    "title": "Gestione documentale potente",
+    "description": "{{ProdFullName}} offre un set completo di strumenti per modificare e organizzare documenti in oltre 50 formati.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci più tipi di documenti",
+      "content": "Combina PDF, file Word, fogli di calcolo, presentazioni, immagini e archivi. Personalizza l'output per soddisfare le tue esigenze."
+    },
+    "feature_2": {
+      "title": "Riorganizza il layout del documento",
+      "content": "Modifica la struttura dei tuoi documenti spostando, scambiando o eliminando pagine per migliorare l'organizzazione."
+    },
+    "feature_3": {
+      "title": "Cambia l'orientamento delle pagine",
+      "content": "Ruota le pagine a qualsiasi angolo o passa tra la modalità ritratto epaesaggio secondo necessità."
+    },
+    "feature_4": {
+      "title": "Estrai pagine specifiche",
+      "content": "Seleziona ed estrai singole pagine o intervalli di pagine per creare nuovi documenti."
+    }
+  },
+  "formats": {
+    "title": "Modifica l'ordine delle pagine in più formati",
+    "description": "{{ProdShortName}} supporta oltre 50 formati di file, consentendoti di affinare i layout dei documenti senza sforzo."
+  },
+  "operations": {
+    "title": "Caratteristiche principali",
+    "description": "Esplora le principali funzionalità della nostra libreria per l'elaborazione dei documenti."
+  },
+  "examples": {
+    "comment_1": "Carica il documento in {{NameProduct}}",
+    "comment_2": "Definisci le pagine da scambiare",
+    "comment_3": "Esegui l'operazione di scambio",
+    "comment_4": "Salva il file aggiornato in una nuova posizione"
+  },
+  "steps": {
+    "title": "Come riordinare le pagine {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) consente di riorganizzare facilmente le pagine nei documenti {{FileFormatUp}}, offrendoti il pieno controllo sull'organizzazione documentale. Integra l'editing documentale efficiente nelle tue applicazioni {{EnvName}}.",
+      "step_1": "Specifica il percorso del file per il documento {{FileFormatUp}}.",
+      "step_2": "Seleziona le pagine da scambiare o riordinare.",
+      "step_3": "Applica il metodo appropriato per modificare il documento.",
+      "step_4": "Salva il documento aggiornato nella posizione desiderata."
+    }
+  },
+  "code_1": {
+    "title": "Scambia la prima e l'ultima pagina in un file {{FileFormatUp}}",
+    "content": "Questo esempio mostra come scambiare le pagine in un file {{FileFormatUp}} in pochi passaggi.",
+    "comment_1": "Carica il documento sorgente",
+    "comment_2": "Recupera il numero totale di pagine",
+    "comment_3": "Definisci i parametri di scambio utilizzando i numeri di pagina",
+    "comment_4": "Esegui l'operazione di scambio delle pagine",
+    "comment_5": "Salva il documento modificato"
+  }
+}

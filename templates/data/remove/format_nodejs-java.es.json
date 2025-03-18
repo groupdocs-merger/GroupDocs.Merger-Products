@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Eliminar páginas de {{FileFormatUp}} en aplicaciones {{EnvName}}",
+    "description": "Utiliza {{ProdFullName}} para eliminar páginas específicas de documentos {{FileFormatUp}}. Procesa archivos PDF, Word, Excel, PowerPoint, imágenes, archivos comprimidos y más."
+  },
+  "header": {
+    "title": "Eliminar páginas de {{FileFormatUp}}",
+    "description": "{{ProdFullName}} mejora las aplicaciones {{EnvNameShort}} con potentes características de procesamiento de documentos, incluyendo la eliminación de páginas de archivos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obténlo gratis"
+  },
+  "about": {
+    "title": "¿Qué es {{ProdShortName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una herramienta de procesamiento de documentos rica en funciones que soporta más de 50 formatos de archivo, incluyendo PDF, Word, Excel, PowerPoint, Visio, imágenes y archivos comprimidos. Ofrece opciones para combinar, dividir, extraer, mover, intercambiar y eliminar páginas para optimizar la gestión de documentos en tus aplicaciones."
+  },
+  "more_features": {
+    "title": "Gestión avanzada de documentos",
+    "description": "{{ProdFullName}} proporciona un conjunto completo de herramientas para trabajar con más de 50 formatos de archivo ampliamente utilizados, facilitando y eficientando el procesamiento de documentos.",
+    "image_description": "Capacidades clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combina múltiples formatos de archivo",
+      "content": "Une archivos PDF, documentos de Word, hojas de cálculo, presentaciones, imágenes y archivos comprimidos con opciones de combinación personalizadas para obtener resultados precisos."
+    },
+    "feature_2": {
+      "title": "Gestión flexible de páginas",
+      "content": "Reorganiza las páginas del documento moviéndolas, intercambiándolas o eliminándolas para mantener tus archivos bien organizados."
+    },
+    "feature_3": {
+      "title": "Personaliza el diseño de las páginas",
+      "content": "Rota las páginas a cualquier ángulo o cambia entre orientación horizontal y vertical."
+    },
+    "feature_4": {
+      "title": "Extrae páginas como archivos separados",
+      "content": "Selecciona y guarda páginas específicas como documentos independientes."
+    }
+  },
+  "formats": {
+    "title": "Eliminar páginas de varios formatos de documentos",
+    "description": "{{ProdShortName}} soporta más de 50 formatos de archivo, permitiéndote modificar documentos de manera rápida y eficiente."
+  },
+  "operations": {
+    "title": "Características clave",
+    "description": "Descubre capacidades adicionales de nuestra solución de procesamiento de documentos."
+  },
+  "examples": {
+    "comment_1": "Crea una instancia de {{NameProduct}} y proporciona la ruta del archivo",
+    "comment_2": "Define el/los número(s) de página que se eliminarán",
+    "comment_3": "Aplica la configuración de eliminación",
+    "comment_4": "Guarda el documento modificado"
+  },
+  "steps": {
+    "title": "Cómo eliminar páginas de {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita la eliminación de páginas de documentos {{FileFormatUp}}. Intégralo en tus aplicaciones {{EnvName}} para mejorar las capacidades de gestión de documentos.",
+      "step_1": "Especifica la ruta al archivo {{FileFormatUp}}.",
+      "step_2": "Establece los números de página que deseas eliminar.",
+      "step_3": "Ejecuta la operación de eliminación de páginas.",
+      "step_4": "Guarda el documento actualizado."
+    }
+  },
+  "code_1": {
+    "title": "Eliminar todas las páginas con números pares",
+    "content": "Aprende cómo eliminar páginas con números pares de un documento {{FileFormatUp}}.",
+    "comment_1": "Proporciona la ruta del archivo al constructor",
+    "comment_2": "Obtén el número total de páginas en el documento",
+    "comment_3": "Configura los ajustes para eliminar las páginas impares",
+    "comment_4": "Procesa el documento",
+    "comment_5": "Guarda el archivo actualizado en la ubicación especificada"
+  }
+}

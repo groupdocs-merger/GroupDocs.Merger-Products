@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{ProgLang}}での{{FileFormatUp}}ファイルのマージ",
+    "description": "{{ProdFullName}}を使用して、{{EnvNameShort}}プロジェクトに{{FileFormatUp}}ファイルのマージを統合します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}ファイルのマージ",
+    "description": "{{ProdFullName}}を使用すれば、{{EnvNameShort}}アプリケーション内で{{FileFormatUp}}文書をシームレスにマージできます。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料でダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}}について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、文書管理のための包括的なツールです。PDF、Word、Excel、PowerPoint、画像、アーカイブなど、50以上のフォーマットに対応しており、マージ、分割、抽出、スワップ、ページの削除を実行できます。"
+  },
+  "more_features": {
+    "title": "高度な文書マージ",
+    "description": "{{ProdFullName}}は、50以上の一般的なファイルフォーマットで動作するように設計されており、強力な文書処理機能を提供します。",
+    "image_description": "{{ProdShortName}}の主要機能",
+    "feature_1": {
+      "title": "さまざまな文書タイプのマージ",
+      "content": "PDF、Word文書、プレゼンテーション、スプレッドシート、画像などを簡単に組み合わせることができます。必要に応じて、マージするページをカスタマイズできます。"
+    },
+    "feature_2": {
+      "title": "文書ページの修正",
+      "content": "ビジネス文書を適切に構成するために、ページの順序を変更したり、削除したり、スワップしたりできます。"
+    },
+    "feature_3": {
+      "title": "ページ設定の調整",
+      "content": "サポートされているファイルフォーマットに対して、任意の角度にページを回転させたり、横向きと縦向きの間で向きを変更したりできます。"
+    },
+    "feature_4": {
+      "title": "文書ページの抽出",
+      "content": "特定のページを選択し、新しい独立した文書として保存することができます。"
+    }
+  },
+  "formats": {
+    "title": "複数のファイルフォーマットを組み合わせる",
+    "description": "{{ProdShortName}}は50種類以上のファイル形式をサポートしており、さまざまなビジネスニーズに対してシームレスな文書処理を確保します。"
+  },
+  "operations": {
+    "title": "主な機能",
+    "description": "{{ProdShortName}}によってサポートされる追加機能と操作を探ります。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}を入力{{FileFormatUp}}ファイルで初期化",
+    "comment_2": "ファイルを別の文書と組み合わせる",
+    "comment_3": "統合された文書を指定した場所に保存"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}文書のマージ方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})は、{{FileFormatUp}}文書のシームレスなマージを提供します。複数のファイルを1つに統合することで、{{EnvName}}アプリケーションを強化します。",
+      "step_1": "最初の{{FileFormatUp}}文書のパスを設定します。",
+      "step_2": "2つ目の文書を選択します。",
+      "step_3": "オプションのパラメーターを定義します。",
+      "step_4": "ファイルをマージし、出力文書を保存します。"
+    }
+  },
+  "code_1": {
+    "title": "異なるファイルフォーマットから選択したページをマージ",
+    "content": "この例では、他の文書タイプから特定のページを選択しながら{{FileFormatUp}}ファイルをマージする方法を示します。",
+    "comment_1": "主要文書のパスを指定",
+    "comment_2": "選択したページを含めるためのオプションを設定",
+    "comment_3": "主要ファイルを他の文書のページでマージ",
+    "comment_4": "最終的なマージ文書を希望の場所に保存"
+  }
+}

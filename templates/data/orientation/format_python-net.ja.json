@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{EnvName}}アプリでの{{FileFormatUp}}ページの調整",
+    "description": "{{ProdFullName}}を使用すると、{{FileFormatUp}}ページをポートレートまたはランドスケープにシフトできます。PDF、Wordファイル、Excelシート、PowerPointスライド、Visioデザイン、画像、アーカイブなどを制御して処理します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}のページ調整",
+    "description": "{{ProdFullName}}は{{EnvNameShort}}アプリに役立つ機能を追加します。開発者はファイル形式を管理し、{{FileFormatUp}}ページレイアウトを調整することで、より良いソリューションを構築できます。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料で試す"
+  },
+  "about": {
+    "title": "{{ProdShortName}}の概要",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word、Excel、PowerPoint、Visio、画像、アーカイブなど、50を超える形式のドキュメントを管理するために設計されています。必要に応じて、マージ、分割、抽出、シフト、スワップ、削除、またはページレイアウトを調整します。"
+  },
+  "more_features": {
+    "title": "柔軟な文書管理",
+    "description": "{{ProdFullName}}は、50以上のファイル形式を管理するための幅広いツールを提供し、迅速かつスムーズな結果を実現します。",
+    "image_description": "{{ProdShortName}}オプション",
+    "feature_1": {
+      "title": "さまざまな形式を結合",
+      "content": "PDF、Word文書、スライド、スプレッドシート、Visioファイル、画像およびアーカイブをマージします。最適な出力のために調整できます。"
+    },
+    "feature_2": {
+      "title": "文書ページの並べ替え",
+      "content": "ページを移動、スワップ、または削除して、文書の構成を向上させます。"
+    },
+    "feature_3": {
+      "title": "ページの整列を設定",
+      "content": "ページを角度に回転させたり、ポートレートとランドスケープモードを切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "ページを別々にエクスポート",
+      "content": "ページまたはページのグループを取り出し、新しいファイルとして任意の場所に保存します。"
+    }
+  },
+  "formats": {
+    "title": "さまざまな形式でページを調整",
+    "description": "{{ProdShortName}}は50以上のファイルタイプに対応し、文書を調整する柔軟な方法を提供します。"
+  },
+  "operations": {
+    "title": "主な機能",
+    "description": "プロジェクトを改善するためのツールを確認してください。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}にファイルパスを渡す",
+    "comment_2": "調整するページを指定",
+    "comment_3": "新しい向きを適用",
+    "comment_4": "完成した文書を保存"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}ページの調整方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})を使用して{{FileFormatUp}}ページをシフトします。この機能に加え、他の機能が{{EnvName}}アプリに信頼性の高い文書ツールを追加します。",
+      "step_1": "{{FileFormatUp}}ファイルを読み込む。",
+      "step_2": "調整するページを選択する。",
+      "step_3": "その向きを変更する。",
+      "step_4": "結果を保存する。"
+    }
+  },
+  "code_1": {
+    "title": "最後の{{FileFormatUp}}ページをシフト",
+    "content": "{{FileFormatUp}}ファイル内のページ数を確認し、最終ページを調整する方法を学びます。",
+    "comment_1": "コンストラクタにファイルを読み込む",
+    "comment_2": "ページの合計数をカウントする",
+    "comment_3": "ページを選択し、ポートレートまたはランドスケープを設定する",
+    "comment_4": "ページレイアウトを更新する",
+    "comment_5": "選択したパスに保存する"
+  }
+}

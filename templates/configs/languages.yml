@@ -1,6 +1,6 @@
 dimensions: 
 - alias: lang
-  values: [en] 
+  values: [en, de, es, fa, fr, id, it, ja, ko, pt, ru, th, uk, vi, zh]  
 #  values: [en, de, es, fa, fr, id, it, ja, ko, pt, ru, th, uk, vi, zh] 
 #  values: [en, af, am, ar, bg, ca, cs, da, de, el, es, et, fa, fi, fr, ga, hi, hr, hu, hy, id, is, it, ja, ka, kk, ko, ku, lt, lv, ms, nl, no, pl, pt, ro, ru, sk, sl, sv, th, tr, uk, ur, vi, zh] 
 ##  values: [en, ru] ## UNCOMMENT FOR TESTING

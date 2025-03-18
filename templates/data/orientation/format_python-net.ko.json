@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} 페이지 조정하기 - {{EnvName}} 앱",
+    "description": "{{ProdFullName}}를 사용하여 {{FileFormatUp}} 페이지를 세로 또는 가로로 전환하세요. PDF, Word 파일, Excel 시트, PowerPoint 슬라이드, Visio 디자인, 이미지, 아카이브 등 다양한 파일을 제어하며 처리합니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}에 대한 페이지 정렬",
+    "description": "{{ProdFullName}}는 {{EnvNameShort}} 앱에 유용한 기능을 제공합니다. 개발자는 파일 형식을 관리하고 {{FileFormatUp}} 페이지 레이아웃을 조정하여 더 나은 솔루션을 구축할 수 있습니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 체험하기"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 개요",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 PDF, Word, Excel, PowerPoint, Visio, 이미지 및 아카이브와 같은 50개 이상의 형식의 문서를 관리하도록 설계되었습니다. 필요에 따라 병합, 분할, 추출, 이동, 교환, 제거하거나 페이지 레이아웃을 조정할 수 있습니다."
+  },
+  "more_features": {
+    "title": "적응 가능한 문서 처리",
+    "description": "{{ProdFullName}}는 50개 이상의 파일 형식을 관리하기 위한 다양한 도구를 제공하며, 빠르고 원활한 결과를 제공합니다.",
+    "image_description": "{{ProdShortName}} 옵션",
+    "feature_1": {
+      "title": "다양한 형식 결합",
+      "content": "PDF, Word 문서, 슬라이드, 스프레드시트, Visio 파일, 이미지 및 아카이브를 병합하세요. 최상의 출력을 위해 조정하세요."
+    },
+    "feature_2": {
+      "title": "문서 페이지 정렬",
+      "content": "페이지를 재배치하거나 교환하거나 제거하여 문서 설정을 개선하세요."
+    },
+    "feature_3": {
+      "title": "페이지 정렬 설정",
+      "content": "페이지 각도를 조정하거나 세로와 가로 모드 간에 전환하세요."
+    },
+    "feature_4": {
+      "title": "페이지 개별 내보내기",
+      "content": "페이지나 페이지 그룹을 선택하여 원하는 위치에 새 파일로 저장하세요."
+    }
+  },
+  "formats": {
+    "title": "다양한 형식의 페이지 조정하기",
+    "description": "{{ProdShortName}}는 50개 이상의 파일 유형을 지원하며, 문서를 조정할 수 있는 유연한 방법을 제공합니다."
+  },
+  "operations": {
+    "title": "주요 기능",
+    "description": "프로젝트를 개선할 수 있는 도구를 살펴보세요."
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}에 파일 경로 입력하기",
+    "comment_2": "조정할 페이지 선택하기",
+    "comment_3": "새 방향 적용하기",
+    "comment_4": "완성된 문서 저장하기"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 페이지를 조정하는 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})를 사용하여 {{FileFormatUp}} 페이지를 이동하세요. 이 기능과 다른 기능들이 {{EnvName}} 앱에 신뢰할 수 있는 문서 도구를 추가합니다.",
+      "step_1": "{{FileFormatUp}} 파일 로드하기.",
+      "step_2": "조정할 페이지 선택하기.",
+      "step_3": "방향 변경하기.",
+      "step_4": "결과 저장하기."
+    }
+  },
+  "code_1": {
+    "title": "마지막 {{FileFormatUp}} 페이지 이동하기",
+    "content": "{{FileFormatUp}} 파일의 페이지 수를 확인하고 마지막 페이지를 조정하는 방법을 배우세요.",
+    "comment_1": "파일을 생성자에 로드하기",
+    "comment_2": "전체 페이지 수 계산하기",
+    "comment_3": "페이지를 선택하고 세로 또는 가로로 설정하기",
+    "comment_4": "페이지 레이아웃 업데이트하기",
+    "comment_5": "선택한 경로에 저장하기"
+  }
+}

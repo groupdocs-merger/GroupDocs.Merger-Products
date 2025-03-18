@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "在{{EnvName}}应用程序中删除{{FileFormatUp}}页面",
+    "description": "使用{{ProdFullName}}从{{FileFormatUp}}文档中删除特定页面。处理PDF、Word、Excel、PowerPoint、图像、档案等文档。"
+  },
+  "header": {
+    "title": "删除{{FileFormatUp}}中的页面",
+    "description": "{{ProdFullName}}增强了{{EnvNameShort}}应用程序的文档处理功能，包括在{{FileFormatUp}}文件中删除页面。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费获取"
+  },
+  "about": {
+    "title": "关于{{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})是一个强大的文档处理工具，支持超过50种文件格式，包括PDF、Word、Excel、PowerPoint、Visio、图像和档案。它提供了合并、拆分、提取、移动、交换和删除页面等功能，以增强您的应用程序。"
+  },
+  "more_features": {
+    "title": "高级文档处理",
+    "description": "{{ProdFullName}}提供了一整套功能，使您能够有效地处理超过50种流行的商业文件格式。",
+    "image_description": "{{ProdShortName}}的关键特性",
+    "feature_1": {
+      "title": "合并不同格式的文件",
+      "content": "将PDF、Word文档、演示文稿、电子表格、图像和档案灵活合并以获得精准结果。"
+    },
+    "feature_2": {
+      "title": "页面管理",
+      "content": "通过移动、交换或删除文档页面来有效地组织内容。"
+    },
+    "feature_3": {
+      "title": "修改页面布局",
+      "content": "将页面旋转到任意角度或在横向和纵向方向之间切换。"
+    },
+    "feature_4": {
+      "title": "将页面提取到单独文件",
+      "content": "选择特定页面并将其保存为独立文档。"
+    }
+  },
+  "formats": {
+    "title": "从多种文档格式中删除页面",
+    "description": "{{ProdShortName}}支持超过50种文件格式，使文档修改快速便捷。"
+  },
+  "operations": {
+    "title": "关键特性",
+    "description": "探索我们解决方案的其他强大功能。"
+  },
+  "examples": {
+    "comment_1": "使用文件路径创建{{NameProduct}}实例",
+    "comment_2": "指定要删除的页面编号",
+    "comment_3": "应用页面删除选项",
+    "comment_4": "保存修改后的文档"
+  },
+  "steps": {
+    "title": "如何在{{FileFormatUp}}中删除页面",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})允许您从{{FileFormatUp}}文档中删除页面。用高级文档管理功能增强您的{{EnvName}}应用程序。",
+      "step_1": "指定{{FileFormatUp}}文件路径。",
+      "step_2": "定义要删除的页面。",
+      "step_3": "执行页面删除操作。",
+      "step_4": "保存更新后的文件。"
+    }
+  },
+  "code_1": {
+    "title": "如何删除所有偶数页面",
+    "content": "学习如何从{{FileFormatUp}}文档中删除偶数页面。",
+    "comment_1": "将文件路径提供给构造函数",
+    "comment_2": "检索总页数",
+    "comment_3": "定义删除偶数页面的选项",
+    "comment_4": "处理文档",
+    "comment_5": "将修改后的文件保存到所需位置"
+  }
+}

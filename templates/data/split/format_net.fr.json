@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Divisez les documents {{FileFormatUp}} dans les applications {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour diviser des fichiers {{FileFormatUp}} en documents individuels. Gérez efficacement les fichiers PDF, Word, Excel, PowerPoint, Visio, images, archives et plus encore."
+  },
+  "header": {
+    "title": "Divisez les fichiers {{FileFormatUp}}",
+    "description": "{{ProdFullName}} améliore les applications {{EnvNameShort}} avec des fonctionnalités avancées de traitement de documents. Divisez facilement les fichiers {{FileFormatUp}} et travaillez avec divers formats commerciaux populaires.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Téléchargement Gratuit"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une bibliothèque puissante de traitement de documents qui prend en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, Visio, images et archives. Elle permet de fusionner, diviser, extraire, déplacer, échanger et supprimer des pages pour simplifier la gestion des documents."
+  },
+  "more_features": {
+    "title": "Gestion documentaire avancée",
+    "description": "{{ProdFullName}} offre un ensemble complet d'outils pour traiter efficacement plus de 50 formats de fichiers commerciaux couramment utilisés.",
+    "image_description": "Capacités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner plusieurs formats de fichier",
+      "content": "Combinez des PDFs, documents Word, présentations, feuilles de calcul, diagrammes Visio, images et archives. Personnalisez le processus de fusion pour des résultats précis."
+    },
+    "feature_2": {
+      "title": "Organiser les pages de documents",
+      "content": "Réorganisez les pages en les déplaçant, les échangeant ou les supprimant pour améliorer la structure du document."
+    },
+    "feature_3": {
+      "title": "Ajuster la mise en page des pages",
+      "content": "Faites pivoter les pages selon n'importe quel angle ou passez entre les orientations portrait et paysage."
+    },
+    "feature_4": {
+      "title": "Extraire des pages en tant que fichiers séparés",
+      "content": "Sélectionnez des pages spécifiques ou une plage de pages et enregistrez-les sous un nouveau fichier à l'emplacement choisi."
+    }
+  },
+  "formats": {
+    "title": "Divisez plusieurs formats de fichiers",
+    "description": "{{ProdShortName}} prend en charge plus de 50 types de fichiers, rendant la modification des documents rapide et efficace."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés",
+    "description": "Découvrez les puissantes capacités de traitement de documents de notre bibliothèque."
+  },
+  "examples": {
+    "comment_1": "Chargez le fichier source dans {{NameProduct}}",
+    "comment_2": "Spécifiez le chemin du fichier de sortie",
+    "comment_3": "Configurez les options de séparation",
+    "comment_4": "Exécutez l'opération de séparation"
+  },
+  "steps": {
+    "title": "Comment diviser les fichiers {{FileFormatUp}}",
+    "content": {
+      "title": "Avec [{{ProdShortName}}]({{PlatformLink}}), vous pouvez diviser des documents {{FileFormatUp}} et enregistrer les pages sélectionnées sous un nouveau fichier. Améliorez le traitement des documents dans vos applications {{EnvName}}.",
+      "step_1": "Spécifiez le chemin source du fichier {{FileFormatUp}}.",
+      "step_2": "Définissez le chemin du fichier de sortie pour le document divisé.",
+      "step_3": "Configurez les paramètres de l'opération de séparation.",
+      "step_4": "Exécutez l'opération de séparation et enregistrez le fichier."
+    }
+  },
+  "code_1": {
+    "title": "Divisez un document {{FileFormatUp}} et enregistrez les pages paires",
+    "content": "Cet exemple montre comment diviser un document {{FileFormatUp}} et enregistrer toutes les pages paires en tant que fichier séparé.",
+    "comment_1": "Chargez le fichier source dans le constructeur",
+    "comment_2": "Spécifiez le chemin du fichier de sortie",
+    "comment_3": "Récupérez le nombre total de pages",
+    "comment_4": "Définissez les options de séparation pour les pages paires",
+    "comment_5": "Exécutez l'opération de séparation et enregistrez le fichier"
+  }
+}

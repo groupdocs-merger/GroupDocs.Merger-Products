@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Gabungkan file {{FileFormatUp}} di {{EnvName}}",
+    "description": "Integrasikan penggabungan file {{FileFormatUp}} ke dalam proyek {{EnvNameShort}} Anda menggunakan {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Gabungkan file {{FileFormatUp}}",
+    "description": "{{ProdFullName}} memungkinkan Anda untuk menggabungkan dokumen {{FileFormatUp}} dengan efisien dalam aplikasi {{EnvNameShort}} Anda, memberikan integrasi yang mulus dan kinerja tinggi.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Ikhtisar {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah solusi pengolahan dokumen kaya fitur yang mendukung lebih dari 50 format file, termasuk PDF, Word, Excel, PowerPoint, gambar, dan arsip. Dengan rangkaian alatnya yang kuat, Anda dapat menggabungkan, memisahkan, mengekstrak, menukar, dan menghapus halaman dengan efisien."
+  },
+  "more_features": {
+    "title": "Kemampuan penggabungan dokumen yang komprehensif",
+    "description": "{{ProdFullName}} dioptimalkan untuk menangani berbagai format dokumen, menawarkan fitur luas untuk mengelola dokumen bisnis.",
+    "image_description": "Fungsi inti dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan berbagai jenis dokumen",
+      "content": "Gabungkan dengan mudah file PDF, dokumen Word, presentasi, spreadsheet, gambar, dan jenis dokumen lainnya. Tentukan rentang halaman tertentu untuk menyesuaikan proses penggabungan."
+    },
+    "feature_2": {
+      "title": "Modifikasi dan atur halaman dokumen",
+      "content": "Susun kembali halaman, hapus bagian yang tidak diinginkan, atau tukar halaman untuk membuat dokumen terstruktur dengan baik sesuai kebutuhan Anda."
+    },
+    "feature_3": {
+      "title": "Kustomisasi tata letak dan orientasi halaman",
+      "content": "Putar halaman ke sudut yang diinginkan dan sesuaikan orientasi halaman antara lanskap dan potret untuk berbagai jenis file."
+    },
+    "feature_4": {
+      "title": "Ekstrak dan simpan halaman dokumen tertentu",
+      "content": "Pilih halaman tertentu dari dokumen dan simpan sebagai file terpisah, memastikan akses dan organisasi yang mudah."
+    }
+  },
+  "formats": {
+    "title": "Gabungkan file dalam format yang berbeda",
+    "description": "Dengan dukungan untuk lebih dari 50 jenis dokumen, {{ProdShortName}} menyederhanakan pemrosesan file, memudahkan penanganan dokumen dengan efisien."
+  },
+  "operations": {
+    "title": "Fungsionalitas utama",
+    "description": "Temukan operasi tambahan dan fitur yang didukung oleh {{ProdShortName}} untuk meningkatkan pengalaman pengolahan dokumen Anda."
+  },
+  "examples": {
+    "comment_1": "Inisialisasi {{NameProduct}} dengan dokumen {{FileFormatUp}} sumber",
+    "comment_2": "Gabungkan dokumen dengan file lain yang dipilih",
+    "comment_3": "Simpan dokumen akhir yang digabung di lokasi yang diinginkan"
+  },
+  "steps": {
+    "title": "Cara menggabungkan dokumen {{FileFormatUp}}",
+    "content": {
+      "title": "Dengan [{{ProdShortName}}]({{PlatformLink}}), menggabungkan dokumen {{FileFormatUp}} menjadi mudah. Tingkatkan aplikasi {{EnvName}} Anda dengan kemampuan kombinasi dokumen yang efisien.",
+      "step_1": "Berikan jalur file untuk dokumen {{FileFormatUp}} pertama.",
+      "step_2": "Pilih dokumen kedua yang akan digabung.",
+      "step_3": "Tetapkan parameter opsional untuk kustomisasi.",
+      "step_4": "Laksanakan proses penggabungan dan simpan dokumen keluaran."
+    }
+  },
+  "code_1": {
+    "title": "Gabungkan halaman terpilih dari format dokumen yang berbeda",
+    "content": "Contoh ini menunjukkan cara menggabungkan file {{FileFormatUp}} sambil memilih halaman tertentu dari dokumen dalam format lain.",
+    "comment_1": "Tentukan jalur dokumen utama",
+    "comment_2": "Konfigurasikan opsi untuk menyertakan halaman tertentu",
+    "comment_3": "Gabungkan file utama dengan halaman yang dipilih dari dokumen lain",
+    "comment_4": "Simpan dokumen akhir di lokasi yang diinginkan"
+  }
+}

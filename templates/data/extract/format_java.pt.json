@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Extraia páginas de {{FileFormatUp}} em {{EnvName}}",
+    "description": "Use {{ProdFullName}} para extrair páginas específicas de um documento {{FileFormatUp}} e salvá-las como um arquivo separado."
+  },
+  "header": {
+    "title": "Extraia páginas de {{FileFormatUp}}",
+    "description": "Com {{ProdFullName}}, você pode aprimorar suas aplicações {{EnvNameShort}} com recursos poderosos de processamento de documentos para arquivos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Gratuitamente"
+  },
+  "about": {
+    "title": "Sobre {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma ferramenta versátil de processamento de documentos que suporta mais de 50 formatos de arquivo, incluindo PDF, Word, Excel, PowerPoint e imagens. Ela fornece recursos essenciais como mesclar, dividir, extrair, trocar e remover páginas."
+  },
+  "more_features": {
+    "title": "Processamento abrangente de documentos",
+    "description": "{{ProdFullName}} oferece uma variedade de recursos poderosos para processar mais de 50 formatos de arquivo de negócios amplamente utilizados.",
+    "image_description": "Recursos principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mesclar múltiplos formatos de documento",
+      "content": "Combine arquivos como PDFs, documentos Word, apresentações PowerPoint, planilhas Excel, imagens e arquivos compactados. Personalize as opções de mesclagem conforme suas necessidades."
+    },
+    "feature_2": {
+      "title": "Gerenciamento de páginas",
+      "content": "Trabalhe com páginas específicas ou intervalos de páginas—mova, remova ou reorganize-as para refinar seus documentos de negócios."
+    },
+    "feature_3": {
+      "title": "Ajustar layout de páginas",
+      "content": "Gire páginas em qualquer ângulo ou altere sua orientação entre paisagem e retrato."
+    },
+    "feature_4": {
+      "title": "Extraia páginas selecionadas",
+      "content": "Extraia apenas as páginas necessárias e salve-as como um documento separado."
+    }
+  },
+  "formats": {
+    "title": "Extraia páginas de vários formatos de documento",
+    "description": "{{ProdShortName}} suporta mais de 50 formatos de arquivo, permitindo manipulação eficiente de documentos."
+  },
+  "operations": {
+    "title": "Recursos principais",
+    "description": "Explore capacidades adicionais de processamento de documentos."
+  },
+  "examples": {
+    "comment_1": "Inicialize {{ProdShortName}} com o documento fonte",
+    "comment_2": "Especifique as páginas a serem extraídas",
+    "comment_3": "Realize o processo de extração",
+    "comment_4": "Salve as páginas extraídas como um novo arquivo"
+  },
+  "steps": {
+    "title": "Como extrair páginas de {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite que você extraia páginas de documentos {{FileFormatUp}} de forma eficiente. Aperfeiçoe suas aplicações {{EnvName}} integrando capacidades avançadas de gerenciamento de documentos.",
+      "step_1": "Especifique o caminho do arquivo do documento {{FileFormatUp}} fonte.",
+      "step_2": "Escolha as páginas que deseja extrair.",
+      "step_3": "Extraia as páginas selecionadas.",
+      "step_4": "Salve as páginas extraídas como um novo documento."
+    }
+  },
+  "code_1": {
+    "title": "Extraia páginas específicas de um documento",
+    "content": "Este exemplo demonstra como extrair um intervalo de páginas de um documento {{FileFormatUp}} e salvá-las como um arquivo separado.",
+    "comment_1": "Forneça o caminho do arquivo fonte",
+    "comment_2": "Defina opções para extrair apenas páginas de números pares dentro de um intervalo",
+    "comment_3": "Execute a operação de extração",
+    "comment_4": "Salve as páginas extraídas como um novo documento"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Kết hợp các tệp {{FileFormatUp}} trong {{EnvName}}",
+    "description": "Tích hợp liền mạch việc kết hợp tệp {{FileFormatUp}} vào các dự án {{EnvNameShort}} của bạn bằng {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Kết hợp các tệp {{FileFormatUp}}",
+    "description": "{{ProdFullName}} cho phép bạn kết hợp các tài liệu {{FileFormatUp}} một cách hiệu quả trong các ứng dụng {{EnvNameShort}} của bạn, mang lại khả năng tích hợp liền mạch và hiệu suất cao.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về miễn phí"
+  },
+  "about": {
+    "title": "Tổng quan về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp xử lý tài liệu đầy đủ tính năng hỗ trợ hơn 50 định dạng tệp, bao gồm PDF, Word, Excel, PowerPoint, hình ảnh và lưu trữ. Với bộ công cụ mạnh mẽ của mình, bạn có thể kết hợp, tách, trích xuất, hoán đổi và xóa các trang một cách hiệu quả."
+  },
+  "more_features": {
+    "title": "Khả năng kết hợp tài liệu toàn diện",
+    "description": "{{ProdFullName}} được tối ưu hóa để xử lý nhiều định dạng tài liệu khác nhau, cung cấp nhiều tính năng phong phú để quản lý tài liệu kinh doanh.",
+    "image_description": "Chức năng cốt lõi của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Kết hợp nhiều loại tài liệu",
+      "content": "Kết hợp dễ dàng các tệp PDF, tệp Word, bài thuyết trình, bảng tính, hình ảnh và các loại tài liệu khác. Định nghĩa các khoảng trang cụ thể để tùy chỉnh quy trình kết hợp."
+    },
+    "feature_2": {
+      "title": "Chỉnh sửa và sắp xếp các trang tài liệu",
+      "content": "Sắp xếp lại các trang, xóa các phần không mong muốn hoặc hoán đổi các trang để tạo ra các tài liệu được cấu trúc tốt, phù hợp với nhu cầu của bạn."
+    },
+    "feature_3": {
+      "title": "Tùy chỉnh bố cục và hướng trang",
+      "content": "Xoay các trang theo góc độ mong muốn và điều chỉnh hướng trang giữa nằm ngang và dọc cho các loại tệp khác nhau."
+    },
+    "feature_4": {
+      "title": "Trích xuất và lưu các trang tài liệu cụ thể",
+      "content": "Chọn các trang cụ thể từ một tài liệu và lưu chúng dưới dạng một tệp riêng biệt, đảm bảo dễ dàng truy cập và tổ chức."
+    }
+  },
+  "formats": {
+    "title": "Kết hợp các tệp ở định dạng khác nhau",
+    "description": "Với hỗ trợ cho hơn 50 loại tài liệu, {{ProdShortName}} giúp đơn giản hóa việc xử lý tệp, làm cho việc quản lý tài liệu trở nên hiệu quả và thuận tiện."
+  },
+  "operations": {
+    "title": "Chức năng chính",
+    "description": "Khám phá các thao tác và tính năng bổ sung mà {{ProdShortName}} hỗ trợ để nâng cao trải nghiệm xử lý tài liệu của bạn."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo {{NameProduct}} với tài liệu nguồn {{FileFormatUp}}",
+    "comment_2": "Kết hợp tài liệu với một tệp đã chọn khác",
+    "comment_3": "Lưu tài liệu cuối cùng đã kết hợp vào vị trí ưa thích"
+  },
+  "steps": {
+    "title": "Cách kết hợp các tài liệu {{FileFormatUp}}",
+    "content": {
+      "title": "Với [{{ProdShortName}}]({{PlatformLink}}), việc kết hợp các tài liệu {{FileFormatUp}} là rất đơn giản. Nâng cao ứng dụng {{EnvName}} của bạn với khả năng kết hợp tài liệu hiệu quả.",
+      "step_1": "Cung cấp đường dẫn tệp cho tài liệu {{FileFormatUp}} đầu tiên.",
+      "step_2": "Chọn tài liệu thứ hai để kết hợp.",
+      "step_3": "Thiết lập các tham số tùy chọn cho việc tùy chỉnh.",
+      "step_4": "Thực hiện quá trình kết hợp và lưu tài liệu đầu ra."
+    }
+  },
+  "code_1": {
+    "title": "Kết hợp các trang được chọn từ các định dạng tài liệu khác nhau",
+    "content": "Ví dụ này minh họa cách kết hợp các tệp {{FileFormatUp}} trong khi chọn các trang cụ thể từ các tài liệu ở định dạng khác.",
+    "comment_1": "Xác định đường dẫn của tài liệu chính",
+    "comment_2": "Cấu hình tùy chọn để bao gồm các trang cụ thể",
+    "comment_3": "Kết hợp tệp chính với các trang đã chọn từ tài liệu khác",
+    "comment_4": "Lưu tài liệu cuối cùng tại vị trí mong muốn"
+  }
+}

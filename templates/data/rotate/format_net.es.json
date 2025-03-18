@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Rote las páginas de {{FileFormatUp}} en aplicaciones de {{EnvName}}",
+    "description": "Utilice {{ProdFullName}} para rotar páginas en documentos {{FileFormatUp}}. Administre PDFs, archivos de Word, hojas de Excel, presentaciones de PowerPoint, imágenes, archivos y más."
+  },
+  "header": {
+    "title": "Rotación de páginas en {{FileFormatUp}}",
+    "description": "{{ProdFullName}} mejora las aplicaciones de {{EnvNameShort}} al agregar características avanzadas de procesamiento de documentos. Rote páginas en archivos {{FileFormatUp}} y trabaje con formatos comerciales populares sin complicaciones.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descarga gratuita"
+  },
+  "about": {
+    "title": "Acerca de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una biblioteca integral para el procesamiento de documentos que admite más de 50 formatos de archivo, incluidos PDF, Word, Excel, PowerPoint, Visio, imágenes y archivos. Proporciona herramientas para combinar, dividir, extraer, reorganizar y eliminar páginas, mejorando la gestión de documentos en sus aplicaciones."
+  },
+  "more_features": {
+    "title": "Gestión de contenido de documentos potente",
+    "description": "{{ProdFullName}} incluye una amplia gama de funciones que permiten un procesamiento eficiente de más de 50 formatos de archivo comerciales comúnmente utilizados.",
+    "image_description": "Características clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combinar diferentes formatos de archivo",
+      "content": "Combine PDFs, documentos de Word, presentaciones, hojas de cálculo, diagramas de Visio, imágenes y archivos. Utilice diversas opciones para un resultado preciso."
+    },
+    "feature_2": {
+      "title": "Gestionar las páginas del documento",
+      "content": "Reorganice páginas moviéndolas, intercambiándolas o eliminándolas para estructurar mejor sus documentos."
+    },
+    "feature_3": {
+      "title": "Ajustar el diseño de la página",
+      "content": "Rote páginas a cualquier ángulo o cambie entre orientaciones vertical y horizontal."
+    },
+    "feature_4": {
+      "title": "Extraer páginas como archivos separados",
+      "content": "Seleccione una sola página o un rango de páginas y guárdelo como un nuevo archivo en una ubicación elegida."
+    }
+  },
+  "formats": {
+    "title": "Rote páginas en múltiples formatos",
+    "description": "{{ProdShortName}} admite más de 50 formatos de archivo, lo que le permite modificar documentos utilizando una variedad de operaciones."
+  },
+  "operations": {
+    "title": "Características clave",
+    "description": "Explore las potentes características que ofrece nuestra biblioteca de procesamiento de documentos."
+  },
+  "examples": {
+    "comment_1": "Cree una instancia de {{NameProduct}} y cargue el archivo de origen",
+    "comment_2": "Especifique el número de página a rotar",
+    "comment_3": "Ejecute la operación de rotación de página",
+    "comment_4": "Guarde el archivo de salida en la ubicación deseada"
+  },
+  "steps": {
+    "title": "Cómo rotar páginas de {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), puede rotar páginas en documentos {{FileFormatUp}}, agregando potentes capacidades de gestión de documentos a aplicaciones de {{EnvName}}.",
+      "step_1": "Defina la ruta de origen del archivo {{FileFormatUp}}.",
+      "step_2": "Seleccione el número de página a rotar.",
+      "step_3": "Ejecute la operación de rotación de página.",
+      "step_4": "Guarde el archivo modificado en su ubicación preferida."
+    }
+  },
+  "code_1": {
+    "title": "Rote todas las páginas de {{FileFormatUp}} de número par",
+    "content": "Este ejemplo demuestra cómo rotar todas las páginas de número par en un documento {{FileFormatUp}}.",
+    "comment_1": "Cargue el archivo de origen en el constructor",
+    "comment_2": "Obtenga el número total de páginas en el documento",
+    "comment_3": "Configure los ajustes de rotación para las páginas pares (180 grados)",
+    "comment_4": "Aplique la operación de rotación de página",
+    "comment_5": "Guarde el archivo de salida"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Atur Ulang Halaman {{FileFormatUp}} di {{EnvName}}",
+    "description": "Gunakan {{ProdFullName}} untuk dengan cepat mengatur ulang halaman dalam dokumen {{FileFormatUp}}. Proses file PDF, Word, Excel, PowerPoint, gambar, dan lainnya secara efisien."
+  },
+  "header": {
+    "title": "Atur Ulang Halaman dalam {{FileFormatUp}}",
+    "description": "{{ProdFullName}} memungkinkan aplikasi {{EnvNameShort}} untuk mengubah urutan halaman dalam dokumen {{FileFormatUp}} dengan mudah.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat pemrosesan dokumen yang serbaguna dan mendukung lebih dari 50 format file, termasuk PDF, Word, Excel, PowerPoint, gambar, dan arsip. Alat ini menyediakan fitur untuk menggabungkan, membagi, mengekstrak, memindahkan, menukar, dan menghapus halaman."
+  },
+  "more_features": {
+    "title": "Pemrosesan Dokumen Lanjutan",
+    "description": "{{ProdFullName}} menawarkan berbagai fitur untuk membantu Anda menangani lebih dari 50 format dokumen bisnis yang populer dengan efisien.",
+    "image_description": "Kemampuan utama {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan dokumen dari berbagai format",
+      "content": "Kombinasikan konten dari PDF, dokumen Word, presentasi, spreadsheet, gambar, dan arsip. Opsi fleksibel memungkinkan penyusunan dokumen yang tepat."
+    },
+    "feature_2": {
+      "title": "Organisasi halaman",
+      "content": "Atur ulang halaman dalam dokumen dengan memindahkan, menukar, atau menghapusnya sesuai kebutuhan."
+    },
+    "feature_3": {
+      "title": "Sesuaikan orientasi halaman",
+      "content": "Putar halaman ke sudut mana pun atau beralih antara mode potret dan lanskap."
+    },
+    "feature_4": {
+      "title": "Ekstrak halaman sebagai dokumen terpisah",
+      "content": "Pilih dan ekstrak halaman, menyimpannya sebagai file independen."
+    }
+  },
+  "formats": {
+    "title": "Atur Ulang Halaman dalam Berbagai Format",
+    "description": "{{ProdShortName}} mendukung lebih dari 50 format file, memberikan solusi fleksibel untuk organisasi dokumen."
+  },
+  "operations": {
+    "title": "Fitur Utama",
+    "description": "Jelajahi kemampuan kuat tambahan dari solusi kami."
+  },
+  "examples": {
+    "comment_1": "Inisialisasi objek {{NameProduct}} dengan path dokumen sumber",
+    "comment_2": "Pilih halaman yang akan dipindahkan",
+    "comment_3": "Atur ulang posisi halaman",
+    "comment_4": "Simpan dokumen yang diperbarui"
+  },
+  "steps": {
+    "title": "Cara Mengatur Ulang Halaman {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memudahkan pemindahan halaman dalam dokumen {{FileFormatUp}}. Tingkatkan aplikasi {{EnvName}} Anda dengan fitur manajemen dokumen yang canggih.",
+      "step_1": "Berikan path ke dokumen {{FileFormatUp}}.",
+      "step_2": "Pilih nomor halaman dan tentukan posisi barunya.",
+      "step_3": "Lakukan operasi pemindahan.",
+      "step_4": "Simpan dokumen yang dimodifikasi."
+    }
+  },
+  "code_1": {
+    "title": "Pindahkan halaman ke posisi terakhir dalam dokumen",
+    "content": "Contoh ini menunjukkan cara memindahkan halaman tertentu ke akhir dokumen {{FileFormatUp}}.",
+    "comment_1": "Atur path file sumber",
+    "comment_2": "Ambil detail dokumen dan tentukan nomor halaman terakhir",
+    "comment_3": "Konfigurasikan opsi dengan nomor halaman yang ditargetkan",
+    "comment_4": "Lakukan operasi pemindahan halaman",
+    "comment_5": "Simpan dokumen yang dimodifikasi"
+  }
+}

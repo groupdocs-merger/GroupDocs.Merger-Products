@@ -1,0 +1,217 @@
+{
+  "common-content": {
+    "format-formats": {
+      "word": {
+        "name": "워드",
+        "description": "Microsoft Word 문서"
+      },
+      "excel": {
+        "name": "엑셀",
+        "description": "Microsoft Excel 스프레드시트"
+      },
+      "powerpoint": {
+        "name": "파워포인트",
+        "description": "Microsoft PowerPoint 프레젠테이션"
+      },
+      "image": {
+        "name": "이미지",
+        "description": "인기 있는 이미지 형식"
+      },
+      "visio": {
+        "name": "비지오",
+        "description": "Microsoft Visio 다이어그램"
+      },
+      "pdf": {
+        "name": "PDF",
+        "description": "Adobe 휴대용 문서 형식"
+      },
+      "docx": {
+        "name": "DOCX",
+        "description": "Microsoft Word 개방형 XML 문서"
+      },
+      "xlsx": {
+        "name": "XLSX",
+        "description": "Microsoft Excel 개방형 XML 스프레드시트"
+      },
+      "pptx": {
+        "name": "PPTX",
+        "description": "PowerPoint 개방형 XML 프레젠테이션"
+      },
+      "bmp": {
+        "name": "BMP",
+        "description": "비트맵 이미지"
+      },
+      "jpeg": {
+        "name": "JPEG",
+        "description": "JPEG 이미지 파일"
+      },
+      "jpg": {
+        "name": "JPG",
+        "description": "JPEG 이미지 파일"
+      },
+      "png": {
+        "name": "PNG",
+        "description": "휴대용 네트워크 그래픽스"
+      },
+      "svg": {
+        "name": "SVG",
+        "description": "스칼라 벡터 그래픽스"
+      },
+      "tiff": {
+        "name": "TIFF",
+        "description": "태그 이미지 파일 형식"
+      },
+      "csv": {
+        "name": "CSV",
+        "description": "쉼표로 구분된 값 파일"
+      },
+      "epub": {
+        "name": "EPUB",
+        "description": "전자 출판물"
+      },
+      "html": {
+        "name": "HTML",
+        "description": "하이퍼텍스트 마크업 언어 파일"
+      },
+      "mhtml": {
+        "name": "MHTML",
+        "description": "MHTML 웹 아카이브"
+      },
+      "txt": {
+        "name": "TXT",
+        "description": "일반 텍스트 파일"
+      },
+      "xps": {
+        "name": "XPS",
+        "description": "XML 종이 사양 파일"
+      },
+      "zip": {
+        "name": "ZIP",
+        "description": "ZIP 아카이브"
+      }
+    },
+    "format-operations": {
+      "combine": {
+        "pdf": "PDF 문서 결합",
+        "docx": "DOCX 문서 병합",
+        "xlsx": "XLSX 문서 결합",
+        "pptx": "PPTX 문서 병합",
+        "epub": "EPUB 문서 결합"
+      },
+      "extract": {
+        "pdf": "PDF 페이지 추출",
+        "docx": "DOCX 페이지 저장",
+        "xlsx": "XLSX 페이지 추출",
+        "pptx": "PPTX 페이지 저장",
+        "epub": "EPUB 페이지 추출"
+      },
+      "join": {
+        "pdf": "PDF 파일 합치기",
+        "docx": "DOCX 파일 결합",
+        "xlsx": "XLSX 파일 합치기",
+        "pptx": "PPTX 파일 결합",
+        "epub": "EPUB 파일 합치기"
+      },
+      "move": {
+        "pdf": "PDF 페이지 이동",
+        "docx": "DOCX 페이지 재정렬",
+        "xlsx": "XLSX 페이지 이동",
+        "pptx": "PPTX 페이지 재정렬",
+        "epub": "EPUB 페이지 이동"
+      },
+      "remove": {
+        "pdf": "PDF 페이지 삭제",
+        "docx": "DOCX 페이지 삭제",
+        "xlsx": "XLSX 페이지 제거",
+        "pptx": "PPTX 페이지 제거",
+        "epub": "EPUB 페이지 삭제"
+      },
+      "rotate": {
+        "pdf": "PDF 페이지 회전",
+        "docx": "DOCX 페이지 회전",
+        "xlsx": "XLSX 페이지 회전",
+        "pptx": "PPTX 페이지 회전",
+        "epub": "EPUB 페이지 회전"
+      },
+      "split": {
+        "pdf": "PDF 파일 분할",
+        "docx": "DOCX 파일 분할",
+        "xlsx": "XLSX 파일 분할",
+        "pptx": "PPTX 파일 분할",
+        "epub": "EPUB 파일 분할"
+      },
+      "swap": {
+        "pdf": "PDF 파일 교환",
+        "docx": "DOCX 파일 교환",
+        "xlsx": "XLSX 파일 교환",
+        "pptx": "PPTX 파일 교환",
+        "epub": "EPUB 파일 교환"
+      },
+      "orientation": {
+        "pdf": "PDF 방향 변경",
+        "docx": "DOCX 방향 변경",
+        "xlsx": "XLSX 방향 변경",
+        "pptx": "PPTX 방향 변경",
+        "epub": "EPUB 방향 변경"
+      }
+    },
+    "format-code": {
+      "copy_title": "복사",
+      "result_title": "코드 결과",
+      "result_title_bottom": "결과 다운로드",
+      "copy_tip": "클릭하여 복사",
+      "copy_done": "복사 완료",
+      "links": {
+        "title_1": "더 많은 예시",
+        "title_2": "문서"
+      }
+    },
+    "format-actions": {
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}} 기능을 무료로 사용해보거나 라이센스를 요청하세요",
+      "comment_1": "{{PackageStoreName}} 다운로드",
+      "comment_2": "라이센스"
+    },
+    "texts": {
+      "learn_more": "자세히 알아보기"
+    },
+    "operations": {
+      "combine": {
+        "name": "문서 병합",
+        "description": "여러 문서를 하나로 결합"
+      },
+      "extract": {
+        "name": "페이지 추출",
+        "description": "선택한 페이지를 별도의 문서로 저장"
+      },
+      "join": {
+        "name": "문서 연결",
+        "description": "여러 문서를 하나로 결합"
+      },
+      "move": {
+        "name": "페이지 이동",
+        "description": "문서 내에서 페이지 위치 변경"
+      },
+      "remove": {
+        "name": "페이지 제거",
+        "description": "문서 페이지 삭제"
+      },
+      "rotate": {
+        "name": "페이지 회전",
+        "description": "문서 페이지 회전"
+      },
+      "split": {
+        "name": "문서 분할",
+        "description": "문서 분할"
+      },
+      "swap": {
+        "name": "페이지 교환",
+        "description": "문서 페이지 교환"
+      },
+      "orientation": {
+        "name": "방향 변경",
+        "description": "페이지 방향 변경"
+      }
+    }
+  }
+}

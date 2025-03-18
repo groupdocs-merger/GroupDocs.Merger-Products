@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Verbinden von {{FileFormatUp}}-Dateien in {{EnvName}}",
+    "description": "Integrieren Sie {{ProdFullName}} in Ihre {{EnvNameShort}}-Projekte, um {{FileFormatUp}}-Dateien zu verbinden."
+  },
+  "header": {
+    "title": "Verbinden von {{FileFormatUp}}-Dateien",
+    "description": "Nutzen Sie {{ProdFullName}}, um {{EnvNameShort}}-Anwendungen zu erstellen, die {{FileFormatUp}}-Dokumente effizient verbinden.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine umfassende Lösung zur Dokumentenverarbeitung. Sie unterstützt über 50 Formate, einschließlich PDF, Word, Excel, PowerPoint, Bilder und Archive, wodurch Sie Seiten problemlos verbinden, aufteilen, extrahieren, austauschen und entfernen können."
+  },
+  "more_features": {
+    "title": "Werkzeuge zum Verbinden von Dokumenten",
+    "description": "{{ProdFullName}} unterstützt über 50 gängige Geschäftsdateiformate und bietet umfangreiche Funktionen zur Dokumentenmanipulation.",
+    "image_description": "Hauptfunktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mehrere Dokumentenformate verbinden",
+      "content": "Verbinden Sie problemlos PDFs, Word-Dateien, Präsentationen, Tabellenkalkulationen, Bilder und mehr. Wählen Sie nach Bedarf spezifische Seiten aus."
+    },
+    "feature_2": {
+      "title": "Dokumentseiten bearbeiten",
+      "content": "Ordnen Sie Seiten in Ihren Geschäftsdokumenten um, löschen oder tauschen Sie sie aus, um sie nach Ihren Bedürfnissen zu strukturieren."
+    },
+    "feature_3": {
+      "title": "Seitenlayout anpassen",
+      "content": "Drehen Sie Seiten in jeden Winkel und passen Sie ihre Ausrichtung zwischen Hoch- und Querformat für unterstützte Dateitypen an."
+    },
+    "feature_4": {
+      "title": "Seiten extrahieren",
+      "content": "Wählen Sie spezifische Seiten aus und extrahieren Sie diese, indem Sie sie als neues Dokument speichern."
+    }
+  },
+  "formats": {
+    "title": "Verschiedene Dateiformate verbinden",
+    "description": "{{ProdShortName}} verarbeitet über 50 Dateiformate und ermöglicht nahtlose Geschäftsdokumentenverarbeitung."
+  },
+  "operations": {
+    "title": "Hauptfunktionen",
+    "description": "Entdecken Sie zusätzliche unterstützte Operationen."
+  },
+  "examples": {
+    "comment_1": "Erstellen Sie eine {{NameProduct}}-Instanz mit dem Eingangs-{{FileFormatUp}}-Dokument",
+    "comment_2": "Verbinden Sie die Datei mit einem anderen Dokument",
+    "comment_3": "Speichern Sie die verbundene Datei an dem angegebenen Speicherort"
+  },
+  "steps": {
+    "title": "Schritte zum Verbinden von {{FileFormatUp}}-Dateien",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht es Ihnen, {{FileFormatUp}}-Dateien effizient zu verbinden. Integrieren Sie diese Funktion in Ihre {{EnvName}}-Anwendungen, um mehrere Dokumente als eine einzige Datei zu behandeln.",
+      "step_1": "Legen Sie den Pfad zur ersten {{FileFormatUp}}-Datei fest.",
+      "step_2": "Wählen Sie die zweite Datei aus.",
+      "step_3": "Konfigurieren Sie die optionalen Einstellungen.",
+      "step_4": "Verbinden Sie die Dokumente und speichern Sie die Ausgabedatei."
+    }
+  },
+  "code_1": {
+    "title": "Ausgewählte Seiten aus Dateien unterschiedlicher Formate verbinden",
+    "content": "Dieses Beispiel veranschaulicht, wie {{FileFormatUp}}-Dateien verbunden werden, während ausgewählte Seiten aus anderen Formaten integriert werden.",
+    "comment_1": "Definieren Sie den Hauptdateipfad",
+    "comment_2": "Geben Sie Optionen an, um bestimmte Seiten auszuwählen",
+    "comment_3": "Verbinden Sie das Hauptdokument mit den ausgewählten Seiten aus einer anderen Datei",
+    "comment_4": "Speichern Sie das finale verbundene Dokument am angegebenen Ort"
+  }
+}

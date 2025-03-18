@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{EnvName}}에서 {{FileFormatUp}} 파일 결합",
+    "description": "{{ProdFullName}}를 사용하여 {{EnvNameShort}} 프로젝트에 {{FileFormatUp}} 파일 결합을 원활하게 통합하세요."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 파일 결합",
+    "description": "{{ProdFullName}}는 {{EnvNameShort}} 애플리케이션 내에서 {{FileFormatUp}} 문서를 결합하는 능력을 제공합니다. seamless한 통합과 높은 성능을 자랑합니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 다운로드"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 개요",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 PDF, Word, Excel, PowerPoint, 이미지, 아카이브 등 50개 이상의 파일 형식을 지원하는 기능이 풍부한 문서 처리 솔루션입니다. 강력한 도구 세트를 통해 문서를 효율적으로 결합, 분할, 추출, 교환 및 페이지를 제거할 수 있습니다."
+  },
+  "more_features": {
+    "title": "종합적인 문서 결합 기능",
+    "description": "{{ProdFullName}}는 다양한 문서 형식 처리를 최적화하여 비즈니스 문서 관리를 위한 폭넓은 기능을 제공합니다.",
+    "image_description": "{{ProdShortName}}의 핵심 기능",
+    "feature_1": {
+      "title": "여러 문서 유형 결합",
+      "content": "PDF, Word 파일, 프레젠테이션, 스프레드시트, 이미지 및 기타 문서 유형을 연속으로 결합할 수 있습니다. 원하는 페이지 범위를 정의하여 결합 과정을 사용자 정의하세요."
+    },
+    "feature_2": {
+      "title": "문서 페이지 수정 및 구성",
+      "content": "페이지를 재배치하고 원하지 않는 섹션을 삭제하거나 페이지를 교환하여 필요에 맞는 잘 구조화된 문서를 생성합니다."
+    },
+    "feature_3": {
+      "title": "페이지 레이아웃 및 방향 조정",
+      "content": "페이지를 원하는 각도로 회전시키고 다양한 파일 유형에 대해 가로 및 세로 방향을 조정할 수 있습니다."
+    },
+    "feature_4": {
+      "title": "특정 문서 페이지 추출 및 저장",
+      "content": "문서에서 특정 페이지를 선택하고 별도의 파일로 저장하여 쉽게 액세스하고 정리할 수 있도록 합니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 형식의 파일 결합",
+    "description": "50개 이상의 문서 유형을 지원하는 {{ProdShortName}}는 파일 처리를 간소화하여 문서 처리를 간편하고 효율적으로 만듭니다."
+  },
+  "operations": {
+    "title": "주요 기능",
+    "description": "{{ProdShortName}}에서 제공하는 추가 작업과 기능을 통해 문서 처리 경험을 향상하세요."
+  },
+  "examples": {
+    "comment_1": "원본 {{FileFormatUp}} 문서로 {{NameProduct}} 초기화",
+    "comment_2": "선택한 다른 파일과 문서 결합",
+    "comment_3": "최종 결합 문서를 선호 위치에 저장"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 문서 결합하는 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})를 사용하여 {{FileFormatUp}} 문서 결합이 간단합니다. {{EnvName}} 애플리케이션에 효율적인 문서 결합 기능을 추가하세요.",
+      "step_1": "첫 번째 {{FileFormatUp}} 문서의 파일 경로를 제공하세요.",
+      "step_2": "결합할 두 번째 문서를 선택하세요.",
+      "step_3": "사용자 정의를 위한 선택적 매개변수를 설정하세요.",
+      "step_4": "결합 프로세스를 실행하고 출력 문서를 저장하세요."
+    }
+  },
+  "code_1": {
+    "title": "다양한 문서 형식에서 선택한 페이지 결합",
+    "content": "이 예제는 다른 형식의 문서에서 특정 페이지를 선택하여 {{FileFormatUp}} 파일을 결합하는 방법을 보여줍니다.",
+    "comment_1": "주 문서의 경로 정의",
+    "comment_2": "특정 페이지 포함을 위한 옵션 구성",
+    "comment_3": "주 파일과 선택한 페이지를 다른 문서와 결합",
+    "comment_4": "원하는 위치에 최종 문서를 저장"
+  }
+}

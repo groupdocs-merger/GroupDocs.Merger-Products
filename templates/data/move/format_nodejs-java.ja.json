@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} のページを再配置する - {{EnvName}}",
+    "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ドキュメントのページ順を変更します。PDF、Word、Excel、PowerPoint、画像などを処理できます。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}} のページを再配置",
+    "description": "{{ProdFullName}}は、{{EnvNameShort}}アプリケーションに対して、{{FileFormatUp}}ドキュメントのページ順を変更する機能を提供します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料で試す"
+  },
+  "about": {
+    "title": "{{ProdShortName}} について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word、Excel、PowerPoint、画像、アーカイブなど、50以上のファイル形式をサポートする堅牢なドキュメント処理ツールです。マージ、分割、抽出、再配置、スワップ、ページの削除のための強力な機能を提供します。"
+  },
+  "more_features": {
+    "title": "包括的なドキュメント処理",
+    "description": "{{ProdFullName}}は、50以上の一般的なビジネスファイル形式を効率的に扱うことができる豊富な機能セットを提供します。",
+    "image_description": "{{ProdShortName}} の主な機能",
+    "feature_1": {
+      "title": "異なるタイプのドキュメントをマージ",
+      "content": "PDF、Wordファイル、プレゼンテーション、スプレッドシート、画像、アーカイブからコンテンツを結合します。最終的なドキュメント構造をカスタマイズするための柔軟なオプションを使用できます。"
+    },
+    "feature_2": {
+      "title": "ドキュメントのページを変更",
+      "content": "必要に応じてページを移動、スワップ、削除することで、ドキュメント内のページを再配置します。"
+    },
+    "feature_3": {
+      "title": "ページのレイアウトと向きを調整",
+      "content": "ページを任意の角度に回転させたり、縦横モードを切り替えたりできます。"
+    },
+    "feature_4": {
+      "title": "ページを別々のドキュメントとして抽出",
+      "content": "特定のページを選択し、スタンドアロンファイルとして保存できます。"
+    }
+  },
+  "formats": {
+    "title": "複数の形式でページを再配置",
+    "description": "{{ProdShortName}}は、50以上のファイル形式をサポートし、ドキュメント操作の柔軟性と精度を提供します。"
+  },
+  "operations": {
+    "title": "主要機能",
+    "description": "私たちのソリューションに含まれる他の重要な機能を発見します。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}インスタンスをソースドキュメントで初期化します",
+    "comment_2": "移動が必要なページ番号を定義します",
+    "comment_3": "選択したページの位置を再配置します",
+    "comment_4": "修正したドキュメントを保存します"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} のページを再配置する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})は、{{FileFormatUp}}ドキュメント内のページを移動するプロセスを簡素化します。高度なドキュメント整理機能で、{{EnvName}}アプリケーションを強化します。",
+      "step_1": "{{FileFormatUp}}ドキュメントのパスを指定します。",
+      "step_2": "ページ番号とその新しい位置を示します。",
+      "step_3": "ページ移動操作を実行します。",
+      "step_4": "修正したドキュメントを保存します。"
+    }
+  },
+  "code_1": {
+    "title": "ドキュメントの最後の位置にページを移動",
+    "content": "この例は、{{FileFormatUp}}ドキュメントの最後にページを移動する方法を説明しています。",
+    "comment_1": "ソースドキュメントのパスを提供します",
+    "comment_2": "ドキュメントの詳細を取得し、最後のページ番号を特定します",
+    "comment_3": "ターゲットページ番号で移動操作を設定します",
+    "comment_4": "移動操作を実行します",
+    "comment_5": "希望の場所に更新されたドキュメントを保存します"
+  }
+}

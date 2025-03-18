@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} 페이지 이동하기 in {{EnvName}}",
+    "description": "{{ProdFullName}}을 사용하여 {{FileFormatUp}} 문서에서 페이지를 순서대로 재배치하세요. PDF, Word, Excel, PowerPoint, 이미지 등 다양한 형식을 간편하게 처리합니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}에서 페이지 이동하기",
+    "description": "{{ProdFullName}}은 {{EnvNameShort}} 애플리케이션이 {{FileFormatUp}} 문서에서 페이지를 원활하게 재배치할 수 있도록 지원합니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료로 가져오기"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 정보",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 PDF, Word, Excel, PowerPoint, 이미지 및 아카이브를 포함하여 50개 이상의 파일 형식을 지원하는 강력한 문서 처리 도구입니다. 문서 병합, 분할, 추출, 이동, 스왑 및 페이지 제거와 같은 필수 기능을 제공합니다."
+  },
+  "more_features": {
+    "title": "효율적인 문서 처리",
+    "description": "{{ProdFullName}}은 50개 이상의 일반 비즈니스 파일 형식을 처리할 수 있는 포괄적인 기능 세트를 제공하도록 설계되었습니다.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "다양한 형식의 문서 결합",
+      "content": "PDF, Word 문서, 프레젠테이션, 스프레드시트, 이미지, 아카이브 등에서 콘텐츠를 병합합니다. 정밀한 결과를 얻기 위해 유연한 옵션을 사용하세요."
+    },
+    "feature_2": {
+      "title": "페이지 조작",
+      "content": "문서 내 페이지의 위치를 조정합니다. 비즈니스 문서 내용을 효과적으로 관리하기 위해 페이지를 이동, 교환 또는 제거하세요."
+    },
+    "feature_3": {
+      "title": "페이지 외관 조정",
+      "content": "페이지를 원하는 각도로 회전하거나 가로 및 세로 방향을 전환합니다."
+    },
+    "feature_4": {
+      "title": "페이지를 개별 파일로 추출",
+      "content": "하나 이상의 페이지를 추출하여 독립적인 문서로 저장합니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 형식으로 문서 페이지 재정렬",
+    "description": "{{ProdShortName}}은 50개 이상의 파일 형식을 지원하여 효율적이고 유연한 문서 조작이 가능합니다."
+  },
+  "operations": {
+    "title": "주요 기능",
+    "description": "우리 솔루션의 다른 인기 기능을 알아보세요."
+  },
+  "examples": {
+    "comment_1": "소스 경로를 전달하여 {{NameProduct}} 객체를 생성합니다.",
+    "comment_2": "이동할 페이지를 지정합니다.",
+    "comment_3": "페이지를 이동합니다.",
+    "comment_4": "처리된 문서를 저장합니다."
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 페이지 이동 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})을 사용하면 {{FileFormatUp}} 문서에서 선택한 페이지를 이동할 수 있습니다. {{EnvName}} 애플리케이션에서 고급 문서 처리 기능을 향상하세요.",
+      "step_1": "원본 {{FileFormatUp}} 파일 경로를 지정합니다.",
+      "step_2": "페이지 번호와 새로운 위치를 설정합니다.",
+      "step_3": "이동 작업을 수행합니다.",
+      "step_4": "결과를 저장합니다."
+    }
+  },
+  "code_1": {
+    "title": "문서 끝으로 페이지 이동하기",
+    "content": "{{FileFormatUp}} 문서의 특정 페이지를 문서 끝으로 이동하는 방법을 배워보세요.",
+    "comment_1": "생성자에게 원본 파일 경로를 전달합니다.",
+    "comment_2": "문서 정보 및 마지막 페이지 번호를 가져옵니다.",
+    "comment_3": "페이지 번호와 함께 옵션을 설정합니다.",
+    "comment_4": "문서를 처리하여 페이지를 끝으로 이동합니다.",
+    "comment_5": "문서를 새로운 위치에 저장합니다."
+  }
+}

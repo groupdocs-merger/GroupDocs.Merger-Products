@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}ページの削除 - {{EnvName}}アプリ",
+    "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ドキュメントから特定のページを削除します。PDF、Word、Excel、PowerPoint、画像、アーカイブなどを効果的に処理します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}からのページ削除",
+    "description": "{{ProdFullName}}は、{{EnvNameShort}}アプリケーションに強力なドキュメント処理機能を追加し、{{FileFormatUp}}ファイルからのページ削除を実現します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料で入手"
+  },
+  "about": {
+    "title": "{{ProdShortName}}とは？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word、Excel、PowerPoint、Visio、画像、アーカイブなど、50以上のファイル形式をサポートする機能豊富なドキュメント処理ツールです。ドキュメントの管理を効率化するために、ページのマージ、分割、抽出、移動、入れ替え、削除が可能です。"
+  },
+  "more_features": {
+    "title": "高度なドキュメント管理",
+    "description": "{{ProdFullName}}は、50以上の広く使用されているファイル形式を扱うための完全なツールセットを提供し、ドキュメント処理を容易かつ効率的に行います。",
+    "image_description": "{{ProdShortName}}の主要な機能",
+    "feature_1": {
+      "title": "複数のファイル形式をマージ",
+      "content": "PDF、Word文書、スプレッドシート、プレゼンテーション、画像、アーカイブをカスタマイズ可能なマージオプションで結合し、正確な結果を得ます。"
+    },
+    "feature_2": {
+      "title": "柔軟なページ管理",
+      "content": "文書のページを移動、入れ替え、削除して、ファイルを整理します。"
+    },
+    "feature_3": {
+      "title": "ページレイアウトのカスタマイズ",
+      "content": "ページを任意の角度に回転させたり、横向きと縦向きのオリエンテーションを切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "特定のページを別ファイルとして抽出",
+      "content": "特定のページを選択して、スタンドアロンのドキュメントとして保存します。"
+    }
+  },
+  "formats": {
+    "title": "さまざまなドキュメント形式からのページ削除",
+    "description": "{{ProdShortName}}は50以上のファイル形式をサポートし、ドキュメントを迅速かつ効果的に変更できます。"
+  },
+  "operations": {
+    "title": "主要な機能",
+    "description": "ドキュメント処理ソリューションの追加機能を発見してください。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}インスタンスを作成し、ファイルパスを指定します。",
+    "comment_2": "削除するページ番号を定義します。",
+    "comment_3": "削除設定を適用します。",
+    "comment_4": "修正されたドキュメントを保存します。"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}からページを削除する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})は、{{FileFormatUp}}ドキュメントからページを削除するのを簡単にします。これを{{EnvName}}アプリケーションに統合し、ドキュメント管理能力を向上させます。",
+      "step_1": "{{FileFormatUp}}ファイルのパスを指定します。",
+      "step_2": "削除するページ番号を設定します。",
+      "step_3": "ページ削除操作を実行します。",
+      "step_4": "更新されたドキュメントを保存します。"
+    }
+  },
+  "code_1": {
+    "title": "偶数ページの削除",
+    "content": "{{FileFormatUp}}ドキュメントから偶数ページを削除する方法を学びます。",
+    "comment_1": "コンストラクタにファイルパスを提供します。",
+    "comment_2": "ドキュメント内の総ページ数を取得します。",
+    "comment_3": "偶数ページを削除する設定を構成します。",
+    "comment_4": "ドキュメントを処理します。",
+    "comment_5": "指定した場所に更新されたファイルを保存します。"
+  }
+}

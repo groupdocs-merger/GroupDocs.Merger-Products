@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Supprimer les pages {{FileFormatUp}} dans les applications {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour retirer des pages spécifiques des documents {{FileFormatUp}}. Traitez rapidement les PDF, Word, Excel, PowerPoint, images, archives et plus encore."
+  },
+  "header": {
+    "title": "Supprimer des pages dans {{FileFormatUp}}",
+    "description": "{{ProdFullName}} améliore les applications {{EnvNameShort}} avec des fonctionnalités puissantes de traitement de documents, y compris la suppression de pages dans des fichiers {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenez-le gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil robuste de traitement de documents qui prend en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, Visio, images et archives. Il offre des fonctionnalités telles que fusionner, séparer, extraire, déplacer, échanger et supprimer des pages pour améliorer vos applications."
+  },
+  "more_features": {
+    "title": "Traitement de documents avancé",
+    "description": "{{ProdFullName}} fournit un ensemble complet de fonctionnalités, vous permettant de travailler de manière efficace avec plus de 50 formats de fichiers métiers populaires.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner des fichiers dans différents formats",
+      "content": "Combinez des PDF, des documents Word, des présentations, des tableurs, des images et des archives avec des options de fusion flexibles pour des résultats précis."
+    },
+    "feature_2": {
+      "title": "Gestion des pages",
+      "content": "Réorganisez les pages de document en les déplaçant, en les échangeant ou en les supprimant pour une organisation efficace du contenu."
+    },
+    "feature_3": {
+      "title": "Modifier la mise en page des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle ou changez entre orientations paysage et portrait."
+    },
+    "feature_4": {
+      "title": "Extraire des pages dans des fichiers séparés",
+      "content": "Sélectionnez des pages spécifiques et enregistrez-les en tant que documents autonomes."
+    }
+  },
+  "formats": {
+    "title": "Supprimer des pages de plusieurs formats de documents",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de fichiers, permettant des modifications de documents rapides et pratiques."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés",
+    "description": "Découvrez d'autres fonctionnalités puissantes de notre solution."
+  },
+  "examples": {
+    "comment_1": "Créez une instance de {{NameProduct}} avec le chemin du fichier",
+    "comment_2": "Spécifiez le numéro de page à supprimer",
+    "comment_3": "Appliquez les options de suppression des pages",
+    "comment_4": "Enregistrez le document modifié"
+  },
+  "steps": {
+    "title": "Comment supprimer des pages dans {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vous permet de retirer des pages des documents {{FileFormatUp}}. Améliorez vos applications {{EnvName}} avec des capacités avancées de gestion de documents.",
+      "step_1": "Spécifiez le chemin du fichier {{FileFormatUp}}.",
+      "step_2": "Définissez les pages à supprimer.",
+      "step_3": "Exécutez l'opération de suppression de pages.",
+      "step_4": "Enregistrez le fichier mis à jour."
+    }
+  },
+  "code_1": {
+    "title": "Comment supprimer toutes les pages paires",
+    "content": "Apprenez à supprimer les pages numérotées paires d'un document {{FileFormatUp}}.",
+    "comment_1": "Fournissez le chemin du fichier au constructeur",
+    "comment_2": "Récupérez le nombre total de pages",
+    "comment_3": "Définissez les options pour supprimer les pages paires",
+    "comment_4": "Traitez le document",
+    "comment_5": "Enregistrez le fichier modifié à l'emplacement souhaité"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Seiten in {{FileFormatUp}}-Dateien mit {{EnvName}}-Apps austauschen",
+    "description": "Verwenden Sie {{ProdFullName}}, um Seiten in {{FileFormatUp}}-Dokumenten neu anzuordnen. Modifizieren Sie PDFs, Word-Dateien, Tabellenkalkulationen, Präsentationen, Visio-Diagramme, Bilder, Archive und mehr."
+  },
+  "header": {
+    "title": "Seiten in {{FileFormatUp}} austauschen",
+    "description": "{{ProdFullName}} erweitert {{EnvNameShort}}-Anwendungen um flexible Funktionen zur Dokumentenmanipulation. Ordnen Sie Seiten in {{FileFormatUp}}-Dateien neu an, um die Struktur des Inhalts zu optimieren.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "{{ProdShortName}}-Funktionen",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine leistungsstarke Bibliothek zur Dokumentenverarbeitung, die über 50 Dateiformate unterstützt, darunter PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive. Integrieren Sie sie in Ihre Anwendungen, um Seiten aus verschiedenen Dokumenttypen zusammenzuführen, zu teilen, zu extrahieren, neu anzuordnen, auszutauschen und zu entfernen."
+  },
+  "more_features": {
+    "title": "Erweitete Dokumentenverarbeitung",
+    "description": "{{ProdFullName}} bietet eine umfassende Palette an Werkzeugen zur effizienten Verwaltung und Manipulation von Dokumenten in über 50 Formaten.",
+    "image_description": "Wesentliche Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mehrere Dokumentformate zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, Tabellenkalkulationen, Präsentationen, Visio-Dateien, Bilder und Archive. Passen Sie das Ergebnis mit Anpassungsoptionen an."
+    },
+    "feature_2": {
+      "title": "Dokumentenlayout ändern",
+      "content": "Ordnen Sie Inhalte durch Austauschen, Neuanordnen oder Entfernen von Seiten um, um die Struktur des Dokuments zu verbessern."
+    },
+    "feature_3": {
+      "title": "Seitenorientierung ändern",
+      "content": "Drehen Sie Seiten in jeden Winkel oder wechseln Sie nach Bedarf zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Bestimmte Seiten extrahieren",
+      "content": "Wählen Sie bestimmte Seiten oder Seitenbereiche aus, um neue Dokumente zu erstellen."
+    }
+  },
+  "formats": {
+    "title": "Seiten in verschiedenen Dateitypen neu anordnen",
+    "description": "{{ProdShortName}} unterstützt mehr als 50 Formate, was präzise Dokumentenmodifikationen ermöglicht."
+  },
+  "operations": {
+    "title": "Kernfunktionen",
+    "description": "Entdecken Sie die wesentlichen Funktionen unserer Bibliothek zur Dokumentenverarbeitung."
+  },
+  "examples": {
+    "comment_1": "Laden Sie das Dokument in {{NameProduct}}",
+    "comment_2": "Geben Sie die Seiten an, die ausgetauscht werden sollen",
+    "comment_3": "Führen Sie die Swap-Operation aus",
+    "comment_4": "Speichern Sie die modifizierte Datei an einem neuen Ort"
+  },
+  "steps": {
+    "title": "So ordnen Sie {{FileFormatUp}}-Seiten neu an",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vereinfacht das Neuanordnen von Seiten in {{FileFormatUp}}-Dokumenten und gibt Ihnen die volle Kontrolle über die Organisation des Inhalts. Integrieren Sie nahtlose Dokumentenverarbeitung in Ihre {{EnvName}}-Anwendungen.",
+      "step_1": "Definieren Sie den Pfad zur {{FileFormatUp}}-Datei.",
+      "step_2": "Wählen Sie die Seiten aus, die ausgetauscht oder neu angeordnet werden sollen.",
+      "step_3": "Verwenden Sie die entsprechende Methode zur Modifikation des Dokuments.",
+      "step_4": "Speichern Sie die aktualisierte Datei am gewünschten Ort."
+    }
+  },
+  "code_1": {
+    "title": "Erstens und zuletzt Seiten in einer {{FileFormatUp}}-Datei austauschen",
+    "content": "Dieses Beispiel zeigt, wie man Seiten in einer {{FileFormatUp}}-Datei mit nur wenigen einfachen Schritten austauscht.",
+    "comment_1": "Laden Sie das Originaldokument",
+    "comment_2": "Holen Sie die Gesamtzahl der Seiten ab",
+    "comment_3": "Definieren Sie die Austausch-Einstellungen mit Seitennummern",
+    "comment_4": "Führen Sie die Seitenwechseloperation aus",
+    "comment_5": "Speichern Sie das modifizierte Dokument"
+  }
+}

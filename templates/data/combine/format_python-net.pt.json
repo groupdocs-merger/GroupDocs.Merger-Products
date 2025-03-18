@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Mesclar arquivos {{FileFormatUp}} em {{EnvName}}",
+    "description": "Integre perfeitamente a mesclagem de arquivos {{FileFormatUp}} em seus projetos {{EnvNameShort}} utilizando {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Mesclar arquivos {{FileFormatUp}}",
+    "description": "{{ProdFullName}} permite que você mescle documentos {{FileFormatUp}} de forma eficiente em suas aplicações {{EnvNameShort}}, proporcionando integração fluida e alto desempenho.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Grátis"
+  },
+  "about": {
+    "title": "Visão Geral do {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma solução de processamento de documentos rica em recursos, suportando mais de 50 formatos de arquivos, incluindo PDF, Word, Excel, PowerPoint, imagens e arquivos compactados. Com um conjunto robusto de ferramentas, você pode mesclar, dividir, extrair, trocar e remover páginas de forma eficiente."
+  },
+  "more_features": {
+    "title": "Capacidades abrangentes de mesclagem de documentos",
+    "description": "{{ProdFullName}} é otimizado para manipular uma ampla variedade de formatos de documentos, oferecendo características extensivas para gerenciar documentos empresariais.",
+    "image_description": "Funcionalidades principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mesclar vários tipos de documentos",
+      "content": "Combine PDFs, arquivos do Word, apresentações, planilhas, imagens e outros tipos de documentos. Defina intervalos de páginas específicos para personalizar o processo de mesclagem."
+    },
+    "feature_2": {
+      "title": "Modificar e organizar páginas de documentos",
+      "content": "Reorganize páginas, exclua seções indesejadas ou troque páginas para criar documentos bem estruturados adaptados às suas necessidades."
+    },
+    "feature_3": {
+      "title": "Customizar layout e orientação de páginas",
+      "content": "Gire as páginas em qualquer ângulo desejado e ajuste a orientação das páginas entre paisagem e retrato para vários tipos de arquivos."
+    },
+    "feature_4": {
+      "title": "Extrair e salvar páginas específicas de documentos",
+      "content": "Selecione páginas específicas de um documento e salve-as como um arquivo separado, garantindo fácil acesso e organização."
+    }
+  },
+  "formats": {
+    "title": "Combinar arquivos em diferentes formatos",
+    "description": "Com suporte a mais de 50 tipos de documentos, {{ProdShortName}} simplifica o processamento de arquivos, tornando o manuseio de documentos simples e eficiente."
+  },
+  "operations": {
+    "title": "Funcionalidades principais",
+    "description": "Descubra operações e recursos adicionais suportados pelo {{ProdShortName}} para aprimorar sua experiência de processamento de documentos."
+  },
+  "examples": {
+    "comment_1": "Inicialize o {{NameProduct}} com o documento {{FileFormatUp}} fonte",
+    "comment_2": "Mescle o documento com outro arquivo selecionado",
+    "comment_3": "Salve o documento final mesclado em um local preferido"
+  },
+  "steps": {
+    "title": "Como mesclar documentos {{FileFormatUp}}",
+    "content": {
+      "title": "Com [{{ProdShortName}}]({{PlatformLink}}), mesclar documentos {{FileFormatUp}} é simples. Aprimore suas aplicações {{EnvName}} com capacidades eficientes de combinação de documentos.",
+      "step_1": "Forneça o caminho do arquivo para o primeiro documento {{FileFormatUp}}.",
+      "step_2": "Selecione o segundo documento a ser mesclado.",
+      "step_3": "Defina parâmetros opcionais para personalização.",
+      "step_4": "Execute o processo de mesclagem e salve o documento de saída."
+    }
+  },
+  "code_1": {
+    "title": "Mesclar páginas selecionadas de diferentes formatos de documentos",
+    "content": "Este exemplo demonstra como mesclar arquivos {{FileFormatUp}} enquanto seleciona páginas específicas de documentos em outros formatos.",
+    "comment_1": "Defina o caminho do documento principal",
+    "comment_2": "Configure opções para incluir páginas específicas",
+    "comment_3": "Mescle o arquivo principal com páginas selecionadas de outro documento",
+    "comment_4": "Salve o documento final no local desejado"
+  }
+}

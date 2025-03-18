@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Sắp xếp lại các trang {{FileFormatUp}} trong {{EnvName}}",
+    "description": "Sử dụng {{ProdFullName}} để nhanh chóng thay đổi thứ tự các trang trong tài liệu {{FileFormatUp}}. Xử lý các tệp PDF, Word, Excel, PowerPoint, hình ảnh và nhiều định dạng khác."
+  },
+  "header": {
+    "title": "Sắp xếp lại các trang trong {{FileFormatUp}}",
+    "description": "{{ProdFullName}} cho phép các ứng dụng {{EnvNameShort}} chỉnh sửa thứ tự các trang trong tài liệu {{FileFormatUp}} một cách hiệu quả.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một công cụ xử lý tài liệu đa năng hỗ trợ hơn 50 định dạng tệp, bao gồm PDF, Word, Excel, PowerPoint, hình ảnh và tệp lưu trữ. Nó cung cấp các tính năng để hợp nhất, tách, trích xuất, di chuyển, hoán đổi và xóa các trang."
+  },
+  "more_features": {
+    "title": "Xử lý tài liệu nâng cao",
+    "description": "{{ProdFullName}} cung cấp nhiều tính năng để giúp bạn quản lý hiệu quả hơn 50 định dạng tài liệu doanh nghiệp phổ biến.",
+    "image_description": "Các khả năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hợp nhất tài liệu với các định dạng khác nhau",
+      "content": "Kết hợp nội dung từ tệp PDF, tài liệu Word, bài thuyết trình, bảng tính, hình ảnh và các tệp lưu trữ. Các tùy chọn linh hoạt cho phép cấu trúc tài liệu chính xác."
+    },
+    "feature_2": {
+      "title": "Tổ chức trang",
+      "content": "Sắp xếp lại các trang trong tài liệu bằng cách di chuyển, hoán đổi hoặc xóa chúng theo nhu cầu."
+    },
+    "feature_3": {
+      "title": "Điều chỉnh hướng trang",
+      "content": "Xoay trang ở bất kỳ góc độ nào hoặc chuyển đổi giữa chế độ chân dung và phong cảnh."
+    },
+    "feature_4": {
+      "title": "Trích xuất các trang thành các tài liệu riêng biệt",
+      "content": "Chọn và trích xuất các trang, lưu chúng dưới dạng các tệp độc lập."
+    }
+  },
+  "formats": {
+    "title": "Sắp xếp lại các trang trong nhiều định dạng",
+    "description": "{{ProdShortName}} hỗ trợ hơn 50 định dạng tệp, cung cấp một giải pháp linh hoạt cho việc tổ chức tài liệu."
+  },
+  "operations": {
+    "title": "Các tính năng chính",
+    "description": "Khám phá các khả năng mạnh mẽ bổ sung của giải pháp của chúng tôi."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo một đối tượng {{NameProduct}} với đường dẫn tài liệu gốc",
+    "comment_2": "Chọn trang cần di chuyển",
+    "comment_3": "Đổi vị trí của trang",
+    "comment_4": "Lưu tài liệu đã cập nhật"
+  },
+  "steps": {
+    "title": "Cách sắp xếp lại các trang {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp bạn dễ dàng di chuyển các trang trong tài liệu {{FileFormatUp}}. Nâng cấp ứng dụng {{EnvName}} của bạn với các tính năng quản lý tài liệu tiên tiến.",
+      "step_1": "Cung cấp đường dẫn đến tài liệu {{FileFormatUp}}.",
+      "step_2": "Chọn số trang và xác định vị trí mới của nó.",
+      "step_3": "Thực hiện thao tác di chuyển.",
+      "step_4": "Lưu tài liệu đã sửa đổi."
+    }
+  },
+  "code_1": {
+    "title": "Di chuyển một trang đến vị trí cuối cùng trong tài liệu",
+    "content": "Ví dụ này minh họa cách di chuyển một trang cụ thể đến cuối tài liệu {{FileFormatUp}}.",
+    "comment_1": "Đặt đường dẫn tệp nguồn",
+    "comment_2": "Lấy thông tin tài liệu và xác định số trang cuối",
+    "comment_3": "Cấu hình tùy chọn với số trang đích",
+    "comment_4": "Thực hiện thao tác di chuyển trang",
+    "comment_5": "Lưu tài liệu đã sửa đổi"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Unir arquivos {{FileFormatUp}} em {{EnvName}}",
+    "description": "Use {{ProdFullName}} para adicionar capacidades de junção de documentos {{FileFormatUp}} às suas aplicações {{EnvNameShort}}."
+  },
+  "header": {
+    "title": "Unir arquivos {{FileFormatUp}}",
+    "description": "{{ProdFullName}} permite que você desenvolva aplicações {{EnvNameShort}} que juntam eficientemente múltiplos documentos {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Grátis"
+  },
+  "about": {
+    "title": "Sobre {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma poderosa biblioteca de processamento de documentos que suporta mais de 50 formatos de arquivo, incluindo PDF, Word, Excel, PowerPoint, imagens e arquivos compactados. Ela permite que você una, divida, extraia, reorganize e remova páginas de documentos."
+  },
+  "more_features": {
+    "title": "Ferramentas de junção de documentos",
+    "description": "{{ProdFullName}} suporta mais de 50 formatos de arquivo comuns de negócios, oferecendo uma variedade de recursos de processamento de documentos.",
+    "image_description": "Recursos principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unir diferentes formatos de documentos",
+      "content": "Una documentos como PDFs, arquivos Word, apresentações, planilhas, imagens, entre outros. Especifique quais páginas incluir para resultados precisos."
+    },
+    "feature_2": {
+      "title": "Gestão de páginas",
+      "content": "Mova, remova ou reorganize facilmente páginas selecionadas para estruturar seus documentos conforme necessário."
+    },
+    "feature_3": {
+      "title": "Ajustar layout da página",
+      "content": "Gire páginas em qualquer ângulo e alterne entre orientações paisagem e retrato."
+    },
+    "feature_4": {
+      "title": "Extrair páginas específicas",
+      "content": "Selecione e extraia páginas de um documento, salvando-as como um arquivo separado."
+    }
+  },
+  "formats": {
+    "title": "Unir vários formatos de arquivo",
+    "description": "{{ProdShortName}} suporta mais de 50 formatos de arquivo, tornando o processamento de documentos eficiente e flexível."
+  },
+  "operations": {
+    "title": "Recursos principais",
+    "description": "Descubra capacidades adicionais de gerenciamento de documentos."
+  },
+  "examples": {
+    "comment_1": "Inicialize {{NameProduct}} com o documento de entrada {{FileFormatUp}}",
+    "comment_2": "Una o documento com outro arquivo",
+    "comment_3": "Salve o documento unido no local desejado"
+  },
+  "steps": {
+    "title": "Como unir documentos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) oferece uma maneira de unir documentos {{FileFormatUp}}. Melhore suas aplicações {{EnvName}} combinando vários arquivos em um.",
+      "step_1": "Especifique o caminho para o primeiro arquivo {{FileFormatUp}}.",
+      "step_2": "Selecione o segundo arquivo a ser unido.",
+      "step_3": "Defina opções adicionais, se necessário.",
+      "step_4": "Una os arquivos e salve a saída."
+    }
+  },
+  "code_1": {
+    "title": "Unir páginas específicas de diferentes formatos de documentos",
+    "content": "Este exemplo mostra como unir arquivos {{FileFormatUp}} enquanto seleciona páginas específicas de outros formatos.",
+    "comment_1": "Especifique o caminho do arquivo principal",
+    "comment_2": "Defina opções para selecionar páginas específicas",
+    "comment_3": "Una o documento principal com as páginas selecionadas de outro arquivo",
+    "comment_4": "Salve o documento unido em um novo local"
+  }
+}

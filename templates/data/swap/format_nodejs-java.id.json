@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Tukar halaman dalam file {{FileFormatUp}} dengan aplikasi {{EnvName}}",
+    "description": "Gunakan {{ProdFullName}} untuk mengubah urutan halaman dalam dokumen {{FileFormatUp}}. Kelola PDF, file Word, spreadsheet, presentasi, gambar, dan banyak lagi."
+  },
+  "header": {
+    "title": "Tukar halaman {{FileFormatUp}}",
+    "description": "{{ProdFullName}} menambahkan fitur pengeditan dokumen canggih ke aplikasi {{EnvNameShort}}. Ubah urutan halaman dalam file {{FileFormatUp}} untuk meningkatkan struktur dan keterbacaan.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh gratis"
+  },
+  "about": {
+    "title": "Kemampuan {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah pustaka pemrosesan dokumen serbaguna yang mendukung lebih dari 50 format file, termasuk PDF, dokumen Word, spreadsheet Excel, presentasi PowerPoint, diagram Visio, gambar, dan arsip. Gunakan untuk menggabungkan, membagi, mengekstrak, mengatur ulang, menukar, dan menghapus halaman di berbagai jenis dokumen."
+  },
+  "more_features": {
+    "title": "Manajemen dokumen yang kuat",
+    "description": "{{ProdFullName}} menawarkan satu set alat komprehensif untuk memodifikasi dan mengorganisir dokumen dalam lebih dari 50 format.",
+    "image_description": "Fitur kunci dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan berbagai jenis dokumen",
+      "content": "Kombinasikan file PDF, file Word, spreadsheet, presentasi, gambar, dan file arsip. Sesuaikan output sesuai kebutuhan Anda."
+    },
+    "feature_2": {
+      "title": "Mengatur ulang tata letak dokumen",
+      "content": "Modifikasi struktur dokumen Anda dengan memindahkan, menukar, atau menghapus halaman untuk meningkatkan organisasi."
+    },
+    "feature_3": {
+      "title": "Ubah orientasi halaman",
+      "content": "Putar halaman ke sudut mana pun atau beralih antara mode potret dan lanskap sesuai kebutuhan."
+    },
+    "feature_4": {
+      "title": "Ekstrak halaman tertentu",
+      "content": "Pilih dan ekstrak halaman individu atau rentang halaman untuk membuat dokumen baru."
+    }
+  },
+  "formats": {
+    "title": "Ubah urutan halaman dalam berbagai format",
+    "description": "{{ProdShortName}} mendukung lebih dari 50 format file, memungkinkan Anda untuk menyempurnakan tata letak dokumen tanpa kesulitan."
+  },
+  "operations": {
+    "title": "Fitur utama",
+    "description": "Jelajahi fungsionalitas utama pustaka pemrosesan dokumen kami."
+  },
+  "examples": {
+    "comment_1": "Muat dokumen ke dalam {{NameProduct}}",
+    "comment_2": "Tentukan halaman yang akan ditukar",
+    "comment_3": "Laksanakan operasi tukar",
+    "comment_4": "Simpan file yang diperbarui ke lokasi baru"
+  },
+  "steps": {
+    "title": "Cara mengatur ulang halaman {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memudahkan pengaturan ulang halaman dalam dokumen {{FileFormatUp}}, memberi Anda kontrol penuh atas organisasi dokumen. Integrasikan pengeditan dokumen yang efisien ke dalam aplikasi {{EnvName}} Anda.",
+      "step_1": "Tentukan jalur file untuk dokumen {{FileFormatUp}}.",
+      "step_2": "Pilih halaman yang akan ditukar atau diurutkan.",
+      "step_3": "Terapkan metode yang sesuai untuk memodifikasi dokumen.",
+      "step_4": "Simpan dokumen yang diperbarui ke lokasi yang diinginkan."
+    }
+  },
+  "code_1": {
+    "title": "Tukar halaman pertama dan terakhir dalam file {{FileFormatUp}}",
+    "content": "Contoh ini menunjukkan cara menukar halaman dalam file {{FileFormatUp}} hanya dalam beberapa langkah.",
+    "comment_1": "Muat dokumen sumber",
+    "comment_2": "Ambil total jumlah halaman",
+    "comment_3": "Tentukan parameter tukar menggunakan nomor halaman",
+    "comment_4": "Laksanakan operasi tukar halaman",
+    "comment_5": "Simpan dokumen yang dimodifikasi"
+  }
+}

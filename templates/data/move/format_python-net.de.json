@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}-Seiten in {{EnvName}} neu anordnen",
+    "description": "Verwenden Sie {{ProdFullName}}, um Seiten in {{FileFormatUp}}-Dokumenten schnell neu anzuordnen. Verarbeiten Sie PDFs, Word-, Excel-, PowerPoint-Dateien, Bilder und mehr."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}-Seiten neu anordnen",
+    "description": "{{ProdFullName}} ermöglicht es {{EnvNameShort}}-Anwendungen, die Seitenreihenfolge in {{FileFormatUp}}-Dokumenten mühelos zu ändern.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos testen"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein vielseitiges Dokumentenverarbeitungstool, das über 50 Dateiformate unterstützt, darunter PDF, Word, Excel, PowerPoint, Bilder und Archive. Es bietet Funktionen zum Zusammenführen, Aufteilen, Extrahieren, Verschieben, Tauschen und Entfernen von Seiten."
+  },
+  "more_features": {
+    "title": "Erweiterte Dokumentenverarbeitung",
+    "description": "{{ProdFullName}} bietet eine Vielzahl von Funktionen, um Ihnen zu helfen, über 50 gängige Geschäftsdateiformate effizient zu verwalten.",
+    "image_description": "Hauptfunktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Dokumente verschiedener Formate zusammenführen",
+      "content": "Kombinieren Sie Inhalte aus PDFs, Word-Dokumenten, Präsentationen, Tabellenkalkulationen, Bildern und Archiven. Flexible Optionen ermöglichen eine präzise Dokumentstrukturierung."
+    },
+    "feature_2": {
+      "title": "Seitenorganisation",
+      "content": "Ordnen Sie Seiten innerhalb von Dokumenten neu an, indem Sie sie nach Bedarf verschieben, tauschen oder löschen."
+    },
+    "feature_3": {
+      "title": "Seitenorientierung anpassen",
+      "content": "Drehen Sie Seiten in jeden Winkel oder wechseln Sie zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Seiten als separate Dokumente extrahieren",
+      "content": "Wählen Sie Seiten aus und extrahieren Sie sie, indem Sie sie als unabhängige Dateien speichern."
+    }
+  },
+  "formats": {
+    "title": "Seiten in mehreren Formaten neu anordnen",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateiformate und bietet eine flexible Lösung für die Dokumentenorganisation."
+  },
+  "operations": {
+    "title": "Hauptfunktionen",
+    "description": "Entdecken Sie zusätzliche leistungsstarke Funktionen unserer Lösung."
+  },
+  "examples": {
+    "comment_1": "Initialisieren Sie ein {{NameProduct}}-Objekt mit dem Pfad des Quelldokuments",
+    "comment_2": "Wählen Sie die zu bewegende Seite aus",
+    "comment_3": "Verschieben Sie die Seite",
+    "comment_4": "Speichern Sie das aktualisierte Dokument"
+  },
+  "steps": {
+    "title": "So ordnen Sie {{FileFormatUp}}-Seiten neu an",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) erleichtert das Verschieben von Seiten innerhalb von {{FileFormatUp}}-Dokumenten. Rüsten Sie Ihre {{EnvName}}-Anwendungen mit erweiterten Dokumentenmanagementfunktionen auf.",
+      "step_1": "Geben Sie den Pfad zum {{FileFormatUp}}-Dokument an.",
+      "step_2": "Wählen Sie die Seitenzahl aus und geben Sie die neue Position an.",
+      "step_3": "Führen Sie die Verschiebeoperation aus.",
+      "step_4": "Speichern Sie das bearbeitete Dokument."
+    }
+  },
+  "code_1": {
+    "title": "Bewege eine Seite zum letzten Platz in einem Dokument",
+    "content": "Dieses Beispiel zeigt, wie man eine bestimmte Seite an das Ende eines {{FileFormatUp}}-Dokuments verschiebt.",
+    "comment_1": "Festlegen des Pfads der Quelldatei",
+    "comment_2": "Dokumentdetails abrufen und die letzte Seitenzahl bestimmen",
+    "comment_3": "Optionen mit den Zielseitennummern konfigurieren",
+    "comment_4": "Die Seitenverschiebeoperation ausführen",
+    "comment_5": "Das bearbeitete Dokument speichern"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Définir l'orientation des pages {{FileFormatUp}} dans les applications {{EnvName}}",
+    "description": "{{ProdFullName}} vous permet de basculer les pages {{FileFormatUp}} entre portrait et paysage. Gérez les PDFs, documents Word, fichiers Excel, diapositives PowerPoint, diagrammes Visio, images, archives et plus avec précision."
+  },
+  "header": {
+    "title": "Orientation des pages pour les fichiers {{FileFormatUp}}",
+    "description": "{{ProdFullName}} ajoute des fonctionnalités intelligentes aux applications {{EnvNameShort}}. Les développeurs peuvent améliorer leurs outils en gérant des formats populaires et en définissant les orientations des pages {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Téléchargez Maintenant"
+  },
+  "about": {
+    "title": "Aperçu de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) traite la gestion des documents pour plus de 50 formats comme PDF, Word, Excel, PowerPoint, Visio, images et archives. Fusionnez, divisez, extrayez, réorganisez, échangez, supprimez ou ajustez les mises en page des pages."
+  },
+  "more_features": {
+    "title": "Contrôle dynamique des documents",
+    "description": "{{ProdFullName}} offre un ensemble d'outils robustes pour gérer le contenu dans plus de 50 formats de fichiers avec des résultats rapides et fiables.",
+    "image_description": "Outils de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Assembler différents formats de fichiers",
+      "content": "Liez des PDFs, des documents Word, des présentations, des tableurs, des diagrammes Visio, des images et des archives. Ajustez les paramètres pour un ajustement parfait."
+    },
+    "feature_2": {
+      "title": "Réorganisez les pages du document",
+      "content": "Déplacez, échanger ou supprimer des pages pour façonner le flux de votre document."
+    },
+    "feature_3": {
+      "title": "Ajustez l'orientation des pages",
+      "content": "Faites pivoter les pages à un angle ou basculez entre les vues portrait et paysage."
+    },
+    "feature_4": {
+      "title": "Enregistrez les pages en tant que nouveaux fichiers",
+      "content": "Sélectionnez des pages et exportez-les en tant que fichier autonome à l'emplacement souhaité."
+    }
+  },
+  "formats": {
+    "title": "Ajustez l'orientation pour plusieurs formats",
+    "description": "{{ProdShortName}} prend en charge plus de 50 types de fichiers, vous permettant de peaufiner les documents avec un large éventail d'options."
+  },
+  "operations": {
+    "title": "Fonctionnalités principales",
+    "description": "Découvrez des outils pour dynamiser vos solutions."
+  },
+  "examples": {
+    "comment_1": "Chargez le fichier dans {{NameProduct}}",
+    "comment_2": "Sélectionnez la page à ajuster",
+    "comment_3": "Choisissez l'orientation souhaitée",
+    "comment_4": "Enregistrez les modifications"
+  },
+  "steps": {
+    "title": "Comment définir l'orientation des pages {{FileFormatUp}}",
+    "content": {
+      "title": "Utilisez [{{ProdShortName}}]({{PlatformLink}}) pour modifier les mises en page des pages {{FileFormatUp}}. Cet outil et d'autres offrent un traitement documentaire puissant pour les applications {{EnvName}}.",
+      "step_1": "Fournissez le chemin du fichier {{FileFormatUp}}.",
+      "step_2": "Choisissez la page sur laquelle travailler.",
+      "step_3": "Changez son orientation.",
+      "step_4": "Enregistrez le résultat."
+    }
+  },
+  "code_1": {
+    "title": "Retourner la dernière page d'un fichier {{FileFormatUp}}",
+    "content": "Découvrez comment compter les pages dans un document {{FileFormatUp}} et ajuster la mise en page de la dernière page.",
+    "comment_1": "Ouvrez le fichier dans le constructeur",
+    "comment_2": "Obtenez le nombre de pages",
+    "comment_3": "Choisissez la page et définissez portrait ou paysage",
+    "comment_4": "Mettez à jour l'orientation",
+    "comment_5": "Enregistrez le fichier sous un nouveau chemin"
+  }
+}

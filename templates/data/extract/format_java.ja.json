@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "{{EnvName}}で{{FileFormatUp}}ページを抽出",
+    "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ドキュメントから特定のページを抽出し、別ファイルとして保存します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}ページを抽出",
+    "description": "{{ProdFullName}}を使用すれば、{{EnvNameShort}}アプリケーションに対して{{FileFormatUp}}ファイルの強力な文書処理機能を追加できます。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料でダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}}について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word、Excel、PowerPoint、画像を含む50種類以上のファイル形式をサポートする多機能な文書処理ツールです。マージ、分割、抽出、スワップ、ページの削除など、基本的な機能を提供します。"
+  },
+  "more_features": {
+    "title": "包括的な文書処理",
+    "description": "{{ProdFullName}}は、50種類以上の一般的なビジネスファイル形式を処理するための強力な機能を提供します。",
+    "image_description": "{{ProdShortName}}の主な機能",
+    "feature_1": {
+      "title": "複数の文書形式をマージ",
+      "content": "PDF、Word、PowerPointプレゼンテーション、Excelスプレッドシート、画像、アーカイブなどのファイルを結合します。ニーズに合わせてマージオプションをカスタマイズしてください。"
+    },
+    "feature_2": {
+      "title": "ページ管理",
+      "content": "特定のページまたはページ範囲で作業します。ビジネス文書を洗練させるために、ページを移動、削除、または並べ替えます。"
+    },
+    "feature_3": {
+      "title": "ページレイアウトの調整",
+      "content": "ページを任意の角度で回転させたり、横向きと縦向きの間で向きを変更したりします。"
+    },
+    "feature_4": {
+      "title": "選択したページを抽出",
+      "content": "必要なページだけを抽出し、別のドキュメントとして保存します。"
+    }
+  },
+  "formats": {
+    "title": "さまざまな文書形式からページを抽出",
+    "description": "{{ProdShortName}}は50種類以上のファイル形式をサポートし、効率的な文書操作を可能にします。"
+  },
+  "operations": {
+    "title": "主な機能",
+    "description": "追加の文書処理機能を探ります。"
+  },
+  "examples": {
+    "comment_1": "ソースドキュメントで{{ProdShortName}}を初期化",
+    "comment_2": "抽出するページを指定",
+    "comment_3": "抽出プロセスを実行",
+    "comment_4": "抽出したページを新しいファイルとして保存"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}ページを抽出する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})を使用すると、{{FileFormatUp}}ドキュメントからページを抽出できます。高度な文書管理機能を統合し、{{EnvName}}アプリケーションを強化してください。",
+      "step_1": "ソース{{FileFormatUp}}ドキュメントのファイルパスを指定します。",
+      "step_2": "抽出したいページを選択します。",
+      "step_3": "選択したページを抽出します。",
+      "step_4": "抽出したページを新しいドキュメントとして保存します。"
+    }
+  },
+  "code_1": {
+    "title": "ドキュメントから特定のページを抽出",
+    "content": "この例では、{{FileFormatUp}}ドキュメントからページの範囲を抽出し、別のファイルとして保存する方法を示します。",
+    "comment_1": "ソースファイルパスを提供します",
+    "comment_2": "範囲内で偶数ページのみを抽出するオプションを設定します",
+    "comment_3": "抽出操作を実行します",
+    "comment_4": "抽出したページを新しいドキュメントとして保存します"
+  }
+}

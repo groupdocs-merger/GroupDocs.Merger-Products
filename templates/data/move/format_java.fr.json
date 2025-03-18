@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Déplacer des pages {{FileFormatUp}} dans {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour réorganiser les pages dans des documents {{FileFormatUp}} sans effort. Traitez des PDF, des documents Word, des feuilles Excel, des présentations PowerPoint, des images, et plus encore."
+  },
+  "header": {
+    "title": "Déplacer des pages dans {{FileFormatUp}}",
+    "description": "{{ProdFullName}} permet aux applications {{EnvNameShort}} de réorganiser les pages dans des documents {{FileFormatUp}} de manière transparente.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenir Gratuitement"
+  },
+  "about": {
+    "title": "Informations sur {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil puissant de traitement de documents qui prend en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, images, et archives. Il offre des fonctionnalités essentielles telles que la fusion, la séparation, l'extraction, le déplacement, l'échange et la suppression de pages."
+  },
+  "more_features": {
+    "title": "Traitement efficace des documents",
+    "description": "{{ProdFullName}} est conçu pour fournir un ensemble complet de fonctionnalités, vous permettant de traiter plus de 50 formats de fichiers commerciaux largement utilisés selon vos besoins.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combiner des documents dans divers formats",
+      "content": "Fusionnez le contenu de fichiers tels que des PDF, des documents Word, des présentations, des tableaux, des images, des archives, et plus. Utilisez des options flexibles pour obtenir des résultats précis."
+    },
+    "feature_2": {
+      "title": "Manipulations de pages",
+      "content": "Repositionnez les pages au sein des documents. Déplacez, échangez ou supprimez des pages pour gérer efficacement le contenu de vos documents commerciaux."
+    },
+    "feature_3": {
+      "title": "Ajuster l'apparence des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle ou changez leur orientation entre paysage et portrait."
+    },
+    "feature_4": {
+      "title": "Extraire des pages dans des fichiers séparés",
+      "content": "Extrayez une ou plusieurs pages et enregistrez-les en tant que documents autonomes."
+    }
+  },
+  "formats": {
+    "title": "Réorganiser les pages de documents dans plusieurs formats",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de fichiers, permettant une manipulation efficace et flexible des documents."
+  },
+  "operations": {
+    "title": "Fonctionnalités principales",
+    "description": "Découvrez d'autres capacités populaires de notre solution."
+  },
+  "examples": {
+    "comment_1": "Créez un objet {{NameProduct}} en passant le chemin source",
+    "comment_2": "Spécifiez la page à déplacer",
+    "comment_3": "Déplacez la page",
+    "comment_4": "Enregistrez le document traité"
+  },
+  "steps": {
+    "title": "Comment déplacer des pages {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vous permet de déplacer des pages sélectionnées dans des documents {{FileFormatUp}}. Améliorez vos applications {{EnvName}} avec des fonctionnalités avancées de traitement de documents.",
+      "step_1": "Spécifiez le chemin du fichier {{FileFormatUp}} source.",
+      "step_2": "Définissez le numéro de la page et sa nouvelle position.",
+      "step_3": "Effectuez l'opération de déplacement.",
+      "step_4": "Enregistrez le résultat."
+    }
+  },
+  "code_1": {
+    "title": "Déplacer une page à la fin du document",
+    "content": "Découvrez comment déplacer une page spécifique à la fin d'un document {{FileFormatUp}}.",
+    "comment_1": "Passez le chemin du fichier source au constructeur",
+    "comment_2": "Obtenez les informations du document et le numéro de la dernière page",
+    "comment_3": "Configurez les options avec les numéros de page",
+    "comment_4": "Traitez le document, déplaçant la page à la fin",
+    "comment_5": "Enregistrez le document à un nouvel emplacement"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}-Dateien über {{EnvName}} zusammenführen",
+    "description": "Integrieren Sie die Zusammenführung von {{FileFormatUp}}-Dokumenten nahtlos in Ihre {{EnvNameShort}}-Projekte mit {{ProdFullName}}."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}-Dateien zusammenführen",
+    "description": "Optimieren Sie die Dokumentenverarbeitung in Ihren {{EnvNameShort}}-Anwendungen mit {{ProdFullName}}, um schnelles und effizientes Zusammenführen von {{FileFormatUp}}-Dateien zu ermöglichen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine umfassende Lösung für das Dokumentenmanagement und unterstützt über 50 Dateiformate, einschließlich PDFs, Word-Dokumenten, Tabellenkalkulationen, Präsentationen, Bildern und Archiven. Führen Sie Dokumente mühelos zusammen, teilen Sie sie, ändern Sie die Reihenfolge, extrahieren Sie Seiten und entfernen Sie Seiten, um Ihre Dokumente nach Bedarf zu strukturieren."
+  },
+  "more_features": {
+    "title": "Werkzeuge zur Dokumentenzusammenführung",
+    "description": "{{ProdFullName}} bietet fortschrittliche Dokumentenverarbeitungsfunktionen und unterstützt über 50 gängige Dateiformate.",
+    "image_description": "Wichtige Vorteile von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Verschiedene Dokumentformate zusammenführen",
+      "content": "Führen Sie verschiedene Dateitypen zusammen, einschließlich PDFs, Word-Dokumenten, Tabellenkalkulationen, Präsentationen und Bildern. Definieren Sie spezifische Seiten, die im Zusammenführungsprozess enthalten sein sollen."
+    },
+    "feature_2": {
+      "title": "Seitenmanagement",
+      "content": "Organisieren, löschen oder tauschen Sie Seiten einfach aus, um Dokumente effizient zu strukturieren."
+    },
+    "feature_3": {
+      "title": "Seitenlayout ändern",
+      "content": "Rotieren Sie Seiten in jeden beliebigen Winkel und wechseln Sie zwischen Quer- und Hochformat für kompatible Dateiformate."
+    },
+    "feature_4": {
+      "title": "Seiten extrahieren",
+      "content": "Wählen Sie spezifische Seiten aus und speichern Sie diese als neues Dokument."
+    }
+  },
+  "formats": {
+    "title": "Verschiedene Dateiformate zusammenführen",
+    "description": "{{ProdShortName}} unterstützt über 50 Dokumenttypen und ermöglicht nahtloses Zusammenführen und Anpassen."
+  },
+  "operations": {
+    "title": "Hauptfunktionen",
+    "description": "Entdecken Sie zusätzliche Werkzeuge zur Dokumentenverarbeitung"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}} mit dem Quell-{{FileFormatUp}}-Dokument initialisieren",
+    "comment_2": "Das Dokument mit einer zusätzlichen Datei zusammenführen",
+    "comment_3": "Das zusammengeführte Dokument im gewünschten Verzeichnis speichern"
+  },
+  "steps": {
+    "title": "Wie man {{FileFormatUp}}-Dokumente zusammenführt",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) macht es einfach, {{FileFormatUp}}-Dokumente zusammenzuführen. Fügen Sie Ihren {{EnvName}}-Anwendungen die Zusammenführungsfunktionen hinzu, um mehrere Dateien effizient zu kombinieren.",
+      "step_1": "Geben Sie den Pfad zur ersten {{FileFormatUp}}-Datei an.",
+      "step_2": "Wählen Sie eine zusätzliche Datei zur Zusammenführung aus.",
+      "step_3": "Wenden Sie bei Bedarf optionale Einstellungen an.",
+      "step_4": "Führen Sie den Zusammenführungsprozess aus und speichern Sie das Ausgabedokument."
+    }
+  },
+  "code_1": {
+    "title": "Dateien unterschiedlicher Formate zusammenführen",
+    "content": "Dieses Beispiel zeigt, wie man mehrere Dateien unterschiedlicher Formate in ein einzelnes Dokument zusammenführt.",
+    "comment_1": "Definieren Sie den Pfad zur Hauptdatei",
+    "comment_2": "Führen Sie es mit einem Microsoft Word-Dokument zusammen",
+    "comment_3": "Fügen Sie eine Microsoft Excel-Tabelle in das zusammengeführte Dokument ein",
+    "comment_4": "Speichern Sie das endgültige, zusammengeführte Dokument im angegebenen Speicherort"
+  }
+}

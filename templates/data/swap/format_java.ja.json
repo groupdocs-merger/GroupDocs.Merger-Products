@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}ファイルのページを{{EnvName}}アプリで入れ替える",
+    "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ドキュメントのページを再配置します。PDF、Wordファイル、スプレッドシート、プレゼンテーション、Visio図、画像、アーカイブなどを変更することができます。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}ページの入れ替え",
+    "description": "{{ProdFullName}}は、{{EnvNameShort}}アプリケーションに柔軟な文書操作機能を提供します。{{FileFormatUp}}ファイル内のページを再整理して、コンテンツ構造を最適化します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料でダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}}の機能",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word、Excel、PowerPoint、Visio、画像、アーカイブなど、50以上のファイル形式をサポートする強力な文書処理ライブラリです。さまざまな文書タイプからページを結合、分割、抽出、再配置、入れ替え、削除するために、アプリケーションに統合してください。"
+  },
+  "more_features": {
+    "title": "強化された文書処理",
+    "description": "{{ProdFullName}}は、50以上の形式で文書を効率的に管理・操作するための強力なツールセットを提供します。",
+    "image_description": "{{ProdShortName}}の主な機能",
+    "feature_1": {
+      "title": "複数の文書形式を結合",
+      "content": "PDF、Word文書、スプレッドシート、プレゼンテーション、Visioファイル、画像、およびアーカイブを組み合わせます。出力をカスタマイズオプションで微調整可能です。"
+    },
+    "feature_2": {
+      "title": "文書レイアウトの修正",
+      "content": "ページを入れ替え、再配置、または削除して文書構造を改善します。"
+    },
+    "feature_3": {
+      "title": "ページの向きを変更",
+      "content": "ページを任意の角度に回転させたり、必要に応じて縦向きと横向きのモードを切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "特定のページを抽出",
+      "content": "特定のページまたはページ範囲を選択して抽出し、新しい文書を作成します。"
+    }
+  },
+  "formats": {
+    "title": "さまざまなファイルタイプでページを再配置",
+    "description": "{{ProdShortName}}は50以上の形式をサポートし、正確な文書の修正を可能にします。"
+  },
+  "operations": {
+    "title": "コア機能",
+    "description": "私たちの文書処理ライブラリの基本機能を発見してください。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}に文書をロード",
+    "comment_2": "入れ替えるページを指定",
+    "comment_3": "入れ替え操作を実行",
+    "comment_4": "修正されたファイルを新しい場所に保存"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}ページを再配置する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})は、{{FileFormatUp}}ドキュメント内でページを再配置する作業をスムーズに行い、コンテンツの整理を完全に制御できるようにします。シームレスな文書処理を{{EnvName}}アプリケーションに統合してください。",
+      "step_1": "{{FileFormatUp}}ファイルへのパスを定義します。",
+      "step_2": "入れ替えるまたは再配置するページを選択します。",
+      "step_3": "文書を修正するために適切なメソッドを使用します。",
+      "step_4": "更新されたファイルを希望の場所に保存します。"
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}}ファイルの最初と最後のページを入れ替える",
+    "content": "この例は、{{FileFormatUp}}ファイル内のページを数ステップで入れ替える方法を示しています。",
+    "comment_1": "元の文書をロード",
+    "comment_2": "ページの総数を取得",
+    "comment_3": "ページ番号で入れ替え設定を定義",
+    "comment_4": "ページ入れ替え操作を実行",
+    "comment_5": "修正された文書を保存"
+  }
+}

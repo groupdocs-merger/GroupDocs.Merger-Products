@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Combina archivos {{FileFormatUp}} a través de {{EnvName}}",
+    "description": "Integra la fusión de documentos {{FileFormatUp}} en tus proyectos de {{EnvNameShort}} con {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Combina archivos {{FileFormatUp}}",
+    "description": "Utiliza {{ProdFullName}} para crear potentes aplicaciones {{EnvNameShort}} que fusionen y gestionen documentos {{FileFormatUp}} sin problemas.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar gratis"
+  },
+  "about": {
+    "title": "Acerca de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una solución avanzada de procesamiento de documentos que admite más de 50 formatos de archivo, incluidos PDF, documentos de Word, hojas de cálculo, presentaciones, imágenes y archivos comprimidos. Combina, divide, extrae, reorganiza y elimina páginas según sea necesario."
+  },
+  "more_features": {
+    "title": "Herramientas de fusión de documentos",
+    "description": "{{ProdFullName}} trabaja con más de 50 formatos de archivo empresariales ampliamente utilizados, proporcionando amplias capacidades de procesamiento de documentos.",
+    "image_description": "Características clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Combina diferentes formatos de documentos",
+      "content": "Combina PDFs, documentos de Word, hojas de cálculo, presentaciones, imágenes y otros tipos de archivos. Selecciona páginas específicas para incluir en el proceso de fusión."
+    },
+    "feature_2": {
+      "title": "Manipulación de páginas",
+      "content": "Reorganiza, elimina o intercambia páginas para organizar documentos de acuerdo a tus necesidades."
+    },
+    "feature_3": {
+      "title": "Ajusta la apariencia de la página",
+      "content": "Rota páginas a cualquier ángulo y cambia entre modo paisaje y retrato para los formatos admitidos."
+    },
+    "feature_4": {
+      "title": "Extraer páginas",
+      "content": "Selecciona y extrae páginas específicas para crear un nuevo archivo o documento."
+    }
+  },
+  "formats": {
+    "title": "Combina varios formatos de archivo",
+    "description": "{{ProdShortName}} admite más de 50 formatos de archivo, lo que permite una fusión y procesamiento eficiente de documentos."
+  },
+  "operations": {
+    "title": "Características clave",
+    "description": "Descubre opciones adicionales de procesamiento de documentos"
+  },
+  "examples": {
+    "comment_1": "Inicializa {{NameProduct}} con el documento fuente {{FileFormatUp}}",
+    "comment_2": "Combina el documento con otro archivo",
+    "comment_3": "Guarda el archivo combinado en la ubicación deseada"
+  },
+  "steps": {
+    "title": "Cómo fusionar documentos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita la fusión de documentos {{FileFormatUp}}. Agrega la funcionalidad de fusión a tus aplicaciones {{EnvName}} y combina múltiples archivos sin esfuerzo.",
+      "step_1": "Define la ruta al primer archivo {{FileFormatUp}}.",
+      "step_2": "Elige el segundo archivo para fusionar.",
+      "step_3": "Aplica configuraciones adicionales de fusión si es necesario.",
+      "step_4": "Ejecuta la operación de fusión y guarda el archivo de salida."
+    }
+  },
+  "code_1": {
+    "title": "Fusionar archivos de diferentes formatos",
+    "content": "Este ejemplo demuestra cómo fusionar múltiples archivos de varios formatos admitidos en un solo documento.",
+    "comment_1": "Define la ruta del archivo principal",
+    "comment_2": "Fusiónalo con un documento de Microsoft Word",
+    "comment_3": "Agrega una hoja de cálculo de Microsoft Excel al archivo fusionado",
+    "comment_4": "Guarda el documento combinado en la ubicación especificada"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{EnvName}}で{{FileFormatUp}}ファイルをマージ",
+    "description": "{{ProdFullName}}を使用して、{{EnvNameShort}}プロジェクトに{{FileFormatUp}}ファイルのマージをシームレスに統合します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}ファイルのマージ",
+    "description": "{{ProdFullName}}を使用すれば、{{EnvNameShort}}アプリケーション内で{{FileFormatUp}}ドキュメントを効率的にマージでき、高性能な統合を実現します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料でダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}}の概要",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word、Excel、PowerPoint、画像、アーカイブなど、50以上のファイル形式をサポートする機能豊かな文書処理ソリューションです。強力なツールセットを使用して、効率的にページのマージ、分割、抽出、入れ替え、削除が可能です。"
+  },
+  "more_features": {
+    "title": "包括的な文書マージ機能",
+    "description": "{{ProdFullName}}はさまざまな文書形式の処理に最適化されており、ビジネス文書管理のための豊富な機能を提供します。",
+    "image_description": "{{ProdShortName}}のコア機能",
+    "feature_1": {
+      "title": "複数の文書タイプをマージ",
+      "content": "PDF、Wordファイル、プレゼンテーション、スプレッドシート、画像など、さまざまな文書タイプを簡単に結合します。特定のページ範囲を定義して、マージプロセスをカスタマイズできます。"
+    },
+    "feature_2": {
+      "title": "文書ページの修正と整理",
+      "content": "ページを再配置したり、不要なセクションを削除したり、ページを入れ替えて、ニーズに合わせた整然とした文書を作成します。"
+    },
+    "feature_3": {
+      "title": "ページレイアウトと向きをカスタマイズ",
+      "content": "ページを任意の角度に回転させたり、さまざまなファイルタイプに対して横向きと縦向きを調整したりできます。"
+    },
+    "feature_4": {
+      "title": "特定の文書ページを抽出して保存",
+      "content": "文書から特定のページを選択し、それらを別のファイルとして保存することで、アクセスしやすく整理された状態を維持します。"
+    }
+  },
+  "formats": {
+    "title": "異なる形式のファイルを組み合わせる",
+    "description": "50以上の文書タイプをサポートする{{ProdShortName}}は、ファイル処理を効率化し、文書管理をシンプルで効率的にします。"
+  },
+  "operations": {
+    "title": "主要な機能",
+    "description": "{{ProdShortName}}によってサポートされている追加の操作と機能を発見し、文書処理の体験を向上させましょう。"
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}}ドキュメントを持つ{{NameProduct}}を初期化します",
+    "comment_2": "別の選択したファイルと文書をマージします",
+    "comment_3": "最終的なマージ文書を希望の場所に保存します"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}ドキュメントをマージする方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})を使用すれば、{{FileFormatUp}}ドキュメントのマージが簡単です。効率的な文書の組み合わせ機能で{{EnvName}}アプリケーションを強化してください。",
+      "step_1": "最初の{{FileFormatUp}}ドキュメントのファイルパスを指定します。",
+      "step_2": "マージする2番目のドキュメントを選択します。",
+      "step_3": "カスタマイズのためのオプションのパラメータを設定します。",
+      "step_4": "マージプロセスを実行し、出力文書を保存します。"
+    }
+  },
+  "code_1": {
+    "title": "異なる文書形式から選択したページをマージ",
+    "content": "この例では、他の形式の文書から特定のページを選択しながら{{FileFormatUp}}ファイルをマージする方法を示します。",
+    "comment_1": "メイン文書のパスを定義します",
+    "comment_2": "特定のページを含めるオプションを設定します",
+    "comment_3": "選択したページを持つプライマリファイルと文書をマージします",
+    "comment_4": "最終文書を希望の場所に保存します"
+  }
+}

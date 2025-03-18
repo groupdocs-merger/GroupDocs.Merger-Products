@@ -1,0 +1,372 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2025-03-18T09:00:04
+draft: false
+lang: pt
+format: Powerpoint
+product: "Merger"
+product_tag: "merger"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
+
+############################# Head ############################
+head_title: "Mesclar arquivos POWERPOINT em JavaScript"
+head_description: "Integre a mesclagem de arquivos POWERPOINT em seus projetos Node.js com GroupDocs.Merger for Node.js via Java."
+
+############################# Header ############################
+title: "Mesclar arquivos POWERPOINT" 
+description: "GroupDocs.Merger for Node.js via Java permite que você mescle documentos POWERPOINT com facilidade em suas aplicações Node.js."
+subtitle: "GroupDocs.Merger for Node.js via Java" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Baixar Gratuitamente"
+      link: "https://releases.groupdocs.com/merger/nodejs-java/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "Sobre GroupDocs.Merger"
+    link: "/merger/nodejs-java/"
+    link_title: "Saiba mais"
+    picture: "about_merger.svg" # 480 X 400
+    content: |
+       [GroupDocs.Merger for Node.js via Java](/merger/nodejs-java/) é uma ferramenta abrangente para gestão de documentos. Ela suporta mais de 50 formatos, incluindo PDF, Word, Excel, PowerPoint, imagens e arquivos compactados, permitindo que você mescle, divida, extraia, troque e remova páginas com eficiência.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "Como mesclar documentos POWERPOINT"
+    content: |
+      [GroupDocs.Merger](/merger/nodejs-java/) oferece mesclagem perfeita para documentos POWERPOINT. Melhore suas aplicações Node.js via Java combinando vários arquivos em um só.
+      
+      1. Defina o caminho para o primeiro documento POWERPOINT.
+      2. Selecione o segundo documento.
+      3. Defina parâmetros opcionais.
+      4. Mescle os arquivos e salve o documento de saída.
+   
+    code:
+      platform: "nodejs-java"
+      copy_title: "Copiar"
+      result_enable: true
+      result_link: "/examples/merger/merger_all.pdf"
+      result_title: "Resultado do código"
+      install:
+        command: "npm i @groupdocs/groupdocs.merger"
+        copy_tip: "clique para copiar"
+        copy_done: "copiado"
+      links:
+        #  loop
+        - title: "Mais exemplos"
+          link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java/"
+        #  loop
+        - title: "Documentação"
+          link: "https://docs.groupdocs.com/merger/nodejs-java/"
+          
+      content: |
+        ```javascript {style=abap}
+        const mergerLib = require('@groupdocs/groupdocs.merger')
+
+        // Inicialize Merger com o arquivo de entrada POWERPOINT
+        const merger = new mergerLib.Merger("file_1.pptx")
+
+        // Combine o arquivo com outro documento
+        merger.join("file_2.pptx");
+
+        // Salve o documento mesclado em um local especificado
+        merger.save("result.pptx");
+        ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Mesclagem avançada de documentos"
+  description: "GroupDocs.Merger for Node.js via Java foi projetado para trabalhar com mais de 50 formatos de arquivo populares, oferecendo robustas capacidades de processamento de documentos."
+  image: "/img/merger/features_combine.webp" # 500x500 px
+  image_description: "Principais capacidades do GroupDocs.Merger"
+  features:
+    # feature loop
+    - title: "Mesclar vários tipos de documentos"
+      content: "Combine PDFs, documentos do Word, apresentações, planilhas, imagens e mais. Personalize quais páginas mesclar conforme necessário."
+
+    # feature loop
+    - title: "Modificar páginas de documentos"
+      content: "Reorganize, exclua ou troque páginas para estruturar melhor seus documentos comerciais."
+
+    # feature loop
+    - title: "Ajustar configurações de páginas"
+      content: "Gire páginas em qualquer ângulo e altere sua orientação entre paisagem e retrato para formatos de arquivo suportados."
+
+    # feature loop
+    - title: "Extrair páginas de documentos"
+      content: "Selecione e extraia páginas específicas, salvando-as como um novo documento independente."
+      
+  code_samples_ext:
+    # code sample ext loop
+    - title: "Mesclar páginas selecionadas de diferentes formatos de arquivo"
+      content: |
+        Este exemplo mostra como mesclar arquivos POWERPOINT enquanto seleciona páginas específicas de outros tipos de documentos.
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const mergerLib = require('@groupdocs/groupdocs.merger')
+          
+          // Especifique o caminho do documento principal
+          const merger = new mergerLib.Merger("file_1.pptx")
+
+          // Defina opções para incluir páginas selecionadas
+          PageJoinOptions joinOptions12 = new mergerLib.PageJoinOptions(1, 2)
+          PageJoinOptions joinOptions34 = new mergerLib.PageJoinOptions(3, 4)
+          
+          // Mescle o arquivo principal com páginas de outro documento
+          merger.join("file_2.docx", joinOptions12)
+          merger.join("file_3.xlsx", joinOptions34)
+
+          // Salve o documento mesclado final no local desejado
+          merger.save("result.pptx")
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copiar"
+        install:
+          command: "npm i @groupdocs/groupdocs.merger"
+          copy_tip: "clique para copiar"
+          copy_done: "copiado"
+        top_links:
+          #  loop
+          - title: "Baixar resultado"
+            icon: "download"
+            link: "/examples/merger/formats/mergercombine.pdf"
+        links:
+          #  loop
+          - title: "Mais exemplos"
+            link: "https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentação"
+            link: "https://docs.groupdocs.com/merger/nodejs-java/"
+            
+
+            
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Pronto para começar?"
+  description: "Experimente os recursos do GroupDocs.Merger gratuitamente ou solicite uma licença"
+  items:
+    #  loop
+    - title: "Download do NPM"
+      link: "https://releases.groupdocs.com/merger/nodejs-java/"
+      color: "red"
+        #  loop
+    - title: "Licenciamento"
+      link: "https://purchase.groupdocs.com/pricing/merger/nodejs-java/"
+      color: "light"
+
+
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "Funcionalidades principais"
+    exclude: "combine"
+    description: "Explore recursos e operações adicionais suportadas pelo GroupDocs.Merger."
+    items: 
+          
+        # operation loop 1
+        - name: "Mesclar documentos"
+          operation: "combine"
+          link: "/merger/nodejs-java/combine/pdf/"
+          description: "Combinar múltiplos documentos em um só"
+
+        # operation loop 2
+        - name: "Extrair páginas"
+          operation: "extract"
+          link: "/merger/nodejs-java/extract/epub/"
+          description: "Salvar páginas selecionadas como um documento separado"
+
+        # operation loop 3
+        - name: "Mover páginas"
+          operation: "move"
+          link: "/merger/nodejs-java/move/pdf/"
+          description: "Reposicionar qualquer página dentro de um documento"
+
+        # operation loop 4
+        - name: "Remover páginas"
+          operation: "remove"
+          link: "/merger/nodejs-java/remove/xlsx/"
+          description: "Excluir páginas do documento"
+
+        # operation loop 5
+        - name: "Juntar documentos"
+          operation: "join"
+          link: "/merger/nodejs-java/join/jpeg/"
+          description: "Combinar múltiplos documentos em um só"
+
+        # operation loop 6
+        - name: "Rotacionar páginas"
+          operation: "rotate"
+          link: "/merger/nodejs-java/rotate/pdf/"
+          description: "Rotacionar páginas do documento"
+
+        # operation loop 7
+        - name: "Dividir documento"
+          operation: "split"
+          link: "/merger/nodejs-java/split/docx/"
+          description: "Dividir documentos"
+
+        # operation loop 8
+        - name: "Trocar páginas"
+          operation: "swap"
+          link: "/merger/nodejs-java/swap/pptx/"
+          description: "Trocar páginas do documento"
+
+        # operation loop 9
+        - name: "Alterar orientação"
+          operation: "orientation"
+          link: "/merger/nodejs-java/orientation/epub/"
+          description: "Alterar a orientação das páginas"
+          
+        
+          
+############################# More Formats ########################
+more_formats:
+    enable: true
+    title: "Combinar múltiplos formatos de arquivo"
+    exclude: "POWERPOINT"
+    description: "GroupDocs.Merger suporta mais de 50 tipos de arquivo, garantindo um processamento de documentos sem falhas para diversas necessidades comerciais."
+    items: 
+        # format loop 1
+        - name: "Combine Word"
+          format: "WORD"
+          link: "/merger/nodejs-java/combine/word/"
+          description: "Documentos do Microsoft Word"
+
+        # format loop 2
+        - name: "Combine Excel"
+          format: "EXCEL"
+          link: "/merger/nodejs-java/combine/excel/"
+          description: "Planilhas do Microsoft Excel"
+
+        # format loop 3
+        - name: "Combine Powerpoint"
+          format: "POWERPOINT"
+          link: "/merger/nodejs-java/combine/powerpoint/"
+          description: "Apresentações do Microsoft PowerPoint"
+
+        # format loop 4
+        - name: "Combine Image"
+          format: "IMAGE"
+          link: "/merger/nodejs-java/combine/image/"
+          description: "Formatos de Imagem Populares"
+
+        # format loop 5
+        - name: "Combine Visio"
+          format: "VISIO"
+          link: "/merger/nodejs-java/combine/visio/"
+          description: "Diagramas do Microsoft Visio"
+          
+        # format loop 6
+        - name: "Combine Pdf"
+          format: "PDF"
+          link: "/merger/nodejs-java/combine/pdf/"
+          description: "Formato de Documento Portátil da Adobe"
+
+        # format loop 7
+        - name: "Combine Docx"
+          format: "DOCX"
+          link: "/merger/nodejs-java/combine/docx/"
+          description: "Documento XML Aberto do Microsoft Word"
+
+        # format loop 8
+        - name: "Combine Xlsx"
+          format: "XLSX"
+          link: "/merger/nodejs-java/combine/xlsx/"
+          description: "Planilha XML Aberta do Microsoft Excel"
+
+        # format loop 9
+        - name: "Combine Pptx"
+          format: "PPTX"
+          link: "/merger/nodejs-java/combine/pptx/"
+          description: "Apresentação XML Aberta do PowerPoint"
+
+        # format loop 10
+        - name: "Combine Bmp"
+          format: "BMP"
+          link: "/merger/nodejs-java/combine/bmp/"
+          description: "Imagem Bitmap"
+
+        # format loop 11
+        - name: "Combine Jpeg"
+          format: "JPEG"
+          link: "/merger/nodejs-java/combine/jpeg/"
+          description: "Arquivo de Imagem JPEG"
+
+        # format loop 12
+        - name: "Combine Png"
+          format: "PNG"
+          link: "/merger/nodejs-java/combine/png/"
+          description: "Gráficos de Rede Portáteis"
+
+        # format loop 13
+        - name: "Combine Svg"
+          format: "SVG"
+          link: "/merger/nodejs-java/combine/svg/"
+          description: "Gráficos Vetoriais Escaláveis"
+
+        # format loop 14
+        - name: "Combine Tiff"
+          format: "TIFF"
+          link: "/merger/nodejs-java/combine/tiff/"
+          description: "Formato de Arquivo de Imagem Tagueada"
+
+        # format loop 15
+        - name: "Combine Csv"
+          format: "CSV"
+          link: "/merger/nodejs-java/combine/csv/"
+          description: "Arquivo de Valores Separados por Vírgula"
+
+        # format loop 16
+        - name: "Combine Epub"
+          format: "EPUB"
+          link: "/merger/nodejs-java/combine/epub/"
+          description: "Publicação Eletrônica"
+
+        # format loop 17
+        - name: "Combine Html"
+          format: "HTML"
+          link: "/merger/nodejs-java/combine/html/"
+          description: "Arquivo de Linguagem de Marcação de Hipertexto"
+
+        # format loop 18
+        - name: "Combine Mhtml"
+          format: "MHTML"
+          link: "/merger/nodejs-java/combine/mhtml/"
+          description: "Arquivo Web MHTML"
+
+        # format loop 19
+        - name: "Combine Txt"
+          format: "TXT"
+          link: "/merger/nodejs-java/combine/txt/"
+          description: "Arquivo de Texto Simples"
+
+        # format loop 20
+        - name: "Combine Xps"
+          format: "XPS"
+          link: "/merger/nodejs-java/combine/xps/"
+          description: "Arquivo da Especificação de Papel XML"
+
+        # format loop 21
+        - name: "Combine Zip"
+          format: "ZIP"
+          link: "/merger/nodejs-java/combine/zip/"
+          description: "Arquivo ZIP"
+
+  
+
+---

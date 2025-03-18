@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Ajustez l'orientation des pages {{FileFormatUp}} dans les applications {{EnvName}}",
+    "description": "Avec {{ProdFullName}}, modifiez les mises en page des pages {{FileFormatUp}} (portrait ou paysage). Gérez facilement des PDF, des fichiers Word, des feuilles Excel, des présentations PowerPoint, des dessins Visio, des images, des archives et bien plus encore."
+  },
+  "header": {
+    "title": "Ajustements d'orientation des pages pour {{FileFormatUp}}",
+    "description": "{{ProdFullName}} apporte des outils pratiques aux applications {{EnvNameShort}}. Les développeurs peuvent améliorer leurs projets en gérant des formats de fichiers clés et en ajustant les mises en page des pages {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Obtenez-le gratuitement"
+  },
+  "about": {
+    "title": "Aperçu de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un ensemble d'outils pour gérer des documents au sein de plus de 50 formats, y compris PDF, Word, Excel, PowerPoint, Visio, images et archives. Fusionnez, divisez, extrayez, repositionnez, échangez, supprimez ou faites pivoter les pages selon vos besoins."
+  },
+  "more_features": {
+    "title": "Gestion de documents polyvalente",
+    "description": "{{ProdFullName}} propose un large éventail d'outils pour gérer le contenu dans plus de 50 formats de fichiers avec des performances rapides et fiables.",
+    "image_description": "Capacités de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner plusieurs types de fichiers",
+      "content": "Combinez des PDFs, des documents Word, des diapositives, des tableurs, des fichiers Visio, des images et des archives. Affinez le processus pour des résultats optimaux."
+    },
+    "feature_2": {
+      "title": "Organiser les pages de documents",
+      "content": "Déplacez, échangez ou coupez des pages pour optimiser la structure de votre document."
+    },
+    "feature_3": {
+      "title": "Ajuster la configuration des pages",
+      "content": "Faites pivoter les pages à un angle personnalisé ou alternez entre portrait et paysage."
+    },
+    "feature_4": {
+      "title": "Extraire des pages dans de nouveaux fichiers",
+      "content": "Sélectionnez une page ou un lot et enregistrez-les en tant que nouveau fichier à l'emplacement de votre choix."
+    }
+  },
+  "formats": {
+    "title": "Modifier l'orientation des pages dans plusieurs formats",
+    "description": "{{ProdShortName}} gère plus de 50 types de fichiers, vous permettant d'ajuster des documents grâce à une variété de fonctions."
+  },
+  "operations": {
+    "title": "Fonctionnalités principales",
+    "description": "Découvrez les outils qui peuvent améliorer votre travail."
+  },
+  "examples": {
+    "comment_1": "Indiquez à {{NameProduct}} le fichier source",
+    "comment_2": "Choisissez la page à modifier",
+    "comment_3": "Définissez la nouvelle orientation de la page",
+    "comment_4": "Enregistrez votre fichier mis à jour"
+  },
+  "steps": {
+    "title": "Comment ajuster l'orientation des pages {{FileFormatUp}}",
+    "content": {
+      "title": "Avec [{{ProdShortName}}]({{PlatformLink}}), ajustez les mises en page des pages {{FileFormatUp}}. Cette fonctionnalité et d'autres offrent un contrôle documentaire intelligent pour les projets {{EnvName}}.",
+      "step_1": "Chargez l'emplacement du fichier {{FileFormatUp}}.",
+      "step_2": "Choisissez la page à modifier.",
+      "step_3": "Mettez à jour son orientation.",
+      "step_4": "Enregistrez le résultat."
+    }
+  },
+  "code_1": {
+    "title": "Modifier l'orientation de la dernière page {{FileFormatUp}}",
+    "content": "Voyez comment compter les pages dans un fichier {{FileFormatUp}} et inverser l'orientation de la dernière page.",
+    "comment_1": "Alimentez le fichier dans le constructeur",
+    "comment_2": "Récupérez le nombre total de pages",
+    "comment_3": "Définissez le numéro de la page et choisissez portrait ou paysage",
+    "comment_4": "Appliquez les changements d'orientation",
+    "comment_5": "Enregistrez à un emplacement de sortie"
+  }
+}

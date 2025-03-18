@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{EnvName}}で{{FileFormatUp}}ファイルをマージする",
+    "description": "{{ProdFullName}}を使用して、{{EnvNameShort}}プロジェクトに{{FileFormatUp}}ドキュメントのマージ機能を統合します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}ファイルをマージする",
+    "description": "{{ProdFullName}}を使用して、{{EnvNameShort}}アプリケーションを作成し、{{FileFormatUp}}ドキュメントをシームレスにマージおよび管理します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料でダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}}について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word文書、スプレッドシート、プレゼンテーション、画像、アーカイブなど50以上のファイル形式をサポートする高度なドキュメント処理ソリューションです。必要に応じて、簡単にマージ、分割、抽出、ページの並べ替え、削除を行えます。"
+  },
+  "more_features": {
+    "title": "ドキュメントマージツール",
+    "description": "{{ProdFullName}}は、50以上の広く使用されるビジネスファイル形式に対応し、広範なドキュメント処理機能を提供します。",
+    "image_description": "{{ProdShortName}}の主な機能",
+    "feature_1": {
+      "title": "異なるドキュメント形式をマージ",
+      "content": "PDF、Word文書、スプレッドシート、プレゼンテーション、画像、およびその他のファイル形式を組み合わせます。マージプロセスに含める特定のページを選択できます。"
+    },
+    "feature_2": {
+      "title": "ページ操作",
+      "content": "文書を整理するために、ページを並べ替えたり、削除したり、入れ替えたりします。"
+    },
+    "feature_3": {
+      "title": "ページ外観の調整",
+      "content": "サポートされている形式に対して、ページを任意の角度に回転させたり、横向きと縦向きを切り替えたりできます。"
+    },
+    "feature_4": {
+      "title": "ページの抽出",
+      "content": "特定のページを選択して抽出し、新しいファイルまたはドキュメントを作成します。"
+    }
+  },
+  "formats": {
+    "title": "さまざまなファイル形式をマージ",
+    "description": "{{ProdShortName}}は50以上のファイル形式をサポートし、効率的なドキュメントマージと処理を可能にします。"
+  },
+  "operations": {
+    "title": "主な機能",
+    "description": "追加のドキュメント処理オプションを発見してください"
+  },
+  "examples": {
+    "comment_1": "ソースの{{FileFormatUp}}ドキュメントで{{NameProduct}}を初期化",
+    "comment_2": "別のファイルとドキュメントをマージ",
+    "comment_3": "マージされたファイルを所定の場所に保存"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}ドキュメントをマージする手順",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})を使用して、{{FileFormatUp}}ドキュメントをマージします。{{EnvName}}アプリケーションにマージ機能を追加し、複数のファイルをスムーズに結合します。",
+      "step_1": "最初の{{FileFormatUp}}ファイルのパスを定義します。",
+      "step_2": "マージする2番目のファイルを選択します。",
+      "step_3": "必要に応じて追加のマージ設定を適用します。",
+      "step_4": "マージ操作を実行し、出力ファイルを保存します。"
+    }
+  },
+  "code_1": {
+    "title": "異なる形式のファイルをマージ",
+    "content": "この例では、さまざまなサポートされている形式の複数のファイルを1つのドキュメントにマージする方法を示します。",
+    "comment_1": "メインファイルのパスを定義",
+    "comment_2": "Microsoft Wordドキュメントとマージ",
+    "comment_3": "マージされたファイルにMicrosoft Excelスプレッドシートを追加",
+    "comment_4": "マージされたドキュメントを指定された場所に保存"
+  }
+}

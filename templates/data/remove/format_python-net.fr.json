@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Supprimer des pages de {{FileFormatUp}} dans les applications {{EnvName}}",
+    "description": "Supprimez des pages spécifiques des fichiers {{FileFormatUp}} à l'aide de {{ProdFullName}}. Traitez des PDF, des Word, des Excel, des PowerPoint, des images, des archives, et plus encore."
+  },
+  "header": {
+    "title": "Supprimer des pages de {{FileFormatUp}}",
+    "description": "{{ProdFullName}} offre de puissantes fonctionnalités de suppression de pages pour vos applications {{EnvNameShort}}, facilitant la gestion des documents.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Essayer gratuitement"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdShortName}} ?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil puissant de traitement de documents qui prend en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, Visio, images et archives. Il vous permet de fusionner, scinder, extraire, déplacer, échanger et supprimer des pages, améliorant ainsi la gestion des documents dans vos applications."
+  },
+  "more_features": {
+    "title": "Gestion avancée des documents",
+    "description": "{{ProdFullName}} simplifie le travail avec les documents en fournissant un ensemble complet d'outils pour plus de 50 formats de fichiers populaires.",
+    "image_description": "Fonctionnalités principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner différents types de fichiers",
+      "content": "Combinez des PDF, des fichiers Word, des présentations, des feuilles de calcul, des images et des archives avec des options de fusion précises."
+    },
+    "feature_2": {
+      "title": "Gérer les pages facilement",
+      "content": "Déplacez, échangez ou supprimez des pages pour organiser vos documents comme vous le souhaitez."
+    },
+    "feature_3": {
+      "title": "Ajuster l'orientation des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle ou basculez entre le mode portrait et paysage."
+    },
+    "feature_4": {
+      "title": "Extraire des pages en tant que nouveaux fichiers",
+      "content": "Sélectionnez des pages spécifiques et enregistrez-les séparément en tant que nouveaux documents."
+    }
+  },
+  "formats": {
+    "title": "Supprimer des pages de divers types de documents",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de fichiers, rendant les modifications de documents rapides et fluides."
+  },
+  "operations": {
+    "title": "Fonctionnalités principales",
+    "description": "Explorez d'autres outils disponibles dans notre solution de traitement de documents."
+  },
+  "examples": {
+    "comment_1": "Initialisez une instance de {{NameProduct}} avec le chemin du fichier",
+    "comment_2": "Spécifiez quelles pages supprimer",
+    "comment_3": "Appliquez les paramètres de suppression de pages",
+    "comment_4": "Enregistrez le document mis à jour"
+  },
+  "steps": {
+    "title": "Étapes pour supprimer des pages de {{FileFormatUp}}",
+    "content": {
+      "title": "Avec [{{ProdShortName}}]({{PlatformLink}}), vous pouvez rapidement supprimer des pages des documents {{FileFormatUp}}. Intégrez-le dans vos applications {{EnvName}} pour une gestion de documents améliorée.",
+      "step_1": "Fournissez le chemin du document {{FileFormatUp}}.",
+      "step_2": "Sélectionnez les pages à supprimer.",
+      "step_3": "Exécutez l'opération de suppression.",
+      "step_4": "Enregistrez le document mis à jour."
+    }
+  },
+  "code_1": {
+    "title": "Supprimer toutes les pages numérotées paires",
+    "content": "Apprenez à supprimer les pages paires d'un fichier {{FileFormatUp}}.",
+    "comment_1": "Chargez le fichier en spécifiant le chemin",
+    "comment_2": "Obtenez le nombre total de pages",
+    "comment_3": "Configurez les options pour supprimer les pages paires",
+    "comment_4": "Traitez le document",
+    "comment_5": "Enregistrez le document modifié à l'emplacement choisi"
+  }
+}

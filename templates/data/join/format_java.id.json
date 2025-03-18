@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Gabung berkas {{FileFormatUp}} dalam {{EnvName}}",
+    "description": "Gunakan {{ProdFullName}} untuk menambahkan kemampuan penggabungan dokumen {{FileFormatUp}} ke aplikasi {{EnvNameShort}} Anda."
+  },
+  "header": {
+    "title": "Gabung berkas {{FileFormatUp}}",
+    "description": "{{ProdFullName}} memungkinkan Anda mengembangkan aplikasi {{EnvNameShort}} yang secara efisien menggabungkan beberapa dokumen {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah pustaka pengolah dokumen yang kuat yang mendukung lebih dari 50 format berkas, termasuk PDF, Word, Excel, PowerPoint, gambar, dan arsip. Pustaka ini memungkinkan Anda untuk menggabungkan, memisahkan, mengekstrak, mengatur ulang, dan menghapus halaman dari dokumen dengan mudah."
+  },
+  "more_features": {
+    "title": "Alat penggabungan dokumen",
+    "description": "{{ProdFullName}} mendukung lebih dari 50 format berkas bisnis umum, menyediakan berbagai fitur pengolahan dokumen.",
+    "image_description": "Fitur utama {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan berbagai format dokumen",
+      "content": "Gabungkan dokumen seperti PDF, file Word, presentasi, spreadsheet, gambar, dan lainnya. Tentukan halaman mana yang akan disertakan untuk hasil yang tepat."
+    },
+    "feature_2": {
+      "title": "Manajemen halaman",
+      "content": "Dengan mudah pindahkan, hapus, atau atur ulang halaman yang dipilih untuk menyusun dokumen Anda sesuai kebutuhan."
+    },
+    "feature_3": {
+      "title": "Sesuaikan tata letak halaman",
+      "content": "Putar halaman pada sudut apa pun dan beralih antara orientasi potret dan lanskap."
+    },
+    "feature_4": {
+      "title": "Ekstrak halaman tertentu",
+      "content": "Pilih dan ekstrak halaman dari dokumen, menyimpannya sebagai berkas terpisah."
+    }
+  },
+  "formats": {
+    "title": "Gabung berbagai format berkas",
+    "description": "{{ProdShortName}} mendukung lebih dari 50 format berkas, membuat pengolahan dokumen menjadi efisien dan fleksibel."
+  },
+  "operations": {
+    "title": "Fitur utama",
+    "description": "Temukan kemampuan manajemen dokumen tambahan."
+  },
+  "examples": {
+    "comment_1": "Inisialisasi {{NameProduct}} dengan dokumen {{FileFormatUp}} input",
+    "comment_2": "Gabungkan dokumen dengan berkas lain",
+    "comment_3": "Simpan dokumen yang telah digabung ke lokasi yang diinginkan"
+  },
+  "steps": {
+    "title": "Cara menggabungkan dokumen {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menyediakan cara untuk menggabungkan dokumen {{FileFormatUp}}. Tingkatkan aplikasi {{EnvName}} Anda dengan menggabungkan beberapa berkas menjadi satu.",
+      "step_1": "Tentukan jalan ke berkas {{FileFormatUp}} pertama.",
+      "step_2": "Pilih berkas kedua untuk digabung.",
+      "step_3": "Atur opsi tambahan jika perlu.",
+      "step_4": "Gabungkan berkas dan simpan hasilnya."
+    }
+  },
+  "code_1": {
+    "title": "Gabungkan halaman tertentu dari berbagai format dokumen",
+    "content": "Contoh ini menunjukkan cara menggabungkan berkas {{FileFormatUp}} sambil memilih halaman tertentu dari format lain.",
+    "comment_1": "Tentukan jalan berkas utama",
+    "comment_2": "Definisikan opsi untuk memilih halaman tertentu",
+    "comment_3": "Gabungkan dokumen utama dengan halaman yang dipilih dari berkas lain",
+    "comment_4": "Simpan dokumen yang telah digabung ke lokasi baru"
+  }
+}

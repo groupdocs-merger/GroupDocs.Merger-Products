@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{EnvName}}アプリでの{{FileFormatUp}}ページの回転",
+    "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ドキュメントのページを回転させます。PDF、Wordファイル、Excelシート、PowerPointスライド、画像、アーカイブなどを管理します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}におけるページ回転",
+    "description": "{{ProdFullName}}は、{{EnvNameShort}}アプリケーションに高度なドキュメント処理機能を付加します。{{FileFormatUp}}ファイルのページを回転させ、一般的なビジネスフォーマットでの作業を円滑に行えます。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料ダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}}について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word、Excel、PowerPoint、Visio、画像、アーカイブを含む50以上のファイル形式をサポートする包括的なドキュメント処理ライブラリです。マージ、分割、抽出、再配置、ページ削除のためのツールを提供し、アプリケーション内でのドキュメント操作を強化します。"
+  },
+  "more_features": {
+    "title": "強力なドキュメントコンテンツ管理",
+    "description": "{{ProdFullName}}には、50種類以上の一般的なビジネスファイル形式を効率的に処理できる幅広い機能が含まれています。",
+    "image_description": "{{ProdShortName}}の主要機能",
+    "feature_1": {
+      "title": "異なるファイル形式をマージ",
+      "content": "PDF、Word文書、プレゼンテーション、スプレッドシート、Visio図、画像、アーカイブを結合します。正確な出力のためのさまざまなオプションを使用します。"
+    },
+    "feature_2": {
+      "title": "ドキュメントページの管理",
+      "content": "ページを移動、交換、削除して、ドキュメントの構造をより良くします。"
+    },
+    "feature_3": {
+      "title": "ページレイアウトの調整",
+      "content": "ページを任意の角度に回転させたり、ポートレートとランドスケープの向きを切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "ページを別ファイルとして抽出",
+      "content": "単一ページまたはページ範囲を選択し、指定した場所に新しいファイルとして保存します。"
+    }
+  },
+  "formats": {
+    "title": "複数フォーマットでのページ回転",
+    "description": "{{ProdShortName}}は50種類以上のファイル形式をサポートし、さまざまな操作を用いてドキュメントを変更できます。"
+  },
+  "operations": {
+    "title": "主な機能",
+    "description": "当社のドキュメント処理ライブラリが提供する強力な機能を探ってみましょう。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}のインスタンスを作成し、ソースファイルを読み込む",
+    "comment_2": "回転させるページ番号を指定する",
+    "comment_3": "ページ回転操作を実行する",
+    "comment_4": "希望の場所に出力ファイルを保存する"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}ページの回転方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})を使用すると、{{FileFormatUp}}ドキュメントのページを回転させ、{{EnvName}}アプリケーションに強力なドキュメント管理機能を追加できます。",
+      "step_1": "{{FileFormatUp}}ファイルのソースパスを定義します。",
+      "step_2": "回転させるページ番号を選択します。",
+      "step_3": "ページ回転操作を実行します。",
+      "step_4": "変更したファイルを希望の場所に保存します。"
+    }
+  },
+  "code_1": {
+    "title": "すべての偶数ページの回転",
+    "content": "この例では、{{FileFormatUp}}ドキュメントのすべての偶数ページを回転させる方法を示します。",
+    "comment_1": "コンストラクタにソースファイルを読み込む",
+    "comment_2": "ドキュメント内の合計ページ数を取得する",
+    "comment_3": "偶数ページの回転設定を構成する（180度）",
+    "comment_4": "ページ回転操作を適用する",
+    "comment_5": "出力ファイルを保存する"
+  }
+}

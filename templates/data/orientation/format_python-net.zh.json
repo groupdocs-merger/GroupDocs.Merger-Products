@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "调整 {{FileFormatUp}} 页面在 {{EnvName}} 应用中",
+    "description": "{{ProdFullName}} 帮助您将 {{FileFormatUp}} 页面转换为纵向或横向格式。处理 PDF、Word 文件、Excel 表格、PowerPoint 幻灯片、Visio 设计、图像、压缩文件等，同时保持控制。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 页面对齐",
+    "description": "{{ProdFullName}} 为 {{EnvNameShort}} 应用增强了实用功能。开发者可以通过管理文件格式和调整 {{FileFormatUp}} 页面布局来构建更优质的解决方案。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费试用"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 概述",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 旨在管理50多种格式的文档，包括 PDF、Word、Excel、PowerPoint、Visio、图像和压缩文件。根据需要合并、拆分、提取、调整、交换、删除或修改页面布局。"
+  },
+  "more_features": {
+    "title": "灵活的文档处理",
+    "description": "{{ProdFullName}} 提供了多种工具来管理50多种文件格式的内容，实现快速、流畅的结果。",
+    "image_description": "{{ProdShortName}} 选项",
+    "feature_1": {
+      "title": "合并多种格式",
+      "content": "合并 PDF、Word 文档、幻灯片、电子表格、Visio 文件、图像和压缩文件。调整以获得最佳输出。"
+    },
+    "feature_2": {
+      "title": "排序文档页面",
+      "content": "重新定位、交换或删除页面，以改善您的文档布局。"
+    },
+    "feature_3": {
+      "title": "设置页面对齐",
+      "content": "将页面旋转或在纵向和横向模式之间切换。"
+    },
+    "feature_4": {
+      "title": "单独导出页面",
+      "content": "提取页面或页面组，并存储为新文件到任意位置。"
+    }
+  },
+  "formats": {
+    "title": "调整多种格式的页面",
+    "description": "{{ProdShortName}} 支持50多种文件类型，为您提供灵活的文档调整方式。"
+  },
+  "operations": {
+    "title": "顶级功能",
+    "description": "查看可以提升您项目的工具。"
+  },
+  "examples": {
+    "comment_1": "将文件路径提供给 {{NameProduct}}",
+    "comment_2": "确定要调整的页面",
+    "comment_3": "应用新方向",
+    "comment_4": "保存完成的文档"
+  },
+  "steps": {
+    "title": "如何调整 {{FileFormatUp}} 页面",
+    "content": {
+      "title": "使用 [{{ProdShortName}}]({{PlatformLink}})，调整 {{FileFormatUp}} 页。这一功能以及其他功能为 {{EnvName}} 应用提供可靠的文档工具。",
+      "step_1": "加载 {{FileFormatUp}} 文件。",
+      "step_2": "选择要调整的页面。",
+      "step_3": "更改其方向。",
+      "step_4": "保存结果。"
+    }
+  },
+  "code_1": {
+    "title": "调整最后一页 {{FileFormatUp}}",
+    "content": "学习如何检查 {{FileFormatUp}} 文件中的页面数量并调整其最后一页。",
+    "comment_1": "将文件加载到构造函数中",
+    "comment_2": "计算总页面数",
+    "comment_3": "选择页面并设置为纵向或横向",
+    "comment_4": "更新页面布局",
+    "comment_5": "保存到您选择的路径"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Combiner des fichiers {{FileFormatUp}} dans {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour ajouter des fonctionnalités de fusion de documents {{FileFormatUp}} à vos projets {{EnvNameShort}}."
+  },
+  "header": {
+    "title": "Combiner des fichiers {{FileFormatUp}}",
+    "description": "Avec {{ProdFullName}}, vous pouvez développer des applications avancées {{EnvNameShort}} qui fusionnent des documents {{FileFormatUp}} sans effort.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une solution puissante pour la manipulation de documents. Elle prend en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, images et archives. Effectuez des opérations telles que la fusion, la séparation, l'extraction, l'échange et la suppression de pages avec précision."
+  },
+  "more_features": {
+    "title": "Outils de fusion de documents",
+    "description": "{{ProdFullName}} prend en charge plus de 50 formats de fichiers professionnels populaires, offrant une large gamme de fonctionnalités de manipulation de documents.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner différents formats de documents",
+      "content": "Combinez des documents tels que des PDFs, des fichiers Word, des présentations, des feuilles de calcul, des images, et plus encore. Appliquez des options pour spécifier quelles pages doivent être traitées."
+    },
+    "feature_2": {
+      "title": "Manipulation des pages",
+      "content": "Déplacez, supprimez ou échangez facilement des pages sélectionnées pour structurer vos documents professionnels comme bon vous semble."
+    },
+    "feature_3": {
+      "title": "Ajuster l'apparence des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle et changez l'orientation (paysage ou portrait) pour les types de documents pris en charge."
+    },
+    "feature_4": {
+      "title": "Extraire des pages",
+      "content": "Extrayez des pages spécifiques et enregistrez-les sous un nouveau fichier ou document."
+    }
+  },
+  "formats": {
+    "title": "Fusionner divers formats de fichiers",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de fichiers, vous permettant de manipuler les documents d'entreprise avec efficacité."
+  },
+  "operations": {
+    "title": "Fonctionnalités clés",
+    "description": "Explorez d'autres opérations prises en charge"
+  },
+  "examples": {
+    "comment_1": "Initialiser {{NameProduct}} avec le document {{FileFormatUp}} d'entrée",
+    "comment_2": "Fusionner le document avec un autre fichier",
+    "comment_3": "Enregistrez le document fusionné à l'emplacement souhaité"
+  },
+  "steps": {
+    "title": "Comment fusionner des documents {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) fournit des capacités de fusion pour les documents {{FileFormatUp}}. Améliorez vos applications {{EnvName}} en fusionnant plusieurs fichiers en un.",
+      "step_1": "Spécifiez le chemin du premier fichier {{FileFormatUp}}.",
+      "step_2": "Sélectionnez le deuxième fichier.",
+      "step_3": "Définissez des options supplémentaires si nécessaire.",
+      "step_4": "Fusionnez les fichiers et enregistrez la sortie."
+    }
+  },
+  "code_1": {
+    "title": "Fusionner des pages spécifiques de fichiers de différents formats",
+    "content": "Cet exemple démontre comment fusionner des fichiers {{FileFormatUp}} tout en incluant des pages spécifiques de documents dans d'autres formats.",
+    "comment_1": "Spécifiez le chemin du fichier principal",
+    "comment_2": "Définissez des options pour sélectionner des pages spécifiques",
+    "comment_3": "Fusionnez le document principal avec les pages sélectionnées d'un autre document",
+    "comment_4": "Enregistrez le fichier fusionné à un nouvel emplacement"
+  }
+}

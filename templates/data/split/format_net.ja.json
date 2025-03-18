@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{EnvName}}アプリで{{FileFormatUp}}文書を分割",
+    "description": "{{ProdFullName}}を使用して、{{FileFormatUp}}ファイルを個別の文書に分割します。PDF、Wordファイル、Excelシート、PowerPointスライド、Visioファイル、画像、アーカイブなどを簡単に管理できます。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}ファイルを分割",
+    "description": "{{ProdFullName}}は、{{EnvNameShort}}アプリケーションに高度な文書処理機能を提供します。{{FileFormatUp}}ファイルを分割し、さまざまな人気のビジネスフォーマットに対応します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料ダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}}について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word、Excel、PowerPoint、Visio、画像、およびアーカイブを含む50以上のファイル形式をサポートする強力な文書処理ライブラリです。文書管理を簡素化するために、マージ、分割、抽出、移動、入れ替え、ページの削除が可能です。"
+  },
+  "more_features": {
+    "title": "高度な文書管理",
+    "description": "{{ProdFullName}}は、50を超える一般的なビジネスファイル形式を効率的に処理するための完全なツールセットを提供します。",
+    "image_description": "{{ProdShortName}}の主要機能",
+    "feature_1": {
+      "title": "複数のファイル形式をマージ",
+      "content": "PDF、Word文書、プレゼンテーション、スプレッドシート、Visio図、画像、およびアーカイブを組み合わせます。精密な結果のためにマージプロセスをカスタマイズします。"
+    },
+    "feature_2": {
+      "title": "文書ページを整理",
+      "content": "ページを移動、入れ替え、または削除して文書構造を改善します。"
+    },
+    "feature_3": {
+      "title": "ページレイアウトを調整",
+      "content": "ページを任意の角度に回転させたり、縦向きと横向きを切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "ページを別ファイルとして抽出",
+      "content": "特定のページまたはページ範囲を選択し、選択した場所に新しいファイルとして保存します。"
+    }
+  },
+  "formats": {
+    "title": "複数のファイル形式を分割",
+    "description": "{{ProdShortName}}は、50以上のファイルタイプをサポートし、文書の修正を迅速かつ効率的に行います。"
+  },
+  "operations": {
+    "title": "主要機能",
+    "description": "私たちのライブラリの強力な文書処理機能を探求します。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}にソースファイルをロード",
+    "comment_2": "出力ファイルのパスを指定",
+    "comment_3": "分割オプションを設定",
+    "comment_4": "分割操作を実行"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}ファイルを分割する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})を使用して、{{FileFormatUp}}文書を分割し、選択したページを新しいファイルとして保存できます。{{EnvName}}アプリケーションでの文書処理を強化します。",
+      "step_1": "{{FileFormatUp}}ファイルのソースパスを指定します。",
+      "step_2": "分割文書の出力ファイルパスを定義します。",
+      "step_3": "分割操作の設定を構成します。",
+      "step_4": "分割操作を実行し、ファイルを保存します。"
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}}文書を分割し、偶数ページを保存",
+    "content": "この例では、{{FileFormatUp}}文書を分割し、すべての偶数ページを別のファイルとして保存する方法を示します。",
+    "comment_1": "コンストラクタにソースファイルをロード",
+    "comment_2": "出力ファイルのパスを指定",
+    "comment_3": "ページの総数を取得",
+    "comment_4": "偶数ページの分割オプションを定義",
+    "comment_5": "分割操作を実行し、ファイルを保存"
+  }
+}

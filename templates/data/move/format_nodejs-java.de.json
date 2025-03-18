@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Seiten in {{FileFormatUp}} in {{EnvName}} neu anordnen",
+    "description": "Verwenden Sie {{ProdFullName}}, um die Reihenfolge der Seiten in {{FileFormatUp}}-Dokumenten mühelos zu ändern. Verarbeiten Sie PDF, Word, Excel, PowerPoint, Bilder und mehr."
+  },
+  "header": {
+    "title": "Seiten in {{FileFormatUp}} neu anordnen",
+    "description": "{{ProdFullName}} ermöglicht es {{EnvNameShort}}-Anwendungen, die Reihenfolge der Seiten in {{FileFormatUp}}-Dokumenten anzupassen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos testen"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein leistungsstarkes Dokumentenverarbeitungstool, das über 50 Dateiformate unterstützt, einschließlich PDF, Word, Excel, PowerPoint, Bilder und Archive. Es bietet umfangreiche Funktionen zum Zusammenführen, Aufteilen, Extrahieren, Neuordnen, Umstellen und Löschen von Seiten."
+  },
+  "more_features": {
+    "title": "Umfassende Dokumentenverwaltung",
+    "description": "{{ProdFullName}} bietet eine reichhaltige Auswahl an Funktionen, um effizient mit über 50 gängigen Geschäftsdokumentformaten zu arbeiten.",
+    "image_description": "Wesentliche Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Dokumente unterschiedlicher Typen zusammenführen",
+      "content": "Kombinieren Sie Inhalte aus PDFs, Word-Dokumenten, Präsentationen, Tabellenkalkulationen, Bildern und Archiven. Nutzen Sie flexible Optionen zur Anpassung der endgültigen Dokumentenstruktur."
+    },
+    "feature_2": {
+      "title": "Dokumentseiten modifizieren",
+      "content": "Ändern Sie die Reihenfolge der Seiten in Ihren Dokumenten, indem Sie sie nach Bedarf verschieben, umstellen oder entfernen."
+    },
+    "feature_3": {
+      "title": "Seitenlayout und -ausrichtung anpassen",
+      "content": "Drehen Sie Seiten in jeden gewünschten Winkel oder wechseln Sie zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Seiten als separate Dokumente extrahieren",
+      "content": "Wählen Sie bestimmte Seiten aus und speichern Sie diese als eigenständige Dateien für die weitere Verwendung."
+    }
+  },
+  "formats": {
+    "title": "Seiten in mehreren Formaten neu anordnen",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateiformate und bietet Flexibilität und Präzision bei der Dokumentenbearbeitung."
+  },
+  "operations": {
+    "title": "Kernfunktionen",
+    "description": "Entdecken Sie weitere wichtige Funktionen, die in unserer Lösung enthalten sind."
+  },
+  "examples": {
+    "comment_1": "Initialisieren Sie eine {{NameProduct}}-Instanz mit dem Ausgangsdokument",
+    "comment_2": "Definieren Sie die Seitenzahl, die verschoben werden soll",
+    "comment_3": "Positionieren Sie die ausgewählte Seite neu",
+    "comment_4": "Speichern Sie das modifizierte Dokument"
+  },
+  "steps": {
+    "title": "So ordnen Sie Seiten in {{FileFormatUp}} neu an",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vereinfacht den Prozess des Verschiebens von Seiten innerhalb von {{FileFormatUp}}-Dokumenten. Erweitern Sie Ihre {{EnvName}}-Anwendungen um fortschrittliche Dokumentenorganisationsfähigkeiten.",
+      "step_1": "Geben Sie den Pfad zum {{FileFormatUp}}-Dokument an.",
+      "step_2": "Geben Sie die Seitenzahl und ihre neue Position an.",
+      "step_3": "Führen Sie die Seitenverschiebungsoperation durch.",
+      "step_4": "Speichern Sie das modifizierte Dokument."
+    }
+  },
+  "code_1": {
+    "title": "Eine Seite an die letzte Position in einem Dokument verschieben",
+    "content": "Dieses Beispiel zeigt, wie Sie eine Seite an das Ende eines {{FileFormatUp}}-Dokuments verschieben.",
+    "comment_1": "Geben Sie den Pfad zum Ausgangsdokument an",
+    "comment_2": "Abrufen der Dokumentendetails und Bestimmung der letzten Seitenzahl",
+    "comment_3": "Konfigurieren Sie die Verschiebeoperation mit den Zielseitenzahlen",
+    "comment_4": "Führen Sie die Verschiebeoperation aus",
+    "comment_5": "Speichern Sie das aktualisierte Dokument an dem gewünschten Ort"
+  }
+}

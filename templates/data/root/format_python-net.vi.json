@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Kết hợp tệp {{FileFormatUp}} qua {{EnvName}}",
+    "description": "Tích hợp việc hợp nhất tài liệu {{FileFormatUp}} một cách liền mạch vào các dự án {{EnvNameShort}} của bạn với {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Hợp nhất tệp {{FileFormatUp}}",
+    "description": "Tối ưu hóa quy trình xử lý tài liệu trong các ứng dụng {{EnvNameShort}} của bạn với {{ProdFullName}}, cho phép hợp nhất tệp {{FileFormatUp}} nhanh chóng và hiệu quả.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp toàn diện cho quản lý tài liệu, hỗ trợ hơn 50 loại tệp, bao gồm PDF, tài liệu Word, bảng tính, bài thuyết trình, hình ảnh và lưu trữ. Kết hợp, chia tách, sắp xếp lại, trích xuất và xóa các trang để tổ chức tài liệu theo nhu cầu của bạn."
+  },
+  "more_features": {
+    "title": "Công cụ hợp nhất tài liệu",
+    "description": "{{ProdFullName}} cung cấp khả năng xử lý tài liệu nâng cao, hỗ trợ hơn 50 định dạng tệp được sử dụng rộng rãi.",
+    "image_description": "Lợi ích chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hợp nhất các định dạng tài liệu khác nhau",
+      "content": "Hợp nhất các loại tệp khác nhau, bao gồm PDF, tài liệu Word, bảng tính, bài thuyết trình và hình ảnh. Xác định các trang cụ thể để đưa vào quá trình hợp nhất."
+    },
+    "feature_2": {
+      "title": "Quản lý trang",
+      "content": "Tái tổ chức, xóa, hoặc hoán đổi các trang để cấu trúc tài liệu một cách hiệu quả."
+    },
+    "feature_3": {
+      "title": "Chỉnh sửa bố cục trang",
+      "content": "Xoay các trang theo bất kỳ góc độ nào và chuyển đổi giữa chế độ chân phương và chân đứng cho các định dạng tệp tương thích."
+    },
+    "feature_4": {
+      "title": "Trích xuất trang",
+      "content": "Chọn và trích xuất các trang cụ thể, lưu chúng thành một tài liệu mới."
+    }
+  },
+  "formats": {
+    "title": "Hợp nhất các định dạng tệp khác nhau",
+    "description": "{{ProdShortName}} hỗ trợ hơn 50 loại tài liệu, cho phép hợp nhất và tùy chỉnh liền mạch."
+  },
+  "operations": {
+    "title": "Các tính năng chính",
+    "description": "Khám phá các công cụ bổ sung cho việc xử lý tài liệu"
+  },
+  "examples": {
+    "comment_1": "Khởi tạo {{NameProduct}} với tài liệu {{FileFormatUp}} nguồn",
+    "comment_2": "Hợp nhất tài liệu với một tệp bổ sung",
+    "comment_3": "Lưu tài liệu đã hợp nhất đến vị trí mong muốn"
+  },
+  "steps": {
+    "title": "Cách hợp nhất tài liệu {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp bạn dễ dàng hợp nhất tài liệu {{FileFormatUp}}. Thêm khả năng hợp nhất vào các ứng dụng {{EnvName}} của bạn để kết hợp hiệu quả nhiều tệp.",
+      "step_1": "Cung cấp đường dẫn đến tệp {{FileFormatUp}} đầu tiên.",
+      "step_2": "Chọn một tệp bổ sung để hợp nhất.",
+      "step_3": "Áp dụng cài đặt tùy chọn nếu cần.",
+      "step_4": "Thực hiện quá trình hợp nhất và lưu tài liệu đầu ra."
+    }
+  },
+  "code_1": {
+    "title": "Hợp nhất tệp của các định dạng khác nhau",
+    "content": "Ví dụ này minh họa cách hợp nhất nhiều tệp ở các định dạng khác nhau thành một tài liệu duy nhất.",
+    "comment_1": "Định nghĩa đường dẫn tệp chính",
+    "comment_2": "Hợp nhất với một tài liệu Microsoft Word",
+    "comment_3": "Bao gồm một bảng tính Microsoft Excel trong tài liệu đã hợp nhất",
+    "comment_4": "Lưu tài liệu đã hợp nhất cuối cùng tại vị trí đã chỉ định"
+  }
+}

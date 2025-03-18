@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}-Dateien in {{ProgLang}} zusammenführen",
+    "description": "{{ProdFullName}} integriert das Zusammenführen von {{FileFormatUp}}-Dateien in Ihre {{EnvNameShort}}-Projekte."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}-Dateien zusammenführen",
+    "description": "{{ProdFullName}} ermöglicht es Ihnen, {{FileFormatUp}}-Dokumente nahtlos in Ihren {{EnvNameShort}}-Anwendungen zu kombinieren.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein umfassendes Werkzeug für das Dokumentenmanagement. Es unterstützt mehr als 50 Formate, darunter PDF, Word, Excel, PowerPoint, Bilder und Archive, und ermöglicht es Ihnen, Seiten mühelos zu zusammenzuführen, zu teilen, zu extrahieren, zu tauschen und zu entfernen."
+  },
+  "more_features": {
+    "title": "Erweiterte Dokumentenzusammenführung",
+    "description": "{{ProdFullName}} ist darauf ausgelegt, mit über 50 gängigen Dateiformaten zu arbeiten und bietet robuste Dokumentenverarbeitungsfunktionen.",
+    "image_description": "Wesentliche Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Verschiedene Dokumententypen zusammenführen",
+      "content": "Kombinieren Sie mühelos PDFs, Word-Dokumente, Präsentationen, Tabellenkalkulationen, Bilder und mehr. Passen Sie an, welche Seiten nach Bedarf zusammengeführt werden sollen."
+    },
+    "feature_2": {
+      "title": "Dokumentseiten ändern",
+      "content": "Ordnen Sie Seiten um, löschen Sie sie oder tauschen Sie sie aus, um Ihre Geschäftsdokumente besser zu strukturieren."
+    },
+    "feature_3": {
+      "title": "Seiteneinstellungen anpassen",
+      "content": "Drehen Sie Seiten in jedem Winkel und ändern Sie ihre Ausrichtung zwischen Quer- und Hochformat für unterstützte Dateiformate."
+    },
+    "feature_4": {
+      "title": "Dokumentseiten extrahieren",
+      "content": "Wählen Sie spezifische Seiten aus und extrahieren Sie diese, um sie als neues eigenständiges Dokument zu speichern."
+    }
+  },
+  "formats": {
+    "title": "Mehrere Dateiformate kombinieren",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateitypen und sorgt für eine nahtlose Dokumentenverarbeitung für verschiedene Geschäftsbedürfnisse."
+  },
+  "operations": {
+    "title": "Wesentliche Funktionen",
+    "description": "Entdecken Sie zusätzliche Funktionen und Operationen, die von {{ProdShortName}} unterstützt werden."
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}} mit der Eingabedatei {{FileFormatUp}} initialisieren",
+    "comment_2": "Die Datei mit einem anderen Dokument kombinieren",
+    "comment_3": "Das zusammengeführte Dokument an einem bestimmten Ort speichern"
+  },
+  "steps": {
+    "title": "So führen Sie {{FileFormatUp}}-Dokumente zusammen",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) bietet nahtloses Zusammenführen für {{FileFormatUp}}-Dokumente. Verbessern Sie Ihre {{EnvName}}-Anwendungen, indem Sie mehrere Dateien in einer zusammenfassen.",
+      "step_1": "Setzen Sie den Pfad zum ersten {{FileFormatUp}}-Dokument.",
+      "step_2": "Wählen Sie das zweite Dokument aus.",
+      "step_3": "Definieren Sie optionale Parameter.",
+      "step_4": "Führen Sie die Dateien zusammen und speichern Sie das Ausgabedokument."
+    }
+  },
+  "code_1": {
+    "title": "Ausgewählte Seiten aus verschiedenen Dateiformaten zusammenführen",
+    "content": "Dieses Beispiel zeigt, wie {{FileFormatUp}}-Dateien zusammengeführt werden, während spezifische Seiten aus anderen Dokumententypen ausgewählt werden.",
+    "comment_1": "Geben Sie den Pfad zum Hauptdokument an",
+    "comment_2": "Setzen Sie Optionen, um die ausgewählten Seiten einzuschließen",
+    "comment_3": "Führen Sie die Hauptdatei mit Seiten aus einem anderen Dokument zusammen",
+    "comment_4": "Speichern Sie das endgültige zusammengeführte Dokument am gewünschten Ort"
+  }
+}

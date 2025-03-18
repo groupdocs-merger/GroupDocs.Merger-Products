@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Seiten von {{FileFormatUp}} in {{EnvName}}-Apps anpassen",
+    "description": "{{ProdFullName}} hilft Ihnen, {{FileFormatUp}}-Seiten in Hoch- oder Querformat zu ändern. Verarbeiten Sie PDFs, Word-Dokumente, Excel-Tabellen, PowerPoint-Präsentationen, Visio-Designs, Bilder, Archive und mehr mit Kontrolle."
+  },
+  "header": {
+    "title": "Seitenanpassung für {{FileFormatUp}}",
+    "description": "{{ProdFullName}} verbessert {{EnvNameShort}}-Apps mit nützlichen Funktionen. Entwickler können bessere Lösungen erstellen, indem sie Dateiformate verwalten und die Seitenlayouts von {{FileFormatUp}} anpassen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Jetzt kostenlos testen"
+  },
+  "about": {
+    "title": "{{ProdShortName}} Übersicht",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) wurde entwickelt, um Dokumente in über 50 Formaten wie PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive zu verwalten. Fügen Sie zusammen, teilen Sie, extrahieren Sie, verschieben Sie, tauschen Sie aus, entfernen Sie oder passen Sie die Seitenlayouts nach Bedarf an."
+  },
+  "more_features": {
+    "title": "Anpassbare Dokumentenverarbeitung",
+    "description": "{{ProdFullName}} bietet eine breite Palette an Werkzeugen zur Verwaltung von Inhalten in über 50 Dateiformaten und liefert schnelle und reibungslose Ergebnisse.",
+    "image_description": "{{ProdShortName}} Optionen",
+    "feature_1": {
+      "title": "Verschiedene Formate kombinieren",
+      "content": "Mergen Sie PDFs, Word-Dokumente, Folien, Tabellenkalkulationen, Visio-Dateien, Bilder und Archive. Passen Sie es für das beste Ergebnis an."
+    },
+    "feature_2": {
+      "title": "Dokumentseiten sortieren",
+      "content": "Verschieben, tauschen oder entfernen Sie Seiten, um Ihre Dokumentenstruktur zu verbessern."
+    },
+    "feature_3": {
+      "title": "Seitenausrichtung festlegen",
+      "content": "Drehen Sie Seiten um einen Winkel oder wechseln Sie zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Seiten separat exportieren",
+      "content": "Nehmen Sie eine Seite oder eine Gruppe von Seiten und speichern Sie sie als neue Datei an einem beliebigen Ort."
+    }
+  },
+  "formats": {
+    "title": "Seiten in vielen Formaten anpassen",
+    "description": "{{ProdShortName}} arbeitet mit über 50 Dateitypen und bietet Ihnen flexible Möglichkeiten zur Anpassung von Dokumenten."
+  },
+  "operations": {
+    "title": "Hauptfunktionen",
+    "description": "Entdecken Sie die Werkzeuge, die Ihre Projekte verbessern können."
+  },
+  "examples": {
+    "comment_1": "Übergeben Sie den Dateipfad an {{NameProduct}}",
+    "comment_2": "Wählen Sie die Seite aus, die angepasst werden soll",
+    "comment_3": "Wenden Sie die neue Ausrichtung an",
+    "comment_4": "Speichern Sie das fertige Dokument"
+  },
+  "steps": {
+    "title": "So passen Sie {{FileFormatUp}}-Seiten an",
+    "content": {
+      "title": "Mit [{{ProdShortName}}]({{PlatformLink}}) verschieben Sie {{FileFormatUp}}-Seiten. Diese Funktion und andere bieten zuverlässige Dokumententools für {{EnvName}}-Apps.",
+      "step_1": "Laden Sie die {{FileFormatUp}}-Datei.",
+      "step_2": "Wählen Sie die Seite zum Anpassen aus.",
+      "step_3": "Ändern Sie ihre Ausrichtung.",
+      "step_4": "Speichern Sie das Ergebnis."
+    }
+  },
+  "code_1": {
+    "title": "Die letzte {{FileFormatUp}}-Seite anpassen",
+    "content": "Erfahren Sie, wie Sie die Seitenanzahl in einer {{FileFormatUp}}-Datei überprüfen und die letzte Seite anpassen.",
+    "comment_1": "Laden Sie die Datei in den Konstruktor",
+    "comment_2": "Zählen Sie die Gesamtseiten",
+    "comment_3": "Wählen Sie die Seite aus und setzen Sie Hoch- oder Querformat",
+    "comment_4": "Aktualisieren Sie das Seitenlayout",
+    "comment_5": "Speichern Sie an dem gewählten Ort"
+  }
+}

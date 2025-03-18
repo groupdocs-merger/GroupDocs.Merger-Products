@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "在{{EnvName}}中合并{{FileFormatUp}}文件",
+    "description": "使用{{ProdFullName}}无缝集成{{FileFormatUp}}文件合并功能到您的{{EnvNameShort}}项目中。"
+  },
+  "header": {
+    "title": "合并{{FileFormatUp}}文件",
+    "description": "{{ProdFullName}}使您能够在{{EnvNameShort}}应用程序中高效地合并{{FileFormatUp}}文档，提供无缝集成和高性能。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "{{ProdShortName}}概述",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})是一个功能丰富的文档处理解决方案，支持超过50种文件格式，包括PDF、Word、Excel、PowerPoint、图像和档案。借助其强大的工具集，您可以高效地合并、拆分、提取、交换和删除页面。"
+  },
+  "more_features": {
+    "title": "全面的文档合并能力",
+    "description": "{{ProdFullName}}针对各种文档格式进行了优化，提供广泛的功能以管理业务文档。",
+    "image_description": "{{ProdShortName}}的核心功能",
+    "feature_1": {
+      "title": "合并多种文档类型",
+      "content": "轻松组合PDF、Word文件、演示文稿、电子表格、图像以及其他文档类型。定义特定的页面范围以自定义合并过程。"
+    },
+    "feature_2": {
+      "title": "修改和组织文档页面",
+      "content": "重新排列页面、删除不需要的部分，或交换页面以创建满足您需求的结构良好的文档。"
+    },
+    "feature_3": {
+      "title": "自定义页面布局和方向",
+      "content": "将页面旋转到所需角度，并在多种文件类型中调整页面方向（横向和纵向）。"
+    },
+    "feature_4": {
+      "title": "提取并保存特定文档页面",
+      "content": "从文档中选择特定页面并将其保存为单独的文件，以确保便于访问和组织。"
+    }
+  },
+  "formats": {
+    "title": "合并不同格式的文件",
+    "description": "支持超过50种文档类型，{{ProdShortName}}简化文件处理，使文档管理变得简单高效。"
+  },
+  "operations": {
+    "title": "关键功能",
+    "description": "探索{{ProdShortName}}支持的更多操作和特性，以提升您的文档处理体验。"
+  },
+  "examples": {
+    "comment_1": "初始化带有源{{FileFormatUp}}文档的{{NameProduct}}",
+    "comment_2": "将文档与另一个选择的文件合并",
+    "comment_3": "将最终合并的文档保存到所需位置"
+  },
+  "steps": {
+    "title": "如何合并{{FileFormatUp}}文档",
+    "content": {
+      "title": "使用[{{ProdShortName}}]({{PlatformLink}})，合并{{FileFormatUp}}文档非常简单。增强您的{{EnvName}}应用程序以实现高效的文档组合功能。",
+      "step_1": "提供第一个{{FileFormatUp}}文档的文件路径。",
+      "step_2": "选择第二个要合并的文档。",
+      "step_3": "设置可选参数以自定义。",
+      "step_4": "执行合并过程并保存输出文档。"
+    }
+  },
+  "code_1": {
+    "title": "合并来自不同文档格式的选定页面",
+    "content": "该示例演示如何在合并{{FileFormatUp}}文件时选择来自其他格式文档的特定页面。",
+    "comment_1": "定义主文档的路径",
+    "comment_2": "配置选项以包括特定页面",
+    "comment_3": "将主文件与另一个文档中选定的页面合并",
+    "comment_4": "在所需位置保存最终文档"
+  }
+}

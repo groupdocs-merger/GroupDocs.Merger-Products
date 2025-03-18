@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Gabungkan file {{FileFormatUp}} melalui {{EnvName}}",
+    "description": "Integrasikan penggabungan dokumen {{FileFormatUp}} secara seamless ke dalam proyek {{EnvNameShort}} Anda dengan {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Gabungkan file {{FileFormatUp}}",
+    "description": "Permudah pemrosesan dokumen dalam aplikasi {{EnvNameShort}} Anda dengan {{ProdFullName}}, memungkinkan penggabungan file {{FileFormatUp}} yang cepat dan efisien.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah solusi menyeluruh untuk manajemen dokumen, mendukung lebih dari 50 jenis file, termasuk PDF, dokumen Word, spreadsheet, presentasi, gambar, dan arsip. Gabungkan, pisahkan, urutkan, ekstrak, dan hapus halaman untuk menyusun dokumen Anda sesuai kebutuhan."
+  },
+  "more_features": {
+    "title": "Alat penggabungan dokumen",
+    "description": "{{ProdFullName}} menyediakan kemampuan pemrosesan dokumen lanjutan, mendukung lebih dari 50 format file yang umum digunakan.",
+    "image_description": "Manfaat utama dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan berbagai format dokumen",
+      "content": "Gabungkan berbagai jenis file, termasuk PDF, dokumen Word, spreadsheet, presentasi, dan gambar. Tentukan halaman tertentu untuk disertakan dalam proses penggabungan."
+    },
+    "feature_2": {
+      "title": "Manajemen halamannya",
+      "content": "Reorganisasi, hapus, atau tukar halaman untuk menyusun dokumen secara efisien."
+    },
+    "feature_3": {
+      "title": "Ubah tata letak halaman",
+      "content": "Putar halaman ke sudut yang diinginkan dan beralih antara mode lanskap dan potret untuk format file yang kompatibel."
+    },
+    "feature_4": {
+      "title": "Ekstrak halaman",
+      "content": "Pilih dan ekstrak halaman tertentu, menyimpannya sebagai dokumen baru."
+    }
+  },
+  "formats": {
+    "title": "Gabungkan berbagai format file",
+    "description": "{{ProdShortName}} mendukung lebih dari 50 jenis dokumen, memungkinkan penggabungan dan kustomisasi yang mulus."
+  },
+  "operations": {
+    "title": "Fitur utama",
+    "description": "Temukan alat tambahan untuk pemrosesan dokumen."
+  },
+  "examples": {
+    "comment_1": "Inisialisasi {{NameProduct}} dengan dokumen {{FileFormatUp}} sumber",
+    "comment_2": "Gabungkan dokumen dengan file tambahan",
+    "comment_3": "Simpan dokumen yang digabungkan ke lokasi yang diinginkan"
+  },
+  "steps": {
+    "title": "Cara menggabungkan dokumen {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memudahkan penggabungan dokumen {{FileFormatUp}}. Tambahkan kemampuan penggabungan ke aplikasi {{EnvName}} Anda untuk menggabungkan beberapa file secara efisien.",
+      "step_1": "Berikan jalur ke file {{FileFormatUp}} pertama.",
+      "step_2": "Pilih file tambahan untuk digabungkan.",
+      "step_3": "Terapkan pengaturan opsional jika perlu.",
+      "step_4": "Jalankan proses penggabungan dan simpan dokumen keluaran."
+    }
+  },
+  "code_1": {
+    "title": "Gabungkan file dengan format berbeda",
+    "content": "Contoh ini menunjukkan cara menggabungkan beberapa file dengan berbagai format menjadi satu dokumen.",
+    "comment_1": "Tentukan jalur file utama",
+    "comment_2": "Gabungkan dengan dokumen Microsoft Word",
+    "comment_3": "Sertakan spreadsheet Microsoft Excel dalam dokumen yang digabungkan",
+    "comment_4": "Simpan dokumen terakhir yang digabungkan ke lokasi yang ditentukan"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Ekstrak halaman {{FileFormatUp}} di {{EnvName}}",
+    "description": "Secara cepat ekstrak halaman tertentu dari file {{FileFormatUp}} menggunakan {{ProdFullName}} dan simpan sebagai dokumen terpisah."
+  },
+  "header": {
+    "title": "Ekstrak halaman {{FileFormatUp}}",
+    "description": "Integrasikan {{ProdFullName}} ke dalam aplikasi {{EnvNameShort}} Anda untuk memproses file {{FileFormatUp}} secara efisien dengan fitur ekstraksi halaman yang canggih.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah perpustakaan pemrosesan dokumen yang kuat yang mendukung lebih dari 50 format file, termasuk PDF, Word, Excel, PowerPoint, dan gambar. Ini memungkinkan operasi tanpa hambatan seperti menggabungkan, memisahkan, mengekstrak, mengatur ulang, dan menghapus halaman."
+  },
+  "more_features": {
+    "title": "Pemrosesan dokumen yang serbaguna",
+    "description": "{{ProdFullName}} menyediakan fungsionalitas yang kuat untuk bekerja dengan lebih dari 50 format dokumen bisnis yang banyak digunakan.",
+    "image_description": "Fitur inti dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan berbagai jenis file",
+      "content": "Kombinasikan PDF, dokumen Word, slide PowerPoint, lembar Excel, gambar, dan arsip dalam satu file dengan opsi yang dapat disesuaikan."
+    },
+    "feature_2": {
+      "title": "Manajemen halaman yang canggih",
+      "content": "Dengan mudah pindahkan, hapus, atau atur ulang halaman dalam dokumen untuk mengorganisir konten Anda secara efektif."
+    },
+    "feature_3": {
+      "title": "Modifikasi tata letak halaman",
+      "content": "Putar halaman ke sudut manapun atau beralih antara orientasi potret dan lanskap sesuai kebutuhan."
+    },
+    "feature_4": {
+      "title": "Ekstrak halaman tertentu",
+      "content": "Pilih dan ekstrak hanya halaman yang dibutuhkan, simpan sebagai dokumen baru untuk penggunaan lebih lanjut."
+    }
+  },
+  "formats": {
+    "title": "Ekstrak halaman dari berbagai format file",
+    "description": "{{ProdShortName}} mendukung lebih dari 50 format file, menjadikan manajemen dokumen lebih fleksibel dan efisien."
+  },
+  "operations": {
+    "title": "Kemampuan utama",
+    "description": "Jelajahi fitur pemrosesan dokumen tambahan."
+  },
+  "examples": {
+    "comment_1": "Buat instance dari {{ProdShortName}} dengan dokumen sumber",
+    "comment_2": "Tentukan pengaturan ekstraksi untuk halaman tertentu",
+    "comment_3": "Jalankan proses ekstraksi halaman",
+    "comment_4": "Simpan halaman yang diekstrak sebagai file baru"
+  },
+  "steps": {
+    "title": "Cara mengekstrak halaman {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) membuatnya sederhana untuk mengekstrak halaman dari dokumen {{FileFormatUp}}. Tingkatkan aplikasi {{EnvName}} Anda dengan kemampuan pemrosesan dokumen yang mulus.",
+      "step_1": "Berikan jalur file dari dokumen {{FileFormatUp}} sumber.",
+      "step_2": "Pilih halaman yang ingin Anda ekstrak.",
+      "step_3": "Jalankan proses ekstraksi.",
+      "step_4": "Simpan halaman yang diekstrak sebagai dokumen terpisah."
+    }
+  },
+  "code_1": {
+    "title": "Ekstrak halaman tertentu dari dokumen",
+    "content": "Contoh ini menunjukkan cara mengekstrak rentang halaman terpilih dari file {{FileFormatUp}} dan menyimpannya sebagai dokumen baru.",
+    "comment_1": "Tentukan jalur file dari dokumen asli",
+    "comment_2": "Tentukan opsi untuk hanya mengekstrak halaman bernomor genap dari rentang yang dipilih",
+    "comment_3": "Lakukan operasi ekstraksi",
+    "comment_4": "Simpan halaman yang diekstrak ke file baru"
+  }
+}

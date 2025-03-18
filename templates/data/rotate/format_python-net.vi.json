@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Xoay các trang {{FileFormatUp}} trong ứng dụng {{EnvName}}",
+    "description": "Sử dụng {{ProdFullName}} để xoay các trang trong tài liệu {{FileFormatUp}}. Chỉnh sửa PDF, tài liệu Word, bảng tính Excel, slide PowerPoint, hình ảnh và các tệp lưu trữ một cách hiệu quả."
+  },
+  "header": {
+    "title": "Xoay các trang trong tệp {{FileFormatUp}}",
+    "description": "Nâng cao ứng dụng {{EnvNameShort}} của bạn với {{ProdFullName}}, một giải pháp xử lý tài liệu mạnh mẽ. Xoay các trang trong {{FileFormatUp}} và quản lý nhiều định dạng tệp một cách hiệu quả.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là thư viện xử lý tài liệu tiên tiến hỗ trợ hơn 50 định dạng tệp, bao gồm PDF, Word, Excel, PowerPoint, Visio, hình ảnh và các tệp lưu trữ. Nó cung cấp các tính năng như hợp nhất, chia nhỏ, trích xuất, sắp xếp lại và xóa các trang để quản lý tài liệu hiệu quả trong ứng dụng của bạn."
+  },
+  "more_features": {
+    "title": "Quản lý tài liệu toàn diện",
+    "description": "{{ProdFullName}} cung cấp một bộ tính năng rộng rãi, giúp xử lý hơn 50 định dạng tệp kinh doanh phổ biến.",
+    "image_description": "Các khả năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hợp nhất nhiều định dạng tệp",
+      "content": "Kết hợp PDF, tài liệu Word, bảng tính, bài thuyết trình, sơ đồ Visio, hình ảnh và các tệp lưu trữ. Sử dụng các tùy chọn nâng cao để kiểm soát chính xác quá trình hợp nhất."
+    },
+    "feature_2": {
+      "title": "Sắp xếp lại các trang tài liệu",
+      "content": "Dễ dàng di chuyển, hoán đổi hoặc xóa các trang để tổ chức tệp của bạn tốt hơn."
+    },
+    "feature_3": {
+      "title": "Tùy chỉnh bố cục trang",
+      "content": "Xoay các trang đến bất kỳ góc nào hoặc chuyển đổi giữa định dạng nằm ngang và đứng để cải thiện khả năng đọc."
+    },
+    "feature_4": {
+      "title": "Trích xuất các trang dưới dạng tệp riêng",
+      "content": "Chọn các trang cụ thể hoặc một dải trang và lưu chúng dưới dạng một tài liệu mới ở vị trí bạn mong muốn."
+    }
+  },
+  "formats": {
+    "title": "Xoay các trang trong nhiều định dạng",
+    "description": "{{ProdShortName}} hỗ trợ hơn 50 loại tệp, cho phép bạn chỉnh sửa tài liệu một cách nhanh chóng với nhiều thao tác tích hợp sẵn."
+  },
+  "operations": {
+    "title": "Tính năng cốt lõi",
+    "description": "Khám phá các khả năng mạnh mẽ có sẵn trong thư viện xử lý tài liệu của chúng tôi."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo {{NameProduct}} và tải tài liệu nguồn",
+    "comment_2": "Chỉ định số trang cần xoay",
+    "comment_3": "Thực hiện quá trình xoay",
+    "comment_4": "Lưu tài liệu đã cập nhật đến vị trí mong muốn"
+  },
+  "steps": {
+    "title": "Cách xoay các trang {{FileFormatUp}}",
+    "content": {
+      "title": "Với [{{ProdShortName}}]({{PlatformLink}}), bạn có thể xoay các trang trong tài liệu {{FileFormatUp}}, mang lại khả năng quản lý tài liệu mạnh mẽ cho các ứng dụng {{EnvName}}.",
+      "step_1": "Cung cấp đường dẫn đến tệp {{FileFormatUp}}.",
+      "step_2": "Chọn số trang mà bạn muốn xoay.",
+      "step_3": "Áp dụng thao tác xoay.",
+      "step_4": "Lưu tài liệu đã chỉnh sửa tại vị trí bạn mong muốn."
+    }
+  },
+  "code_1": {
+    "title": "Xoay tất cả các trang {{FileFormatUp}} số chẵn",
+    "content": "Ví dụ này trình bày cách xoay mỗi trang số chẵn trong tài liệu {{FileFormatUp}}.",
+    "comment_1": "Tải tài liệu nguồn vào constructor",
+    "comment_2": "Lấy tổng số trang",
+    "comment_3": "Cấu hình cài đặt để xoay các trang chẵn 180 độ",
+    "comment_4": "Thực hiện thao tác xoay",
+    "comment_5": "Lưu tệp đã chỉnh sửa"
+  }
+}

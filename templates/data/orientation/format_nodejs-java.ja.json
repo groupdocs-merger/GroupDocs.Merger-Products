@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}ファイルのページ方向を{{EnvName}}アプリで設定",
+    "description": "{{ProdFullName}}を使用すると、{{FileFormatUp}}ファイルのページをポートレートとランドスケープの間で切り替えることができます。PDF、Wordドキュメント、Excelファイル、PowerPointスライド、Visioチャート、画像、アーカイブなどを精密に管理します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}}ファイルのページ方向",
+    "description": "{{ProdFullName}}は{{EnvNameShort}}アプリにスマートな機能を追加します。開発者は、人気のフォーマットを扱い、{{FileFormatUp}}のページ方向を設定することでツールを改善できます。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "今すぐダウンロード"
+  },
+  "about": {
+    "title": "{{ProdShortName}}の概要",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、PDF、Word、Excel、PowerPoint、Visio、画像、アーカイブなど、50以上のフォーマットのドキュメント管理に対応します。マージ、分割、抽出、順序変更、スワップ、削除、ページレイアウトの調整が可能です。"
+  },
+  "more_features": {
+    "title": "動的ドキュメント管理",
+    "description": "{{ProdFullName}}は、50以上のファイル形式に対応したコンテンツ管理のための強力なツールキットを提供し、迅速で信頼性の高い結果を実現します。",
+    "image_description": "{{ProdShortName}}ツール",
+    "feature_1": {
+      "title": "異なるファイル形式の結合",
+      "content": "PDF、Wordファイル、プレゼンテーション、スプレッドシート、Visio図、画像、アーカイブをリンクします。完璧なフィット感のために設定を調整します。"
+    },
+    "feature_2": {
+      "title": "ドキュメントページの再配置",
+      "content": "ページを移動、スワップ、または削除してドキュメントの流れを形作ります。"
+    },
+    "feature_3": {
+      "title": "ページ方向の調整",
+      "content": "ページを角度で回転させたり、ポートレートとランドスケープの表示を切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "ページを新しいファイルとして保存",
+      "content": "ページを選択し、それをスタンドアロンファイルとして任意の場所にエクスポートします。"
+    }
+  },
+  "formats": {
+    "title": "複数フォーマットの方向を調整",
+    "description": "{{ProdShortName}}は50以上のファイルタイプに対応しており、広範囲にわたるオプションでドキュメントを洗練させることができます。"
+  },
+  "operations": {
+    "title": "主要機能",
+    "description": "ソリューションを強化するためのツールを発見してください。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}}にファイルをロード",
+    "comment_2": "調整するページを選択",
+    "comment_3": "希望の方向を選択",
+    "comment_4": "変更を保存"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}のページ方向を設定する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})を使用して{{FileFormatUp}}のページレイアウトを変更します。このツールは、{{EnvName}}アプリに強力なドキュメント処理機能をもたらします。",
+      "step_1": "{{FileFormatUp}}ファイルのパスを指定します。",
+      "step_2": "作業するページを選択します。",
+      "step_3": "その方向を切り替えます。",
+      "step_4": "出力を保存します。"
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}}ファイルの最後のページを反転",
+    "content": "{{FileFormatUp}}ドキュメントのページ数を tally し、最後のページのレイアウトを調整する方法を確認します。",
+    "comment_1": "コンストラクタでファイルを開く",
+    "comment_2": "ページ数を取得する",
+    "comment_3": "ページを選択し、ポートレートまたはランドスケープに設定する",
+    "comment_4": "方向を更新する",
+    "comment_5": "新しいパスにファイルを保存"
+  }
+}

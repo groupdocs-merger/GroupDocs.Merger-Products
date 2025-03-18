@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Fusionar archivos {{FileFormatUp}} en {{EnvName}}",
+    "description": "Integra sin problemas la fusión de archivos {{FileFormatUp}} en tus proyectos de {{EnvNameShort}} utilizando {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Fusionar archivos {{FileFormatUp}}",
+    "description": "{{ProdFullName}} te permite fusionar documentos {{FileFormatUp}} de manera eficiente dentro de tus aplicaciones {{EnvNameShort}}, ofreciendo una integración fluida y alto rendimiento.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Gratis"
+  },
+  "about": {
+    "title": "Visión general de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una solución de procesamiento de documentos rica en características que admite más de 50 formatos de archivo, incluyendo PDF, Word, Excel, PowerPoint, imágenes y archivos comprimidos. Con su potente conjunto de herramientas, puedes fusionar, dividir, extraer, intercambiar y eliminar páginas de manera eficiente."
+  },
+  "more_features": {
+    "title": "Capacidades integrales de fusión de documentos",
+    "description": "{{ProdFullName}} está optimizado para manejar una amplia variedad de formatos de documento, ofreciendo amplias funcionalidades para gestionar documentos empresariales.",
+    "image_description": "Funcionalidades principales de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionar múltiples tipos de documentos",
+      "content": "Combina PDFs, archivos de Word, presentaciones, hojas de cálculo, imágenes y otros tipos de documentos. Define rangos de páginas específicos para personalizar el proceso de fusión."
+    },
+    "feature_2": {
+      "title": "Modificar y organizar páginas de documentos",
+      "content": "Reorganiza páginas, elimina secciones no deseadas o intercambia páginas para crear documentos bien estructurados adaptados a tus necesidades."
+    },
+    "feature_3": {
+      "title": "Personalizar diseño y orientación de páginas",
+      "content": "Rota las páginas a cualquier ángulo deseado y ajusta la orientación de la página entre apaisado y retrato para diversos tipos de archivos."
+    },
+    "feature_4": {
+      "title": "Extraer y guardar páginas específicas de documentos",
+      "content": "Selecciona páginas particulares de un documento y guárdalas como un archivo separado, asegurando fácil acceso y organización."
+    }
+  },
+  "formats": {
+    "title": "Combinar archivos en diferentes formatos",
+    "description": "Con soporte para más de 50 tipos de documentos, {{ProdShortName}} simplifica el procesamiento de archivos, haciendo que el manejo de documentos sea sencillo y eficiente."
+  },
+  "operations": {
+    "title": "Funciones clave",
+    "description": "Descubre operaciones y características adicionales compatibles con {{ProdShortName}} para mejorar tu experiencia de procesamiento de documentos."
+  },
+  "examples": {
+    "comment_1": "Inicializa el {{NameProduct}} con el documento {{FileFormatUp}} de origen",
+    "comment_2": "Fusiona el documento con otro archivo seleccionado",
+    "comment_3": "Guarda el documento final fusionado en una ubicación preferida"
+  },
+  "steps": {
+    "title": "Cómo fusionar documentos {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), fusionar documentos {{FileFormatUp}} es simple. Mejora tus aplicaciones {{EnvName}} con capacidades eficientes de combinación de documentos.",
+      "step_1": "Proporciona la ruta del primer documento {{FileFormatUp}}.",
+      "step_2": "Selecciona el segundo documento que se va a fusionar.",
+      "step_3": "Configura parámetros opcionales para la personalización.",
+      "step_4": "Ejecuta el proceso de fusión y guarda el documento de salida."
+    }
+  },
+  "code_1": {
+    "title": "Fusionar páginas seleccionadas de diferentes formatos de documentos",
+    "content": "Este ejemplo demuestra cómo fusionar archivos {{FileFormatUp}} mientras seleccionas páginas específicas de documentos en otros formatos.",
+    "comment_1": "Define la ruta del documento principal",
+    "comment_2": "Configura opciones para incluir páginas específicas",
+    "comment_3": "Fusiona el archivo principal con páginas seleccionadas de otro documento",
+    "comment_4": "Guarda el documento final en la ubicación deseada"
+  }
+}

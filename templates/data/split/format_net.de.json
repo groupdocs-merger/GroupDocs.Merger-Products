@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Teilen von {{FileFormatUp}}-Dokumenten in {{EnvName}}-Apps",
+    "description": "Nutzen Sie {{ProdFullName}}, um {{FileFormatUp}}-Dateien in separate Dokumente zu teilen. Verwalten Sie PDFs, Word-Dateien, Excel-Tabellen, PowerPoint-Folien, Visio-Dateien, Bilder, Archive und mehr."
+  },
+  "header": {
+    "title": "Teilen von {{FileFormatUp}}-Dateien",
+    "description": "{{ProdFullName}} verbessert {{EnvNameShort}}-Anwendungen mit fortschrittlichen Funktionen zur Dokumentenverarbeitung. Teilen Sie {{FileFormatUp}}-Dateien und arbeiten Sie mit verschiedenen gängigen Geschäftsformaten.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenloser Download"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine leistungsstarke Bibliothek zur Dokumentenverarbeitung, die über 50 Dateiformate unterstützt, einschließlich PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive. Sie ermöglicht das Mergen, Teilen, Extrahieren, Verschieben, Tauschen und Löschen von Seiten, um das Dokumentenmanagement zu vereinfachen."
+  },
+  "more_features": {
+    "title": "Fortgeschrittenes Dokumentenmanagement",
+    "description": "{{ProdFullName}} bietet ein komplettes Set an Tools für die effiziente Verarbeitung von über 50 gängigen Geschäftsdateiformaten.",
+    "image_description": "Wesentliche Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mehrere Dateiformate zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, Präsentationen, Tabellenkalkulationen, Visio-Diagramme, Bilder und Archive. Passen Sie den Merging-Prozess für präzise Ergebnisse an."
+    },
+    "feature_2": {
+      "title": "Dokumenten-Seiten organisieren",
+      "content": "Ordnen Sie Seiten durch Verschieben, Tauschen oder Löschen neu, um die Dokumentenstruktur zu verbessern."
+    },
+    "feature_3": {
+      "title": "Seitenlayout anpassen",
+      "content": "Drehen Sie Seiten in jeden Winkel oder wechseln Sie zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Seiten als separate Dateien extrahieren",
+      "content": "Wählen Sie bestimmte Seiten oder einen Seitenbereich aus und speichern Sie diese als neue Datei an einem gewünschten Speicherort."
+    }
+  },
+  "formats": {
+    "title": "Teilen mehrerer Dateiformate",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateitypen, was die Dokumentenbearbeitung schnell und effizient macht."
+  },
+  "operations": {
+    "title": "Wesentliche Funktionen",
+    "description": "Entdecken Sie die leistungsstarken Dokumentenverarbeitungsfunktionen unserer Bibliothek."
+  },
+  "examples": {
+    "comment_1": "Laden Sie die Quelldatei in {{NameProduct}}",
+    "comment_2": "Geben Sie den Ausgabepfad für die Datei an",
+    "comment_3": "Konfigurieren Sie die Teileoptionen",
+    "comment_4": "Führen Sie den Teilvorgang aus"
+  },
+  "steps": {
+    "title": "So teilen Sie {{FileFormatUp}}-Dateien",
+    "content": {
+      "title": "Mit [{{ProdShortName}}]({{PlatformLink}}) können Sie {{FileFormatUp}}-Dokumente teilen und ausgewählte Seiten als neue Datei speichern. Verbessern Sie die Dokumentenverarbeitung in Ihren {{EnvName}}-Anwendungen.",
+      "step_1": "Geben Sie den Quellpfad der {{FileFormatUp}}-Datei an.",
+      "step_2": "Definieren Sie den Ausgabepfad für das geteilte Dokument.",
+      "step_3": "Konfigurieren Sie die Einstellungen für den Teilvorgang.",
+      "step_4": "Führen Sie den Teilvorgang aus und speichern Sie die Datei."
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}}-Dokument teilen und gerade Seiten speichern",
+    "content": "Dieses Beispiel zeigt, wie man ein {{FileFormatUp}}-Dokument teilt und alle geraden Seiten als separate Datei speichert.",
+    "comment_1": "Laden Sie die Quelldatei in den Konstruktor",
+    "comment_2": "Geben Sie den Ausgabepfad für die Datei an",
+    "comment_3": "Ermitteln Sie die Gesamtzahl der Seiten",
+    "comment_4": "Definieren Sie die Teileoptionen für gerade Seiten",
+    "comment_5": "Führen Sie den Teilvorgang aus und speichern Sie die Datei"
+  }
+}

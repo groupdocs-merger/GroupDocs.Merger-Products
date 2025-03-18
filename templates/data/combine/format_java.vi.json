@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Kết hợp các tệp {{FileFormatUp}} trong {{EnvName}}",
+    "description": "Sử dụng {{ProdFullName}} để thêm khả năng hợp nhất tài liệu {{FileFormatUp}} vào các dự án {{EnvNameShort}} của bạn."
+  },
+  "header": {
+    "title": "Kết hợp các tệp {{FileFormatUp}}",
+    "description": "Với {{ProdFullName}}, bạn có thể phát triển các ứng dụng {{EnvNameShort}} tiên tiến giúp hợp nhất tài liệu {{FileFormatUp}} một cách hiệu quả.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp mạnh mẽ cho việc thao tác tài liệu. Nó hỗ trợ hơn 50 định dạng tệp, bao gồm PDF, Word, Excel, PowerPoint, hình ảnh và lưu trữ. Thực hiện các thao tác như hợp nhất, chia tách, trích xuất, hoán đổi, và loại bỏ các trang với sự linh hoạt."
+  },
+  "more_features": {
+    "title": "Công cụ hợp nhất tài liệu",
+    "description": "{{ProdFullName}} hỗ trợ hơn 50 định dạng tệp phổ biến trong kinh doanh, cung cấp một loạt các tính năng thao tác tài liệu.",
+    "image_description": "Các tính năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hợp nhất các định dạng tài liệu khác nhau",
+      "content": "Kết hợp các tài liệu như PDF, tệp Word, bài thuyết trình, bảng tính, hình ảnh, và nhiều hơn nữa. Áp dụng các tùy chọn để chỉ định các trang nào sẽ được xử lý."
+    },
+    "feature_2": {
+      "title": "Thao tác trên trang",
+      "content": "Dễ dàng di chuyển, loại bỏ hoặc hoán đổi các trang đã chọn để cấu trúc tài liệu kinh doanh của bạn theo nhu cầu."
+    },
+    "feature_3": {
+      "title": "Điều chỉnh hình thức trang",
+      "content": "Xoay các trang theo bất kỳ góc độ nào và thay đổi hướng (ngang hoặc dọc) cho các loại tài liệu được hỗ trợ."
+    },
+    "feature_4": {
+      "title": "Trích xuất các trang",
+      "content": "Trích xuất các trang cụ thể và lưu chúng dưới dạng một tệp hoặc tài liệu mới."
+    }
+  },
+  "formats": {
+    "title": "Hợp nhất các định dạng tệp khác nhau",
+    "description": "{{ProdShortName}} hỗ trợ hơn 50 định dạng tệp, cho phép bạn thao tác các tài liệu kinh doanh một cách hiệu quả."
+  },
+  "operations": {
+    "title": "Các tính năng chính",
+    "description": "Khám phá các thao tác bổ sung được hỗ trợ"
+  },
+  "examples": {
+    "comment_1": "Khởi tạo {{NameProduct}} với tài liệu đầu vào {{FileFormatUp}}",
+    "comment_2": "Hợp nhất tài liệu với một tệp khác",
+    "comment_3": "Lưu tài liệu đã hợp nhất vào vị trí mong muốn"
+  },
+  "steps": {
+    "title": "Cách hợp nhất tài liệu {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cung cấp khả năng hợp nhất cho tài liệu {{FileFormatUp}}. Nâng cao các ứng dụng {{EnvName}} của bạn bằng cách hợp nhất nhiều tệp thành một.",
+      "step_1": "Chỉ định đường dẫn đến tệp {{FileFormatUp}} đầu tiên.",
+      "step_2": "Chọn tệp thứ hai.",
+      "step_3": "Đặt các tùy chọn bổ sung nếu cần.",
+      "step_4": "Hợp nhất các tệp và lưu đầu ra."
+    }
+  },
+  "code_1": {
+    "title": "Hợp nhất các trang cụ thể từ các tệp có định dạng khác nhau",
+    "content": "Ví dụ này cho thấy cách hợp nhất các tệp {{FileFormatUp}} trong khi bao gồm các trang cụ thể từ tài liệu ở định dạng khác.",
+    "comment_1": "Chỉ định đường dẫn đến tệp chính",
+    "comment_2": "Định nghĩa các tùy chọn để chọn các trang cụ thể",
+    "comment_3": "Hợp nhất tài liệu chính với các trang đã chọn từ tài liệu khác",
+    "comment_4": "Lưu tệp đã hợp nhất vào một vị trí mới"
+  }
+}

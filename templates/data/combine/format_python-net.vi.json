@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Hợp nhất tập tin {{FileFormatUp}} trong {{EnvName}}",
+    "description": "Tích hợp mượt mà việc hợp nhất tập tin {{FileFormatUp}} vào các dự án {{EnvNameShort}} của bạn bằng cách sử dụng {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Hợp nhất tập tin {{FileFormatUp}}",
+    "description": "{{ProdFullName}} cho phép bạn hợp nhất các tài liệu {{FileFormatUp}} trong các ứng dụng {{EnvNameShort}} của bạn, cung cấp tích hợp liền mạch và hiệu suất cao.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về miễn phí"
+  },
+  "about": {
+    "title": "Tổng quan về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp xử lý tài liệu phong phú với nhiều tính năng hỗ trợ hơn 50 định dạng tập tin, bao gồm PDF, Word, Excel, PowerPoint, hình ảnh và các file nén. Với bộ công cụ mạnh mẽ, bạn có thể hợp nhất, chia tách, trích xuất, hoán đổi, và xóa các trang một cách hiệu quả."
+  },
+  "more_features": {
+    "title": "Khả năng hợp nhất tài liệu toàn diện",
+    "description": "{{ProdFullName}} được tối ưu hóa để xử lý đa dạng các định dạng tài liệu, cung cấp những tính năng rộng rãi cho việc quản lý tài liệu kinh doanh.",
+    "image_description": "Các chức năng cốt lõi của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Hợp nhất nhiều loại tài liệu",
+      "content": "Kết hợp các tập tin PDF, tài liệu Word, bài thuyết trình, bảng tính, hình ảnh và các loại tài liệu khác. Định nghĩa các phạm vi trang cụ thể để tùy chỉnh quá trình hợp nhất."
+    },
+    "feature_2": {
+      "title": "Chỉnh sửa và tổ chức các trang tài liệu",
+      "content": "Sắp xếp lại các trang, xóa các phần không mong muốn, hoặc hoán đổi các trang để tạo ra các tài liệu có cấu trúc tốt phù hợp với nhu cầu của bạn."
+    },
+    "feature_3": {
+      "title": "Tùy chỉnh bố cục và định hướng trang",
+      "content": "Xoay các trang theo góc độ mong muốn và điều chỉnh định hướng trang giữa ngang và dọc cho nhiều loại tập tin."
+    },
+    "feature_4": {
+      "title": "Trích xuất và lưu các trang tài liệu cụ thể",
+      "content": "Chọn các trang cụ thể từ một tài liệu và lưu chúng dưới dạng một tập tin riêng biệt, đảm bảo dễ dàng truy cập và tổ chức."
+    }
+  },
+  "formats": {
+    "title": "Kết hợp các tập tin ở các định dạng khác nhau",
+    "description": "Với hỗ trợ cho hơn 50 loại tài liệu, {{ProdShortName}} giúp đơn giản hóa quá trình xử lý tập tin, làm cho việc quản lý tài liệu trở nên hiệu quả và dễ dàng."
+  },
+  "operations": {
+    "title": "Các chức năng chính",
+    "description": "Khám phá các thao tác và tính năng bổ sung được hỗ trợ bởi {{ProdShortName}} để nâng cao trải nghiệm xử lý tài liệu của bạn."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo {{NameProduct}} với tài liệu {{FileFormatUp}} nguồn",
+    "comment_2": "Hợp nhất tài liệu với một tập tin đã chọn khác",
+    "comment_3": "Lưu tài liệu đã hợp nhất cuối cùng vào vị trí mong muốn"
+  },
+  "steps": {
+    "title": "Cách hợp nhất tài liệu {{FileFormatUp}}",
+    "content": {
+      "title": "Với [{{ProdShortName}}]({{PlatformLink}}), việc hợp nhất tài liệu {{FileFormatUp}} rất đơn giản. Nâng cao các ứng dụng {{EnvName}} của bạn với khả năng kết hợp tài liệu hiệu quả.",
+      "step_1": "Cung cấp đường dẫn tập tin cho tài liệu {{FileFormatUp}} đầu tiên.",
+      "step_2": "Chọn tài liệu thứ hai để hợp nhất.",
+      "step_3": "Cài đặt các tham số tùy chọn để tùy chỉnh.",
+      "step_4": "Thực hiện quy trình hợp nhất và lưu tài liệu đầu ra."
+    }
+  },
+  "code_1": {
+    "title": "Hợp nhất các trang được chọn từ các định dạng tài liệu khác nhau",
+    "content": "Ví dụ này minh họa cách hợp nhất các tập tin {{FileFormatUp}} trong khi chọn các trang cụ thể từ các tài liệu khác định dạng.",
+    "comment_1": "Định nghĩa đường dẫn của tài liệu chính",
+    "comment_2": "Cấu hình các tùy chọn để bao gồm các trang cụ thể",
+    "comment_3": "Hợp nhất tập tin chính với các trang đã chọn từ tài liệu khác",
+    "comment_4": "Lưu tài liệu cuối cùng tại vị trí mong muốn"
+  }
+}

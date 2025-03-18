@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "在 {{EnvName}} 中移动 {{FileFormatUp}} 页",
+    "description": "使用 {{ProdFullName}} 轻松重新排列 {{FileFormatUp}} 文档中的页面。处理 PDF、Word、Excel、PowerPoint、图像等文件。"
+  },
+  "header": {
+    "title": "移动 {{FileFormatUp}} 中的页面",
+    "description": "{{ProdFullName}} 使 {{EnvNameShort}} 应用能够无缝地重新排列 {{FileFormatUp}} 文档中的页面。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费获取"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 信息",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一款强大的文档处理工具，支持超过 50 种文件格式，包括 PDF、Word、Excel、PowerPoint、图像和压缩文件。它提供了合并、拆分、提取、移动、交换和删除页面等基本功能。"
+  },
+  "more_features": {
+    "title": "高效的文档处理",
+    "description": "{{ProdFullName}} 旨在提供全面的功能集，使您能够处理超过 50 种广泛使用的商业文件格式以满足您的需求。",
+    "image_description": "{{ProdShortName}} 的关键特性",
+    "feature_1": {
+      "title": "合并多种格式的文档",
+      "content": "合并来自 PDF、Word 文档、演示文稿、电子表格、图像、压缩文件等的内容。使用灵活选项以实现精确结果。"
+    },
+    "feature_2": {
+      "title": "页面操作",
+      "content": "重新定位文档内的页面。移动、交换或删除页面，以有效管理您的商务文档内容。"
+    },
+    "feature_3": {
+      "title": "调整页面外观",
+      "content": "将页面旋转到任意角度或在横向和纵向之间切换方向。"
+    },
+    "feature_4": {
+      "title": "将页面提取为单独文件",
+      "content": "提取一个或多个页面并将其保存为独立文档。"
+    }
+  },
+  "formats": {
+    "title": "重新排序多种格式的文档页面",
+    "description": "{{ProdShortName}} 支持超过 50 种文件格式，实现高效灵活的文档处理。"
+  },
+  "operations": {
+    "title": "主要功能",
+    "description": "发现我们解决方案的其他热门功能。"
+  },
+  "examples": {
+    "comment_1": "通过传递源路径创建 {{NameProduct}} 对象",
+    "comment_2": "指定要移动的页面",
+    "comment_3": "移动页面",
+    "comment_4": "保存处理后的文档"
+  },
+  "steps": {
+    "title": "如何移动 {{FileFormatUp}} 页面",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 允许您在 {{FileFormatUp}} 文档中移动选定页面。通过增强您的 {{EnvName}} 应用程序的高级文档处理功能，提升用户体验。",
+      "step_1": "指定源 {{FileFormatUp}} 文件路径。",
+      "step_2": "设置页面号码及其新位置。",
+      "step_3": "执行移动操作。",
+      "step_4": "保存结果。"
+    }
+  },
+  "code_1": {
+    "title": "将页面移动到文档末尾",
+    "content": "学习如何将特定页面移动到 {{FileFormatUp}} 文档的末尾。",
+    "comment_1": "将源文件路径传递给构造函数",
+    "comment_2": "获取文档信息和最后一页的页码",
+    "comment_3": "设置带有页码的选项",
+    "comment_4": "处理文档，将页面移动到末尾",
+    "comment_5": "将文档保存到新位置"
+  }
+}

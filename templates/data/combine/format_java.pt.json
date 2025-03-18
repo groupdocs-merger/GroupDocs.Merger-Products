@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Combinar arquivos {{FileFormatUp}} no {{EnvName}}",
+    "description": "Use {{ProdFullName}} para adicionar capacidades de mesclagem de documentos {{FileFormatUp}} aos seus projetos {{EnvNameShort}}."
+  },
+  "header": {
+    "title": "Combinar arquivos {{FileFormatUp}}",
+    "description": "Com {{ProdFullName}}, você pode desenvolver aplicações avançadas em {{EnvNameShort}} que mesclam documentos {{FileFormatUp}} de forma eficaz.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Grátis"
+  },
+  "about": {
+    "title": "Sobre {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma solução poderosa para manipulação de documentos. Suporta mais de 50 formatos de arquivo, incluindo PDF, Word, Excel, PowerPoint, imagens e arquivos compactados. Realize operações como mesclagem, separação, extração, troca e remoção de páginas com eficiência."
+  },
+  "more_features": {
+    "title": "Ferramentas de mesclagem de documentos",
+    "description": "{{ProdFullName}} suporta mais de 50 formatos de arquivo utilizados em negócios, oferecendo uma ampla gama de recursos de manipulação de documentos.",
+    "image_description": "Principais recursos de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mesclar diferentes formatos de documento",
+      "content": "Combine documentos como PDFs, arquivos Word, apresentações, planilhas, imagens e muito mais. Aplique opções para especificar quais páginas devem ser processadas."
+    },
+    "feature_2": {
+      "title": "Manipulação de páginas",
+      "content": "Mova, remova ou troque facilmente as páginas selecionadas para estruturar seus documentos comerciais conforme necessário."
+    },
+    "feature_3": {
+      "title": "Ajustar aparência das páginas",
+      "content": "Gire as páginas em qualquer ângulo e altere a orientação (paisagem ou retrato) para os tipos de documentos suportados."
+    },
+    "feature_4": {
+      "title": "Extrair páginas",
+      "content": "Extraia páginas específicas e salve-as como um novo arquivo ou documento."
+    }
+  },
+  "formats": {
+    "title": "Mesclar vários formatos de arquivo",
+    "description": "{{ProdShortName}} suporta mais de 50 formatos de arquivo, permitindo que você manipule documentos comerciais com eficiência."
+  },
+  "operations": {
+    "title": "Recursos principais",
+    "description": "Explore operações adicionais suportadas"
+  },
+  "examples": {
+    "comment_1": "Inicialize {{NameProduct}} com o documento {{FileFormatUp}} de entrada",
+    "comment_2": "Mescle o documento com outro arquivo",
+    "comment_3": "Salve o documento mesclado no local desejado"
+  },
+  "steps": {
+    "title": "Como mesclar documentos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) oferece capacidades de mesclagem para documentos {{FileFormatUp}}. Aprimore suas aplicações {{EnvName}} mesclando vários arquivos em um só.",
+      "step_1": "Especifique o caminho para o primeiro arquivo {{FileFormatUp}}.",
+      "step_2": "Selecione o segundo arquivo.",
+      "step_3": "Defina opções adicionais, se necessário.",
+      "step_4": "Mescle os arquivos e salve a saída."
+    }
+  },
+  "code_1": {
+    "title": "Mesclar páginas específicas de arquivos de diferentes formatos",
+    "content": "Este exemplo demonstra como mesclar arquivos {{FileFormatUp}} incluindo páginas específicas de documentos em outros formatos.",
+    "comment_1": "Especifique o caminho do arquivo principal",
+    "comment_2": "Defina opções para selecionar páginas específicas",
+    "comment_3": "Mescle o documento principal com as páginas selecionadas de outro documento",
+    "comment_4": "Salve o arquivo mesclado em um novo local"
+  }
+}

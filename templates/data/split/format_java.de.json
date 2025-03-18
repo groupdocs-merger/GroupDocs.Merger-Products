@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}}-Dokumente in {{EnvName}}-Apps aufteilen",
+    "description": "Verwenden Sie {{ProdFullName}}, um {{FileFormatUp}}-Dateien in separate Dokumente aufzuteilen. Verwalten Sie PDFs, Word-Dateien, Excel-Tabellen, PowerPoint-Präsentationen, Visio-Dateien, Bilder, Archive und mehr."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}-Dateien aufteilen",
+    "description": "{{ProdFullName}} erweitert {{EnvNameShort}}-Anwendungen um fortschrittliche Dokumentenverarbeitungsfunktionen. Teilen Sie {{FileFormatUp}}-Dateien auf und arbeiten Sie mit einer Vielzahl gängiger Geschäftsformate.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenloser Download"
+  },
+  "about": {
+    "title": "Über {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine leistungsstarke Bibliothek zur Dokumentenverarbeitung, die über 50 Dateiformate unterstützt, darunter PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive. Sie ermöglicht das Zusammenführen, Aufteilen, Extrahieren, Verschieben, Tauschen und Löschen von Seiten und verbessert so die Dokumentenverwaltung."
+  },
+  "more_features": {
+    "title": "Erweiterte Dokumentenverwaltung",
+    "description": "{{ProdFullName}} bietet eine umfassende Palette an Funktionen zur Verarbeitung von über 50 gängigen Geschäftsdateiformaten.",
+    "image_description": "Wesentliche Fähigkeiten von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Verschiedene Dateiformate zusammenführen",
+      "content": "Kombinieren Sie PDFs, Word-Dokumente, Präsentationen, Tabellenkalkulationen, Visio-Diagramme, Bilder und Archive. Passen Sie den Zusammenführungsprozess für optimale Ergebnisse an."
+    },
+    "feature_2": {
+      "title": "Dokumentseiten organisieren",
+      "content": "Sortieren Sie Seiten durch Verschieben, Tauschen oder Löschen, um Ihre Dokumente effizient zu strukturieren."
+    },
+    "feature_3": {
+      "title": "Seitenlayout ändern",
+      "content": "Drehen Sie Seiten in jedem Winkel oder wechseln Sie zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Seiten als separate Dateien extrahieren",
+      "content": "Wählen Sie bestimmte Seiten oder einen Seitenbereich aus und speichern Sie sie als neues Dokument an einem gewählten Ort."
+    }
+  },
+  "formats": {
+    "title": "Verschiedene Dateiformate aufteilen",
+    "description": "{{ProdShortName}} unterstützt über 50 Dateitypen und ermöglicht eine schnelle und flexible Modifikation von Dokumenten."
+  },
+  "operations": {
+    "title": "Hauptfunktionen",
+    "description": "Entdecken Sie die leistungsstarken Dokumentenverarbeitungsfähigkeiten unserer Bibliothek."
+  },
+  "examples": {
+    "comment_1": "Laden Sie die Quelldatei in {{NameProduct}}",
+    "comment_2": "Definieren Sie den Pfad für die Ausgabedatei",
+    "comment_3": "Richten Sie die Optionen für das Aufteilen ein",
+    "comment_4": "Führen Sie die Aufteilungsoperation aus"
+  },
+  "steps": {
+    "title": "So teilen Sie {{FileFormatUp}}-Dateien auf",
+    "content": {
+      "title": "Mit [{{ProdShortName}}]({{PlatformLink}}) können Sie {{FileFormatUp}}-Dokumente aufteilen und ausgewählte Seiten als neue Datei speichern. Integrieren Sie fortschrittliches Dokumentenmanagement in Ihre {{EnvName}}-Anwendungen.",
+      "step_1": "Geben Sie den Quellpfad der {{FileFormatUp}}-Datei an.",
+      "step_2": "Bestimmen Sie den Pfad für die Ausgabedatei des aufgeteilten Dokuments.",
+      "step_3": "Konfigurieren Sie die Optionen für die Aufteilungsoperation.",
+      "step_4": "Führen Sie den Aufteilungsprozess aus und speichern Sie die Datei."
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}}-Dokument aufteilen und gerade Seiten speichern",
+    "content": "Dieses Beispiel demonstriert, wie man ein {{FileFormatUp}}-Dokument aufteilt und alle geraden Seiten als separate Datei speichert.",
+    "comment_1": "Laden Sie die Quelldatei in den Konstruktor",
+    "comment_2": "Geben Sie den Pfad für die Ausgabedatei an",
+    "comment_3": "Ermitteln Sie die Gesamtzahl der Seiten",
+    "comment_4": "Definieren Sie die Aufteilungsoptionen für gerade Seiten",
+    "comment_5": "Führen Sie die Aufteilungsoperation aus und speichern Sie das Ergebnis"
+  }
+}

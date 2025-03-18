@@ -1,0 +1,217 @@
+{
+  "common-content": {
+    "format-formats": {
+      "word": {
+        "name": "WORD",
+        "description": "Documentos do Microsoft Word"
+      },
+      "excel": {
+        "name": "EXCEL",
+        "description": "Planilhas do Microsoft Excel"
+      },
+      "powerpoint": {
+        "name": "POWERPOINT",
+        "description": "Apresentações do Microsoft PowerPoint"
+      },
+      "image": {
+        "name": "IMAGEM",
+        "description": "Formatos de Imagem Populares"
+      },
+      "visio": {
+        "name": "VISIO",
+        "description": "Diagramas do Microsoft Visio"
+      },
+      "pdf": {
+        "name": "PDF",
+        "description": "Formato de Documento Portátil da Adobe"
+      },
+      "docx": {
+        "name": "DOCX",
+        "description": "Documento XML Aberto do Microsoft Word"
+      },
+      "xlsx": {
+        "name": "XLSX",
+        "description": "Planilha XML Aberta do Microsoft Excel"
+      },
+      "pptx": {
+        "name": "PPTX",
+        "description": "Apresentação XML Aberta do PowerPoint"
+      },
+      "bmp": {
+        "name": "BMP",
+        "description": "Imagem Bitmap"
+      },
+      "jpeg": {
+        "name": "JPEG",
+        "description": "Arquivo de Imagem JPEG"
+      },
+      "jpg": {
+        "name": "JPG",
+        "description": "Arquivo de Imagem JPEG"
+      },
+      "png": {
+        "name": "PNG",
+        "description": "Gráficos de Rede Portáteis"
+      },
+      "svg": {
+        "name": "SVG",
+        "description": "Gráficos Vetoriais Escaláveis"
+      },
+      "tiff": {
+        "name": "TIFF",
+        "description": "Formato de Arquivo de Imagem Tagueada"
+      },
+      "csv": {
+        "name": "CSV",
+        "description": "Arquivo de Valores Separados por Vírgula"
+      },
+      "epub": {
+        "name": "EPUB",
+        "description": "Publicação Eletrônica"
+      },
+      "html": {
+        "name": "HTML",
+        "description": "Arquivo de Linguagem de Marcação de Hipertexto"
+      },
+      "mhtml": {
+        "name": "MHTML",
+        "description": "Arquivo Web MHTML"
+      },
+      "txt": {
+        "name": "TXT",
+        "description": "Arquivo de Texto Simples"
+      },
+      "xps": {
+        "name": "XPS",
+        "description": "Arquivo da Especificação de Papel XML"
+      },
+      "zip": {
+        "name": "ZIP",
+        "description": "Arquivo ZIP"
+      }
+    },
+    "format-operations": {
+      "combine": {
+        "pdf": "Combinar documentos PDF",
+        "docx": "Juntar documentos DOCX",
+        "xlsx": "Combinar documentos XLSX",
+        "pptx": "Juntar documentos PPTX",
+        "epub": "Combinar documentos EPUB"
+      },
+      "extract": {
+        "pdf": "Extrair páginas PDF",
+        "docx": "Salvar páginas DOCX",
+        "xlsx": "Extrair páginas XLSX",
+        "pptx": "Salvar páginas PPTX",
+        "epub": "Extrair páginas EPUB"
+      },
+      "join": {
+        "pdf": "Juntar arquivos PDF",
+        "docx": "Combinar arquivos DOCX",
+        "xlsx": "Juntar arquivos XLSX",
+        "pptx": "Combinar arquivos PPTX",
+        "epub": "Juntar arquivos EPUB"
+      },
+      "move": {
+        "pdf": "Mover páginas PDF",
+        "docx": "Reordenar páginas DOCX",
+        "xlsx": "Mover páginas XLSX",
+        "pptx": "Reordenar páginas PPTX",
+        "epub": "Mover páginas EPUB"
+      },
+      "remove": {
+        "pdf": "Excluir páginas PDF",
+        "docx": "Excluir páginas DOCX",
+        "xlsx": "Remover páginas XLSX",
+        "pptx": "Remover páginas PPTX",
+        "epub": "Excluir páginas EPUB"
+      },
+      "rotate": {
+        "pdf": "Rodar páginas PDF",
+        "docx": "Rodar páginas DOCX",
+        "xlsx": "Rodar páginas XLSX",
+        "pptx": "Rodar páginas PPTX",
+        "epub": "Rodar páginas EPUB"
+      },
+      "split": {
+        "pdf": "Dividir arquivo PDF",
+        "docx": "Dividir arquivo DOCX",
+        "xlsx": "Dividir arquivo XLSX",
+        "pptx": "Dividir arquivo PPTX",
+        "epub": "Dividir arquivo EPUB"
+      },
+      "swap": {
+        "pdf": "Trocar arquivo PDF",
+        "docx": "Trocar arquivo DOCX",
+        "xlsx": "Trocar arquivo XLSX",
+        "pptx": "Trocar arquivo PPTX",
+        "epub": "Trocar arquivo EPUB"
+      },
+      "orientation": {
+        "pdf": "Alterar orientação do PDF",
+        "docx": "Alterar orientação do DOCX",
+        "xlsx": "Alterar orientação do XLSX",
+        "pptx": "Alterar orientação do PPTX",
+        "epub": "Alterar orientação do EPUB"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copiar",
+      "result_title": "Resultado do código",
+      "result_title_bottom": "Baixar resultado",
+      "copy_tip": "clique para copiar",
+      "copy_done": "copiado",
+      "links": {
+        "title_1": "Mais exemplos",
+        "title_2": "Documentação"
+      }
+    },
+    "format-actions": {
+      "title": "Pronto para começar?",
+      "description": "Experimente os recursos do {{ProdShortName}} gratuitamente ou solicite uma licença",
+      "comment_1": "Download do {{PackageStoreName}}",
+      "comment_2": "Licenciamento"
+    },
+    "texts": {
+      "learn_more": "Saiba mais"
+    },
+    "operations": {
+      "combine": {
+        "name": "Mesclar documentos",
+        "description": "Combinar múltiplos documentos em um só"
+      },
+      "extract": {
+        "name": "Extrair páginas",
+        "description": "Salvar páginas selecionadas como um documento separado"
+      },
+      "join": {
+        "name": "Juntar documentos",
+        "description": "Combinar múltiplos documentos em um só"
+      },
+      "move": {
+        "name": "Mover páginas",
+        "description": "Reposicionar qualquer página dentro de um documento"
+      },
+      "remove": {
+        "name": "Remover páginas",
+        "description": "Excluir páginas do documento"
+      },
+      "rotate": {
+        "name": "Rotacionar páginas",
+        "description": "Rotacionar páginas do documento"
+      },
+      "split": {
+        "name": "Dividir documento",
+        "description": "Dividir documentos"
+      },
+      "swap": {
+        "name": "Trocar páginas",
+        "description": "Trocar páginas do documento"
+      },
+      "orientation": {
+        "name": "Alterar orientação",
+        "description": "Alterar a orientação das páginas"
+      }
+    }
+  }
+}

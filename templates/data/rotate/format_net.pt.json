@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Gire páginas de {{FileFormatUp}} em aplicativos {{EnvName}}",
+    "description": "Use {{ProdFullName}} para girar páginas em documentos {{FileFormatUp}}. Gerencie PDFs, arquivos do Word, planilhas do Excel, slides do PowerPoint, imagens, arquivos compactados e muito mais."
+  },
+  "header": {
+    "title": "Giro de páginas em {{FileFormatUp}}",
+    "description": "{{ProdFullName}} potencializa aplicações {{EnvNameShort}} ao adicionar recursos avançados de processamento de documentos. Gire páginas em arquivos {{FileFormatUp}} e trabalhe com formatos empresariais populares de forma eficaz.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Gratuito"
+  },
+  "about": {
+    "title": "Sobre {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma biblioteca abrangente de processamento de documentos que suporta mais de 50 formatos de arquivo, incluindo PDF, Word, Excel, PowerPoint, Visio, imagens e arquivos compactados. Ela fornece ferramentas para mesclar, dividir, extrair, reorganizar e excluir páginas, aprimorando o manuseio de documentos em suas aplicações."
+  },
+  "more_features": {
+    "title": "Gerenciamento poderoso de conteúdo de documentos",
+    "description": "{{ProdFullName}} inclui uma ampla gama de recursos, permitindo o processamento eficiente de mais de 50 formatos de arquivo comuns utilizados em empresas.",
+    "image_description": "Recursos principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mesclar diferentes formatos de arquivo",
+      "content": "Combine PDFs, documentos do Word, apresentações, planilhas, diagramas do Visio, imagens e arquivos compactados. Utilize várias opções para um resultado preciso."
+    },
+    "feature_2": {
+      "title": "Gerenciar páginas do documento",
+      "content": "Reorganize páginas movendo, trocando ou excluindo-as para estruturar melhor seus documentos."
+    },
+    "feature_3": {
+      "title": "Ajustar layout da página",
+      "content": "Gire páginas em qualquer ângulo ou altere entre orientações retrato e paisagem."
+    },
+    "feature_4": {
+      "title": "Extrair páginas como arquivos separados",
+      "content": "Selecione uma única página ou um intervalo de páginas e salve-o como um novo arquivo em um local escolhido."
+    }
+  },
+  "formats": {
+    "title": "Gire páginas em múltiplos formatos",
+    "description": "{{ProdShortName}} suporta mais de 50 formatos de arquivo, permitindo modificar documentos usando uma variedade de operações."
+  },
+  "operations": {
+    "title": "Recursos principais",
+    "description": "Explore os poderosos recursos fornecidos pela nossa biblioteca de processamento de documentos."
+  },
+  "examples": {
+    "comment_1": "Crie uma instância de {{NameProduct}} e carregue o arquivo fonte",
+    "comment_2": "Especifique o número da página a ser girada",
+    "comment_3": "Execute a operação de rotação da página",
+    "comment_4": "Salve o arquivo de saída no local desejado"
+  },
+  "steps": {
+    "title": "Como girar páginas de {{FileFormatUp}}",
+    "content": {
+      "title": "Com [{{ProdShortName}}]({{PlatformLink}}), você pode rotacionar páginas em documentos {{FileFormatUp}}, acrescentando poderosas capacidades de gerenciamento de documentos às aplicações {{EnvName}}.",
+      "step_1": "Defina o caminho do arquivo {{FileFormatUp}}.",
+      "step_2": "Selecione o número da página a ser girada.",
+      "step_3": "Execute a operação de rotação da página.",
+      "step_4": "Salve o arquivo modificado no local de sua preferência."
+    }
+  },
+  "code_1": {
+    "title": "Gire todas as páginas de {{FileFormatUp}} com número par",
+    "content": "Este exemplo demonstra como girar todas as páginas de número par em um documento {{FileFormatUp}}.",
+    "comment_1": "Carregue o arquivo fonte no construtor",
+    "comment_2": "Obtenha o número total de páginas no documento",
+    "comment_3": "Configure as definições de rotação para páginas pares (180 graus)",
+    "comment_4": "Aplique a operação de rotação da página",
+    "comment_5": "Salve o arquivo de saída"
+  }
+}

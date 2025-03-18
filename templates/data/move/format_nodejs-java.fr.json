@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Réorganiser les pages {{FileFormatUp}} dans {{EnvName}}",
+    "description": "Utilisez {{ProdFullName}} pour changer sans effort l'ordre des pages dans les documents {{FileFormatUp}}. Traitez des fichiers PDF, Word, Excel, PowerPoint, des images, et plus encore."
+  },
+  "header": {
+    "title": "Réorganiser les pages dans {{FileFormatUp}}",
+    "description": "{{ProdFullName}} offre aux applications {{EnvNameShort}} la possibilité de modifier l'ordre des pages dans les documents {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Essayez gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil de traitement de documents robuste prenant en charge plus de 50 formats de fichiers, y compris PDF, Word, Excel, PowerPoint, des images, et des archives. Il propose des fonctionnalités puissantes pour fusionner, diviser, extraire, réorganiser, échanger et supprimer des pages."
+  },
+  "more_features": {
+    "title": "Gestion complète des documents",
+    "description": "{{ProdFullName}} offre un ensemble riche de fonctionnalités, vous permettant de travailler efficacement avec plus de 50 formats de fichiers d'entreprise populaires.",
+    "image_description": "Capacités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Fusionner des documents de différents types",
+      "content": "Combinez le contenu provenant de fichiers PDF, Word, présentations, tableurs, images et archives. Utilisez des options flexibles pour personnaliser la structure finale du document."
+    },
+    "feature_2": {
+      "title": "Modifier les pages de document",
+      "content": "Réorganisez les pages de vos documents en les déplaçant, échangeant ou supprimant selon vos besoins."
+    },
+    "feature_3": {
+      "title": "Ajuster la mise en page et l'orientation des pages",
+      "content": "Faites pivoter les pages à n'importe quel angle souhaité ou passez entre les modes portrait et paysage."
+    },
+    "feature_4": {
+      "title": "Extraire des pages en tant que documents séparés",
+      "content": "Sélectionnez des pages spécifiques et enregistrez-les en tant que fichiers autonomes pour une utilisation future."
+    }
+  },
+  "formats": {
+    "title": "Réorganiser les pages dans plusieurs formats",
+    "description": "{{ProdShortName}} prend en charge plus de 50 formats de fichiers, offrant flexibilité et précision dans la manipulation des documents."
+  },
+  "operations": {
+    "title": "Fonctionnalités principales",
+    "description": "Découvrez d'autres fonctionnalités essentielles incluses dans notre solution."
+  },
+  "examples": {
+    "comment_1": "Initialiser une instance de {{NameProduct}} avec le document source",
+    "comment_2": "Définir le numéro de page à déplacer",
+    "comment_3": "Repositionner la page sélectionnée",
+    "comment_4": "Enregistrer le document modifié"
+  },
+  "steps": {
+    "title": "Comment réorganiser les pages {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifie le processus de déplacement des pages au sein des documents {{FileFormatUp}}. Améliorez vos applications {{EnvName}} avec des capacités avancées d'organisation de documents.",
+      "step_1": "Spécifiez le chemin vers le document {{FileFormatUp}}.",
+      "step_2": "Indiquez le numéro de page et sa nouvelle position.",
+      "step_3": "Effectuez l'opération de déplacement de page.",
+      "step_4": "Enregistrez le document modifié."
+    }
+  },
+  "code_1": {
+    "title": "Déplacer une page à la dernière position dans un document",
+    "content": "Cet exemple démontre comment déplacer une page à la fin d'un document {{FileFormatUp}}.",
+    "comment_1": "Fournir le chemin du document source",
+    "comment_2": "Récupérer les détails du document et déterminer le numéro de la dernière page",
+    "comment_3": "Configurer l'opération de mouvement avec les numéros de pages cibles",
+    "comment_4": "Exécuter l'opération de déplacement",
+    "comment_5": "Enregistrer le document mis à jour à l'emplacement désiré"
+  }
+}

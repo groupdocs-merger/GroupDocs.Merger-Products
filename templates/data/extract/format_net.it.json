@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Estrai pagine {{FileFormatUp}} in {{EnvName}}",
+    "description": "Estrai rapidamente pagine specifiche da un file {{FileFormatUp}} utilizzando {{ProdFullName}} e salvale come documento separato."
+  },
+  "header": {
+    "title": "Estrai pagine {{FileFormatUp}}",
+    "description": "Integra {{ProdFullName}} nelle tue applicazioni {{EnvNameShort}} per elaborare in modo efficiente file {{FileFormatUp}} con funzionalità avanzate di estrazione delle pagine.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una potente libreria di elaborazione documenti che supporta oltre 50 formati di file, inclusi PDF, Word, Excel, PowerPoint e immagini. Consente operazioni fluide come fusione, divisione, estrazione, riordino e eliminazione di pagine."
+  },
+  "more_features": {
+    "title": "Elaborazione documenti versatile",
+    "description": "{{ProdFullName}} offre funzionalità robuste per lavorare con oltre 50 formati di documenti aziendali ampiamente utilizzati.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci più tipi di file",
+      "content": "Combina PDF, documenti Word, diapositive PowerPoint, fogli Excel, immagini e archivi in un unico file con opzioni personalizzabili."
+    },
+    "feature_2": {
+      "title": "Gestione avanzata delle pagine",
+      "content": "Sposta, rimuovi o riordina facilmente le pagine all'interno di un documento per organizzare efficacemente il tuo contenuto."
+    },
+    "feature_3": {
+      "title": "Modifica il layout delle pagine",
+      "content": "Ruota le pagine in qualsiasi angolo o passa tra orientamento verticale e orizzontale secondo necessità."
+    },
+    "feature_4": {
+      "title": "Estrai pagine specifiche",
+      "content": "Seleziona ed estrai solo le pagine richieste, salvandole come un nuovo documento per un uso futuro."
+    }
+  },
+  "formats": {
+    "title": "Estrai pagine da più formati di file",
+    "description": "{{ProdShortName}} supporta oltre 50 formati di file, rendendo la gestione dei documenti più flessibile ed efficiente."
+  },
+  "operations": {
+    "title": "Principali capacità",
+    "description": "Esplora ulteriori funzionalità di elaborazione documenti."
+  },
+  "examples": {
+    "comment_1": "Crea un'istanza di {{ProdShortName}} con il documento sorgente",
+    "comment_2": "Definisci le impostazioni di estrazione per pagine specifiche",
+    "comment_3": "Esegui il processo di estrazione delle pagine",
+    "comment_4": "Salva le pagine estratte come un nuovo file"
+  },
+  "steps": {
+    "title": "Come estrarre pagine {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) semplifica l'estrazione di pagine dai documenti {{FileFormatUp}}. Migliora le tue applicazioni {{EnvName}} con capacità di elaborazione documenti senza soluzione di continuità.",
+      "step_1": "Fornisci il percorso del file del documento {{FileFormatUp}} sorgente.",
+      "step_2": "Seleziona le pagine che desideri estrarre.",
+      "step_3": "Esegui il processo di estrazione.",
+      "step_4": "Salva le pagine estratte come documento separato."
+    }
+  },
+  "code_1": {
+    "title": "Estrai pagine specifiche da un documento",
+    "content": "Questo esempio mostra come estrarre un intervallo selezionato di pagine da un file {{FileFormatUp}} e salvarle come un nuovo documento.",
+    "comment_1": "Specifica il percorso del file del documento originale",
+    "comment_2": "Definisci opzioni per estrarre solo le pagine con numero pari dall'intervallo selezionato",
+    "comment_3": "Esegui l'operazione di estrazione",
+    "comment_4": "Salva le pagine estratte in un nuovo file"
+  }
+}

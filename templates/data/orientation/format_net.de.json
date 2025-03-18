@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Seitenorientierung von {{FileFormatUp}} in {{EnvName}}-Apps anpassen",
+    "description": "Mit {{ProdFullName}} passen Sie die Seitenlayouts von {{FileFormatUp}} (Hoch- oder Querformat) an. Verarbeiten Sie PDFs, Word-Dokumente, Excel-Tabellen, PowerPoint-Präsentationen, Visio-Zeichnungen, Bilder, Archive und mehr mühelos."
+  },
+  "header": {
+    "title": "Seitenorientierung für {{FileFormatUp}} anpassen",
+    "description": "{{ProdFullName}} bietet praktische Werkzeuge für {{EnvNameShort}}-Apps. Entwickler können ihre Projekte verbessern, indem sie wichtige Dateiformate verwalten und die Seitenlayouts von {{FileFormatUp}} anpassen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Jetzt kostenlos erhalten"
+  },
+  "about": {
+    "title": "{{ProdShortName}} Übersicht",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein Toolset zur Handhabung von Dokumenten in über 50 Formaten, darunter PDF, Word, Excel, PowerPoint, Visio, Bilder und Archive. Zusammenführen, aufteilen, extrahieren, repositionieren, austauschen, entfernen oder Seiten drehen, um Ihre Anforderungen zu erfüllen."
+  },
+  "more_features": {
+    "title": "Vielseitige Dokumentenverwaltung",
+    "description": "{{ProdFullName}} bietet eine starke Reihe von Werkzeugen zur Verwaltung von Inhalten in über 50 Dateiformaten mit schneller, zuverlässiger Leistung.",
+    "image_description": "{{ProdShortName}} Fähigkeiten",
+    "feature_1": {
+      "title": "Verschiedene Dateitypen kombinieren",
+      "content": "Vereinen Sie PDFs, Word-Dokumente, Folien, Tabellenkalkulationen, Visio-Dateien, Bilder und Archive. Optimieren Sie den Prozess für ausgezeichnete Ergebnisse."
+    },
+    "feature_2": {
+      "title": "Dokumentseiten organisieren",
+      "content": "Verschieben, tauschen oder schneiden Sie Seiten, um Ihre Dokumentenstruktur zu optimieren."
+    },
+    "feature_3": {
+      "title": "Seitenlayout anpassen",
+      "content": "Drehen Sie Seiten in einen benutzerdefinierten Winkel oder wechseln Sie zwischen Hoch- und Querformat."
+    },
+    "feature_4": {
+      "title": "Seiten in neue Dateien ziehen",
+      "content": "Entnehmen Sie eine Seite oder eine Gruppe und speichern Sie sie als neue Datei an einem beliebigen Ort."
+    }
+  },
+  "formats": {
+    "title": "Seitenorientierung über Formate hinweg ändern",
+    "description": "{{ProdShortName}} verarbeitet über 50 Dateitypen und ermöglicht es Ihnen, Dokumente mit einer Vielzahl von Funktionen anzupassen."
+  },
+  "operations": {
+    "title": "Hauptfunktionen",
+    "description": "Sehen Sie sich die Werkzeuge an, die Ihre Arbeit verbessern können."
+  },
+  "examples": {
+    "comment_1": "Weisen Sie {{NameProduct}} auf die Quelldatei hin",
+    "comment_2": "Wählen Sie die Seite für Layoutänderungen aus",
+    "comment_3": "Setzen Sie die neue Seitenorientierung",
+    "comment_4": "Speichern Sie Ihre aktualisierte Datei"
+  },
+  "steps": {
+    "title": "So passen Sie die Seitenorientierung von {{FileFormatUp}} an",
+    "content": {
+      "title": "Mit [{{ProdShortName}}]({{PlatformLink}}) können Sie die Seitenlayouts von {{FileFormatUp}} anpassen. Diese Funktion und weitere bieten eine intelligente Dokumentenverwaltung für {{EnvName}}-Projekte.",
+      "step_1": "Laden Sie den Speicherort der {{FileFormatUp}}-Datei.",
+      "step_2": "Wählen Sie die Seite zum Ändern aus.",
+      "step_3": "Aktualisieren Sie die Ausrichtung.",
+      "step_4": "Speichern Sie das Ergebnis."
+    }
+  },
+  "code_1": {
+    "title": "Ändern Sie die Ausrichtung der letzten {{FileFormatUp}}-Seite",
+    "content": "Sehen Sie, wie die Seiten in einer {{FileFormatUp}}-Datei gezählt werden und wie die Ausrichtung der letzten Seite geändert wird.",
+    "comment_1": "Übergeben Sie die Datei an den Konstruktor",
+    "comment_2": "Holen Sie sich die Gesamtzahl der Seiten",
+    "comment_3": "Legen Sie die Seitenzahl fest und wählen Sie Hoch- oder Querformat",
+    "comment_4": "Wenden Sie die Änderungen an der Ausrichtung an",
+    "comment_5": "Speichern Sie an einem Ausgabestandort"
+  }
+}

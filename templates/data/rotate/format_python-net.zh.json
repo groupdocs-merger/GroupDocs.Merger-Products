@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "在 {{EnvName}} 应用中旋转 {{FileFormatUp}} 页面",
+    "description": "使用 {{ProdFullName}} 旋转 {{FileFormatUp}} 文档中的页面。修改 PDF、Word 文件、Excel 电子表格、PowerPoint 幻灯片、图像和归档文件。"
+  },
+  "header": {
+    "title": "旋转 {{FileFormatUp}} 文件中的页面",
+    "description": "通过 {{ProdFullName}} 提升您的 {{EnvNameShort}} 应用，这是一个强大的文档处理解决方案。轻松旋转 {{FileFormatUp}} 页面并高效管理各种文件格式。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于 {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一个先进的文档处理库，支持超过 50 种文件格式，包括 PDF、Word、Excel、PowerPoint、Visio、图像和归档文件。它提供合并、拆分、提取、重新排列和删除页面等功能，以简化您应用中的文档管理。"
+  },
+  "more_features": {
+    "title": "全面的文档管理",
+    "description": "{{ProdFullName}} 提供广泛的功能集，使处理超过 50 种常用商务文件格式变得简单。",
+    "image_description": "{{ProdShortName}} 的关键功能",
+    "feature_1": {
+      "title": "合并多种文件格式",
+      "content": "合并 PDF、Word 文档、电子表格、演示文稿、Visio 图表、图像和归档文件。使用高级选项精确控制合并过程。"
+    },
+    "feature_2": {
+      "title": "重新排列文档页面",
+      "content": "轻松移动、交换或删除页面，旨在更好地组织文件。"
+    },
+    "feature_3": {
+      "title": "自定义页面布局",
+      "content": "将页面旋转至任意角度或在横向与纵向之间切换，以提高可读性。"
+    },
+    "feature_4": {
+      "title": "将页面提取为单独文件",
+      "content": "选择特定页面或页面范围并将其保存为您首选位置的新文档。"
+    }
+  },
+  "formats": {
+    "title": "在多种格式中旋转页面",
+    "description": "{{ProdShortName}} 支持超过 50 种文件类型，允许您通过多种内置操作快速修改文档。"
+  },
+  "operations": {
+    "title": "核心功能",
+    "description": "探索我们文档处理库中的强大功能。"
+  },
+  "examples": {
+    "comment_1": "初始化 {{NameProduct}} 并加载源文档",
+    "comment_2": "指定旋转的页面编号",
+    "comment_3": "执行旋转过程",
+    "comment_4": "将更新的文档保存到所需位置"
+  },
+  "steps": {
+    "title": "如何旋转 {{FileFormatUp}} 页面",
+    "content": {
+      "title": "使用 [{{ProdShortName}}]({{PlatformLink}})，您可以旋转 {{FileFormatUp}} 文档中的页面，将强大的文档管理带入 {{EnvName}} 应用。",
+      "step_1": "提供 {{FileFormatUp}} 文件的路径。",
+      "step_2": "选择您希望旋转的页面编号。",
+      "step_3": "应用旋转操作。",
+      "step_4": "将修改后的文档保存到您所需的位置。"
+    }
+  },
+  "code_1": {
+    "title": "旋转所有偶数编号的 {{FileFormatUp}} 页面",
+    "content": "此示例演示如何旋转 {{FileFormatUp}} 文档中的每个偶数编号的页面。",
+    "comment_1": "将源文档加载到构造函数中",
+    "comment_2": "获取总页面数",
+    "comment_3": "设置配置以将偶数页面旋转 180 度",
+    "comment_4": "执行旋转操作",
+    "comment_5": "保存修改后的文件"
+  }
+}

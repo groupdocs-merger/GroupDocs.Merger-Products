@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Pecah dokumen {{FileFormatUp}} dalam aplikasi {{EnvName}}",
+    "description": "Dengan {{ProdFullName}}, pecah berkas {{FileFormatUp}} menjadi dokumen terpisah. Bekerja dengan PDF, dokumen Word, lembar Excel, presentasi PowerPoint, diagram Visio, gambar, arsip, dan lainnya."
+  },
+  "header": {
+    "title": "Pecah berkas {{FileFormatUp}}",
+    "description": "{{ProdFullName}} menambahkan fitur manipulasi dokumen yang kuat ke aplikasi {{EnvNameShort}}. Pisahkan berkas {{FileFormatUp}} dengan mulus dan proses berbagai format yang banyak digunakan.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Gambaran {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah pustaka manajemen dokumen yang tangguh mendukung lebih dari 50 format, termasuk PDF, Word, Excel, PowerPoint, Visio, gambar, dan arsip. Ini memungkinkan penggabungan, pemisahan, ekstraksi halaman, pengaturan ulang, penukaran, dan penghapusan dokumen yang menyederhanakan pengelolaan dokumen dalam aplikasi Anda."
+  },
+  "more_features": {
+    "title": "Penanganan dokumen yang komprehensif",
+    "description": "{{ProdFullName}} menyediakan alat lengkap untuk memodifikasi lebih dari 50 format dokumen yang banyak digunakan.",
+    "image_description": "Kemampuan utama {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan berbagai jenis berkas",
+      "content": "Kombinasikan PDF, dokumen Word, spreadsheet, presentasi, diagram Visio, gambar, dan arsip terkompresi. Sesuaikan pengaturan penggabungan sesuai kebutuhan Anda."
+    },
+    "feature_2": {
+      "title": "Sesuaikan struktur dokumen",
+      "content": "Modifikasi tata letak dokumen dengan mengurutkan ulang, menukar, atau menghapus halaman sesuai kebutuhan."
+    },
+    "feature_3": {
+      "title": "Modifikasi orientasi halaman",
+      "content": "Putar halaman ke sudut mana saja atau ganti antara format potret dan lanskap."
+    },
+    "feature_4": {
+      "title": "Ekstrak halaman tertentu",
+      "content": "Pilih satu atau beberapa halaman dan simpan sebagai dokumen terpisah di lokasi yang Anda inginkan."
+    }
+  },
+  "formats": {
+    "title": "Pecah berbagai format berkas",
+    "description": "{{ProdShortName}} mendukung lebih dari 50 jenis dokumen, memungkinkan modifikasi yang cepat dan fleksibel."
+  },
+  "operations": {
+    "title": "Fungsi inti",
+    "description": "Temukan fitur canggih dari pustaka pemrosesan dokumen kami."
+  },
+  "examples": {
+    "comment_1": "Muat berkas asli ke dalam {{NameProduct}}",
+    "comment_2": "Tentukan jalur tujuan untuk berkas output",
+    "comment_3": "Tentukan pengaturan pemisahan",
+    "comment_4": "Eksekusi pemisahan dokumen"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk membagi berkas {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memungkinkan Anda untuk membagi dokumen {{FileFormatUp}}, mengekstrak halaman yang dipilih ke dalam berkas baru. Integrasikan manajemen dokumen yang efisien ke dalam aplikasi {{EnvName}} Anda.",
+      "step_1": "Sediakan jalur berkas dari dokumen {{FileFormatUp}} asli.",
+      "step_2": "Tetapkan lokasi di mana dokumen yang dipisah akan disimpan.",
+      "step_3": "Tentukan pengaturan untuk mengontrol operasi pemisahan.",
+      "step_4": "Proses berkas dan simpan hasilnya."
+    }
+  },
+  "code_1": {
+    "title": "Ekstrak halaman nomor genap dari dokumen {{FileFormatUp}}",
+    "content": "Contoh ini menunjukkan cara membagi dokumen {{FileFormatUp}} dan menyimpan hanya halaman nomor genap sebagai berkas baru.",
+    "comment_1": "Buka dokumen sumber",
+    "comment_2": "Tentukan lokasi berkas output",
+    "comment_3": "Dapatkan jumlah total halaman",
+    "comment_4": "Konfigurasikan operasi pemisahan untuk halaman genap",
+    "comment_5": "Lakukan pemisahan dan simpan berkas baru"
+  }
+}

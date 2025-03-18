@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "在{{EnvName}}中提取{{FileFormatUp}}页面",
+    "description": "使用{{ProdFullName}}快速提取{{FileFormatUp}}文件中的特定页面，并将其另存为独立文档。"
+  },
+  "header": {
+    "title": "提取{{FileFormatUp}}页面",
+    "description": "通过{{ProdFullName}}增强您的{{EnvNameShort}}应用，实现{{FileFormatUp}}文档的无缝页面提取。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于{{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一个多功能的文档处理库，支持50多种文件格式，包括PDF、Word、Excel、PowerPoint和图片。它使您能够轻松合并、拆分、提取、重新排列和删除页面。"
+  },
+  "more_features": {
+    "title": "高级文档处理",
+    "description": "{{ProdFullName}} 提供广泛的工具以管理50多种流行的商业文件格式。",
+    "image_description": "{{ProdShortName}} 的主要特点",
+    "feature_1": {
+      "title": "合并多种文件格式",
+      "content": "将PDF、Word文档、PowerPoint幻灯片、Excel电子表格、图片和归档文件灵活地组合成单个文档。"
+    },
+    "feature_2": {
+      "title": "管理文档页面",
+      "content": "高效地重新排序、移动或删除页面，以结构化您的文档。"
+    },
+    "feature_3": {
+      "title": "修改页面布局",
+      "content": "根据需要将页面旋转到任意角度或在纵向与横向之间切换。"
+    },
+    "feature_4": {
+      "title": "提取选定页面",
+      "content": "选择并提取您所需的页面，将它们另存为新文档。"
+    }
+  },
+  "formats": {
+    "title": "从各种文件格式中提取页面",
+    "description": "{{ProdShortName}} 支持50多种文件格式，令文档管理简单高效。"
+  },
+  "operations": {
+    "title": "主要功能",
+    "description": "探索额外的文档处理能力。"
+  },
+  "examples": {
+    "comment_1": "初始化{{ProdShortName}}与源文档",
+    "comment_2": "指定要提取的页面",
+    "comment_3": "执行提取过程",
+    "comment_4": "将提取的页面另存为新文件"
+  },
+  "steps": {
+    "title": "如何提取{{FileFormatUp}}页面",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使您能够从{{FileFormatUp}}文档中提取页面。将无缝文档处理集成到您的{{EnvName}}应用中。",
+      "step_1": "指定源{{FileFormatUp}}文档的文件路径。",
+      "step_2": "选择要提取的页面。",
+      "step_3": "运行提取过程。",
+      "step_4": "将提取的页面保存为新文档。"
+    }
+  },
+  "code_1": {
+    "title": "从文档中提取特定页面",
+    "content": "本示例展示如何从{{FileFormatUp}}文件中提取选定范围的页面，并将它们另存为独立文档。",
+    "comment_1": "指定源文档的文件路径",
+    "comment_2": "设置选项以提取范围内的偶数页",
+    "comment_3": "执行提取操作",
+    "comment_4": "将提取的页面保存为新文件"
+  }
+}

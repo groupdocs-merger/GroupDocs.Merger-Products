@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "在 {{EnvName}} 应用程序中删除 {{FileFormatUp}} 页",
+    "description": "使用 {{ProdFullName}} 轻松删除 {{FileFormatUp}} 文件中的特定页面。处理 PDF、Word、Excel、PowerPoint、图像、档案等。"
+  },
+  "header": {
+    "title": "从 {{FileFormatUp}} 中删除页面",
+    "description": "{{ProdFullName}} 为您的 {{EnvNameShort}} 应用程序提供强大的页面删除功能，使文档管理更加高效。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费试用"
+  },
+  "about": {
+    "title": "{{ProdShortName}} 是什么？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一款强大的文档处理工具，支持 50 多种文件格式，包括 PDF、Word、Excel、PowerPoint、Visio、图像和档案。它允许您合并、拆分、提取、移动、交换和删除页面，从而改善您在应用程序中处理文档的方式。"
+  },
+  "more_features": {
+    "title": "高级文档处理",
+    "description": "{{ProdFullName}} 通过提供一整套工具，简化了对 50 多种流行文件格式的文档处理。",
+    "image_description": "{{ProdShortName}} 的主要功能",
+    "feature_1": {
+      "title": "合并不同文件类型",
+      "content": "根据精确的合并选项，将 PDF、Word 文件、演示文稿、电子表格、图像和档案合并在一起。"
+    },
+    "feature_2": {
+      "title": "轻松管理页面",
+      "content": "移动、交换或删除页面，以便按照需要组织文档。"
+    },
+    "feature_3": {
+      "title": "调整页面方向",
+      "content": "将页面旋转至任意角度或在纵向与横向模式之间切换。"
+    },
+    "feature_4": {
+      "title": "提取页面为新文件",
+      "content": "选择特定页面并将其单独保存为新文档。"
+    }
+  },
+  "formats": {
+    "title": "从各种文档类型中删除页面",
+    "description": "{{ProdShortName}} 支持 50 多种文件格式，使文档修改快捷无缝。"
+  },
+  "operations": {
+    "title": "主要功能",
+    "description": "探索我们文档处理解决方案中提供的其他工具。"
+  },
+  "examples": {
+    "comment_1": "使用文件路径初始化 {{NameProduct}} 实例",
+    "comment_2": "指定要删除的页面",
+    "comment_3": "应用页面删除设置",
+    "comment_4": "保存更新后的文档"
+  },
+  "steps": {
+    "title": "从 {{FileFormatUp}} 中删除页面的步骤",
+    "content": {
+      "title": "使用 [{{ProdShortName}}]({{PlatformLink}})，您可以快速从 {{FileFormatUp}} 文档中删除页面。将其集成到您的 {{EnvName}} 应用程序中以增强文档管理。",
+      "step_1": "提供 {{FileFormatUp}} 文档的文件路径。",
+      "step_2": "选择要删除的页面。",
+      "step_3": "运行删除操作。",
+      "step_4": "保存更新后的文档。"
+    }
+  },
+  "code_1": {
+    "title": "删除所有偶数页",
+    "content": "了解如何从 {{FileFormatUp}} 文件中删除偶数页。",
+    "comment_1": "通过指定路径加载文件",
+    "comment_2": "获取总页数",
+    "comment_3": "设置删除偶数页的选项",
+    "comment_4": "处理文档",
+    "comment_5": "将修改后的文档保存到选定位置"
+  }
+}

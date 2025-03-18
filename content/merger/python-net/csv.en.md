@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-03-07T10:54:07
+date:  2025-03-18T09:01:04
 draft: false
 lang: en
 format: Csv

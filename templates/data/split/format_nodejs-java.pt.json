@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Divida documentos {{FileFormatUp}} em aplicativos {{EnvName}}",
+    "description": "Com {{ProdFullName}}, você pode dividir arquivos {{FileFormatUp}} em documentos separados. Trabalhe com PDFs, arquivos Word, planilhas Excel, apresentações PowerPoint, diagramas Visio, imagens, arquivos compactados e muito mais."
+  },
+  "header": {
+    "title": "Divida arquivos {{FileFormatUp}}",
+    "description": "{{ProdFullName}} adiciona recursos poderosos de manipulação de documentos às aplicações {{EnvNameShort}}. Divida arquivos {{FileFormatUp}} de forma integrada e processe uma variedade de formatos amplamente usados.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixe Grátis"
+  },
+  "about": {
+    "title": "Visão Geral do {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma robusta biblioteca de gerenciamento de documentos que suporta mais de 50 formatos, incluindo PDF, Word, Excel, PowerPoint, Visio, imagens e arquivos compactados. Ela permite mesclar, dividir, extrair páginas, reorganizar, trocar e excluir documentos, simplificando o gerenciamento de documentos dentro de suas aplicações."
+  },
+  "more_features": {
+    "title": "Manipulação abrangente de documentos",
+    "description": "{{ProdFullName}} oferece um extenso conjunto de ferramentas para modificar mais de 50 formatos de documentos amplamente utilizados.",
+    "image_description": "Principais capacidades do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Mesclar diferentes tipos de arquivos",
+      "content": "Combine PDFs, documentos Word, planilhas, apresentações, diagramas Visio, imagens e arquivos compactados. Ajuste as configurações de mesclagem conforme suas necessidades."
+    },
+    "feature_2": {
+      "title": "Personalize a estrutura do documento",
+      "content": "Modifique o layout do documento reorganizando, trocando ou removendo páginas conforme necessário."
+    },
+    "feature_3": {
+      "title": "Modificar a orientação da página",
+      "content": "Gire as páginas para qualquer ângulo ou altere entre os formatos retrato e paisagem."
+    },
+    "feature_4": {
+      "title": "Extrair páginas específicas",
+      "content": "Selecione uma ou várias páginas e salve-as como um documento separado em sua localização preferida."
+    }
+  },
+  "formats": {
+    "title": "Divida vários formatos de arquivos",
+    "description": "{{ProdShortName}} suporta mais de 50 tipos de documentos, permitindo modificações rápidas e flexíveis."
+  },
+  "operations": {
+    "title": "Funcionalidades principais",
+    "description": "Descubra os recursos avançados de nossa biblioteca de processamento de documentos."
+  },
+  "examples": {
+    "comment_1": "Carregue o arquivo original no {{NameProduct}}",
+    "comment_2": "Defina o caminho de destino para o arquivo de saída",
+    "comment_3": "Defina as configurações de divisão",
+    "comment_4": "Execute a divisão do documento"
+  },
+  "steps": {
+    "title": "Passos para dividir arquivos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite que você divida documentos {{FileFormatUp}}, extraindo páginas selecionadas para um novo arquivo. Integre um gerenciamento de documentos eficiente em suas aplicações {{EnvName}}.",
+      "step_1": "Forneça o caminho do arquivo do documento {{FileFormatUp}} original.",
+      "step_2": "Defina o local onde o documento dividido será salvo.",
+      "step_3": "Defina as configurações para controlar a operação de divisão.",
+      "step_4": "Processo o arquivo e salve os resultados."
+    }
+  },
+  "code_1": {
+    "title": "Extrair páginas de número par do documento {{FileFormatUp}}",
+    "content": "Este exemplo demonstra como dividir um documento {{FileFormatUp}} e salvar apenas as páginas de número par como um novo arquivo.",
+    "comment_1": "Abra o documento origem",
+    "comment_2": "Especifique o local do arquivo de saída",
+    "comment_3": "Obtenha o total de páginas",
+    "comment_4": "Configure a operação de divisão para páginas pares",
+    "comment_5": "Realize a divisão e salve o novo arquivo"
+  }
+}

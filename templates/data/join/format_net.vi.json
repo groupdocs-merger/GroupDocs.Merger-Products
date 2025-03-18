@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Gộp các tệp {{FileFormatUp}} trong {{EnvName}}",
+    "description": "Tích hợp {{ProdFullName}} vào các dự án {{EnvNameShort}} của bạn để gộp các tệp {{FileFormatUp}} một cách hiệu quả."
+  },
+  "header": {
+    "title": "Gộp các tệp {{FileFormatUp}}",
+    "description": "Sử dụng {{ProdFullName}} để xây dựng các ứng dụng {{EnvNameShort}} có khả năng gộp các tài liệu {{FileFormatUp}} một cách hiệu quả.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp xử lý tài liệu toàn diện. Nó hỗ trợ hơn 50 định dạng, bao gồm PDF, Word, Excel, PowerPoint, hình ảnh và tệp lưu trữ, cho phép bạn gộp, tách, trích xuất, hoán đổi và xóa các trang một cách dễ dàng."
+  },
+  "more_features": {
+    "title": "Công cụ gộp tài liệu",
+    "description": "{{ProdFullName}} hỗ trợ hơn 50 định dạng tệp kinh doanh thông dụng và cung cấp tính năng thao tác tài liệu phong phú.",
+    "image_description": "Các tính năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gộp nhiều định dạng tài liệu",
+      "content": "Gộp dễ dàng các tệp PDF, tệp Word, bài thuyết trình, bảng tính, hình ảnh và nhiều hơn nữa. Chọn các trang cụ thể để bao gồm khi cần."
+    },
+    "feature_2": {
+      "title": "Chỉnh sửa các trang tài liệu",
+      "content": "Sắp xếp lại, xóa hoặc hoán đổi các trang trong các tài liệu kinh doanh của bạn để cấu trúc theo nhu cầu."
+    },
+    "feature_3": {
+      "title": "Tùy chỉnh bố cục trang",
+      "content": "Xoay các trang theo bất kỳ góc độ nào và điều chỉnh hướng của chúng giữa chế độ ngang và chân dung cho các loại tệp được hỗ trợ."
+    },
+    "feature_4": {
+      "title": "Trích xuất các trang",
+      "content": "Chọn và trích xuất các trang cụ thể, lưu chúng dưới dạng một tài liệu mới."
+    }
+  },
+  "formats": {
+    "title": "Gộp các định dạng tệp khác nhau",
+    "description": "{{ProdShortName}} xử lý hơn 50 định dạng tệp, cho phép xử lý tài liệu kinh doanh một cách liền mạch."
+  },
+  "operations": {
+    "title": "Các tính năng chính",
+    "description": "Khám phá các thao tác hỗ trợ bổ sung."
+  },
+  "examples": {
+    "comment_1": "Tạo một thể hiện {{NameProduct}} với tài liệu {{FileFormatUp}} đầu vào",
+    "comment_2": "Gộp tệp với một tài liệu khác",
+    "comment_3": "Lưu tệp đã gộp vào vị trí chỉ định"
+  },
+  "steps": {
+    "title": "Các bước để gộp các tệp {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép bạn gộp các tệp {{FileFormatUp}} một cách hiệu quả. Tích hợp tính năng này vào các ứng dụng {{EnvName}} của bạn để xử lý nhiều tài liệu như một tệp duy nhất.",
+      "step_1": "Đặt đường dẫn đến tệp {{FileFormatUp}} đầu tiên.",
+      "step_2": "Chọn tệp thứ hai.",
+      "step_3": "Cấu hình các tùy chọn không bắt buộc.",
+      "step_4": "Gộp các tài liệu và lưu tệp đầu ra."
+    }
+  },
+  "code_1": {
+    "title": "Gộp các trang đã chọn từ các tệp có định dạng khác nhau",
+    "content": "Ví dụ này minh họa cách gộp các tệp {{FileFormatUp}} trong khi bao gồm các trang đã chọn từ các định dạng khác.",
+    "comment_1": "Định nghĩa đường dẫn tệp chính",
+    "comment_2": "Chỉ định các tùy chọn để chọn các trang cụ thể",
+    "comment_3": "Gộp tài liệu chính với các trang đã chọn từ tệp khác",
+    "comment_4": "Lưu tài liệu đã gộp cuối cùng vào vị trí chỉ định"
+  }
+}

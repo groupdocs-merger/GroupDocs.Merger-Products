@@ -1,0 +1,217 @@
+{
+  "common-content": {
+    "format-formats": {
+      "word": {
+        "name": "WORD",
+        "description": "微软 Word 文档"
+      },
+      "excel": {
+        "name": "EXCEL",
+        "description": "微软 Excel 电子表格"
+      },
+      "powerpoint": {
+        "name": "POWERPOINT",
+        "description": "微软 PowerPoint 演示文稿"
+      },
+      "image": {
+        "name": "IMAGE",
+        "description": "常见图像格式"
+      },
+      "visio": {
+        "name": "VISIO",
+        "description": "微软 Visio 图表"
+      },
+      "pdf": {
+        "name": "PDF",
+        "description": "Adobe 便携文档格式"
+      },
+      "docx": {
+        "name": "DOCX",
+        "description": "微软 Word 开放 XML 文档"
+      },
+      "xlsx": {
+        "name": "XLSX",
+        "description": "微软 Excel 开放 XML 电子表格"
+      },
+      "pptx": {
+        "name": "PPTX",
+        "description": "PowerPoint 开放 XML 演示文稿"
+      },
+      "bmp": {
+        "name": "BMP",
+        "description": "位图图像"
+      },
+      "jpeg": {
+        "name": "JPEG",
+        "description": "JPEG 图像文件"
+      },
+      "jpg": {
+        "name": "JPG",
+        "description": "JPEG 图像文件"
+      },
+      "png": {
+        "name": "PNG",
+        "description": "可移植网络图形"
+      },
+      "svg": {
+        "name": "SVG",
+        "description": "标量矢量图形"
+      },
+      "tiff": {
+        "name": "TIFF",
+        "description": "标签图像文件格式"
+      },
+      "csv": {
+        "name": "CSV",
+        "description": "逗号分隔值文件"
+      },
+      "epub": {
+        "name": "EPUB",
+        "description": "电子出版物"
+      },
+      "html": {
+        "name": "HTML",
+        "description": "超文本标记语言文件"
+      },
+      "mhtml": {
+        "name": "MHTML",
+        "description": "MHTML 网络归档"
+      },
+      "txt": {
+        "name": "TXT",
+        "description": "纯文本文件"
+      },
+      "xps": {
+        "name": "XPS",
+        "description": "XML 纸张规范文件"
+      },
+      "zip": {
+        "name": "ZIP",
+        "description": "ZIP 压缩文件"
+      }
+    },
+    "format-operations": {
+      "combine": {
+        "pdf": "合并 PDF 文档",
+        "docx": "合并 DOCX 文档",
+        "xlsx": "合并 XLSX 文档",
+        "pptx": "合并 PPTX 文档",
+        "epub": "合并 EPUB 文档"
+      },
+      "extract": {
+        "pdf": "提取 PDF 页面",
+        "docx": "保存 DOCX 页面",
+        "xlsx": "提取 XLSX 页面",
+        "pptx": "保存 PPTX 页面",
+        "epub": "提取 EPUB 页面"
+      },
+      "join": {
+        "pdf": "连接 PDF 文件",
+        "docx": "合并 DOCX 文件",
+        "xlsx": "连接 XLSX 文件",
+        "pptx": "合并 PPTX 文件",
+        "epub": "连接 EPUB 文件"
+      },
+      "move": {
+        "pdf": "移动 PDF 页面",
+        "docx": "重新排序 DOCX 页面",
+        "xlsx": "移动 XLSX 页面",
+        "pptx": "重新排序 PPTX 页面",
+        "epub": "移动 EPUB 页面"
+      },
+      "remove": {
+        "pdf": "删除 PDF 页面",
+        "docx": "删除 DOCX 页面",
+        "xlsx": "删除 XLSX 页面",
+        "pptx": "删除 PPTX 页面",
+        "epub": "删除 EPUB 页面"
+      },
+      "rotate": {
+        "pdf": "旋转 PDF 页面",
+        "docx": "旋转 DOCX 页面",
+        "xlsx": "旋转 XLSX 页面",
+        "pptx": "旋转 PPTX 页面",
+        "epub": "旋转 EPUB 页面"
+      },
+      "split": {
+        "pdf": "拆分 PDF 文件",
+        "docx": "拆分 DOCX 文件",
+        "xlsx": "拆分 XLSX 文件",
+        "pptx": "拆分 PPTX 文件",
+        "epub": "拆分 EPUB 文件"
+      },
+      "swap": {
+        "pdf": "交换 PDF 文件",
+        "docx": "交换 DOCX 文件",
+        "xlsx": "交换 XLSX 文件",
+        "pptx": "交换 PPTX 文件",
+        "epub": "交换 EPUB 文件"
+      },
+      "orientation": {
+        "pdf": "更改 PDF 页面方向",
+        "docx": "更改 DOCX 页面方向",
+        "xlsx": "更改 XLSX 页面方向",
+        "pptx": "更改 PPTX 页面方向",
+        "epub": "更改 EPUB 页面方向"
+      }
+    },
+    "format-code": {
+      "copy_title": "复制",
+      "result_title": "代码结果",
+      "result_title_bottom": "下载结果",
+      "copy_tip": "点击复制",
+      "copy_done": "已复制",
+      "links": {
+        "title_1": "更多示例",
+        "title_2": "文档"
+      }
+    },
+    "format-actions": {
+      "title": "准备好开始了吗？",
+      "description": "免费试用 {{ProdShortName}} 的功能或申请许可证",
+      "comment_1": "{{PackageStoreName}} 下载",
+      "comment_2": "许可证"
+    },
+    "texts": {
+      "learn_more": "了解更多"
+    },
+    "operations": {
+      "combine": {
+        "name": "合并文档",
+        "description": "将多个文档合并为一个"
+      },
+      "extract": {
+        "name": "提取页面",
+        "description": "将选定页面保存为单独的文档"
+      },
+      "join": {
+        "name": "连接文档",
+        "description": "将多个文档合并为一个"
+      },
+      "move": {
+        "name": "移动页面",
+        "description": "重新定位文档中的任意页面"
+      },
+      "remove": {
+        "name": "删除页面",
+        "description": "删除文档页面"
+      },
+      "rotate": {
+        "name": "旋转页面",
+        "description": "旋转文档页面"
+      },
+      "split": {
+        "name": "拆分文档",
+        "description": "拆分文档"
+      },
+      "swap": {
+        "name": "交换页面",
+        "description": "交换文档页面"
+      },
+      "orientation": {
+        "name": "更改方向",
+        "description": "更改页面方向"
+      }
+    }
+  }
+}

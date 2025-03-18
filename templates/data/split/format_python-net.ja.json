@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "{{EnvName}} アプリケーションで {{FileFormatUp}} ドキュメントを分割する",
+    "description": "{{ProdFullName}} を使用して {{FileFormatUp}} ファイルを複数のドキュメントに分けます。PDF、Word ファイル、スプレッドシート、プレゼンテーション、Visio 図、画像、アーカイブなどを管理します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}} ファイルをパーツに分割する",
+    "description": "{{ProdFullName}} は {{EnvNameShort}} アプリケーションに高度なドキュメント処理機能を強化します。{{FileFormatUp}} ファイルを簡単に分割し、一般的に使用されるさまざまなフォーマットで作業します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料トライアルを取得"
+  },
+  "about": {
+    "title": "{{ProdShortName}} とは？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) は、PDF、Word、Excel、PowerPoint、Visio、画像、アーカイブなど、50 以上のファイル形式をサポートする豊富な機能を持つドキュメント処理ライブラリです。開発者は、アプリケーション内でドキュメントのマージ、分割、抽出、再配置、スワップ、およびページの削除を行うことができ、ドキュメント操作を効率化します。"
+  },
+  "more_features": {
+    "title": "高度なドキュメント管理",
+    "description": "{{ProdFullName}} は、50 以上の人気ファイル形式を効率的に処理するための強力なツールキットを提供します。",
+    "image_description": "{{ProdShortName}} の主要な機能",
+    "feature_1": {
+      "title": "異なる文書タイプをマージ",
+      "content": "PDF、Word ドキュメント、スプレッドシート、プレゼンテーション、Visio 図面、画像、アーカイブファイルを結合します。正確な出力のためにカスタマイズ設定を適用します。"
+    },
+    "feature_2": {
+      "title": "ドキュメント構造を再配置",
+      "content": "内容をより効果的に整理するために、ページを移動、スワップ、または削除してドキュメントのレイアウトを変更します。"
+    },
+    "feature_3": {
+      "title": "ページの向きを調整",
+      "content": "ページを任意の角度に回転させたり、縦向きと横向きを切り替えたりします。"
+    },
+    "feature_4": {
+      "title": "選択したページを抽出",
+      "content": "特定のページやページ範囲を選択し、別のドキュメントとして保存します。"
+    }
+  },
+  "formats": {
+    "title": "複数の文書形式を分割",
+    "description": "{{ProdShortName}} は 50 以上のファイルタイプをサポートしており、正確にドキュメントを修正することができます。"
+  },
+  "operations": {
+    "title": "主要な機能",
+    "description": "当社のドキュメント処理ライブラリの主要な機能を探ります。"
+  },
+  "examples": {
+    "comment_1": "{{NameProduct}} に入力ドキュメントを読み込む",
+    "comment_2": "出力ファイルのパスを定義する",
+    "comment_3": "分割オプションを設定する",
+    "comment_4": "分割操作を実行する"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} ドキュメントをパーツに分割する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) を使用すると、{{FileFormatUp}} ファイルを簡単に分割し、選択したページを抽出して新しいドキュメントとして保存できます。効率的なドキュメント処理を {{EnvName}} アプリケーションに統合します。",
+      "step_1": "元の {{FileFormatUp}} ファイルのパスを指定します。",
+      "step_2": "出力ファイルを保存する場所を選択します。",
+      "step_3": "分割操作の設定を構成します。",
+      "step_4": "分割されたドキュメントを処理して保存します。"
+    }
+  },
+  "code_1": {
+    "title": "{{FileFormatUp}} ファイルから偶数ページを抽出",
+    "content": "この例では、{{FileFormatUp}} ファイルを分割し、すべての偶数ページを新しいドキュメントに保存する方法を示します。",
+    "comment_1": "ソースドキュメントを開く",
+    "comment_2": "出力ファイルの宛先を指定する",
+    "comment_3": "総ページ数を決定する",
+    "comment_4": "偶数ページのための分割オプションを設定する",
+    "comment_5": "分割を実行し、出力を保存する"
+  }
+}

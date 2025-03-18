@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Chia tách tài liệu {{FileFormatUp}} trong các ứng dụng {{EnvName}}",
+    "description": "Với {{ProdFullName}}, bạn có thể phân chia các tệp {{FileFormatUp}} thành các tài liệu riêng biệt. Làm việc với PDF, tệp Word, bảng tính Excel, bài trình bày PowerPoint, biểu đồ Visio, hình ảnh, tệp nén và nhiều hơn nữa."
+  },
+  "header": {
+    "title": "Chia tách tệp {{FileFormatUp}}",
+    "description": "{{ProdFullName}} cung cấp các tính năng thao tác tài liệu mạnh mẽ cho các ứng dụng {{EnvNameShort}}. Chia tách các tệp {{FileFormatUp}} một cách liền mạch và xử lý nhiều định dạng phổ biến.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về miễn phí"
+  },
+  "about": {
+    "title": "Tổng quan về {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một thư viện quản lý tài liệu mạnh mẽ hỗ trợ hơn 50 định dạng, bao gồm PDF, Word, Excel, PowerPoint, Visio, hình ảnh và tệp nén. Nó cho phép gộp tệp, chia tách, trích xuất trang, sắp xếp lại, hoán đổi và xóa, đơn giản hóa việc xử lý tài liệu trong ứng dụng của bạn."
+  },
+  "more_features": {
+    "title": "Xử lý tài liệu toàn diện",
+    "description": "{{ProdFullName}} cung cấp một bộ công cụ phong phú để chỉnh sửa hơn 50 định dạng tài liệu phổ biến.",
+    "image_description": "Các khả năng chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gộp các loại tệp khác nhau",
+      "content": "Kết hợp các tài liệu PDF, Word, bảng tính, bài trình bày, biểu đồ Visio, hình ảnh và tệp nén. Điều chỉnh cài đặt gộp để phù hợp với nhu cầu của bạn."
+    },
+    "feature_2": {
+      "title": "Tùy chỉnh cấu trúc tài liệu",
+      "content": "Chỉnh sửa bố cục tài liệu bằng cách sắp xếp lại, hoán đổi hoặc xóa các trang theo yêu cầu."
+    },
+    "feature_3": {
+      "title": "Chỉnh sửa hướng trang",
+      "content": "Xoay các trang ở bất kỳ góc độ nào hoặc chuyển đổi giữa các định dạng chân dung và phong cảnh."
+    },
+    "feature_4": {
+      "title": "Trích xuất các trang cụ thể",
+      "content": "Chọn một hoặc nhiều trang và lưu chúng dưới dạng tài liệu riêng biệt tại vị trí mong muốn."
+    }
+  },
+  "formats": {
+    "title": "Chia tách nhiều định dạng tệp",
+    "description": "{{ProdShortName}} hỗ trợ hơn 50 loại tài liệu, cho phép sửa đổi nhanh chóng và linh hoạt."
+  },
+  "operations": {
+    "title": "Chức năng chính",
+    "description": "Khám phá các tính năng nâng cao của thư viện xử lý tài liệu của chúng tôi."
+  },
+  "examples": {
+    "comment_1": "Tải tệp gốc vào {{NameProduct}}",
+    "comment_2": "Đặt đường dẫn đầu ra cho tệp đầu ra",
+    "comment_3": "Định nghĩa cài đặt chia tách",
+    "comment_4": "Thực hiện chia tách tài liệu"
+  },
+  "steps": {
+    "title": "Các bước để chia tách tệp {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép bạn chia tách các tài liệu {{FileFormatUp}}, trích xuất các trang đã chọn vào một tệp mới. Tích hợp quản lý tài liệu hiệu quả vào các ứng dụng {{EnvName}} của bạn.",
+      "step_1": "Cung cấp đường dẫn tệp của tài liệu {{FileFormatUp}} gốc.",
+      "step_2": "Thiết lập vị trí nơi tệp đã chia tách sẽ được lưu.",
+      "step_3": "Định nghĩa cài đặt để kiểm soát hoạt động chia tách.",
+      "step_4": "Xử lý tệp và lưu kết quả."
+    }
+  },
+  "code_1": {
+    "title": "Trích xuất các trang chẵn từ tài liệu {{FileFormatUp}}",
+    "content": "Mẫu này minh họa cách chia tách một tài liệu {{FileFormatUp}} và chỉ lưu các trang chẵn vào một tệp mới.",
+    "comment_1": "Mở tài liệu nguồn",
+    "comment_2": "Chỉ định vị trí tệp đầu ra",
+    "comment_3": "Lấy tổng số trang",
+    "comment_4": "Cấu hình hoạt động chia tách cho các trang chẵn",
+    "comment_5": "Thực hiện chia tách và lưu tệp mới"
+  }
+}

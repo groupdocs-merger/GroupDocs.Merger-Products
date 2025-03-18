@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Putar halaman {{FileFormatUp}} dalam aplikasi {{EnvName}}",
+    "description": "Gunakan {{ProdFullName}} untuk memutar halaman dalam dokumen {{FileFormatUp}}. Kelola PDF, file Word, lembar Excel, slide PowerPoint, gambar, arsip, dan lainnya."
+  },
+  "header": {
+    "title": "Rotasi halaman dalam {{FileFormatUp}}",
+    "description": "{{ProdFullName}} meningkatkan aplikasi {{EnvNameShort}} dengan menambahkan fitur pemrosesan dokumen yang canggih. Putar halaman dalam file {{FileFormatUp}} dan bekerja dengan format bisnis populer tanpa kesulitan.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah pustaka pemrosesan dokumen komprehensif yang mendukung lebih dari 50 format file, termasuk PDF, Word, Excel, PowerPoint, Visio, gambar, dan arsip. Ini menyediakan alat untuk menggabungkan, membagi, mengekstrak, menyusun ulang, dan menghapus halaman, meningkatkan penanganan dokumen dalam aplikasi Anda."
+  },
+  "more_features": {
+    "title": "Manajemen konten dokumen yang kuat",
+    "description": "{{ProdFullName}} mencakup berbagai fitur, memungkinkan pemrosesan yang efisien dari lebih dari 50 format file bisnis yang umum digunakan.",
+    "image_description": "Fitur utama {{ProdShortName}}",
+    "feature_1": {
+      "title": "Gabungkan berbagai format file",
+      "content": "Kombinasikan PDF, dokumen Word, presentasi, spreadsheet, diagram Visio, gambar, dan arsip. Gunakan berbagai opsi untuk hasil yang tepat."
+    },
+    "feature_2": {
+      "title": "Kelola halaman dokumen",
+      "content": "Susun ulang halaman dengan memindahkan, menukar, atau menghapusnya untuk memperbaiki struktur dokumen Anda."
+    },
+    "feature_3": {
+      "title": "Sesuaikan tata letak halaman",
+      "content": "Putar halaman ke sudut mana pun atau beralih antara orientasi potret dan lanskap."
+    },
+    "feature_4": {
+      "title": "Ekstrak halaman sebagai file terpisah",
+      "content": "Pilih satu halaman atau rentang halaman dan simpan sebagai file baru di lokasi yang dipilih."
+    }
+  },
+  "formats": {
+    "title": "Putar halaman dalam berbagai format",
+    "description": "{{ProdShortName}} mendukung lebih dari 50 format file, memungkinkan Anda untuk memodifikasi dokumen menggunakan berbagai operasi."
+  },
+  "operations": {
+    "title": "Fitur Utama",
+    "description": "Jelajahi fitur-fitur kuat yang disediakan oleh pustaka pemrosesan dokumen kami."
+  },
+  "examples": {
+    "comment_1": "Buat instance dari {{NameProduct}} dan muat file sumber",
+    "comment_2": "Tentukan nomor halaman yang ingin diputar",
+    "comment_3": "Lakukan operasi rotasi halaman",
+    "comment_4": "Simpan file output ke lokasi yang diinginkan"
+  },
+  "steps": {
+    "title": "Cara memutar halaman {{FileFormatUp}}",
+    "content": {
+      "title": "Dengan [{{ProdShortName}}]({{PlatformLink}}), Anda dapat memutar halaman dalam dokumen {{FileFormatUp}}, menambahkan kemampuan manajemen dokumen yang kuat ke aplikasi {{EnvName}}.",
+      "step_1": "Tentukan jalur sumber file {{FileFormatUp}}.",
+      "step_2": "Pilih nomor halaman yang akan diputar.",
+      "step_3": "Laksanakan operasi rotasi halaman.",
+      "step_4": "Simpan file yang dimodifikasi ke lokasi yang Anda pilih."
+    }
+  },
+  "code_1": {
+    "title": "Putar semua halaman {{FileFormatUp}} bernomor genap",
+    "content": "Contoh ini menunjukkan cara memutar semua halaman bernomor genap dalam dokumen {{FileFormatUp}}.",
+    "comment_1": "Muat file sumber ke dalam konstruktor",
+    "comment_2": "Dapatkan total jumlah halaman dalam dokumen",
+    "comment_3": "Atur pengaturan rotasi untuk halaman genap (180 derajat)",
+    "comment_4": "Terapkan operasi rotasi halaman",
+    "comment_5": "Simpan file output"
+  }
+}

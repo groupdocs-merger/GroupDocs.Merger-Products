@@ -1,0 +1,217 @@
+{
+  "common-content": {
+    "format-formats": {
+      "word": {
+        "name": "WORD",
+        "description": "Microsoft Word 文書"
+      },
+      "excel": {
+        "name": "EXCEL",
+        "description": "Microsoft Excel スプレッドシート"
+      },
+      "powerpoint": {
+        "name": "POWERPOINT",
+        "description": "Microsoft PowerPoint プレゼンテーション"
+      },
+      "image": {
+        "name": "IMAGE",
+        "description": "一般的な画像フォーマット"
+      },
+      "visio": {
+        "name": "VISIO",
+        "description": "Microsoft Visio 図"
+      },
+      "pdf": {
+        "name": "PDF",
+        "description": "Adobe ポータブル文書フォーマット"
+      },
+      "docx": {
+        "name": "DOCX",
+        "description": "Microsoft Word Open XML 文書"
+      },
+      "xlsx": {
+        "name": "XLSX",
+        "description": "Microsoft Excel Open XML スプレッドシート"
+      },
+      "pptx": {
+        "name": "PPTX",
+        "description": "PowerPoint Open XML プレゼンテーション"
+      },
+      "bmp": {
+        "name": "BMP",
+        "description": "ビットマップ画像"
+      },
+      "jpeg": {
+        "name": "JPEG",
+        "description": "JPEG 画像ファイル"
+      },
+      "jpg": {
+        "name": "JPG",
+        "description": "JPEG 画像ファイル"
+      },
+      "png": {
+        "name": "PNG",
+        "description": "ポータブルネットワークグラフィックス"
+      },
+      "svg": {
+        "name": "SVG",
+        "description": "スケーラブルベクターグラフィックス"
+      },
+      "tiff": {
+        "name": "TIFF",
+        "description": "タグ付き画像ファイル形式"
+      },
+      "csv": {
+        "name": "CSV",
+        "description": "カンマ区切り値ファイル"
+      },
+      "epub": {
+        "name": "EPUB",
+        "description": "電子出版物"
+      },
+      "html": {
+        "name": "HTML",
+        "description": "ハイパーテキストマークアップ言語ファイル"
+      },
+      "mhtml": {
+        "name": "MHTML",
+        "description": "MHTML ウェブアーカイブ"
+      },
+      "txt": {
+        "name": "TXT",
+        "description": "プレーンテキストファイル"
+      },
+      "xps": {
+        "name": "XPS",
+        "description": "XML ペーパー仕様ファイル"
+      },
+      "zip": {
+        "name": "ZIP",
+        "description": "ZIP アーカイブ"
+      }
+    },
+    "format-operations": {
+      "combine": {
+        "pdf": "PDF ドキュメントを結合",
+        "docx": "DOCX ドキュメントを結合",
+        "xlsx": "XLSX ドキュメントを結合",
+        "pptx": "PPTX ドキュメントを結合",
+        "epub": "EPUB ドキュメントを結合"
+      },
+      "extract": {
+        "pdf": "PDF ページを抽出",
+        "docx": "DOCX ページを保存",
+        "xlsx": "XLSX ページを抽出",
+        "pptx": "PPTX ページを保存",
+        "epub": "EPUB ページを抽出"
+      },
+      "join": {
+        "pdf": "PDF ファイルを結合",
+        "docx": "DOCX ファイルを結合",
+        "xlsx": "XLSX ファイルを結合",
+        "pptx": "PPTX ファイルを結合",
+        "epub": "EPUB ファイルを結合"
+      },
+      "move": {
+        "pdf": "PDF ページを移動",
+        "docx": "DOCX ページの順序を変更",
+        "xlsx": "XLSX ページを移動",
+        "pptx": "PPTX ページの順序を変更",
+        "epub": "EPUB ページを移動"
+      },
+      "remove": {
+        "pdf": "PDF ページを削除",
+        "docx": "DOCX ページを削除",
+        "xlsx": "XLSX ページを削除",
+        "pptx": "PPTX ページを削除",
+        "epub": "EPUB ページを削除"
+      },
+      "rotate": {
+        "pdf": "PDF ページを回転",
+        "docx": "DOCX ページを回転",
+        "xlsx": "XLSX ページを回転",
+        "pptx": "PPTX ページを回転",
+        "epub": "EPUB ページを回転"
+      },
+      "split": {
+        "pdf": "PDF ファイルを分割",
+        "docx": "DOCX ファイルを分割",
+        "xlsx": "XLSX ファイルを分割",
+        "pptx": "PPTX ファイルを分割",
+        "epub": "EPUB ファイルを分割"
+      },
+      "swap": {
+        "pdf": "PDF ファイルを入れ替え",
+        "docx": "DOCX ファイルを入れ替え",
+        "xlsx": "XLSX ファイルを入れ替え",
+        "pptx": "PPTX ファイルを入れ替え",
+        "epub": "EPUB ファイルを入れ替え"
+      },
+      "orientation": {
+        "pdf": "PDF の向きを変更",
+        "docx": "DOCX の向きを変更",
+        "xlsx": "XLSX の向きを変更",
+        "pptx": "PPTX の向きを変更",
+        "epub": "EPUB の向きを変更"
+      }
+    },
+    "format-code": {
+      "copy_title": "コピー",
+      "result_title": "コード結果",
+      "result_title_bottom": "結果をダウンロード",
+      "copy_tip": "クリックしてコピー",
+      "copy_done": "コピーしました",
+      "links": {
+        "title_1": "他の例",
+        "title_2": "ドキュメント"
+      }
+    },
+    "format-actions": {
+      "title": "始める準備はできましたか？",
+      "description": "{{ProdShortName}} の機能を無料で試すか、ライセンスをリクエストしてください",
+      "comment_1": "{{PackageStoreName}} のダウンロード",
+      "comment_2": "ライセンス情報"
+    },
+    "texts": {
+      "learn_more": "詳細を学ぶ"
+    },
+    "operations": {
+      "combine": {
+        "name": "ドキュメントをマージ",
+        "description": "複数のドキュメントを一つにまとめる"
+      },
+      "extract": {
+        "name": "ページを抽出",
+        "description": "選択したページを別のドキュメントとして保存"
+      },
+      "join": {
+        "name": "ドキュメントを結合",
+        "description": "複数のドキュメントを一つにまとめる"
+      },
+      "move": {
+        "name": "ページを移動",
+        "description": "ドキュメント内の任意のページの位置を変更"
+      },
+      "remove": {
+        "name": "ページを削除",
+        "description": "ドキュメントページを削除"
+      },
+      "rotate": {
+        "name": "ページを回転",
+        "description": "ドキュメントページを回転"
+      },
+      "split": {
+        "name": "ドキュメントを分割",
+        "description": "ドキュメントを分割"
+      },
+      "swap": {
+        "name": "ページを入れ替え",
+        "description": "ドキュメントページを入れ替え"
+      },
+      "orientation": {
+        "name": "向きを変更",
+        "description": "ページの向きを変更"
+      }
+    }
+  }
+}

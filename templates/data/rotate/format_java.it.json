@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Ruota le pagine {{FileFormatUp}} nelle app {{EnvName}}",
+    "description": "Utilizza {{ProdFullName}} per ruotare qualsiasi pagina {{FileFormatUp}}. Gestisci PDF, documenti Word, fogli di calcolo Excel, presentazioni PowerPoint, immagini, archivi e altro ancora con le nostre soluzioni."
+  },
+  "header": {
+    "title": "Rotazione delle pagine in {{FileFormatUp}}",
+    "description": "{{ProdFullName}} estende le capacità delle applicazioni {{EnvNameShort}}. Elabora documenti in formati aziendali popolari con funzionalità come la rotazione delle pagine nei file {{FileFormatUp}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Gratuito"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdShortName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una potente libreria per l'elaborazione dei documenti che supporta oltre 50 formati di file, tra cui PDF, Word, Excel, PowerPoint, Visio, immagini e archivi. Consente di unire, dividere, estrarre, spostare, scambiare e rimuovere pagine, migliorando la gestione dei documenti nelle tue applicazioni."
+  },
+  "more_features": {
+    "title": "Gestione avanzata dei contenuti dei documenti",
+    "description": "{{ProdFullName}} fornisce un insieme completo di funzionalità per elaborare oltre 50 formati di file aziendali in modo efficiente.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Unisci vari formati di file",
+      "content": "Combina PDF, documenti Word, presentazioni, fogli di calcolo, diagrammi Visio, immagini e archivi. Utilizza opzioni di personalizzazione per risultati ottimali."
+    },
+    "feature_2": {
+      "title": "Gestisci le pagine del documento",
+      "content": "Riorganizza le pagine spostandole, scambiandole o eliminandole per organizzare meglio il tuo contenuto."
+    },
+    "feature_3": {
+      "title": "Controlla il layout delle pagine",
+      "content": "Ruota le pagine ad angoli specifici o passa tra orientamenti verticale e orizzontale."
+    },
+    "feature_4": {
+      "title": "Estrai pagine come file separati",
+      "content": "Seleziona una singola pagina o un intervallo di pagine e salvale come un nuovo file in una posizione specificata."
+    }
+  },
+  "formats": {
+    "title": "Ruota pagine in più formati",
+    "description": "{{ProdShortName}} supporta oltre 50 formati di file, permettendoti di modificare i documenti senza difficoltà con una vasta gamma di operazioni."
+  },
+  "operations": {
+    "title": "Caratteristiche principali",
+    "description": "Esplora le potenti funzionalità fornite dalla nostra libreria per l'elaborazione dei documenti."
+  },
+  "examples": {
+    "comment_1": "Crea un'istanza di {{NameProduct}} e carica il file sorgente",
+    "comment_2": "Specifica il numero di pagina da ruotare",
+    "comment_3": "Esegui l'operazione di rotazione della pagina",
+    "comment_4": "Salva il file di output nella posizione desiderata"
+  },
+  "steps": {
+    "title": "Come ruotare le pagine {{FileFormatUp}}",
+    "content": {
+      "title": "Con [{{ProdShortName}}]({{PlatformLink}}), puoi ruotare le pagine nei documenti {{FileFormatUp}}, migliorando le capacità di gestione dei documenti nelle applicazioni {{EnvName}}.",
+      "step_1": "Specifica il percorso del file {{FileFormatUp}} sorgente.",
+      "step_2": "Scegli il numero di pagina da ruotare.",
+      "step_3": "Esegui l'operazione di rotazione delle pagine.",
+      "step_4": "Salva il file modificato nella posizione desiderata."
+    }
+  },
+  "code_1": {
+    "title": "Ruota tutte le pagine {{FileFormatUp}} con numero pari",
+    "content": "Dai un'occhiata a questo esempio che dimostra come ruotare tutte le pagine con numero pari in un documento {{FileFormatUp}}.",
+    "comment_1": "Carica il file sorgente nel costruttore",
+    "comment_2": "Recupera il numero totale di pagine",
+    "comment_3": "Configura le impostazioni di rotazione per le pagine pari (180 gradi)",
+    "comment_4": "Applica l'operazione di rotazione delle pagine",
+    "comment_5": "Salva il file di output"
+  }
+}
